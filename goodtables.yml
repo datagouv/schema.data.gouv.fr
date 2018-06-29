@@ -1,0 +1,5 @@
+files:
+  - source: irve/exemple-valide.csv
+    schema: irve/schema.json
+  - source: irve/exemple-invalide.csv
+    schema: irve/schema.json
