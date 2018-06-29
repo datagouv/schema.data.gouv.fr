@@ -1,5 +1,7 @@
 files:
   - source: irve/exemple-valide.csv
     schema: irve/schema.json
+    encoding: utf-8
   - source: irve/exemple-invalide.csv
     schema: irve/schema.json
+    encoding: utf-8
