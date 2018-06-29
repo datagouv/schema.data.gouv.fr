@@ -1,0 +1,131 @@
+{
+    "fields": [
+        {
+            "name": "n_amenageur",
+            "description": "Le nom de l'aménageur, c'est à dire de l'entité publique ou privée propriétaire des infrastructures",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "n_operateur",
+            "description": "Le nom de l'opérateur qui opère le réseau d'infrastructure (l'aménageur ou un tiers auquel a été confié la responsabilité par délégation)",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "n_enseigne",
+            "description": "Le nom commercial du réseau",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "id_station",
+            "description": "L'identifiant de la station délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "n_station",
+            "description": "le nom de la station",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ad_station",
+            "description": "L'adresse de la station",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "code_insee",
+            "description": "Le code INSEE de la commune d'implantation",
+            "required": true,
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "maxLength": 5,
+                "minLength": 5
+            }
+        },
+        {
+            "name": "Xlongitude",
+            "description": "La longitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84",
+            "required": true,
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "Ylatitude",
+            "description": "La latitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée le système de coordonnées WGS84",
+            "required": true,
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "nbre_pdc",
+            "description": "Le nombre de points de recharge sur la station",
+            "required": true,
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "id_pdc",
+            "description": "L'identifiant du point de recharge délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "puiss_max",
+            "description": "La puissance maximale délivrée à chaque point de recharge",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "type_prise",
+            "description": "Les types de prises ou de connecteurs disponibles sur chaque point de charge",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "acces_recharge",
+            "description": "Modalités d'accès à la recharge",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "accessibilité",
+            "description": "Amplitude d'ouverture de la station.",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "observations",
+            "description": "Champ destiné à préciser les modalités d'accès à la recharge, l'accessibilité, le tarif, les horaires d'ouverture, …",
+            "required": true,
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "date_maj",
+            "description": "Date de mise à jour des données",
+            "required": true,
+            "type": "date",
+            "format": "%Y/%m/%d"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "id_pdc"
+}
