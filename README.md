@@ -8,7 +8,7 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 
 ### Sur ce dépôt
 
-- [Infrastructures de recharge pour véhicules électriques][/irve] (WIP)
+- [Infrastructures de recharge pour véhicules électriques](/irve) - en cours
 
 ### Sur d'autres dépôts
 
@@ -17,7 +17,7 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 
 ## Autres formats
 
-- [Données du Projet de Loi de Finances (PLF)](/plf)
+- [Données du Projet de Loi de Finances (PLF)](/plf) - en cours
 
 ## A venir
 
