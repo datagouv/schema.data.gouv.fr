@@ -13,3 +13,7 @@
 ## Schéma
 
 Schéma au format [TableSchema](https://frictionlessdata.io/specs/table-schema) disponible [ici](https://github.com/etalab/schema.data.gouv.fr/blob/master/irve/schema.json).
+
+## Validation
+
+Cf https://github.com/etalab/schema.data.gouv.fr#comment-valider-un-fichier
