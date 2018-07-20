@@ -5,3 +5,6 @@ files:
   - source: irve/exemple-invalide.csv
     schema: irve/schema.json
     encoding: utf-8
+  - source: plf/plf.csv
+    schema: plf/schema.json
+    encoding: utf-8
