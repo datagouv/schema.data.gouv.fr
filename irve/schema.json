@@ -49,7 +49,7 @@
         },
         {
             "name": "ad_station",
-            "description": "L'adresse de la station",
+            "description": "L'adresse complète de la station : <numéro> <rue>, <code postal> <ville>",
             "examples": "1 avenue de la Paix, 75001 Paris",
             "required": true,
             "type": "string",
@@ -141,7 +141,7 @@
         {
             "name": "date_maj",
             "description": "Date de mise à jour des données",
-            "examples": "2018/8/8, 2015/12/30",
+            "examples": "2018/08/08, 2015/12/30",
             "required": true,
             "type": "date",
             "format": "%Y/%m/%d"
