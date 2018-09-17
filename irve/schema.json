@@ -1,8 +1,16 @@
 {
+    "title": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
+    "author": "Alexandre Bulté pour Etalab <info[arobas]data[point]gouv[point]fr>",
+    "contributor": "Charles Nepote",
+    "created": "2018-06-29",
+    "updated": "2018-09-10",
+    "homepage": "https://github.com/etalab/schema.data.gouv.fr/tree/master/irve",
+    "example": "https://github.com/etalab/schema.data.gouv.fr/blob/master/irve/exemple-valide.csv",
     "fields": [
         {
             "name": "n_amenageur",
             "description": "Le nom de l'aménageur, c'est à dire de l'entité publique ou privée propriétaire des infrastructures",
+            "examples": "Société X, Entité Y",
             "required": true,
             "type": "string",
             "format": "default"
@@ -10,6 +18,7 @@
         {
             "name": "n_operateur",
             "description": "Le nom de l'opérateur qui opère le réseau d'infrastructure (l'aménageur ou un tiers auquel a été confié la responsabilité par délégation)",
+            "examples": "Société X, Entité Y",
             "required": true,
             "type": "string",
             "format": "default"
@@ -17,6 +26,7 @@
         {
             "name": "n_enseigne",
             "description": "Le nom commercial du réseau",
+            "examples": "Réseau de recharge ABC",
             "required": true,
             "type": "string",
             "format": "default"
@@ -24,6 +34,7 @@
         {
             "name": "id_station",
             "description": "L'identifiant de la station délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017",
+            "examples": "FR*A68*P68021*A",
             "required": true,
             "type": "string",
             "format": "default"
@@ -31,13 +42,15 @@
         {
             "name": "n_station",
             "description": "le nom de la station",
+            "examples": "Picpus, Belleville, Villiers",
             "required": true,
             "type": "string",
             "format": "default"
         },
         {
             "name": "ad_station",
-            "description": "L'adresse de la station",
+            "description": "L'adresse complète de la station : <numéro> <rue>, <code postal> <ville>",
+            "examples": "1 avenue de la Paix, 75001 Paris",
             "required": true,
             "type": "string",
             "format": "default"
@@ -45,17 +58,18 @@
         {
             "name": "code_insee",
             "description": "Le code INSEE de la commune d'implantation",
+            "examples": "06088, 2B002 (pour une commune corse)",
             "required": true,
             "type": "string",
             "format": "default",
             "constraints": {
-                "maxLength": 5,
-                "minLength": 5
+                "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
             }
         },
         {
             "name": "Xlongitude",
             "description": "La longitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84",
+            "examples": "7.48710500",
             "required": true,
             "type": "number",
             "format": "default"
@@ -63,6 +77,7 @@
         {
             "name": "Ylatitude",
             "description": "La latitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée le système de coordonnées WGS84",
+            "examples": "47.63495500",
             "required": true,
             "type": "number",
             "format": "default"
@@ -70,6 +85,7 @@
         {
             "name": "nbre_pdc",
             "description": "Le nombre de points de recharge sur la station",
+            "examples": "1, 10",
             "required": true,
             "type": "integer",
             "format": "default"
@@ -77,20 +93,23 @@
         {
             "name": "id_pdc",
             "description": "L'identifiant du point de recharge délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017",
+            "examples": "FR*A68*E68021*A*B1*D",
             "required": true,
             "type": "string",
             "format": "default"
         },
         {
             "name": "puiss_max",
-            "description": "La puissance maximale délivrée à chaque point de recharge",
+            "description": "La puissance maximale délivrée à chaque point de recharge, exprimée en kW, en fonction du contrat d'abonnement de puissance de la station et du type de connecteur.",
+            "examples": "22.00",
             "required": true,
-            "type": "string",
+            "type": "number",
             "format": "default"
         },
         {
             "name": "type_prise",
             "description": "Les types de prises ou de connecteurs disponibles sur chaque point de charge",
+            "examples": "E/F, T2",
             "required": true,
             "type": "string",
             "format": "default"
@@ -98,6 +117,7 @@
         {
             "name": "acces_recharge",
             "description": "Modalités d'accès à la recharge",
+            "examples": "Payant, Gratuit, Sur abonnement",
             "required": true,
             "type": "string",
             "format": "default"
@@ -105,6 +125,7 @@
         {
             "name": "accessibilité",
             "description": "Amplitude d'ouverture de la station.",
+            "examples": "24/24 7/7 jours",
             "required": true,
             "type": "string",
             "format": "default"
@@ -112,6 +133,7 @@
         {
             "name": "observations",
             "description": "Champ destiné à préciser les modalités d'accès à la recharge, l'accessibilité, le tarif, les horaires d'ouverture, …",
+            "examples": "Recharge uniquement disponible pendant les horaires d'ouverture du Centre Commercial XY",
             "required": true,
             "type": "string",
             "format": "default"
@@ -119,6 +141,7 @@
         {
             "name": "date_maj",
             "description": "Date de mise à jour des données",
+            "examples": "2018/08/08, 2015/12/30",
             "required": true,
             "type": "date",
             "format": "%Y/%m/%d"
