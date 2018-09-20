@@ -17,3 +17,7 @@ Schéma au format [TableSchema](https://frictionlessdata.io/specs/table-schema) 
 ## Validation
 
 Cf https://github.com/etalab/schema.data.gouv.fr#comment-valider-un-fichier
+
+## Consolidation
+
+Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr. Le code est [disponible ici](/aggregation).
