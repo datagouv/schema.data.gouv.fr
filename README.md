@@ -42,3 +42,9 @@ goodtables --schema schema.json fichier.csv
 ```
 
 Il est également possible d'utiliser le service en ligne http://goodtables.io pour valider des fichiers présents sur un dépôt Github. Un [exemple d'intégration](goodtables.yml) est présent sur dépôt.
+
+## Conventions
+
+Lors de vos contributions à ce dépôt, merci de respecter les conventions suivantes :
+- préfixer vos commits par `[<schema>]` avec `<schema>` le nom du schéma concerné, par exemple `irve` ou `meta` dans le cas de fichier README ;
+- lors du merge de PR, utiliser autant que possible la fonction "Squash and merge" afin de garder un historique propre et respecter la convention ci-dessus dans le message de merge.
