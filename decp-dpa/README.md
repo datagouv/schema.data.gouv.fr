@@ -28,4 +28,4 @@ _TODO_
 
 ## Consolidation
 
-Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/schema.data.gouv.fr/tree/master/decp-dpa/aggregration).
+Etalab réalise une consolidation des jeux de données DECP-DPA déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/schema.data.gouv.fr/tree/master/decp-dpa/aggregration).
