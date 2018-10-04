@@ -46,7 +46,7 @@
 - exemple(s) : Picpus, Belleville, Villiers
 
 ### `ad_station`
-> L'adresse complète de la station : <numéro> <rue>, <code postal> <ville>  
+> L'adresse complète de la station : [numéro] [rue], [code postal] [ville]  
 
 - Type attendu : `chaîne de caractères`
 - exemple(s) : 1 avenue de la Paix, 75001 Paris

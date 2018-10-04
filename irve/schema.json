@@ -44,7 +44,7 @@
         },
         {
             "name": "ad_station",
-            "description": "L'adresse complète de la station : <numéro> <rue>, <code postal> <ville>",
+            "description": "L'adresse complète de la station : [numéro] [rue], [code postal] [ville]",
             "example": "1 avenue de la Paix, 75001 Paris",
             "required": true,
             "type": "string"
