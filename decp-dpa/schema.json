@@ -21,7 +21,8 @@
             "name": "urlProfilAcheteur",
             "description": "L'adresse URL du profil d'acheteur",
             "example": "http://monacheteur.com/profil",
-            "type": "uri",
+            "type": "string",
+            "format": "uri",
             "constraints": {
                 "required": true
             }
@@ -30,7 +31,8 @@
             "name": "urlDCAT",
             "description": "L’adresse URL du catalogue DCAT qui répértorie les données",
             "example": "http://dcat.monacheteur.com/catalog.ttl",
-            "type": "uri",
+            "type": "string",
+            "format": "uri",
             "constraints": {
                 "required": false
             }
