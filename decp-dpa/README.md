@@ -20,11 +20,11 @@
 
 ## Schéma
 
-_TODO_
+Schéma au format [TableSchema](https://frictionlessdata.io/specs/table-schema) disponible [ici](https://github.com/etalab/schema.data.gouv.fr/blob/master/decp-dpa/schema.json).
 
 ## Validation
 
-_TODO_
+Cf https://github.com/etalab/schema.data.gouv.fr#comment-valider-un-fichier
 
 ## Consolidation
 

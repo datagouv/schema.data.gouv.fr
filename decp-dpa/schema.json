@@ -1,0 +1,52 @@
+{
+    "title": "Spécification du fichier de déclaration de profil d'acheteur",
+    "author": "Alexandre Bulté pour Etalab <info[arobas]data[point]gouv[point]fr>",
+    "contributor": "",
+    "created": "2019-02-18",
+    "updated": "2019-02-18",
+    "homepage": "https://github.com/etalab/schema.data.gouv.fr/tree/master/decp-dpa",
+    "example": "https://github.com/etalab/schema.data.gouv.fr/blob/master/decp-dpa/exemple-valide.csv",
+    "fields": [
+        {
+            "name": "siretAcheteur",
+            "description": "Le numéro SIRET de l'acheteur",
+            "example": "79248336400024",
+            "type": "string",
+            "constraints": {
+                "pattern": "^\\d{14}$",
+                "required": true
+            }
+        },
+        {
+            "name": "urlProfilAcheteur",
+            "description": "L'adresse URL du profil d'acheteur",
+            "example": "http://monacheteur.com/profil",
+            "type": "uri",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "urlDCAT",
+            "description": "L’adresse URL du catalogue DCAT qui répértorie les données",
+            "example": "http://dcat.monacheteur.com/catalog.ttl",
+            "type": "uri",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "coordonnnees",
+            "description": "Les coordonnées de l'acheteur concerné",
+            "example": "Service Achat, DINSIC, 20 avenue de Ségur, 75007 Paris",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "primaryKey": "siretAcheteur"
+}
