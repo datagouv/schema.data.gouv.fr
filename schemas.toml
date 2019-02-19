@@ -1,0 +1,124 @@
+[scdl-adresses]
+schema = "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.3/schema.json"
+title = "Adresses locales"
+description = "Liste des adresses locales d'une collectivité"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html"
+
+[[scdl-adresses.examples]]
+name = "Adresses fictives invalides"
+url = "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.3/exemples/exemple_invalide.csv"
+
+[[scdl-adresses.examples]]
+name = "Adresses de Bayonne avril 2018"
+url = "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.3/exemples/20180424_bal_216401026.csv"
+
+
+[scdl-catalogue]
+schema = "https://git.opendatafrance.net/scdl/catalogue/raw/v0.1.1/schema.json"
+title = "Catalogue simplifié"
+description = "Liste des jeux de données publiés en open data par une collectivité"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-catalogue.html"
+
+[[scdl-catalogue.examples]]
+name = "Angers Loire Métropole"
+url = "https://git.opendatafrance.net/scdl/catalogue/raw/v0.1.1/exemples/catalogue-angers-loire-metropole.csv"
+
+[[scdl-catalogue.examples]]
+name = "Catalogue Rosny-sous-bois"
+url = "https://git.opendatafrance.net/scdl/catalogue/raw/v0.1.1/exemples/catalogue-rosny-sous-bois.csv"
+
+
+[scdl-deliberations]
+schema = "https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.2/schema.json"
+title = "Délibérations"
+description = "Liste des délibérations adoptées par une assemblée locale"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-deliberations.html"
+
+[[scdl-deliberations.examples]]
+name = "Délibérations fictives valides"
+url = "https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.2/examples/Deliberations_ok.csv"
+
+[[scdl-deliberations.examples]]
+name = "Délibérations fictives invalides"
+url = "https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.2/examples/DeliberationsCindoc.csv"
+
+
+[scdl-equipements]
+schema = "https://git.opendatafrance.net/scdl/equipements/raw/v0.1.0/schema.json"
+title = "Equipements"
+description = "Liste des équipements collectifs publics d'une collectivité"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-equipements.html"
+
+[[scdl-equipements.examples]]
+name = "Équipement Noyal Pontivy"
+url = "https://git.opendatafrance.net/scdl/equipements/raw/v0.1.0/exemples/equipements-noyal-pontivy.csv"
+
+[[scdl-equipements.examples]]
+name = "Équipement Le Pellerin"
+url = "https://git.opendatafrance.net/scdl/equipements/raw/v0.1.0/exemples/equipements-le-pellerin.csv"
+
+
+[scdl-irve]
+schema = "https://raw.githubusercontent.com/OpenDataFrance/schema.data.gouv.fr/master/irve/schema.json"
+title = "Infrastructures de recharge de véhicule électrique"
+description = "Liste des infrastructures de recharge de véhicules électriques d'une collectivité"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-irve.html"
+
+[[scdl-irve.examples]]
+name = "Exemple valide"
+url = "https://raw.githubusercontent.com/OpenDataFrance/schema.data.gouv.fr/master/irve/exemple-valide.csv"
+
+
+[scdl-marches-publics]
+schema = "https://git.opendatafrance.net/scdl/marches-publics/raw/v2.0.0/schema.json"
+title = "Marchés publics"
+description = "Liste des marchés publics attribués par une collectivité"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-marches-publics.html"
+
+[[scdl-marches-publics.examples]]
+name = "Marchés publics fictifs valides"
+url = "https://git.opendatafrance.net/scdl/marches-publics/raw/v2.0.0/exemples/exemple_marche_public.csv"
+
+[[scdl-marches-publics.examples]]
+name = "Marchés publics fictifs invalides"
+url = "https://git.opendatafrance.net/scdl/marches-publics/raw/v2.0.0/exemples/exemple_marche_public_avec_erreurs.csv"
+
+
+[scdl-prenoms]
+schema = "https://github.com/OpenDataFrance/liste-prenoms-nouveaux-nes/raw/v1.1.3/schema.json"
+title = "Prénoms des nouveaux-nés"
+description = "Liste des prénoms des nouveaux-nés déclarés à l'état-civil"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-prenoms.html"
+
+[[scdl-prenoms.examples]]
+name = "Prénoms des nouveaux-nés Digne-les-Bains 2017"
+url = "https://raw.githubusercontent.com/OpenDataFrance/liste-prenoms-nouveaux-nes/v1.1.3/DIGNE-PRENOMS-2017.csv"
+
+[[scdl-prenoms.examples]]
+name = "Prénoms des nouveaux-nés fictifs invalides"
+url = "https://raw.githubusercontent.com/OpenDataFrance/liste-prenoms-nouveaux-nes/v1.1.3/prenoms-nouveaux-nes.exemple.invalide.1.1.csv"
+
+[[scdl-prenoms.examples]]
+name = "Liste des prénoms donnés à Suresnes de 2010 à 2017 (plateforme OpenDataSoft)"
+url = "https://data.opendatasoft.com/explore/dataset/prenoms@hauts-de-seine/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true"
+
+
+[scdl-subventions]
+schema = "https://git.opendatafrance.net/scdl/subventions/raw/v2.0.0/schema.json"
+title = "Subventions"
+description = "Liste des subventions publiques attribuées par une collectivité"
+doc_url = "https://scdl.opendatafrance.net/docs/schemas/scdl-subventions.html"
+
+[[scdl-subventions.examples]]
+name = "Subventions fictives invalides"
+url = "https://git.opendatafrance.net/scdl/subventions/raw/v2.0.0/exemples/exemple_invalide.csv"
+
+[[scdl-subventions.examples]]
+name = "Erreur de format (HTML au lieu de CSV)"
+url = "https://git.opendatafrance.net/"
+
+
+[etalab-decp-dpa]
+schema = "https://raw.githubusercontent.com/etalab/schema.data.gouv.fr/4acda7bb7d1904617d87ddb1fe31ee3503a8c61b/decp-dpa/schema.json"
+title = "Déclaration de profil d'acheteur"
+description = "Schéma réglementaire du fichier de déclaration de profil d'acheteur sur data.gouv.fr"
