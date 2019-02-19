@@ -14,7 +14,8 @@
             "type": "string",
             "constraints": {
                 "pattern": "^\\d{14}$",
-                "required": true
+                "required": true,
+                "unique": true
             }
         },
         {
