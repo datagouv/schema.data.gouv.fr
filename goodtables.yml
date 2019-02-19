@@ -8,3 +8,6 @@ files:
   - source: plf/exemple-valide.csv
     schema: plf/schema.json
     encoding: utf-8
+  - source: decp-dpa/exemple-valide.csv
+    schema: decp-dpa/schema.json
+    encoding: utf-8
