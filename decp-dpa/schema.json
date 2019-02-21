@@ -50,5 +50,13 @@
     ],
     "missingValues": [
         ""
+    ],
+    "custom_checks": [
+        {
+            "name": "french-siret-value",
+            "params": {
+                "column": "siretAcheteur"
+            }
+        }
     ]
 }
