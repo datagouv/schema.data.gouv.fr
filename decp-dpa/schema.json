@@ -39,7 +39,7 @@
             }
         },
         {
-            "name": "coordonnnees",
+            "name": "coordonnees",
             "description": "Les coordonnées de l'acheteur concerné",
             "example": "Service Achat, DINSIC, 20 avenue de Ségur, 75007 Paris",
             "type": "string",
