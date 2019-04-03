@@ -1,3 +1,5 @@
+[![goodtables.io](https://goodtables.io/badge/github/etalab/schema.data.gouv.fr.svg)](https://goodtables.io/github/etalab/schema.data.gouv.fr)
+
 # schema.data.gouv.fr
 
 ## Objectif
