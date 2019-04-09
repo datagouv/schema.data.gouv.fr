@@ -3,7 +3,7 @@
     "author": "Alexandre Bulté pour Etalab <info[arobas]data[point]gouv[point]fr>",
     "contributor": "",
     "created": "2019-02-18",
-    "updated": "2019-02-18",
+    "updated": "2019-04-09",
     "homepage": "https://github.com/etalab/schema.data.gouv.fr/tree/master/decp-dpa",
     "example": "https://github.com/etalab/schema.data.gouv.fr/blob/master/decp-dpa/exemple-valide.csv",
     "fields": [
@@ -30,7 +30,7 @@
         },
         {
             "name": "urlDCAT",
-            "description": "L’adresse URL du catalogue DCAT qui répértorie les données",
+            "description": "L’adresse URL du catalogue DCAT qui répertorie les données",
             "example": "http://dcat.monacheteur.com/catalog.ttl",
             "type": "string",
             "format": "uri",
