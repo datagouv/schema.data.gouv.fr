@@ -36,6 +36,8 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 
 ### Table Schema
 
+#### Goodtables
+
 Lorsque le schéma d'un fichier tabulaire est fourni au format [Table Schema](https://frictionlessdata.io/specs/table-schema/), il est possible d'utiliser l'outil Python [goodtables](https://github.com/frictionlessdata/goodtables-py) pour valider un fichier par rapport à un schéma de la manière suivante :
 
 ```
@@ -44,6 +46,10 @@ goodtables --schema schema.json fichier.csv
 ```
 
 Il est également possible d'utiliser le service en ligne http://goodtables.io pour valider des fichiers présents sur un dépôt Github. Un [exemple d'intégration](goodtables.yml) est présent sur dépôt.
+
+#### Validata
+
+Vous pouvez utiliser une instance de [Validata](https://git.opendatafrance.net/validata) (https://go.validata.fr ou https://validata.etalab.studio par exemple) pour valider un fichier suivant un schéma supporté par cette instance de Validata (la liste des schémas supportés est présente sur la page d'accueil de l'instance en question).
 
 ## Conventions
 
