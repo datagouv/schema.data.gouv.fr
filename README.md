@@ -8,12 +8,8 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 
 ## Formats réglementaires
 
-### Sur ce dépôt
-
-- [Infrastructures de recharge pour véhicules électriques](/irve) - en cours
-
-### Sur d'autres dépôts
-
+- [Infrastructures de recharge pour véhicules électriques](https://github.com/etalab/schema-irve)
+- [Déclaration de profil d'acheteur](https://github.com/etalab/schema-decp-dpa)
 - [Données des subventions publiques](https://github.com/etalab/format-subventions)
 - [Commande publique : Données essentielles](https://github.com/etalab/format-commande-publique)
 
@@ -26,10 +22,10 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 ### Sur d'autres dépôts
 
 - [Liste des prénoms des nouveaux-nés](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes) - utilisé par le Socle commun des données locale produit par OpenDataFrance
+- [SCDL](https://git.opendatafrance.net/scdl)
 
 ## A venir
 
-- [Commande publique : Recensement des profils d'acheteurs](https://doc.data.gouv.fr/faq/comment-remplir-les-obligations-légales-de-déclaration-des-profils-d-acheteur.html)
 - Défibrilateurs cardiaques
 
 ## Comment valider un fichier
