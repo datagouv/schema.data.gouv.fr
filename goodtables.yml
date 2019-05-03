@@ -1,13 +1,4 @@
 files:
-  - source: irve/exemple-valide.csv
-    schema: irve/schema.json
-    encoding: utf-8
-  - source: irve/exemple-invalide.csv
-    schema: irve/schema.json
-    encoding: utf-8
   - source: plf/exemple-valide.csv
     schema: plf/schema.json
-    encoding: utf-8
-  - source: decp-dpa/exemple-valide.csv
-    schema: decp-dpa/schema.json
     encoding: utf-8
