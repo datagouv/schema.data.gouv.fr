@@ -1,0 +1,95 @@
+version: 2
+
+jobs:
+  fetch:
+    docker:
+      - image: circleci/python:3.7
+    working_directory: ~/repo/aggregateur
+    steps:
+      - checkout:
+        path: ~/repo
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: Install dependencies
+          command: |
+            python -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: Create folders
+          command: |
+            mkdir repos
+            rm -rf data
+      - run:
+          name: Fetch remote repositories
+          command: |
+            . venv/bin/activate
+            python main.py
+      - persist_to_workspace:
+          root: .
+          paths:
+            - data
+            - cache
+  push_data:
+    docker:
+      - image: circleci/python:3.7
+    steps:
+      - checkout:
+          path: ~/repo
+      - attach_workspace:
+          at: /tmp
+      - add_ssh_keys:
+          fingerprints:
+            - "b0:df:e7:05:62:34:57:84:88:68:73:a8:0f:9e:f3:78"
+      - run:
+          name: Set Git identity
+          command: |
+            git config --global user.email "robot@circleci.com"
+            git config --global user.name "CircleCI"
+      - run:
+          name: Push to GitHub
+          command: |
+            git clone git@github.com:etalab/schema.data.gouv.fr.git /tmp/schema.data.gouv.fr
+            rm -rf /tmp/schema.data.gouv.fr/aggregateur/data
+            rm -rf /tmp/schema.data.gouv.fr/aggregateur/cache
+            mv /tmp/data /tmp/schema.data.gouv.fr/aggregateur/data
+            mv /tmp/cache /tmp/schema.data.gouv.fr/aggregateur/cache
+            cd /tmp/schema.data.gouv.fr/aggregateur
+            if [ -n "$(git status --porcelain)" ]; then
+              git add -A
+              git commit -am "New data at $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
+              git push origin master
+            else
+              echo "No changes";
+            fi
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - fetch
+      - push_data:
+          requires:
+            - fetch
+          filters:
+            branches:
+              only:
+                - master
+  cron:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - fetch
+      - push_data:
+          requires:
+            - fetch

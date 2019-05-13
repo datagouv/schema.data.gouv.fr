@@ -1,0 +1,59 @@
+{
+   "title":"Vacances scolaires en France",
+   "author":"Antoine Augusti <antoine.augusti@gmail.com>",
+   "contact": "antoine.augusti@gmail.com",
+   "created":"2018-12-20",
+   "updated":"2018-12-20",
+   "version": "0.2.0",
+   "homepage":"https://github.com/AntoineAugusti/vacances-scolaires",
+   "description": "description!",
+   "fields":[
+      {
+         "name":"date",
+         "description":"Date",
+         "example":"2018-01-01",
+         "required":true,
+         "type":"date",
+         "format":"%Y-%m-%d"
+      },
+      {
+         "name":"vacances_zone_a",
+         "description":"Est-ce que la zone A est en vacances à cette date",
+         "example":"true, false",
+         "required":true,
+         "type":"boolean"
+      },
+      {
+         "name":"vacances_zone_b",
+         "description":"Est-ce que la zone B est en vacances à cette date",
+         "example":"true, false",
+         "required":true,
+         "type":"boolean"
+      },
+      {
+         "name":"vacances_zone_c",
+         "description":"Est-ce que la zone C est en vacances à cette date",
+         "example":"true, false",
+         "required":true,
+         "type":"boolean"
+      },
+      {
+         "name":"nom_vacances",
+         "description":"Si au moins une des zones est en vacances, le nom des vacances",
+         "example":"true, false",
+         "required":true,
+         "type":"string",
+         "enum":[
+            "Vacances de la Toussaint",
+            "Vacances de Noël",
+            "Vacances d'hiver",
+            "Vacances de printemps",
+            "Vacances d'été"
+         ]
+      }
+   ],
+   "missingValues":[
+      ""
+   ],
+   "primaryKey":"date"
+}

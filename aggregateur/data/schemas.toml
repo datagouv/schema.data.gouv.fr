@@ -1,0 +1,20 @@
+["AntoineAugusti/test-schema"]
+title = "Vacances scolaires en France"
+description = "description!"
+version = "0.4.0"
+doc_url = "https://schema.data.gouv.fr/AntoineAugusti/test-schema/latest.html"
+schema = "https://schema-datagouv.antoine-augusti.fr/schemas/AntoineAugusti/test-schema/latest/schema.json"
+
+["etalab/schema-irve"]
+title = "Schéma IRVE"
+description = "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques"
+version = "1.0.1"
+doc_url = "https://schema.data.gouv.fr/etalab/schema-irve/latest.html"
+schema = "https://schema-datagouv.antoine-augusti.fr/schemas/etalab/schema-irve/latest/schema.json"
+
+["etalab/schema-decp-dpa"]
+title = "Spécification du fichier de déclaration de profil d'acheteur"
+description = "Spécification du fichier de déclaration de profil d'acheteur"
+version = "1.0.0"
+doc_url = "https://schema.data.gouv.fr/etalab/schema-decp-dpa/latest.html"
+schema = "https://schema-datagouv.antoine-augusti.fr/schemas/etalab/schema-decp-dpa/latest/schema.json"
