@@ -14,7 +14,7 @@ TODO
 ## Référencer son schéma
 Afin d'ajouter un schéma sur le site `schema.data.gouv.fr`, il faut référencer votre dépôt Git contenant ce schéma.
 
-Vous devez ajouter votre dépôt Git en modifiant le fichier `repertoires.yml` à la racine du dépôt en y faisant figurer les informations suivantes :
+Vous devez ajouter votre dépôt Git en modifiant le fichier [`repertoires.yml`](https://github.com/etalab/schema.data.gouv.fr/blob/master/aggregateur/repertoires.yml) en y faisant figurer les informations suivantes :
 
 - `url` : un lien HTTPS vers le dépôt Git contenant le schéma que vous souhaitez ajouter. Ce dépôt doit pouvoir être clôné depuis Internet sans authentification préalable ;
 - `type` : le type de schéma que vous ajoutez. Les types supportés sont pour le moment :
