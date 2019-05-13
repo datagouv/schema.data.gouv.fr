@@ -46,7 +46,7 @@ jobs:
           at: /tmp
       - add_ssh_keys:
           fingerprints:
-            - "b0:df:e7:05:62:34:57:84:88:68:73:a8:0f:9e:f3:78"
+            - "03:6a:59:1d:4f:76:ee:e9:de:f2:2f:af:ac:f0:2b:a3"
       - run:
           name: Set Git identity
           command: |
