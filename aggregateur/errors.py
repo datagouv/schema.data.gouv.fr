@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
 import datetime
-from copy import deepcopy
 from collections import defaultdict
 from hashlib import md5
 
@@ -16,7 +15,7 @@ class ErrorsCache(object):
         super(ErrorsCache, self).__init__()
         with open(self.CACHE_FILE) as json_file:
             self.errors = json.load(json_file)
-        self.new_errors = deepcopy(self.errors)
+        self.new_errors = {}
 
     def should_send_notification(self, email, exceptions):
         if email not in self.errors:
@@ -36,10 +35,7 @@ class ErrorsCache(object):
         return self.errors[email]["hash"] != self.new_errors[email]["hash"]
 
     def add_error(self, email, exceptions):
-        if email not in self.new_errors:
-            self.new_errors[email] = {"hash": self.hash(exceptions)}
-        else:
-            self.new_errors[email]["hash"] = self.hash(exceptions)
+        self.new_errors[email] = {"hash": self.hash(exceptions)}
 
     def set_error_time(self, email):
         self.new_errors[email]["last_error"] = datetime.datetime.utcnow().isoformat()
