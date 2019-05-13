@@ -1,0 +1,28 @@
+---
+links:
+  -
+    label: schema.data.gouv.fr
+    children:
+      -
+        label: data.gouv.fr
+        url: https://www.data.gouv.fr/
+      -
+        label: Données de référence
+        url: https://www.data.gouv.fr/reference
+      -
+        label: Condition générales d’utilisation
+        url: https://www.data.gouv.fr/terms
+
+social:
+  -
+    icon: mail
+    url: mailto:info@data.gouv.fr
+  -
+    icon: twitter
+    url: https://www.twitter.com/datagouvfr
+  -
+    icon: fb
+    url: https://www.facebook.com/etalab
+  -
+    icon: github
+    url: https://github.com/etalab

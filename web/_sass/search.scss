@@ -1,0 +1,45 @@
+body.searching {
+  .main-pane {
+    display: none;
+  }
+}
+
+body:not(.searching) {
+  .search-results {
+    display: none;
+  }
+}
+
+.search-input-wrapper {
+  padding: 0 1em;
+}
+
+
+.search-results {
+  flex: 1;
+  padding: 3em 5em;
+  background-color: white;
+
+  #search-query {
+    font-style: italic;
+  }
+
+  #search-results-container {
+    display: flex;
+    flex-direction: column;
+
+    .search-result {
+      padding: 1em;
+      border-bottom: 1px solid $color-dark-grey;
+
+      h4 {
+        margin: 1em 0 0.5em;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+

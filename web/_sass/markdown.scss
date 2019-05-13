@@ -1,0 +1,155 @@
+.documentation {
+  padding: 0;
+}
+
+.markdown {
+  $gray-border: #ebeff3;
+  $gray-background: #c9d3df;
+
+  // Remove top margin on code blocks following a title
+  h1, h2, h3, h4, h5, h6 {
+    + .highlighter-rouge {
+      pre {
+        margin-top: 0;
+      }
+    }
+
+    a.anchor {
+      float: right;
+      text-decoration: none;
+
+      svg {
+        height: 0.8em;
+        width: 0.8em;
+        use {
+          fill: $color-darker-grey;
+        }
+      }
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  /**
+    * Inline code
+    */
+  code {
+    padding: 0 0.2em;
+    line-height: 1.2em;
+  }
+
+  /**
+   * {% highlight %} blocks and fenced codeblocks
+   */
+  .highlight {
+    margin: 0;
+    width: 100%;
+
+    pre {
+      width: 100%;
+      margin: 0;
+    }
+
+    code {
+      display: block;
+      width: 100%;
+      padding: 1em;
+    }
+  }
+
+  /**
+   * Non highlighted code block
+   */
+  pre > code {
+    display: block;
+    width: 100%;
+    padding: 1em;
+  }
+
+  /**
+   * Table of content
+   */
+  ul#markdown-toc {
+    $margin: 20px;
+
+    &:before {
+      content: 'Sommaire';
+      display: block;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: $margin / 2;
+    }
+
+    display: inline-block;
+    background-color: $gray-border;
+    border: 1px solid $gray-background;
+    border-left-width: 8px;
+    padding: $margin/2 $margin;
+
+    li {
+      list-style-type: none;
+
+      ul {
+        padding-inline-start: $margin;
+      }
+    }
+  }
+
+  /**
+   * Tabs
+   */
+  .tabs {
+    display: flex;
+    flex-wrap: wrap; // make sure it wraps
+
+    label {
+      order: 1; // Put the labels first
+      display: block;
+      padding: 1rem 2rem;
+      margin: 0 0.2rem 0 0;
+      cursor: pointer;
+      background: #fff;
+      font-weight: bold;
+      transition: background ease 0.2s;
+      border: 1px solid $gray-border;
+      border-bottom: none;
+    }
+
+    .tab {
+      order: 99; // Put the tabs last
+      flex-grow: 1;
+      width: 100%;
+      display: none;
+      background: #fff;
+    }
+
+    input[type="radio"] {
+      display: none;
+
+      &:checked + label {
+        background: $gray-border;
+        + .tab {
+          display: block;
+        }
+      }
+    }
+
+    @media (max-width: 45em) {
+      .tab, label {
+        order: initial;
+      }
+      label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.2rem;
+      }
+    }
+
+    code{
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+}
