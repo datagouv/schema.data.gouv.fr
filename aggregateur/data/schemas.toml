@@ -1,10 +1,3 @@
-["AntoineAugusti/test-schema"]
-title = "Vacances scolaires en France"
-description = "description!"
-version = "0.4.0"
-doc_url = "https://schema.data.gouv.fr/AntoineAugusti/test-schema/latest.html"
-schema = "https://schema-datagouv.antoine-augusti.fr/schemas/AntoineAugusti/test-schema/latest/schema.json"
-
 ["etalab/schema-irve"]
 title = "Schéma IRVE"
 description = "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques"
