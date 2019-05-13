@@ -17,14 +17,14 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 
 ### Sur ce dépôt
 
-- [Données du Projet de Loi de Finances (PLF)](/plf) - en cours
+- [Données du Projet de Loi de Finances (PLF)](/schemas/plf) - en cours
 
 ### Sur d'autres dépôts
 
 - [Liste des prénoms des nouveaux-nés](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes) - utilisé par le Socle commun des données locale produit par OpenDataFrance
 - [SCDL](https://git.opendatafrance.net/scdl)
 
-## A venir
+## À venir
 
 - Défibrilateurs cardiaques
 
