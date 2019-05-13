@@ -11,7 +11,7 @@ Ce dépôt a pour but de rassembler les différents schémas de données produit
 - [Infrastructures de recharge pour véhicules électriques](https://github.com/etalab/schema-irve)
 - [Déclaration de profil d'acheteur](https://github.com/etalab/schema-decp-dpa)
 - [Données des subventions publiques](https://github.com/etalab/format-subventions)
-- [Commande publique : Données essentielles](https://github.com/etalab/format-commande-publique)
+- [Données essentielles de la commande publique](https://github.com/etalab/format-commande-publique)
 
 ## Autres formats
 
