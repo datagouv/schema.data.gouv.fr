@@ -6,3 +6,31 @@ decp-dpa:
   url: https://github.com/etalab/schema-decp-dpa.git
   type: tableschema
   email: info@data.gouv.fr
+adresses:
+  url: https://git.opendatafrance.net/scdl/adresses.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+catalogue:
+  url: https://git.opendatafrance.net/scdl/catalogue.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+deliberations:
+  url: https://git.opendatafrance.net/scdl/deliberations.git
+  type:
+  email: scdl@opendatafrance.email
+equipements:
+  url: https://git.opendatafrance.net/scdl/equipements.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+marches-publics:
+  url: https://git.opendatafrance.net/scdl/marches-publics.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+prenoms:
+  url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
+  type: tableschema
+  email: charles.nepote@fing.org
+subventions:
+  url: https://git.opendatafrance.net/scdl/subventions.git
+  type: tableschema
+  email: scdl@opendatafrance.email
