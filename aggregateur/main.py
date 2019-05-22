@@ -148,24 +148,41 @@ class Repo(object):
 
     def checkout_tag(self, tag):
         try:
-            self.git_repo.git.checkout(self.normalize_tag(tag))
+            self.git_repo.git.checkout(self.find_git_tag(tag))
         except GitError:
             raise exceptions.GitException(self, "Cannot checkout tag %s" % tag)
         self.current_tag = tag
 
-    def normalize_tag(self, tag):
-        tag_name = str(tag)
-        if str(tag) not in list(map(str, self.git_repo.tags)):
-            tag_name = "v" + str(tag)
-        return tag_name
+    def find_git_tag(self, tag):
+        def possible_tags(tag):
+            # Examples:
+            # Input: 1.0.1 ; Output: ['1.0.1', 'v1.0.1']
+            # Input: 1.2.0 ; Output: ['1.2.0', 'v1.2.0', '1.2', 'v1.2']
+            tags = [tag, "v" + tag]
+            if tag.endswith(".0"):
+                tags.extend([tag[:-2], "v" + tag[:-2]])
+            return tags
+
+        git_tags = list(map(str, self.git_repo.tags))
+        for possible_tag in possible_tags(str(tag)):
+            if possible_tag in git_tags:
+                return possible_tag
+
+        raise exceptions.InvalidVersionException(self, "Cannot find a tag %s" % tag)
 
     def parse_version(self, version):
-        try:
-            return VersionInfo.parse(version.replace("v", ""))
-        except ValueError:
-            raise exceptions.InvalidVersionException(
-                self, "Version was invalid: %s" % version
-            )
+        # Allow an extra leading v and/or a missing minor version
+        possible_versions = [version.replace("v", ""), version.replace("v", "") + ".0"]
+
+        for version in possible_versions:
+            try:
+                return VersionInfo.parse(version)
+            except ValueError:
+                continue
+
+        raise exceptions.InvalidVersionException(
+            self, "Version is invalid: %s" % version
+        )
 
 
 errors = ErrorBag()
