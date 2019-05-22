@@ -4,7 +4,7 @@ title: "Intégration avec d'autres systèmes"
 order: 3
 ---
 # Intégration avec d'autres systèmes
-En tant que plateforme de référencement de schémas, `schema.data.gouv.fr` a vocation à facilement être utilisée par d'autres systèmes informatiques. Nous proposons plusieurs éléments à cet effet.
+En tant que plateforme de référencement de schémas, `schema.data.gouv.fr` a vocation à être facilement utilisée par d'autres systèmes informatiques. Nous proposons plusieurs éléments à cet effet.
 
 ## Export des schémas valides
 Nous proposons à l'adresse <https://schema.data.gouv.fr/schemas/schemas.zip> une archive compressée au format ZIP comprenant les schémas considérés comme valides par la plateforme ainsi que les fichiers de documentation associés à chaque version des schémas.
@@ -63,7 +63,7 @@ schema = "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/schema.j
 Nous proposons des URLs stables permettant de proposer des liens vers notre plateforme.
 
 Dans la documentation qui suit, nous utilisons plusieurs variables, définies de la manière suivante :
-- `:organisation`, le nom de votre organisation sur la forge que vous utilisez ;
+- `:organisation`, le nom de votre organisation ou utilisateur sur la forge que vous utilisez ;
 - `:dépôt`, le nom du dépôt contenant votre schéma ;
 - `:version`, la version du schéma que vous souhaitez, par exemple `1.2.3`.
 
