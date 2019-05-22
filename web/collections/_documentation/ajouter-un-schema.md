@@ -5,11 +5,17 @@ order: 1
 ---
 # Ajouter un schéma
 
-## Qui peut ajouter des schémas ?
-TODO
+## Qui peut référencer des schémas ?
+Tout acteur est libre de proposer le référencement de schémas.
 
 ## Quels schémas sont acceptés ?
-TODO
+`schema.data.gouv.fr` accepte des schémas décrivant des données d'intérêt général.
+
+Actuellement, nous acceptons les schémas dont l'existence est justifiée par voie :
+- réglementaire : le schéma a été introduit par une disposition réglementaire ;
+- d'usage : la réutilisation des données décrites par le schéma bénéficie à un grand nombre ou de nombreux producteurs sont amenés à utiliser ce schéma.
+
+Etalab se réserve le droit de refuser l'ajout de schémas en motivant son refus. Vous pouvez [initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) préalablement à l'ouverture d'une _pull request_.
 
 ## Référencer son schéma
 Afin d'ajouter un schéma sur le site `schema.data.gouv.fr`, il faut référencer votre dépôt Git contenant ce schéma.
