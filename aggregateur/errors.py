@@ -21,6 +21,8 @@ class ErrorsCache(object):
         should_warn = self.is_new_error(email, exceptions) or self.is_too_old(email)
         if should_warn:
             self.set_error_time(email)
+        else:
+            self.set_old_error_time(email)
         return should_warn
 
     def is_new_error(self, email, exceptions):
@@ -39,6 +41,9 @@ class ErrorsCache(object):
 
     def set_error_time(self, email):
         self.new_errors[email]["last_error"] = datetime.datetime.utcnow().isoformat()
+
+    def set_old_error_time(self, email):
+        self.new_errors[email]["last_error"] = self.errors[email]["last_error"]
 
     def save_cache(self):
         with open(self.CACHE_FILE, "w") as outfile:
