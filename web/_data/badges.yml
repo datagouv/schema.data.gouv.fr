@@ -1,0 +1,20 @@
+scdl: Ce schéma fait parti du Socle Commun des Données Locales.
+réglementaire: Ce schéma est défini par voie réglementaire.
+etalab: Ce schéma a été créé par la mission Etalab.
+
+etalab/schema-irve:
+  - etalab
+  - réglementaire
+etalab/schema-decp-dpa:
+  - etalab
+  - réglementaire
+scdl/adresses:
+  - scdl
+scdl/catalogue:
+  - scdl
+scdl/deliberations:
+  - scdl
+scdl/equipements:
+  - scdl
+scdl/subventions:
+  - scdl

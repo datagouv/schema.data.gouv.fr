@@ -12,6 +12,13 @@ layout: default
       {% assign slug = url_parts[1] | append: "/" | append: url_parts[2] %}
       {% assign schema_data = site.data.schemas[slug] %}
       <h2>{{ slug }} <small><span class="label">{{ page.version }}</span></small></h2>
+      {% if site.data.badges[slug] %}
+      <div class="badge-container">
+        {% for badge in site.data.badges[slug] %}
+          <span class="label" tooltip="{{ site.data.badges[badge] }}">{{ badge }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
       <div class="text-quote">
         <ul>
           {% if schema_data.type == "tableschema" %}
