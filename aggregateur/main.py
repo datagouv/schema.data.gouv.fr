@@ -16,7 +16,7 @@ from git.exc import GitError
 
 
 class Metadata(object):
-    BASE_DOMAIN = "https://schema-datagouv.antoine-augusti.fr"
+    BASE_DOMAIN = "https://schema.data.gouv.fr"
 
     def __init__(self):
         super(Metadata, self).__init__()
