@@ -16,7 +16,7 @@ catalogue:
   email: scdl@opendatafrance.email
 deliberations:
   url: https://git.opendatafrance.net/scdl/deliberations.git
-  type:
+  type: tableschema
   email: scdl@opendatafrance.email
 equipements:
   url: https://git.opendatafrance.net/scdl/equipements.git
