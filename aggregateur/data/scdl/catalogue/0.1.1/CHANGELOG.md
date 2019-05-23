@@ -1,0 +1,19 @@
+---
+homepage: https://git.opendatafrance.net/scdl/catalogue
+permalink: /scdl/catalogue/latest/changelog.html
+redirect_from: /scdl/catalogue/0.1.1/changelog.html
+title: CHANGELOG de Catalogue simplifié
+version: 0.1.1
+---
+
+# changelog
+
+# 0.1.0 -> 0.1.1
+- ajout du fichier CHANGELOG.md
+- mise à jour de schema.json
+  - ajout de la propriété `updated`
+  - renommage de la propriété `example` en `examples`
+  - retrait des limites de taille sur les champs (contrainte `maxLength`)
+
+# 0.1.0
+- version initiale du schéma
