@@ -126,16 +126,7 @@ class TableSchemaValidator(BaseValidator):
         self.move_files(files)
 
     def check_extra_keys(self):
-        keys = [
-            "title",
-            "description",
-            "author",
-            "contact",
-            "version",
-            "created",
-            "updated",
-            "homepage",
-        ]
+        keys = ["title", "description", "author", "homepage"]
         for key in [k for k in keys if k not in self.schema_json_data()]:
             message = "Key `%s` is a required key and is missing from %s" % (
                 key,

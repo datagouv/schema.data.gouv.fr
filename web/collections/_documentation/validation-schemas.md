@@ -25,8 +25,10 @@ Les dépôts contenant des schémas au format [Table Schema](https://frictionles
     + `title` : le titre du schéma. Exemple : `Base adresse locale` ;
     + `description` : une description du schéma. Exemple : `Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)`;
     + `author` : l'auteur du schéma. Exemple : `OpenDataFrance` ;
-    + `contact` : une adresse e-mail de contact. Exemple `info@etalab.gouv.fr`
-    + `version` : la version du schéma, respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
-    + `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-24` ;
-    + `updated` : la date de dernière mise à jour du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-28` ;
     + `homepage` : une URL vers le dépôt Git contenant le schéma. Exemple : `https://git.opendatafrance.net/scdl/adresses`.
+
+En prévision d'une évolution future de la spécification TableSchema, nous vous recommandons d'ajouter les clés supplémentaires suivantes à la racine du document JSON :
+- `contact` : une adresse e-mail de contact. Exemple `info@etalab.gouv.fr`
+- `version` : la version du schéma, respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
+- `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-24` ;
+- `updated` : la date de dernière mise à jour du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-28`.
