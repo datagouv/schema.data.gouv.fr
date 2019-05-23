@@ -22,10 +22,6 @@ equipements:
   url: https://git.opendatafrance.net/scdl/equipements.git
   type: tableschema
   email: scdl@opendatafrance.email
-marches-publics:
-  url: https://git.opendatafrance.net/scdl/marches-publics.git
-  type: tableschema
-  email: scdl@opendatafrance.email
 prenoms:
   url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
   type: tableschema
