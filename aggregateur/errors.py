@@ -18,13 +18,7 @@ class ErrorsCache(object):
         self.new_errors = {}
 
     def should_send_notification(self, email, exceptions):
-        if email not in self.errors:
-            return True
-        time_difference = datetime.datetime.utcnow() - datetime.datetime.fromisoformat(
-            self.errors[email]["last_error"]
-        )
-        too_old = time_difference >= self.TIME_DIFFERENCE_REPEAT_NOTIFICATION
-        should_warn = self.is_new_error(email, exceptions) or too_old
+        should_warn = self.is_new_error(email, exceptions) or self.is_too_old(email)
         if should_warn:
             self.set_error_time(email)
         return should_warn
@@ -33,6 +27,12 @@ class ErrorsCache(object):
         if email not in self.errors:
             return True
         return self.errors[email]["hash"] != self.new_errors[email]["hash"]
+
+    def is_too_old(self, email):
+        time_difference = datetime.datetime.utcnow() - datetime.datetime.fromisoformat(
+            self.errors[email]["last_error"]
+        )
+        return time_difference >= self.TIME_DIFFERENCE_REPEAT_NOTIFICATION
 
     def add_error(self, email, exceptions):
         self.new_errors[email] = {"hash": self.hash(exceptions)}
