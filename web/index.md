@@ -2,7 +2,7 @@
 layout: page
 ---
 
-`schema.data.gouv.fr` est l'initiative de [data.gouv.fr](https://www.data.gouv.fr) de référencement des schémas de données d'intérêt général pour la France.
+`schema.data.gouv.fr` est l'initiative de [data.gouv.fr](https://www.data.gouv.fr) de référencement des schémas de données publiques pour la France.
 
 ## Qu'est-ce qu'un schéma ?
 Les schémas de données permettent de décrire des modèles de données : quels sont les différents champs, comment sont représentées les données, quelles sont les valeurs possibles etc.

@@ -9,7 +9,7 @@ order: 1
 Tout acteur est libre de proposer le référencement de schémas.
 
 ## Quels schémas sont acceptés ?
-`schema.data.gouv.fr` accepte des schémas décrivant des données d'intérêt général.
+`schema.data.gouv.fr` accepte des schémas décrivant des données publiques.
 
 Actuellement, nous acceptons les schémas dont l'existence est justifiée par voie :
 - réglementaire : le schéma a été introduit par une disposition réglementaire ;
