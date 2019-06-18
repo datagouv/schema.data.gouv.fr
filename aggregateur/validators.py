@@ -94,6 +94,50 @@ class BaseValidator(object):
         return os.path.join(self.git_repo.working_dir, filename)
 
     def front_matter_for(self, filename):
+        version = self.repo.current_version
+        slug = self.repo.slug
+
+        if filename == "README.md":
+            if self.is_latest_version():
+                permalink = "/%s/%s.html" % (slug, "latest")
+                redirect_from = "/%s/%s.html" % (slug, version)
+            else:
+                permalink = "/%s/%s.html" % (slug, version)
+                redirect_from = None
+
+            return {
+                "permalink": permalink,
+                "title": self.title,
+                "version": version,
+                "redirect_from": redirect_from,
+            }
+        if filename == "documentation.md":
+            if self.is_latest_version():
+                permalink = "/%s/%s/documentation.html" % (slug, "latest")
+                redirect_from = "/%s/%s/documentation.html" % (slug, version)
+            else:
+                permalink = "/%s/%s/documentation.html" % (slug, version)
+                redirect_from = None
+
+            return {
+                "permalink": permalink,
+                "title": "Documentation de " + self.title,
+                "version": version,
+                "redirect_from": redirect_from,
+            }
+        if filename == self.CHANGELOG_FILENAME:
+            if not self.is_latest_version():
+                raise ValueError
+            self.has_changelog = True
+            permalink = "/%s/%s/changelog.html" % (slug, "latest")
+            redirect_from = "/%s/%s/changelog.html" % (slug, version)
+
+            return {
+                "permalink": permalink,
+                "title": "CHANGELOG de " + self.title,
+                "version": version,
+                "redirect_from": redirect_from,
+            }
         return None
 
     def is_latest_version(self):
@@ -106,6 +150,7 @@ class XsdSchemaValidator(BaseValidator):
         self.has_changelog = False
         self.title = None
         self.description = None
+        self.homepage = None
         self.schemas_config = None
 
     def schemas(self):
@@ -137,7 +182,6 @@ class XsdSchemaValidator(BaseValidator):
                 self.homepage = config["homepage"]
                 for schema in config["schemas"]:
                     self.validate_xsd_schema(schema["path"], schema["title"])
-
         except Exception as e:
             message = "`schemas.yml` has not the required format: " + repr(e)
             raise exceptions.InvalidSchemaException(self.repo, message)
@@ -170,38 +214,6 @@ class XsdSchemaValidator(BaseValidator):
 
         self.move_files(files)
 
-    def front_matter_for(self, filename):
-        version = self.repo.current_version
-        slug = self.repo.slug
-
-        if filename == "README.md":
-            if self.is_latest_version():
-                permalink = "/%s/%s.html" % (slug, "latest")
-                redirect_from = "/%s/%s.html" % (slug, version)
-            else:
-                permalink = "/%s/%s.html" % (slug, version)
-                redirect_from = None
-
-            return {
-                "permalink": permalink,
-                "title": self.title,
-                "version": version,
-                "redirect_from": redirect_from,
-            }
-        if filename == self.CHANGELOG_FILENAME:
-            if not self.is_latest_version():
-                raise ValueError
-            permalink = "/%s/%s/changelog.html" % (slug, "latest")
-            redirect_from = "/%s/%s/changelog.html" % (slug, version)
-
-            return {
-                "permalink": permalink,
-                "title": "CHANGELOG de " + self.title,
-                "version": version,
-                "redirect_from": redirect_from,
-            }
-        return None
-
     def metadata(self):
         return {
             "slug": self.repo.slug,
@@ -232,9 +244,21 @@ class TableSchemaValidator(BaseValidator):
             {
                 "path": self.SCHEMA_FILENAME,
                 "original_path": self.SCHEMA_FILENAME,
-                "title": self.schema_json_data()["title"],
+                "title": self.title,
             }
         ]
+
+    @property
+    def title(self):
+        return self.schema_json_data()["title"]
+
+    @property
+    def description(self):
+        return self.schema_json_data()["description"]
+
+    @property
+    def homepage(self):
+        return self.schema_json_data()["homepage"]
 
     def validate(self):
         super(TableSchemaValidator, self).validate()
@@ -281,53 +305,6 @@ class TableSchemaValidator(BaseValidator):
             )
             raise exceptions.InvalidSchemaException(self.repo, message)
 
-    def front_matter_for(self, filename):
-        version = self.repo.current_version
-        slug = self.repo.slug
-
-        if filename == "README.md":
-            if self.is_latest_version():
-                permalink = "/%s/%s.html" % (slug, "latest")
-                redirect_from = "/%s/%s.html" % (slug, version)
-            else:
-                permalink = "/%s/%s.html" % (slug, version)
-                redirect_from = None
-
-            return {
-                "permalink": permalink,
-                "title": self.schema_json_data()["title"],
-                "version": version,
-                "redirect_from": redirect_from,
-            }
-        if filename == "documentation.md":
-            if self.is_latest_version():
-                permalink = "/%s/%s/documentation.html" % (slug, "latest")
-                redirect_from = "/%s/%s/documentation.html" % (slug, version)
-            else:
-                permalink = "/%s/%s/documentation.html" % (slug, version)
-                redirect_from = None
-
-            return {
-                "permalink": permalink,
-                "title": self.schema_json_data()["title"],
-                "version": version,
-                "redirect_from": redirect_from,
-            }
-        if filename == self.CHANGELOG_FILENAME:
-            if not self.is_latest_version():
-                raise ValueError
-            self.has_changelog = True
-            permalink = "/%s/%s/changelog.html" % (slug, "latest")
-            redirect_from = "/%s/%s/changelog.html" % (slug, version)
-
-            return {
-                "permalink": permalink,
-                "title": "CHANGELOG de " + self.schema_json_data()["title"],
-                "version": version,
-                "redirect_from": redirect_from,
-            }
-        return None
-
     def schema_json_data(self):
         if self.schema_data is not None:
             return self.schema_data
@@ -339,9 +316,9 @@ class TableSchemaValidator(BaseValidator):
     def metadata(self):
         return {
             "slug": self.repo.slug,
-            "title": self.schema_json_data()["title"],
-            "description": self.schema_json_data()["description"],
-            "homepage": self.schema_json_data()["homepage"],
+            "title": self.title,
+            "description": self.description,
+            "homepage": self.homepage,
             "type": self.repo.schema_type,
             "email": self.repo.email,
             "version": self.repo.current_version,
