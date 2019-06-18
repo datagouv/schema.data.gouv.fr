@@ -61,7 +61,7 @@ class Metadata(object):
     def generate_toml(self):
         toml_data = {}
         for slug, details in self.data.items():
-            if details != "tableschema":
+            if details["type"] != "tableschema":
                 continue
             toml_data[slug] = {
                 "title": details["title"],
