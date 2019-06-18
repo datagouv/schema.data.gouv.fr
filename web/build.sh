@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 bundle install
 
-cp -r /Users/antoineaugusti/Documents/schema.data.gouv.fr/aggregateur/data/. collections/_schemas/
-cp /Users/antoineaugusti/Documents/schema.data.gouv.fr/aggregateur/data/schemas.yml _data/
+wget https://github.com/etalab/schema.data.gouv.fr/archive/master.zip -O /tmp/schema.data.gouv.fr.zip
+unzip /tmp/schema.data.gouv.fr.zip -d /tmp
+cp -r /tmp/schema.data.gouv.fr-master/aggregateur/data/. collections/_schemas/
+cp /tmp/schema.data.gouv.fr-master/aggregateur/data/schemas.yml _data/
 bundle exec jekyll build
 
 # Add headers' rules for Netlify
