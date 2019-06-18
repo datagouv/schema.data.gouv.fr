@@ -42,9 +42,6 @@ class BaseValidator(object):
     def metadata(self):
         raise NotImplementedError
 
-    def schemas(self):
-        raise NotImplementedError
-
     def move_files(self, files):
         if not os.path.exists(self.target_dir):
             os.makedirs(self.target_dir)
@@ -154,9 +151,6 @@ class XsdSchemaValidator(BaseValidator):
         self.homepage = None
         self.schemas_config = None
 
-    def schemas(self):
-        return [s["path"] for s in self.schemas_metadata()]
-
     def schemas_metadata(self):
         res = []
         for schema in self.schemas_config:
@@ -255,9 +249,6 @@ class TableSchemaValidator(BaseValidator):
         super(TableSchemaValidator, self).__init__(repo)
         self.schema_data = None
         self.has_changelog = False
-
-    def schemas(self):
-        return ["schema.json"]
 
     def schemas_metadata(self):
         return [
