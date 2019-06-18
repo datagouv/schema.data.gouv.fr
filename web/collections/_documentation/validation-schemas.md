@@ -32,3 +32,23 @@ En prévision d'une évolution future de la spécification TableSchema, nous vou
 - `version` : la version du schéma, respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
 - `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-24` ;
 - `updated` : la date de dernière mise à jour du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-28`.
+
+## Validations spécifiques au format XML Schema Definition (XSD)
+Les dépôts contenant des schémas au format [XML Schema Definition](https://www.w3.org/TR/xmlschema11-1/) (XSD) subissent les validations supplémentaires suivantes :
+
+- le dépôt doit comporter un fichier `schemas.yml` à la racine du dépôt spécifiant l'emplacement des schémas dans le dépôt ;
+- les schémas doivent respecter la norme XSD 1.1.
+
+Le fichier `schemas.yml` doit avoir le format suivant :
+```yaml
+title: "Le titre du schéma"
+description : "Une description du schéma"
+homepage: "https://example.com/home"
+schemas:
+  -
+    path: "schemas/foo.xsd"
+    title: "Une description de ce sous-schéma"
+  -
+    path: "schemas/bar.xsd"
+    title: "Une description de ce sous-schéma"
+```

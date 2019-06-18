@@ -1,12 +1,14 @@
 import os
 import shutil
 import json
-
 import exceptions
 
+import yaml
 import tableschema
-from table_schema_to_markdown import convert_source
 import frontmatter
+from lxml import etree
+
+from table_schema_to_markdown import convert_source
 
 
 class BaseValidator(object):
@@ -36,6 +38,12 @@ class BaseValidator(object):
     def extract(self):
         raise NotImplementedError
 
+    def metadata(self):
+        raise NotImplementedError
+
+    def schemas(self):
+        raise NotImplementedError
+
     def move_files(self, files):
         if not os.path.exists(self.target_dir):
             os.makedirs(self.target_dir)
@@ -59,10 +67,11 @@ class BaseValidator(object):
 
         # Always copy schema to latest directory since versions
         # are sorted
-        shutil.copyfile(
-            self.filepath(self.SCHEMA_FILENAME),
-            self.target_latest_filepath(self.SCHEMA_FILENAME),
-        )
+        for schema in self.schemas_metadata():
+            shutil.copyfile(
+                self.filepath(schema["original_path"]),
+                self.target_latest_filepath(schema["path"]),
+            )
 
     def check_file_exists(self, filename):
         if not os.path.isfile(self.filepath(filename)):
@@ -88,8 +97,123 @@ class BaseValidator(object):
         return None
 
     def is_latest_version(self):
-
         return self.repo.current_tag == self.repo.latest_valid_tag()
+
+
+class XsdSchemaValidator(BaseValidator):
+    def __init__(self, repo):
+        super(XsdSchemaValidator, self).__init__(repo)
+        self.has_changelog = False
+        self.title = None
+        self.description = None
+        self.schemas_config = None
+
+    def schemas(self):
+        return [s["path"] for s in self.schemas_metadata()]
+
+    def schemas_metadata(self):
+        res = []
+        for schema in self.schemas_config:
+            res.append(
+                {
+                    "path": os.path.basename(schema["path"]),
+                    "original_path": schema["path"],
+                    "title": schema["title"],
+                }
+            )
+
+        return res
+
+    def validate(self):
+        super(XsdSchemaValidator, self).validate()
+        self.check_file_exists("schemas.yml")
+
+        try:
+            with open(self.filepath("schemas.yml"), "r") as f:
+                config = yaml.safe_load(f)
+                self.schemas_config = config["schemas"]
+                self.title = config["title"]
+                self.description = config["description"]
+                self.homepage = config["homepage"]
+                for schema in config["schemas"]:
+                    self.validate_xsd_schema(schema["path"], schema["title"])
+
+        except Exception as e:
+            message = "`schemas.yml` has not the required format: " + repr(e)
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+    def validate_xsd_schema(self, path, title):
+        try:
+            etree.XMLSchema(etree.parse(self.filepath(path)))
+        except Exception as e:
+            message = "XSD schema %s at `%s` is not valid. Errors: %s" % (
+                title,
+                path,
+                repr(e),
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+    def extract(self):
+        files = {
+            "README.md": self.filepath_or_none("README.md"),
+            "SEE_ALSO.md": self.filepath_or_none("SEE_ALSO.md"),
+            "CONTEXT.md": self.filepath_or_none("CONTEXT.md"),
+        }
+
+        for schema in self.schemas_metadata():
+            files[schema["path"]] = self.filepath(schema["original_path"])
+
+        if self.is_latest_version():
+            changelog_path = self.filepath_or_none(self.CHANGELOG_FILENAME)
+            files[self.CHANGELOG_FILENAME] = changelog_path
+            self.has_changelog = changelog_path is not None
+
+        self.move_files(files)
+
+    def front_matter_for(self, filename):
+        version = self.repo.current_version
+        slug = self.repo.slug
+
+        if filename == "README.md":
+            if self.is_latest_version():
+                permalink = "/%s/%s.html" % (slug, "latest")
+                redirect_from = "/%s/%s.html" % (slug, version)
+            else:
+                permalink = "/%s/%s.html" % (slug, version)
+                redirect_from = None
+
+            return {
+                "permalink": permalink,
+                "title": self.title,
+                "version": version,
+                "redirect_from": redirect_from,
+            }
+        if filename == self.CHANGELOG_FILENAME:
+            if not self.is_latest_version():
+                raise ValueError
+            permalink = "/%s/%s/changelog.html" % (slug, "latest")
+            redirect_from = "/%s/%s/changelog.html" % (slug, version)
+
+            return {
+                "permalink": permalink,
+                "title": "CHANGELOG de " + self.title,
+                "version": version,
+                "redirect_from": redirect_from,
+            }
+        return None
+
+    def metadata(self):
+        return {
+            "slug": self.repo.slug,
+            "title": self.title,
+            "description": self.description,
+            "homepage": self.homepage,
+            "type": self.repo.schema_type,
+            "email": self.repo.email,
+            "version": self.repo.current_version,
+            "has_changelog": self.has_changelog,
+            "schemas": self.schemas_metadata(),
+        }
 
 
 class TableSchemaValidator(BaseValidator):
@@ -99,6 +223,18 @@ class TableSchemaValidator(BaseValidator):
         super(TableSchemaValidator, self).__init__(repo)
         self.schema_data = None
         self.has_changelog = False
+
+    def schemas(self):
+        return ["schema.json"]
+
+    def schemas_metadata(self):
+        return [
+            {
+                "path": self.SCHEMA_FILENAME,
+                "original_path": self.SCHEMA_FILENAME,
+                "title": self.schema_json_data()["title"],
+            }
+        ]
 
     def validate(self):
         super(TableSchemaValidator, self).validate()
@@ -161,7 +297,6 @@ class TableSchemaValidator(BaseValidator):
                 "permalink": permalink,
                 "title": self.schema_json_data()["title"],
                 "version": version,
-                "homepage": self.schema_json_data()["homepage"],
                 "redirect_from": redirect_from,
             }
         if filename == "documentation.md":
@@ -176,7 +311,6 @@ class TableSchemaValidator(BaseValidator):
                 "permalink": permalink,
                 "title": self.schema_json_data()["title"],
                 "version": version,
-                "homepage": self.schema_json_data()["homepage"],
                 "redirect_from": redirect_from,
             }
         if filename == self.CHANGELOG_FILENAME:
@@ -190,7 +324,6 @@ class TableSchemaValidator(BaseValidator):
                 "permalink": permalink,
                 "title": "CHANGELOG de " + self.schema_json_data()["title"],
                 "version": version,
-                "homepage": self.schema_json_data()["homepage"],
                 "redirect_from": redirect_from,
             }
         return None
@@ -208,8 +341,10 @@ class TableSchemaValidator(BaseValidator):
             "slug": self.repo.slug,
             "title": self.schema_json_data()["title"],
             "description": self.schema_json_data()["description"],
+            "homepage": self.schema_json_data()["homepage"],
             "type": self.repo.schema_type,
             "email": self.repo.email,
             "version": self.repo.current_version,
             "has_changelog": self.has_changelog,
+            "schemas": self.schemas_metadata(),
         }
