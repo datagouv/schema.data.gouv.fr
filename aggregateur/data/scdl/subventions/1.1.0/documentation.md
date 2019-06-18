@@ -1,7 +1,7 @@
 ---
 permalink: /scdl/subventions/1.1.0/documentation.html
 redirect_from: null
-title: Schéma SCDL Subventions
+title: Documentation de Schéma SCDL Subventions
 version: 1.1.0
 ---
 

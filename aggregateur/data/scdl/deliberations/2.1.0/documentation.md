@@ -1,7 +1,7 @@
 ---
 permalink: /scdl/deliberations/2.1.0/documentation.html
 redirect_from: null
-title: Délibérations
+title: Documentation de Délibérations
 version: 2.1.0
 ---
 

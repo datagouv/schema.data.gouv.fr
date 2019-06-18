@@ -1,7 +1,7 @@
 ---
 permalink: /scdl/subventions/latest/documentation.html
 redirect_from: /scdl/subventions/2.0.0/documentation.html
-title: Subventions
+title: Documentation de Subventions
 version: 2.0.0
 ---
 

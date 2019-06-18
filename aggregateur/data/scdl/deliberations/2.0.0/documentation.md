@@ -1,7 +1,7 @@
 ---
 permalink: /scdl/deliberations/2.0.0/documentation.html
 redirect_from: null
-title: Schéma SCDL Délibérations
+title: Documentation de Schéma SCDL Délibérations
 version: 2.0.0
 ---
 

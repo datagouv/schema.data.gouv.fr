@@ -1,7 +1,7 @@
 ---
 permalink: /etalab/schema-irve/latest/documentation.html
 redirect_from: /etalab/schema-irve/1.0.1/documentation.html
-title: Infrastructures de recharge de véhicules électriques
+title: Documentation de Infrastructures de recharge de véhicules électriques
 version: 1.0.1
 ---
 

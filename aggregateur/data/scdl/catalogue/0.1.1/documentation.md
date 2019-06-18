@@ -1,7 +1,7 @@
 ---
 permalink: /scdl/catalogue/latest/documentation.html
 redirect_from: /scdl/catalogue/0.1.1/documentation.html
-title: Catalogue simplifié
+title: Documentation de Catalogue simplifié
 version: 0.1.1
 ---
 

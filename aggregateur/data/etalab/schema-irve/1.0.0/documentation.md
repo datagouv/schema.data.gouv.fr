@@ -1,7 +1,7 @@
 ---
 permalink: /etalab/schema-irve/1.0.0/documentation.html
 redirect_from: null
-title: Schéma IRVE
+title: Documentation de Schéma IRVE
 version: 1.0.0
 ---
 
