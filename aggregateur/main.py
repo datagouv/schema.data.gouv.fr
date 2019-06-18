@@ -3,7 +3,7 @@ import os
 from functools import cmp_to_key
 
 import exceptions
-from validators import TableSchemaValidator, XsdSchemaValidator
+from validators import TableSchemaValidator, XsdSchemaValidator, JsonSchemaValidator
 from notifications import EmailNotification
 from errors import ErrorBag, ErrorsCache
 
@@ -74,7 +74,7 @@ class Metadata(object):
 
 
 class Repo(object):
-    SCHEMA_TYPES = ["tableschema", "xsd"]
+    SCHEMA_TYPES = ["tableschema", "xsd", "jsonschema"]
 
     def __init__(self, git_url, email, schema_type):
         super(Repo, self).__init__()
@@ -114,9 +114,12 @@ class Repo(object):
     def validator(self):
         if self.schema_type == "tableschema":
             return TableSchemaValidator(self)
-        if self.schema_type == "xsd":
+        elif self.schema_type == "xsd":
             return XsdSchemaValidator(self)
-        raise NotImplementedError
+        elif self.schema_type == "jsonschema":
+            return JsonSchemaValidator(self)
+        else:
+            raise NotImplementedError
 
     def clone_or_pull(self):
         try:

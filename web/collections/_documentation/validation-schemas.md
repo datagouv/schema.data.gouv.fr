@@ -4,6 +4,11 @@ title: "Validation des schémas"
 order: 2
 ---
 # Validation des schémas
+
+{:.no_toc}
+- TOC
+{:toc}
+
 Seuls les schémas considérés comme valides sont intégrés sur `schema.data.gouv.fr`. Si votre schéma comporte plusieurs versions, seules les versions valides seront automatiquement intégrées.
 
 Pour tous les types de schéma, il faut que :
@@ -50,5 +55,25 @@ schemas:
     title: "Une description de ce sous-schéma"
   -
     path: "schemas/bar.xsd"
+    title: "Une description de ce sous-schéma"
+```
+
+## Validations spécifiques au format JSON Schema
+Les dépôts contenant des schémas au format [JSON Schema](https://json-schema.org/) subissent les validations supplémentaires suivantes :
+
+- le dépôt doit comporter un fichier `schemas.yml` à la racine du dépôt spécifiant l'emplacement des schémas dans le dépôt ;
+- les schémas doivent respecter une des normes JSON Schema.
+
+Le fichier `schemas.yml` doit avoir le format suivant :
+```yaml
+title: "Le titre du schéma"
+description : "Une description du schéma"
+homepage: "https://example.com/home"
+schemas:
+  -
+    path: "schemas/foo.json"
+    title: "Une description de ce sous-schéma"
+  -
+    path: "schemas/bar.json"
     title: "Une description de ce sous-schéma"
 ```

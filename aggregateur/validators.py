@@ -5,6 +5,7 @@ import exceptions
 
 import yaml
 import tableschema
+import jsonschema
 import frontmatter
 from lxml import etree
 
@@ -39,9 +40,6 @@ class BaseValidator(object):
         raise NotImplementedError
 
     def metadata(self):
-        raise NotImplementedError
-
-    def schemas(self):
         raise NotImplementedError
 
     def move_files(self, files):
@@ -153,9 +151,6 @@ class XsdSchemaValidator(BaseValidator):
         self.homepage = None
         self.schemas_config = None
 
-    def schemas(self):
-        return [s["path"] for s in self.schemas_metadata()]
-
     def schemas_metadata(self):
         res = []
         for schema in self.schemas_config:
@@ -181,12 +176,12 @@ class XsdSchemaValidator(BaseValidator):
                 self.description = config["description"]
                 self.homepage = config["homepage"]
                 for schema in config["schemas"]:
-                    self.validate_xsd_schema(schema["path"], schema["title"])
+                    self.check_schema(schema["path"], schema["title"])
         except Exception as e:
             message = "`schemas.yml` has not the required format: " + repr(e)
             raise exceptions.InvalidSchemaException(self.repo, message)
 
-    def validate_xsd_schema(self, path, title):
+    def check_schema(self, path, title):
         try:
             etree.XMLSchema(etree.parse(self.filepath(path)))
         except Exception as e:
@@ -228,6 +223,25 @@ class XsdSchemaValidator(BaseValidator):
         }
 
 
+class JsonSchemaValidator(XsdSchemaValidator):
+    def __init__(self, repo):
+        super(JsonSchemaValidator, self).__init__(repo)
+
+    def check_schema(self, path, title):
+        try:
+            with open(self.filepath(path)) as f:
+                schema_data = json.load(f)
+            validator = jsonschema.validators.validator_for(schema_data)
+            validator.check_schema(schema_data)
+        except Exception as e:
+            message = "JSON Schema %s at `%s` is not valid. Errors: %s" % (
+                title,
+                path,
+                repr(e),
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+
 class TableSchemaValidator(BaseValidator):
     SCHEMA_FILENAME = "schema.json"
 
@@ -235,9 +249,6 @@ class TableSchemaValidator(BaseValidator):
         super(TableSchemaValidator, self).__init__(repo)
         self.schema_data = None
         self.has_changelog = False
-
-    def schemas(self):
-        return ["schema.json"]
 
     def schemas_metadata(self):
         return [
