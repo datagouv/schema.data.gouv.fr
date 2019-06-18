@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/equipements
 permalink: /scdl/equipements/latest/documentation.html
 redirect_from: /scdl/equipements/0.1.0/documentation.html
 title: Equipements

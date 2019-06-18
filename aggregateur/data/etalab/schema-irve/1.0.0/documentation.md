@@ -1,5 +1,4 @@
 ---
-homepage: https://github.com/etalab/schema-irve
 permalink: /etalab/schema-irve/1.0.0/documentation.html
 redirect_from: null
 title: Schéma IRVE

@@ -1,5 +1,4 @@
 ---
-homepage: https://github.com/etalab/schema-irve
 permalink: /etalab/schema-irve/latest/changelog.html
 redirect_from: /etalab/schema-irve/1.0.1/changelog.html
 title: CHANGELOG de Infrastructures de recharge de véhicules électriques

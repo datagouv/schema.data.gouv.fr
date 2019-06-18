@@ -1,5 +1,4 @@
 ---
-homepage: https://github.com/etalab/schema-irve
 permalink: /etalab/schema-irve/latest.html
 redirect_from: /etalab/schema-irve/1.0.1.html
 title: Infrastructures de recharge de véhicules électriques

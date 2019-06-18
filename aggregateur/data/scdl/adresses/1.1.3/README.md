@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/adresses
 permalink: /scdl/adresses/latest.html
 redirect_from: /scdl/adresses/1.1.3.html
 title: Base adresse locale

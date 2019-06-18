@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/subventions
 permalink: /scdl/subventions/latest/changelog.html
 redirect_from: /scdl/subventions/2.0.0/changelog.html
 title: CHANGELOG de Subventions

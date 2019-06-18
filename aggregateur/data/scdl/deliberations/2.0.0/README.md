@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/deliberations
 permalink: /scdl/deliberations/2.0.0.html
 redirect_from: null
 title: Schéma SCDL Délibérations

@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/deliberations
 permalink: /scdl/deliberations/latest/changelog.html
 redirect_from: /scdl/deliberations/2.1.2/changelog.html
 title: CHANGELOG de Délibérations

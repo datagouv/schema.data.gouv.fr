@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/deliberations
 permalink: /scdl/deliberations/latest/documentation.html
 redirect_from: /scdl/deliberations/2.1.2/documentation.html
 title: Délibérations

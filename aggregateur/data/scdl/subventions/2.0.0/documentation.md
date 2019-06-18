@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/subventions
 permalink: /scdl/subventions/latest/documentation.html
 redirect_from: /scdl/subventions/2.0.0/documentation.html
 title: Subventions

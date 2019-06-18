@@ -2,7 +2,12 @@ etalab/schema-decp-dpa:
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: info@data.gouv.fr
   has_changelog: false
+  homepage: https://github.com/etalab/schema-decp-dpa
   latest_version: 1.0.0
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Spécification du fichier de déclaration de profil d'acheteur
   title: Spécification du fichier de déclaration de profil d'acheteur
   type: tableschema
   versions:
@@ -13,7 +18,12 @@ etalab/schema-irve:
     points de recharge pour véhicules électriques
   email: info@data.gouv.fr
   has_changelog: true
+  homepage: https://github.com/etalab/schema-irve
   latest_version: 1.0.1
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Schéma IRVE
   title: Schéma IRVE
   type: tableschema
   versions:
@@ -24,7 +34,12 @@ scdl/adresses:
     collectivité (BAL)
   email: scdl@opendatafrance.email
   has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/adresses
   latest_version: 1.1.3
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Base adresse locale
   title: Base adresse locale
   type: tableschema
   versions:
@@ -34,7 +49,12 @@ scdl/catalogue:
     données publiés en open data par une collectivité
   email: scdl@opendatafrance.email
   has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/catalogue
   latest_version: 0.1.1
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Catalogue simplifié
   title: Catalogue simplifié
   type: tableschema
   versions:
@@ -44,7 +64,12 @@ scdl/deliberations:
     Commun des Données Locales).
   email: scdl@opendatafrance.email
   has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/deliberations
   latest_version: 2.1.2
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Schéma SCDL Délibérations
   title: Schéma SCDL Délibérations
   type: tableschema
   versions:
@@ -58,7 +83,12 @@ scdl/equipements:
     publics d'une collectivité.
   email: scdl@opendatafrance.email
   has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/equipements
   latest_version: 0.1.0
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Equipements
   title: Equipements
   type: tableschema
   versions:
@@ -68,7 +98,12 @@ scdl/subventions:
     des Données Locales).
   email: scdl@opendatafrance.email
   has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/subventions
   latest_version: 2.0.0
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Schéma SCDL Subventions
   title: Schéma SCDL Subventions
   type: tableschema
   versions:

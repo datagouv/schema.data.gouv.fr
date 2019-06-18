@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/adresses
 permalink: /scdl/adresses/latest/changelog.html
 redirect_from: /scdl/adresses/1.1.3/changelog.html
 title: CHANGELOG de Base adresse locale

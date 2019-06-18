@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/subventions
 permalink: /scdl/subventions/1.1.0/documentation.html
 redirect_from: null
 title: Schéma SCDL Subventions

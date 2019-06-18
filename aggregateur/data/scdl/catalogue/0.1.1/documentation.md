@@ -1,5 +1,4 @@
 ---
-homepage: https://git.opendatafrance.net/scdl/catalogue
 permalink: /scdl/catalogue/latest/documentation.html
 redirect_from: /scdl/catalogue/0.1.1/documentation.html
 title: Catalogue simplifié
