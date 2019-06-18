@@ -5,6 +5,7 @@ import exceptions
 
 import yaml
 import tableschema
+import jsonschema
 import frontmatter
 from lxml import etree
 
@@ -181,12 +182,12 @@ class XsdSchemaValidator(BaseValidator):
                 self.description = config["description"]
                 self.homepage = config["homepage"]
                 for schema in config["schemas"]:
-                    self.validate_xsd_schema(schema["path"], schema["title"])
+                    self.check_schema(schema["path"], schema["title"])
         except Exception as e:
             message = "`schemas.yml` has not the required format: " + repr(e)
             raise exceptions.InvalidSchemaException(self.repo, message)
 
-    def validate_xsd_schema(self, path, title):
+    def check_schema(self, path, title):
         try:
             etree.XMLSchema(etree.parse(self.filepath(path)))
         except Exception as e:
@@ -226,6 +227,25 @@ class XsdSchemaValidator(BaseValidator):
             "has_changelog": self.has_changelog,
             "schemas": self.schemas_metadata(),
         }
+
+
+class JsonSchemaValidator(XsdSchemaValidator):
+    def __init__(self, repo):
+        super(JsonSchemaValidator, self).__init__(repo)
+
+    def check_schema(self, path, title):
+        try:
+            with open(self.filepath(path)) as f:
+                schema_data = json.load(f)
+            validator = jsonschema.validators.validator_for(schema_data)
+            validator.check_schema(schema_data)
+        except Exception as e:
+            message = "JSON Schema %s at `%s` is not valid. Errors: %s" % (
+                title,
+                path,
+                repr(e),
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
 
 
 class TableSchemaValidator(BaseValidator):
