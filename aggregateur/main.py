@@ -114,11 +114,12 @@ class Repo(object):
     def validator(self):
         if self.schema_type == "tableschema":
             return TableSchemaValidator(self)
-        if self.schema_type == "xsd":
+        elif self.schema_type == "xsd":
             return XsdSchemaValidator(self)
-        if self.schema_type == "jsonschema":
+        elif self.schema_type == "jsonschema":
             return JsonSchemaValidator(self)
-        raise NotImplementedError
+        else:
+            raise NotImplementedError
 
     def clone_or_pull(self):
         try:
