@@ -26,6 +26,7 @@ Vous devez ajouter votre dépôt Git en modifiant le fichier [`repertoires.yml`]
 - `type` : le type de schéma que vous ajoutez. Les types supportés sont pour le moment :
     + `tableschema`, pour un schéma au format [Table Schema](https://frictionlessdata.io/specs/table-schema/)
     + `xsd`, pour un schéma au format [XML Schema Definition](https://www.w3.org/TR/xmlschema11-1/) (XSD)
+    + `jsonschema`, pour un schéma au format [JSON Schema](https://json-schema.org/)
 - `email` : une adresse de courriel qui sera utilisée en cas d'erreurs lors de la validation et de l'intégration de votre schéma.
 
 Voici un exemple complet pour ajouter le schéma decp-dpa, au format Table Schema, maintenu par l'équipe de data.gouv.fr.
