@@ -109,7 +109,7 @@ class XsdSchemaValidator(BaseValidator):
         self.schemas_config = None
 
     def schemas(self):
-        return [s["path"] for s in self.schemas_config]
+        return [s["path"] for s in self.schemas_metadata()]
 
     def schemas_metadata(self):
         res = []
