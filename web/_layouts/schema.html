@@ -27,8 +27,10 @@ layout: default
           {% if schema_data.has_changelog %}
           <li><a href="{{ slug | append: '/latest/changelog.html' | relative_url }}">Changements sur ce schéma</a></li>
           {% endif %}
-          <li><a href="{{ '/schemas/' | append: slug | append: '/' | append: page.version | append: '/schema.json' | relative_url }}">Schéma {{ schema_data.type }} {{ page.version }}</a></li>
-          <li><a href="{{ page.homepage }}" title="Page d'accueil du schéma">Répertoire Git du schéma</a></li>
+          {% for schema in schema_data.schemas %}
+          <li><a href="{{ '/schemas/' | append: slug | append: '/' | append: page.version | append: '/' | append: schema.path | relative_url }}">Schéma {{ schema.title }} {{ page.version }} (format {{ schema_data.type }})</a></li>
+          {% endfor %}
+          <li><a href="{{ schema_data.homepage }}" title="Page d'accueil du schéma">Répertoire Git du schéma</a></li>
           <li>Contact : {{ schema_data.email }}</li>
           <li>Versions disponibles :
             <ul>
