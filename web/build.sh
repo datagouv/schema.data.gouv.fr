@@ -9,6 +9,8 @@ bundle exec jekyll build
 
 # Add headers' rules for Netlify
 cp _headers _site/
+# Add redirection rules for Netlify
+cp _redirects _site/
 
 # Zip the schemas folder and include it in the published website
 cd collections && mv _schemas schemas && zip -r schemas.zip schemas/ && mv schemas _schemas && mv schemas.zip ../_site/schemas/
