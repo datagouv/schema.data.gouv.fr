@@ -29,6 +29,20 @@ etalab/schema-irve:
   versions:
   - 1.0.0
   - 1.0.1
+etalab/schema-lieux-covoiturage:
+  description: Spécification des lieux permettant le covoiturage
+  email: info@data.gouv.fr
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-lieux-covoiturage
+  latest_version: 0.0.1
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Lieux de covoiturage
+  title: Lieux de covoiturage
+  type: tableschema
+  versions:
+  - 0.0.1
 scdl/adresses:
   description: Spécification du modèle de données relatif aux adresses locales d’une
     collectivité (BAL)

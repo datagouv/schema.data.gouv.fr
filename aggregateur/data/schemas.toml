@@ -46,3 +46,10 @@ description = "Schéma validant le format relatif aux subventions du SCDL (Socle
 version = "2.0.0"
 doc_url = "https://schema.data.gouv.fr/scdl/subventions/latest.html"
 schema = "https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json"
+
+["etalab/schema-lieux-covoiturage"]
+title = "Lieux de covoiturage"
+description = "Spécification des lieux permettant le covoiturage"
+version = "0.0.1"
+doc_url = "https://schema.data.gouv.fr/etalab/schema-lieux-covoiturage/latest.html"
+schema = "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json"
