@@ -30,3 +30,7 @@ subventions:
   url: https://git.opendatafrance.net/scdl/subventions.git
   type: tableschema
   email: scdl@opendatafrance.email
+covoiturage:
+  url: https://github.com/etalab/schema-lieux-covoiturage.git
+  type: tableschema
+  email: info@data.gouv.fr
