@@ -8,16 +8,6 @@
     "description": "Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)",
     "uri": "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.3/schema.json",
     "homepage": "https://git.opendatafrance.net/scdl/adresses",
-    "examples": [
-        {
-            "name": "Adresses fictives invalides",
-            "url": "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.3/exemples/exemple_invalide.csv"
-        },
-        {
-            "name": "Adresses de Bayonne avril 2018",
-            "url": "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.3/exemples/20180424_bal_216401026.csv"
-        }
-    ],
     "fields": [
         {
             "name": "cle_interop",
