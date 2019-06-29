@@ -31,7 +31,7 @@ etalab/schema-irve:
   - 1.0.1
 etalab/schema-lieux-covoiturage:
   description: Spécification des lieux permettant le covoiturage
-  email: info@data.gouv.fr
+  email: contact@transport.beta.gouv.fr
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   latest_version: 0.0.1
