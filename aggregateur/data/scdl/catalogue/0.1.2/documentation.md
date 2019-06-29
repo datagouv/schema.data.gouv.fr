@@ -1,19 +1,19 @@
 ---
-permalink: /scdl/catalogue/0.1.1/documentation.html
-redirect_from: null
+permalink: /scdl/catalogue/latest/documentation.html
+redirect_from: /scdl/catalogue/0.1.2/documentation.html
 title: Documentation de Catalogue simplifié
-version: 0.1.1
+version: 0.1.2
 ---
 
-## Catalogue simplifié
+## catalogue
+
+Catalogue simplifié
 
 Spécification du modèle de données relatif au catalogue des jeux de données publiés en open data par une collectivité
 
-- Auteur : OpenDataFrance
-- Contributeurs : Thomas Bekkers, Loïc Haÿ
 - Schéma créé le : 11/20/18
 - Site web : https://git.opendatafrance.net/scdl/catalogue
-- Version : 0.1.1
+- Version : 0.1.2
 
 ### Modèle de données
 

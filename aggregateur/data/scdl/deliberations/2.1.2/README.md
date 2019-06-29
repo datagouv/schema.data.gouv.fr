@@ -1,6 +1,6 @@
 ---
-permalink: /scdl/deliberations/latest.html
-redirect_from: /scdl/deliberations/2.1.2.html
+permalink: /scdl/deliberations/2.1.2.html
+redirect_from: null
 title: Délibérations
 version: 2.1.2
 ---

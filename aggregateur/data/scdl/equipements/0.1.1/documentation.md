@@ -1,19 +1,19 @@
 ---
-permalink: /scdl/equipements/0.1.0/documentation.html
-redirect_from: null
-title: Documentation de Equipements
-version: 0.1.0
+permalink: /scdl/equipements/latest/documentation.html
+redirect_from: /scdl/equipements/0.1.1/documentation.html
+title: Documentation de Équipements
+version: 0.1.1
 ---
 
-## Equipements
+## equipements
 
-Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité.
+Équipements
 
-- Auteur : OpenDataFrance
-- Contributeurs : Romain Buchaut, Loïc Haÿ, Charles Nepote, Pierre Dittgen
+Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité
+
 - Schéma créé le : 11/20/18
 - Site web : https://git.opendatafrance.net/scdl/equipements
-- Version : 0.1.0
+- Version : 0.1.1
 
 ### Modèle de données
 

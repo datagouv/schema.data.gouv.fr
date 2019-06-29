@@ -1,6 +1,6 @@
 ---
-permalink: /scdl/catalogue/latest.html
-redirect_from: /scdl/catalogue/0.1.1.html
+permalink: /scdl/catalogue/0.1.1.html
+redirect_from: null
 title: Catalogue simplifié
 version: 0.1.1
 ---

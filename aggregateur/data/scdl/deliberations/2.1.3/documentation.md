@@ -1,18 +1,19 @@
 ---
-permalink: /scdl/deliberations/2.1.2/documentation.html
-redirect_from: null
+permalink: /scdl/deliberations/latest/documentation.html
+redirect_from: /scdl/deliberations/2.1.3/documentation.html
 title: Documentation de Délibérations
-version: 2.1.2
+version: 2.1.3
 ---
 
-## Délibérations
+## deliberations
+
+Délibérations
 
 Spécification du modèle de données relatif aux délibérations adoptées par une collectivité locale
 
-- Auteur : OpenDataFrance
 - Schéma créé le : 05/23/18
 - Site web : https://git.opendatafrance.net/scdl/deliberations
-- Version : 2.1.2
+- Version : 2.1.3
 
 ### Modèle de données
 

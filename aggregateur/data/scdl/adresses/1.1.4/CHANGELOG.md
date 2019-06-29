@@ -1,13 +1,19 @@
 ---
 permalink: /scdl/adresses/latest/changelog.html
-redirect_from: /scdl/adresses/1.1.3/changelog.html
+redirect_from: /scdl/adresses/1.1.4/changelog.html
 title: CHANGELOG de Base adresse locale
-version: 1.1.3
+version: 1.1.4
 ---
 
 # Changelog
 
-# 1.1.2 -> 1.1.3
+# 1.1.4
+
+Changements internes :
+
+- utilisation des [métadonnées standardisées](https://github.com/frictionlessdata/specs/blob/master/specs/patterns.md#table-schema-metadata-properties)
+
+# 1.1.3
 
 Changements internes :
 
@@ -18,7 +24,7 @@ Changements internes :
 - suppression de la contrainte `required` sur le champ `suffixe`
 - amélioration des titres et descriptions
 
-## 1.1.1 -> 1.1.2
+## 1.1.2
 
 Changements internes :
 
@@ -26,7 +32,7 @@ Changements internes :
 - rétablissement de la contrainte `required` pour le champ `numero`
 - abandon de la contrainte `required` pour les champs `x`, `y`, `lat`, `long`
 
-## 1.1 -> 1.1.1
+## 1.1.1
 
 Changements internes :
 

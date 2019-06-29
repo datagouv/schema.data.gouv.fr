@@ -1,6 +1,6 @@
 ---
-permalink: /scdl/adresses/latest.html
-redirect_from: /scdl/adresses/1.1.3.html
+permalink: /scdl/adresses/1.1.3.html
+redirect_from: null
 title: Base adresse locale
 version: 1.1.3
 ---

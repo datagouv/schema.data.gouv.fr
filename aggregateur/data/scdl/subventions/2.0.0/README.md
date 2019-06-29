@@ -1,6 +1,6 @@
 ---
-permalink: /scdl/subventions/latest.html
-redirect_from: /scdl/subventions/2.0.0.html
+permalink: /scdl/subventions/2.0.0.html
+redirect_from: null
 title: Subventions
 version: 2.0.0
 ---

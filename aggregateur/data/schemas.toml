@@ -15,35 +15,35 @@ schema = "https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/latest/sche
 ["scdl/adresses"]
 title = "Base adresse locale"
 description = "Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)"
-version = "1.1.3"
+version = "1.1.4"
 doc_url = "https://schema.data.gouv.fr/scdl/adresses/latest.html"
 schema = "https://schema.data.gouv.fr/schemas/scdl/adresses/latest/schema.json"
 
 ["scdl/catalogue"]
 title = "Catalogue simplifié"
 description = "Spécification du modèle de données relatif au catalogue des jeux de données publiés en open data par une collectivité"
-version = "0.1.1"
+version = "0.1.2"
 doc_url = "https://schema.data.gouv.fr/scdl/catalogue/latest.html"
 schema = "https://schema.data.gouv.fr/schemas/scdl/catalogue/latest/schema.json"
 
 ["scdl/deliberations"]
 title = "Schéma SCDL Délibérations"
 description = "Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des Données Locales)."
-version = "2.1.2"
+version = "2.1.3"
 doc_url = "https://schema.data.gouv.fr/scdl/deliberations/latest.html"
 schema = "https://schema.data.gouv.fr/schemas/scdl/deliberations/latest/schema.json"
 
 ["scdl/equipements"]
 title = "Equipements"
 description = "Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité."
-version = "0.1.0"
+version = "0.1.1"
 doc_url = "https://schema.data.gouv.fr/scdl/equipements/latest.html"
 schema = "https://schema.data.gouv.fr/schemas/scdl/equipements/latest/schema.json"
 
 ["scdl/subventions"]
 title = "Schéma SCDL Subventions"
 description = "Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Données Locales)."
-version = "2.0.0"
+version = "2.0.1"
 doc_url = "https://schema.data.gouv.fr/scdl/subventions/latest.html"
 schema = "https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json"
 

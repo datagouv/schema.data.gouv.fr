@@ -1,18 +1,19 @@
 ---
-permalink: /scdl/adresses/1.1.3/documentation.html
-redirect_from: null
+permalink: /scdl/adresses/latest/documentation.html
+redirect_from: /scdl/adresses/1.1.4/documentation.html
 title: Documentation de Base adresse locale
-version: 1.1.3
+version: 1.1.4
 ---
 
-## Base adresse locale
+## adresses
+
+Base adresse locale
 
 Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)
 
-- Auteur : OpenDataFrance
 - Schéma créé le : 05/30/18
 - Site web : https://git.opendatafrance.net/scdl/adresses
-- Version : 1.1.3
+- Version : 1.1.4
 
 ### Modèle de données
 
