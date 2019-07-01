@@ -19,7 +19,7 @@ etalab/schema-irve:
   email: info@data.gouv.fr
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
-  latest_version: 1.0.1
+  latest_version: 1.0.2
   schemas:
   - original_path: schema.json
     path: schema.json
@@ -29,6 +29,7 @@ etalab/schema-irve:
   versions:
   - 1.0.0
   - 1.0.1
+  - 1.0.2
 etalab/schema-lieux-covoiturage:
   description: Spécification des lieux permettant le covoiturage
   email: contact@transport.beta.gouv.fr

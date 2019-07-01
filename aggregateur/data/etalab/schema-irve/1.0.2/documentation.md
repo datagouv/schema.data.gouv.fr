@@ -1,20 +1,19 @@
 ---
-permalink: /etalab/schema-irve/1.0.1/documentation.html
-redirect_from: null
-title: Documentation de Infrastructures de recharge de véhicules électriques
-version: 1.0.1
+permalink: /etalab/schema-irve/latest/documentation.html
+redirect_from: /etalab/schema-irve/1.0.2/documentation.html
+title: Documentation de Infrastructures de recharge pour véhicules électriques
+version: 1.0.2
 ---
 
-## Infrastructures de recharge de véhicules électriques
+## irve
+
+Infrastructures de recharge pour véhicules électriques
 
 Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques
 
-- Auteur : Alexandre Bulté pour Etalab
-- Contributeurs : Charles Nepote, Pierre Dittgen, Johan Richer
 - Schéma créé le : 06/29/18
 - Site web : https://github.com/etalab/schema-irve
-- Données d'exemple : https://github.com/etalab/schema-irve/raw/v1.0.1/exemple-valide.csv
-- Version : 1.0.1
+- Version : 1.0.2
 - Clé primaire : `id_pdc`
 
 ### Modèle de données
