@@ -49,14 +49,18 @@ etalab/schema-irve:
   - 1.0.1
 ```
 
-Un extrait du fichier `schemas.toml` (accessible directement à l'adresse <https://schema.data.gouv.fr/schemas/schemas.toml>), permettant l'intégration avec [Validata](https://validata.fr) :
-```toml
-["etalab/schema-irve"]
-title = "Schéma IRVE"
-description = "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques"
-version = "1.0.1"
-doc_url = "https://schema.data.gouv.fr/etalab/schema-irve/latest.html"
-schema = "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/schema.json"
+Un extrait du fichier `schemas.json` (accessible directement à l'adresse <https://schema.data.gouv.fr/schemas/schemas.json>), permettant l'intégration avec [Validata](https://validata.fr) :
+```json
+{
+    "$schema":"https://opendataschema.frama.io/catalog/schema-catalog.json",
+    "version":1,
+    "schemas":[
+        {
+            "name":"etalab/schema-decp-dpa",
+            "schema_url":"https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/latest/schema.json"
+        }
+    ]
+}
 ```
 
 ## URLs stables

@@ -8,7 +8,7 @@ from notifications import EmailNotification
 from errors import ErrorBag, ErrorsCache
 
 import yaml
-import toml
+import json
 import giturlparse
 from semver import VersionInfo, cmp as SemverCmp
 from git import Repo as GitRepo
@@ -54,23 +54,25 @@ class Metadata(object):
         with open("data/schemas.yml", "w") as f:
             yaml.dump(self.get(), f, allow_unicode=True)
 
-        # Save in TOML
-        with open("data/schemas.toml", "w") as f:
-            toml.dump(self.generate_toml(), f)
+        # Save in JSON
+        with open("data/schemas.json", "w") as f:
+            json.dump(self.generate_json(), f)
 
-    def generate_toml(self):
-        toml_data = {}
+    def generate_json(self):
+        json_data = {
+            "$schema": "https://opendataschema.frama.io/catalog/schema-catalog.json",
+            "version": 1,
+        }
+        schemas = []
+
         for slug, details in self.data.items():
             if details["type"] != "tableschema":
                 continue
-            toml_data[slug] = {
-                "title": details["title"],
-                "description": details["description"],
-                "version": details["latest_version"],
-                "doc_url": "https://schema.data.gouv.fr/%s/latest.html" % slug,
-                "schema": self.schema_url(slug),
-            }
-        return toml_data
+            schemas.append({"name": slug, "schema_url": self.schema_url(slug)})
+
+        json_data["schemas"] = schemas
+
+        return json_data
 
 
 class Repo(object):
