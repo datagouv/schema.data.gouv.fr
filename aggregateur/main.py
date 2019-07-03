@@ -68,7 +68,14 @@ class Metadata(object):
         for slug, details in self.data.items():
             if details["type"] != "tableschema":
                 continue
-            schemas.append({"name": slug, "schema_url": self.schema_url(slug)})
+            schemas.append(
+                {
+                    "name": slug,
+                    "title": details["title"],
+                    "description": details["description"],
+                    "schema_url": self.schema_url(slug),
+                }
+            )
 
         json_data["schemas"] = schemas
 
