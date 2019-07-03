@@ -56,7 +56,7 @@ class Metadata(object):
 
         # Save in JSON
         with open("data/schemas.json", "w") as f:
-            json.dump(self.generate_json(), f)
+            json.dump(self.generate_json(), f, ensure_ascii=False)
 
     def generate_json(self):
         json_data = {
