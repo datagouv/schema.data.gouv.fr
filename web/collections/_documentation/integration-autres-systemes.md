@@ -58,7 +58,7 @@ Un extrait du fichier `schemas.json` (accessible directement à l'adresse <https
         {
             "name":"etalab/schema-decp-dpa",
             "title": "Spécification du fichier de déclaration de profil d'acheteur",
-            "description": "Spécification du fichier de déclaration de profil d'acheteur"
+            "description": "Spécification du fichier de déclaration de profil d'acheteur",
             "schema_url":"https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/latest/schema.json"
         }
     ]
