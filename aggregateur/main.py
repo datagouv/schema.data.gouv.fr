@@ -56,7 +56,7 @@ class Metadata(object):
 
         # Save in JSON
         with open("data/schemas.json", "w") as f:
-            json.dump(self.generate_json(), f)
+            json.dump(self.generate_json(), f, ensure_ascii=False)
 
     def generate_json(self):
         json_data = {
@@ -68,7 +68,14 @@ class Metadata(object):
         for slug, details in self.data.items():
             if details["type"] != "tableschema":
                 continue
-            schemas.append({"name": slug, "schema_url": self.schema_url(slug)})
+            schemas.append(
+                {
+                    "name": slug,
+                    "title": details["title"],
+                    "description": details["description"],
+                    "schema_url": self.schema_url(slug),
+                }
+            )
 
         json_data["schemas"] = schemas
 
