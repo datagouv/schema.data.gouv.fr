@@ -1,25 +1,36 @@
-<nav class="side-pane">
+<nav class="side-pane" role="navigation">
+  <div class="return-datagouvfr">
+      <a href="https://www.data.gouv.fr">Revenir sur data.gouv.fr</a>
+  </div>
   <ul class="side-pane__menu">
     {% assign collections = site.collections %}
     {% for collection in collections %}
       {% if collection.docs and collection.label != "schemas" %}
-      <li class="side-pane__title"><h3>{{ collection.title }}</h3></li>
+      <a>{{ collection.title }}</a>
       {% assign docs =  collection.docs | sort: 'order' %}
-      {% for col_page in docs %}
-      <li {% if page.id == col_page.id %}class="active"{% endif %}>
+      <li class="side-pane__dropdown unfolded">
+        <ul class="side-pane__submenu">
+        {% for col_page in docs %}
+        <li {% if page.id == col_page.id %}class="active"{% endif %}>
           <a class="side-pane__link" href="{{ col_page.url | relative_url }}">{{ col_page.title | escape }}</a>
+        </li>
+        {% endfor %}
+        </ul>
       </li>
-      {% endfor %}
       {% endif %}
     {% endfor %}
 
-    <li class="side-pane__title"><h3>Schémas</h3></li>
-    {% for schema in site.data.schemas %}
-        {% assign slug = schema[0] %}
-        {% assign details = schema[1] %}
-        <li {% if page.url contains slug %}class="active"{% endif %}>
-          <a class="side-pane__link" href="{{ slug | append: '/latest.html' | relative_url }}">{{ details.title }}</a>
-        </li>
-    {% endfor %}
+    <a>Schémas</a>
+    <li class="side-pane__dropdown unfolded">
+      <ul class="side-pane__submenu">
+        {% for schema in site.data.schemas %}
+            {% assign slug = schema[0] %}
+            {% assign details = schema[1] %}
+            <li {% if page.url contains slug %}class="active"{% endif %}>
+              <a class="side-pane__link" href="{{ slug | append: '/latest.html' | relative_url }}">{{ details.title }}</a>
+            </li>
+        {% endfor %}
+      </ul>
+    </li>
   </ul>
 </nav>

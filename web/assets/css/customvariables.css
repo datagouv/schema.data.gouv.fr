@@ -1,0 +1,17 @@
+:root {
+    --white: #FFFFFF;
+    --lighter-grey: #EBEFF3;
+    --light-grey: #C9D3DF;
+    --grey: #ADB9C9;
+    --dark-grey: #8393A7;
+    --darker-grey: #53657d;
+    --black: #1C1C1C;
+
+    --blue: #0053B3;
+    --light-blue: #006be6;
+    --dark-blue: #003b80;
+
+    --footer-light-blue: #2854B5;
+    --footer-medium-blue: #264EA6;
+    --footer-dark-blue: #274492;
+}

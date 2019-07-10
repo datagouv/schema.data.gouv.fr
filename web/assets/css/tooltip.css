@@ -1,24 +1,3 @@
-ul {
-  line-height: 1.5em;
-}
-
-.side-pane__link {
-  text-decoration: none;
-}
-
-.text-center {
-  text-align: center;
-}
-.edit {
-  margin-top: 2em;
-}
-
-.badge-container {
-  text-align: right;
-  margin-top: -1.5em;
-  margin-bottom: 3em;
-}
-
 [tooltip]:before {
   content: attr(tooltip);
   position: absolute;
