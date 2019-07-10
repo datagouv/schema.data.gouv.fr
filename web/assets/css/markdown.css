@@ -1,0 +1,122 @@
+.markdown {
+  /**
+    * Inline code
+    */
+  /**
+   * {% highlight %} blocks and fenced codeblocks
+   */
+  /**
+   * Non highlighted code block
+   */
+  /**
+   * Table of content
+   */
+  /**
+   * Tabs
+   */
+}
+.markdown h1 + .highlighter-rouge pre, .markdown h2 + .highlighter-rouge pre, .markdown h3 + .highlighter-rouge pre, .markdown h4 + .highlighter-rouge pre, .markdown h5 + .highlighter-rouge pre, .markdown h6 + .highlighter-rouge pre {
+  margin-top: 0;
+}
+.markdown h1 a.anchor, .markdown h2 a.anchor, .markdown h3 a.anchor, .markdown h4 a.anchor, .markdown h5 a.anchor, .markdown h6 a.anchor {
+  float: right;
+  text-decoration: none;
+}
+.markdown h1 a.anchor svg, .markdown h2 a.anchor svg, .markdown h3 a.anchor svg, .markdown h4 a.anchor svg, .markdown h5 a.anchor svg, .markdown h6 a.anchor svg {
+  height: 0.8em;
+  width: 0.8em;
+}
+.markdown h1 a.anchor svg use, .markdown h2 a.anchor svg use, .markdown h3 a.anchor svg use, .markdown h4 a.anchor svg use, .markdown h5 a.anchor svg use, .markdown h6 a.anchor svg use {
+  fill: var(--darker-grey);
+}
+.markdown img {
+  max-width: 100%;
+}
+.markdown code {
+  padding: 0 0.2em;
+  line-height: 1.2em;
+}
+.markdown .highlight {
+  margin: 0;
+  width: 100%;
+}
+.markdown .highlight pre {
+  width: 100%;
+  margin: 0;
+}
+.markdown .highlight code {
+  display: block;
+  width: 100%;
+  padding: 1em;
+}
+.markdown pre > code {
+  display: block;
+  width: 100%;
+  padding: 1em;
+}
+.markdown ul#markdown-toc {
+  display: inline-block;
+  background-color: #ebeff3;
+  border: 1px solid #c9d3df;
+  border-left-width: 8px;
+  padding: 10px 20px;
+}
+.markdown ul#markdown-toc:before {
+  content: "Sommaire";
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.markdown ul#markdown-toc li {
+  list-style-type: none;
+}
+.markdown ul#markdown-toc li ul {
+  padding-inline-start: 20px;
+}
+.markdown .tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.markdown .tabs label {
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin: 0 0.2rem 0 0;
+  cursor: pointer;
+  background: #fff;
+  font-weight: bold;
+  transition: background ease 0.2s;
+  border: 1px solid #ebeff3;
+  border-bottom: none;
+}
+.markdown .tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  background: #fff;
+}
+.markdown .tabs input[type=radio] {
+  display: none;
+}
+.markdown .tabs input[type=radio]:checked + label {
+  background: #ebeff3;
+}
+.markdown .tabs input[type=radio]:checked + label + .tab {
+  display: block;
+}
+@media (max-width: 45em) {
+  .markdown .tabs .tab, .markdown .tabs label {
+    order: initial;
+  }
+  .markdown .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+.markdown .tabs code {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

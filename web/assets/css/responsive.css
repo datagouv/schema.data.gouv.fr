@@ -3,3 +3,9 @@
         padding: 2em;
     }
 }
+
+@media (min-width: 1000px) {
+  .main-pane .markdown {
+    width: 44em;
+  }
+}

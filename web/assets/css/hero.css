@@ -1,7 +1,7 @@
-
 .hero {
   width: 100%;
   padding: 1em 0;
+  background: var(--theme-primary);
 }
 
 .hero__container {
@@ -11,11 +11,16 @@
   align-items: left;
 }
 
+@media (min-width: 1000px) {
+  .hero__container {
+    align-items: flex-start;
+    margin-left: 21rem;
+  }
+}
 .hero h1 {
   color: white;
 }
 
-// Vertically align "doc" part of the logo with "data.gouv.fr" one
 .navbar__domain {
- -webkit-padding-after: 4px;
+  -webkit-padding-after: 4px;
 }
