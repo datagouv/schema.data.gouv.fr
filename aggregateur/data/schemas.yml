@@ -35,7 +35,7 @@ etalab/schema-lieux-covoiturage:
   email: contact@transport.beta.gouv.fr
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
-  latest_version: 0.0.1
+  latest_version: 0.1.0
   schemas:
   - original_path: schema.json
     path: schema.json
@@ -44,6 +44,7 @@ etalab/schema-lieux-covoiturage:
   type: tableschema
   versions:
   - 0.0.1
+  - 0.1.0
 scdl/adresses:
   description: Spécification du modèle de données relatif aux adresses locales d’une
     collectivité (BAL)
