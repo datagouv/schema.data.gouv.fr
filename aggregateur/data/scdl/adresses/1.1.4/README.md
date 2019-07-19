@@ -24,12 +24,11 @@ L'utilisation de cette spécification requiert de prêter une attention toute pa
 * Contrairement aux recommandations applicables à toutes les spécifications SCDL, le modèle de l'AITF prévoit que le séparateur de colonnes du fichier tabulaire doit être le point-virgule et pas la virgule.
 * De même, les règles de nommage sont légèrement différentes : le nom du fichier comporte la date de création du jeu de données, la désignation du producteur et son code SIREN. Le tout sans espace ni accent et en minuscules, soit : AAAAMMJJ\_producteur\_siren.csv. Exemple : '20151004\_rennes\_213502388.csv'
 
-## Voir aussi
+## Outils
 
-La spécification du modèle de données peut être utilement complétée par les documents suivants :
-
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/adresses.xlsx)
-* [Schéma de validation](https://git.opendatafrance.net/scdl/adresses/blob/master/schema.json)
+* [![](../assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.adresses) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.adresses)
+* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fadresses)
+* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/adresses.xlsx)
 
 Pour faciliter la production et améliorer la qualité des données au format Base Adresse Locale, la mission Etalab de la DINSIC, met à disposition des outils dédiés sur le portail adresse.data.gouv.fr :
 
@@ -37,6 +36,8 @@ Pour faciliter la production et améliorer la qualité des données au format Ba
 * [L'éditeur BAL](https://adresse.data.gouv.fr/bases-locales/editeur) permet de créer et/ou de modifier un fichier BAL
 
 Les sources de ces outils sont disponibles sur le [dépôt Github de la mission Etalab](https://github.com/etalab/adresse.data.gouv.fr).
+
+## Voir aussi
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 

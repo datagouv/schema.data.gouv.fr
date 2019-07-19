@@ -23,7 +23,7 @@ De fait, la spécification SCDL du modèle de données relatif aux délibératio
 
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-deliberations.xlsx)
+* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/deliberations.xlsx)
 * [Schéma de validation](https://git.opendatafrance.net/scdl/deliberations/blob/master/schema.json)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
