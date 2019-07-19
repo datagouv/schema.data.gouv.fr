@@ -26,7 +26,7 @@ L'utilisation de cette spécification requiert de prêter une attention toute pa
 
 ## Outils
 
-* [![](../assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.adresses) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.adresses)
+* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.adresses) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.adresses)
 * [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fadresses)
 * [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/adresses.xlsx)
 
