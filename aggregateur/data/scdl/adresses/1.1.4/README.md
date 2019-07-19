@@ -28,7 +28,7 @@ L'utilisation de cette spécification requiert de prêter une attention toute pa
 
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-adresses.xlsx)
+* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/adresses.xlsx)
 * [Schéma de validation](https://git.opendatafrance.net/scdl/adresses/blob/master/schema.json)
 
 Pour faciliter la production et améliorer la qualité des données au format Base Adresse Locale, la mission Etalab de la DINSIC, met à disposition des outils dédiés sur le portail adresse.data.gouv.fr :
