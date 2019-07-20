@@ -20,12 +20,13 @@ Reformulée et affinée à l'issue de plusieurs expérimentations de terrain, la
 
 S'appuyant sur ces travaux, de nombreuses collectivités françaises ont pu constituer leur propre base locale et pour certaines les publier en open data. La spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité locale s'inscrit dans cette dynamique. Elle a été élaborée à partir des documents issus du groupe de travail EquipCo. Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
 
+## Outils
+
+* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.equipements) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.equipements)
+* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fequipements)
+* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/equipements.xlsx)
+
 ## Voir aussi
-
-La spécification du modèle de données peut être utilement complétée par les documents suivants :
-
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/equipements.xlsx)
-* [Schéma de validation](https://git.opendatafrance.net/scdl/equipements/blob/master/schema.json)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 

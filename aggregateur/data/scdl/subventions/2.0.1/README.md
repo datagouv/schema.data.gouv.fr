@@ -30,11 +30,13 @@ L'utilisation de cette spécification requiert de prêter une attention toute pa
 * Dans l'attente d'une [éventuelle modification](https://github.com/etalab/format-subventions/issues/2) mais contrairement à ce qui est pour le moment prévu dans le format réglementaire, cette spécification énonce que, pour **datesPeriodeVersement**,  le séparateur de dates pour une période est une barre oblique et pas un tiret du bas afin de respecter la norme internationale ISO 8601.
 * Pour s'y conformer, elle nécessite de créer une ligne par bénéficiaire et non une ligne par subvention. Dans le cas d'une subvention attribuée à plusieurs bénéficiaires, toutes les données de la subvention doivent être répétées à l'identique sur autant de lignes qu'il y a de bénéficiaires, à l'exception des champs suivants dont les valeurs varient : **nomBeneficiaire**, **idBeneficiaire**, et **pourcentageSubvention**. Dans certains cas, les champs **conditionsVersement** et **datesPeriodeVersement** peuvent également varier d'un bénéficiaire à un autre, pour une même subvention.
 
+## Outils
+
+* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.subventions) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.subventions)
+* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fsubventions)
+* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/subventions.xlsx)
+
 ## Voir aussi
-
-La spécification du modèle de données peut être utilement complétée par les documents suivants :
-
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-subventions.xlsx)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 

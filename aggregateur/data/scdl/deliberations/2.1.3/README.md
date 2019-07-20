@@ -19,12 +19,13 @@ Les processus de documentation, de transmission dématérialisée au contrôle d
 
 De fait, la spécification SCDL du modèle de données relatif aux délibérations adoptées par une collectivité locale a été élaborée en cherchant à garantir son accessibilité pour un usage par toutes les collectivités, mais aussi à préserver leur capacité à automatiser la production du jeu de données attendu.
 
+## Outils
+
+* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.deliberations) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.deliberations)
+* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fdeliberations)
+* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/deliberations.xlsx)
+
 ## Voir aussi
-
-La spécification du modèle de données peut être utilement complétée par les documents suivants :
-
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/deliberations.xlsx)
-* [Schéma de validation](https://git.opendatafrance.net/scdl/deliberations/blob/master/schema.json)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
