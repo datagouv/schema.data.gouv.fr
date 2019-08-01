@@ -15,7 +15,7 @@ Actuellement, nous acceptons les schémas dont l'existence est justifiée par vo
 - réglementaire : le schéma a été introduit par une disposition réglementaire ;
 - d'usage : la réutilisation des données décrites par le schéma bénéficie à un grand nombre ou de nombreux producteurs sont amenés à utiliser ce schéma.
 
-Etalab se réserve le droit de refuser l'ajout de schémas en motivant son refus. Vous pouvez [initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) préalablement à l'ouverture d'une _pull request_.
+Etalab se réserve le droit de refuser l'ajout de schémas en motivant son refus. Nous vous encourageons à [initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) avec l'équipe d'Etalab préalablement à l'ouverture d'une _pull request_.
 
 ## Référencer son schéma
 Afin d'ajouter un schéma sur le site `schema.data.gouv.fr`, il faut référencer votre dépôt Git contenant ce schéma.
