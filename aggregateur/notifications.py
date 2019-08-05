@@ -27,9 +27,14 @@ class EmailNotification(object):
                 }
             ]
         }
-        self.client().send.create(data=data)
+
+        if self.should_send_email():
+            self.client().send.create(data=data)
 
     def client(self):
         api_key = os.environ["MAILJET_APIKEY_PUBLIC"]
         api_secret = os.environ["MAILJET_APIKEY_PRIVATE"]
         return Client(auth=(api_key, api_secret), version="v3.1")
+
+    def should_send_email(self):
+        return os.environ.get("CIRCLE_BRANCH", "nope") == "master"
