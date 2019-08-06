@@ -45,6 +45,20 @@ etalab/schema-lieux-covoiturage:
   versions:
   - 0.0.1
   - 0.1.0
+metis-reseaux/infos-travaux:
+  description: Schéma permettant de décrire des projets de travaux d'infrastructure.
+  email: contact@gotmi.io
+  has_changelog: false
+  homepage: https://github.com/metis-reseaux/infos-travaux
+  latest_version: 0.0.2
+  schemas:
+  - original_path: informations_travaux.json
+    path: informations_travaux.json
+    title: Spécification du GeoJSON de publicité de travaux d'infrastructure.
+  title: Informations travaux
+  type: jsonschema
+  versions:
+  - 0.0.2
 scdl/adresses:
   description: Spécification du modèle de données relatif aux adresses locales d’une
     collectivité (BAL)
