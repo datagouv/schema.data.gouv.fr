@@ -68,7 +68,7 @@ Un extrait du fichier `schemas.json` (accessible directement à l'adresse <https
 ## URLs stables
 Nous proposons des URLs stables permettant de proposer des liens vers notre plateforme.
 
-Dans la documentation qui suit, nous utilisons plusieurs variables, définies de la manière suivante, suivant la syntaxe définie par le [RFC 6570](https://tools.ietf.org/html/rfc6570) :
+Dans la documentation qui suit, nous utilisons plusieurs variables, définies de la manière suivante, suivant la syntaxe définie par la [RFC 6570](https://tools.ietf.org/html/rfc6570) :
 - `{organisation}`, le nom de votre organisation ou utilisateur sur la forge que vous utilisez ;
 - `{dépôt}`, le nom du dépôt contenant votre schéma ;
 - `{version}`, la version du schéma que vous souhaitez, par exemple `1.2.3`.
