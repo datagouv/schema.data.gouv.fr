@@ -68,20 +68,20 @@ Un extrait du fichier `schemas.json` (accessible directement à l'adresse <https
 ## URLs stables
 Nous proposons des URLs stables permettant de proposer des liens vers notre plateforme.
 
-Dans la documentation qui suit, nous utilisons plusieurs variables, définies de la manière suivante :
-- `:organisation`, le nom de votre organisation ou utilisateur sur la forge que vous utilisez ;
-- `:dépôt`, le nom du dépôt contenant votre schéma ;
-- `:version`, la version du schéma que vous souhaitez, par exemple `1.2.3`.
+Dans la documentation qui suit, nous utilisons plusieurs variables, définies de la manière suivante, suivant la syntaxe définie par le [RFC 6570](https://tools.ietf.org/html/rfc6570) :
+- `{organisation}`, le nom de votre organisation ou utilisateur sur la forge que vous utilisez ;
+- `{dépôt}`, le nom du dépôt contenant votre schéma ;
+- `{version}`, la version du schéma que vous souhaitez, par exemple `1.2.3`.
 
 ### Documentation
-Les URLs des documentations web sont de la forme suivante : `https://schema.data.gouv.fr/:organisation/:dépôt/:version.html`.
+Les URLs des documentations web sont de la forme suivante : `https://schema.data.gouv.fr/{organisation}/{dépôt}/{version}.html`.
 
-Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `:version` par `latest`.
+Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `{version}` par `latest`.
 
 ### Schémas
-Les URLs des schémas valides sont propres au type de schéma. De manière générale, les URLs sont de la forme `https://schema.data.gouv.fr/schemas/:organisation/:dépôt/:fichier_schema`.
+Les URLs des schémas valides sont propres au type de schéma. De manière générale, les URLs sont de la forme `https://schema.data.gouv.fr/schemas/{organisation}/{dépôt}/{fichier_schema}`.
 
-La variable `:fichier_schema` varie suivant le type du schéma. Voici les valeurs utilisées par type de schéma :
-- pour `tableschema`, `:fichier_schema` est `schema.json`
+La variable `{fichier_schema}` varie suivant le type du schéma. Voici les valeurs utilisées par type de schéma :
+- pour `tableschema`, `{fichier_schema}` est `schema.json`
 
-Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `:version` par `latest`.
+Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `{version}` par `latest`.
