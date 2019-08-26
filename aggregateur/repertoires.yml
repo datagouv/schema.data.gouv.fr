@@ -2,6 +2,10 @@ irve:
   url: https://github.com/etalab/schema-irve.git
   type: tableschema
   email: info@data.gouv.fr
+format-commande-publique:
+  url: https://github.com/etalab/format-commande-publique.git
+  type: jsonschema
+  email: info@data.gouv.fr
 decp-dpa:
   url: https://github.com/etalab/schema-decp-dpa.git
   type: tableschema
