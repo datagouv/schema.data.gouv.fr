@@ -7,6 +7,9 @@ etalab/schema-lieux-covoiturage:
 etalab/schema-irve:
   - etalab
   - réglementaire
+etalab/format-commande-publique:
+  - etalab
+  - réglementaire
 etalab/schema-decp-dpa:
   - etalab
   - réglementaire
