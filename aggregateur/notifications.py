@@ -3,6 +3,8 @@ import os
 
 
 class EmailNotification(object):
+    EMAILS_BLACKLIST = ["info@data.gouv.fr"]
+
     def __init__(self, email_to, exceptions):
         super(EmailNotification, self).__init__()
         self.email_to = email_to
@@ -37,4 +39,6 @@ class EmailNotification(object):
         return Client(auth=(api_key, api_secret), version="v3.1")
 
     def should_send_email(self):
-        return os.environ.get("CIRCLE_BRANCH", "nope") == "master"
+        is_master = os.environ.get("CIRCLE_BRANCH", "nope") == "master"
+        no_blacklist = self.email_to not in self.EMAILS_BLACKLIST
+        return is_master and no_blacklist
