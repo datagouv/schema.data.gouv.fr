@@ -1,3 +1,21 @@
+etalab/format-commande-publique:
+  description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
+    commande publique
+  email: info@data.gouv.fr
+  has_changelog: false
+  homepage: https://github.com/etalab/format-commande-publique
+  latest_version: 1.3.0
+  schemas:
+  - original_path: schémas/json/contrats-concessions.json
+    path: contrats-concessions.json
+    title: Contrats de concessions
+  - original_path: schémas/json/marchés.json
+    path: marchés.json
+    title: Marchés
+  title: Données essentielles des marchés publics français
+  type: jsonschema
+  versions:
+  - 1.3.0
 etalab/schema-decp-dpa:
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: info@data.gouv.fr
