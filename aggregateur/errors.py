@@ -64,5 +64,19 @@ class ErrorBag(object):
             raise ValueError(
                 "Exception should be a ValidationException got %s" % type(exception)
             )
-        self.errors_by_slug[exception.repo.slug].append(exception)
-        self.errors_by_email[exception.repo.email].append(exception)
+
+        no_valid_tag, greater_version = False, False
+        try:
+            latest_valid_tag = exception.repo.latest_valid_tag()
+            no_valid_tag = latest_valid_tag is None
+            greater_version = (
+                not no_valid_tag and exception.repo.current_tag > latest_valid_tag
+            )
+        except ValidationException:
+            pass
+
+        # Only keep exceptions related to repos without valid tags
+        # or if tag is more recent than the latest valid one
+        if no_valid_tag or greater_version:
+            self.errors_by_slug[exception.repo.slug].append(exception)
+            self.errors_by_email[exception.repo.email].append(exception)
