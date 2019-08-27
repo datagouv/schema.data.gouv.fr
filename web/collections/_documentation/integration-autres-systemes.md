@@ -33,7 +33,7 @@ $ tree .
 └── schemas.yml
 ```
 
-Voici un extrait du fichier `schemas.yml` :
+Voici un extrait du fichier `schemas.yml` (accessible à l'adresse <https://schema.data.gouv.fr/schemas/schemas.yml>) :
 ```yaml
 etalab/schema-irve:
   description: Spécification du fichier d'échange relatif aux données concernant la
@@ -41,15 +41,21 @@ etalab/schema-irve:
     points de recharge pour véhicules électriques
   email: info@data.gouv.fr
   has_changelog: true
-  latest_version: 1.0.1
+  homepage: https://github.com/etalab/schema-irve
+  latest_version: 1.0.2
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Schéma IRVE
   title: Schéma IRVE
   type: tableschema
   versions:
   - 1.0.0
   - 1.0.1
+  - 1.0.2
 ```
 
-Un extrait du fichier `schemas.json` (accessible directement à l'adresse <https://schema.data.gouv.fr/schemas/schemas.json>), permettant l'intégration avec [Validata](https://validata.fr) :
+Un extrait du fichier `schemas.json` (accessible à l'adresse <https://schema.data.gouv.fr/schemas/schemas.json>), permettant l'intégration avec [Validata](https://validata.fr) :
 ```json
 {
     "$schema":"https://opendataschema.frama.io/catalog/schema-catalog.json",
@@ -82,6 +88,8 @@ Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous 
 Les URLs des schémas valides sont propres au type de schéma. De manière générale, les URLs sont de la forme `https://schema.data.gouv.fr/schemas/{organisation}/{dépôt}/{fichier_schema}`.
 
 La variable `{fichier_schema}` varie suivant le type du schéma. Voici les valeurs utilisées par type de schéma :
-- pour `tableschema`, `{fichier_schema}` est `schema.json`
+- pour `tableschema`, `{fichier_schema}` est `schema.json` ;
+- pour `jsonschema`, `{fichier_schema}` dépend du nom choisi par le producteur pour chaque schéma. Vous pouvez retrouver les noms des différents schémas à l'aide du fichier `schemas.yml` ;
+- pour `xsd`, `{fichier_schema}` dépend du nom choisi par le producteur pour chaque schéma. Vous pouvez retrouver les noms des différents schémas à l'aide du fichier `schemas.yml`.
 
 Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `{version}` par `latest`.
