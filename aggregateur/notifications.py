@@ -10,9 +10,15 @@ class EmailNotification(object):
 
     def send(self):
         errors = "\n".join(["- " + repr(e) for e in self.exceptions])
-        text = (
-            "Bonjour !\n\nDes erreurs sont survenues lors de la validation de vos schémas.\n\n%s\n\nMerci de corriger ces erreurs."
-            % errors
+        text = "\n\n".join(
+            [
+                "Bonjour,",
+                "Cet e-mail est envoyé suite à votre soumission de schéma sur schema.data.gouv.fr",
+                "Des erreurs sont survenues lors de la validation de vos schémas :",
+                errors,
+                "Merci de corriger ces erreurs. Une fois ces erreurs corrigées, vos modifications seront intégrées sans action supplémentaire de votre part",
+                "L'équipe de data.gouv.fr",
+            ]
         )
         data = {
             "Messages": [
