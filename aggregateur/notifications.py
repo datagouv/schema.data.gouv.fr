@@ -3,6 +3,8 @@ import os
 
 
 class EmailNotification(object):
+    VALIDATION_DOC_URL = "https://schema.data.gouv.fr/documentation/validation-schemas"
+
     def __init__(self, email_to, exceptions):
         super(EmailNotification, self).__init__()
         self.email_to = email_to
@@ -17,6 +19,7 @@ class EmailNotification(object):
                 "Des erreurs sont survenues lors de la validation de vos schémas :",
                 errors,
                 "Merci de corriger ces erreurs. Une fois ces erreurs corrigées, vos modifications seront intégrées sans action supplémentaire de votre part",
+                f"Vous pouvez consulter la documentation détaillant les validations effectuées sur les schémas : {self.VALIDATION_DOC_URL}.",
                 "L'équipe de data.gouv.fr",
             ]
         )
