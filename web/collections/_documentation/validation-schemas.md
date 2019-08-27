@@ -5,7 +5,7 @@ order: 2
 ---
 # Validation des schémas
 
-Cette page décrit comment sont validés les schémas avant leur intégration sur `schema.data.gouv.fr` et non comment utilisés des schémas pour valider des données.
+Cette page décrit comment sont validés les schémas avant leur intégration sur `schema.data.gouv.fr` et non comment utiliser des schémas pour valider des données.
 
 {:.no_toc}
 - TOC
