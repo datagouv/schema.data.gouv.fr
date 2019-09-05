@@ -24,9 +24,8 @@ jobs:
       - run:
           name: Generate locale
           command: |
-            sudo locale-gen fr fr_FR fr_FR.UTF-8
-            export LC_ALL="fr_FR.UTF-8"
-            sudo dpkg-reconfigure locales
+            echo "fr_FR.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
+            sudo locale-gen
       - run:
           name: Create folders
           command: |
