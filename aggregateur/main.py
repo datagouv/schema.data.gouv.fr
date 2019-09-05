@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import locale
 from functools import cmp_to_key
 
 import exceptions
@@ -200,6 +201,8 @@ class Repo(object):
             self, "Version is invalid: %s" % version
         )
 
+
+locale.setlocale(locale.LC_ALL, "fr_FR")
 
 errors = ErrorBag()
 
