@@ -24,8 +24,8 @@ jobs:
       - run:
           name: Generate locale
           command: |
-            sudo locale-gen fr_FR.UTF-8
-            sudo update-locale
+            sudo locale-gen fr fr_FR fr_FR.UTF-8
+            sudo dpkg-reconfigure locales
       - run:
           name: Create folders
           command: |
