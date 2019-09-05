@@ -22,6 +22,11 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
       - run:
+          name: Generate locale
+          command: |
+            sudo locale-gen fr_FR.UTF-8
+            sudo update-locale
+      - run:
           name: Create folders
           command: |
             mkdir repos
