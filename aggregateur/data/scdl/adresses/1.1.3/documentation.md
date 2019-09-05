@@ -10,7 +10,7 @@ version: 1.1.3
 Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)
 
 - Auteur : OpenDataFrance
-- Schéma créé le : 05/30/18
+- Schéma créé le : 30/05/2018
 - Site web : https://git.opendatafrance.net/scdl/adresses
 - Version : 1.1.3
 

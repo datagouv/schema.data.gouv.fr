@@ -11,7 +11,7 @@ Subventions
 
 Spécification du modèle de données relatif aux subventions attribuées par une collectivité
 
-- Schéma créé le : 04/27/18
+- Schéma créé le : 27/04/2018
 - Site web : https://git.opendatafrance.net/scdl/subventions
 - Version : 2.0.1
 

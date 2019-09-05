@@ -10,7 +10,7 @@ version: 2.0.0
 Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des Données Locales).
 
 - Auteur : OpenDataFrance
-- Schéma créé le : 05/23/18
+- Schéma créé le : 23/05/2018
 - Site web : https://git.opendatafrance.net/scdl/deliberations
 - Version : 2.0
 

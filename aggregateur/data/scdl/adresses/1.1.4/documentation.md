@@ -11,7 +11,7 @@ Base adresse locale
 
 Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)
 
-- Schéma créé le : 05/30/18
+- Schéma créé le : 30/05/2018
 - Site web : https://git.opendatafrance.net/scdl/adresses
 - Version : 1.1.4
 

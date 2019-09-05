@@ -10,7 +10,7 @@ version: 1.1.0
 Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Données Locales).
 
 - Auteur : OpenDataFrance
-- Schéma créé le : 04/27/18
+- Schéma créé le : 27/04/2018
 - Site web : https://git.opendatafrance.net/scdl/subventions
 - Version : 1.1
 
