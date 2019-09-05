@@ -202,7 +202,7 @@ class Repo(object):
         )
 
 
-locale.setlocale(locale.LC_ALL, "fr_FR")
+locale.setlocale(locale.LC_ALL, "fr_FR.UTF-8")
 
 errors = ErrorBag()
 
