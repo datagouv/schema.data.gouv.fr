@@ -22,7 +22,7 @@ Afin d'ajouter un schéma sur le site `schema.data.gouv.fr`, il faut référence
 
 Vous devez ajouter votre dépôt Git en modifiant le fichier [`repertoires.yml`](https://github.com/etalab/schema.data.gouv.fr/blob/master/aggregateur/repertoires.yml) en y faisant figurer les informations suivantes :
 
-- `url` : un lien HTTPS vers le dépôt Git contenant le schéma que vous souhaitez ajouter. Ce dépôt doit pouvoir être clôné depuis Internet sans authentification préalable ;
+- `url` : un lien HTTPS vers le dépôt Git contenant le schéma que vous souhaitez ajouter. Ce dépôt doit pouvoir être cloné depuis Internet sans authentification préalable ;
 - `type` : le type de schéma que vous ajoutez. Les types supportés sont pour le moment :
     + `tableschema`, pour un schéma au format [Table Schema](https://frictionlessdata.io/specs/table-schema/)
     + `xsd`, pour un schéma au format [XML Schema Definition](https://www.w3.org/TR/xmlschema11-1/) (XSD)
