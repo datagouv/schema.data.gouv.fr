@@ -6,7 +6,7 @@
 
 Ce dépôt a pour but de rassembler les différents schémas de données produits par Etalab et la communauté. Ces schémas peuvent concerner des formats réglementaires (dont le schéma est fixé par arrêté) ou d'autres formats dont les schémas sont mis à disposition à titre de bonne pratique.
 
-## Formats non réglementaires
+## Formats non régis par une obligation réglementaire
 
 ### Sur ce dépôt
 
