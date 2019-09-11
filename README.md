@@ -6,14 +6,7 @@
 
 Ce dépôt a pour but de rassembler les différents schémas de données produits par Etalab et la communauté. Ces schémas peuvent concerner des formats réglementaires (dont le schéma est fixé par arrêté) ou d'autres formats dont les schémas sont mis à disposition à titre de bonne pratique.
 
-## Formats réglementaires
-
-- [Infrastructures de recharge pour véhicules électriques](https://github.com/etalab/schema-irve)
-- [Déclaration de profil d'acheteur](https://github.com/etalab/schema-decp-dpa)
-- [Données des subventions publiques](https://github.com/etalab/format-subventions)
-- [Données essentielles de la commande publique](https://github.com/etalab/format-commande-publique)
-
-## Autres formats
+## Formats non réglementaires
 
 ### Sur ce dépôt
 
