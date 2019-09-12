@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/0.1.0.html
-redirect_from: null
+permalink: /etalab/schema-lieux-covoiturage/latest.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.1.1.html
 title: Lieux de covoiturage
-version: 0.1.0
+version: 0.1.1
 ---
 
 # Schéma des lieux de covoiturage
@@ -19,6 +19,14 @@ Dans le but de constituer un répertoire national des lieux de covoiturage, ouve
 Le fichier doit être encodé en UTF-8 et utiliser le point-virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs sont obligatoires ; si la donnée n'est pas disponible, la colonne doit être présente et vide.
 
 Nom du fichier : `AAAAMMJJ_idproducteur_lieuxcovoit.csv` où `idproducteur` est le SIREN de la collectivité productrice des données, par exemple pour le département de l'Ain `20191013_220100010_lieuxcovoit.csv`.
+
+### Fichiers d'exemple
+Nous mettons à disposition des fichiers d'exemple qui peuvent servir de base pour renseigner vos lieux de covoiturage.
+
+- [Télécharger un fichier exemple au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/exemple-valide.csv)
+- [Télécharger un fichier exemple au format Excel](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/exemple-valide.xls)
+
+Vous pouvez également utiliser [une interface web](https://csv-gg.etalab.studio/?schema=etalab%2Fschema-lieux-covoiturage) pour saisir vos données.
 
 ### Mises à jour
 Les mises à jour sont effectuées à partir du fichier communiqué précédemment et en reprennent, en les modifiant le cas échéant, les données qui y figurent déjà.

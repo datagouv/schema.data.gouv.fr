@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/0.1.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-lieux-covoiturage/latest/documentation.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.1.1/documentation.html
 title: Documentation de Lieux de covoiturage
-version: 0.1.0
+version: 0.1.1
 ---
 
 ## Lieux de covoiturage
@@ -13,8 +13,8 @@ Spécification des lieux permettant le covoiturage
 - Contributeurs : transport.data.gouv.fr, OpenDataFrance, FEDUCO, BlaBlaCar
 - Schéma créé le : 25/06/2019
 - Site web : https://github.com/etalab/schema-lieux-covoiturage
-- Données d'exemple : https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.0/exemple-valide.csv
-- Version : 0.1.0
+- Données d'exemple : https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/exemple-valide.csv
+- Version : 0.1.1
 - Clé primaire : `id_lieu`
 
 ### Modèle de données
