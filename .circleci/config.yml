@@ -73,15 +73,6 @@ jobs:
             else
               echo "No changes";
             fi
-  build_website:
-    docker:
-      - image: circleci/python:3.7
-    working_directory: ~/repo
-    steps:
-      - run:
-          name: Trigger Netlify build
-          command: |
-            curl -X POST -d {} https://api.netlify.com/build_hooks/$NETLIFY_KEY
 workflows:
   version: 2
   commit:
@@ -107,13 +98,3 @@ workflows:
       - push_data:
           requires:
             - fetch
-  cron_build:
-    triggers:
-      - schedule:
-          cron: "10 * * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - build_website
