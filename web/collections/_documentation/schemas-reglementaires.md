@@ -30,4 +30,4 @@ Voir [le schéma associé](/scdl/subventions/latest.html).
 ### Données essentielles de la commande publique
 Voir [le schéma associé](/etalab/format-commande-publique/latest.html).
 
-- [Arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000034492587)
+- [Arrêté du 26 mars 2019 relatif aux données essentielles dans la commande publique](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038318675) (l'arrêté initial date du 14 avril 2017)
