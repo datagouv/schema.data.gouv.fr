@@ -1,0 +1,159 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "name": "adresses",
+  "title": "Base adresse locale",
+  "description": "Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)",
+  "countryCode": "FR",
+  "homepage": "https://git.opendatafrance.net/scdl/adresses",
+  "path": "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.4/schema.json",
+  "resources": [
+    {
+      "title": "Exemple de fichier adresses invalide",
+      "path": "https://git.opendatafrance.net/scdl/adresses/raw/v1.1.4/exemples/exemple_invalide.csv"
+    }
+  ],
+  "created": "2018-05-30",
+  "lastModified": "2019-06-27",
+  "version": "1.1.4",
+  "contributors": [
+    {
+      "title": "OpenDataFrance",
+      "role": "author"
+    }
+  ],
+  "fields": [
+    {
+      "name": "cle_interop",
+      "type": "string",
+      "title": "Clé d'interopérabilité",
+      "description": "Cette clé combine le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) sur 5 caractères (incluant 'A' ou 'B' pour la Corse) + le code de voie issu du [FANTOIR](https://fr.wikipedia.org/wiki/FANTOIR) de la DGFiP sur 4 caractères + le numéro d’adresse sur 5 caractères préfixé par des zéros + un suffixe s'il existe, qui peut être un indice de répétition ('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères) et/ou un complément ('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... sans limitation du nombre de caractères). Chaque élément est séparé par un tiret du bas et les lettres sont en minuscule.",
+      "example": "35238_3961_00007_bis",
+      "constraints": {
+        "required": true,
+        "minLength": 16,
+        "pattern": "^[A-Za-z0-9_]+$"
+      }
+    },
+    {
+      "name": "uid_adresse",
+      "type": "string",
+      "format": "uuid",
+      "title": "Identifiant unique national d’adresse",
+      "description": "Cet identifiant unique d’adresse est géré et attribué par le service \"guichet national d’identification\" de la Base Adresse Nationale. Dans l'attente de la mise en place de ce service, les règles de création ou de gestion de cet identifiant ne sont pas connues. La valeur de ce champ est donc optionnelle et sera laissée vide aussi longtemps que le service d'identification ne sera pas opérationnel."
+    },
+    {
+      "name": "voie_nom",
+      "type": "string",
+      "title": "Nom complet de la voie",
+      "description": "Ce champ contient la concaténation du type et du nom de la voie ou le nom d'un lieu-dit, exprimés en majuscules et minuscules accentuées.",
+      "example": "'Allée de Bréhat' pour une concaténation ou 'Le pré aux grenouilles' pour un lieu-dit",
+      "constraints": {
+        "required": true,
+        "minLength": 3,
+        "pattern": "^[a-zA-Z0-9\\-\\'\\s\\d\\u00C0-\\u00FF]+$"
+      }
+    },
+    {
+      "name": "numero",
+      "type": "integer",
+      "title": "Numéro d’adresse",
+      "description": "Numéro d’adresse dans la voie et, dans le cas des voies sans adresse, la valeur “99999” est attendue",
+      "example": "130",
+      "constraints": {
+        "required": true,
+        "minimum": 0,
+        "maximum": 99999
+      }
+    },
+    {
+      "name": "suffixe",
+      "type": "string",
+      "title": "Information suffixée qui complète et précise le numéro d’adresse",
+      "description": "Cette information peut être un indice de répétition ('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères en minuscules) ou un complément comme le nom d'entrée d'immeuble ('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... codés en minuscules non accentuées, sans espace ni limite du nombre de caractères).",
+      "example": "'ter' pour un indice de répétition ou 'lesmimosas' pour un nom d'entrée d'immeuble",
+      "constraints": {
+        "pattern": "^[a-z\\d\\u00DF-\\u00FF]+$"
+      }
+    },
+    {
+      "name": "commune_nom",
+      "type": "string",
+      "title": "Nom officiel de la commune",
+      "description": "Ce champ doit permettre d’identifier rapidement le territoire concerné et d'éviter les quiproquos.",
+      "example": "Brest",
+      "constraints": {
+        "required": true,
+        "pattern": "^[A-Za-z\\s\\-\\u00C0-\\u00FF]+$"
+      }
+    },
+    {
+      "name": "position",
+      "type": "string",
+      "title": "Code de position de l’adresse",
+      "description": "Ce code décrit la position d’une adresse à partir d’une liste de valeurs qui provient de la spécification INSPIRE v 3.1 sur le thème \"Adresses\". Les valeurs attendues sont, au choix, 'délivrance postale', 'entrée', 'bâtiment', 'cage d’escalier', 'logement', 'parcelle', 'segment', ou 'service technique'.",
+      "example": "cage d’escalier",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "délivrance postale",
+          "entrée",
+          "bâtiment",
+          "cage d’escalier",
+          "logement",
+          "parcelle",
+          "segment",
+          "service technique"
+        ]
+      }
+    },
+    {
+      "name": "x",
+      "type": "number",
+      "title": "Coordonnée X",
+      "description": "Coordonnée X du système légal en vigueur sur le territoire concerné, conformément à l’article 1 du [décret n° 2006-272](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000813996) du 3 mars 2006. Le signe de séparation entre les parties entière et décimale du nombre est le point.",
+      "example": "145377.5"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "title": "Coordonnée Y",
+      "description": "Coordonnée Y du système légal en vigueur sur le territoire concerné, conformément à l’article 1 du [décret n° 2006-272](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000813996) du 3 mars 2006. Le signe de séparation entre les parties entière et décimale du nombre est le point.",
+      "example": "6835665.67"
+    },
+    {
+      "name": "long",
+      "type": "number",
+      "title": "Longitude",
+      "description": "Coordonnée de longitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS_84). Le signe de séparation entre les parties entière et décimale du nombre est le point.",
+      "example": "-4.502217943385534"
+    },
+    {
+      "name": "lat",
+      "type": "number",
+      "title": "Latitude",
+      "description": "Coordonnée de latitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS_84). Le signe de séparation entre les parties entière et décimale du nombre est le point.",
+      "example": "48.383985827041485"
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "title": "Nom de la source",
+      "description": "Ce nom peut désigner, au choix, la collectivité ayant créé juridiquement l’adresse (par délibération), l'entité ayant créé la donnée, ou l’entité ayant diffusé / publié la donnée.",
+      "example": "Rennes Métropole",
+      "constraints": {
+        "required": true,
+        "pattern": "[a-zA-Z0-9\\-\\d\\s\\u00C0-\\u00FF]+"
+      }
+    },
+    {
+      "name": "date_der_maj",
+      "type": "date",
+      "title": "Date de dernière mise à jour",
+      "description": "Cette date est celle de la dernière mise à jour connue de la donnée. Elle ne correspond pas à la date de publication du jeu de données en open data. Elle est exprimée au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).",
+      "example": "2014-10-01",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}
