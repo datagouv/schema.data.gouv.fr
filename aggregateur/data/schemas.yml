@@ -65,6 +65,20 @@ etalab/schema-lieux-covoiturage:
   - 0.1.0
   - 0.1.1
   - 0.1.2
+etalab/schema-stationnement:
+  description: Spécification des lieux permettant le stationnement en parc
+  email: contact@transport.beta.gouv.fr
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-stationnement
+  latest_version: 0.1.0
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: Lieux de stationnement
+  title: Lieux de stationnement
+  type: tableschema
+  versions:
+  - 0.1.0
 metis-reseaux/infos-travaux:
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
   email: contact@gotmi.io
