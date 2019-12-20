@@ -42,3 +42,7 @@ infos-travaux:
   url: https://github.com/metis-reseaux/infos-travaux.git
   type: jsonschema
   email: contact@gotmi.io
+stationnement:
+  url: https://github.com/etalab/schema-stationnement.git
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
