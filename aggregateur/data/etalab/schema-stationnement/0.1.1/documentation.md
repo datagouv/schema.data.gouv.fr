@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement/0.1.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement/latest/documentation.html
+redirect_from: /etalab/schema-stationnement/0.1.1/documentation.html
 title: Documentation de Lieux de stationnement
-version: 0.1.0
+version: 0.1.1
 ---
 
 ## Lieux de stationnement
@@ -12,7 +12,7 @@ Spécification des lieux permettant le stationnement en parc
 - Auteur : transport.data.gouv.fr
 - Schéma créé le : 13/12/2019
 - Site web : https://github.com/etalab/schema-stationnement
-- Version : 0.1.0
+- Version : 0.1.1
 - Clé primaire : `id`
 
 ### Modèle de données
