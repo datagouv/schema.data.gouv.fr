@@ -70,6 +70,7 @@ jobs:
               git add -A
               git commit -am "New data at $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
               git push origin master
+              curl -X POST -d {} https://api.netlify.com/build_hooks/$NETLIFY_KEY
             else
               echo "No changes";
             fi
