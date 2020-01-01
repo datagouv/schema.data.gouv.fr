@@ -36,6 +36,11 @@ jobs:
           command: |
             . venv/bin/activate
             python main.py
+      - run:
+          name: Fetch schema issues
+          command: |
+            . venv/bin/activate
+            python issues.py
       - persist_to_workspace:
           root: .
           paths:
