@@ -12,6 +12,7 @@ def prepare_issue(item):
         "created_at": item["created_at"],
         "url": item["html_url"],
         "nb_comments": item["comments"],
+        "labels": [l["name"] for l in item["labels"]],
     }
 
 
