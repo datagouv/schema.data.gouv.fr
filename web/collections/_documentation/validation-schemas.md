@@ -44,7 +44,7 @@ Les dépôts contenant des schémas au format [Table Schema](https://frictionles
     ]
     ```
 Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation est encouragée pour enrichir encore davantage la description de votre schéma :
-- `name` : l'identifiant ou "slug" du schéma. Exemple : `irve` ;
+- `name` : l'identifiant ou « slug » du schéma. Exemple : `irve` ;
 - `path` : l'URL vers cette version du schéma. Exemple : `https://github.com/etalab/schema-irve/raw/v1.0.2/schema.json` ;
 - `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-06-29` ;
 - `lastModified` : la date de publication de la dernière version du schéma, au format `YYYY-MM-DD`. Exemple : `2019-06-28` ;
