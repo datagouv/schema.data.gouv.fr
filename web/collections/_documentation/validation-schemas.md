@@ -28,17 +28,32 @@ Les dépôts contenant des schémas au format [Table Schema](https://frictionles
 - le schéma doit se trouver dans un fichier `schema.json` à la racine du dépôt ;
 - le schéma doit respecter la spécification Table Schema ;
 - la version déclarée dans le fichier `schema.json` doit être la même que le tag Git du dépôt ;
-- le schéma comporte les clés supplémentaires suivantes à la racine du document JSON :
-    + `title` : le titre du schéma. Exemple : `Base adresse locale` ;
-    + `description` : une description du schéma. Exemple : `Spécification du modèle de données relatif aux adresses locales d’une collectivité (BAL)`;
-    + `author` : l'auteur du schéma. Exemple : `OpenDataFrance` ;
-    + `homepage` : une URL vers le dépôt Git contenant le schéma. Exemple : `https://git.opendatafrance.net/scdl/adresses`.
+- le schéma comporte les [clés supplémentaires](https://github.com/frictionlessdata/specs/blob/master/specs/patterns.md#Specification-8) suivantes à la racine du document JSON :
+    + `title` : le nom courant du schéma. Exemple : `Infrastructures de recharge de véhicules électriques` ;
+    + `description` : la description du schéma. Exemple : `Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques`;
+    + `homepage` : l'URL vers le dépôt Git contenant le schéma. Exemple : `https://github.com/etalab/schema-irve`.
+    + `version` : le numéro de version du schéma respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
+    + `contributors` : les informations sur les auteurs du schéma. Exemple :
+    ```
+    "organisation": "Etalab",
+    "email": "info@data.gouv.fr"
+    ```
 
-En prévision d'une évolution future de la spécification TableSchema, nous vous recommandons d'ajouter les clés supplémentaires suivantes à la racine du document JSON :
-- `contact` : une adresse e-mail de contact. Exemple `info@etalab.gouv.fr`
-- `version` : la version du schéma, respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
-- `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-24` ;
-- `updated` : la date de dernière mise à jour du schéma, au format `YYYY-MM-DD`. Exemple : `2018-12-28`.
+Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation est encouragée pour enrichir encore davantage la description de votre schéma :
+- `name` : l'identifiant ou "slug" du schéma. Exemple : `irve` ;
+- `path` : l'URL vers cette version du schéma. Exemple : `https://github.com/etalab/schema-irve/raw/v1.0.2/schema.json` ;
+- `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-06-29` ;
+- `lastModified` : la date de publication de la dernière version du schéma, au format `YYYY-MM-DD`. Exemple : `2019-06-28` ;
+- `resources` : des données tabulaires d'exemple, valides ou invalides. Exemple :
+```
+"title": "Exemple de fichier IRVE valide",
+"path": "https://github.com/etalab/schema-irve/raw/v1.0.2/exemple-valide.csv"
+```
+- `sources` : les documents ayant servi de base au schéma. Exemple :
+```
+"title": "Décret n° 2017-26 du 12 janvier 2017 relatif aux infrastructures de recharge pour véhicules électriques et portant diverses mesures de transposition de la directive 2014/94/UE du Parlement européen et du Conseil du 22 octobre 2014 sur le déploiement d’une infrastructure pour carburants alternatifs",
+"path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860620"
+```
 
 ## Validations spécifiques au format XML Schema Definition (XSD)
 Les dépôts contenant des schémas au format [XML Schema Definition](https://www.w3.org/TR/xmlschema11-1/) (XSD) subissent les validations supplémentaires suivantes :
