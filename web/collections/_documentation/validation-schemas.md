@@ -34,25 +34,37 @@ Les dépôts contenant des schémas au format [Table Schema](https://frictionles
     + `homepage` : l'URL vers le dépôt Git contenant le schéma. Exemple : `https://github.com/etalab/schema-irve`.
     + `version` : le numéro de version du schéma respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
     + `contributors` : les informations sur les auteurs du schéma. Exemple :
+    ```json
+    "contributors": [
+        {
+            "email": "info@data.gouv.fr",
+            "organisation": "Etalab",
+            "role": "author"
+        },
+    ]
     ```
-    "organisation": "Etalab",
-    "email": "info@data.gouv.fr"
-    ```
-
 Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation est encouragée pour enrichir encore davantage la description de votre schéma :
 - `name` : l'identifiant ou "slug" du schéma. Exemple : `irve` ;
 - `path` : l'URL vers cette version du schéma. Exemple : `https://github.com/etalab/schema-irve/raw/v1.0.2/schema.json` ;
 - `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-06-29` ;
 - `lastModified` : la date de publication de la dernière version du schéma, au format `YYYY-MM-DD`. Exemple : `2019-06-28` ;
 - `resources` : des données tabulaires d'exemple, valides ou invalides. Exemple :
-```
-"title": "Exemple de fichier IRVE valide",
-"path": "https://github.com/etalab/schema-irve/raw/v1.0.2/exemple-valide.csv"
+```json
+"resources": [
+    {
+        "title": "Exemple de fichier IRVE valide",
+        "path": "https://github.com/etalab/schema-irve/raw/v1.0.2/exemple-valide.csv"
+    }
+],
 ```
 - `sources` : les documents ayant servi de base au schéma. Exemple :
-```
-"title": "Décret n° 2017-26 du 12 janvier 2017 relatif aux infrastructures de recharge pour véhicules électriques et portant diverses mesures de transposition de la directive 2014/94/UE du Parlement européen et du Conseil du 22 octobre 2014 sur le déploiement d’une infrastructure pour carburants alternatifs",
-"path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860620"
+```json
+"sources": [
+    {
+        "title": "Décret n° 2017-26 du 12 janvier 2017 relatif aux infrastructures de recharge pour véhicules électriques et portant diverses mesures de transposition de la directive 2014/94/UE du Parlement européen et du Conseil du 22 octobre 2014 sur le déploiement d’une infrastructure pour carburants alternatifs",
+        "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860620"
+    },
+]
 ```
 
 ## Validations spécifiques au format XML Schema Definition (XSD)
