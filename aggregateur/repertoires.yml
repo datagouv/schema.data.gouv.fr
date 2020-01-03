@@ -26,10 +26,6 @@ equipements:
   url: https://git.opendatafrance.net/scdl/equipements.git
   type: tableschema
   email: scdl@opendatafrance.email
-prenoms:
-  url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
-  type: tableschema
-  email: charles.nepote@fing.org
 subventions:
   url: https://git.opendatafrance.net/scdl/subventions.git
   type: tableschema
