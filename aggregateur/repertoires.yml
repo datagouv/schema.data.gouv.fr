@@ -42,3 +42,7 @@ stationnement:
   url: https://github.com/etalab/schema-stationnement.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
+budget:
+  url: https://git.opendatafrance.net/scdl/budget.git
+  type: tableschema
+  email: scdl@opendatafrance.email
