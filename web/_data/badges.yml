@@ -25,3 +25,5 @@ scdl/equipements:
   - scdl
 scdl/subventions:
   - scdl
+scdl/budget:
+  - scdl
