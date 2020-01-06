@@ -1,11 +1,15 @@
 ---
 permalink: /scdl/budget/latest/changelog.html
-redirect_from: /scdl/budget/0.2.0/changelog.html
+redirect_from: /scdl/budget/0.2.1/changelog.html
 title: CHANGELOG de Budget
-version: 0.2.0
+version: 0.2.1
 ---
 
 # Changelog
+
+## 0.2.1
+
+Correction de syntaxe dans le fichier schema.json
 
 ## 0.2
 
