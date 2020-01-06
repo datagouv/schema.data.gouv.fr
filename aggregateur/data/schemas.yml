@@ -119,7 +119,7 @@ scdl/budget:
   email: scdl@opendatafrance.email
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/budget
-  latest_version: 0.2.1
+  latest_version: 0.3.0
   schemas:
   - original_path: schema.json
     path: schema.json
@@ -129,6 +129,7 @@ scdl/budget:
   versions:
   - 0.2.0
   - 0.2.1
+  - 0.3.0
 scdl/catalogue:
   description: Spécification du modèle de données relatif au catalogue des jeux de
     données publiés en open data par une collectivité
