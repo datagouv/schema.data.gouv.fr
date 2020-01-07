@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Intégration avec d'autres systèmes"
-order: 3
+order: 4
 ---
 # Intégration avec d'autres systèmes
 En tant que plateforme de référencement de schémas, `schema.data.gouv.fr` a vocation à être facilement utilisée par d'autres systèmes informatiques. Nous proposons plusieurs éléments à cet effet.
