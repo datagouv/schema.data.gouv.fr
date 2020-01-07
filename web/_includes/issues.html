@@ -1,0 +1,11 @@
+<ul>
+  {% for issue in include.issues %}
+  <li>
+    <a href="{{ issue.url }}">{{ issue.title }}</a>
+    {% if issue.nb_comments > 1 %}
+    - {{ issue.nb_comments }} commentaires
+    {% endif %}
+    - créé le {{ issue.created_at | date: '%d/%m/%Y' }}
+  </li>
+  {% endfor %}
+</ul>
