@@ -3,6 +3,9 @@ layout: page
 title: "Schémas réglementaires"
 order: 5
 ---
+
+# Schémas réglementaires
+
 Les schémas référencés sur `schema.data.gouv.fr` sont ceux dont l'existence est justifiée par voie réglementaire ou par voie d'usage. Voir la page [Ajouter un schéma](ajouter-un-schema.md) pour proposer l'ajout d'un schéma.
 
 ## Textes réglementaires
