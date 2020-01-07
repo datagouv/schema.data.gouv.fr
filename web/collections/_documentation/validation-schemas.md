@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Validation des schémas"
-order: 2
+order: 3
 ---
 # Validation des schémas
 

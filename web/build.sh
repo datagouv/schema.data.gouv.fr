@@ -5,6 +5,7 @@ wget https://github.com/etalab/schema.data.gouv.fr/archive/master.zip -O /tmp/sc
 unzip /tmp/schema.data.gouv.fr.zip -d /tmp
 cp -r /tmp/schema.data.gouv.fr-master/aggregateur/data/. collections/_schemas/
 cp /tmp/schema.data.gouv.fr-master/aggregateur/data/schemas.yml _data/
+cp /tmp/schema.data.gouv.fr-master/aggregateur/data/issues.yml _data/
 bundle exec jekyll build
 
 # Add headers' rules for Netlify
