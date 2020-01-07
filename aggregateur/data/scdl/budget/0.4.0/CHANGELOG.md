@@ -1,11 +1,16 @@
 ---
 permalink: /scdl/budget/latest/changelog.html
-redirect_from: /scdl/budget/0.3.0/changelog.html
+redirect_from: /scdl/budget/0.4.0/changelog.html
 title: CHANGELOG de Budget des collectivités et établissements publics locaux
-version: 0.3.0
+version: 0.4.0
 ---
 
 # Changelog
+
+## 0.3
+
+- Mise à jour de certains types pour les champs de la spécification
+- Ajout d'une règle de contrôle spécifique pour le code SIRET
 
 ## 0.2.1
 

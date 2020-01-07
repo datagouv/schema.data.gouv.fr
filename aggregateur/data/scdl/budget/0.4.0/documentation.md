@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/budget/0.3.0/documentation.html
-redirect_from: null
+permalink: /scdl/budget/latest/documentation.html
+redirect_from: /scdl/budget/0.4.0/documentation.html
 title: Documentation de Budget des collectivités et établissements publics locaux
-version: 0.3.0
+version: 0.4.0
 ---
 
 ## Budget
@@ -13,7 +13,7 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 
 - Schéma créé le : 07/11/2019
 - Site web : https://git.opendatafrance.net/scdl/budget
-- Version : 0.2.1
+- Version : 0.3
 
 ### Modèle de données
 

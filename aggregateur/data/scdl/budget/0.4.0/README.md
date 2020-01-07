@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/budget/0.3.0.html
-redirect_from: null
+permalink: /scdl/budget/latest.html
+redirect_from: /scdl/budget/0.4.0.html
 title: Budget des collectivités et établissements publics locaux
-version: 0.3.0
+version: 0.4.0
 ---
 
 # Schéma Budget
