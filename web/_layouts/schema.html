@@ -34,7 +34,8 @@ layout: default
           <li>Contact : {{ schema_data.email }}</li>
           <li>Versions disponibles :
             <ul>
-            {% for version in schema_data.versions | reverse %}
+            {% assign versions_reverse = schema_data.versions | reverse %}
+            {% for version in versions_reverse %}
               <li>
                 <a href="{{ slug | append: '/' | append: version | append: '.html' | relative_url }}">
                   {{ version }}
