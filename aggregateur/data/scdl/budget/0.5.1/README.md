@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/budget/0.5.0.html
+permalink: /scdl/budget/0.5.1.html
 redirect_from: null
 title: Budget des collectivités et établissements publics locaux
-version: 0.5.0
+version: 0.5.1
 ---
 
 # Schéma Budget
@@ -27,7 +27,7 @@ Ce schéma reprend les données de la section LigneBudget du schéma Totem. Il p
 
 ## Outils
 
-* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.budget) [Valider un fichier avec Validata](http://go.validata.fr/table-schema?schema_name=scdl.Budget&schema_ref=v0.2.1)
+* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.budget) [Valider un fichier avec Validata](http://go.validata.fr/table-schema?schema_name=scdl.Budget)
 * [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fbudget)
 * [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/budget.xlsx)
 

@@ -1,11 +1,23 @@
 ---
 permalink: /scdl/budget/latest/changelog.html
-redirect_from: /scdl/budget/0.5.0/changelog.html
+redirect_from: /scdl/budget/0.6.0/changelog.html
 title: CHANGELOG de Budget des collectivités et établissements publics locaux
-version: 0.5.0
+version: 0.6.0
 ---
 
 # Changelog
+
+## 0.6
+
+- update field constrains and replace patterns by length
+
+- updage example file
+
+## 0.5
+
+- Remplacement des expressions régulières pattern par maxLength pour les champs BGT_NOM, BGT_NATURE_LABEL, BGT_FONCTION_LABEL
+
+- ajout de la contrainte missingValues 
 
 ## 0.4 
 
