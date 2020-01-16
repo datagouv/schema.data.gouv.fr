@@ -1,8 +1,8 @@
 ---
 permalink: /scdl/budget/latest/changelog.html
-redirect_from: /scdl/budget/0.6.0/changelog.html
+redirect_from: /scdl/budget/0.7.0/changelog.html
 title: CHANGELOG de Budget des collectivités et établissements publics locaux
-version: 0.6.0
+version: 0.7.0
 ---
 
 # Changelog
