@@ -1,11 +1,18 @@
 ---
 permalink: /scdl/budget/latest/changelog.html
-redirect_from: /scdl/budget/0.7.0/changelog.html
+redirect_from: /scdl/budget/0.8.0/changelog.html
 title: CHANGELOG de Budget des collectivités et établissements publics locaux
-version: 0.7.0
+version: 0.8.0
 ---
 
 # Changelog
+
+## 0.7
+
+- addition of BGT_CONTNAT_LABEL field
+- improvement of fields descriptions
+- update of example file
+- general review and corrections
 
 ## 0.6
 

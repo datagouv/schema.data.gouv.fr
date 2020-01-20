@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/budget/0.7.0/documentation.html
-redirect_from: null
+permalink: /scdl/budget/latest/documentation.html
+redirect_from: /scdl/budget/0.8.0/documentation.html
 title: Documentation de Budget des collectivités et établissements publics locaux
-version: 0.7.0
+version: 0.8.0
 ---
 
 ## Budget
