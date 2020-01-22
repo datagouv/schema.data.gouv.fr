@@ -7,6 +7,11 @@ version: 0.8.0
 
 # Changelog
 
+## 0.8
+
+- addition of BGT_OPERATION field for local council interoperability
+- update of example file
+
 ## 0.7
 
 - addition of BGT_CONTNAT_LABEL field

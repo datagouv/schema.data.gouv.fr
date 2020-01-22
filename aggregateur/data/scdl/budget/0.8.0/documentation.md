@@ -13,7 +13,7 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 
 - Schéma créé le : 07/11/2019
 - Site web : https://git.opendatafrance.net/scdl/budget
-- Version : 0.7
+- Version : 0.8
 
 ### Modèle de données
 
@@ -29,6 +29,7 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 |BGT_NATURE_LABEL (Libellé de la nature de la dépense ou de la recette)|chaîne de caractères|Ce champ correspond à la colonne LIBELLE de la liste des chapitres du plan de compte par nature||Valeur obligatoire|
 |BGT_FONCTION (Fonction de la dépense ou de la recette)|chaîne de caractères|Ce champ correspond à la fonction de la dépense ou de la recette, c'est-à-dire le "pourquoi". Classer les dépenses et les recettes par fonction consiste à les regrouper à partir de leurs destinations ou encore de leurs finalités. Le numéro est un numéro de chapitre. Exemples de fonction : Action sociale, Aménagement et environnement...(voir plan de compte).||Valeur optionnelle, Taille minimale : 1, Taille maximale : 9|
 |BGT_FONCTION_LABEL (Libellé de la fonction de la dépense ou de la recette)|chaîne de caractères|Ce champ correspond à la colonne LIBELLE de la liste des chapitres du plan de compte par fonction||Valeur optionnelle|
+|BGT_OPERATION (Code ou libellé de l'opération budgétaire votée)|chaîne de caractères|Ce champ correspond à une opération budgétaire (un projet particulier) sur lequel on souhaite attirer l'attention notamment lors du vote. Dans le cas d'une opération "Pour Vote", ce compte opération doit contenir uniquement des chiffres ; dans le cas d'une opération "Pour information", c'est libre.||Valeur optionnelle|
 |BGT_SECTION (section budgétaire)|chaîne de caractères|Ce champ correspond au type de recette ou de dépense. A partir du Plan de Compte, dans le tableau "Liste des comptes et utilisations", utiliser le ContNat comme code et voir le chapitre correspondant dans la colonne RR ou DR pour une recette ou une dépense respectivement. Pour savoir s'il s'agit de Fonctionnement ou d'Investissement, regarder dans le tableau "Liste des chapitres" : utiliser le code de chapitre et regarder la colonne SECTION.||Valeur obligatoire, Valeurs autorisées : investissement, fonctionnement|
 |BGT_OPBUDG (type opération budgétaire)|chaîne de caractères|Ce champ permet de distinguer les opérations d'ordre budgétaire des opérations réelles. Opérations d'ordre : qui ne donnent pas lieu à encaissement ou décaissement ; à la différence des opérations réelles.||Valeur obligatoire, Valeurs autorisées : réel, ordre|
 |BGT_CODRD (Code recette / dépense)|chaîne de caractères|Ce champ permet de déterminer le sens (recette 0 - dépense 1) du crédit concerné.||Valeur obligatoire, Valeurs autorisées : recette, dépense|
@@ -38,5 +39,5 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 |BGT_MTPROPNOUV (Montant "Propositions nouvelles")|nombre réel|Ce champ correspond au montant des recettes ou dépenses nouvelles non prévues dans les étapes budgétaires précédentes.||Valeur optionnelle|
 |BGT_MTPREV (montant budget voté)|nombre réel|Ce champ correspond au montant prévu lors des exercices BP/BS/DM pécédents. En présence d'une valeur dans ce champ, celui-ci doit obligatoirement être valorisée soit du montant prévu soit d'un montant égal à zéro||Valeur optionnelle|
 |BGT_CREDOUV (crédits ouverts à l'article)|nombre réel|Ce champ correspond au montant des crédits de paiement disponibles pour effectuer des dépenses sur cet article||Valeur optionnelle|
-|BGT_MTRAR3112 (Montant reste à réaliser exercice)|nombre réel|ce champ est utilisé pour le compte administratif. Il peut également être utilisé au BP/BS/DM pour présenter les informations du compte administratif des années précédentes||Valeur optionnelle|
+|BGT_MTRAR3112 (Montant reste à réaliser exercice)|nombre réel|Ce champ est utilisé pour le compte administratif. Il peut également être utilisé au BP/BS/DM pour présenter les informations du compte administratif des années précédentes||Valeur optionnelle|
 |BGT_ARTSPE (Article spécialisé)|chaîne de caractères|Ce champ permet d'isoler des articles au moment du vote du budget.||Valeur optionnelle, Valeurs autorisées : non spécialisé, spécialisé|

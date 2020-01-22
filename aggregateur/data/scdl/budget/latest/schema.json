@@ -5,11 +5,11 @@
   "description": "Les données essentielles du budget permettent de décrire le contenu des étapes budgétaires des collectivités locales et des établissements publics. Il permet de préciser les catégories de montants financiers ainsi que le découpage de ces sommes en fonction du type de présentation utilisé (par nature ou par fonction). Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées.",
   "countryCode": "FR",
   "homepage": "https://git.opendatafrance.net/scdl/budget",
-  "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.7/schema.json",
+  "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.8/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier budget valide",
-      "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.7/examples/budget_valide.csv"
+      "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.8/examples/budget_valide.csv"
     }
   ],
   "sources": [
@@ -23,8 +23,8 @@
     }
   ],
   "created": "2019-11-07",
-  "lastModified": "2020-01-16",
-  "version": "0.7",
+  "lastModified": "2020-01-18",
+  "version": "0.8",
   "contributors": [
     {
       "title": "OpenDataFrance",
@@ -153,6 +153,16 @@
       }
     },
     {
+      "name": "BGT_OPERATION",
+      "title": "Code ou libellé de l'opération budgétaire votée",
+      "description": "Ce champ correspond à une opération budgétaire (un projet particulier) sur lequel on souhaite attirer l'attention notamment lors du vote. Dans le cas d'une opération \"Pour Vote\", ce compte opération doit contenir uniquement des chiffres ; dans le cas d'une opération \"Pour information\", c'est libre.",
+      "type": "string",
+      "examples": "Aménagement du parc Paul Mistral, 4702",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
       "name": "BGT_SECTION",
       "title": "section budgétaire",
       "description": "Ce champ correspond au type de recette ou de dépense. A partir du Plan de Compte, dans le tableau \"Liste des comptes et utilisations\", utiliser le ContNat comme code et voir le chapitre correspondant dans la colonne RR ou DR pour une recette ou une dépense respectivement. Pour savoir s'il s'agit de Fonctionnement ou d'Investissement, regarder dans le tableau \"Liste des chapitres\" : utiliser le code de chapitre et regarder la colonne SECTION.",
@@ -257,7 +267,7 @@
     {
       "name": "BGT_MTRAR3112",
       "title": "Montant reste à réaliser exercice",
-      "description": "ce champ est utilisé pour le compte administratif. Il peut également être utilisé au BP/BS/DM pour présenter les informations du compte administratif des années précédentes",
+      "description": "Ce champ est utilisé pour le compte administratif. Il peut également être utilisé au BP/BS/DM pour présenter les informations du compte administratif des années précédentes",
       "type": "number",
       "examples": "17 142.08",
       "constraints": {
