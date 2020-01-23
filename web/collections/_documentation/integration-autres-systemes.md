@@ -85,7 +85,7 @@ Les URLs des documentations web sont de la forme suivante : `https://schema.data
 Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `{version}` par `latest`.
 
 ### Schémas
-Les URLs des schémas valides sont propres au type de schéma. De manière générale, les URLs sont de la forme `https://schema.data.gouv.fr/schemas/{organisation}/{dépôt}/{fichier_schema}`.
+Les URLs des schémas valides sont propres au type de schéma. De manière générale, les URLs sont de la forme `https://schema.data.gouv.fr/schemas/{organisation}/{dépôt}/{version}/{fichier_schema}`.
 
 La variable `{fichier_schema}` varie suivant le type du schéma. Voici les valeurs utilisées par type de schéma :
 - pour `tableschema`, `{fichier_schema}` est `schema.json` ;
