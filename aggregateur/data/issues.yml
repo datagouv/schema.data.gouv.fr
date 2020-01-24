@@ -2,7 +2,7 @@ construction:
 - created_at: '2020-01-24T16:48:17Z'
   labels:
   - Schéma en construction
-  nb_comments: 0
+  nb_comments: 1
   title: Schéma des défibrillateurs automatisés externes (DAE)
   url: https://github.com/etalab/schema.data.gouv.fr/issues/79
 - created_at: '2019-12-05T16:05:41Z'
