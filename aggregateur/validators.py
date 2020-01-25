@@ -309,7 +309,7 @@ class TableSchemaValidator(BaseValidator):
         try:
             tableschema.validate(self.filepath(filename))
         except tableschema.exceptions.ValidationError as e:
-            errors = "; ".join(e.errors)
+            errors = "; ".join([repr(e) for e in e.errors])
             message = "Schema %s is not a valid TableSchema schema. Errors: %s" % (
                 filename,
                 errors,
