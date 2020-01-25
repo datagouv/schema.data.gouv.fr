@@ -5,7 +5,7 @@ title: Documentation de Budget des collectivités et établissements publics loc
 version: 0.8.0
 ---
 
-## Budget
+## budget
 
 Budget des collectivités et établissements publics locaux
 

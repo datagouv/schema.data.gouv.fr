@@ -1,13 +1,13 @@
 ---
 permalink: /scdl/budget/0.2.1/documentation.html
 redirect_from: null
-title: Documentation de Budget des collectivités et établissements publics locaux
+title: Documentation de Budget
 version: 0.2.1
 ---
 
 ## Budget
 
-Budget des collectivités et établissements publics locaux
+Budget
 
 Les données essentielles du budget permettent de décrire le contenu des étapes budgétaires des collectivités locales et des établissements publics. Il contient les articles et fonctions des cadres budgétaires et les montants financiers associés. Ce schéma décrit le détail de chaque champ. Pour chacun, nous fournissons également la regexp qui permet de contrôler le contenu du champ.
 
