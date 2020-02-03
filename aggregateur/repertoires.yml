@@ -47,7 +47,7 @@ budget:
   type: tableschema
   email: scdl@opendatafrance.email
 dae:
-  url: https://github.com/Alkante35/schema-dae.git
+  url: https://gitlab.com/arsante/atlasante/schema-dae
   type: jsonschema
   email: contact@geodae.sante.gouv.fr
   
