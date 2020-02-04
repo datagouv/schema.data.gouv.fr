@@ -16,13 +16,10 @@ links:
 social:
   -
     icon: mail
-    url: mailto:info@data.gouv.fr
+    url: mailto:schema@data.gouv.fr
   -
     icon: twitter
     url: https://www.twitter.com/datagouvfr
-  -
-    icon: fb
-    url: https://www.facebook.com/etalab
   -
     icon: github
     url: https://github.com/etalab

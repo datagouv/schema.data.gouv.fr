@@ -90,7 +90,7 @@ class Repo(object):
         super(Repo, self).__init__()
         parsed_git = giturlparse.parse(git_url)
         self.git_url = git_url
-        self.owner = parsed_git.owner
+        self.owner = self.find_owner(parsed_git)
         self.name = parsed_git.name
         self.email = email
         self.git_repo = None
@@ -103,6 +103,14 @@ class Repo(object):
                 % (schema_type, ",".join(self.SCHEMA_TYPES)),
             )
         self.schema_type = schema_type
+
+    def find_owner(self, parsed_git):
+        owner = parsed_git.owner
+        # Case: /gitlab.com/arsante/atlasante
+        # Output: arsante
+        if owner.startswith("/gitlab.com"):
+            return owner.split("/")[2]
+        return owner
 
     @property
     def clone_dir(self):

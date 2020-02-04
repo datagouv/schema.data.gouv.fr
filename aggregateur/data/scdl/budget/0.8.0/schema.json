@@ -1,6 +1,6 @@
 {
   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
-  "name": "Budget",
+  "name": "budget",
   "title": "Budget des collectivités et établissements publics locaux",
   "description": "Les données essentielles du budget permettent de décrire le contenu des étapes budgétaires des collectivités locales et des établissements publics. Il permet de préciser les catégories de montants financiers ainsi que le découpage de ces sommes en fonction du type de présentation utilisé (par nature ou par fonction). Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées.",
   "countryCode": "FR",
@@ -19,7 +19,7 @@
     },
     {
       "title": "article 107 III de la loi du 7 août 2015 portant Nouvelle Organisation Territoriale de la République",
-      "path": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030985460&categorieLien=id#JORFARTI000030987060"  
+      "path": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030985460&categorieLien=id#JORFARTI000030987060"
     }
   ],
   "created": "2019-11-07",
@@ -285,7 +285,7 @@
         "enum": [
         "non spécialisé",
         "spécialisé"
-        ]     
+        ]
       }
     }
   ],
