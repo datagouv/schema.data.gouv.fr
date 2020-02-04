@@ -1,13 +1,13 @@
 ---
-permalink: /scdl/budget/0.2.0.html
+permalink: /scdl/budget/0.6.0.html
 redirect_from: null
-title: Budget
-version: 0.2.0
+title: Budget des collectivités et établissements publics locaux
+version: 0.6.0
 ---
 
 # Schéma Budget
 
-Spécifications des données essentielles du budget des collectivités locales et des établissements publics
+Spécifications des données essentielles du budget des collectivités et établissements publics locaux
 
 ## Contexte
 
@@ -26,11 +26,11 @@ Ce schéma reprend les données de la section LigneBudget du schéma Totem. Il p
 ​Format réglementaire pour la publication des données essentielles des budgets. Ce schéma vise à simplifier la mise à disposition des données budgétaires des collectivités locales. Pour celles en capacité de produire des fichiers au format XML TOTEM, un convertisseur XML -> csv sera proposé. 
 
 ## Outils
-<!---
-* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.budget) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.budget)
+
+* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.budget) [Valider un fichier avec Validata](http://go.validata.fr/table-schema?schema_name=scdl.Budget)
 * [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fbudget)
 * [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/budget.xlsx)
--->
+
 
 ## Voir aussi
 

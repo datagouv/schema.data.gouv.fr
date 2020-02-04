@@ -1,15 +1,15 @@
 {
   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
   "name": "Budget",
-  "title": "Budget",
+  "title": "Budget des collectivités et établissements publics locaux",
   "description": "Les données essentielles du budget permettent de décrire le contenu des étapes budgétaires des collectivités locales et des établissements publics. Il contient les articles et fonctions des cadres budgétaires et les montants financiers associés. Ce schéma décrit le détail de chaque champ. Pour chacun, nous fournissons également la regexp qui permet de contrôler le contenu du champ.",
   "countryCode": "FR",
   "homepage": "https://git.opendatafrance.net/scdl/budget",
-  "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.2/schema.json",
+  "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.6/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier budget valide",
-      "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.2/examples/budget_valide.csv"
+      "path": "https://git.opendatafrance.net/scdl/budget/raw/v0.6/examples/budget_valide.csv"
     }
   ],
   "sources": [
@@ -23,8 +23,8 @@
     }
   ],
   "created": "2019-11-07",
-  "lastModified": "2019-12-28",
-  "version": "0.2",
+  "lastModified": "2020-01-07",
+  "version": "0.6",
   "contributors": [
     {
       "title": "OpenDataFrance",
@@ -57,23 +57,23 @@
     {
       "name": "BGT_ANNEE",
       "title": "année de exercice",
-      "type": "integer",
+      "type": "year",
       "examples": "2018",
-      "description": "année exercice budgétaire concerné",
+      "description": "année de l'exercice budgétaire concerné",
       "constraints": {
         "required": true,
-        "pattern": "^[0-9]{4}$"
+        "pattern": "^[1-2]\\d\\d\\d$"
       }
     },
     {
       "name": "BGT_SIRET",
       "title": "code SIRET",
       "description": "le code SIRET de la collectivité ou de l'établissement public concerné (http://xml.insee.fr/schema/siret.html#SIRET_stype).",
-      "type": "integer",
+      "type": "string",
       "examples": "22192720500197",
       "constraints": {
         "required": true,
-        "pattern": "^[0-9]{14}$"
+        "pattern": "^\\d{14}$"
       }
     },
     {
@@ -83,19 +83,19 @@
       "type": "string",
       "examples":"Département de la Corrèze",
       "constraints": {
-        "required": true,
-        "pattern": "^[A-Z]{255}$"
+        "required": true
       }
     },
     {
       "name": "BGT_NATURE",
       "title": "Nature de la dépense ou de la recette",
-      "description": "cette zone permet de déterminer la nature de la dépense ou de la recette, c'est-à-dire au \"quoi\". Le numéro est un numéro d'article. \nExemples de nature : carburant, dépenses de personnel…(voir plan de compte)",
-      "type": "integer",
+      "description": "cette zone permet de déterminer la nature de la dépense ou de la recette, c'est-à-dire au \"quoi\". Le numéro est un numéro d'article. Exemples de nature : carburant, dépenses de personnel…(voir plan de compte)",
+      "type": "string",
       "examples": "12",
       "constraints": {
         "required": true,
-        "pattern": "^[0-9]{7}$"
+        "minLength": 1,
+        "maxLength" : 9
       }
     },
     {
@@ -105,19 +105,19 @@
       "type": "string",
       "examples": "achat de matériel scolaire",
       "constraints": {
-        "required": true,
-        "pattern": "^[A-Z]{255}$"
+        "required": true
       }
     },
     {
       "name": "BGT_FONCTION",
       "title": "Fonction de la dépense ou de la recette",
       "description": "cette zone permet de déterminer la fonction de la dépense ou de la recette, le \"pourquoi\" qui correspond à la fonction de la recette/dépense. Le numéro est un numéro de fonction. Exemples de fonction : éducation, sécurité (voir plan de compte).",
-      "type": "integer",
+      "type": "string",
       "examples": "321",
       "constraints": {
         "required": true,
-        "pattern": "^[0-9]{7}$"
+        "minLength": 1,
+        "maxLength" : 9
       }
     },
     {
@@ -127,19 +127,19 @@
       "type": "string",
       "examples": "éducation",
       "constraints": {
-        "required": true,
-        "pattern": "^[Aa-Zz]{255}$"
+        "required": true
       }
     },
     {
       "name": "BGT_CONTNAT",
       "title": "numéro du compte budgétaire",
-      "description": "correspond au numéro de compte. A partir du Plan de Compte, dans le tableau \"Liste des comptes et utilisations\", utiliser le ContNat comme code et voir le chapitre correspondant dans la colonne RR ou DR pour une recette ou une dépense respectivement.\n Pour savoir s'il s'agit de Fonctionnement ou d'Investissement, regarder dans le tableau \"Liste des chapitres\" : utiliser le code de chapitre et regarder la colonne SECTION.",
+      "description": "correspond au numéro de compte. A partir du Plan de Compte, dans le tableau \"Liste des comptes et utilisations\", utiliser le ContNat comme code et voir le chapitre correspondant dans la colonne RR ou DR pour une recette ou une dépense respectivement. Pour savoir s'il s'agit de Fonctionnement ou d'Investissement, regarder dans le tableau \"Liste des chapitres\" : utiliser le code de chapitre et regarder la colonne SECTION.",
       "type": "string",
       "examples": "02",
       "constraints": {
         "required": true,
-        "pattern": "^[0-9]{4}$"
+        "minLength": 1,
+        "maxLength" : 9
       }
     },
     {
@@ -161,7 +161,7 @@
       "title": "type opération budgétaire",
       "description": "cette zone permet de distinguer les opérations d'ordre budgétaire des opérations réelles.",
       "type": "string",
-      "examples": "0",
+      "examples": "réel",
       "constraints": {
           "required": true,
           "enum": [
@@ -175,7 +175,7 @@
       "title": "Code recette / dépense",
       "description": "cette zone permet de déterminer le sens (recette 0 - dépense 1) du crédit concerné.",
       "type": "string",
-      "examples": "1",
+      "examples": "recette",
       "constraints": {
         "required": true,
         "enum": [
@@ -189,7 +189,7 @@
       "title": "Montant signé des réalisations budgétaires",
       "description": "montant réalisé (en dépense ou en recette). Ce champ est à renseigner uniquement pour un compte administratif",
       "type": "number",
-      "examples": "45 678,80",
+      "examples": "45678.80",
       "constraints": {
         "required": false
       }
@@ -199,7 +199,7 @@
       "title": "Montant du budget précédent",
       "description": "montant prévu lors de l'exercice précédent. Ce champ permet de voir les évolutions des montants entre le budget prévisionnel (BP), les décisions modificatives et le compte administratif qui consacre la réalité des montants effectivement engagés (payés ou reçus).",
       "type": "number",
-      "examples": "45 567,08",
+      "examples": "35567.08",
       "constraints": {
         "required": false
       }
@@ -209,7 +209,7 @@
       "title": "Montant restant à réaliser N-1",
       "description": "ce champ est uniquement rempli au BP/BS/DM en cas de reprise des résultats des exercices précédents. Ce champ est rempli au CA pour présenter les restes à réaliser des exercice précédents.",
       "type": "number",
-      "examples": "45 567,08",
+      "examples": "65567.08",
       "constraints": {
         "required": false
       }
@@ -219,7 +219,7 @@
       "title": "Montant \"Propositions nouvelles\"",
       "description": "montant des recettes ou dépenses nouvelles non prévues dans les étapes budgétaires précédentes.",
       "type": "number",
-      "examples": "45 567,08",
+      "examples": "75567.08",
       "constraints": {
         "required": false
       }
@@ -229,7 +229,7 @@
       "title": "montant budget voté",
       "description": "en présence d'un champ MtPrev, celui-ci doit obligatoirement être valorisée soit du montant prévu soit d'un montant égal à zéro",
       "type": "number",
-      "examples": "45 567,08",
+      "examples": "15567.08",
       "constraints": {
         "required": false
       }
@@ -239,7 +239,7 @@
       "title": "crédits ouverts à l'article",
       "description": "montant des crédits de paiement disponibles pour effectuer des dépenses sur cet article",
       "type": "number",
-      "examples": "45 567,08",
+      "examples": "29567.08",
       "constraints": {
         "required": false
       }
@@ -249,7 +249,7 @@
       "title": "Montant reste à réaliser exercice",
       "description": "ce champ est utilisé pour le compte administratif. Il peut également être utilisé au BP/BS/DM pour présenter les informations du compte administratif des années précédentes",
       "type": "number",
-      "examples": "45 567,08",
+      "examples": "17 142.08",
       "constraints": {
         "required": false
       }
@@ -259,7 +259,7 @@
       "title": "Article spécialisé",
       "description": "permet de les isoler des articles au moment du vote du budget.",
       "type": "string",
-      "examples": "0",
+      "examples": "spécialisé",
       "constraints": {
         "required": false,
         "enum": [
@@ -268,5 +268,16 @@
         ]     
       }
     }
-  ]
+  ],
+  "custom_checks": [
+    {
+      "name": "french-siret-value",
+      "params": {
+        "column": "BGT_SIRET"
+      }
+    }
+  ],
+  "missingValues":[
+    ""
+]
 }

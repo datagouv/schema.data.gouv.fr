@@ -1,0 +1,55 @@
+---
+layout: page
+title: "Schémas en investigation et en cours de construction"
+order: 1
+---
+
+<h1>Schémas en investigation et en cours de construction</h1>
+
+<h2>Impliquer des producteurs et des réutilisateurs</h2>
+<p>
+  schema.data.gouv.fr permet de mettre en relation des producteurs de schémas et une communauté de producteurs ou de réutilisateurs. Vous envisagez de créer un schéma ? Vous êtes en phase d'élaboration d'un schéma ? schema.data.gouv.fr vous aide à communiquer sur cette démarche et recueillir des contributions.
+</p>
+
+<h2>Déclarer un schéma en phase d'élaboration</h2>
+<p>
+  Vous envisagez de créer un schéma ou vous êtes en phase d'élaboration d'un schéma et vous souhaitez recueillir des retours de la part de la communauté. Vous pouvez déclarer cette initiative auprès de schema.data.gouv.fr :
+</p>
+<ul>
+  <li>
+    <a href="https://github.com/etalab/schema.data.gouv.fr/issues/new">En ouvrant un ticket sur GitHub</a> ;
+  </li>
+  <li>
+    En envoyant un e-mail à l'adresse <a href="mailto:schema@data.gouv.fr">schema@data.gouv.fr</a>.
+  </li>
+</ul>
+
+<p>
+  Votre schéma sera par la suite automatiquement référencé sur cette page.
+</p>
+
+<h2>Recensement des schémas en phase d'élaboration</h2>
+<p>
+  schema.data.gouv.fr recense sur cette page les schémas :
+</p>
+
+<ul>
+  <li><b>en investigation</b> : il est envisagé de créer un schéma pour modéliser une situation ;</li>
+  <li><b>en cours d'élaboration</b> : ce schéma fait l'objet de discussions auprès de multiples partenaires.</li>
+</ul>
+
+<h3>Schémas en investigation</h3>
+{% if site.data.issues.investigation.size == 0 %}
+  <p>Aucun schéma n'est en cours d'investigation actuellement.</p>
+{% else %}
+  <p>Les schémas suivants sont en cours d'investigation.</p>
+  {% include issues.html issues=site.data.issues.investigation %}
+{% endif %}
+
+<h3>Schémas en construction</h3>
+{% if site.data.issues.construction.size == 0 %}
+  <p>Aucun schéma n'est en cours de construction actuellement.</p>
+{% else %}
+  <p>Les schémas suivants sont en cours de construction.</p>
+  {% include issues.html issues=site.data.issues.construction %}
+{% endif %}

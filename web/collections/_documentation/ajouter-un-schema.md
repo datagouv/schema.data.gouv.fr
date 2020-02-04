@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ajouter un schéma"
-order: 1
+order: 2
 ---
 # Ajouter un schéma
 
