@@ -27,3 +27,5 @@ scdl/subventions:
   - scdl
 scdl/budget:
   - scdl
+arsante/schema-dae:
+  - reglementaire
