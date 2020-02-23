@@ -69,7 +69,7 @@ class ErrorBag(object):
         try:
             latest_valid_tag = exception.repo.latest_valid_tag()
             greater_version = exception.repo.current_tag > latest_valid_tag
-        except ValidationException:
+        except (ValidationException, TypeError):
             invalid_tag = True
 
         # Only keep exceptions related to repos without valid tags
