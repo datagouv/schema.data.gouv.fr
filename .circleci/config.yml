@@ -4,6 +4,8 @@ jobs:
   fetch:
     docker:
       - image: circleci/python:3.7
+    environment:
+      REPOS_CACHE_FILE: cache/repos
     working_directory: ~/repo/aggregateur
     steps:
       - checkout:
@@ -26,16 +28,27 @@ jobs:
           command: |
             echo "fr_FR.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
             sudo locale-gen
+      - restore_cache:
+          keys:
+          - v1-repos-{{ checksum $REPOS_CACHE_FILE }}
       - run:
           name: Create folders
           command: |
-            mkdir repos
+            mkdir -p repos
             rm -rf data
       - run:
           name: Fetch remote repositories
           command: |
             . venv/bin/activate
             python main.py
+      - run:
+          name: Compute checksum of repos
+          command: |
+            find -s repos -type f -exec md5sum {} \; | md5sum > $REPOS_CACHE_FILE
+      - save_cache:
+          paths:
+            - ./repos
+          key: v1-repos-{{ checksum $REPOS_CACHE_FILE }}
       - run:
           name: Fetch schema issues
           command: |

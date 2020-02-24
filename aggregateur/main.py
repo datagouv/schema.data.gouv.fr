@@ -143,9 +143,13 @@ class Repo(object):
         try:
             if os.path.isdir(self.clone_dir):
                 git_repo = GitRepo(self.clone_dir)
-                git_repo.remotes.origin.pull("refs/heads/master:refs/heads/origin")
+                git_repo.remotes.origin.pull(
+                    "refs/heads/master:refs/heads/origin", kill_after_timeout=10
+                )
             else:
-                git_repo = GitRepo.clone_from(self.git_url, self.clone_dir)
+                git_repo = GitRepo.clone_from(
+                    self.git_url, self.clone_dir, kill_after_timeout=10
+                )
         except GitError:
             raise exceptions.GitException(self, "Cannot clone or pull Git repository")
 
