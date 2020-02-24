@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Compute checksum of repos
           command: |
-            find -s repos -type f -exec md5sum {} \; | md5sum > "cache/repos"
+            find repos -type f -exec md5sum {} \; | sort -k 2 | md5sum > "cache/repos"
       - save_cache:
           paths:
             - ./repos
