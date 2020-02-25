@@ -42,8 +42,7 @@ jobs:
       - run:
           name: Compute checksum of repos
           command: |
-            sudo apt install md5deep
-            md5deep -r -j0 repos/ | awk '{print $1}' | sort -n | md5sum > "cache/repos"
+            find repos -type f -not -path '*/\.git/*' -exec md5sum {} \; | sort -k 2 | md5sum > "cache/repos"
       - save_cache:
           paths:
             - ./repos
