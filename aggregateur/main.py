@@ -158,7 +158,18 @@ class Repo(object):
     def tags(self):
         if self.git_repo is None or len(self.git_repo.tags) == 0:
             raise exceptions.NoTagsException(self, "Cannot found tags")
-        versions = [self.parse_version(t.name) for t in self.git_repo.tags]
+
+        # Build a list of valid version names only.
+        # Raise an exception only if the most recent
+        # version name is invalid.
+        versions = []
+        for tag in self.git_repo.tags:
+            try:
+                versions.append(self.parse_version(tag.name))
+            except exceptions.InvalidVersionException as e:
+                if tag == self.git_repo.tags[-1]:
+                    raise e
+
         return sorted(versions, key=cmp_to_key(SemverCmp))
 
     def latest_valid_tag(self):
