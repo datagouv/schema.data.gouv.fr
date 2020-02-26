@@ -67,6 +67,15 @@ Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation e
 ]
 ```
 
+Afin de valider votre schéma, nous vous conseillons d'utiliser l'outil [Goodtables](https://pypi.org/project/goodtables) en ligne de commande.
+
+```bash
+# Valider votre schéma TableSchema
+goodtables validate schema.json
+# Valider votre fichier d'exemple par rapport au schéma
+goodtables validate --schema schema.json exemple-valide.csv
+```
+
 ## Validations spécifiques au format XML Schema Definition (XSD)
 Les dépôts contenant des schémas au format [XML Schema Definition](https://www.w3.org/TR/xmlschema11-1/) (XSD) subissent les validations supplémentaires suivantes :
 
