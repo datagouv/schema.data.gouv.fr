@@ -29,7 +29,7 @@ Si vous connaissez une initiative similaire, n'hésitez pas à [nous le faire sa
 Ce projet comporte plusieurs centaines de modèles de données variés : lieux, événements, entreprise, personnes, réservations etc.
 
 ### Données de transport
-Pour favoriser l'usage des transports en commun, il est crucial d'utiliser des schémas facilitant l'interopérabilité des systèmes.
+Pour favoriser l'usage des transports en commun, il est crucial d'utiliser des standards facilitant l'interopérabilité des systèmes.
 
 Les standards les plus connus sont :
 
