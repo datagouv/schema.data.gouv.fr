@@ -50,4 +50,7 @@ dae:
   url: https://gitlab.com/arsante/atlasante/schema-dae.git
   type: tableschema
   email: contact@geodae.sante.gouv.fr
-  
+prenoms:
+  url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
+  type: tableschema
+  email: charles.nepote@fing.org
