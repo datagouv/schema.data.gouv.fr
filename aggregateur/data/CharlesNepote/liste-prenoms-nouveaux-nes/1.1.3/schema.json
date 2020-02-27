@@ -1,0 +1,143 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "name": "scdl-prenoms",
+  "title": "Prénoms des nouveaux-nés",
+  "description": "Spécification du modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil.",
+  "countryCode": "FR",
+  "homepage": "https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes",
+  "path": "https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes/raw/v1.1.3/schema.json",
+  "resources": [
+    {
+      "title": "Fichier des prénoms Digne 2017 (valide)",
+      "path": "https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes/raw/master/DIGNE-PRENOMS-2017.csv"
+    },
+    {
+      "title": "Exemple de fichier des prénoms invalide",
+      "path": "https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes/raw/master/prenoms-nouveaux-nes.exemple.invalide.1.1.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Code civil",
+      "path": "https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006070721&dateTexte=20170327"
+    },
+    {
+      "title": "Circulaire du 28 octobre 2011 relative aux règles particulières à divers actes de l'état civil relatifs à la naissance et à la filiation — NOR : JUSC1119808C",
+      "path": "http://www.textes.justice.gouv.fr/art_pix/JUSC1119808C.pdf"
+    },
+    {
+      "title": "Circulaire du 23 juillet 2014 relative à l’état civil — NOR : JUSC1412888C",
+      "path": "http://circulaire.legifrance.gouv.fr/pdf/2014/07/cir_38565.pdf"
+    },
+    {
+      "title": "Normes techniques de l'INSEE",
+      "path": "http://xml.insee.fr/schema/etat-civil/"
+    }
+  ],
+  "created": "2018-04-12",
+  "lastModified": "2019-01-23",
+  "version": "1.1.3",
+  "contributors": [
+    {
+      "title": "Charles Nepote",
+      "role": "author",
+      "email": "charles.nepote@fing.org"
+    },
+    {
+      "title": "Simon Chignard",
+      "role": "contributor",
+      "email": "simon.chignard@data.gouv.fr"
+    },
+    {
+      "title": "Bernadette Kessler",
+      "role": "contributor"
+    },
+    {
+      "title": "Christian Quest",
+      "role": "contributor"
+    },
+    {
+      "title": "Christophe Benz",
+      "role": "contributor",
+      "email": "christophe.benz@jailbreak.paris"
+    },
+    {
+      "title": "Pierre Dittgen",
+      "role": "contributor",
+      "email": "pierre.dittgen@jailbreak.paris"
+    }
+  ],
+  "fields": [
+    {
+      "name": "COMMUNE_NOM",
+      "title": "Nom de la commune d'enregistrement à l'état-civil",
+      "type": "string",
+      "description": "Nom de la commune où les prénoms sont enregistrés à l'état-civil, c'est-à-dire le lieu de naissance. Le lieu de naissance peut être différent du lieu de résidence des parents, comme cela peut être le cas pour les enfants nés dans une maternité. Le renseignement de ce champ est facultatif. Il permet cependant de faciliter l'usage des données, notamment par le grand public.",
+      "examples": "Rennes",
+      "constraints": {
+        "required": false,
+        "pattern": "^(Le |La |Les |Los |Aux |L'|)([A-ZÉÇŒÈÎ])(((-| | - |')[A-ZÉÇŒÈÎ])|('|-| |)[a-zàâéèêëïîÿôûüœç])*( \\([A-Z][a-z]*\\)|)$"
+      }
+    },
+    {
+      "name": "COLL_INSEE",
+      "title": "Code INSEE de la commune d'enregistrement à l'état-civil",
+      "description": "Code INSEE de la commune où les prénoms sont enregistrés à l'état-civil, c'est-à-dire le lieu de naissance. Issu du Code Officiel Géographique, le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) est composé de 5 caractères alphanumériques (les deux premiers correspondent au département et peuvent donc contenir les lettres 'A' et 'B' utilisées pour la Corse).",
+      "type": "string",
+      "examples": "35238",
+      "constraints": {
+        "required": true,
+        "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
+      }
+    },
+    {
+      "name": "ENFANT_SEXE",
+      "title": "Sexe relatif au prénom",
+      "type": "string",
+      "description": "Sexe correspondant au prénom, codé 'M' ou 'F' ou 'I', respectivement pour Masculin, Féminin ou Intersexué/Indéterminé. L'information est importante car certains prénoms sont aussi bien masculins que féminins, comme 'Camille'. 'I' signale un genre spécifiquement intersexué ou indéterminé et, contrairement à ce qu'il pourrait laisser penser, il ne mentionne pas un sexe inconnu. 'I' n'est théoriquement pas encore utilisé en France mais plusieurs pays ont créé un tel statut et de nombreux éléments suggèrent une évolution prochaine du droit en France.",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "M",
+          "F",
+          "I"
+        ]
+      },
+      "examples": "M"
+    },
+    {
+      "name": "ENFANT_PRENOM",
+      "title": "Prénom",
+      "description": "Prénom de nouveau(x)-né(s) constaté comme premier prénom dans les actes d'état-civil de l'année correspondante. Un acte de naissance peut désigner un nouveau-né avec plusieurs prénoms et le législateur a prévu que \"[_tout prénom inscrit dans l'acte de naissance peut être choisi comme prénom usuel_](https://fr.wikipedia.org/wiki/Prénom_usuel)_\"_. La plupart du temps le premier prénom est le prénom d'usage initialement choisi par le(s) parent(s). Cette spécification ne retient donc que le premier prénom : si un nouveau-né est appelé 'Armelle Julia Blanche', seul 'Armelle' sera retenu pour constituer ce jeu de données. Un prénom composé comme 'Marie-Jeanne' compte pour un prénom complet. Attention, \"[_l'alphabet utilisé doit être celui qui sert à l'écriture du français. Les caractères alphabétiques étrangers ne sont donc pas autorisés (par exemple le « ñ »)_](https://www.demarches.interieur.gouv.fr/particuliers/choix-prenom-enfant)\". Outre les caractères alphabétiques, un prénom peut posséder un trait d'union, voire deux, comme dans 'Lou-Anne' ou 'Mohamed-El-Amine'. Des prénoms peuvent posséder une apostrophe comme dans Gwenc'Hlan ou N'Deye, voire peut-être deux. Nous considérons aussi qu'un prénom pourrait se terminer, voire débuter, par une apostrophe - cette dernière étant parfois utilisée en français pour marquer la suppression de la finale ou le début d'un mot, comme dans Boul' Mich'.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^'?[A-ZÉÀÈÙÄËÏÖÜŸÂÊÎÔÛŶÇŒÆ][a-zéàèùäëïüöÿâêîôûŷçæœ]*(|'|(('[A-ZÉÀÈÙÄËÏÖÜŸÂÊÎÔÛŶÇŒÆa-zéàèùäëïüöÿâêîôûŷçæœ][a-zéàèùäëïüöÿâêîôûŷçæœ]*'?){1,2}|(-[A-ZÉÀÈÙÄËÏÖÜŸÂÊÎÔÛŶÇŒÆ][a-zéàèùäëïüöÿâêîôûŷçæœ]*'?){1,2}){1,5})$"
+      },
+      "examples": "Adam"
+    },
+    {
+      "name": "NOMBRE_OCCURRENCES",
+      "title": "Nombre d'occurrences",
+      "description": "Nombre d'occurrences du prénom pour l'année correspondante. Tous les prénoms sont comptabilisés, y compris les prénoms uniques - un seuil minimum est exclu car il conduirait à passer sous silence une importante part des naissances, voire la totalité dans les petites communes. La valeur de ce champ est donc un nombre entier d'1 à 6 chiffres maximum, 0 étant exclu.",
+      "type": "integer",
+      "constraints": {
+        "required": true,
+        "minimum": 1,
+        "maximum": 999999
+      },
+      "examples": "353"
+    },
+    {
+      "name": "ANNEE",
+      "title": "Année",
+      "description": "Année de relevé, sur quatre chiffres, au format AAAA.",
+      "type": "year",
+      "constraints": {
+        "required": true,
+        "pattern": "^[1-2]\\d\\d\\d$"
+      },
+      "examples": "2016"
+    }
+  ]
+}

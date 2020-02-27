@@ -1,0 +1,5 @@
+Le modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil spécifie la structure et le contenu d'un jeu de données simple et très apprécié du public. Il consiste en une liste de prénoms déclarés à l'état-civil de la commune de naissance, avec l'occurrence de chacun pour une année donnée. Les prénoms listés correspondent au premier prénom donné dans chaque acte de naissance.
+
+Il a été élaboré par [Charles Népote](mailto:charles.nepote@fing.org) à partir du recueil et de l'observation des fichiers produits en open data par plusieurs communes françaises, publiés dès 2012. Il s'est nourri de l'observation des usages et a puisé également dans les textes de lois ou textes de référence qui standardisent la forme des prénoms en français.
+
+La source de cette spécification est disponible sur le [dépôt Github de Charles Nepote](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes). Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
