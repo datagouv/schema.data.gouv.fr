@@ -1,4 +1,0 @@
-files:
-  - source: schemas/plf/exemple-valide.csv
-    schema: schemas/plf/schema.json
-    encoding: utf-8

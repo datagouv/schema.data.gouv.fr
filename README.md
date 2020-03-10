@@ -1,47 +1,13 @@
-[![goodtables.io](https://goodtables.io/badge/github/etalab/schema.data.gouv.fr.svg)](https://goodtables.io/github/etalab/schema.data.gouv.fr)
+[![CircleCI build status](https://img.shields.io/circleci/project/github/etalab/schema.data.gouv.fr.svg?style=flat-square)](https://circleci.com/gh/etalab/schema.data.gouv.fr)
+[![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://github.com/etalab/schema.data.gouv.fr/blob/master/LICENSE.md)
 
 # schema.data.gouv.fr
 
-## Objectif
+[schema.data.gouv.fr](https://schema.data.gouv.fr) est l’initiative de data.gouv.fr de référencement des schémas de données publiques pour la France. Pour connaitre le fonctionnement de la plateforme, veuillez vous reporter au site web.
 
-Ce dépôt a pour but de rassembler les différents schémas de données produits par Etalab et la communauté. Ces schémas peuvent concerner des formats réglementaires (dont le schéma est fixé par arrêté) ou d'autres formats dont les schémas sont mis à disposition à titre de bonne pratique.
+Ce dépôt comporte plusieurs composants :
+- un aggrégateur de schémas publiés en ligne, dans le dossier `aggregateur`
+- le site web de schema.data.gouv.fr, dans le dossier `web`
 
-## Formats non régis par une obligation réglementaire
-
-### Sur ce dépôt
-
-- [Données du Projet de Loi de Finances (PLF)](/schemas/plf) - en cours
-
-### Sur d'autres dépôts
-
-- [Liste des prénoms des nouveaux-nés](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes) - utilisé par le Socle commun des données locale produit par OpenDataFrance
-- [SCDL](https://git.opendatafrance.net/scdl)
-
-## À venir
-
-- Défibrilateurs cardiaques
-
-## Comment valider un fichier
-
-### Table Schema
-
-#### Goodtables
-
-Lorsque le schéma d'un fichier tabulaire est fourni au format [Table Schema](https://frictionlessdata.io/specs/table-schema/), il est possible d'utiliser l'outil Python [goodtables](https://github.com/frictionlessdata/goodtables-py) pour valider un fichier par rapport à un schéma de la manière suivante :
-
-```
-pip install goodtables
-goodtables --schema schema.json fichier.csv
-```
-
-Il est également possible d'utiliser le service en ligne http://goodtables.io pour valider des fichiers présents sur un dépôt Github. Un [exemple d'intégration](goodtables.yml) est présent sur dépôt.
-
-#### Validata
-
-Vous pouvez utiliser une instance de [Validata](https://git.opendatafrance.net/validata) (https://go.validata.fr ou https://validata.etalab.studio par exemple) pour valider un fichier suivant un schéma supporté par cette instance de Validata (la liste des schémas supportés est présente sur la page d'accueil de l'instance en question).
-
-## Conventions
-
-Lors de vos contributions à ce dépôt, merci de respecter les conventions suivantes :
-- préfixer vos commits par `[<schema>]` avec `<schema>` le nom du schéma concerné, par exemple `irve` ou `meta` dans le cas de ce fichier README ;
-- lors du merge de PR, utiliser autant que possible la fonction "Squash and merge" afin de garder un historique propre et respecter la convention ci-dessus dans le message de merge.
+## Licence
+Le code source du répertoire est publié sous la licence MIT. Les données, disponibles dans le répertoire sont publiées sous la Licence Ouverte 2.0.
