@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "deploy": "gh-pages -d _site"
+    "deploy": "gh-pages -d _site --message '[skip ci] Updates'"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
