@@ -4,10 +4,10 @@ jobs:
   fetch:
     docker:
       - image: circleci/python:3.7
-    working_directory: ~/repo/aggregateur
+    working_directory: ~/project/aggregateur
     steps:
       - checkout:
-          path: ~/repo
+          path: ~/project
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "requirements.txt" }}
@@ -61,8 +61,7 @@ jobs:
     docker:
       - image: circleci/python:3.7
     steps:
-      - checkout:
-          path: ~/repo
+      - checkout
       - attach_workspace:
           at: /tmp
       - add_ssh_keys:
@@ -90,14 +89,61 @@ jobs:
             else
               echo "No changes";
             fi
+  website:
+    docker:
+      - image: circleci/ruby:2.6.0-node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp
+      - add_ssh_keys:
+          fingerprints:
+            - "03:6a:59:1d:4f:76:ee:e9:de:f2:2f:af:ac:f0:2b:a3"
+      - run:
+          name: Set Git identity
+          command: |
+            git config --global user.email "robot@circleci.com"
+            git config --global user.name "CircleCI"
+      - restore_cache:
+          keys:
+          - v2-web-{{ checksum "web/Gemfile.lock" }}-{{ checksum "web/package-lock.json" }}
+      - run:
+          name: Install dependencies
+          command: |
+            cd web
+            npm install
+            bundle install --path vendor/bundle
+      - save_cache:
+          paths:
+            - web/node_modules
+            - web/vendor
+          key: v2-web-{{ checksum "web/Gemfile.lock" }}-{{ checksum "web/package-lock.json" }}
+      - run:
+          name: Push to GitHub
+          command: |
+            cd web
+            ./build.sh
+            echo "schema.data.gouv.fr" > _site/CNAME
+            npm run deploy
 workflows:
   version: 2
   commit:
     jobs:
-      - fetch
+      - fetch:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
       - push_data:
           requires:
             - fetch
+          filters:
+            branches:
+              only:
+                - master
+      - website:
+          requires:
+            - push_data
           filters:
             branches:
               only:
@@ -115,3 +161,6 @@ workflows:
       - push_data:
           requires:
             - fetch
+      - website:
+          requires:
+            - push_data

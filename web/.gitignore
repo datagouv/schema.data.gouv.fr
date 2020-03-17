@@ -98,3 +98,4 @@ theme/node_modules/
 *.DS_Store
 
 collections/_schemas
+node_modules
