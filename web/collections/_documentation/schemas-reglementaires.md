@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Schémas réglementaires"
-order: 5
+order: 6
 ---
 
 # Schémas réglementaires
