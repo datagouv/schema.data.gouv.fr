@@ -10,8 +10,8 @@ PHASES = ["construction", "investigation"]
 
 
 def requests_retry_session(
-    retries=3,
-    backoff_factor=0.5,
+    retries=5,
+    backoff_factor=1,
     status_forcelist=[401, 402, 403, 500, 502, 504],
     session=None,
 ):
