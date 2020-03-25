@@ -4,9 +4,9 @@ title: "Guide : créer des schémas de données"
 order: 2
 ---
 
-# Créer des schémas de données
+# Créer un nouveau schéma de données
 
-Vous envisagez de partager des données avec des partenaires ou à tout le monde en open data ? Nous avons rédigé un guide qui s’adresse à des **personnes susceptibles de créer des schémas de données**.
+Vous envisagez de partager des données avec des partenaires ou à tout le monde en open data ? Nous avons rédigé un guide qui s’adresse aux **personnes susceptibles de créer des schémas de données**.
 
 ## Contenu disponible
 Ce guide propose de vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant.
