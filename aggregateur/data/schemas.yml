@@ -14,6 +14,20 @@ CharlesNepote/liste-prenoms-nouveaux-nes:
   versions:
   - 1.1.3
   - 1.1.4
+arsante/schema-dae:
+  description: Spécification du modèle de données relatif aux DAE
+  email: contact@geodae.sante.gouv.fr
+  has_changelog: false
+  homepage: https://wwww.geodae.sante.gouv.fr
+  latest_version: 1.0.0
+  schemas:
+  - original_path: schema.json
+    path: schema.json
+    title: DAE
+  title: DAE
+  type: tableschema
+  versions:
+  - 1.0.0
 etalab/format-commande-publique:
   description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
     commande publique
