@@ -1,0 +1,6 @@
+etalab/schema-irve:
+  - irve
+etalab/schema-lieux-covoiturage:
+  - covoiturage
+etalab/schema-stationnement:
+  - stationnement

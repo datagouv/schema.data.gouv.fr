@@ -14,6 +14,7 @@ from table_schema_to_markdown import convert_source
 
 class BaseValidator(object):
     CHANGELOG_FILENAME = "CHANGELOG.md"
+    CONSOLIDATION_TAGS_FILENAME = "consolidation_tags.yml"
 
     def __init__(self, repo):
         super(BaseValidator, self).__init__()
@@ -24,6 +25,11 @@ class BaseValidator(object):
     def data_dir(self):
         current_dir = os.path.dirname(os.path.realpath(__file__))
         return os.path.join(current_dir, "data")
+
+    @property
+    def static_dir(self):
+        current_dir = os.path.dirname(os.path.realpath(__file__))
+        return os.path.join(current_dir, "static")
 
     @property
     def target_dir(self):
@@ -40,7 +46,24 @@ class BaseValidator(object):
         raise NotImplementedError
 
     def metadata(self):
-        raise NotImplementedError
+        slug = self.repo.slug
+
+        return {
+            "slug": slug,
+            "title": self.title,
+            "description": self.description,
+            "homepage": self.homepage,
+            "type": self.repo.schema_type,
+            "consolidation_tags": self.consolidation_tags(slug),
+            "email": self.repo.email,
+            "version": self.repo.current_version,
+            "has_changelog": self.has_changelog,
+            "schemas": self.schemas_metadata(),
+        }
+
+    def consolidation_tags(self, slug):
+        with open(os.path.join(self.static_dir, self.CONSOLIDATION_TAGS_FILENAME)) as f:
+            return yaml.safe_load(f).get(slug, [])
 
     def move_files(self, files):
         if not os.path.exists(self.target_dir):
@@ -209,19 +232,6 @@ class XsdSchemaValidator(BaseValidator):
 
         self.move_files(files)
 
-    def metadata(self):
-        return {
-            "slug": self.repo.slug,
-            "title": self.title,
-            "description": self.description,
-            "homepage": self.homepage,
-            "type": self.repo.schema_type,
-            "email": self.repo.email,
-            "version": self.repo.current_version,
-            "has_changelog": self.has_changelog,
-            "schemas": self.schemas_metadata(),
-        }
-
 
 class JsonSchemaValidator(XsdSchemaValidator):
     def __init__(self, repo):
@@ -323,16 +333,3 @@ class TableSchemaValidator(BaseValidator):
         with open(self.filepath(self.SCHEMA_FILENAME)) as f:
             self.schema_data = json.load(f)
         return self.schema_data
-
-    def metadata(self):
-        return {
-            "slug": self.repo.slug,
-            "title": self.title,
-            "description": self.description,
-            "homepage": self.homepage,
-            "type": self.repo.schema_type,
-            "email": self.repo.email,
-            "version": self.repo.current_version,
-            "has_changelog": self.has_changelog,
-            "schemas": self.schemas_metadata(),
-        }
