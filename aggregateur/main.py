@@ -4,6 +4,7 @@ import locale
 from functools import cmp_to_key
 
 import exceptions
+from config import BASE_DOMAIN
 from validators import TableSchemaValidator, XsdSchemaValidator, JsonSchemaValidator
 from notifications import EmailNotification
 from errors import ErrorBag, ErrorsCache
@@ -17,8 +18,6 @@ from git.exc import GitError
 
 
 class Metadata(object):
-    BASE_DOMAIN = "https://schema.data.gouv.fr"
-
     def __init__(self):
         super(Metadata, self).__init__()
         self.data = {}
@@ -41,7 +40,7 @@ class Metadata(object):
             raise NotImplementedError
         return {
             "tableschema": "%s/schemas/%s/latest/%s"
-            % (self.BASE_DOMAIN, slug, TableSchemaValidator.SCHEMA_FILENAME)
+            % (BASE_DOMAIN, slug, TableSchemaValidator.SCHEMA_FILENAME)
         }[details["type"]]
 
     def get(self):
