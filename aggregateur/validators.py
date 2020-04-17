@@ -9,6 +9,8 @@ import jsonschema
 import frontmatter
 from lxml import etree
 
+import config
+
 from table_schema_to_markdown import convert_source
 
 
@@ -60,6 +62,9 @@ class BaseValidator(object):
             "has_changelog": self.has_changelog,
             "schemas": self.schemas_metadata(),
         }
+
+    def latest_schema_url(self, path):
+        return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/latest/{path}"
 
     def consolidation_tags(self, slug):
         with open(os.path.join(self.static_dir, self.CONSOLIDATION_TAGS_FILENAME)) as f:
@@ -177,11 +182,14 @@ class XsdSchemaValidator(BaseValidator):
     def schemas_metadata(self):
         res = []
         for schema in self.schemas_config:
+            path = os.path.basename(schema["path"])
+
             res.append(
                 {
-                    "path": os.path.basename(schema["path"]),
+                    "path": path,
                     "original_path": schema["path"],
                     "title": schema["title"],
+                    "latest_url": self.latest_schema_url(path),
                 }
             )
 
@@ -266,6 +274,7 @@ class TableSchemaValidator(BaseValidator):
                 "path": self.SCHEMA_FILENAME,
                 "original_path": self.SCHEMA_FILENAME,
                 "title": self.title,
+                "latest_url": self.latest_schema_url(self.SCHEMA_FILENAME),
             }
         ]
 
