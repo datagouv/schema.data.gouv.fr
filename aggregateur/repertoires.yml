@@ -54,3 +54,7 @@ prenoms:
   url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
   type: tableschema
   email: charles.nepote@fing.org
+donnees-questionnaires-covid19:
+  url: https://github.com/Delegation-numerique-en-sante/covid19-algorithme-orientation-check.git
+  type: tableschema
+  email: bastien.guerry@data.gouv.fr
