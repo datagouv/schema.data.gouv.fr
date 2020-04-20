@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-irve/1.0.2/documentation.html
-redirect_from: null
+permalink: /etalab/schema-irve/latest/documentation.html
+redirect_from: /etalab/schema-irve/1.0.3/documentation.html
 title: Documentation de Infrastructures de recharge pour véhicules électriques
-version: 1.0.2
+version: 1.0.3
 ---
 
 ## irve
@@ -13,7 +13,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 - Schéma créé le : 29/06/2018
 - Site web : https://github.com/etalab/schema-irve
-- Version : 1.0.2
+- Version : 1.0.3
 - Clé primaire : `id_pdc`
 
 ### Modèle de données
@@ -35,5 +35,5 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 |type_prise|chaîne de caractères|Les types de prises ou de connecteurs disponibles sur chaque point de charge|E/F, T2|Valeur obligatoire|
 |acces_recharge|chaîne de caractères|Modalités d'accès à la recharge|Payant, Gratuit, Sur abonnement|Valeur obligatoire|
 |accessibilité|chaîne de caractères|Amplitude d'ouverture de la station|24/24 7/7 jours|Valeur obligatoire|
-|observations|chaîne de caractères|Champ destiné à préciser les modalités d'accès à la recharge, l'accessibilité, le tarif, les horaires d'ouverture, …|Recharge uniquement disponible pendant les horaires d'ouverture du Centre Commercial XY|Valeur obligatoire|
+|observations|chaîne de caractères|Champ destiné à préciser les modalités d'accès à la recharge, l'accessibilité, le tarif, les horaires d'ouverture, …|Recharge uniquement disponible pendant les horaires d'ouverture du Centre Commercial XY|Valeur optionnelle|
 |date_maj|date (format `%Y/%m/%d`)|Date de mise à jour des données|2018/08/08, 2015/12/30|Valeur obligatoire|

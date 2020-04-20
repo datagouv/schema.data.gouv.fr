@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-irve/1.0.2.html
-redirect_from: null
+permalink: /etalab/schema-irve/latest.html
+redirect_from: /etalab/schema-irve/1.0.3.html
 title: Infrastructures de recharge pour véhicules électriques
-version: 1.0.2
+version: 1.0.3
 ---
 
 # Infrastructures de recharge pour véhicules électriques
@@ -25,7 +25,7 @@ De fait, ce schéma a été élaboré par Etalab à partir des documents suivant
 
 ## Consolidation
 
-Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/schema-irve/tree/master/aggregration). Le fichier en résultant est [publié ici sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5448d3e0c751df01f85d0572).
+Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/notebooks/tree/master/irve). Le fichier en résultant est [publié ici sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5448d3e0c751df01f85d0572).
 
 ## Voir aussi
 

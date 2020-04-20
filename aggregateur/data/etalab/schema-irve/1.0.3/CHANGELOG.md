@@ -1,11 +1,15 @@
 ---
 permalink: /etalab/schema-irve/latest/changelog.html
-redirect_from: /etalab/schema-irve/1.0.2/changelog.html
+redirect_from: /etalab/schema-irve/1.0.3/changelog.html
 title: CHANGELOG de Infrastructures de recharge pour véhicules électriques
-version: 1.0.2
+version: 1.0.3
 ---
 
 # Changelog
+
+## 1.0.3
+
+- Suppression du caractère obligatoire du champ `observations`
 
 ## 1.0.2
 
