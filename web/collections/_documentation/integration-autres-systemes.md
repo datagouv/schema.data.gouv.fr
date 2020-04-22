@@ -36,8 +36,10 @@ $ tree .
 Voici un extrait du fichier `schemas.yml` (accessible à l'adresse <https://schema.data.gouv.fr/schemas/schemas.yml>) :
 ```yaml
 etalab/schema-irve:
-  consolidation_tags:
-  - irve
+  consolidation:
+    dataset_id: 5448d3e0c751df01f85d0572
+    tags:
+    - irve
   description: Spécification du fichier d'échange relatif aux données concernant la
     localisation géographique et les caractéristiques techniques des stations et des
     points de recharge pour véhicules électriques

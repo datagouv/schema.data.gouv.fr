@@ -16,7 +16,7 @@ from table_schema_to_markdown import convert_source
 
 class BaseValidator(object):
     CHANGELOG_FILENAME = "CHANGELOG.md"
-    CONSOLIDATION_TAGS_FILENAME = "consolidation_tags.yml"
+    CONSOLIDATION_FILENAME = "consolidation.yml"
 
     def __init__(self, repo):
         super(BaseValidator, self).__init__()
@@ -56,7 +56,7 @@ class BaseValidator(object):
             "description": self.description,
             "homepage": self.homepage,
             "type": self.repo.schema_type,
-            "consolidation_tags": self.consolidation_tags(slug),
+            "consolidation": self.consolidation_data(slug),
             "email": self.repo.email,
             "version": self.repo.current_version,
             "has_changelog": self.has_changelog,
@@ -66,9 +66,9 @@ class BaseValidator(object):
     def latest_schema_url(self, path):
         return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/latest/{path}"
 
-    def consolidation_tags(self, slug):
-        with open(os.path.join(self.static_dir, self.CONSOLIDATION_TAGS_FILENAME)) as f:
-            return yaml.safe_load(f).get(slug, [])
+    def consolidation_data(self, slug):
+        with open(os.path.join(self.static_dir, self.CONSOLIDATION_FILENAME)) as f:
+            return yaml.safe_load(f).get(slug, None)
 
     def move_files(self, files):
         if not os.path.exists(self.target_dir):
