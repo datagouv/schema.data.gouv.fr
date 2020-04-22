@@ -1,5 +1,5 @@
 CharlesNepote/liste-prenoms-nouveaux-nes:
-  consolidation_tags: []
+  consolidation: null
   description: Spécification du modèle de données relatif aux prénoms des nouveaux-nés
     déclarés à l’état-civil.
   email: charles.nepote@fing.org
@@ -17,7 +17,7 @@ CharlesNepote/liste-prenoms-nouveaux-nes:
   - 1.1.3
   - 1.1.4
 arsante/schema-dae:
-  consolidation_tags: []
+  consolidation: null
   description: Spécification du modèle de données relatif aux DAE
   email: contact@geodae.sante.gouv.fr
   has_changelog: false
@@ -33,7 +33,7 @@ arsante/schema-dae:
   versions:
   - 1.0.0
 etalab/format-commande-publique:
-  consolidation_tags: []
+  consolidation: null
   description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
     commande publique
   email: info@data.gouv.fr
@@ -54,7 +54,7 @@ etalab/format-commande-publique:
   versions:
   - 1.3.0
 etalab/schema-decp-dpa:
-  consolidation_tags: []
+  consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: info@data.gouv.fr
   has_changelog: false
@@ -70,8 +70,10 @@ etalab/schema-decp-dpa:
   versions:
   - 1.0.0
 etalab/schema-irve:
-  consolidation_tags:
-  - irve
+  consolidation:
+    dataset_id: 5448d3e0c751df01f85d0572
+    tags:
+    - irve
   description: Spécification du fichier d'échange relatif aux données concernant la
     localisation géographique et les caractéristiques techniques des stations et des
     points de recharge pour véhicules électriques
@@ -92,8 +94,10 @@ etalab/schema-irve:
   - 1.0.2
   - 1.0.3
 etalab/schema-lieux-covoiturage:
-  consolidation_tags:
-  - covoiturage
+  consolidation:
+    dataset_id: 5d6eaffc8b4c417cdc452ac3
+    tags:
+    - covoiturage
   description: Spécification des lieux permettant le covoiturage
   email: contact@transport.beta.gouv.fr
   has_changelog: true
@@ -112,8 +116,10 @@ etalab/schema-lieux-covoiturage:
   - 0.1.1
   - 0.1.2
 etalab/schema-stationnement:
-  consolidation_tags:
-  - stationnement
+  consolidation:
+    dataset_id: null
+    tags:
+    - stationnement
   description: Spécification des lieux permettant le stationnement en parc
   email: contact@transport.beta.gouv.fr
   has_changelog: true
@@ -130,7 +136,7 @@ etalab/schema-stationnement:
   - 0.1.0
   - 0.1.1
 metis-reseaux/infos-travaux:
-  consolidation_tags: []
+  consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
   email: contact@gotmi.io
   has_changelog: false
@@ -146,7 +152,7 @@ metis-reseaux/infos-travaux:
   versions:
   - 0.0.2
 scdl/adresses:
-  consolidation_tags: []
+  consolidation: null
   description: Spécification du modèle de données relatif aux adresses locales d’une
     collectivité (BAL)
   email: scdl@opendatafrance.email
@@ -164,7 +170,7 @@ scdl/adresses:
   - 1.1.3
   - 1.1.4
 scdl/budget:
-  consolidation_tags: []
+  consolidation: null
   description: Les données essentielles du budget permettent de décrire le contenu
     des étapes budgétaires des collectivités locales et des établissements publics.
     Il contient les articles et fonctions des cadres budgétaires et les montants financiers
@@ -191,7 +197,7 @@ scdl/budget:
   - 0.7.0
   - 0.8.0
 scdl/catalogue:
-  consolidation_tags: []
+  consolidation: null
   description: Spécification du modèle de données relatif au catalogue des jeux de
     données publiés en open data par une collectivité
   email: scdl@opendatafrance.email
@@ -209,7 +215,7 @@ scdl/catalogue:
   - 0.1.1
   - 0.1.2
 scdl/deliberations:
-  consolidation_tags: []
+  consolidation: null
   description: Schéma validant le format relatif aux délibérations du SCDL (Socle
     Commun des Données Locales).
   email: scdl@opendatafrance.email
@@ -231,7 +237,7 @@ scdl/deliberations:
   - 2.1.2
   - 2.1.3
 scdl/equipements:
-  consolidation_tags: []
+  consolidation: null
   description: Spécification du modèle de données relatif aux équipements collectifs
     publics d'une collectivité.
   email: scdl@opendatafrance.email
@@ -249,7 +255,7 @@ scdl/equipements:
   - 0.1.0
   - 0.1.1
 scdl/subventions:
-  consolidation_tags: []
+  consolidation: null
   description: Schéma validant le format relatif aux subventions du SCDL (Socle Commun
     des Données Locales).
   email: scdl@opendatafrance.email
