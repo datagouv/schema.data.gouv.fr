@@ -1,13 +1,16 @@
 ---
 permalink: /etalab/schema-stationnement/latest/changelog.html
-redirect_from: /etalab/schema-stationnement/0.1.1/changelog.html
+redirect_from: /etalab/schema-stationnement/0.1.2/changelog.html
 title: CHANGELOG de Lieux de stationnement
-version: 0.1.1
+version: 0.1.2
 ---
 
 # Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
+
+## Version 0.1.2 - 2020-03-04
+- Correction du numéro de SIRET qui était invalide
 
 ## Version 0.1.1 - 2019-12-30
 - Correction d'erreurs de syntaxe ;

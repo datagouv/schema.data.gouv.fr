@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement/0.1.1.html
-redirect_from: null
+permalink: /etalab/schema-stationnement/latest.html
+redirect_from: /etalab/schema-stationnement/0.1.2.html
 title: Lieux de stationnement
-version: 0.1.1
+version: 0.1.2
 ---
 
 # Schéma des lieux de stationnement
@@ -59,8 +59,8 @@ Nom du fichier : `Parking_nom_AAAAMMJJ.csv` avec nom étant le nom de la collect
 ### Fichiers d'exemples
 Vous pouvez télécharger des fichiers gabarits d'exemple.
 
-- Un [fichier au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.1/exemple-valide.csv) ;
-- Un [fichier au format tableur](https://github.com/etalab/schema-stationnement/raw/v0.1.1/exemple-valide.xlsx).
+- Un [fichier au format CSV](https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-valide.csv) ;
+- Un [fichier au format tableur](https://github.com/etalab/schema-stationnement/raw/v0.1.2/exemple-valide.xlsx).
 
 ### Mises à jour
 

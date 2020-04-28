@@ -124,7 +124,7 @@ etalab/schema-stationnement:
   email: contact@transport.beta.gouv.fr
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement
-  latest_version: 0.1.1
+  latest_version: 0.1.2
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json
     original_path: schema.json
@@ -135,6 +135,7 @@ etalab/schema-stationnement:
   versions:
   - 0.1.0
   - 0.1.1
+  - 0.1.2
 metis-reseaux/infos-travaux:
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
