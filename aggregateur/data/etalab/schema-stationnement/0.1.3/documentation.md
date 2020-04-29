@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement/0.1.2/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement/latest/documentation.html
+redirect_from: /etalab/schema-stationnement/0.1.3/documentation.html
 title: Documentation de Lieux de stationnement
-version: 0.1.2
+version: 0.1.3
 ---
 
 ## Lieux de stationnement
@@ -12,7 +12,7 @@ Spécification des lieux permettant le stationnement en parc
 - Auteur : transport.data.gouv.fr
 - Schéma créé le : 13/12/2019
 - Site web : https://github.com/etalab/schema-stationnement
-- Version : 0.1.2
+- Version : 0.1.3
 - Clé primaire : `id`
 
 ### Modèle de données
@@ -35,7 +35,7 @@ Spécification des lieux permettant le stationnement en parc
 |nb_autopartage|nombre entier|Nombre total de places réservées aux voitures en autopartage.|5|Valeur optionnelle|
 |nb_2_rm|nombre entier|Nombre total de places réservées aux motos et scooters.|5|Valeur optionnelle|
 |nb_covoit|nombre entier|Nombre total de places réservées au covoiturage.|5|Valeur optionnelle|
-|hauteur_max|nombre entier|Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres.|5|Valeur obligatoire|
+|hauteur_max|chaîne de caractères|Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur `N/A`.|290|Valeur obligatoire, Motif : `^(\d+|N/A)$`|
 |num_siret|chaîne de caractères|Numéro SIRET de la société ou de la collectivité chargée de la gestion de l’ouvrage (14 chiffres).|80295478500028|Valeur obligatoire, Motif : `^\d{14}$`|
 |Xlong|nombre réel|La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.|1.452323|Valeur obligatoire, Valeur minimale : -180, Valeur maximale : 180|
 |Ylat|nombre réel|La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.|46.59698|Valeur obligatoire, Valeur minimale : -90, Valeur maximale : 90|

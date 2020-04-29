@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement/0.1.2.html
-redirect_from: null
+permalink: /etalab/schema-stationnement/latest.html
+redirect_from: /etalab/schema-stationnement/0.1.3.html
 title: Lieux de stationnement
-version: 0.1.2
+version: 0.1.3
 ---
 
 # Schéma des lieux de stationnement
