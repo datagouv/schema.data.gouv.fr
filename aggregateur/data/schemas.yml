@@ -117,7 +117,7 @@ etalab/schema-lieux-covoiturage:
   - 0.1.2
 etalab/schema-stationnement:
   consolidation:
-    dataset_id: null
+    dataset_id: 5ea1add4a5a7dac3af82310a
     tags:
     - stationnement
   description: Spécification des lieux permettant le stationnement en parc
