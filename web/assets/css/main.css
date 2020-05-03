@@ -42,3 +42,12 @@ ul {
 .edit {
   margin-top: 2em;
 }
+
+.consolidation-badge {
+  margin-bottom: 1em;
+  display: block;
+}
+
+.consolidation-details {
+  margin-top: 2em;
+}

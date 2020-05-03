@@ -1,0 +1,41 @@
+{% if include.schema_data.consolidation %}
+  {% assign schema_data = include.schema_data %}
+  {% assign consolidation = schema_data.consolidation %}
+
+  <h2>Jeu de données consolidé</h2>
+
+  <p>
+    Une consolidation de données est effectuée à partir de ce schéma. Vous pouvez retrouver le jeu de données résultant de cette consolidation sur data.gouv.fr
+  </p>
+
+  <div data-udata-dataset="{{ consolidation.dataset_id }}"></div>
+
+  <div class="js-consolidation-details consolidation-details"></div>
+
+  <script>
+    const datasetId = document.querySelector('[data-udata-dataset]').getAttribute('data-udata-dataset')
+
+    fetch('http://localhost:8000')
+      .then(response => response.json())
+      .then(data => {
+        const report = data[datasetId]
+
+        const formatter = Intl.NumberFormat()
+
+        datasetDetails = `
+          <div class="consolidation-badge">
+            <img src="${report['badge_url']}" alt="Badge de consolidation">
+          </div>
+          <p>
+            La dernière version de ce jeu de données comporte ${formatter.format(report['nb_rows'])} lignes
+            et un total de ${formatter.format(report['nb_errors'])} erreurs.
+            Le dernier rapport de validation peut être
+            <a href="${report['report_url']}" title="Rapport de validation">consulté en ligne</a>.
+          </p>
+        `
+
+        document.querySelector('.js-consolidation-details').innerHTML = datasetDetails
+      });
+  </script>
+  <script data-udata="https://www.data.gouv.fr" src="https://static.data.gouv.fr/static/oembed.js" async defer></script>
+{% endif %}
