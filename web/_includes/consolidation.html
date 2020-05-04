@@ -1,6 +1,5 @@
 {% if include.schema_data.consolidation %}
-  {% assign schema_data = include.schema_data %}
-  {% assign consolidation = schema_data.consolidation %}
+  {% assign consolidation = include.schema_data.consolidation %}
 
   <h2>Jeu de données consolidé</h2>
 
@@ -15,7 +14,9 @@
   <script>
     const datasetId = document.querySelector('[data-udata-dataset]').getAttribute('data-udata-dataset')
 
-    fetch('http://localhost:8000')
+    const maybePluralize = (count, noun, suffix = 's') => `${count} ${noun}${count !== 1 ? suffix : ''}`
+
+    fetch('https://etalab.github.io/monitor-consolidation/report.json')
       .then(response => response.json())
       .then(data => {
         const report = data[datasetId]
@@ -27,8 +28,8 @@
             <img src="${report['badge_url']}" alt="Badge de consolidation">
           </div>
           <p>
-            La dernière version de ce jeu de données comporte ${formatter.format(report['nb_rows'])} lignes
-            et un total de ${formatter.format(report['nb_errors'])} erreurs.
+            La dernière version de ce jeu de données comporte ${maybePluralize(formatter.format(report['nb_rows']), 'ligne')}
+            et un total de ${maybePluralize(formatter.format(report['nb_errors']), 'erreur')}.
             Le dernier rapport de validation peut être
             <a href="${report['report_url']}" title="Rapport de validation">consulté en ligne</a>.
           </p>
