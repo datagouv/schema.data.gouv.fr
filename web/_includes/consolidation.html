@@ -28,7 +28,7 @@
             <img src="${report['badge_url']}" alt="Badge de consolidation">
           </div>
           <p>
-            La dernière version de ce jeu de données comporte ${maybePluralize(formatter.format(report['nb_rows']), 'ligne')}
+            La dernière version de ce jeu de données consolidé comporte ${maybePluralize(formatter.format(report['nb_rows']), 'ligne')}
             et un total de ${maybePluralize(formatter.format(report['nb_errors']), 'erreur')}.
             Le dernier rapport de validation peut être
             <a href="${report['report_url']}" title="Rapport de validation">consulté en ligne</a>.
