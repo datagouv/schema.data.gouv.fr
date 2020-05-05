@@ -128,6 +128,10 @@ class Repo(object):
     def current_version(self):
         return str(self.current_tag)
 
+    @property
+    def latest_valid_version(self):
+        return str(self.latest_valid_tag())
+
     def validator(self):
         if self.schema_type == "tableschema":
             return TableSchemaValidator(self)

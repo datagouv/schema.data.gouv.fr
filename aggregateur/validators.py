@@ -64,7 +64,7 @@ class BaseValidator(object):
         }
 
     def latest_schema_url(self, path):
-        return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/latest/{path}"
+        return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/{self.repo.latest_valid_version}/{path}"
 
     def consolidation_data(self, slug):
         with open(os.path.join(self.static_dir, self.CONSOLIDATION_FILENAME)) as f:
