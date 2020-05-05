@@ -7,7 +7,7 @@ CharlesNepote/liste-prenoms-nouveaux-nes:
   homepage: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes
   latest_version: 1.1.4
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/CharlesNepote/liste-prenoms-nouveaux-nes/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/CharlesNepote/liste-prenoms-nouveaux-nes/1.1.4/schema.json
     original_path: schema.json
     path: schema.json
     title: Prénoms des nouveaux-nés
@@ -24,7 +24,7 @@ arsante/schema-dae:
   homepage: https://wwww.geodae.sante.gouv.fr
   latest_version: 1.0.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.0/schema.json
     original_path: schema.json
     path: schema.json
     title: DAE
@@ -41,11 +41,11 @@ etalab/format-commande-publique:
   homepage: https://github.com/etalab/format-commande-publique
   latest_version: 1.3.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/latest/contrats-concessions.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.3.0/contrats-concessions.json
     original_path: schémas/json/contrats-concessions.json
     path: contrats-concessions.json
     title: Contrats de concessions
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/latest/marchés.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.3.0/marchés.json
     original_path: schémas/json/marchés.json
     path: marchés.json
     title: Marchés
@@ -61,7 +61,7 @@ etalab/schema-decp-dpa:
   homepage: https://github.com/etalab/schema-decp-dpa
   latest_version: 1.0.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/1.0.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Spécification du fichier de déclaration de profil d'acheteur
@@ -82,7 +82,7 @@ etalab/schema-irve:
   homepage: https://github.com/etalab/schema-irve
   latest_version: 1.0.3
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.3/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma IRVE
@@ -104,7 +104,7 @@ etalab/schema-lieux-covoiturage:
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   latest_version: 0.1.2
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
@@ -126,7 +126,7 @@ etalab/schema-stationnement:
   homepage: https://github.com/etalab/schema-stationnement
   latest_version: 0.1.3
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.3/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de stationnement
@@ -145,7 +145,7 @@ metis-reseaux/infos-travaux:
   homepage: https://github.com/metis-reseaux/infos-travaux
   latest_version: 0.0.2
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/metis-reseaux/infos-travaux/latest/informations_travaux.json
+  - latest_url: https://schema.data.gouv.fr/schemas/metis-reseaux/infos-travaux/0.0.2/informations_travaux.json
     original_path: informations_travaux.json
     path: informations_travaux.json
     title: Spécification du GeoJSON de publicité de travaux d'infrastructure.
@@ -162,7 +162,7 @@ scdl/adresses:
   homepage: https://git.opendatafrance.net/scdl/adresses
   latest_version: 1.1.4
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/adresses/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/adresses/1.1.4/schema.json
     original_path: schema.json
     path: schema.json
     title: Base adresse locale
@@ -183,7 +183,7 @@ scdl/budget:
   homepage: https://git.opendatafrance.net/scdl/budget
   latest_version: 0.8.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/budget/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/budget/0.8.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Budget
@@ -207,7 +207,7 @@ scdl/catalogue:
   homepage: https://git.opendatafrance.net/scdl/catalogue
   latest_version: 0.1.2
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/catalogue/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Catalogue simplifié
@@ -225,7 +225,7 @@ scdl/deliberations:
   homepage: https://git.opendatafrance.net/scdl/deliberations
   latest_version: 2.1.3
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/deliberations/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.3/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma SCDL Délibérations
@@ -247,7 +247,7 @@ scdl/equipements:
   homepage: https://git.opendatafrance.net/scdl/equipements
   latest_version: 0.1.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/equipements/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Equipements
@@ -265,7 +265,7 @@ scdl/subventions:
   homepage: https://git.opendatafrance.net/scdl/subventions
   latest_version: 2.0.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma SCDL Subventions
