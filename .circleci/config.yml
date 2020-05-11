@@ -40,6 +40,12 @@ jobs:
             . venv/bin/activate
             python main.py
       - run:
+          name: Validate generated schemas.json
+          command: |
+            wget -O /tmp/schema-catalog.json https://opendataschema.frama.io/catalog/schema-catalog.json
+            . venv/bin/activate
+            jsonschema /tmp/schema-catalog.json -i data/schemas.json
+      - run:
           name: Compute checksum of repos
           command: |
             find repos -type f -not -path '*/\.git/*' -exec md5sum {} \; | sort -k 2 | md5sum > "cache/repos"
