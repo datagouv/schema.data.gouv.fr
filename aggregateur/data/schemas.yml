@@ -1,3 +1,26 @@
+139bercy/format-commande-publique:
+  consolidation: null
+  description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
+    commande publique
+  email: info@data.gouv.fr
+  has_changelog: false
+  homepage: https://github.com/etalab/format-commande-publique
+  latest_version: 1.5.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/contrats-concessions.json
+    original_path: schémas/json/contrats-concessions.json
+    path: contrats-concessions.json
+    title: Contrats de concessions
+  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marchés.json
+    original_path: schémas/json/marchés.json
+    path: marchés.json
+    title: Marchés
+  title: Données essentielles des marchés publics français
+  type: jsonschema
+  versions:
+  - 1.3.0
+  - 1.4.0
+  - 1.5.0
 CharlesNepote/liste-prenoms-nouveaux-nes:
   consolidation: null
   description: Spécification du modèle de données relatif aux prénoms des nouveaux-nés

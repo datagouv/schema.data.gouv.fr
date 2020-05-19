@@ -1,0 +1,647 @@
+{
+  "id": "https://raw.githubusercontent.com/139bercy/format-commande-publique/master/marches.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Format réglementaire de publication des données essentielles des marchés publics français",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "marches": {
+      "title": "Marché et concessions",
+      "description": "Liste de marchés et de concessions",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "anyOf": [{
+            "$ref": "#/definitions/marche"
+          },
+          {
+            "$ref": "#/definitions/contrat-concession"
+          }
+        ]
+      },
+      "uniqueItems": true
+    }
+  },
+  "definitions": {
+    "marche": {
+      "title": "Format réglementaire de publication des données essentielles des marchés publics français",
+      "description": "",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Identifiant de marché",
+          "description": "Exemples : 20141234567890 ou 2016C123456",
+          "$ref": "#/definitions/marche/definitions/IdentifiantMarche"
+        },
+        "uid": {
+          "title": "Identifiant de marché",
+          "description": "Exemples : 2135023880001920141234567890 ou 213502388000192016C123456",
+          "$ref": "#/definitions/marche/definitions/IdentifiantUniqueMarche"
+        },
+        "_type": {
+          "title": "Type d'objet (marché, marché de sécurité, contrat de concession)",
+          "type": "string",
+          "pattern": "^Marché$"
+        },
+        "acheteur": {
+          "title": "Acheteur ou mandataire du marché",
+          "description": "Si le marché est passé par un groupement d'acheteurs, c'est le mandataire en charge d'effectuer la procédure du passation.",
+          "$ref": "#/definitions/marche/definitions/Acheteur"
+        },
+        "nature": {
+          "title": "Nature du marché",
+          "description": "La nature du marché.",
+          "type": "string",
+          "enum": [
+            "Marché",
+            "Marché de partenariat",
+            "Accord-cadre",
+            "Marché subséquent"
+          ]
+        },
+        "objet": {
+          "title": "Objet du marché",
+          "description": "Description synthétique de l'objet du marché ou du lot.",
+          "maxLength": 256,
+          "type": "string"
+        },
+        "codeCPV": {
+          "title": "Code CPV",
+          "description": "Nomenclature européenne permettant d'identifier les catégories de biens et de service faisant l'objet du marché (http://simap.ted.europa.eu/web/simap/cpv). Exemple: 45112500 (même si toléré, il préférable d'omettre le caractère de contrôle (-9))",
+          "type": "string",
+          "pattern": "^[0-9]{8}(\\-[0-9])?$"
+        },
+        "procedure": {
+          "title": "Procédure de passation du marché",
+          "description": "La procédure de passation de marché utilisée par l'acheteur",
+          "enum": [
+            "Procédure adaptée",
+            "Appel d'offres ouvert",
+            "Appel d'offres restreint",
+            "Procédure concurrentielle avec négociation",
+            "Procédure négociée avec mise en concurrence préalable",
+            "Marché négocié sans publicité ni mise en concurrence préalable",
+            "Dialogue compétitif"
+          ]
+        },
+        "lieuExecution": {
+          "title": "Lieu d'exécution principal du marché",
+          "description": "Commune, canton, arrondissement, département, région ou pays d'exécution du marché.",
+          "type": "object",
+          "properties": {
+            "code": {
+              "title": "Code du lieu d'exécution",
+              "description": "Code du lieu d'exécution (code postal, commune, canton, arrondissement, département, région, pays). Les codes INSEE sont à privilégier aux dépens du code postal. Exemple : 2B002",
+              "type": "string"
+            },
+            "typeCode": {
+              "title": "Type de code du lieu d'exécution",
+              "description": "Le type de code utilisé pour désigner le lieu d'exécution. Hormis le « Code postal », les codes sont des codes géographiques gérés par l'INSEE (http://www.insee.fr/fr/methodes/nomenclatures/cog/default.asp)",
+              "type": "string",
+              "enum": [
+                "Code postal",
+                "Code commune",
+                "Code arrondissement",
+                "Code canton",
+                "Code département",
+                "Code région",
+                "Code pays"
+              ]
+            },
+            "nom": {
+              "title": "Nom du lieu d'exécution",
+              "type": "string"
+            }
+          },
+          "required": [
+            "code",
+            "nom",
+            "typeCode"
+          ]
+        },
+        "dureeMois": {
+          "title": "Durée initiale du marché",
+          "description": "La durée du marché, en mois, telle que définie au moment de la publication des données. Si une fois les données initiales du marché publiées une modification de la durée du marché intervient, elle doit être retranscrite via un objet enfant de Modifications et la propriété Duree initiale ne doit pas être modifiée. La durée initale du marché comprend la durée des tranches et reconductions potentielles.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "dateNotification": {
+          "title": "Date de la notification du marché",
+          "description": "Date à laquelle le marché a été notifié au(x) titulaire(s), au format AAAA-MM-JJ.",
+          "type": "string",
+          "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+        },
+        "datePublicationDonnees": {
+          "title": "Date de la publication des données essentielles du marché",
+          "description": "Date à laquelle les données essentielles du marché décrit ont été publiées pour la première fois. Cette date n'est donc pas mise à jour en cas de modification du marché.",
+          "type": "string",
+          "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+        },
+        "montant": {
+          "title": "Montant forfaitaire ou estimé maximum HT",
+          "description": "",
+          "type": "number",
+          "minimum": 0
+        },
+        "formePrix": {
+          "title": "Forme du prix",
+          "description": "Ferme : le prix est fixé pour toute la durée marché. Ferme et actualisable : le prix peut évoluer périodiquement selon des conditions prévues dans le contrat initial (ex: variation d'indice. Révisable : l'acheteur et le titulaire peuvent s'entendre sur une modification du prix après la signature du marché.)",
+          "type": "string",
+          "enum": [
+            "Ferme",
+            "Ferme et actualisable",
+            "Révisable"
+          ]
+        },
+        "titulaires": {
+          "title": "Titulaires du marché",
+          "description": "Les opérateurs économiques titulaires du marché",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": [{
+            "$ref": "#/definitions/marche/definitions/Titulaire"
+          }]
+        },
+        "modifications": {
+          "title": "Modifications des données du marché après leur publication initiale",
+          "description": "Une fois les données essentielles du marché publiées, aucune modification des données n'est possible, si ce n'est l'ajout d'objets dans Modifications.",
+          "type": "array",
+          "items": [{
+            "$ref": "#/definitions/marche/definitions/Modification"
+          }],
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "acheteur",
+        "nature",
+        "objet",
+        "codeCPV",
+        "procedure",
+        "lieuExecution",
+        "dureeMois",
+        "dateNotification",
+        "datePublicationDonnees",
+        "montant",
+        "formePrix",
+        "titulaires",
+        "modifications"
+      ],
+      "definitions": {
+        "Acheteur": {
+          "required": [
+            "id",
+            "nom"
+          ],
+          "properties": {
+            "id": {
+              "title": "Identifiant SIRET de l'acheteur",
+              "description": "http://xml.insee.fr/schema/siret.html#SIRET_stype",
+              "type": "string",
+              "pattern": "^[0-9]{14}$"
+            },
+            "nom": {
+              "title": "Nom de l'acheteur",
+              "description": "Nom de l'acheteur (le caractère univoque est assuré par le SIRET).\nExemple : \"Région Bretagne\"",
+              "type": "string"
+            }
+          }
+        },
+        "IdentifiantMarche": {
+          "title": "Identifiant de marché",
+          "type": "string",
+          "maxLength": 16,
+          "minLength": 7,
+          "description": "L'identifiant de marché est composé de trois parties: l'année de notification (4 caractères), le numéro d'ordre interne propre à l'acheteur public (1 à 10 caractères alphanumériques), le numéro d'ordre de la modification (2 caractères, 00 si pas de modification, 01 si une modification, etc.). Exemples : 201872300 (2018 723 00), 2019000111202 (2019 00001112 02)."
+        },
+        "IdentifiantUniqueMarche": {
+          "title": "Identifiant unique de marché",
+          "type": "string",
+          "pattern": "^[0-9]{14}.{7,16}$",
+          "description": "L'identifiant unique de marché est composé du SIRET de l'acheteur et de l'identifiant de marché, et permet d'éviter les conflits d'identifiants entre marchés passé par des acheteurs différents. Exemples : 23350001600040201872300 (23350001600040 201872300), 233500016000402019000111202 (23350001600040 20190000111202)."
+        },
+        "Titulaire": {
+          "title": "Titulaire",
+          "type": "object",
+          "properties": {
+            "typeIdentifiant": {
+              "title": "Type d'identifiant du titulaire",
+              "description": "Le type d'identifiant utilisé pour identifier le titulaire du marché.",
+              "type": "string",
+              "enum": [
+                "SIRET",
+                "TVA",
+                "TAHITI",
+                "RIDET",
+                "FRWF",
+                "IREP",
+                "UE",
+                "HORS-UE"
+              ]
+            },
+            "id": {
+              "title": "Identifiant du titulaire",
+              "description": "Types d'identifiants possibles (favoriser le SIRET) : SIRET, TVA, TAHITI, RIDET, FRWF, IREP, UE, HORS-UE.",
+              "type": "string"
+            },
+            "denominationSociale": {
+              "title": "Dénomination sociale du titulaire",
+              "description": "Nom de l'opérateur économique intervenant sur le marché . Exemple : \"Transit 2000 SA\"",
+              "type": "string"
+            }
+          },
+          "required": [
+            "typeIdentifiant",
+            "id",
+            "denominationSociale"
+          ]
+        },
+        "Modification": {
+          "title": "Modification",
+          "description": "Une modification du marché ayant lieu après la publication des données essentielles du marché.",
+          "type": "object",
+          "properties": {
+            "objetModification": {
+              "title": "Objet de la modification",
+              "description": "Exemple : \"Modification du titulaire du marché. Nouveau titulaire : Rodriguez SAS\".",
+              "type": "string",
+              "maxLength": 256
+            },
+            "dateNotificationModification": {
+              "title": "Date de la notification de la modification",
+              "description": "Date à laquelle la modification du marché public a été notifiée par l'acheteur.",
+              "type": "string",
+              "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+            },
+            "datePublicationDonneesModification": {
+              "title": "Date de la republication des données incluant la modification",
+              "description": "Date à laquelle les données essentielles sont republiées suite à la modification, au format AAAA-MM-JJ.",
+              "type": "string",
+              "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+            },
+            "dureeMois": {
+              "title": "Nouvelle durée, en mois",
+              "description": "",
+              "type": "integer"
+            },
+            "montant": {
+              "title": "Nouveau montant",
+              "description": "",
+              "type": "number"
+            },
+            "titulaires": {
+              "title": "Liste des titulaires après la modification",
+              "description": "",
+              "type": "array",
+              "items": [{
+                "$ref": "#/definitions/marche/definitions/Titulaire"
+              }],
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "objetModification",
+            "datePublicationDonneesModification",
+            "dateNotificationModification"
+          ]
+        }
+      }
+    },
+    "contrat-concession": {
+      "title": "Format réglementaire de publication des données essentielles des contrats de concession français",
+      "description": "",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Identifiant du contrat de concession",
+          "description": "Exemples : 2014123456789001 ou 2016C12345600.",
+          "$ref": "#/definitions/contrat-concession/definitions/IdentifiantMarche"
+        },
+        "uid": {
+          "title": "Identifiant de marché",
+          "description": "Exemples : 2135023880001920141234567890 ou 213502388000192016C123456",
+          "$ref": "#/definitions/contrat-concession/definitions/IdentifiantUniqueMarche"
+        },
+        "_type": {
+          "title": "Type d'objet (marché, marché de sécurité, contrat de concession)",
+          "type": "string",
+          "pattern": "^Contrat de concession$"
+        },
+        "autoriteConcedante": {
+          "$ref": "#/definitions/contrat-concession/definitions/AutoriteConcedante"
+        },
+        "nature": {
+          "title": "Nature du marché",
+          "description": "La nature du marché.",
+          "type": "string",
+          "enum": [
+            "Concession de travaux",
+            "Concession de service",
+            "Concession de service public",
+            "Délégation de service public"
+          ]
+        },
+        "objet": {
+          "title": "Objet du contrat de concession",
+          "description": "Description synthétique de l'objet du contrat de concession.",
+          "maxLength": 256,
+          "type": "string"
+        },
+        "procedure": {
+          "title": "Procédure de passation utilisée",
+          "description": "La procédure de passation de marché utilisée par l'autorité concédante",
+          "enum": [
+            "Procédure négociée ouverte",
+            "Procédure non négociée ouverte",
+            "Procédure négociée restreinte",
+            "Procédure non négociée restreinte"
+          ]
+        },
+        "lieuExecution": {
+          "title": "Lieu d'exécution principal du marché",
+          "description": "Commune, département, région ou pays d'exécution du marché.",
+          "type": "object",
+          "properties": {
+            "code": {
+              "title": "Identifiant du lieu principal d'exécution",
+              "description": "Code du lieu d'exécution (code postal, commune, canton, arrondissement, département, région, pays). Les codes INSEE sont à privilégier aux dépens du code postal. Exemple : 2B002.",
+              "type": "string",
+              "maxLength": 6
+            },
+            "typeCode": {
+              "title": "Type d'identifiant utilisé pour le lieu principal d'exécution",
+              "type": "string",
+              "enum": [
+                "Code postal",
+                "Code commune",
+                "Code arrondissement",
+                "Code canton",
+                "Code département",
+                "Code région",
+                "Code pays"
+              ]
+            },
+            "nom": {
+              "title": "Nom du lieu d'exécution",
+              "type": "string"
+            }
+          },
+          "required": [
+            "code",
+            "typeCode",
+            "nom"
+          ]
+        },
+        "dureeMois": {
+          "title": "Durée du contrat de concession",
+          "description": "La durée du contrat de concession, en mois.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "dateSignature": {
+          "title": "Date de la signature du marché",
+          "description": "Date à laquelle le contrat de concession a été signé par l'autorité concédante, au format AAAA-MM-JJ.",
+          "type": "string",
+          "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+        },
+        "datePublicationDonnees": {
+          "title": "Date de la publication des données essentielles du contrat de concession",
+          "description": "Date à laquelle les données essentielles du contrat de concession ont été publiées sur le profil d'autorité concédante, au format AAAA-MM-JJ.",
+          "type": "string",
+          "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+        },
+        "dateDebutExecution": {
+          "title": "Date du début de l'exécution du contrat de concession",
+          "description": "Date à laquelle a commencé l'exécution du contrat de concession, au format AAAA-MM-JJ.",
+          "type": "string",
+          "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+        },
+        "valeurGlobale": {
+          "title": "Valeur globale attribuée",
+          "description": "",
+          "type": "number"
+        },
+        "montantSubventionPublique": {
+          "title": "Montant de la subvention publique ou de tout autre avantage financier",
+          "description": "Si aucune avantage financier n'est octroyée, indiquer 0.",
+          "type": "number",
+          "minimum": 0
+        },
+        "donneesExecution": {
+          "title": "Données d'exécution",
+          "description": "Les données d'exécution du contrat de concession à une date donnée. Tous les ans, l'autorité concédante publie les données d'exécution, jusqu'à la fin du contrat de concession. Ces données ne sont inclues qu'à partir de la première année, pas lors de la publication initiale des données qui fait suite à la notification.",
+          "type": "array",
+          "minItems": 0,
+          "items": [{
+            "$ref": "#/definitions/contrat-concession/definitions/DonneesExecution"
+          }],
+          "uniqueItems": true
+        },
+        "concessionnaires": {
+          "title": "Concessionnaires",
+          "description": "Les opérateurs économiques auxquels a été attribué le contrat de concession",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": [{
+            "$ref": "#/definitions/contrat-concession/definitions/Concessionnaire"
+          }]
+        },
+        "modifications": {
+          "title": "Modifications des données du contrat de concession après leur publication initiale",
+          "description": "Une fois les données essentielles du contrat de concession publiées, aucune modification des données n'est possible, si ce n'est l'ajout d'objets dans Modifications.",
+          "type": "array",
+          "items": [{
+            "$ref": "#/definitions/contrat-concession/definitions/Modification"
+          }],
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "autoriteConcedante",
+        "nature",
+        "objet",
+        "procedure",
+        "lieuExecution",
+        "dureeMois",
+        "dateSignature",
+        "datePublicationDonnees",
+        "dateDebutExecution",
+        "valeurGlobale",
+        "montantSubventionPublique",
+        "donneesExecution",
+        "concessionnaires",
+        "modifications"
+      ],
+      "definitions": {
+        "AutoriteConcedante": {
+          "required": [
+            "id",
+            "nom"
+          ],
+          "title": "Autorité concédante",
+          "description": "L'autorité concédante qui signe le contrat de concession.",
+          "type": "object",
+          "properties": {
+            "id": {
+              "title": "Identifiant SIRET de l'autorité concédante",
+              "description": "http://xml.insee.fr/schema/siret.html#SIRET_stype",
+              "type": "string",
+              "pattern": "^[0-9]{14}$"
+            },
+            "nom": {
+              "title": "Nom de l'autorité concédante",
+              "description": "Nom de l'autorité concédante (le caractère univoque est assuré par le SIRET).\nExemple : \"Région Bretagne\"",
+              "type": "string"
+            }
+          }
+        },
+        "IdentifiantMarche": {
+          "title": "Identifiant de marché",
+          "type": "string",
+          "description": "L'identifiant de contrat de concession est composé de trois parties: l'année de notification (4 caractères), le numéro d'ordre interne propre à l'acheteur public (1 à 10 caractères alphanumériques), le numéro d'ordre de la modification (2 caractères, 00 si pas de modification, 01 si une modification, etc.). Exemples : 201872300 (2018 723 00), 2019000111202 (2019 00001112 02).",
+          "minLength": 7,
+          "maxLength": 16
+        },
+        "IdentifiantUniqueMarche": {
+          "title": "Identifiant unique de marché",
+          "type": "string",
+          "pattern": "^[0-9]{14}.{7,16}$",
+          "description": "L'identifiant unique de marché est composé du SIRET de l'acheteur et de l'identifiant de marché, et permet d'éviter les conflits d'identifiants entre marchés passé par des acheteurs différents. Exemples : 23350001600040201872300 (23350001600040 201872300), 233500016000402019000111202 (23350001600040 20190000111202)."
+        },
+        "Concessionnaire": {
+          "title": "Concessionnaire",
+          "type": "object",
+          "properties": {
+            "typeIdentifiant": {
+              "title": "Type d'identifiant du concessionnaire",
+              "description": "Le type d'identifiant utilisé pour identifier le concessionnaire.",
+              "type": "string",
+              "enum": [
+                "SIRET",
+                "TVA",
+                "TAHITI",
+                "RIDET",
+                "FRWF",
+                "IREP",
+                "UE",
+                "HORS-UE"
+              ]
+            },
+            "id": {
+              "title": "Identifiant du concessionnaire",
+              "description": "Types d'identifiants possibles (favoriser le SIRET) : SIRET, TVA, TAHITI, RIDET, FRWF, IREP, UE, HORS-UE.",
+              "type": "string"
+            },
+            "denominationSociale": {
+              "title": "Dénomination sociale du concessionnaire",
+              "description": "Nom de l'opérateur économique intervenant sur le contrat de concession. Exemple : \"Transit 2000 SA\"",
+              "type": "string"
+            }
+          },
+          "required": [
+            "typeIdentifiant",
+            "id",
+            "denominationSociale"
+          ]
+        },
+        "Modification": {
+          "title": "Modification",
+          "description": "Une modification du contrat de concession ayant lieu après la publication initiale des données essentielles.",
+          "type": "object",
+          "properties": {
+            "objetModification": {
+              "title": "Objet de la modification",
+              "description": "Exemple : \"Modification de la durée, de 24 à 36 mois.",
+              "type": "string",
+              "maxLength": 256
+            },
+            "dateSignatureModification": {
+              "title": "Date de la signature de la modification",
+              "description": "Date à laquelle la modification du contrat de concession a été signée par l'autorité concédante.",
+              "type": "string",
+              "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+            },
+            "datePublicationDonneesModification": {
+              "title": "Date de la republication des données incluant la modification",
+              "description": "Date à laquelle les données essentielles sont republiées suite à la modification, au format AAAA-MM-JJ.",
+              "type": "string",
+              "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+            },
+            "dureeMois": {
+              "title": "Nouvelle durée en mois.",
+              "description": "",
+              "type": "integer",
+              "minimum": 1
+            },
+            "valeurGlobale": {
+              "title": "Nouvelle valeur globale",
+              "description": "",
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "objetModification",
+            "datePublicationDonneesModification",
+            "dateSignatureModification"
+          ]
+        },
+        "DonneesExecution": {
+          "title": "Données d'éxecution",
+          "type": "object",
+          "required": [
+            "datePublicationDonneesExecution",
+            "depensesInvestissement",
+            "tarifs"
+          ],
+          "properties": {
+            "datePublicationDonneesExecution": {
+              "title": "Date de publication des données d'exécution",
+              "type": "string",
+              "pattern": "^\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$"
+            },
+            "depensesInvestissement": {
+              "title": "Dépenses d'investissement",
+              "type": "number",
+              "minimum": 0
+            },
+            "tarifs": {
+              "title": "Tarifs",
+              "description": "Les principaux tarifs à la charge des usagers",
+              "type": "array",
+              "items": [{
+                "$ref": "#/definitions/contrat-concession/definitions/Tarif"
+              }],
+              "minItems": 1
+            }
+          }
+        },
+        "Tarif": {
+          "title": "Tarif à la charge des usagers",
+          "type": "object",
+          "required": [
+            "intituleTarif",
+            "tarif"
+          ],
+          "properties": {
+            "intituleTarif": {
+              "title": "Intitulé du tarif",
+              "type": "string",
+              "maxLength": 256
+            },
+            "tarif": {
+              "title": "Tarif",
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}
