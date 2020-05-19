@@ -3,7 +3,7 @@ irve:
   type: tableschema
   email: info@data.gouv.fr
 format-commande-publique:
-  url: https://github.com/etalab/format-commande-publique.git
+  url: https://github.com/139bercy/format-commande-publique.git
   type: jsonschema
   email: info@data.gouv.fr
 decp-dpa:
