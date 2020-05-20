@@ -52,6 +52,10 @@ etalab/schema-irve:
     original_path: schema.json
     path: schema.json
     title: Schéma IRVE
+    versions:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
   title: Schéma IRVE
   type: tableschema
   versions:
