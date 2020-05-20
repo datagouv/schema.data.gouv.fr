@@ -63,8 +63,8 @@ class BaseValidator(object):
             "schemas": self.schemas_metadata(),
         }
 
-    def latest_schema_url(self, path):
-        return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/{self.repo.latest_valid_version}/{path}"
+    def schema_url(self, path):
+        return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/{self.repo.current_version}/{path}"
 
     def consolidation_data(self, slug):
         with open(os.path.join(self.static_dir, self.CONSOLIDATION_FILENAME)) as f:
@@ -189,7 +189,7 @@ class XsdSchemaValidator(BaseValidator):
                     "path": path,
                     "original_path": schema["path"],
                     "title": schema["title"],
-                    "latest_url": self.latest_schema_url(path),
+                    "latest_url": self.schema_url(path),
                 }
             )
 
@@ -274,7 +274,7 @@ class TableSchemaValidator(BaseValidator):
                 "path": self.SCHEMA_FILENAME,
                 "original_path": self.SCHEMA_FILENAME,
                 "title": self.title,
-                "latest_url": self.latest_schema_url(self.SCHEMA_FILENAME),
+                "latest_url": self.schema_url(self.SCHEMA_FILENAME),
             }
         ]
 
