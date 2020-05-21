@@ -146,10 +146,7 @@ class Repo(object):
         try:
             if os.path.isdir(self.clone_dir):
                 git_repo = GitRepo(self.clone_dir)
-                git_repo.git.reset("--hard", "origin/master")
-                git_repo.remotes.origin.pull(
-                    "refs/heads/master:refs/heads/origin", kill_after_timeout=10
-                )
+                git_repo.remotes.origin.pull("master", kill_after_timeout=10)
             else:
                 git_repo = GitRepo.clone_from(
                     self.git_url, self.clone_dir, kill_after_timeout=10
