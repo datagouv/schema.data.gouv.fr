@@ -29,17 +29,14 @@ Les schémas sont conformes à l'[arrêté du 22 mars 2019](https://www.legifran
 Pour référencer ces schémas dans vos données et dans votre code informatique, voici les URL que nous vous recommandons d'utiliser :
 
 - Toujours la dernière version :
-  - JSON : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/latest/marches.json
-  - XML : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/latest/marches.xsd
-  - XML DGFiP : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/latest/marches-dgfip.xsd
+  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/latest/marches.json
+  - XML : non proposé pour le schéma XML ([#46](https://github.com/139bercy/format-commande-publique/issues/46#issuecomment-628710331))
 - Version 1.5.0 (arrêté du 22 mars 2019) :
-  - JSON : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.5.0/marches.json
-  - XML : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.5.0/marches.xsd
-  - XML DGFiP : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.5.0/marches-dgfip.xsd
+  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json
+  - XML : https://raw.githubusercontent.com/etalab/format-commande-publique/master/marches.xsd
 - Version 1.4.0 (arrêté modificatif du 27 juillet 2018) :
-  - JSON : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.4.0/marches.json
-  - XML : https://schema.data.gouv.fr/schemas/etalab/format-commande-publique/1.4.0/marches.xsd
-  - XML DGFiP : non disponible en version 1.4.0
+  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.4.0/marches.json
+  - XML : https://raw.githubusercontent.com/139bercy/format-commande-publique/7655b975a208bd9f5adb7e1f9d6fa2dd5475b919/marches.xsd
 
 ## Test des schémas et des exemples
 
