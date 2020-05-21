@@ -149,6 +149,7 @@ class Repo(object):
                 git_repo.remotes.origin.pull(
                     "refs/heads/master:refs/heads/origin", kill_after_timeout=10
                 )
+                git_repo.git.reset("--hard", "origin/master")
             else:
                 git_repo = GitRepo.clone_from(
                     self.git_url, self.clone_dir, kill_after_timeout=10
