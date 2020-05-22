@@ -24,15 +24,32 @@ class Metadata(object):
 
     def add(self, metadata):
         slug = metadata["slug"]
+
         if slug in self.data:
             self.data[slug]["versions"].append(metadata["version"])
             self.data[slug]["has_changelog"] = metadata["has_changelog"]
         else:
-            special_keys = ["version", "slug"]
+            special_keys = ["version", "slug", "schemas"]
             self.data[slug] = {
                 k: v for k, v in metadata.items() if k not in special_keys
             }
             self.data[slug]["versions"] = [metadata["version"]]
+
+        # Updating schemas' metadata:
+        # - if schema existed before: append version, update latest_url
+        # - if not, add it to the list of schemas
+        for schema in metadata["schemas"]:
+            existing_schemas = self.data[slug].get("schemas", [])
+            updated = False
+            for existing_schema in existing_schemas:
+                if existing_schema["path"] != schema["path"]:
+                    continue
+                updated = True
+                existing_schema["versions"].append(metadata["version"])
+                existing_schema["latest_url"] = schema["latest_url"]
+            if not updated:
+                schema["versions"] = [metadata["version"]]
+                self.data[slug]["schemas"] = existing_schemas + [schema]
 
     def schema_url(self, slug):
         details = self.get()[slug]
@@ -127,10 +144,6 @@ class Repo(object):
     @property
     def current_version(self):
         return str(self.current_tag)
-
-    @property
-    def latest_valid_version(self):
-        return str(self.latest_valid_tag())
 
     def validator(self):
         if self.schema_type == "tableschema":
