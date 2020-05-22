@@ -7,14 +7,25 @@
   homepage: https://github.com/etalab/format-commande-publique
   latest_version: 1.5.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/contrats-concessions.json
+  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
     original_path: schémas/json/contrats-concessions.json
     path: contrats-concessions.json
     title: Contrats de concessions
-  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marchés.json
+    versions:
+    - 1.3.0
+  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/marchés.json
     original_path: schémas/json/marchés.json
     path: marchés.json
     title: Marchés
+    versions:
+    - 1.3.0
+  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json
+    original_path: marches.json
+    path: marches.json
+    title: Contrats de commande publique JSON
+    versions:
+    - 1.4.0
+    - 1.5.0
   title: Données essentielles des marchés publics français
   type: jsonschema
   versions:
@@ -34,6 +45,9 @@ CharlesNepote/liste-prenoms-nouveaux-nes:
     original_path: schema.json
     path: schema.json
     title: Prénoms des nouveaux-nés
+    versions:
+    - 1.1.3
+    - 1.1.4
   title: Prénoms des nouveaux-nés
   type: tableschema
   versions:
@@ -51,6 +65,8 @@ arsante/schema-dae:
     original_path: schema.json
     path: schema.json
     title: DAE
+    versions:
+    - 1.0.0
   title: DAE
   type: tableschema
   versions:
@@ -67,6 +83,8 @@ etalab/schema-decp-dpa:
     original_path: schema.json
     path: schema.json
     title: Spécification du fichier de déclaration de profil d'acheteur
+    versions:
+    - 1.0.0
   title: Spécification du fichier de déclaration de profil d'acheteur
   type: tableschema
   versions:
@@ -88,6 +106,11 @@ etalab/schema-irve:
     original_path: schema.json
     path: schema.json
     title: Schéma IRVE
+    versions:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
   title: Schéma IRVE
   type: tableschema
   versions:
@@ -110,6 +133,11 @@ etalab/schema-lieux-covoiturage:
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
+    versions:
+    - 0.0.1
+    - 0.1.0
+    - 0.1.1
+    - 0.1.2
   title: Lieux de covoiturage
   type: tableschema
   versions:
@@ -132,6 +160,11 @@ etalab/schema-stationnement:
     original_path: schema.json
     path: schema.json
     title: Lieux de stationnement
+    versions:
+    - 0.1.0
+    - 0.1.1
+    - 0.1.2
+    - 0.1.3
   title: Lieux de stationnement
   type: tableschema
   versions:
@@ -151,6 +184,8 @@ metis-reseaux/infos-travaux:
     original_path: informations_travaux.json
     path: informations_travaux.json
     title: Spécification du GeoJSON de publicité de travaux d'infrastructure.
+    versions:
+    - 0.0.2
   title: Informations travaux
   type: jsonschema
   versions:
@@ -168,6 +203,9 @@ scdl/adresses:
     original_path: schema.json
     path: schema.json
     title: Base adresse locale
+    versions:
+    - 1.1.3
+    - 1.1.4
   title: Base adresse locale
   type: tableschema
   versions:
@@ -189,6 +227,15 @@ scdl/budget:
     original_path: schema.json
     path: schema.json
     title: Budget
+    versions:
+    - 0.2.1
+    - 0.3.0
+    - 0.4.0
+    - 0.5.0
+    - 0.5.1
+    - 0.6.0
+    - 0.7.0
+    - 0.8.0
   title: Budget
   type: tableschema
   versions:
@@ -213,6 +260,9 @@ scdl/catalogue:
     original_path: schema.json
     path: schema.json
     title: Catalogue simplifié
+    versions:
+    - 0.1.1
+    - 0.1.2
   title: Catalogue simplifié
   type: tableschema
   versions:
@@ -231,6 +281,13 @@ scdl/deliberations:
     original_path: schema.json
     path: schema.json
     title: Schéma SCDL Délibérations
+    versions:
+    - 1.1.0
+    - 2.0.0
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
   title: Schéma SCDL Délibérations
   type: tableschema
   versions:
@@ -253,6 +310,9 @@ scdl/equipements:
     original_path: schema.json
     path: schema.json
     title: Equipements
+    versions:
+    - 0.1.0
+    - 0.1.1
   title: Equipements
   type: tableschema
   versions:
@@ -271,6 +331,10 @@ scdl/subventions:
     original_path: schema.json
     path: schema.json
     title: Schéma SCDL Subventions
+    versions:
+    - 1.1.0
+    - 2.0.0
+    - 2.0.1
   title: Schéma SCDL Subventions
   type: tableschema
   versions:
