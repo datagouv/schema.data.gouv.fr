@@ -6,6 +6,10 @@ order: 5
 # Intégration avec d'autres systèmes
 En tant que plateforme de référencement de schémas, `schema.data.gouv.fr` a vocation à être facilement utilisée par d'autres systèmes informatiques. Nous proposons plusieurs éléments à cet effet.
 
+{:.no_toc}
+- TOC
+{:toc}
+
 ## Export des schémas valides
 Nous proposons à l'adresse <https://schema.data.gouv.fr/schemas/schemas.zip> une archive compressée au format ZIP comprenant les schémas considérés comme valides par la plateforme ainsi que les fichiers de documentation associés à chaque version des schémas.
 
