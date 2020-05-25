@@ -102,3 +102,34 @@ La variable `{fichier_schema}` varie suivant le type du schéma. Voici les valeu
 - pour `xsd`, `{fichier_schema}` dépend du nom choisi par le producteur pour chaque schéma. Vous pouvez retrouver les noms des différents schémas à l'aide du fichier `schemas.yml`.
 
 Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous pouvez remplacer `{version}` par `latest`.
+
+## Informations sur la consolidation
+
+En complément de données sur les schémas, schema.data.gouv.fr s'intéresse aux données sur la consolidation de données par rapport à un schéma — c'est-à-dire un jeu de données unique qui rassemble des données de plusieurs jeux de données, qui se veut conforme à un schéma.
+
+Des informations à ce propos sont disponibles à l'adresse https://etalab.github.io/monitor-consolidation/report.json, au format JSON. Ces informations font état de la conformité la plus récente de jeux de données consolidés.
+
+```json
+{
+   "5448d3e0c751df01f85d0572":{
+      "date":"2020-05-25",
+      "dataset_id":"5448d3e0c751df01f85d0572",
+      "name":"Fichier consolidé des Bornes de Recharge pour Véhicules Électriques",
+      "schema_slug":"etalab/schema-irve",
+      "schema_version":"1.0.3",
+      "file_url":"https://static.data.gouv.fr/resources/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/20200520-224356/bornes-irve-20200520.csv",
+      "report_url":"https://go.validata.fr/table-schema?input=url&schema_url=https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.3/schema.json&url=https://static.data.gouv.fr/resources/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/20200520-224356/bornes-irve-20200520.csv&repair=true",
+      "nb_rows":12190,
+      "nb_errors":4365,
+      "nb_rows_with_errors":4018,
+      "errors_report":"{\"structure-errors\": {\"count\": 1, \"count-by-code\": {\"extra-header\": 1}}, \"value-errors\": {\"count\": 4364, \"rows-count\": 4018, \"count-by-code\": {\"required-constraint\": 4245, \"type-or-format-error\": 117, \"pattern-constraint\": 2}, \"count-by-col-and-code\": {\"n_enseigne\": {\"required-constraint\": 403}, \"id_station\": {\"required-constraint\": 446}, \"puiss_max\": {\"type-or-format-error\": 114}, \"Ylatitude\": {\"type-or-format-error\": 1, \"required-constraint\": 2}, \"nbre_pdc\": {\"required-constraint\": 1910}, \"Xlongitude\": {\"required-constraint\": 2, \"type-or-format-error\": 2}, \"code_insee\": {\"required-constraint\": 917, \"pattern-constraint\": 2}, \"acces_recharge\": {\"required-constraint\": 3}, \"accessibilit\\u00e9\": {\"required-constraint\": 560}, \"n_station\": {\"required-constraint\": 2}}}, \"count\": 4365}",
+      "status":"invalid",
+      "error_percentage":35,
+      "badge_url":"https://img.shields.io/static/v1?label=Consolidation&message=4365+erreurs&color=red&style=flat-square"
+   }
+}
+```
+
+La clé de l'objet JSON retourné (`5448d3e0c751df01f85d0572` ici) correspond à l'identifiant du jeu de données sur data.gouv.fr.
+
+Pour rappel, des informations sur la consolidation sont disponibles dans le fichier `schemas.yml`, dans la clé `consolidation`.
