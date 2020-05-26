@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/budget/0.8.0/documentation.html
-redirect_from: null
+permalink: /scdl/budget/latest/documentation.html
+redirect_from: /scdl/budget/0.8.1/documentation.html
 title: Documentation de Budget des collectivités et établissements publics locaux
-version: 0.8.0
+version: 0.8.1
 ---
 
 ## budget
@@ -13,14 +13,14 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 
 - Schéma créé le : 07/11/2019
 - Site web : https://git.opendatafrance.net/scdl/budget
-- Version : 0.8
+- Version : 0.8.1
 
 ### Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |BGT_NATDEC (étape budgétaire)|chaîne de caractères|Ce champ permet de déterminer l'étape budgétaire concernée. Les valeurs possibles sont : "compte administratif", "budget prévisionnel", "budget supplémentaire", "décision modificative"||Valeur obligatoire, Valeurs autorisées : budget primitif, budget supplémentaire, décision modificative, compte administratif|
-|BGT_ANNEE (année de exercice)|année|Ce champ permet de renseigner l'année de l'exercice budgétaire concerné||Valeur obligatoire, Motif : `^[1-2]\d\d\d$`|
+|BGT_ANNEE (année de exercice)|année|Ce champ permet de renseigner l'année de l'exercice budgétaire concerné||Valeur obligatoire|
 |BGT_SIRET (code SIRET)|chaîne de caractères|Ce champ permet de renseigner le code SIRET de la collectivité ou de l'établissement public concerné (http://xml.insee.fr/schema/siret.html#SIRET_stype).||Valeur obligatoire, Motif : `^\d{14}$`|
 |BGT_NOM (nom de la collectivité ou de l'établissement concerné)|chaîne de caractères|En complément du code SIRET, ce champ permet de faciliter l'identification de l'organisme public concerné||Valeur obligatoire|
 |BGT_CONTNAT (numéro du compte budgétaire)|chaîne de caractères|Ce champ correspond au numéro de l'article ou compte budgétaire. Le référentiel des comptes budgétaires est fourni par le ministère de l'Economie. A partir de la nomemclature comptable de chaque type de collectivité ou établissement local, le plan de compte contient la liste des codes associés à chaque maquette budgetaire.||Valeur obligatoire, Taille minimale : 1, Taille maximale : 9|

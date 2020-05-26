@@ -1,11 +1,14 @@
 ---
 permalink: /scdl/budget/latest/changelog.html
-redirect_from: /scdl/budget/0.8.0/changelog.html
+redirect_from: /scdl/budget/0.8.1/changelog.html
 title: CHANGELOG de Budget des collectivités et établissements publics locaux
-version: 0.8.0
+version: 0.8.1
 ---
 
 # Changelog
+
+## 0.8.1
+- delete an unsupported constraint for `BGT_ANNEE`
 
 ## 0.8
 

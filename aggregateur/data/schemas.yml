@@ -221,9 +221,9 @@ scdl/budget:
   email: scdl@opendatafrance.email
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/budget
-  latest_version: 0.8.0
+  latest_version: 0.8.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/budget/0.8.0/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/budget/0.8.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Budget
@@ -236,6 +236,7 @@ scdl/budget:
     - 0.6.0
     - 0.7.0
     - 0.8.0
+    - 0.8.1
   title: Budget
   type: tableschema
   versions:
@@ -247,6 +248,7 @@ scdl/budget:
   - 0.6.0
   - 0.7.0
   - 0.8.0
+  - 0.8.1
 scdl/catalogue:
   consolidation: null
   description: Spécification du modèle de données relatif au catalogue des jeux de
