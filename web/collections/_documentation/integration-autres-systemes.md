@@ -109,7 +109,7 @@ Si vous souhaitez un lien vers la dernière version publiée d'un schéma, vous 
 
 ## Informations sur la consolidation
 
-En complément de données sur les schémas, schema.data.gouv.fr s'intéresse aux données sur la consolidation de données par rapport à un schéma — c'est-à-dire un jeu de données unique qui rassemble des données de plusieurs jeux de données, qui se veut conforme à un schéma.
+La consolidation de données par rapport à un schéma consiste à rassembler plusieurs jeux de données conformes à un schéma en un seul jeu de données. schema.data.gouv.fr s'intéresse à ces jeux de données consolidés.
 
 Des informations à ce propos sont disponibles à l'adresse <https://etalab.github.io/monitor-consolidation/report.json>, au format JSON. Ces informations font état de la conformité la plus récente de jeux de données consolidés.
 
