@@ -2,7 +2,7 @@
   consolidation: null
   description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
     commande publique
-  email: info@data.gouv.fr
+  email: schema@data.gouv.fr
   has_changelog: false
   homepage: https://github.com/etalab/format-commande-publique
   latest_version: 1.5.0
@@ -74,7 +74,7 @@ arsante/schema-dae:
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
-  email: info@data.gouv.fr
+  email: schema@data.gouv.fr
   has_changelog: false
   homepage: https://github.com/etalab/schema-decp-dpa
   latest_version: 1.0.0
@@ -97,7 +97,7 @@ etalab/schema-irve:
   description: Spécification du fichier d'échange relatif aux données concernant la
     localisation géographique et les caractéristiques techniques des stations et des
     points de recharge pour véhicules électriques
-  email: info@data.gouv.fr
+  email: schema@data.gouv.fr
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
   latest_version: 1.0.3
