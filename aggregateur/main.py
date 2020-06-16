@@ -15,6 +15,7 @@ import giturlparse
 from semver import VersionInfo, cmp as SemverCmp
 from git import Repo as GitRepo
 from git.exc import GitError
+import timeout_decorator
 
 
 class Metadata(object):
@@ -109,7 +110,10 @@ class Repo(object):
         self.owner = self.find_owner(parsed_git)
         self.name = parsed_git.name
         self.email = email
-        self.git_repo = None
+        if os.path.isdir(self.clone_dir):
+            self.git_repo = GitRepo(self.clone_dir)
+        else:
+            self.git_repo = None
         self.current_tag = None
         self.cache_latest_valid_tag = None
         if schema_type not in self.SCHEMA_TYPES:
@@ -155,18 +159,15 @@ class Repo(object):
         else:
             raise NotImplementedError
 
+    @timeout_decorator.timeout(5)
     def clone_or_pull(self):
         try:
             if os.path.isdir(self.clone_dir):
                 git_repo = GitRepo(self.clone_dir)
-                git_repo.remotes.origin.fetch(
-                    tags=True, force=True, kill_after_timeout=10
-                )
+                git_repo.remotes.origin.fetch(tags=True, force=True)
                 git_repo.git.reset("--hard", "origin/master")
             else:
-                git_repo = GitRepo.clone_from(
-                    self.git_url, self.clone_dir, kill_after_timeout=10
-                )
+                git_repo = GitRepo.clone_from(self.git_url, self.clone_dir)
         except GitError:
             raise exceptions.GitException(self, "Cannot clone or pull Git repository")
 
@@ -255,9 +256,12 @@ for repertoire_slug, conf in config.items():
         repo = Repo(conf["url"], conf["email"], conf["type"])
         repo.clone_or_pull()
         tags = repo.tags()
+    except timeout_decorator.timeout_decorator.TimeoutError as e:
+        errors.add(
+            exceptions.GitException(repo, "Timeout occured when pulling Git repository")
+        )
     except exceptions.ValidationException as e:
         errors.add(e)
-        continue
 
     for tag in tags:
         try:
