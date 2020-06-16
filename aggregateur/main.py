@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import os
 import locale
+import socket
+from urllib.parse import urlparse
 from functools import cmp_to_key
 
 import exceptions
@@ -15,7 +17,6 @@ import giturlparse
 from semver import VersionInfo, cmp as SemverCmp
 from git import Repo as GitRepo
 from git.exc import GitError
-import timeout_decorator
 
 
 class Metadata(object):
@@ -159,8 +160,24 @@ class Repo(object):
         else:
             raise NotImplementedError
 
-    @timeout_decorator.timeout(5)
+    def remote_available(self):
+        # Check that a remote host is available on TCP 443 with a 5s timeout
+
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(5)
+
+        parsed = urlparse(self.git_url)
+        if parsed.scheme != "https":
+            raise NotImplementedError(
+                f"Only clone/pull over TCP 443 is supported for now"
+            )
+
+        return sock.connect_ex((parsed.hostname, 443)) == 0
+
     def clone_or_pull(self):
+        if not self.remote_available():
+            raise exceptions.GitException(self, "Cannot clone or pull Git repository")
+
         try:
             if os.path.isdir(self.clone_dir):
                 git_repo = GitRepo(self.clone_dir)
@@ -256,10 +273,6 @@ for repertoire_slug, conf in config.items():
         repo = Repo(conf["url"], conf["email"], conf["type"])
         repo.clone_or_pull()
         tags = repo.tags()
-    except timeout_decorator.timeout_decorator.TimeoutError as e:
-        errors.add(
-            exceptions.GitException(repo, "Timeout occured when pulling Git repository")
-        )
     except exceptions.ValidationException as e:
         errors.add(e)
 
