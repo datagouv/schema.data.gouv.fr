@@ -160,6 +160,11 @@ class Repo(object):
             raise NotImplementedError
 
     def remote_available(self):
+        if not self.git_url.startswith("http"):
+            raise NotImplementedError(
+                f"Can only check remote are available over HTTP. git_url is {git_url}"
+            )
+
         try:
             r = requests.head(self.git_url, allow_redirects=True, timeout=5)
             return r.status_code == requests.codes.ok
