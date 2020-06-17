@@ -15,6 +15,7 @@ import giturlparse
 from semver import VersionInfo, cmp as SemverCmp
 from git import Repo as GitRepo
 from git.exc import GitError
+import requests
 
 
 class Metadata(object):
@@ -109,7 +110,10 @@ class Repo(object):
         self.owner = self.find_owner(parsed_git)
         self.name = parsed_git.name
         self.email = email
-        self.git_repo = None
+        if os.path.isdir(self.clone_dir):
+            self.git_repo = GitRepo(self.clone_dir)
+        else:
+            self.git_repo = None
         self.current_tag = None
         self.cache_latest_valid_tag = None
         if schema_type not in self.SCHEMA_TYPES:
@@ -155,18 +159,29 @@ class Repo(object):
         else:
             raise NotImplementedError
 
+    def remote_available(self):
+        if not self.git_url.startswith("http"):
+            raise NotImplementedError(
+                f"Can only check remote are available over HTTP. git_url is {git_url}"
+            )
+
+        try:
+            r = requests.head(self.git_url, allow_redirects=True, timeout=15)
+            return r.status_code == requests.codes.ok
+        except requests.exceptions.RequestException:
+            return False
+
     def clone_or_pull(self):
+        if not self.remote_available():
+            raise exceptions.GitException(self, "Cannot clone or pull Git repository")
+
         try:
             if os.path.isdir(self.clone_dir):
                 git_repo = GitRepo(self.clone_dir)
-                git_repo.remotes.origin.fetch(
-                    tags=True, force=True, kill_after_timeout=10
-                )
+                git_repo.remotes.origin.fetch(tags=True, force=True)
                 git_repo.git.reset("--hard", "origin/master")
             else:
-                git_repo = GitRepo.clone_from(
-                    self.git_url, self.clone_dir, kill_after_timeout=10
-                )
+                git_repo = GitRepo.clone_from(self.git_url, self.clone_dir)
         except GitError:
             raise exceptions.GitException(self, "Cannot clone or pull Git repository")
 
@@ -174,7 +189,7 @@ class Repo(object):
 
     def tags(self):
         if self.git_repo is None or len(self.git_repo.tags) == 0:
-            raise exceptions.NoTagsException(self, "Cannot found tags")
+            raise exceptions.NoTagsException(self, "Cannot find tags")
 
         # Build a list of valid version names only.
         # Raise an exception only if the most recent
@@ -257,7 +272,6 @@ for repertoire_slug, conf in config.items():
         tags = repo.tags()
     except exceptions.ValidationException as e:
         errors.add(e)
-        continue
 
     for tag in tags:
         try:
