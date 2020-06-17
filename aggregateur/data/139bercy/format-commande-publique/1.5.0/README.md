@@ -9,7 +9,7 @@ version: 1.5.0
 
 > v1.5.0
 
-** Schémas du format réglementaire pour la publication des données essentielles des marchés publics français.**
+**Schémas du format réglementaire pour la publication des données essentielles des marchés publics français.**
 
 L'arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique définit le cadre de l'ouverture des données des marchés publics. Ainsi, au 1er octobre, les données de tous les marchés supérieurs à 40 000 euros devront être publiées en Open Data sur le profil d'acheteur.
 
