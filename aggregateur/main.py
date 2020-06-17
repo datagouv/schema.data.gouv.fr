@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 import locale
-import socket
-from urllib.parse import urlparse
 from functools import cmp_to_key
 
 import exceptions
@@ -17,6 +15,7 @@ import giturlparse
 from semver import VersionInfo, cmp as SemverCmp
 from git import Repo as GitRepo
 from git.exc import GitError
+import requests
 
 
 class Metadata(object):
@@ -161,18 +160,11 @@ class Repo(object):
             raise NotImplementedError
 
     def remote_available(self):
-        # Check that a remote host is available on TCP 443 with a 5s timeout
-
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(5)
-
-        parsed = urlparse(self.git_url)
-        if parsed.scheme != "https":
-            raise NotImplementedError(
-                f"Only clone/pull over TCP 443 is supported for now"
-            )
-
-        return sock.connect_ex((parsed.hostname, 443)) == 0
+        try:
+            r = requests.head(self.git_url, allow_redirects=True, timeout=5)
+            return r.status_code == requests.codes.ok
+        except requests.exceptions.RequestException:
+            return False
 
     def clone_or_pull(self):
         if not self.remote_available():
