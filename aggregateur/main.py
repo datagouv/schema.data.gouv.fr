@@ -166,7 +166,7 @@ class Repo(object):
             )
 
         try:
-            r = requests.head(self.git_url, allow_redirects=True, timeout=5)
+            r = requests.head(self.git_url, allow_redirects=True, timeout=15)
             return r.status_code == requests.codes.ok
         except requests.exceptions.RequestException:
             return False
