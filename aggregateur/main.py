@@ -184,7 +184,7 @@ class Repo(object):
 
     def tags(self):
         if self.git_repo is None or len(self.git_repo.tags) == 0:
-            raise exceptions.NoTagsException(self, "Cannot found tags")
+            raise exceptions.NoTagsException(self, "Cannot find tags")
 
         # Build a list of valid version names only.
         # Raise an exception only if the most recent
