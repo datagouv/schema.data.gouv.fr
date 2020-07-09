@@ -49,4 +49,4 @@ Le [Le Système d'Information sur la Nature et les Paysages (SINP)](http://www.n
 - de faciliter la mobilisation des connaissances sur la biodiversité pour élaborer ou suivre les politiques publiques, évaluer les impacts des plans, programmes, projets des différents aménageurs,
 - de permettre le rapportage correspondant aux engagements européens et internationaux.
 
-Le SINP [met à disposition des standards d’échanges sur la biodiversité et la géodiversité ](http://standards-sinp.mnhn.fr).
+Le SINP [met à disposition des standards d’échanges sur la biodiversité et la géodiversité](http://standards-sinp.mnhn.fr).
