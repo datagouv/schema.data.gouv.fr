@@ -54,3 +54,7 @@ prenoms:
   url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
   type: tableschema
   email: charles.nepote@fing.org
+generic-example:
+  url: https://github.com/abulte/generic-schema.git
+  type: generic
+  email: alexandre@example.com
