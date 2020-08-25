@@ -10,7 +10,7 @@ import jsonschema
 DATA_GOUV_API = "https://www.data.gouv.fr/api/1"
 SCHEMAS_PATH = Path(__file__).parent / "../aggregateur/data/schemas.yml"
 RECOMMENDATION_SCORE = 50
-JSONSCHEMA_URL = "https://raw.githubusercontent.com/AntoineAugusti/udata-recommendations/add-source-score/udata_recommendations/schema.json"
+JSONSCHEMA_URL = "https://raw.githubusercontent.com/opendatateam/udata-recommendations/master/udata_recommendations/schema.json"
 
 logger = logging.getLogger(__name__)
 
