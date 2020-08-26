@@ -115,3 +115,18 @@ schemas:
     path: "schemas/bar.json"
     title: "Une description de ce sous-schéma"
 ```
+
+## Validations spécifiques au format générique
+
+Les dépôts contenant des schémas au format générique subissent les validations supplémentaires suivantes :
+
+- le dépôt doit comporter un fichier `schema.yml` à la racine du dépôt décrivant le schéma ;
+- ce fichier doit être un Yaml valide.
+
+Le fichier `schema.yml` doit avoir le format suivant :
+```yaml
+title: Mon schéma très générique
+description: Mon schéma très générique est vraiment très très bien.
+homepage: https://github.com/example/generic-schema
+version: 1.0.0
+```
