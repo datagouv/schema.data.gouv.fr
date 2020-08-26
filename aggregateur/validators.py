@@ -389,9 +389,9 @@ class GenericValidator(BaseValidator):
         }
 
         if self.is_latest_version():
-            files[self.CHANGELOG_FILENAME] = self.filepath_or_none(
-                self.CHANGELOG_FILENAME
-            )
+            changelog_path = self.filepath_or_none(self.CHANGELOG_FILENAME)
+            files[self.CHANGELOG_FILENAME] = changelog_path
+            self.has_changelog = changelog_path is not None
 
         self.move_files(files)
 
