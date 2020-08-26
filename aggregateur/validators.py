@@ -349,7 +349,6 @@ class GenericValidator(BaseValidator):
 
     def __init__(self, repo):
         super().__init__(repo)
-        self.schema_data = None
         self.has_changelog = False
 
     def schemas_metadata(self):
@@ -364,18 +363,19 @@ class GenericValidator(BaseValidator):
 
     @property
     def title(self):
-        return self.get_schema_data()["title"]
+        return self.schema_data["title"]
 
     @property
     def description(self):
-        return self.get_schema_data()["description"]
+        return self.schema_data["description"]
 
     @property
     def homepage(self):
-        return self.get_schema_data()["homepage"]
+        return self.schema_data["homepage"]
 
     def validate(self):
         super().validate()
+        # order matters!
         self.check_file_exists(self.SCHEMA_FILENAME)
         self.check_schema(self.SCHEMA_FILENAME)
         self.check_extra_keys()
@@ -397,31 +397,23 @@ class GenericValidator(BaseValidator):
 
     def check_extra_keys(self):
         keys = ["title", "description", "homepage", "version"]
-        for key in [k for k in keys if k not in self.get_schema_data()]:
+        for key in [k for k in keys if k not in self.schema_data]:
             message = "Key `%s` is a required key and is missing from %s" % (
                 key,
                 self.SCHEMA_FILENAME,
             )
             raise exceptions.InvalidSchemaException(self.repo, message)
 
-    def open_schema_file(self):
-        data = None
-        with open(self.filepath(self.SCHEMA_FILENAME)) as f:
-            data = yaml.safe_load(f)
-        return data
-
     def check_schema(self, filename):
         try:
-            self.open_schema_file()
+            _ = self.schema_data
         except yaml.error.YAMLError as e:
             message = "Yaml file not valid. Error: %s" % (
                 repr(e),
             )
             raise exceptions.InvalidSchemaException(self.repo, message)
 
-    def get_schema_data(self):
-        if self.schema_data is not None:
-            return self.schema_data
-
-        self.schema_data = self.open_schema_file()
-        return self.schema_data
+    @cached_property
+    def schema_data(self):
+        with open(self.filepath(self.SCHEMA_FILENAME)) as f:
+            return yaml.safe_load(f) or {}
