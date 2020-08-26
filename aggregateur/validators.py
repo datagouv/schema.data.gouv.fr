@@ -7,6 +7,7 @@ import yaml
 import tableschema
 import jsonschema
 import frontmatter
+from functools import cached_property
 from lxml import etree
 
 import config

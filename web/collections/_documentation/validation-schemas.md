@@ -118,6 +118,8 @@ schemas:
 
 ## Validations spécifiques au format générique
 
+**Ce type de schéma est considéré comme un mode "dégradé". Il n'est à utiliser que lorsque le schéma à référencer ne peut possiblement pas être raccroché à un standard déjà supporté par schema.data.gouv.fr ou dont le support pourrait être implémenté**. Seule la documentation sera générée et aucun contrôle ne sera effectué sur la validité du schéma référencé.
+
 Les dépôts contenant des schémas au format générique subissent les validations supplémentaires suivantes :
 
 - le dépôt doit comporter un fichier `schema.yml` à la racine du dépôt décrivant le schéma ;
