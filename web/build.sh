@@ -13,5 +13,9 @@ cp _headers _site/
 # Add redirection rules for Netlify
 cp _redirects _site/
 
+# Add API files
+mkdir _site/api
+cp /tmp/schema.data.gouv.fr-master/api/data/* _site/api
+
 # Zip the schemas folder and include it in the published website
 cd collections && mv _schemas schemas && zip -r schemas.zip schemas/ && mv schemas _schemas && mv schemas.zip ../_site/schemas/

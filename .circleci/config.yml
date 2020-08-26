@@ -63,6 +63,42 @@ jobs:
           paths:
             - data
             - cache
+  api:
+    docker:
+      - image: circleci/python:3.7
+    working_directory: ~/project/api
+    steps:
+      - checkout:
+          path: ~/project
+      - attach_workspace:
+          at: /tmp
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: Install dependencies
+          command: |
+            python -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: Restore data files
+          command: |
+            mv /tmp/data ~/project/aggregateur/data
+      - run:
+          name: Generate recommendations for consolidated schemas
+          command: |
+            mkdir api
+            . venv/bin/activate
+            python recommendations.py > api/recommendations.json
+      - persist_to_workspace:
+          root: .
+          paths:
+            - api
   push_data:
     docker:
       - image: circleci/python:3.7
@@ -86,12 +122,13 @@ jobs:
             rm -rf /tmp/schema.data.gouv.fr/aggregateur/cache
             mv /tmp/data /tmp/schema.data.gouv.fr/aggregateur/data
             mv /tmp/cache /tmp/schema.data.gouv.fr/aggregateur/cache
-            cd /tmp/schema.data.gouv.fr/aggregateur
+            mv /tmp/api /tmp/schema.data.gouv.fr/api/data
+            cd /tmp/schema.data.gouv.fr
             if [ -n "$(git status --porcelain)" ]; then
-              git add -A
+              git add aggregateur/data
+              git add api/data
               git commit -am "New data at $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
               git push origin master
-              curl -X POST -d {} https://api.netlify.com/build_hooks/$NETLIFY_KEY
             else
               echo "No changes";
             fi
@@ -140,9 +177,12 @@ workflows:
             branches:
               ignore:
                 - gh-pages
-      - push_data:
+      - api:
           requires:
             - fetch
+      - push_data:
+          requires:
+            - api
           filters:
             branches:
               only:
