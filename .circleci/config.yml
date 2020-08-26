@@ -204,9 +204,12 @@ workflows:
                 - master
     jobs:
       - fetch
-      - push_data:
+      - api:
           requires:
             - fetch
+      - push_data:
+          requires:
+            - api
       - website:
           requires:
             - push_data
