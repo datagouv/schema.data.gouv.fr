@@ -120,6 +120,7 @@ jobs:
             git clone git@github.com:etalab/schema.data.gouv.fr.git /tmp/schema.data.gouv.fr
             rm -rf /tmp/schema.data.gouv.fr/aggregateur/data
             rm -rf /tmp/schema.data.gouv.fr/aggregateur/cache
+            rm -rf /tmp/schema.data.gouv.fr/api/data
             mv /tmp/data /tmp/schema.data.gouv.fr/aggregateur/data
             mv /tmp/cache /tmp/schema.data.gouv.fr/aggregateur/cache
             mv /tmp/api /tmp/schema.data.gouv.fr/api/data
