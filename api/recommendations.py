@@ -70,10 +70,10 @@ def main():
         )
         dataset_ids = datasets_for_schema(schema_id)
         logger.info(f"Found {len(dataset_ids)} associated with schema {schema_id}")
-        for dataset_id in dataset_ids:
-            recommendations.append(
-                build_recommendation(consolidated_dataset_id, dataset_id)
-            )
+
+        recommendations.extend([
+            build_recommendation(consolidated_dataset_id, d) for d in dataset_ids
+        ])
 
     validate_recommendations(recommendations)
 
