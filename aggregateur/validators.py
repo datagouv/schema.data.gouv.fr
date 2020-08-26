@@ -404,13 +404,24 @@ class GenericValidator(BaseValidator):
             )
             raise exceptions.InvalidSchemaException(self.repo, message)
 
+    def open_schema_file(self):
+        data = None
+        with open(self.filepath(self.SCHEMA_FILENAME)) as f:
+            data = yaml.safe_load(f)
+        return data
+
     def check_schema(self, filename):
-        return True
+        try:
+            self.open_schema_file()
+        except yaml.error.YAMLError as e:
+            message = "Yaml file not valid. Error: %s" % (
+                repr(e),
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
 
     def get_schema_data(self):
         if self.schema_data is not None:
             return self.schema_data
 
-        with open(self.filepath(self.SCHEMA_FILENAME)) as f:
-            self.schema_data = yaml.safe_load(f)
+        self.schema_data = self.open_schema_file()
         return self.schema_data
