@@ -1,0 +1,30 @@
+{% if include.type == "tableschema" or include.type == "generic" %}
+
+  <div class="js-datasets-datagouv"></div>
+
+  <script>
+    const schema = "{{ include.slug }}"
+
+    fetch(`https://www.data.gouv.fr/api/1/datasets/?schema=${schema}`)
+      .then(response => response.json())
+      .then(data => {
+        const nbDatasets = data["total"]
+
+        content = `
+          <h2 id="jeux-de-donnees-sur-datagouvfr">Jeux de données sur data.gouv.fr</h2>
+
+          <p>
+            Il est possible de spécifier qu'une ressource d'un jeu de données présent
+            sur <a href="https://www.data.gouv.fr" title="Site web data.gouv.fr">data.gouv.fr</a>
+            respecte un schéma depuis l'interface d'administration. Retrouvez
+            <a href="https://www.data.gouv.fr/fr/datasets/?schema=${schema}" title="Jeux de données du schéma ${schema}">
+            ${Intl.NumberFormat().format(nbDatasets)} jeux de données</a>
+            ayant indiqué respecter ce schéma sur la plateforme des données ouvertes.
+          </p>
+        `
+        if (nbDatasets > 0) {
+          document.querySelector('.js-datasets-datagouv').innerHTML = content
+        }
+      });
+  </script>
+{% endif %}
