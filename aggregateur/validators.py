@@ -7,6 +7,7 @@ import yaml
 import tableschema
 import jsonschema
 import frontmatter
+from functools import cached_property
 from lxml import etree
 
 import config
@@ -342,3 +343,78 @@ class TableSchemaValidator(BaseValidator):
         with open(self.filepath(self.SCHEMA_FILENAME)) as f:
             self.schema_data = json.load(f)
         return self.schema_data
+
+
+class GenericValidator(BaseValidator):
+    SCHEMA_FILENAME = "schema.yml"
+
+    def __init__(self, repo):
+        super().__init__(repo)
+        self.has_changelog = False
+
+    def schemas_metadata(self):
+        return [
+            {
+                "path": self.SCHEMA_FILENAME,
+                "original_path": self.SCHEMA_FILENAME,
+                "title": self.title,
+                "latest_url": self.schema_url(self.SCHEMA_FILENAME),
+            }
+        ]
+
+    @property
+    def title(self):
+        return self.schema_data["title"]
+
+    @property
+    def description(self):
+        return self.schema_data["description"]
+
+    @property
+    def homepage(self):
+        return self.schema_data["homepage"]
+
+    def validate(self):
+        super().validate()
+        # order matters!
+        self.check_file_exists(self.SCHEMA_FILENAME)
+        self.check_schema(self.SCHEMA_FILENAME)
+        self.check_extra_keys()
+
+    def extract(self):
+        files = {
+            self.SCHEMA_FILENAME: self.filepath(self.SCHEMA_FILENAME),
+            "README.md": self.filepath_or_none("README.md"),
+            "SEE_ALSO.md": self.filepath_or_none("SEE_ALSO.md"),
+            "CONTEXT.md": self.filepath_or_none("CONTEXT.md"),
+        }
+
+        if self.is_latest_version():
+            changelog_path = self.filepath_or_none(self.CHANGELOG_FILENAME)
+            files[self.CHANGELOG_FILENAME] = changelog_path
+            self.has_changelog = changelog_path is not None
+
+        self.move_files(files)
+
+    def check_extra_keys(self):
+        keys = ["title", "description", "homepage", "version"]
+        for key in [k for k in keys if k not in self.schema_data]:
+            message = "Key `%s` is a required key and is missing from %s" % (
+                key,
+                self.SCHEMA_FILENAME,
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+    def check_schema(self, filename):
+        try:
+            _ = self.schema_data
+        except yaml.error.YAMLError as e:
+            message = "Yaml file not valid. Error: %s" % (
+                repr(e),
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+    @cached_property
+    def schema_data(self):
+        with open(self.filepath(self.SCHEMA_FILENAME)) as f:
+            return yaml.safe_load(f) or {}

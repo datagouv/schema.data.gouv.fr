@@ -115,3 +115,20 @@ schemas:
     path: "schemas/bar.json"
     title: "Une description de ce sous-schéma"
 ```
+
+## Validations spécifiques au format générique
+
+**Ce type de schéma est considéré comme un mode "dégradé". Il n'est à utiliser que lorsque le schéma à référencer ne peut possiblement pas être raccroché à un standard déjà supporté par schema.data.gouv.fr ou dont le support pourrait être implémenté**. Seule la documentation sera générée et aucun contrôle ne sera effectué sur la validité du schéma référencé.
+
+Les dépôts contenant des schémas au format générique subissent les validations supplémentaires suivantes :
+
+- le dépôt doit comporter un fichier `schema.yml` à la racine du dépôt décrivant le schéma ;
+- ce fichier doit être un Yaml valide.
+
+Le fichier `schema.yml` doit avoir le format suivant :
+```yaml
+title: Mon schéma très générique
+description: Mon schéma très générique est vraiment très très bien.
+homepage: https://github.com/example/generic-schema
+version: 1.0.0
+```
