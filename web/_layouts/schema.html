@@ -68,6 +68,7 @@ layout: default
       {% endif %}
       {{ content }}
       {% include consolidation.html schema_data=schema_data %}
+      {% include datasets.html slug=slug type=schema_data.type %}
     </div>
   </div>
 </section>
