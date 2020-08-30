@@ -151,27 +151,6 @@ metis-reseaux/infos-travaux:
   type: jsonschema
   versions:
   - 0.0.2
-scdl/adresses:
-  consolidation: null
-  description: Spécification du modèle de données relatif aux adresses locales d’une
-    collectivité (BAL)
-  email: scdl@opendatafrance.email
-  has_changelog: true
-  homepage: https://git.opendatafrance.net/scdl/adresses
-  latest_version: 1.1.4
-  schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/adresses/1.1.4/schema.json
-    original_path: schema.json
-    path: schema.json
-    title: Base adresse locale
-    versions:
-    - 1.1.3
-    - 1.1.4
-  title: Base adresse locale
-  type: tableschema
-  versions:
-  - 1.1.3
-  - 1.1.4
 scdl/budget:
   consolidation: null
   description: Les données essentielles du budget permettent de décrire le contenu
@@ -195,27 +174,6 @@ scdl/budget:
   type: tableschema
   versions:
   - 0.8.1
-scdl/catalogue:
-  consolidation: null
-  description: Spécification du modèle de données relatif au catalogue des jeux de
-    données publiés en open data par une collectivité
-  email: scdl@opendatafrance.email
-  has_changelog: true
-  homepage: https://git.opendatafrance.net/scdl/catalogue
-  latest_version: 0.1.2
-  schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.2/schema.json
-    original_path: schema.json
-    path: schema.json
-    title: Catalogue simplifié
-    versions:
-    - 0.1.1
-    - 0.1.2
-  title: Catalogue simplifié
-  type: tableschema
-  versions:
-  - 0.1.1
-  - 0.1.2
 scdl/deliberations:
   consolidation: null
   description: Schéma validant le format relatif aux délibérations du SCDL (Socle
