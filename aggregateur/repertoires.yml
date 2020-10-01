@@ -10,10 +10,6 @@ decp-dpa:
   url: https://github.com/etalab/schema-decp-dpa.git
   type: tableschema
   email: schema@data.gouv.fr
-adresses:
-  url: https://git.opendatafrance.net/scdl/adresses.git
-  type: tableschema
-  email: scdl@opendatafrance.email
 catalogue:
   url: https://git.opendatafrance.net/scdl/catalogue.git
   type: tableschema
