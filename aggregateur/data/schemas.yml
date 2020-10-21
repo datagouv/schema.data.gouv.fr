@@ -39,18 +39,20 @@ NaturalSolutions/schema-arbre:
   email: contact@natural-solutions.eu
   has_changelog: true
   homepage: https://github.com/NaturalSolutions/schema-arbre
-  latest_version: 0.1.0
+  latest_version: 0.2.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.1.0/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma des attributs des arbres urbains
     versions:
     - 0.1.0
+    - 0.2.0
   title: Schéma des attributs des arbres urbains
   type: tableschema
   versions:
   - 0.1.0
+  - 0.2.0
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur

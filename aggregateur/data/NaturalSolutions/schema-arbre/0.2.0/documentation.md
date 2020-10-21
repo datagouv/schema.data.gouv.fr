@@ -1,8 +1,8 @@
 ---
-permalink: /NaturalSolutions/schema-arbre/0.1.0/documentation.html
-redirect_from: null
+permalink: /NaturalSolutions/schema-arbre/latest/documentation.html
+redirect_from: /NaturalSolutions/schema-arbre/0.2.0/documentation.html
 title: Documentation de Schéma des attributs des arbres urbains
-version: 0.1.0
+version: 0.2.0
 ---
 
 ## Attributs des arbres urbains
@@ -28,13 +28,13 @@ Spécification des attributs liés aux arbres urbains dans le cadre d'un inventa
 |espece_arbre|chaîne de caractères||Valeur optionnelle|
 |cultivar_variete_arbre|chaîne de caractères|La subdivision de l'espèce auquel appartient l'arbre en latin.|Cripps Pink'|Valeur optionnelle|
 |nom_vernaculaire|chaîne de caractères|Le nom commun français correspondant au nom scientifique ([genre][espèce][cultivar]).|Platane commun|Valeur optionnelle|
-|code_insee|nombre entier|Le code INSEE de la commune dans laquelle l'arbre se trouve.|59599|Valeur optionnelle|
-|code_postal|nombre entier|Le code postal de la commune dans laquelle l'arbre se trouve.|13010|Valeur optionnelle|
+|code_insee|chaîne de caractères|Le code INSEE de la commune dans laquelle l'arbre se trouve.|59599|Valeur optionnelle, Motif : `^([013-9]\d|2[AB1-9])\d{3}$`|
+|code_postal|chaîne de caractères|Le code postal de la commune dans laquelle l'arbre se trouve.|13010|Valeur optionnelle, Motif : `^([013-9]\d|2[AB1-9])\d{3}$`|
 |adresse|chaîne de caractères|Le nom de la rue (avec ou sans numéro) dans laquelle l'arbre se trouve.|61 rue de la Poste|Valeur optionnelle|
 |matricule_arbre|chaîne de caractères|L'identifiant unique de l'arbre au norme de la collectivité.|A20200525|Valeur optionnelle|
-|date_plantation|date|La date de plantation de l'arbre, au format ISO 8601 AAAA-MM-DD.|1996-07-12|Valeur optionnelle|
-|hauteur|nombre réel|La hauteur de l'arbre exprimée en cm|300|Valeur optionnelle|
-|diametre|nombre réel|Le diamètre de l'arbre mesurée à hauteur d'homme, c'est-à-dire 1m50 exprimé en cm|70|Valeur optionnelle|
+|date_plantation|date (format `%Y-%m-%d`)|La date de plantation de l'arbre, au format ISO 8601 AAAA-MM-DD.|1996-07-12|Valeur optionnelle|
+|hauteur|nombre réel|La hauteur de l'arbre exprimée en cm|30|Valeur optionnelle, Valeur minimale : 0, Valeur maximale : 15000|
+|diametre|nombre réel|Le diamètre de l'arbre mesurée à hauteur d'homme, c'est-à-dire 150 exprimé en cm|70|Valeur optionnelle, Valeur minimale : 0, Valeur maximale : 3000|
 |type_sol|chaîne de caractères|La composition pédologique du sol où est planté l'arbre|Argileux|Valeur optionnelle|
 |type_enracinement|chaîne de caractères|Le type d'enracinement de l'arbre|Pivotant|Valeur optionnelle|
 |port_arbre|chaîne de caractères|La forme du houppier de l'arbre|Pyramide|Valeur optionnelle|
