@@ -50,7 +50,7 @@ prenoms:
   url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
   type: tableschema
   email: charles.nepote@fing.org
-arbre_urbains:
+arbres_urbains:
   url: https://github.com/NaturalSolutions/schema-arbre.git
   type: tableschema
   email: contact@natural-solutions.eu
