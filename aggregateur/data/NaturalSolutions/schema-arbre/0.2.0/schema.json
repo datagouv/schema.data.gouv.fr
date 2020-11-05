@@ -9,7 +9,7 @@
     ],
     "countryCode":"FR",
     "homepage":"https://github.com/NaturalSolutions/schema-arbre",
-    "path":"https://github.com/NaturalSolutions/schema-arbre/raw/v0.2.0/schema.json",
+    "path":"https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/schema.json",
     "licenses":[
        {
           "title":"Licence Ouverte",
@@ -21,12 +21,12 @@
        {
           "title":"Fichier valide (CSV)",
           "name":"exemple-valide-csv",
-          "path":"https://github.com/NaturalSolutions/schema-arbre/raw/v0.2.0/exemple-valide.csv"
+          "path":"https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.csv"
        },
        {
          "title":"Ressource valide (XLSX)",
          "name":"exemple-valide-xlsx",
-         "path":"https://github.com/NaturalSolutions/schema-arbre/raw/v0.2.0/exemple-valide.xlsx"
+         "path":"https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.xlsx"
        }
     ],
     "sources":[
@@ -36,8 +36,8 @@
        }
     ],
     "created":"2020-10-16",
-    "lastModified":"2020-10-16",
-    "version":"0.1.0",
+    "lastModified":"2020-10-29",
+    "version":"0.2.0",
     "contributors":[
        {
           "title":"Manon Frédout",

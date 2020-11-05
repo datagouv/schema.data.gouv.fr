@@ -13,7 +13,7 @@ Spécification des attributs liés aux arbres urbains dans le cadre d'un inventa
 
 - Schéma créé le : 16/10/2020
 - Site web : https://github.com/NaturalSolutions/schema-arbre
-- Version : 0.1.0
+- Version : 0.2.0
 - Clé primaire : `id`
 
 ### Modèle de données
