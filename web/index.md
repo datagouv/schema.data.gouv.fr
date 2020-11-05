@@ -42,7 +42,7 @@ Le [Sandre](http://www.sandre.eaufrance.fr) a pour mission, d'établir et de met
 
 ### Le Système d'Information sur la Nature et les Paysages
 
-Le [Le Système d'Information sur la Nature et les Paysages (SINP)](http://www.naturefrance.fr/sinp/presentation-du-sinp) a pour objet :
+[Le Système d'Information sur la Nature et les Paysages (SINP)](http://www.naturefrance.fr/sinp/presentation-du-sinp) a pour objet :
 
 - de structurer les connaissances sur la biodiversité (faune, flore, fonge), les paysages, les habitats naturels ou semi-naturels et les données traduisant la règlementation ou des objectifs de gestion des espaces naturels,
 - de  mettre à disposition ses connaissances selon des modalités différenciées entre le niveau local, régional, national et selon les publics concernés,
