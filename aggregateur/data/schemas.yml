@@ -53,6 +53,24 @@ NaturalSolutions/schema-arbre:
   versions:
   - 0.1.0
   - 0.2.0
+arsante/schema-dae:
+  consolidation: null
+  description: Spécification du modèle de données relatif aux DAE
+  email: contact@geodae.sante.gouv.fr
+  has_changelog: false
+  homepage: https://gitlab.com/arsante/atlasante/schema-dae
+  latest_version: 1.0.1
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.1/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: DAE
+    versions:
+    - 1.0.1
+  title: DAE
+  type: tableschema
+  versions:
+  - 1.0.1
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
