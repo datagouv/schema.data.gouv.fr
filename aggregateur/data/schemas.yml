@@ -127,9 +127,9 @@ etalab/schema-lieux-covoiturage:
   email: contact@transport.beta.gouv.fr
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
-  latest_version: 0.1.2
+  latest_version: 0.2.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.2/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
@@ -138,6 +138,7 @@ etalab/schema-lieux-covoiturage:
     - 0.1.0
     - 0.1.1
     - 0.1.2
+    - 0.2.0
   title: Lieux de covoiturage
   type: tableschema
   versions:
@@ -145,6 +146,7 @@ etalab/schema-lieux-covoiturage:
   - 0.1.0
   - 0.1.1
   - 0.1.2
+  - 0.2.0
 etalab/schema-stationnement:
   consolidation:
     dataset_id: 5ea1add4a5a7dac3af82310a
