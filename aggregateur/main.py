@@ -237,9 +237,9 @@ class Repo(object):
             # Examples:
             # Input: 1.0.1 ; Output: ['1.0.1', 'v1.0.1']
             # Input: 1.2.0 ; Output: ['1.2.0', 'v1.2.0', '1.2', 'v1.2']
-            tags = [tag, "v" + tag]
+            tags = [tag, "v" + tag, "V" + tag]
             if tag.endswith(".0"):
-                tags.extend([tag[:-2], "v" + tag[:-2]])
+                tags.extend([tag[:-2], "v" + tag[:-2], "V" + tag[:-2]])
             return tags
 
         git_tags = list(map(str, self.git_repo.tags))
@@ -251,7 +251,7 @@ class Repo(object):
 
     def parse_version(self, version):
         # Allow an extra leading v and/or a missing minor version
-        possible_versions = [version.replace("v", ""), version.replace("v", "") + ".0"]
+        possible_versions = [version.replace("v", "").replace("V",""), version.replace("v", "").replace("V","") + ".0"]
 
         for version in possible_versions:
             try:
