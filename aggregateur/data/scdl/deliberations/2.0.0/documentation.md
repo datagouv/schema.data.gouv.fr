@@ -65,14 +65,14 @@ Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des
 ####  Année du budget - Propriété `BUDGET_ANNEE`
 
 > *Description : Année de l'exercice budgétaire sur lequel s'applique la décision si celle-ci a un impact budgétaire. Format AAAA pour une année ou AAAA/AAAA pour un intervalle entre deux années (ISO 8601).<br/>Ex : 2017, 2017/2018, 2016/2018*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^[0-9]{4}(\/[0-9]{4})?$`
 
 ####  Nom du budget - Propriété `BUDGET_NOM`
 
 > *Description : Nom du budget si la délibération engendre une affection budgétaire<br/>Ex : Budget annexe déchets-collecte et traitement*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 ####  Identifiant de l'entité exerçant le contrôle de légalité - Propriété `PREF_ID`
@@ -81,47 +81,47 @@ Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des
 Pour les sous-préfectures : SPREFNNNM (9 caractères)
 Pour les SGAR : SGARNNN (7 caractères)
 Où NNN : numéro sur 3 caractères du département et M : numéro sur un chiffre de l'arrondissement<br/>Ex : PREF038*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 ####  Date d'enregistrement de la délibération au contrôle de légalité - Propriété `PREF_DATE`
 
 > *Description : None<br/>Ex : 2017-02-03*
-- None
+- Valeur optionnelle
 - Type : date
 
 ####  Décompte de l'effectif total des élus susceptibles de participer au vote (présents à la séance) - Propriété `VOTE_EFFECTIF`
 
 > *Description : None<br/>Ex : 43*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Décompte de l’effectif total des élus ayant réellement participé au vote (exclusion des absents) - Propriété `VOTE_REEL`
 
 > *Description : None<br/>Ex : 40*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Nombre de votes Pour - Propriété `VOTE_POUR`
 
 > *Description : None<br/>Ex : 25*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Nombre de votes Contre - Propriété `VOTE_CONTRE`
 
 > *Description : None<br/>Ex : 10*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Nombre de votes Abstention - Propriété `VOTE_ABSTENTION`
 
 > *Description : None<br/>Ex : 5*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Lien vers le document de la délibération - Propriété `DELIB_URL`
 
 > *Description : None<br/>Ex : None*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)

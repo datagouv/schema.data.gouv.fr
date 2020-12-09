@@ -105,7 +105,7 @@ Spécification du modèle de données relatif aux équipements collectifs public
 ####  Clé d'interopérabilité de l'adresse - Propriété `ADR_CLE_INTEROP`
 
 > *Description : Cette clé est identique à celle décrite dans le modèle [Base adresse locale](https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html). Elle combine le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) sur 5 caractères (incluant 'A' ou 'B' pour la Corse) + le code de voie issu du [FANTOIR](https://fr.wikipedia.org/wiki/FANTOIR) de la DGFiP sur 4 caractères + le numéro d’adresse sur 5 caractères préfixé par des zéros + un suffixe s'il existe, qui peut être un indice de répétition ('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères) et/ou un complément ('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... sans limitation du nombre de caractères). Chaque élément est séparé par un tiret du bas et les lettres sont en minuscules.<br/>Ex : 94059_0040_00036*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Plus de 16 caractères
 - Motif : `^[A-Za-z0-9_]+$`
@@ -113,20 +113,20 @@ Spécification du modèle de données relatif aux équipements collectifs public
 ####  Type d'Etablissement Recevant du Public - Propriété `ERP_ID`
 
 > *Description : Si l'équipement collectif public est un ERP et que son code d'identification, le plus souvent géré par les SDIS ou les DDT référents, est connu, ce champ peut être renseigné.<br/>Ex : 94059-AvenueArdouin-36*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 ####  Type d'Etablissement Recevant du Public - Propriété `ERP_TYPE`
 
 > *Description : Les [Etablissements Recevant du Public](https://fr.wikipedia.org/wiki/%C3%89tablissement_recevant_du_public_en_droit_fran%C3%A7ais) (ERP) installés dans un bâtiment et les établissements spéciaux sont classés par type en fonction de leur activité ou de la nature de leur exploitation. Le type est symbolisé par une à trois lettre(s) en majuscule dans le respect de [l'article GN1 de l'Arrêté du 25 juin 1980](https://www.legifrance.gouv.fr/affichTexte.do;?cidTexte=LEGITEXT000020303557). Si l'équipement collectif public est un ERP, ce champ peut être renseigné à partir d'une des valeurs suivantes :  'J', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y' pour les ERP installés dans un bâtiment et 'PA', 'CTS', 'SG', 'PS', 'GA', 'OA', 'EF', 'REF' pour les établissements spéciaux. Dans le cas d'un ERP couvrant plusieurs types, les valeurs sont séparées par un point-virgule.<br/>Ex : 'W' pour un ERP de type unique ou 'W;L' pour un ERP couvrant plusieurs types*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Moins de 10 caractères
 
 ####  Catégorie d'Etablissement Recevant du Public - Propriété `ERP_CATEGORIE`
 
 > *Description : Les [Etablissements Recevant du Public](https://fr.wikipedia.org/wiki/%C3%89tablissement_recevant_du_public_en_droit_fran%C3%A7ais) (ERP) sont classés par catégorie en fonction de leur capacité d'accueil. La catégorie est symbolisée par un chiffre de 1 à 5 dans le respect de [l'article R123-19 du Code de la construction et de l'habitation](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006896108). Si l'équipement collectif public est un ERP, ce champ peut être renseigné.<br/>Ex : 5*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 - Valeur entre 1 et 5
 
@@ -151,18 +151,18 @@ Spécification du modèle de données relatif aux équipements collectifs public
 ####  Téléphone - Propriété `EQUIP_TEL`
 
 > *Description : Ce champ permet de renseigner, si l'information est connue, le numéro de téléphone (du gestionnaire) de l'équipement exprimé en suivant le [code de rédaction interinstitutionnel européen](http://publications.europa.eu/code/fr/fr-390300.htm).<br/>Ex : +33 140633900*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Moins de 13 caractères
 
 ####  Adresse email - Propriété `EQUIP_EMAIL`
 
 > *Description : Ce champ permet de renseigner, si l'information est connue, l'adresse email (du gestionnaire) de l'équipement.<br/>Ex : contact@leplessistrevise.fr*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères (format `email`)
 
 ####  Adresse du site web - Propriété `EQUIP_WEB`
 
 > *Description : Ce champ permet de renseigner, si l'information est connue, l'url d'accès au site web (du gestionnaire) de l'équipement.<br/>Ex : https://www.leplessistrevise.fr*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)

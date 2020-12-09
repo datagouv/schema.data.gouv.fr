@@ -33,14 +33,14 @@ Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des
 ####  Année du budget - Propriété `BUDGET_ANNEE`
 
 > *Description : Année de l'exercice budgétaire sur lequel s'applique la décision si celle-ci a un impact budgétaire. Format AAAA pour une année ou AAAA/AAAA pour un intervalle entre deux années (ISO 8601).<br/>Ex : 2017, 2017/2018, 2016/2018*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^[0-9]{4}(\/[0-9]{4})?$`
 
 ####  Nom du budget - Propriété `BUDGET_NOM`
 
 > *Description : Nom du budget si la délibération engendre une affection budgétaire<br/>Ex : Budget annexe déchets-collecte et traitement*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 ####  Identifiant de la délibération - Propriété `DELIB_ID`

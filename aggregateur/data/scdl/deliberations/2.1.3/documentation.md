@@ -65,60 +65,60 @@ Spécification du modèle de données relatif aux délibérations adoptées par 
 ####  Année du budget - Propriété `BUDGET_ANNEE`
 
 > *Description : Année de l'exercice budgétaire sur lequel s'applique la décision si celle-ci a un impact budgétaire. Format AAAA pour une année ou AAAA/AAAA pour un intervalle entre deux années suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).<br/>Ex : '2017' pour une année ou '2017/2018' pour un intervalle*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^[0-9]{4}(\/[0-9]{4})?$`
 
 ####  Nom du budget - Propriété `BUDGET_NOM`
 
 > *Description : Ce champ ne peut être renseigné que si la délibération engendre une affection budgétaire.<br/>Ex : Budget annexe déchets-collecte et traitement*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 ####  Identifiant de l'entité exerçant le contrôle de légalité - Propriété `PREF_ID`
 
 > *Description : Cet identifiant dépend de l'entité concernée. Pour les préfectures, il est codé 'PREFNNN' sur 7 caractères. Pour les sous-préfectures, il est codé 'SPREFNNNM' sur 9 caractères. Pour les SGAR, il est codé 'SGARNNN' sur 7 caractères. 'NNN' correspond au numéro sur 3 caractères du département préfixé par '0' et inclant 'A' et 'B' pour les départements corses. 'M' correspond au numéro sur un chiffre de l'arrondissement.<br/>Ex : PREF038*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 ####  Date d'enregistrement de la délibération auprès du contrôle de légalité - Propriété `PREF_DATE`
 
 > *Description : Date d'enregistrement de la délibération au contrôle de légalité au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601). Ce champ ne peut être renseigné que si la délibération a effectivement été transmise et que sa date d'enregistrement est connue.<br/>Ex : 2017-02-03*
-- None
+- Valeur optionnelle
 - Type : date
 
 ####  Effectif théorique des votants - Propriété `VOTE_EFFECTIF`
 
 > *Description : Décompte de l'effectif total des représentants élus susceptibles de participer au vote.<br/>Ex : 43*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Effectif réel des votants - Propriété `VOTE_REEL`
 
 > *Description : Décompte de l’effectif total des élus ayant réellement participé au vote (exclusion des absents)<br/>Ex : 40*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Pour - Propriété `VOTE_POUR`
 
 > *Description : Décompte du nombre total de votes 'Pour'.<br/>Ex : 25*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Contre - Propriété `VOTE_CONTRE`
 
 > *Description : Décompte du nombre total de votes 'Contre'.<br/>Ex : 10*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Abstention - Propriété `VOTE_ABSTENTION`
 
 > *Description : Décompte du nombre total d'abstentions.<br/>Ex : 5*
-- None
+- Valeur optionnelle
 - Type : nombre entier
 
 ####  Lien vers le document de la délibération - Propriété `DELIB_URL`
 
 > *Description : Si la collectivité dispose d'une version électronique de la délibération et la publie en ligne, ce lien correspond à l'adresse permettant de consulter ou de télécharger le document.<br/>Ex : https://data.maville.fr/deliberations/files/200417_1.pdf*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)

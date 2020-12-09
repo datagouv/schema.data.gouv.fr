@@ -97,7 +97,7 @@ Spécification du modèle de données relatif aux subventions attribuées par un
 ####  Identifiant RAE de l’aide au titre de laquelle la subvention est attribuée - Propriété `idRAE`
 
 > *Description : Numéro unique de référencement dans le [Répertoire des Aides aux Entreprises](https://aides-entreprises.fr/). Ce champ ne concerne que les subventions attribuées au titre d’une aide référencée dans la [base de données du RAE](https://data.aides-entreprises.fr/documentation) gérée par l'Institut Supérieur des Métiers.<br/>Ex : 12345*
-- None
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Moins de 5 caractères
 
