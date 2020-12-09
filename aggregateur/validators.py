@@ -299,7 +299,7 @@ class TableSchemaValidator(BaseValidator):
 
     def extract(self):
         with open(self.filepath("documentation.md"), "w") as out:
-            convert_source(self.filepath(self.SCHEMA_FILENAME), out)
+            convert_source(self.filepath(self.SCHEMA_FILENAME), out, 'page')
 
         files = {
             self.SCHEMA_FILENAME: self.filepath_or_none(self.SCHEMA_FILENAME),
