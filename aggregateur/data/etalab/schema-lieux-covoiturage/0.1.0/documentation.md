@@ -19,23 +19,126 @@ Spécification des lieux permettant le covoiturage
 
 ### Modèle de données
 
-|Nom|Type|Description|Exemple|Propriétés|
-|-|-|-|-|-|
-|id_lieu|chaîne de caractères|Identifiant du lieu de covoiturage, délivré par le point d'accès national|35238-C-001|Valeur obligatoire, Motif : `^([013-9]\d|2[AB1-9])\d{3}-C-\d{3}$`|
-|nom_lieu|chaîne de caractères|Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage|Les Romains|Valeur obligatoire|
-|ad_lieu|chaîne de caractères|L'adresse du lieu compréhensible par le grand public pour assurer la coordination entre le passager et le conducteur. Exemple : "3, rue de la gare" ; pour les lieux proches des sorties d'autoroute ou de nationale : "A11 sortie 7 Le Mans Nord" ; pour les zones rurales sans adresse : "croisement de route 1 - route 2" ou "le long de route X après le passage à niveau"|3, rue de la Gare|Valeur optionnelle|
-|com_lieu|chaîne de caractères|La commune / le lieu-dit du covoiturage|Rouen|Valeur optionnelle|
-|insee|chaîne de caractères|Le code INSEE de la commune d'implantation|76540|Valeur obligatoire, Motif : `^([013-9]\d|2[AB1-9])\d{3}$`|
-|type|chaîne de caractères|Le type de lieu de covoiturage|Parking|Valeur obligatoire, Valeurs autorisées : Aire de covoiturage, Sortie d'autoroute, Parking, Supermarché, Parking relais, Délaissé routier|
-|date_maj|date (format `%Y-%m-%d`)|Date de dernière mise à jour des données. Notation ISO 8601, format AAAA-MM-DD|2016-10-31|Valeur obligatoire|
-|ouvert|booléen|Le lieu est-il ouvert|true|Valeur obligatoire|
-|source|chaîne de caractères|SIREN de l'entité ayant fourni la donnée|225300011|Valeur obligatoire, Motif : `^\d{9}$`|
-|Xlong|nombre réel|La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84|1.452323|Valeur obligatoire, Valeur minimale : -180, Valeur maximale : 180|
-|Ylat|nombre réel|La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84|46.59698|Valeur obligatoire, Valeur minimale : -90, Valeur maximale : 90|
-|nbre_pl|nombre entier|Le nombre de places réservées au stationnement disponibles|42|Valeur optionnelle, Valeur minimale : 0|
-|nbre_pmr|nombre entier|Le nombre de places PMR disponibles|3|Valeur optionnelle, Valeur minimale : 0|
-|duree|nombre entier|Si il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes|60|Valeur optionnelle, Valeur minimale : 0|
-|horaires|chaîne de caractères|Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement|Mo-Fr 08:00-20:00|Valeur optionnelle|
-|proprio|chaîne de caractères|Le nom de l'aménageur, c'est-à-dire de l'entité publique ou privée propriétaire des infrastructures|Département|Valeur optionnelle|
-|lumiere|booléen|Un éclairage nocture est-il présent||Valeur optionnelle|
-|comm|chaîne de caractères|Commentaires éventuels sur les commodités mises à disposition du grand public comme : le numéro de téléphone unique qui indique les services disponibles au moment de l'arrivée sur l'aire pour réaliser le dernier kilomètre ; la présence de prises 220V ou USB ; accès à du réseau (télécom, WiFi) ; sanitaires ; intermodalité en transports|Présence de sanitaires et accès à de l'eau courante|Valeur optionnelle|
+
+#### Propriété `id_lieu`
+
+> *Description : Identifiant du lieu de covoiturage, délivré par le point d'accès national<br/>Ex : 35238-C-001*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^([013-9]\d|2[AB1-9])\d{3}-C-\d{3}$`
+
+#### Propriété `nom_lieu`
+
+> *Description : Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage<br/>Ex : Les Romains*
+- Valeur obligatoire
+- Type : chaîne de caractères
+
+#### Propriété `ad_lieu`
+
+> *Description : L'adresse du lieu compréhensible par le grand public pour assurer la coordination entre le passager et le conducteur. Exemple : "3, rue de la gare" ; pour les lieux proches des sorties d'autoroute ou de nationale : "A11 sortie 7 Le Mans Nord" ; pour les zones rurales sans adresse : "croisement de route 1 - route 2" ou "le long de route X après le passage à niveau"<br/>Ex : 3, rue de la Gare*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+#### Propriété `com_lieu`
+
+> *Description : La commune / le lieu-dit du covoiturage<br/>Ex : Rouen*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+#### Propriété `insee`
+
+> *Description : Le code INSEE de la commune d'implantation<br/>Ex : 76540*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
+
+#### Propriété `type`
+
+> *Description : Le type de lieu de covoiturage<br/>Ex : Parking*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Valeurs autorisées : 
+    - Aire de covoiturage
+    - Sortie d'autoroute
+    - Parking
+    - Supermarché
+    - Parking relais
+    - Délaissé routier
+
+#### Propriété `date_maj`
+
+> *Description : Date de dernière mise à jour des données. Notation ISO 8601, format AAAA-MM-DD<br/>Ex : 2016-10-31*
+- Valeur obligatoire
+- Type : date (format `%Y-%m-%d`)
+
+#### Propriété `ouvert`
+
+> *Description : Le lieu est-il ouvert<br/>Ex : true*
+- Valeur obligatoire
+- Type : booléen
+
+#### Propriété `source`
+
+> *Description : SIREN de l'entité ayant fourni la donnée<br/>Ex : 225300011*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^\d{9}$`
+
+#### Propriété `Xlong`
+
+> *Description : La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84<br/>Ex : 1.452323*
+- Valeur obligatoire
+- Type : nombre réel
+- Valeur entre -180 et 180
+
+#### Propriété `Ylat`
+
+> *Description : La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84<br/>Ex : 46.59698*
+- Valeur obligatoire
+- Type : nombre réel
+- Valeur entre -90 et 90
+
+#### Propriété `nbre_pl`
+
+> *Description : Le nombre de places réservées au stationnement disponibles<br/>Ex : 42*
+- Valeur optionnelle
+- Type : nombre entier
+- Valeur supérieur à 0
+
+#### Propriété `nbre_pmr`
+
+> *Description : Le nombre de places PMR disponibles<br/>Ex : 3*
+- Valeur optionnelle
+- Type : nombre entier
+- Valeur supérieur à 0
+
+#### Propriété `duree`
+
+> *Description : Si il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes<br/>Ex : 60*
+- Valeur optionnelle
+- Type : nombre entier
+- Valeur supérieur à 0
+
+#### Propriété `horaires`
+
+> *Description : Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement<br/>Ex : Mo-Fr 08:00-20:00*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+#### Propriété `proprio`
+
+> *Description : Le nom de l'aménageur, c'est-à-dire de l'entité publique ou privée propriétaire des infrastructures<br/>Ex : Département*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+#### Propriété `lumiere`
+
+> *Description : Un éclairage nocture est-il présent<br/>Ex : False*
+- Valeur optionnelle
+- Type : booléen
+
+#### Propriété `comm`
+
+> *Description : Commentaires éventuels sur les commodités mises à disposition du grand public comme : le numéro de téléphone unique qui indique les services disponibles au moment de l'arrivée sur l'aire pour réaliser le dernier kilomètre ; la présence de prises 220V ou USB ; accès à du réseau (télécom, WiFi) ; sanitaires ; intermodalité en transports<br/>Ex : Présence de sanitaires et accès à de l'eau courante*
+- Valeur optionnelle
+- Type : chaîne de caractères

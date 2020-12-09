@@ -16,19 +16,98 @@ Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Don
 
 ### Modèle de données
 
-|Nom|Type|Description|Exemple|Propriétés|
-|-|-|-|-|-|
-|nomAttribuant (Nom de l'attribuant)|chaîne de caractères|Nom officiel de l'organisme attribuant la subvention|Région Bretagne|Valeur obligatoire|
-|idAttribuant (Identification de l'attribuant)|chaîne de caractères|Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET)|23350001600040|Valeur obligatoire, Motif : `^\d{14}$`|
-|dateConvention (Date de la convention de subvention)|date|Date de la convention au format AAAA-MM-JJ (ISO 8601)|2017-06-27|Valeur obligatoire|
-|referenceDecision (Référence de la décision)|chaîne de caractères|Identifiant interne de l’acte matérialisant la décision d’attribution de la subvention|Z34507|Valeur optionnelle|
-|nomBeneficiaire (Nom du bénéficiaire)|chaîne de caractères|Nom officiel (raison sociale) du bénéficiaire de la subvention|Rodriguez SA|Valeur obligatoire|
-|idBeneficiaire (Identification du bénéficiaire)|chaîne de caractères|Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET)|81223113200026|Valeur obligatoire, Motif : `^\d{14}$`|
-|objet (Objet de la subvention)|chaîne de caractères|Description de l'objet de la subvention|Aide à l'embauche|Valeur obligatoire, Taille maximale : 256|
-|montant (Montant total de la subvention)|nombre réel|Montant total de la subvention avant répartition entre les bénéficiaires|22000.80|Valeur obligatoire|
-|nature (Nature de la subvention)|chaîne de caractères|Liste de plusieurs choix possibles séparés par des point-virgules|aide en numéraire;aide en nature|Valeur obligatoire, Valeurs autorisées : aide en numéraire, aide en nature, aide en numéraire;aide en nature, aide en nature;aide en numéraire|
-|conditionsVersement (Conditions de versement de la subvention)|chaîne de caractères|Description des conditions de versement de la subvention. Valeur parmi 'unique', 'échelonné' ou texte libre.||Valeur obligatoire, Taille maximale : 256|
-|datesPeriodeVersement (Date ou période de versement)|chaîne de caractères|Si le versement est unique et que la date précise est connue, alors il s'agit d'une date au format AAAA-MM-JJ (ISO 8601). Si le versement est échelonné (ou que la date précise de versement unique est inconnue), alors il s'agit d'une période exprimée au format AAAA-MM-JJ/AAAA-MM-JJ (ISO 8601).|2017-12-14|Valeur obligatoire, Motif : `^[0-9]{4}\-[0-9]{2}\-[0-9]{2}(\/[0-9]{4}\-[0-9]{2}\-[0-9]{2})?$`|
-|idRAE (Numéro unique de référencement dans le Répertoire des Aides aux Entreprises)|chaîne de caractères|Numéro unique RAE communiqué par le service aides-entreprises.fr|12345|Valeur optionnelle|
-|notificationUE (Aide d'Etat notifiée à la Commission européenne)|booléen|Valeurs considérées comme vraies : ['oui']Valeurs considérées comme fausses : ['non']Booléen : oui ou non|oui|Valeur obligatoire|
-|pourcentageSubvention (Pourcentage du montant total de la subvention attribuée au bénéficiaire)|nombre réel|Pourcentage exprimé sous la forme d'un nombre avec un point comme séparateur de décimales|0.8|Valeur obligatoire, Valeur minimale : 0, Valeur maximale : 1|
+
+####  Nom de l'attribuant - Propriété `nomAttribuant`
+
+> *Description : Nom officiel de l'organisme attribuant la subvention<br/>Ex : Région Bretagne*
+- Valeur obligatoire
+- Type : chaîne de caractères
+
+####  Identification de l'attribuant - Propriété `idAttribuant`
+
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET)<br/>Ex : 23350001600040*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^\d{14}$`
+
+####  Date de la convention de subvention - Propriété `dateConvention`
+
+> *Description : Date de la convention au format AAAA-MM-JJ (ISO 8601)<br/>Ex : 2017-06-27*
+- Valeur obligatoire
+- Type : date
+
+####  Référence de la décision - Propriété `referenceDecision`
+
+> *Description : Identifiant interne de l’acte matérialisant la décision d’attribution de la subvention<br/>Ex : Z34507*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+####  Nom du bénéficiaire - Propriété `nomBeneficiaire`
+
+> *Description : Nom officiel (raison sociale) du bénéficiaire de la subvention<br/>Ex : Rodriguez SA*
+- Valeur obligatoire
+- Type : chaîne de caractères
+
+####  Identification du bénéficiaire - Propriété `idBeneficiaire`
+
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET)<br/>Ex : 81223113200026*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^\d{14}$`
+
+####  Objet de la subvention - Propriété `objet`
+
+> *Description : Description de l'objet de la subvention<br/>Ex : Aide à l'embauche*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Moins de 256 caractères
+
+####  Montant total de la subvention - Propriété `montant`
+
+> *Description : Montant total de la subvention avant répartition entre les bénéficiaires<br/>Ex : 22000.80*
+- Valeur obligatoire
+- Type : nombre réel
+
+####  Nature de la subvention - Propriété `nature`
+
+> *Description : Liste de plusieurs choix possibles séparés par des point-virgules<br/>Ex : aide en numéraire;aide en nature*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Valeurs autorisées : 
+    - aide en numéraire
+    - aide en nature
+    - aide en numéraire;aide en nature
+    - aide en nature;aide en numéraire
+
+####  Conditions de versement de la subvention - Propriété `conditionsVersement`
+
+> *Description : Description des conditions de versement de la subvention. Valeur parmi 'unique', 'échelonné' ou texte libre.<br/>Ex : *
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Moins de 256 caractères
+
+####  Date ou période de versement - Propriété `datesPeriodeVersement`
+
+> *Description : Si le versement est unique et que la date précise est connue, alors il s'agit d'une date au format AAAA-MM-JJ (ISO 8601). Si le versement est échelonné (ou que la date précise de versement unique est inconnue), alors il s'agit d'une période exprimée au format AAAA-MM-JJ/AAAA-MM-JJ (ISO 8601).<br/>Ex : 2017-12-14*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^[0-9]{4}\-[0-9]{2}\-[0-9]{2}(\/[0-9]{4}\-[0-9]{2}\-[0-9]{2})?$`
+
+####  Numéro unique de référencement dans le Répertoire des Aides aux Entreprises - Propriété `idRAE`
+
+> *Description : Numéro unique RAE communiqué par le service aides-entreprises.fr<br/>Ex : 12345*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+####  Aide d'Etat notifiée à la Commission européenne - Propriété `notificationUE`
+
+> *Description : Booléen : oui ou non<br/>Ex : oui*
+- Valeur obligatoire
+- Type : booléen
+
+####  Pourcentage du montant total de la subvention attribuée au bénéficiaire - Propriété `pourcentageSubvention`
+
+> *Description : Pourcentage exprimé sous la forme d'un nombre avec un point comme séparateur de décimales<br/>Ex : 0.8*
+- Valeur obligatoire
+- Type : nombre réel
+- Valeur entre 0 et 1
