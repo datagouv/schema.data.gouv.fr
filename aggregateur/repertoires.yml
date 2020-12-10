@@ -54,3 +54,9 @@ arbres_urbains:
   url: https://github.com/NaturalSolutions/schema-arbre.git
   type: tableschema
   email: contact@natural-solutions.eu
+amenagements-cyclables:
+  url: https://github.com/etalab/schema-amenagements-cyclables
+  type: jsonschema
+  email: contact@transport.beta.gouv.fr
+
+
