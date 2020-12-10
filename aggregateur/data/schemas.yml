@@ -71,6 +71,24 @@ arsante/schema-dae:
   type: tableschema
   versions:
   - 1.0.1
+etalab/schema-amenagements-cyclables:
+  consolidation: null
+  description: Spécification du schéma de données d'aménagements cyclables
+  email: contact@transport.beta.gouv.fr
+  has_changelog: true
+  homepage: https://github.com/etalab/schema_amenagements_cyclables
+  latest_version: 0.1.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.1.0/schema_amenagements_cyclables.json
+    original_path: schema_amenagements_cyclables.json
+    path: schema_amenagements_cyclables.json
+    title: Schema des aménagements cyclables
+    versions:
+    - 0.1.0
+  title: Schéma d'aménagements cyclables
+  type: jsonschema
+  versions:
+  - 0.1.0
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
