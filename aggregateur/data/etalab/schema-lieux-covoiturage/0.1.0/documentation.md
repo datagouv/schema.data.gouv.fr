@@ -21,6 +21,7 @@ Spécification des lieux permettant le covoiturage
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [id_lieu](#propriété-id_lieu) | chaîne de caractères  | Oui |

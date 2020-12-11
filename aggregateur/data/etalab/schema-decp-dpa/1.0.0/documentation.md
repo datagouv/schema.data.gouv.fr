@@ -19,6 +19,7 @@ Spécification du fichier de déclaration de profil d'acheteur
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [siretAcheteur](#propriété-siretAcheteur) | chaîne de caractères  | Oui |

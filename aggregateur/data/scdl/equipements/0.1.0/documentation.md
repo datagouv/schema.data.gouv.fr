@@ -19,6 +19,7 @@ Spécification du modèle de données relatif aux équipements collectifs public
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [COLL_NOM](#nom-de-la-collectivité---propriété-coll_nom) | chaîne de caractères  | Oui |

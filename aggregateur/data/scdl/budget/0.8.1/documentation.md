@@ -19,6 +19,7 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [BGT_NATDEC](#étape-budgétaire---propriété-bgt_natdec) | chaîne de caractères  | Oui |

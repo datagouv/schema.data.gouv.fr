@@ -18,6 +18,7 @@ Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [COLL_NOM](#nom-de-la-collectivité---propriété-coll_nom) | chaîne de caractères  | Oui |

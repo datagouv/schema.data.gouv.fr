@@ -19,6 +19,7 @@ Spécification du modèle de données relatif aux subventions attribuées par un
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [nomAttribuant](#nom-de-l'attribuant---propriété-nomattribuant) | chaîne de caractères  | Oui |

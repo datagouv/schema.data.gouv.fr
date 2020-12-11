@@ -18,6 +18,7 @@ Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Don
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [nomAttribuant](#nom-de-l'attribuant---propriété-nomattribuant) | chaîne de caractères  | Oui |

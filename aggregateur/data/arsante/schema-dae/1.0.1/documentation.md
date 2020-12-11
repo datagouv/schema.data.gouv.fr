@@ -19,6 +19,7 @@ Spécification du modèle de données relatif aux DAE
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [nom](#nom-donné-au-dae---propriété-nom) | chaîne de caractères  | Oui |

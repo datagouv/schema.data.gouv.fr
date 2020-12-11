@@ -20,6 +20,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 
 ##### Liste des propriétés
+
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [n_amenageur](#propriété-n_amenageur) | chaîne de caractères  | Oui |
