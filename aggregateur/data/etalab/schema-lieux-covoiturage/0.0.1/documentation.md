@@ -20,6 +20,28 @@ Spécification des lieux permettant le covoiturage
 ### Modèle de données
 
 
+##### Liste des propriétés
+| Propriété | Type | Obligatoire |
+| -- | -- | -- |
+| [id_lieu](#propriété-id_lieu) | chaîne de caractères  | Oui |
+| [nom_lieu](#propriété-nom_lieu) | chaîne de caractères  | Oui |
+| [ad_lieu](#propriété-ad_lieu) | chaîne de caractères  | Non |
+| [com_lieu](#propriété-com_lieu) | chaîne de caractères  | Non |
+| [insee](#propriété-insee) | chaîne de caractères  | Oui |
+| [type](#propriété-type) | chaîne de caractères  | Oui |
+| [date_maj](#propriété-date_maj) | date (format `%Y-%m-%d`) | Oui |
+| [ouvert](#propriété-ouvert) | booléen  | Oui |
+| [source](#propriété-source) | chaîne de caractères  | Oui |
+| [Xlong](#propriété-Xlong) | nombre réel  | Oui |
+| [Ylat](#propriété-Ylat) | nombre réel  | Oui |
+| [nbre_pl](#propriété-nbre_pl) | nombre entier  | Non |
+| [nbre_pmr](#propriété-nbre_pmr) | nombre entier  | Non |
+| [duree](#propriété-duree) | nombre entier  | Non |
+| [horaires](#propriété-horaires) | chaîne de caractères  | Non |
+| [proprio](#propriété-proprio) | chaîne de caractères  | Non |
+| [lumiere](#propriété-lumiere) | booléen  | Non |
+| [comm](#propriété-comm) | chaîne de caractères  | Non |
+
 #### Propriété `id_lieu`
 
 > *Description : Identifiant du lieu de covoiturage, délivré par le point d'accès national<br/>Ex : 35238-C-001*

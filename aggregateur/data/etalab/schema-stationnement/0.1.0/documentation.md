@@ -18,6 +18,40 @@ Spécification des lieux permettant le stationnement en parc
 ### Modèle de données
 
 
+##### Liste des propriétés
+| Propriété | Type | Obligatoire |
+| -- | -- | -- |
+| [id](#propriété-id) | chaîne de caractères  | Oui |
+| [nom](#propriété-nom) | chaîne de caractères  | Oui |
+| [insee](#propriété-insee) | chaîne de caractères  | Oui |
+| [adresse](#propriété-adresse) | chaîne de caractères  | Non |
+| [url](#propriété-url) | chaîne de caractères  | Non |
+| [type_usagers](#propriété-type_usagers) | chaîne de caractères  | Oui |
+| [gratuit](#propriété-gratuit) | booléen  | Oui |
+| [nb_places](#propriété-nb_places) | nombre entier  | Oui |
+| [nb_pr](#propriété-nb_pr) | nombre entier  | Non |
+| [nb_pmr](#propriété-nb_pmr) | nombre entier  | Non |
+| [nb_voitures_electriques](#propriété-nb_voitures_electriques) | nombre entier  | Non |
+| [nb_velo](#propriété-nb_velo) | nombre entier  | Non |
+| [nb_2r_el](#propriété-nb_2r_el) | nombre entier  | Non |
+| [nb_autopartage](#propriété-nb_autopartage) | nombre entier  | Non |
+| [nb_2_rm](#propriété-nb_2_rm) | nombre entier  | Non |
+| [nb_covoit](#propriété-nb_covoit) | nombre entier  | Non |
+| [hauteur_max](#propriété-hauteur_max) | nombre entier  | Oui |
+| [num_siret](#propriété-num_siret) | chaîne de caractères  | Oui |
+| [Xlong](#propriété-Xlong) | nombre réel  | Oui |
+| [Ylat](#propriété-Ylat) | nombre réel  | Oui |
+| [tarif_pmr](#propriété-tarif_pmr) | chaîne de caractères  | Non |
+| [tarif_1h](#propriété-tarif_1h) | nombre réel  | Non |
+| [tarif_2h](#propriété-tarif_2h) | nombre réel  | Non |
+| [tarif_3h](#propriété-tarif_3h) | nombre réel  | Non |
+| [tarif_4h](#propriété-tarif_4h) | nombre réel  | Non |
+| [tarif_24h](#propriété-tarif_24h) | nombre réel  | Non |
+| [abo_resident](#propriété-abo_resident) | nombre réel  | Non |
+| [abo_non_resident](#propriété-abo_non_resident) | nombre réel  | Non |
+| [type_ouvrage](#propriété-type_ouvrage) | chaîne de caractères  | Non |
+| [info](#propriété-info) | chaîne de caractères  | Non |
+
 #### Propriété `id`
 
 > *Description : L'identifiant unique du parking, délivré par le Point d’accès national. `INSEE-P-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre sur 3 chiffres.<br/>Ex : 75114-P-001*

@@ -19,6 +19,27 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 ### Modèle de données
 
 
+##### Liste des propriétés
+| Propriété | Type | Obligatoire |
+| -- | -- | -- |
+| [n_amenageur](#propriété-n_amenageur) | chaîne de caractères  | Oui |
+| [n_operateur](#propriété-n_operateur) | chaîne de caractères  | Oui |
+| [n_enseigne](#propriété-n_enseigne) | chaîne de caractères  | Oui |
+| [id_station](#propriété-id_station) | chaîne de caractères  | Oui |
+| [n_station](#propriété-n_station) | chaîne de caractères  | Oui |
+| [ad_station](#propriété-ad_station) | chaîne de caractères  | Oui |
+| [code_insee](#propriété-code_insee) | chaîne de caractères  | Oui |
+| [Xlongitude](#propriété-Xlongitude) | nombre réel  | Oui |
+| [Ylatitude](#propriété-Ylatitude) | nombre réel  | Oui |
+| [nbre_pdc](#propriété-nbre_pdc) | nombre entier  | Oui |
+| [id_pdc](#propriété-id_pdc) | chaîne de caractères  | Oui |
+| [puiss_max](#propriété-puiss_max) | nombre réel  | Oui |
+| [type_prise](#propriété-type_prise) | chaîne de caractères  | Oui |
+| [acces_recharge](#propriété-acces_recharge) | chaîne de caractères  | Oui |
+| [accessibilité](#propriété-accessibilité) | chaîne de caractères  | Oui |
+| [observations](#propriété-observations) | chaîne de caractères  | Non |
+| [date_maj](#propriété-date_maj) | date (format `%Y/%m/%d`) | Oui |
+
 #### Propriété `n_amenageur`
 
 > *Description : Le nom de l'aménageur, c'est à dire de l'entité publique ou privée propriétaire des infrastructures<br/>Ex : Société X, Entité Y*

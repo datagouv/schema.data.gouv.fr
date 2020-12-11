@@ -18,6 +18,14 @@ Spécification du fichier de déclaration de profil d'acheteur
 ### Modèle de données
 
 
+##### Liste des propriétés
+| Propriété | Type | Obligatoire |
+| -- | -- | -- |
+| [siretAcheteur](#propriété-siretAcheteur) | chaîne de caractères  | Oui |
+| [urlProfilAcheteur](#propriété-urlProfilAcheteur) | chaîne de caractères (format `uri`) | Oui |
+| [urlDCAT](#propriété-urlDCAT) | chaîne de caractères (format `uri`) | Non |
+| [coordonnees](#propriété-coordonnees) | chaîne de caractères  | Oui |
+
 #### Propriété `siretAcheteur`
 
 > *Description : Le numéro SIRET de l'acheteur<br/>Ex : 79248336400024*

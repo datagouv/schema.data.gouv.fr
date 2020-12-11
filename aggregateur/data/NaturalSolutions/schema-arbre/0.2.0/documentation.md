@@ -19,6 +19,36 @@ Spécification des attributs liés aux arbres urbains dans le cadre d'un inventa
 ### Modèle de données
 
 
+##### Liste des propriétés
+| Propriété | Type | Obligatoire |
+| -- | -- | -- |
+| [id](#propriété-id) | nombre entier  | Oui |
+| [longitude](#propriété-longitude) | nombre réel  | Oui |
+| [latitude](#propriété-latitude) | nombre réel  | Oui |
+| [famille_arbre](#propriété-famille_arbre) | chaîne de caractères  | Non |
+| [genre_arbre](#propriété-genre_arbre) | chaîne de caractères  | Non |
+| [espece_arbre](#propriété-espece_arbre) | chaîne de caractères  | Non |
+| [cultivar_variete_arbre](#propriété-cultivar_variete_arbre) | chaîne de caractères  | Non |
+| [nom_vernaculaire](#propriété-nom_vernaculaire) | chaîne de caractères  | Non |
+| [code_insee](#propriété-code_insee) | chaîne de caractères  | Non |
+| [code_postal](#propriété-code_postal) | chaîne de caractères  | Non |
+| [adresse](#propriété-adresse) | chaîne de caractères  | Non |
+| [matricule_arbre](#propriété-matricule_arbre) | chaîne de caractères  | Non |
+| [date_plantation](#propriété-date_plantation) | date (format `%Y-%m-%d`) | Non |
+| [hauteur](#propriété-hauteur) | nombre réel  | Non |
+| [diametre](#propriété-diametre) | nombre réel  | Non |
+| [type_sol](#propriété-type_sol) | chaîne de caractères  | Non |
+| [type_enracinement](#propriété-type_enracinement) | chaîne de caractères  | Non |
+| [port_arbre](#propriété-port_arbre) | chaîne de caractères  | Non |
+| [arbre_remarquable](#propriété-arbre_remarquable) | booléen  | Non |
+| [arbre_protege](#propriété-arbre_protege) | booléen  | Non |
+| [contraintes_sol](#propriété-contraintes_sol) | chaîne de caractères  | Non |
+| [contrainte_aeriennes](#propriété-contrainte_aeriennes) | chaîne de caractères  | Non |
+| [eclairage](#propriété-eclairage) | booléen  | Non |
+| [arrosage](#propriété-arrosage) | chaîne de caractères  | Non |
+| [allergie](#propriété-allergie) | nombre entier  | Non |
+| [remarque](#propriété-remarque) | chaîne de caractères  | Non |
+
 #### Propriété `id`
 
 > *Description : Un identifiant unique de l'objet arbre.<br/>Ex : 42*
