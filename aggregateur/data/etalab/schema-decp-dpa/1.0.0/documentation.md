@@ -22,9 +22,9 @@ Spécification du fichier de déclaration de profil d'acheteur
 
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [siretAcheteur](#propriété-siretAcheteur) | chaîne de caractères  | Oui |
-| [urlProfilAcheteur](#propriété-urlProfilAcheteur) | chaîne de caractères (format `uri`) | Oui |
-| [urlDCAT](#propriété-urlDCAT) | chaîne de caractères (format `uri`) | Non |
+| [siretAcheteur](#propriété-siretacheteur) | chaîne de caractères  | Oui |
+| [urlProfilAcheteur](#propriété-urlprofilacheteur) | chaîne de caractères (format `uri`) | Oui |
+| [urlDCAT](#propriété-urldcat) | chaîne de caractères (format `uri`) | Non |
 | [coordonnees](#propriété-coordonnees) | chaîne de caractères  | Oui |
 
 #### Propriété `siretAcheteur`

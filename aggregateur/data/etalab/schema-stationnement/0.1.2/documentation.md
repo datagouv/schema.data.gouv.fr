@@ -40,8 +40,8 @@ Spécification des lieux permettant le stationnement en parc
 | [nb_covoit](#propriété-nb_covoit) | nombre entier  | Non |
 | [hauteur_max](#propriété-hauteur_max) | nombre entier  | Oui |
 | [num_siret](#propriété-num_siret) | chaîne de caractères  | Oui |
-| [Xlong](#propriété-Xlong) | nombre réel  | Oui |
-| [Ylat](#propriété-Ylat) | nombre réel  | Oui |
+| [Xlong](#propriété-xlong) | nombre réel  | Oui |
+| [Ylat](#propriété-ylat) | nombre réel  | Oui |
 | [tarif_pmr](#propriété-tarif_pmr) | chaîne de caractères  | Non |
 | [tarif_1h](#propriété-tarif_1h) | nombre réel  | Non |
 | [tarif_2h](#propriété-tarif_2h) | nombre réel  | Non |

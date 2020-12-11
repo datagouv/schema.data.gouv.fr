@@ -33,8 +33,8 @@ Spécification des lieux permettant le covoiturage
 | [date_maj](#propriété-date_maj) | date (format `%Y-%m-%d`) | Oui |
 | [ouvert](#propriété-ouvert) | booléen  | Oui |
 | [source](#propriété-source) | chaîne de caractères  | Oui |
-| [Xlong](#propriété-Xlong) | nombre réel  | Oui |
-| [Ylat](#propriété-Ylat) | nombre réel  | Oui |
+| [Xlong](#propriété-xlong) | nombre réel  | Oui |
+| [Ylat](#propriété-ylat) | nombre réel  | Oui |
 | [nbre_pl](#propriété-nbre_pl) | nombre entier  | Non |
 | [nbre_pmr](#propriété-nbre_pmr) | nombre entier  | Non |
 | [duree](#propriété-duree) | nombre entier  | Non |

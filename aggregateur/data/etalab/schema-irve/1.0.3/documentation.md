@@ -30,8 +30,8 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 | [n_station](#propriété-n_station) | chaîne de caractères  | Oui |
 | [ad_station](#propriété-ad_station) | chaîne de caractères  | Oui |
 | [code_insee](#propriété-code_insee) | chaîne de caractères  | Oui |
-| [Xlongitude](#propriété-Xlongitude) | nombre réel  | Oui |
-| [Ylatitude](#propriété-Ylatitude) | nombre réel  | Oui |
+| [Xlongitude](#propriété-xlongitude) | nombre réel  | Oui |
+| [Ylatitude](#propriété-ylatitude) | nombre réel  | Oui |
 | [nbre_pdc](#propriété-nbre_pdc) | nombre entier  | Oui |
 | [id_pdc](#propriété-id_pdc) | chaîne de caractères  | Oui |
 | [puiss_max](#propriété-puiss_max) | nombre réel  | Oui |
