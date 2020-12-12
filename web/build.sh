@@ -4,7 +4,7 @@ bundle install
 wget https://github.com/etalab/schema.data.gouv.fr/archive/master.zip -O /tmp/schema.data.gouv.fr.zip
 unzip /tmp/schema.data.gouv.fr.zip -d /tmp
 rm assets/images/*
-cp -r ../aggregateur/assets/. assets/images/
+cp -r /tmp/schema.data.gouv.fr-master/aggregateur/assets/. assets/images/
 cp -r /tmp/schema.data.gouv.fr-master/aggregateur/data/. collections/_schemas/
 cp /tmp/schema.data.gouv.fr-master/aggregateur/data/schemas.yml _data/
 cp /tmp/schema.data.gouv.fr-master/aggregateur/data/issues.yml _data/
