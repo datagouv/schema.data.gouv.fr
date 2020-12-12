@@ -1,3 +1,10 @@
+---
+permalink: /scdl/subventions/2.0.0/SEE_ALSO.html
+redirect_from: null
+title: 'Documentation de Subventions : propriété SEE_ALSO'
+version: 2.0.0
+---
+
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
 * [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-subventions.xlsx)

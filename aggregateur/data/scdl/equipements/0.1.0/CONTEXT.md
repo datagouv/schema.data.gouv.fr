@@ -1,3 +1,10 @@
+---
+permalink: /scdl/equipements/0.1.0/CONTEXT.html
+redirect_from: null
+title: 'Documentation de Equipements : propriété CONTEXT'
+version: 0.1.0
+---
+
 Les données géolocalisées permettant de dresser l'inventaire et de cartographier les équipements collectifs publics implantés sur leurs territoires représentent un enjeu majeur de connaissance pour toutes les strates de collectivités locales.
 
 Reformulée et affinée à l'issue de plusieurs expérimentations de terrain, la [définition proposée par le groupe de travail EquipCo](https://docs.google.com/spreadsheets/d/1x_8TKmdBVXiBBkwf4ZWSHMhbNgeTGiXuQraiHP5d7pU/) du CRIGE PACA énonce qu'un équipement collectif public est "_un équipement proposant un service au public : structures ou bâtiments, publics ou privés, répondant aux besoins de la population sur un territoire_". Les travaux de ce groupe de travail, démarrés dès 2008, ont consisté à concevoir, tester et améliorer un modèle de données et une nomenclature en vue de construire une base de données régionale à partir de sources multiples.

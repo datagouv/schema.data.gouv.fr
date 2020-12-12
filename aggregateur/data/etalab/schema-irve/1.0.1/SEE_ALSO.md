@@ -1,3 +1,11 @@
+---
+permalink: /etalab/schema-irve/1.0.1/SEE_ALSO.html
+redirect_from: null
+title: 'Documentation de Infrastructures de recharge de véhicules électriques : propriété
+  SEE_ALSO'
+version: 1.0.1
+---
+
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
 * [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-irve.xlsx)

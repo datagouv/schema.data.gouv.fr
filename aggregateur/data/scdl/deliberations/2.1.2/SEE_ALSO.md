@@ -1,3 +1,10 @@
+---
+permalink: /scdl/deliberations/2.1.2/SEE_ALSO.html
+redirect_from: null
+title: 'Documentation de Délibérations : propriété SEE_ALSO'
+version: 2.1.2
+---
+
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
 * [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-deliberations.xlsx)
