@@ -14,6 +14,32 @@ import config
 
 from table_schema_to_markdown import convert_source
 
+import markdown
+from markdown.treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+
+import uuid
+
+# First create the treeprocessor
+
+class ImgExtractor(Treeprocessor):
+    def run(self, doc):
+        "Find all images and append to markdown.images. "
+        self.markdown.images = []
+        for image in doc.findall('.//img'):
+            self.markdown.images.append(image.get('src'))
+
+# Then tell markdown about it
+
+class ImgExtExtension(Extension):
+    def extendMarkdown(self, md, md_globals):
+        img_ext = ImgExtractor(md)
+        md.treeprocessors.add('imgext', img_ext, '>inline')
+
+md = markdown.Markdown(extensions=[ImgExtExtension()])
+
+if os.path.exists("./assets/") and os.path.isdir("./assets/"):
+    shutil.rmtree("./assets/")
 
 class BaseValidator(object):
     CHANGELOG_FILENAME = "CHANGELOG.md"
@@ -28,6 +54,11 @@ class BaseValidator(object):
     def data_dir(self):
         current_dir = os.path.dirname(os.path.realpath(__file__))
         return os.path.join(current_dir, "data")
+
+    @property
+    def asset_dir(self):
+        current_dir = os.path.dirname(os.path.realpath(__file__))
+        return os.path.join(current_dir, "assets")
 
     @property
     def static_dir(self):
@@ -71,7 +102,32 @@ class BaseValidator(object):
         with open(os.path.join(self.static_dir, self.CONSOLIDATION_FILENAME)) as f:
             return yaml.safe_load(f).get(slug, None)
 
-    def move_files(self, files):
+    def change_images_link(self, content,assetnewnames):
+        html = md.convert(content)
+        for img in md.images:
+            ext = os.path.splitext(img)[1]
+            filename = os.path.basename(img)
+            new_filename = filename.split(ext)[0]
+            if filename in assetnewnames:
+                new_filename = assetnewnames[filename]
+            if(img.startswith('./assets/')):
+                content = content.replace('(./assets/'+filename+')','(/assets/images/'+new_filename+ext+')')
+            if(img.startswith('assets/')):
+                content = content.replace('(assets/'+filename+')','(/assets/images/'+new_filename+ext+')')
+        html = md.convert(content)
+        return content
+
+    def move_assets(self,assetfiles,assetnewnames):
+        if not os.path.exists(self.asset_dir):
+            os.makedirs(self.asset_dir)
+
+        for asset in assetfiles:
+            for assetnewname in assetnewnames:
+                if(asset == assetnewname):
+                    ext = os.path.splitext(asset)[1]
+                    shutil.copyfile(assetfiles[asset], self.asset_dir+"/"+assetnewnames[assetnewname]+ext)
+
+    def move_files(self, files, assetnewnames={}):
         if not os.path.exists(self.target_dir):
             os.makedirs(self.target_dir)
 
@@ -87,6 +143,7 @@ class BaseValidator(object):
                 content = frontmatter.dumps(
                     frontmatter.load(src_filepath, **front_matter)
                 )
+                content = self.change_images_link(content,assetnewnames)
                 with open(self.target_filepath(filename), "w") as f:
                     f.write(content)
             else:
@@ -165,6 +222,21 @@ class BaseValidator(object):
                 "version": version,
                 "redirect_from": redirect_from,
             }
+        if filename.endswith(".md"):
+            if self.is_latest_version():
+                permalink = "/%s/%s/%s.html" % (slug, "latest",os.path.splitext(filename)[0])
+                redirect_from = "/%s/%s/%s.html" % (slug, version,os.path.splitext(filename)[0])
+            else:
+                permalink = "/%s/%s/%s.html" % (slug, version,os.path.splitext(filename)[0])
+                redirect_from = None
+
+            return {
+                "permalink": permalink,
+                "title": "Documentation de " + self.title + " : propriété " + os.path.splitext(filename)[0],
+                "version": version,
+                "redirect_from": redirect_from,
+            }
+
         return None
 
     def is_latest_version(self):
@@ -298,8 +370,24 @@ class TableSchemaValidator(BaseValidator):
         self.check_extra_keys()
 
     def extract(self):
+        links = []
+        documentationfiles = {}
+        assetfiles = {}
+        assetnewnames = {}
+        if(os.path.isdir(self.filepath("documentation/"))):
+            if(os.path.isdir(self.filepath("documentation/assets/"))):
+                for filename in os.listdir(self.filepath("documentation/assets/")):
+                    assetnewnames = {**assetnewnames, **{filename: str(uuid.uuid1())}}
+                    assetfiles = {**assetfiles, **{filename: self.filepath("documentation/assets/"+filename)}}
+
+            for filename in os.listdir(self.filepath("documentation/")):
+                if filename.endswith(".md"):
+                    links.append(os.path.splitext(filename)[0].lower())
+                    documentationfiles = {**documentationfiles, **{filename: self.filepath("documentation/")+filename}}
+
+
         with open(self.filepath("documentation.md"), "w") as out:
-            convert_source(self.filepath(self.SCHEMA_FILENAME), out, 'page')
+            convert_source(self.filepath(self.SCHEMA_FILENAME), out, 'page',links)
 
         files = {
             self.SCHEMA_FILENAME: self.filepath_or_none(self.SCHEMA_FILENAME),
@@ -309,12 +397,15 @@ class TableSchemaValidator(BaseValidator):
             "documentation.md": self.filepath("documentation.md"),
         }
 
+        files = {**files, **documentationfiles}
+
         if self.is_latest_version():
             files[self.CHANGELOG_FILENAME] = self.filepath_or_none(
                 self.CHANGELOG_FILENAME
             )
 
-        self.move_files(files)
+        self.move_files(files,assetnewnames)
+        self.move_assets(assetfiles,assetnewnames)
 
     def check_extra_keys(self):
         keys = ["title", "description", "homepage", "version"]
