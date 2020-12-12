@@ -14,3 +14,4 @@ Ce dépôt comporte plusieurs composants :
 
 ## Licence
 Le code source du répertoire est publié sous la licence MIT. Les données, disponibles dans le répertoire sont publiées sous la Licence Ouverte 2.0.
+
