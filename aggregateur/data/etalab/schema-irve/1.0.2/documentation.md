@@ -11,7 +11,7 @@ Infrastructures de recharge pour véhicules électriques
 
 Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques
 
-- Schéma créé le : 29.06.2018
+- Schéma créé le : 29/06/2018
 - Site web : https://github.com/etalab/schema-irve
 - Version : 1.0.2
 - Clé primaire : `id_pdc`

@@ -11,7 +11,7 @@ Spécification du modèle de données relatif au catalogue des jeux de données 
 
 - Auteur : OpenDataFrance
 - Contributeurs : Thomas Bekkers, Loïc Haÿ
-- Schéma créé le : 20.11.2018
+- Schéma créé le : 20/11/2018
 - Site web : https://git.opendatafrance.net/scdl/catalogue
 - Version : 0.1.1
 
