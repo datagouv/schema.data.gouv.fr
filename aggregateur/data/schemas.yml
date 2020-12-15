@@ -3,6 +3,8 @@
   description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
     commande publique
   email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: false
   homepage: https://github.com/etalab/format-commande-publique
   latest_version: 1.5.0
@@ -37,6 +39,8 @@ NaturalSolutions/schema-arbre:
   description: Spécification des attributs liés aux arbres urbains dans le cadre d'un
     inventaire du patrimoine arboré par les collectivités.
   email: contact@natural-solutions.eu
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://github.com/NaturalSolutions/schema-arbre
   latest_version: 0.2.0
@@ -57,6 +61,8 @@ arsante/schema-dae:
   consolidation: null
   description: Spécification du modèle de données relatif aux DAE
   email: contact@geodae.sante.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
   latest_version: 1.0.1
@@ -75,6 +81,8 @@ etalab/schema-amenagements-cyclables:
   consolidation: null
   description: Spécification du schéma de données d'aménagements cyclables
   email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
   latest_version: 0.2.0
@@ -95,6 +103,8 @@ etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: false
   homepage: https://github.com/etalab/schema-decp-dpa
   latest_version: 1.0.0
@@ -118,6 +128,8 @@ etalab/schema-irve:
     localisation géographique et les caractéristiques techniques des stations et des
     points de recharge pour véhicules électriques
   email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
   latest_version: 1.0.3
@@ -145,6 +157,8 @@ etalab/schema-lieux-covoiturage:
     - covoiturage
   description: Spécification des lieux permettant le covoiturage
   email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   latest_version: 0.2.0
@@ -176,6 +190,8 @@ etalab/schema-stationnement:
     - stationnement
   description: Spécification des lieux permettant le stationnement en parc
   email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement
   latest_version: 0.1.3
@@ -200,6 +216,8 @@ metis-reseaux/infos-travaux:
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
   email: contact@gotmi.io
+  external_doc: null
+  external_tool: null
   has_changelog: false
   homepage: https://github.com/metis-reseaux/infos-travaux
   latest_version: 0.0.2
@@ -223,6 +241,8 @@ scdl/budget:
     Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité
     associées.
   email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/budget
   latest_version: 0.8.1
@@ -242,6 +262,8 @@ scdl/catalogue:
   description: Spécification du modèle de données relatif au catalogue des jeux de
     données publiés en open data par une collectivité
   email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/catalogue
   latest_version: 0.1.2
@@ -263,6 +285,8 @@ scdl/deliberations:
   description: Schéma validant le format relatif aux délibérations du SCDL (Socle
     Commun des Données Locales).
   email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/deliberations
   latest_version: 2.1.3
@@ -292,6 +316,8 @@ scdl/equipements:
   description: Spécification du modèle de données relatif aux équipements collectifs
     publics d'une collectivité.
   email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/equipements
   latest_version: 0.1.1
@@ -313,6 +339,8 @@ scdl/subventions:
   description: Schéma validant le format relatif aux subventions du SCDL (Socle Commun
     des Données Locales).
   email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/subventions
   latest_version: 2.0.1
