@@ -175,7 +175,6 @@ etalab/schema-lieux-covoiturage:
     - 0.1.1
     - 0.1.2
     - 0.2.0
-    - 0.2.0
   title: Lieux de covoiturage
   type: tableschema
   versions:
@@ -183,7 +182,6 @@ etalab/schema-lieux-covoiturage:
   - 0.1.0
   - 0.1.1
   - 0.1.2
-  - 0.2.0
   - 0.2.0
 etalab/schema-stationnement:
   consolidation:
