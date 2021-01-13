@@ -58,5 +58,8 @@ amenagements-cyclables:
   url: https://github.com/etalab/schema-amenagements-cyclables
   type: jsonschema
   email: contact@transport.beta.gouv.fr
-
+inclusion-numerique:
+  url: https://github.com/etalab/schema-inclusion-numerique
+  type: tableschema
+  email: carto@aidantsconnect.beta.gouv.fr
 
