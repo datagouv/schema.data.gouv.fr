@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-inclusion-numerique/0.1.0.html
-redirect_from: null
+permalink: /etalab/schema-inclusion-numerique/latest.html
+redirect_from: /etalab/schema-inclusion-numerique/0.1.1.html
 title: Lieux d’inclusion numérique
-version: 0.1.0
+version: 0.1.1
 ---
 
 # Schéma des lieux de l'inclusion numérique
