@@ -32,7 +32,6 @@ jobs:
       - run:
           name: Create folders
           command: |
-            rm -rf repos
             mkdir -p repos
             rm -rf data
       - run:
