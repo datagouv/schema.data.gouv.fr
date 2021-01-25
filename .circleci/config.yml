@@ -26,9 +26,6 @@ jobs:
           command: |
             echo "fr_FR.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
             sudo locale-gen
-      - restore_cache:
-          keys:
-          - v1-repos-{{ checksum "cache/repos" }}
       - run:
           name: Create folders
           command: |
@@ -49,10 +46,6 @@ jobs:
           name: Compute checksum of repos
           command: |
             find repos -type f -not -path '*/\.git/*' -exec md5sum {} \; | sort -k 2 | md5sum > "cache/repos"
-      - save_cache:
-          paths:
-            - ./repos
-          key: v1-repos-{{ checksum "cache/repos" }}
       - run:
           name: Fetch schema issues
           command: |
