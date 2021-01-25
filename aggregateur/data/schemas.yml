@@ -123,12 +123,12 @@ etalab/schema-decp-dpa:
   - 1.0.0
 etalab/schema-inclusion-numerique:
   consolidation: null
-  description: Spécification des lieux d'inclusion numérique
+  description: ''
   email: carto@aidantsconnect.beta.gouv.fr
   external_doc: null
   external_tool: null
   has_changelog: false
-  homepage: https://github.com/etalab/schema-inclusion-numerique
+  homepage: ''
   latest_version: 0.1.1
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.1/schema.json
@@ -136,10 +136,12 @@ etalab/schema-inclusion-numerique:
     path: schema.json
     title: Lieux d’inclusion numérique
     versions:
+    - 0.1.0
     - 0.1.1
   title: Lieux d’inclusion numérique
   type: tableschema
   versions:
+  - 0.1.0
   - 0.1.1
 etalab/schema-irve:
   consolidation:
