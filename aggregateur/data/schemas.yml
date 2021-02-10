@@ -85,9 +85,9 @@ etalab/schema-amenagements-cyclables:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
-  latest_version: 0.2.1
+  latest_version: 0.2.2
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.2.1/schema_amenagements_cyclables.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.2.2/schema_amenagements_cyclables.json
     original_path: schema_amenagements_cyclables.json
     path: schema_amenagements_cyclables.json
     title: Schema des aménagements cyclables
@@ -95,12 +95,14 @@ etalab/schema-amenagements-cyclables:
     - 0.1.0
     - 0.2.0
     - 0.2.1
+    - 0.2.2
   title: Schéma d'aménagements cyclables
   type: jsonschema
   versions:
   - 0.1.0
   - 0.2.0
   - 0.2.1
+  - 0.2.2
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
