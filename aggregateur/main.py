@@ -81,6 +81,10 @@ class Metadata(object):
         with open("data/schemas.json", "w") as f:
             json.dump(self.generate_json(), f, ensure_ascii=False)
 
+        # Save in JSON
+        with open("data/schemas-all.json", "w") as f:
+            json.dump(self.generate_complete_json(), f, ensure_ascii=False)
+
     def generate_json(self):
         json_data = {
             "$schema": "https://opendataschema.frama.io/catalog/schema-catalog.json",
@@ -99,6 +103,42 @@ class Metadata(object):
                     "schema_url": self.schema_url(slug),
                 }
             )
+
+        json_data["schemas"] = schemas
+
+        return json_data
+
+
+    def generate_complete_json(self):
+        json_data = {
+            "$schema": "https://opendataschema.frama.io/catalog/schema-catalog.json",
+            "version": 1,
+        }
+        schemas = []
+
+        for slug, details in self.data.items():
+            if details["type"] == "tableschema":
+                schemas.append(
+                    {
+                        "name": slug,
+                        "title": details["title"],
+                        "description": details["description"],
+                        "schema_url": self.schema_url(slug),
+                        "schema_type": details["type"],
+                    }
+                )
+            else:
+                print(self.get()[slug]["latest_version"])
+                schemas.append(
+                    {
+                        "name": slug,
+                        "title": details["title"],
+                        "description": details["description"],
+                        "schema_url": self.get()[slug]["latest_version"],
+                        "schema_type": details["type"],
+                    }
+
+                )
 
         json_data["schemas"] = schemas
 
