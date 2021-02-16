@@ -78,11 +78,11 @@ class Metadata(object):
             yaml.dump(self.get(), f, allow_unicode=True)
 
         # Save in JSON
-        with open("data/schemas.json", "w") as f:
+        with open("data/tableschema-schemas.json", "w") as f:
             json.dump(self.generate_json(), f, ensure_ascii=False)
 
         # Save in JSON
-        with open("data/schemas-all.json", "w") as f:
+        with open("data/schemas.json", "w") as f:
             json.dump(self.generate_complete_json(), f, ensure_ascii=False)
 
     def generate_json(self):
