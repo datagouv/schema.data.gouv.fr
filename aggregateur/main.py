@@ -146,7 +146,7 @@ class Metadata(object):
 
 
 class Repo(object):
-    SCHEMA_TYPES = ["tableschema", "xsd", "jsonschema", "generic"]
+    SCHEMA_TYPES = ["tableschema", "xsd", "jsonschema", "other"]
 
     def __init__(self, git_url, email, schema_type, external_doc, external_tool):
         super(Repo, self).__init__()
@@ -203,7 +203,7 @@ class Repo(object):
             return XsdSchemaValidator(self)
         elif self.schema_type == "jsonschema":
             return JsonSchemaValidator(self)
-        elif self.schema_type == "generic":
+        elif self.schema_type == "other":
             return GenericValidator(self)
         else:
             raise NotImplementedError
