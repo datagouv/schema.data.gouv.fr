@@ -110,7 +110,7 @@ etalab/schema-bal:
   external_doc: https://adresse.data.gouv.fr/bases-locales
   external_tool: https://mes-adresses.data.gouv.fr/new
   has_changelog: false
-  homepage: https://adresse.data.gouv.fr/bases-locales
+  homepage: https://github.com/etalab/schema-bal
   latest_version: 1.1.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.1.0/schema.yml
@@ -118,12 +118,10 @@ etalab/schema-bal:
     path: schema.yml
     title: Base Adresse Locale (BAL)
     versions:
-    - 0.1.0
     - 1.1.0
   title: Base Adresse Locale (BAL)
   type: other
   versions:
-  - 0.1.0
   - 1.1.0
 etalab/schema-decp-dpa:
   consolidation: null
