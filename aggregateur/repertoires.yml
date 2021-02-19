@@ -62,4 +62,9 @@ inclusion-numerique:
   url: https://github.com/etalab/schema-inclusion-numerique.git
   type: tableschema
   email: carto@aidantsconnect.beta.gouv.fr
-
+bal:
+  url: https://github.com/etalab/schema-bal
+  type: other
+  email: adresse@data.gouv.fr
+  external_doc: https://adresse.data.gouv.fr/bases-locales
+  external_tool: https://mes-adresses.data.gouv.fr/new
