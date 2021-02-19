@@ -103,6 +103,28 @@ etalab/schema-amenagements-cyclables:
   - 0.2.0
   - 0.2.1
   - 0.2.2
+etalab/schema-bal:
+  consolidation: null
+  description: Fichier contenant toutes les adresses d'un territoire donné
+  email: adresse@data.gouv.fr
+  external_doc: https://adresse.data.gouv.fr/bases-locales
+  external_tool: https://mes-adresses.data.gouv.fr/new
+  has_changelog: false
+  homepage: https://adresse.data.gouv.fr/bases-locales
+  latest_version: 1.1.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.1.0/schema.yml
+    original_path: schema.yml
+    path: schema.yml
+    title: Base Adresse Locale (BAL)
+    versions:
+    - 0.1.0
+    - 1.1.0
+  title: Base Adresse Locale (BAL)
+  type: other
+  versions:
+  - 0.1.0
+  - 1.1.0
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
