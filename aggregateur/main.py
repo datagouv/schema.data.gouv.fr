@@ -128,13 +128,12 @@ class Metadata(object):
                     }
                 )
             else:
-                print(self.get()[slug]["latest_version"])
                 schemas.append(
                     {
                         "name": slug,
                         "title": details["title"],
                         "description": details["description"],
-                        "schema_url": self.get()[slug]["latest_version"],
+                        "schema_url": self.get()[slug]["schemas"][0]["latest_url"],
                         "schema_type": details["type"],
                     }
 
