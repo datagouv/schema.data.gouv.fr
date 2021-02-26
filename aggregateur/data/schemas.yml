@@ -1,7 +1,7 @@
 139bercy/format-commande-publique:
   consolidation: null
-  description: Données de tous les marchés supérieurs à 25 000 euros émanant de la
-    commande publique
+  description: Données des attributions de marchés publics et de contrats de concessions
+    supérieures à 40 000 euros.
   email: schema@data.gouv.fr
   external_doc: null
   external_tool: null
@@ -181,13 +181,13 @@ etalab/schema-irve:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.3/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma IRVE
+    title: Infrastructures de recharge pour véhicules électriques
     versions:
     - 1.0.0
     - 1.0.1
     - 1.0.2
     - 1.0.3
-  title: Schéma IRVE
+  title: Infrastructures de recharge pour véhicules électriques
   type: tableschema
   versions:
   - 1.0.0
@@ -324,8 +324,8 @@ scdl/catalogue:
   - 0.1.2
 scdl/deliberations:
   consolidation: null
-  description: Schéma validant le format relatif aux délibérations du SCDL (Socle
-    Commun des Données Locales).
+  description: Spécification du modèle de données relatif aux délibérations adoptées
+    par une collectivité locale
   email: scdl@opendatafrance.email
   external_doc: null
   external_tool: null
@@ -336,7 +336,7 @@ scdl/deliberations:
   - latest_url: https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.3/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma SCDL Délibérations
+    title: Délibérations
     versions:
     - 1.1.0
     - 2.0.0
@@ -344,7 +344,7 @@ scdl/deliberations:
     - 2.1.1
     - 2.1.2
     - 2.1.3
-  title: Schéma SCDL Délibérations
+  title: Délibérations
   type: tableschema
   versions:
   - 1.1.0
@@ -356,7 +356,7 @@ scdl/deliberations:
 scdl/equipements:
   consolidation: null
   description: Spécification du modèle de données relatif aux équipements collectifs
-    publics d'une collectivité.
+    publics d'une collectivité
   email: scdl@opendatafrance.email
   external_doc: null
   external_tool: null
@@ -367,19 +367,19 @@ scdl/equipements:
   - latest_url: https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.1/schema.json
     original_path: schema.json
     path: schema.json
-    title: Equipements
+    title: Équipements
     versions:
     - 0.1.0
     - 0.1.1
-  title: Equipements
+  title: Équipements
   type: tableschema
   versions:
   - 0.1.0
   - 0.1.1
 scdl/subventions:
   consolidation: null
-  description: Schéma validant le format relatif aux subventions du SCDL (Socle Commun
-    des Données Locales).
+  description: Spécification du modèle de données relatif aux subventions attribuées
+    par une collectivité
   email: scdl@opendatafrance.email
   external_doc: null
   external_tool: null
@@ -390,12 +390,12 @@ scdl/subventions:
   - latest_url: https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.1/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma SCDL Subventions
+    title: Subventions
     versions:
     - 1.1.0
     - 2.0.0
     - 2.0.1
-  title: Schéma SCDL Subventions
+  title: Subventions
   type: tableschema
   versions:
   - 1.1.0
