@@ -34,6 +34,8 @@ class Metadata(object):
         if slug in self.data:
             self.data[slug]["versions"].append(metadata["version"])
             self.data[slug]["has_changelog"] = metadata["has_changelog"]
+            self.data[slug]["title"] = metadata["title"]
+            self.data[slug]["description"] = metadata["description"]
         else:
             special_keys = ["version", "slug", "schemas"]
             self.data[slug] = {
@@ -42,7 +44,7 @@ class Metadata(object):
             self.data[slug]["versions"] = [metadata["version"]]
 
         # Updating schemas' metadata:
-        # - if schema existed before: append version, update latest_url
+        # - if schema existed before: append version, update latest_url, update title
         # - if not, add it to the list of schemas
         for schema in metadata["schemas"]:
             existing_schemas = self.data[slug].get("schemas", [])
@@ -53,6 +55,7 @@ class Metadata(object):
                 updated = True
                 existing_schema["versions"].append(metadata["version"])
                 existing_schema["latest_url"] = schema["latest_url"]
+                existing_schema["title"] = schema["title"]
             if not updated:
                 schema["versions"] = [metadata["version"]]
                 self.data[slug]["schemas"] = existing_schemas + [schema]
@@ -66,6 +69,7 @@ class Metadata(object):
             % (BASE_DOMAIN, slug, TableSchemaValidator.SCHEMA_FILENAME)
         }[details["type"]]
 
+    
     def get(self):
         for slug, data in self.data.items():
             sorted_versions = sorted(data["versions"], key=cmp_to_key(SemverCmp))
@@ -330,7 +334,6 @@ for repertoire_slug, conf in config.items():
         tags = repo.tags()
     except exceptions.ValidationException as e:
         errors.add(e)
-
     for tag in tags:
         try:
             repo.checkout_tag(tag)
