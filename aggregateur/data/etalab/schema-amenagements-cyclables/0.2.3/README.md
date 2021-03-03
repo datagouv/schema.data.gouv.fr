@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-amenagements-cyclables/0.2.2.html
-redirect_from: null
+permalink: /etalab/schema-amenagements-cyclables/latest.html
+redirect_from: /etalab/schema-amenagements-cyclables/0.2.3.html
 title: Schéma d'aménagements cyclables
-version: 0.2.2
+version: 0.2.3
 ---
 
 # Schéma de données d'aménagements cyclables 
@@ -34,7 +34,6 @@ Ce dataset comprend notamment :
 - le code INSEE de la commune ;
 - la géolocalisation des aménagements cyclables ;
 - le type d'aménagement cyclable ;
-- le sens de circulation des cyclistes ;
 - la vitesse de circulation des véhicules motorisés dans le trafic adjacent.
 
 
@@ -45,20 +44,22 @@ Attention : ce dataset ne concerne pas le stationnement vélo.
 
 Les jeux de données seront publiées au format GeoJSON. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible. La colonne doit toutefois être présente.
 
-## Production et transmission des données
-
 Les producteurs pourront saisir leurs données sur : 
-- des outils internes ; 
-- l'outil développé par Vélo & Territoires ;
-- OpenStreetMap (OSM).
+- des outils internes ;
+- OpenStreetMpa (OSM); 
+- les outils développés par Vélo & Territoires à savoir 
+un WebSIG 
+Un gabarit au format shapefile pour QGIS
+Un script SQL pour la création d’une base de données Postgres/PostGIS « vierge ».
 
 Dans le but de maintenir à jour un répertoire consolidé des aménagements cyclables en France, les collectivités sont invitées à transmettre systématiquement les données relatives à leurs aménagements. 
 Elles peuvent ajouter le mot-clef "aménagement cyclable" lors de la publication du jeu de données dans leur espace de publication ou directement sur data.gouv.fr.
 Lees producteurs pourront :
 - publier directement sur data.gouv.fr ;
-- déléguer la publication des données à Vélo & Territoires si les données ont été saisie sur leur outil. 
+- déléguer la publication des données à Vélo & Territoires si les données ont été saisie sur leur WebSIG ;
+- publier sur OpenStreetMap et Géovélo se chargera de la publication avec une conversion vers le schéma.
 
-Nous préconisons aux producteurs de données de publier leurs fichiers avec la règle de nommage suivante : amenagementcyclable_nom_AAAAMMJJ.geojson avec nom étant le nom de la collectivité productrice des données, par exemple AménagementCyclable_Ain_20191013.geojson
+Nous préconisons aux producteurs de données de publier leurs fichiers avec la règle de nommage suivante : amenagementcyclable_nom.geojson avec nom étant le nom de la collectivité productrice des données, par exemple AménagementCyclable_Ain.geojson
 
 
 En cas de mise à jour d’un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l’équipe transport.data.gouv.fr qui s’assurera de l'actualisation du fichier en question et de son intégration dans la base consolidée.
@@ -67,25 +68,21 @@ En cas de mise à jour d’un fichier déjà intégré à la base consolidée, i
 
 Cette base de données ainsi construite est issue de l’assemblage de fichiers de données transmis par des producteurs. Nous tenons à les remercier pour leur travail de normalisation des fichiers. 
 
-Deux bases seront publiées sur transport.data.gouv.fr : 
+Trois bases seront publiées sur transport.data.gouv.fr : 
 - une base nationale regroupant les données publiées par les collectivités sur data.gouv.fr ;
-- une base rassemblant les données publiées sur OSM. Vélo & Territoires sera en charge de l'extraction de ces données. 
+- une base rassemblant les données publiées sur OSM. Géovélo sera en charge de l'extraction de ces données et de leur mise à jour mensuelle ;
+- une base nationale consolidant les données publiées par les collectivités sur data.gouv.ft et celles publiées sur OSM. 
 
 
 ## Mise-à-jour
 
-La consolidation de la base sera effectuée en continu par transport.data.gouv.fr à partir des fichiers publiés sur data.gouv avec le tag “aménagements cyclables” par les producteurs et Vélo & Territoires.  des fichiers importés depuis OpenStreetMap ou directement transmis par mail. De nouvelles versions seront publiées lorsque de nouveaux aménagements cyclables seront recensés ou mis-à-jour par les producteurs de données. Cette mise à jour se fait à partir du fichier communiqué précédemment et en reprenant, en les modifiant le cas échéant, les données existantes. Le fichier principal du dataset constitue ainsi systématiquement la dernière mise-à-jour.
+La consolidation de la base sera effectuée en continu par transport.data.gouv.fr à partir des fichiers publiés sur data.gouv avec le tag “aménagements cyclables” par les producteurs, Vélo & Territoires et Géovélo. De nouvelles versions seront publiées lorsque de nouveaux aménagements cyclables seront recensés ou mis-à-jour par les producteurs. Cette mise à jour se fait à partir du fichier communiqué précédemment et en reprenant, en les modifiant le cas échéant, les données existantes. Le fichier principal du dataset constitue ainsi systématiquement la dernière mise-à-jour.
 
 
 ## Conditions d’utilisation
 
 Comme indiqué dans les métadonnées, le fichier et ses mises-à-jour sont distribués sous la licence ODbL. Cela signifie que vous pouvez télécharger librement cette base, la réutiliser, la modifier, l’utiliser commercialement, etc, tant que vous en mentionnez la source (par exemple dans les mentions légales de votre application) et que vous repartagez les modifications, améliorations et corrections éventuelles dans les mêmes conditions que cette base (licence ODbL). Plus d’informations ici.
 
-
-### Fichiers d’exemples
-
-Vous pouvez télécharger des fichiers gabarits d’exemple ci-dessous.
-Un fichier au format JSON. 
 
 
 
