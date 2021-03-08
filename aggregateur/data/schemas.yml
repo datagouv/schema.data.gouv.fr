@@ -82,7 +82,7 @@ etalab/schema-amenagements-cyclables:
   description: Spécification du schéma de données d'aménagements cyclables
   email: contact@transport.beta.gouv.fr
   external_doc: null
-  external_tool: null
+  external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
   latest_version: 0.3.0
