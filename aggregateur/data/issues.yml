@@ -36,12 +36,6 @@ investigation:
   nb_comments: 1
   title: Schéma des registres d'entrées dans les services publics d'archives
   url: https://github.com/etalab/schema.data.gouv.fr/issues/131
-- created_at: '2020-11-03T20:16:40Z'
-  labels:
-  - Schéma en investigation
-  nb_comments: 5
-  title: Schéma des hautes rémunérations dans la fonction publique
-  url: https://github.com/etalab/schema.data.gouv.fr/issues/130
 - created_at: '2020-01-14T13:43:09Z'
   labels:
   - Schéma en investigation
