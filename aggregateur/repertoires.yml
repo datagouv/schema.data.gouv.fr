@@ -69,3 +69,7 @@ bal:
   email: adresse@data.gouv.fr
   external_doc: https://adresse.data.gouv.fr/bases-locales
   external_tool: https://mes-adresses.data.gouv.fr/new
+hautes-remunerations:
+  url: https://github.com/etalab/schema-hautes-remunerations
+  type: tableschema
+  email: schema@data.gouv.fr
