@@ -1,8 +1,8 @@
 ---
 permalink: /etalab/schema-stationnement/latest/changelog.html
-redirect_from: /etalab/schema-stationnement/0.1.3/changelog.html
+redirect_from: /etalab/schema-stationnement/0.1.4/changelog.html
 title: CHANGELOG de Lieux de stationnement
-version: 0.1.3
+version: 0.1.4
 ---
 
 # Changelog

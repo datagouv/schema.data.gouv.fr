@@ -1,4 +1,10 @@
 construction:
+- created_at: '2021-03-12T14:51:29Z'
+  labels:
+  - Schéma en construction
+  nb_comments: 2
+  title: Référencement d'un schéma sur les menus de la restauration collective
+  url: https://github.com/etalab/schema.data.gouv.fr/issues/149
 - created_at: '2020-11-02T10:57:55Z'
   labels:
   - Schéma en construction
@@ -17,12 +23,6 @@ construction:
   nb_comments: 0
   title: Données d'autopartage
   url: https://github.com/etalab/schema.data.gouv.fr/issues/107
-- created_at: '2019-12-05T16:05:41Z'
-  labels:
-  - Schéma en construction
-  nb_comments: 1
-  title: schéma des informations de restauration collectivité
-  url: https://github.com/etalab/schema.data.gouv.fr/issues/64
 - created_at: '2019-12-05T15:09:47Z'
   labels:
   - Schéma en construction
@@ -30,6 +30,12 @@ construction:
   title: schéma des actes budgétaires
   url: https://github.com/etalab/schema.data.gouv.fr/issues/63
 investigation:
+- created_at: '2021-03-16T15:22:34Z'
+  labels:
+  - Schéma en investigation
+  nb_comments: 4
+  title: Schéma Itinéraires de randonnées
+  url: https://github.com/etalab/schema.data.gouv.fr/issues/150
 - created_at: '2020-11-16T07:50:01Z'
   labels:
   - Schéma en investigation

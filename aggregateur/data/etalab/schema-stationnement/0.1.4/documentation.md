@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement/0.1.3/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement/latest/documentation.html
+redirect_from: /etalab/schema-stationnement/0.1.4/documentation.html
 title: Documentation de Lieux de stationnement
-version: 0.1.3
+version: 0.1.4
 ---
 
 ## Lieux de stationnement
@@ -26,7 +26,7 @@ Spécification des lieux permettant le stationnement en parc
 | [nom](#propriété-nom) | chaîne de caractères  | Oui |
 | [insee](#propriété-insee) | chaîne de caractères  | Oui |
 | [adresse](#propriété-adresse) | chaîne de caractères  | Non |
-| [url](#propriété-url) | chaîne de caractères  | Non |
+| [url](#propriété-url) | chaîne de caractères (format `uri`) | Non |
 | [type_usagers](#propriété-type_usagers) | chaîne de caractères  | Oui |
 | [gratuit](#propriété-gratuit) | booléen  | Oui |
 | [nb_places](#propriété-nb_places) | nombre entier  | Oui |
@@ -83,7 +83,7 @@ Spécification des lieux permettant le stationnement en parc
 
 > *Description : Une adresse URL (Uniform Resource Locator) pointant vers une ressource disponible sur Internet où l'on peut obtenir d'autres informations pertinente relatives aux horaires d’ouverture et fermeture du parc, tarifs appliquées dans le parc, ressource disponible sur Internet où l'on peut réserver en ligne la place de parking.<br/>Ex : https://www.exemple.fr/stationnementrepublique/*
 - Valeur optionnelle
-- Type : chaîne de caractères
+- Type : chaîne de caractères (format `uri`)
 
 #### Propriété `type_usagers`
 
