@@ -89,6 +89,16 @@ class Metadata(object):
         with open("data/schemas.json", "w") as f:
             json.dump(self.generate_complete_json(), f, ensure_ascii=False)
 
+    def generate_versions_json(self, details, slug):
+        versions = []
+        for s in details["schemas"]:
+            for v in s["versions"]:
+                version = {}
+                version["version_name"] = v
+                version["schema_url"] = "https://schema.data.gouv.fr/schemas/"+slug+"/"+v+"/"+s["path"]
+                versions.append(version)
+        return versions
+
     def generate_json(self):
         json_data = {
             "$schema": "https://opendataschema.frama.io/catalog/schema-catalog.json",
@@ -99,12 +109,14 @@ class Metadata(object):
         for slug, details in self.data.items():
             if details["type"] != "tableschema":
                 continue
+           
             schemas.append(
                 {
                     "name": slug,
                     "title": details["title"],
                     "description": details["description"],
                     "schema_url": self.schema_url(slug),
+                    "versions": self.generate_versions_json(details,slug)
                 }
             )
 
@@ -129,6 +141,7 @@ class Metadata(object):
                         "description": details["description"],
                         "schema_url": self.schema_url(slug),
                         "schema_type": details["type"],
+                        "versions": self.generate_versions_json(details,slug)
                     }
                 )
             else:
@@ -139,6 +152,7 @@ class Metadata(object):
                         "description": details["description"],
                         "schema_url": self.get()[slug]["schemas"][0]["latest_url"],
                         "schema_type": details["type"],
+                        "versions": self.generate_versions_json(details,slug)
                     }
 
                 )
