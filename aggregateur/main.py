@@ -95,7 +95,7 @@ class Metadata(object):
             for v in s["versions"]:
                 version = {}
                 version["version_name"] = v
-                version["schema_url"] = "https://schema.data.gouv.fr/schemas/"+slug+"/"+v+"/"+s["path"]
+                version["schema_url"] = BASE_DOMAIN+"/schemas/"+slug+"/"+v+"/"+s["path"]
                 versions.append(version)
         return versions
 
