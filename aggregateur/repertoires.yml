@@ -59,6 +59,10 @@ amenagements-cyclables:
   type: jsonschema
   email: contact@transport.beta.gouv.fr
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
+stationnement-cyclable:
+  url: https://github.com/etalab/schema-stationnement-cyclable
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
 inclusion-numerique:
   url: https://github.com/etalab/schema-inclusion-numerique.git
   type: tableschema
