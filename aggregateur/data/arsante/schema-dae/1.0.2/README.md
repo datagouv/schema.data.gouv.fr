@@ -1,8 +1,8 @@
 ---
-permalink: /arsante/schema-dae/1.0.1.html
-redirect_from: null
+permalink: /arsante/schema-dae/latest.html
+redirect_from: /arsante/schema-dae/1.0.2.html
 title: DAE
-version: 1.0.1
+version: 1.0.2
 ---
 
 ## Les Défibrillateurs Automatisés Externes (DAE)

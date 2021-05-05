@@ -1,8 +1,8 @@
 ---
-permalink: /arsante/schema-dae/1.0.1/documentation.html
-redirect_from: null
+permalink: /arsante/schema-dae/latest/documentation.html
+redirect_from: /arsante/schema-dae/1.0.2/documentation.html
 title: Documentation de DAE
-version: 1.0.1
+version: 1.0.2
 ---
 
 ## DAE
@@ -13,7 +13,7 @@ Spécification du modèle de données relatif aux DAE
 
 - Schéma créé le : 01/01/2020
 - Site web : https://gitlab.com/arsante/atlasante/schema-dae
-- Version : 1.0.1
+- Version : 1.0.2
 
 ### Modèle de données
 
@@ -36,8 +36,8 @@ Spécification du modèle de données relatif aux DAE
 | [acc_acc](#propriété-acc_acc) | booléen  | Non |
 | [acc_etg](#etage-d'accessibilité-du-dae---propriété-acc_etg) | chaîne de caractères  | Non |
 | [acc_complt](#complément-d'information-sur-l'accès-au-dae---propriété-acc_complt) | chaîne de caractères  | Non |
-| [photo1](#photo-1-du-dae-dans-son-environnement.-il-est-préconisé-un-plan-large-pour-que-le-dae-soit-visible-dans-son-environnement.-la-photo-déposée-devra-être-libre-de-droit,-sous-format-open-source---propriété-photo1) | chaîne de caractères  | Non |
-| [photo2](#photo-2-du-dae-dans-son-environnement.-il-est-préconisé-un-plan-large-pour-que-le-dae-soit-visible-dans-son-environnement.-la-photo-déposée-devra-être-libre-de-droit,-sous-format-open-source---propriété-photo2) | chaîne de caractères  | Non |
+| [photo1](#photo-1-du-dae-dans-son-environnement.-il-est-préconisé-un-plan-large-pour-que-le-dae-soit-visible-dans-son-environnement.-la-photo-déposée-devra-être-libre-de-droit,-sous-format-open-source---propriété-photo1) | chaîne de caractères (format `uri`) | Non |
+| [photo2](#photo-2-du-dae-dans-son-environnement.-il-est-préconisé-un-plan-large-pour-que-le-dae-soit-visible-dans-son-environnement.-la-photo-déposée-devra-être-libre-de-droit,-sous-format-open-source---propriété-photo2) | chaîne de caractères (format `uri`) | Non |
 | [disp_j](#pour-les-dae-non-disponibles-7j/7,-détail-de-la-disponibilité-de-l'appareil---propriété-disp_j) | chaîne de caractères  | Oui |
 | [disp_h](#pour-les-dae-non-disponibles-24h/24,-détail-de-la-disponibilité-de-l'appareil---propriété-disp_h) | chaîne de caractères  | Oui |
 | [disp_complt](#complément-d'information-sur-la-disponibilité-du-dae---propriété-disp_complt) | chaîne de caractères  | Non |
@@ -161,14 +161,14 @@ Spécification du modèle de données relatif aux DAE
 
 > *Description : Photo au format url. Fichier (jpg, png ou gif)<br/>Ex : http://www.monsite.com/monimage.jpg*
 - Valeur optionnelle
-- Type : chaîne de caractères
+- Type : chaîne de caractères (format `uri`)
 - Motif : `^https?://(?:[a-z0-9\-]+\.)+[a-z]{2,6}(?:/[^/#?]+)+\.(?:jpg|jpeg|gif|png)`
 
 #### Photo 2 du DAE dans son environnement. Il est préconisé un plan large pour que le DAE soit visible dans son environnement. La photo déposée devra être libre de droit, sous format Open Source - Propriété `photo2`
 
 > *Description : Photo au format url. Fichier (jpg, png ou gif)<br/>Ex : http://www.monsite.com/monimage.jpg*
 - Valeur optionnelle
-- Type : chaîne de caractères
+- Type : chaîne de caractères (format `uri`)
 - Motif : `^https?://(?:[a-z0-9\-]+\.)+[a-z]{2,6}(?:/[^/#?]+)+\.(?:jpg|jpeg|gif|png)`
 
 #### Pour les DAE non-disponibles 7j/7, détail de la disponibilité de l'appareil - Propriété `disp_j`
