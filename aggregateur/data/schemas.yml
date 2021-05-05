@@ -201,9 +201,9 @@ etalab/schema-irve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
-  latest_version: 1.0.3
+  latest_version: 2.0.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.3/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Infrastructures de recharge pour véhicules électriques
@@ -212,6 +212,7 @@ etalab/schema-irve:
     - 1.0.1
     - 1.0.2
     - 1.0.3
+    - 2.0.0
   title: Infrastructures de recharge pour véhicules électriques
   type: tableschema
   versions:
@@ -219,6 +220,7 @@ etalab/schema-irve:
   - 1.0.1
   - 1.0.2
   - 1.0.3
+  - 2.0.0
 etalab/schema-lieux-covoiturage:
   consolidation:
     dataset_id: 5d6eaffc8b4c417cdc452ac3
