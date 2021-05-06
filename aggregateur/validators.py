@@ -428,6 +428,11 @@ class TableSchemaValidator(BaseValidator):
                 errors,
             )
             raise exceptions.InvalidSchemaException(self.repo, message)
+        except:
+            message = "Schema %s is not a valid TableSchema schema." % (
+                filename
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
 
     def schema_json_data(self):
         if self.schema_data is not None:
