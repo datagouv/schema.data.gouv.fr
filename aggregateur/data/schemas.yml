@@ -428,6 +428,44 @@ scdl/equipements:
   versions:
   - 0.1.0
   - 0.1.1
+scdl/menus-collectifs:
+  consolidation: null
+  description: Schéma permettant de décrire les menus des repas proposés par les collectivités
+    locales, les établissements publics et privés. Il permet de préciser les modalités
+    de distribution et le contenu des menus proposés (les plats). Le choix a été fait
+    de détailler chaque plat sur une ligne. Pour décrire un menu il faut donc répéter
+    certaines informations plusieurs fois (voir exemple).
+  email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/menus-collectifs
+  latest_version: 1.2.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Menus de la restauration collective
+    versions:
+    - 0.1.0
+    - 0.2.0
+    - 0.4.0
+    - 0.5.0
+    - 0.6.0
+    - 0.7.0
+    - 0.9.0
+    - 1.2.0
+  title: Menus de la restauration collective
+  type: tableschema
+  versions:
+  - 0.1.0
+  - 0.2.0
+  - 0.4.0
+  - 0.5.0
+  - 0.6.0
+  - 0.7.0
+  - 0.9.0
+  - 1.2.0
 scdl/subventions:
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées
