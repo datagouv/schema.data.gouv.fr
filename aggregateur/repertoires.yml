@@ -77,3 +77,8 @@ hautes-remunerations:
   url: https://github.com/etalab/schema-hautes-remunerations
   type: tableschema
   email: schema@data.gouv.fr
+menus-restauration:
+  url: https://git.opendatafrance.net/scdl/menus-collectifs.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+
