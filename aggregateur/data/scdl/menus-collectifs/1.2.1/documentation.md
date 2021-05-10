@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/menus-collectifs/1.2.0/documentation.html
-redirect_from: null
+permalink: /scdl/menus-collectifs/latest/documentation.html
+redirect_from: /scdl/menus-collectifs/1.2.1/documentation.html
 title: Documentation de Menus de la restauration collective
-version: 1.2.0
+version: 1.2.1
 ---
 
 ## menus-collectifs
@@ -13,7 +13,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 - Schéma créé le : 12/02/2020
 - Site web : https://git.opendatafrance.net/scdl/menus-collectifs
-- Version : 1.2
+- Version : 1.2.1
 
 ### Modèle de données
 
@@ -24,7 +24,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 | -- | -- | -- |
 | [menuCollNom](#nom-de-la-collectivité-qui-produit-les-données---propriété-menucollnom) | chaîne de caractères  | Oui |
 | [menuCollSiret](#code-siret-de-la-collectivité-qui-produit-les-données.---propriété-menucollsiret) | chaîne de caractères  | Oui |
-| [menuEtablissementNom](#nom-de-l'établissement-ou-entreprise-qui-a-produit-le-repas-servi---propriété-menuetablissementnom) | chaîne de caractères  | Oui |
+| [menuEtablissementNom](#nom-de-l'établissement-ou-entreprise-qui-a-produit-le-repas-servi.---propriété-menuetablissementnom) | chaîne de caractères  | Oui |
 | [menuEtablissementSiret](#code-siret-de-l'établissement-ou-entreprise-qui-a-produit-le-repas-servi.---propriété-menuetablissementsiret) | chaîne de caractères  | Non |
 | [menuRestaurantNom](#nom-du-restaurant-dans-lequel-le-repas-est-servi.---propriété-menurestaurantnom) | chaîne de caractères  | Oui |
 | [menuRestaurantInsee](#le-code-insee-de-la-commune-d'implantation-du-restaurant---propriété-menurestaurantinsee) | chaîne de caractères  | Non |
@@ -57,12 +57,12 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Code SIRET de la collectivité qui produit les données. - Propriété `menuCollSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.<br/>Ex : None*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
-#### Nom de l'établissement ou entreprise qui a produit le repas servi - Propriété `menuEtablissementNom`
+#### Nom de l'établissement ou entreprise qui a produit le repas servi. - Propriété `menuEtablissementNom`
 
 > *Description : Nom officiel de l'établissement qui est à l'origine de la production du repas. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.<br/>Ex : None*
 - Valeur obligatoire
@@ -70,7 +70,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Code SIRET de l'établissement ou entreprise qui a produit le repas servi. - Propriété `menuEtablissementSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif<br/>Ex : None*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
@@ -182,7 +182,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Les signes officiels de la qualité et de l'origine. - Propriété `menuPlatSiqo`
 
-> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["agriculture biologique","appellation d'origine contrôlée"])dans ce champ.<br/>Ex : None*
+> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule, encadrées par des crochets et entourées par des guillemets (["agriculture biologique","appellation d'origine contrôlée"])   dans ce champ.<br/>Ex : None*
 - Valeur optionnelle
 - Type : liste
 

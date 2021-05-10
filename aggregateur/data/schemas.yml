@@ -440,9 +440,9 @@ scdl/menus-collectifs:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/menus-collectifs
-  latest_version: 1.2.0
+  latest_version: 1.2.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.0/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Menus de la restauration collective
@@ -455,6 +455,7 @@ scdl/menus-collectifs:
     - 0.7.0
     - 0.9.0
     - 1.2.0
+    - 1.2.1
   title: Menus de la restauration collective
   type: tableschema
   versions:
@@ -466,6 +467,7 @@ scdl/menus-collectifs:
   - 0.7.0
   - 0.9.0
   - 1.2.0
+  - 1.2.1
 scdl/subventions:
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées

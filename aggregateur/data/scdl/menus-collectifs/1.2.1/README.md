@@ -1,8 +1,8 @@
 ---
-permalink: /scdl/menus-collectifs/1.2.0.html
-redirect_from: null
+permalink: /scdl/menus-collectifs/latest.html
+redirect_from: /scdl/menus-collectifs/1.2.1.html
 title: Menus de la restauration collective
-version: 1.2.0
+version: 1.2.1
 ---
 
 # Schéma menus restauration collective
