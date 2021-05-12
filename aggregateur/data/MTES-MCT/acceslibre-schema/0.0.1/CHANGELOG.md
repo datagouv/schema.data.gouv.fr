@@ -5,10 +5,10 @@ title: CHANGELOG de Schéma des données d'accessibilité des ERPs
 version: 0.0.1
 ---
 
-# Changelog
+## Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
-## Version 0.0.1 - 2021-05-05
+### Version 0.0.1 - 11-05-2021
 
 Publication initiale.

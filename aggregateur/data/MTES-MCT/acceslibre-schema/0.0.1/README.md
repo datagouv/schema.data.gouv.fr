@@ -28,7 +28,7 @@ Pour les gestionnaires, Acceslibre permettra de **mettre en valeur l’accessibi
 Pour les administrations, Acceslibre permettra d’avoir une vision globale sur l’accessibilité des établissements et,
 ainsi, de mieux cibler la stratégie à mener pour **faire progresser la politique de l’accessibilité du territoire.**
 
-L’équipe d'[acceslibre.info]() mettra à disposition des acteurs un générateur CSV conforme au schéma de données, ainsi
+L’équipe d'Acceslibre mettra à disposition des acteurs un générateur CSV conforme au schéma de données, ainsi
 qu’un validateur pour les collectivités qui voudraient créer le fichier par leurs soins.
 
 ### Cadre juridique
@@ -72,7 +72,7 @@ Documentation Acceslibre: [https://app.gitbook.com/@fabrique-numerique/s/accesli
 Dans le but de constituer un répertoire de référence des établissements accessibles recevant du public France, les
 collectivités peuvent transmettre systématiquement les données relatives aux ERP publics, ou privés à usage public.
 Elles peuvent ajouter leur jeu de données sur leur espace de publication ou directement sur data.gouv.fr. En cas de mise
-à jour d'un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l'équipe acceslibre.info afin de s'
+à jour d'un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l'équipe Acceslibre afin de s'
 assurer que la mise à jour du fichier a bien été prise en compte et intégrée à la base consolidée.
 
 ### Format de fichier
