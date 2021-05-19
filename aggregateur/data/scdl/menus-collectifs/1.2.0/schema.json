@@ -309,7 +309,7 @@
     {
       "name": "menuPlatSiqo",
       "title": "Les signes officiels de la qualité et de l'origine.",
-      "description": "Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"agriculture biologique\",\"appellation d'origine contrôlée\"])dans ce champ.",
+      "description": "Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.",
       "type": "array",
       "arrayItem":{
          "type": "string",
@@ -351,7 +351,7 @@
     {
       "name": "menuPlatRegime",
       "title": "Précision qualitative associée au plat d'un menu",
-      "description": "En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"végétarien\",\"sans sucre ajouté\"])",
+      "description": "En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.",
       "type": "array",
       "arrayItem":{
          "type": "string",
@@ -371,7 +371,7 @@
     {
       "name": "menuPlatAllergene",
       "title": "Nom des allergènes présents dans le plat",
-      "description": "Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"lait\",\"fruits à coques\"])",
+      "description": "Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.",
       "type": "array",
       "arrayItem":{
          "type": "string",
@@ -401,7 +401,7 @@
     {
       "name": "menuPlatTexture",
       "title": "Précision qualitative associée à la texture du plat",
-      "description": "En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"sans texture modifiée\",\"haché\"])",
+      "description": "En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.",
       "type": "array",
       "arrayItem":{
          "type": "string",

@@ -13,7 +13,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 - Schéma créé le : 12/02/2020
 - Site web : https://git.opendatafrance.net/scdl/menus-collectifs
-- Version : 1.2.1
+- Version : 1.2.2
 
 ### Modèle de données
 
@@ -33,10 +33,10 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 | [menuRestaurantType](#type-de-restaurant-auquel-le-menu-est-proposé.---propriété-menurestauranttype) | chaîne de caractères  | Oui |
 | [menuRestaurantConvive](#type-de-convive-auquel-le-menu-est-proposé.---propriété-menurestaurantconvive) | chaîne de caractères  | Oui |
 | [menuDate](#date-de-service-du-menu---propriété-menudate) | date (format `%Y-%m-%d`) | Oui |
-| [menuTypeRepas](#type-du-repas-servi---propriété-menutyperepas) | chaîne de caractères  | Oui |
-| [menuTypePlat](#type-de-plat-servi---propriété-menutypeplat) | chaîne de caractères  | Oui |
-| [menuNomPlat](#nom-du-plat-servi---propriété-menunomplat) | chaîne de caractères  | Oui |
-| [menuCodePlat](#code-du-plat-servi---propriété-menucodeplat) | chaîne de caractères  | Non |
+| [menuRepasType](#type-du-repas-servi---propriété-menurepastype) | chaîne de caractères  | Oui |
+| [menuPlatType](#type-de-plat-servi---propriété-menuplattype) | chaîne de caractères  | Oui |
+| [menuPlatNom](#nom-du-plat-servi---propriété-menuplatnom) | chaîne de caractères  | Oui |
+| [menuPlatCode](#code-du-plat-servi---propriété-menuplatcode) | chaîne de caractères  | Non |
 | [menuPlatSiqo](#les-signes-officiels-de-la-qualité-et-de-l'origine.---propriété-menuplatsiqo) | liste  | Non |
 | [menuPlatLabel](#indication-de-labels-complémentaires-liés-à-des-approvisionnements-locaux-ou-à-des-marques-de-fabrication---propriété-menuplatlabel) | chaîne de caractères  | Non |
 | [menuPlatPrecision](#précision-associée-au-plat-ou-à-l'ensemble-des-plats-d'un-menu---propriété-menuplatprecision) | chaîne de caractères  | Non |
@@ -138,7 +138,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
-#### Type du repas servi - Propriété `menuTypeRepas`
+#### Type du repas servi - Propriété `menuRepasType`
 
 > *Description : Permet de spécifier le type du repas parmi les valeurs possibles (petit-déjeuner, déjeuner, goûter, dîner, collation, pique-nique). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur "autre".<br/>Ex : None*
 - Valeur obligatoire
@@ -152,7 +152,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
     - pique-nique
     - autre
 
-#### Type de plat servi - Propriété `menuTypePlat`
+#### Type de plat servi - Propriété `menuPlatType`
 
 > *Description : Le type de plat correspond à un des éléments disponibles dans la liste (entrée, plat principal, garniture, dessert, produit laitier, pain). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur "autre".<br/>Ex : None*
 - Valeur obligatoire
@@ -166,14 +166,14 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
     - pain
     - autre
 
-#### Nom du plat servi - Propriété `menuNomPlat`
+#### Nom du plat servi - Propriété `menuPlatNom`
 
 > *Description : Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts.<br/>Ex : None*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Moins de 160 caractères
 
-#### Code du plat servi - Propriété `menuCodePlat`
+#### Code du plat servi - Propriété `menuPlatCode`
 
 > *Description : Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire une jointure avec le schéma décrivant la composition des plats.<br/>Ex : None*
 - Valeur optionnelle

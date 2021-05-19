@@ -17,7 +17,7 @@ La tracabilité des données est assurée par 3 champs permettant d'indiquer la 
 Cette initiative vide à standardiser la publication des jeux de données relatifs aux offres de restauration collective. Elle concerne la restauration scolaire mais peut s'étendre aux offres de restauration pour les personnes âgées, les restaurants administratifs ou les centres de loisirs. Elle s'articule autour des notions de menus, et des plats qui les composent. 
 Elle doit permettre de garantir l'interopérabilité entre les données produites au sein de chaque territoire et d'offrir aux éditeurs de logiciels de gestion un cadre de référence facilitant l'export de leurs données en open data.
 
-Un schéma complémentaire est dédié à la composition des plats permettant pour ceux qui le souhaitent de décire les produits et nutriments qui entrent dans la composition des plats. Les 2 schémas sont liés par une clé commune "codePlat" (respectivement menuCodePLat et platCodePlat).
+Un schéma complémentaire est dédié à la composition des plats permettant pour ceux qui le souhaitent de décire les produits et nutriments qui entrent dans la composition des plats. Les 2 schémas sont liés par une clé commune "codePlat" (respectivement menuPlatCode et platCode).
 
 
 ## Documents de cadrage juridique

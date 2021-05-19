@@ -39,8 +39,8 @@
     }
   ],
   "created": "2020-02-12",
-  "lastModified": "2021-05-10",
-  "version": "1.2.1",
+  "lastModified": "2021-05-19",
+  "version": "1.2.2",
   "contributors": [
     {
       "title": "Pascal Romain",
@@ -247,7 +247,7 @@
       }
     },
     {
-      "name": "menuTypeRepas",
+      "name": "menuRepasType",
       "title": "Type du repas servi",
       "description": "Permet de spécifier le type du repas parmi les valeurs possibles (petit-déjeuner, déjeuner, goûter, dîner, collation, pique-nique). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur \"autre\".",
       "type": "string",
@@ -266,7 +266,7 @@
       }
     },
     {
-      "name": "menuTypePlat",
+      "name": "menuPlatType",
       "title": "Type de plat servi",
       "description": "Le type de plat correspond à un des éléments disponibles dans la liste (entrée, plat principal, garniture, dessert, produit laitier, pain). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur \"autre\".",
       "type": "string",
@@ -285,7 +285,7 @@
       }
     },
     {
-      "name": "menuNomPlat",
+      "name": "menuPlatNom",
       "title": "Nom du plat servi",
       "description": "Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts.",
       "type": "string",
@@ -296,7 +296,7 @@
       }
     },
     {
-      "name": "menuCodePlat",
+      "name": "menuPlatCode",
       "title": "Code du plat servi",
       "description": "Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire une jointure avec le schéma décrivant la composition des plats.",
       "type": "string",

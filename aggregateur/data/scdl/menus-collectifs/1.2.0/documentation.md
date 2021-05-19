@@ -182,7 +182,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Les signes officiels de la qualité et de l'origine. - Propriété `menuPlatSiqo`
 
-> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["agriculture biologique","appellation d'origine contrôlée"])dans ce champ.<br/>Ex : None*
+> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.<br/>Ex : None*
 - Valeur optionnelle
 - Type : liste
 
@@ -200,19 +200,19 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Précision qualitative associée au plat d'un menu - Propriété `menuPlatRegime`
 
-> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["végétarien","sans sucre ajouté"])<br/>Ex : None*
+> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.<br/>Ex : None*
 - Valeur optionnelle
 - Type : liste
 
 #### Nom des allergènes présents dans le plat - Propriété `menuPlatAllergene`
 
-> *Description : Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["lait","fruits à coques"])<br/>Ex : None*
+> *Description : Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.<br/>Ex : None*
 - Valeur optionnelle
 - Type : liste
 
 #### Précision qualitative associée à la texture du plat - Propriété `menuPlatTexture`
 
-> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["sans texture modifiée","haché"])<br/>Ex : None*
+> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.<br/>Ex : None*
 - Valeur optionnelle
 - Type : liste
 
