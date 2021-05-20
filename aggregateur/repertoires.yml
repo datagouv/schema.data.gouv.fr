@@ -89,7 +89,7 @@ comptage-velo-statique:
   url: https://github.com/etalab/schema-comptage-velo-statique.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
-comptage-velo-dynamique :
+comptage-velo-dynamique:
   url: https://github.com/etalab/schema-comptage-velo-dynamique.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
