@@ -259,7 +259,7 @@ etalab/schema-irve:
   description: Spécification du fichier d'échange relatif aux données concernant la
     localisation géographique et les caractéristiques techniques des stations et des
     points de recharge pour véhicules électriques
-  email: schema@data.gouv.fr
+  email: contact@transport.beta.gouv.fr
   external_doc: null
   external_tool: null
   has_changelog: true
