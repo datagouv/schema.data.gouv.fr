@@ -1,0 +1,100 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "schema-comptage-velo-dynamique",
+   "title": "Schéma du comptage vélo (partie dynamique)",
+   "description": "Spécification du fichier d'échange relatif aux comptages vélo.",
+   "keywords": [
+      "comptage",
+      "vélo",
+      "mobilité"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema-comptage-velo-dynamique",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://github.com/etalab/schema-comptage-velo-dynamique/raw/master/exemple-valide.csv"
+      }
+   ],
+   "created": "2021-05-06",
+   "lastModified": "2021-05-06",
+   "version": "0.1.0",
+   "contributors": [
+      {
+         "title": "Miryad Ali",
+         "email": "miryad.ali@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Thibaut Barrère",
+         "email": "thibaut.barrere@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      }
+   ],
+   "fields": [
+      {
+         "name": "id_local_compteur",
+         "description": "Identifiant unique du compteur dans les bases de données de la collectivité territoriale productrice de données; Cet identifiant doit être le même que dans le fichier du compteur",
+         "example": "C01-Baix",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "date_heure_debut_comptage",
+         "description": "Date et heure du début du comptage vélo au format ISO 8601",
+         "example": "2019-09-07T13:15:00Z",
+         "type": "datetime",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "date_heure_fin_comptage",
+         "description": "Date et heure de fin du comptage vélo au format ISO 8601. La colonne doit être présente mais la valeur peut être à vide, auquel cas le pas de temps spécifié dans le schéma compteurs sera obligatoire et prise en compte.",
+         "example": "2019-09-07T13:30:00Z",
+         "type": "datetime",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "nombre_passage_sens_circulation_1",
+         "description": "nombre de passages à vélo comptabilisés par le compteur vélo dans le premier sens de circulation",
+         "example": "20",
+         "type": "integer",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "nombre_passage_sens_circulation_2",
+         "description": "nombre de passages à vélo comptabilisés par le compteur vélo dans le deuxième sens de circulation",
+         "example": "15",
+         "type": "integer",
+         "constraints": {
+            "required": false
+         }
+      }
+   ],
+   "foreignKeys": [
+      {
+         "fields": "id_local_compteur",
+         "reference": {
+            "resource": "schema-comptage-velo-statique",
+            "fields": "id_local_compteur"
+         }
+      }
+   ]
+}

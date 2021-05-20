@@ -1,0 +1,266 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "schema-comptage-velo-statique",
+   "title": "Schéma du comptage vélo (partie statique)",
+   "description": "Spécification du fichier d'échange relatif aux comptages vélo.",
+   "keywords": [
+      "comptage",
+      "vélo",
+      "mobilité",
+      "statique"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema-comptage-velo-statique",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://github.com/etalab/schema-comptage-velo-statique/raw/master/exemple-valide.csv"
+      }
+   ],
+   "created": "2021-05-03",
+   "lastModified": "2021-05-18",
+   "version": "0.1.0",
+   "contributors": [
+      {
+         "title": "Miryad Ali",
+         "email": "miryad.ali@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Thibaut Barrère",
+         "email": "thibaut.barrere@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      }
+   ],
+   "fields": [
+      {
+         "name": "nom_compteur",
+         "description": "Nom du compteur",
+         "example": "Baix",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "id_local_compteur",
+         "description": "Identifiant unique du compteur dans les bases de données de la collectivité territoriale productrice de données",
+         "example": "C01-Baix",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "id_site_comptage",
+         "description": "Identifiant unique du site où est installé le compteur dans les bases de données de la collectivité territoriale productrice de données. Ce champ peut être utilisé pour grouper plusieurs compteurs entre eux",
+         "example": "C-Baix",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "code_com",
+         "description": "Code INSEE de la commune où se trouve le compteur vélo",
+         "example": "n71729735",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
+         }
+      },
+      {
+         "name": "xlong",
+         "description": "La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.",
+         "example": "1.452323",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -180,
+            "maximum": 180
+         }
+      },
+      {
+         "name": "ylat",
+         "description": "La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.",
+         "example": "46.59698",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -90,
+            "maximum": 90
+         }
+      },
+      {
+         "name": "type_pratique",
+         "description": "Types de pratiques enregistrés par le compteur sur la voie",
+         "example": "VELO",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "VELO",
+               "SCOOTER",
+               "PIETON",
+               "TROTINETTE",
+               "NON DEFINI"
+            ]
+         }
+      },
+      {
+         "name": "type_voie",
+         "description": "Type de voie où est installé le compteur vélo",
+         "example": "VOIE VERTE",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "PISTE CYCLABLE",
+               "BANDE CYCLABLE",
+               "DOUBLE SENS CYCLABLE PISTE",
+               "DOUBLE SENS CYCLABLE BANDE ",
+               "VOIE VERTE",
+               "VELO RUE",
+               "COULOIR BUS VELO",
+               "RAMPE",
+               "GOULOTTE",
+               "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
+               "CHAUSSEE A VOIE CENTRALE BANALISEE",
+               "ACCOTEMENT REVETU HORS CVCB",
+               "AUTRE"
+            ]
+         }
+      },
+      {
+         "name": "id_amenagement_cyclable",
+         "description": "identifiant de l'aménagement cyclable dans la base nationale des aménagements cyclables",
+         "example": "07022-AC-001",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "type_releve",
+         "description": "Méthode utilisée pour récupérer les données depuis le compteur",
+         "example": "MANUEL",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "TELETRANSMISSION",
+               "MANUEL"
+            ]
+         }
+      },
+      {
+         "name": "type_transmission",
+         "description": "Méthode utilisée pour transmettre les données vers le portail opendata",
+         "example": "API",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "API",
+               "MANUEL"
+            ]
+         }
+      },
+      {
+         "name": "type_compteur",
+         "description": "Type de compteur. Choix multiple possible avec chaque valeur séparée par une virgule",
+         "example": "VIDEO",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "(?:(?:^|,)(BOUCLE|BOUCLE ZELT TEMPORAIRE|BOUCLE A INDUCTION|CAPTEUR A INDUCTION MAGNETIQUE|CAPTEUR PIEZOELECTRIQUE|RADAR|VIDEO|PNEUMATIQUE|DALLES CAPTEUR DE PRESSION|CAPTEUR A FAISCEAU LUMINEUX|HUMAIN|TUBE|AUTRE))+$"
+         }
+      },
+      {
+         "name": "sens_circulation_1",
+         "description": "direction vers laquelle se dirigent les usagers comptés",
+         "example": "SO",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "N",
+               "NO",
+               "NE",
+               "O",
+               "SO",
+               "S",
+               "SE",
+               "E"
+            ]
+         }
+      },
+      {
+         "name": "sens_circulation_2",
+         "description": "deuxième direction vers laquelle se dirigent les usagers comptés. Ce champ est reservé aux appareils pouvant compter dans deux sens de circulations.",
+         "example": "NO",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "N",
+               "NO",
+               "NE",
+               "O",
+               "SO",
+               "S",
+               "SE",
+               "E"
+            ]
+         }
+      },
+      {
+         "name": "source",
+         "description": "Entité ayant fourni les données",
+         "example": "Baix",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "date_service",
+         "description": "Date de mise en service du compteur vélo",
+         "example": "2019",
+         "type": "integer",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "date_maj",
+         "description": "Date de dernière mise à jour des données, Notation ISO 8601, format AAAA-MM-JJ",
+         "example": "2021-05-03",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "pas_de_temps",
+         "description": "Pas de temps des données fournies, en secondes. Doit être utilisé pour extrapoler la date de fin du comptage si elle est absente.",
+         "example": "900",
+         "type": "number",
+         "constraints": {
+            "required": false
+         }
+      }
+   ],
+   "primaryKey": "id_local_compteur"
+}
