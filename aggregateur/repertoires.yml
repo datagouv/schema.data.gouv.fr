@@ -1,7 +1,7 @@
 irve:
   url: https://github.com/etalab/schema-irve.git
   type: tableschema
-  email: schema@data.gouv.fr
+  email: contact@transport.beta.gouv.fr
 format-commande-publique:
   url: https://github.com/139bercy/format-commande-publique.git
   type: jsonschema
