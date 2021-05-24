@@ -45,6 +45,8 @@ tiers, un schéma a été défini afin d'assurer une harmonisation de ces donné
 demandé aux producteurs de données de compléter le schéma avec le plus grand niveau de détail possible, afin de
 transmettre une information plus riche à l'usager final.
 
+Pour en savoir plus sur
+
 ### Finalité
 
 La base des informations d’accessibilité des ERP en France permet de regrouper en un unique fichier consolidé l'ensemble
@@ -60,12 +62,16 @@ facilite grandement le travail de réutilisation de ces données par des service
 
 ### Description du schéma
 
-Une description détaillée (champ par champ) du modèle de donnée est accessible ici : https://github.com/.... Ce schéma
-respecte le standard Table Schema. Pour en savoir plus, voir la page dédiée : https://github.com/...
+Une description détaillée (champ par champ) du modèle de donnée est accessible ici : [https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/latest.html](https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/latest.html). Ce schéma
+respecte le standard Table Schema. Pour en savoir plus, voir la page dédiée : [TableSchema](https://specs.frictionlessdata.io/table-schema/)
 
-### Autres liens utiles
+Documentation des champs: [https://acceslibre.beta.gouv.fr/contrib/documentation/](https://acceslibre.beta.gouv.fr/contrib/documentation/)
 
-Documentation Acceslibre: [https://app.gitbook.com/@fabrique-numerique/s/acceslibre/]()
+### OpenData
+
+Publication des données: [https://www.data.gouv.fr/fr/datasets/acceslibre/](https://www.data.gouv.fr/fr/datasets/acceslibre/)
+
+Notre politique Open Data: [https://fabrique-numerique.gitbook.io/acceslibre/acceslibre-en-open-data-donnees-ouvertes](https://fabrique-numerique.gitbook.io/acceslibre/acceslibre-en-open-data-donnees-ouvertes)
 
 ### Transmission des données
 
