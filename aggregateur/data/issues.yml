@@ -11,12 +11,6 @@ construction:
   nb_comments: 0
   title: Schéma des équipements vélos
   url: https://github.com/etalab/schema.data.gouv.fr/issues/129
-- created_at: '2020-08-26T12:44:11Z'
-  labels:
-  - Schéma en construction
-  nb_comments: 4
-  title: Données de stationnement vélo
-  url: https://github.com/etalab/schema.data.gouv.fr/issues/125
 - created_at: '2020-05-18T18:19:10Z'
   labels:
   - Schéma en construction
@@ -39,13 +33,13 @@ investigation:
 - created_at: '2020-11-16T07:50:01Z'
   labels:
   - Schéma en investigation
-  nb_comments: 1
+  nb_comments: 2
   title: Schéma des registres d'entrées dans les services publics d'archives
   url: https://github.com/etalab/schema.data.gouv.fr/issues/131
 - created_at: '2020-01-14T13:43:09Z'
   labels:
   - Schéma en investigation
-  nb_comments: 3
+  nb_comments: 4
   title: Schéma PJM (Protection Juridique de Majeurs)
   url: https://github.com/etalab/schema.data.gouv.fr/issues/75
 - created_at: '2019-11-16T23:26:52Z'
