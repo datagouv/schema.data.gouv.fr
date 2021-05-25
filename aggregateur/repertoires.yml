@@ -82,7 +82,7 @@ menus-restauration:
   type: tableschema
   email: scdl@opendatafrance.email
 plats-restauration:
-  url: https://git.opendatafrance.net/scdl/plats-menus-collectifs/
+  url: https://git.opendatafrance.net/scdl/plats-menus-collectifs.git
   type: tableschema
   email: scdl@opendatafrance.email
 accessibilite-erp:
