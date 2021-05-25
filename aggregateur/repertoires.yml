@@ -81,6 +81,10 @@ menus-restauration:
   url: https://git.opendatafrance.net/scdl/menus-collectifs.git
   type: tableschema
   email: scdl@opendatafrance.email
+plats-restauration:
+  url: https://git.opendatafrance.net/scdl/plats-menus-collectifs/
+  type: tableschema
+  email: scdl@opendatafrance.email
 accessibilite-erp:
   url: https://github.com/MTES-MCT/acceslibre-schema.git
   type: tableschema
