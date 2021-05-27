@@ -97,3 +97,7 @@ comptage-velo-dynamique:
   url: https://github.com/etalab/schema-comptage-velo-dynamique.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
+sdirve:
+  url: https://github.com/etalab/schema-sdirve.git
+  type: tableschema
+  email schema@data.gouv.fr
