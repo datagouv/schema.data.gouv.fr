@@ -100,4 +100,4 @@ comptage-velo-dynamique:
 sdirve:
   url: https://github.com/etalab/schema-sdirve.git
   type: tableschema
-  email schema@data.gouv.fr
+  email: schema@data.gouv.fr
