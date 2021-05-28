@@ -315,6 +315,29 @@ etalab/schema-lieux-covoiturage:
   - 0.1.1
   - 0.1.2
   - 0.2.0
+etalab/schema-sdirve:
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux schéma directeur des
+    infrastructures de recharge pour véhicules électriques et hybrides rechargeables.
+  email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-sdirve
+  latest_version: 0.1.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-sdirve/0.1.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Schéma directeur des infrastructures de recharge pour véhicules électriques
+      et hybrides rechargeables
+    versions:
+    - 0.1.0
+  title: Schéma directeur des infrastructures de recharge pour véhicules électriques
+    et hybrides rechargeables
+  type: tableschema
+  versions:
+  - 0.1.0
 etalab/schema-stationnement:
   consolidation:
     dataset_id: 5ea1add4a5a7dac3af82310a
