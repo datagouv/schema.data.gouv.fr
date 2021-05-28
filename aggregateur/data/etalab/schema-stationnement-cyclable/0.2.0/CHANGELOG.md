@@ -1,0 +1,22 @@
+---
+permalink: /etalab/schema-stationnement-cyclable/latest/changelog.html
+redirect_from: /etalab/schema-stationnement-cyclable/0.2.0/changelog.html
+title: CHANGELOG de Stationnement cyclable
+version: 0.2.0
+---
+
+# Changelog
+
+Ce fichier répertorie les changements entre différentes versions d'un schéma.
+
+## Version 0.1 2021-04-15
+
+- Première version publiée du schéma du stationnement cyclable
+
+## Version 0.2 2021-05-28
+
+- Ajout du champ obligatoire type_accroche qui décrit le mode d'accroche du vélo à l'équipement
+- Modification du champ optionnel "mobilier"
+- Modification du champ optionnel "acces"
+- Création du champ optionnel "gratuit"
+- Corrections diverses

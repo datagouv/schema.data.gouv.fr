@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement-cyclable/0.1.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement-cyclable/latest/documentation.html
+redirect_from: /etalab/schema-stationnement-cyclable/0.2.0/documentation.html
 title: Documentation de Stationnement cyclable
-version: 0.1.0
+version: 0.2.0
 ---
 
 ## stationnement-cyclable
@@ -13,7 +13,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 - Schéma créé le : 10/03/2021
 - Site web : https://github.com/etalab/schema-stationnement-cyclable
-- Version : 1.1
+- Version : 0.2
 - Clé primaire : `id_local`
 
 ### Modèle de données
@@ -30,10 +30,12 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 | [ylat](#propriété-ylat) | nombre réel  | Oui |
 | [capacite](#propriété-capacite) | nombre entier  | Oui |
 | [capacite_cargo](#propriété-capacite_cargo) | nombre entier  | Non |
+| [type_accroche](#propriété-type_accroche) | chaîne de caractères  | Oui |
 | [mobilier](#propriété-mobilier) | chaîne de caractères  | Non |
+| [acces](#propriété-acces) | chaîne de caractères  | Non |
+| [gratuit](#propriété-gratuit) | booléen  | Non |
 | [protection](#propriété-protection) | chaîne de caractères  | Non |
 | [couverture](#propriété-couverture) | booléen  | Non |
-| [acces](#propriété-acces) | chaîne de caractères  | Non |
 | [surveillance](#propriété-surveillance) | booléen  | Non |
 | [lumiere](#propriété-lumiere) | booléen  | Non |
 | [url_info](#propriété-url_info) | chaîne de caractères (format `uri`) | Non |
@@ -79,7 +81,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `capacite`
 
-> *Description : Nombre de places de stationnement disponibles sur l'emplacement<br/>Ex : 14*
+> *Description : Nombre de places de stationnement disponibles sur l'emplacement y compris les places adaptées à des vélos spéciaux (comme les vélos de grande taille).<br/>Ex : 14*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -89,20 +91,47 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : nombre entier
 
+#### Propriété `type_accroche`
+
+> *Description : Mode d'accrochage possible du vélo aux équipements de stationnement<br/>Ex : CADRE ET ROUE*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Valeurs autorisées : 
+    - ROUE
+    - CADRE
+    - CADRE ET ROUE
+
 #### Propriété `mobilier`
 
-> *Description : Type de mobilier de stationnement<br/>Ex : arceau*
+> *Description : Type de mobilier de stationnement<br/>Ex : ARCEAU*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - ARCEAU
     - RATELIER
-    - CORCHET
     - RACK DOUBLE ETAGE
-    - ANCRAGE
+    - CROCHET
+    - SUPPORT GUIDON
     - POTELET
     - ARCEAU VELO GRANDE TAILLE
+    - AUCUN EQUIPEMENT
     - AUTRE
+
+#### Propriété `acces`
+
+> *Description : Mode d'accès à l'emplacement de stationnement<br/>Ex : ACCES LIBRE*
+- Valeur optionnelle
+- Type : chaîne de caractères
+- Valeurs autorisées : 
+    - LIBRE ACCES
+    - ABONNEMENT OU INSCRIPTION PREALABLE
+    - PRIVE
+
+#### Propriété `gratuit`
+
+> *Description : L'usage de l'équipement de stationnement est-il gratuit ?<br/>Ex : true*
+- Valeur optionnelle
+- Type : booléen
 
 #### Propriété `protection`
 
@@ -120,16 +149,6 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 > *Description : Le stationnement est-il couvert et est donc protégé de la pluie, de la neige et de la grêle ?<br/>Ex : true*
 - Valeur optionnelle
 - Type : booléen
-
-#### Propriété `acces`
-
-> *Description : Mode d'accès à l'emplacement de stationnement<br/>Ex : LIBRE*
-- Valeur optionnelle
-- Type : chaîne de caractères
-- Valeurs autorisées : 
-    - LIBRE
-    - PAYANT
-    - PRIVE
 
 #### Propriété `surveillance`
 
@@ -151,13 +170,13 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `d_service`
 
-> *Description : Date de mise en service du stationnement vélo (Notation ISO 8601, format AAAA)<br/>Ex : 2020-02-27*
+> *Description : Date de mise en service du stationnement vélo (Notation ISO 8601, format AAAA)<br/>Ex : 2017*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `source`
 
-> *Description : Nom de l'organisation ayant fourni les données<br/>Ex : Ville de Poitiers*
+> *Description : Nom de l'organisation ayant fourni les données<br/>Ex : Grand Poitiers*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
