@@ -21,7 +21,8 @@
     title: Marchés
     versions:
     - 1.3.0
-  - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json
     original_path: marches.json
     path: marches.json
     title: Contrats de commande publique JSON
@@ -45,7 +46,11 @@ MTES-MCT/acceslibre-schema:
   homepage: https://github.com/MTES-MCT/acceslibre-schema
   latest_version: 0.0.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.1/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.1/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma des données d'accessibilité des ERPs
@@ -66,7 +71,14 @@ NaturalSolutions/schema-arbre:
   homepage: https://github.com/NaturalSolutions/schema-arbre
   latest_version: 0.2.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.csv
+      title: Fichier valide (CSV)
+    - name: exemple-valide-xlsx
+      path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.xlsx
+      title: Ressource valide (XLSX)
+    latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma des attributs des arbres urbains
@@ -88,7 +100,16 @@ arsante/schema-dae:
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
   latest_version: 1.0.2
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.2/schema.json
+  - examples:
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide.csv
+      title: Exemple de fichier DAE avec des données invalides
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide_structure.csv
+      title: Exemple de fichier DAE avec une structure invalide
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide_complet.csv
+      title: Exemple de fichier DAE toutes les données invalides
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_valide.csv
+      title: Exemple de fichier DAE valide
+    latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.2/schema.json
     original_path: schema.json
     path: schema.json
     title: DAE
@@ -110,7 +131,8 @@ etalab/schema-amenagements-cyclables:
   homepage: https://github.com/etalab/schema_amenagements_cyclables
   latest_version: 0.3.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.0/schema_amenagements_cyclables.json
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.0/schema_amenagements_cyclables.json
     original_path: schema_amenagements_cyclables.json
     path: schema_amenagements_cyclables.json
     title: Schema des aménagements cyclables
@@ -160,7 +182,11 @@ etalab/schema-comptage-velo-dynamique:
   homepage: https://github.com/etalab/schema-comptage-velo-dynamique
   latest_version: 0.1.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-velo-dynamique/0.1.0/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/etalab/schema-comptage-velo-dynamique/raw/master/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-velo-dynamique/0.1.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma du comptage vélo (partie dynamique)
@@ -180,7 +206,11 @@ etalab/schema-comptage-velo-statique:
   homepage: https://github.com/etalab/schema-comptage-velo-statique
   latest_version: 0.1.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-velo-statique/0.1.0/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/etalab/schema-comptage-velo-statique/raw/master/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-velo-statique/0.1.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma du comptage vélo (partie statique)
@@ -200,7 +230,8 @@ etalab/schema-decp-dpa:
   homepage: https://github.com/etalab/schema-decp-dpa
   latest_version: 1.0.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/1.0.0/schema.json
+  - examples: null
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/1.0.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Spécification du fichier de déclaration de profil d'acheteur
@@ -221,7 +252,8 @@ etalab/schema-hautes-remunerations:
   homepage: http://github.com/restuccia/schema-hautes-remunerations
   latest_version: 0.1.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-hautes-remunerations/0.1.0/schema.json
+  - examples: null
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-hautes-remunerations/0.1.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Hautes rémunérations dans la fonction publique
@@ -241,7 +273,11 @@ etalab/schema-inclusion-numerique:
   homepage: https://github.com/etalab/schema-inclusion-numerique
   latest_version: 0.1.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.1/schema.json
+  - examples:
+    - name: exemple-valide
+      path: https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.1/exemple-valide.csv
+      title: Ressource valide
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux d’inclusion numérique
@@ -266,7 +302,10 @@ etalab/schema-irve:
   homepage: https://github.com/etalab/schema-irve
   latest_version: 2.0.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.0/schema.json
+  - examples:
+    - path: https://github.com/etalab/schema-irve/raw/v2.0.0/exemple-valide.csv
+      title: Exemple de fichier IRVE valide
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Infrastructures de recharge pour véhicules électriques
@@ -297,7 +336,14 @@ etalab/schema-lieux-covoiturage:
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   latest_version: 0.2.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json
+  - examples:
+    - name: exemple-valide
+      path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.csv
+      title: Ressource valide
+    - name: exemple-invalide
+      path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-invalide.csv
+      title: Ressource invalide
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
@@ -326,7 +372,11 @@ etalab/schema-sdirve:
   homepage: https://github.com/etalab/schema-sdirve
   latest_version: 0.1.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-sdirve/0.1.0/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-sdirve/0.1.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma directeur des infrastructures de recharge pour véhicules électriques
@@ -351,7 +401,17 @@ etalab/schema-stationnement:
   homepage: https://github.com/etalab/schema-stationnement
   latest_version: 0.1.4
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.4/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.csv
+      title: Ressource valide (CSV)
+    - name: exemple-valide-xlsx
+      path: https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.xlsx
+      title: Ressource valide (XLSX)
+    - name: exemple-invalide
+      path: https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-invalide.csv
+      title: Ressource invalide
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.4/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de stationnement
@@ -380,7 +440,14 @@ etalab/schema-stationnement-cyclable:
   homepage: https://github.com/etalab/schema-stationnement-cyclable
   latest_version: 0.2.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/exemple-valide.csv
+      title: Ressource valide (CSV)
+    - name: exemple-invalide
+      path: https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/exemple-invalide.csv
+      title: Ressource invalide
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Stationnement cyclable
@@ -427,7 +494,10 @@ scdl/budget:
   homepage: https://git.opendatafrance.net/scdl/budget
   latest_version: 0.8.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/budget/0.8.1/schema.json
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/budget/raw/v0.8/examples/budget_valide.csv
+      title: Exemple de fichier budget valide
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/budget/0.8.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Budget des collectivités et établissements publics locaux
@@ -448,7 +518,8 @@ scdl/catalogue:
   homepage: https://git.opendatafrance.net/scdl/catalogue
   latest_version: 0.1.2
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.2/schema.json
+  - examples: null
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Catalogue simplifié
@@ -471,7 +542,12 @@ scdl/deliberations:
   homepage: https://git.opendatafrance.net/scdl/deliberations
   latest_version: 2.1.3
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.3/schema.json
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.3/examples/Deliberations_ok.csv
+      title: Exemple de fichier délibérations valide
+    - path: https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.3/examples/Deliberations_coll_siret_ko.csv
+      title: Exemple de fichier délibérations invalide
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.3/schema.json
     original_path: schema.json
     path: schema.json
     title: Délibérations
@@ -502,7 +578,8 @@ scdl/equipements:
   homepage: https://git.opendatafrance.net/scdl/equipements
   latest_version: 0.1.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.1/schema.json
+  - examples: null
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Équipements
@@ -528,7 +605,12 @@ scdl/menus-collectifs:
   homepage: https://git.opendatafrance.net/scdl/menus-collectifs
   latest_version: 1.2.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.1/schema.json
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/menus-collectifs/-/raw/master/examples/menus-collectifs_valide.csv
+      title: Exemple de fichier de menus valide en csv
+    - path: https://git.opendatafrance.net/scdl/menus-collectifs/-/raw/master/examples/menus-collectifs_valide.xlsx
+      title: Exemple de fichier de menus valide en Office Open XML
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Menus de la restauration collective
@@ -570,7 +652,12 @@ scdl/plats-menus-collectifs:
   homepage: https://git.opendatafrance.net/scdl/plats-menus-collectifs
   latest_version: 0.7.0
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.0/schema.json
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/0.7/examples/plats-collectifs_valide.csv
+      title: Exemple de fichier de menus valide en csv
+    - path: https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/0.7/examples/plats-collectifs_valide.xlsx
+      title: Exemple de fichier de menus valide en OOXML
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Composition des plats des menus de la restauration collective
@@ -597,7 +684,10 @@ scdl/subventions:
   homepage: https://git.opendatafrance.net/scdl/subventions
   latest_version: 2.0.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.1/schema.json
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/subventions/raw/v2.0.1/exemples/exemple_invalide.csv
+      title: Exemple de fichier subventions invalide
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Subventions
