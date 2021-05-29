@@ -350,12 +350,20 @@ class TableSchemaValidator(BaseValidator):
                 "original_path": self.SCHEMA_FILENAME,
                 "title": self.title,
                 "latest_url": self.schema_url(self.SCHEMA_FILENAME),
+                "examples": self.examples
             }
         ]
 
     @property
     def title(self):
         return self.schema_json_data()["title"]
+
+    @property
+    def examples(self):
+        self.schema_json_data()["version"]
+        if("resources" in self.schema_json_data()):
+            return self.schema_json_data()["resources"]
+        return
 
     @property
     def description(self):

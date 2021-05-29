@@ -52,10 +52,15 @@ class Metadata(object):
             for existing_schema in existing_schemas:
                 if existing_schema["path"] != schema["path"]:
                     continue
+                if("examples" in schema):
+                    examples = schema["examples"]
+                else:
+                    examples = []
                 updated = True
                 existing_schema["versions"].append(metadata["version"])
                 existing_schema["latest_url"] = schema["latest_url"]
                 existing_schema["title"] = schema["title"]
+                existing_schema["examples"] = examples
             if not updated:
                 schema["versions"] = [metadata["version"]]
                 self.data[slug]["schemas"] = existing_schemas + [schema]
@@ -107,6 +112,7 @@ class Metadata(object):
         schemas = []
 
         for slug, details in self.data.items():
+            
             if details["type"] != "tableschema":
                 continue
            
@@ -116,6 +122,7 @@ class Metadata(object):
                     "title": details["title"],
                     "description": details["description"],
                     "schema_url": self.schema_url(slug),
+                    "contact": details["email"],
                     "versions": self.generate_versions_json(details,slug)
                 }
             )
@@ -134,6 +141,12 @@ class Metadata(object):
 
         for slug, details in self.data.items():
             if details["type"] == "tableschema":
+
+                if(details["schemas"][0]["examples"]):
+                    examples = details["schemas"][0]["examples"]
+                else:
+                    examples = []
+
                 schemas.append(
                     {
                         "name": slug,
@@ -141,6 +154,8 @@ class Metadata(object):
                         "description": details["description"],
                         "schema_url": self.schema_url(slug),
                         "schema_type": details["type"],
+                        "contact": details["email"],
+                        "examples": examples,
                         "versions": self.generate_versions_json(details,slug)
                     }
                 )
@@ -152,6 +167,7 @@ class Metadata(object):
                         "description": details["description"],
                         "schema_url": self.get()[slug]["schemas"][0]["latest_url"],
                         "schema_type": details["type"],
+                        "contact": details["email"],
                         "versions": self.generate_versions_json(details,slug)
                     }
 
