@@ -23,7 +23,7 @@
       {
          "title":"Fichier valide (CSV)",
          "name":"exemple-valide-csv",
-         "path":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/exemple-valide.csv"
+         "path":"https://github.com/etalab/schema-sdirve/raw/v0.1.0/exemple-valide.csv"
       }
    ],
    "sources":[

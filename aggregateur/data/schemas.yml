@@ -374,7 +374,7 @@ etalab/schema-sdirve:
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/exemple-valide.csv
+      path: https://github.com/etalab/schema-sdirve/raw/v0.1.0/exemple-valide.csv
       title: Fichier valide (CSV)
     latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-sdirve/0.1.0/schema.json
     original_path: schema.json
