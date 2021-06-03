@@ -438,7 +438,7 @@ etalab/schema-stationnement-cyclable:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement-cyclable
-  latest_version: 0.2.0
+  latest_version: 0.2.1
   schemas:
   - examples:
     - name: exemple-valide-csv
@@ -447,18 +447,20 @@ etalab/schema-stationnement-cyclable:
     - name: exemple-invalide
       path: https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/exemple-invalide.csv
       title: Ressource invalide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Stationnement cyclable
     versions:
     - 0.1.0
     - 0.2.0
+    - 0.2.1
   title: Stationnement cyclable
   type: tableschema
   versions:
   - 0.1.0
   - 0.2.0
+  - 0.2.1
 metis-reseaux/infos-travaux:
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.

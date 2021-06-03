@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement-cyclable/0.2.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement-cyclable/latest/documentation.html
+redirect_from: /etalab/schema-stationnement-cyclable/0.2.1/documentation.html
 title: Documentation de Stationnement cyclable
-version: 0.2.0
+version: 0.2.1
 ---
 
 ## stationnement-cyclable
@@ -100,6 +100,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
     - ROUE
     - CADRE
     - CADRE ET ROUE
+    - SANS ACCROCHE
 
 #### Propriété `mobilier`
 
@@ -119,7 +120,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `acces`
 
-> *Description : Mode d'accès à l'emplacement de stationnement<br/>Ex : ACCES LIBRE*
+> *Description : Mode d'accès à l'emplacement de stationnement<br/>Ex : LIBRE ACCES*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 

@@ -1,8 +1,8 @@
 ---
 permalink: /etalab/schema-stationnement-cyclable/latest/changelog.html
-redirect_from: /etalab/schema-stationnement-cyclable/0.2.0/changelog.html
+redirect_from: /etalab/schema-stationnement-cyclable/0.2.1/changelog.html
 title: CHANGELOG de Stationnement cyclable
-version: 0.2.0
+version: 0.2.1
 ---
 
 # Changelog

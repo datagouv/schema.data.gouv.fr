@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement-cyclable/0.2.0.html
-redirect_from: null
+permalink: /etalab/schema-stationnement-cyclable/latest.html
+redirect_from: /etalab/schema-stationnement-cyclable/0.2.1.html
 title: Stationnement cyclable
-version: 0.2.0
+version: 0.2.1
 ---
 
 # Schéma de données pour le stationnement cyclable
