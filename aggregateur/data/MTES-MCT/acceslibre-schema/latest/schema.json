@@ -37,7 +37,7 @@
       "role": "author"
     },
     {
-      "title": "Nicolas Pierrault",
+      "title": "Nicolas Perriault",
       "email": "nicolas@perriault.net",
       "organisation": "MTES-MCT",
       "role": "author"
@@ -152,7 +152,7 @@
     },
     {
       "name": "stationnement_presence",
-      "title": "Stationnement dans l'ERP",
+      "title": "Stationnement dans l'établissement",
       "description": "Présence de stationnement au sein de la parcelle de l'établissement",
       "type": "boolean",
       "trueValues": [
@@ -183,7 +183,7 @@
     },
     {
       "name": "stationnement_pmr",
-      "title": "Stationnements adaptés dans l'ERP",
+      "title": "Stationnements adaptés dans l'établissement",
       "description": "Présence de stationnement adapté au sein de la parcelle de l'établissement",
       "type": "boolean",
       "trueValues": [
@@ -214,7 +214,7 @@
     },
     {
       "name": "stationnement_ext_presence",
-      "title": "Stationnement à proximité de l'ERP",
+      "title": "Stationnement à proximité de l'établissement",
       "description": "Présence de stationnement à proximité de l'établissement (moins de 200 mètres)",
       "type": "boolean",
       "trueValues": [
@@ -245,7 +245,7 @@
     },
     {
       "name": "stationnement_ext_pmr",
-      "title": "Stationnements PMR à proximité de l'ERP",
+      "title": "Stationnements PMR à proximité de l'établissement",
       "description": "Présence de stationnement adapté à proximité de l'établissement (moins de 200 mètres)",
       "type": "boolean",
       "trueValues": [
@@ -370,6 +370,7 @@
     {
       "name": "cheminement_ext_ascenseur",
       "title": "Ascenseur/élévateur",
+      "description": "Existe-t-il un ascenseur ou un élévateur&nbsp;?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -400,6 +401,7 @@
     {
       "name": "cheminement_ext_nombre_marches",
       "title": "Nombre de marches",
+      "description": "Combien y'a t'il de marches&nbsp;?",
       "type": "integer",
       "example": "0"
     },
@@ -437,7 +439,7 @@
     {
       "name": "cheminement_ext_sens_marches",
       "title": "Sens de circulation de l'escalier",
-      "description": "Sens de circulation des marches ou de l’escalier",
+      "description": "Sens de circulation des marches ou de l'escalier",
       "type": "string",
       "constraints": {
         "enum": [
@@ -450,6 +452,7 @@
     {
       "name": "cheminement_ext_main_courante",
       "title": "Main courante",
+      "description": "L'escalier est-il équipé d'une ou plusieurs main-courantes ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -494,6 +497,7 @@
     {
       "name": "cheminement_ext_pente_presence",
       "title": "Pente",
+      "description": "Le cheminement est-il en pente ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -524,6 +528,7 @@
     {
       "name": "cheminement_ext_pente_degre_difficulte",
       "title": "Degré de difficulté de la pente",
+      "description": "Quel est son degré de difficulté ?",
       "type": "string",
       "constraints": {
         "enum": [
@@ -536,6 +541,7 @@
     {
       "name": "cheminement_ext_pente_longueur",
       "title": "Longueur de la pente",
+      "description": "Quelle est sa longueur ?",
       "type": "string",
       "constraints": {
         "enum": [
@@ -549,6 +555,7 @@
     {
       "name": "cheminement_ext_devers",
       "title": "Dévers",
+      "description": "Un dévers est une inclinaison transversale du cheminement. S'il en existe un, quel est son degré de difficulté ?",
       "type": "string",
       "constraints": {
         "enum": [
@@ -624,7 +631,7 @@
     {
       "name": "entree_reperage",
       "title": "Entrée facilement repérable",
-      "description": "Présence d'éléments facilitant le repérage de l'entrée de l’établissement (numéro de rue à proximité, enseigne, végétaux, éléments architecturaux contrastés, etc)",
+      "description": "Présence d'éléments facilitant le repérage de l'entrée de l'établissement (numéro de rue à proximité, enseigne, végétaux, éléments architecturaux contrastés, etc)",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -655,6 +662,7 @@
     {
       "name": "entree_vitree",
       "title": "Entrée vitrée",
+      "description": "La porte d'entrée est-elle vitrée ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -747,6 +755,7 @@
     {
       "name": "entree_ascenseur",
       "title": "Ascenseur/élévateur",
+      "description": "Existe-t-il un ascenseur ou un élévateur ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -777,6 +786,7 @@
     {
       "name": "entree_marches",
       "title": "Nombre de marches",
+      "description": "Indiquer 0 s'il n'y a ni marche ni escalier",
       "type": "integer",
       "example": "0"
     },
@@ -814,6 +824,7 @@
     {
       "name": "entree_marches_main_courante",
       "title": "Main courante",
+      "description": "L'escalier est-il équipé d'une ou plusieurs main-courantes ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -844,6 +855,7 @@
     {
       "name": "entree_marches_rampe",
       "title": "Rampe",
+      "description": "S'il existe une rampe ayant une pente douce, est-elle fixe ou amovible ?",
       "type": "string",
       "constraints": {
         "enum": [
@@ -857,7 +869,7 @@
     {
       "name": "entree_marches_sens",
       "title": "Sens de circulation de l'escalier",
-      "description": "Sens de circulation des marches ou de l’escalier",
+      "description": "Sens de circulation des marches ou de l'escalier",
       "type": "string",
       "constraints": {
         "enum": [
@@ -907,16 +919,16 @@
         "type": "string",
         "enum": [
           "bouton",
-          "sonnette",
           "interphone",
           "visiophone"
         ]
       },
-      "example": "Valeurs possibles: bouton -> Bouton d’appel, sonnette -> Sonnette, interphone -> Interphone, visiophone -> Visiophone"
+      "example": "Valeurs possibles: bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone"
     },
     {
       "name": "entree_balise_sonore",
       "title": "Balise sonore à l'entrée",
+      "description": "L'entrée est-elle équipée d'une balise sonore facilitant son repérage par une personne aveugle ou malvoyante ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -947,6 +959,7 @@
     {
       "name": "entree_aide_humaine",
       "title": "Aide humaine",
+      "description": "Présence ou possibilité d'une aide humaine au déplacement",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -1074,7 +1087,7 @@
     {
       "name": "accueil_visibilite",
       "title": "Visibilité de la zone d'accueil",
-      "description": "La zone d'accueil (guichet d’accueil, caisse, secrétariat, etc) est visible depuis l'entrée",
+      "description": "La zone d'accueil (guichet d'accueil, caisse, secrétariat, etc) est visible depuis l'entrée du bâtiment",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -1105,6 +1118,7 @@
     {
       "name": "accueil_personnels",
       "title": "Personnel d'accueil",
+      "description": "En cas de présence du personnel, est-il formé ou sensibilisé à l'accueil des personnes handicapées ?",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1166,7 +1180,7 @@
     },
     {
       "name": "accueil_cheminement_plain_pied",
-      "title": "Cheminement de plain-pied entre l'entrée et l'accueil",
+      "title": "Chemin entre l'entrée principale du bâtiment et l'accueil de l'établissement",
       "description": "L'accès à cet espace se fait de plain-pied (sans rupture de niveau)",
       "type": "boolean",
       "trueValues": [
@@ -1198,6 +1212,7 @@
     {
       "name": "accueil_cheminement_ascenseur",
       "title": "Ascenseur/élévateur",
+      "description": "Existe-t-il un ascenseur ou un élévateur ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -1228,12 +1243,13 @@
     {
       "name": "accueil_cheminement_nombre_marches",
       "title": "Nombre de marches",
+      "description": "Indiquer 0 s'il n'y a ni marche ni escalier",
       "type": "integer",
       "example": "0"
     },
     {
       "name": "accueil_cheminement_reperage_marches",
-      "title": "Repérage des marches ou de l’escalier",
+      "title": "Repérage des marches ou de l'escalier",
       "description": "Nez de marche contrastés, bande d'éveil à la vigilance en haut de l'escalier et/ou première et dernière contremarches contrastées",
       "type": "boolean",
       "trueValues": [
@@ -1265,6 +1281,7 @@
     {
       "name": "accueil_cheminement_main_courante",
       "title": "Main courante",
+      "description": "L'escalier est-il équipé d'une ou plusieurs main-courantes ?",
       "type": "boolean",
       "trueValues": [
         "true",
@@ -1326,7 +1343,7 @@
     {
       "name": "accueil_cheminement_sens_marches",
       "title": "Sens de circulation de l'escalier",
-      "description": "Sens de circulation des marches ou de l’escalier",
+      "description": "Sens de circulation des marches ou de l'escalier",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1401,7 +1418,7 @@
     {
       "name": "sanitaires_adaptes",
       "title": "Sanitaires adaptés",
-      "description": "Nombre de sanitaires adaptés dans l'établissement",
+      "description": "Mise à disposition de sanitaires adaptés dans l'établissement",
       "type": "integer",
       "example": "0"
     },

@@ -45,8 +45,6 @@ tiers, un schéma a été défini afin d'assurer une harmonisation de ces donné
 demandé aux producteurs de données de compléter le schéma avec le plus grand niveau de détail possible, afin de
 transmettre une information plus riche à l'usager final.
 
-Pour en savoir plus sur
-
 ### Finalité
 
 La base des informations d’accessibilité des ERP en France permet de regrouper en un unique fichier consolidé l'ensemble
