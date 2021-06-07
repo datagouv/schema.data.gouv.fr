@@ -35,6 +35,27 @@
   - 1.3.0
   - 1.4.0
   - 1.5.0
+Archivistes75/registre_entrees:
+  consolidation: null
+  description: Spécification du standard national des registres d'entrée d'archives
+  email: hello@datactivist.coop
+  external_doc: null
+  external_tool: null
+  has_changelog: false
+  homepage: https://github.com/Archivistes75/registre_entrees
+  latest_version: 0.2.0
+  schemas:
+  - examples: null
+    latest_url: https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/0.2.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Registre d'entrée d'archives
+    versions:
+    - 0.2.0
+  title: Registre d'entrée d'archives
+  type: tableschema
+  versions:
+  - 0.2.0
 MTES-MCT/acceslibre-schema:
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité
