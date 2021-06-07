@@ -23,7 +23,7 @@ Dans son [Cadre stratégique commun de modernisation des archives](https://www.g
 
 > Il conviendra également de généraliser l’open data dans les services d’archives de l’État et de recommander ce modèle aux services territoriaux d’archives.
 
-Pour en savoir plus sur la méthodologie de construction de ce schéma, consultez [ce document](methodologie.md). 
+Pour en savoir plus sur la méthodologie de construction de ce schéma, consultez [ce document](https://github.com/Archivistes75/registre_entrees/blob/master/methodologie.md). 
 
 ## Cadre juridique
 
@@ -42,9 +42,9 @@ Cette standardisation permet de faciliter la découverte des jeux de données et
 
 ## Description du schéma
 
-La documentation des champs est accessible [ici](Documentation/Documentation_schema_registre.pdf).
+La documentation des champs est accessible [ici](https://schema.data.gouv.fr/Archivistes75/registre_entrees/latest/documentation.html).
 
-Un [gabarit](Schema_registre_entrees/Schema_registre_entrees_gabarit.xlsx) au format tableur est également prévu pour faciliter la réalisation d'un registre des entrée au format du schéma.
+Un [gabarit](https://raw.githubusercontent.com/Archivistes75/registre_entrees/master/exemple-valide.csv) au format tableur est également prévu pour faciliter la réalisation d'un registre des entrée au format du schéma.
 
 ## Format de fichier
 
