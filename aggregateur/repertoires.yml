@@ -101,3 +101,7 @@ sdirve:
   url: https://github.com/etalab/schema-sdirve.git
   type: tableschema
   email: schema@data.gouv.fr
+registre-archive:
+  url: https://github.com/Archivistes75/registre_entrees.git
+  type: tableschema
+  email: hello@datactivist.coop
