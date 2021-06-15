@@ -35,5 +35,5 @@ Voici un exemple complet pour ajouter le schéma decp-dpa, au format Table Schem
 decp-dpa:
   url: https://github.com/etalab/schema-decp-dpa.git
   type: tableschema
-  email: info@data.gouv.fr
+  email: schema@data.gouv.fr
 ```
