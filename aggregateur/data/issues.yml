@@ -33,6 +33,6 @@ investigation:
 - created_at: '2019-11-16T23:26:52Z'
   labels:
   - Schéma en investigation
-  nb_comments: 10
+  nb_comments: 11
   title: Schéma des centres de secours
   url: https://github.com/etalab/schema.data.gouv.fr/issues/62
