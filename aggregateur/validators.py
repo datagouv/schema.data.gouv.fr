@@ -49,6 +49,7 @@ class BaseValidator(object):
         super(BaseValidator, self).__init__()
         self.repo = repo
         self.git_repo = repo.git_repo
+        self.isValid = True
 
     @property
     def data_dir(self):
@@ -80,22 +81,23 @@ class BaseValidator(object):
         raise NotImplementedError
 
     def metadata(self):
-        slug = self.repo.slug
+        if(self.isValid):
+            slug = self.repo.slug
 
-        return {
-            "slug": slug,
-            "title": self.title,
-            "description": self.description,
-            "homepage": self.homepage,
-            "type": self.repo.schema_type,
-            "consolidation": self.consolidation_data(slug),
-            "email": self.repo.email,
-            "external_doc":self.repo.external_doc,
-            "external_tool":self.repo.external_tool,
-            "version": self.repo.current_version,
-            "has_changelog": self.has_changelog,
-            "schemas": self.schemas_metadata(),
-        }
+            return {
+                "slug": slug,
+                "title": self.title,
+                "description": self.description,
+                "homepage": self.homepage,
+                "type": self.repo.schema_type,
+                "consolidation": self.consolidation_data(slug),
+                "email": self.repo.email,
+                "external_doc":self.repo.external_doc,
+                "external_tool":self.repo.external_tool,
+                "version": self.repo.current_version,
+                "has_changelog": self.has_changelog,
+                "schemas": self.schemas_metadata(),
+            }
 
     def schema_url(self, path):
         return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/{self.repo.current_version}/{path}"
@@ -483,9 +485,13 @@ class GenericValidator(BaseValidator):
     def validate(self):
         super().validate()
         # order matters!
-        self.check_file_exists(self.SCHEMA_FILENAME)
-        self.check_schema(self.SCHEMA_FILENAME)
-        self.check_extra_keys()
+        
+        try:
+            self.check_file_exists(self.SCHEMA_FILENAME)
+            self.check_schema(self.SCHEMA_FILENAME)
+            self.check_extra_keys()
+        except:
+            self.isValid = False
 
     def extract(self):
         files = {
@@ -500,7 +506,7 @@ class GenericValidator(BaseValidator):
             files[self.CHANGELOG_FILENAME] = changelog_path
             self.has_changelog = changelog_path is not None
 
-        self.move_files(files)
+        if(self.isValid): self.move_files(files)
 
     def check_extra_keys(self):
         keys = ["title", "description", "homepage", "version"]
