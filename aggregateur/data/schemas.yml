@@ -193,54 +193,6 @@ etalab/schema-bal:
   type: other
   versions:
   - 1.1.0
-etalab/schema-comptage-velo-dynamique:
-  consolidation: null
-  description: Spécification du fichier d'échange relatif aux comptages vélo.
-  email: contact@transport.beta.gouv.fr
-  external_doc: null
-  external_tool: null
-  has_changelog: true
-  homepage: https://github.com/etalab/schema-comptage-velo-dynamique
-  latest_version: 0.1.0
-  schemas:
-  - examples:
-    - name: exemple-valide-csv
-      path: https://github.com/etalab/schema-comptage-velo-dynamique/raw/master/exemple-valide.csv
-      title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-velo-dynamique/0.1.0/schema.json
-    original_path: schema.json
-    path: schema.json
-    title: Schéma du comptage vélo (partie dynamique)
-    versions:
-    - 0.1.0
-  title: Schéma du comptage vélo (partie dynamique)
-  type: tableschema
-  versions:
-  - 0.1.0
-etalab/schema-comptage-velo-statique:
-  consolidation: null
-  description: Spécification du fichier d'échange relatif aux comptages vélo.
-  email: contact@transport.beta.gouv.fr
-  external_doc: null
-  external_tool: null
-  has_changelog: true
-  homepage: https://github.com/etalab/schema-comptage-velo-statique
-  latest_version: 0.1.0
-  schemas:
-  - examples:
-    - name: exemple-valide-csv
-      path: https://github.com/etalab/schema-comptage-velo-statique/raw/master/exemple-valide.csv
-      title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-velo-statique/0.1.0/schema.json
-    original_path: schema.json
-    path: schema.json
-    title: Schéma du comptage vélo (partie statique)
-    versions:
-    - 0.1.0
-  title: Schéma du comptage vélo (partie statique)
-  type: tableschema
-  versions:
-  - 0.1.0
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
