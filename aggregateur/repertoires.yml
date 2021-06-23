@@ -97,3 +97,7 @@ registre-archive:
   url: https://github.com/Archivistes75/registre_entrees.git
   type: tableschema
   email: hello@datactivist.coop
+datatourisme:
+  url: https://framagit.org/datatourisme/ontology.git
+  type: other
+  email: contact@datatourisme.fr
