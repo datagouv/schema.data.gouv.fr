@@ -142,6 +142,29 @@ arsante/schema-dae:
   versions:
   - 1.0.1
   - 1.0.2
+datatourisme/ontology:
+  consolidation: null
+  description: Ontologie destinée à structurer les données décrivant l'ensemble des
+    points d'intérêts recensés par les Offices de Tourisme, Agences Départementales
+    et Comités Régionaux du Tourisme. Fêtes et manifestations, sites patrimoniaux,
+    activités de loisirs, itinéraires, hébergements, restaurants, boutiques et services.
+  email: contact@datatourisme.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: false
+  homepage: https://framagit.org/datatourisme/ontology
+  latest_version: 2.4.7
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/datatourisme/ontology/2.4.7/schema.yml
+    original_path: schema.yml
+    path: schema.yml
+    title: DATAtourisme
+    versions:
+    - 2.4.7
+  title: DATAtourisme
+  type: other
+  versions:
+  - 2.4.7
 etalab/schema-amenagements-cyclables:
   consolidation: null
   description: Spécification du schéma de données d'aménagements cyclables
