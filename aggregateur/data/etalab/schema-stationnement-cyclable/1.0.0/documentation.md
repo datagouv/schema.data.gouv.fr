@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement-cyclable/0.2.1/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement-cyclable/latest/documentation.html
+redirect_from: /etalab/schema-stationnement-cyclable/1.0.0/documentation.html
 title: Documentation de Stationnement cyclable
-version: 0.2.1
+version: 1.0.0
 ---
 
 ## stationnement-cyclable
@@ -13,7 +13,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 - Schéma créé le : 10/03/2021
 - Site web : https://github.com/etalab/schema-stationnement-cyclable
-- Version : 0.2
+- Version : 1.0.0
 - Clé primaire : `id_local`
 
 ### Modèle de données

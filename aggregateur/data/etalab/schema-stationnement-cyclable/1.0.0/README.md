@@ -1,20 +1,19 @@
 ---
-permalink: /etalab/schema-stationnement-cyclable/0.2.1.html
-redirect_from: null
+permalink: /etalab/schema-stationnement-cyclable/latest.html
+redirect_from: /etalab/schema-stationnement-cyclable/1.0.0.html
 title: Stationnement cyclable
-version: 0.2.1
+version: 1.0.0
 ---
 
 # Schéma de données pour le stationnement cyclable
 
-Schéma du stationnement cyclable.
 Ce schéma permet de modéliser et définir le stationnement cyclable sur le territoire national.   
 
 ## Contexte
 
 Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de transport.data.gouv.fr propose une solution simple et structurée pour l’ouverture des données pour le stationnement cyclable : la Base Nationale du Stationnement Cyclable (BNSC). 
 
-Le schéma de la base de données a été co-construit avec des associations et entrperises du secteur du stationnement cyclable, les producteurs de données et les réutilisateurs. Deux ateliers ouverts (le 25/11/2020 et le 24/02/2021) ont permis sa production. (Il a été établi après une enquête et plusieurs réunions du groupe de travail). Aujourd’hui disponible en version 0.1.0, il sera mis-à-jour régulièrement.
+Le schéma de la base de données a été co-construit avec des associations et entrperises du secteur du stationnement cyclable, les producteurs de données et les réutilisateurs. Deux ateliers ouverts (le 25/11/2020 et le 24/02/2021) ont permis sa production. (Il a été établi après une enquête et plusieurs réunions du groupe de travail). Aujourd’hui disponible en version 1.0, il sera mis-à-jour régulièrement. 
 
 ## Cadre juridique
 
@@ -39,14 +38,14 @@ Ce dataset comprend notamment :
 
 ## Format de fichier
 
-Les jeux de données seront publiées au format CSV encodé en UTF8 avec séparateur "," et en utilisant des " " pour les champs textuels qui pourraient contenir le séparateur. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible. La colonne doit toutefois être présente.
+Les jeux de données seront publiées au format CSV encodé en UTF8 avec séparateur "," et en utilisant des " " pour les champs textuels qui pourraient contenir le séparateur. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible.
 
 ## Documentation
 Une documentation complémentaire est disponible : https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable
 
 ## Publication
 
-Dans le but de maintenir à jour un répertoire consolidé des aménagements cyclables en France, les collectivités sont invitées à transmettre systématiquement les données relatives au stationnement cyclable sur leur territoire. 
+Dans le but de maintenir à jour un répertoire consolidé des équipement de stationnement cyclable en France, les collectivités sont invitées à transmettre systématiquement les données relatives au stationnement cyclable sur leur territoire. 
 Elles peuvent ajouter le mot-clef "stationnement cyclable" lors de la publication du jeu de données dans leur espace de publication (portail local ou régional) ou directement sur data.gouv.fr.
 Les producteurs pourront :
 - publier directement sur data.gouv.fr ;

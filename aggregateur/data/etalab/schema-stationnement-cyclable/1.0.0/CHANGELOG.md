@@ -1,8 +1,8 @@
 ---
 permalink: /etalab/schema-stationnement-cyclable/latest/changelog.html
-redirect_from: /etalab/schema-stationnement-cyclable/0.2.1/changelog.html
+redirect_from: /etalab/schema-stationnement-cyclable/1.0.0/changelog.html
 title: CHANGELOG de Stationnement cyclable
-version: 0.2.1
+version: 1.0.0
 ---
 
 # Changelog
@@ -20,3 +20,7 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma.
 - Modification du champ optionnel "acces"
 - Création du champ optionnel "gratuit"
 - Corrections diverses
+
+## Version 1.0 2021-06-30
+
+- Première version officielle du schéma national pour le stationnement cyclable
