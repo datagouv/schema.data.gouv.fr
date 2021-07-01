@@ -108,3 +108,4 @@ schema-zfe:
   url: https://github.com/etalab/schema-zfe
   type: jsonschema
   email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
