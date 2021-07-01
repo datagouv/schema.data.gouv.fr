@@ -463,7 +463,7 @@ etalab/schema-zfe:
   consolidation: null
   description: Spécification du schéma de données des Zones à Faibles Emissions
   email: contact@transport.beta.gouv.fr
-  external_doc: null
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema_zfe
