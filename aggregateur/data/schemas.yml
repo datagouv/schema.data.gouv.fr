@@ -459,6 +459,29 @@ etalab/schema-stationnement-cyclable:
   - 0.2.0
   - 0.2.1
   - 1.0.0
+etalab/schema-zfe:
+  consolidation: null
+  description: Spécification du schéma de données des Zones à Faibles Emissions
+  email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema_zfe
+  latest_version: 0.6.0
+  schemas:
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.6.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Zones à Faibles Emissions
+    versions:
+    - 0.6.0
+    - 0.6.0
+  title: Zone à Faibles Emissions
+  type: jsonschema
+  versions:
+  - 0.6.0
+  - 0.6.0
 metis-reseaux/infos-travaux:
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
