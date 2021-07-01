@@ -101,3 +101,7 @@ datatourisme:
   url: https://framagit.org/datatourisme/ontology.git
   type: other
   email: contact@datatourisme.fr
+schema-zfe:
+  url: https://github.com/etalab/schema-zfe
+  type: jsonschema
+  email: contact@transport.beta.gouv.fr
