@@ -2,6 +2,7 @@ irve:
   url: https://github.com/etalab/schema-irve.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
 format-commande-publique:
   url: https://github.com/139bercy/format-commande-publique.git
   type: jsonschema
@@ -59,10 +60,12 @@ amenagements-cyclables:
   type: jsonschema
   email: contact@transport.beta.gouv.fr
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables
 stationnement-cyclable:
   url: https://github.com/etalab/schema-stationnement-cyclable
   type: tableschema
   email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable
 inclusion-numerique:
   url: https://github.com/etalab/schema-inclusion-numerique.git
   type: tableschema
