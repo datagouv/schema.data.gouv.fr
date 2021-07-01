@@ -32,15 +32,18 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [lieu_dit](#propriété-lieu_dit) | chaîne de caractères  | Non |
 | [code_insee](#propriété-code_insee) | chaîne de caractères  | Non |
 | [siret](#propriété-siret) | chaîne de caractères  | None |
-| [coordinates](#propriété-coordinates) | point géographique  | Non |
+| [contact_url](#propriété-contact_url) | chaîne de caractères (format `uri`) | Non |
+| [site_internet](#propriété-site_internet) | chaîne de caractères (format `uri`) | Non |
+| [longitude](#propriété-longitude) | nombre réel  | Non |
+| [latitude](#propriété-latitude) | nombre réel  | Non |
 | [transport_station_presence](#proximité-d'un-arrêt-de-transport-en-commun---propriété-transport_station_presence) | booléen  | Non |
 | [stationnement_presence](#stationnement-dans-l'établissement---propriété-stationnement_presence) | booléen  | Non |
 | [stationnement_pmr](#stationnements-adaptés-dans-l'établissement---propriété-stationnement_pmr) | booléen  | Non |
 | [stationnement_ext_presence](#stationnement-à-proximité-de-l'établissement---propriété-stationnement_ext_presence) | booléen  | Non |
 | [stationnement_ext_pmr](#stationnements-pmr-à-proximité-de-l'établissement---propriété-stationnement_ext_pmr) | booléen  | Non |
-| [cheminement_ext_presence](#cheminement-extérieur---propriété-cheminement_ext_presence) | booléen  | Non |
+| [cheminement_ext_presence](#chemin-extérieur---propriété-cheminement_ext_presence) | booléen  | Non |
 | [cheminement_ext_terrain_accidente](#revêtement-extérieur---propriété-cheminement_ext_terrain_accidente) | booléen  | Non |
-| [cheminement_ext_plain_pied](#cheminement-extérieur-de-plain-pied---propriété-cheminement_ext_plain_pied) | booléen  | Non |
+| [cheminement_ext_plain_pied](#chemin-extérieur-de-plain-pied---propriété-cheminement_ext_plain_pied) | booléen  | Non |
 | [cheminement_ext_ascenseur](#ascenseur/élévateur---propriété-cheminement_ext_ascenseur) | booléen  | Non |
 | [cheminement_ext_nombre_marches](#nombre-de-marches---propriété-cheminement_ext_nombre_marches) | nombre entier  | Non |
 | [cheminement_ext_reperage_marches](#marches-ou-escalier-sécurisé(es)---propriété-cheminement_ext_reperage_marches) | booléen  | Non |
@@ -52,7 +55,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [cheminement_ext_pente_longueur](#longueur-de-la-pente---propriété-cheminement_ext_pente_longueur) | chaîne de caractères  | None |
 | [cheminement_ext_devers](#dévers---propriété-cheminement_ext_devers) | chaîne de caractères  | None |
 | [cheminement_ext_bande_guidage](#bande-de-guidage---propriété-cheminement_ext_bande_guidage) | booléen  | Non |
-| [cheminement_ext_retrecissement](#rétrécissement-du-cheminement---propriété-cheminement_ext_retrecissement) | booléen  | Non |
+| [cheminement_ext_retrecissement](#rétrécissement-du-chemin---propriété-cheminement_ext_retrecissement) | booléen  | Non |
 | [entree_reperage](#entrée-facilement-repérable---propriété-entree_reperage) | booléen  | Non |
 | [entree_vitree](#entrée-vitrée---propriété-entree_vitree) | booléen  | Non |
 | [entree_vitree_vitrophanie](#repérage-de-la-vitre---propriété-entree_vitree_vitrophanie) | booléen  | Non |
@@ -83,7 +86,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [accueil_cheminement_main_courante](#main-courante---propriété-accueil_cheminement_main_courante) | booléen  | Non |
 | [accueil_cheminement_rampe](#rampe---propriété-accueil_cheminement_rampe) | booléen  | Non |
 | [accueil_cheminement_sens_marches](#sens-de-circulation-de-l'escalier---propriété-accueil_cheminement_sens_marches) | chaîne de caractères  | None |
-| [accueil_retrecissement](#rétrécissement-du-cheminement---propriété-accueil_retrecissement) | booléen  | Non |
+| [accueil_retrecissement](#rétrécissement-du-chemin---propriété-accueil_retrecissement) | booléen  | Non |
 | [sanitaires_presence](#sanitaires---propriété-sanitaires_presence) | booléen  | Non |
 | [sanitaires_adaptes](#sanitaires-adaptés---propriété-sanitaires_adaptes) | nombre entier  | Non |
 | [labels](#marques-ou-labels---propriété-labels) | liste  | Non |
@@ -146,57 +149,75 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
-#### Propriété `coordinates`
+#### Propriété `contact_url`
 
-> *Description : Coordonnées GPS<br/>Ex : 90, 45*
+> *Description : Lien vers un moyen de contact (chatbot, formulaire, ...)<br/>Ex : https://site.com/contact*
 - Valeur optionnelle
-- Type : point géographique
+- Type : chaîne de caractères (format `uri`)
+
+#### Propriété `site_internet`
+
+> *Description : Site internet de l'établissement<br/>Ex : https://site.com/*
+- Valeur optionnelle
+- Type : chaîne de caractères (format `uri`)
+
+#### Propriété `longitude`
+
+> *Description : Coordonnées GPS: longitude<br/>Ex : 2.352222*
+- Valeur optionnelle
+- Type : nombre réel
+
+#### Propriété `latitude`
+
+> *Description : Coordonnées GPS: latitude<br/>Ex : 48.856613*
+- Valeur optionnelle
+- Type : nombre réel
 
 #### Proximité d'un arrêt de transport en commun - Propriété `transport_station_presence`
 
-> *Description : Arrêt de transport en commun à proximité (moins de 200 mètres)<br/>Ex : True*
+> *Description : Arrêt de transport en commun à moins de 200 mètres de l'établissement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Stationnement dans l'établissement - Propriété `stationnement_presence`
 
-> *Description : Présence de stationnement au sein de la parcelle de l'établissement<br/>Ex : True*
+> *Description : Des places de stationnement sont disponibles au sein de la parcelle de l'établissement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Stationnements adaptés dans l'établissement - Propriété `stationnement_pmr`
 
-> *Description : Présence de stationnement adapté au sein de la parcelle de l'établissement<br/>Ex : True*
+> *Description : Des places de stationnement adaptées sont disponibles au sein de la parcelle de l'établissement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Stationnement à proximité de l'établissement - Propriété `stationnement_ext_presence`
 
-> *Description : Présence de stationnement à proximité de l'établissement (moins de 200 mètres)<br/>Ex : True*
+> *Description : Des places de stationnement sont disponibles à moins de 200 mètres de l'établissement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Stationnements PMR à proximité de l'établissement - Propriété `stationnement_ext_pmr`
 
-> *Description : Présence de stationnement adapté à proximité de l'établissement (moins de 200 mètres)<br/>Ex : True*
+> *Description : Des places de stationnement adaptées sont disponibles à moins de 200 mètres de l'établissement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
-#### Cheminement extérieur - Propriété `cheminement_ext_presence`
+#### Chemin extérieur - Propriété `cheminement_ext_presence`
 
-> *Description : L'accès à l'entrée depuis la voirie se fait par un cheminement extérieur<br/>Ex : True*
+> *Description : L'accès à l'entrée depuis la voirie se fait par un chemin extérieur<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Revêtement extérieur - Propriété `cheminement_ext_terrain_accidente`
 
-> *Description : Ce revêtement est stable (absence de pavés, gravillons, terre, herbe, sable, ou toute surface non stabilisée)<br/>Ex : True*
+> *Description : Le revêtement est stable (absence de pavés, gravillons, terre, herbe, sable, ou toute surface non stabilisée)<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
-#### Cheminement extérieur de plain-pied - Propriété `cheminement_ext_plain_pied`
+#### Chemin extérieur de plain-pied - Propriété `cheminement_ext_plain_pied`
 
-> *Description : L'accès à cet espace se fait de plain-pied (sans rupture de niveau)<br/>Ex : True*
+> *Description : L'accès à cet espace se fait de plain-pied, c'est à dire sans rupture brutale de niveau<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
@@ -214,7 +235,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Marches ou escalier sécurisé(es) - Propriété `cheminement_ext_reperage_marches`
 
-> *Description : Nez de marche contrastés, bande d'éveil à la vigilance en haut de l'escalier et/ou première et dernière contremarches contrastées<br/>Ex : True*
+> *Description : Présence de nez de marche contrastés, d'une bande d'éveil à la vigilance en haut de l'escalier et/ou de première et dernière contremarches contrastées<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
@@ -229,13 +250,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Main courante - Propriété `cheminement_ext_main_courante`
 
-> *Description : L'escalier est-il équipé d'une ou plusieurs main-courantes ?<br/>Ex : True*
+> *Description : L'escalier est équipé d'une ou plusieurs main-courantes<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Rampe - Propriété `cheminement_ext_rampe`
 
-> *Description : Présence et type de rampe<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -245,13 +266,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Pente - Propriété `cheminement_ext_pente_presence`
 
-> *Description : Le cheminement est-il en pente ?<br/>Ex : True*
+> *Description : Le chemin est en pente<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Degré de difficulté de la pente - Propriété `cheminement_ext_pente_degre_difficulte`
 
-> *Description : Quel est son degré de difficulté ?<br/>Ex : Valeurs possibles: légère -> Légère, importante -> Importante*
+> *Description : Difficulté de la pente<br/>Ex : Valeurs possibles: légère -> Légère, importante -> Importante*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -260,7 +281,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Longueur de la pente - Propriété `cheminement_ext_pente_longueur`
 
-> *Description : Quelle est sa longueur ?<br/>Ex : Valeurs possibles: courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres*
+> *Description : Longueur de la pente<br/>Ex : Valeurs possibles: courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -270,7 +291,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Dévers - Propriété `cheminement_ext_devers`
 
-> *Description : Un dévers est une inclinaison transversale du cheminement. S'il en existe un, quel est son degré de difficulté ?<br/>Ex : Valeurs possibles: aucun -> Aucun, léger -> Léger, important -> Important*
+> *Description : Dévers ou inclinaison transversale du chemin<br/>Ex : Valeurs possibles: aucun -> Aucun, léger -> Léger, important -> Important*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -284,63 +305,63 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : booléen
 
-#### Rétrécissement du cheminement - Propriété `cheminement_ext_retrecissement`
+#### Rétrécissement du chemin - Propriété `cheminement_ext_retrecissement`
 
-> *Description : Un ou plusieurs rétrecissements (inférieurs à 80 cm) du chemin pour atteindre l'entrée<br/>Ex : True*
+> *Description : Un ou plusieurs rétrécissements inférieurs à 90 centimètres du chemin pour atteindre l'entrée<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Entrée facilement repérable - Propriété `entree_reperage`
 
-> *Description : Présence d'éléments facilitant le repérage de l'entrée de l'établissement (numéro de rue à proximité, enseigne, végétaux, éléments architecturaux contrastés, etc)<br/>Ex : True*
+> *Description : L'entrée de l'établissement est facilement repérable<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Entrée vitrée - Propriété `entree_vitree`
 
-> *Description : La porte d'entrée est-elle vitrée ?<br/>Ex : True*
+> *Description : La porte d'entrée est vitrée<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Repérage de la vitre - Propriété `entree_vitree_vitrophanie`
 
-> *Description : Présence d'éléments contrastés permettant de visualiser les parties vitrées de l'entrée<br/>Ex : True*
+> *Description : Des éléments contrastés permettent de visualiser les parties vitrées de l'entrée<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Entrée de plain-pied - Propriété `entree_plain_pied`
 
-> *Description : L'entrée se fait de plain-pied (sans rupture de niveau)<br/>Ex : True*
+> *Description : L'entrée se fait de plain-pied, c'est à dire sans rupture brutale de niveau<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Ascenseur/élévateur - Propriété `entree_ascenseur`
 
-> *Description : Existe-t-il un ascenseur ou un élévateur ?<br/>Ex : True*
+> *Description : Présence d'un ascenseur ou d'un élévateur<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Nombre de marches - Propriété `entree_marches`
 
-> *Description : Indiquer 0 s'il n'y a ni marche ni escalier<br/>Ex : 0*
+> *Description : Nombre de marches de l'escalier<br/>Ex : 0*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Repérage des marches - Propriété `entree_marches_reperage`
 
-> *Description : Nez de marche contrastés, bande d'éveil à la vigilance en haut de l'escalier et/ou première et dernière contremarches contrastées<br/>Ex : True*
+> *Description : Présence de nez de marche contrastés, d'une bande d'éveil à la vigilance en haut de l'escalier et/ou de première et dernière contremarches contrastées<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Main courante - Propriété `entree_marches_main_courante`
 
-> *Description : L'escalier est-il équipé d'une ou plusieurs main-courantes ?<br/>Ex : True*
+> *Description : L'escalier est équipé d'une ou plusieurs main-courantes<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Rampe - Propriété `entree_marches_rampe`
 
-> *Description : S'il existe une rampe ayant une pente douce, est-elle fixe ou amovible ?<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -371,13 +392,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Balise sonore à l'entrée - Propriété `entree_balise_sonore`
 
-> *Description : L'entrée est-elle équipée d'une balise sonore facilitant son repérage par une personne aveugle ou malvoyante ?<br/>Ex : True*
+> *Description : Présence d'une balise sonore facilitant son repérage par une personne aveugle ou malvoyante<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Aide humaine - Propriété `entree_aide_humaine`
 
-> *Description : Présence ou possibilité d'une aide humaine au déplacement<br/>Ex : True*
+> *Description : Possibilité d'une aide humaine au déplacement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
@@ -427,7 +448,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Personnel d'accueil - Propriété `accueil_personnels`
 
-> *Description : En cas de présence du personnel, est-il formé ou sensibilisé à l'accueil des personnes handicapées ?<br/>Ex : Valeurs possibles: aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés*
+> *Description : Personnel à l'accueil des personnes handicapées<br/>Ex : Valeurs possibles: aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -449,19 +470,19 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Chemin entre l'entrée principale du bâtiment et l'accueil de l'établissement - Propriété `accueil_cheminement_plain_pied`
 
-> *Description : L'accès à cet espace se fait de plain-pied (sans rupture de niveau)<br/>Ex : True*
+> *Description : L'accès à cet espace se fait de plain-pied, c'est à dire sans rupture brutale de niveau<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Ascenseur/élévateur - Propriété `accueil_cheminement_ascenseur`
 
-> *Description : Existe-t-il un ascenseur ou un élévateur ?<br/>Ex : True*
+> *Description : Présence d'un ascenseur ou un élévateur<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Nombre de marches - Propriété `accueil_cheminement_nombre_marches`
 
-> *Description : Indiquer 0 s'il n'y a ni marche ni escalier<br/>Ex : 0*
+> *Description : Nombre de marches de l'escalier<br/>Ex : 0*
 - Valeur optionnelle
 - Type : nombre entier
 
@@ -473,13 +494,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Main courante - Propriété `accueil_cheminement_main_courante`
 
-> *Description : L'escalier est-il équipé d'une ou plusieurs main-courantes ?<br/>Ex : True*
+> *Description : L'escalier est équipé d'une ou plusieurs main-courantes<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Rampe - Propriété `accueil_cheminement_rampe`
 
-> *Description : Présence et type de rampe<br/>Ex : True*
+> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
@@ -492,21 +513,21 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - montant
     - descendant
 
-#### Rétrécissement du cheminement - Propriété `accueil_retrecissement`
+#### Rétrécissement du chemin - Propriété `accueil_retrecissement`
 
-> *Description : Un ou plusieurs rétrecissements (inférieurs à 80 cm) du chemin pour atteindre l'entrée<br/>Ex : True*
+> *Description : Présence d'un ou plusieurs rétrécissements inférieurs à 90 centimètres du chemin pour atteindre l'entrée<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Sanitaires - Propriété `sanitaires_presence`
 
-> *Description : Mise à disposition de sanitaires dans l'établissement<br/>Ex : True*
+> *Description : Des sanitaires sont mis à disposition dans l'établissement<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
 #### Sanitaires adaptés - Propriété `sanitaires_adaptes`
 
-> *Description : Mise à disposition de sanitaires adaptés dans l'établissement<br/>Ex : 0*
+> *Description : Des sanitaires adaptés sont mis à disposition dans l'établissement<br/>Ex : 0*
 - Valeur optionnelle
 - Type : nombre entier
 
@@ -518,13 +539,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Famille(s) de handicap concernées(s) - Propriété `labels_familles_handicap`
 
-> *Description : Famille(s) de handicap couverte(s) par ces marques ou labels<br/>Ex : Valeurs possibles: auditif -> Auditif, mental -> Mental, moteur -> Moteur, visuel -> Visuel*
+> *Description : Famille(s) de handicap couverte(s) par ces marques ou labels<br/>Ex : Valeurs possibles: auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel*
 - Valeur optionnelle
 - Type : liste
 
 #### Registre - Propriété `registre_url`
 
-> *Description : Si l'établissement dispose d'un registre numérique, adresse internet à laquelle celui-ci est consultable<br/>Ex : https://handicap.gouv.fr/actualites/article/registre-d-accessibilite-obligatoire-un-guide-pour-les-erp*
+> *Description : Adresse internet à laquelle le registre est consultable<br/>Ex : https://handicap.gouv.fr/actualites/article/registre-d-accessibilite-obligatoire-un-guide-pour-les-erp*
 - Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)
 
