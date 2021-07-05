@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/0.2.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-lieux-covoiturage/latest/documentation.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.2.1/documentation.html
 title: Documentation de Lieux de covoiturage
-version: 0.2.0
+version: 0.2.1
 ---
 
 ## Lieux de covoiturage
@@ -24,6 +24,7 @@ Spécification des lieux permettant le covoiturage
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [id_lieu](#propriété-id_lieu) | chaîne de caractères  | Oui |
+| [id_local](#propriété-id_local) | chaîne de caractères  | Non |
 | [nom_lieu](#propriété-nom_lieu) | chaîne de caractères  | Oui |
 | [ad_lieu](#propriété-ad_lieu) | chaîne de caractères  | Non |
 | [com_lieu](#propriété-com_lieu) | chaîne de caractères  | Non |
@@ -48,6 +49,12 @@ Spécification des lieux permettant le covoiturage
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}-C-\d{3}$`
+
+#### Propriété `id_local`
+
+> *Description : Identifiant du lieu de covoiturage fixé par le producteur de la donnée pour son propre usage<br/>Ex : 23X01*
+- Valeur optionnelle
+- Type : chaîne de caractères
 
 #### Propriété `nom_lieu`
 

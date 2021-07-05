@@ -330,7 +330,7 @@ etalab/schema-lieux-covoiturage:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
-  latest_version: 0.2.0
+  latest_version: 0.2.1
   schemas:
   - examples:
     - name: exemple-valide
@@ -339,7 +339,7 @@ etalab/schema-lieux-covoiturage:
     - name: exemple-invalide
       path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-invalide.csv
       title: Ressource invalide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
@@ -349,6 +349,7 @@ etalab/schema-lieux-covoiturage:
     - 0.1.1
     - 0.1.2
     - 0.2.0
+    - 0.2.1
   title: Lieux de covoiturage
   type: tableschema
   versions:
@@ -357,6 +358,7 @@ etalab/schema-lieux-covoiturage:
   - 0.1.1
   - 0.1.2
   - 0.2.0
+  - 0.2.1
 etalab/schema-sdirve:
   consolidation: null
   description: Spécification du fichier d'échange relatif aux schéma directeur des
