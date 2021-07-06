@@ -1,8 +1,8 @@
 ---
-permalink: /datatourisme/ontology/2.4.7.html
-redirect_from: null
+permalink: /datatourisme/ontology/latest.html
+redirect_from: /datatourisme/ontology/2.4.8.html
 title: DATAtourisme
-version: 2.4.7
+version: 2.4.8
 ---
 
 DATAtourisme est un dispositif national porté par la [DIRECTION GENERALE DES ENTREPRISES](https://www.entreprises.gouv.fr/fr/la-direction-generale-des-entreprises-dge), en partenariat avec [ADN tourisme](https://www.adn-tourisme.fr/). Ce dispositif est composé d’une ontologie et d’une plateforme d’agrégation, de normalisation et de diffusion de données.

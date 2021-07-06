@@ -153,18 +153,21 @@ datatourisme/ontology:
   external_tool: null
   has_changelog: false
   homepage: https://framagit.org/datatourisme/ontology
-  latest_version: 2.4.7
+  latest_version: 2.4.8
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/datatourisme/ontology/2.4.7/schema.yml
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/datatourisme/ontology/2.4.8/schema.yml
     original_path: schema.yml
     path: schema.yml
     title: DATAtourisme
     versions:
     - 2.4.7
+    - 2.4.8
   title: DATAtourisme
   type: other
   versions:
   - 2.4.7
+  - 2.4.8
 etalab/schema-amenagements-cyclables:
   consolidation: null
   description: Spécification du schéma de données d'aménagements cyclables
