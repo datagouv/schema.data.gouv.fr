@@ -472,18 +472,21 @@ etalab/schema-zfe:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema_zfe
-  latest_version: 0.6.0
+  latest_version: 0.6.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.6.0/schema.json
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.6.1/schema.json
     original_path: schema.json
     path: schema.json
-    title: Zones à Faibles Emissions
+    title: Zone à Faibles Emissions
     versions:
     - 0.6.0
+    - 0.6.1
   title: Zone à Faibles Emissions
   type: jsonschema
   versions:
   - 0.6.0
+  - 0.6.1
 metis-reseaux/infos-travaux:
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.

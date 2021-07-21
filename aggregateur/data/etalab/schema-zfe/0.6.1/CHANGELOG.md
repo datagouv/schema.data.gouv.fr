@@ -1,8 +1,8 @@
 ---
 permalink: /etalab/schema-zfe/latest/changelog.html
-redirect_from: /etalab/schema-zfe/0.6.0/changelog.html
+redirect_from: /etalab/schema-zfe/0.6.1/changelog.html
 title: CHANGELOG de Zone à Faibles Emissions
-version: 0.6.0
+version: 0.6.1
 ---
 
 # Changelog

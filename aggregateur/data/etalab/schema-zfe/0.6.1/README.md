@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-zfe/0.6.0.html
-redirect_from: null
+permalink: /etalab/schema-zfe/latest.html
+redirect_from: /etalab/schema-zfe/0.6.1.html
 title: Zone à Faibles Emissions
-version: 0.6.0
+version: 0.6.1
 ---
 
 # Schéma de données pour les Zones à Faibles Emissions
@@ -84,13 +84,13 @@ Ce schéma s'appuie sur [TableSchema](https://specs.frictionlessdata.io/table-sc
 
 Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
 
-- [`CHANGELOG.md`](CHANGELOG.md) contient la liste des changements entre les différentes versions du schéma ;
-- [`exemple-valide-zone.geojson`](exemple-valide-zone.geojson) est un fichier GeoJSON d'exemple conforme décrivant une aire par rapport au schéma décrit dans `schema.json`  ;
-- [`exemple-valide-voie-speciale.geojson`](exemple-valide-voie-speciale.geojson) est un fichier GeoJSON d'exemple conforme décrivant une voie spéciale par rapport au schéma décrit dans `schema.json` ;
-- [`LICENSE.md`](LICENSE.md) est le fichier de licence du dépôt ;
-- [`README.md`](README.md) est le fichier que vous lisez actuellement ;
-- [`requirements.txt`](requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur le dépôt ;
-- [`schema.json`](schema.json) est le schéma au format Table Schema.
+- [`CHANGELOG.md`](https://github.com/etalab/schema-zfe/blob/master/CHANGELOG.md) contient la liste des changements entre les différentes versions du schéma ;
+- [`exemple-valide-zone.geojson`](https://github.com/etalab/schema-zfe/blob/master/exemple-valide-zone.geojson) est un fichier GeoJSON d'exemple conforme décrivant une aire par rapport au schéma décrit dans `schema.json`  ;
+- [`exemple-valide-voie-speciale.geojson`](https://github.com/etalab/schema-zfe/blob/master/exemple-valide-voie-speciale.geojson) est un fichier GeoJSON d'exemple conforme décrivant une voie spéciale par rapport au schéma décrit dans `schema.json` ;
+- [`LICENSE.md`](https://github.com/etalab/schema-zfe/blob/master/LICENSE.md) est le fichier de licence du dépôt ;
+- [`README.md`](https://github.com/etalab/schema-zfe/blob/master/README.md) est le fichier que vous lisez actuellement ;
+- [`requirements.txt`](https://github.com/etalab/schema-zfe/blob/master/requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur le dépôt ;
+- [`schema.json`](https://github.com/etalab/schema-zfe/blob/master/schema.json) est le schéma au format Table Schema.
 
 ### Intégration continue
 
