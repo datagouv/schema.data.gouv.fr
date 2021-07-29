@@ -471,21 +471,18 @@ etalab/schema-zfe:
   external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
   external_tool: null
   has_changelog: true
-  homepage: https://github.com/etalab/schema_zfe
+  homepage: https://github.com/etalab/schema-zfe
   latest_version: 0.6.1
   schemas:
-  - examples: []
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.6.1/schema.json
+  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.6.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Zone à Faibles Emissions
     versions:
-    - 0.6.0
     - 0.6.1
   title: Zone à Faibles Emissions
   type: jsonschema
   versions:
-  - 0.6.0
   - 0.6.1
 metis-reseaux/infos-travaux:
   consolidation: null
