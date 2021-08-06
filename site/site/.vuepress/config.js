@@ -8,7 +8,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: "Référentiel des schémas de données publiques pour la France",
+  description: "Référentiel de schémas de données publiques",
 
   markdown: {
     anchor: { permalink: false },
@@ -44,16 +44,20 @@ module.exports = {
     sidebar: {},
     menu: [
       {
-        "title": "Schémas",
+        "title": "Schémas référencés",
         "url": "/schemas.html",
       },
       {
-        "title": "Documentation",
-        "url": "/documentation.html",
+        "title": "Contribuer",
+        "url": "/contribuer.html",
       },
       {
-        "title": "Guide",
-        "url": "/guide.html",
+        "title": "En cours",
+        "url": "/encours.html",
+      },
+      {
+        "title": "Indicateurs",
+        "url": "/indicateurs.html",
       },
     ],
   

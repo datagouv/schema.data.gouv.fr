@@ -1,17 +1,43 @@
 <template>
   <div>
+    <div id="search-bar" class="rf-container rf-pb-6w rf-pt-2w">
+        <!--<br />
+        <p>
+            Les types de jeux de données ci-dessous sont issues du référentiel de schéma de
+            la plateforme schema.data.gouv.fr.
+        </p>-->
+        <br />
+        <div class="search-bar" id="header-search">
+            <input
+                v-model="searchText"
+                v-on:input="filterSchema()"
+                class="rf-input"
+                placeholder="Rechercher un type de jeu de données"
+                type="search" id="header-search-input"
+                name="header-search-input"
+            >
+        </div>
+    </div>
     <div class="boxes">
       <div
           class="box style-schema"
-          v-for="schema in schemas"
+          v-for="schema in schemasToShow"
           :key="schema.name"
           @click="goto(schema)"
       >
           <div style="color: black;" class="box-header">
               {{ truncateText(schema.title,75) }}
           </div>
-          <div style="color: black;" class="box-content">{{ truncateText(schema.description,100) }}</div>
-          <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
+          <div v-if="option == 'description'">
+            <div style="color: black;" class="box-content2">{{ truncateText(schema.description,100) }}</div>
+            <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
+            {{ messageSchema }}
+          </div>
+          <div v-if="stats && option == 'kpis'">
+             <br />
+             <div style="color: black;" class="box-content">{{ stats[schema.name] }} ressources sur data.gouv.fr</div>
+              <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
+          </div>
       </div>
   </div>
   </div>
@@ -19,21 +45,28 @@
 
 <script>
 
-
+import latinize from 'latinize';
 
 export default {
   name: "SchemaCards",
-  props: [],
+  props: [
+    'option'
+  ],
   data(){
     return{
-      schemas: null
+      searchText: '',
+      messageSchema: '',
+      schemas: null,
+      schemasToShow: null,
+      stats: null,
     };
   },
   mounted() {
     var dataSchemas = require('../../public/schemas.json')
-    console.log(dataSchemas)
     this.schemas = dataSchemas.schemas
-    console.log(this.schemas)
+    this.schemasToShow = dataSchemas.schemas
+    var statsSchemas = require('../../public/stats.json')
+    this.stats = statsSchemas
   },
   methods: {
     truncateText(desc,length){
@@ -43,7 +76,28 @@ export default {
       return desc;
     },
     goto(schema) {
-      this.$router.push(`schemas/${schema.name}`);
+      if(this.option && this.option == 'description') {
+        this.$router.push(`schemas/${schema.name}`);
+      }
+      if(this.option && this.option == 'kpis') {
+        window.location.href = 'https://www.data.gouv.fr/fr/datasets/?schema='+schema.name
+      }
+    },
+    filterSchema() {
+      if (this.searchText !== '') {
+        const obj = [];
+        this.schemas.forEach((schema) => {
+          if (latinize(schema.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
+            obj.push(schema);
+          }
+        });
+        this.schemasToShow = obj;
+        if (this.schemasToShow.length === 0) {
+          this.messageSchema = 'Aucun schéma trouvé';
+        }
+      } else {
+        this.schemasToShow = this.schemas;
+      }
     },
   },
 };
@@ -82,7 +136,7 @@ export default {
 }
 
 .box-header{
-  width: 280px;
+  width: 100%;
   padding-bottom: 30px;
   float: left;
   text-align: left;
@@ -97,5 +151,25 @@ export default {
   padding-top: 10px;
   font-size: 14px;
   font-weight: normal;
+}
+
+.box-content{
+  width: 100%;
+  min-height: 130px;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+.rf-input{
+  width: 100%;
+  height: 40px;
+  background-color: #ebebeb;
+  border: 0px;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid #0000B7;
 }
 </style>

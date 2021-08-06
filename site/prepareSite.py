@@ -6,6 +6,7 @@ import re
 from unidecode import unidecode
 import json
 import yaml
+import requests
 
 folder_to_remove = ['./site/schemas','./site/.vuepress/public/schemas']
 
@@ -95,7 +96,10 @@ with open("./site/.vuepress/public/schemas.yml", 'r') as stream:
 schemas = glob.glob("./site/schemas/*/*")
 
 mydict = {}
+stats = {}
 for s in schemas:
+    r = requests.get('https://www.data.gouv.fr/api/1/datasets/?schema='+s.split('./site/schemas/')[1])
+    stats[s.split('./site/schemas/')[1]] = r.json()['total']
     mydict[s.split('./site/schemas/')[1]] = {}
     mydict[s.split('./site/schemas/')[1]]['versions'] = {}
     max = '0.0.0'
@@ -121,3 +125,12 @@ for s in schemas:
 with open('./site/.vuepress/public/schema-infos.json', 'w') as fp:
     json.dump(mydict, fp,  indent=4)
 
+
+
+with open("../aggregateur/data/issues.yml", 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
+    with open('./site/.vuepress/public/issues.json', 'w') as fp:
+        json.dump(data_loaded, fp,  indent=4)
+
+with open('./site/.vuepress/public/stats.json', 'w') as fp:
+    json.dump(stats, fp,  indent=4)

@@ -1,14 +1,18 @@
 ---
 ---
+<br />
 
-## Test
+`schema.data.gouv.fr` est l'initiative de [data.gouv.fr](https://www.data.gouv.fr) de référencement des schémas de données publiques pour la France.
 
-Lors du cinquième comité interministériel de la transformation publique qui s’est tenu à Mont-de-Marsan le 5 février dernier, le Premier ministre s’est engagé à ce que le Gouvernement mène une politique d’ouverture de la donnée publique ambitieuse, visant à mieux exploiter, ouvrir, partager et valoriser les données publiques.
+### Qu'est-ce qu'un schéma ?
+Les schémas de données permettent de décrire des modèles de données : quels sont les différents champs, comment sont représentées les données, quelles sont les valeurs possibles etc.
 
-## Test
+### Cas d'usages des schémas
+Les schémas permettent entre autres de valider qu'un jeu de données se conforme à un schéma, de générer de la documentation automatiquement, de générer des jeux de données d'exemple ou de proposer des formulaires de saisie standardisés.
 
-Lors du cinquième comité interministériel de la transformation publique qui s’est tenu à Mont-de-Marsan le 5 février dernier, le Premier ministre s’est engagé à ce que le Gouvernement mène une politique d’ouverture de la donnée publique ambitieuse, visant à mieux exploiter, ouvrir, partager et valoriser les données publiques.
+### Vers des données de qualité
+Véritables gabarits, ils permettent une montée en qualité des données proposées en open data, surtout lorsque plusieurs producteurs de données produisent un même jeu de données.
 
-## Test
+Une plateforme de référencement nationale permet un accès aux schémas produits par différents acteurs et facilite l'intégration avec des systèmes informatiques par le biais de standards, d'URLs stables, de processus de validation et d'API.
 
-Lors du cinquième comité interministériel de la transformation publique qui s’est tenu à Mont-de-Marsan le 5 février dernier, le Premier ministre s’est engagé à ce que le Gouvernement mène une politique d’ouverture de la donnée publique ambitieuse, visant à mieux exploiter, ouvrir, partager et valoriser les données publiques.
+Nous vous invitons à [prendre connaissance d'un schéma](/etalab/schema-irve/latest.html) ou découvrir quelle est la procédure pour [ajouter un schéma](/documentation/ajouter-un-schema).

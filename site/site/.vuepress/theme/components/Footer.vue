@@ -48,6 +48,21 @@
       <div class="fr-footer__bottom">
         <ul class="fr-footer__bottom-list">
           <li class="fr-footer__bottom-item">
+            <a class="fr-footer__bottom-link" href="/initiatives"
+              >Initiatives similaires</a
+            >
+          </li>
+          <li class="fr-footer__bottom-item">
+            <a class="fr-footer__bottom-link" href="/validation"
+              >Validation des schémas</a
+            >
+          </li>
+          <li class="fr-footer__bottom-item">
+            <a class="fr-footer__bottom-link" href="/reglementaire"
+              >Schémas réglementaires</a
+            >
+          </li>
+          <li class="fr-footer__bottom-item">
             <a class="fr-footer__bottom-link" href="/accessibilite"
               >Accessibilité: non conforme</a
             >
