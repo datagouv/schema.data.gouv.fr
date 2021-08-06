@@ -1,0 +1,10 @@
+<%
+const attrs = {
+    href: locals.href,
+    target: locals.target || '_self'
+}
+
+if (locals.active) attrs['aria-current'] = locals.isPage ? 'page' : 'true';
+
+ %>
+<a class="<%= prefix %>-nav__link" <%- includeAttrs(attrs); %> ><%- label%></a>

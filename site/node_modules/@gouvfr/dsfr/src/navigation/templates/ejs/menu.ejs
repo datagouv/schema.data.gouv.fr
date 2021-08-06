@@ -1,0 +1,16 @@
+<%- include('./btn'); %>
+<div class="<%= prefix %>-collapse <%= prefix %>-menu" id="<%= collapseId %>" >
+    <ul class="<%= prefix %>-menu__list" >
+        <%
+            locals.active = false;
+            for (let i = 0; i < items.length; i++) {
+                const item = items[i];
+                item.isPage = true;
+        %>
+        <li>
+            <%- include('./link', item); %>
+        </li>
+        <% } %>
+    </ul>
+</div>
+

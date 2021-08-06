@@ -1,0 +1,10 @@
+////
+/// Core Module : Reset paragraph
+/// @group core
+////
+
+@if (map-get($reset-settings, text)) {
+  p {
+    @include text-style(md, true);
+  }
+}

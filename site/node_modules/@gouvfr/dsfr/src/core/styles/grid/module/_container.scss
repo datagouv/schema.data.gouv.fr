@@ -1,0 +1,9 @@
+////
+/// Core Module : Grid container
+/// @group core
+////
+
+#{ns(container)} {
+  @include size(100%);
+  @include margin-x(auto);
+}

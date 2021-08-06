@@ -1,0 +1,12 @@
+////
+/// Core Module : Typography
+/// @group core
+////
+
+@include font-weights();
+
+@include build-typography();
+
+#{ns(text--alt)} {
+  @include font-family(alt, true);
+}

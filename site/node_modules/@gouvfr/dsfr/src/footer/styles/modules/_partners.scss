@@ -1,0 +1,126 @@
+////
+/// Footer module : Partners
+/// @group Footer
+////
+
+/**
+ * La partie "partners" du footer est constituée de logos organisés
+ * en partenaires principaux (ferré à gauche) et secondaires (ferrés à droite)
+ */
+
+&__partners {
+  @include margin-top(4v);
+  @include padding-top(4v);
+
+  /**
+   * Style des liens qui entourent les logos partenaires
+   */
+  a {
+    @include display-flex(null, center, center);
+    @include size(160px, 90px);
+    // @include padding(2v);
+    box-shadow: none;
+    // @include margin(0 0 0 4v, md);
+  }
+
+  /**
+   * On surcharge le style du logo de base
+   */
+  #{ns(footer__logo)} {
+    @include size(auto, auto);
+    max-width: 100%;
+  }
+
+  + #{ns(footer__bottom)} {
+    @include margin-top(2v);
+  }
+}
+
+&__partners-title {
+  @include text-style(sm);
+  @include margin(0);
+  flex-basis: 100%;
+  text-align: center;
+
+  @include respond-from(sm) {
+    text-align: left;
+  }
+}
+
+/**
+ * Container des logos partenaires (principaux et secondaires)
+ */
+&__partners-logos {
+  @include display-flex(null, null, null, wrap);
+
+  @include respond-from(md) {
+    flex-wrap: nowrap;
+    @include margin(0 -4v);
+  }
+}
+
+/**
+ * Container des logos partenaires principaux
+ */
+&__partners-main {
+  flex-basis: 100%;
+  @include padding-top(2v);
+  @include display-flex(row,null,center);
+
+  a {
+    @include margin(0 0 0 4v, md);
+  }
+
+  + #{ns(footer__partners-sub)} {
+    @include padding-top(4v);
+
+    @include respond-from(md) {
+      & > ul {
+        justify-content: flex-end;
+
+        & > li {
+          @include margin(0 4v 0 0);
+
+          a {
+            @include margin-left(0);
+          }
+        }
+      }
+      @include padding-left(8v);
+      @include padding-top(0);
+    }
+  }
+
+  @include respond-from(sm) {
+    flex-basis: auto;
+    @include padding-top(0);
+    @include margin-top(2v);
+  }
+}
+
+/**
+ * Container des logos partenaires secondaires
+ */
+&__partners-sub {
+  @include margin(4v -4v 0, sm);
+  @include margin(2v 0 0 0, md);
+
+  &,
+  & > ul {
+    flex-basis: 100%;
+    @include display-flex(column, center, null, wrap);
+    @include respond-from(sm) {
+      flex-direction: row;
+    }
+  }
+
+  /**
+   * On surcharge le style du lien pour les logos secondaires
+   */
+  #{ns(footer)}__partners-link {
+    box-shadow: none;
+    @include margin(0);
+    @include margin-bottom(2v);
+    @include margin(0 0 2v 4v, sm);
+  }
+}

@@ -1,0 +1,66 @@
+////
+/// Navigation Module : Mega menu
+/// @group navigation
+////
+
+#{ns(mega-menu)} {
+  @include z-index(menu, true);
+  @include margin(0 -4v 1px);
+  @include padding(0 4v);
+
+  @include respond-from(lg) {
+    @include absolute(100%, 0, null, 0);
+    @include margin(-2px 0 0);
+    @include padding(0 0 9v);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  > #{ns(container)} {
+    @include respond-from(lg) {
+      @include before('', block) {
+        @include size(null, 2px);
+        @include margin-x(-4v);
+        @include margin-bottom(4v);
+      }
+    }
+  }
+
+  #{ns(link--close)} {
+    display: none;
+    @include respond-from(lg) {
+      display: flex;
+    }
+  }
+
+  #{ns(nav__link)} {
+    @include padding-x(4v);
+    @include before {
+      left: 0;
+    }
+    @include respond-from(lg) {
+      @include padding(3v 4v);
+      @include before {
+        left: 0;
+      }
+    }
+  }
+
+  &__leader {
+    @include padding-x(4v);
+    @include padding-x(0, lg);
+  }
+
+  &__category {
+    @include margin-bottom(0);
+  }
+
+  &__list {
+    @include padding-bottom(3v);
+    @include respond-from(lg) {
+      box-shadow: none;
+    }
+  }
+}

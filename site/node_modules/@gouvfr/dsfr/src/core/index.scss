@@ -1,0 +1,14 @@
+////
+/// Core
+/// @group core
+////
+
+@import 'config';
+@import 'icons';
+
+@import 'styles/settings';
+@import 'styles/tools';
+
+// TODO: à enlever quand la base de schemes sera dans le core
+@import '../schemes/styles/settings';
+@import '../schemes/styles/tools';

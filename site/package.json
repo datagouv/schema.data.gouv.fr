@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Etalab",
+    "email": ""
+  },
+  "repository": "/frontend",
+  "scripts": {
+    "dev": "vuepress dev site",
+    "build": "vuepress build site"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-vuepress": "^3.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.12.1",
+    "prettier": "2.3.2",
+    "vuepress": "^1.3.1"
+  },
+  "dependencies": {
+    "@gouvfr/dsfr": "^1.0.0",
+    "axios": "^0.19.2",
+    "moment": "^2.29.1",
+    "vue-loading-overlay": "^3.3.2",
+    "vuepress-plugin-matomo": "^1.0.2"
+  }
+}
