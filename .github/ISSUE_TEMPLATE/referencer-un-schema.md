@@ -19,5 +19,4 @@ _Ajoutez un `x`dans les crochets décrivant votre situation. Vous ensuite pouvez
 Mon schéma est :
 
 - [ ] **en investigation :** il est envisagé de créer un schéma pour modéliser une situation
-- [ ] **en cours d'élaboration :** ce schéma fait l'objet de discussions auprès de multiples partenaires
 - [ ] **en construction :** ce schéma est en cours d'implémentation après son élaboration
