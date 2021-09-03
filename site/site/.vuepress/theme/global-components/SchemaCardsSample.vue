@@ -48,7 +48,7 @@ export default {
       searchText: '',
       messageSchema: '',
       schemas: null,
-      schemasToShow: null,
+      schemasToShow: [],
       stats: null,
     };
   },
