@@ -1,27 +1,12 @@
 <template>
-  <div>
-    <div id="search-bar" class="rf-container rf-pb-6w rf-pt-2w">
-        <!--<br />
-        <p>
-            Les types de jeux de données ci-dessous sont issues du référentiel de schéma de
-            la plateforme schema.data.gouv.fr.
-        </p>-->
-        <br />
-        <div class="search-bar" id="header-search">
-            <input
-                v-model="searchText"
-                v-on:input="filterSchema()"
-                class="rf-input"
-                placeholder="Rechercher un schéma de données"
-                type="search" id="header-search-input"
-                name="header-search-input"
-            >
-        </div>
+  <div class="schemaCardsSample">
+    <div class="fr-container schemaCardsTitle">
+      Découvrez les schémas référencés
     </div>
-    <div class="boxes">
+    <div class="fr-container boxes">
       <div
           class="box style-schema"
-          v-for="schema in schemasToShow"
+          v-for="schema in schemasToShow.slice(0,3)"
           :key="schema.name"
           @click="goto(schema)"
       >
@@ -29,16 +14,23 @@
               {{ truncateText(schema.title,75) }}
           </div>
           <div v-if="option == 'description'">
-            <div class="box-content2">{{ truncateText(schema.description,100) }}</div>
+            <div style="color: black;" class="box-content2">{{ truncateText(schema.description,100) }}</div>
             <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
             {{ messageSchema }}
           </div>
+          <div v-if="stats && option == 'kpis'">
+             <br />
+             <div style="color: black;" class="box-content">{{ stats[schema.name] }} ressources sur data.gouv.fr</div>
+              <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
+          </div>
       </div>
-      <div class="noSchemaDiv" v-if="schemasToShow.length === 0">
-        <div class="noSchemaMessage" >{{ messageSchema }}</div>
-        <div @click="gotoInternal('/contribuer.html')" class="addSchemaDiv">+ Ajouter un schéma</div>
-      </div>
-  </div>
+    </div>
+    <div class="schemaCardsSampleButtonDiv">
+      <button @click="maingoto()" class="schemaCardsSampleButton fr-btn fr-btn--secondary">
+          Voir tous les schémas référencés&nbsp;&nbsp;
+          <img src="../../public/assets/right-arrow.png" width="15" />
+      </button>
+    </div>
   </div>
 </template>
 
@@ -74,16 +66,16 @@ export default {
       } 
       return desc;
     },
+    maingoto() {
+      window.location.href = window.location.origin + '/schemas.html'
+    },
     goto(schema) {
       if(this.option && this.option == 'description') {
-        this.$router.push(`schemas/${schema.name}`);
+        window.location.href = window.location.origin + '/schemas/' + schema.name;
       }
       if(this.option && this.option == 'kpis') {
         window.location.href = 'https://www.data.gouv.fr/fr/datasets/?schema='+schema.name
       }
-    },
-    gotoInternal(url) {
-      window.location.href = window.location.origin + url;
     },
     filterSchema() {
       if (this.searchText !== '') {
@@ -96,8 +88,6 @@ export default {
         this.schemasToShow = obj;
         if (this.schemasToShow.length === 0) {
           this.messageSchema = 'Aucun schéma trouvé';
-        } else {
-          this.messageSchema = '';
         }
       } else {
         this.schemasToShow = this.schemas;
@@ -108,6 +98,26 @@ export default {
 </script>
 
 <style scoped>
+
+.schemaCardsSample{
+  background-color: #000091;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.schemaCardsTitle{
+  color: white;
+  text-align: center;
+}
+
+.schemaCardsSampleButtonDiv{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.schemaCardsSampleButton{
+    background-color: white;
+}
 
 .boxes{
   display: flex;
@@ -175,28 +185,5 @@ export default {
   padding: 10px;
   font-size: 18px;
   border-bottom: 2px solid #0000B7;
-}
-
-.noSchemaDiv{
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
-.noSchemaMessage{
-  background-color: #ebebeb;
-  padding: 10px;
-  border-radius: 15px;
-  float: left;
-  margin-right: 30px;
-  border: 2px solid #ebebeb;
-}
-.addSchemaDiv{
-  border: 2px solid #000091;
-  float: left;
-  padding: 10px;
-  border-radius: 15px;
-  color: #000091;
-  cursor: pointer;
 }
 </style>

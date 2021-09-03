@@ -1,3 +1,4 @@
+<br />
 
 ## Schémas réglementaires
 
@@ -28,3 +29,5 @@ Voir [le schéma associé](/scdl/subventions/).
 Voir [le schéma associé](/etalab/format-commande-publique/).
 
 - [Arrêté du 22 mars 2019 relatif aux données essentielles dans la commande publique](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038318675) (l'arrêté initial date du 14 avril 2017)
+
+<br />

@@ -78,9 +78,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json"
+            },
+            "0.2.1": {
+                "pages": [
+                    "CHANGELOG.md",
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/schemas/NaturalSolutions/schema-arbre/0.2.1/schema.json"
             }
         },
-        "latest": "0.2.0",
+        "latest": "0.2.1",
         "homepage": "https://github.com/NaturalSolutions/schema-arbre",
         "email": "contact@natural-solutions.eu",
         "external_tool": null,

@@ -1,13 +1,22 @@
 <template>
-    <div class="menuBar">
+    <div>
         <div class="fr-container">
-            <span 
-                v-for="menu in $site.themeConfig.menu" v-bind:key="menu.title"
-                class="menuItem"
-            >
-                <span class="menuButton" @click="goto(menu.url)">{{ menu.title }}</span>
-            </span>
+            <div class="menuBar">
+                <span  v-for="menu in $site.themeConfig.menu" v-bind:key="menu.title">
+                    <div v-if="menu.url === $router.currentRoute.path"
+                        class="menuItemSelect"
+                    >
+                        <span class="menuButton" @click="goto(menu.url)">{{ menu.title }}</span>
+                    </div>
+                    <div v-if="menu.url != $router.currentRoute.path"
+                        class="menuItem"
+                    >
+                        <span class="menuButton" @click="goto(menu.url)">{{ menu.title }}</span>
+                    </div>
+                </span>
+            </div>
         </div>
+        <div class="subline"></div>
     </div>
 </template>
 
@@ -25,7 +34,7 @@ export default {
   },
   methods: {
     goto(url) {
-        this.$router.push(url);
+        window.location.href = window.location.origin + url;
     },
   },
 };
@@ -34,16 +43,27 @@ export default {
 
 <style lang="stylus" scoped>
 .menuItem{
-    font-size: 18px;
-    padding-right: 30px;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 100%;
+}
+.menuItemSelect{
+    font-size: 15px;
+    padding: 19px;
+    line-height: 100%;
+    color: #000091;
+    border-bottom: 2px solid #000091;
+}
+.menuItem:hover{
+    background-color: #ebebeb;
 }
 .menuBar{
-    margin-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #ebebeb;
-    margin-bottom: 15px;
+    display: flex;
 }
 .menuButton{
     cursor: pointer;
+}
+.subline{
+    border-bottom: 2px solid #ebebeb;
 }
 </style>

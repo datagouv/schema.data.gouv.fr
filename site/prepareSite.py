@@ -7,6 +7,7 @@ from unidecode import unidecode
 import json
 import yaml
 import requests
+from urllib import parse
 
 folder_to_remove = ['./site/schemas','./site/.vuepress/public/schemas']
 
@@ -58,6 +59,21 @@ def find_md_links(md):
     return links
 
 
+def get_contributors(url):
+
+    parse_url = parse.urlsplit(url)
+    if('github.com' in parse_url.netloc):
+        api_url =  parse_url.scheme+'://api.github.com/repos/'+parse_url.path[1:].replace('.git','')+'/contributors'
+    else:
+        api_url =  parse_url.scheme+'://'+parse_url.netloc+'/api/v4/projects/'+parse_url.path[1:].replace('/','%2F').replace('.git','')+'/repository/contributors'
+    try:
+        r = requests.get(api_url)
+        return len(r.json())
+    except:
+        return None
+        
+
+
 allfiles = getListOfFiles('../aggregateur/data/')
 
 for af in allfiles:
@@ -99,7 +115,9 @@ mydict = {}
 stats = {}
 for s in schemas:
     r = requests.get('https://www.data.gouv.fr/api/1/datasets/?schema='+s.split('./site/schemas/')[1])
-    stats[s.split('./site/schemas/')[1]] = r.json()['total']
+    stats[s.split('./site/schemas/')[1]] = {}
+    stats[s.split('./site/schemas/')[1]]['dgv_resources'] = r.json()['total']
+    stats[s.split('./site/schemas/')[1]]['title'] = data_loaded[s.split('./site/schemas/')[1]]['title']
     mydict[s.split('./site/schemas/')[1]] = {}
     mydict[s.split('./site/schemas/')[1]]['versions'] = {}
     max = '0.0.0'
@@ -116,6 +134,10 @@ for s in schemas:
             max = sub.split(s+"/")[1]
     mydict[s.split('./site/schemas/')[1]]['latest'] = max
     mydict[s.split('./site/schemas/')[1]]['homepage'] = data_loaded[s.split('./site/schemas/')[1]]['homepage']
+
+    
+    stats[s.split('./site/schemas/')[1]]['contributors'] = get_contributors(data_loaded[s.split('./site/schemas/')[1]]['homepage'])
+
     mydict[s.split('./site/schemas/')[1]]['email'] = data_loaded[s.split('./site/schemas/')[1]]['email']
     mydict[s.split('./site/schemas/')[1]]['external_tool'] = data_loaded[s.split('./site/schemas/')[1]]['external_tool']
     mydict[s.split('./site/schemas/')[1]]['external_doc'] = data_loaded[s.split('./site/schemas/')[1]]['external_doc']
@@ -129,8 +151,10 @@ with open('./site/.vuepress/public/schema-infos.json', 'w') as fp:
 
 with open("../aggregateur/data/issues.yml", 'r') as stream:
     data_loaded = yaml.safe_load(stream)
-    with open('./site/.vuepress/public/issues.json', 'w') as fp:
-        json.dump(data_loaded, fp,  indent=4)
+    data_loaded['references'] = stats
 
-with open('./site/.vuepress/public/stats.json', 'w') as fp:
-    json.dump(stats, fp,  indent=4)
+    r = requests.get('https://api.github.com/repos/etalab/schema.data.gouv.fr/issues?q=is%3Aopen+is%3Aissue')
+    data_loaded['nb_issues'] = len(r.json())
+
+    with open('./site/.vuepress/public/stats.json', 'w') as fp:
+        json.dump(data_loaded, fp,  indent=4)

@@ -1,92 +1,98 @@
 <template>
   <div>
       <div v-if="schema_infos && version">
+        <br />
+        <div class="externalActions">
+                <span v-if="schema_infos['external_doc']">
+                    <button
+                        class="fr-btn"
+                        @click="gotoExternalLink(schema_infos['external_doc'])"
+                    >
+                        <img src="../../public/assets/file.png" width="15" />&nbsp;
+                        Doc externe
+                    </button>
+                </span>           
+                <span v-if="schema_infos['external_tool']">
+                    <button 
+                        class="fr-btn"
+                        @click="gotoExternalLink(schema_infos['external_tool'])"
+                    >
+                        <img src="../../public/assets/pencil.png" width="15" />&nbsp;
+                        Saisir des données
+                    </button>
+                </span>     
+                <span v-if="schema && schema_infos['type'] == 'tableschema'">
+                    <button
+                        class="fr-btn"
+                        @click="gotoExternalLink('https://publier.etalab.studio/select?schema='+schema)"
+                    >
+                        <img src="../../public/assets/pencil.png" width="15" />&nbsp;
+                        Saisir ou valider mes données
+                    </button>
+                </span>     
+                <button 
+                    @click="gotoSchema()" 
+                    class="fr-btn"
+                >
+                    <img src="../../public/assets/gear.png" width="15" />&nbsp;
+                    Schéma
+                </button>
+                <button 
+                    @click="gotoExternalLink('https://www.data.gouv.fr/fr/datasets?schema='+schema)" 
+                    class="fr-btn"
+                >
+                    <img src="../../public/assets/gear.png" width="15" />&nbsp;
+                    Données
+                </button>
+                <button 
+                    @click="gotoExternalLink(schema_infos['homepage'])" 
+                    class="fr-btn"
+                >
+                    <img src="../../public/assets/commit-git.png" width="15" />&nbsp;
+                    Git
+                </button>
+        </div>
+        <br />
+        
         <div class="boxes">
             <div class="box-left">
-                Version du schéma :
-                <select class="fr-select-custom" @change="changeVersion()" v-model="optionSelect" >
-                    <option :selected="version == key" v-for="(value, key) in schema_infos.versions" v-bind:key="key" :value="key">{{ key }}</option>
-                </select>
-            </div>
-            <div class="box-right">
+                
                 <button 
                     @click="gotoInternal('')" 
-                    class="fr-btn fr-btn--secondary"
+                    class="ongletItem"
+                    :style="this.pageInfo ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
                 >
                     <img src="../../public/assets/info.png" width="15" />&nbsp;
                     Infos
                 </button>
-                <button 
-                    @click="gotoSchema()" 
-                    class="fr-btn fr-btn--secondary"
-                >
-                    <img src="../../public/assets/structure-moleculaire.png" width="15" />&nbsp;
-                    Schéma
-                </button>
-                <button 
-                    @click="gotoExternalLink(schema_infos['homepage'])" 
-                    class="fr-btn fr-btn--secondary"
-                >
-                    <img src="../../public/assets/valider-git.png" width="15" />&nbsp;
-                    Git
-                </button>
+                <span v-if="schema_infos['versions'][version]['pages'].includes('documentation.md')">
+                    <button 
+                        class="ongletItem"
+                        :style="this.pageDoc ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
+                        @click="gotoInternal('documentation.html')"
+                    >
+                        <img src="../../public/assets/file-blue.png" width="15" />&nbsp;
+                        Documentation
+                    </button>
+                </span>
                 <span v-if="schema_infos['versions'][version]['pages'].includes('CHANGELOG.md')">
                     <button 
                         @click="gotoInternal('CHANGELOG.html')"
-                        class="fr-btn fr-btn--secondary"
+                        class="ongletItem"
+                        :style="this.pageChange ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
                     >
                         <img src="../../public/assets/couple-de-fleches-changeant-de-place.png" width="15" />&nbsp;
                         Changements
                     </button>
                 </span>
             </div>
+            <div class="box-right">
+                Version du schéma :
+                <select class="fr-select-custom" @change="changeVersion()" v-model="optionSelect" >
+                    <option :selected="version == key" v-for="(value, key) in schema_infos.versions" v-bind:key="key" :value="key">{{ key }}</option>
+                </select>
+            </div>
         </div>
-        <br /><br />
-        <span v-if="schema_infos['versions'][version]['pages'].includes('documentation.md')">
-            <button 
-                class="fr-btn"
-                @click="gotoInternal('documentation.html')"
-            >
-                <img src="../../public/assets/file.png" width="15" />&nbsp;
-                Lire la documentation
-            </button>
-        </span>
-        <span v-if="schema_infos['external_doc']">
-            <button
-                class="fr-btn"
-                @click="gotoExternalLink(schema_infos['external_doc'])"
-            >
-                <img src="../../public/assets/file.png" width="15" />&nbsp;
-                Documentation externe
-            </button>
-        </span>
-        <span v-if="schema_infos['external_tool']">
-            <button 
-                class="fr-btn"
-                @click="gotoExternalLink(schema_infos['external_tool'])"
-            >
-                <img src="../../public/assets/pencil.png" width="15" />&nbsp;
-                Saisir des données
-            </button>
-        </span>
-        <span v-if="schema && schema_infos['type'] == 'tableschema'">
-            <button
-                class="fr-btn"
-                @click="gotoExternalLink('https://publier.etalab.studio/select?schema='+schema)"
-            >
-                <img src="../../public/assets/pencil.png" width="15" />&nbsp;
-                Saisir des données
-            </button>
-        </span>
-        <span v-if="schema && schema_infos['type'] == 'tableschema'">
-            <button 
-                class="fr-btn"
-                @click="gotoExternalLink('https://publier.etalab.studio/upload?schema='+schema)"
-            >
-                <img src="../../public/assets/checked-box.png" width="15" />&nbsp;
-                Valider mes données
-            </button>
-        </span>
       </div>
       <br />
       <br />
@@ -103,6 +109,9 @@ export default {
         schema: null,
         version: null,
         optionSelect: null,
+        pageInfo: false,
+        pageDoc: false,
+        pageChange: false,
     };
   },
   computed: {
@@ -120,7 +129,17 @@ export default {
       } else {
           this.version = this.schema_infos['latest']
       }
+      
+      var last = this.$router.currentRoute.path.split('/')[this.$router.currentRoute.path.split('/').length - 1]
+      if(last == ''){
+        this.pageInfo = true
+      } else if(last == 'documentation.html'){
+        this.pageDoc = true
+      } else if(last == 'CHANGELOG.html'){
+        this.pageChange = true
+      }
       this.optionSelect = this.version
+      
   },
   methods: {
       gotoInternal(page){
@@ -143,6 +162,21 @@ export default {
 
 <style>
 
+.ongletItem{
+    padding: 15px;
+    background-color: white;
+    margin-right: 0px;
+    border-top-left-radius: 5px;
+}
+.ongletItem:hover{
+    background-color: var(--bf200-bf300); 
+}
+
+.externalActions{
+    width: 100%;
+    text-align: right;
+}
+
 .boxes{
   display: flex;
   flex-direction: row;
@@ -151,15 +185,16 @@ export default {
   margin-top: 30px;
 }
 
-.box-left{
-  width: 50%;
-  font-size: 20px;
-  text-align: left;
+.box-right{
+  width: 25%;
+  font-size: 16px;
+  text-align: right;
   line-height: 40px;
 }
-.box-right{
-  width: 50%;
-  text-align: right;
+.box-left{
+  width: 75%;
+  display: flex;
+  border-bottom: 1px solid #000091;
 }
 
 .fr-select-custom{

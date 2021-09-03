@@ -44,22 +44,55 @@ module.exports = {
     sidebar: {},
     menu: [
       {
+        "title": "Accueil",
+        "url": "/"
+      },
+      {
         "title": "Schémas référencés",
         "url": "/schemas.html",
+      },
+      {
+        "title": "Schémas en cours",
+        "url": "/encours.html",
       },
       {
         "title": "Contribuer",
         "url": "/contribuer.html",
       },
       {
-        "title": "En cours",
-        "url": "/encours.html",
+        "title": "Initiatives similaires",
+        "url": "/initiatives.html",
       },
       {
-        "title": "Indicateurs",
-        "url": "/indicateurs.html",
+        "title": "Stats",
+        "url": "/statistiques.html",
       },
     ],
+    hero: {
+      title: "Schema.data.gouv.fr",
+      subtitle: "Bienvenue sur l'initiative de data.gouv.fr de référencement des schémas de données publiques pour la France.",
+      button1: "Voir tous les schémas de données",
+      url1: "/schemas.html",
+      button2: 'Saisir des données structurées sur publier.etalab.studio',
+      url2: 'https://publier.etalab.studio'
+    },
+    presentationBox: [
+      {
+        img: '/assets/magnifying-glass.png',
+        text: 'Naviguez parmi tous les schémas de données référencés',
+        url: '/schemas.html'
+      },
+      {
+        img: '/assets/chat.png',
+        text: 'Contribuez en proposant votre propre schéma',
+        url: '/contribuer.html'
+      },
+      {
+        img: '/assets/tick-mark.png',
+        text: 'Consulter les données respectant ces schémas',
+        url: '/indicateurs.html'
+      }
+    ]
   
   },
 

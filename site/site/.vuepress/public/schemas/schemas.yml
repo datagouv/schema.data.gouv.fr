@@ -90,7 +90,7 @@ NaturalSolutions/schema-arbre:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/NaturalSolutions/schema-arbre
-  latest_version: 0.2.0
+  latest_version: 0.2.1
   schemas:
   - examples:
     - name: exemple-valide-csv
@@ -99,18 +99,20 @@ NaturalSolutions/schema-arbre:
     - name: exemple-valide-xlsx
       path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.xlsx
       title: Ressource valide (XLSX)
-    latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Schéma des attributs des arbres urbains
     versions:
     - 0.1.0
     - 0.2.0
+    - 0.2.1
   title: Schéma des attributs des arbres urbains
   type: tableschema
   versions:
   - 0.1.0
   - 0.2.0
+  - 0.2.1
 arsante/schema-dae:
   consolidation: null
   description: Spécification du modèle de données relatif aux DAE

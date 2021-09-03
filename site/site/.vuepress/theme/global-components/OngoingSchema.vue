@@ -25,7 +25,7 @@ export default {
     };
   },
   mounted() {
-      let datafile = require('../../public/issues.json')
+      let datafile = require('../../public/stats.json')
       this.ongoingSchemas = datafile
       this.ongoingSchemas[this.keyType].forEach((el) => {
           el.dateFr = moment(String(el.created_at)).format('DD/MM/YYYY')

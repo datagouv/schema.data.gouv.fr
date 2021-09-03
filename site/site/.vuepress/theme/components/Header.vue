@@ -28,6 +28,8 @@
 <style scoped>
 .fr-header-custom{
   border-bottom: 2px solid #EBEBEB;
+  padding-bottom:0px;
+  margin-bottom: 0px;
 }
 
 </style>

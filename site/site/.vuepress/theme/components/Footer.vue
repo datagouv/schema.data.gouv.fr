@@ -1,5 +1,5 @@
 <template>
-  <footer id="footer" class="fr-footer fr-mt-4w" role="contentinfo">
+  <footer id="footer" class="fr-footer" role="contentinfo">
     <div class="fr-container">
       <div class="fr-footer__body">
         <div class="fr-footer__brand fr-enlarge-link">
@@ -48,27 +48,22 @@
       <div class="fr-footer__bottom">
         <ul class="fr-footer__bottom-list">
           <li class="fr-footer__bottom-item">
-            <a class="fr-footer__bottom-link" href="/initiatives"
-              >Initiatives similaires</a
-            >
-          </li>
-          <li class="fr-footer__bottom-item">
-            <a class="fr-footer__bottom-link" href="/validation"
+            <a class="fr-footer__bottom-link" href="/validation.html"
               >Validation des schémas</a
             >
           </li>
           <li class="fr-footer__bottom-item">
-            <a class="fr-footer__bottom-link" href="/reglementaire"
+            <a class="fr-footer__bottom-link" href="/reglementaire.html"
               >Schémas réglementaires</a
             >
           </li>
           <li class="fr-footer__bottom-item">
-            <a class="fr-footer__bottom-link" href="/accessibilite"
+            <a class="fr-footer__bottom-link" href="/accessibilite.html"
               >Accessibilité: non conforme</a
             >
           </li>
           <li class="fr-footer__bottom-item">
-            <a class="fr-footer__bottom-link" href="/confidentialite"
+            <a class="fr-footer__bottom-link" href="/confidentialite.html"
               >Politique de confidentialité</a
             >
           </li>

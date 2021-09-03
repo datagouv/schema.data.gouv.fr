@@ -1,3 +1,6 @@
-### Vous recherchez un schéma ? Vous êtes au bon endroit !
+
+<br />
+
+### Vous recherchez un schéma de données ? Vous êtes au bon endroit !
 
 <SchemaCards option="description" />
