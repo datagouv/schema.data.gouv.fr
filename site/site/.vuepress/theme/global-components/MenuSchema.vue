@@ -118,20 +118,20 @@ export default {
   },
   mounted() {
       const si = require('../../public/schema-infos.json');
-      this.schema = this.$router.currentRoute.path.split('/')[2]+"/"+this.$router.currentRoute.path.split('/')[3]
+      this.schema = this.$router.currentRoute.path.split('/')[1]+"/"+this.$router.currentRoute.path.split('/')[2]
       for (const [key, value] of Object.entries(si)) {
         if(key == this.schema) {
             this.schema_infos = value;
         }
       }
-      if (this.$router.currentRoute.path.split('/').length > 5) {
-          this.version = this.$router.currentRoute.path.split('/')[4]
+      if (this.$router.currentRoute.path.split('/').length > 4) {
+          this.version = this.$router.currentRoute.path.split('/')[3]
       } else {
           this.version = this.schema_infos['latest']
       }
       
       var last = this.$router.currentRoute.path.split('/')[this.$router.currentRoute.path.split('/').length - 1]
-      if(last == ''){
+      if((last == '') | (last == 'latest.html')){
         this.pageInfo = true
       } else if(last == 'documentation.html'){
         this.pageDoc = true
@@ -143,7 +143,7 @@ export default {
   },
   methods: {
       gotoInternal(page){
-          let link = '/schemas/'+this.schema+'/'+this.version+'/'+page
+          let link = '/'+this.schema+'/'+this.version+'/'+page
           if (this.$router.currentRoute.path !== link) this.$router.push(link)
       },
       gotoSchema(){
@@ -153,7 +153,7 @@ export default {
         window.location.href = link
       },
       changeVersion(){
-          let link = '/schemas/'+this.schema+'/'+this.optionSelect+'/'
+          let link = '/'+this.schema+'/'+this.optionSelect+'/'
           if (this.$router.currentRoute.path !== link) this.$router.push(link)
       }
   },

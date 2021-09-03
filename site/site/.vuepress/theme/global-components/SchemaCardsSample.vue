@@ -71,7 +71,7 @@ export default {
     },
     goto(schema) {
       if(this.option && this.option == 'description') {
-        window.location.href = window.location.origin + '/schemas/' + schema.name;
+        window.location.href = window.location.origin + '/' + schema.name;
       }
       if(this.option && this.option == 'kpis') {
         window.location.href = 'https://www.data.gouv.fr/fr/datasets/?schema='+schema.name

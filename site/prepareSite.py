@@ -9,7 +9,8 @@ import yaml
 import requests
 from urllib import parse
 
-folder_to_remove = ['./site/schemas','./site/.vuepress/public/schemas']
+folder_to_remove = glob.glob('./site/*/')
+folder_to_remove.append('./site/.vuepress/public/schemas')
 
 for folder in folder_to_remove:
     if os.path.exists(folder):
@@ -78,9 +79,9 @@ allfiles = getListOfFiles('../aggregateur/data/')
 
 for af in allfiles:
     if(af.split('.')[-1] == 'md'):
-        os.makedirs(os.path.dirname(af.replace('../aggregateur/data','./site/schemas')), exist_ok=True)
-        shutil.copy(af, af.replace('../aggregateur/data','./site/schemas'))
-        with open(af.replace('../aggregateur/data','./site/schemas'), 'r') as file:
+        os.makedirs(os.path.dirname(af.replace('../aggregateur/data','./site')), exist_ok=True)
+        shutil.copy(af, af.replace('../aggregateur/data','./site'))
+        with open(af.replace('../aggregateur/data','./site'), 'r') as file:
             data = file.read()
             data = '---'.join(data.split('---')[2:])
             data = "<MenuSchema />"+data
@@ -97,7 +98,7 @@ for af in allfiles:
                         newlink = newlink.replace('---','-')
                         data = data.replace(link,newlink)
             
-            fin = open(af.replace('../aggregateur/data','./site/schemas'), "wt")
+            fin = open(af.replace('../aggregateur/data','./site'), "wt")
             fin.write(data)
     else:
         os.makedirs(os.path.dirname(af.replace('../aggregateur/data','./site/.vuepress/public/schemas')), exist_ok=True)
@@ -109,40 +110,41 @@ with open("./site/.vuepress/public/schemas.yml", 'r') as stream:
     data_loaded = yaml.safe_load(stream)
 
 
-schemas = glob.glob("./site/schemas/*/*")
+schemas = glob.glob("./site/*/*")
 
 mydict = {}
 stats = {}
 for s in schemas:
-    r = requests.get('https://www.data.gouv.fr/api/1/datasets/?schema='+s.split('./site/schemas/')[1])
-    stats[s.split('./site/schemas/')[1]] = {}
-    stats[s.split('./site/schemas/')[1]]['dgv_resources'] = r.json()['total']
-    stats[s.split('./site/schemas/')[1]]['title'] = data_loaded[s.split('./site/schemas/')[1]]['title']
-    mydict[s.split('./site/schemas/')[1]] = {}
-    mydict[s.split('./site/schemas/')[1]]['versions'] = {}
+    r = requests.get('https://www.data.gouv.fr/api/1/datasets/?schema='+s.split('./site/')[1])
+    stats[s.split('./site/')[1]] = {}
+    stats[s.split('./site/')[1]]['dgv_resources'] = r.json()['total']
+    stats[s.split('./site/')[1]]['title'] = data_loaded[s.split('./site/')[1]]['title']
+    mydict[s.split('./site/')[1]] = {}
+    mydict[s.split('./site/')[1]]['versions'] = {}
     max = '0.0.0'
     for sub in glob.glob(s+"/*"):
-        mydict[s.split('./site/schemas/')[1]]['versions'][sub.split(s+"/")[1]] = {}
-        mydict[s.split('./site/schemas/')[1]]['versions'][sub.split(s+"/")[1]]['pages'] = []
+        mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]] = {}
+        mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['pages'] = []
         pages = glob.glob(sub+"/*")
         for p in pages:
-           mydict[s.split('./site/schemas/')[1]]['versions'][sub.split(s+"/")[1]]['pages'].append(p.split(sub+"/")[1]) 
-        for schema_info in data_loaded[s.split('./site/schemas/')[1]]['schemas']:
+           mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['pages'].append(p.split(sub+"/")[1]) 
+        for schema_info in data_loaded[s.split('./site/')[1]]['schemas']:
             if(sub.split(s+"/")[1] in schema_info['versions']):
-                mydict[s.split('./site/schemas/')[1]]['versions'][sub.split(s+"/")[1]]['schema_url'] = '/schemas/'+s.split('./site/schemas/')[1]+'/'+sub.split(s+"/")[1]+'/'+schema_info['path']
+                mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['schema_url'] = '/'+s.split('./site/')[1]+'/'+sub.split(s+"/")[1]+'/'+schema_info['path']
         if(sub.split(s+"/")[1] > max):
             max = sub.split(s+"/")[1]
-    mydict[s.split('./site/schemas/')[1]]['latest'] = max
-    mydict[s.split('./site/schemas/')[1]]['homepage'] = data_loaded[s.split('./site/schemas/')[1]]['homepage']
+    mydict[s.split('./site/')[1]]['latest'] = max
+    mydict[s.split('./site/')[1]]['homepage'] = data_loaded[s.split('./site/')[1]]['homepage']
 
     
-    stats[s.split('./site/schemas/')[1]]['contributors'] = get_contributors(data_loaded[s.split('./site/schemas/')[1]]['homepage'])
+    stats[s.split('./site/')[1]]['contributors'] = get_contributors(data_loaded[s.split('./site/')[1]]['homepage'])
 
-    mydict[s.split('./site/schemas/')[1]]['email'] = data_loaded[s.split('./site/schemas/')[1]]['email']
-    mydict[s.split('./site/schemas/')[1]]['external_tool'] = data_loaded[s.split('./site/schemas/')[1]]['external_tool']
-    mydict[s.split('./site/schemas/')[1]]['external_doc'] = data_loaded[s.split('./site/schemas/')[1]]['external_doc']
-    mydict[s.split('./site/schemas/')[1]]['type'] = data_loaded[s.split('./site/schemas/')[1]]['type']
+    mydict[s.split('./site/')[1]]['email'] = data_loaded[s.split('./site/')[1]]['email']
+    mydict[s.split('./site/')[1]]['external_tool'] = data_loaded[s.split('./site/')[1]]['external_tool']
+    mydict[s.split('./site/')[1]]['external_doc'] = data_loaded[s.split('./site/')[1]]['external_doc']
+    mydict[s.split('./site/')[1]]['type'] = data_loaded[s.split('./site/')[1]]['type']
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"README.md")
+    shutil.copy(s+"/"+max+"/README.md",s+"/"+"latest.md")
 
 with open('./site/.vuepress/public/schema-infos.json', 'w') as fp:
     json.dump(mydict, fp,  indent=4)
@@ -158,3 +160,9 @@ with open("../aggregateur/data/issues.yml", 'r') as stream:
 
     with open('./site/.vuepress/public/stats.json', 'w') as fp:
         json.dump(data_loaded, fp,  indent=4)
+
+
+if os.path.isfile('../api/recommendations.json'):
+    if os.path.isfile('../site/site/.vuepress/public/api/recommendations.json'):
+        os.remove('../site/site/.vuepress/public/api/recommendations.json')
+    shutil.copy('../api/recommendations.json','../site/site/.vuepress/public/api/recommendations.json')

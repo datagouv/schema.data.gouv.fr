@@ -62,7 +62,7 @@
         </div>
             <div class="statsSchemas" v-for="(value, key) in jdd" v-bind:key="key">
                 <div  @click="goto('https://www.data.gouv.fr/fr/datasets?schema='+key)" class="encartJDD" >{{ value['dgv_resources'] }} jeux de données</div>
-                <div @click="goto('/schemas/'+key)" class="nameJDD" >{{ value['title']}}</div>
+                <div @click="goto('/'+key)" class="nameJDD" >{{ value['title']}}</div>
             </div>
     
     </div>
