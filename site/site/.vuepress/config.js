@@ -90,7 +90,7 @@ module.exports = {
       {
         img: '/assets/tick-mark.png',
         text: 'Consulter les données respectant ces schémas',
-        url: '/indicateurs.html'
+        url: '/statistiques.html'
       }
     ]
   
