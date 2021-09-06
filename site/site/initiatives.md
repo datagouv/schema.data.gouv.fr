@@ -2,7 +2,7 @@
 
 ## Initiatives similaires
 
-`schema.data.gouv.fr` n'a pas pour ambition d'être une réponse exhaustive à tous les besoins de normalisation des données. Il existe des initiatives similaires mais portant sur des périmètres différents, par exemple celles présentées ci-dessous.
+schema.data.gouv.fr n'a pas pour ambition d'être une réponse exhaustive à tous les besoins de normalisation des données. Il existe des initiatives similaires mais portant sur des périmètres différents, par exemple celles présentées ci-dessous.
 
 Si vous connaissez une initiative similaire, n'hésitez pas à [nous le faire savoir](https://github.com/etalab/schema.data.gouv.fr/issues/new).
 

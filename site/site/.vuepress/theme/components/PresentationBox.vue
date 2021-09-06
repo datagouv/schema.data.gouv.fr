@@ -41,11 +41,12 @@ export default {
 </script>
 
 <style scoped>
-.pb{
-    height: 430px;
-}
+
 .pbBoxes{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .pbHeader{
     text-align: center;
@@ -58,7 +59,9 @@ export default {
     width: 250px;
     height: 220px;
     background-color: #ebebeb;
-    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
     border-bottom: 5px solid #000091;
     cursor: pointer;
 }

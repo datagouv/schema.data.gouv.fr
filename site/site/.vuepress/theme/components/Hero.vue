@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .flexHero{
     display: flex;
 }
@@ -87,5 +87,15 @@ export default {
 .heroButton{
     background-color: white;
     text-align: left;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .heroImage {
+        display: none;
+    }
+    .heroText{
+        width: 100%;
+    }
 }
 </style>
