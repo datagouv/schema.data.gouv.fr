@@ -64,22 +64,31 @@ module.exports = {
         "url": "/initiatives.html",
       },
       {
-        "title": "Stats",
+        "title": "Statistiques",
         "url": "/statistiques.html",
+      },
+      {
+        "title": "A propos",
+        "url": "/apropos.html",
       },
     ],
     hero: {
       title: "Schema.data.gouv.fr",
       subtitle: "Bienvenue sur l'initiative de data.gouv.fr de référencement des schémas de données publiques pour la France.",
-      button1: "Voir tous les schémas de données",
+      button1: "Découvrez tous les schémas de données",
       url1: "/schemas.html",
-      button2: 'Saisir des données structurées sur publier.etalab.studio',
+      button2: 'Saisissez des données structurées sur publier.etalab.studio',
       url2: 'https://publier.etalab.studio'
     },
     presentationBox: [
       {
+        img: '/assets/question.png',
+        text: 'En savoir plus sur l\'initiative schema.data.gouv.fr',
+        url: '/apropos.html'
+      },
+      {
         img: '/assets/magnifying-glass.png',
-        text: 'Naviguez parmi tous les schémas de données référencés',
+        text: 'Naviguez parmi tous les schémas référencés',
         url: '/schemas.html'
       },
       {
@@ -87,11 +96,6 @@ module.exports = {
         text: 'Contribuez en proposant votre propre schéma',
         url: '/contribuer.html'
       },
-      {
-        img: '/assets/tick-mark.png',
-        text: 'Consulter les données respectant ces schémas',
-        url: '/statistiques.html'
-      }
     ]
   
   },

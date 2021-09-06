@@ -9,7 +9,7 @@
                      {{ investigation }}
                 </div>
                 <div class="pbBoxText">
-                    schémas en investigation
+                    Schémas en investigation
                 </div>
             </div>
             <div  @click="goto('/encours.html')" class="pbBox">
@@ -17,7 +17,7 @@
                      {{ construction }}
                 </div>
                 <div class="pbBoxText">
-                     schémas en construction
+                     Schémas en construction
                 </div>
             </div>
             <div  @click="goto('/schemas.html')" class="pbBox">
@@ -25,7 +25,7 @@
                      {{ references }}
                 </div>
                 <div class="pbBoxText">
-                    schémas référencés officiellement
+                    Schémas référencés officiellement
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                      {{ nb_issues }}
                 </div>
                 <div class="pbBoxText">
-                    tickets ouverts sur le repo Github
+                    Tickets ouverts sur le repo Github
                 </div>
             </div>
             <div  @click="goto('https://www.data.gouv.fr')" class="pbBox">
@@ -44,7 +44,7 @@
                      {{ nb_datasets }}
                 </div>
                 <div class="pbBoxText">
-                    jeux de données disponibles sur data.gouv.fr
+                    Jeux de données disponibles sur data.gouv.fr
                 </div>
             </div>
             <div class="pbBox">
@@ -52,7 +52,7 @@
                      {{ nb_contributors }}
                 </div>
                 <div class="pbBoxText">
-                    "comitteurs" sur la construction de schémas
+                    Contributeurs sur la construction de schémas
                 </div>
             </div>
         </div>

@@ -2,16 +2,16 @@
     <div>
         <div class="fr-container">
             <div class="menuBar">
-                <span  v-for="menu in $site.themeConfig.menu" v-bind:key="menu.title">
+                <span  @click="goto(menu.url)" class="menuBarItem" v-for="menu in $site.themeConfig.menu" v-bind:key="menu.title">
                     <div v-if="menu.url === $router.currentRoute.path"
                         class="menuItemSelect"
                     >
-                        <span class="menuButton" @click="goto(menu.url)">{{ menu.title }}</span>
+                        <span class="menuButton">{{ menu.title }}</span>
                     </div>
                     <div v-if="menu.url != $router.currentRoute.path"
                         class="menuItem"
                     >
-                        <span class="menuButton" @click="goto(menu.url)">{{ menu.title }}</span>
+                        <span class="menuButton">{{ menu.title }}</span>
                     </div>
                 </span>
             </div>
@@ -65,5 +65,8 @@ export default {
 }
 .subline{
     border-bottom: 2px solid #ebebeb;
+}
+.menuBarItem{
+    cursor: pointer;
 }
 </style>

@@ -9,7 +9,7 @@
                         @click="gotoExternalLink(schema_infos['external_doc'])"
                     >
                         <img src="../../public/assets/file.png" width="15" />&nbsp;
-                        Doc externe
+                        Documentation externe
                     </button>
                 </span>           
                 <span v-if="schema_infos['external_tool']">
@@ -41,7 +41,7 @@
                     @click="gotoExternalLink('https://www.data.gouv.fr/fr/datasets?schema='+schema)" 
                     class="fr-btn"
                 >
-                    <img src="../../public/assets/gear.png" width="15" />&nbsp;
+                    <img src="../../public/assets/database.png" width="15" />&nbsp;
                     Données
                 </button>
                 <button 
@@ -63,7 +63,7 @@
                     :style="this.pageInfo ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
                 >
                     <img src="../../public/assets/info.png" width="15" />&nbsp;
-                    Infos
+                    Informations
                 </button>
                 <span v-if="schema_infos['versions'][version]['pages'].includes('documentation.md')">
                     <button 
@@ -167,9 +167,13 @@ export default {
     background-color: white;
     margin-right: 0px;
     border-top-left-radius: 5px;
+
 }
 .ongletItem:hover{
     background-color: var(--bf200-bf300); 
+    border-top: 1px solid var(--bf200-bf300); 
+    border-left: 1px solid var(--bf200-bf300); 
+    border-right: 1px solid var(--bf200-bf300);
 }
 
 .externalActions{

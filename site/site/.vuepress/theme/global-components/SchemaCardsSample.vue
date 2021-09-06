@@ -27,7 +27,7 @@
     </div>
     <div class="schemaCardsSampleButtonDiv">
       <button @click="maingoto()" class="schemaCardsSampleButton fr-btn fr-btn--secondary">
-          Voir tous les schémas référencés&nbsp;&nbsp;
+          Découvrez tous les schémas référencés&nbsp;&nbsp;
           <img src="../../public/assets/right-arrow.png" width="15" />
       </button>
     </div>
@@ -108,6 +108,8 @@ export default {
 .schemaCardsTitle{
   color: white;
   text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
 }
 
 .schemaCardsSampleButtonDiv{

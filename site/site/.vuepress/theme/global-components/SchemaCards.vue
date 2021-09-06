@@ -11,11 +11,14 @@
             <input
                 v-model="searchText"
                 v-on:input="filterSchema()"
-                class="rf-input"
+                class="rf-input-search"
                 placeholder="Rechercher un schéma de données"
                 type="search" id="header-search-input"
                 name="header-search-input"
             >
+            <button
+              class="rf-button-search"
+            ><img src="../../public/assets/loupe.png" width="22" />&nbsp;&nbsp;Rechercher</button>
         </div>
     </div>
     <div class="boxes">
@@ -34,7 +37,7 @@
             {{ messageSchema }}
           </div>
       </div>
-      <div class="noSchemaDiv" v-if="schemasToShow.length === 0">
+      <div class="noSchemaDiv" v-if="showButtons & schemasToShow.length === 0">
         <div class="noSchemaMessage" >{{ messageSchema }}</div>
         <div @click="gotoInternal('/contribuer.html')" class="addSchemaDiv">+ Ajouter un schéma</div>
       </div>
@@ -58,6 +61,7 @@ export default {
       schemas: null,
       schemasToShow: [],
       stats: null,
+      showButtons: false,
     };
   },
   mounted() {
@@ -96,6 +100,7 @@ export default {
         this.schemasToShow = obj;
         if (this.schemasToShow.length === 0) {
           this.messageSchema = 'Aucun schéma trouvé';
+          this.showButtons = true;
         } else {
           this.messageSchema = '';
         }
@@ -198,5 +203,27 @@ export default {
   border-radius: 15px;
   color: #000091;
   cursor: pointer;
+}
+.search-bar{
+  display: flex;
+}
+.rf-input-search{
+  background-color: #ebebeb;
+  margin: 0px;
+  width: 80%;
+  border: 0px;
+  border-bottom: 2px solid #000091;
+  font-size: 16px;
+  border-top-left-radius: 5px;
+  padding-left: 15px;
+}
+.rf-button-search{
+  background-color: #000091;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  width: 20%;
+  font-size: 20px;
+  border-top-right-radius: 5px;
 }
 </style>
