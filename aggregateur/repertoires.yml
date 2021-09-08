@@ -109,3 +109,7 @@ schema-zfe:
   type: jsonschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
+arrete-circulation-marchandise:
+  url: https://github.com/CEREMA/schema-arrete-circulation-marchandises.git
+  type: tableschema
+  email: data-med@cerema.fr
