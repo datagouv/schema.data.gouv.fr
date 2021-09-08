@@ -56,6 +56,53 @@ Archivistes75/registre_entrees:
   type: tableschema
   versions:
   - 0.2.0
+CEREMA/schema-arrete-circulation-marchandises:
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux arrêtés permanents de
+    circulation pour le transport de marchandises gérés par les collectivités.
+  email: data-med@cerema.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/CEREMA/schema-arrete-circulation
+  latest_version: 0.6.1
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/exemple-valide.csv
+      title: Fichier valide
+    - name: exemple-st-victoret-valide-csv
+      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-st-victoret-valide.csv
+      title: Fichier valide pour la commune de Saint-Victoret (CSV)
+    - name: exemple-le-rove-valide-csv
+      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-le-rove-valide.csv
+      title: Fichier valide pour la commune du Rove (CSV)
+    - name: exemple-septemes-valide-csv
+      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-septemes-valide.csv
+      title: Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)
+    - name: exemple-gignac-valide-csv
+      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-gignac-valide.csv
+      title: Fichier valide pour la commune de Gignac-La-Nerthe (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.6.1/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Schéma des arrêtés permanents de circulation pour le transport de marchandises
+    versions:
+    - 0.3.0
+    - 0.4.0
+    - 0.4.1
+    - 0.5.0
+    - 0.6.0
+    - 0.6.1
+  title: Schéma des arrêtés permanents de circulation pour le transport de marchandises
+  type: tableschema
+  versions:
+  - 0.3.0
+  - 0.4.0
+  - 0.4.1
+  - 0.5.0
+  - 0.6.0
+  - 0.6.1
 MTES-MCT/acceslibre-schema:
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité
