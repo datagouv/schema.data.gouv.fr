@@ -65,7 +65,7 @@ CEREMA/schema-arrete-circulation-marchandises:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/CEREMA/schema-arrete-circulation
-  latest_version: 0.6.1
+  latest_version: 0.6.2
   schemas:
   - examples:
     - name: exemple-valide-csv
@@ -83,10 +83,10 @@ CEREMA/schema-arrete-circulation-marchandises:
     - name: exemple-gignac-valide-csv
       path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-gignac-valide.csv
       title: Fichier valide pour la commune de Gignac-La-Nerthe (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.6.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.6.2/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma des arrêtés permanents de circulation pour le transport de marchandises
+    title: Arrêtés permanents de circulation pour le transport de marchandises
     versions:
     - 0.3.0
     - 0.4.0
@@ -94,7 +94,8 @@ CEREMA/schema-arrete-circulation-marchandises:
     - 0.5.0
     - 0.6.0
     - 0.6.1
-  title: Schéma des arrêtés permanents de circulation pour le transport de marchandises
+    - 0.6.2
+  title: Arrêtés permanents de circulation pour le transport de marchandises
   type: tableschema
   versions:
   - 0.3.0
@@ -103,6 +104,7 @@ CEREMA/schema-arrete-circulation-marchandises:
   - 0.5.0
   - 0.6.0
   - 0.6.1
+  - 0.6.2
 MTES-MCT/acceslibre-schema:
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité

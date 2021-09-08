@@ -1,14 +1,13 @@
 ---
-permalink: /CEREMA/schema-arrete-circulation-marchandises/0.6.1/documentation.html
-redirect_from: null
-title: Documentation de Schéma des arrêtés permanents de circulation pour le transport
-  de marchandises
-version: 0.6.1
+permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/documentation.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.6.2/documentation.html
+title: Documentation de Arrêtés permanents de circulation pour le transport de marchandises
+version: 0.6.2
 ---
 
 ## arrete-circulation-marchandises
 
-Schéma des arrêtés permanents de circulation pour le transport de marchandises
+Arrêtés permanents de circulation pour le transport de marchandises
 
 Spécification du fichier d'échange relatif aux arrêtés permanents de circulation pour le transport de marchandises gérés par les collectivités.
 

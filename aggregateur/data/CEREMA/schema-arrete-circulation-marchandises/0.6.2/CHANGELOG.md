@@ -1,9 +1,8 @@
 ---
 permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/changelog.html
-redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.6.1/changelog.html
-title: CHANGELOG de Schéma des arrêtés permanents de circulation pour le transport
-  de marchandises
-version: 0.6.1
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.6.2/changelog.html
+title: CHANGELOG de Arrêtés permanents de circulation pour le transport de marchandises
+version: 0.6.2
 ---
 
 # Changelog
