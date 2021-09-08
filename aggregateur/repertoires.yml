@@ -113,3 +113,7 @@ arrete-circulation-marchandise:
   url: https://github.com/CEREMA/schema-arrete-circulation-marchandises.git
   type: tableschema
   email: data-med@cerema.fr
+stations-taxi:
+  url: https://github.com/openmaraude/schema-stationstaxi.git
+  type: tableschema
+  email: tech@le.taxi
