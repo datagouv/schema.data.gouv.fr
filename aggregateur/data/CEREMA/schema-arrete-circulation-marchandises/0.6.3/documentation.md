@@ -1,8 +1,8 @@
 ---
-permalink: /CEREMA/schema-arrete-circulation-marchandises/0.6.2/documentation.html
-redirect_from: null
+permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/documentation.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.6.3/documentation.html
 title: Documentation de Arrêtés permanents de circulation pour le transport de marchandises
-version: 0.6.2
+version: 0.6.3
 ---
 
 ## arrete-circulation-marchandises
@@ -56,7 +56,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Identifiant de l'entité - Propriété `ID`
 
-> *Description : Il s'agit de l'identifiant de l'entité (ou ligne du tableau). Ce dernier doit être unique. L'entité élémentaire correspond à une voie entière règlementée (par ex. `Avenue Philippe Solari`) ou une portion de celle-ci (voir les champs `SECTION_DEBUT` et `SECTION_FIN`). L'identifiant peut tout simplement être auto-incrémenté (1, 2 ou 3,...). Il peut correspondre à la valeur `osm_id` de la voie règlementée (par exemple, `133`). Il peut également être un identifiant propre à une structure ou à une autre base de données (identifiant issu de la BDTOPO IGN, par exemple). [Vous pouvez créer des identifiants grâce à l'application Heidi d'Etalab](https://heidi.app.etalab.studio/).<br/>Ex : 133-3*
+> *Description : Il s'agit de l'identifiant de l'entité (ou ligne du tableau). Ce dernier doit être unique. L'identifiant peut tout simplement être auto-incrémenté (1, 2 ou 3,...). Il peut correspondre à la valeur `osm_id` de la voie règlementée (par exemple, `133`). Il peut également être un identifiant propre à une structure ou à une autre base de données (identifiant issu de la BDTOPO IGN, par exemple). [Vous pouvez créer des identifiants grâce à l'application Heidi d'Etalab](https://heidi.app.etalab.studio/).<br/>Ex : 133-3*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
@@ -202,13 +202,13 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Début de la section - Propriété `EMPRISE_DEBUT`
 
-> *Description : Indication de l'endroit à partir duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Ou bien coordonnées GPS de l'endroit, à noter sous la forme 'long, lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 22 avenue Philippe Solari, Croisement de l'avenue Philippe Solari avec la rue Gaston de Saporta, 43.53591,5.42101*
+> *Description : Indication de l'endroit à partir duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Ou bien coordonnées GPS de l'endroit, à noter sous la forme 'long,lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 22 avenue Philippe Solari, Croisement de l'avenue Philippe Solari avec la rue Gaston de Saporta, 5.42101,43.53591*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Fin de la section - Propriété `EMPRISE_FIN`
 
-> *Description : Indication de l'endroit au bout duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Ou bien coordonnées GPS de l'endroit, à noter sous la forme 'long, lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 22 avenue Philippe Solari, Croisement de l'avenue Philippe Solari avec la rue Gaston de Saporta*
+> *Description : Indication de l'endroit au bout duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Ou bien coordonnées GPS de l'endroit, à noter sous la forme 'long, lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 34 bis avenue Philippe Solari, Intersection de l'avenue Philippe Solari avec le boulevard des Charmettes, 5.43345,43.64789*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
@@ -240,7 +240,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Géométrie au format WKT - Propriété `GEOM_WKT`
 
-> *Description : Géométrie de la rue (ligne), ou de l'emprise (polygone) exprimée au format [WKT (Well Know Text](https://fr.wikipedia.org/wiki/Well-known_text) sous le système de projection WGS84 (EPSG:4326)<br/>Ex : LineString (5.39340184 45.56538751, 5.41017215 45.56722934, 5.42510063 45.5679079)*
+> *Description : Géométrie de la rue (ligne), ou de l'emprise (polygone) exprimée au format [WKT (Well Know Text](https://fr.wikipedia.org/wiki/Well-known_text) sous le système de projection WGS84 (EPSG:4326)<br/>Ex : LineString(5.39340184 45.56538751, 5.41017215 45.56722934, 5.42510063 45.5679079)*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(MULTI|multi)?(LINESTRING|linestring|POLYGON|polygon)\(((|,\s?)\(((|,\s?)(-?[0-9](\.[0-9]+)?\s-?[0-9](\.[0-9]+)?))+\))+\)`
