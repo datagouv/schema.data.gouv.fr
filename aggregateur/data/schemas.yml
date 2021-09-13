@@ -69,20 +69,29 @@ CEREMA/schema-arrete-circulation-marchandises:
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/exemple-valide.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemple-valide.csv
       title: Fichier valide
-    - name: exemple-st-victoret-valide-csv
-      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-st-victoret-valide.csv
-      title: Fichier valide pour la commune de Saint-Victoret (CSV)
-    - name: exemple-le-rove-valide-csv
-      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-le-rove-valide.csv
-      title: Fichier valide pour la commune du Rove (CSV)
-    - name: exemple-septemes-valide-csv
-      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-septemes-valide.csv
-      title: Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)
-    - name: exemple-gignac-valide-csv
-      path: https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/examples/exemple-gignac-valide.csv
+    - name: carros-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/carros.csv
+      title: Fichier valide pour la commune de Carros (CSV)
+    - name: fuveau-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/fuveau.csv
+      title: Fichier valide pour la commune de Fuveau (CSV)
+    - name: gignac-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/gignac.csv
       title: Fichier valide pour la commune de Gignac-La-Nerthe (CSV)
+    - name: le-rove-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/le-rove.csv
+      title: Fichier valide pour la commune du Rove (CSV)
+    - name: st-victoret-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/st-victoret.csv
+      title: Fichier valide pour la commune de St-Victoret (CSV)
+    - name: septemes-les-vallons-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/septemes-les-vallons.csv
+      title: Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)
+    - name: vence-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/vence.csv
+      title: Fichier valide pour la commune de Vence (CSV)
     latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.6.3/schema.json
     original_path: schema.json
     path: schema.json
