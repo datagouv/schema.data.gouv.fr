@@ -67,7 +67,14 @@ export default {
   mounted() {
     var dataSchemas = require('../../public/schemas.json')
     this.schemas = dataSchemas.schemas
-    this.schemasToShow = dataSchemas.schemas
+    this.schemasToShow = dataSchemas.schemas.sort(function(a, b){
+      var nameA=latinize(a.title), nameB=latinize(b.title);
+      if (nameA < nameB) //sort string ascending
+        return -1;
+      if (nameA > nameB)
+        return 1;
+      return 0; //default return value (no sorting)
+    });
     var statsSchemas = require('../../public/stats.json')
     this.stats = statsSchemas
   },
