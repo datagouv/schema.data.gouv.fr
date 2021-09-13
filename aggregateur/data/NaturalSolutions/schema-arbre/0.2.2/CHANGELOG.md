@@ -1,8 +1,8 @@
 ---
 permalink: /NaturalSolutions/schema-arbre/latest/changelog.html
-redirect_from: /NaturalSolutions/schema-arbre/0.2.1/changelog.html
-title: CHANGELOG de Schéma des attributs des arbres urbains
-version: 0.2.1
+redirect_from: /NaturalSolutions/schema-arbre/0.2.2/changelog.html
+title: CHANGELOG de Arbres urbains
+version: 0.2.2
 ---
 
 # Changelog

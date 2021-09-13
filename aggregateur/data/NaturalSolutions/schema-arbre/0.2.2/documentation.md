@@ -1,19 +1,19 @@
 ---
-permalink: /NaturalSolutions/schema-arbre/0.2.1/documentation.html
-redirect_from: null
-title: Documentation de Schéma des attributs des arbres urbains
-version: 0.2.1
+permalink: /NaturalSolutions/schema-arbre/latest/documentation.html
+redirect_from: /NaturalSolutions/schema-arbre/0.2.2/documentation.html
+title: Documentation de Arbres urbains
+version: 0.2.2
 ---
 
-## Attributs des arbres urbains
+## Arbres urbains
 
-Schéma des attributs des arbres urbains
+Arbres urbains
 
 Spécification des attributs liés aux arbres urbains dans le cadre d'un inventaire du patrimoine arboré par les collectivités.
 
 - Schéma créé le : 16/10/2020
 - Site web : https://github.com/NaturalSolutions/schema-arbre
-- Version : 0.2.0
+- Version : 0.2.2
 - Clé primaire : `id`
 
 ### Modèle de données
