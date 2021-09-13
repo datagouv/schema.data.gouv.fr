@@ -14,6 +14,7 @@
    "countryCode":"FR",
    "homepage":"https://github.com/CEREMA/schema-arrete-circulation",
    "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation/master/schema.json",
+   "image":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/files/image.png",
    "licenses":[
       {
          "title":"Etalab Licence Ouverte 2.0",
@@ -25,42 +26,42 @@
       {
          "title":"Fichier valide",
          "name":"exemple-valide-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemple-valide.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemple-valide.csv"
       },
       {
          "title":"Fichier valide pour la commune de Carros (CSV)",
          "name":"carros-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/carros.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/carros.csv"
       },
       {
          "title":"Fichier valide pour la commune de Fuveau (CSV)",
          "name":"fuveau-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/fuveau.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/fuveau.csv"
       },
       {
          "title":"Fichier valide pour la commune de Gignac-La-Nerthe (CSV)",
          "name":"gignac-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/gignac.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/gignac.csv"
       },
       {
          "title":"Fichier valide pour la commune du Rove (CSV)",
          "name":"le-rove-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/le-rove.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/le-rove.csv"
       },
       {
          "title":"Fichier valide pour la commune de St-Victoret (CSV)",
          "name":"st-victoret-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/st-victoret.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/st-victoret.csv"
       },
       {
          "title":"Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)",
          "name":"septemes-les-vallons-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/septemes-les-vallons.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/septemes-les-vallons.csv"
       },     
       {
          "title":"Fichier valide pour la commune de Vence (CSV)",
          "name":"vence-csv",
-         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/exemples/vence.csv"
+         "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/vence.csv"
       }
    ],
    "sources":[
