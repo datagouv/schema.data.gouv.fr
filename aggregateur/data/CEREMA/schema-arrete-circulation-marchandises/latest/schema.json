@@ -13,8 +13,8 @@
    ],
    "countryCode":"FR",
    "homepage":"https://github.com/CEREMA/schema-arrete-circulation",
-   "path":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation/master/schema.json",
-   "image":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/files/image.png",
+   "path":"https://github.com/CEREMA/schema-arrete-circulation-marchandises/raw/v0.6.3/schema.json",
+   "image":"https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/files/image.png",
    "licenses":[
       {
          "title":"Etalab Licence Ouverte 2.0",
@@ -67,7 +67,7 @@
    "sources":[
       {
          "title":"Fiche technique de rédaction d'arrêté de circulation",
-         "path":"https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/docs/fiche_technique_arrete_de_circulation_cle27195e-1.pdf"
+         "path":"https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/v0.6.3/ressources/fiche_technique_arrete_de_circulation_cle27195e-1.pdf"
       },
       {
          "title":"Démarche \"Harmoniser les règlementations de transport de marchandises\"",
@@ -75,7 +75,7 @@
       },
       {
          "title":"Guide d'harmonisation des règlementations des livraisons co-rédigé par la Région Sud et la DREAL PACA",
-         "path":"https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/master/docs/Guide%20Harmonisation%20des%20arr%C3%AAt%C3%A9s%20R%C3%A9gion%20PACA%202019.pdf"
+         "path":"https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/v0.6.3/ressources/Guide%20Harmonisation%20des%20arr%C3%AAt%C3%A9s%20R%C3%A9gion%20PACA%202019.pdf"
       }
    ],
    "created":"2021-04-30",
