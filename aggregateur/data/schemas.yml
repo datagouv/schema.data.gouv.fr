@@ -240,13 +240,13 @@ etalab/schema-amenagements-cyclables:
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
-  latest_version: 0.3.0
+  latest_version: 0.3.1
   schemas:
   - examples: []
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.0/schema_amenagements_cyclables.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.1/schema_amenagements_cyclables.json
     original_path: schema_amenagements_cyclables.json
     path: schema_amenagements_cyclables.json
-    title: Schema des aménagements cyclables
+    title: Aménagements cyclables
     versions:
     - 0.1.0
     - 0.2.0
@@ -254,7 +254,8 @@ etalab/schema-amenagements-cyclables:
     - 0.2.2
     - 0.2.3
     - 0.3.0
-  title: Schéma d'aménagements cyclables
+    - 0.3.1
+  title: Aménagements cyclables
   type: jsonschema
   versions:
   - 0.1.0
@@ -263,6 +264,7 @@ etalab/schema-amenagements-cyclables:
   - 0.2.2
   - 0.2.3
   - 0.3.0
+  - 0.3.1
 etalab/schema-bal:
   consolidation: null
   description: Fichier contenant toutes les adresses d'un territoire donné
