@@ -117,3 +117,7 @@ stations-taxi:
   url: https://github.com/openmaraude/schema-stationstaxi.git
   type: tableschema
   email: tech@le.taxi
+vehicules-faibles-emissions-renouvellement-parc:
+  url: https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc.git
+  type: tableschema
+  email: schema@data.gouv.fr
