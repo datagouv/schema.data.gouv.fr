@@ -18,7 +18,7 @@
             >
             <button
               class="rf-button-search"
-            ><img src="../../public/assets/loupe.png" width="22" />&nbsp;&nbsp;Rechercher</button>
+            ><img src="../../public/assets/loupe.png" width="22" /><span class="searchLabel">&nbsp;&nbsp;Rechercher</span></button>
         </div>
     </div>
     <div class="boxes">
@@ -232,5 +232,12 @@ export default {
   width: 20%;
   font-size: 20px;
   border-top-right-radius: 5px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .searchLabel{
+      display: none;
+    }
 }
 </style>

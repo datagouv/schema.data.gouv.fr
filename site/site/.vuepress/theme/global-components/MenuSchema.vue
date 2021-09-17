@@ -212,4 +212,22 @@ export default {
     margin-left: 20px;
 }
 
+.fr-btn{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .fr-btn{
+        width: 100%;
+    }
+    .box-right{
+        width: 100%;
+    }
+    .box-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 </style>
