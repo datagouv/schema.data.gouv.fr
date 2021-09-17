@@ -540,22 +540,24 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-flotte-publique-vehicule
-  latest_version: 0.1.0
+  latest_version: 0.1.1
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.0/exemple-valide.csv
+      path: https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.1/exemple-valide.csv
       title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc/0.1.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc/0.1.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Part des véhicules à faibles émissions dans le renouvellement d'un parc
     versions:
     - 0.1.0
+    - 0.1.1
   title: Part des véhicules à faibles émissions dans le renouvellement d'un parc
   type: tableschema
   versions:
   - 0.1.0
+  - 0.1.1
 etalab/schema-zfe:
   consolidation: null
   description: Spécification du schéma de données des Zones à Faibles Emissions

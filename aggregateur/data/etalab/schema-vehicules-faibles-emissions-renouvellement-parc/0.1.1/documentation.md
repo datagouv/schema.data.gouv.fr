@@ -1,9 +1,9 @@
 ---
-permalink: /etalab/schema-vehicules-faibles-emissions-renouvellement-parc/0.1.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-vehicules-faibles-emissions-renouvellement-parc/latest/documentation.html
+redirect_from: /etalab/schema-vehicules-faibles-emissions-renouvellement-parc/0.1.1/documentation.html
 title: Documentation de Part des véhicules à faibles émissions dans le renouvellement
   d'un parc
-version: 0.1.0
+version: 0.1.1
 ---
 
 ## vehicules-faibles-emissions-renouvellement-parc
@@ -14,7 +14,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 - Schéma créé le : 15/09/2021
 - Site web : https://github.com/etalab/schema-flotte-publique-vehicule
-- Version : 0.1.0
+- Version : 0.1.1
 
 ### Modèle de données
 
@@ -64,6 +64,7 @@ Spécification des données fixant les termes et modalités de publication du po
 | [nbBusM2GPL](#propriété-nbbusm2gpl) | nombre entier  | Oui |
 | [nbBusM2Bio](#propriété-nbbusm2bio) | nombre entier  | Oui |
 | [nbBusM2XTL](#propriété-nbbusm2xtl) | nombre entier  | Oui |
+| [nbBusM2EuroVI](#propriété-nbbusm2eurovi) | nombre entier  | Oui |
 | [nbBusM3](#propriété-nbbusm3) | nombre entier  | Oui |
 | [nbBusM3EL](#propriété-nbbusm3el) | nombre entier  | Oui |
 | [nbBusM3H2](#propriété-nbbusm3h2) | nombre entier  | Oui |
@@ -73,6 +74,7 @@ Spécification des données fixant les termes et modalités de publication du po
 | [nbBusM3GPL](#propriété-nbbusm3gpl) | nombre entier  | Oui |
 | [nbBusM3Bio](#propriété-nbbusm3bio) | nombre entier  | Oui |
 | [nbBusM3XTL](#propriété-nbbusm3xtl) | nombre entier  | Oui |
+| [nbBusM3EuroVI](#propriété-nbbusm3eurovi) | nombre entier  | Oui |
 | [nbCar](#propriété-nbcar) | nombre entier  | Oui |
 | [nbCarM2](#propriété-nbcarm2) | nombre entier  | Oui |
 | [nbCarM2EL](#propriété-nbcarm2el) | nombre entier  | Oui |
@@ -85,7 +87,8 @@ Spécification des données fixant les termes et modalités de publication du po
 | [nbCarbioGNV](#propriété-nbcarbiognv) | nombre entier  | Oui |
 | [nbCarGPL](#propriété-nbcargpl) | nombre entier  | Oui |
 | [nbCarBio](#propriété-nbcarbio) | nombre entier  | Oui |
-| [nbCarsXTL](#propriété-nbcarsxtl) | nombre entier  | Oui |
+| [nbCarXTL](#propriété-nbcarxtl) | nombre entier  | Oui |
+| [nbCarEuroVI](#propriété-nbcareurovi) | nombre entier  | Oui |
 | [pcentLDVFE](#propriété-pcentldvfe) | nombre réel  | Oui |
 | [pcentLDVTFE](#propriété-pcentldvtfe) | nombre réel  | Oui |
 | [pcentLDVclean](#propriété-pcentldvclean) | nombre réel  | Oui |
@@ -130,13 +133,13 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `zone`
 
-> *Description : Situation géographique s'agissant des transports publics.<br/>Ex : 47.72B*
+> *Description : Situation géographique s'agissant des transports publics.<br/>Ex : Zone A*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Zone A (1)
-    - Zone B (2)
-    - Zone C (3)
+    - Zone A
+    - Zone B
+    - Zone C
 
 #### Propriété `nbVP`
 
@@ -158,7 +161,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbVPclean`
 
-> *Description : Nombre de VP à faibles émissions.<br/>Ex : 12*
+> *Description : Nombre de VP à faibles émissions (y compris les nbVPEL et nbVPH2).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -188,7 +191,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbN1infclean`
 
-> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes à faibles émissions.<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes à faibles émissions (y compris les nbN1infEL et nbN1infH2).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -212,7 +215,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbN1supclean`
 
-> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à faibles émissions.<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à faibles émissions (y compris les nbN1supEL et nbN1supH2).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -272,7 +275,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbN23Bio`
 
-> *Description : Nombre de PL exclusivement aux biocarburants avancés.<br/>Ex : 12*
+> *Description : Nombre de PL exclusivement aux biocarburants.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -308,7 +311,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbBusM2clean`
 
-> *Description : Nombre d'autobus M2 à faibles émissions.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 à faibles émissions  (y compris les nbBusM2EL et nbBusM2H2).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -338,13 +341,19 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbBusM2Bio`
 
-> *Description : Nombre d'autobus M2 exclusivement aux biocarburants avancés.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 exclusivement aux biocarburants.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbBusM2XTL`
 
 > *Description : Nombre d'autobus M2 exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+- Valeur obligatoire
+- Type : nombre entier
+
+#### Propriété `nbBusM2EuroVI`
+
+> *Description : Nombre d'autobus M2 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -392,13 +401,19 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbBusM3Bio`
 
-> *Description : Nombre d'autobus M3 exclusivement aux biocarburants avancés.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 exclusivement aux biocarburants.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbBusM3XTL`
 
 > *Description : Nombre d'autobus M3 exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+- Valeur obligatoire
+- Type : nombre entier
+
+#### Propriété `nbBusM3EuroVI`
+
+> *Description : Nombre d'autobus M3 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -428,7 +443,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbCarM2clean`
 
-> *Description : Nombre d'autocars M2 à faibles émissions.<br/>Ex : 12*
+> *Description : Nombre d'autocars M2 à faibles émissions (y compris les nbCarM2EL et nbCarM2H2).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -470,13 +485,19 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbCarBio`
 
-> *Description : Nombre d'autocars exclusivement aux biocarburants avancés.<br/>Ex : 12*
+> *Description : Nombre d'autocars exclusivement aux biocarburants.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
-#### Propriété `nbCarsXTL`
+#### Propriété `nbCarXTL`
 
 > *Description : Nombre d'autocars exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+- Valeur obligatoire
+- Type : nombre entier
+
+#### Propriété `nbCarEuroVI`
+
+> *Description : Nombre d'autocars hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -488,7 +509,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `pcentLDVTFE`
 
-> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVEH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1.<br/>Ex : 12.2*
+> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1.<br/>Ex : 12.2*
 - Valeur obligatoire
 - Type : nombre réel
 
