@@ -206,6 +206,29 @@ arsante/schema-dae:
   versions:
   - 1.0.1
   - 1.0.2
+datakode/schema-pei:
+  consolidation: null
+  description: Spécification du modèle de données relatif aux PEI
+  email: portier@datakode.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: false
+  homepage: https://gitlab.com/datakode/schema-pei
+  latest_version: 1.0.0
+  schemas:
+  - examples:
+    - path: https://docs.google.com/spreadsheets/d/1UBlX52Of20q4HnAFTyxrfX75vZrUtXDxwXP6j6_kUp4/edit#gid=0
+      title: Impémentations
+    latest_url: https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: PEI
+    versions:
+    - 1.0.0
+  title: PEI
+  type: tableschema
+  versions:
+  - 1.0.0
 datatourisme/ontology:
   consolidation: null
   description: Ontologie destinée à structurer les données décrivant l'ensemble des
