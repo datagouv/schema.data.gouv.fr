@@ -80,8 +80,8 @@ des propriétés (properties) de chaque feature.
 
 Vous pouvez télécharger des fichiers gabarit d'exemple :
 
-- un [fichier au format CSV](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/exemple-valide.csv) ;
-- un [fichier au format XLSX](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/exemple-valide.xlsx).
+- un [fichier au format CSV](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.csv) ;
+- un [fichier au format XLSX](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.xlsx).
 
 ### Mises à jour
 

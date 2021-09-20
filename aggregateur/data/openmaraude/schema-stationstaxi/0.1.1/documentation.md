@@ -13,7 +13,7 @@ Spécification des stations de taxi à usage public
 
 - Schéma créé le : 07/04/2021
 - Site web : https://github.com/openmaraude/schema-stationstaxi
-- Version : 0.1.0
+- Version : 0.1.1
 - Clé primaire : `id`
 
 ### Modèle de données
@@ -34,7 +34,7 @@ Spécification des stations de taxi à usage public
 
 #### Propriété `id`
 
-> *Description : L'identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre sur 3 chiffres.<br/>Ex : 38185-T-001*
+> *Description : Identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre d’arrivée dans la base sur 3 chiffres, commençant par 001<br/>Ex : 38185-T-001*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}-T-\d{3}$`

@@ -1,7 +1,7 @@
 ---
 permalink: /datakode/schema-pei/latest.html
 redirect_from: /datakode/schema-pei/1.0.0.html
-title: PEI
+title: Point d'Eau Incendie (PEI)
 version: 1.0.0
 ---
 

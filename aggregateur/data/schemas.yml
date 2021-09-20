@@ -222,10 +222,10 @@ datakode/schema-pei:
     latest_url: https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.0/schema.json
     original_path: schema.json
     path: schema.json
-    title: PEI
+    title: Point d'Eau Incendie (PEI)
     versions:
     - 1.0.0
-  title: PEI
+  title: Point d'Eau Incendie (PEI)
   type: tableschema
   versions:
   - 1.0.0
@@ -633,7 +633,7 @@ openmaraude/schema-stationstaxi:
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/exemple-valide.csv
+      path: https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.csv
       title: Fichier valide (CSV)
     latest_url: https://schema.data.gouv.fr/schemas/openmaraude/schema-stationstaxi/0.1.1/schema.json
     original_path: schema.json

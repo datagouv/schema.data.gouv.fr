@@ -1,13 +1,13 @@
 ---
 permalink: /datakode/schema-pei/latest/documentation.html
 redirect_from: /datakode/schema-pei/1.0.0/documentation.html
-title: Documentation de PEI
+title: Documentation de Point d'Eau Incendie (PEI)
 version: 1.0.0
 ---
 
 ## PEI
 
-PEI
+Point d'Eau Incendie (PEI)
 
 Spécification du modèle de données relatif aux PEI
 

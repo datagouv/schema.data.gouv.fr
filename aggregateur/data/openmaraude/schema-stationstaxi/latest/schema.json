@@ -11,7 +11,7 @@
     ],
     "countryCode": "FR",
     "homepage": "https://github.com/openmaraude/schema-stationstaxi",
-    "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/schema.json",
+    "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/schema.json",
     "image": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/logo.svg",
     "licenses": [
         {
@@ -24,13 +24,13 @@
         {
             "title": "Fichier valide (CSV)",
             "name": "exemple-valide-csv",
-            "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/exemple-valide.csv"
+            "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.csv"
         }
     ],
     "sources": [],
     "created": "2021-04-07",
-    "lastModified": "2021-08-24",
-    "version": "0.1.0",
+    "lastModified": "2021-09-07",
+    "version": "0.1.1",
     "contributors": [
         {
             "title": "Hervé Cauwelier",
@@ -48,7 +48,7 @@
     "fields": [
         {
             "name": "id",
-            "description": "L'identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre sur 3 chiffres.",
+            "description": "Identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre d’arrivée dans la base sur 3 chiffres, commençant par 001",
             "example": "38185-T-001",
             "type": "string",
             "constraints": {
