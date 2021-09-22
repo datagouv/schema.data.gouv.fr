@@ -1,0 +1,591 @@
+{
+  "$schema":"https://frictionlessdata.io/schemas/table-schema.json",
+  "title":"Lieux de stationnement",
+  "description":"Spécification des lieux permettant le stationnement en parc",
+  "keywords":[
+    "stationnement",
+    "transport",
+    "mobilité"
+  ],
+  "countryCode":"FR",
+  "homepage":"https://github.com/etalab/schema-stationnement",
+  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/schema.json",
+  "licenses":[
+    {
+      "title":"Licence Ouverte",
+      "name":"etalab-2.0",
+      "path":"https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+    }
+  ],
+  "resources":[
+    {
+      "title":"Ressource valide (CSV)",
+      "name":"exemple-valide-csv",
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.csv"
+    },
+    {
+      "title":"Ressource valide (XLSX)",
+      "name":"exemple-valide-xlsx",
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.xlsx"
+    },
+    {
+      "title":"Ressource invalide",
+      "name":"exemple-invalide",
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-invalide.csv"
+    }
+  ],
+  "created":"2019-12-13",
+  "lastModified":"2019-04-28",
+  "version":"0.1.3",
+  "contributors":[
+    {
+      "title":"Pierre Mercé",
+      "email":"pmerce@bordeaux-metropole.fr",
+      "organisation":"Bordeaux Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Cédric Mahé",
+      "email":"cedric.mahe@nantesmetropole.fr",
+      "organisation":"Nantes Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Fréderick Petit",
+      "email":"frederick.petit@lametro.fr",
+      "organisation":"Grenoble-Alpes Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Séverine Ferrant",
+      "email":"severine.ferrant@grandpoitiers.fr",
+      "organisation":"Grand Poitiers",
+      "role":"contributor"
+    },
+    {
+      "title":"Nicolas Madignier",
+      "email":"nicolas.madignier@grandpoitiers.fr",
+      "organisation":"Grand Poitiers",
+      "role":"contributor"
+    },
+    {
+      "title":"Oliver Asselin",
+      "email":"oasselin@lillemetropole.fr",
+      "organisation":"Métrople Européenne de Lille",
+      "role":"contributor"
+    },
+    {
+      "title":"Jean-Marie Bourgogne",
+      "email":"jmbourgogne@opendatafrance.email ",
+      "organisation":"Open Data France",
+      "role":"contributor"
+    },
+    {
+      "title":"François Lyonnais",
+      "email":"francois.lyonnais@orleans-metropole.fr",
+      "organisation":"Orléans Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Jean-Charles Guimard",
+      "email":"jean-charles.guimard@strasbourg.eu ",
+      "organisation":"Eurométropole de Strasbourg",
+      "role":"contributor"
+    },
+    {
+      "title":"Antoine Salsat",
+      "email":"a.salsat@montpellier3m.fr",
+      "organisation":"Montpellier Méditerranée Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Nawelle Nurmukhamedov",
+      "email":"nawelle.nurmukhamedov@versailles.fr",
+      "organisation":"Versailles",
+      "role":"contributor"
+    },
+    {
+      "title":"Cyrille Devillele",
+      "email":"cyrille.devillele@dignelesbains.fr",
+      "organisation":"Digne-les-Bains",
+      "role":"contributor"
+    },
+    {
+      "title":"François Ganz",
+      "email":"francois.ganz@mairie-avignon.com",
+      "organisation":"Grand Avignon",
+      "role":"contributor"
+    },
+    {
+      "title":"Eric Legale",
+      "email":"eric.legale@ville-issy.fr",
+      "organisation":"Issy-les-Moulineaux",
+      "role":"contributor"
+    },
+    {
+      "title":"Frederic Chauvin",
+      "email":"f.chauvin@rennesmetropole.fr",
+      "organisation":"Rennes Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Hervé Le Berre",
+      "email":"herve.le-berre@agglo-larochelle.fr",
+      "organisation":"Communauté d’Agglomération La Rochelle",
+      "role":"contributor"
+    },
+    {
+      "title":"Catherine Evrard-Smagghe",
+      "email":"catherine.evrard-smagghe@paris.fr",
+      "organisation":"Ville de Paris",
+      "role":"contributor"
+    },
+    {
+      "title":"Philippe Priquet",
+      "email":"philippe.priquet@nicecotedazur.org",
+      "organisation":"Métropole Nice Côte d’Azur",
+      "role":"contributor"
+    },
+    {
+      "title":"Frédéric Massing",
+      "email":"fmassing@metzmetropole.fr",
+      "organisation":"Metz Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"François Julien",
+      "email":"francois.julien@toulouse-metropole.fr",
+      "organisation":"Toulouse Métropole",
+      "role":"contributor"
+    },
+    {
+      "title":"Orianne Vales",
+      "email":"orianne.vales@scet.fr",
+      "organisation":"Service Conseil Expertise Territoires",
+      "role":"contributor"
+    },
+    {
+      "title":"Thierry Brusseaux",
+      "email":"thierry.brusseaux@flowbird.group",
+      "organisation":"Flowbird",
+      "role":"contributor"
+    },
+    {
+      "title":"Jérôme Lerzy",
+      "email":"jerome.lerzy@aeroportbeauvais.com",
+      "organisation":"Aéroport Paris-Beauvais",
+      "role":"contributor"
+    },
+    {
+      "title":"Laurent Palayret",
+      "email":"laurent.palayret@adp.fr",
+      "organisation":"Aéroports de Paris",
+      "role":"contributor"
+    },
+    {
+      "title":"Adrien Jonget",
+      "email":"adrien.jonget@lpa.fr",
+      "organisation":"Lyon Parc Auto",
+      "role":"contributor"
+    },
+    {
+      "title":"Valérie Eynaud",
+      "email":"v.eynaud@saemes.fr",
+      "organisation":"SAEMES",
+      "role":"contributor"
+    },
+    {
+      "title":"Eric Saillard",
+      "email":"eric.saillard@troyesparcauto.com ",
+      "organisation":"Troyes Parc Auto",
+      "role":"contributor"
+    },
+    {
+      "title":"Edouard Lecomte",
+      "email":"e.lecomte@fnms.fr",
+      "organisation":"Fédération Nationale du Stationnement",
+      "role":"contributor"
+    },
+    {
+      "title":"Jean-Loup Gauducheau",
+      "email":"jlgauducheau@cityway.fr",
+      "organisation":"Cityway",
+      "role":"contributor"
+    },
+    {
+      "title":"Aline Batifol",
+      "email":"aline.batifol@mappy.com",
+      "organisation":"Mappy",
+      "role":"contributor"
+    },
+    {
+      "title":"Marielle Faure",
+      "email":"marielle.faure@here.com ",
+      "organisation":"Here Technologies",
+      "role":"contributor"
+    },
+    {
+      "title":"Martin Rueda",
+      "email":"martin.rueda@sciencespo.fr",
+      "organisation":"transport.data.gouv.fr",
+      "role":"contributor"
+    },
+    {
+      "title":"Ishan Bhojwani",
+      "email":"ishan.bhojwani@beta.gouv.fr",
+      "organisation":"transport.data.gouv.fr",
+      "role":"contributor"
+    },
+    {
+      "title":"Béatrice  Mercier",
+      "email":"beatrice.mercier@beta.gouv.fr",
+      "organisation":"transport.data.gouv.fr",
+      "role":"contributor"
+    },
+    {
+      "title":"Antoine Augusti",
+      "email":"antoine.augusti@data.gouv.fr",
+      "organisation":"Etalab",
+      "role":"contributor"
+    },
+    {
+      "title":"Geoffrey Aldebert",
+      "email":"geoffrey.aldebert@data.gouv.fr",
+      "organisation":"Etalab",
+      "role":"contributor"
+    }
+  ],
+  "author":"transport.data.gouv.fr",
+  "contact":"contact@transport.beta.gouv.fr",
+  "fields":[
+    {
+      "name":"id",
+      "description":"L'identifiant unique du parking, délivré par le Point d’accès national. `INSEE-P-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre sur 3 chiffres.",
+      "example":"75114-P-001",
+      "type":"string",
+      "constraints":{
+        "required":true,
+        "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}-P-\\d{3}$"
+      }
+    },
+    {
+      "name":"nom",
+      "description":"Nom du parking, ou nom donné dans son utilisation quotidienne en majuscules et sans accents. Recommandation : inutile de répéter le mot parking et ne pas dépasser les 64 caractères.",
+      "example":"REPUBLIQUE",
+      "type":"string",
+      "constraints":{
+        "required":true
+      }
+    },
+    {
+      "name":"insee",
+      "description":"Le code INSEE de la commune où le parking est localisé.",
+      "example":"75114",
+      "type":"string",
+      "constraints":{
+        "required":true,
+        "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}$"
+      }
+    },
+    {
+      "name":"adresse",
+      "description":"L'adresse de l’entrée principale du parking, suivi du code postal et du nom de la Commune (séparé par des virgules). Nomenclature pour les lieux proches des sorties d'autoroute ou de nationale : A11 Sortie 7 Le Mans Nord. Nomenclature pour les zones rurales sans adresse : \"Croisement de route_1 - route_2\" ou \"Le long de route_X après le passage à niveau\".",
+      "example":"3 rue de la Gare, 92300, Levallois-Peret",
+      "type":"string",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"url",
+      "description":"Une adresse URL (Uniform Resource Locator) pointant vers une ressource disponible sur Internet où l'on peut obtenir d'autres informations pertinente relatives aux horaires d’ouverture et fermeture du parc, tarifs appliquées dans le parc, ressource disponible sur Internet où l'on peut réserver en ligne la place de parking.",
+      "example":"https://www.exemple.fr/stationnementrepublique/",
+      "type":"string",
+      "constraints":{
+        "required":false,
+        "format":"uri"
+      }
+    },
+    {
+      "name":"type_usagers",
+      "description":"Type d'usagers autorisés à entrer dans le parc.",
+      "example":"tous",
+      "type":"string",
+      "constraints":{
+        "required":true,
+        "enum":[
+          "tous",
+          "abonnés"
+        ]
+      }
+    },
+    {
+      "name":"gratuit",
+      "description":"Indiquer si la gratuité est applicable à tous les usagers (hors abonnés, résidents, PMR). Il est possible d'indiquer dans le champ `info` toute information supplémentaire relative aux particularités et exceptions (par exemple : \"Gratuité le samedi matin de 9h à 13h\").",
+      "example":"true",
+      "type":"boolean",
+      "trueValues":[
+        "true",
+        "True",
+        "TRUE",
+        "1",
+        "vrai",
+        "Vrai",
+        "VRAI"
+      ],
+      "falseValues":[
+        "false",
+        "False",
+        "FALSE",
+        "0",
+        "faux",
+        "Faux",
+        "FAUX"
+      ],
+      "constraints":{
+        "required":true
+      }
+    },
+    {
+      "name":"nb_places",
+      "description":"Nombre total de places pour les voitures tout statut (PMR, covoiturage, autopartage, voitures électriques).",
+      "example":"325",
+      "type":"integer",
+      "constraints":{
+        "required":true
+      }
+    },
+    {
+      "name":"nb_pr",
+      "description":"Nombre de places avec le tarif P+R.",
+      "example":"250",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_pmr",
+      "description":"Nombre total de places réservées aux personnes à mobilité réduite.",
+      "example":"250",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_voitures_electriques",
+      "description":"Nombre total de places réservées aux voitures électriques, disposant d’une infrastructure de recharge opérationnelle.",
+      "example":"10",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_velo",
+      "description":"Le nombre de vélos maximum pouvant y être rangés. Pour les appuis-vélos qui permettent d’attacher deux vélos (e.g arceau) : multiplier le nombre d’appuis par 2 (e.g. pour 5 arceaux = une capacité de 10 places). Les rateliers permettent d'attacher 1 vélo.",
+      "example":"25",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_2r_el",
+      "description":"Nombre d’emplacements vélos ou deux roues motorisés disposant d’une prise dédiée.",
+      "example":"5",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_autopartage",
+      "description":"Nombre total de places réservées aux voitures en autopartage.",
+      "example":"5",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_2_rm",
+      "description":"Nombre total de places réservées aux motos et scooters.",
+      "example":"5",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"nb_covoit",
+      "description":"Nombre total de places réservées au covoiturage.",
+      "example":"5",
+      "type":"integer",
+      "constraints":{
+        "required":false
+      }
+    },
+    {
+      "name":"hauteur_max",
+      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur `N/A`.",
+      "example":"290",
+      "type":"string",
+      "constraints":{
+        "required":true,
+        "pattern":"^(\\d+|N\/A)$"
+      }
+    },
+    {
+      "name":"num_siret",
+      "description":"Numéro SIRET de la société ou de la collectivité chargée de la gestion de l’ouvrage (14 chiffres).",
+      "example":"80295478500028",
+      "type":"string",
+      "constraints":{
+        "required":true,
+        "pattern":"^\\d{14}$"
+      }
+    },
+    {
+      "name":"Xlong",
+      "description":"La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.",
+      "example":"1.452323",
+      "type":"number",
+      "constraints":{
+        "required":true,
+        "minimum":-180,
+        "maximum":180
+      }
+    },
+    {
+      "name":"Ylat",
+      "description":"La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.",
+      "example":"46.59698",
+      "type":"number",
+      "constraints":{
+        "required":true,
+        "minimum":-90,
+        "maximum":90
+      }
+    },
+    {
+      "name":"tarif_pmr",
+      "description":"Type de tarif horaire pour les PMR.",
+      "example":"42",
+      "type":"string",
+      "constraints":{
+        "required":false,
+        "enum":[
+          "gratuit",
+          "normal_payant",
+          "tarif_special"
+        ]
+      }
+    },
+    {
+      "name":"tarif_1h",
+      "description":"Tarif à payer pour 1h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
+      "example":"5.5",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"tarif_2h",
+      "description":"Tarif à payer pour 2h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
+      "example":"7.5",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"tarif_3h",
+      "description":"Tarif à payer pour 3h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
+      "example":"10.5",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"tarif_4h",
+      "description":"Tarif à payer pour 4h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
+      "example":"13.5",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"tarif_24h",
+      "description":"Tarif à payer pour 24h de stationnement, en euros TTC (durée gratuite comprise, le cas échéant).",
+      "example":"40",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"abo_resident",
+      "description":"Abonnement mensuel-type pour un résident de la zone, en euros TTC. En cas de changement de tarif, préciser le tarif moyen sur l'année (prorata temporis).",
+      "example":"60.99",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"abo_non_resident",
+      "description":"Abonnement mensuel-type pour un non-résident de la zone, en euros TTC. En cas de changement de tarif, préciser le tarif moyen sur l'année (prorata temporis).",
+      "example":"79.99",
+      "type":"number",
+      "constraints":{
+        "required":false,
+        "minimum":0
+      }
+    },
+    {
+      "name":"type_ouvrage",
+      "description":"Précision sur le type de construction de l'équipement.",
+      "example":"ouvrage",
+      "type":"string",
+      "constraints":{
+        "required":false,
+        "enum":[
+          "enclos_en_surface",
+          "ouvrage"
+        ]
+      }
+    },
+    {
+      "name":"info",
+      "description":"Faire remonter des informations ou commentaires, utiles pour un usager du parking, si les champs précédents ne correspondent pas. Si plusieurs informations sont renseignées, le séparateur est le point-virgule. Par exemple : gratuité le samedi matin de 9h à 12h, informations relatives aux services mis à disposition des usagers (présence d’agents de sécurité 24h…).",
+      "example":"Gratuité pour le marché le samedi matin",
+      "type":"string",
+      "constraints":{
+        "required":false
+      }
+    }
+  ],
+  "custom_checks":[
+    {
+      "name":"french-siret-value",
+      "params":{
+        "column":"num_siret"
+      }
+    }
+  ],
+  "missingValues":[
+    ""
+  ],
+  "primaryKey":"id"
+}
