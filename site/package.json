@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@gouvfr/dsfr": "^1.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "latinize": "^0.5.0",
     "moment": "^2.29.1",
     "vue-loading-overlay": "^3.3.2",
