@@ -104,6 +104,7 @@ for af in allfiles:
         os.makedirs(os.path.dirname(af.replace('../aggregateur/data','./site/.vuepress/public/schemas')), exist_ok=True)
         shutil.copy(af, af.replace('../aggregateur/data','./site/.vuepress/public/schemas'))
 
+shutil.copy('../aggregateur/data/schemas.json', './site/.vuepress/public/schemas.json')
 
 shutil.copy('../aggregateur/data/schemas.yml', './site/.vuepress/public/schemas.yml')
 with open("./site/.vuepress/public/schemas.yml", 'r') as stream:
