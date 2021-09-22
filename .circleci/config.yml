@@ -149,6 +149,7 @@ jobs:
           command: |
             cd site
             npm install
+            pip install -r requirements.txt
       - save_cache:
           paths:
             - site/node_modules
