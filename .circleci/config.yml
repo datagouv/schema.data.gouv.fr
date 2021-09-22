@@ -166,7 +166,10 @@ jobs:
             cd dist
             cp ../site/_redirects .
             cp ../site/_headers .
+            cp ../site/robots.txt .
             echo "schema.data.gouv.fr" > CNAME
+            cd ../site
+            npm run deploy
 workflows:
   version: 2
   commit:

@@ -10,7 +10,8 @@
   "repository": "/frontend",
   "scripts": {
     "dev": "vuepress dev site",
-    "build": "vuepress build site"
+    "build": "vuepress build site",
+    "deploy": "gh-pages -d ../dist --message '[skip ci] Updates'"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,7 +24,8 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-vue": "^7.12.1",
     "prettier": "2.3.2",
-    "vuepress": "^1.3.1"
+    "vuepress": "^1.3.1",
+    "gh-pages": "^2.2.0"
   },
   "dependencies": {
     "@gouvfr/dsfr": "^1.0.0",
