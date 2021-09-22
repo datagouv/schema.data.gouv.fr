@@ -128,7 +128,7 @@ jobs:
             fi
   website:
     docker:
-      - image: circleci/ruby:2.6.0-node
+      - image: cimg/python:3.9.7-node
     steps:
       - checkout
       - attach_workspace:
@@ -143,25 +143,27 @@ jobs:
             git config --global user.name "CircleCI"
       - restore_cache:
           keys:
-          - v2-web-{{ checksum "web/Gemfile.lock" }}-{{ checksum "web/package-lock.json" }}
+          - v3-site-{{ checksum "site/package-lock.json" }}
       - run:
           name: Install dependencies
           command: |
-            cd web
+            cd site
             npm install
-            bundle install --path vendor/bundle
       - save_cache:
           paths:
-            - web/node_modules
-            - web/vendor
-          key: v2-web-{{ checksum "web/Gemfile.lock" }}-{{ checksum "web/package-lock.json" }}
+            - site/node_modules
+          key: v3-site-{{ checksum "site/package-lock.json" }}
+      - run:
+          name: Prepare Site
+          command: |
+            cd site
+            python prepareSite.py
+            npm run build
       - run:
           name: Push to GitHub
           command: |
-            cd web
-            ./build.sh
-            echo "schema.data.gouv.fr" > _site/CNAME
-            npm run deploy
+            cd dist
+            echo "schema.data.gouv.fr" > CNAME
 workflows:
   version: 2
   commit:
@@ -191,7 +193,7 @@ workflows:
   cron_fetch:
     triggers:
       - schedule:
-          cron: "0 7-19 * * *"
+          cron: "0 2 * * *"
           filters:
             branches:
               only:

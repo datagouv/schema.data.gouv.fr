@@ -1,8 +1,8 @@
 ---
-permalink: /NaturalSolutions/schema-arbre/0.2.0/documentation.html
-redirect_from: null
+permalink: /NaturalSolutions/schema-arbre/latest/documentation.html
+redirect_from: /NaturalSolutions/schema-arbre/0.2.1/documentation.html
 title: Documentation de Schéma des attributs des arbres urbains
-version: 0.2.0
+version: 0.2.1
 ---
 
 ## Attributs des arbres urbains

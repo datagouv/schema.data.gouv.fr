@@ -1,8 +1,8 @@
 ---
-permalink: /NaturalSolutions/schema-arbre/0.2.0.html
-redirect_from: null
+permalink: /NaturalSolutions/schema-arbre/latest.html
+redirect_from: /NaturalSolutions/schema-arbre/0.2.1.html
 title: Schéma des attributs des arbres urbains
-version: 0.2.0
+version: 0.2.1
 ---
 
 # Schéma des attributs des arbres urbains
@@ -48,3 +48,10 @@ Les mises à jour sont effectuées à partir du fichier communiqué précédemme
 
 ## Consolidation
 Natural Solutions consolidera ce schéma avec d'autres ateliers de co-construction. Pour en savoir plus : https://www.natural-solutions.eu/blog/le-nouveau-schma-de-donnes-pour-larbre-urbain-se-co-construitnbsp
+
+## Outil 
+Vous pouvez utiliser l'outil https://ecoteka.org/ pour vous faciliter le travail
+
+## Sources
+Un fichier répertoriant toutes les sources des données ouvertes d'arbres est disponible ici :
+https://urlz.fr/ghiU
