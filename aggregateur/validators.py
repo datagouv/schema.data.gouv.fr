@@ -386,6 +386,8 @@ class TableSchemaValidator(BaseValidator):
         documentationfiles = {}
         assetfiles = {}
         assetnewnames = {}
+
+        '''
         if(os.path.isdir(self.filepath("documentation/"))):
             if(os.path.isdir(self.filepath("documentation/assets/"))):
                 for filename in os.listdir(self.filepath("documentation/assets/")):
@@ -393,10 +395,11 @@ class TableSchemaValidator(BaseValidator):
                     assetfiles = {**assetfiles, **{filename: self.filepath("documentation/assets/"+filename)}}
 
             for filename in os.listdir(self.filepath("documentation/")):
+                print(filename)
                 if filename.endswith(".md"):
                     links.append(os.path.splitext(filename)[0].lower())
                     documentationfiles = {**documentationfiles, **{filename: self.filepath("documentation/")+filename}}
-
+        '''
 
         with open(self.filepath("documentation.md"), "w") as out:
             convert_source(self.filepath(self.SCHEMA_FILENAME), out, 'page',links)
@@ -415,7 +418,7 @@ class TableSchemaValidator(BaseValidator):
             files[self.CHANGELOG_FILENAME] = self.filepath_or_none(
                 self.CHANGELOG_FILENAME
             )
-
+        
         self.move_files(files,assetnewnames)
         self.move_assets(assetfiles,assetnewnames)
 

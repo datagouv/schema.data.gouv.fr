@@ -1,6 +1,6 @@
 ---
-permalink: /arsante/schema-dae/latest.html
-redirect_from: /arsante/schema-dae/1.0.2.html
+permalink: /arsante/schema-dae/1.0.2.html
+redirect_from: null
 title: DAE
 version: 1.0.2
 ---
