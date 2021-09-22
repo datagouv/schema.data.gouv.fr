@@ -1,8 +1,8 @@
 ---
-permalink: /arsante/schema-dae/1.0.2/documentation.html
-redirect_from: null
+permalink: /arsante/schema-dae/latest/documentation.html
+redirect_from: /arsante/schema-dae/1.0.3/documentation.html
 title: Documentation de DAE
-version: 1.0.2
+version: 1.0.3
 ---
 
 ## DAE
@@ -13,7 +13,7 @@ Spécification du modèle de données relatif aux DAE
 
 - Schéma créé le : 01/01/2020
 - Site web : https://gitlab.com/arsante/atlasante/schema-dae
-- Version : 1.0.2
+- Version : 1.0.3
 
 ### Modèle de données
 
@@ -173,17 +173,17 @@ Spécification du modèle de données relatif aux DAE
 
 #### Pour les DAE non-disponibles 7j/7, détail de la disponibilité de l'appareil - Propriété `disp_j`
 
-> *Description : Liste de valeurs séparées par '|' parmi :  7j/7, lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, jours fériés, événements<br/>Ex : lundi|mercredi|vendredi*
+> *Description : Liste de valeurs séparées par '|' parmi :  7j/7, lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, jours fériés, événements ou non renseigné (seul)<br/>Ex : lundi|mercredi|vendredi*
 - Valeur obligatoire
 - Type : chaîne de caractères
-- Motif : `^(7j/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements){1}(\|(7j/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements))*$`
+- Motif : `^(7j/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements){1}(\|(7j/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements))*$|^(non renseigné){1}$`
 
 #### Pour les DAE non-disponibles 24h/24, détail de la disponibilité de l'appareil - Propriété `disp_h`
 
-> *Description : Liste de valeurs séparées par '|' parmi : heures ouvrables, heures de nuit, 24h/24<br/>Ex : heures ouvrables|heures de nuit*
+> *Description : Liste de valeurs séparées par '|' parmi : heures ouvrables, heures de nuit, 24h/24, ou non renseigné (seul)<br/>Ex : heures ouvrables|heures de nuit*
 - Valeur obligatoire
 - Type : chaîne de caractères
-- Motif : `^(heures ouvrables|heures de nuit|24h/24){1}(\|(heures ouvrables|heures de nuit|24h/24))*$`
+- Motif : `^(heures ouvrables|heures de nuit|24h/24){1}(\|(heures ouvrables|heures de nuit|24h/24))*$|^(non renseigné){1}$`
 
 #### Complément d'information sur la disponibilité du DAE - Propriété `disp_complt`
 
@@ -196,14 +196,14 @@ Spécification du modèle de données relatif aux DAE
 > *Description : Numéro de téléphone 1 sur le site d'implantation du DAE (Conformité au standard norme ITU E123 et E164)<br/>Ex : +33102030405*
 - Valeur obligatoire
 - Type : chaîne de caractères
-- Motif : `^(\+33|0|\+262|\+269|\+508|\+590|\+594|\+596|\+681|\+687|\+689)[1-9](\d\d){4}$`
+- Motif : `^(\+33|\+590|\+594|\+262|\+596|\+269|\+687|\+689|\+590|\+508|\+681)(\d){6,9}$`
 
 #### Numéro 2 de téléphone 1 sur le site d'implantation du DAE - Propriété `tel2`
 
 > *Description : Numéro 2 de téléphone 1 sur le site d'implantation du DAE (Conformité au standard norme ITU E123 et E164)<br/>Ex : +33102030405*
 - Valeur optionnelle
 - Type : chaîne de caractères
-- Motif : `^(\+33|0|\+262|\+269|\+508|\+590|\+594|\+596|\+681|\+687|\+689)[1-9](\d\d){4}$`
+- Motif : `^(\+33|\+590|\+594|\+262|\+596|\+269|\+687|\+689|\+590|\+508|\+681)(\d){6,9}$`
 
 #### Adresse email de contact du site où le DAE a été implanté - Propriété `site_email`
 
@@ -332,14 +332,14 @@ Spécification du modèle de données relatif aux DAE
 > *Description : Numéro de téléphone 1 de l'exploitant (Conformité au standard norme ITU E123 et E164)<br/>Ex : +33102030405*
 - Valeur obligatoire
 - Type : chaîne de caractères
-- Motif : `^(\+33|0|\+262|\+269|\+508|\+590|\+594|\+596|\+681|\+687|\+689)[1-9](\d\d){4}$`
+- Motif : `^(\+33|\+590|\+594|\+262|\+596|\+269|\+687|\+689|\+590|\+508|\+681)(\d){6,9}$`
 
 #### Numéro de téléphone 2 de l'exploitant - Propriété `expt_tel2`
 
 > *Description : Numéro de téléphone 2 de l'exploitant (Conformité au standard norme ITU E123 et E164)<br/>Ex : +33102030405*
 - Valeur optionnelle
 - Type : chaîne de caractères
-- Motif : `^(\+33|0|\+262|\+269|\+508|\+590|\+594|\+596|\+681|\+687|\+689)[1-9](\d\d){4}$`
+- Motif : `^(\+33|\+590|\+594|\+262|\+596|\+269|\+687|\+689|\+590|\+508|\+681)(\d){6,9}$`
 
 #### Adresse électronique de l'exploitant - Propriété `expt_email`
 

@@ -183,29 +183,31 @@ arsante/schema-dae:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
-  latest_version: 1.0.2
+  latest_version: 1.0.3
   schemas:
   - examples:
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide.csv
       title: Exemple de fichier DAE avec des données invalides
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide_structure.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide_structure.csv
       title: Exemple de fichier DAE avec une structure invalide
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide_complet.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide_complet.csv
       title: Exemple de fichier DAE toutes les données invalides
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_valide.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_valide.csv
       title: Exemple de fichier DAE valide
-    latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.2/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.3/schema.json
     original_path: schema.json
     path: schema.json
     title: DAE
     versions:
     - 1.0.1
     - 1.0.2
+    - 1.0.3
   title: DAE
   type: tableschema
   versions:
   - 1.0.1
   - 1.0.2
+  - 1.0.3
 datakode/schema-pei:
   consolidation: null
   description: Spécification du modèle de données relatif aux PEI
