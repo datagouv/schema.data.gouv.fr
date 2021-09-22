@@ -164,6 +164,8 @@ jobs:
           name: Push to GitHub
           command: |
             cd dist
+            cp ../site/_redirects .
+            cp ../site/_headers .
             echo "schema.data.gouv.fr" > CNAME
 workflows:
   version: 2
