@@ -147,7 +147,7 @@ export default {
           if (this.$router.currentRoute.path !== link) this.$router.push(link)
       },
       gotoSchema(){
-        window.location.href = window.location.origin + this.schema_infos['versions'][this.version]['schema_url']
+        window.location.href = window.location.origin + '/schemas' + this.schema_infos['versions'][this.version]['schema_url']
       },
       gotoExternalLink(link){
         window.location.href = link
