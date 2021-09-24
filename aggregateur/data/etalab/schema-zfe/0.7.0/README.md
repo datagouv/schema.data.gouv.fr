@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-zfe/0.6.1.html
-redirect_from: null
+permalink: /etalab/schema-zfe/latest.html
+redirect_from: /etalab/schema-zfe/0.7.0.html
 title: Zone à Faibles Emissions
-version: 0.6.1
+version: 0.7.0
 ---
 
 # Schéma de données pour les Zones à Faibles Emissions
