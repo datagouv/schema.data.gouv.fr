@@ -127,16 +127,20 @@ export default {
       if (this.$router.currentRoute.path.split('/').length > 4) {
           this.version = this.$router.currentRoute.path.split('/')[3]
       } else {
-          this.version = this.schema_infos['latest']
+          if(this.$router.currentRoute.path.split('/')[3].includes('.html')){
+              this.version = this.$router.currentRoute.path.split('/')[3].replace('.html','')
+          } else {
+            this.version = this.schema_infos['latest']
+          }
       }
       
       var last = this.$router.currentRoute.path.split('/')[this.$router.currentRoute.path.split('/').length - 1]
-      if((last == '') | (last == 'latest.html')){
-        this.pageInfo = true
-      } else if(last == 'documentation.html'){
+      if(last == 'documentation.html'){
         this.pageDoc = true
       } else if(last == 'CHANGELOG.html'){
         this.pageChange = true
+      } else {
+          this.pageInfo = true
       }
       this.optionSelect = this.version
       
