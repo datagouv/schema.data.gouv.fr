@@ -157,6 +157,8 @@ jobs:
       - run:
           name: Prepare Site
           command: |
+            rm -rf ./aggregateur/data
+            mv /tmp/data ./aggregateur/data
             cd site
             python prepareSite.py
             npm run build
