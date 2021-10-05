@@ -1,11 +1,15 @@
 ---
 permalink: /etalab/schema-irve/latest/changelog.html
-redirect_from: /etalab/schema-irve/2.0.1/changelog.html
+redirect_from: /etalab/schema-irve/2.0.2/changelog.html
 title: CHANGELOG de Infrastructures de recharge pour véhicules électriques
-version: 2.0.1
+version: 2.0.2
 ---
 
 # Changements
+
+## 2.0.2
+
+- Correction des valeurs d'exemple pour les champs de dates (`date_mise_en_service` et `date_maj`)
 
 ## 2.0.1
 

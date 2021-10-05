@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-irve/2.0.1/documentation.html
-redirect_from: null
+permalink: /etalab/schema-irve/latest/documentation.html
+redirect_from: /etalab/schema-irve/2.0.2/documentation.html
 title: Documentation de Infrastructures de recharge pour véhicules électriques
-version: 2.0.1
+version: 2.0.2
 ---
 
 ## irve
@@ -13,7 +13,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 - Schéma créé le : 29/06/2018
 - Site web : https://github.com/etalab/schema-irve
-- Version : 2.0.1
+- Version : 2.0.2
 
 ### Modèle de données
 
@@ -312,7 +312,7 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 
 #### Propriété `date_mise_en_service`
 
-> *Description : Date de mise en service de la station<br/>Ex : 2018-08-08, 2015-12-30*
+> *Description : Date de mise en service de la station<br/>Ex : 2021-12-30*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
@@ -324,6 +324,6 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 
 #### Propriété `date_maj`
 
-> *Description : Date de mise à jour des données<br/>Ex : 2018/08/08, 2015/12/30*
+> *Description : Date de mise à jour des données<br/>Ex : 2021-12-30*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
