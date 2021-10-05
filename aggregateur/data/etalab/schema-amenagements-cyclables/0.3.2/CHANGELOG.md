@@ -1,8 +1,8 @@
 ---
 permalink: /etalab/schema-amenagements-cyclables/latest/changelog.html
-redirect_from: /etalab/schema-amenagements-cyclables/0.3.1/changelog.html
+redirect_from: /etalab/schema-amenagements-cyclables/0.3.2/changelog.html
 title: CHANGELOG de Aménagements cyclables
-version: 0.3.1
+version: 0.3.2
 ---
 
 # Changelog

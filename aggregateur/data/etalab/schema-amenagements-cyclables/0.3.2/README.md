@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-amenagements-cyclables/0.3.1.html
-redirect_from: null
+permalink: /etalab/schema-amenagements-cyclables/latest.html
+redirect_from: /etalab/schema-amenagements-cyclables/0.3.2.html
 title: Aménagements cyclables
-version: 0.3.1
+version: 0.3.2
 ---
 
 # Schéma de données d'aménagements cyclables 
@@ -48,8 +48,8 @@ Les producteurs pourront saisir leurs données sur :
 - OpenStreetMap (OSM); 
 - les outils développés par Vélo & Territoires à savoir, 
 - un [WebSIG](https://on3v.veremes.net/vmap/?mode_id=vmap&map_id=31&token=publictoken#) ;
-- Un [gabarit au format shapefile](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS_v0.3.0.zip) pour QGIS ;
-- Un [script SQL pour la création d’une base de données Postgres/PostGIS](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS_v0.3.0.zip) « vierge ».
+- Un [gabarit au format shapefile](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS.zip) pour QGIS ;
+- Un [script SQL pour la création d’une base de données Postgres/PostGIS](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS.zip) « vierge ».
 
 Ces outils sont hébérgés dans le dossier [tools](https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools) de ce repo. Pour une demande d'accès au WebSIG ou toute autre question sur ces outils, vous pouvez contacter Fabien Commeaux de Vélo & Territoires à cette adresse : fabien.commeaux@velo-territoires.org
 

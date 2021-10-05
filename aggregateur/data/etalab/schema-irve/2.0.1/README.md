@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-irve/2.0.0.html
-redirect_from: null
+permalink: /etalab/schema-irve/latest.html
+redirect_from: /etalab/schema-irve/2.0.1.html
 title: Infrastructures de recharge pour véhicules électriques
-version: 2.0.0
+version: 2.0.1
 ---
 
 # Infrastructures de recharge pour véhicules électriques
@@ -43,9 +43,7 @@ Une fois vos données chargées ou remplies, un formulaire vous proposera de les
 
 ## Consolidation
 
-Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/notebooks/tree/master/irve). Le fichier en résultant est [publié ici sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5448d3e0c751df01f85d0572).
-
-Un nouveau fichier, contenant la base de consolidation des jeux de données IRVE obéissant au schéma 2.0.0 sera disponible pochainement sur cette même page.
+Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/notebooks/tree/master/irve-v2). Le fichier en résultant est [publié ici sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5448d3e0c751df01f85d0572).
 
 ## Voir aussi
 
@@ -55,4 +53,4 @@ Un nouveau fichier, contenant la base de consolidation des jeux de données IRVE
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
 * adresser un message à [validation@data.gouv.fr](mailto:validation@data.gouv.fr?subject=IRVE)
-* ouvrir un ticket sur le [dépôt Github du schéma](https://github.com/etalab/schema-irve/issues/new)
+* ouvrir un ticket sur le [dépôt GitHub du schéma](https://github.com/etalab/schema-irve/issues/new)

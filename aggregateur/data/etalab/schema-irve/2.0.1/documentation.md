@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-irve/2.0.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-irve/latest/documentation.html
+redirect_from: /etalab/schema-irve/2.0.1/documentation.html
 title: Documentation de Infrastructures de recharge pour véhicules électriques
-version: 2.0.0
+version: 2.0.1
 ---
 
 ## irve
@@ -13,7 +13,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 - Schéma créé le : 29/06/2018
 - Site web : https://github.com/etalab/schema-irve
-- Version : 2.0.0
+- Version : 2.0.1
 
 ### Modèle de données
 
@@ -156,7 +156,7 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 
 #### Propriété `coordonneesXY`
 
-> *Description : La latitude et la longitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84 au format [lat,lon].<br/>Ex : [48.345345,7.48710500]*
+> *Description : La latitude et la longitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84 au format [lon,lat].<br/>Ex : [7.48710500,48.345345]*
 - Valeur obligatoire
 - Type : point géographique (format `array`)
 

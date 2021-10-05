@@ -265,10 +265,10 @@ etalab/schema-amenagements-cyclables:
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
-  latest_version: 0.3.1
+  latest_version: 0.3.2
   schemas:
   - examples: []
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.1/schema_amenagements_cyclables.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.2/schema_amenagements_cyclables.json
     original_path: schema_amenagements_cyclables.json
     path: schema_amenagements_cyclables.json
     title: Aménagements cyclables
@@ -280,6 +280,7 @@ etalab/schema-amenagements-cyclables:
     - 0.2.3
     - 0.3.0
     - 0.3.1
+    - 0.3.2
   title: Aménagements cyclables
   type: jsonschema
   versions:
@@ -290,6 +291,7 @@ etalab/schema-amenagements-cyclables:
   - 0.2.3
   - 0.3.0
   - 0.3.1
+  - 0.3.2
 etalab/schema-bal:
   consolidation: null
   description: Fichier contenant toutes les adresses d'un territoire donné
@@ -390,12 +392,12 @@ etalab/schema-irve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
-  latest_version: 2.0.0
+  latest_version: 2.0.1
   schemas:
   - examples:
     - path: https://github.com/etalab/schema-irve/raw/v2.0.0/exemple-valide.csv
       title: Exemple de fichier IRVE valide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Infrastructures de recharge pour véhicules électriques
@@ -405,6 +407,7 @@ etalab/schema-irve:
     - 1.0.2
     - 1.0.3
     - 2.0.0
+    - 2.0.1
   title: Infrastructures de recharge pour véhicules électriques
   type: tableschema
   versions:
@@ -413,6 +416,7 @@ etalab/schema-irve:
   - 1.0.2
   - 1.0.3
   - 2.0.0
+  - 2.0.1
 etalab/schema-lieux-covoiturage:
   consolidation:
     dataset_id: 5d6eaffc8b4c417cdc452ac3
