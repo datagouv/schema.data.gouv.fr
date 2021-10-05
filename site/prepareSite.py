@@ -113,6 +113,7 @@ with open("./site/.vuepress/public/schemas.yml", 'r') as stream:
 
 schemas = glob.glob("./site/*/*")
 
+
 mydict = {}
 stats = {}
 for s in schemas:
@@ -146,6 +147,15 @@ for s in schemas:
     mydict[s.split('./site/')[1]]['type'] = data_loaded[s.split('./site/')[1]]['type']
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"README.md")
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"latest.md")
+
+schv = glob.glob("./site/*/*/*/*.md")
+
+for s in schv:
+    if(s.split('/')[-1] == 'README.md'):
+        shutil.copy(s, s.replace('/'+s.split('/')[-1],'')+'.md')
+
+
+
 
 with open('./site/.vuepress/public/schema-infos.json', 'w') as fp:
     json.dump(mydict, fp,  indent=4)
