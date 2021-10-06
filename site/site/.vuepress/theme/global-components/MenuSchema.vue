@@ -127,7 +127,8 @@ export default {
       if (this.$router.currentRoute.path.split('/').length > 4) {
           this.version = this.$router.currentRoute.path.split('/')[3]
       } else {
-          if(this.$router.currentRoute.path.split('/')[3].includes('.html')){
+          // URL like /etalab/schema-hautes-remunerations/0.1.0.html
+          if (this.$router.currentRoute.path.split('/')[3].match(/\d+\.\d+\.\d+\.html/)) {
               this.version = this.$router.currentRoute.path.split('/')[3].replace('.html','')
           } else {
             this.version = this.schema_infos['latest']
