@@ -129,3 +129,7 @@ itineraire-randonnee:
   url: https://github.com/PnX-SI/schema_randonnee.git
   type: jsonschema
   email: schema@data.gouv.fr
+emprise-stationnement-voirie:
+  url: https://github.com/macaron-ai/onstreet-parking-schema.git
+  type: jsonschema
+  email: contact@transport.beta.gouv.fr
