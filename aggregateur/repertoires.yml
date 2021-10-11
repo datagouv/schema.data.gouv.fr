@@ -125,3 +125,7 @@ point-eau-incendie:
   url: https://gitlab.com/datakode/schema-pei.git
   type: tableschema
   email: portier@datakode.fr
+itineraire-randonnee:
+  url: https://github.com/PnX-SI/schema_randonnee.git
+  type: jsonschema
+  email: schema@data.gouv.fr
