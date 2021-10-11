@@ -1,7 +1,7 @@
 ---
 permalink: /PnX-SI/schema_randonnee/latest/changelog.html
 redirect_from: /PnX-SI/schema_randonnee/1.0.2/changelog.html
-title: CHANGELOG de Iinéraires de randonnée
+title: CHANGELOG de Itinéraires de randonnée
 version: 1.0.2
 ---
 

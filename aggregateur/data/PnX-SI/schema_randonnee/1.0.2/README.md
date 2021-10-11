@@ -1,7 +1,7 @@
 ---
 permalink: /PnX-SI/schema_randonnee/latest.html
 redirect_from: /PnX-SI/schema_randonnee/1.0.2.html
-title: Iinéraires de randonnée
+title: Itinéraires de randonnée
 version: 1.0.2
 ---
 
