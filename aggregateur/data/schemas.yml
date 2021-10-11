@@ -641,6 +641,26 @@ etalab/schema-zfe:
   versions:
   - 0.6.1
   - 0.7.0
+macaron-ai/onstreet-parking-schema:
+  consolidation: null
+  description: Spécification du schéma de données d'emprises de stationnement
+  email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/macaron-ai/onstreet-parking-schema/
+  latest_version: 1.0.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json
+    original_path: onstreet-parking.schema.json
+    path: onstreet-parking.schema.json
+    title: Emprise de stationnement sur la voirie
+    versions:
+    - 1.0.0
+  title: Emprise de stationnement sur la voirie
+  type: jsonschema
+  versions:
+  - 1.0.0
 metis-reseaux/infos-travaux:
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
