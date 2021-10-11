@@ -175,6 +175,35 @@ NaturalSolutions/schema-arbre:
   - 0.2.0
   - 0.2.1
   - 0.2.2
+PnX-SI/schema_randonnee:
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux itinéraires de randonnée
+  email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/PnX-SI/schema-randonnee
+  latest_version: 1.0.2
+  schemas:
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/PnX-SI/schema_randonnee/1.0.2/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Schéma principal
+    versions:
+    - 0.3.0
+    - 0.3.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+  title: Iinéraires de randonnée
+  type: jsonschema
+  versions:
+  - 0.3.0
+  - 0.3.1
+  - 1.0.0
+  - 1.0.1
+  - 1.0.2
 arsante/schema-dae:
   consolidation: null
   description: Spécification du modèle de données relatif aux DAE
