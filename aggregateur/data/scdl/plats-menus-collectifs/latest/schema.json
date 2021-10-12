@@ -2,23 +2,23 @@
   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
   "name": "plats-menus-collectifs",
   "title": "Composition des plats des menus de la restauration collective",
-  "description": "Description des plats proposés par des collectivités locales, des établissements publics et des entreprises dans le cadre de l'offre de restauration collective. Il permet de préciser les modalités de fabrication des plats et de détailler les produits qui les composent. Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées. Il peut être utilisé indépendamment ou en complément du le schéma sur les menus collectifs qui décrit la composition en plats.",
+  "description": "Description des plats proposés par des collectivités locales et des établissements publics dans le cadre de l'offre de restauration collective. Il permet de préciser les modalités de fabrication des plats et de détailler les ingrédients qui les composent. Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées. Il peut être utilisé en combinaison avec le schéma sur les menus qui décrit l'agencement des plats dans l'offre de restauration collective.",
   "countryCode": "FR",
   "homepage": "https://git.opendatafrance.net/scdl/plats-menus-collectifs",
-  "path": "https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/0.7/schema.json",
+  "path": "https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/v0.2/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier de menus valide en csv",
-      "path": "https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/0.7/examples/plats-collectifs_valide.csv"
+      "path": "https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/v0.2/examples/plats-collectifs_valide.csv"
     },
     {
       "title": "Exemple de fichier de menus valide en OOXML",
-      "path": "https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/0.7/examples/plats-collectifs_valide.xlsx"
+      "path": "https://git.opendatafrance.net/scdl/plats-menus-collectifs/raw/v0.2/examples/plats-collectifs_valide.xlsx"
     }
   ],
   "created": "2020-02-12",
-  "lastModified": "2021-05-10",
-  "version": "0.7",
+  "lastModified": "2021-01-13",
+  "version": "0.2",
   "contributors": [
     {
       "title": "OpenDataFrance",
@@ -47,93 +47,9 @@
       "organisation": "Agglomération du Grand Poitiers",
       "email": "rene.marrot@grandpoitiers.fr",
       "role": "contributor"
-    },
-    {
-      "title": "Séverine Ferrant",
-      "organisation": "Agglomération du Grand Poitiers",
-      "email": "severine.ferrant@grandpoitiers.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Antoine Augusti",
-      "organisation": "Etalab",
-      "email": "antoine.augusti@data.gouv.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Céline Bercetche",
-      "organisation": "Easilys",
-      "email": "cbercetche@easilys.com",
-      "role": "contributor"
-    } ,
-    {
-      "title": "Johan Desplats",
-      "organisation": "Salamandre",
-      "email": "j.desplats@salamandre.tm.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Sébastien Puertas",
-      "organisation": "Datameal",
-      "email":"s.puertas@datameal.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Jean-Philippe Rossiquet",
-      "organisation": "Salamandre",
-      "email": " jp.rossiquet@salamandre.tm.fr",
-      "role": "contributor"
-    },
-    {
-      "title": " Michel Perrin",
-      "organisation": "Hestia",
-      "email": " mperrin@alpes-deis.fr",
-      "role": "contributor"
     }
   ],
   "fields": [
-    {
-      "name": "platCollNom",
-      "title": "Nom de la collectivité qui produit les données",
-      "description": "Nom officiel de la collectivité ou de l'établissement public responsable de l'offre de restauration collective et qui produit les données.",
-      "type": "string",
-      "examples": "Grand Poitiers Communauté urbaine",
-      "constraints": {
-        "required": true 
-      }
-    },
-    {
-      "name": "platCollSiret",
-      "title": "Code SIRET de la collectivité qui produit les données.",
-      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.",
-      "type": "string",
-      "examples": "21330063500017",
-      "constraints": {
-        "required": true,
-        "pattern":	"^\\d{14}$"
-      }
-    },
-    {
-      "name": "platEtablissementNom",
-      "title": "Nom de l'établissement ou entreprise qui a produit le plat",
-      "description": "Nom officiel de l'établissement qui est à l'origine de la production du plat. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.",
-      "type": "string",
-      "examples": "Syndicat intercommunal à vocation unique de Poitiers",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "platEtablissementSiret",
-      "title": "Code SIRET de l'établissement ou entreprise qui a produit le plat.",
-      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le plat, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif",
-      "type": "string",
-      "examples": "25330618700035",
-      "constraints": {
-        "required": false,
-        "pattern":	"^\\d{14}$"
-      }
-    },
     {
       "name": "platCode",
       "title": "Code du plat servi",
@@ -147,43 +63,123 @@
     {
       "name": "platNom",
       "title": "Nom du plat servi",
-      "description": "Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts. Ce champ est répliqué dans le champ MenuNomPlat du schéma des menus-collectifs. Cette réplication permet d'envisager la publication des données des menus_collectifs indépendamment de celles du présent jeu",
+      "description": "Le nom du plat dans la limite de 140 caractères maximum.",
       "type": "string",
-      "examples": "cordon bleu",
+      "examples": "Cordon bleu",
       "constraints": {
         "required": true,
-        "maxLength": 160 
+        "maxLength": 140 
+      }
+    },
+    {
+      "name": "platNombreConvive",
+      "title": "Nombre de convives destinataires du plat proposé",
+      "description": "Ce champ permet de renseigner le nombre (approximatif) de convives qui vont manger le plat proposé dans le menu.",
+      "type": "number",
+      "examples": "130",
+      "constraints": {
+        "required": false
       }
     },
     {
       "name": "platProduitNom",
       "title": "Produit entrant dans la composition du plat",
-      "description": "Afin de décrire le contenu d'un plat, ce champ permet de lister (un produit par ligne) les produits entrant dans sa composition. Cela permet d'identifier à traves eux les apports nutritifs, les éventuels allergènes et les aspects diététiques associés. Ces éléments sont généralement issus de la fiche recette. Lorsque plusieurs produits composent le plat, utilisez autant de lignes que de produits entrant dans sa composition.",
+      "description": "Afin de décrire le contenu d'un plat, la liste des produits entrant dans sa composition permet d'identifier les apports nutritifs, les éventuels allergènes et les aspects diététiques associés. Ces éléments sont généralement issus de la fiche recette. Le concept de produit est entendu comme la marchandise concrète répondant au besoin d'approvisionnement d'un ingrédient selon des conditions de production (labels et autres caractéristiques qualitatives), de conditionnement (sac, seau, bouteille ... + quantité), de transport (distance parcourue, ...), de conservation (conditions de stockage, péremption, ...), de traçabilité (site de production, n° de lot ...) et commerciales (fournisseur, marché, prix).",
       "type": "string",
       "examples": "champignon de paris",
       "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "platProduitOGM",
+      "title": "Présence d'OGM dans le produit utilisé dans la composition du plat",
+      "description": "Indique la présence d'OGM dans le plat à partir des informations issues du détail des produits et ingrédients ayant permis de le confectionner.",
+      "type": "boolean",
+      "examples": "non",
+      "trueValues": ["oui"],
+      "falseValues": ["non"],
+      "constraints": {
         "required": true
+      }      
+    },
+    {
+      "name": "platProduitIonisation",
+      "title": "Indication de l'utilisation du procédé d'ionisation dans la fabrication du produit",
+      "description": "Indique l'utilisation du procédé d'ionisation consistant à exposer des aliments à des rayonnements ionisants afin de réduire le nombre de micro-organismes qu'ils contiennent.",
+      "type": "boolean",
+      "trueValues": ["oui"],
+      "falseValues": ["non"], 
+      "examples": "non",
+      "constraints": {
+        "required": true
+      } 
+    },
+    {
+      "name": "platProduitAdditif",
+      "title": "Liste des additifs alimentaires présents dans le produit entrant dans la composition du plat",
+      "description": "Les additifs alimentaires sont des produits ajoutés aux denrées alimentaires dans le but d'en améliorer la conservation, le goût et l'aspect. Les éventuels additifs peuvent être listés dans ce champ en les séparant par une virgule. Un liste des additifs alimentaires est disponibles à [cette adresse](https://fr.wikipedia.org/wiki/Liste_des_additifs_alimentaires)",
+      "type": "string",
+      "examples": "Silicate de sodium",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "platProduitConditionnementType",
+      "title": "Type de conditionnement du plat",
+      "description": "Le type de conditionnement du plat dépend du lieu de fabrication ; il s'agit ici de renseigner le mode de conditionnement du produit ou de l'ingrédient lors de sa réception sur le lieu du service ou de la transformation (seau, boîte, carton, bouteille).",
+      "type": "string",
+      "examples": "seau de 5l",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "platNutri-score",
+      "title": "Indiquation de l'indice nutritif du plat",
+      "description": "Indique la valeur nutritive du plat en fonction des valeur de l'indicateur nutriscore.",
+      "type": "string",
+      "examples": "C",
+      "constraints": {
+        "required": false,
+        "enum":[
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      } 
+    },
+    {
+      "name": "platPrix",
+      "title": "Coût de revient du plat",
+      "description": "Le prix de revient pour la structure de restauration collective est utilisé pour composer les plats et les menus en combinaison avec les impératifs d'équilibre nutritionnel.",
+      "type": "string",
+      "examples": "10 €/kg",
+      "constraints": {
+        "required": false
       }
     },
     {
       "name": "platProduitFournisseurNom",
-      "title": "Nom du fournisseur principal du produit entrant dans la composition du plat.",
-      "description": "Les établissements de restauration collective font appel à divers fournisseurs pour leur approvisionnement en plats préparés ou en produits entrants dans la composition des plats préparés sur place. Ces fournisseurs sont soit des centrales d'achat soit des producteurs. Lorsque l'identité du producteur du produit est connue, elle peut remplacer la valeur du fournisseur principal. Sinon ce champ permet d'indiquer le fournisseur principal du produit parmi l’ensemble des fournisseurs qui peuvent intervenir pour cet approvisionnement.",
+      "title": "Nom du fournisseur du produit entrant dans la composition du plat",
+      "description": "Les établissements de restauration collective font appel à divers fournisseurs pour leur approvisionnement en plats préparés ou en produits entrants dans la composition des plats préparés sur place.",
       "type": "string",
-      "examples": "SARL Bio Chemin",
+      "examples": "Sodebo",
       "constraints": {
         "required": false
       }
     },
     {
       "name": "platProduitFournisseurSiret",
-      "title": "Le code SIRET du fournisseur principal",
-      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) du fournisseur principal du produit, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, le fournisseur dispose de plusieurs code SIRET. Dans ce cas c'est le code de l'établissement principal qui doit être indiqué.",
+      "title": "Code SIRET du fournisseur qui fournit les plats ou les produits bruts.",
+      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) du fournisseur qui a fourni les plats ou les produits, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.",
       "type": "string",
-      "examples": "23533064456535",
+      "examples": "33965560700028",
       "constraints": {
-        "required": false,
-        "pattern":	"^\\d{14}$"
+        "required": false
       }
     },
     {
@@ -193,134 +189,7 @@
       "type": "string",
       "examples": "13055",
       "constraints": {
-        "required": false,
-        "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
-      }
-    },
-    {
-      "name": "platProduitSiqo",
-      "title": "Les signes officiels de la qualité et de l'origine",
-      "description": "Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : Agriculture biologique, Appellation d'origine protégée/contrôlée, Indication géographique protégée, Spécialité traditionnelle garantie, Label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule dans ce champ sous la forme [\"agriculture biologique\",\"appelation d'origine protégée\"].",
-      "type": "array",
-      "arrayItem":{
-         "type": "string",
-         "constraints": {
-          "required": false,
-          "enum": 
-          [
-            "agriculture biologique", 
-            "appellation d'origine protégée",
-            "appellation d'origine contrôlée", 
-            "indication géographique protégée", 
-            "spécialité traditionnelle garantie", 
-            "label rouge"
-          ]
-        },            
-      "examples": "[\"agriculture biologique\"]"
-      }
-    },
-    {
-      "name": "platProduitLabel",
-      "title": "Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication",
-      "description": "Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : https://fr.openfoodfacts.org/labels. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ. ",
-      "type": "string",
-      "examples": "Ferme des Jarouilles",
-      "constraints": {
         "required": false
-      }
-    },
-    {
-      "name": "platProduitDescription",
-      "title": "Description du plat préparé",
-      "description": "Lorsque la collectivité achète des plats préparés (boîte de macédoine) elle ne connaît pas l'origine des produits le composant. Ce champ permet de décrire le plat à partir des informations fournies par le fournisseur.",
-      "type": "string",
-      "examples": "macédoine de légumes composée de pommes de terre, de carottes, de navets, de petits pois, de haricots verts, d'oeufs et de mayonnaise.",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "platProduitOGM",
-      "title": "Présence d'OGM dans le produit utilisé dans la composition du plat",
-      "description": "Indique la présence d'OGM dans le produit. S'il en contient la valeur est oui et non s'il n'en contient pas.",
-      "type": "boolean",
-      "examples": "non",
-      "trueValues": ["oui"],
-      "falseValues": ["non"],
-      "constraints": {
-        "required": false
-      }      
-    },
-    {
-      "name": "platProduitIonisation",
-      "title": "Indication de l'utilisation du procédé d'ionisation dans la fabrication du produit",
-      "description": "Indique l'utilisation du procédé d'ionisation consistant à exposer des aliments à des rayonnements ionisants afin de réduire le nombre de micro-organismes qu'ils contiennent. Si le procédé a été utilisé la valeur est oui et non sinon.",
-      "type": "boolean",
-      "trueValues": ["oui"],
-      "falseValues": ["non"], 
-      "examples": "non",
-      "constraints": {
-        "required": false
-      } 
-    },
-    {
-      "name": "platProduitAdditif",
-      "title": "Liste des additifs alimentaires présents dans le produit entrant dans la composition du plat",
-      "description": "Les additifs alimentaires sont des produits ajoutés aux denrées alimentaires dans le but d'en améliorer la conservation, le goût et l'aspect. Les éventuels additifs peuvent être listés dans ce champ en les séparant par un point-virgule. Un liste des additifs alimentaires est disponibles à [cette adresse](https://fr.wikipedia.org/wiki/Liste_des_additifs_alimentaires). Si le produit est certifié sans additifs inscrivez \"sans additifs\" dans ce champ.",
-      "type": "string",
-      "examples": "silicate de sodium",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "platProduitAllergene",
-      "title": "Nom des allergènes présents dans le produit",
-      "description": "Enumération des éventuels allergènes présents dans le produit entrant dans la composition du plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par un virgule dans ce champ sous la forme [\"oeufs\",\"lait\"].",
-      "type": "array",
-      "arrayItem":{
-         "type": "string",
-         "constraints": {
-          "required": false,
-          "enum": 
-          [
-            "céréales contenant du gluten",
-            "crustacés",
-            "oeufs",
-            "poissons",
-            "arachides",
-            "soja",
-            "lait",
-            "fruits à coques",
-            "céleri",
-            "moutarde",
-            "graines de sésame",
-            "anhydride sulfureux et sulfites",
-            "lupin",
-            "mollusques"  
-          ]
-         }
-        },
-      "examples": "[\"Fruits à coques\",\"céréales contenant du gluten\"]"
-    },
-    {
-      "name": "platProduitNutriment",
-      "title": "Nom et quantité des nutriments présents dans le produit",
-      "description": "Les produits composant les plats contiennent différents nutriments. Cette information est notamment utilisée pour composer des menus équilibrés du point de vue diététique. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ sous la forme \"14g Matière grasse ; 2g Glucides ; 1g Sel\". Il s’agit ici d’une valeur de nutriment pour  100g de produit",
-      "type": "string",
-      "examples": "14g Matière grasse ; 2g Glucides ; 1g Sel",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "platPublicationDate",
-      "title": "Date de publication de l'enregistrement d'un plat",
-      "description": "Lors de la publication ce champ d'horodatage permet d'indiquer la date de publication de la donnée présente dans le fichier.",
-      "type": "datetime",
-      "examples": "2020-05-11T14:08:32Z",
-      "constraints": {
-        "required": true
       }
     },
     {
@@ -334,11 +203,11 @@
       }
     },
     {
-      "name": "platModificationInfo",
+      "name": "platModificationInformation",
       "title": "Information sur la modification ayant entraîné une mise à jour de la donnée",
       "description": "Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.",
       "type": "string",
-      "examples": "changement de fournisseur dû à un aléa de livraison",
+      "examples": "changement dû à un aléa de livraison",
       "constraints": {
         "required": false
       }

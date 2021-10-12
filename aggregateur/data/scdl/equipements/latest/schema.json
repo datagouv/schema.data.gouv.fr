@@ -1,50 +1,14 @@
 {
   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
-  "name": "equipements",
-  "title": "Équipements",
-  "description": "Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité",
-  "countryCode": "FR",
-  "homepage": "https://git.opendatafrance.net/scdl/equipements",
-  "path": "https://git.opendatafrance.net/scdl/equipements/raw/v0.1.1/schema.json",
-  "sources": [
-    {
-      "title": "Définition d'équipement (groupe de travail EquipCo)",
-      "path": "http://www.crige-paca.org/index.php?eID=tx_crigedocuments&hash=2eb4b236&fid=3117"
-    },
-    {
-      "title": "Modèle de données des équipements collectifs publics (CRIGE PACA)",
-      "path": "http://www.crige-paca.org/index.php?eID=tx_crigedocuments&hash=2eb4b236&fid=3117"
-    },
-    {
-      "title": "Nomenclature des équipements collectifs publics (CRIGE PACA)",
-      "path": "http://www.crige-paca.org/index.php?eID=tx_crigedocuments&hash=97632e80&fid=3118"
-    }
-  ],
+  "title": "Equipements",
+  "author": "OpenDataFrance",
+  "contributor": "Romain Buchaut, Loïc Haÿ, Charles Nepote, Pierre Dittgen",
+  "version": "0.1.0",
   "created": "2018-11-20",
-  "lastModified": "2019-06-28",
-  "version": "0.1.1",
-  "contributors": [
-    {
-      "title": "OpenDataFrance",
-      "email": "scdl@opendatafrance.email",
-      "role": "author"
-    },
-    {
-      "title": "Romain Buchaut",
-      "role": "contributor"
-    },
-    {
-      "title": "Charles Nepote",
-      "email": "charles.nepote@fing.org",
-      "role": "contributor"
-    },
-    {
-      "title": "Pierre Dittgen",
-      "organisation": "Jailbreak",
-      "email": "pierre.dittgen@jailbreak.paris",
-      "role": "contributor"
-    }
-  ],
+  "updated": "2019-01-28",
+  "description": "Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité.",
+  "homepage": "https://git.opendatafrance.net/scdl/equipements",
+  "uri": "https://git.opendatafrance.net/scdl/equipements/raw/v0.1.0/schema.json",
   "fields": [
     {
       "name": "COLL_NOM",

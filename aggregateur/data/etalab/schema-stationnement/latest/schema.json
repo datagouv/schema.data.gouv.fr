@@ -9,7 +9,7 @@
   ],
   "countryCode":"FR",
   "homepage":"https://github.com/etalab/schema-stationnement",
-  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/schema.json",
+  "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.0/schema.json",
   "licenses":[
     {
       "title":"Licence Ouverte",
@@ -19,24 +19,19 @@
   ],
   "resources":[
     {
-      "title":"Ressource valide (CSV)",
-      "name":"exemple-valide-csv",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.csv"
-    },
-    {
-      "title":"Ressource valide (XLSX)",
-      "name":"exemple-valide-xlsx",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-valide.xlsx"
+      "title":"Ressource valide",
+      "name":"exemple-valide",
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.0/exemple-valide.csv"
     },
     {
       "title":"Ressource invalide",
       "name":"exemple-invalide",
-      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.3/exemple-invalide.csv"
+      "path":"https://github.com/etalab/schema-stationnement/raw/v0.1.0/exemple-invalide.csv"
     }
   ],
   "created":"2019-12-13",
-  "lastModified":"2019-04-28",
-  "version":"0.1.3",
+  "lastModified":"2019-12-20",
+  "version":"0.1.0",
   "contributors":[
     {
       "title":"Pierre Mercé",
@@ -247,12 +242,6 @@
       "email":"antoine.augusti@data.gouv.fr",
       "organisation":"Etalab",
       "role":"contributor"
-    },
-    {
-      "title":"Geoffrey Aldebert",
-      "email":"geoffrey.aldebert@data.gouv.fr",
-      "organisation":"Etalab",
-      "role":"contributor"
     }
   ],
   "author":"transport.data.gouv.fr",
@@ -301,9 +290,9 @@
       "description":"Une adresse URL (Uniform Resource Locator) pointant vers une ressource disponible sur Internet où l'on peut obtenir d'autres informations pertinente relatives aux horaires d’ouverture et fermeture du parc, tarifs appliquées dans le parc, ressource disponible sur Internet où l'on peut réserver en ligne la place de parking.",
       "example":"https://www.exemple.fr/stationnementrepublique/",
       "type":"string",
-      "format":"uri",
       "constraints":{
-        "required":false
+        "required":false,
+        "format":"uri"
       }
     },
     {
@@ -429,12 +418,11 @@
     },
     {
       "name":"hauteur_max",
-      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres. S'il n'y a pas de hauteur maximale, il est possible de renseigner ce champs avec la valeur `N/A`.",
-      "example":"290",
-      "type":"string",
+      "description":"Hauteur maximale autorisée à la fois pour l'accès au parking et pour le stationnement du véhicule, en centimètres.",
+      "example":"5",
+      "type":"integer",
       "constraints":{
-        "required":true,
-        "pattern":"^(\\d+|N\/A)$"
+        "required":true
       }
     },
     {
@@ -580,7 +568,7 @@
     {
       "name":"french-siret-value",
       "params":{
-        "column":"num_siret"
+        "column":"num_SIRET"
       }
     }
   ],

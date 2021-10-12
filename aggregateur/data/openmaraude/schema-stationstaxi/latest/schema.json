@@ -11,7 +11,7 @@
     ],
     "countryCode": "FR",
     "homepage": "https://github.com/openmaraude/schema-stationstaxi",
-    "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/schema.json",
+    "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/schema.json",
     "image": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/logo.svg",
     "licenses": [
         {
@@ -24,13 +24,15 @@
         {
             "title": "Fichier valide (CSV)",
             "name": "exemple-valide-csv",
-            "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.csv"
+            "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/exemple-valide.csv"
         }
     ],
-    "sources": [],
+    "sources": [
+
+    ],
     "created": "2021-04-07",
-    "lastModified": "2021-09-07",
-    "version": "0.1.1",
+    "lastModified": "2021-08-24",
+    "version": "0.1.0",
     "contributors": [
         {
             "title": "Hervé Cauwelier",
@@ -48,7 +50,7 @@
     "fields": [
         {
             "name": "id",
-            "description": "Identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre d’arrivée dans la base sur 3 chiffres, commençant par 001",
+            "description": "L'identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre sur 3 chiffres.",
             "example": "38185-T-001",
             "type": "string",
             "constraints": {
@@ -76,12 +78,25 @@
             }
         },
         {
-            "name": "geopoint",
-            "description": "La longitude, latitude au format Table Schema (https://specs.frictionlessdata.io/table-schema/#geopoint)",
-            "example": "1.452323, 46.59698",
-            "type": "geopoint",
+            "name": "xlong",
+            "description": "La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.",
+            "example": "1.452323",
+            "type": "number",
             "constraints": {
-                "required": true
+                "required": true,
+                "minimum": -180,
+                "maximum": 180
+            }
+        },
+        {
+            "name": "ylat",
+            "description": "La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l'entrée du lieu exprimée dans le système de coordonnées WGS84.",
+            "example": "46.59698",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": -90,
+                "maximum": 90
             }
         },
         {

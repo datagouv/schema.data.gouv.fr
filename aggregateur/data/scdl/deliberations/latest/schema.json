@@ -1,269 +1,148 @@
 {
-  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
-  "name": "deliberations",
-  "title": "Délibérations",
-  "description": "Spécification du modèle de données relatif aux délibérations adoptées par une collectivité locale",
-  "countryCode": "FR",
-  "homepage": "https://git.opendatafrance.net/scdl/deliberations",
-  "path": "https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.3/schema.json",
-  "resources": [
-    {
-      "title": "Exemple de fichier délibérations valide",
-      "path": "https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.3/examples/Deliberations_ok.csv"
-    },
-    {
-      "title": "Exemple de fichier délibérations invalide",
-      "path": "https://git.opendatafrance.net/scdl/deliberations/raw/v2.1.3/examples/Deliberations_coll_siret_ko.csv"
-    }
-  ],
-  "created": "2018-05-23",
-  "lastModified": "2019-06-28",
-  "version": "2.1.3",
-  "contributors": [
-    {
-      "title": "OpenDataFrance",
-      "role": "author"
-    }
-  ],
-  "fields": [
-    {
-      "name": "COLL_NOM",
-      "type": "string",
-      "title": "Nom de la collectivité",
-      "description": "Nom officiel de la collectivité délibérante.",
-      "example": "Ville de Poitiers",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "COLL_SIRET",
-      "type": "string",
-      "title": "Code SIRET de la collectivité",
-      "description": "Identifiant du [Système d'Identification du Répertoire des Etablissements](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_%C3%A9tablissements) (SIRET) de la collectivité qui a adopté la délibération, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.",
-      "example": "21860194600013",
-      "constraints": {
-        "required": true,
-        "pattern": "^\\d{14}$"
-      }
-    },
-    {
-      "name": "DELIB_ID",
-      "type": "string",
-      "title": "Identifiant de la délibération",
-      "description": "Identifiant interne de délibération respectant le formalisme propre à la collectivité. Sa composition dépend des pratiques en vigueur au sein de chaque collectivité.",
-      "example": "1DL15494",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "DELIB_DATE",
-      "type": "date",
-      "title": "Date d'adoption de la délibération",
-      "description": "Date de décision de l'acte, celle à laquelle la délibération a été adopté par la collectivité au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).",
-      "example": "2017-10-15",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "DELIB_MATIERE_CODE",
-      "type": "string",
-      "title": "Code de matière issu de la nomenclature ACTES",
-      "description": "Ce code correspond à celui de l'indexation de niveau 2 dans la structure arborescente de classement en matières et sous-matières (5 niveaux de profondeur) de la nomenclature ACTES (Aide au Contrôle de légaliTé dématErialiSé). Les codes de matière peuvent contenir les valeurs suivantes : '1.1' à '1.7',  '2.1' à '2.3', '3.1' à '3.6', '4.1' à '4.5', '5.1' à '5.8', '6.1' à '6.5', '7.1' à '7.10', '8.1' à 8.9', '9.1' à '9.4'. Si le champ est renseigné, sa valeur doit correspondre au nom de matière de `DELIB_MATIERE_NOM`.",
-      "example": "8.4",
-      "constraints": {
-        "required": true,
-        "pattern": "^\\d\\.\\d{1,2}$"
-      }
-    },
-    {
-      "name": "DELIB_MATIERE_NOM",
-      "type": "string",
-      "title": "Nom de matière",
-      "description": "Ce nom peut être issu de la nomenclature ACTES ou d'un référentiel propre à la collectivité. S'il est issu de la nomenclature ACTES, le champ `DELIB_MATIERE_CODE` doit être renseigné avec une valeur qui représente effectivement la matière définie. Le nom est alors composé de l'intitulé de matière de niveau 1 suivi de l'intitulé de sous-matière de niveau 2 présents dans la [structure arborescente de classement de la nomenclature ACTES](http://www.moselle.gouv.fr/content/download/1107/7994/file/nomenclature.pdf) (Aide au Contrôle de légaliTé dématErialiSé). Les deux intitulés sont exprimés en minuscules accentuées, sans virgule ni parenthèse, et séparés par une barre oblique. S'il est issu d'un référentiel de thèmes propre à la collectivité, le nom de matière est alors une chaîne de caractères libre et sans contrainte particulière.",
-      "example": "'domaines de compétences par thèmes/aménagement du territoire' pour un nom de matière issu de ACTES ou 'URBANISME' pour un nom de matière issu d'un référentiel propre à la collectivité",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "DELIB_OBJET",
-      "type": "string",
-      "title": "Objet de la délibération",
-      "description": "Description de l'objet de la délibération.",
-      "example": "Lancement d'une démarche partenariale de définition d'une politique montagne et adhésion à l'association nationale des élus de la montagne",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "BUDGET_ANNEE",
-      "type": "string",
-      "title": "Année du budget",
-      "description": "Année de l'exercice budgétaire sur lequel s'applique la décision si celle-ci a un impact budgétaire. Format AAAA pour une année ou AAAA/AAAA pour un intervalle entre deux années suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).",
-      "example": "'2017' pour une année ou '2017/2018' pour un intervalle",
-      "constraints": {
-        "pattern": "^[0-9]{4}(\\/[0-9]{4})?$"
-      }
-    },
-    {
-      "name": "BUDGET_NOM",
-      "type": "string",
-      "title": "Nom du budget",
-      "description": "Ce champ ne peut être renseigné que si la délibération engendre une affection budgétaire.",
-      "example": "Budget annexe déchets-collecte et traitement"
-    },
-    {
-      "name": "PREF_ID",
-      "type": "string",
-      "title": "Identifiant de l'entité exerçant le contrôle de légalité",
-      "description": "Cet identifiant dépend de l'entité concernée. Pour les préfectures, il est codé 'PREFNNN' sur 7 caractères. Pour les sous-préfectures, il est codé 'SPREFNNNM' sur 9 caractères. Pour les SGAR, il est codé 'SGARNNN' sur 7 caractères. 'NNN' correspond au numéro sur 3 caractères du département préfixé par '0' et inclant 'A' et 'B' pour les départements corses. 'M' correspond au numéro sur un chiffre de l'arrondissement.",
-      "example": "PREF038"
-    },
-    {
-      "name": "PREF_DATE",
-      "type": "date",
-      "title": "Date d'enregistrement de la délibération auprès du contrôle de légalité",
-      "description": "Date d'enregistrement de la délibération au contrôle de légalité au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601). Ce champ ne peut être renseigné que si la délibération a effectivement été transmise et que sa date d'enregistrement est connue.",
-      "example": "2017-02-03"
-    },
-    {
-      "name": "VOTE_EFFECTIF",
-      "type": "integer",
-      "title": "Effectif théorique des votants",
-      "description": "Décompte de l'effectif total des représentants élus susceptibles de participer au vote.",
-      "example": "43"
-    },
-    {
-      "name": "VOTE_REEL",
-      "type": "integer",
-      "title": "Effectif réel des votants",
-      "description": "Décompte de l’effectif total des élus ayant réellement participé au vote (exclusion des absents)",
-      "example": "40"
-    },
-    {
-      "name": "VOTE_POUR",
-      "type": "integer",
-      "title": "Pour",
-      "description": "Décompte du nombre total de votes 'Pour'.",
-      "example": "25"
-    },
-    {
-      "name": "VOTE_CONTRE",
-      "type": "integer",
-      "title": "Contre",
-      "description": "Décompte du nombre total de votes 'Contre'.",
-      "example": "10"
-    },
-    {
-      "name": "VOTE_ABSTENTION",
-      "type": "integer",
-      "title": "Abstention",
-      "description": "Décompte du nombre total d'abstentions.",
-      "example": "5"
-    },
-    {
-      "name": "DELIB_URL",
-      "type": "string",
-      "format": "uri",
-      "title": "Lien vers le document de la délibération",
-      "description": "Si la collectivité dispose d'une version électronique de la délibération et la publie en ligne, ce lien correspond à l'adresse permettant de consulter ou de télécharger le document.",
-      "example": "https://data.maville.fr/deliberations/files/200417_1.pdf"
-    }
-  ],
-  "custom_checks": [
-    {
-      "name": "french-siret-value",
-      "params": {
-        "column": "COLL_SIRET"
-      }
-    },
-    {
-      "name": "year-interval-value",
-      "params": {
-        "column": "BUDGET_ANNEE",
-        "allow-year-only": "yes"
-      }
-    },
-    {
-      "name": "cohesive-columns-value",
-      "params": {
-        "column": "BUDGET_ANNEE",
-        "othercolumns": [
-          "BUDGET_NOM"
-        ]
-      }
-    },
-    {
-      "name": "cohesive-columns-value",
-      "params": {
-        "column": "VOTE_EFFECTIF",
-        "othercolumns": [
-          "VOTE_REEL",
-          "VOTE_POUR",
-          "VOTE_CONTRE",
-          "VOTE_ABSTENTION"
-        ]
-      }
-    },
-    {
-      "name": "compare-columns-value",
-      "params": {
-        "column": "PREF_DATE",
-        "op": ">=",
-        "column2": "DELIB_DATE"
-      }
-    },
-    {
-      "name": "compare-columns-value",
-      "params": {
-        "column": "VOTE_EFFECTIF",
-        "op": ">=",
-        "column2": "VOTE_REEL"
-      }
-    },
-    {
-      "name": "compare-columns-value",
-      "params": {
-        "column": "VOTE_REEL",
-        "op": ">=",
-        "column2": "VOTE_POUR"
-      }
-    },
-    {
-      "name": "compare-columns-value",
-      "params": {
-        "column": "VOTE_REEL",
-        "op": ">=",
-        "column2": "VOTE_CONTRE"
-      }
-    },
-    {
-      "name": "compare-columns-value",
-      "params": {
-        "column": "VOTE_REEL",
-        "op": ">=",
-        "column2": "VOTE_ABSTENTION"
-      }
-    },
-    {
-      "name": "sum-columns-value",
-      "params": {
-        "column": "VOTE_REEL",
-        "columns": [
-          "VOTE_POUR",
-          "VOTE_CONTRE",
-          "VOTE_ABSTENTION"
-        ]
-      }
-    },
-    {
-      "name": "nomenclature-actes-value",
-      "params": {
-        "column": "DELIB_MATIERE_NOM"
-      }
-    }
-  ]
+    "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+    "title": "Schéma SCDL Délibérations",
+    "author": "OpenDataFrance",
+    "version": "2.0",
+    "created": "2018-05-23",
+    "description": "Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des Données Locales).",
+    "homepage": "https://git.opendatafrance.net/scdl/deliberations",
+    "fields": [
+        {
+            "name": "COLL_NOM",
+            "type": "string",
+            "title": "Nom de la collectivité",
+            "description": "Nom officiel de la collectivité délibérante",
+            "example": "Ville de Poitiers",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "COLL_SIRET",
+            "type": "string",
+            "title": "Code SIRET de la collectivité",
+            "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET)",
+            "example": "23350001600040",
+            "constraints": {
+                "required": true,
+                "pattern": "^\\d{14}$"
+            }
+        },
+        {
+            "name": "BUDGET_ANNEE",
+            "type": "string",
+            "title": "Année du budget",
+            "description": "Année de l'exercice budgétaire sur lequel s'applique la décision si celle-ci a un impact budgétaire. Format AAAA pour une année ou AAAA/AAAA pour un intervalle entre deux années (ISO 8601).",
+            "example": "2017, 2017/2018, 2016/2018",
+            "constraints": {
+                "pattern": "^[0-9]{4}(\\/[0-9]{4})?$"
+            }
+        },
+        {
+            "name": "BUDGET_NOM",
+            "type": "string",
+            "title": "Nom du budget",
+            "description": "Nom du budget si la délibération engendre une affection budgétaire",
+            "example": "Budget annexe déchets-collecte et traitement"
+        },
+        {
+            "name": "DELIB_ID",
+            "type": "string",
+            "title": "Identifiant de la délibération",
+            "description": "Identifiant interne de délibération respectant le formalisme propre à la collectivité",
+            "example": "1DL15494",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "DELIB_DATE",
+            "type": "date",
+            "title": "Date de la délibération",
+            "example": "2017-10-15",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "DELIB_MATIERE_CODE",
+            "type": "string",
+            "title": "Code de la matière de la délibération",
+            "description": "Code de l'indexation de niveau 2 de la nomenclature Actes",
+            "example": "1.1, 7.10",
+            "constraints": {
+                "required": true,
+                "pattern": "^\\d\\.\\d{1,2}$"
+            }
+        },
+        {
+            "name": "DELIB_MATIERE_NOM",
+            "type": "string",
+            "title": "Nom de la matière de la délibération",
+            "description": "Intitulé de matière niveau 1 suivi de l'intitulé de sous-matière niveau 2 séparés par « / »",
+            "example": "Finances locales/Divers",
+            "constraints": {
+                "required": true,
+                "pattern": "^\\w+\\\\\\w+$"
+            }
+        },
+        {
+            "name": "DELIB_OBJET",
+            "type": "string",
+            "title": "Objet de la délibération",
+            "example": "Lancement d'une démarche partenariale de définition d'une politique montagne et adhésion à l'association nationale des élus de la montagne",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "PREF_ID",
+            "type": "string",
+            "title": "Identifiant de l'entité exerçant le contrôle de légalité",
+            "description": "Pour les préfectures : PREFNNN (7 caractères)\nPour les sous-préfectures : SPREFNNNM (9 caractères)\nPour les SGAR : SGARNNN (7 caractères)\nOù NNN : numéro sur 3 caractères du département et M : numéro sur un chiffre de l'arrondissement",
+            "example": "PREF038"
+        },
+        {
+            "name": "PREF_DATE",
+            "type": "date",
+            "title": "Date d'enregistrement de la délibération au contrôle de légalité",
+            "example": "2017-02-03"
+        },
+        {
+            "name": "VOTE_EFFECTIF",
+            "type": "integer",
+            "title": "Décompte de l'effectif total des élus susceptibles de participer au vote (présents à la séance)",
+            "example": "43"
+        },
+        {
+            "name": "VOTE_REEL",
+            "type": "integer",
+            "title": "Décompte de l’effectif total des élus ayant réellement participé au vote (exclusion des absents)",
+            "example": "40"
+        },
+        {
+            "name": "VOTE_POUR",
+            "type": "integer",
+            "title": "Nombre de votes Pour",
+            "example": "25"
+        },
+        {
+            "name": "VOTE_CONTRE",
+            "type": "integer",
+            "title": "Nombre de votes Contre",
+            "example": "10"
+        },
+        {
+            "name": "VOTE_ABSTENTION",
+            "type": "integer",
+            "title": "Nombre de votes Abstention",
+            "example": "5"
+        },
+        {
+            "name": "DELIB_URL",
+            "type": "string",
+            "format": "uri",
+            "title": "Lien vers le document de la délibération"
+        }
+    ]
 }

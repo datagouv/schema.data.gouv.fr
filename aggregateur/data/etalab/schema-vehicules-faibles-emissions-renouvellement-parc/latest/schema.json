@@ -11,7 +11,7 @@
    ],
    "countryCode":"FR",
    "homepage":"https://github.com/etalab/schema-flotte-publique-vehicule",
-   "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.1/schema.json",
+   "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.0/schema.json",
    "image":"",
    "licenses":[
       {
@@ -24,7 +24,7 @@
       {
          "title":"Fichier valide (CSV)",
          "name":"exemple-valide-csv",
-         "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.1/exemple-valide.csv"
+         "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.0/exemple-valide.csv"
       }
    ],
    "sources":[
@@ -43,7 +43,7 @@
    ],
    "created":"2021-09-15",
    "lastModified":"2021-09-15",
-   "version":"0.1.1",
+   "version":"0.1.0",
    "contributors":[
       {
          "title":"Julieta Barado",
@@ -122,14 +122,14 @@
       {
          "name":"zone",
          "description":"Situation géographique s'agissant des transports publics.",
-         "example":"Zone A",
+         "example":"47.72B",
          "type":"string",
          "constraints":{
             "required":true,
             "enum":[
-              "Zone A",
-              "Zone B",
-              "Zone C"
+              "Zone A (1)",
+              "Zone B (2)",
+              "Zone C (3)"
              ]
          }
       },
@@ -162,7 +162,7 @@
       },
       {
          "name":"nbVPclean",
-         "description":"Nombre de VP à faibles émissions (y compris les nbVPEL et nbVPH2).",
+         "description":"Nombre de VP à faibles émissions.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -207,7 +207,7 @@
       },
       {
          "name":"nbN1infclean",
-         "description":"Nombre de VUL de PTAC inférieur à 2,6 tonnes à faibles émissions (y compris les nbN1infEL et nbN1infH2).",
+         "description":"Nombre de VUL de PTAC inférieur à 2,6 tonnes à faibles émissions.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -243,7 +243,7 @@
       },
       {
          "name":"nbN1supclean",
-         "description":"Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à faibles émissions (y compris les nbN1supEL et nbN1supH2).",
+         "description":"Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à faibles émissions.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -333,7 +333,7 @@
       },
       {
          "name":"nbN23Bio",
-         "description":"Nombre de PL exclusivement aux biocarburants.",
+         "description":"Nombre de PL exclusivement aux biocarburants avancés.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -387,7 +387,7 @@
       },
       {
          "name":"nbBusM2clean",
-         "description":"Nombre d'autobus M2 à faibles émissions  (y compris les nbBusM2EL et nbBusM2H2).",
+         "description":"Nombre d'autobus M2 à faibles émissions.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -432,7 +432,7 @@
       },
       {
          "name":"nbBusM2Bio",
-         "description":"Nombre d'autobus M2 exclusivement aux biocarburants.",
+         "description":"Nombre d'autobus M2 exclusivement aux biocarburants avancés.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -442,15 +442,6 @@
       {
          "name":"nbBusM2XTL",
          "description":"Nombre d'autobus M2 exclusivement à carburants de synthèse ou paraffiniques.",
-         "example":"12",
-         "type":"integer",
-         "constraints":{
-            "required":true
-         }
-      },
-      {
-         "name":"nbBusM2EuroVI",
-         "description":"Nombre d'autobus M2 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -522,7 +513,7 @@
       },
       {
          "name":"nbBusM3Bio",
-         "description":"Nombre d'autobus M3 exclusivement aux biocarburants.",
+         "description":"Nombre d'autobus M3 exclusivement aux biocarburants avancés.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -532,15 +523,6 @@
       {
          "name":"nbBusM3XTL",
          "description":"Nombre d'autobus M3 exclusivement à carburants de synthèse ou paraffiniques.",
-         "example":"12",
-         "type":"integer",
-         "constraints":{
-            "required":true
-         }
-      },
-      {
-         "name":"nbBusM3EuroVI",
-         "description":"Nombre d'autobus M3 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -585,7 +567,7 @@
       },
       {
          "name":"nbCarM2clean",
-         "description":"Nombre d'autocars M2 à faibles émissions (y compris les nbCarM2EL et nbCarM2H2).",
+         "description":"Nombre d'autocars M2 à faibles émissions.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -648,7 +630,7 @@
       },
       {
          "name":"nbCarBio",
-         "description":"Nombre d'autocars exclusivement aux biocarburants.",
+         "description":"Nombre d'autocars exclusivement aux biocarburants avancés.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -656,17 +638,8 @@
          }
       },
       {
-         "name":"nbCarXTL",
+         "name":"nbCarsXTL",
          "description":"Nombre d'autocars exclusivement à carburants de synthèse ou paraffiniques.",
-         "example":"12",
-         "type":"integer",
-         "constraints":{
-            "required":true
-         }
-      },
-      {
-         "name":"nbCarEuroVI",
-         "description":"Nombre d'autocars hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -684,7 +657,7 @@
       },
       {
          "name":"pcentLDVTFE",
-         "description":"Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1.",
+         "description":"Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVEH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1.",
          "example":"12.2",
          "type":"number",
          "constraints":{

@@ -2,46 +2,24 @@
   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
   "name": "menus-collectifs",
   "title": "Menus de la restauration collective",
-  "description": "Schéma permettant de décrire les menus des repas proposés par les collectivités locales, les établissements publics et privés. Il permet de préciser les modalités de distribution et le contenu des menus proposés (les plats). Le choix a été fait de détailler chaque plat sur une ligne. Pour décrire un menu il faut donc répéter certaines informations plusieurs fois (voir exemple).",
+  "description": "Menus des repas proposés par des collectivités locales et des établissements publics. Il permet de préciser les modalités de distribution et le contenu des menus proposés. Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées.",
   "countryCode": "FR",
   "homepage": "https://git.opendatafrance.net/scdl/menus-collectifs",
-  "path": "https://git.opendatafrance.net/scdl/menus-collectifs/-/raw/master/schema.json",
+  "path": "https://git.opendatafrance.net/scdl/menus-collectifs/raw/v0.1/schema.json",
   "resources": [
     {
-      "title": "Exemple de fichier de menus valide en csv",
-      "path": "https://git.opendatafrance.net/scdl/menus-collectifs/-/raw/master/examples/menus-collectifs_valide.csv"
-    },
-    {
-      "title": "Exemple de fichier de menus valide en Office Open XML",
-      "path": "https://git.opendatafrance.net/scdl/menus-collectifs/-/raw/master/examples/menus-collectifs_valide.xlsx"
-    }
-  ],
-  "sources": [
-    {
-      "title": "Décret n° 2008-1153 du 7 novembre 2008 concernant la liste des ingrédients allergènes majeurs devant figurer sur l'étiquetage des denrées alimentaires.",
-      "path": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000019735750"
-    },
-    {
-      "title": "Règlement (UE) n°1169/2011 concernant l’information du consommateur sur les denrées alimentaires et notamment ses articles 9, 21, 44 et l’annexe II sur les substances ou produits provoquant des allergies ou intolérances.",
-      "path": "http://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32011R1169&from=fr"
-    },
-    {
-      "title": "Décret n°2015-447 du 17 avril 2015 relatif à l’information des consommateurs sur les allergènes et les denrées alimentaires non préemballées.",
-      "path": "http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030491684&categorieLien=id"
-    },
-    {
-      "title": "Loi n° 2018-938 du 30 octobre 2018 pour l'équilibre des relations commerciales dans le secteur agricole et alimentaire et une alimentation saine, durable et accessible à tous.",
-      "path": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037547946"
-    },
-    {
-      "title": "Décret n° 2011-1227 du 30 septembre 2011 relatif à la qualité nutritionnelle des repas servis dans le cadre de la restauration scolaire",
-      "path": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000024614716"
+      "title": "Exemple de fichier de menus valide",
+      "path": "https://git.opendatafrance.net/scdl/menus-collectifs/raw/v0.1/examples/menus-collectifs_valide.csv"
     }
   ],
   "created": "2020-02-12",
-  "lastModified": "2021-05-19",
-  "version": "1.2.2",
+  "lastModified": "2020-04-27",
+  "version": "0.1",
   "contributors": [
+    {
+      "title": "OpenDataFrance",
+      "role": "author"
+    },
     {
       "title": "Pascal Romain",
       "organisation": "Rhizome data",
@@ -59,71 +37,23 @@
       "organisation": "OpenFoodFacts",
       "email": "charles@openfoodfacts.org",
       "role": "contributor"
-    },
-    {
-      "title": "René Marrot",
-      "organisation": "Agglomération du Grand Poitiers",
-      "email": "rene.marrot@grandpoitiers.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Séverine Ferrant",
-      "organisation": "Agglomération du Grand Poitiers",
-      "email": "severine.ferrant@grandpoitiers.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Antoine Augusti",
-      "organisation": "Etalab",
-      "email": "antoine.augusti@data.gouv.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Céline Bercetche",
-      "organisation": "Easilys",
-      "email": "cbercetche@easilys.com",
-      "role": "contributor"
-    } ,
-    {
-      "title": "Johan Desplats",
-      "organisation": "Salamandre",
-      "email": "j.desplats@salamandre.tm.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Sébastien Puertas",
-      "organisation": "Datameal",
-      "email":"s.puertas@datameal.fr",
-      "role": "contributor"
-    },
-    {
-      "title": "Jean-Philippe Rossiquet",
-      "organisation": "Salamandre",
-      "email": " jp.rossiquet@salamandre.tm.fr",
-      "role": "contributor"
-    },
-    {
-      "title": " Michel Perrin",
-      "organisation": "Hestia",
-      "email": " mperrin@alpes-deis.fr",
-      "role": "contributor"
-    }   
+    }
   ],
   "fields": [
     {
-      "name": "menuCollNom",
-      "title": "Nom de la collectivité qui produit les données",
-      "description": "Nom officiel de la collectivité ou de l'établissement public responsable de l'offre de restauration collective et qui produit les données.",
+      "name": "collectiviteNom",
+      "title": "Nom de la collectivité",
+      "description": "Nom officiel de la collectivité.",
       "type": "string",
-      "examples": "Grand Poitiers Communauté urbaine",
+      "examples": "Commune de Bordeaux",
       "constraints": {
         "required": true 
       }
     },
     {
-      "name": "menuCollSiret",
-      "title": "Code SIRET de la collectivité qui produit les données.",
-      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.",
+      "name": "collectiviteSiret",
+      "title": "Code SIRET de la collectivité",
+      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.",
       "type": "string",
       "examples": "21330063500017",
       "constraints": {
@@ -132,145 +62,117 @@
       }
     },
     {
-      "name": "menuEtablissementNom",
-      "title": "Nom de l'établissement ou entreprise qui a produit le repas servi.",
-      "description": "Nom officiel de l'établissement qui est à l'origine de la production du repas. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.",
+      "name": "etablissementNom",
+      "title": "Nom de l'établissement ou entreprise qui a produit le repas servi",
+      "description": "Nom officiel de l'établissement qui est à l'origine de la production du repas.",
       "type": "string",
-      "examples": "Syndicat intercommunal à vocation unique de Poitiers",
+      "examples": "Syndicat intercommunale à vocation unique de Bordeaux-Mérignac",
       "constraints": {
         "required": true
       }
     },
     {
-      "name": "menuEtablissementSiret",
+      "name": "etablissementSiret",
       "title": "Code SIRET de l'établissement ou entreprise qui a produit le repas servi.",
-      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif",
+      "description": "Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.",
       "type": "string",
       "examples": "25330618700035",
       "constraints": {
-        "required": false,
+        "required": true,
         "pattern":	"^\\d{14}$"
       }
     },
     {
-      "name": "menuRestaurantNom",
-      "title": "Nom du restaurant dans lequel le repas est servi.",
-      "description": "Nom officiel de l'établissement (une école, un lycée, une résidence pour personne âgée, un restaurant administratif, etc...) au sein duquel est servi le menu.",
+      "name": "restaurantNom",
+      "title": "Nom du restaurant où le repas est servi.",
+      "description": "Nom officiel de l'établissement au sein duquel est servi le menu",
       "type": "string",
-      "examples": "école élémentaire Flornoy",
+      "examples": "Ecole élémentaire Flornoy",
       "constraints": {
         "required": true
       }
     },
     {
-      "name": "menuRestaurantInsee",
-      "title": "Le code INSEE de la commune d'implantation du restaurant",
-      "description": "Code Insee de la commune dans laquelle se situe le restaurant où est servi le menu.",
+      "name": "restaurantType",
+      "title": "Type de client auquel le menu est proposé.",
+      "description": "Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles (Crèche, école maternelle, école élémentaire, Foyer, Collège, Lycée, administration locale, RPA, repas à domicile)",
       "type": "string",
-      "examples": "86194",
-      "constraints": {
-        "required": false,
-        "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}$"
-      }
-    },
-    {
-      "name": "menuRestaurantId",
-      "title": "Identifiant du restaurant où le repas est servi.",
-      "description": "Identifiant du restaurant dans lequel a été servi le menu. Si le restaurant dispose d'une raison sociale, il est obligatoire d'utiliser son numéro SIRET. Si le restaurant est un établissement scolaire qui ne dispose pas de numéro de SIRET, il est possible de l'identifier avec le code UAI de l'établissement. Sinon, il est possible d'utiliser un identifiant interne de gestion. Le champ restaurantIdType permet de caractériser le type de système d'identification auquel cet identifiant fait référence.",
-      "type": "string",
-      "examples": "25330618700017",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "menuRestaurantIdType",
-      "title": "Type d'identifiant utilisé pour caractériser un restaurant collectif.",
-      "description": "Afin de permettre d'identifier de manière unique chaque restaurant, plusieurs systèmes d'identification peuvent être utilisé en l'absence d'une attribution systématique d'un code SIRET. Pour les établissements scolaires le numéro UAI délivré par l'Éducation Nationale (EN) peut être utilisé. Dans le cas des autres (identifiant interne par exemple), la valeur \"autre\" doit être sélectionnée. Enfin en l'absence d'identifiant la valeur \"sans\" doit être sélectionnée. Ce champ est donc obligatoire.",
-      "type": "string",
-      "examples": "SIRET",
-      "constraints": {
-        "required": true,
-        "enum": [
-          "SIRET",
-          "EN",
-          "autre",
-          "sans"
-        ]
-      }
-    },
-    {
-      "name": "menuRestaurantType",
-      "title": "Type de restaurant auquel le menu est proposé.",
-      "description": "Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles (crèche, maternelle, élémentaire, collège, lycée, administration, résidence sénior, EHPAD, repas à domicile, centre de loisirs). Si vous ne trouvez pas de valeur qui corresponde à votre usage dans cette liste, vous pouvez saisir la valeur \"autre\".",
-      "type": "string",
-      "examples":"collège",
+      "examples":"Collège",
       "constraints": {
         "required": true,
         "enum": [
           "crèche",
-          "maternelle",
-          "élémentaire",
-          "collège",
-          "lycée",
-          "université",
-          "centre de formation",
-          "administration",
-          "résidence sénior",
-          "EHPAD",
+          "école maternelle",
+          "école élémentaire",
+          "Foyer",
+          "Collège",
+          "Lycée",
+          "administration locale",
+          "RPA",
           "repas à domicile",
-          "centre de loisirs",
-          "restaurant d'entreprise",
-          "autre"
+          "centre de loisirs"
         ]
       }
     },
     {
-      "name": "menuRestaurantConvive",
+      "name": "restaurantConvive",
       "title": "Type de convive auquel le menu est proposé.",
-      "description": "Permet de préciser d'un restaurant, le type de public destinataire du menu proposé ou un lieu spécifique dans lequel le menu est servi par exemple. Si plusieurs publics sont destinataires d'un même menu au sein d'un même restaurant, vous pouvez détailler la liste des convives en séparant les valeurs par un point virgule (\"petite section\" ; \"grande section\"). La valeur par défaut pour ce champ est 'tous' ",
+      "description": "Permet de préciser le type personnes destinataires du menu proposé par mi les valeurs disponibles (bébés, scolaires, adultes, seniors …).",
       "type": "string",
-      "examples":"grande section",
+      "examples": "scolaire",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "bébé",
+          "scolaire",
+          "agent administratif",
+          "adulte",
+          "sénior"
+        ]
+      }
+    },
+    {
+      "name": "restaurantAdresse",
+      "title": "Adresse de l'établissement où le repas est servi.",
+      "description": "Ce champ correspond à l'adresse postale de l'établissement au sein duquel est servi le menu. Idéalement il devrait faire référence à l'identifiant de cette adresse dans la base d'adresse nationale. A défaut une adresse comportant le numéro et le nom de la voirie, le code postal et le nom de la commune",
+      "type": "string",
+      "examples": "34 rue Fornoy, 33150 Bordeaux",
       "constraints": {
         "required": true
       }
     },
     {
       "name": "menuDate",
-      "title": "Date de service du menu",
-      "description": "Date du jour à laquelle le menu est servi dans le restaurant au format AAAA-MM-JJ suivant la norme internationale ISO 8601.",
-      "type": "date",
-      "format":"%Y-%m-%d",
+      "title": "Date du menu",
+      "description": "Date de du jour où le menu est servi dans l'établissement au format AAAA-MM-JJ suivant la norme internationale ISO 8601.",
+      "type": "string",
       "examples": "2017-10-15",
       "constraints": {
         "required": true
       }
     },
     {
-      "name": "menuRepasType",
+      "name": "menuTypeRepas",
       "title": "Type du repas servi",
-      "description": "Permet de spécifier le type du repas parmi les valeurs possibles (petit-déjeuner, déjeuner, goûter, dîner, collation, pique-nique). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur \"autre\".",
+      "description": "Permet de spécifier le type du repas parmi les valeurs possible (déjeuner, goûter, dîner, collation, pique-nique).",
       "type": "string",
       "examples": "déjeuner",
       "constraints": {
         "required": true,
         "enum": [
-          "petit-déjeuner",
           "déjeuner",
           "goûter",
           "dîner",
           "collation",
-          "pique-nique",
-          "autre"
-        ]
+          "pique-nique"        ]
       }
     },
     {
-      "name": "menuPlatType",
+      "name": "menuTypePlat",
       "title": "Type de plat servi",
-      "description": "Le type de plat correspond à un des éléments disponibles dans la liste (entrée, plat principal, garniture, dessert, produit laitier, pain). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur \"autre\".",
+      "description": "Le type de plat correspond à un des termes associés au code choisi dans la nomenclature des repas servis en cantine scolaire.",
       "type": "string",
-      "examples": "entrée",
+      "examples": "Entrée",
       "constraints": {
         "required": true,
         "enum": [
@@ -279,215 +181,74 @@
           "garniture",
           "dessert",
           "produit laitier",
-          "pain",
-          "autre"
+          "collation matinale",
+          "goûter",
+          "pain"  
         ]
       }
     },
     {
-      "name": "menuPlatNom",
+      "name": "menuNomPlat",
       "title": "Nom du plat servi",
-      "description": "Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts.",
+      "description": "Le nom du plat correspond à un terme ou une expression associé au code choisi dans la nomenclature des plats servis en cantine scolaire. Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner le type de plat, dans la limite de 140 caractères maximum en prenant soin d'échapper ou de supprimer les éventuelles virgules.",
       "type": "string",
-      "examples": "boeuf bourguignon",
-      "constraints": {
-        "required": true,
-        "maxLength": 160
-      }
-    },
-    {
-      "name": "menuPlatCode",
-      "title": "Code du plat servi",
-      "description": "Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire une jointure avec le schéma décrivant la composition des plats.",
-      "type": "string",
-      "examples": "46657345",
-      "constraints": {
-        "required": false,
-        "maxLength": 16
-      }
-    },
-    {
-      "name": "menuPlatSiqo",
-      "title": "Les signes officiels de la qualité et de l'origine.",
-      "description": "Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule, encadrées par des crochets et entourées par des guillemets ([\"agriculture biologique\",\"appellation d'origine contrôlée\"])   dans ce champ.",
-      "type": "array",
-      "arrayItem":{
-         "type": "string",
-         "constraints": {
-          "required": false,
-          "enum": 
-          [
-            "agriculture biologique", 
-            "appellation d'origine protégée",
-            "appellation d'origine contrôlée", 
-            "indication géographique protégée", 
-            "spécialité traditionnelle garantie", 
-            "label rouge"
-          ]
-         }
-      },
-      "examples": "[\"agriculture biologique\"]"
-    },
-    {
-      "name": "menuPlatLabel",
-      "title": "Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication",
-      "description": "Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : https://fr.openfoodfacts.org/labels. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ. ",
-      "type": "string",
-      "examples": "ferme des Jarouilles",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "menuPlatPrecision",
-      "title": "Précision associée au plat ou à l'ensemble des plats d'un menu",
-      "description": "Lors d'évènements (semaine du goût, repas de noël, etc.) des menus spéciaux peuvent être proposés. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.",
-      "type": "string",
-      "examples": "semaine asiatique",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "menuPlatRegime",
-      "title": "Précision qualitative associée au plat d'un menu",
-      "description": "En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"végétarien\",\"sans sucre ajouté\"])",
-      "type": "array",
-      "arrayItem":{
-         "type": "string",
-         "constraints": {
-          "required": false,
-          "enum": 
-          [
-            "végétarien", 
-            "sans sel",
-            "sans porc ", 
-            "sans sucre ajouté"
-          ]
-         }
-        },
-      "examples": "[\"végétarien\",\"sans sel\"]"
-    },
-    {
-      "name": "menuPlatAllergene",
-      "title": "Nom des allergènes présents dans le plat",
-      "description": "Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"lait\",\"fruits à coques\"])",
-      "type": "array",
-      "arrayItem":{
-         "type": "string",
-         "constraints": {
-          "required": false,
-          "enum": 
-          [
-            "céréales contenant du gluten",
-            "crustacés",
-            "oeufs",
-            "poissons",
-            "arachides",
-            "soja",
-            "lait",
-            "fruits à coques",
-            "céleri",
-            "moutarde",
-            "graines de sésame",
-            "anhydride sulfureux et sulfites",
-            "lupin",
-            "mollusques"  
-          ]
-         }
-        },
-      "examples": "[\"fruits à coques\",\"céréales contenant du gluten\"]"
-    },
-    {
-      "name": "menuPlatTexture",
-      "title": "Précision qualitative associée à la texture du plat",
-      "description": "En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets ([\"sans texture modifiée\",\"haché\"])",
-      "type": "array",
-      "arrayItem":{
-         "type": "string",
-         "constraints": {
-          "required": true,
-          "enum": 
-          [
-            "sans texture modifiée",
-            "mixé",
-            "mixé lissé",
-            "fondant",
-            "haché"
-          ]
-         }
-        },
-      "examples": "[\"sans texture modifiée\",\"haché\"]"
-    },
-    {
-      "name": "menuPlatNutriscore",
-      "title": "Indication de l'indice nutritif du plat proposé dans le menu",
-      "description": "Indique la valeur nutritive du plat en fonction des valeurs de l'indicateur nutriscore.",
-      "type": "string",
-      "examples": "C",
-      "constraints": {
-        "required": false,
-        "enum":[
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ]
-      } 
-    },
-    {
-      "name": "menuPlatPrix",
-      "title": "Coût théorique de revient du plat calculé à partir du coût de production",
-      "description": "Le prix de revient pour la structure de restauration collective est utilisé pour composer les plats et les menus en combinaison avec les impératifs d'équilibre nutritionnel. Prix en euros sous la forme d'un nombre entier ou décimal avec comme séparateur le point.",
-      "type": "number",
-      "examples": "5.35",
-      "constraints": {
-        "required": false
-      }
-    },
-    {
-      "name": "menuPublicationDate",
-      "title": "Date de publication de l'enregistrement d'un menu",
-      "description": "Lors de la publication ce champ d'horodatage permet d'indiquer la date de publication de la donnée présente dans le fichier.",
-      "type": "datetime",
-      "examples": "2020-05-11T14:08:32Z",
+      "examples": "Cordon bleu",
       "constraints": {
         "required": true
       }
     },
     {
-      "name": "menuModificationDate",
-      "title": "Date de dernière modification de l'enregistrement d'un menu",
-      "description": "Lors de la modification ce champ d'horodatage permet d'indiquer la date de dernière modification de la donnée présente dans le fichier.",
-      "type": "datetime",
-      "examples": "2020-05-11T14:08:32Z",
+      "name": "menuCodePLat",
+      "title": "Code du plat servi",
+      "description": "Code unique par plat éventuellement issu d'une base de données de gestion.",
+      "type": "string",
+      "examples": "46657345",
       "constraints": {
         "required": false
       }
     },
     {
-      "name": "menuModificationInfo",
-      "title": "Information sur la modification ayant entraîné une mise à jour de la donnée",
-      "description": "Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.",
+      "name": "menuLabelPlat",
+      "title": "Type de label du plat servi",
+      "description": "Le type de label du plat correspond à un terme permettant de construire une catégorisation des labels associés aux différents plats.",
       "type": "string",
-      "examples": "changement dû à un aléa de livraison",
+      "examples": "Agriculture biologique (AB)",
       "constraints": {
         "required": false
       }
-    }     
+    },
+    {
+      "name": "menuAllergenePLat",
+      "title": "Nom des allergènes présents dans le plat",
+      "description": "Enumération séparés par des virgules des allergènes potentiellement présents dans le plat proposé.",
+      "type": "string",
+      "examples": "fruit à coques",
+      "constraints": {
+        "required": false
+      }
+    },        
+    {
+      "name": "menuRegimePlat",
+      "title": "Nom du régime alimentaire",
+      "description": "Nom de régime auquel est associé le plat entrant dans la composition du menu.",
+      "type": "string",
+      "examples": "régime sans viande",
+      "constraints": {
+        "required": false
+      }
+    }
   ],
   "custom_checks": [
     {
       "name": "french-siret-value",
       "params": {
-        "column": "menuCollSiret"
+        "column": "collectiviteSiret"
       }
     },
     {
       "name": "french-siret-value",
       "params": {
-        "column": "menuEtablissementSiret"
+        "column": "etablissementSiret"
       }
     }
   ],

@@ -78,9 +78,10 @@
             "Procédure adaptée",
             "Appel d'offres ouvert",
             "Appel d'offres restreint",
-            "Marché passé sans publicité ni mise en concurrence préalable",
-            "Dialogue compétitif",
-            "Procédure avec négociation"
+            "Procédure concurrentielle avec négociation",
+            "Procédure négociée avec mise en concurrence préalable",
+            "Marché négocié sans publicité ni mise en concurrence préalable",
+            "Dialogue compétitif"
           ]
         },
         "lieuExecution": {
@@ -158,17 +159,17 @@
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {
+          "items": [{
             "$ref": "#/definitions/marche/definitions/Titulaire"
-          }
+          }]
         },
         "modifications": {
           "title": "Modifications des données du marché après leur publication initiale",
           "description": "Une fois les données essentielles du marché publiées, aucune modification des données n'est possible, si ce n'est l'ajout d'objets dans Modifications.",
           "type": "array",
-          "items": {
+          "items": [{
             "$ref": "#/definitions/marche/definitions/Modification"
-          },
+          }],
           "uniqueItems": true
         }
       },
@@ -294,9 +295,9 @@
               "title": "Liste des titulaires après la modification",
               "description": "",
               "type": "array",
-              "items": {
+              "items": [{
                 "$ref": "#/definitions/marche/definitions/Titulaire"
-              },
+              }],
               "minItems": 1,
               "uniqueItems": true
             }
@@ -434,9 +435,9 @@
           "description": "Les données d'exécution du contrat de concession à une date donnée. Tous les ans, l'autorité concédante publie les données d'exécution, jusqu'à la fin du contrat de concession. Ces données ne sont inclues qu'à partir de la première année, pas lors de la publication initiale des données qui fait suite à la notification.",
           "type": "array",
           "minItems": 0,
-          "items": {
+          "items": [{
             "$ref": "#/definitions/contrat-concession/definitions/DonneesExecution"
-          },
+          }],
           "uniqueItems": true
         },
         "concessionnaires": {
@@ -445,17 +446,17 @@
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {
+          "items": [{
             "$ref": "#/definitions/contrat-concession/definitions/Concessionnaire"
-          }
+          }]
         },
         "modifications": {
           "title": "Modifications des données du contrat de concession après leur publication initiale",
           "description": "Une fois les données essentielles du contrat de concession publiées, aucune modification des données n'est possible, si ce n'est l'ajout d'objets dans Modifications.",
           "type": "array",
-          "items": {
+          "items": [{
             "$ref": "#/definitions/contrat-concession/definitions/Modification"
-          },
+          }],
           "uniqueItems": true
         }
       },
@@ -613,9 +614,9 @@
               "title": "Tarifs",
               "description": "Les principaux tarifs à la charge des usagers",
               "type": "array",
-              "items": {
+              "items": [{
                 "$ref": "#/definitions/contrat-concession/definitions/Tarif"
-              },
+              }],
               "minItems": 1
             }
           }
