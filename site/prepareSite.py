@@ -147,6 +147,12 @@ for s in schemas:
     mydict[s.split('./site/')[1]]['type'] = data_loaded[s.split('./site/')[1]]['type']
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"README.md")
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"latest.md")
+    os.makedirs(s+"/latest/", exist_ok=True)
+    files = glob.glob(s+"/"+max+"/*")
+    for f in files:
+        print(f)
+        shutil.copy(f, s+"/latest/"+os.path.basename(f))
+
 
 schv = glob.glob("./site/*/*/*/*.md")
 
