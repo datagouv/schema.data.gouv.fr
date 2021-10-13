@@ -365,7 +365,7 @@ for repertoire_slug, conf in config.items():
         tags = repo.tags()
     except exceptions.ValidationException as e:
         errors.add(e)
-    tags.sort(reverse=True)
+    # tags.sort(reverse=True)
     for tag in tags:
         try:
             repo.checkout_tag(tag)
