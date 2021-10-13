@@ -11,7 +11,7 @@
    ],
    "countryCode": "FR",
    "homepage": "https://github.com/etalab/schema-stationnement-cyclable",
-   "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/schema.json",
+   "path": "https://github.com/etalab/schema-stationnement-cyclable/blob/master/schema.json",
    "licenses": [
       {
          "title": "Etalab Licence Ouverte 2.0",
@@ -23,22 +23,17 @@
       {
          "title": "Ressource valide (CSV)",
          "name": "exemple-valide-csv",
-         "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/exemple-valide.csv"
-      },
-      {
-         "title": "Ressource valide (XLSX)",
-         "name": "exemple-valide-xlsx",
-         "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/exemple-valide.xlsx"
+         "path": "https://github.com/etalab/schema-stationnement-cyclable/blob/master/exemple-valide.csv"
       },
       {
          "title": "Ressource invalide",
          "name": "exemple-invalide",
-         "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1/exemple-invalide.csv"
+         "path": "https://github.com/etalab/schema-stationnement-cyclable/blob/master/exemple-invalide.csv"
       }
    ],
    "created": "2021-03-10",
-   "lastModified": "2021-03-10",
-   "version": "1.1",
+   "lastModified": "2021-06-30",
+   "version": "1.0.0",
    "contributors": [
       {
          "title": "Nicolas Berthelot",
@@ -274,7 +269,7 @@
       },
       {
          "name": "capacite",
-         "description": "Nombre de places de stationnement disponibles sur l'emplacement",
+         "description": "Nombre de places de stationnement disponibles sur l'emplacement y compris les places adaptées à des vélos spéciaux (comme les vélos de grande taille).",
          "example": "14",
          "type": "integer",
          "constraints": {
@@ -291,22 +286,79 @@
          }
       },
       {
+         "name": "type_accroche",
+         "description": "Mode d'accrochage possible du vélo aux équipements de stationnement",
+         "example": "CADRE ET ROUE",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "ROUE",
+               "CADRE",
+               "CADRE ET ROUE",
+               "SANS ACCROCHE"
+            ]
+         }
+      },
+      {
          "name": "mobilier",
          "description": "Type de mobilier de stationnement",
-         "example": "arceau",
+         "example": "ARCEAU",
          "type": "string",
          "constraints": {
             "required": false,
             "enum": [
                "ARCEAU",
                "RATELIER",
-               "CORCHET",
                "RACK DOUBLE ETAGE",
-               "ANCRAGE",
+               "CROCHET",
+               "SUPPORT GUIDON",
                "POTELET",
                "ARCEAU VELO GRANDE TAILLE",
+               "AUCUN EQUIPEMENT",               
                "AUTRE"
             ]
+         }
+      },
+      {
+         "name": "acces",
+         "description": "Mode d'accès à l'emplacement de stationnement",
+         "example": "LIBRE ACCES",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "LIBRE ACCES",
+               "ABONNEMENT OU INSCRIPTION PREALABLE",
+               "PRIVE"
+            ]
+         }
+      },
+      {
+         "name": "gratuit",
+         "description": "L'usage de l'équipement de stationnement est-il gratuit ?",
+         "example": "true",
+         "type": "boolean",
+         "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "vrai",
+            "Vrai",
+            "VRAI"
+         ],
+         "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "faux",
+            "Faux",
+            "FAUX"
+         ],
+         "constraints": {
+            "required": false
          }
       },
       {
@@ -349,20 +401,6 @@
          ],
          "constraints": {
             "required": false
-         }
-      },
-      {
-         "name": "acces",
-         "description": "Mode d'accès à l'emplacement de stationnement",
-         "example": "LIBRE",
-         "type": "string",
-         "constraints": {
-            "required": false,
-            "enum": [
-               "LIBRE",
-               "PAYANT",
-               "PRIVE"
-            ]
          }
       },
       {
@@ -432,7 +470,7 @@
       {
          "name": "d_service",
          "description": "Date de mise en service du stationnement vélo (Notation ISO 8601, format AAAA)",
-         "example": "2020-02-27",
+         "example": "2017",
          "type": "integer",
          "constraints": {
             "required": false
@@ -441,7 +479,7 @@
       {
          "name": "source",
          "description": "Nom de l'organisation ayant fourni les données",
-         "example": "Ville de Poitiers",
+         "example": "Grand Poitiers",
          "type": "string",
          "constraints": {
             "required": false

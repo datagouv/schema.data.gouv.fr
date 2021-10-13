@@ -5,23 +5,23 @@
   "description": "Spécification du modèle de données relatif aux DAE",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/arsante/atlasante/schema-dae",
-  "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.1/schema.json",
+  "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier DAE avec des données invalides",
-      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.1/exemple_invalide.csv"
+      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide.csv"
     },
     {
       "title": "Exemple de fichier DAE avec une structure invalide",
-      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.1/exemple_invalide_structure.csv"
+      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide_structure.csv"
     },
     {
       "title": "Exemple de fichier DAE toutes les données invalides",
-      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.1/exemple_invalide_complet.csv"
+      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide_complet.csv"
     },
     {
       "title": "Exemple de fichier DAE valide",
-      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.1/exemple_valide.csv"
+      "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_valide.csv"
     }
   ],
   "sources": [
@@ -31,8 +31,8 @@
     }
   ],
   "created": "2020-01-01",
-  "lastModified": "2020-01-01",
-  "version": "1.0.1",
+  "lastModified": "2021-09-22",
+  "version": "1.0.3",
   "contributors": [
     {
       "organisation": "Ministère des Solidarités et de la Santé",
@@ -41,7 +41,7 @@
     }
   ],
   "fields": [
-    {
+	  {
       "name": "nom",
       "title": "Nom donné au DAE",
       "description": "",
@@ -211,9 +211,9 @@
       "title": "Photo 1 du DAE dans son environnement. Il est préconisé un plan large pour que le DAE soit visible dans son environnement. La photo déposée devra être libre de droit, sous format Open Source",
       "description": "Photo au format url. Fichier (jpg, png ou gif)",
       "type": "string",
+      "format":"uri",
       "constraints": {
         "required": false,
-        "format":"uri",
         "pattern": "^https?:\/\/(?:[a-z0-9\\-]+\\.)+[a-z]{2,6}(?:\/[^\/#?]+)+\\.(?:jpg|jpeg|gif|png)"
       },
       "example": "http://www.monsite.com/monimage.jpg"
@@ -223,9 +223,9 @@
       "title": "Photo 2 du DAE dans son environnement. Il est préconisé un plan large pour que le DAE soit visible dans son environnement. La photo déposée devra être libre de droit, sous format Open Source",
       "description": "Photo au format url. Fichier (jpg, png ou gif)",
       "type": "string",
+      "format":"uri",
       "constraints": {
         "required": false,
-        "format":"uri",
         "pattern": "^https?:\/\/(?:[a-z0-9\\-]+\\.)+[a-z]{2,6}(?:\/[^\/#?]+)+\\.(?:jpg|jpeg|gif|png)"
       },
       "example": "http://www.monsite.com/monimage.jpg"
@@ -233,22 +233,22 @@
     {
       "name": "disp_j",
       "title": "Pour les DAE non-disponibles 7j/7, détail de la disponibilité de l'appareil",
-      "description": "Liste de valeurs séparées par '|' parmi :  7j/7, lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, jours fériés, événements",
+      "description": "Liste de valeurs séparées par '|' parmi :  7j/7, lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, jours fériés, événements ou non renseigné (seul)",
       "type": "string",
       "constraints": {
         "required": true,
-        "pattern": "^(7j\/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements){1}(\\|(7j\/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements))*$"
+        "pattern": "^(7j\/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements){1}(\\|(7j\/7|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|jours fériés|événements))*$|^(non renseigné){1}$"
       },
       "example": "lundi|mercredi|vendredi"
     },
     {
       "name": "disp_h",
       "title": "Pour les DAE non-disponibles 24h/24, détail de la disponibilité de l'appareil",
-      "description": "Liste de valeurs séparées par '|' parmi : heures ouvrables, heures de nuit, 24h/24",
+      "description": "Liste de valeurs séparées par '|' parmi : heures ouvrables, heures de nuit, 24h/24, ou non renseigné (seul)",
       "type": "string",
       "constraints": {
         "required": true,
-        "pattern": "^(heures ouvrables|heures de nuit|24h\/24){1}(\\|(heures ouvrables|heures de nuit|24h\/24))*$"
+        "pattern": "^(heures ouvrables|heures de nuit|24h\/24){1}(\\|(heures ouvrables|heures de nuit|24h\/24))*$|^(non renseigné){1}$"
       },
       "example": "heures ouvrables|heures de nuit"
     },
@@ -269,7 +269,7 @@
       "type": "string",
       "constraints": {
         "required": true,
-        "pattern": "^(\\+33|0|\\+262|\\+269|\\+508|\\+590|\\+594|\\+596|\\+681|\\+687|\\+689)[1-9](\\d\\d){4}$"
+        "pattern": "^(\\+33|\\+590|\\+594|\\+262|\\+596|\\+269|\\+687|\\+689|\\+590|\\+508|\\+681)(\\d){6,9}$"
       },
       "example": "+33102030405"
     },
@@ -280,7 +280,7 @@
       "type": "string",
       "constraints": {
         "required": false,
-        "pattern": "^(\\+33|0|\\+262|\\+269|\\+508|\\+590|\\+594|\\+596|\\+681|\\+687|\\+689)[1-9](\\d\\d){4}$"
+        "pattern": "^(\\+33|\\+590|\\+594|\\+262|\\+596|\\+269|\\+687|\\+689|\\+590|\\+508|\\+681)(\\d){6,9}$"
       },
       "example": "+33102030405"
     },
@@ -503,7 +503,7 @@
       "type": "string",
       "constraints": {
         "required": true,
-        "pattern": "^(\\+33|0|\\+262|\\+269|\\+508|\\+590|\\+594|\\+596|\\+681|\\+687|\\+689)[1-9](\\d\\d){4}$"
+        "pattern": "^(\\+33|\\+590|\\+594|\\+262|\\+596|\\+269|\\+687|\\+689|\\+590|\\+508|\\+681)(\\d){6,9}$"
       },
       "example": "+33102030405"
     },
@@ -514,7 +514,7 @@
       "type": "string",
       "constraints": {
         "required": false,
-        "pattern": "^(\\+33|0|\\+262|\\+269|\\+508|\\+590|\\+594|\\+596|\\+681|\\+687|\\+689)[1-9](\\d\\d){4}$"
+        "pattern": "^(\\+33|\\+590|\\+594|\\+262|\\+596|\\+269|\\+687|\\+689|\\+590|\\+508|\\+681)(\\d){6,9}$"
       },
       "example": "+33102030405"
     },
@@ -529,24 +529,25 @@
       },
       "example": "p.nom@domaine.fr"
     }
-  ], "custom_checks":[
+    ], "custom_checks":[
+      {
+        "name":"french-siren-value",
+        "params":{
+          "column":"expt_siren"
+        }
+      },
     {
-      "name":"french-siren-value",
-      "params":{
-        "column":"expt_siren"
+        "name":"french-siren-value",
+        "params":{
+          "column":"mnt_siren"
+        }
+      },
+    {
+        "name":"french-siren-value",
+        "params":{
+          "column":"fab_siren"
+        }
       }
-    },
-	{
-      "name":"french-siren-value",
-      "params":{
-        "column":"mnt_siren"
-      }
-    },
-	{
-      "name":"french-siren-value",
-      "params":{
-        "column":"fab_siren"
-      }
-    }
-  ]
-}
+    ]
+  }
+  

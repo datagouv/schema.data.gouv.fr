@@ -1,14 +1,23 @@
 {
   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "name": "catalogue",
   "title": "Catalogue simplifié",
-  "author": "OpenDataFrance",
-  "contributor": "Thomas Bekkers, Loïc Haÿ",
-  "version": "0.1.1",
-  "created": "2018-11-20",
-  "updated": "2019-01-28",
   "description": "Spécification du modèle de données relatif au catalogue des jeux de données publiés en open data par une collectivité",
+  "contributors": [
+    {
+      "title": "OpenDataFrance",
+      "role": "author"
+    },
+    {
+      "title": "Thomas Bekkers",
+      "role": "contributor"
+    }
+  ],
+  "version": "0.1.2",
+  "created": "2018-11-20",
+  "lastModified": "2019-06-28",
   "homepage": "https://git.opendatafrance.net/scdl/catalogue",
-  "uri": "https://git.opendatafrance.net/scdl/catalogue/raw/v0.1.1/schema.json",
+  "path": "https://git.opendatafrance.net/scdl/catalogue/raw/v0.1.2/schema.json",
   "fields": [
     {
       "name": "COLL_NOM",
