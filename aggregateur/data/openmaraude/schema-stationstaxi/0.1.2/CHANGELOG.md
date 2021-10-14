@@ -1,13 +1,18 @@
 ---
 permalink: /openmaraude/schema-stationstaxi/latest/changelog.html
-redirect_from: /openmaraude/schema-stationstaxi/0.1.1/changelog.html
+redirect_from: /openmaraude/schema-stationstaxi/0.1.2/changelog.html
 title: CHANGELOG de Stations de taxi
-version: 0.1.1
+version: 0.1.2
 ---
 
 # Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
+
+## Version 0.1.2 - 2021-10-13
+
+- Le mot "null" est considéré comme une valeur vide.
+- Utilisation du nouveau validateur de téléphone de Validata.
 
 ## Version 0.1.1 - 2021-09-07
 

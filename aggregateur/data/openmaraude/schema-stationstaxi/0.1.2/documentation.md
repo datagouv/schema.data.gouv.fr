@@ -1,8 +1,8 @@
 ---
-permalink: /openmaraude/schema-stationstaxi/0.1.1/documentation.html
-redirect_from: null
+permalink: /openmaraude/schema-stationstaxi/latest/documentation.html
+redirect_from: /openmaraude/schema-stationstaxi/0.1.2/documentation.html
 title: Documentation de Stations de taxi
-version: 0.1.1
+version: 0.1.2
 ---
 
 ## stationstaxi
@@ -13,7 +13,8 @@ Spécification des stations de taxi à usage public
 
 - Schéma créé le : 07/04/2021
 - Site web : https://github.com/openmaraude/schema-stationstaxi
-- Version : 0.1.1
+- Version : 0.1.2
+- Valeurs manquantes : `""`, `"null"`
 - Clé primaire : `id`
 
 ### Modèle de données

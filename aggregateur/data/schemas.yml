@@ -713,24 +713,26 @@ openmaraude/schema-stationstaxi:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/openmaraude/schema-stationstaxi
-  latest_version: 0.1.1
+  latest_version: 0.1.2
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.csv
+      path: https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.2/exemple-valide.csv
       title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/openmaraude/schema-stationstaxi/0.1.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/openmaraude/schema-stationstaxi/0.1.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Stations de taxi
     versions:
     - 0.1.0
     - 0.1.1
+    - 0.1.2
   title: Stations de taxi
   type: tableschema
   versions:
   - 0.1.0
   - 0.1.1
+  - 0.1.2
 scdl/budget:
   consolidation: null
   description: Les données essentielles du budget permettent de décrire le contenu

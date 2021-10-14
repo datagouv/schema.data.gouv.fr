@@ -1,8 +1,8 @@
 ---
-permalink: /openmaraude/schema-stationstaxi/0.1.1.html
-redirect_from: null
+permalink: /openmaraude/schema-stationstaxi/latest.html
+redirect_from: /openmaraude/schema-stationstaxi/0.1.2.html
 title: Stations de taxi
-version: 0.1.1
+version: 0.1.2
 ---
 
 # Schéma des stations de taxi
@@ -80,8 +80,8 @@ des propriétés (properties) de chaque feature.
 
 Vous pouvez télécharger des fichiers gabarit d'exemple :
 
-- un [fichier au format CSV](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.csv) ;
-- un [fichier au format XLSX](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.1/exemple-valide.xlsx).
+- un [fichier au format CSV](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.2/exemple-valide.csv) ;
+- un [fichier au format XLSX](https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.2/exemple-valide.xlsx).
 
 ### Mises à jour
 
