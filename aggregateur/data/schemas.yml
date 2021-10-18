@@ -6,7 +6,7 @@
   external_doc: null
   external_tool: null
   has_changelog: false
-  homepage: https://github.com/etalab/format-commande-publique
+  homepage: https://github.com/139bercy/format-commande-publique
   latest_version: 1.5.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
@@ -182,7 +182,7 @@ PnX-SI/schema_randonnee:
   external_doc: null
   external_tool: null
   has_changelog: true
-  homepage: https://github.com/PnX-SI/schema-randonnee
+  homepage: https://github.com/PnX-SI/schema_randonnee
   latest_version: 1.0.2
   schemas:
   - examples: []
