@@ -37,6 +37,8 @@ class Metadata(object):
                 self.data[slug]["has_changelog"] = metadata["has_changelog"]
                 self.data[slug]["title"] = metadata["title"]
                 self.data[slug]["description"] = metadata["description"]
+                self.data[slug]["homepage"] = metadata["homepage"]
+
             else:
                 special_keys = ["version", "slug", "schemas"]
                 self.data[slug] = {
