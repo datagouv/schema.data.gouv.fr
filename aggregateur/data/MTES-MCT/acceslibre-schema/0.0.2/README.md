@@ -1,8 +1,8 @@
 ---
-permalink: /MTES-MCT/acceslibre-schema/0.0.1.html
+permalink: /MTES-MCT/acceslibre-schema/0.0.2.html
 redirect_from: null
-title: Schéma des données d'accessibilité des ERPs
-version: 0.0.1
+title: Accessibilité des ERP
+version: 0.0.2
 ---
 
 ## Schéma d’accessibilité aux établissements recevant du public (ERP)

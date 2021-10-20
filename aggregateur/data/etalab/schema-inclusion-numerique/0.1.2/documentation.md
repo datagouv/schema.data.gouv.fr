@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-inclusion-numerique/0.1.1/documentation.html
-redirect_from: null
+permalink: /etalab/schema-inclusion-numerique/latest/documentation.html
+redirect_from: /etalab/schema-inclusion-numerique/0.1.2/documentation.html
 title: Documentation de Lieux d’inclusion numérique
-version: 0.1.1
+version: 0.1.2
 ---
 
 ## lieux-inclusion-numerique
@@ -13,8 +13,8 @@ Spécification des lieux d'inclusion numérique
 
 - Schéma créé le : 06/09/2020
 - Site web : https://github.com/etalab/schema-inclusion-numerique
-- Données d'exemple : https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.1/exemple-valide.csv
-- Version : 0.1.1
+- Données d'exemple : https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.2/exemple-valide.csv
+- Version : 0.1.2
 
 ### Modèle de données
 
@@ -217,10 +217,9 @@ Spécification des lieux d'inclusion numérique
 
 #### Propriété `contact_telephone`
 
-> *Description : Le numéro de téléphone du lieu<br/>Ex : 0123456789*
-- Valeur optionnelle
+> *Description : Le numéro de téléphone du lieu<br/>Ex : 01 23 45 67 89*
+- Valeur obligatoire
 - Type : chaîne de caractères
-- Motif : `^\d{10}$`
 
 #### Propriété `contact_telephone_details`
 

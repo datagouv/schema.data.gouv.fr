@@ -125,22 +125,26 @@ MTES-MCT/acceslibre-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/MTES-MCT/acceslibre-schema
-  latest_version: 0.0.1
+  latest_version: 0.0.3
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.1/exemple-valide.csv
+      path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.3/exemple-valide.csv
       title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.3/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma des données d'accessibilité des ERPs
+    title: Accessibilité des ERP
     versions:
     - 0.0.1
-  title: Schéma des données d'accessibilité des ERPs
+    - 0.0.2
+    - 0.0.3
+  title: Accessibilité des ERP
   type: tableschema
   versions:
   - 0.0.1
+  - 0.0.2
+  - 0.0.3
 NaturalSolutions/schema-arbre:
   consolidation: null
   description: Spécification des attributs liés aux arbres urbains dans le cadre d'un
@@ -392,24 +396,26 @@ etalab/schema-inclusion-numerique:
   email: carto@aidantsconnect.beta.gouv.fr
   external_doc: null
   external_tool: null
-  has_changelog: false
+  has_changelog: true
   homepage: https://github.com/etalab/schema-inclusion-numerique
-  latest_version: 0.1.1
+  latest_version: 0.1.2
   schemas:
   - examples:
     - name: exemple-valide
-      path: https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.1/exemple-valide.csv
+      path: https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.2/exemple-valide.csv
       title: Ressource valide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux d’inclusion numérique
     versions:
     - 0.1.1
+    - 0.1.2
   title: Lieux d’inclusion numérique
   type: tableschema
   versions:
   - 0.1.1
+  - 0.1.2
 etalab/schema-irve:
   consolidation:
     dataset_id: 5448d3e0c751df01f85d0572

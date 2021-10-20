@@ -1,19 +1,19 @@
 ---
-permalink: /MTES-MCT/acceslibre-schema/0.0.1/documentation.html
-redirect_from: null
-title: Documentation de Schéma des données d'accessibilité des ERPs
-version: 0.0.1
+permalink: /MTES-MCT/acceslibre-schema/latest/documentation.html
+redirect_from: /MTES-MCT/acceslibre-schema/0.0.3/documentation.html
+title: Documentation de Accessibilité des ERP
+version: 0.0.3
 ---
 
-## acceslibre
+## accessibilite-erp
 
-Schéma des données d'accessibilité des ERPs
+Accessibilité des ERP
 
 Spécification du fichier d'échange relatif aux données d'accessibilité des Établissements Recevant du Public (ERP).
 
 - Schéma créé le : 10/03/2021
 - Site web : https://github.com/MTES-MCT/acceslibre-schema
-- Version : 0.0.1
+- Version : 0.0.3
 - Clé primaire : `id`
 
 ### Modèle de données
@@ -36,6 +36,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [site_internet](#propriété-site_internet) | chaîne de caractères (format `uri`) | Non |
 | [longitude](#propriété-longitude) | nombre réel  | Non |
 | [latitude](#propriété-latitude) | nombre réel  | Non |
+| [activite](#activité---propriété-activite) | chaîne de caractères  | Non |
 | [transport_station_presence](#proximité-d'un-arrêt-de-transport-en-commun---propriété-transport_station_presence) | booléen  | Non |
 | [stationnement_presence](#stationnement-dans-l'établissement---propriété-stationnement_presence) | booléen  | Non |
 | [stationnement_pmr](#stationnements-adaptés-dans-l'établissement---propriété-stationnement_pmr) | booléen  | Non |
@@ -172,6 +173,12 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 > *Description : Coordonnées GPS: latitude<br/>Ex : 48.856613*
 - Valeur optionnelle
 - Type : nombre réel
+
+#### Activité - Propriété `activite`
+
+> *Description : Domaine d'activité de l'ERP<br/>Ex : *
+- Valeur optionnelle
+- Type : chaîne de caractères
 
 #### Proximité d'un arrêt de transport en commun - Propriété `transport_station_presence`
 
