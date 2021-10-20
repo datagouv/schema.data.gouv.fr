@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-amenagements-cyclables/0.3.2.html
-redirect_from: null
+permalink: /etalab/schema-amenagements-cyclables/latest.html
+redirect_from: /etalab/schema-amenagements-cyclables/0.3.3.html
 title: Aménagements cyclables
-version: 0.3.2
+version: 0.3.3
 ---
 
 # Schéma de données d'aménagements cyclables 
