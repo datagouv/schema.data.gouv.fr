@@ -658,21 +658,23 @@ etalab/schema-zfe:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-zfe
-  latest_version: 0.7.0
+  latest_version: 0.7.1
   schemas:
   - examples: []
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.7.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.7.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Zone à Faibles Emissions
     versions:
     - 0.6.1
     - 0.7.0
+    - 0.7.1
   title: Zone à Faibles Emissions
   type: jsonschema
   versions:
   - 0.6.1
   - 0.7.0
+  - 0.7.1
 macaron-ai/onstreet-parking-schema:
   consolidation: null
   description: Spécification du schéma de données d'emprises de stationnement
