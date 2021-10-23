@@ -18,12 +18,6 @@ investigation:
   nb_comments: 15
   title: Schéma de description des tiers-lieu
   url: https://github.com/etalab/schema.data.gouv.fr/issues/179
-- created_at: '2021-03-16T15:22:34Z'
-  labels:
-  - Schéma en investigation
-  nb_comments: 11
-  title: Schéma Itinéraires de randonnées
-  url: https://github.com/etalab/schema.data.gouv.fr/issues/150
 - created_at: '2020-01-14T13:43:09Z'
   labels:
   - Schéma en investigation
