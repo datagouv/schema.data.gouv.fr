@@ -150,7 +150,7 @@
                                     "PROVISOIRE"
                                 ]
                              },
-                            "revetement_d": {
+                            "revet_d": {
                                 "type": "string",
                                 "description": "Type de revêtement de l'aménagement sur la voie de droite",
                                 "examples": [
@@ -251,7 +251,7 @@
                                     "PROVISOIRE"
                                 ]
                             },
-                             "revetement_g": {
+                             "revet_g": {
                                 "type": "string",
                                 "description": "Type de revêtement de l'aménagement sur la voie de gauche",
                                 "examples": [
