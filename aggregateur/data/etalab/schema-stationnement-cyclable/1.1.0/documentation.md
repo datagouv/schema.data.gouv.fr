@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-stationnement-cyclable/1.0.0/documentation.html
-redirect_from: null
+permalink: /etalab/schema-stationnement-cyclable/latest/documentation.html
+redirect_from: /etalab/schema-stationnement-cyclable/1.1.0/documentation.html
 title: Documentation de Stationnement cyclable
-version: 1.0.0
+version: 1.1.0
 ---
 
 ## stationnement-cyclable
@@ -26,8 +26,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 | [id_local](#propriété-id_local) | chaîne de caractères  | Oui |
 | [id_osm](#propriété-id_osm) | chaîne de caractères  | Non |
 | [code_com](#propriété-code_com) | chaîne de caractères  | Non |
-| [xlong](#propriété-xlong) | nombre réel  | Oui |
-| [ylat](#propriété-ylat) | nombre réel  | Oui |
+| [coordonneesxy](#propriété-coordonneesxy) | point géographique (format `array`) | Oui |
 | [capacite](#propriété-capacite) | nombre entier  | Oui |
 | [capacite_cargo](#propriété-capacite_cargo) | nombre entier  | Non |
 | [type_accroche](#propriété-type_accroche) | chaîne de caractères  | Oui |
@@ -65,19 +64,11 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
-#### Propriété `xlong`
+#### Propriété `coordonneesxy`
 
-> *Description : La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84.<br/>Ex : 1.452323*
+> *Description : La latitude et la longitude en degrés décimaux (point comme séparateur décimal) de la localisation du centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84 [lon,lat].<br/>Ex : [7.48710500,48.345345]*
 - Valeur obligatoire
-- Type : nombre réel
-- Valeur entre -180 et 180
-
-#### Propriété `ylat`
-
-> *Description : La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84.<br/>Ex : 46.59698*
-- Valeur obligatoire
-- Type : nombre réel
-- Valeur entre -90 et 90
+- Type : point géographique (format `array`)
 
 #### Propriété `capacite`
 
