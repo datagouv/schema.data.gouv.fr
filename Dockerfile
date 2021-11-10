@@ -1,6 +1,6 @@
 FROM python:3.9
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update && apt-get -y upgrade
 
 COPY ./aggregateur /aggregateur
 COPY ./api /api
