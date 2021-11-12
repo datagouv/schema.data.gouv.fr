@@ -48,12 +48,8 @@ module.exports = {
         "url": "/"
       },
       {
-        "title": "Schémas référencés",
+        "title": "Schémas",
         "url": "/schemas.html",
-      },
-      {
-        "title": "Schémas en cours",
-        "url": "/encours.html",
       },
       {
         "title": "Contribuer",
