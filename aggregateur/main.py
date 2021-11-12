@@ -149,6 +149,7 @@ class Metadata(object):
                     examples = details["schemas"][0]["examples"]
                 else:
                     examples = []
+                
 
                 schemas.append(
                     {
@@ -184,7 +185,7 @@ class Metadata(object):
 class Repo(object):
     SCHEMA_TYPES = ["tableschema", "xsd", "jsonschema", "other"]
 
-    def __init__(self, git_url, email, schema_type, external_doc, external_tool):
+    def __init__(self, git_url, email, schema_type, external_doc, external_tool, badges):
         super(Repo, self).__init__()
         parsed_git = giturlparse.parse(git_url)
         self.git_url = git_url
@@ -193,6 +194,8 @@ class Repo(object):
         self.email = email
         self.external_doc = external_doc
         self.external_tool = external_tool
+        self.badges = badges
+        
         if os.path.isdir(self.clone_dir):
             self.git_repo = GitRepo(self.clone_dir)
         else:
@@ -360,8 +363,12 @@ for repertoire_slug, conf in config.items():
             external_tool = None
         else:
             external_tool = conf['external_tool']
-        
-        repo = Repo(conf["url"], conf["email"], conf["type"], external_doc,external_tool)
+        if("badges" not in conf):
+            badges = None
+        else:
+            badges = conf['badges']
+
+        repo = Repo(conf["url"], conf["email"], conf["type"], external_doc, external_tool, badges)
         
         repo.clone_or_pull()
         tags = repo.tags()

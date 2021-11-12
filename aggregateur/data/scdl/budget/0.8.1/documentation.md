@@ -11,7 +11,7 @@ Budget des collectivités et établissements publics locaux
 
 Les données essentielles du budget permettent de décrire le contenu des étapes budgétaires des collectivités locales et des établissements publics. Il permet de préciser les catégories de montants financiers ainsi que le découpage de ces sommes en fonction du type de présentation utilisé (par nature ou par fonction). Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées.
 
-- Schéma créé le : 07/11/2019
+- Schéma créé le : 07.11.2019
 - Site web : https://git.opendatafrance.net/scdl/budget
 - Version : 0.8.1
 
