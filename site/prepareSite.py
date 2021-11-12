@@ -144,6 +144,7 @@ for s in schemas:
     mydict[s.split('./site/')[1]]['email'] = data_loaded[s.split('./site/')[1]]['email']
     mydict[s.split('./site/')[1]]['external_tool'] = data_loaded[s.split('./site/')[1]]['external_tool']
     mydict[s.split('./site/')[1]]['external_doc'] = data_loaded[s.split('./site/')[1]]['external_doc']
+    mydict[s.split('./site/')[1]]['badges'] = data_loaded[s.split('./site/')[1]]['badges']
     mydict[s.split('./site/')[1]]['type'] = data_loaded[s.split('./site/')[1]]['type']
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"README.md")
     shutil.copy(s+"/"+max+"/README.md",s+"/"+"latest.md")

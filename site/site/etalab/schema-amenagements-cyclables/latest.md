@@ -9,7 +9,7 @@ Ce schéma permet de modéliser et définir les aménagements cyclables sur le t
 
 Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de transport.data.gouv.fr, en collaboration avec l'association Vélo & Territoires, propose une solution simple et structurée pour l’ouverture des données sur les aménagements cyclables : la Base Nationale des Aménagements Cyclables (BNAC). 
 
-Le schéma de la base de données a été co-construit avec Vélo & Territoires, les producteurs de données et les réutilisateurs. Trois ateliers ouverts (le 14/04/2020, le 8/06/2020, le 27/06/2019, le 8/07/2020 et le 27/08/2020) ont permis sa production. (Il a été établi après une enquête et plusieurs réunions du groupe de travail). Aujourd’hui disponible en version 0.1.0, il sera mis-à-jour prochainement.
+Le schéma de la base de données a été co-construit avec Vélo & Territoires, les producteurs de données et les réutilisateurs. Cinq ateliers ouverts (le 14/04/2020, le 8/06/2020, le 27/06/2019, le 8/07/2020 et le 27/08/2020) ont permis sa production. Il a été établi après une enquête et plusieurs réunions du groupe de travail.
 
 ## Cadre juridique
 
@@ -32,32 +32,38 @@ Ce dataset comprend notamment :
 - la vitesse de circulation des véhicules motorisés dans le trafic adjacent.
 
 
-
-Attention : ce dataset ne concerne pas le stationnement vélo. 
+Attention : ce dataset ne concerne pas le stationnement cyclable. Vous trouverez le schéma national pour le stationnement cyclable [ici](https://schema.data.gouv.fr/etalab/schema-stationnement-cyclable/latest.html) 
 
 ## Format de fichier
 
-Les jeux de données seront publiées au format GeoJSON. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible. La colonne doit toutefois être présente.
+Les jeux de données seront publiés au format GeoJSON. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible. La colonne doit toutefois être présente.
 
 Les producteurs pourront saisir leurs données sur : 
 - des outils internes ;
-- OpenStreetMpa (OSM); 
-- les outils développés par Vélo & Territoires à savoir 
-un WebSIG 
-Un gabarit au format shapefile pour QGIS
-Un script SQL pour la création d’une base de données Postgres/PostGIS « vierge ».
+- OpenStreetMap (OSM); 
+- les outils développés par Vélo & Territoires à savoir, 
+- un [WebSIG](https://on3v.veremes.net/vmap/?mode_id=vmap&map_id=31&token=publictoken#) ;
+- Un [gabarit au format shapefile](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_TEMPLATE_SHP_QGIS.zip) pour QGIS ;
+- Un [script SQL pour la création d’une base de données Postgres/PostGIS](https://github.com/etalab/schema-amenagements-cyclables/blob/master/tools/AC_SQL_POSTGIS.zip) « vierge ».
+
+Ces outils sont hébérgés dans le dossier [tools](https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools) de ce repo. Pour une demande d'accès au WebSIG ou toute autre question sur ces outils, vous pouvez contacter Fabien Commeaux de Vélo & Territoires à cette adresse : fabien.commeaux@velo-territoires.org
+
+
+## Publication
 
 Dans le but de maintenir à jour un répertoire consolidé des aménagements cyclables en France, les collectivités sont invitées à transmettre systématiquement les données relatives à leurs aménagements. 
 Elles peuvent ajouter le mot-clef "aménagement cyclable" lors de la publication du jeu de données dans leur espace de publication ou directement sur data.gouv.fr.
-Lees producteurs pourront :
+Les producteurs pourront :
 - publier directement sur data.gouv.fr ;
 - déléguer la publication des données à Vélo & Territoires si les données ont été saisie sur leur WebSIG ;
+- demander à Géovélo de convertir leurs données vers le schéma national si elle
 - publier sur OpenStreetMap et Géovélo se chargera de la publication avec une conversion vers le schéma.
 
-Nous préconisons aux producteurs de données de publier leurs fichiers avec la règle de nommage suivante : amenagementcyclable_nom.geojson avec nom étant le nom de la collectivité productrice des données, par exemple AménagementCyclable_Ain.geojson
+Nous préconisons aux producteurs de données de publier leurs fichiers avec la règle de nommage suivante : amenagementcyclable_nom.geojson avec nom étant le nom de la collectivité productrice des données, par exemple AménagementCyclable_Ain.geojson. Nous invitons également les producteurs de données à séléctionner "schéma d'aménagements cyclables" dans la liste déroulante de la section "schema" sur data.gouv.fr lorsqu'ils publieront leurs fichiers.
 
 
-En cas de mise à jour d’un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l’équipe transport.data.gouv.fr qui s’assurera de l'actualisation du fichier en question et de son intégration dans la base consolidée.
+
+En cas de mise à jour d’un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l’équipe transport.data.gouv.fr qui s’assurera de l'actualisation du fichier en question et de son intégration dans la base consolidée à l'adresse : contact@transport.beta.gouv.fr
 
 ## Consolidation
 
@@ -65,7 +71,7 @@ Cette base de données ainsi construite est issue de l’assemblage de fichiers 
 
 Trois bases seront publiées sur transport.data.gouv.fr : 
 - une base nationale regroupant les données publiées par les collectivités sur data.gouv.fr ;
-- une base rassemblant les données publiées sur OSM. Géovélo sera en charge de l'extraction de ces données et de leur mise à jour mensuelle ;
+- une [base rassemblant les données publiées sur OSM](https://transport.data.gouv.fr/datasets/amenagements-cyclables-france-metropolitaine/). Géovélo sera en charge de l'extraction de ces données et de leur mise à jour mensuelle ;
 - une base nationale consolidant les données publiées par les collectivités sur data.gouv.ft et celles publiées sur OSM. 
 
 

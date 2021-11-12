@@ -1,10 +1,4 @@
 construction:
-- created_at: '2021-05-03T09:06:27Z'
-  labels:
-  - Schéma en construction
-  nb_comments: 2
-  title: Schéma Arrêtés Permanents de Circulation
-  url: https://github.com/etalab/schema.data.gouv.fr/issues/157
 - created_at: '2020-11-02T10:57:55Z'
   labels:
   - Schéma en construction
@@ -18,12 +12,31 @@ construction:
   title: Données d'autopartage
   url: https://github.com/etalab/schema.data.gouv.fr/issues/107
 investigation:
-- created_at: '2021-03-16T15:22:34Z'
+- created_at: '2021-10-31T10:23:21Z'
   labels:
   - Schéma en investigation
-  nb_comments: 11
-  title: Schéma Itinéraires de randonnées
-  url: https://github.com/etalab/schema.data.gouv.fr/issues/150
+  nb_comments: 0
+  title: Effectifs scolaires
+  url: https://github.com/etalab/schema.data.gouv.fr/issues/205
+- created_at: '2021-10-27T13:54:40Z'
+  labels:
+  - Schéma en investigation
+  nb_comments: 0
+  title: ' spécifications techniques encadrant l’ouverture des données du domaine
+    « routier » pour les collectivités'
+  url: https://github.com/etalab/schema.data.gouv.fr/issues/204
+- created_at: '2021-09-21T07:31:30Z'
+  labels:
+  - Schéma en investigation
+  nb_comments: 5
+  title: Schéma de partage des stationnements PMR en voirie
+  url: https://github.com/etalab/schema.data.gouv.fr/issues/190
+- created_at: '2021-07-16T13:37:40Z'
+  labels:
+  - Schéma en investigation
+  nb_comments: 15
+  title: Schéma de description des tiers-lieu
+  url: https://github.com/etalab/schema.data.gouv.fr/issues/179
 - created_at: '2020-01-14T13:43:09Z'
   labels:
   - Schéma en investigation

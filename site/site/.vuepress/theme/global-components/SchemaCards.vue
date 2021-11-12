@@ -1,11 +1,6 @@
 <template>
   <div>
     <div id="search-bar" class="rf-container rf-pb-6w rf-pt-2w">
-        <!--<br />
-        <p>
-            Les types de jeux de données ci-dessous sont issues du référentiel de schéma de
-            la plateforme schema.data.gouv.fr.
-        </p>-->
         <br />
         <div class="search-bar" id="header-search">
             <input
@@ -20,6 +15,18 @@
               class="rf-button-search"
             ><img src="../../public/assets/loupe.png" width="22" /><span class="searchLabel">&nbsp;&nbsp;Rechercher</span></button>
         </div>
+    </div>
+    <br />
+    <div>Filtrer par catalogue :</div>
+    <div class="badges">
+      <div v-for="item in listBadges" v-bind:key="item" @click='selectBadge(item)'>
+        <span v-if='item === badgeSelected'>
+          <div class="badgeSelected">{{ item }}</div>
+        </span>
+        <span v-if='item != badgeSelected'>
+          <div class="badgeNotSelected">{{ item }}</div>
+        </span>
+      </div>
     </div>
     <div class="boxes">
       <div
@@ -62,12 +69,31 @@ export default {
       schemasToShow: [],
       stats: null,
       showButtons: false,
+      schemasInfos: null,
+      listBadges: ['Tous les schémas'],
+      badgeSelected: 'Tous les schémas',
     };
   },
   mounted() {
     var dataSchemas = require('../../public/schemas.json')
+    var si = require('../../public/schema-infos.json')
     this.schemas = dataSchemas.schemas
-    this.schemasToShow = dataSchemas.schemas.sort(function(a, b){
+    this.schemasInfos = si
+    for(var key in si) {
+      if(si[key]['badges'] != null){
+        si[key]['badges'].forEach((b) => {
+          if(!this.listBadges.includes(b)){
+            this.listBadges.push(b);
+          }
+        });
+        this.schemas.forEach((s) => {
+          if(s.name == key){
+            s.badges = si[key]['badges']
+          }
+        });
+      }
+    }
+    this.schemasToShow = this.schemas.sort(function(a, b){
       var nameA=latinize(a.title), nameB=latinize(b.title);
       if (nameA < nameB) //sort string ascending
         return -1;
@@ -79,6 +105,35 @@ export default {
     this.stats = statsSchemas
   },
   methods: {
+    selectBadge(item){
+      this.badgeSelected = item;
+      let sts = []
+      if(item != 'Tous les schémas'){
+        this.schemas.forEach((s) => {
+          console.log(s)
+          if(s.badges && s.badges.includes(item)){
+            sts.push(s)
+          }
+        });
+      } else {
+        console.log('else')
+        sts = this.schemas
+      }
+
+      this.schemasToShow = sts.sort(function(a, b){
+        var nameA=latinize(a.title), nameB=latinize(b.title);
+        if (nameA < nameB) //sort string ascending
+          return -1;
+        if (nameA > nameB)
+          return 1;
+        return 0; //default return value (no sorting)
+      });
+
+      if(this.searchText != ''){
+        this.filterSchema();
+      }
+
+    },
     truncateText(desc,length){
       if (desc.length > length) {
           return desc.slice(0,length)+' [...]';
@@ -100,8 +155,10 @@ export default {
       if (this.searchText !== '') {
         const obj = [];
         this.schemas.forEach((schema) => {
-          if (latinize(schema.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
-            obj.push(schema);
+          if(this.badgeSelected == 'Tous les schémas' || (schema.badges && schema.badges.includes(this.badgeSelected))){
+            if (latinize(schema.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
+              obj.push(schema);
+            }
           }
         });
         this.schemasToShow = obj;
@@ -240,4 +297,30 @@ export default {
       display: none;
     }
 }
+
+.badges{
+  margin-top: 15px;
+  display: flex;
+}
+
+.badgeSelected{
+  margin-right: 15px;
+  padding: 15px;
+  background-color: #000091;
+  border-radius: 20px;
+  color: white;
+}
+.badgeNotSelected{
+  margin-right: 15px;
+  padding: 15px;
+  background-color: #ECEDFE;
+  border-radius: 20px;
+  color: #000091;
+}
+
+.badgeNotSelected:hover{
+  background-color: #CCCCFF;
+  cursor: pointer;
+}
+
 </style>

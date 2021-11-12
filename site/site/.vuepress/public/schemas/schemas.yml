@@ -1,4 +1,6 @@
 139bercy/format-commande-publique:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Données des attributions de marchés publics et de contrats de concessions
     supérieures à 40 000 euros.
@@ -6,7 +8,7 @@
   external_doc: null
   external_tool: null
   has_changelog: false
-  homepage: https://github.com/etalab/format-commande-publique
+  homepage: https://github.com/139bercy/format-commande-publique
   latest_version: 1.5.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
@@ -36,6 +38,7 @@
   - 1.4.0
   - 1.5.0
 Archivistes75/registre_entrees:
+  badges: null
   consolidation: null
   description: Spécification du standard national des registres d'entrée d'archives
   email: hello@datactivist.coop
@@ -56,7 +59,69 @@ Archivistes75/registre_entrees:
   type: tableschema
   versions:
   - 0.2.0
+CEREMA/schema-arrete-circulation-marchandises:
+  badges: null
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux arrêtés permanents de
+    circulation pour le transport de marchandises gérés par les collectivités.
+  email: data-med@cerema.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/CEREMA/schema-arrete-circulation
+  latest_version: 0.6.3
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemple-valide.csv
+      title: Fichier valide
+    - name: carros-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/carros.csv
+      title: Fichier valide pour la commune de Carros (CSV)
+    - name: fuveau-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/fuveau.csv
+      title: Fichier valide pour la commune de Fuveau (CSV)
+    - name: gignac-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/gignac.csv
+      title: Fichier valide pour la commune de Gignac-La-Nerthe (CSV)
+    - name: le-rove-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/le-rove.csv
+      title: Fichier valide pour la commune du Rove (CSV)
+    - name: st-victoret-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/st-victoret.csv
+      title: Fichier valide pour la commune de St-Victoret (CSV)
+    - name: septemes-les-vallons-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/septemes-les-vallons.csv
+      title: Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)
+    - name: vence-csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/vence.csv
+      title: Fichier valide pour la commune de Vence (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.6.3/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Arrêtés permanents de circulation pour le transport de marchandises
+    versions:
+    - 0.3.0
+    - 0.4.0
+    - 0.4.1
+    - 0.5.0
+    - 0.6.0
+    - 0.6.1
+    - 0.6.2
+    - 0.6.3
+  title: Arrêtés permanents de circulation pour le transport de marchandises
+  type: tableschema
+  versions:
+  - 0.3.0
+  - 0.4.0
+  - 0.4.1
+  - 0.5.0
+  - 0.6.0
+  - 0.6.1
+  - 0.6.2
+  - 0.6.3
 MTES-MCT/acceslibre-schema:
+  badges: null
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité
     des Établissements Recevant du Public (ERP).
@@ -65,23 +130,28 @@ MTES-MCT/acceslibre-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/MTES-MCT/acceslibre-schema
-  latest_version: 0.0.1
+  latest_version: 0.0.3
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.1/exemple-valide.csv
+      path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.3/exemple-valide.csv
       title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.3/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma des données d'accessibilité des ERPs
+    title: Accessibilité des ERP
     versions:
     - 0.0.1
-  title: Schéma des données d'accessibilité des ERPs
+    - 0.0.2
+    - 0.0.3
+  title: Accessibilité des ERP
   type: tableschema
   versions:
   - 0.0.1
+  - 0.0.2
+  - 0.0.3
 NaturalSolutions/schema-arbre:
+  badges: null
   consolidation: null
   description: Spécification des attributs liés aux arbres urbains dans le cadre d'un
     inventaire du patrimoine arboré par les collectivités.
@@ -90,30 +160,63 @@ NaturalSolutions/schema-arbre:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/NaturalSolutions/schema-arbre
-  latest_version: 0.2.1
+  latest_version: 0.2.2
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.csv
+      path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.csv
       title: Fichier valide (CSV)
     - name: exemple-valide-xlsx
-      path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.0/exemple-valide.xlsx
+      path: https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.xlsx
       title: Ressource valide (XLSX)
-    latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.2/schema.json
     original_path: schema.json
     path: schema.json
-    title: Schéma des attributs des arbres urbains
+    title: Arbres urbains
     versions:
     - 0.1.0
     - 0.2.0
     - 0.2.1
-  title: Schéma des attributs des arbres urbains
+    - 0.2.2
+  title: Arbres urbains
   type: tableschema
   versions:
   - 0.1.0
   - 0.2.0
   - 0.2.1
+  - 0.2.2
+PnX-SI/schema_randonnee:
+  badges: null
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux itinéraires de randonnée
+  email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/PnX-SI/schema_randonnee
+  latest_version: 1.0.2
+  schemas:
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/PnX-SI/schema_randonnee/1.0.2/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Schéma principal
+    versions:
+    - 0.3.0
+    - 0.3.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+  title: Itinéraires de randonnée
+  type: jsonschema
+  versions:
+  - 0.3.0
+  - 0.3.1
+  - 1.0.0
+  - 1.0.1
+  - 1.0.2
 arsante/schema-dae:
+  badges: null
   consolidation: null
   description: Spécification du modèle de données relatif aux DAE
   email: contact@geodae.sante.gouv.fr
@@ -121,30 +224,57 @@ arsante/schema-dae:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
-  latest_version: 1.0.2
+  latest_version: 1.0.3
   schemas:
   - examples:
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide.csv
       title: Exemple de fichier DAE avec des données invalides
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide_structure.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide_structure.csv
       title: Exemple de fichier DAE avec une structure invalide
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_invalide_complet.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_invalide_complet.csv
       title: Exemple de fichier DAE toutes les données invalides
-    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.2/exemple_valide.csv
+    - path: https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.3/exemple_valide.csv
       title: Exemple de fichier DAE valide
-    latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.2/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/arsante/schema-dae/1.0.3/schema.json
     original_path: schema.json
     path: schema.json
     title: DAE
     versions:
     - 1.0.1
     - 1.0.2
+    - 1.0.3
   title: DAE
   type: tableschema
   versions:
   - 1.0.1
   - 1.0.2
+  - 1.0.3
+datakode/schema-pei:
+  badges: null
+  consolidation: null
+  description: Spécification du modèle de données relatif aux PEI
+  email: portier@datakode.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: false
+  homepage: https://gitlab.com/datakode/schema-pei
+  latest_version: 1.0.0
+  schemas:
+  - examples:
+    - path: https://docs.google.com/spreadsheets/d/1UBlX52Of20q4HnAFTyxrfX75vZrUtXDxwXP6j6_kUp4/edit#gid=0
+      title: Impémentations
+    latest_url: https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Point d'Eau Incendie (PEI)
+    versions:
+    - 1.0.0
+  title: Point d'Eau Incendie (PEI)
+  type: tableschema
+  versions:
+  - 1.0.0
 datatourisme/ontology:
+  badges: null
   consolidation: null
   description: Ontologie destinée à structurer les données décrivant l'ensemble des
     points d'intérêts recensés par les Offices de Tourisme, Agences Départementales
@@ -171,6 +301,8 @@ datatourisme/ontology:
   - 2.4.7
   - 2.4.8
 etalab/schema-amenagements-cyclables:
+  badges:
+  - transport.data.gouv.fr
   consolidation: null
   description: Spécification du schéma de données d'aménagements cyclables
   email: contact@transport.beta.gouv.fr
@@ -178,13 +310,13 @@ etalab/schema-amenagements-cyclables:
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
-  latest_version: 0.3.0
+  latest_version: 0.3.3
   schemas:
   - examples: []
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.0/schema_amenagements_cyclables.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.3/schema_amenagements_cyclables.json
     original_path: schema_amenagements_cyclables.json
     path: schema_amenagements_cyclables.json
-    title: Schema des aménagements cyclables
+    title: Aménagements cyclables
     versions:
     - 0.1.0
     - 0.2.0
@@ -192,7 +324,10 @@ etalab/schema-amenagements-cyclables:
     - 0.2.2
     - 0.2.3
     - 0.3.0
-  title: Schéma d'aménagements cyclables
+    - 0.3.1
+    - 0.3.2
+    - 0.3.3
+  title: Aménagements cyclables
   type: jsonschema
   versions:
   - 0.1.0
@@ -201,7 +336,12 @@ etalab/schema-amenagements-cyclables:
   - 0.2.2
   - 0.2.3
   - 0.3.0
+  - 0.3.1
+  - 0.3.2
+  - 0.3.3
 etalab/schema-bal:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Fichier contenant toutes les adresses d'un territoire donné
   email: adresse@data.gouv.fr
@@ -222,6 +362,8 @@ etalab/schema-bal:
   versions:
   - 1.1.0
 etalab/schema-decp-dpa:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: schema@data.gouv.fr
@@ -243,6 +385,7 @@ etalab/schema-decp-dpa:
   versions:
   - 1.0.0
 etalab/schema-hautes-remunerations:
+  badges: null
   consolidation: null
   description: Spécification du fichier de déclaration des dix rémunérations les plus
     élevées des agents publiques
@@ -265,30 +408,36 @@ etalab/schema-hautes-remunerations:
   versions:
   - 0.1.0
 etalab/schema-inclusion-numerique:
+  badges: null
   consolidation: null
   description: Spécification des lieux d'inclusion numérique
   email: carto@aidantsconnect.beta.gouv.fr
   external_doc: null
   external_tool: null
-  has_changelog: false
+  has_changelog: true
   homepage: https://github.com/etalab/schema-inclusion-numerique
-  latest_version: 0.1.1
+  latest_version: 0.1.2
   schemas:
   - examples:
     - name: exemple-valide
-      path: https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.1/exemple-valide.csv
+      path: https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.2/exemple-valide.csv
       title: Ressource valide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-inclusion-numerique/0.1.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux d’inclusion numérique
     versions:
     - 0.1.1
+    - 0.1.2
   title: Lieux d’inclusion numérique
   type: tableschema
   versions:
   - 0.1.1
+  - 0.1.2
 etalab/schema-irve:
+  badges:
+  - Socle Commun des Données Locales
+  - transport.data.gouv.fr
   consolidation:
     dataset_id: 5448d3e0c751df01f85d0572
     tags:
@@ -301,12 +450,12 @@ etalab/schema-irve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
-  latest_version: 2.0.0
+  latest_version: 2.0.2
   schemas:
   - examples:
-    - path: https://github.com/etalab/schema-irve/raw/v2.0.0/exemple-valide.csv
+    - path: https://github.com/etalab/schema-irve/raw/v2.0.2/exemple-valide.csv
       title: Exemple de fichier IRVE valide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Infrastructures de recharge pour véhicules électriques
@@ -316,6 +465,8 @@ etalab/schema-irve:
     - 1.0.2
     - 1.0.3
     - 2.0.0
+    - 2.0.1
+    - 2.0.2
   title: Infrastructures de recharge pour véhicules électriques
   type: tableschema
   versions:
@@ -324,7 +475,11 @@ etalab/schema-irve:
   - 1.0.2
   - 1.0.3
   - 2.0.0
+  - 2.0.1
+  - 2.0.2
 etalab/schema-lieux-covoiturage:
+  badges:
+  - transport.data.gouv.fr
   consolidation:
     dataset_id: 5d6eaffc8b4c417cdc452ac3
     tags:
@@ -364,7 +519,34 @@ etalab/schema-lieux-covoiturage:
   - 0.1.2
   - 0.2.0
   - 0.2.1
+etalab/schema-passage-a-niveau:
+  badges:
+  - transport.data.gouv.fr
+  consolidation: null
+  description: Spécification du fichier décrivant les emplacements de passages à niveau.
+  email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-passage-a-niveau
+  latest_version: 0.1.0
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/etalab/schema-passage-a-niveau/raw/v0.1.0/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-passage-a-niveau/0.1.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Schéma pour les passages à niveau
+    versions:
+    - 0.1.0
+  title: Schéma pour les passages à niveau
+  type: tableschema
+  versions:
+  - 0.1.0
 etalab/schema-sdirve:
+  badges: null
   consolidation: null
   description: Spécification du fichier d'échange relatif aux schéma directeur des
     infrastructures de recharge pour véhicules électriques et hybrides rechargeables.
@@ -392,6 +574,8 @@ etalab/schema-sdirve:
   versions:
   - 0.1.0
 etalab/schema-stationnement:
+  badges:
+  - transport.data.gouv.fr
   consolidation:
     dataset_id: 5ea1add4a5a7dac3af82310a
     tags:
@@ -433,6 +617,8 @@ etalab/schema-stationnement:
   - 0.1.3
   - 0.1.4
 etalab/schema-stationnement-cyclable:
+  badges:
+  - transport.data.gouv.fr
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de stationnement
     cycable.
@@ -441,7 +627,7 @@ etalab/schema-stationnement-cyclable:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement-cyclable
-  latest_version: 1.0.0
+  latest_version: 1.1.0
   schemas:
   - examples:
     - name: exemple-valide-csv
@@ -450,7 +636,7 @@ etalab/schema-stationnement-cyclable:
     - name: exemple-invalide
       path: https://github.com/etalab/schema-stationnement-cyclable/blob/master/exemple-invalide.csv
       title: Ressource invalide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.0.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.1.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Stationnement cyclable
@@ -459,6 +645,7 @@ etalab/schema-stationnement-cyclable:
     - 0.2.0
     - 0.2.1
     - 1.0.0
+    - 1.1.0
   title: Stationnement cyclable
   type: tableschema
   versions:
@@ -466,7 +653,39 @@ etalab/schema-stationnement-cyclable:
   - 0.2.0
   - 0.2.1
   - 1.0.0
+  - 1.1.0
+etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
+  badges: null
+  consolidation: null
+  description: Spécification des données fixant les termes et modalités de publication
+    du pourcentage de véhicules à faibles et à très faibles émissions parmi les véhicules
+    intégrés dans un renouvellement de parc
+  email: schema@data.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-flotte-publique-vehicule
+  latest_version: 0.1.1
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.1/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc/0.1.1/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Part des véhicules à faibles émissions dans le renouvellement d'un parc
+    versions:
+    - 0.1.0
+    - 0.1.1
+  title: Part des véhicules à faibles émissions dans le renouvellement d'un parc
+  type: tableschema
+  versions:
+  - 0.1.0
+  - 0.1.1
 etalab/schema-zfe:
+  badges:
+  - transport.data.gouv.fr
   consolidation: null
   description: Spécification du schéma de données des Zones à Faibles Emissions
   email: contact@transport.beta.gouv.fr
@@ -474,19 +693,47 @@ etalab/schema-zfe:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-zfe
-  latest_version: 0.6.1
+  latest_version: 0.7.1
   schemas:
-  - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.6.1/schema.json
+  - examples: []
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.7.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Zone à Faibles Emissions
     versions:
     - 0.6.1
+    - 0.7.0
+    - 0.7.1
   title: Zone à Faibles Emissions
   type: jsonschema
   versions:
   - 0.6.1
+  - 0.7.0
+  - 0.7.1
+macaron-ai/onstreet-parking-schema:
+  badges:
+  - transport.data.gouv.fr
+  consolidation: null
+  description: Spécification du schéma de données d'emprises de stationnement
+  email: contact@transport.beta.gouv.fr
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/macaron-ai/onstreet-parking-schema/
+  latest_version: 1.0.0
+  schemas:
+  - latest_url: https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json
+    original_path: onstreet-parking.schema.json
+    path: onstreet-parking.schema.json
+    title: Emprise de stationnement sur la voirie
+    versions:
+    - 1.0.0
+  title: Emprise de stationnement sur la voirie
+  type: jsonschema
+  versions:
+  - 1.0.0
 metis-reseaux/infos-travaux:
+  badges: null
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
   email: contact@gotmi.io
@@ -506,7 +753,38 @@ metis-reseaux/infos-travaux:
   type: jsonschema
   versions:
   - 0.0.2
+openmaraude/schema-stationstaxi:
+  badges: null
+  consolidation: null
+  description: Spécification des stations de taxi à usage public
+  email: tech@le.taxi
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/openmaraude/schema-stationstaxi
+  latest_version: 0.1.2
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.2/exemple-valide.csv
+      title: Fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/openmaraude/schema-stationstaxi/0.1.2/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Stations de taxi
+    versions:
+    - 0.1.0
+    - 0.1.1
+    - 0.1.2
+  title: Stations de taxi
+  type: tableschema
+  versions:
+  - 0.1.0
+  - 0.1.1
+  - 0.1.2
 scdl/budget:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Les données essentielles du budget permettent de décrire le contenu
     des étapes budgétaires des collectivités locales et des établissements publics.
@@ -535,6 +813,8 @@ scdl/budget:
   versions:
   - 0.8.1
 scdl/catalogue:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Spécification du modèle de données relatif au catalogue des jeux de
     données publiés en open data par une collectivité
@@ -559,6 +839,8 @@ scdl/catalogue:
   - 0.1.1
   - 0.1.2
 scdl/deliberations:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Spécification du modèle de données relatif aux délibérations adoptées
     par une collectivité locale
@@ -595,6 +877,8 @@ scdl/deliberations:
   - 2.1.2
   - 2.1.3
 scdl/equipements:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Spécification du modèle de données relatif aux équipements collectifs
     publics d'une collectivité
@@ -619,6 +903,8 @@ scdl/equipements:
   - 0.1.0
   - 0.1.1
 scdl/menus-collectifs:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Schéma permettant de décrire les menus des repas proposés par les collectivités
     locales, les établissements publics et privés. Il permet de préciser les modalités
@@ -664,6 +950,8 @@ scdl/menus-collectifs:
   - 1.2.0
   - 1.2.1
 scdl/plats-menus-collectifs:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Description des plats proposés par des collectivités locales, des établissements
     publics et des entreprises dans le cadre de l'offre de restauration collective.
@@ -701,6 +989,8 @@ scdl/plats-menus-collectifs:
   - 0.4.0
   - 0.7.0
 scdl/subventions:
+  badges:
+  - Socle Commun des Données Locales
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées
     par une collectivité

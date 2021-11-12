@@ -1,15 +1,6 @@
 {
     "construction": [
         {
-            "created_at": "2021-05-03T09:06:27Z",
-            "labels": [
-                "Sch\u00e9ma en construction"
-            ],
-            "nb_comments": 2,
-            "title": "Sch\u00e9ma Arr\u00eat\u00e9s Permanents de Circulation",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/157"
-        },
-        {
             "created_at": "2020-11-02T10:57:55Z",
             "labels": [
                 "Sch\u00e9ma en construction"
@@ -30,13 +21,40 @@
     ],
     "investigation": [
         {
-            "created_at": "2021-03-16T15:22:34Z",
+            "created_at": "2021-10-31T10:23:21Z",
             "labels": [
                 "Sch\u00e9ma en investigation"
             ],
-            "nb_comments": 11,
-            "title": "Sch\u00e9ma Itin\u00e9raires de randonn\u00e9es",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/150"
+            "nb_comments": 0,
+            "title": "Effectifs scolaires",
+            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/205"
+        },
+        {
+            "created_at": "2021-10-27T13:54:40Z",
+            "labels": [
+                "Sch\u00e9ma en investigation"
+            ],
+            "nb_comments": 0,
+            "title": " sp\u00e9cifications techniques encadrant l\u2019ouverture des donn\u00e9es du domaine \u00ab routier \u00bb pour les collectivit\u00e9s",
+            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/204"
+        },
+        {
+            "created_at": "2021-09-21T07:31:30Z",
+            "labels": [
+                "Sch\u00e9ma en investigation"
+            ],
+            "nb_comments": 5,
+            "title": "Sch\u00e9ma de partage des stationnements PMR en voirie",
+            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/190"
+        },
+        {
+            "created_at": "2021-07-16T13:37:40Z",
+            "labels": [
+                "Sch\u00e9ma en investigation"
+            ],
+            "nb_comments": 15,
+            "title": "Sch\u00e9ma de description des tiers-lieu",
+            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/179"
         },
         {
             "created_at": "2020-01-14T13:43:09Z",
@@ -58,100 +76,55 @@
         }
     ],
     "references": {
-        "139bercy/format-commande-publique": {
-            "dgv_resources": 4,
-            "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
-        },
-        "Archivistes75/registre_entrees": {
-            "dgv_resources": 0,
-            "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
-        },
-        "MTES-MCT/acceslibre-schema": {
-            "dgv_resources": 2,
-            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
-        },
         "NaturalSolutions/schema-arbre": {
-            "dgv_resources": 2,
-            "title": "Sch\u00e9ma des attributs des arbres urbains",
+            "dgv_resources": 3,
+            "title": "Arbres urbains",
+            "contributors": 4
+        },
+        "openmaraude/schema-stationstaxi": {
+            "dgv_resources": 3,
+            "title": "Stations de taxi",
+            "contributors": 1
+        },
+        "datakode/schema-pei": {
+            "dgv_resources": 1,
+            "title": "Point d'Eau Incendie (PEI)",
             "contributors": 2
         },
         "arsante/schema-dae": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "DAE",
             "contributors": 8
         },
-        "datatourisme/ontology": {
+        "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
-            "title": "DATAtourisme",
-            "contributors": 9
-        },
-        "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 4,
-            "title": "Sch\u00e9ma d'am\u00e9nagements cyclables",
+            "title": "Emprise de stationnement sur la voirie",
             "contributors": 2
         },
-        "etalab/schema-bal": {
-            "dgv_resources": 22,
-            "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+        "139bercy/format-commande-publique": {
+            "dgv_resources": 6,
+            "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
+            "contributors": 5
         },
-        "etalab/schema-decp-dpa": {
-            "dgv_resources": 3,
-            "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 2
+        "scdl/equipements": {
+            "dgv_resources": 9,
+            "title": "\u00c9quipements",
+            "contributors": 6
         },
-        "etalab/schema-hautes-remunerations": {
-            "dgv_resources": 2,
-            "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
-            "contributors": 2
+        "scdl/subventions": {
+            "dgv_resources": 10,
+            "title": "Subventions",
+            "contributors": 7
         },
-        "etalab/schema-inclusion-numerique": {
-            "dgv_resources": 1,
-            "title": "Lieux d\u2019inclusion num\u00e9rique",
-            "contributors": 2
-        },
-        "etalab/schema-irve": {
-            "dgv_resources": 217,
-            "title": "Infrastructures de recharge pour v\u00e9hicules \u00e9lectriques",
-            "contributors": 2
-        },
-        "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 3,
-            "title": "Lieux de covoiturage",
-            "contributors": 2
-        },
-        "etalab/schema-sdirve": {
-            "dgv_resources": 2,
-            "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 2
-        },
-        "etalab/schema-stationnement": {
-            "dgv_resources": 2,
-            "title": "Lieux de stationnement",
-            "contributors": 2
-        },
-        "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 1,
-            "title": "Stationnement cyclable",
-            "contributors": 2
-        },
-        "etalab/schema-zfe": {
+        "scdl/plats-menus-collectifs": {
             "dgv_resources": 0,
-            "title": "Zone \u00e0 Faibles Emissions",
+            "title": "Composition des plats des menus de la restauration collective",
             "contributors": 2
         },
-        "metis-reseaux/infos-travaux": {
-            "dgv_resources": 1,
-            "title": "Informations travaux",
+        "scdl/menus-collectifs": {
+            "dgv_resources": 2,
+            "title": "Menus de la restauration collective",
             "contributors": 2
-        },
-        "scdl/budget": {
-            "dgv_resources": 14,
-            "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
-            "contributors": 4
         },
         "scdl/catalogue": {
             "dgv_resources": 3,
@@ -159,30 +132,110 @@
             "contributors": 6
         },
         "scdl/deliberations": {
-            "dgv_resources": 5,
+            "dgv_resources": 6,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 7
         },
-        "scdl/equipements": {
+        "scdl/budget": {
+            "dgv_resources": 13,
+            "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
+            "contributors": 4
+        },
+        "MTES-MCT/acceslibre-schema": {
+            "dgv_resources": 2,
+            "title": "Accessibilit\u00e9 des ERP",
+            "contributors": 3
+        },
+        "etalab/schema-bal": {
+            "dgv_resources": 35,
+            "title": "Base Adresse Locale (BAL)",
+            "contributors": 3
+        },
+        "etalab/schema-inclusion-numerique": {
+            "dgv_resources": 1,
+            "title": "Lieux d\u2019inclusion num\u00e9rique",
+            "contributors": 3
+        },
+        "etalab/schema-stationnement": {
+            "dgv_resources": 5,
+            "title": "Lieux de stationnement",
+            "contributors": 2
+        },
+        "etalab/schema-passage-a-niveau": {
+            "dgv_resources": 0,
+            "title": "Sch\u00e9ma pour les passages \u00e0 niveau",
+            "contributors": 2
+        },
+        "etalab/schema-zfe": {
+            "dgv_resources": 1,
+            "title": "Zone \u00e0 Faibles Emissions",
+            "contributors": 3
+        },
+        "etalab/schema-lieux-covoiturage": {
+            "dgv_resources": 9,
+            "title": "Lieux de covoiturage",
+            "contributors": 4
+        },
+        "etalab/schema-hautes-remunerations": {
+            "dgv_resources": 3,
+            "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
+            "contributors": 2
+        },
+        "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
+            "dgv_resources": 9,
+            "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
+            "contributors": 1
+        },
+        "etalab/schema-sdirve": {
+            "dgv_resources": 1,
+            "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
+            "contributors": 1
+        },
+        "etalab/schema-stationnement-cyclable": {
+            "dgv_resources": 2,
+            "title": "Stationnement cyclable",
+            "contributors": 4
+        },
+        "etalab/schema-decp-dpa": {
+            "dgv_resources": 3,
+            "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
+            "contributors": 1
+        },
+        "etalab/schema-irve": {
+            "dgv_resources": 278,
+            "title": "Infrastructures de recharge pour v\u00e9hicules \u00e9lectriques",
+            "contributors": 4
+        },
+        "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 8,
-            "title": "\u00c9quipements",
+            "title": "Am\u00e9nagements cyclables",
             "contributors": 6
         },
-        "scdl/menus-collectifs": {
-            "dgv_resources": 0,
-            "title": "Menus de la restauration collective",
+        "metis-reseaux/infos-travaux": {
+            "dgv_resources": 1,
+            "title": "Informations travaux",
             "contributors": 2
         },
-        "scdl/plats-menus-collectifs": {
-            "dgv_resources": 0,
-            "title": "Composition des plats des menus de la restauration collective",
-            "contributors": 2
+        "datatourisme/ontology": {
+            "dgv_resources": 2,
+            "title": "DATAtourisme",
+            "contributors": 9
         },
-        "scdl/subventions": {
-            "dgv_resources": 8,
-            "title": "Subventions",
-            "contributors": 7
+        "PnX-SI/schema_randonnee": {
+            "dgv_resources": 3,
+            "title": "Itin\u00e9raires de randonn\u00e9e",
+            "contributors": 4
+        },
+        "CEREMA/schema-arrete-circulation-marchandises": {
+            "dgv_resources": 0,
+            "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
+            "contributors": 4
+        },
+        "Archivistes75/registre_entrees": {
+            "dgv_resources": 0,
+            "title": "Registre d'entr\u00e9e d'archives",
+            "contributors": 6
         }
     },
-    "nb_issues": 2
+    "nb_issues": 22
 }
