@@ -1,6 +1,6 @@
 139bercy/format-commande-publique:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Données des attributions de marchés publics et de contrats de concessions
     supérieures à 40 000 euros.
@@ -302,7 +302,7 @@ datatourisme/ontology:
   - 2.4.8
 etalab/schema-amenagements-cyclables:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation: null
   description: Spécification du schéma de données d'aménagements cyclables
   email: contact@transport.beta.gouv.fr
@@ -341,7 +341,7 @@ etalab/schema-amenagements-cyclables:
   - 0.3.3
 etalab/schema-bal:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Fichier contenant toutes les adresses d'un territoire donné
   email: adresse@data.gouv.fr
@@ -363,7 +363,7 @@ etalab/schema-bal:
   - 1.1.0
 etalab/schema-decp-dpa:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: schema@data.gouv.fr
@@ -436,8 +436,8 @@ etalab/schema-inclusion-numerique:
   - 0.1.2
 etalab/schema-irve:
   badges:
-  - Socle Commun des Données Locales
-  - transport.data.gouv.fr
+  - Collectivités territoriales
+  - Transport
   consolidation:
     dataset_id: 5448d3e0c751df01f85d0572
     tags:
@@ -479,7 +479,7 @@ etalab/schema-irve:
   - 2.0.2
 etalab/schema-lieux-covoiturage:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation:
     dataset_id: 5d6eaffc8b4c417cdc452ac3
     tags:
@@ -521,7 +521,7 @@ etalab/schema-lieux-covoiturage:
   - 0.2.1
 etalab/schema-passage-a-niveau:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de passages à niveau.
   email: contact@transport.beta.gouv.fr
@@ -575,7 +575,7 @@ etalab/schema-sdirve:
   - 0.1.0
 etalab/schema-stationnement:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation:
     dataset_id: 5ea1add4a5a7dac3af82310a
     tags:
@@ -618,7 +618,7 @@ etalab/schema-stationnement:
   - 0.1.4
 etalab/schema-stationnement-cyclable:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de stationnement
     cycable.
@@ -685,7 +685,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   - 0.1.1
 etalab/schema-zfe:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation: null
   description: Spécification du schéma de données des Zones à Faibles Emissions
   email: contact@transport.beta.gouv.fr
@@ -712,7 +712,7 @@ etalab/schema-zfe:
   - 0.7.1
 macaron-ai/onstreet-parking-schema:
   badges:
-  - transport.data.gouv.fr
+  - Transport
   consolidation: null
   description: Spécification du schéma de données d'emprises de stationnement
   email: contact@transport.beta.gouv.fr
@@ -784,7 +784,7 @@ openmaraude/schema-stationstaxi:
   - 0.1.2
 scdl/budget:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Les données essentielles du budget permettent de décrire le contenu
     des étapes budgétaires des collectivités locales et des établissements publics.
@@ -814,7 +814,7 @@ scdl/budget:
   - 0.8.1
 scdl/catalogue:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif au catalogue des jeux de
     données publiés en open data par une collectivité
@@ -840,7 +840,7 @@ scdl/catalogue:
   - 0.1.2
 scdl/deliberations:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif aux délibérations adoptées
     par une collectivité locale
@@ -878,7 +878,7 @@ scdl/deliberations:
   - 2.1.3
 scdl/equipements:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif aux équipements collectifs
     publics d'une collectivité
@@ -904,7 +904,7 @@ scdl/equipements:
   - 0.1.1
 scdl/menus-collectifs:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Schéma permettant de décrire les menus des repas proposés par les collectivités
     locales, les établissements publics et privés. Il permet de préciser les modalités
@@ -951,7 +951,7 @@ scdl/menus-collectifs:
   - 1.2.1
 scdl/plats-menus-collectifs:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Description des plats proposés par des collectivités locales, des établissements
     publics et des entreprises dans le cadre de l'offre de restauration collective.
@@ -990,7 +990,7 @@ scdl/plats-menus-collectifs:
   - 0.7.0
 scdl/subventions:
   badges:
-  - Socle Commun des Données Locales
+  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées
     par une collectivité

@@ -18,7 +18,7 @@
     </div>
     <br />
     <div class="badges">
-      <div class="titleFilter">Filtrer par catalogue :</div>
+      <div @mouseleave="hoverBadge = false" @mouseover="hoverBadge= true" class="titleFilter">Filtrer par badge :</div>
       <div v-for="item in listBadges" v-bind:key="item" @click='selectBadge(item)'>
         <span v-if='item === badgeSelected'>
           <div class="badgeSelected">{{ item }}</div>
@@ -28,9 +28,12 @@
         </span>
       </div>
     </div>
+    <div v-if="hoverBadge" class='onTitleHover'>
+      Sélectionner un badge pour filtrer les schémas disponibles selon une thématique spécifique
+    </div>
     <br />
     <div class="badges">
-      <div class="titleFilter">Filtrer par statut :</div>
+      <div @mouseleave="hoverStatut = false" @mouseover="hoverStatut= true" class="titleFilter">Filtrer par statut :</div>
       <div v-for="item in listStatus" v-bind:key="item" @click='selectStatus(item)'>
         <span v-if='item === statusSelected'>
           <div class="badgeSelected">{{ item }}</div>
@@ -39,6 +42,15 @@
           <div class="badgeNotSelected">{{ item }}</div>
         </span>
       </div>
+    </div>
+    <div v-if="hoverStatut" class='onTitleHoverStatut'>
+      Sélectionner un statut pour filtrer les schémas disponibles selon leur état :
+      <ul>
+        <li>Publié et utilisé : Le schéma est publié et au moins 3 jeux de données associés à ce schéma sont publiés sur data.gouv.fr.</li>
+        <li>Publié : Le schéma est publié mais encore peu utilisé.</li>
+        <li>En construction : Le schéma est en cours d'élaboration.</li>
+        <li>En investigation : Une idée de schéma a été soumise à la communauté.</li>
+      </ul>
     </div>
     <br />
     <div class="boxes">
@@ -86,7 +98,9 @@ export default {
       listBadges: ['Tous'],
       badgeSelected: 'Tous',
       statusSelected: 'Tous',
-      listStatus: ['Tous', 'Publié et Utilisé', 'Publié', 'En construction', 'En investigation']
+      listStatus: ['Tous', 'Publié et Utilisé', 'Publié', 'En construction', 'En investigation'],
+      hoverBadge: false,
+      hoverStatut: false,
     };
   },
   mounted() {
@@ -433,6 +447,13 @@ export default {
   margin-right: 15px;
   padding: 7px;
   font-size: 13px;
+  background-color: #F2F2F9;
+  border-radius: 15px;
+  color: #000091;
+}
+
+.titleFilter{
+  cursor: help;
 }
 
 .badgeSelected{
@@ -455,6 +476,31 @@ export default {
 .badgeNotSelected:hover{
   background-color: #CCCCFF;
   cursor: pointer;
+}
+
+.onTitleHover{
+  margin-top: 5px;
+  width: 250px;
+  background-color: #444444;
+  position: absolute;
+  color: white;
+  cursor: help;
+  font-size: 11px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.onTitleHoverStatut{
+  margin-top: 5px;
+  width: 450px;
+  background-color: #444444;
+  position: absolute;
+
+  color: white;
+  cursor: help;
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 </style>
