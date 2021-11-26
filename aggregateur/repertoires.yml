@@ -48,9 +48,9 @@ dae:
   type: tableschema
   email: contact@geodae.sante.gouv.fr
 prenoms:
-  url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
+  url: https://git.opendatafrance.net/scdl/prenoms.git
   type: tableschema
-  email: charles.nepote@fing.org
+  email: scdl@opendatafrance.email
 arbres_urbains:
   url: https://github.com/NaturalSolutions/schema-arbre.git
   type: tableschema
