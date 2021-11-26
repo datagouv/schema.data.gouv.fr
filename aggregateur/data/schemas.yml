@@ -939,6 +939,32 @@ scdl/plats-menus-collectifs:
   - 0.3.0
   - 0.4.0
   - 0.7.0
+scdl/prenoms:
+  consolidation: null
+  description: Spécification du modèle de données relatif aux prénoms des nouveaux-nés
+    déclarés à l’état-civil
+  email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/prenoms
+  latest_version: 1.1.5
+  schemas:
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/prenoms/raw/v1.1.5/examples/prenoms-nouveaux-nes_exemple-valide.csv
+      title: Exemple de fichier des prénoms valide
+    - path: https://git.opendatafrance.net/scdl/prenoms/raw/v1.1.5/examples/prenoms-nouveaux-nes_exemple-invalide.csv
+      title: Exemple de fichier des prénoms invalide
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/prenoms/1.1.5/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Prénoms des nouveaux-nés
+    versions:
+    - 1.1.5
+  title: Prénoms des nouveaux-nés
+  type: tableschema
+  versions:
+  - 1.1.5
 scdl/subventions:
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées
