@@ -2,7 +2,7 @@ construction:
 - created_at: '2021-11-25T17:08:27Z'
   labels:
   - Schéma en construction
-  nb_comments: 1
+  nb_comments: 2
   title: 'Elaboration de schémas de comptage des mobilités '
   url: https://github.com/etalab/schema.data.gouv.fr/issues/208
 - created_at: '2020-11-02T10:57:55Z'
