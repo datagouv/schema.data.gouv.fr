@@ -1,0 +1,252 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "schema-comptage-mobilites-channel",
+   "title": "Comptage des mobilités (Channel)",
+   "description": "Spécification du fichier d'échange relatif aux comptages des mobilités.",
+   "keywords": [
+      "comptage",
+      "mobilité"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema-comptage-mobilites-channel",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-channel/v0.1.0/exemple-valide.csv"
+      },
+      {
+         "title": "Deuxième fichier valide (CSV)",
+         "name": "exemple-valide-eco-compteur.csv",
+         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-channel/v0.1.0/exemple-valide-eco-compteur.csv"
+      }
+   ],
+   "created": "2021-05-06",
+   "lastModified": "2021-11-25",
+   "version": "0.1.0",
+   "contributors": [
+      {
+         "title": "Miryad Ali",
+         "email": "miryad.ali@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Thibaut Barrère",
+         "email": "thibaut.barrere@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Stéphanie Mangin",
+         "email": "stephanie.mangin@velo-territoires.org",
+         "organisation": "Vélo & Territoires",
+         "role": "contributor"
+      },
+      {
+         "title": "Vincent Dieulesaint",
+         "email": "vincent.dieulesaint@eco-counter.com ",
+         "organisation": "Eco-compteur",
+         "role": "contributor"
+      },
+      {
+         "title": "Emmanuel Roche",
+         "email": "emmanuel.roche@grandchambery.fr",
+         "organisation": "Grand Chambéry",
+         "role": "contributor"
+      }
+   ],
+   "fields": [
+      {
+         "name": "channel_id",
+         "description": "Identifiant unique du channel dans le référentiel de la collectivité. Cette valeur doit être utilisée dans le champ `channel_id` du fichier `measure` pour faire le lien. Cette valeur doit être unique dans l'ensemble des fichiers.",
+         "example": "C-C-01-Baix",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "channel_provider_id",
+         "description": "identifiant unique du channel dans le référentiel du fournisseur technique. Cette information est utile à des fins de diagnostics/synchronisation de données.",
+         "example": "EC-01-Baix",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "site_provider_id",
+         "description": "Identifiant channel dans le réferentiel fournisseur. Cette information ne peut être portée par le site lui même car ça peut être un format multi-fournisseurs.",
+         "example": "MC-Baix",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "site_id",
+         "description": "Identifiant unique du site (dans le référentiel de la collectivité) où est installé le compteur dans les bases de données de la collectivité territoriale productrice de données. Cette valeur doit faire référence au champ `site_id` du fichier `site` pour faire le lien.",
+         "example": "C01-Baix",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "mobility_type",
+         "description": "Types de pratiques enregistrés par le compteur sur l'infrastructure. Choix multiple possible avec chaque valeur séparée par une virgule (mais dans ce cas il est impératif d'entourer la totalité de la cellule par des guillemets).",
+         "example": "E-SCOOTER,PEDESTRIAN",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "(?:(?:^|,)(BIKE|TWO WHEELS MOTORIZED|PEDESTRIAN|E\\-SCOOTER|HORSE\\-RIDER|CAR|BUS|MINIBUS|TRUCK|VAN|TRAMWAY|CANOE|UNDEFINED))+$"
+         }
+      },
+      {
+         "name": "comment",
+         "description": "Description textuelle de l'usage du channel. Par exemple, peut être utilisé pour indiquer une campagne de relevé temporaire. 50 caractères autorisés.",
+         "example": "Campagne temporaire aout-septembre 2020",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "counter_transmission_type",
+         "description": "Méthode utilisée pour récupérer les données depuis le compteur.",
+         "example": "MANUAL",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "REMOTE TRANSMISSION",
+               "MANUAL"
+            ]
+         }
+      },
+      {
+         "name": "publication_transmission_type",
+         "description": "Méthode utilisée pour transmettre les données vers le portail opendata.",
+         "example": "API",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "API",
+               "MANUAL"
+            ]
+         }
+      },
+      {
+         "name": "counter_type",
+         "description": "Type de compteur. Choix multiple possible avec chaque valeur séparée par une virgule (mais dans ce cas il est impératif d'entourer la totalité de la cellule par des guillemets). En cas de multiples valeurs, les comptages sont considérés comme étant aggrégées, sans différenciation. Si on souhaite différencier les pratiques, il faut créer plusieurs channels.",
+         "example": "VIDEO SENSOR",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "(?:(?:^|,)(INDUCTIVE LOOP|ELECTROMAGNETIC SENSOR|PASSIVE INFRARED|ACTIVE INFRARED|PIEZOELECTRIC SENSOR|RADAR SENSOR|VIDEO SENSOR|PNEUMATIC TUBE SENSOR|SLAB SENSOR|LIGHT BEAM SENSOR|MANUAL|ACOUSTIC|LIDAR|OPTICAL FIBER SENSOR|MAGNETOMETER|OTHER))+$"
+         }
+      },
+      {
+         "name": "direction",
+         "description": "Direction vers laquelle se dirigent les usagers comptés dans le sens 1. Si besoin de modéliser 2 directions, créez deux channels.",
+         "example": "SW",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "N",
+               "NW",
+               "NE",
+               "W",
+               "SW",
+               "S",
+               "SE",
+               "E"
+            ]
+         }
+      },
+      {
+         "name": "provider_direction_code",
+         "description": "Codification interne aux fournisseurs qui permet d'identifier le sens comme les notions d `IN/OUT`.",
+         "example": "IN",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "provider_direction_name",
+         "description": "Description de la direction qui peut aider un réutilisateur à comprendre le `provider_direction_code` notamment lorsque le fournisseur ne peut pas, pour l'instant, fournir de champ `direction`.",
+         "example": "De Gare du Nord vers Gare de l'Est",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "data_provider_name",
+         "description": "Entité ayant fourni les données.",
+         "example": "ADAV",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "temporality",
+         "description": "Périodicité du comptage. Le compteur compte-t-il temporairement ou de manière permanente sur un même site ?",
+         "example": "PERMANENT",
+         "type": "string",
+         "required": true,
+         "enum": [
+            "TEMPORARY",
+            "PERMANENT"
+         ]
+      },
+      {
+         "name": "started_at",
+         "description": "Date et heure de début de comptage. Utile par exemple pour déclarer un début d'usage de compteur temporaire. Notation ISO 8601, format 1977-04-22T06:00:00Z. Ne doit pas être modifié dans le temps. Si besoin, recréez un nouveau channel).",
+         "example": "2020-06-22T10:00:00Z",
+         "type": "datetime",
+         "required": true
+      },
+      {
+         "name": "ended_at",
+         "description": "Date et heure de fin de comptage. Utile par exemple pour déclarer la fin de l'usage d'un compteur. Notation ISO 8601, format 1977-04-22T06:00:00Z. Si ce champ est rempli, un nouveau channel doit être créé.",
+         "example": "2021-06-22T10:00:00Z",
+         "type": "datetime",
+         "required": false
+      },
+      {
+         "name": "last_updated_at",
+         "description": "Date de dernière mise à jour des données, Notation ISO 8601, format 1977-04-22T06:00:00Z.",
+         "example": "2021-06-22T10:00:00Z",
+         "type": "datetime",
+         "required": false
+      },
+      {
+         "name": "time_step",
+         "description": "Le pas de temps des données fournies, en secondes. Doit être utilisé pour extrapoler la date de fin du comptage si elle est absente. Conditionnellement obligatoire. Obligatoire lorsque le champ `end_datetime` n'est complété",
+         "example": "900",
+         "type": "number",
+         "required": false
+      },
+      {
+         "name": "provider_portal_url",
+         "description": "Page web publique des données.",
+         "example": "http://www.eco-public.com/public2/?id=100057894",
+         "type": "string",
+         "required": false
+      }
+   ],
+   "primaryKey": "channel_id"
+}

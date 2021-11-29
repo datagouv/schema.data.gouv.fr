@@ -1,0 +1,167 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "schema-comptage-mobilites-site",
+   "title": "Comptage des mobilités (Site)",
+   "description": "Spécification du fichier d'échange relatif aux comptages des mobilités.",
+   "keywords": [
+      "comptage",
+      "mobilité"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema-comptage-mobilites-site",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-site/v0.1.0/exemple-valide.csv"
+      },
+      {
+         "title": "Deuxième fichier valide (CSV)",
+         "name": "exemple-valide-eco-compteur.csv",
+         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-site/v0.1.0/exemple-valide-eco-compteur.csv"
+      }
+   ],
+   "created": "2021-05-06",
+   "lastModified": "2021-11-25",
+   "version": "0.1.0",
+   "contributors": [
+      {
+         "title": "Miryad Ali",
+         "email": "miryad.ali@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Thibaut Barrère",
+         "email": "thibaut.barrere@beta.gouv.fr",
+         "organisation": "transport.data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Stéphanie Mangin",
+         "email": "stephanie.mangin@velo-territoires.org",
+         "organisation": "Vélo & Territoires",
+         "role": "contributor"
+      },
+      {
+         "title": "Vincent Dieulesaint",
+         "email": "vincent.dieulesaint@eco-counter.com ",
+         "organisation": "Eco-compteur",
+         "role": "contributor"
+      },
+      {
+         "title": "Emmanuel Roche",
+         "email": "emmanuel.roche@grandchambery.fr",
+         "organisation": "Grand Chambéry",
+         "role": "contributor"
+      }
+   ],
+   "fields": [
+      {
+         "name": "site_id",
+         "description": "Identifiant unique du site (dans le référentiel de la collectivité) où est installé le compteur dans les bases de données de la collectivité territoriale productrice de données. Cette valeur doit être utilisée dans le champ `site_id`du fichier `channel` pour faire le lien. ",
+         "example": "C01-Baix",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "parent_site_id",
+         "description": "Identifiant optionnel du site parent pour regroupement géographique.",
+         "example": "C-Baix",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "fr_insee_code",
+         "description": "Code INSEE de la collectivité où se trouve le site de comptage",
+         "example": "07022",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
+         }
+      },
+      {
+         "name": "xlong",
+         "description": "La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.",
+         "example": "1.452323",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -180,
+            "maximum": 180
+         }
+      },
+      {
+         "name": "ylat",
+         "description": "La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.",
+         "example": "46.59698",
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": -90,
+            "maximum": 90
+         }
+      },
+      {
+         "name": "external_ids",
+         "description": "Identifiant(s) d'infrastructures de la collectivité dans une base de données publiée en opendata. Chaque identifiant est séparé par une virgule. Exemple : identifiants des aménagements cyclables dans la base nationale des aménagements cyclables.",
+         "example": "07022-CM-001",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "infrastructure_type",
+         "description": "Type d'infrastructure où se situe le site de comptage. Les valeurs sont énumérées en anglais et traduites en français.",
+         "example": "GREENWAY",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "enum": [
+               "CYCLE TRACK",
+               "CYCLE LANE",
+               "CONTRAFLOW TRACK",
+               "CONTRAFLOW LANE",
+               "CONTRAFLOW CYCLING NOT MATERIALIZED",
+               "GREENWAY",
+               "BIKE ROAD",
+               "SHARED BUSWAY",
+               "RAMP",
+               "GUTTER",
+               "MIXED PEDESTRIAN/BICYCLE DEVELOPMENT NOT INCLUDING THE GREENWAY",
+               "ROAD WITH BANALIZED CENTRAL TRACK",
+               "COATED SHOULDER OUTSIDE THE RBCT",
+               "OTHER SPECIFIC SITE",
+               "OTHER SHARED USE ROUTE",
+               "HIGHWAY",
+               "EUROPEAN ROAD",
+               "NATIONAL ROAD",
+               "DEPARTEMENTAL ROAD",
+               "METROPOLITAN ROAD",
+               "MUNICIPAL ROAD",
+               "FOOTPATH",
+               "DEAD END",
+               "FOREST ROADS",
+               "SIDE ROADS",
+               "TRUNK TRACK",
+               "PRIVATE ROAD",
+               "OTHER"
+            ]
+         }
+      }
+   ],
+   "primaryKey": "site_id"
+}
