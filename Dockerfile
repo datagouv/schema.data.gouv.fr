@@ -2,10 +2,7 @@ FROM python:3.9
 
 RUN apt-get update && apt-get -y upgrade
 
-COPY ./aggregateur /aggregateur
-COPY ./api /api
-COPY ./web /web
-COPY ./site /site
+COPY ./dist /dist
 
 EXPOSE 80
 RUN apt-get install -y nginx
