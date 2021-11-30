@@ -2,6 +2,16 @@ FROM python:3.9
 
 RUN apt-get update && apt-get -y upgrade
 
+RUN apt install -y curl
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+ENV NVM_DIR=/root/.nvm
+RUN . "$NVM_DIR/nvm.sh" && nvm install ${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm use v${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm alias default v${NODE_VERSION}
+ENV PATH="/root/.nvm/versions/node/v${NODE_VERSION}/bin/:${PATH}"
+RUN node --version
+RUN npm --version
+
 COPY ./aggregateur /aggregateur
 COPY ./api /api
 COPY ./web /web
@@ -15,13 +25,6 @@ RUN pip install -r requirements.txt
 
 WORKDIR /site
 RUN python prepareSite.py
-
-
-RUN apt-get install nodejs -y
-RUN apt-get install npm -y
-
-RUN node -v
-RUN npm -v
 
 RUN npm install npm@latest -g
 
