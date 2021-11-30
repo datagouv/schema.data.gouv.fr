@@ -8,7 +8,7 @@
   has_changelog: false
   homepage: https://github.com/139bercy/format-commande-publique
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 1.5.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
@@ -309,7 +309,7 @@ etalab/schema-amenagements-cyclables:
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 0.3.3
   schemas:
   - examples: []
@@ -348,7 +348,7 @@ etalab/schema-bal:
   has_changelog: false
   homepage: https://github.com/etalab/schema-bal
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 1.1.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.1.0/schema.yml
@@ -370,7 +370,7 @@ etalab/schema-decp-dpa:
   has_changelog: false
   homepage: https://github.com/etalab/schema-decp-dpa
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 1.0.0
   schemas:
   - examples: null
@@ -448,8 +448,8 @@ etalab/schema-irve:
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
   labels:
-  - Collectivités territoriales
-  - Transport
+  - Socle Commun des Données Locales
+  - transport.data.gouv.fr
   latest_version: 2.0.2
   schemas:
   - examples:
@@ -489,7 +489,7 @@ etalab/schema-lieux-covoiturage:
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 0.2.1
   schemas:
   - examples:
@@ -528,7 +528,7 @@ etalab/schema-passage-a-niveau:
   has_changelog: true
   homepage: https://github.com/etalab/schema-passage-a-niveau
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -585,7 +585,7 @@ etalab/schema-stationnement:
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 0.1.4
   schemas:
   - examples:
@@ -626,7 +626,7 @@ etalab/schema-stationnement-cyclable:
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement-cyclable
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 1.1.0
   schemas:
   - examples:
@@ -692,7 +692,7 @@ etalab/schema-zfe:
   has_changelog: true
   homepage: https://github.com/etalab/schema-zfe
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 0.7.1
   schemas:
   - examples: []
@@ -719,7 +719,7 @@ macaron-ai/onstreet-parking-schema:
   has_changelog: true
   homepage: https://github.com/macaron-ai/onstreet-parking-schema/
   labels:
-  - Transport
+  - transport.data.gouv.fr
   latest_version: 1.0.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json
@@ -796,7 +796,7 @@ scdl/budget:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/budget
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 0.8.1
   schemas:
   - examples:
@@ -822,7 +822,7 @@ scdl/catalogue:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/catalogue
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 0.1.2
   schemas:
   - examples: null
@@ -848,7 +848,7 @@ scdl/deliberations:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/deliberations
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 2.1.3
   schemas:
   - examples:
@@ -886,7 +886,7 @@ scdl/equipements:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/equipements
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 0.1.1
   schemas:
   - examples: null
@@ -915,7 +915,7 @@ scdl/menus-collectifs:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/menus-collectifs
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 1.2.1
   schemas:
   - examples:
@@ -964,7 +964,7 @@ scdl/plats-menus-collectifs:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/plats-menus-collectifs
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 0.7.0
   schemas:
   - examples:
@@ -998,7 +998,7 @@ scdl/subventions:
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/subventions
   labels:
-  - Collectivités territoriales
+  - Socle Commun des Données Locales
   latest_version: 2.0.1
   schemas:
   - examples:
