@@ -17,36 +17,36 @@
         </div>
     </div>
     <br />
-    <div class="badges">
-      <div @mouseleave="hoverBadge = false" @mouseover="hoverBadge= true" class="titleFilter">Filtrer par badge :</div>
-      <div v-for="item in listBadges" v-bind:key="item" @click='selectBadge(item)'>
-        <span v-if='item === badgeSelected'>
-          <div class="badgeSelected">{{ item }}</div>
+    <div class="labels">
+      <div @mouseleave="hoverLabel = false" @mouseover="hoverLabel= true" class="titleFilter">Filtrer par label :</div>
+      <div v-for="item in listLabels" v-bind:key="item" @click='selectLabel(item)'>
+        <span v-if='item === labelSelected'>
+          <div class="labelSelected">{{ item }}</div>
         </span>
-        <span v-if='item != badgeSelected'>
-          <div class="badgeNotSelected">{{ item }}</div>
+        <span v-if='item != labelSelected'>
+          <div class="labelNotSelected">{{ item }}</div>
         </span>
       </div>
     </div>
-    <div v-if="hoverBadge" class='onTitleHover'>
-      Sélectionner un badge pour filtrer les schémas disponibles selon une thématique spécifique
+    <div v-if="hoverLabel" class='onTitleHover'>
+      Sélectionner un label pour filtrer les schémas disponibles selon une thématique spécifique
     </div>
     <br />
-    <div class="badges">
+    <div class="labels">
       <div @mouseleave="hoverStatut = false" @mouseover="hoverStatut= true" class="titleFilter">Filtrer par statut :</div>
       <div v-for="item in listStatus" v-bind:key="item" @click='selectStatus(item)'>
         <span v-if='item === statusSelected'>
-          <div class="badgeSelected">{{ item }}</div>
+          <div class="labelSelected">{{ item }}</div>
         </span>
         <span v-if='item != statusSelected'>
-          <div class="badgeNotSelected">{{ item }}</div>
+          <div class="labelNotSelected">{{ item }}</div>
         </span>
       </div>
     </div>
     <div v-if="hoverStatut" class='onTitleHoverStatut'>
       Sélectionner un statut pour filtrer les schémas disponibles selon leur état :
       <ul>
-        <li>Publié et utilisé : Le schéma est publié et au moins 3 jeux de données associés à ce schéma sont publiés sur data.gouv.fr.</li>
+        <li>Adopté : Le schéma est publié et adopté car au moins 3 jeux de données associés à ce schéma sont publiés sur data.gouv.fr.</li>
         <li>Publié : Le schéma est publié mais encore peu utilisé.</li>
         <li>En construction : Le schéma est en cours d'élaboration.</li>
         <li>En investigation : Une idée de schéma a été soumise à la communauté.</li>
@@ -95,35 +95,29 @@ export default {
       stats: null,
       showButtons: false,
       schemasInfos: null,
-      listBadges: ['Tous'],
-      badgeSelected: 'Tous',
+      listLabels: ['Tous', 'Collectivités territoriales', 'Transport'],
+      labelSelected: 'Tous',
       statusSelected: 'Tous',
-      listStatus: ['Tous', 'Publié et Utilisé', 'Publié', 'En construction', 'En investigation'],
-      hoverBadge: false,
+      listStatus: ['Tous', 'Adopté', 'Publié', 'En construction', 'En investigation'],
+      hoverLabel: false,
       hoverStatut: false,
     };
   },
   mounted() {
+    
     var dataSchemas = require('../../public/schemas.json')
     var si = require('../../public/schema-infos.json')
     this.schemas = dataSchemas.schemas
     this.schemasInfos = si
     for(var key in si) {
-      if(si[key]['badges'] != null){
-        si[key]['badges'].forEach((b) => {
-          if(!this.listBadges.includes(b)){
-            this.listBadges.push(b);
-          }
-        });
+      if(si[key]['labels'] != null){
         this.schemas.forEach((s) => {
           if(s.name == key){
-            s.badges = si[key]['badges']
+            s.labels = si[key]['labels']
           }
         });
       }
     }
-
-
     let datafile = require('../../public/stats.json')
 
     this.schemas.forEach((s) => {
@@ -131,7 +125,7 @@ export default {
       for(var key in datafile.references) {
         if(key == s.name){
           if(datafile.references[key]['dgv_resources'] >= 3){
-            s.schemaStatus = 'Publié et Utilisé'
+            s.schemaStatus = 'Adopté'
           }
         }
       }
@@ -174,30 +168,61 @@ export default {
     });
     var statsSchemas = require('../../public/stats.json')
     this.stats = statsSchemas
+
+
+
+    if(this.$route.query.q){
+      this.searchText = this.$route.query.q;
+      this.filterSchema();
+    }
+
+    if(this.$route.query.label){
+      this.labelSelected = this.$route.query.label
+      this.selectLabel(this.labelSelected)
+    }
+
+    if(this.$route.query.statut){
+      this.statusSelected = this.$route.query.statut
+      this.selectStatus(this.statusSelected)
+    }
+    
+
   },
   methods: {
+    reshapeUrl(){
+      var newurl = window.location.origin + '/schemas.html?q=' +this.searchText
+
+      if(this.labelSelected != 'Tous'){
+        newurl = newurl + '&label=' + this.labelSelected
+      }
+      if(this.statusSelected != 'Tous'){
+        newurl = newurl + '&statut=' + this.statusSelected
+      }
+
+      window.history.pushState({path:newurl},'',newurl);
+    },
     selectStatus(item){
       this.statusSelected = item;
       let sts = []
       if(item != 'Tous'){
         console.log('ici')
         this.schemas.forEach((s) => {
-          if(this.badgeSelected == 'Tous'){
+          if(this.labelSelected == 'Tous'){
             if(s.schemaStatus == item){
               sts.push(s)
             }
           } else {
-            if(s.schemaStatus == item && s.badges && s.badges.includes(this.badgeSelected)){
+            if(s.schemaStatus == item && s.labels && s.labels.includes(this.labelSelected)){
               sts.push(s)
             }
           }
         });
       } else {
-        if(this.badgeSelected == 'Tous'){
+        if(this.labelSelected == 'Tous'){
           sts = this.schemas
         } else{
           this.schemas.forEach((s) => {
-            if(s.badges && s.badges.includes(this.badgeSelected)){
+            if(s.labels && s.labels.includes(this.labelSelected)){
               sts.push(s)
             }
           });
@@ -222,26 +247,25 @@ export default {
         this.filterSchema();
       }
 
+      this.reshapeUrl()
     },
-    selectBadge(item){
-      this.badgeSelected = item;
+    selectLabel(item){
+      this.labelSelected = item;
       let sts = []
       if(item != 'Tous'){
         this.schemas.forEach((s) => {
           if(this.statusSelected == 'Tous'){
-            if(s.badges && s.badges.includes(item)){
+            if(s.labels && s.labels.includes(item)){
               sts.push(s)
             }
           } else {
-            if(s.schemaStatus == this.statusSelected && s.badges && s.badges.includes(item)){
+            if(s.schemaStatus == this.statusSelected && s.labels && s.labels.includes(item)){
               sts.push(s)
             }
           }
         });
       } else {
-        console.log('toto')
         if(this.statusSelected == 'Tous'){
-          console.log('totdo')
           sts = this.schemas
         } else{
           console.log('nn')
@@ -270,6 +294,7 @@ export default {
         this.filterSchema();
       }
 
+      this.reshapeUrl()
     },
     truncateText(desc,length){
       if (desc.length > length) {
@@ -296,7 +321,7 @@ export default {
       if (this.searchText !== '') {
         const obj = [];
         this.schemas.forEach((schema) => {
-          if((this.statusSelected == 'Tous' || schema.schemaStatus == this.statusSelected) && (this.badgeSelected == 'Tous' || (schema.badges && schema.badges.includes(this.badgeSelected)))){
+          if((this.statusSelected == 'Tous' || schema.schemaStatus == this.statusSelected) && (this.labelSelected == 'Tous' || (schema.labels && schema.labels.includes(this.labelSelected)))){
             if (latinize(schema.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
               obj.push(schema);
             }
@@ -439,7 +464,7 @@ export default {
     }
 }
 
-.badges{
+.labels{
   display: flex;
 }
 
@@ -447,16 +472,16 @@ export default {
   margin-right: 15px;
   padding: 7px;
   font-size: 13px;
-  background-color: #F2F2F9;
   border-radius: 15px;
   color: #000091;
+  text-decoration: underline dotted;
 }
 
 .titleFilter{
   cursor: help;
 }
 
-.badgeSelected{
+.labelSelected{
   margin-right: 15px;
   padding: 7px;
   background-color: #000091;
@@ -464,7 +489,7 @@ export default {
   color: white;
   font-size: 13px;
 }
-.badgeNotSelected{
+.labelNotSelected{
   margin-right: 15px;
   padding: 7px;
   background-color: #ECEDFE;
@@ -473,7 +498,7 @@ export default {
   font-size: 13px;
 }
 
-.badgeNotSelected:hover{
+.labelNotSelected:hover{
   background-color: #CCCCFF;
   cursor: pointer;
 }

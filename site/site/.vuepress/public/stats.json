@@ -102,14 +102,14 @@
             "contributors": 2
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 6,
+            "dgv_resources": 15,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 5
         },
         "scdl/equipements": {
-            "dgv_resources": 9,
+            "dgv_resources": 11,
             "title": "\u00c9quipements",
-            "contributors": 6
+            "contributors": 7
         },
         "scdl/subventions": {
             "dgv_resources": 10,
@@ -132,12 +132,12 @@
             "contributors": 6
         },
         "scdl/deliberations": {
-            "dgv_resources": 6,
+            "dgv_resources": 8,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 7
         },
         "scdl/budget": {
-            "dgv_resources": 13,
+            "dgv_resources": 14,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 4
         },
@@ -147,7 +147,7 @@
             "contributors": 3
         },
         "etalab/schema-bal": {
-            "dgv_resources": 36,
+            "dgv_resources": 38,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 3
         },
@@ -157,7 +157,7 @@
             "contributors": 3
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 5,
+            "dgv_resources": 6,
             "title": "Lieux de stationnement",
             "contributors": 2
         },
@@ -187,12 +187,12 @@
             "contributors": 1
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Stationnement cyclable",
             "contributors": 4
         },
@@ -202,7 +202,7 @@
             "contributors": 1
         },
         "etalab/schema-irve": {
-            "dgv_resources": 279,
+            "dgv_resources": 280,
             "title": "Infrastructures de recharge pour v\u00e9hicules \u00e9lectriques",
             "contributors": 4
         },
@@ -237,5 +237,5 @@
             "contributors": 6
         }
     },
-    "nb_issues": 22
+    "nb_issues": 24
 }

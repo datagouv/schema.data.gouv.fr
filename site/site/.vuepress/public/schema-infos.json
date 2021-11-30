@@ -36,7 +36,7 @@
         "email": "contact@natural-solutions.eu",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "openmaraude/schema-stationstaxi": {
@@ -69,7 +69,7 @@
         "email": "tech@le.taxi",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "datakode/schema-pei": {
@@ -87,7 +87,7 @@
         "email": "portier@datakode.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "arsante/schema-dae": {
@@ -119,7 +119,7 @@
         "email": "contact@geodae.sante.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "macaron-ai/onstreet-parking-schema": {
@@ -137,7 +137,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "jsonschema"
@@ -168,7 +168,7 @@
         "email": "schema@data.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "jsonschema"
@@ -198,7 +198,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -235,7 +235,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -277,7 +277,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -354,7 +354,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -384,7 +384,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -446,7 +446,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -467,7 +467,7 @@
         "email": "scdl@opendatafrance.email",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -502,7 +502,7 @@
         "email": "acceslibre@beta.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "etalab/schema-bal": {
@@ -519,7 +519,7 @@
         "email": "adresse@data.gouv.fr",
         "external_tool": "https://mes-adresses.data.gouv.fr/new",
         "external_doc": "https://adresse.data.gouv.fr/bases-locales",
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "other"
@@ -547,7 +547,7 @@
         "email": "carto@aidantsconnect.beta.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "etalab/schema-stationnement": {
@@ -594,7 +594,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "tableschema"
@@ -615,7 +615,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "tableschema"
@@ -647,7 +647,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions",
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "jsonschema"
@@ -703,7 +703,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "tableschema"
@@ -724,7 +724,7 @@
         "email": "schema@data.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
@@ -750,7 +750,7 @@
         "email": "schema@data.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "etalab/schema-sdirve": {
@@ -769,7 +769,7 @@
         "email": "schema@data.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "etalab/schema-stationnement-cyclable": {
@@ -816,7 +816,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable",
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "tableschema"
@@ -836,7 +836,7 @@
         "email": "schema@data.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales"
         ],
         "type": "tableschema"
@@ -901,7 +901,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": null,
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
-        "badges": [
+        "labels": [
             "Collectivit\u00e9s territoriales",
             "Transport"
         ],
@@ -970,7 +970,7 @@
         "email": "contact@transport.beta.gouv.fr",
         "external_tool": "https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools",
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables",
-        "badges": [
+        "labels": [
             "Transport"
         ],
         "type": "jsonschema"
@@ -989,7 +989,7 @@
         "email": "contact@gotmi.io",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "jsonschema"
     },
     "datatourisme/ontology": {
@@ -1012,7 +1012,7 @@
         "email": "contact@datatourisme.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "other"
     },
     "PnX-SI/schema_randonnee": {
@@ -1054,7 +1054,7 @@
         "email": "schema@data.gouv.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "jsonschema"
     },
     "CEREMA/schema-arrete-circulation-marchandises": {
@@ -1122,7 +1122,7 @@
         "email": "data-med@cerema.fr",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     },
     "Archivistes75/registre_entrees": {
@@ -1140,7 +1140,7 @@
         "email": "hello@datactivist.coop",
         "external_tool": null,
         "external_doc": null,
-        "badges": null,
+        "labels": null,
         "type": "tableschema"
     }
 }

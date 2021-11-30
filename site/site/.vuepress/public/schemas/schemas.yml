@@ -1,6 +1,4 @@
 139bercy/format-commande-publique:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Données des attributions de marchés publics et de contrats de concessions
     supérieures à 40 000 euros.
@@ -9,6 +7,8 @@
   external_tool: null
   has_changelog: false
   homepage: https://github.com/139bercy/format-commande-publique
+  labels:
+  - Collectivités territoriales
   latest_version: 1.5.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
@@ -38,7 +38,6 @@
   - 1.4.0
   - 1.5.0
 Archivistes75/registre_entrees:
-  badges: null
   consolidation: null
   description: Spécification du standard national des registres d'entrée d'archives
   email: hello@datactivist.coop
@@ -46,6 +45,7 @@ Archivistes75/registre_entrees:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/Archivistes75/registre_entrees
+  labels: null
   latest_version: 0.2.0
   schemas:
   - examples: null
@@ -60,7 +60,6 @@ Archivistes75/registre_entrees:
   versions:
   - 0.2.0
 CEREMA/schema-arrete-circulation-marchandises:
-  badges: null
   consolidation: null
   description: Spécification du fichier d'échange relatif aux arrêtés permanents de
     circulation pour le transport de marchandises gérés par les collectivités.
@@ -69,6 +68,7 @@ CEREMA/schema-arrete-circulation-marchandises:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/CEREMA/schema-arrete-circulation
+  labels: null
   latest_version: 0.6.3
   schemas:
   - examples:
@@ -121,7 +121,6 @@ CEREMA/schema-arrete-circulation-marchandises:
   - 0.6.2
   - 0.6.3
 MTES-MCT/acceslibre-schema:
-  badges: null
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité
     des Établissements Recevant du Public (ERP).
@@ -130,6 +129,7 @@ MTES-MCT/acceslibre-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/MTES-MCT/acceslibre-schema
+  labels: null
   latest_version: 0.0.3
   schemas:
   - examples:
@@ -151,7 +151,6 @@ MTES-MCT/acceslibre-schema:
   - 0.0.2
   - 0.0.3
 NaturalSolutions/schema-arbre:
-  badges: null
   consolidation: null
   description: Spécification des attributs liés aux arbres urbains dans le cadre d'un
     inventaire du patrimoine arboré par les collectivités.
@@ -160,6 +159,7 @@ NaturalSolutions/schema-arbre:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/NaturalSolutions/schema-arbre
+  labels: null
   latest_version: 0.2.2
   schemas:
   - examples:
@@ -186,7 +186,6 @@ NaturalSolutions/schema-arbre:
   - 0.2.1
   - 0.2.2
 PnX-SI/schema_randonnee:
-  badges: null
   consolidation: null
   description: Spécification du fichier d'échange relatif aux itinéraires de randonnée
   email: schema@data.gouv.fr
@@ -194,6 +193,7 @@ PnX-SI/schema_randonnee:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/PnX-SI/schema_randonnee
+  labels: null
   latest_version: 1.0.2
   schemas:
   - examples: []
@@ -216,7 +216,6 @@ PnX-SI/schema_randonnee:
   - 1.0.1
   - 1.0.2
 arsante/schema-dae:
-  badges: null
   consolidation: null
   description: Spécification du modèle de données relatif aux DAE
   email: contact@geodae.sante.gouv.fr
@@ -224,6 +223,7 @@ arsante/schema-dae:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
+  labels: null
   latest_version: 1.0.3
   schemas:
   - examples:
@@ -250,7 +250,6 @@ arsante/schema-dae:
   - 1.0.2
   - 1.0.3
 datakode/schema-pei:
-  badges: null
   consolidation: null
   description: Spécification du modèle de données relatif aux PEI
   email: portier@datakode.fr
@@ -258,6 +257,7 @@ datakode/schema-pei:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/datakode/schema-pei
+  labels: null
   latest_version: 1.0.0
   schemas:
   - examples:
@@ -274,7 +274,6 @@ datakode/schema-pei:
   versions:
   - 1.0.0
 datatourisme/ontology:
-  badges: null
   consolidation: null
   description: Ontologie destinée à structurer les données décrivant l'ensemble des
     points d'intérêts recensés par les Offices de Tourisme, Agences Départementales
@@ -285,6 +284,7 @@ datatourisme/ontology:
   external_tool: null
   has_changelog: false
   homepage: https://framagit.org/datatourisme/ontology
+  labels: null
   latest_version: 2.4.8
   schemas:
   - examples: []
@@ -301,8 +301,6 @@ datatourisme/ontology:
   - 2.4.7
   - 2.4.8
 etalab/schema-amenagements-cyclables:
-  badges:
-  - Transport
   consolidation: null
   description: Spécification du schéma de données d'aménagements cyclables
   email: contact@transport.beta.gouv.fr
@@ -310,6 +308,8 @@ etalab/schema-amenagements-cyclables:
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
+  labels:
+  - Transport
   latest_version: 0.3.3
   schemas:
   - examples: []
@@ -340,8 +340,6 @@ etalab/schema-amenagements-cyclables:
   - 0.3.2
   - 0.3.3
 etalab/schema-bal:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Fichier contenant toutes les adresses d'un territoire donné
   email: adresse@data.gouv.fr
@@ -349,6 +347,8 @@ etalab/schema-bal:
   external_tool: https://mes-adresses.data.gouv.fr/new
   has_changelog: false
   homepage: https://github.com/etalab/schema-bal
+  labels:
+  - Collectivités territoriales
   latest_version: 1.1.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.1.0/schema.yml
@@ -362,8 +362,6 @@ etalab/schema-bal:
   versions:
   - 1.1.0
 etalab/schema-decp-dpa:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
   email: schema@data.gouv.fr
@@ -371,6 +369,8 @@ etalab/schema-decp-dpa:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/etalab/schema-decp-dpa
+  labels:
+  - Collectivités territoriales
   latest_version: 1.0.0
   schemas:
   - examples: null
@@ -385,7 +385,6 @@ etalab/schema-decp-dpa:
   versions:
   - 1.0.0
 etalab/schema-hautes-remunerations:
-  badges: null
   consolidation: null
   description: Spécification du fichier de déclaration des dix rémunérations les plus
     élevées des agents publiques
@@ -394,6 +393,7 @@ etalab/schema-hautes-remunerations:
   external_tool: null
   has_changelog: true
   homepage: http://github.com/restuccia/schema-hautes-remunerations
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples: null
@@ -408,7 +408,6 @@ etalab/schema-hautes-remunerations:
   versions:
   - 0.1.0
 etalab/schema-inclusion-numerique:
-  badges: null
   consolidation: null
   description: Spécification des lieux d'inclusion numérique
   email: carto@aidantsconnect.beta.gouv.fr
@@ -416,6 +415,7 @@ etalab/schema-inclusion-numerique:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-inclusion-numerique
+  labels: null
   latest_version: 0.1.2
   schemas:
   - examples:
@@ -435,9 +435,6 @@ etalab/schema-inclusion-numerique:
   - 0.1.1
   - 0.1.2
 etalab/schema-irve:
-  badges:
-  - Collectivités territoriales
-  - Transport
   consolidation:
     dataset_id: 5448d3e0c751df01f85d0572
     tags:
@@ -450,6 +447,9 @@ etalab/schema-irve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
+  labels:
+  - Collectivités territoriales
+  - Transport
   latest_version: 2.0.2
   schemas:
   - examples:
@@ -478,8 +478,6 @@ etalab/schema-irve:
   - 2.0.1
   - 2.0.2
 etalab/schema-lieux-covoiturage:
-  badges:
-  - Transport
   consolidation:
     dataset_id: 5d6eaffc8b4c417cdc452ac3
     tags:
@@ -490,6 +488,8 @@ etalab/schema-lieux-covoiturage:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
+  labels:
+  - Transport
   latest_version: 0.2.1
   schemas:
   - examples:
@@ -520,8 +520,6 @@ etalab/schema-lieux-covoiturage:
   - 0.2.0
   - 0.2.1
 etalab/schema-passage-a-niveau:
-  badges:
-  - Transport
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de passages à niveau.
   email: contact@transport.beta.gouv.fr
@@ -529,6 +527,8 @@ etalab/schema-passage-a-niveau:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-passage-a-niveau
+  labels:
+  - Transport
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -546,7 +546,6 @@ etalab/schema-passage-a-niveau:
   versions:
   - 0.1.0
 etalab/schema-sdirve:
-  badges: null
   consolidation: null
   description: Spécification du fichier d'échange relatif aux schéma directeur des
     infrastructures de recharge pour véhicules électriques et hybrides rechargeables.
@@ -555,6 +554,7 @@ etalab/schema-sdirve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-sdirve
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -574,8 +574,6 @@ etalab/schema-sdirve:
   versions:
   - 0.1.0
 etalab/schema-stationnement:
-  badges:
-  - Transport
   consolidation:
     dataset_id: 5ea1add4a5a7dac3af82310a
     tags:
@@ -586,6 +584,8 @@ etalab/schema-stationnement:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement
+  labels:
+  - Transport
   latest_version: 0.1.4
   schemas:
   - examples:
@@ -617,8 +617,6 @@ etalab/schema-stationnement:
   - 0.1.3
   - 0.1.4
 etalab/schema-stationnement-cyclable:
-  badges:
-  - Transport
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de stationnement
     cycable.
@@ -627,6 +625,8 @@ etalab/schema-stationnement-cyclable:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement-cyclable
+  labels:
+  - Transport
   latest_version: 1.1.0
   schemas:
   - examples:
@@ -655,7 +655,6 @@ etalab/schema-stationnement-cyclable:
   - 1.0.0
   - 1.1.0
 etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
-  badges: null
   consolidation: null
   description: Spécification des données fixant les termes et modalités de publication
     du pourcentage de véhicules à faibles et à très faibles émissions parmi les véhicules
@@ -665,6 +664,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-flotte-publique-vehicule
+  labels: null
   latest_version: 0.1.1
   schemas:
   - examples:
@@ -684,8 +684,6 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   - 0.1.0
   - 0.1.1
 etalab/schema-zfe:
-  badges:
-  - Transport
   consolidation: null
   description: Spécification du schéma de données des Zones à Faibles Emissions
   email: contact@transport.beta.gouv.fr
@@ -693,6 +691,8 @@ etalab/schema-zfe:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-zfe
+  labels:
+  - Transport
   latest_version: 0.7.1
   schemas:
   - examples: []
@@ -711,8 +711,6 @@ etalab/schema-zfe:
   - 0.7.0
   - 0.7.1
 macaron-ai/onstreet-parking-schema:
-  badges:
-  - Transport
   consolidation: null
   description: Spécification du schéma de données d'emprises de stationnement
   email: contact@transport.beta.gouv.fr
@@ -720,6 +718,8 @@ macaron-ai/onstreet-parking-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/macaron-ai/onstreet-parking-schema/
+  labels:
+  - Transport
   latest_version: 1.0.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json
@@ -733,7 +733,6 @@ macaron-ai/onstreet-parking-schema:
   versions:
   - 1.0.0
 metis-reseaux/infos-travaux:
-  badges: null
   consolidation: null
   description: Schéma permettant de décrire des projets de travaux d'infrastructure.
   email: contact@gotmi.io
@@ -741,6 +740,7 @@ metis-reseaux/infos-travaux:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/metis-reseaux/infos-travaux
+  labels: null
   latest_version: 0.0.2
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/metis-reseaux/infos-travaux/0.0.2/informations_travaux.json
@@ -754,7 +754,6 @@ metis-reseaux/infos-travaux:
   versions:
   - 0.0.2
 openmaraude/schema-stationstaxi:
-  badges: null
   consolidation: null
   description: Spécification des stations de taxi à usage public
   email: tech@le.taxi
@@ -762,6 +761,7 @@ openmaraude/schema-stationstaxi:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/openmaraude/schema-stationstaxi
+  labels: null
   latest_version: 0.1.2
   schemas:
   - examples:
@@ -783,8 +783,6 @@ openmaraude/schema-stationstaxi:
   - 0.1.1
   - 0.1.2
 scdl/budget:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Les données essentielles du budget permettent de décrire le contenu
     des étapes budgétaires des collectivités locales et des établissements publics.
@@ -797,6 +795,8 @@ scdl/budget:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/budget
+  labels:
+  - Collectivités territoriales
   latest_version: 0.8.1
   schemas:
   - examples:
@@ -813,8 +813,6 @@ scdl/budget:
   versions:
   - 0.8.1
 scdl/catalogue:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif au catalogue des jeux de
     données publiés en open data par une collectivité
@@ -823,6 +821,8 @@ scdl/catalogue:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/catalogue
+  labels:
+  - Collectivités territoriales
   latest_version: 0.1.2
   schemas:
   - examples: null
@@ -839,8 +839,6 @@ scdl/catalogue:
   - 0.1.1
   - 0.1.2
 scdl/deliberations:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif aux délibérations adoptées
     par une collectivité locale
@@ -849,6 +847,8 @@ scdl/deliberations:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/deliberations
+  labels:
+  - Collectivités territoriales
   latest_version: 2.1.3
   schemas:
   - examples:
@@ -877,8 +877,6 @@ scdl/deliberations:
   - 2.1.2
   - 2.1.3
 scdl/equipements:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif aux équipements collectifs
     publics d'une collectivité
@@ -887,6 +885,8 @@ scdl/equipements:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/equipements
+  labels:
+  - Collectivités territoriales
   latest_version: 0.1.1
   schemas:
   - examples: null
@@ -903,8 +903,6 @@ scdl/equipements:
   - 0.1.0
   - 0.1.1
 scdl/menus-collectifs:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Schéma permettant de décrire les menus des repas proposés par les collectivités
     locales, les établissements publics et privés. Il permet de préciser les modalités
@@ -916,6 +914,8 @@ scdl/menus-collectifs:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/menus-collectifs
+  labels:
+  - Collectivités territoriales
   latest_version: 1.2.1
   schemas:
   - examples:
@@ -950,8 +950,6 @@ scdl/menus-collectifs:
   - 1.2.0
   - 1.2.1
 scdl/plats-menus-collectifs:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Description des plats proposés par des collectivités locales, des établissements
     publics et des entreprises dans le cadre de l'offre de restauration collective.
@@ -965,6 +963,8 @@ scdl/plats-menus-collectifs:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/plats-menus-collectifs
+  labels:
+  - Collectivités territoriales
   latest_version: 0.7.0
   schemas:
   - examples:
@@ -989,8 +989,6 @@ scdl/plats-menus-collectifs:
   - 0.4.0
   - 0.7.0
 scdl/subventions:
-  badges:
-  - Collectivités territoriales
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées
     par une collectivité
@@ -999,6 +997,8 @@ scdl/subventions:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/subventions
+  labels:
+  - Collectivités territoriales
   latest_version: 2.0.1
   schemas:
   - examples:

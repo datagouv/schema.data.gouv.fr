@@ -1,9 +1,9 @@
 <template>
   <div>
       <div>
-        <h2>Contribuer à l'initiative schema.data.gouv.fr</h2>
+        <h2>Contribuer au référentiel schema.data.gouv.fr</h2>
 
-        <div>Tout acteur est libre de proposer un nouveau schémas de données. Cependant, pour être référéncé sur schema.data.gouv.fr, ce schéma doit décrire des données publiques.</div>
+        <div>Tout acteur est libre de proposer un nouveau schémas de données. Cependant, pour être référéncé sur schema.data.gouv.fr, ce schéma doit décrire des données ouvertes.</div>
         <br />
         <div>Nous acceptons les schémas dont l'existence est justifiée par voie :</div>
         <ul>
@@ -57,7 +57,7 @@
   
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 1' class='formTitle'>Proposer un nouveau schéma</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 1' class='answerSpace'>
-        <p>Pour valider l'intérêt d'un nouveau schéma et informer la communauté d'une nouvelle initiative, nous vous proposons d'initier une discussion sur notre forum commun (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
+        <p>Pour valider l'intérêt d'un nouveau schéma et informer la communauté d'une nouvelle initiative, nous vous proposons d'initier un message sur notre espace de discussion (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
         La communauté pourra alors réagir à votre proposition et nous pourrons également vous accompagner dans la conception</p>
         <div style="width: 100%;">
           <div class="btn-guide">
@@ -88,7 +88,7 @@
       
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 3' class='formTitle'>Modifier un schéma</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 3' class='answerSpace'>
-        <p>Pour valider l'intérêt d'un modification sur un schéma existant et en informer la communauté, nous vous proposons d'initier une discussion sur notre forum commun (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
+        <p>Pour valider l'intérêt d'un modification sur un schéma existant et en informer la communauté, nous vous proposons d'initier un message sur notre espace de discussion (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
         Attention de vérifier qu'un fil de discussion n'est pas déjà créé sur le schéma en question (<a href="https://github.com/etalab/schema.data.gouv.fr/issues">voir la liste des discussions en cours</a>)</p>
         <div style="width: 100%;">
           <div class="btn-guide">
@@ -109,10 +109,10 @@
         <div>Pour référencer un nouveau schéma, celui-ci doit au préalable vérifier plusieurs conditions :</div>
         <ul>
           <li>le schéma doit décrire des données publiques</li>
-          <li>le schéma doit avoir été soumis à la communauté <a href="https://github.com/etalab/schema.data.gouv.fr/issues">via une discussion</a> sur notre forum commun</li>
+          <li>le schéma doit avoir été soumis à la communauté <a href="https://github.com/etalab/schema.data.gouv.fr/issues">via un message</a> sur notre espace de discussion</li>
           <li>le schéma doit avoir été co-conçu avec plusieurs acteurs du domaine auquel il fait référence</li>
-          <li>le schéma doit avoir été conçu selon <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">un standard autorisé</a> et doit <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">être valide</a></li>
-          <li>la version du schéma proposé doit être inférieure à la version 1.0.0 si celui-ci n'est pas encore utilisé et si aucune donnée n'est produite à partir de celui-ci sur une plateforme open data</li>
+          <li>le schéma doit avoir été conçu selon <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">une spécification technique autorisée</a> et doit <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">être valide</a></li>
+          <li>si aucune donnée n'est encore produite à partir de ce schéma, la version de celui-ci doit être inférieure à la v1.0.0</li>
         </ul>
           
         <p>Une fois ces conditions remplies, vous pouvez nous contacter via la discussion ouverte préalablement ou en contactant {{ this.selectedOrganizationName }} à l'adresse suivante {{ this.selectedOrganizationMail }}</p>
