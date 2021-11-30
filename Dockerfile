@@ -58,7 +58,7 @@ ADD nginx.conf /etc/nginx/
 
 WORKDIR /site
 RUN python prepareSite.py
-RUN npm install
+RUN npm install --force
 
 RUN npm run build
 
