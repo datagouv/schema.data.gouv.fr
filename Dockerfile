@@ -17,7 +17,11 @@ WORKDIR /site
 RUN python prepareSite.py
 
 
-RUN curl https://www.npmjs.com/install.sh | sudo sh
+RUN apt-get install nodejs
+RUN apt-get install npm
+
+RUN node -v
+RUN npm -v
 
 RUN npm install npm@latest -g
 
