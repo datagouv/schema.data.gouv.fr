@@ -3,51 +3,51 @@ irve:
   type: tableschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
-  badges:
-    - Collectivités territoriales
-    - Transport
+  labels:
+    - Socle Commun des Données Locales
+    - transport.data.gouv.fr
 format-commande-publique:
   url: https://github.com/139bercy/format-commande-publique.git
   type: jsonschema
   email: schema@data.gouv.fr
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 decp-dpa:
   url: https://github.com/etalab/schema-decp-dpa.git
   type: tableschema
   email: schema@data.gouv.fr
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 catalogue:
   url: https://git.opendatafrance.net/scdl/catalogue.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 deliberations:
   url: https://git.opendatafrance.net/scdl/deliberations.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 equipements:
   url: https://git.opendatafrance.net/scdl/equipements.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 subventions:
   url: https://git.opendatafrance.net/scdl/subventions.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 covoiturage:
   url: https://github.com/etalab/schema-lieux-covoiturage.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
 infos-travaux:
   url: https://github.com/metis-reseaux/infos-travaux.git
   type: jsonschema
@@ -56,14 +56,14 @@ stationnement:
   url: https://github.com/etalab/schema-stationnement.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
 budget:
   url: https://git.opendatafrance.net/scdl/budget.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges: 
-    - Collectivités territoriales
+  labels: 
+    - Socle Commun des Données Locales
 dae:
   url: https://gitlab.com/arsante/atlasante/schema-dae.git
   type: tableschema
@@ -82,15 +82,15 @@ amenagements-cyclables:
   email: contact@transport.beta.gouv.fr
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   external_doc: https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
 stationnement-cyclable:
   url: https://github.com/etalab/schema-stationnement-cyclable
   type: tableschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
 inclusion-numerique:
   url: https://github.com/etalab/schema-inclusion-numerique.git
   type: tableschema
@@ -101,8 +101,8 @@ bal:
   email: adresse@data.gouv.fr
   external_doc: https://adresse.data.gouv.fr/bases-locales
   external_tool: https://mes-adresses.data.gouv.fr/new
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 hautes-remunerations:
   url: https://github.com/etalab/schema-hautes-remunerations
   type: tableschema
@@ -111,14 +111,14 @@ menus-restauration:
   url: https://git.opendatafrance.net/scdl/menus-collectifs.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 plats-restauration:
   url: https://git.opendatafrance.net/scdl/plats-menus-collectifs.git
   type: tableschema
   email: scdl@opendatafrance.email
-  badges:
-    - Collectivités territoriales
+  labels:
+    - Socle Commun des Données Locales
 accessibilite-erp:
   url: https://github.com/MTES-MCT/acceslibre-schema.git
   type: tableschema
@@ -140,8 +140,8 @@ schema-zfe:
   type: jsonschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
 arrete-circulation-marchandise:
   url: https://github.com/CEREMA/schema-arrete-circulation-marchandises.git
   type: tableschema
@@ -166,11 +166,11 @@ emprise-stationnement-voirie:
   url: https://github.com/macaron-ai/onstreet-parking-schema.git
   type: jsonschema
   email: contact@transport.beta.gouv.fr
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
 passage-a-niveau:
   url: https://github.com/etalab/schema-passage-a-niveau
   type: tableschema
   email: contact@transport.beta.gouv.fr
-  badges:
-    - Transport
+  labels:
+    - transport.data.gouv.fr
