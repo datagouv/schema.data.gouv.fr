@@ -9,6 +9,10 @@ COPY ./site /site
 
 RUN ls -ah
 
+WORKDIR /aggregateur
+
+RUN pip install -r requirements.txt
+
 WORKDIR /site
 RUN python prepareSite.py
 RUN npm install
