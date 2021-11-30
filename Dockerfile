@@ -21,6 +21,8 @@ RUN apt-get install -y nodejs \
     npm
 RUN npm install npm@latest -g
 
+RUN npm cache verify
+
 RUN npm install
 
 RUN npm run build
