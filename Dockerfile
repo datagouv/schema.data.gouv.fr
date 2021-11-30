@@ -15,6 +15,12 @@ RUN pip install -r requirements.txt
 
 WORKDIR /site
 RUN python prepareSite.py
+
+
+RUN apt-get install -y nodejs \
+    npm
+RUN npm install npm@latest -g
+
 RUN npm install
 
 RUN npm run build
