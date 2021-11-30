@@ -95,7 +95,7 @@ export default {
       stats: null,
       showButtons: false,
       schemasInfos: null,
-      listLabels: ['Tous', 'Collectivités territoriales', 'Transport'],
+      listLabels: ['Tous', 'Socle Commun des Données Locales', 'transport.data.gouv.fr'],
       labelSelected: 'Tous',
       statusSelected: 'Tous',
       listStatus: ['Tous', 'Adopté', 'Publié', 'En construction', 'En investigation'],
