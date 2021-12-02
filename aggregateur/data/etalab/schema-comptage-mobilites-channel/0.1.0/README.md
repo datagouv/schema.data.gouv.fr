@@ -84,13 +84,13 @@ Ce schéma s'appuie sur [TableSchema](https://specs.frictionlessdata.io/table-sc
 
 Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
 
-- [`CHANGELOG.md`](CHANGELOG.md) contient la liste des changements entre les différentes versions du schéma ;
-- [`exemple-valide.csv`](exemple-valide.csv) est un fichier CSV d'exemple conforme par rapport au schéma décrit dans `schema.json`  ;
-- [`exemple-valide.xlsx`](exemple-valide.xlsx) est un fichier XLSX d'exemple conforme par rapport au schéma décrit dans `schema.json` ;
-- [`LICENSE.md`](LICENSE.md) est le fichier de licence du dépôt ;
-- [`README.md`](README.md) est le fichier que vous lisez actuellement ;
-- [`requirements.txt`](requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur le dépôt ;
-- [`schema.json`](schema.json) est le schéma au format Table Schema.
+- `CHANGELOG.md` contient la liste des changements entre les différentes versions du schéma ;
+- `exemple-valide.csv` est un fichier CSV d'exemple conforme par rapport au schéma décrit dans `schema.json`  ;
+- `exemple-valide.xlsx` est un fichier XLSX d'exemple conforme par rapport au schéma décrit dans `schema.json` ;
+- `LICENSE.md` est le fichier de licence du dépôt ;
+- `README.md` est le fichier que vous lisez actuellement ;
+- `requirements.txt` liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur le dépôt ;
+- `schema.json` est le schéma au format Table Schema.
 
 ### Intégration continue
 
@@ -99,7 +99,7 @@ Ce dépôt est configuré pour utiliser de l'intégration continue, si vous util
 - que votre schéma est valide à la spécification Table Schema ;
 - que vos fichiers d'exemples sont conformes au schéma.
 
-Vous pouvez consulter la configuration utilisée dans [`.github/workflows/test.yml`](.github/workflows/test.yml).
+Vous pouvez consulter la configuration utilisée dans `.github/workflows/test.yml`.
 
 ### Test en local
 
