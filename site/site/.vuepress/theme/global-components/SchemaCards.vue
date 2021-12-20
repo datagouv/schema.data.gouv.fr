@@ -29,7 +29,15 @@
       </div>
     </div>
     <div v-if="hoverLabel" class='onTitleHover'>
-      Sélectionner un label pour filtrer les schémas disponibles selon une thématique spécifique
+      Les labels permettent de filtrer les schémas selon une classification particulière. Aujourd'hui, deux labels sont disponibles : 
+      <ul>
+        <li>
+          <b>Socle Commun des Données Locales</b>, qui liste les schémas mis en avant par Opendatafrance, à destination des collectivités territoriales,
+        </li>
+        <li>
+          <b>transport.data.gouv.fr</b>, qui liste les schémas mis en avant par transport.data.gouv.fr, relatifs à la mobilité et aux transports.
+        </li>
+      </ul>
     </div>
     <br />
     <div class="labels">
@@ -505,7 +513,7 @@ export default {
 
 .onTitleHover{
   margin-top: 5px;
-  width: 250px;
+  width: 450px;
   background-color: #444444;
   position: absolute;
   color: white;
