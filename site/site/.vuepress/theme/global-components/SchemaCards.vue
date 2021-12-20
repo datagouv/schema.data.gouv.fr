@@ -38,6 +38,7 @@
           <b>transport.data.gouv.fr</b>, qui liste les schémas mis en avant par transport.data.gouv.fr, relatifs à la mobilité et aux transports.
         </li>
       </ul>
+      Les schémas labellisés garantissent une portée de mise en œuvre à l'échelle nationale et ce de façon durable, de schémas réalisés ou supervisés, et maintenables par des structures publiques de référence à l'échelle nationale.
     </div>
     <br />
     <div class="labels">
