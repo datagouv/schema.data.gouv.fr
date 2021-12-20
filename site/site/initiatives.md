@@ -21,6 +21,19 @@ Les standards les plus connus sont :
 
 <br />
 
+#### IGN 
+
+L’[IGN (Institut national de l'information géographique et forestière)](https://www.ign.fr) opère le [Géoportail de l’Urbanisme](https://www.geoportail-urbanisme.gouv.fr/) pour le compte du Ministère de la Cohésion des territoires. Ce portail permet aux citoyens comme aux professionnels de consulter tous les documents de planification urbaine (PLU(i), POS, PSMV, SCOT) et les servitudes d’utilité publique qui y ont été versés par leurs autorités compétentes. Ces documents sont standardisés par le [CNIG (Conseil National de l'Information Géographique)](http://cnig.gouv.fr/). Pour vérifier que les documents téléversés sont conformes à ces standards, l’IGN a développé un outil de validation à partir de 2014. 
+
+Le [code source](https://github.com/IGNF/validator) de cet outil de validation est disponible sous licence CeCILL-B. 
+
+Ce validateur a évolué pour permettre de valider les données concernant les territoires à risque d’inondation (TRI) et les données des fichiers Plan Corps de Rue Simplifié (PCRS). Un travail a également été mené à partir de 2019 pour rapprocher la description des schémas de ce qui se fait sur schema.gouv ([TableSchema](https://specs.frictionlessdata.io/table-schema/)). 
+
+Quelques exemples de schémas : 
+* Arborescence des fichiers : [CNIG PLU 2017](https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017#files) ([en JSON](https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017.json)) 
+* Structure d’une table : [CNIG PLU 2017 table ZONE_URBA](https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017#table-ZONE_URBA) ([en JSON](https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017.json)) 
+<br />
+
 #### Sandre
 
 Le [Sandre](http://www.sandre.eaufrance.fr) a pour mission, d'établir et de mettre à disposition le référentiel des données sur l'eau du [Système d'Information sur l'Eau](http://www.sandre.eaufrance.fr/concept/système-dinformation-sur-leau). Ce référentiel, composé de spécifications techniques et de listes de codes libres d'utilisation, décrit les modalités d'échange des données sur l'eau à l'échelle de la France. D'un point de vue informatique, le Sandre garantit l'interopérabilité des systèmes d'information relatifs à l'eau.
