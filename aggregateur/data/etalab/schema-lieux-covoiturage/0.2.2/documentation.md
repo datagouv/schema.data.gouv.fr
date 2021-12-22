@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/0.2.1/documentation.html
-redirect_from: null
+permalink: /etalab/schema-lieux-covoiturage/latest/documentation.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.2.2/documentation.html
 title: Documentation de Lieux de covoiturage
-version: 0.2.1
+version: 0.2.2
 ---
 
 ## Lieux de covoiturage
@@ -12,8 +12,8 @@ Spécification des lieux permettant le covoiturage
 - Auteur : Antoine Augusti pour Etalab
 - Schéma créé le : 25/06/2019
 - Site web : https://github.com/etalab/schema-lieux-covoiturage
-- Données d'exemple : https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.0/exemple-valide.csv
-- Version : 0.2.0
+- Données d'exemple : https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv
+- Version : 0.2.2
 - Clé primaire : `id_lieu`
 
 ### Modèle de données
@@ -45,7 +45,7 @@ Spécification des lieux permettant le covoiturage
 
 #### Propriété `id_lieu`
 
-> *Description : Identifiant du lieu de covoiturage, délivré par le point d'accès national selon la règle INSEE-P-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001<br/>Ex : 35238-C-001 pour la première aire référencée dans la commune de code INSEE 35238*
+> *Description : Identifiant du lieu de covoiturage, délivré par le point d'accès national selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001<br/>Ex : 35238-C-001 pour la première aire référencée dans la commune de code INSEE 35238*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}-C-\d{3}$`

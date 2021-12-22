@@ -1,13 +1,19 @@
 ---
 permalink: /etalab/schema-lieux-covoiturage/latest/changelog.html
-redirect_from: /etalab/schema-lieux-covoiturage/0.2.1/changelog.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.2.2/changelog.html
 title: CHANGELOG de Lieux de covoiturage
-version: 0.2.1
+version: 0.2.2
 ---
 
 # Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
+
+## Version 0.2.2 - 2021-12-21
+- Correction du fichier d'exemple
+
+## Version 0.2.1 - 2021-07-05
+- Ajout d'un champ `id_local` pour que les producteurs de données puissent retrouver plus facilement leurs données après publication
 
 ## Version 0.2.0 - 2020-11-23
 - colonne `id_lieu`, le mode de numérotation des aires est explicité

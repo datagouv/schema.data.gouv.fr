@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/0.2.1.html
-redirect_from: null
+permalink: /etalab/schema-lieux-covoiturage/latest.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.2.2.html
 title: Lieux de covoiturage
-version: 0.2.1
+version: 0.2.2
 ---
 
 # Schéma des lieux de covoiturage
@@ -39,9 +39,9 @@ Nom du fichier : `AAAAMMJJ_idproducteur_lieuxcovoit.csv` où `idproducteur` est 
 ### Fichiers d'exemple
 Nous mettons à disposition des fichiers d'exemple qui peuvent servir de base pour renseigner vos lieux de covoiturage.
 
-- [Télécharger un fichier exemple au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.csv)
-- [Télécharger un fichier exemple au format Excel](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.xls)
-- [Télécharger un fichier d'exemple invalide](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-invalide.csv) contenant des erreurs dans le formatage des dates et une inversion des coordonnées géographiques latitude/longitude
+- [Télécharger un fichier exemple au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv)
+- [Télécharger un fichier exemple au format Excel](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.xls)
+- [Télécharger un fichier d'exemple invalide](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv) contenant des erreurs dans le formatage des dates et une inversion des coordonnées géographiques latitude/longitude
 
 ### Mises à jour
 Les mises à jour sont effectuées à partir du fichier communiqué précédemment et en reprennent, en les modifiant le cas échéant, les données qui y figurent déjà.
@@ -51,9 +51,8 @@ Le Point d'accès national aux données de transport ([transport.data.gouv.fr](h
 
 ## Outils
 
-* [Validateur de fichiers CSV](https://validata.etalab.studio/table-schema?schema_name=schema-datagouv-fr.etalab/schema-lieux-covoiturage)
-* [Formulaire de création de données valides](https://forms.validata.etalab.studio/?schema=etalab%2Fschema-lieux-covoiturage)
-* [Télécharger un fichier gabarit au format XLS](https://github.com/etalab/schema-lieux-covoiturage/raw/master/exemple-valide.xls)
+* [Validateur de fichiers CSV](https://publier.etalab.studio/select?schema=etalab%2Fschema-lieux-covoiturage)
+* [Formulaire de création de données valides](https://publier.etalab.studio/select?schema=etalab%2Fschema-lieux-covoiturage)
 * [Télécharger un fichier gabarit au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/master/exemple-valide.csv)
 
 ## En savoir plus

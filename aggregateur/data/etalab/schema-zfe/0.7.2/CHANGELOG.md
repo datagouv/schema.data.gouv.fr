@@ -1,13 +1,17 @@
 ---
 permalink: /etalab/schema-zfe/latest/changelog.html
-redirect_from: /etalab/schema-zfe/0.7.1/changelog.html
+redirect_from: /etalab/schema-zfe/0.7.2/changelog.html
 title: CHANGELOG de Zone à Faibles Emissions
-version: 0.7.1
+version: 0.7.2
 ---
 
 # Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
+
+## Version 0.7.2 - 2021-12-21
+
+- accepter la valeur `null` pour le champ `date_fin`
 
 ## Version 0.7.1 - 2021-10-18
 
