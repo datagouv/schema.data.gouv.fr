@@ -11,7 +11,7 @@ Véritables gabarits, ils permettent une montée en qualité des données propos
 
 Une plateforme de référencement nationale permet un accès aux schémas produits par différents acteurs et facilite l'intégration avec des systèmes informatiques par le biais de standards, d'URLs stables, de processus de validation et d'API.
 
-Nous vous invitons à [prendre connaissance d'un schéma](/etalab/schema-irve/latest.html) ou découvrir quelle est la procédure pour [ajouter un schéma](http://schema.data.gouv.fr/contribuer.html).
+Nous vous invitons à [prendre connaissance d'un schéma](/etalab/schema-irve/latest.html) ou découvrir quelle est la procédure pour [ajouter un schéma](contribuer.md).
 
 ### Quelle est la différence entre schema.data.gouv.fr et publier.etalab.studio ?
 
