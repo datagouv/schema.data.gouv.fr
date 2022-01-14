@@ -1,11 +1,16 @@
 ---
 permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/changelog.html
-redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.6.3/changelog.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.7.0/changelog.html
 title: CHANGELOG de Arrêtés permanents de circulation pour le transport de marchandises
-version: 0.6.3
+version: 0.7.0
 ---
 
 # Changelog
+
+## v0.7.0
+- Valeurs multiples possibles pour `ARR_CONSIDERANT` (ex. de Martigues 06.2018)
+- Ajoute le champ `GEOM_DEBUT`
+- Ajoute le champ `GEOM_FIN`
 
 ## v0.6.1
 - Renomme `ARR_INSEE` en `COLL_INSEE`

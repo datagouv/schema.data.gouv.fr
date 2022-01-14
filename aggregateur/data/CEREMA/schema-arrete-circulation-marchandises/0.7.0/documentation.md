@@ -1,8 +1,8 @@
 ---
-permalink: /CEREMA/schema-arrete-circulation-marchandises/0.6.3/documentation.html
-redirect_from: null
+permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/documentation.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.7.0/documentation.html
 title: Documentation de Arrêtés permanents de circulation pour le transport de marchandises
-version: 0.6.3
+version: 0.7.0
 ---
 
 ## arrete-circulation-marchandises
@@ -13,7 +13,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 - Schéma créé le : 30/04/2021
 - Site web : https://github.com/CEREMA/schema-arrete-circulation
-- Version : 0.6.3
+- Version : 0.7.0
 - Valeurs manquantes : `""`, `"NA"`, `"NaN"`, `"N/A"`
 - Clé primaire : `ID`
 
@@ -46,8 +46,10 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [PERIODE_DEBUT](#date-d'entrée-en-vigueur-des-restrictions---propriété-periode_debut) | date (format `%Y-%m-%d`) | Non |
 | [PERIODE_JH](#jours-et-heures-de-circulation---propriété-periode_jh) | chaîne de caractères  | Non |
 | [EMPRISE_DESIGNATION](#nom-de-la-voie---propriété-emprise_designation) | chaîne de caractères  | Oui |
-| [EMPRISE_DEBUT](#début-de-la-section---propriété-emprise_debut) | chaîne de caractères  | Non |
-| [EMPRISE_FIN](#fin-de-la-section---propriété-emprise_fin) | chaîne de caractères  | Non |
+| [EMPRISE_DEBUT](#début-de-la-section-(libellé)---propriété-emprise_debut) | chaîne de caractères  | Non |
+| [GEOM_DEBUT](#début-de-la-section-(coordonnées)---propriété-geom_debut) | point géographique  | Non |
+| [EMPRISE_FIN](#fin-de-la-section-(libellé)---propriété-emprise_fin) | chaîne de caractères  | Non |
+| [GEOM_FIN](#fin-de-la-section-(coordonnées)---propriété-geom_fin) | point géographique  | Non |
 | [EMPRISE_SENS](#direction-ou-sens-de-circulation---propriété-emprise_sens) | chaîne de caractères  | Non |
 | [INTERV_DUREE](#durée-maximale-d'intervention---propriété-interv_duree) | heure  | Non |
 | [INTERV_HMAX](#heure-maximale-d'intervention---propriété-interv_hmax) | heure  | Non |
@@ -94,7 +96,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Considérant de l'arrêté - Propriété `ARR_CONSIDERANT`
 
-> *Description : Considérant est le justificatif de la mise en place de la règlementation<br/>Ex : Considérant la dangerosité que représente le trafic des PL aux abords des groupes scolaires*
+> *Description : Considérant est le justificatif de la mise en place de la règlementation. S'il y a plusieurs considérations, les séparer par le caractère '|'<br/>Ex : Considérant la dangerosité que représente le trafic des PL aux abords des groupes scolaires*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
@@ -127,7 +129,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Types de véhicules - Propriété `VEH_TYPES`
 
-> *Description : Types de véhicules. Séparer les valeurs par le caractère '|'<br/>Ex : Poids lourds|Véhicules utilitaires légers*
+> *Description : Types de véhicules. S'il y a plusieurs types, les séparer les valeurs par le caractère '|'<br/>Ex : Poids lourds|Véhicules utilitaires légers*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(Poids lourds|Véhicules utilitaires légers|Vélo-cargos|Tous véhicules))+$`
@@ -162,13 +164,13 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Types d'usage - Propriété `VEH_USAGES`
 
-> *Description : Types d'usage de véhicule. Séparer les valeurs par le caractère '|'<br/>Ex : Bennes à ordures ménagères|Véhicules de police*
+> *Description : Types d'usage de véhicule. S'il y a plusieurs usages, séparer les valeurs par le caractère '|'<br/>Ex : Bennes à ordures ménagères|Véhicules de police*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Types de motorisation - Propriété `VEH_MOTORS`
 
-> *Description : Types de motorisation. Séparer les valeurs par le caractère '|'<br/>Ex : Électrique|Hydrogène*
+> *Description : Types de motorisation. S'il y a plusieurs motorisations, les séparer par le caractère '|'<br/>Ex : Électrique|Hydrogène*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(Electrique|Gaz Naturel pour Véhicules|Hydrogène))+$`
@@ -200,17 +202,29 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Type : chaîne de caractères
 - Motif : `^[a-zA-Z0-9\-\–\'\’\s\d\u00C0-\u00FF\(\)]+$`
 
-#### Début de la section - Propriété `EMPRISE_DEBUT`
+#### Début de la section (libellé) - Propriété `EMPRISE_DEBUT`
 
-> *Description : Indication de l'endroit à partir duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Ou bien coordonnées GPS de l'endroit, à noter sous la forme 'long,lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 22 avenue Philippe Solari, Croisement de l'avenue Philippe Solari avec la rue Gaston de Saporta, 5.42101,43.53591*
+> *Description : Indication textuelle de l'endroit à partir duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Pour indiquer les coordonnées GPS, se référer au champ `GEOM_DEBUT`.<br/>Ex : 22 avenue Philippe Solari, Croisement de l'avenue Philippe Solari avec la rue Gaston de Saporta*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### Fin de la section - Propriété `EMPRISE_FIN`
+#### Début de la section (coordonnées) - Propriété `GEOM_DEBUT`
 
-> *Description : Indication de l'endroit au bout duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Ou bien coordonnées GPS de l'endroit, à noter sous la forme 'long, lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 34 bis avenue Philippe Solari, Intersection de l'avenue Philippe Solari avec le boulevard des Charmettes, 5.43345,43.64789*
+> *Description : Coordonnées GPS du début de la section. Se réfère à `EMPRISE_DEBUT`. S'écrit sous la forme 'long,lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 5.42101,43.53591*
+- Valeur optionnelle
+- Type : point géographique
+
+#### Fin de la section (libellé) - Propriété `EMPRISE_FIN`
+
+> *Description : Indication textuelle de l'endroit au bout duquel la règlementation s'applique, telle qu'écrite dans l'arrêté. Pour indiquer les coordonnées GPS, se référer au champ `GEOM_FIN`.<br/>Ex : 34 bis avenue Philippe Solari, Intersection de l'avenue Philippe Solari avec le boulevard des Charmettes*
 - Valeur optionnelle
 - Type : chaîne de caractères
+
+#### Fin de la section (coordonnées) - Propriété `GEOM_FIN`
+
+> *Description : Coordonnées GPS de la fin de la section. Se réfère à `EMPRISE_DEBUT`. S'écrit sous la forme 'long,lat' (5 ou 6 décimales sont conseillées).<br/>Ex : 5.42101,43.53591*
+- Valeur optionnelle
+- Type : point géographique
 
 #### Direction ou sens de circulation - Propriété `EMPRISE_SENS`
 

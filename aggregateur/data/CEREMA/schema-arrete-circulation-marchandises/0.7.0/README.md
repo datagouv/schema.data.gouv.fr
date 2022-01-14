@@ -1,8 +1,8 @@
 ---
-permalink: /CEREMA/schema-arrete-circulation-marchandises/0.6.3.html
-redirect_from: null
+permalink: /CEREMA/schema-arrete-circulation-marchandises/latest.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.7.0.html
 title: Arrêtés permanents de circulation pour le transport de marchandises
-version: 0.6.3
+version: 0.7.0
 ---
 
 # Schéma sur les arrêtés permanents de circulation en ville pour le transport de marchandises
@@ -20,25 +20,24 @@ Un [appel à contributions](https://forms.gle/vUALzEDQqRsY2NgG9) a aussi été r
 Ce travail rejoint une initiative similaire conduite en Île-de-France, appelée [BAC IDF](https://bac-idf.fr/) (pour Base d'Arrêtés de Circulation Île-de-France), visant à dématérialiser, concentrer, mettre à disposition les arrêtés de circulation des communes d'Île-de-France sous forme numérique.
 
 ## Prenez connaissance du schéma
-[Documentation : liste des champs et signification de ceux-ci](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/documentation/schema-page.md)  
-[Schéma au format JSON](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/schema.json)  
-[Voir une représentation simplifiée du schéma, sous forme de diagramme](https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/mindmaps/arrete-circulation-marchandises.jpeg)
+- [Liste des champs et signification](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/documentation/schema-page.md)  
+- [Schéma au format JSON](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/schema.json)  
+- [Représentation simplifiée du schéma](https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/mindmaps/arrete-circulation-marchandises.jpeg)
 
 
 ## À propos du schéma
-[Historique des évolutions du schéma (CHANGELOG)](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/CHANGELOG.md)  
-[À propos de la conception du schéma](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/A-PROPOS.md)   
+- [Conception du schéma](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/A-PROPOS.md)   
+- [Historique des évolutions (CHANGELOG)](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/CHANGELOG.md)  
 
 ## Produisez des données selon le schéma
-[Tutoriels et exemples](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/EXEMPLES.md)   
-[Guide de saisie](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/GUIDE.md)  
+- [Tutoriels et exemples de fichiers](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/EXEMPLES.md)   
+- [Guide de saisie](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/GUIDE.md)  
+- [`groom-groom`, assistant à la création de données d'arrêtés de circulation](https://cerema-med.shinyapps.io/groom-groom/)  
 
-[Assistez-vous de groom-groom, outil en ligne expérimental pour le remplissage de certains champs](https://cerema-med.shinyapps.io/groom-groom/)  
-[Référentiel de valeurs pour le champ `VEH_USAGES`](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/referentiels/VEH_USAGES.csv)  
-
-## Présentations
-[2 Septembre 2021 (Cerema & La Région Sud)](https://docs.google.com/presentation/d/1xXVS5TgF8FJknyRHQW3SxCZFS4M-1_jaUQs1H9hXZRU/edit?usp=sharing)  
-[8 Juin 2021 (Cerema, La Région Sud & Etalab)](https://docs.google.com/presentation/d/1bEUZsB0HSjZ4NnFQi50sbwd17YuOOjq_rz5jB_0RbkQ/edit?usp=sharing)  
+## Articles, présentations
+- ["Le Cerema publie un standard de données pour dématérialiser les arrêtés de circulation pour le transport de marchandises en ville" (Article du 20 Septembre 2021)](https://www.cerema.fr/fr/projets/cerema-publie-standard-donnees-dematerialiser-arretes)  
+- [Présentation du 2 Septembre 2021 (Cerema & La Région Sud)](https://docs.google.com/presentation/d/1xXVS5TgF8FJknyRHQW3SxCZFS4M-1_jaUQs1H9hXZRU/edit?usp=sharing)  
+- [Présentation du 8 Juin 2021 (Cerema, La Région Sud & Etalab)](https://docs.google.com/presentation/d/1bEUZsB0HSjZ4NnFQi50sbwd17YuOOjq_rz5jB_0RbkQ/edit?usp=sharing)  
 
 ## Contact
 Un avis, des questions ? Contactez-nous sur data-med@cerema.fr
