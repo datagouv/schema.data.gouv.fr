@@ -1,8 +1,8 @@
 ---
 permalink: /MTES-MCT/acceslibre-schema/latest/changelog.html
-redirect_from: /MTES-MCT/acceslibre-schema/0.0.3/changelog.html
+redirect_from: /MTES-MCT/acceslibre-schema/0.0.4/changelog.html
 title: CHANGELOG de Accessibilité des ERP
-version: 0.0.3
+version: 0.0.4
 ---
 
 ## Changelog

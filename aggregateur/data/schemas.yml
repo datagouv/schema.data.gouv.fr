@@ -124,13 +124,13 @@ MTES-MCT/acceslibre-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/MTES-MCT/acceslibre-schema
-  latest_version: 0.0.3
+  latest_version: 0.0.4
   schemas:
   - examples:
     - name: exemple-valide-csv
       path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.3/exemple-valide.csv
       title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.3/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.4/schema.json
     original_path: schema.json
     path: schema.json
     title: Accessibilité des ERP
@@ -138,12 +138,14 @@ MTES-MCT/acceslibre-schema:
     - 0.0.1
     - 0.0.2
     - 0.0.3
+    - 0.0.4
   title: Accessibilité des ERP
   type: tableschema
   versions:
   - 0.0.1
   - 0.0.2
   - 0.0.3
+  - 0.0.4
 NaturalSolutions/schema-arbre:
   consolidation: null
   description: Spécification des attributs liés aux arbres urbains dans le cadre d'un

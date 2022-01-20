@@ -1,8 +1,8 @@
 ---
-permalink: /MTES-MCT/acceslibre-schema/0.0.3/documentation.html
-redirect_from: null
+permalink: /MTES-MCT/acceslibre-schema/latest/documentation.html
+redirect_from: /MTES-MCT/acceslibre-schema/0.0.4/documentation.html
 title: Documentation de Accessibilité des ERP
-version: 0.0.3
+version: 0.0.4
 ---
 
 ## accessibilite-erp
@@ -85,7 +85,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [accueil_cheminement_nombre_marches](#nombre-de-marches---propriété-accueil_cheminement_nombre_marches) | nombre entier  | Non |
 | [accueil_cheminement_reperage_marches](#repérage-des-marches-ou-de-l'escalier---propriété-accueil_cheminement_reperage_marches) | booléen  | Non |
 | [accueil_cheminement_main_courante](#main-courante---propriété-accueil_cheminement_main_courante) | booléen  | Non |
-| [accueil_cheminement_rampe](#rampe---propriété-accueil_cheminement_rampe) | booléen  | Non |
+| [accueil_cheminement_rampe](#rampe---propriété-accueil_cheminement_rampe) | chaîne de caractères  | None |
 | [accueil_cheminement_sens_marches](#sens-de-circulation-de-l'escalier---propriété-accueil_cheminement_sens_marches) | chaîne de caractères  | None |
 | [accueil_retrecissement](#rétrécissement-du-chemin---propriété-accueil_retrecissement) | booléen  | Non |
 | [sanitaires_presence](#sanitaires---propriété-sanitaires_presence) | booléen  | Non |
@@ -507,9 +507,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `accueil_cheminement_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : True*
+> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
 - Valeur optionnelle
-- Type : booléen
+- Type : chaîne de caractères
+- Valeurs autorisées : 
+    - aucune
+    - fixe
+    - amovible
 
 #### Sens de circulation de l'escalier - Propriété `accueil_cheminement_sens_marches`
 
