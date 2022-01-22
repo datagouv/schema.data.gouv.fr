@@ -4,7 +4,13 @@ import locale
 from functools import cmp_to_key
 
 import exceptions
-from validators import TableSchemaValidator, XsdSchemaValidator, JsonSchemaValidator
+from config import BASE_DOMAIN
+from validators import (
+    TableSchemaValidator,
+    XsdSchemaValidator,
+    JsonSchemaValidator,
+    GenericValidator,
+)
 from notifications import EmailNotification
 from errors import ErrorBag, ErrorsCache
 
@@ -14,26 +20,53 @@ import giturlparse
 from semver import VersionInfo, cmp as SemverCmp
 from git import Repo as GitRepo
 from git.exc import GitError
+import requests
 
 
 class Metadata(object):
-    BASE_DOMAIN = "https://schema.data.gouv.fr"
-
     def __init__(self):
         super(Metadata, self).__init__()
         self.data = {}
 
     def add(self, metadata):
-        slug = metadata["slug"]
-        if slug in self.data:
-            self.data[slug]["versions"].append(metadata["version"])
-            self.data[slug]["has_changelog"] = metadata["has_changelog"]
-        else:
-            special_keys = ["version", "slug"]
-            self.data[slug] = {
-                k: v for k, v in metadata.items() if k not in special_keys
-            }
-            self.data[slug]["versions"] = [metadata["version"]]
+        if(metadata):
+            slug = metadata["slug"]
+
+            if slug in self.data:
+                self.data[slug]["versions"].append(metadata["version"])
+                self.data[slug]["has_changelog"] = metadata["has_changelog"]
+                self.data[slug]["title"] = metadata["title"]
+                self.data[slug]["description"] = metadata["description"]
+                self.data[slug]["homepage"] = metadata["homepage"]
+
+            else:
+                special_keys = ["version", "slug", "schemas"]
+                self.data[slug] = {
+                    k: v for k, v in metadata.items() if k not in special_keys
+                }
+                self.data[slug]["versions"] = [metadata["version"]]
+
+            # Updating schemas' metadata:
+            # - if schema existed before: append version, update latest_url, update title
+            # - if not, add it to the list of schemas
+            for schema in metadata["schemas"]:
+                existing_schemas = self.data[slug].get("schemas", [])
+                updated = False
+                for existing_schema in existing_schemas:
+                    if existing_schema["path"] != schema["path"]:
+                        continue
+                    if("examples" in schema):
+                        examples = schema["examples"]
+                    else:
+                        examples = []
+                    updated = True
+                    existing_schema["versions"].append(metadata["version"])
+                    existing_schema["latest_url"] = schema["latest_url"]
+                    existing_schema["title"] = schema["title"]
+                    existing_schema["examples"] = examples
+                if not updated:
+                    schema["versions"] = [metadata["version"]]
+                    self.data[slug]["schemas"] = existing_schemas + [schema]
 
     def schema_url(self, slug):
         details = self.get()[slug]
@@ -41,9 +74,10 @@ class Metadata(object):
             raise NotImplementedError
         return {
             "tableschema": "%s/schemas/%s/latest/%s"
-            % (self.BASE_DOMAIN, slug, TableSchemaValidator.SCHEMA_FILENAME)
+            % (BASE_DOMAIN, slug, TableSchemaValidator.SCHEMA_FILENAME)
         }[details["type"]]
 
+    
     def get(self):
         for slug, data in self.data.items():
             sorted_versions = sorted(data["versions"], key=cmp_to_key(SemverCmp))
@@ -56,8 +90,22 @@ class Metadata(object):
             yaml.dump(self.get(), f, allow_unicode=True)
 
         # Save in JSON
-        with open("data/schemas.json", "w") as f:
+        with open("data/tableschema-schemas.json", "w") as f:
             json.dump(self.generate_json(), f, ensure_ascii=False)
+
+        # Save in JSON
+        with open("data/schemas.json", "w") as f:
+            json.dump(self.generate_complete_json(), f, ensure_ascii=False)
+
+    def generate_versions_json(self, details, slug):
+        versions = []
+        for s in details["schemas"]:
+            for v in s["versions"]:
+                version = {}
+                version["version_name"] = v
+                version["schema_url"] = BASE_DOMAIN+"/schemas/"+slug+"/"+v+"/"+s["path"]
+                versions.append(version)
+        return versions
 
     def generate_json(self):
         json_data = {
@@ -67,14 +115,18 @@ class Metadata(object):
         schemas = []
 
         for slug, details in self.data.items():
+            
             if details["type"] != "tableschema":
                 continue
+           
             schemas.append(
                 {
                     "name": slug,
                     "title": details["title"],
                     "description": details["description"],
                     "schema_url": self.schema_url(slug),
+                    "contact": details["email"],
+                    "versions": self.generate_versions_json(details,slug)
                 }
             )
 
@@ -83,17 +135,68 @@ class Metadata(object):
         return json_data
 
 
-class Repo(object):
-    SCHEMA_TYPES = ["tableschema", "xsd", "jsonschema"]
+    def generate_complete_json(self):
+        json_data = {
+            "$schema": "https://opendataschema.frama.io/catalog/schema-catalog.json",
+            "version": 1,
+        }
+        schemas = []
 
-    def __init__(self, git_url, email, schema_type):
+        for slug, details in self.data.items():
+            if details["type"] == "tableschema":
+
+                if(details["schemas"][0]["examples"]):
+                    examples = details["schemas"][0]["examples"]
+                else:
+                    examples = []
+
+                schemas.append(
+                    {
+                        "name": slug,
+                        "title": details["title"],
+                        "description": details["description"],
+                        "schema_url": self.schema_url(slug),
+                        "schema_type": details["type"],
+                        "contact": details["email"],
+                        "examples": examples,
+                        "versions": self.generate_versions_json(details,slug)
+                    }
+                )
+            else:
+                schemas.append(
+                    {
+                        "name": slug,
+                        "title": details["title"],
+                        "description": details["description"],
+                        "schema_url": self.get()[slug]["schemas"][0]["latest_url"],
+                        "schema_type": details["type"],
+                        "contact": details["email"],
+                        "versions": self.generate_versions_json(details,slug)
+                    }
+
+                )
+
+        json_data["schemas"] = schemas
+
+        return json_data
+
+
+class Repo(object):
+    SCHEMA_TYPES = ["tableschema", "xsd", "jsonschema", "other"]
+
+    def __init__(self, git_url, email, schema_type, external_doc, external_tool):
         super(Repo, self).__init__()
         parsed_git = giturlparse.parse(git_url)
         self.git_url = git_url
         self.owner = self.find_owner(parsed_git)
         self.name = parsed_git.name
         self.email = email
-        self.git_repo = None
+        self.external_doc = external_doc
+        self.external_tool = external_tool
+        if os.path.isdir(self.clone_dir):
+            self.git_repo = GitRepo(self.clone_dir)
+        else:
+            self.git_repo = None
         self.current_tag = None
         self.cache_latest_valid_tag = None
         if schema_type not in self.SCHEMA_TYPES:
@@ -136,20 +239,34 @@ class Repo(object):
             return XsdSchemaValidator(self)
         elif self.schema_type == "jsonschema":
             return JsonSchemaValidator(self)
+        elif self.schema_type == "other":
+            return GenericValidator(self)
         else:
             raise NotImplementedError
 
+    def remote_available(self):
+        if not self.git_url.startswith("http"):
+            raise NotImplementedError(
+                f"Can only check remote are available over HTTP. git_url is {git_url}"
+            )
+
+        try:
+            r = requests.head(self.git_url, allow_redirects=True, timeout=15)
+            return r.status_code == requests.codes.ok
+        except requests.exceptions.RequestException:
+            return False
+
     def clone_or_pull(self):
+        if not self.remote_available():
+            raise exceptions.GitException(self, "Cannot clone or pull Git repository")
+
         try:
             if os.path.isdir(self.clone_dir):
                 git_repo = GitRepo(self.clone_dir)
-                git_repo.remotes.origin.pull(
-                    "refs/heads/master:refs/heads/origin", kill_after_timeout=10
-                )
+                git_repo.remotes.origin.fetch(tags=True, force=True)
+                git_repo.git.reset("--hard", "origin/master")
             else:
-                git_repo = GitRepo.clone_from(
-                    self.git_url, self.clone_dir, kill_after_timeout=10
-                )
+                git_repo = GitRepo.clone_from(self.git_url, self.clone_dir)
         except GitError:
             raise exceptions.GitException(self, "Cannot clone or pull Git repository")
 
@@ -157,7 +274,7 @@ class Repo(object):
 
     def tags(self):
         if self.git_repo is None or len(self.git_repo.tags) == 0:
-            raise exceptions.NoTagsException(self, "Cannot found tags")
+            raise exceptions.NoTagsException(self, "Cannot find tags")
 
         # Build a list of valid version names only.
         # Raise an exception only if the most recent
@@ -198,9 +315,9 @@ class Repo(object):
             # Examples:
             # Input: 1.0.1 ; Output: ['1.0.1', 'v1.0.1']
             # Input: 1.2.0 ; Output: ['1.2.0', 'v1.2.0', '1.2', 'v1.2']
-            tags = [tag, "v" + tag]
+            tags = [tag, "v" + tag, "V" + tag]
             if tag.endswith(".0"):
-                tags.extend([tag[:-2], "v" + tag[:-2]])
+                tags.extend([tag[:-2], "v" + tag[:-2], "V" + tag[:-2]])
             return tags
 
         git_tags = list(map(str, self.git_repo.tags))
@@ -212,7 +329,7 @@ class Repo(object):
 
     def parse_version(self, version):
         # Allow an extra leading v and/or a missing minor version
-        possible_versions = [version.replace("v", ""), version.replace("v", "") + ".0"]
+        possible_versions = [version.replace("v", "").replace("V",""), version.replace("v", "").replace("V","") + ".0"]
 
         for version in possible_versions:
             try:
@@ -235,13 +352,22 @@ with open("repertoires.yml", "r") as f:
 metadata = Metadata()
 for repertoire_slug, conf in config.items():
     try:
-        repo = Repo(conf["url"], conf["email"], conf["type"])
+        if("external_doc" not in conf):
+            external_doc = None
+        else:
+            external_doc = conf['external_doc']
+        if("external_tool" not in conf):
+            external_tool = None
+        else:
+            external_tool = conf['external_tool']
+        
+        repo = Repo(conf["url"], conf["email"], conf["type"], external_doc,external_tool)
+        
         repo.clone_or_pull()
         tags = repo.tags()
     except exceptions.ValidationException as e:
         errors.add(e)
-        continue
-
+    # tags.sort(reverse=True)
     for tag in tags:
         try:
             repo.checkout_tag(tag)

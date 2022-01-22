@@ -17,9 +17,37 @@ Spécification du fichier de déclaration de profil d'acheteur
 
 ### Modèle de données
 
-|Nom|Type|Description|Exemple|Propriétés|
-|-|-|-|-|-|
-|siretAcheteur|chaîne de caractères|Le numéro SIRET de l'acheteur|79248336400024|Valeur obligatoire, Valeur unique, Motif : `^\d{14}$`|
-|urlProfilAcheteur|chaîne de caractères (format `uri`)|L'adresse URL du profil d'acheteur|http://monacheteur.com/profil|Valeur obligatoire|
-|urlDCAT|chaîne de caractères (format `uri`)|L’adresse URL du catalogue DCAT qui répertorie les données|http://dcat.monacheteur.com/catalog.ttl|Valeur optionnelle|
-|coordonnees|chaîne de caractères|Les coordonnées de l'acheteur concerné|Service Achat, DINSIC, 20 avenue de Ségur, 75007 Paris|Valeur obligatoire|
+
+##### Liste des propriétés
+
+| Propriété | Type | Obligatoire |
+| -- | -- | -- |
+| [siretAcheteur](#propriété-siretacheteur) | chaîne de caractères  | Oui |
+| [urlProfilAcheteur](#propriété-urlprofilacheteur) | chaîne de caractères (format `uri`) | Oui |
+| [urlDCAT](#propriété-urldcat) | chaîne de caractères (format `uri`) | Non |
+| [coordonnees](#propriété-coordonnees) | chaîne de caractères  | Oui |
+
+#### Propriété `siretAcheteur`
+
+> *Description : Le numéro SIRET de l'acheteur<br/>Ex : 79248336400024*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Motif : `^\d{14}$`
+
+#### Propriété `urlProfilAcheteur`
+
+> *Description : L'adresse URL du profil d'acheteur<br/>Ex : http://monacheteur.com/profil*
+- Valeur obligatoire
+- Type : chaîne de caractères (format `uri`)
+
+#### Propriété `urlDCAT`
+
+> *Description : L’adresse URL du catalogue DCAT qui répertorie les données<br/>Ex : http://dcat.monacheteur.com/catalog.ttl*
+- Valeur optionnelle
+- Type : chaîne de caractères (format `uri`)
+
+#### Propriété `coordonnees`
+
+> *Description : Les coordonnées de l'acheteur concerné<br/>Ex : Service Achat, DINSIC, 20 avenue de Ségur, 75007 Paris*
+- Valeur obligatoire
+- Type : chaîne de caractères

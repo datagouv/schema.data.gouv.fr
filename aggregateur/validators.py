@@ -7,23 +7,64 @@ import yaml
 import tableschema
 import jsonschema
 import frontmatter
+from functools import cached_property
 from lxml import etree
+
+import config
 
 from table_schema_to_markdown import convert_source
 
+import markdown
+from markdown.treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+
+import uuid
+
+# First create the treeprocessor
+
+class ImgExtractor(Treeprocessor):
+    def run(self, doc):
+        "Find all images and append to markdown.images. "
+        self.markdown.images = []
+        for image in doc.findall('.//img'):
+            self.markdown.images.append(image.get('src'))
+
+# Then tell markdown about it
+
+class ImgExtExtension(Extension):
+    def extendMarkdown(self, md, md_globals):
+        img_ext = ImgExtractor(md)
+        md.treeprocessors.add('imgext', img_ext, '>inline')
+
+md = markdown.Markdown(extensions=[ImgExtExtension()])
+
+if os.path.exists("./assets/") and os.path.isdir("./assets/"):
+    shutil.rmtree("./assets/")
 
 class BaseValidator(object):
     CHANGELOG_FILENAME = "CHANGELOG.md"
+    CONSOLIDATION_FILENAME = "consolidation.yml"
 
     def __init__(self, repo):
         super(BaseValidator, self).__init__()
         self.repo = repo
         self.git_repo = repo.git_repo
+        self.isValid = True
 
     @property
     def data_dir(self):
         current_dir = os.path.dirname(os.path.realpath(__file__))
         return os.path.join(current_dir, "data")
+
+    @property
+    def asset_dir(self):
+        current_dir = os.path.dirname(os.path.realpath(__file__))
+        return os.path.join(current_dir, "assets")
+
+    @property
+    def static_dir(self):
+        current_dir = os.path.dirname(os.path.realpath(__file__))
+        return os.path.join(current_dir, "static")
 
     @property
     def target_dir(self):
@@ -40,9 +81,57 @@ class BaseValidator(object):
         raise NotImplementedError
 
     def metadata(self):
-        raise NotImplementedError
+        if(self.isValid):
+            slug = self.repo.slug
 
-    def move_files(self, files):
+            return {
+                "slug": slug,
+                "title": self.title,
+                "description": self.description,
+                "homepage": self.homepage,
+                "type": self.repo.schema_type,
+                "consolidation": self.consolidation_data(slug),
+                "email": self.repo.email,
+                "external_doc":self.repo.external_doc,
+                "external_tool":self.repo.external_tool,
+                "version": self.repo.current_version,
+                "has_changelog": self.has_changelog,
+                "schemas": self.schemas_metadata(),
+            }
+
+    def schema_url(self, path):
+        return f"{config.BASE_DOMAIN}/schemas/{self.repo.slug}/{self.repo.current_version}/{path}"
+
+    def consolidation_data(self, slug):
+        with open(os.path.join(self.static_dir, self.CONSOLIDATION_FILENAME)) as f:
+            return yaml.safe_load(f).get(slug, None)
+
+    def change_images_link(self, content,assetnewnames):
+        html = md.convert(content)
+        for img in md.images:
+            ext = os.path.splitext(img)[1]
+            filename = os.path.basename(img)
+            new_filename = filename.split(ext)[0]
+            if filename in assetnewnames:
+                new_filename = assetnewnames[filename]
+            if(img.startswith('./assets/')):
+                content = content.replace('(./assets/'+filename+')','(/assets/images/'+new_filename+ext+')')
+            if(img.startswith('assets/')):
+                content = content.replace('(assets/'+filename+')','(/assets/images/'+new_filename+ext+')')
+        html = md.convert(content)
+        return content
+
+    def move_assets(self,assetfiles,assetnewnames):
+        if not os.path.exists(self.asset_dir):
+            os.makedirs(self.asset_dir)
+
+        for asset in assetfiles:
+            for assetnewname in assetnewnames:
+                if(asset == assetnewname):
+                    ext = os.path.splitext(asset)[1]
+                    shutil.copyfile(assetfiles[asset], self.asset_dir+"/"+assetnewnames[assetnewname]+ext)
+
+    def move_files(self, files, assetnewnames={}):
         if not os.path.exists(self.target_dir):
             os.makedirs(self.target_dir)
 
@@ -58,6 +147,7 @@ class BaseValidator(object):
                 content = frontmatter.dumps(
                     frontmatter.load(src_filepath, **front_matter)
                 )
+                content = self.change_images_link(content,assetnewnames)
                 with open(self.target_filepath(filename), "w") as f:
                     f.write(content)
             else:
@@ -136,6 +226,21 @@ class BaseValidator(object):
                 "version": version,
                 "redirect_from": redirect_from,
             }
+        if filename.endswith(".md"):
+            if self.is_latest_version():
+                permalink = "/%s/%s/%s.html" % (slug, "latest",os.path.splitext(filename)[0])
+                redirect_from = "/%s/%s/%s.html" % (slug, version,os.path.splitext(filename)[0])
+            else:
+                permalink = "/%s/%s/%s.html" % (slug, version,os.path.splitext(filename)[0])
+                redirect_from = None
+
+            return {
+                "permalink": permalink,
+                "title": "Documentation de " + self.title + " : propriété " + os.path.splitext(filename)[0],
+                "version": version,
+                "redirect_from": redirect_from,
+            }
+
         return None
 
     def is_latest_version(self):
@@ -154,11 +259,14 @@ class XsdSchemaValidator(BaseValidator):
     def schemas_metadata(self):
         res = []
         for schema in self.schemas_config:
+            path = os.path.basename(schema["path"])
+
             res.append(
                 {
-                    "path": os.path.basename(schema["path"]),
+                    "path": path,
                     "original_path": schema["path"],
                     "title": schema["title"],
+                    "latest_url": self.schema_url(path),
                 }
             )
 
@@ -209,19 +317,6 @@ class XsdSchemaValidator(BaseValidator):
 
         self.move_files(files)
 
-    def metadata(self):
-        return {
-            "slug": self.repo.slug,
-            "title": self.title,
-            "description": self.description,
-            "homepage": self.homepage,
-            "type": self.repo.schema_type,
-            "email": self.repo.email,
-            "version": self.repo.current_version,
-            "has_changelog": self.has_changelog,
-            "schemas": self.schemas_metadata(),
-        }
-
 
 class JsonSchemaValidator(XsdSchemaValidator):
     def __init__(self, repo):
@@ -256,12 +351,21 @@ class TableSchemaValidator(BaseValidator):
                 "path": self.SCHEMA_FILENAME,
                 "original_path": self.SCHEMA_FILENAME,
                 "title": self.title,
+                "latest_url": self.schema_url(self.SCHEMA_FILENAME),
+                "examples": self.examples
             }
         ]
 
     @property
     def title(self):
         return self.schema_json_data()["title"]
+
+    @property
+    def examples(self):
+        self.schema_json_data()["version"]
+        if("resources" in self.schema_json_data()):
+            return self.schema_json_data()["resources"]
+        return
 
     @property
     def description(self):
@@ -278,8 +382,27 @@ class TableSchemaValidator(BaseValidator):
         self.check_extra_keys()
 
     def extract(self):
+        links = []
+        documentationfiles = {}
+        assetfiles = {}
+        assetnewnames = {}
+
+        '''
+        if(os.path.isdir(self.filepath("documentation/"))):
+            if(os.path.isdir(self.filepath("documentation/assets/"))):
+                for filename in os.listdir(self.filepath("documentation/assets/")):
+                    assetnewnames = {**assetnewnames, **{filename: str(uuid.uuid1())}}
+                    assetfiles = {**assetfiles, **{filename: self.filepath("documentation/assets/"+filename)}}
+
+            for filename in os.listdir(self.filepath("documentation/")):
+                print(filename)
+                if filename.endswith(".md"):
+                    links.append(os.path.splitext(filename)[0].lower())
+                    documentationfiles = {**documentationfiles, **{filename: self.filepath("documentation/")+filename}}
+        '''
+
         with open(self.filepath("documentation.md"), "w") as out:
-            convert_source(self.filepath(self.SCHEMA_FILENAME), out)
+            convert_source(self.filepath(self.SCHEMA_FILENAME), out, 'page',links)
 
         files = {
             self.SCHEMA_FILENAME: self.filepath_or_none(self.SCHEMA_FILENAME),
@@ -289,12 +412,15 @@ class TableSchemaValidator(BaseValidator):
             "documentation.md": self.filepath("documentation.md"),
         }
 
+        files = {**files, **documentationfiles}
+
         if self.is_latest_version():
             files[self.CHANGELOG_FILENAME] = self.filepath_or_none(
                 self.CHANGELOG_FILENAME
             )
-
-        self.move_files(files)
+        
+        self.move_files(files,assetnewnames)
+        self.move_assets(assetfiles,assetnewnames)
 
     def check_extra_keys(self):
         keys = ["title", "description", "homepage", "version"]
@@ -315,6 +441,11 @@ class TableSchemaValidator(BaseValidator):
                 errors,
             )
             raise exceptions.InvalidSchemaException(self.repo, message)
+        except:
+            message = "Schema %s is not a valid TableSchema schema." % (
+                filename
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
 
     def schema_json_data(self):
         if self.schema_data is not None:
@@ -324,15 +455,81 @@ class TableSchemaValidator(BaseValidator):
             self.schema_data = json.load(f)
         return self.schema_data
 
-    def metadata(self):
-        return {
-            "slug": self.repo.slug,
-            "title": self.title,
-            "description": self.description,
-            "homepage": self.homepage,
-            "type": self.repo.schema_type,
-            "email": self.repo.email,
-            "version": self.repo.current_version,
-            "has_changelog": self.has_changelog,
-            "schemas": self.schemas_metadata(),
+
+class GenericValidator(BaseValidator):
+    SCHEMA_FILENAME = "schema.yml"
+
+    def __init__(self, repo):
+        super().__init__(repo)
+        self.has_changelog = False
+
+    def schemas_metadata(self):
+        return [
+            {
+                "path": self.SCHEMA_FILENAME,
+                "original_path": self.SCHEMA_FILENAME,
+                "title": self.title,
+                "latest_url": self.schema_url(self.SCHEMA_FILENAME),
+            }
+        ]
+
+    @property
+    def title(self):
+        return self.schema_data["title"]
+
+    @property
+    def description(self):
+        return self.schema_data["description"]
+
+    @property
+    def homepage(self):
+        return self.schema_data["homepage"]
+
+    def validate(self):
+        super().validate()
+        # order matters!
+        
+        try:
+            self.check_file_exists(self.SCHEMA_FILENAME)
+            self.check_schema(self.SCHEMA_FILENAME)
+            self.check_extra_keys()
+        except:
+            self.isValid = False
+
+    def extract(self):
+        files = {
+            self.SCHEMA_FILENAME: self.filepath(self.SCHEMA_FILENAME),
+            "README.md": self.filepath_or_none("README.md"),
+            "SEE_ALSO.md": self.filepath_or_none("SEE_ALSO.md"),
+            "CONTEXT.md": self.filepath_or_none("CONTEXT.md"),
         }
+
+        if self.is_latest_version():
+            changelog_path = self.filepath_or_none(self.CHANGELOG_FILENAME)
+            files[self.CHANGELOG_FILENAME] = changelog_path
+            self.has_changelog = changelog_path is not None
+
+        if(self.isValid): self.move_files(files)
+
+    def check_extra_keys(self):
+        keys = ["title", "description", "homepage", "version"]
+        for key in [k for k in keys if k not in self.schema_data]:
+            message = "Key `%s` is a required key and is missing from %s" % (
+                key,
+                self.SCHEMA_FILENAME,
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+    def check_schema(self, filename):
+        try:
+            _ = self.schema_data
+        except yaml.error.YAMLError as e:
+            message = "Yaml file not valid. Error: %s" % (
+                repr(e),
+            )
+            raise exceptions.InvalidSchemaException(self.repo, message)
+
+    @cached_property
+    def schema_data(self):
+        with open(self.filepath(self.SCHEMA_FILENAME)) as f:
+            return yaml.safe_load(f) or {}

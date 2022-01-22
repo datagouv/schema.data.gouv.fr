@@ -9,5 +9,9 @@ Ce dépôt comporte plusieurs composants :
 - un aggrégateur de schémas publiés en ligne, dans le dossier `aggregateur`
 - le site web de schema.data.gouv.fr, dans le dossier `web`
 
+## Limitations connues
+- Certaines fonctionnalités JavaScript du site web ne sont [pas supportées par Internet Explorer](https://github.com/etalab/schema.data.gouv.fr/pull/102#issuecomment-624131955)
+
 ## Licence
 Le code source du répertoire est publié sous la licence MIT. Les données, disponibles dans le répertoire sont publiées sous la Licence Ouverte 2.0.
+

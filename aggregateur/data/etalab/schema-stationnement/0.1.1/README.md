@@ -1,6 +1,6 @@
 ---
-permalink: /etalab/schema-stationnement/latest.html
-redirect_from: /etalab/schema-stationnement/0.1.1.html
+permalink: /etalab/schema-stationnement/0.1.1.html
+redirect_from: null
 title: Lieux de stationnement
 version: 0.1.1
 ---

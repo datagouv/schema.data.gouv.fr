@@ -1,0 +1,12 @@
+etalab/schema-irve:
+  dataset_id: 5448d3e0c751df01f85d0572
+  tags:
+  - irve
+etalab/schema-lieux-covoiturage:
+  dataset_id: 5d6eaffc8b4c417cdc452ac3
+  tags:
+  - covoiturage
+etalab/schema-stationnement:
+  dataset_id: 5ea1add4a5a7dac3af82310a
+  tags:
+  - stationnement

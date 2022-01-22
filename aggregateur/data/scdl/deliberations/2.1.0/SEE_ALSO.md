@@ -1,3 +1,10 @@
+---
+permalink: /scdl/deliberations/2.1.0/SEE_ALSO.html
+redirect_from: null
+title: 'Documentation de Délibérations : propriété SEE_ALSO'
+version: 2.1.0
+---
+
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
 * Exemple de fichier

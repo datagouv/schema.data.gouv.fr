@@ -1,6 +1,6 @@
 ---
-permalink: /etalab/schema-irve/latest.html
-redirect_from: /etalab/schema-irve/1.0.2.html
+permalink: /etalab/schema-irve/1.0.2.html
+redirect_from: null
 title: Infrastructures de recharge pour véhicules électriques
 version: 1.0.2
 ---

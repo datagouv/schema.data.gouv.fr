@@ -1,3 +1,10 @@
+---
+permalink: /scdl/equipements/0.1.0/SEE_ALSO.html
+redirect_from: null
+title: 'Documentation de Equipements : propriété SEE_ALSO'
+version: 0.1.0
+---
+
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
 * [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-equipements.xlsx)
