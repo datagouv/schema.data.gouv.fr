@@ -1,0 +1,154 @@
+irve:
+  url: https://github.com/etalab/schema-irve.git
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
+format-commande-publique:
+  url: https://github.com/139bercy/format-commande-publique.git
+  type: jsonschema
+  email: schema@data.gouv.fr
+decp-dpa:
+  url: https://github.com/etalab/schema-decp-dpa.git
+  type: tableschema
+  email: schema@data.gouv.fr
+catalogue:
+  url: https://git.opendatafrance.net/scdl/catalogue.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+deliberations:
+  url: https://git.opendatafrance.net/scdl/deliberations.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+equipements:
+  url: https://git.opendatafrance.net/scdl/equipements.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+subventions:
+  url: https://git.opendatafrance.net/scdl/subventions.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+covoiturage:
+  url: https://github.com/etalab/schema-lieux-covoiturage.git
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+infos-travaux:
+  url: https://github.com/metis-reseaux/infos-travaux.git
+  type: jsonschema
+  email: contact@gotmi.io
+stationnement:
+  url: https://github.com/etalab/schema-stationnement.git
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+budget:
+  url: https://git.opendatafrance.net/scdl/budget.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+dae:
+  url: https://gitlab.com/arsante/atlasante/schema-dae.git
+  type: tableschema
+  email: contact@geodae.sante.gouv.fr
+prenoms:
+  url: https://git.opendatafrance.net/scdl/prenoms.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+arbres_urbains:
+  url: https://github.com/NaturalSolutions/schema-arbre.git
+  type: tableschema
+  email: contact@natural-solutions.eu
+amenagements-cyclables:
+  url: https://github.com/etalab/schema-amenagements-cyclables
+  type: jsonschema
+  email: contact@transport.beta.gouv.fr
+  external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables
+stationnement-cyclable:
+  url: https://github.com/etalab/schema-stationnement-cyclable
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable
+inclusion-numerique:
+  url: https://github.com/etalab/schema-inclusion-numerique.git
+  type: tableschema
+  email: carto@aidantsconnect.beta.gouv.fr
+bal:
+  url: https://github.com/etalab/schema-bal
+  type: other
+  email: adresse@data.gouv.fr
+  external_doc: https://adresse.data.gouv.fr/bases-locales
+  external_tool: https://mes-adresses.data.gouv.fr/new
+hautes-remunerations:
+  url: https://github.com/etalab/schema-hautes-remunerations
+  type: tableschema
+  email: schema@data.gouv.fr
+menus-restauration:
+  url: https://git.opendatafrance.net/scdl/menus-collectifs.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+plats-restauration:
+  url: https://git.opendatafrance.net/scdl/plats-menus-collectifs.git
+  type: tableschema
+  email: scdl@opendatafrance.email
+accessibilite-erp:
+  url: https://github.com/MTES-MCT/acceslibre-schema.git
+  type: tableschema
+  email: acceslibre@beta.gouv.fr
+sdirve:
+  url: https://github.com/etalab/schema-sdirve.git
+  type: tableschema
+  email: schema@data.gouv.fr
+registre-archive:
+  url: https://github.com/Archivistes75/registre_entrees.git
+  type: tableschema
+  email: hello@datactivist.coop
+datatourisme:
+  url: https://framagit.org/datatourisme/ontology.git
+  type: other
+  email: contact@datatourisme.fr
+schema-zfe:
+  url: https://github.com/etalab/schema-zfe
+  type: jsonschema
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
+arrete-circulation-marchandise:
+  url: https://github.com/CEREMA/schema-arrete-circulation-marchandises.git
+  type: tableschema
+  email: data-med@cerema.fr
+stations-taxi:
+  url: https://github.com/openmaraude/schema-stationstaxi.git
+  type: tableschema
+  email: tech@le.taxi
+vehicules-faibles-emissions-renouvellement-parc:
+  url: https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc.git
+  type: tableschema
+  email: schema@data.gouv.fr
+point-eau-incendie:
+  url: https://gitlab.com/datakode/schema-pei.git
+  type: tableschema
+  email: portier@datakode.fr
+itineraire-randonnee:
+  url: https://github.com/PnX-SI/schema_randonnee.git
+  type: jsonschema
+  email: schema@data.gouv.fr
+emprise-stationnement-voirie:
+  url: https://github.com/macaron-ai/onstreet-parking-schema.git
+  type: jsonschema
+  email: contact@transport.beta.gouv.fr
+passage-a-niveau:
+  url: https://github.com/etalab/schema-passage-a-niveau
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+mobilite-site:
+  url: https://github.com/etalab/schema-comptage-mobilites-site
+  type: tableschema
+  email: contact@transport.beta.gouv.fr 
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+mobilite-channel:
+  url: https://github.com/etalab/schema-comptage-mobilites-channel
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+mobilite-measure:
+  url: https://github.com/etalab/schema-comptage-mobilites-measure
+  type: tableschema
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
