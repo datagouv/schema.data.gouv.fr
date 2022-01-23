@@ -66,7 +66,6 @@ export default {
   },
   mounted() {
     var dataSchemas = require('../../public/schemas.json')
-    console.log(dataSchemas)
     let schemas = []
     let datapackage_list = []
     dataSchemas.schemas.forEach((s) => {
@@ -86,7 +85,6 @@ export default {
         }
       }
     })
-    console.log(schemas)
     this.schemas = schemas
     this.schemasToShow = schemas.sort(function(a, b){
       var nameA=latinize(a.title), nameB=latinize(b.title);

@@ -119,41 +119,34 @@ export default {
   mounted() {
       const si = require('../../public/schema-infos.json');
       this.schema = this.$router.currentRoute.path.split('/')[1]+"/"+this.$router.currentRoute.path.split('/')[2]
-      console.log(this.schema)
       for (const [key, value] of Object.entries(si)) {
         if(key == this.schema) {
             this.schema_infos = value;
         }
       }
-      if(!this.schema_infos) {
+      let lengthDP = 0
+      if(!this.schema_infos){
+        lengthDP = 1
         this.schema = this.$router.currentRoute.path.split('/')[1]+"/"+this.$router.currentRoute.path.split('/')[2]+"/"+this.$router.currentRoute.path.split('/')[3]
-        console.log(this.schema)
         for (const [key, value] of Object.entries(si)) {
-            if(key == this.schema) {
-                this.schema_infos = value;
-            }
-        }  
+          if(key == this.schema) {
+            this.schema_infos = value;
+          }
+        }         
       }
-      console.log(this.schema_infos)
-      let lengthToAdd = 0
-      if (typeof this.schema_infos.datapackage === 'string' && this.schema_infos.datapackage.length) {
-          lengthToAdd = 1
-      }
-      console.log('uhu')
-      if (this.$router.currentRoute.path.split('/').length > (4+lengthToAdd)) {
-        this.version = this.$router.currentRoute.path.split('/')[(3+lengthToAdd)]
+      if (this.$router.currentRoute.path.split('/').length > (4+lengthDP)) {
+          this.version = this.$router.currentRoute.path.split('/')[(3+lengthDP)]
       } else {
-      // URL like /etalab/schema-hautes-remunerations/0.1.0.html
-      if (this.$router.currentRoute.path.split('/')[3].match(/\d+\.\d+\.\d+\.html/)) {
-        this.version = this.$router.currentRoute.path.split('/')[3].replace('.html','')
-      } else {
-        this.version = this.schema_infos['latest']
+          // URL like /etalab/schema-hautes-remunerations/0.1.0.html
+          if (this.$router.currentRoute.path.split('/')[3].match(/\d+\.\d+\.\d+\.html/)) {
+              this.version = this.$router.currentRoute.path.split('/')[3].replace('.html','')
+          } else {
+            this.version = this.schema_infos['latest']
+          }
       }
-
-    }
+      
       var last = this.$router.currentRoute.path.split('/')[this.$router.currentRoute.path.split('/').length - 1]
       if(last == 'documentation.html'){
-        console.log('jiji')
         this.pageDoc = true
       } else if(last == 'CHANGELOG.html'){
         this.pageChange = true
