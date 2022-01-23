@@ -54,8 +54,27 @@ export default {
   },
   mounted() {
     var dataSchemas = require('../../public/schemas.json')
-    this.schemas = dataSchemas.schemas
-    this.schemasToShow = dataSchemas.schemas
+    let schemas = []
+    let datapackage_list = []
+    dataSchemas.schemas.forEach((s) => {
+      if(!s.hasOwnProperty('datapackage_name')){
+        console.log(s['name'])
+        schemas.push(s)
+      } else {
+        console.log('no'+s['name'])
+        if (!datapackage_list.includes(s['datapackage_name'])){
+          datapackage_list.push(s['datapackage_name'])
+          let new_schema = {}
+          console.log('yoyo')
+          new_schema['name'] = s['datapackage_name']
+          new_schema['title'] = s['datapackage_title']
+          new_schema['description'] = s['datapackage_description']
+          schemas.push(new_schema)
+        }
+      }
+    })
+    this.schemas = schemas
+    this.schemasToShow = schemas
     var statsSchemas = require('../../public/stats.json')
     this.stats = statsSchemas
   },

@@ -66,8 +66,29 @@ export default {
   },
   mounted() {
     var dataSchemas = require('../../public/schemas.json')
-    this.schemas = dataSchemas.schemas
-    this.schemasToShow = dataSchemas.schemas.sort(function(a, b){
+    console.log(dataSchemas)
+    let schemas = []
+    let datapackage_list = []
+    dataSchemas.schemas.forEach((s) => {
+      if(!s.hasOwnProperty('datapackage_name')){
+        console.log(s['name'])
+        schemas.push(s)
+      } else {
+        console.log('no'+s['name'])
+        if (!datapackage_list.includes(s['datapackage_name'])){
+          datapackage_list.push(s['datapackage_name'])
+          let new_schema = {}
+          console.log('yoyo')
+          new_schema['name'] = s['datapackage_name']
+          new_schema['title'] = s['datapackage_title']
+          new_schema['description'] = s['datapackage_description']
+          schemas.push(new_schema)
+        }
+      }
+    })
+    console.log(schemas)
+    this.schemas = schemas
+    this.schemasToShow = schemas.sort(function(a, b){
       var nameA=latinize(a.title), nameB=latinize(b.title);
       if (nameA < nameB) //sort string ascending
         return -1;

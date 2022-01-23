@@ -1,0 +1,50 @@
+{
+    "name": "services",
+    "title": "Services",
+    "version": "0.1.0",
+    "homepage": "https://github.com/geoffreyaldebert/poc-multi-tableschema",
+    "description": "Schéma de services",
+    "fields": [
+        {
+          "name": "id_service",
+          "type": "string",
+          "format": "default",
+          "description": "Unique identifier.",
+          "example": "19257e02-4ea8-48cf-88a8-3f1939571881",
+          "constraints": {
+            "required": true,
+            "unique": true
+          }
+        },
+        {
+          "name": "id_lieu",
+          "type": "string",
+          "format": "default",
+          "description": "Identifier of location where service takes place.",
+          "example": "19257e02-4ea8-48cf-88a8-3f1939571881",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": "nom_service",
+          "type": "string",
+          "format": "default",
+          "description": "Name of service.",
+          "example": "Impression 3D",
+          "constraints": {
+            "required": true
+          }
+        }
+    ],
+    "primaryKey": "id_service",
+    "foreignKeys": [
+        {
+            "fields": "id_lieu",
+            "reference": {
+                "resource": "lieux",
+                "fields": "id_lieu"
+            }
+        }
+    ]
+}

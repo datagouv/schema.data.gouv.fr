@@ -1,0 +1,3 @@
+<MenuSchema />
+
+POC multi tableschema

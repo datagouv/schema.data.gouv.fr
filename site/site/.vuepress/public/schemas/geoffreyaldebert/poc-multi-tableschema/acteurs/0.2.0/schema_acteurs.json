@@ -1,0 +1,50 @@
+{
+    "name": "acteurs",
+    "title": "Acteurs",
+    "version": "0.1.0",
+    "homepage": "https://github.com/geoffreyaldebert/poc-multi-tableschema",
+    "description": "Schéma des acteurs",
+    "fields": [
+        {
+          "name": "id_acteur",
+          "type": "string",
+          "format": "default",
+          "description": "Unique identifier.",
+          "example": "19257e02-4ea8-48cf-88a8-3f1939571881",
+          "constraints": {
+            "required": true,
+            "unique": true
+          }
+        },
+        {
+          "name": "id_service",
+          "type": "string",
+          "format": "default",
+          "description": "Identifier of service proposed by an actor.",
+          "example": "19257e02-4ea8-48cf-88a8-3f1939571881",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": "nom_acteur",
+          "type": "string",
+          "format": "default",
+          "description": "Name of actor.",
+          "example": "Association locale Impression 3D",
+          "constraints": {
+            "required": true
+          }
+        }
+    ],
+    "primaryKey": "id_acteur",
+    "foreignKeys": [
+        {
+            "fields": "id_service",
+            "reference": {
+                "resource": "services",
+                "fields": "id_service"
+            }
+        }
+    ]
+}
