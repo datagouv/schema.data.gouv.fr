@@ -179,13 +179,19 @@ mobilite-site:
   type: tableschema
   email: contact@transport.beta.gouv.fr 
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+  labels:
+    - transport.data.gouv.fr
 mobilite-channel:
   url: https://github.com/etalab/schema-comptage-mobilites-channel
   type: tableschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+  labels:
+    - transport.data.gouv.fr
 mobilite-measure:
   url: https://github.com/etalab/schema-comptage-mobilites-measure
   type: tableschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+  labels:
+    - transport.data.gouv.fr
