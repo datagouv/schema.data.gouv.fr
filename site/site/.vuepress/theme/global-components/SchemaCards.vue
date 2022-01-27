@@ -32,7 +32,7 @@
       Les labels permettent de filtrer les schémas selon une classification particulière. Aujourd'hui, deux labels sont disponibles : 
       <ul>
         <li>
-          <b>Socle Commun des Données Locales</b>, qui liste les schémas mis en avant par Opendatafrance, à destination des collectivités territoriales,
+          <b>Socle Commun des Données Locales</b>, qui liste les schémas à destination des collectivités territoriales dont la publication des données est considérée comme prioritaire,
         </li>
         <li>
           <b>transport.data.gouv.fr</b>, qui liste les schémas mis en avant par transport.data.gouv.fr, relatifs à la mobilité et aux transports.
