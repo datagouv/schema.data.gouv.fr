@@ -7,8 +7,7 @@
   external_tool: null
   has_changelog: false
   homepage: https://github.com/139bercy/format-commande-publique
-  labels:
-  - Socle Commun des Données Locales
+  labels: null
   latest_version: 1.5.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
@@ -69,34 +68,31 @@ CEREMA/schema-arrete-circulation-marchandises:
   has_changelog: true
   homepage: https://github.com/CEREMA/schema-arrete-circulation
   labels: null
-  latest_version: 0.6.3
+  latest_version: 0.7.0
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemple-valide.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemple-valide.csv
       title: Fichier valide
     - name: carros-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/carros.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/carros.csv
       title: Fichier valide pour la commune de Carros (CSV)
-    - name: fuveau-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/fuveau.csv
-      title: Fichier valide pour la commune de Fuveau (CSV)
     - name: gignac-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/gignac.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/gignac.csv
       title: Fichier valide pour la commune de Gignac-La-Nerthe (CSV)
     - name: le-rove-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/le-rove.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/le-rove.csv
       title: Fichier valide pour la commune du Rove (CSV)
     - name: st-victoret-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/st-victoret.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/st-victoret.csv
       title: Fichier valide pour la commune de St-Victoret (CSV)
     - name: septemes-les-vallons-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/septemes-les-vallons.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/septemes-les-vallons.csv
       title: Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)
     - name: vence-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.6.3/exemples/vence.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/vence.csv
       title: Fichier valide pour la commune de Vence (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.6.3/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.7.0/schema.json
     original_path: schema.json
     path: schema.json
     title: Arrêtés permanents de circulation pour le transport de marchandises
@@ -109,6 +105,7 @@ CEREMA/schema-arrete-circulation-marchandises:
     - 0.6.1
     - 0.6.2
     - 0.6.3
+    - 0.7.0
   title: Arrêtés permanents de circulation pour le transport de marchandises
   type: tableschema
   versions:
@@ -120,6 +117,7 @@ CEREMA/schema-arrete-circulation-marchandises:
   - 0.6.1
   - 0.6.2
   - 0.6.3
+  - 0.7.0
 MTES-MCT/acceslibre-schema:
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité
@@ -130,13 +128,13 @@ MTES-MCT/acceslibre-schema:
   has_changelog: true
   homepage: https://github.com/MTES-MCT/acceslibre-schema
   labels: null
-  latest_version: 0.0.3
+  latest_version: 0.0.4
   schemas:
   - examples:
     - name: exemple-valide-csv
       path: https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.3/exemple-valide.csv
       title: Fichier valide (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.3/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.4/schema.json
     original_path: schema.json
     path: schema.json
     title: Accessibilité des ERP
@@ -144,12 +142,14 @@ MTES-MCT/acceslibre-schema:
     - 0.0.1
     - 0.0.2
     - 0.0.3
+    - 0.0.4
   title: Accessibilité des ERP
   type: tableschema
   versions:
   - 0.0.1
   - 0.0.2
   - 0.0.3
+  - 0.0.4
 NaturalSolutions/schema-arbre:
   consolidation: null
   description: Spécification des attributs liés aux arbres urbains dans le cadre d'un
@@ -223,7 +223,8 @@ arsante/schema-dae:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
-  labels: null
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 1.0.3
   schemas:
   - examples:
@@ -310,6 +311,7 @@ etalab/schema-amenagements-cyclables:
   homepage: https://github.com/etalab/schema_amenagements_cyclables
   labels:
   - transport.data.gouv.fr
+  - Socle Commun des Données Locales
   latest_version: 0.3.3
   schemas:
   - examples: []
@@ -369,8 +371,7 @@ etalab/schema-decp-dpa:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/etalab/schema-decp-dpa
-  labels:
-  - Socle Commun des Données Locales
+  labels: null
   latest_version: 1.0.0
   schemas:
   - examples: null
@@ -490,16 +491,16 @@ etalab/schema-lieux-covoiturage:
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   labels:
   - transport.data.gouv.fr
-  latest_version: 0.2.1
+  latest_version: 0.2.2
   schemas:
   - examples:
     - name: exemple-valide
-      path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.csv
+      path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv
       title: Ressource valide
     - name: exemple-invalide
-      path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-invalide.csv
+      path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv
       title: Ressource invalide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
@@ -510,6 +511,7 @@ etalab/schema-lieux-covoiturage:
     - 0.1.2
     - 0.2.0
     - 0.2.1
+    - 0.2.2
   title: Lieux de covoiturage
   type: tableschema
   versions:
@@ -519,6 +521,7 @@ etalab/schema-lieux-covoiturage:
   - 0.1.2
   - 0.2.0
   - 0.2.1
+  - 0.2.2
 etalab/schema-passage-a-niveau:
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de passages à niveau.
@@ -693,10 +696,10 @@ etalab/schema-zfe:
   homepage: https://github.com/etalab/schema-zfe
   labels:
   - transport.data.gouv.fr
-  latest_version: 0.7.1
+  latest_version: 0.7.2
   schemas:
   - examples: []
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.7.1/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-zfe/0.7.2/schema.json
     original_path: schema.json
     path: schema.json
     title: Zone à Faibles Emissions
@@ -704,12 +707,14 @@ etalab/schema-zfe:
     - 0.6.1
     - 0.7.0
     - 0.7.1
+    - 0.7.2
   title: Zone à Faibles Emissions
   type: jsonschema
   versions:
   - 0.6.1
   - 0.7.0
   - 0.7.1
+  - 0.7.2
 macaron-ai/onstreet-parking-schema:
   consolidation: null
   description: Spécification du schéma de données d'emprises de stationnement
