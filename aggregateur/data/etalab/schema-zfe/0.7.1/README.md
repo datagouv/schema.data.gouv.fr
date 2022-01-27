@@ -1,6 +1,6 @@
 ---
-permalink: /etalab/schema-zfe/latest.html
-redirect_from: /etalab/schema-zfe/0.7.1.html
+permalink: /etalab/schema-zfe/0.7.1.html
+redirect_from: null
 title: Zone à Faibles Emissions
 version: 0.7.1
 ---

@@ -1,6 +1,6 @@
 ---
-permalink: /MTES-MCT/acceslibre-schema/latest/documentation.html
-redirect_from: /MTES-MCT/acceslibre-schema/0.0.3/documentation.html
+permalink: /MTES-MCT/acceslibre-schema/0.0.3/documentation.html
+redirect_from: null
 title: Documentation de Accessibilité des ERP
 version: 0.0.3
 ---

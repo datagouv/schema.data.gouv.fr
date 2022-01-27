@@ -1,6 +1,6 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/latest/documentation.html
-redirect_from: /etalab/schema-lieux-covoiturage/0.2.1/documentation.html
+permalink: /etalab/schema-lieux-covoiturage/0.2.1/documentation.html
+redirect_from: null
 title: Documentation de Lieux de covoiturage
 version: 0.2.1
 ---

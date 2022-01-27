@@ -363,6 +363,87 @@ etalab/schema-bal:
   type: other
   versions:
   - 1.1.0
+etalab/schema-comptage-mobilites-channel:
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux comptages des mobilités.
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-comptage-mobilites-channel
+  latest_version: 0.1.0
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://raw.githubusercontent.com/etalab/comptage-mobilites-channel/v0.1.0/exemple-valide.csv
+      title: Fichier valide (CSV)
+    - name: exemple-valide-eco-compteur.csv
+      path: https://raw.githubusercontent.com/etalab/comptage-mobilites-channel/v0.1.0/exemple-valide-eco-compteur.csv
+      title: Deuxième fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/0.1.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Comptage des mobilités (Channel)
+    versions:
+    - 0.1.0
+  title: Comptage des mobilités (Channel)
+  type: tableschema
+  versions:
+  - 0.1.0
+etalab/schema-comptage-mobilites-measure:
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux comptages des mobilités.
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-comptage-mobilites-measure
+  latest_version: 0.1.0
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://raw.githubusercontent.com/etalab/comptage-mobilites-measure/v0.1.0/exemple-valide.csv
+      title: Fichier valide (CSV)
+    - name: exemple-valide-eco-compteur.csv
+      path: https://raw.githubusercontent.com/etalab/comptage-mobilites-measure/v0.1.0/exemple-valide-eco-compteur.csv
+      title: Deuxième fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/0.1.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Comptage des mobilités (measure)
+    versions:
+    - 0.1.0
+  title: Comptage des mobilités (measure)
+  type: tableschema
+  versions:
+  - 0.1.0
+etalab/schema-comptage-mobilites-site:
+  consolidation: null
+  description: Spécification du fichier d'échange relatif aux comptages des mobilités.
+  email: contact@transport.beta.gouv.fr
+  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
+  external_tool: null
+  has_changelog: true
+  homepage: https://github.com/etalab/schema-comptage-mobilites-site
+  latest_version: 0.1.0
+  schemas:
+  - examples:
+    - name: exemple-valide-csv
+      path: https://raw.githubusercontent.com/etalab/comptage-mobilites-site/v0.1.0/exemple-valide.csv
+      title: Fichier valide (CSV)
+    - name: exemple-valide-eco-compteur.csv
+      path: https://raw.githubusercontent.com/etalab/comptage-mobilites-site/v0.1.0/exemple-valide-eco-compteur.csv
+      title: Deuxième fichier valide (CSV)
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/0.1.0/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Comptage des mobilités (Site)
+    versions:
+    - 0.1.0
+  title: Comptage des mobilités (Site)
+  type: tableschema
+  versions:
+  - 0.1.0
 etalab/schema-decp-dpa:
   consolidation: null
   description: Spécification du fichier de déclaration de profil d'acheteur
@@ -993,6 +1074,32 @@ scdl/plats-menus-collectifs:
   - 0.3.0
   - 0.4.0
   - 0.7.0
+scdl/prenoms:
+  consolidation: null
+  description: Spécification du modèle de données relatif aux prénoms des nouveaux-nés
+    déclarés à l’état-civil
+  email: scdl@opendatafrance.email
+  external_doc: null
+  external_tool: null
+  has_changelog: true
+  homepage: https://git.opendatafrance.net/scdl/prenoms
+  latest_version: 1.1.5
+  schemas:
+  - examples:
+    - path: https://git.opendatafrance.net/scdl/prenoms/raw/v1.1.5/examples/prenoms-nouveaux-nes_exemple-valide.csv
+      title: Exemple de fichier des prénoms valide
+    - path: https://git.opendatafrance.net/scdl/prenoms/raw/v1.1.5/examples/prenoms-nouveaux-nes_exemple-invalide.csv
+      title: Exemple de fichier des prénoms invalide
+    latest_url: https://schema.data.gouv.fr/schemas/scdl/prenoms/1.1.5/schema.json
+    original_path: schema.json
+    path: schema.json
+    title: Prénoms des nouveaux-nés
+    versions:
+    - 1.1.5
+  title: Prénoms des nouveaux-nés
+  type: tableschema
+  versions:
+  - 1.1.5
 scdl/subventions:
   consolidation: null
   description: Spécification du modèle de données relatif aux subventions attribuées

@@ -1,6 +1,6 @@
 ---
-permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/documentation.html
-redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.6.3/documentation.html
+permalink: /CEREMA/schema-arrete-circulation-marchandises/0.6.3/documentation.html
+redirect_from: null
 title: Documentation de Arrêtés permanents de circulation pour le transport de marchandises
 version: 0.6.3
 ---
