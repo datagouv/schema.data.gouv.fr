@@ -67,9 +67,9 @@ dae:
   labels: 
     - Socle Commun des Données Locales
 prenoms:
-  url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
+  url: https://git.opendatafrance.net/scdl/prenoms.git
   type: tableschema
-  email: charles.nepote@fing.org
+  email: scdl@opendatafrance.email
   labels: 
     - Socle Commun des Données Locales
 arbres_urbains:
