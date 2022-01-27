@@ -371,6 +371,7 @@ etalab/schema-comptage-mobilites-channel:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-comptage-mobilites-channel
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -398,6 +399,7 @@ etalab/schema-comptage-mobilites-measure:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-comptage-mobilites-measure
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -425,6 +427,7 @@ etalab/schema-comptage-mobilites-site:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-comptage-mobilites-site
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -606,13 +609,12 @@ etalab/schema-lieux-covoiturage:
 etalab/schema-passage-a-niveau:
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de passages à niveau.
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.beta.gouv.fr - transport.data.gouv.fr
   external_doc: null
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-passage-a-niveau
-  labels:
-  - transport.data.gouv.fr
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -1083,6 +1085,8 @@ scdl/prenoms:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/prenoms
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 1.1.5
   schemas:
   - examples:

@@ -11,7 +11,7 @@ Menus de la restauration collective
 
 Schéma permettant de décrire les menus des repas proposés par des collectivités locales et des établissements publics. Il permet de préciser les modalités de distribution et le contenu des menus proposés (les plats). Le choix a été fait de détailler chaque plat sur une ligne. Pour décrire un menu il faut donc répéter certaines informations plusieurs fois (voir exemple).
 
-- Schéma créé le : 12.02.2020
+- Schéma créé le : 12/02/2020
 - Site web : https://git.opendatafrance.net/scdl/menus-collectifs
 - Version : 0.6
 

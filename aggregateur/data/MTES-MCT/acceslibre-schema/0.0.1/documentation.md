@@ -11,7 +11,7 @@ Schéma des données d'accessibilité des ERPs
 
 Spécification du fichier d'échange relatif aux données d'accessibilité des Établissements Recevant du Public (ERP).
 
-- Schéma créé le : 10.03.2021
+- Schéma créé le : 10/03/2021
 - Site web : https://github.com/MTES-MCT/acceslibre-schema
 - Version : 0.0.1
 - Clé primaire : `id`

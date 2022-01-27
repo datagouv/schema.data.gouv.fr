@@ -11,7 +11,7 @@ Stationnement cyclable
 
 Spécification du fichier décrivant les emplacements de stationnement cycable.
 
-- Schéma créé le : 10.03.2021
+- Schéma créé le : 10/03/2021
 - Site web : https://github.com/etalab/schema-stationnement-cyclable
 - Version : 1.0.0
 - Clé primaire : `id_local`

@@ -11,7 +11,7 @@ DAE
 
 Spécification du modèle de données relatif aux DAE
 
-- Schéma créé le : 01.01.2020
+- Schéma créé le : 01/01/2020
 - Site web : https://gitlab.com/arsante/atlasante/schema-dae
 - Version : 1.0.2
 

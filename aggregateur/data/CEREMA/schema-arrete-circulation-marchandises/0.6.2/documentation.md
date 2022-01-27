@@ -11,7 +11,7 @@ Arrêtés permanents de circulation pour le transport de marchandises
 
 Spécification du fichier d'échange relatif aux arrêtés permanents de circulation pour le transport de marchandises gérés par les collectivités.
 
-- Schéma créé le : 30.04.2021
+- Schéma créé le : 30/04/2021
 - Site web : https://github.com/CEREMA/schema-arrete-circulation
 - Version : 0.1.1
 - Valeurs manquantes : `""`, `"NA"`, `"NaN"`, `"N/A"`

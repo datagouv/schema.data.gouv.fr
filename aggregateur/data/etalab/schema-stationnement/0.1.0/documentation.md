@@ -10,7 +10,7 @@ version: 0.1.0
 Spécification des lieux permettant le stationnement en parc
 
 - Auteur : transport.data.gouv.fr
-- Schéma créé le : 13.12.2019
+- Schéma créé le : 13/12/2019
 - Site web : https://github.com/etalab/schema-stationnement
 - Version : 0.1.0
 - Clé primaire : `id`

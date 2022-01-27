@@ -11,7 +11,7 @@ Point d'Eau Incendie (PEI)
 
 Spécification du modèle de données relatif aux PEI
 
-- Schéma créé le : 12.03.2021
+- Schéma créé le : 12/03/2021
 - Site web : https://gitlab.com/datakode/schema-pei
 - Version : 1.0.0
 

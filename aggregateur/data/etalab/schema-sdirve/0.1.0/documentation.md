@@ -12,7 +12,7 @@ Schéma directeur des infrastructures de recharge pour véhicules électriques e
 
 Spécification du fichier d'échange relatif aux schéma directeur des infrastructures de recharge pour véhicules électriques et hybrides rechargeables.
 
-- Schéma créé le : 18.03.2021
+- Schéma créé le : 18/03/2021
 - Site web : https://github.com/etalab/schema-sdirve
 - Version : 0.1.0
 

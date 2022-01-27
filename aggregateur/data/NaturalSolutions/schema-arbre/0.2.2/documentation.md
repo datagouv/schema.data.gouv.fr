@@ -11,7 +11,7 @@ Arbres urbains
 
 Spécification des attributs liés aux arbres urbains dans le cadre d'un inventaire du patrimoine arboré par les collectivités.
 
-- Schéma créé le : 16.10.2020
+- Schéma créé le : 16/10/2020
 - Site web : https://github.com/NaturalSolutions/schema-arbre
 - Version : 0.2.2
 - Clé primaire : `id`

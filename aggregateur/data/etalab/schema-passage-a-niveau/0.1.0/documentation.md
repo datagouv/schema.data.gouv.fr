@@ -11,7 +11,7 @@ Schéma pour les passages à niveau
 
 Spécification du fichier décrivant les emplacements de passages à niveau.
 
-- Schéma créé le : 15.09.2021
+- Schéma créé le : 15/09/2021
 - Site web : https://github.com/etalab/schema-passage-a-niveau
 - Version : 0.1.0
 - Clé primaire : `id_pn`

@@ -10,7 +10,7 @@ version: 1.0.0
 Spécification du fichier de déclaration de profil d'acheteur
 
 - Auteur : Alexandre Bulté pour Etalab
-- Schéma créé le : 18.02.2019
+- Schéma créé le : 18/02/2019
 - Site web : https://github.com/etalab/schema-decp-dpa
 - Données d'exemple : https://github.com/etalab/schema-decp-dpa/blob/master/exemple-valide.csv
 - Version : 1.0.0
