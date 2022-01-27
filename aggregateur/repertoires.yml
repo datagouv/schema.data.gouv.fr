@@ -10,14 +10,10 @@ format-commande-publique:
   url: https://github.com/139bercy/format-commande-publique.git
   type: jsonschema
   email: schema@data.gouv.fr
-  labels:
-    - Socle Commun des Données Locales
 decp-dpa:
   url: https://github.com/etalab/schema-decp-dpa.git
   type: tableschema
   email: schema@data.gouv.fr
-  labels:
-    - Socle Commun des Données Locales
 catalogue:
   url: https://git.opendatafrance.net/scdl/catalogue.git
   type: tableschema
@@ -68,10 +64,14 @@ dae:
   url: https://gitlab.com/arsante/atlasante/schema-dae.git
   type: tableschema
   email: contact@geodae.sante.gouv.fr
+  labels: 
+    - Socle Commun des Données Locales
 prenoms:
   url: https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes.git
   type: tableschema
   email: charles.nepote@fing.org
+  labels: 
+    - Socle Commun des Données Locales
 arbres_urbains:
   url: https://github.com/NaturalSolutions/schema-arbre.git
   type: tableschema
@@ -84,6 +84,7 @@ amenagements-cyclables:
   external_doc: https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables
   labels:
     - transport.data.gouv.fr
+    - Socle Commun des Données Locales
 stationnement-cyclable:
   url: https://github.com/etalab/schema-stationnement-cyclable
   type: tableschema
