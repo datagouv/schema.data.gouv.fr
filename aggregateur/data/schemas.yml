@@ -371,7 +371,8 @@ etalab/schema-comptage-mobilites-channel:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-comptage-mobilites-channel
-  labels: null
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -399,7 +400,8 @@ etalab/schema-comptage-mobilites-measure:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-comptage-mobilites-measure
-  labels: null
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -427,7 +429,8 @@ etalab/schema-comptage-mobilites-site:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-comptage-mobilites-site
-  labels: null
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.1.0
   schemas:
   - examples:
