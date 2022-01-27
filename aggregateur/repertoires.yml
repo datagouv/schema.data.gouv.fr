@@ -167,8 +167,6 @@ emprise-stationnement-voirie:
   url: https://github.com/macaron-ai/onstreet-parking-schema.git
   type: jsonschema
   email: contact@transport.beta.gouv.fr
-  labels:
-    - transport.data.gouv.fr
 passage-a-niveau:
   url: https://github.com/etalab/schema-passage-a-niveau
   type: tableschema
