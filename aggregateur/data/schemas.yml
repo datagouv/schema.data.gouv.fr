@@ -809,8 +809,7 @@ macaron-ai/onstreet-parking-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/macaron-ai/onstreet-parking-schema/
-  labels:
-  - transport.data.gouv.fr
+  labels: null
   latest_version: 1.0.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json
