@@ -6,7 +6,7 @@ Composition des plats des menus de la restauration collective
 
 Description des plats proposés par des collectivités locales et des établissements publics dans le cadre de l'offre de restauration collective. Il permet de préciser les modalités de fabrication des plats et de détailler les ingrédients qui les composent. Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées. Il peut être utilisé en combinaison avec le schéma sur les menus qui décrit l'agencement des plats dans l'offre de restauration collective.
 
-- Schéma créé le : 12/02/2020
+- Schéma créé le : 12.02.2020
 - Site web : https://git.opendatafrance.net/scdl/plats-menus-collectifs
 - Version : 0.3
 

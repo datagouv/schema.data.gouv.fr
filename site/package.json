@@ -7,7 +7,7 @@
     "name": "Etalab",
     "email": ""
   },
-  "repository": "/frontend",
+  "repository": "/site",
   "scripts": {
     "dev": "vuepress dev site",
     "build": "vuepress build site",

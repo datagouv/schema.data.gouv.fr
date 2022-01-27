@@ -11,7 +11,7 @@ Spécification des lieux permettant le covoiturage
 
 - Auteur : Antoine Augusti pour Etalab
 - Contributeurs : transport.data.gouv.fr, OpenDataFrance, FEDUCO, BlaBlaCar
-- Schéma créé le : 25/06/2019
+- Schéma créé le : 25.06.2019
 - Site web : https://github.com/etalab/schema-lieux-covoiturage
 - Données d'exemple : https://github.com/etalab/schema-lieux-covoiturage/raw/v0.0.1/exemple-valide.csv
 - Version : 0.0.1

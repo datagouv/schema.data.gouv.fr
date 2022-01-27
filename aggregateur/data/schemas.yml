@@ -7,6 +7,7 @@
   external_tool: null
   has_changelog: false
   homepage: https://github.com/139bercy/format-commande-publique
+  labels: null
   latest_version: 1.5.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.3.0/contrats-concessions.json
@@ -43,6 +44,7 @@ Archivistes75/registre_entrees:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/Archivistes75/registre_entrees
+  labels: null
   latest_version: 0.2.0
   schemas:
   - examples: null
@@ -65,6 +67,7 @@ CEREMA/schema-arrete-circulation-marchandises:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/CEREMA/schema-arrete-circulation
+  labels: null
   latest_version: 0.7.0
   schemas:
   - examples:
@@ -124,6 +127,7 @@ MTES-MCT/acceslibre-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/MTES-MCT/acceslibre-schema
+  labels: null
   latest_version: 0.0.4
   schemas:
   - examples:
@@ -155,6 +159,7 @@ NaturalSolutions/schema-arbre:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/NaturalSolutions/schema-arbre
+  labels: null
   latest_version: 0.2.2
   schemas:
   - examples:
@@ -188,6 +193,7 @@ PnX-SI/schema_randonnee:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/PnX-SI/schema_randonnee
+  labels: null
   latest_version: 1.0.2
   schemas:
   - examples: []
@@ -217,6 +223,8 @@ arsante/schema-dae:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/arsante/atlasante/schema-dae
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 1.0.3
   schemas:
   - examples:
@@ -250,6 +258,7 @@ datakode/schema-pei:
   external_tool: null
   has_changelog: false
   homepage: https://gitlab.com/datakode/schema-pei
+  labels: null
   latest_version: 1.0.0
   schemas:
   - examples:
@@ -276,6 +285,7 @@ datatourisme/ontology:
   external_tool: null
   has_changelog: false
   homepage: https://framagit.org/datatourisme/ontology
+  labels: null
   latest_version: 2.4.8
   schemas:
   - examples: []
@@ -299,6 +309,9 @@ etalab/schema-amenagements-cyclables:
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   has_changelog: true
   homepage: https://github.com/etalab/schema_amenagements_cyclables
+  labels:
+  - transport.data.gouv.fr
+  - Socle Commun des Données Locales
   latest_version: 0.3.3
   schemas:
   - examples: []
@@ -336,6 +349,8 @@ etalab/schema-bal:
   external_tool: https://mes-adresses.data.gouv.fr/new
   has_changelog: false
   homepage: https://github.com/etalab/schema-bal
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 1.1.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.1.0/schema.yml
@@ -437,6 +452,7 @@ etalab/schema-decp-dpa:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/etalab/schema-decp-dpa
+  labels: null
   latest_version: 1.0.0
   schemas:
   - examples: null
@@ -459,6 +475,7 @@ etalab/schema-hautes-remunerations:
   external_tool: null
   has_changelog: true
   homepage: http://github.com/restuccia/schema-hautes-remunerations
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples: null
@@ -480,6 +497,7 @@ etalab/schema-inclusion-numerique:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-inclusion-numerique
+  labels: null
   latest_version: 0.1.2
   schemas:
   - examples:
@@ -511,6 +529,9 @@ etalab/schema-irve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-irve
+  labels:
+  - Socle Commun des Données Locales
+  - transport.data.gouv.fr
   latest_version: 2.0.2
   schemas:
   - examples:
@@ -549,6 +570,8 @@ etalab/schema-lieux-covoiturage:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-lieux-covoiturage
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.2.2
   schemas:
   - examples:
@@ -588,6 +611,8 @@ etalab/schema-passage-a-niveau:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-passage-a-niveau
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -613,6 +638,7 @@ etalab/schema-sdirve:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-sdirve
+  labels: null
   latest_version: 0.1.0
   schemas:
   - examples:
@@ -642,6 +668,8 @@ etalab/schema-stationnement:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.1.4
   schemas:
   - examples:
@@ -681,6 +709,8 @@ etalab/schema-stationnement-cyclable:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-stationnement-cyclable
+  labels:
+  - transport.data.gouv.fr
   latest_version: 1.1.0
   schemas:
   - examples:
@@ -718,6 +748,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-flotte-publique-vehicule
+  labels: null
   latest_version: 0.1.1
   schemas:
   - examples:
@@ -744,6 +775,8 @@ etalab/schema-zfe:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/etalab/schema-zfe
+  labels:
+  - transport.data.gouv.fr
   latest_version: 0.7.2
   schemas:
   - examples: []
@@ -771,6 +804,8 @@ macaron-ai/onstreet-parking-schema:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/macaron-ai/onstreet-parking-schema/
+  labels:
+  - transport.data.gouv.fr
   latest_version: 1.0.0
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json
@@ -791,6 +826,7 @@ metis-reseaux/infos-travaux:
   external_tool: null
   has_changelog: false
   homepage: https://github.com/metis-reseaux/infos-travaux
+  labels: null
   latest_version: 0.0.2
   schemas:
   - latest_url: https://schema.data.gouv.fr/schemas/metis-reseaux/infos-travaux/0.0.2/informations_travaux.json
@@ -811,6 +847,7 @@ openmaraude/schema-stationstaxi:
   external_tool: null
   has_changelog: true
   homepage: https://github.com/openmaraude/schema-stationstaxi
+  labels: null
   latest_version: 0.1.2
   schemas:
   - examples:
@@ -844,6 +881,8 @@ scdl/budget:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/budget
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 0.8.1
   schemas:
   - examples:
@@ -868,6 +907,8 @@ scdl/catalogue:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/catalogue
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 0.1.2
   schemas:
   - examples: null
@@ -892,6 +933,8 @@ scdl/deliberations:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/deliberations
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 2.1.3
   schemas:
   - examples:
@@ -928,6 +971,8 @@ scdl/equipements:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/equipements
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 0.1.1
   schemas:
   - examples: null
@@ -955,6 +1000,8 @@ scdl/menus-collectifs:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/menus-collectifs
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 1.2.1
   schemas:
   - examples:
@@ -1002,6 +1049,8 @@ scdl/plats-menus-collectifs:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/plats-menus-collectifs
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 0.7.0
   schemas:
   - examples:
@@ -1060,6 +1109,8 @@ scdl/subventions:
   external_tool: null
   has_changelog: true
   homepage: https://git.opendatafrance.net/scdl/subventions
+  labels:
+  - Socle Commun des Données Locales
   latest_version: 2.0.1
   schemas:
   - examples:

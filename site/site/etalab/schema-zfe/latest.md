@@ -8,7 +8,7 @@ Ce schéma permet de modéliser les règles de limitation de circulation sur une
 
 Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de transport.data.gouv.fr propose une solution simple et structurée pour l’ouverture des données concernant les Zones à Faibles Emissions : la Base Nationale des Zones à Faibles Emissions (BNZFE). 
 
-Le schéma de la base de données a été co-construit avec les collectivités, leurs services SIG et avec les futurs réutilisateurs de ces données. Des ateliers avec ces acteurs et un atelier ouvert (le 08/04/2021) ont permis sa production. Aujourd’hui disponible en version 0.6.0, il sera mis-à-jour régulièrement.
+Le schéma de la base de données a été co-construit avec les collectivités, leurs services SIG et avec les futurs réutilisateurs de ces données. Des ateliers avec ces acteurs et un atelier ouvert (le 08/04/2021) ont permis sa production. Aujourd’hui disponible en version 0.7.1, il sera mis-à-jour régulièrement.
 
 ## Cadre juridique
 
@@ -23,10 +23,10 @@ La base présente plusieurs cas d’usage
 
 Le fichier précise notamment : 
 - l'identifiant d'une aire concernée par une réglementation ZFE ou l'identifiant d'un tronçon routier concerné par une règle exceptionnelle ;
-- la date de mise en place du dispositif et la date à laquelle la règlementation prend fin ;
+- la date de mise en place du dispositif et la date à laquelle la réglementation prend fin ;
 - la catégorie de conducteurs concernée par le dispositif (personne morale et/ou physique) ;
-- les vignettes CRITAIR autorisées par type de véhicule (véhicule particuliers, utiliraires, poids lourds, autobus, deux roues, taxis...) ;
-- les horaires d'application par type de véhicules (véhicule particuliers, utiliraires, poids lourds, autobus, deux roues, taxis...) ;
+- les vignettes CRITAIR autorisées par type de véhicule (véhicule particuliers, utilitaires, poids lourds, autobus, deux roues, taxis...) ;
+- les horaires d'application par type de véhicules (véhicule particuliers, utilitaires, poids lourds, autobus, deux roues, taxis...) ;
 - l'arrêté associé ;
 - le site d'information associé à la réglementation.
 
@@ -49,8 +49,8 @@ Les producteurs pourront :
 - publier directement sur data.gouv.fr ;
 - publier sur un portail local ou régional et s'assurer que les données publiées sont bien moissonnées et référencées sur data.gouv.fr.
 
-Nous préconisons aux producteurs de données de publier leurs fichiers cocnernant les zones avec la règle de nommage suivante : zfe_zone_nom.geojson avec nom étant le nom de la collectivité productrice des données, par exemple zfe_zone_grenoble.geojson. 
-Pour les fichiers concernant les voies spéciales : zfe_voie_speciale_nom.geojson, avec nom étant le nom de la collectivité productrice des données, par exemple zfe_voie_speciale_grenoble.geojson. 
+Nous préconisons aux producteurs de données de publier leurs fichiers concernant les zones avec la règle de nommage suivante : `zfe_zone_nom.geojson` avec nom étant le nom de la collectivité productrice des données, par exemple `zfe_zone_grenoble.geojson`.
+Pour les fichiers concernant les voies spéciales : `zfe_voie_speciale_nom.geojson`, avec nom étant le nom de la collectivité productrice des données, par exemple `zfe_voie_speciale_grenoble.geojson`.
 
 En cas de mise à jour d’un fichier déjà intégré à la base consolidée, il est recommandé de prévenir l’équipe transport.data.gouv.fr qui s’assurera de l'actualisation du fichier en question et de son intégration dans la base consolidée.
 
@@ -71,13 +71,7 @@ Comme expliqué ce schéma de données permet de décrire des aires réglementé
 Comme indiqué dans les métadonnées, le fichier et ses mises-à-jour sont distribués sous la Licence Ouverte Etalab 2.0. Cela signifie que vous pouvez télécharger librement cette base, la réutiliser, la modifier, l’utiliser commercialement, etc, tant que vous en mentionnez la source (par exemple dans les mentions légales de votre application).
 Nous tenons à remercier les membres du groupe de travail pour leur investissement dans l'élaboration de ce schéma.
 
-## Notes techniques pour contribuer à ce schéma
-
-Ce schéma s'appuie sur [TableSchema](https://specs.frictionlessdata.io/table-schema/). Pour le modifier, il peut être utile en particulier de se référer à la [spécification des descripteurs de champs](https://specs.frictionlessdata.io/table-schema/#field-descriptors).
-
 ### Fichiers disponibles
-
-Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
 
 - [`CHANGELOG.md`](https://github.com/etalab/schema-zfe/blob/master/CHANGELOG.md) contient la liste des changements entre les différentes versions du schéma ;
 - [`exemple-valide-zone.geojson`](https://github.com/etalab/schema-zfe/blob/master/exemple-valide-zone.geojson) est un fichier GeoJSON d'exemple conforme décrivant une aire par rapport au schéma décrit dans `schema.json`  ;
@@ -85,7 +79,7 @@ Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma 
 - [`LICENSE.md`](https://github.com/etalab/schema-zfe/blob/master/LICENSE.md) est le fichier de licence du dépôt ;
 - [`README.md`](https://github.com/etalab/schema-zfe/blob/master/README.md) est le fichier que vous lisez actuellement ;
 - [`requirements.txt`](https://github.com/etalab/schema-zfe/blob/master/requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur le dépôt ;
-- [`schema.json`](https://github.com/etalab/schema-zfe/blob/master/schema.json) est le schéma au format Table Schema.
+- [`schema.json`](https://github.com/etalab/schema-zfe/blob/master/schema.json) est le schéma au format [JSON Schema](https://json-schema.org/).
 
 ### Intégration continue
 

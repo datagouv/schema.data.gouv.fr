@@ -2,7 +2,7 @@
 
 # Schéma des lieux de l'inclusion numérique
 
-Ce schéma permet de modéliser les lieux d'accès au numérique sur tout le territoire. Ce schéma a vocation à alimenter un projet de cartographie national des lieux d'inclusion numérique. La cartographie Aidants Connect a pour but de permettre aux aidants professionnels d'orienter les publics vers les offres de médiation et de formation au numérique. La version beta, en phase de construction, est accessible ici : https://carto.aidantsconnect.beta.gouv.fr/. Tous les retours sont les bienvenus ! 
+Ce schéma permet de modéliser les lieux d'accès au numérique sur tout le territoire. Ce schéma a vocation à alimenter un projet de cartographie national des lieux d'inclusion numérique. La cartographie Aidants Connect a pour but de permettre aux aidants professionnels d'orienter les publics vers les offres de médiation et de formation au numérique. [La version beta, en phase de construction, est accessible.](https://carto.aidantsconnect.beta.gouv.fr/). Tous les retours sont les bienvenus ! 
 
 ## Contexte 
 
@@ -21,17 +21,16 @@ Cette cartographie nationale des lieux d'inclusion numérique est destinée aux 
 
 ## Description du schéma
 
-Une description détaillée (champ par champ) du modèle de donnée est accessible ici : https://github.com/betagouv/Aidants_Connect_Carto/wiki/Sch%C3%A9ma-:-description-du-mod%C3%A8le-de-donn%C3%A9e-(v1). 
-
-Ce schéma respecte le standard Table Schema. Pour en savoir plus, voir la page dédiée : https://github.com/betagouv/Aidants_Connect_Carto/wiki/Sch%C3%A9ma-%3A-introduction-%C3%A0-Table-Schema.
+  * [Description détaillée (champ par champ) du modèle de données.](https://github.com/betagouv/Aidants_Connect_Carto/wiki/Sch%C3%A9ma-:-description-du-mod%C3%A8le-de-donn%C3%A9e-(v1))
+  * Ce schéma respecte le standard Table Schema. [Pour en savoir plus, voir la page dédiée à Table Schema.](https://github.com/betagouv/Aidants_Connect_Carto/wiki/Sch%C3%A9ma-%3A-introduction-%C3%A0-Table-Schema)
 
 ## Lieux de l'inclusion numérique
 
-Voir le fichier *schema.json* disponible ici : https://github.com/betagouv/Aidants_Connect_Carto/blob/master/schema/schema.json
+Le fichier *schema.json* est disponible ici : [https://github.com/betagouv/Aidants_Connect_Carto/blob/master/schema/schema.json](https://github.com/betagouv/Aidants_Connect_Carto/blob/master/schema/schema.json)
 
 ## Autres liens utiles
 
-https://github.com/etalab/schema.data.gouv.fr/issues/136
+[https://github.com/etalab/schema.data.gouv.fr/issues/136](https://github.com/etalab/schema.data.gouv.fr/issues/136)
 
 ## Nous contacter 
 

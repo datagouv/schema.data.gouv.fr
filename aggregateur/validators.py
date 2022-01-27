@@ -97,6 +97,7 @@ class BaseValidator(object):
                 "version": self.repo.current_version,
                 "has_changelog": self.has_changelog,
                 "schemas": self.schemas_metadata(),
+                "labels":self.repo.labels,
             }
 
     def schema_url(self, path):

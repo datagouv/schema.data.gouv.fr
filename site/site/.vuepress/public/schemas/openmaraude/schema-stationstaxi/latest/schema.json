@@ -1,0 +1,137 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name": "stationstaxi",
+    "title": "Stations de taxi",
+    "description": "Spécification des stations de taxi à usage public",
+    "keywords": [
+        "station",
+        "taxi",
+        "transport",
+        "mobilité"
+    ],
+    "countryCode": "FR",
+    "homepage": "https://github.com/openmaraude/schema-stationstaxi",
+    "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.2/schema.json",
+    "image": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.0/logo.svg",
+    "licenses": [
+        {
+            "title": "Etalab Licence Ouverte 2.0",
+            "name": "etalab-2.0",
+            "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+    ],
+    "resources": [
+        {
+            "title": "Fichier valide (CSV)",
+            "name": "exemple-valide-csv",
+            "path": "https://github.com/openmaraude/schema-stationstaxi/raw/v0.1.2/exemple-valide.csv"
+        }
+    ],
+    "sources": [],
+    "created": "2021-04-07",
+    "lastModified": "2021-10-13",
+    "version": "0.1.2",
+    "contributors": [
+        {
+            "title": "Hervé Cauwelier",
+            "email": "herve.cauwelier@beta.gouv.fr",
+            "organisation": "le.taxi",
+            "role": "author"
+        },
+        {
+            "title": "Frédérick Petit",
+            "email": "frederick.petit@grenoblealpesmetropole.fr",
+            "organisation": "Grenoble Alpes Metropole",
+            "role": "contributor"
+        }
+    ],
+    "fields": [
+        {
+            "name": "id",
+            "description": "Identifiant unique et stable de la station, délivré par le producteur ou à défaut par le.taxi. `INSEE-T-xxx` où `INSEE` est le code INSEE de la commune et `xxx` est le numéro d’ordre d’arrivée dans la base sur 3 chiffres, commençant par 001",
+            "example": "38185-T-001",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}-T-\\d{3}$"
+            }
+        },
+        {
+            "name": "nom",
+            "description": "Nom de la station ou nom donné dans son utilisation quotidienne. Recommandation : inutile de répéter le mot station ou taxi",
+            "example": "Gare - Frise",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "insee",
+            "description": "Le code INSEE de la commune où la station est localisée.",
+            "example": "38185",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
+            }
+        },
+        {
+            "name": "geopoint",
+            "description": "La longitude, latitude au format Table Schema (https://specs.frictionlessdata.io/table-schema/#geopoint)",
+            "example": "1.452323, 46.59698",
+            "type": "geopoint",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "adresse",
+            "description": "L’adresse du lieu compréhensible par le grand public pour assurer le guidage du client. Exemple : “3, rue de la gare” ; pour les lieux proches des sorties d’autoroute ou de nationale : “A11 sortie 7 Le Mans Nord” ; pour les zones rurales sans adresse : “croisement de route 1 - route 2” ou “le long de route X après le passage à niveau”.",
+            "example": "3 rue de la Gare, 92300, Levallois-Peret",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "emplacements",
+            "description": "Nombre total d’emplacements, capacité d’accueil de la station. Si fourni, possibilité de calculer un ratio d’usage.",
+            "example": "2",
+            "type": "integer",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "no_appel",
+            "description": "Numéro de téléphone de la station à disposition des clients pour obtenir un taxi.",
+            "example": "0476544254",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "info",
+            "description": "Faire remonter des informations ou commentaires, utiles pour un client, si les champs précédents ne correspondent pas. Si plusieurs informations sont renseignées, le séparateur est le point-virgule.",
+            "example": "Niveau -1 de la gare",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "primaryKey": "id",
+    "missingValues": [
+        "",
+        "null"
+    ],
+    "custom_checks": [
+        {
+            "name": "phone-number-value",
+            "params": {
+                "column": "no_appel"
+            }
+        }
+    ]
+}
