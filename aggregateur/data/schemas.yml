@@ -68,31 +68,31 @@ CEREMA/schema-arrete-circulation-marchandises:
   has_changelog: true
   homepage: https://github.com/CEREMA/schema-arrete-circulation
   labels: null
-  latest_version: 0.7.0
+  latest_version: 0.7.1
   schemas:
   - examples:
     - name: exemple-valide-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemple-valide.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemple-valide.csv
       title: Fichier valide
     - name: carros-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/carros.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemples/carros.csv
       title: Fichier valide pour la commune de Carros (CSV)
     - name: gignac-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/gignac.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemples/gignac.csv
       title: Fichier valide pour la commune de Gignac-La-Nerthe (CSV)
     - name: le-rove-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/le-rove.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemples/le-rove.csv
       title: Fichier valide pour la commune du Rove (CSV)
     - name: st-victoret-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/st-victoret.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemples/st-victoret.csv
       title: Fichier valide pour la commune de St-Victoret (CSV)
     - name: septemes-les-vallons-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/septemes-les-vallons.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemples/septemes-les-vallons.csv
       title: Fichier valide pour la commune de Septèmes-Les-Vallons (CSV)
     - name: vence-csv
-      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.0/exemples/vence.csv
+      path: https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/v0.7.1/exemples/vence.csv
       title: Fichier valide pour la commune de Vence (CSV)
-    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.7.0/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.7.1/schema.json
     original_path: schema.json
     path: schema.json
     title: Arrêtés permanents de circulation pour le transport de marchandises
@@ -106,6 +106,7 @@ CEREMA/schema-arrete-circulation-marchandises:
     - 0.6.2
     - 0.6.3
     - 0.7.0
+    - 0.7.1
   title: Arrêtés permanents de circulation pour le transport de marchandises
   type: tableschema
   versions:
@@ -118,6 +119,7 @@ CEREMA/schema-arrete-circulation-marchandises:
   - 0.6.2
   - 0.6.3
   - 0.7.0
+  - 0.7.1
 MTES-MCT/acceslibre-schema:
   consolidation: null
   description: Spécification du fichier d'échange relatif aux données d'accessibilité

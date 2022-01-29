@@ -1,8 +1,8 @@
 ---
-permalink: /CEREMA/schema-arrete-circulation-marchandises/0.7.0/documentation.html
-redirect_from: null
+permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/documentation.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.7.1/documentation.html
 title: Documentation de Arrêtés permanents de circulation pour le transport de marchandises
-version: 0.7.0
+version: 0.7.1
 ---
 
 ## arrete-circulation-marchandises
@@ -32,7 +32,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [ARR_OBJET](#objet-de-l'arrêté---propriété-arr_objet) | chaîne de caractères  | Oui |
 | [ARR_CONSIDERANT](#considérant-de-l'arrêté---propriété-arr_considerant) | chaîne de caractères  | Non |
 | [ARR_URL](#adresse-internet-de-l'arrêté---propriété-arr_url) | chaîne de caractères (format `uri`) | Non |
-| [REGL_ARTICLE](#article-du-règlement---propriété-regl_article) | nombre entier  | Non |
+| [REGL_ARTICLE](#article-du-règlement---propriété-regl_article) | chaîne de caractères  | Non |
 | [REGL_SOUS_ARTICLE](#sous-article-du-règlement---propriété-regl_sous_article) | chaîne de caractères  | Non |
 | [REGL_MODALITE](#modalité-du-règlement---propriété-regl_modalite) | chaîne de caractères  | Oui |
 | [VEH_TYPES](#types-de-véhicules---propriété-veh_types) | chaîne de caractères  | Non |
@@ -58,7 +58,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Identifiant de l'entité - Propriété `ID`
 
-> *Description : Il s'agit de l'identifiant de l'entité (ou ligne du tableau). Ce dernier doit être unique. L'identifiant peut tout simplement être auto-incrémenté (1, 2 ou 3,...). Il peut correspondre à la valeur `osm_id` de la voie règlementée (par exemple, `133`). Il peut également être un identifiant propre à une structure ou à une autre base de données (identifiant issu de la BDTOPO IGN, par exemple). [Vous pouvez créer des identifiants grâce à l'application Heidi d'Etalab](https://heidi.app.etalab.studio/).<br/>Ex : 133-3*
+> *Description : Il s'agit de l'identifiant, unique, de la ligne du tableau.. [Vous pouvez créer des identifiants grâce à l'application Heidi d'Etalab](https://heidi.app.etalab.studio/).<br/>Ex : 133-3*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
@@ -110,7 +110,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 > *Description : N° de l'article associé au règlement lorsqu'il existe<br/>Ex : 4*
 - Valeur optionnelle
-- Type : nombre entier
+- Type : chaîne de caractères
 
 #### Sous-article du règlement - Propriété `REGL_SOUS_ARTICLE`
 
@@ -129,7 +129,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Types de véhicules - Propriété `VEH_TYPES`
 
-> *Description : Types de véhicules. S'il y a plusieurs types, les séparer les valeurs par le caractère '|'<br/>Ex : Poids lourds|Véhicules utilitaires légers*
+> *Description : Types de véhicules. S'il y a plusieurs types, les séparer les valeurs par le caractère '|'. Les valeurs possibles sont : 'Poids lourds', 'Véhicules utilitaires légers', 'Vélo-cargos' et 'Tous véhicules'.<br/>Ex : Poids lourds|Véhicules utilitaires légers*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(Poids lourds|Véhicules utilitaires légers|Vélo-cargos|Tous véhicules))+$`
@@ -170,7 +170,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Types de motorisation - Propriété `VEH_MOTORS`
 
-> *Description : Types de motorisation. S'il y a plusieurs motorisations, les séparer par le caractère '|'<br/>Ex : Électrique|Hydrogène*
+> *Description : Types de motorisation. S'il y a plusieurs motorisations, les séparer par le caractère '|'. Les valeurs possibles sont : Electrique, Gaz Naturel pour Véhicules et Hydrogène.<br/>Ex : Électrique|Hydrogène*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(Electrique|Gaz Naturel pour Véhicules|Hydrogène))+$`
@@ -193,7 +193,6 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 > *Description : Jours et heures de circulation autorisés pour la circulation exprimés selon le format OpeningHours d'OpenStreetMap ([https://wiki.openstreetmap.org/wiki/Key:opening_hours](https://wiki.openstreetmap.org/wiki/Key:opening_hours)). Ce format permet d'indiquer les week-ends (we), les jours fériés (PH) et les vacances scolaires (SH). Par exemple `Mo-Fr 09:00-17:00; PH 10:00-12:00; PH Su off` signifie : 'Du lundi au vendredi de 9h à 17h sauf les jours fériés où l'ouverture est de 10h à 12h, à l'exception des jours fériés tombant un dimanche'. `24/7` indique `Tous les jours`. [Utiliser groom-groom pour récupérer les jours et heures de circulation](https://cerema-med.shinyapps.io/groom-groom?action=opening_hours)<br/>Ex : Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00; PH off*
 - Valeur optionnelle
 - Type : chaîne de caractères
-- Motif : `((?:(?:^|;\s?)(((((Mo|Tu|We|Th|Fr|Sa|Su|PH|SH)|(?:(?:|,)(Mo|Tu|We|Th|Fr|Sa|Su))+|((Mo|Tu|We|Th|Fr|Sa|Su)-(Mo|Tu|We|Th|Fr|Sa|Su))))\s((([0-1][0-9]|2[0-4]):([0-5][0-9]))-(([0-1][0-9]|2[0-4]):([0-5][0-9]))(,(([0-1][0-9]|2[0-4]):([0-5][0-9]))-(([0-1][0-9]|2[0-4]):([0-5][0-9])))?))|((Mo|Tu|We|Th|Fr|Sa|Su|PH|SH) off)|(sunrise-sunset)))+$|(24/7))`
 
 #### Nom de la voie - Propriété `EMPRISE_DESIGNATION`
 
@@ -257,7 +256,6 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 > *Description : Géométrie de la rue (ligne), ou de l'emprise (polygone) exprimée au format [WKT (Well Know Text](https://fr.wikipedia.org/wiki/Well-known_text) sous le système de projection WGS84 (EPSG:4326)<br/>Ex : LineString(5.39340184 45.56538751, 5.41017215 45.56722934, 5.42510063 45.5679079)*
 - Valeur optionnelle
 - Type : chaîne de caractères
-- Motif : `(MULTI|multi)?(LINESTRING|linestring|POLYGON|polygon)\(((|,\s?)\(((|,\s?)(-?[0-9](\.[0-9]+)?\s-?[0-9](\.[0-9]+)?))+\))+\)`
 
 #### Source de la géométrie - Propriété `GEOM_SOURCE`
 

@@ -1,11 +1,18 @@
 ---
 permalink: /CEREMA/schema-arrete-circulation-marchandises/latest/changelog.html
-redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.7.0/changelog.html
+redirect_from: /CEREMA/schema-arrete-circulation-marchandises/0.7.1/changelog.html
 title: CHANGELOG de Arrêtés permanents de circulation pour le transport de marchandises
-version: 0.7.0
+version: 0.7.1
 ---
 
 # Changelog
+
+## v0.7.1
+- Supprime le pattern pour `GEOM_WKT`
+- Supprime le pattern pour `PERIODE_JH`
+- Simplifie la description de `ID`
+- Modifie le type de `REGL_ARTICLE` en `string`
+- Met les différentes valeurs de `VEH_TYPES` dans la description
 
 ## v0.7.0
 - Valeurs multiples possibles pour `ARR_CONSIDERANT` (ex. de Martigues 06.2018)
