@@ -40,7 +40,7 @@ investigation:
 - created_at: '2021-09-21T07:31:30Z'
   labels:
   - Schéma en investigation
-  nb_comments: 5
+  nb_comments: 6
   title: Schéma de partage des stationnements PMR en voirie
   url: https://github.com/etalab/schema.data.gouv.fr/issues/190
 - created_at: '2021-07-16T13:37:40Z'
