@@ -1,19 +1,19 @@
 ---
-permalink: /MTES-MCT/acceslibre-schema/0.0.4/documentation.html
-redirect_from: null
-title: Documentation de Accessibilité des ERP
-version: 0.0.4
+permalink: /MTES-MCT/acceslibre-schema/latest/documentation.html
+redirect_from: /MTES-MCT/acceslibre-schema/0.0.5/documentation.html
+title: Documentation de Schéma des données d'accessibilité des ERPs
+version: 0.0.5
 ---
 
-## accessibilite-erp
+## acceslibre
 
-Accessibilité des ERP
+Schéma des données d'accessibilité des ERPs
 
 Spécification du fichier d'échange relatif aux données d'accessibilité des Établissements Recevant du Public (ERP).
 
 - Schéma créé le : 10/03/2021
 - Site web : https://github.com/MTES-MCT/acceslibre-schema
-- Version : 0.0.3
+- Version : 0.0.5
 - Clé primaire : `id`
 
 ### Modèle de données
@@ -41,7 +41,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [stationnement_presence](#stationnement-dans-l'établissement---propriété-stationnement_presence) | booléen  | Non |
 | [stationnement_pmr](#stationnements-adaptés-dans-l'établissement---propriété-stationnement_pmr) | booléen  | Non |
 | [stationnement_ext_presence](#stationnement-à-proximité-de-l'établissement---propriété-stationnement_ext_presence) | booléen  | Non |
-| [stationnement_ext_pmr](#stationnements-pmr-à-proximité-de-l'établissement---propriété-stationnement_ext_pmr) | booléen  | Non |
+| [stationnement_ext_pmr](#stationnements-adaptés-à-proximité-de-l'établissement---propriété-stationnement_ext_pmr) | booléen  | Non |
 | [cheminement_ext_presence](#chemin-extérieur---propriété-cheminement_ext_presence) | booléen  | Non |
 | [cheminement_ext_terrain_accidente](#revêtement-extérieur---propriété-cheminement_ext_terrain_accidente) | booléen  | Non |
 | [cheminement_ext_plain_pied](#chemin-extérieur-de-plain-pied---propriété-cheminement_ext_plain_pied) | booléen  | Non |
@@ -204,7 +204,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : booléen
 
-#### Stationnements PMR à proximité de l'établissement - Propriété `stationnement_ext_pmr`
+#### Stationnements adaptés à proximité de l'établissement - Propriété `stationnement_ext_pmr`
 
 > *Description : Des places de stationnement adaptées sont disponibles à moins de 200 mètres de l'établissement<br/>Ex : True*
 - Valeur optionnelle
