@@ -9,7 +9,7 @@ investigation:
 - created_at: '2022-01-06T17:19:23Z'
   labels:
   - Schéma en investigation
-  nb_comments: 0
+  nb_comments: 2
   title: Schéma des appels publics
   url: https://github.com/etalab/schema.data.gouv.fr/issues/221
 - created_at: '2021-12-09T17:28:56Z'
