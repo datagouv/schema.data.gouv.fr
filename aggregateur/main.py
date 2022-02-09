@@ -77,7 +77,7 @@ class Metadata(object):
             % (BASE_DOMAIN, slug, TableSchemaValidator.SCHEMA_FILENAME)
         }[details["type"]]
 
-    
+
     def get(self):
         for slug, data in self.data.items():
             sorted_versions = sorted(data["versions"], key=cmp_to_key(SemverCmp))
@@ -115,10 +115,10 @@ class Metadata(object):
         schemas = []
 
         for slug, details in self.data.items():
-            
+
             if details["type"] != "tableschema":
                 continue
-           
+
             schemas.append(
                 {
                     "name": slug,
@@ -149,7 +149,7 @@ class Metadata(object):
                     examples = details["schemas"][0]["examples"]
                 else:
                     examples = []
-                
+
 
                 schemas.append(
                     {
@@ -159,6 +159,7 @@ class Metadata(object):
                         "schema_url": self.schema_url(slug),
                         "schema_type": details["type"],
                         "contact": details["email"],
+                        "labels": details["labels"],
                         "examples": examples,
                         "versions": self.generate_versions_json(details,slug)
                     }
@@ -172,6 +173,7 @@ class Metadata(object):
                         "schema_url": self.get()[slug]["schemas"][0]["latest_url"],
                         "schema_type": details["type"],
                         "contact": details["email"],
+                        "labels": details["labels"],
                         "versions": self.generate_versions_json(details,slug)
                     }
 
@@ -195,7 +197,7 @@ class Repo(object):
         self.external_doc = external_doc
         self.external_tool = external_tool
         self.labels = labels
-        
+
         if os.path.isdir(self.clone_dir):
             self.git_repo = GitRepo(self.clone_dir)
         else:
@@ -369,7 +371,7 @@ for repertoire_slug, conf in config.items():
             labels = conf['labels']
 
         repo = Repo(conf["url"], conf["email"], conf["type"], external_doc, external_tool, labels)
-        
+
         repo.clone_or_pull()
         tags = repo.tags()
     except exceptions.ValidationException as e:
