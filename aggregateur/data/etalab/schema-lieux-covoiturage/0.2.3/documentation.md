@@ -1,8 +1,8 @@
 ---
-permalink: /etalab/schema-lieux-covoiturage/0.2.2/documentation.html
-redirect_from: null
+permalink: /etalab/schema-lieux-covoiturage/latest/documentation.html
+redirect_from: /etalab/schema-lieux-covoiturage/0.2.3/documentation.html
 title: Documentation de Lieux de covoiturage
-version: 0.2.2
+version: 0.2.3
 ---
 
 ## Lieux de covoiturage
@@ -103,7 +103,7 @@ Spécification des lieux permettant le covoiturage
 
 #### Propriété `ouvert`
 
-> *Description : Le lieu est-il ouvert<br/>Ex : true*
+> *Description : Le lieu est il actuellement accessible (actif ou inactif)<br/>Ex : true*
 - Valeur obligatoire
 - Type : booléen
 

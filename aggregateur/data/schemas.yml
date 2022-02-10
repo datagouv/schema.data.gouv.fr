@@ -585,7 +585,7 @@ etalab/schema-lieux-covoiturage:
   homepage: https://github.com/etalab/schema-lieux-covoiturage
   labels:
   - transport.data.gouv.fr
-  latest_version: 0.2.2
+  latest_version: 0.2.3
   schemas:
   - examples:
     - name: exemple-valide
@@ -594,7 +594,7 @@ etalab/schema-lieux-covoiturage:
     - name: exemple-invalide
       path: https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv
       title: Ressource invalide
-    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.2/schema.json
+    latest_url: https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.3/schema.json
     original_path: schema.json
     path: schema.json
     title: Lieux de covoiturage
@@ -606,6 +606,7 @@ etalab/schema-lieux-covoiturage:
     - 0.2.0
     - 0.2.1
     - 0.2.2
+    - 0.2.3
   title: Lieux de covoiturage
   type: tableschema
   versions:
@@ -616,6 +617,7 @@ etalab/schema-lieux-covoiturage:
   - 0.2.0
   - 0.2.1
   - 0.2.2
+  - 0.2.3
 etalab/schema-passage-a-niveau:
   consolidation: null
   description: Spécification du fichier décrivant les emplacements de passages à niveau.
