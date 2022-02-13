@@ -15,7 +15,7 @@ investigation:
 - created_at: '2021-12-09T17:28:56Z'
   labels:
   - Schéma en investigation
-  nb_comments: 10
+  nb_comments: 12
   title: Schéma des lieux proposant des services
   url: https://github.com/etalab/schema.data.gouv.fr/issues/214
 - created_at: '2021-11-17T15:18:26Z'
