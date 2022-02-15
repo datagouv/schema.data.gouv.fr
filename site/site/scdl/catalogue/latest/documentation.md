@@ -6,7 +6,7 @@ Catalogue simplifié
 
 Spécification du modèle de données relatif au catalogue des jeux de données publiés en open data par une collectivité
 
-- Schéma créé le : 20.11.2018
+- Schéma créé le : 11/20/18
 - Site web : https://git.opendatafrance.net/scdl/catalogue
 - Version : 0.1.2
 

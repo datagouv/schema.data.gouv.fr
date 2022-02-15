@@ -91,4 +91,4 @@ Les fichiers doivent comporter :
    
    * Traitement des cellules vides (absence de valeur ou valeur équivalente à 0) : ces cellules doivent être laissées vides. Dans le cas où une valeur numérique est égale à zéro elle doit être écrite 0.0 (zéro [point] zéro), et, dans le cas où des caractères spéciaux sont utilisés pour remplacer des valeurs manquantes (ex. "-" ou "NaN"), cela doit être mentionné dans les métadonnées.
    
-   * Les dates doivent être formées selon la norme 8601 : YYYY-MM-DD.
+   * Les dates doivent être formées selon la norme 8601 : YYYY-MM-DD. 

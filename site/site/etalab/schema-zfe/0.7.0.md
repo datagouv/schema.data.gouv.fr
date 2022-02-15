@@ -95,3 +95,5 @@ Ce dépôt est configuré pour utiliser de l'intégration continue, si vous util
 - que vos fichiers d'exemples sont conformes au schéma.
 
 Vous pouvez consulter la configuration utilisée dans [`.github/workflows/test.yml`](.github/workflows/test.yml).
+
+

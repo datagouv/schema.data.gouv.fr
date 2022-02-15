@@ -8,7 +8,7 @@ Ce schéma permet de modéliser les règles de limitation de circulation sur une
 
 Dans le cadre des travaux de l’équipe du Point d’accès national et de la mise en oeuvre de l’ouverture des données pour améliorer l’information dont disposent les voyageurs, l’équipe de transport.data.gouv.fr propose une solution simple et structurée pour l’ouverture des données concernant les Zones à Faibles Emissions : la Base Nationale des Zones à Faibles Emissions (BNZFE). 
 
-Le schéma de la base de données a été co-construit avec les collectivités, leurs services SIG et avec les futurs réutilisateurs de ces données. Des ateliers avec ces acteurs et un atelier ouvert (le 08/04/2021) ont permis sa production. Aujourd’hui disponible en version 0.7.1, il sera mis-à-jour régulièrement.
+Le schéma de la base de données a été co-construit avec les collectivités, leurs services SIG et avec les futurs réutilisateurs de ces données. Des ateliers avec ces acteurs et un atelier ouvert (le 08/04/2021) ont permis sa production.
 
 ## Cadre juridique
 

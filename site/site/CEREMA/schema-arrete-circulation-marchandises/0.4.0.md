@@ -15,4 +15,4 @@ Ce schéma sur les arrêtés permanents de circulation a été construit en part
 
 [Voir l'issue sur Etalab](https://github.com/etalab/schema.data.gouv.fr/issues/157)
 
-[Voir plus d'infos associées au schéma sur le site d'OpenDataFrance](https://opendatafrance.gitbook.io/fablog/territoires/chantiers/partage-des-donnees/standardisation/arretes-de-circulation)
+[Voir plus d'infos associées au schéma sur le site d'OpenDataFrance](https://opendatafrance.gitbook.io/fablog/territoires/chantiers/partage-des-donnees/standardisation/arretes-de-circulation)  

@@ -35,3 +35,4 @@ Un schéma complémentaire est dédié à la composition des plats permettant po
 
 * adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=menus-collectifs)
 * ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/menus-collectifs/issues)
+    

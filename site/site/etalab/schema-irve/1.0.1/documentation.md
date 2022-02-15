@@ -6,7 +6,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 - Auteur : Alexandre Bulté pour Etalab
 - Contributeurs : Charles Nepote, Pierre Dittgen, Johan Richer
-- Schéma créé le : 29.06.2018
+- Schéma créé le : 06/29/18
 - Site web : https://github.com/etalab/schema-irve
 - Données d'exemple : https://github.com/etalab/schema-irve/raw/v1.0.1/exemple-valide.csv
 - Version : 1.0.1

@@ -6,7 +6,7 @@ Stations de taxi
 
 Spécification des stations de taxi à usage public
 
-- Schéma créé le : 07.04.2021
+- Schéma créé le : 04/07/21
 - Site web : https://github.com/openmaraude/schema-stationstaxi
 - Version : 0.1.1
 - Clé primaire : `id`

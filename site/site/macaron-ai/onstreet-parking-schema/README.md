@@ -53,3 +53,4 @@ Nom|Type|Description|Exemple|Contrainte|
 |-|-|-|-|-|
 |`type`|chaîne de caractères|Type de stationnement|PAYANT|Obligatoire. Valeurs autorisées: `PAYANT`, `GIG/GIC`, `GRATUIT`, `AUTOCAR`, `TROTTINETTE`, `LIVRAISON PERMANENTE`, `LIVRAISON PERIODIQUE`, `VELO LIBRE SERVICE`, `ELECTRIQUE`, `TRANSPORT DE FOND`, `MOTOS`, `TAXI`, `VELO`, `POLICE`, `DEPOSE MINUTE`, `DEUX ROUES`, `AUTRES`|
 |`price`|nombre|Prix de l'heure en euro si c'est applicable|2,4|Conditionnel|
+

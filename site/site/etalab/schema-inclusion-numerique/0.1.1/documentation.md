@@ -6,7 +6,7 @@ Lieux d’inclusion numérique
 
 Spécification des lieux d'inclusion numérique
 
-- Schéma créé le : 06.09.2020
+- Schéma créé le : 09/06/20
 - Site web : https://github.com/etalab/schema-inclusion-numerique
 - Données d'exemple : https://github.com/etalab/schema-inclusion-numerique/raw/v0.1.1/exemple-valide.csv
 - Version : 0.1.1

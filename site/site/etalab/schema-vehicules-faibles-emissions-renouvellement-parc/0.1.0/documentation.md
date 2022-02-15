@@ -6,7 +6,7 @@ Part des véhicules à faibles émissions dans le renouvellement d'un parc
 
 Spécification des données fixant les termes et modalités de publication du pourcentage de véhicules à faibles et à très faibles émissions parmi les véhicules intégrés dans un renouvellement de parc
 
-- Schéma créé le : 15.09.2021
+- Schéma créé le : 09/15/21
 - Site web : https://github.com/etalab/schema-flotte-publique-vehicule
 - Version : 0.1.0
 

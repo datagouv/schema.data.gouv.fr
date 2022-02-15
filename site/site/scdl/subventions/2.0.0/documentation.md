@@ -6,7 +6,7 @@ Spécification du modèle de données relatif aux subventions attribuées par un
 
 - Auteur : OpenDataFrance
 - Contributeurs : Pierre Dittgen
-- Schéma créé le : 27.04.2018
+- Schéma créé le : 04/27/18
 - Site web : https://git.opendatafrance.net/scdl/subventions
 - Version : 2.0.0
 

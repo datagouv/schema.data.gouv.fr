@@ -5,7 +5,7 @@
 Spécification du standard national des registres d'entrée d'archives
 
 - Auteur : Datactivist pour l'Association des Archivistes Français (AAF) et le service interministériel des Archives de France (SIAF)
-- Schéma créé le : 17.12.2020
+- Schéma créé le : 12/17/20
 - Site web : https://github.com/Archivistes75/registre_entrees
 - Version : 0.2.0
 

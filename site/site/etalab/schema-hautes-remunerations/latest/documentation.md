@@ -6,7 +6,7 @@ Hautes rémunérations dans la fonction publique
 
 Spécification du fichier de déclaration des dix rémunérations les plus élevées des agents publiques
 
-- Schéma créé le : 23.09.2020
+- Schéma créé le : 09/23/20
 - Site web : http://github.com/restuccia/schema-hautes-remunerations
 - Version : 0.1.0
 

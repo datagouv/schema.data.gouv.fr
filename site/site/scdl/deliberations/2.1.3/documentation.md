@@ -6,7 +6,7 @@ Délibérations
 
 Spécification du modèle de données relatif aux délibérations adoptées par une collectivité locale
 
-- Schéma créé le : 23.05.2018
+- Schéma créé le : 05/23/18
 - Site web : https://git.opendatafrance.net/scdl/deliberations
 - Version : 2.1.3
 
