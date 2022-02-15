@@ -1,0 +1,417 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"sdirve",
+   "title":"Schéma directeur des infrastructures de recharge pour véhicules électriques et hybrides rechargeables",
+   "description":"Spécification du fichier d'échange relatif aux schéma directeur des infrastructures de recharge pour véhicules électriques et hybrides rechargeables.",
+   "keywords":[
+      "irve",
+      "sdirve",
+      "véhicules électriques",
+      "point de charge"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/etalab/schema-sdirve",
+   "path":"https://github.com/etalab/schema-sdirve/raw/v0.1.0/schema.json",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Fichier valide (CSV)",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/etalab/schema-sdirve/raw/v0.1.0/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+   ],
+   "created":"2021-03-18",
+   "lastModified":"2021-03-18",
+   "version":"0.1.0",
+   "contributors":[
+      {
+         "title":"Geoffrey Aldebert",
+         "email":"geoffrey.aldebert@data.gouv.fr",
+         "organisation":"Etalab",
+         "role":"author"
+      },
+      {
+          "title": "Julien Barreteau",
+          "email": "julien.barreteau@developpement-durable.gouv.fr",
+          "organisation": "DGEC",
+          "role": "contributor"
+      },
+      {
+          "title": "Sophie Peng-Casavecchia",
+          "email": "sophie.peng-casavecchia@developpement-durable.gouv.fr",
+          "organisation": "DGITM",
+          "role": "contributor"
+      }
+   ],
+   "fields":[
+      {
+         "name":"date_realisation_diagnostic",
+         "description":"Date de réalisation du diagnostic.",
+         "example":"2021-07-12",
+         "type":"date",
+         "format": "%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"date_adoption_sdirve",
+         "description":"Date d'adoption du schéma directeur IRVE.",
+         "example":"2021-07-12",
+         "type":"date",
+         "format": "%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"date_objectifs",
+         "description":"Date fixée pour l'atteinte des objectifs à l'échéance opérationnelle (inférieure ou égale à 3 ans).",
+         "example":"2023-07-12",
+         "type":"date",
+         "format": "%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"code_commune_insee",
+         "description":"Code INSEE de chacune des communes couvertes par le territoire du SDIRVE, avec une ligne par commune dans le cas où les données ne sont pas renseignées à l'échelle de l'IRIS.",
+         "example":"23150",
+         "type":"string",
+         "constraints":{
+            "required":true,
+            "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}$"
+         }
+      },
+      {
+         "name":"code_iris_insee",
+         "description":"Code de chaque IRIS couvert par le territoire du SDIRVE. Dans le cas où les données ne sont pas renseignées à l'échelle de l'IRIS mais de la commune, ne pas remplir ce champs.",
+         "example":"2A0040101",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^([013-9]\\d|2[AB1-9])\\d{7}$"
+         }
+      },
+      {
+         "name":"existant_nb_pdc_intervalle_1",
+         "description":"Diagnostic - Nombre de points de charge ouverts au public existants à la date d'élaboration du diagnostic, d'une puissance unitaire ≤ 7,4 kVA.",
+         "example":"12",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"existant_nb_pdc_intervalle_2",
+         "description":"Diagnostic - Nombre de points de charge ouverts au public existants à la date d'élaboration du diagnostic, d'une puissance unitaire > 7,4 kVA et ≤ 22  kVA.",
+         "example":"12",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"existant_nb_pdc_intervalle_3",
+         "description":"Diagnostic - Nombre de points de charge ouverts au public existants à la date d'élaboration du diagnostic, d'une puissance unitaire > 22 kVA et < 150  kVA.",
+         "example":"12",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"existant_nb_pdc_intervalle_4",
+         "description":"Diagnostic - Nombre de points de charge ouverts au public existants à la date d'élaboration du diagnostic, d'une puissance unitaire ≥ 150 kVA.",
+         "example":"12",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"existant_nb_moyen_recharges",
+         "description":"Diagnostic - Nombre moyen de sessions de recharges quotidiennes sur les points de charge ouverts au public existants, sur les 22 mois précédant l'élaboration du diagnostic.",
+         "example":"89",
+         "type":"number",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"existant_duree_moyenne_recharges",
+         "description":"Diagnostic - Durée moyenne des sessions (en minutes) de recharge réussies en minutes sur les points de charge ouverts au public existants, sur les 22 mois précédant l'élaboration du diagnostic.",
+         "example":"120",
+         "type":"number",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"existant_taux_disponibilite_moyen",
+         "description":"Diagnostic - Taux de disponibilité moyen (%) des points de charge ouverts au public existants, sur les 22 mois précédant l'élaboration du diagnostic. Le taux de disponibilité d’un point de recharge est le rapport entre le nombre d’heures où le point de charge est apte à fonctionner et le nombre d’heures d'ouverture de la station.",
+         "example":"67.5",
+         "type":"number",
+         "constraints":{
+            "required":true,
+            "minimum":0,
+            "maximum":100
+         }
+      },
+      {
+         "name":"evaluation_developpement_nb_pdc_intervalle_1",
+         "description":"Diagnostic - Evaluation du nombre de points de charge ouverts au public induits par la mise en œuvre de dispositions législatives et réglementaires ou par des projets d'implantation à l'échéance opérationnelle, d'une puissance unitaire ≤ 7,4 kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"evaluation_developpement_nb_pdc_intervalle_2",
+         "description":"Diagnostic - Evaluation du nombre de points de charge ouverts au public induits par la mise en œuvre de dispositions législatives et réglementaires ou par des projets d'implantation à l'échéance opérationnelle, d'une puissance unitaire > 7,4 et ≤ 22  kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"evaluation_developpement_nb_pdc_intervalle_3",
+         "description":"Diagnostic - Evaluation du nombre de points de charge ouverts au public induits par la mise en œuvre de dispositions législatives et réglementaires ou par des projets d'implantation à l'échéance opérationnelle, d'une puissance unitaire > 22 et < 150  kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"evaluation_developpement_nb_pdc_intervalle_4",
+         "description":"Diagnostic - Evaluation du nombre de points de charge ouverts au public induits par la mise en œuvre de dispositions législatives et réglementaires ou par des projets d'implantation à l'échéance opérationnelle, d'une puissance unitaire ≥ 150  kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"estimation_vehicules_particuliers_electriques",
+         "description":"Diagnostic - Estimation du parc de véhicules particuliers électriques à l'échéance opérationnelle.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"estimation_vehicules_particuliers_hybrides_rechargeables",
+         "description":"Diagnostic -Estimation du parc de véhicules particuliers hybrides rechargeables à l'échéance opérationnelle.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_intervalle_1",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≤ 7,4 kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_intervalle_2",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 7,4 kVA et ≤ 22  kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_intervalle_3",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 22 kVA et < 150  kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_intervalle_4",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≥ 150 kVA.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_total_stations",
+         "description":"Objectifs - Nombre total de stations.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":true,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_residentiel_intervalle_1",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≤ 7,4 kVA - usage principal résidentiel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_professionnel_intervalle_1",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≤ 7,4 kVA - usage principal professionnel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_occasionnel_transit_intervalle_1",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≤ 7,4 kVA - usage principal occasionnel/transit.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_residentiel_intervalle_2",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 7,4 kVA et ≤ 22  kVA - usage principal résidentiel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_professionnel_intervalle_2",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 7,4 kVA et ≤ 22  kVA - usage principal professionnel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_occasionnel_transit_intervalle_2",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 7,4 kVA et ≤ 22  kVA - usage principal occasionnel/transit.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_residentiel_intervalle_3",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 22 kVA et < 150  kVA - usage principal résidentiel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_professionnel_intervalle_3",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 22 kVA et < 150  kVA - usage principal professionnel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_occasionnel_transit_intervalle_3",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire > 22 kVA et < 150  kVA - usage principal occasionnel/transit.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_residentiel_intervalle_4",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≥ 150 kVA - usage principal résidentiel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_professionnel_intervalle_4",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≥ 150 kVA - usage principal professionnel.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+         "name":"objectifs_nb_pdc_usage_occasionnel_transit_intervalle_4",
+         "description":"Objectifs - Nombre total de points de charge ouverts au public à l'échéance opérationnelle, d'une puissance unitaire ≥ 150 kVA - usage principal occasionnel/transit.",
+         "example":"67",
+         "type":"integer",
+         "constraints":{
+            "required":false,
+            "minimum":0
+         }
+      },
+      {
+        "name":"url_sdirve",
+        "description":"Adresse URL où le SDIRVE de la collectivité peut être téléchargé.",
+        "example":"https://www.exemple.fr/stationnementrepublique/",
+        "type":"string",
+        "format":"uri",
+        "constraints":{
+          "required":false
+        }
+      }
+   ]
+}

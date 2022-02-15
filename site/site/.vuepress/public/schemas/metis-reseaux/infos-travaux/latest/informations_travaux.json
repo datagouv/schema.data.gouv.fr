@@ -1,0 +1,519 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Informations travaux",
+  "description": "L'[article L49](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070987&idArticle=LEGIARTI000021493642) du code des postes et des communications électroniques a introduit le devoir de publicité de travaux d'infrastructures. Le schéma **Informations travaux** s'inscrit dans la continuité de cette réglementation avec l'objectif de simplifier et standardiser le partage de cette information afin de maximiser les externalités positives qui découlent de l'anticipation des travaux de génie civil.",
+  "countryCode": "FR",
+  "contributors": [
+    {
+      "title": "Olivier Marcel",
+      "email": "o.marcel@metis-reseaux.fr",
+      "role": "author"
+    }
+  ],
+  "version": "0.0.2",
+  "created": "2019-06-26",
+  "updated": "2019-08-01",
+  "homepage": "",
+  "uri": "",
+  "type": "object",
+  "required": [
+    "type",
+    "features"
+  ],
+  "properties": {
+    "type": {
+      "enum": [
+        "FeatureCollection"
+      ]
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/feature"
+      }
+    }
+  },
+  "definitions": {
+    "feature": {
+      "title": "Chantier",
+      "description": "Entité spatiale, temporelle et technique cohérente",
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "Feature"
+          ]
+        },
+        "properties": {
+          "$ref": "#/definitions/properties"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "http://geojson.org/schema/Point.json"
+            },
+            {
+              "$ref": "http://geojson.org/schema/LineString.json"
+            },
+            {
+              "$ref": "http://geojson.org/schema/MultiLineString.json"
+            },
+            {
+              "$ref": "http://geojson.org/schema/Polygon.json"
+            },
+            {
+              "$ref": "http://geojson.org/schema/MultiPolygon.json"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/definitions/conditionalProperties"
+        }
+      ]
+    },
+    "properties": {
+      "properties": {
+        "organisation": {
+          "type": "string",
+          "title": "Nom de l'organisation",
+          "description": "Raison sociale du maître d'ouvrage",
+          "maxLength": 100,
+          "pattern": "^(.*)$",
+          "examples": [
+            "Société X"
+          ]
+        },
+        "siret": {
+          "type": "string",
+          "title": "Identification SIRET de l'organisation",
+          "description": "Identifiant du [Système d'Identification du Répertoire des Etablissements](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_%C3%A9tablissements) (SIRET) du maître d'ouvrage",
+          "pattern": "^[0-9]{14}$",
+          "examples": [
+            "79889944900036"
+          ]
+        },
+        "prenom": {
+          "type": "string",
+          "title": "Prénom du gestionnaire",
+          "description": "Prénom",
+          "maxLength": 50,
+          "examples": [
+            "Léo"
+          ]
+        },
+        "nom": {
+          "type": "string",
+          "title": "Nom du gestionnaire",
+          "description": "Nom",
+          "maxLength": 50,
+          "examples": [
+            "Gali"
+          ]
+        },
+        "mail": {
+          "type": "string",
+          "format": "mail",
+          "title": "Email du gestionnaire",
+          "description": "Adresse mail du gestionnaire",
+          "pattern": "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$",
+          "examples": [
+            "leo@ga.li"
+          ]
+        },
+        "telephone": {
+          "type": "string",
+          "title": "Téléphone du gestionnaire",
+          "description": "Numéro de téléphone du gestionnaire",
+          "pattern": "^(\\+)?[0-9]*$",
+          "examples": [
+            "+1234567890"
+          ]
+        },
+        "titre": {
+          "type": "string",
+          "title": "Titre du chantier",
+          "description": "Intitulé univoque permettant de désigner le chantier",
+          "maxLength": 100,
+          "examples": [
+            "Déploiement fibre rue de la fracture numérique"
+          ]
+        },
+        "resume": {
+          "type": "string",
+          "title": "Détails portant sur l'infrastructure",
+          "description": "Informations permettant de caractériser l'infrastructure (matériau, diamètre, emplacement, etc.)",
+          "maxLength": 200,
+          "pattern": "^(.*)$",
+          "examples": [
+            "Fourreau de X en PVC, sous trottoir"
+          ]
+        },
+        "date_debut": {
+          "type": "string",
+          "format": "date",
+          "title": "Démarrage prévisionnel des travaux",
+          "description": "Date de début au format AAAA-MM-JJ, suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).",
+          "examples": [
+            "2019-06-25"
+          ]
+        },
+        "date_fin": {
+          "type": "string",
+          "format": "date",
+          "title": "Fin prévisionnelle des travaux",
+          "description": "Date de fin au format AAAA-MM-JJ, suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).",
+          "examples": [
+            "2019-06-25"
+          ]
+        },
+        "moe": {
+          "type": "string",
+          "title": "Maître d'oeuvre",
+          "description": "Raison sociale du maître d'oeuvre",
+          "maxLength": 50,
+          "examples": [
+            "Société X"
+          ]
+        },
+        "categorie": {
+          "type": "string",
+          "title": "Catégorie des travaux",
+          "description": "Nature de l'infrastructure",
+          "enum": [
+            "ELECTRICITE",
+            "TELECOM",
+            "GAZ",
+            "EAU",
+            "ASSAINISSEMENT",
+            "CHAUFFAGE",
+            "CLIMATISATION",
+            "VOIRIE",
+            "AMENAGEMENT",
+            "AUTRE"
+          ],
+          "examples": [
+            "TELECOM"
+          ]
+        },
+        "creation": {
+          "type": "boolean",
+          "title": "Création d'infrastructure",
+          "description": "`true`: le chantier est une création d'infrastructure, `false`: le chantier porte sur une infrastructure existante",
+          "examples": [
+            "true"
+          ]
+        },
+        "autorite": {
+          "type": "string",
+          "title": "Autorité compétente",
+          "description": "Raison sociale de l'organisme validatrice",
+          "examples": [
+            "Ville de ..."
+          ]
+        },
+        "validation": {
+          "type": "boolean",
+          "title": "Validation du projet par l'autorité compétente",
+          "description": "`false`: Intention/Demande, `true`: Intervention/Déclaration",
+          "examples": [
+            "false"
+          ]
+        },
+        "niveau": {
+          "type": "string",
+          "title": "Position verticale",
+          "description": "Niveau des opérations le long de l'entité",
+          "enum": [
+            "SOUTERRAIN",
+            "SURFACE",
+            "AERIEN",
+            "MIXTE"
+          ],
+          "examples": [
+            "SOUTERRAIN"
+          ]
+        },
+        "fonction": {
+          "type": "string",
+          "title": "Fonction de l'infrastructure",
+          "description": "Rôle du tronçon posé dans le réseau d'infrastructure",
+          "enum": [
+            "TRANSPORT",
+            "DISTRIBUTION",
+            "COLLECTE"
+          ],
+          "examples": [
+            "TRANSPORT"
+          ]
+        },
+        "largeur": {
+          "type": "number",
+          "title": "Largeur estimée",
+          "description": "Largeur de la tranchée en mètre",
+          "examples": [
+            1.5
+          ]
+        },
+        "longueur": {
+          "type": "number",
+          "title": "Linéaire estimé",
+          "description": "Longeur en mètre linéaire de l'infrastructure",
+          "examples": [
+            123
+          ]
+        },
+        "adresse_id": {
+          "type": "string",
+          "title": "Identifiant unique national d’adresse des travaux",
+          "description": "Adressage du point de démarrage des travaux. Cet identifiant unique d’adresse est géré et attribué par le service \"guichet national d’identification\" de la Base Adresse Nationale. Dans l'attente de la mise en place de ce service, les règles de création ou de gestion de cet identifiant ne sont pas connues. La valeur de ce champ est donc optionnelle et sera laissée vide aussi longtemps que le service d'identification ne sera pas opérationnel."
+        },
+        "adresse_numero": {
+          "type": "string",
+          "title": "Numéro de rue",
+          "description": "Adressage du point de démarrage des travaux",
+          "examples": [
+            "39B"
+          ],
+          "pattern": "^([1-9])([0-9])*([ a-zA-Z])*?$"
+        },
+        "adresse_voie": {
+          "type": "string",
+          "title": "Nom complet de la voie",
+          "description": "Adressage du point de démarrage des travaux. Ce champ contient la concaténation du type et du nom de la voie ou le nom d'un lieu-dit, exprimés en majuscules et minuscules accentuées.",
+          "minLength": 3,
+          "examples": [
+            "'Rue de Marseille' pour une concaténation ou 'Le pré aux grenouilles' pour un lieu-dit"
+          ],
+          "pattern": "^[a-zA-Z0-9\\-\\'\\s\\d\\u00C0-\\u00FF]+$"
+        },
+        "adresse_postal": {
+          "type": "string",
+          "title": "Code postal",
+          "description": "Adressage du point de démarrage des travaux : [code postal](https://fr.wikipedia.org/wiki/Code_postal_en_France) de la commune sur 5 caractères (incluant 'A' ou 'B' pour la Corse)",
+          "maxLength": 5,
+          "examples": [
+            "Rue de Marseille"
+          ],
+          "pattern": "^[a-zA-Z0-9]*$"
+        },
+        "adresse_commune": {
+          "type": "string",
+          "title": "Nom officiel de la commune",
+          "description": "Adressage du point de démarrage des travaux. Ce champ doit permettre d’identifier rapidement le territoire concerné et d'éviter les quiproquos.",
+          "maxLength": 5,
+          "examples": [
+            "Lyon"
+          ],
+          "pattern": "^[A-Za-z\\s\\-\\u00C0-\\u00FF]+$"
+        }
+      }
+    },
+    "geometryIsNull": {
+      "type": "null"
+    },
+    "geometryIsPoint": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "const": "Point"
+        }
+      }
+    },
+    "geometryIsLine": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "LineString",
+            "MultiLineString"
+          ]
+        }
+      }
+    },
+    "geometryIsPoly": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "Polygon",
+            "MultiPolygon"
+          ]
+        }
+      }
+    },
+    "nullProperties": {
+      "type": "object",
+      "required": [
+        "organisation",
+        "siret",
+        "prenom",
+        "nom",
+        "mail",
+        "telephone",
+        "date_debut",
+        "date_fin",
+        "categorie",
+        "longueur",
+        "largeur",
+        "adresse_voie",
+        "adresse_postal",
+        "adresse_commune"
+      ]
+    },
+    "pointProperties": {
+      "type": "object",
+      "required": [
+        "organisation",
+        "siret",
+        "prenom",
+        "nom",
+        "mail",
+        "telephone",
+        "date_debut",
+        "date_fin",
+        "categorie",
+        "longueur",
+        "largeur"
+      ]
+    },
+    "lineProperties": {
+      "type": "object",
+      "required": [
+        "organisation",
+        "siret",
+        "prenom",
+        "nom",
+        "mail",
+        "telephone",
+        "date_debut",
+        "date_fin",
+        "categorie",
+        "largeur"
+      ]
+    },
+    "polyProperties": {
+      "type": "object",
+      "required": [
+        "organisation",
+        "siret",
+        "prenom",
+        "nom",
+        "mail",
+        "telephone",
+        "date_debut",
+        "date_fin",
+        "categorie"
+      ]
+    },
+    "conditionalProperties": {
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "geometry"
+            ],
+            "properties": {
+              "geometry": {
+                "$ref": "#/definitions/geometryIsNull"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "properties"
+            ],
+            "properties": {
+              "properties": {
+                "$ref": "#/definitions/nullProperties"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "geometry"
+            ],
+            "properties": {
+              "geometry": {
+                "$ref": "#/definitions/geometryIsPoint"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "properties"
+            ],
+            "properties": {
+              "properties": {
+                "$ref": "#/definitions/pointProperties"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "geometry"
+            ],
+            "properties": {
+              "geometry": {
+                "$ref": "#/definitions/geometryIsLine"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "properties"
+            ],
+            "properties": {
+              "properties": {
+                "$ref": "#/definitions/lineProperties"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "geometry"
+            ],
+            "properties": {
+              "geometry": {
+                "$ref": "#/definitions/geometryIsPoly"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "properties"
+            ],
+            "properties": {
+              "properties": {
+                "$ref": "#/definitions/polyProperties"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
