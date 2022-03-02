@@ -14,25 +14,8 @@ Un [appel à contributions](https://forms.gle/vUALzEDQqRsY2NgG9) a aussi été r
 
 Ce travail rejoint une initiative similaire conduite en Île-de-France, appelée [BAC IDF](https://bac-idf.fr/) (pour Base d'Arrêtés de Circulation Île-de-France), visant à dématérialiser, concentrer, mettre à disposition les arrêtés de circulation des communes d'Île-de-France sous forme numérique.
 
-## Prenez connaissance du schéma
-- [Liste des champs et signification](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/documentation/schema-page.md)  
-- [Schéma au format JSON](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/schema.json)  
-- [Représentation simplifiée du schéma](https://raw.githubusercontent.com/CEREMA/schema-arrete-circulation-marchandises/master/mindmaps/arrete-circulation-marchandises.jpeg)
-
-
-## À propos du schéma
-- [Conception du schéma](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/A-PROPOS.md)   
-- [Historique des évolutions (CHANGELOG)](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/CHANGELOG.md)  
-
-## Produisez des données selon le schéma
-- [Tutoriels et exemples de fichiers](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/EXEMPLES.md)   
-- [Guide de saisie](https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/GUIDE.md)  
-- [`groom-groom`, assistant à la création de données d'arrêtés de circulation](https://cerema-med.shinyapps.io/groom-groom/)  
-
-## Articles, présentations
-- ["Le Cerema publie un standard de données pour dématérialiser les arrêtés de circulation pour le transport de marchandises en ville" (Article du 20 Septembre 2021)](https://www.cerema.fr/fr/projets/cerema-publie-standard-donnees-dematerialiser-arretes)  
-- [Présentation du 2 Septembre 2021 (Cerema & La Région Sud)](https://docs.google.com/presentation/d/1xXVS5TgF8FJknyRHQW3SxCZFS4M-1_jaUQs1H9hXZRU/edit?usp=sharing)  
-- [Présentation du 8 Juin 2021 (Cerema, La Région Sud & Etalab)](https://docs.google.com/presentation/d/1bEUZsB0HSjZ4NnFQi50sbwd17YuOOjq_rz5jB_0RbkQ/edit?usp=sharing)  
+## Wiki
+📘 [Accéder au wiki (à propos, foire aux questions, tutoriels, ...)](https://github.com/CEREMA/schema-arrete-circulation-marchandises/wiki)
 
 ## Contact
-Un avis, des questions ? Contactez-nous sur data-med@cerema.fr
+✉ Un avis, des questions ? Contactez-nous sur data-med@cerema.fr
