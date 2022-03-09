@@ -43,14 +43,13 @@
     <br />
     <div class="labels">
       <div @mouseleave="hoverStatut = false" @mouseover="hoverStatut= true" class="titleFilter">Filtrer par statut :</div>
-      <div v-for="item in listStatus" v-bind:key="item" @click='selectStatus(item)'>
-        <span v-if='item === statusSelected'>
-          <div class="labelSelected">{{ item }}</div>
-        </span>
-        <span v-if='item != statusSelected'>
-          <div class="labelNotSelected">{{ item }}</div>
-        </span>
-      </div>
+
+      <div @click="selectStatus('Tous')" v-bind:class="statusSelected === 'Tous' ? 'statutSelected tousSelected' : 'statutNotSelected tousNotSelected'">Tous</div>
+      <div  @click="selectStatus('Adopté')" v-bind:class="statusSelected === 'Adopté' ? 'statutSelected adopteSelected' : 'statutNotSelected adopteNotSelected'">Adopté</div>
+      <div  @click="selectStatus('Publié')" v-bind:class="statusSelected === 'Publié' ? 'statutSelected publieSelected' : 'statutNotSelected publieNotSelected'">Publié</div>
+      <div  @click="selectStatus('En construction')" v-bind:class="statusSelected === 'En construction' ? 'statutSelected constructionSelected' : 'statutNotSelected constructionNotSelected'">En construction</div>
+      <div  @click="selectStatus('En investigation')" v-bind:class="statusSelected === 'En investigation' ? 'statutSelected  investigationSelected' : 'statutNotSelected investigationNotSelected'">En investigation</div>
+
     </div>
     <div v-if="hoverStatut" class='onTitleHoverStatut'>
       Sélectionner un statut pour filtrer les schémas disponibles selon leur état :
@@ -76,6 +75,18 @@
             <div class="box-content2">{{ truncateText(schema.description,100) }}</div>
             <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
             {{ messageSchema }}
+            <span v-if="schema.schemaStatus === 'Adopté'" class="statutSelected adopteSelected">
+              {{ schema.schemaStatus }}
+            </span>
+            <span v-if="schema.schemaStatus === 'Publié'" class="statutSelected publieSelected">
+              {{ schema.schemaStatus }}
+            </span>
+            <span v-if="schema.schemaStatus === 'En construction'" class="statutSelected constructionSelected">
+              {{ schema.schemaStatus }}
+            </span>
+            <span v-if="schema.schemaStatus === 'En investigation'" class="statutSelected investigationSelected">
+              {{ schema.schemaStatus }}
+            </span>
           </div>
       </div>
       <div class="noSchemaDiv" v-if="showButtons & schemasToShow.length === 0">
@@ -511,6 +522,56 @@ export default {
   background-color: #CCCCFF;
   cursor: pointer;
 }
+
+.statutSelected{
+  margin-right: 15px;
+  padding: 7px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+.statutNotSelected{
+  margin-right: 15px;
+  padding: 7px;
+  border-radius: 15px;
+  font-size: 13px;
+  background-color: #ECEDFE;
+  color: #000091;
+}
+
+.statutNotSelected:hover{
+  cursor: pointer;
+}
+
+.tousSelected{
+  background-color: #000091;
+  color: white;
+}
+.adopteSelected{
+  background-color: #CCE2D8;
+  color: #005B30;
+  font-weight: bold;
+}
+
+.publieSelected{
+  background-color: #DBD5E8;
+  color: #3D2375;
+  font-weight: bold;
+}
+
+.constructionSelected{
+  background-color: #FFF7BF;
+  color: #584D00;
+  font-weight: bold;
+}
+.investigationSelected{
+  background-color: #FCD6C3;
+  color: #6E3619;
+  font-weight: bold;
+}
+
+
+
+
 
 .onTitleHover{
   margin-top: 5px;
