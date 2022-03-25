@@ -4,19 +4,26 @@
 
 ## Bases Adresses Locales
 
-La création des voie et des adresses en France est du ressort des communes, via le conseil municipal. Cette compétence est régulièrement déléguée à un EPCI. 
+La création des voie et des adresses en France est du ressort des communes, via le conseil municipal, compétence réaffirmée avec la promulgation de la Loi 3DS en fev 2022.  Cette compétence est régulièrement déléguée à un EPCI. 
 
-Une base Adresse locale est donc l’expression de cette compétence, et regroupe toute les adresses d’une collectivité. Elle est publiée sous sa responsabilité. 
+Une **base Adresse locale** est donc l’expression de cette compétence, et regroupe toute les adresses d’une collectivité. Elle est publiée sous sa responsabilité. 
 
-Ces bases de données ont vocation à alimenter les bases nationales, et en particulier la Base Adresse Nationale.
+Ces bases de données ont vocation à alimenter la [**Base Adresse Nationale (BAN)**](https://adresse.data.gouv.fr/).
+
+
 
 ## Format BAL (ou schéma BAL)
 
-L’<a href='http://www.aitf.fr/'>Association des Ingénieurs Territoriaux de France</a> (AITF) a créé en avril 2015 un groupe de travail portant sur la Base Adresse Nationale.
+Un fichier Base Adresse Locale correspond à un format d'échange. 
 
-Les <a href='https://cms.geobretagne.fr/content/travaux-gt-ban-aitf'>travaux de ce groupe</a> ont abouti à la <a href='https://cms.geobretagne.fr/sites/default/files/documents/aitf-sig-topo-adresse-fichier-echange-simplifie-v_1.1_0.pdf'>spécification d’un format d’échange</a>, aujourd’hui en version 1.1.
+Issu des travaux de l’<a href='http://www.aitf.fr/'>Association des Ingénieurs Territoriaux de France</a> (AITF) initiés en 2015, la spécification du format d’échange
+"BAL" est aujourd'hui en <a href='https://aitf-sig-topo.github.io/voies-adresses/files/AITF_SIG_Topo_Format_Base_Adresse_Locale_v1.3.pdf'> version 1.3 </a>.
 
-Le format BAL 1.1 est aujourd’hui le format d’échange à privilégier pour les données Adresse produites localement.
+  
+C'est le format d’échange à privilégier pour les données Adresse produites localement et leur intégration dans la BAN.  
+
+
+
 
 ## Créer, modifier ou consulter une Base Adresse Locale
 
