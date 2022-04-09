@@ -33,7 +33,7 @@ Le fichier précise notamment :
 
 ## Format de fichier
 
-Les jeux de données seront publiés au format GeoJSON encodé en UTF8. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels peuvent être vides si la donnée n’est pas disponible. La colonne doit toutefois être présente.
+Les jeux de données seront publiés au format GeoJSON encodé en UTF8. Certains champs sont obligatoires et d'autres optionnels. Les champs obligatoires doivent être complétés. Les champs optionnels doivent être mentionnés et la valeur null peut être utilisé pour indiqué que l'information n'est pas pertinente.
 Ce schéma de données permet de produire un fichier décrivant les aires réglementées et un second fichier optionnel décrivant les tronçons routiers spéciaux. Leur articulation est expliquée dans la partie Mode d'emploi.
 
 ## Référentiel géographique
@@ -44,10 +44,10 @@ Les tronçons routiers exceptionnels doivent être extraits de la couche TRONCON
 ## Publication
 
 Dans le but de maintenir à jour un répertoire consolidé des Zones à Faibles Emissions en France, les collectivités sont invitées à transmettre systématiquement les données relatives aux ZFE sur leur territoire. 
-Elles peuvent ajouter le mot-clef "zone-faibles-emissions" ou "zfe" lors de la publication du jeu de données dans leur espace de publication (portail local ou régional) ou directement sur data.gouv.fr.
+Elles doivent associer au métadonnées de leurs ressources publiées le schéma de données "Zone à Faibles Emissions" lors de la publication du jeu de données directement sur data.gouv.fr.
 Les producteurs pourront :
 - publier directement sur data.gouv.fr ;
-- publier sur un portail local ou régional et s'assurer que les données publiées sont bien moissonnées et référencées sur data.gouv.fr.
+- publier sur un portail local ou régional et s'assurer que les données publiées sont bien moissonnées et référencées sur data.gouv.fr et vérifier que le schéma de données est bien associé aux ressources standardisées.
 
 Nous préconisons aux producteurs de données de publier leurs fichiers concernant les zones avec la règle de nommage suivante : `zfe_zone_nom.geojson` avec nom étant le nom de la collectivité productrice des données, par exemple `zfe_zone_grenoble.geojson`.
 Pour les fichiers concernant les voies spéciales : `zfe_voie_speciale_nom.geojson`, avec nom étant le nom de la collectivité productrice des données, par exemple `zfe_voie_speciale_grenoble.geojson`.
@@ -60,11 +60,14 @@ Le base nationale des ZFE sera construite par l'assemblage (ou consolidation) de
 
 ## Mise-à-jour
 
-La consolidation de la base sera effectuée en continu par transport.data.gouv.fr à partir des fichiers publiés sur data.gouv avec le tag "zfe" ou "zone-faibles-emissions" par les producteurs. De nouvelles versions seront publiées lorsque de nouvelles ZFE seront recensées ou mises-à-jour par les producteurs. Cette mise à jour se fait à partir du fichier communiqué précédemment et en reprenant, en les modifiant le cas échéant, les données existantes. Le fichier principal du dataset constitue ainsi systématiquement la dernière mise-à-jour.
+La consolidation de la base sera effectuée en continu par transport.data.gouv.fr à partir des ressources publiées sur data.gouv en étant associées au schéma "Zone à Faibles Emissions". De nouvelles versions seront publiées lorsque de nouvelles ZFE seront recensées ou mises-à-jour par les producteurs. Cette mise à jour se fait à partir du fichier communiqué précédemment et en reprenant, en les modifiant le cas échéant, les données existantes. Le fichier principal du dataset constitue ainsi systématiquement la dernière mise-à-jour.
 
 ## Mode d'emploi
 
 Comme expliqué ce schéma de données permet de décrire des aires réglementées et des voies exceptionnelles dont les règles sont différentes des zones dont elles font pourtant partie. Les règles affectant les tronçons routiers priment donc sur les règles affectant une zone. 
+Si plusieurs aires réglementées venaient à être superposées et alors créer une ambiguïté dans l'interprétation, on devra interpréter la dernière zone comme étant celle qui prime sur toutes les autres et ainsi de suite. 
+Un tronçon sera toujours interprété comme primant sur une aire réglementée.
+Si plusieurs tronçons venaient à être superposées, on devra interpréter le dernier tronçon comme étant celui qui prime sur tous les autres et ainsi de suite. 
 
 ## Conditions d’utilisation
 
