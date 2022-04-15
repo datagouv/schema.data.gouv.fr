@@ -151,7 +151,7 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 
 #### Propriété `coordonneesXY`
 
-> *Description : La latitude et la longitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84 au format [lon,lat].<br/>Ex : [7.48710500,48.345345]*
+> *Description : La longitude suivie de la latitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84 au format [lon,lat].<br/>Ex : [7.48710500,48.345345]*
 - Valeur obligatoire
 - Type : point géographique (format `array`)
 

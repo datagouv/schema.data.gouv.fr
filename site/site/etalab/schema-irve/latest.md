@@ -43,7 +43,6 @@ Etalab réalise une consolidation des jeux de données IRVE déposés sur data.g
 ## Voir aussi
 
 * [Fichier gabarit à télécharger au format csv](https://www.data.gouv.fr/fr/datasets/fichier-exemple-stations-de-recharge-de-vehicules-electriques/) (proposé par Etalab)
-* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/irve.xlsx) (généré automatiquement à partir du schéma)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 

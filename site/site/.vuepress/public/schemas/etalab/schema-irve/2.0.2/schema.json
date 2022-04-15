@@ -76,8 +76,8 @@
             "description": "La dénomination sociale du nom de l'aménageur, c'est à dire de l'entité publique ou privée propriétaire des infrastructures. Vous pouvez accéder à cette dénomination exacte sur le site annuaire-entreprises.data.gouv.fr. Ce champs n'est pas obligatoire car il sera automatiquement renseigné lors de la constitution du fichier global de consolidation des IRVE.",
             "example": "Société X, Entité Y",
             "type": "string",
-            "constraints":{
-                "required":false
+            "constraints": {
+                "required": false
             }
         },
         {
@@ -85,8 +85,8 @@
             "description": "Le numero SIREN de l'aménageur issue de la base SIRENE des entreprises. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.",
             "example": "130025265",
             "type": "string",
-            "constraints":{
-                "required":true,
+            "constraints": {
+                "required": true,
                 "pattern": "^\\d{9}$"
             }
         },
@@ -97,7 +97,7 @@
             "type": "string",
             "format": "email",
             "constraints": {
-              "required": true
+                "required": true
             }
         },
         {
@@ -116,7 +116,7 @@
             "type": "string",
             "format": "email",
             "constraints": {
-              "required": true
+                "required": true
             }
         },
         {
@@ -125,7 +125,7 @@
             "example": "0111111111",
             "type": "string",
             "constraints": {
-              "required": false
+                "required": false
             }
         },
         {
@@ -170,9 +170,9 @@
             "description": "Le type d'implantation de la station. \nPour une station sur voirie, sélectionner \"Voirie\". \nPour un parking public, (en ouvrage, en enclos, etc.), sélectionner \"Parking public\". Ces parkings sont généralement en gestion directe ou déléguée de la collectivité territoriale. \nPour un parking privé à usage public / parking ouvert (ex: zone commerciale), sélectionner \"Parking privé à usage public\". \nPour un parking réservé à la clientèle, aux usagers, sélectionnez \"Parking privé réservé à la clientèle\" (il s'agit d'un choix de l'aménageur public ou privé sur l'utilisation de son parking. Ex: hôtel, commerce, éventuellement certains bâtiments publics). \nPour une station dédiée à la recharge rapide dont la durée d'utilisation est généralement limitée à la recharge principalement rapide et dont la première fonction de la station est la recharge et non le stationnement, sélectionner \"Station dédiée à la recharge rapide\" (ex : aires de service sur axes routiers, stations services, etc.).",
             "example": "Parking public",
             "type": "string",
-            "constraints":{
-                "required":true,
-                "enum":[
+            "constraints": {
+                "required": true,
+                "enum": [
                     "Voirie",
                     "Parking public",
                     "Parking privé à usage public",
@@ -202,7 +202,7 @@
         },
         {
             "name": "coordonneesXY",
-            "description": "La latitude et la longitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84 au format [lon,lat].",
+            "description": "La longitude suivie de la latitude en degrés décimaux (point comme séparateur décimal) de la localisation de la station exprimée dans le système de coordonnées WGS84 au format [lon,lat].",
             "example": "[7.48710500,48.345345]",
             "type": "geopoint",
             "format": "array",
@@ -344,9 +344,9 @@
             "description": "Eventuelles conditions d’accès à la station, hors gabarit. Dans le cas d'un accès libre sans contrainte matérielle physique (ex : absence de barrière), indiquer \"Accès libre\". \nDans le cas d'un accès limité / réservé qui nécessite une identification ou passage d'une barrière, indiquer \"Accès réservé\" (ce type d'accès inclut les IRVE sur le réseau autoroutier payant - passage péage).",
             "example": "Accès libre",
             "type": "string",
-            "constraints":{
-                "required":true,
-                "enum":[
+            "constraints": {
+                "required": true,
+                "enum": [
                     "Accès libre",
                     "Accès réservé"
                 ]
@@ -376,9 +376,9 @@
             "description": "Accessibilité du point de recharge aux personnes à mobilité réduite. Dans le cas d'un point de recharge signalisé et réservé PMR, indiquer \"Réservé PMR\". \nDans le cas d'une point de recharge non réservé PMR mais accessible PMR, indiquer \"Accessible mais non réservé PMR\". \nDans le cas d'un point de recharge non accessible PMR, indiquer \"Non accessible\"",
             "example": false,
             "type": "string",
-            "constraints":{
-                "required":true,
-                "enum":[
+            "constraints": {
+                "required": true,
+                "enum": [
                     "Réservé PMR",
                     "Accessible mais non réservé PMR",
                     "Non accessible",
@@ -409,9 +409,9 @@
             "description": "Type de raccordement de la station au réseau de distribution d'électricité : direct (point de livraison exclusivement dédié à la station) ou indirect.",
             "example": "Direct",
             "type": "string",
-            "constraints":{
-                "required":true,
-                "enum":[
+            "constraints": {
+                "required": true,
+                "enum": [
                     "Direct",
                     "Indirect"
                 ]
