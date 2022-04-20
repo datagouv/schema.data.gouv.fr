@@ -43,6 +43,7 @@ covoiturage:
   url: https://github.com/etalab/schema-lieux-covoiturage.git
   type: tableschema
   email: contact@transport.beta.gouv.fr
+  external_tool: https://contribuer.transport.data.gouv.fr
   labels:
     - transport.data.gouv.fr
   consolidation: 5d6eaffc8b4c417cdc452ac3
