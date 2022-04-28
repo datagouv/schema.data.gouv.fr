@@ -15,7 +15,7 @@ Un [appel à contributions](https://forms.gle/vUALzEDQqRsY2NgG9) a aussi été r
 Ce travail rejoint une initiative similaire conduite en Île-de-France, appelée [BAC IDF](https://bac-idf.fr/) (pour Base d'Arrêtés de Circulation Île-de-France), visant à dématérialiser, concentrer, mettre à disposition les arrêtés de circulation des communes d'Île-de-France sous forme numérique.
 
 ## Wiki
-📘 [Accéder à l'espace arrêtés sur le site fabLog d'OpenDataFrance : foire aux questions, tutoriels, guides de référence,...](https://opendatafrance.gitbook.io/fablog/espace-arretes/accueil)
+📘 [Accéder à l'espace arrêtés sur le site FabLog d'OpenDataFrance : foire aux questions, tutoriels, guides de référence,...](https://opendatafrance.gitbook.io/fablog/espace-arretes/accueil)
 
 ## Contact
 ✉ Un avis, des questions ? Contactez-nous sur data-med@cerema.fr

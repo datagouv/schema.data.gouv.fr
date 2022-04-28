@@ -35,7 +35,6 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [VEH_TONNAGE_MODALITE](#indication-sur-le-tonnage-propriete-veh-tonnage-modalite) | chaîne de caractères  | Non |
 | [VEH_TONNAGE](#tonnage-propriete-veh-tonnage) | nombre réel  | Non |
 | [VEH_USAGES](#types-d'usage-propriete-veh-usages) | chaîne de caractères  | Non |
-| [SAUF_VEH_USAGES](#exceptions-sur-les-usages-acceptes-ou-interdits-propriete-sauf-veh-usages) | chaîne de caractères  | Non |
 | [VEH_LONG](#longueur-du-vehicule-propriete-veh-long) | nombre réel  | Non |
 | [VEH_LARG](#largeur-du-vehicule-propriete-veh-larg) | nombre réel  | Non |
 | [VEH_HAUT](#hauteur-du-vehicule-propriete-veh-haut) | nombre réel  | Non |
@@ -135,18 +134,20 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Types de véhicules - Propriété `VEH_TYPES`
 
-> *Description : Types de véhicules. S'il y a plusieurs types, les séparer les valeurs par le caractère '|'. Les valeurs possibles sont : 'Poids lourds', 'Véhicules utilitaires légers', 'Vélo-cargos' et 'Tous véhicules'.<br/>Ex : 'Poids lourds|Véhicules utilitaires légers', 'Véhicules articulés|Trains doubles|Ensemble de véhicules'*
+> *Description : Types de véhicules. S'il y a plusieurs types, les séparer les valeurs par le caractère '|'. Les valeurs possibles sont : 'Poids lourds', 'Véhicules utilitaires légers', 'Vélo-cargos' et 'Tous véhicules'.<br/>Ex : Poids lourds|Véhicules utilitaires légers*
 - Valeur optionnelle
 - Type : chaîne de caractères
+- Motif : `(?:(?:^|\|)(Poids lourds|Véhicules utilitaires légers|Vélo-cargos|Tous véhicules))+$`
 
 #### Indication sur le tonnage - Propriété `VEH_TONNAGE_MODALITE`
 
-> *Description : Indication sur le tonnage minimal ou maximal. 'jusqu'à 9T' équivaut à '<= 9T' (inclusif). 'à partir de 9T' équivaut à '>= 9T' (inclusif)<br/>Ex : Depuis*
+> *Description : Indication sur le tonnage minimal ou maximal. 'jusqu'à 9T' équivaut à '<= 9T' (inclusif). 'à partir de 9T' équivaut à '>= 9T' (inclusif). 'de plus de 9T' équivaut à > 9T (exclusif)<br/>Ex : Depuis*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - jusqu'à
     - à partir de
+    - de plus de
 
 #### Tonnage - Propriété `VEH_TONNAGE`
 
@@ -158,12 +159,6 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 #### Types d'usage - Propriété `VEH_USAGES`
 
 > *Description : Types d'usage de véhicule. S'il y a plusieurs usages, séparer les valeurs par le caractère '|'<br/>Ex : Bennes à ordures ménagères|Véhicules de police*
-- Valeur optionnelle
-- Type : chaîne de caractères
-
-#### Exceptions sur les usages acceptés ou interdits - Propriété `SAUF_VEH_USAGES`
-
-> *Description : Exceptions sur les usages acceptés ou interdits. Par exemple, notion 'Rue interdite à la circulation, à l'exception des usages suivants : livraison' S'il y a plusieurs usages, séparer les valeurs par le caractère '|'<br/>Ex : Véhicules de livraison|Services de la Mairie*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
@@ -247,7 +242,7 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 #### Direction ou sens de circulation - Propriété `EMPRISE_SENS`
 
-> *Description : Direction ou sens de circulation associé à la règlementation. On peut indiquer le sens de la circulation par le côté : 'Pair' ou 'Impair', ou bien par la direction : 'Nord-Sud', 'Est-Ouest', par exemple<br/>Ex : Dans le sens boulevard Maréchal Foch vers l’avenue de la Rostagne (Sens Nord-Sud)*
+> *Description : Direction ou sens de circulation associé à la règlementation. Pair : concerne la circulation le long des adresses à chiffre pair. `Nord` signifie vers le Nord, soit "vers le haut".<br/>Ex : Deux sens, Impair, Nord*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 

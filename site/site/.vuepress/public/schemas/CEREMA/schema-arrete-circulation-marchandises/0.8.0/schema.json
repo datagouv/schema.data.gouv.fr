@@ -274,22 +274,24 @@
          "title":"Types de véhicules",
          "description":"Types de véhicules. S'il y a plusieurs types, les séparer les valeurs par le caractère '|'. Les valeurs possibles sont : 'Poids lourds', 'Véhicules utilitaires légers', 'Vélo-cargos' et 'Tous véhicules'.",
          "type":"string",
-         "example":"'Poids lourds|Véhicules utilitaires légers', 'Véhicules articulés|Trains doubles|Ensemble de véhicules'",
+         "example":"Poids lourds|Véhicules utilitaires légers",
          "constraints":{
-            "required":false
+            "required":false,
+            "pattern":"(?:(?:^|\\|)(Poids lourds|Véhicules utilitaires légers|Vélo-cargos|Tous véhicules))+$"
          }
       },
       {
          "name":"VEH_TONNAGE_MODALITE",
          "title":"Indication sur le tonnage",
-         "description":"Indication sur le tonnage minimal ou maximal. 'jusqu'à 9T' équivaut à '<= 9T' (inclusif). 'à partir de 9T' équivaut à '>= 9T' (inclusif)",
+         "description":"Indication sur le tonnage minimal ou maximal. 'jusqu'à 9T' équivaut à '<= 9T' (inclusif). 'à partir de 9T' équivaut à '>= 9T' (inclusif). 'de plus de 9T' équivaut à > 9T (exclusif)",
          "type":"string",
          "example":"Depuis",
          "constraints":{
             "required":false,
             "enum":[
                "jusqu'à",
-               "à partir de"
+               "à partir de",
+               "de plus de"
             ]
          }
       },
@@ -310,16 +312,6 @@
          "title":"Types d'usage",
          "description":"Types d'usage de véhicule. S'il y a plusieurs usages, séparer les valeurs par le caractère '|'",
          "example":"Bennes à ordures ménagères|Véhicules de police",
-         "type":"string",
-         "constraints":{
-            "required":false
-         }
-      },
-      {
-         "name":"SAUF_VEH_USAGES",
-         "title":"Exceptions sur les usages acceptés ou interdits",
-         "description":"Exceptions sur les usages acceptés ou interdits. Par exemple, notion 'Rue interdite à la circulation, à l'exception des usages suivants : livraison' S'il y a plusieurs usages, séparer les valeurs par le caractère '|'",
-         "example":"Véhicules de livraison|Services de la Mairie",
          "type":"string",
          "constraints":{
             "required":false
@@ -457,9 +449,9 @@
       {
          "name":"EMPRISE_SENS",
          "title":"Direction ou sens de circulation",
-         "description":"Direction ou sens de circulation associé à la règlementation. On peut indiquer le sens de la circulation par le côté : 'Pair' ou 'Impair', ou bien par la direction : 'Nord-Sud', 'Est-Ouest', par exemple",
+         "description":"Direction ou sens de circulation associé à la règlementation. Pair : concerne la circulation le long des adresses à chiffre pair. `Nord` signifie vers le Nord, soit \"vers le haut\".",
          "type":"string",
-         "example":"Dans le sens boulevard Maréchal Foch vers l’avenue de la Rostagne (Sens Nord-Sud)",
+         "example":"Deux sens, Impair, Nord",
          "constraints":{
             "required":false,
             "enum":[
