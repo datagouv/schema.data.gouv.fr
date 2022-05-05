@@ -33,7 +33,7 @@ Le fichier doit être encodé en UTF-8 et utiliser le point-virgule comme sépar
 Nom du fichier : `AAAAMMJJ_nom_Arbres_Urbains.csv` avec `nom` étant le nom de la collectivité productrice des données, par exemple pour la commune de Marseille `20201018_Marseille_Arbres_Urbains.csv`.
 
 ### Fichiers d'exemple
-Nous mettons à disposition des fichiers d'exemple qui peuvent servir de base pour renseigner vos lieux de covoiturage.
+Nous mettons à disposition des fichiers d'exemple qui peuvent servir de base pour renseigner l'inventaire de vos arbres en ville.
 
 - [Télécharger un fichier exemple au format CSV](https://github.com/NaturalSolutions/schema-arbre/blob/master/exemple-valide.csv)
 - [Télécharger un fichier exemple au format Excel](https://github.com/NaturalSolutions/schema-arbre/blob/master/exemple-valide.xlsx)
@@ -50,3 +50,7 @@ Vous pouvez utiliser l'outil https://ecoteka.org/ pour vous faciliter le travail
 ## Sources
 Un fichier répertoriant toutes les sources des données ouvertes d'arbres est disponible ici :
 https://urlz.fr/ghiU
+
+## Information 
+- https://natural-solutions-world
+- https://www.natural-solutions.eu
