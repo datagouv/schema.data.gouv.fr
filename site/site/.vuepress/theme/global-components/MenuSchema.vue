@@ -121,9 +121,6 @@ export default {
       //this.schema = this.$router.currentRoute.path.split('/')[1]+"/"+this.$router.currentRoute.path.split('/')[2]
       const regex = '^(0|[1-9]d*).(0|[1-9]d*).(0|[1-9]d*)'
       for (const [key, value] of Object.entries(si)) {
-        console.log(key)
-        console.log(this.$router.currentRoute.path)
-        
         if(this.$router.currentRoute.path.includes(key)) {
             this.schema = key
             this.schema_infos = value;
@@ -148,7 +145,6 @@ export default {
   },
   methods: {
       gotoInternal(page){
-          console.log(this.schema)
           let link = '/'+this.schema+'/'+this.version+'/'+page
           if (this.$router.currentRoute.path !== link) this.$router.push(link)
       },
