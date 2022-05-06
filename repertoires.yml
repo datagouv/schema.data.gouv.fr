@@ -197,3 +197,7 @@ mobilite-measure:
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
   labels:
     - transport.data.gouv.fr
+dispositif-aide:
+  url: https://github.com/etalab/schema-dispositif-aide.git
+  type: tableschema
+  email: schema@data.gouv.fr
