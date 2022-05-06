@@ -118,21 +118,21 @@ export default {
   },
   mounted() {
       const si = require('../../public/schema-infos.json');
-      this.schema = this.$router.currentRoute.path.split('/')[1]+"/"+this.$router.currentRoute.path.split('/')[2]
+      //this.schema = this.$router.currentRoute.path.split('/')[1]+"/"+this.$router.currentRoute.path.split('/')[2]
+      const regex = '^(0|[1-9]d*).(0|[1-9]d*).(0|[1-9]d*)'
       for (const [key, value] of Object.entries(si)) {
-        if(key == this.schema) {
+        console.log(key)
+        console.log(this.$router.currentRoute.path)
+        
+        if(this.$router.currentRoute.path.includes(key)) {
+            this.schema = key
             this.schema_infos = value;
+            if(this.$router.currentRoute.path.split(key)[1].split('/')[1].match(regex)){
+                this.version = this.$router.currentRoute.path.split(key)[1].split('/')[1].replace('.html','')
+            } else {
+                this.version = this.schema_infos['latest']
+            }
         }
-      }
-      if (this.$router.currentRoute.path.split('/').length > 4) {
-          this.version = this.$router.currentRoute.path.split('/')[3]
-      } else {
-          // URL like /etalab/schema-hautes-remunerations/0.1.0.html
-          if (this.$router.currentRoute.path.split('/')[3].match(/\d+\.\d+\.\d+\.html/)) {
-              this.version = this.$router.currentRoute.path.split('/')[3].replace('.html','')
-          } else {
-            this.version = this.schema_infos['latest']
-          }
       }
       
       var last = this.$router.currentRoute.path.split('/')[this.$router.currentRoute.path.split('/').length - 1]
@@ -148,6 +148,7 @@ export default {
   },
   methods: {
       gotoInternal(page){
+          console.log(this.schema)
           let link = '/'+this.schema+'/'+this.version+'/'+page
           if (this.$router.currentRoute.path !== link) this.$router.push(link)
       },
