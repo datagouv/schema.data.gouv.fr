@@ -1,73 +1,82 @@
 <template>
   <div>
-    <div id="search-bar" class="rf-container rf-pb-6w rf-pt-2w">
-        <br />
-        <div class="search-bar" id="header-search">
-            <input
-                v-model="searchText"
-                v-on:input="filterSchema()"
-                class="rf-input-search"
-                placeholder="Rechercher un schéma de données"
-                type="search" id="header-search-input"
-                name="header-search-input"
-            >
-            <button
-              class="rf-button-search"
-            ><img src="../../public/assets/loupe.png" width="22" /><span class="searchLabel">&nbsp;&nbsp;Rechercher</span></button>
-        </div>
-    </div>
-    <br />
-    <div class="labels">
-      <div @mouseleave="hoverLabel = false" @mouseover="hoverLabel= true" class="titleFilter">Filtrer par label :</div>
-      <div v-for="item in listLabels" v-bind:key="item" @click='selectLabel(item)'>
-        <span v-if='item === labelSelected'>
-          <div class="labelSelected">{{ item }}</div>
-        </span>
-        <span v-if='item != labelSelected'>
-          <div class="labelNotSelected">{{ item }}</div>
-        </span>
+    <div v-if="!this.datapackageSelected != ''">
+      <div id="search-bar" class="rf-container rf-pb-6w rf-pt-2w">
+          <br />
+          <div class="search-bar" id="header-search">
+              <input
+                  v-model="searchText"
+                  v-on:input="manageCardsToShow()"
+                  class="rf-input-search"
+                  placeholder="Rechercher un schéma de données"
+                  type="search" id="header-search-input"
+                  name="header-search-input"
+              >
+              <button
+                class="rf-button-search"
+              ><img src="../../public/assets/loupe.png" width="22" /><span class="searchLabel">&nbsp;&nbsp;Rechercher</span></button>
+          </div>
       </div>
-    </div>
-    <div v-if="hoverLabel" class='onTitleHover'>
-      Les labels permettent de filtrer les schémas selon une classification particulière. Aujourd'hui, deux labels sont disponibles : 
-      <ul>
-        <li>
-          <b>Socle Commun des Données Locales</b>, qui liste les schémas à destination des collectivités territoriales dont la publication des données est considérée comme prioritaire,
-        </li>
-        <li>
-          <b>transport.data.gouv.fr</b>, qui liste les schémas mis en avant par transport.data.gouv.fr, relatifs à la mobilité et aux transports.
-        </li>
-      </ul>
-      Les schémas labellisés garantissent une portée de mise en œuvre à l'échelle nationale et ce de façon durable, de schémas réalisés ou supervisés, et maintenables par des structures publiques de référence à l'échelle nationale.
-    </div>
-    <br />
-    <div class="labels">
-      <div @mouseleave="hoverStatut = false" @mouseover="hoverStatut= true" class="titleFilter">Filtrer par statut :</div>
+      <br />
+      <div class="labels">
+        <div @mouseleave="hoverLabel = false" @mouseover="hoverLabel= true" class="titleFilter">Filtrer par label :</div>
+        <div v-for="item in listLabels" v-bind:key="item" @click='selectLabel(item)'>
+          <span v-if='item === labelSelected'>
+            <div class="labelSelected">{{ item }}</div>
+          </span>
+          <span v-if='item != labelSelected'>
+            <div class="labelNotSelected">{{ item }}</div>
+          </span>
+        </div>
+      </div>
+      <div v-if="hoverLabel" class='onTitleHover'>
+        Les labels permettent de filtrer les schémas selon une classification particulière. Aujourd'hui, deux labels sont disponibles : 
+        <ul>
+          <li>
+            <b>Socle Commun des Données Locales</b>, qui liste les schémas à destination des collectivités territoriales dont la publication des données est considérée comme prioritaire,
+          </li>
+          <li>
+            <b>transport.data.gouv.fr</b>, qui liste les schémas mis en avant par transport.data.gouv.fr, relatifs à la mobilité et aux transports.
+          </li>
+        </ul>
+        Les schémas labellisés garantissent une portée de mise en œuvre à l'échelle nationale et ce de façon durable, de schémas réalisés ou supervisés, et maintenables par des structures publiques de référence à l'échelle nationale.
+      </div>
+      <br />
+      <div class="labels">
+        <div @mouseleave="hoverStatut = false" @mouseover="hoverStatut= true" class="titleFilter">Filtrer par statut :</div>
 
-      <div @click="selectStatus('Tous')" v-bind:class="statusSelected === 'Tous' ? 'statutSelected tousSelected' : 'statutNotSelected tousNotSelected'">Tous</div>
-      <div  @click="selectStatus('Adopté')" v-bind:class="statusSelected === 'Adopté' ? 'statutSelected adopteSelected' : 'statutNotSelected adopteNotSelected'">Adopté</div>
-      <div  @click="selectStatus('Publié')" v-bind:class="statusSelected === 'Publié' ? 'statutSelected publieSelected' : 'statutNotSelected publieNotSelected'">Publié</div>
-      <div  @click="selectStatus('En construction')" v-bind:class="statusSelected === 'En construction' ? 'statutSelected constructionSelected' : 'statutNotSelected constructionNotSelected'">En construction</div>
-      <div  @click="selectStatus('En investigation')" v-bind:class="statusSelected === 'En investigation' ? 'statutSelected  investigationSelected' : 'statutNotSelected investigationNotSelected'">En investigation</div>
+        <div @click="selectStatus('Tous')" v-bind:class="statusSelected === 'Tous' ? 'statutSelected tousSelected' : 'statutNotSelected tousNotSelected'">Tous</div>
+        <div  @click="selectStatus('Adopté')" v-bind:class="statusSelected === 'Adopté' ? 'statutSelected adopteSelected' : 'statutNotSelected adopteNotSelected'">Adopté</div>
+        <div  @click="selectStatus('Publié')" v-bind:class="statusSelected === 'Publié' ? 'statutSelected publieSelected' : 'statutNotSelected publieNotSelected'">Publié</div>
+        <div  @click="selectStatus('En construction')" v-bind:class="statusSelected === 'En construction' ? 'statutSelected constructionSelected' : 'statutNotSelected constructionNotSelected'">En construction</div>
+        <div  @click="selectStatus('En investigation')" v-bind:class="statusSelected === 'En investigation' ? 'statutSelected  investigationSelected' : 'statutNotSelected investigationNotSelected'">En investigation</div>
 
+      </div>
+      <div v-if="hoverStatut" class='onTitleHoverStatut'>
+        Sélectionner un statut pour filtrer les schémas disponibles selon leur état :
+        <ul>
+          <li>Adopté : Le schéma est publié et adopté car au moins 3 jeux de données associés à ce schéma sont publiés sur data.gouv.fr.</li>
+          <li>Publié : Le schéma est publié mais encore peu utilisé.</li>
+          <li>En construction : Le schéma est en cours d'élaboration.</li>
+          <li>En investigation : Une idée de schéma a été soumise à la communauté.</li>
+        </ul>
+      </div>
+      <br />
     </div>
-    <div v-if="hoverStatut" class='onTitleHoverStatut'>
-      Sélectionner un statut pour filtrer les schémas disponibles selon leur état :
-      <ul>
-        <li>Adopté : Le schéma est publié et adopté car au moins 3 jeux de données associés à ce schéma sont publiés sur data.gouv.fr.</li>
-        <li>Publié : Le schéma est publié mais encore peu utilisé.</li>
-        <li>En construction : Le schéma est en cours d'élaboration.</li>
-        <li>En investigation : Une idée de schéma a été soumise à la communauté.</li>
-      </ul>
+    <div v-else>
+      <span class="labelNotSelected" @click="resetDataPackage()">Revenir à l'ensemble des schémas</span>
+      <br /><br />Vous avez sélectionné le data package <b><i>{{ this.schemasToShow[0]['datapackage_title'] }}</i></b>
     </div>
-    <br />
     <div class="boxes">
       <div
-          class="box style-schema"
           v-for="schema in schemasToShow"
           :key="schema.name"
-          @click="goto(schema)"
       >
+        <div
+           v-if="!schema.cardType"
+           class="box style-schema"
+          @click="goto(schema)"
+        >
           <div style="color: black;" class="box-header">
               {{ truncateText(schema.title,75) }}
           </div>
@@ -88,6 +97,24 @@
               {{ schema.schemaStatus }}
             </span>
           </div>
+        </div>
+        <div
+          v-else
+           class="box style-datapackage"
+          @click="selectDatapackage(schema.name)"
+        >
+          <div style="color: black;" class="box-header">
+              {{ truncateText(schema.title,75) }}
+          </div>
+          <div v-if="option == 'description'">
+            <div class="box-content2">{{ truncateText(schema.description,100) }}</div>
+            <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
+            {{ messageSchema }}
+            <span>
+              &nbsp;
+            </span>
+          </div>
+        </div>
       </div>
       <div class="noSchemaDiv" v-if="showButtons & schemasToShow.length === 0">
         <div class="noSchemaMessage" >{{ messageSchema }}</div>
@@ -121,6 +148,8 @@ export default {
       listStatus: ['Tous', 'Adopté', 'Publié', 'En construction', 'En investigation'],
       hoverLabel: false,
       hoverStatut: false,
+      listDatapackages: [],
+      datapackageSelected: '',
     };
   },
   mounted() {
@@ -129,6 +158,7 @@ export default {
     var si = require('../../public/schema-infos.json')
     this.schemas = dataSchemas.schemas
     this.schemasInfos = si
+
     for(var key in si) {
       if(si[key]['labels'] != null){
         this.schemas.forEach((s) => {
@@ -151,8 +181,6 @@ export default {
       }
     });
 
-
-    console.log(datafile.construction)
     datafile.construction.forEach((s) => {
       let schema_construction = {}
       schema_construction['title'] = s.title
@@ -174,147 +202,149 @@ export default {
     });
 
 
-    this.schemasToShow = this.schemas.sort(function(a, b){
-      var nameA=latinize(a.title), nameB=latinize(b.title);
-      if (nameA < nameB) //sort string ascending
-        if(a.schemaStatus != 'En construction' && a.schemaStatus != 'En investigation'){
-          return -1;
-        } else {
-          return 1;
-        }
-      if (nameA > nameB)
-        return 1;
-      return 0; //default return value (no sorting)
-    });
-    var statsSchemas = require('../../public/stats.json')
-    this.stats = statsSchemas
-
-
-
     if(this.$route.query.q){
       this.searchText = this.$route.query.q;
-      this.filterSchema();
     }
 
     if(this.$route.query.label){
       this.labelSelected = this.$route.query.label
-      this.selectLabel(this.labelSelected)
     }
 
     if(this.$route.query.statut){
       this.statusSelected = this.$route.query.statut
-      this.selectStatus(this.statusSelected)
     }
-    
 
+    if(this.$route.query.datapackage){
+      this.datapackageSelected = this.$route.query.datapackage
+    }
+
+    this.manageCardsToShow()
+
+    var statsSchemas = require('../../public/stats.json')
+    this.stats = statsSchemas
   },
   methods: {
-    reshapeUrl(){
-      var newurl = window.location.origin + '/schemas.html?q=' +this.searchText
+    resetDataPackage(){
+      this.datapackageSelected = '';
+      this.manageCardsToShow();
+    },
+    manageCardsToShow(){
+      this.schemasToShow = []
+      this.listDatapackages = []
 
+      var sts = []
+      if (this.labelSelected != 'Tous'){
+        this.schemas.forEach((s) => {
+          if ((s['labels']) && (s['labels'].includes(this.labelSelected))){
+            sts.push(s)
+          }
+        });
+      } else {
+        sts = this.schemas;
+      }
+      var sts2 = []
+      if(this.statusSelected != 'Tous'){
+        sts.forEach((s) => {
+          if(s['schemaStatus'] == this.statusSelected){
+            sts2.push(s)
+          }
+        });
+      } else{
+        sts2 = sts
+      }
+      
+      var sts3 = []
+      if(this.datapackageSelected != ''){
+        sts2.forEach((s) => {
+          if((s['datapackage_name']) && (s['datapackage_name'] == this.datapackageSelected)){
+            sts3.push(s)
+          }
+        });
+      } else{
+        sts2.forEach((s) => {
+          if(!s['datapackage_name']){
+            sts3.push(s)
+          } else{
+            if(!this.listDatapackages.includes(s['datapackage_name'])){
+              this.listDatapackages.push(s['datapackage_name'])
+              sts3.push(
+                {
+                  'name': s['datapackage_name'],
+                  'title': s['datapackage_title'],
+                  'description': 'Spécifications du Data Package '+s['datapackage_title'],
+                  'schemaStatus': null,
+                  'cardType': 'datapackage'
+                }
+              )
+            }
+          }
+        });
+      }
+
+      var sts4 = []
+      if(this.searchText != ''){
+        sts3.forEach((s) => {
+          if (latinize(s.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
+            sts4.push(s);
+          }
+        });
+      } else{
+        sts4 = sts3
+      }
+
+      this.schemasToShow = sts4;
+
+      this.schemasToShow = this.schemasToShow.sort(function(a, b){
+        var nameA=latinize(a.title), nameB=latinize(b.title);
+        if (nameA < nameB) //sort string ascending
+          if(a.schemaStatus != 'En construction' && a.schemaStatus != 'En investigation'){
+            return -1;
+          } else {
+            return 1;
+          }
+        if (nameA > nameB)
+          return 1;
+        return 0; //default return value (no sorting)
+      });
+
+      if (this.schemasToShow.length === 0) {
+        this.messageSchema = 'Aucun schéma trouvé';
+        this.showButtons = true;
+      } else {
+        this.messageSchema = '';
+      }
+    },
+    reshapeUrl(reload){
+      var newurl = window.location.origin + '/schemas.html?q=' +this.searchText
       if(this.labelSelected != 'Tous'){
         newurl = newurl + '&label=' + this.labelSelected
       }
       if(this.statusSelected != 'Tous'){
         newurl = newurl + '&statut=' + this.statusSelected
       }
+      if(this.datapackageSelected != ''){
+        newurl = newurl + '&datapackage=' + this.datapackageSelected
+      }
 
-      window.history.pushState({path:newurl},'',newurl);
+      if(reload){
+        window.location.href = newurl
+      }else{
+        window.history.pushState({path:newurl},'',newurl);
+      }
+    },
+    selectDatapackage(item){
+      this.datapackageSelected = item;
+      this.reshapeUrl(true);
     },
     selectStatus(item){
       this.statusSelected = item;
-      let sts = []
-      if(item != 'Tous'){
-        console.log('ici')
-        this.schemas.forEach((s) => {
-          if(this.labelSelected == 'Tous'){
-            if(s.schemaStatus == item){
-              sts.push(s)
-            }
-          } else {
-            if(s.schemaStatus == item && s.labels && s.labels.includes(this.labelSelected)){
-              sts.push(s)
-            }
-          }
-        });
-      } else {
-        if(this.labelSelected == 'Tous'){
-          sts = this.schemas
-        } else{
-          this.schemas.forEach((s) => {
-            if(s.labels && s.labels.includes(this.labelSelected)){
-              sts.push(s)
-            }
-          });
-          
-        }
-      }
-
-      this.schemasToShow = sts.sort(function(a, b){
-        var nameA=latinize(a.title), nameB=latinize(b.title);
-        if (nameA < nameB) //sort string ascending
-          if(a.schemaStatus != 'En construction' && a.schemaStatus != 'En investigation'){
-            return -1;
-          } else {
-            return 1;
-          }
-        if (nameA > nameB)
-          return 1;
-        return 0; //default return value (no sorting)
-      });
-
-      if(this.searchText != ''){
-        this.filterSchema();
-      }
-
-      this.reshapeUrl()
+      this.manageCardsToShow();
+      this.reshapeUrl(false);
     },
     selectLabel(item){
       this.labelSelected = item;
-      let sts = []
-      if(item != 'Tous'){
-        this.schemas.forEach((s) => {
-          if(this.statusSelected == 'Tous'){
-            if(s.labels && s.labels.includes(item)){
-              sts.push(s)
-            }
-          } else {
-            if(s.schemaStatus == this.statusSelected && s.labels && s.labels.includes(item)){
-              sts.push(s)
-            }
-          }
-        });
-      } else {
-        if(this.statusSelected == 'Tous'){
-          sts = this.schemas
-        } else{
-          console.log('nn')
-          this.schemas.forEach((s) => {
-            if(s.schemaStatus == this.statusSelected){
-              sts.push(s)
-            }
-          });
-        }
-      }
-
-      this.schemasToShow = sts.sort(function(a, b){
-        var nameA=latinize(a.title), nameB=latinize(b.title);
-        if (nameA < nameB) //sort string ascending
-          if(a.schemaStatus != 'En construction' && a.schemaStatus != 'En investigation'){
-            return -1;
-          } else {
-            return 1;
-          }
-        if (nameA > nameB)
-          return 1;
-        return 0; //default return value (no sorting)
-      });
-
-      if(this.searchText != ''){
-        this.filterSchema();
-      }
-
-      this.reshapeUrl()
+      this.manageCardsToShow();
+      this.reshapeUrl(false);
     },
     truncateText(desc,length){
       if (desc.length > length) {
@@ -336,27 +366,6 @@ export default {
     },
     gotoInternal(url) {
       window.location.href = window.location.origin + url;
-    },
-    filterSchema() {
-      if (this.searchText !== '') {
-        const obj = [];
-        this.schemas.forEach((schema) => {
-          if((this.statusSelected == 'Tous' || schema.schemaStatus == this.statusSelected) && (this.labelSelected == 'Tous' || (schema.labels && schema.labels.includes(this.labelSelected)))){
-            if (latinize(schema.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
-              obj.push(schema);
-            }
-          }
-        });
-        this.schemasToShow = obj;
-        if (this.schemasToShow.length === 0) {
-          this.messageSchema = 'Aucun schéma trouvé';
-          this.showButtons = true;
-        } else {
-          this.messageSchema = '';
-        }
-      } else {
-        this.schemasToShow = this.schemas;
-      }
     },
   },
 };
@@ -387,6 +396,11 @@ export default {
 
 .style-schema{
   background-color: #f9f8f6;
+  color: #666666;
+}
+
+.style-datapackage{
+  background-color: #ECEDFE;
   color: #666666;
 }
 
