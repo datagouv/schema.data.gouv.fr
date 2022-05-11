@@ -200,4 +200,4 @@ mobilite-measure:
 dispositif-aide:
   url: https://github.com/etalab/schema-dispositif-aide.git
   type: tableschema
-  email: schema@data.gouv.fr
+  email: aides-territoires@beta.gouv.fr
