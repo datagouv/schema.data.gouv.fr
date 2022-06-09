@@ -201,7 +201,7 @@ dispositif-aide:
   url: https://github.com/etalab/schema-dispositif-aide.git
   type: tableschema
   email: aides-territoires@beta.gouv.fr
-#structures-insertion:
-#  url: https://github.com/betagouv/data-inclusion-schema.git
-#  type: jsonschema
-#  email: schema@data.gouv.fr
+structures-insertion:
+  url: https://github.com/betagouv/data-inclusion-schema.git
+  type: jsonschema
+  email: data.inclusion@beta.gouv.fr
