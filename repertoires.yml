@@ -205,3 +205,4 @@ structures-insertion:
   url: https://github.com/betagouv/data-inclusion-schema.git
   type: jsonschema
   email: data.inclusion@beta.gouv.fr
+  external_doc: https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion
