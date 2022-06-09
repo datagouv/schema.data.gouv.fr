@@ -4,53 +4,34 @@
 
 Ce dépôt contient le schéma de l'offre d'insertion. Il est issu de la collaboration d'acteurs de l'insertion.
 
+## Contexte
+
+La démarche a été initiée par l'équipe [Dora](https://beta.gouv.fr/startups/dora.html), portée le GIP Plateforme de l'inclusion.
+
+Il a été constaté l'existence d'une multitude de portails en ligne ou simulateurs, mais pas de langage commun pour décrire l’offre d’insertion et peu de partage des informations. La diffusion des aides et des dispositifs en est diminuée. Des informations sur les aides ou dispositifs deviennent obsolètes. Les efforts de saisie et de développement sont multipliés.
+
+Ce schéma a été créé avec la collaboration des acteurs de l'insertion afin d'harmoniser les données et de permettre l'intéropérabilité entre les différents acteurs et leurs outils.
+
 ## Le schéma
 
-Le format actuellement supporté est le JSON schema. Le format Table schema sera supporté prochainement.
+Le schéma définit les structures de l'insertion et devraient à terme inclure les services proposés par ces structures. Il comprend les informations essentielles permettant  de décrire l'offre d'insertion et la réutilisation par les acteurs de l'insertion.
 
-Le schéma comprend actuellement les structures de l'insertion et devraient à terme inclure les services proposés par ces structures.
+Le schéma est pour le moment formalisé dans le format JSON schema. Nous veillions néanmoins à maintenir la possibilité de représenter les données au format csv.
 
-La documentation du schéma est disponible [ici](https://app.gitbook.com/o/-LumF4j8whrJ3iKwLJ6f/s/8F5IpX18jjDR1Iawzsnj/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
+La documentation détaillée du schéma est disponible [ici](https://app.gitbook.com/o/-LumF4j8whrJ3iKwLJ6f/s/8F5IpX18jjDR1Iawzsnj/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
 
-### Exemple de données au format du schéma de l'offre d'insertion.
+## Consolidation
 
-```json
-[
-    {
-        "id": "c3d15659-8de9-4fd6-b283-04d50f6ace57",
-        "siret": "60487647500499",
-        "rna": "W123456789",
-        "nom": "MOBILETTE",
-        "commune": "Robinboeuf CEDEX",
-        "code_postal": "09891",
-        "code_insee": "09890",
-        "adresse": "RUE DE LECLERCQ",
-        "date_maj": "2022-04-28T16:53:11Z",
-        "complement_adresse": "HOTEL DE VILLE",
-        "longitude": 7.848133,
-        "latitude": 48.7703,
-        "typologie": "ASSO",
-        "telephone": "0102030405",
-        "courriel": "julie@example.net",
-        "site_web": "https://www.asso-gonzalez.net/",
-        "presentation_resume": "L’association Mobilette propose des solutions de déplacement aux personnes pour qui la non mobilité est un frein à l’insertion professionnelle : - connaissance de l'offre de transport du territoire - accès à un véhicule 2 ou 4 roues - transport solidaire - accès au permis",
-        "presentation_detail": "",
-        "source": "solidagregateur",
-        "structure_parente": "7713e292-abd1-42fc-b1f0-071b7e7a2f61",
-        "lien_source": "https://solidagregateur.fr/structures/c3d15659-8de9-4fd6-b283-04d50f6ace57",
-        "horaires_ouverture": "Mo-Fr 10:00-20:00 \"sur rendez-vous\"; PH off"
-    }
-]
-```
+data.inclusion réalise une consolidation et publie la base consolidée, aux formats json et csv, sur [data.gouv.fr](https://www.data.gouv.fr/en/datasets/referentiel-de-loffre-dinsertion-liste-des-structures-et-services-dinsertion/).
+
+## Aide à la saisie
+
+Les structures se référençant données sur [Dora](https://dora.fabrique.social.gouv.fr/) sont incluses automatiquement dans la base consolidée.
 
 ## Contribuer
 
-Créer un [nouveau ticket](https://github.com/betagouv/data-inclusion-schema/issues/new) ici.
+Nous organisons des ateliers régulièrement pour définir et améliorer le schéma de données. Vous pouvez librement participer aux prochains ateliers en vous inscrivant [ici](https://app.gitbook.com/o/-LumF4j8whrJ3iKwLJ6f/s/8F5IpX18jjDR1Iawzsnj/schemas-de-donnees-de-loffre/les-schemas-and-ateliers).
 
-Participer aux [ateliers](https://app.gitbook.com/o/-LumF4j8whrJ3iKwLJ6f/s/8F5IpX18jjDR1Iawzsnj/schemas-de-donnees-de-loffre/les-schemas-and-ateliers).
+Vous pouvez également créer un [nouveau ticket](https://github.com/betagouv/data-inclusion-schema/issues/new) sur le dépôt ouvert du schéma pour proposer une modification ou une amélioration ou poser une question.
 
-## Changements
 
-### Version 0.1.0 - 2022-06-06
-
-Version initiale.
