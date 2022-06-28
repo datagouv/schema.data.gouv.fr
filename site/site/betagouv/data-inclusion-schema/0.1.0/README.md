@@ -18,7 +18,7 @@ Le schéma définit les structures de l'insertion et devraient à terme inclure 
 
 Le schéma est pour le moment formalisé dans le format JSON schema. Nous veillions néanmoins à maintenir la possibilité de représenter les données au format csv.
 
-La documentation détaillée du schéma est disponible [ici](https://app.gitbook.com/o/-LumF4j8whrJ3iKwLJ6f/s/8F5IpX18jjDR1Iawzsnj/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
+La documentation détaillée du schéma est disponible [ici](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
 
 ## Consolidation
 
@@ -30,8 +30,6 @@ Les structures se référençant données sur [Dora](https://dora.fabrique.socia
 
 ## Contribuer
 
-Nous organisons des ateliers régulièrement pour définir et améliorer le schéma de données. Vous pouvez librement participer aux prochains ateliers en vous inscrivant [ici](https://app.gitbook.com/o/-LumF4j8whrJ3iKwLJ6f/s/8F5IpX18jjDR1Iawzsnj/schemas-de-donnees-de-loffre/les-schemas-and-ateliers).
+Nous organisons des ateliers régulièrement pour définir et améliorer le schéma de données. Vous pouvez librement participer aux prochains ateliers en vous inscrivant [ici](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/les-ateliers-collaboratifs).
 
 Vous pouvez également créer un [nouveau ticket](https://github.com/betagouv/data-inclusion-schema/issues/new) sur le dépôt ouvert du schéma pour proposer une modification ou une amélioration ou poser une question.
-
-
