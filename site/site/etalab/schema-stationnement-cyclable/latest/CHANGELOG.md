@@ -3,10 +3,6 @@
 # Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
-
-## Version 1.1.2 2022-04-20
-- Ajout d'une vérification des coordonnées géographiques pour le champ `coordonneesxy`
-
 ## Version 1.1.1 2022-03-02
 - Correction de l'exemple pour le champ code_com du fichier schema.json
 
