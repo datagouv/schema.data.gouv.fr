@@ -70,7 +70,7 @@
     <div class="boxes">
       <div
           v-for="schema in schemasToShow"
-          :key="schema.name"
+          v-bind:key="schema.name"
       >
         <div
            v-if="!schema.cardType"
@@ -137,7 +137,7 @@ export default {
     return{
       searchText: '',
       messageSchema: '',
-      schemas: null,
+      schemas: 5,
       schemasToShow: [],
       stats: null,
       showButtons: false,
@@ -153,15 +153,18 @@ export default {
     };
   },
   mounted() {
-    
-    var dataSchemas = require('../../public/schemas.json')
+    this.schemasToShow = []
+    this.schemas = []
+    this.schemasInfos = null
+    var dataSchemas = null 
+    dataSchemas = require('../../public/schemas.json')
+
     var si = require('../../public/schema-infos.json')
-    this.schemas = dataSchemas.schemas
     this.schemasInfos = si
 
     for(var key in si) {
       if(si[key]['labels'] != null){
-        this.schemas.forEach((s) => {
+        dataSchemas.schemas.forEach((s) => {
           if(s.name == key){
             s.labels = si[key]['labels']
           }
@@ -169,8 +172,9 @@ export default {
       }
     }
     let datafile = require('../../public/stats.json')
+    
 
-    this.schemas.forEach((s) => {
+    dataSchemas.schemas.forEach((s) => {
       s.schemaStatus = 'Publié'
       for(var key in datafile.references) {
         if(key == s.name){
@@ -180,6 +184,10 @@ export default {
         }
       }
     });
+
+    dataSchemas.schemas.forEach((s) => {
+      this.schemas.push(s)
+    })
 
     datafile.construction.forEach((s) => {
       let schema_construction = {}
@@ -357,7 +365,7 @@ export default {
         window.location.href = schema.url
       } else {
         if(this.option && this.option == 'description') {
-          this.$router.push(`${schema.name}`);
+          this.$router.push(`${schema.name}`).catch(() => {});
         }
         if(this.option && this.option == 'kpis') {
           window.location.href = 'https://www.data.gouv.fr/fr/datasets/?schema='+schema.name
