@@ -24,9 +24,9 @@ Les différents documents et compte-rendus des ateliers du groupe de travail son
 
 ## Schéma
 
-Schéma au format [JSON Schema](https://json-schema.org/), version [`draft-07`](https://json-schema.org/specification-links.html#draft-7) disponible [ici](https://github.com/PnX-SI/schema_randonnee/raw/master/schema.json).
+Schéma au format [JSON Schema](https://json-schema.org/), version [`draft-07`](https://json-schema.org/specification-links.html#draft-7) disponible [ici](schema.json).
 
-Un fichier d'exemple valide avec 10 randonnées est disponible [ici](https://github.com/PnX-SI/schema_randonnee/raw/v1.0.2/exemple-valide.json). L'intégralité des champs du premier itinéraire sont renseignés en guise d'exemple exhaustif.
+Un fichier d'exemple valide avec 10 itinéraires de randonnée est disponible [ici](exemple-valide.json). L'intégralité des champs du premier itinéraire sont renseignés en guise d'exemple exhaustif.
 
 ## Attributs
 
@@ -40,8 +40,8 @@ Un fichier d'exemple valide avec 10 randonnées est disponible [ici](https://git
 | id_osm                 	| nombre entier        	|        	| Non         	| Identifiant de la relation OSM correspondante                                                                 	|
 | nom_itineraire         	| chaîne de caractères 	|        	| Oui         	| Nom de l'itinéraire                                                                                           	|
 | geometry               	| chaîne de caractères 	| object 	| Oui         	| Géométrie linéaire de l’itinéraire                                                                            	|
-| pratique               	| chaîne de caractères 	|        	| Oui         	| Pratique de l'itinéraire                                                                                      	|
-| type_itineraire        	| chaîne de caractères 	|        	| Non         	| Type d'itinéraire                                                                                             	|
+| pratique               	| chaîne de caractères 	|        	| Oui         	| Pratique de l'itinéraire (liste de valeurs contrainte)                                                                                     	|
+| type_itineraire        	| chaîne de caractères 	|        	| Non         	| Type d'itinéraire (liste de valeurs contrainte)                                                                                            	|
 | communes_nom           	| chaîne de caractères 	|        	| Non         	| Noms des communes traversées par l'itinéraire                                                                 	|
 | communes_code          	| chaîne de caractères 	|        	| Non         	| Codes INSEE des communes traversées par l'itinéraire                                                          	|
 | depart                 	| chaîne de caractères 	|        	| Oui         	| Nom du point de départ                                                                                        	|
@@ -71,15 +71,20 @@ Un fichier d'exemple valide avec 10 randonnées est disponible [ici](https://git
 | type_sol               	| chaîne de caractères 	|        	| Non         	| Types de sol sur lesquels se parcourt l'itinéraire                                                            	|
 | pdipr_inscription      	| booléen              	|        	| Non         	| Inscription au PDIPR                                                                                          	|
 | pdipr_date_inscription 	| chaîne de caractères 	| date   	| Non         	| Date d'inscription au PDIPR (AAAA-MM-JJ)                                                                      	|
+
+Deux attributs ont des valeurs contraintes :
+ - `pratique` doit être égal à "pédestre", "trail", "VTT", "cyclo", "gravel", "équestre", "ski de fond", "ski de rando", "raquettes" ou "autre"
+ - `type_itineraire` doit être égal à "aller-retour", "boucle", "aller simple", "itinérance" ou "étape"
+
 ## Validateur
 
-Un script Node.js permet de valider le fichier `itineraires_rando.json` exporté.
+Un script Python permet de valider le fichier `itineraires_rando.json` exporté.
 
-Le script et sa documentation sont disponibles dans le dossier [`/local_validator`](https://github.com/PnX-SI/schema_randonnee/tree/master/local_validator)
+Le script et sa documentation sont disponibles dans le dossier [`/tools/2_validate_data`](/tools/2_validate_data)
 
 ## Geotrek
 
-Si vous utilisez une base de données Geotrek, le dossier [`/geotrek`](https://github.com/PnX-SI/schema_randonnee/tree/master/geotrek) contient une vue SQL permettant d'exporter les données conformes au schéma, ainsi qu'un script pour automatiser et valider cet export.
+Si vous utilisez une base de données Geotrek, deux méthodes sont proposées pour exporter vos données de manière conforme au schéma, ainsi que pour automatiser cet export et la publication sur data.gouv.fr. Les deux méthodes sont décrites dans le dossier [`/geotrek`](/geotrek).
 
 ## Remerciements
 
