@@ -201,8 +201,13 @@ dispositif-aide:
   url: https://github.com/etalab/schema-dispositif-aide.git
   type: tableschema
   email: aides-territoires@beta.gouv.fr
+vehicules-faibles-emissions-renouvellement-parc-synthese:
+  url: https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git
+  type: tableschema
+  email: schema@data.gouv.fr
 structures-insertion:
   url: https://github.com/betagouv/data-inclusion-schema.git
   type: jsonschema
   email: data.inclusion@beta.gouv.fr
   external_doc: https://www.data.inclusion.beta.gouv.fr
+  
