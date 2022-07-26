@@ -4,6 +4,8 @@
 
 Spécification du fichier d’échange relatif aux données de renouvellement des parcs de véhicules et la part de véhicules à faibles émissions parmi eux.
 
+Pour les entreprises de location, location-vente, crédit-bail de véhicules, les plateformes de livraison, ainsi que pour les centrales de réservation de taxi ou VTC, un schéma de données spécifique existe [sur cette page](https://schema.data.gouv.fr/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese/).
+
 ## Contexte
 
 Dans le but de constituer un suivi national des renouvellements de parcs de véhicules des acteurs publics et privés soumis aux obligations d’incorporation de véhicules à faibles émissions dans ces renouvellements prévues par la loi du 24 décembre 2019 d’orientation des mobilités, ouvert et accessible à tous, les personnes visées aux articles L. 224-7 à L. 224-10 du code de l’environnement  doivent, au plus tard le 30 septembre de chaque année, publier sur la plateforme data.gouv.fr les données statiques relatives aux renouvellements de parc effectués l’année précédente selon les dispositions de l’arrêté du 29 décembre 2020 modifié.
@@ -19,14 +21,12 @@ Les données collectées doivent respecter un formalisme particulier (schéma de
 
 Les données sont à remplir au format CSV, encodage UTF-8.
 
-Plusieurs solutions existent pour générer ce fichier CSV.
-
 ## Utilisation de notre outil d'aide à la saisie
 
 Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/select?schema=etalab%2Fschema-vehicules-faibles-emissions-renouvellement-parc), vous pourrez alors publier votre fichier à partir : 
 - d'un fichier csv déjà existant. (vous pouvez partir de [ce fichier exemple](https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.0/exemple-valide.csv) - pour le télécharger : Fichier > Enregistrer sous).
 - d'un formulaire
-- d'un tableur (encore en expérimentation)
+- d'un tableur
 
 Une fois vos données chargées ou remplies, un formulaire vous proposera de les publier sur data.gouv.fr.
 
