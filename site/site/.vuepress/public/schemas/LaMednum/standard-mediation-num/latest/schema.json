@@ -1,0 +1,394 @@
+{
+    "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+    "title": "Lieux de médiation numérique",
+    "description": "Spécification du standard national des lieux de médiation numérique",
+    "keywords": [
+        "médiation numérique",
+        "médiation",
+        "inclusion"
+    ],
+    "countryCode": "FR",
+    "licenses": [
+        {
+            "title": "Licence Ouverte",
+            "name": "etalab-2.0",
+            "path": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+        }
+    ],
+    "resources":[
+       {
+          "title":"Fichier valide (CSV)",
+          "name":"exemple-valide-csv",
+          "path":"https://raw.githubusercontent.com/LaMednum/standard-mediation-num/v0.1.0/exemple-valide.csv"
+       }
+    ],
+    "author": "Datactivist et la MedNum pour l'Agence nationale de la cohésion des territoires (ANCT)",
+    "contact": "contact@lamednum.coop",
+    "contributors": [
+        {
+            "organisation": "La MedNum",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Agence nationale de la cohésion des territoires",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Datactivist",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Les Assembleurs",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Francil'IN",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Hubik",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Métropole européenne de Lille",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Métropole de Lyon",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Bordeaux Métropole",
+            "role": "contributor"
+        },
+         {
+            "organisation": "Région Sud",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Emmaüs Connect",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Open Data France",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Startup d'État Conseiller numérique, projet cartographie nationale",
+            "role": "contributor"
+        },
+        {
+            "organisation": "Etalab",
+            "role": "contributor"
+        }
+    ],
+    "version": "0.1.0",
+    "created": "2022-07-04",
+    "updated": "2022-08-01",
+    "homepage": "https://github.com/LaMednum/standard-mediation-num",
+    "uri": "https://raw.githubusercontent.com/LaMednum/standard-mediation-num/v0.1.0/schema.json",
+    "fields": [
+        {
+            "name": "id",
+            "title": "Identifiant unique local du lieu",
+            "description": "Ce champ contient un identifiant unique local. Le producteur de données le génère librement selon sa méthode. Il peut par exemple s'agir d'une suite de lettres et/ou de chiffres, ou d'un UUID (universal unique identifier) produit aléatoirement : https://www.uuidgenerator.net/ Ce champ permet d'éviter localement les doublons, par exemple dans le cas où deux lieux auraient le même SIRET. Il est un pré-requis pour assurer la compatibilité avec le référentiel national sur l'offre d'insertion : https://www.data.inclusion.beta.gouv.fr/",
+            "example": "structure-1",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "name": "pivot",
+            "title": "SIRET ou RNA",
+            "description": "Ce champ contient une donnée pivot provenant d'une des deux bases de référence : le répertoire SIRENE des entreprises et de leurs établissements de l'Insee ou le Répertoire national des associations du ministère de l'intérieur (RNA). Pour chaque lieu, il faut indiquer soit le code SIRET (dont disposent la majorité des associations) récupérable via annuaire-entreprises.data.gouv.fr soit le numéro RNA (Répertoire National des Associations) du lieu récupérable via journal-officiel.gouv.fr/pages/associations-recherche/. Les associations disposant d'un SIRET doivent renseigner uniquement ce code. Le RNA n'est à renseigner que dans le cas où une association ne disposerait pas de SIRET. Dans la mesure du possible, les concepteurs du schéma mettront à disposition des outils pour associer facilement les données au SIRET correspondant. Dans le cas où le SIRET concernerait plusieurs lieux (plusieurs bibliothèques rattachées à une même commune par exemple), l'identification unique permettra de les dédoublonner. Ce champ est un pré-requis pour assurer la compatibilité avec data.inclusion.",
+            "example": "43493312300029",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "nom",
+            "title": "Nom",
+            "description": "Ce champ contient le nom du lieu.",
+            "example": "Anonymal",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "commune",
+            "title": "Commune",
+            "description": "Ce champ contient le nom de la commune rattachée à l'adresse du lieu. Le site national des adresses permet de rechercher une adresse (voie, lieu-dit, commune, code postal) : adresse.data.gouv.fr",
+            "example": "Reims",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "code_postal",
+            "title": "Code postal",
+            "description": "Ce champ contient le code postal rattaché à l'adresse du lieu. Le site national des adresses permet de rechercher une adresse (voie, lieu-dit, commune, code postal) : adresse.data.gouv.fr",
+            "example": "51100",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern":"^\\d{5}$"
+            }
+        },
+        {
+            "name": "code_insee",
+            "title": "Code officiel géographique",
+            "description": "Ce champ contient le code officiel géographique de la commune rattachée à l'adresse du lieu.",
+            "example": "51454",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}$"
+            }
+        },
+        {
+            "name": "adresse",
+            "title": "Adresse",
+            "description": "Ce champ contient les éléments de l'adresse du lieu relatifs à la voie. Typiquement, <numero_voie> <indice_de_repetition> <type_voie> <libelle_voie>. Le site national des adresses permet de rechercher une adresse (voie, lieu-dit, commune, code postal) : adresse.data.gouv.fr",
+            "example": "12 BIS RUE DE LECLERCQ",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "complement_adresse",
+            "title": "Complément d'adresse",
+            "description": "Ce champ contient des éléments permettant de préciser l'adresse et la situation exactes du lieu, afin d'en permettre l'accès aux usagers. Cela peut être un numéro d'appartement, un étage, un lieu-dit, etc.",
+            "example": "Le patio du bois de l'Aulne",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "latitude",
+            "title": "Latitude",
+            "description": "Ce champ contient la latitude du lieu, dans le système WGS84 (GPS), typiquement issue du géocodage de son adresse et pouvant servir à la localiser. Il est possible de copier les coordonnées GPS depuis le site : adresse.data.gouv.fr",
+            "example": "43.52609",
+            "type": "number",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "longitude",
+            "title": "Longitude",
+            "description": "Ce champ contient la longitude du lieu, dans le système WGS84 (GPS), typiquement issue du géocodage de son adresse et pouvant servir à la localiser. Il est possible de copier les coordonnées GPS depuis le site : adresse.data.gouv.fr",
+            "example": "5.41423",
+            "type": "number",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "cle_ban",
+            "title": "Clé nationale d’interopérabilité de l'adresse",
+            "description": "Cet identifiant est la clé nationale d’interopérabilité de la Base Adresse Nationale (BAN). Il permet de distinguer plus facilement les lieux entre les bases, notamment quand le SIRET est identique à plusieurs lieux.  Il désigne une valeur unique à chaque adresse, il peut être récupéré facilement en recherchant l’adresse du lieu sur le site : adresse.data.gouv.fr ",
+            "example": "13001_3079_00001",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "typologie",
+            "title": "Typologie",
+            "description": "La valeur de ce champ indique le type du lieu : CCAS, ASSO, COMMUNE, etc. Les valeurs possibles (il est possible d'en renseigner plusieurs) sont restreintes au vocabulaire décrivant les types de structures : https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion/typologies-de-structure",
+            "example": "TIERS_LIEUX;ASSO",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "telephone",
+            "title": "Numéro de téléphone",
+            "description": "Ce champ contient un numéro de téléphone du lieu. Le format international doit être respecté : le premier zéro suivant l'indicatif pays (+33) est supprimé et il n'y a pas d'espaces.",
+            "example": "+33180059880",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "^(\\+33|\\+590|\\+594|\\+262|\\+596|\\+269|\\+687|\\+689|\\+590|\\+508|\\+681)(\\d){6,9}$"
+            }
+        },
+        {
+            "name": "courriel",
+            "title": "Courriel",
+            "description": "Ce champ contient l'adresse email générique de contact du lieu.",
+            "example": "contact@laquincaillerie.tl",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "site_web",
+            "title": "Site web",
+            "description": "Ce champ contient une ou plusieurs URL vers le site internet du lieu et/ou les réseaux sociaux. Pour renseigner plusieurs URL, il est nécessaire de les séparer par une virgule, sans espace.",
+            "example": "https://www.laquincaillerie.tl/,https://m.facebook.com/laquincaillerienumerique/",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "horaires",
+            "title": "Horaires",
+            "description": "Ce champ indique les jours et horaires d'ouverture du lieu, en respectant le format proposé par OpenStreetMap (https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours). L'outil YoHours (https://projets.pavie.info/yohours/) permet de générer des horaires au bon format. Le format OSM permet d'indiquer des exceptions pendant certaines périodes (vacances, jours fériés…). Pour les générer au bon format en utilisant YoHours, il suffit de les renseigner en cliquant sur le bouton 'plus' vert, situé en haut à gauche.",
+            "example": "Mo-Fr 09:00-12:00,14:00-18:30; Sa 08:30-12:00",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "presentation_resume",
+            "title": "Présentation résumé",
+            "description": "Ce champ contient une courte description du lieu (500 caractères maximum).",
+            "example": "Notre association propose des formations aux outils numériques à destination des personnes âgées.",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "maxLength": 500
+            }
+        },
+        {
+            "name": "presentation_detail",
+            "title": "Présentation détaillée",
+            "description": "Ce champ contient une description plus détaillée du lieu. Il est par exemple possible de préciser si des aidants sont itinérants.",
+            "example": "Notre parcours d'initiation permet l'acquisition de compétences numériques de base. Nous proposons également un accompagnement à destination des personnes déjà initiées qui souhaiteraient approfondir leurs connaissances. Du matériel informatique est en libre accès pour nos adhérents tous les après-midis. En plus de d'accueillir les personnes dans notre lieu en semaine (sur rendez-vous), nous assurons une permanence le samedi matin dans la médiathèque XX.",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "source",
+            "title": "Structure collectant la donnée",
+            "description": "La valeur de ce champ détaille la structure qui a collecté les données sur le lieu. Cela peut être la structure elle-même ou une structure tierce (une collectivité territoriale, un réseau de médiation numérique...)",
+            "example": "Hubik",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "structure_parente",
+            "title": "Structure parente",
+            "description": "Ce champ permet de décrire le réseau/la structure auquel le lieu appartient. Pour le remplir, indiquer le nom de cette entité.",
+            "example": "Pôle emploi",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "date_maj",
+            "title": "Date de mise à jour",
+            "description": "Ce champ contient la date à laquelle la donnée considérée a été mise à jour. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD).",
+            "example": "2022-06-02",
+            "type": "date",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "services",
+            "title": "Services",
+            "description": "Ce champ permet de décrire les types d'accompagnement proposés dans l'offre du lieu. Sélectionner une ou plusieurs valeurs séparées par un point-virgule sans espace parmi la liste suivante : Devenir autonome dans les démarches administratives ; Réaliser des démarches administratives avec un accompagnement ; Prendre en main un smartphone ou une tablette ; Prendre en main un ordinateur ; Utiliser le numérique au quotidien ; Approfondir ma culture numérique ; Favoriser mon insertion professionnelle ; Accéder à une connexion internet ; Accéder à du matériel ; S’équiper en matériel informatique ; Créer et développer mon entreprise ; Créer avec le numérique ; Accompagner les démarches de santé ; Promouvoir la citoyenneté numérique ; Soutenir la parentalité et l'éducation avec le numérique",
+            "example": "Devenir autonome dans les démarches administratives;Réaliser des démarches administratives avec un accompagnement;Prendre en main un smartphone ou une tablette;Prendre en main un ordinateur;Utiliser le numérique au quotidien;Approfondir ma culture numérique;Favoriser mon insertion professionnelle;Accéder à une connexion internet;Accéder à du matériel",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "(?:(?:^|;)(Devenir autonome dans les démarches administratives|Réaliser des démarches administratives avec un accompagnement|Prendre en main un smartphone ou une tablette|Prendre en main un ordinateur|Utiliser le numérique au quotidien|Approfondir ma culture numérique|Favoriser mon insertion professionnelle|Accéder à une connexion internet|Accéder à du matériel|S’équiper en matériel informatique|Créer et développer mon entreprise|Créer avec le numérique|Accompagner les démarches de santé|Promouvoir la citoyenneté numérique|Soutenir la parentalité et l'éducation avec le numérique))+$"
+            }
+        },
+        {
+            "name": "publics_accueillis",
+            "title": "Publics accueillis",
+            "description": "Ce champ permet d'informer sur les types de publics que le lieu est en mesure d'accueillir. Sélectionner une ou plusieurs valeurs séparées par un point-virgule sans espace parmi la liste suivante : Seniors (+ 65 ans) ; Familles\/enfants ; Adultes ; Jeunes (16-26 ans) ; Public langues étrangères ; Déficience visuelle ; Surdité ; Handicaps psychiques : troubles psychiatriques donnant lieu à des atteintes comportementales ; Handicaps mentaux : déficiences limitant les activités d'une personne ; Uniquement femmes ; Personnes en situation d'illettrisme",
+            "example": "Seniors (+ 65 ans);Familles/enfants;Adultes;Déficience visuelle",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "(?:(?:^|;)(Seniors \\(\\+ 65 ans\\)|Familles\/enfants|Adultes|Jeunes (16-26 ans)|Public langues étrangères|Déficience visuelle|Surdité|Handicaps psychiques : troubles psychiatriques donnant lieu à des atteintes comportementales|Handicaps mentaux : déficiences limitant les activités d'une personne|Uniquement femmes|Personnes en situation d'illettrisme))+$"
+            }
+        },
+        {
+            "name": "conditions_acces",
+            "title": "Conditions d'accès",
+            "description": "Ce champ indique les conditions financières d'accès au lieu. Sélectionner une ou plusieurs valeurs séparées par un point-virgule sans espace parmi la liste suivante : Gratuit : Je peux accéder gratuitement au lieu et à ses services ; Gratuit sous condition : La gratuité est conditionnée à des critères (situation familiale, convention avec un organisme social...) ; Payant : L'accès au lieu et\/ou à ses services est payant ; Accepte le Pass numérique : Il est possible d'utiliser un Pass numérique pour accéder au lieu",
+            "example": "Gratuit sous condition : La gratuité est conditionnée à des critères (situation familiale, convention avec un organisme social...);Payant : L'accès au lieu et/ou à ses services est payant;Accepte le Pass numérique : Il est possible d'utiliser un Pass numérique pour accéder au lieu",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "(?:(?:^|;)(Gratuit : Je peux accéder gratuitement au lieu et à ses services|Gratuit sous condition : La gratuité est conditionnée à des critères \\(situation familiale, convention avec un organisme social...\\)|Payant : L'accès au lieu et\/ou à ses services est payant|Accepte le Pass numérique : Il est possible d'utiliser un Pass numérique pour accéder au lieu))+$"
+            }
+        },
+        {
+            "name": "labels_nationaux",
+            "title": "Labels nationaux",
+            "description": "Ce champ indique si le lieu a obtenu un ou plusieurs labels nationaux. Sélectionner une ou plusieurs valeurs séparées par un point-virgule sans espace parmi la liste suivante : France Services ; CNFS ; APTIC ; Aidants Connect ; Fabriques de Territoire ; Grandes écoles du numérique ; Point relais CAF ; Relais pôle emploi ; French Tech ; Campus connecté",
+            "example": "France Services;APTIC;Point relais CAF",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "(?:(?:^|;)(France Services|CNFS|APTIC|Aidants Connect|Fabriques de Territoire|Grandes écoles du numérique|Point relais CAF|Relais pôle emploi|French Tech|Campus connecté))+$"
+            }
+        },
+        {
+            "name": "labels_autres",
+            "title": "Autres labels",
+            "description": "Ce champ permet de préciser si le lieu a obtenu d'autres labels (régionaux, locaux...)",
+            "example": "SudLabs;Nièvre médiation numérique",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "modalites_accompagnement",
+            "title": "Modalités d'accompagnement",
+            "description": "Ce champ indique les types d'accompagnement proposés par le lieu. Sélectionner une ou plusieurs valeurs séparées par un point-virgule sans espace parmi la liste suivante : Il est possible de renseigner plusieurs valeurs. Seul : j'ai accès à du matériel et une connexion ; Avec de l'aide : je suis accompagné seul dans l'usage du numérique ; Dans un atelier : j'apprends collectivement à utiliser le numérique ; A ma place : une personne habilitée fait les démarches à ma place",
+            "example": "Seul : j'ai accès à du matériel et une connexion;Avec de l'aide : je suis accompagné seul dans l'usage du numérique",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "(?:(?:^|;)(Seul : j'ai accès à du matériel et une connexion|Avec de l'aide : je suis accompagné seul dans l'usage du numérique|Dans un atelier : j'apprends collectivement à utiliser le numérique|A ma place : une personne habilitée fait les démarches à ma place))+$"
+            }
+        },
+        {
+            "name": "accessibilite",
+            "title": "Accessibilité / accueil handicap",
+            "description": "Ce champ contient une url renvoyant vers le profil acceslibre du lieu : https://acceslibre.beta.gouv.fr/. Acceslibre est un service public porté par le Ministère de la Transition Écologique afin de collecter et de partager les données d'accessibilité des établissements recevant du public. Le remplissage d'une fiche prend moins de 5 minutes.",
+            "example": "https://acceslibre.beta.gouv.fr/app/29-lampaul-plouarzel/a/bibliotheque-mediatheque/erp/mediatheque-13/",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "prise_rdv",
+            "title": "Prise de rdv",
+            "description": "Ce champ contient une url renvoyant vers le site de prise de rendez-vous en ligne avec les aidants du lieu.",
+            "example": "https://www.rdv-solidarites.fr/",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "primaryKey":"id"
+}
