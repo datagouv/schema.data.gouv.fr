@@ -96,10 +96,10 @@ stationnement-cyclable:
   external_doc: https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable
   labels:
     - transport.data.gouv.fr
-inclusion-numerique:
-  url: https://github.com/etalab/schema-inclusion-numerique.git
+lieux-mediation-numerique:
+  url: https://github.com/LaMednum/standard-mediation-num.git
   type: tableschema
-  email: carto@aidantsconnect.beta.gouv.fr
+  email: contact@lamednum.coop
 bal:
   url: https://github.com/etalab/schema-bal
   type: other
