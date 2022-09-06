@@ -34,8 +34,8 @@ Nom du fichier : `AAAAMMJJ_idproducteur_lieuxcovoit.csv` où `idproducteur` est 
 ### Fichiers d'exemple
 Nous mettons à disposition des fichiers d'exemple qui peuvent servir de base pour renseigner vos lieux de covoiturage.
 
-- [Télécharger un fichier exemple au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.4/exemple-valide.csv)
-- [Télécharger un fichier d'exemple invalide](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.4/exemple-invalide.csv) contenant des erreurs dans le formatage des dates et une inversion des coordonnées géographiques latitude/longitude
+- [Télécharger un fichier exemple au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/exemple-valide.csv)
+- [Télécharger un fichier d'exemple invalide](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/exemple-invalide.csv) contenant des erreurs dans le formatage des dates et une inversion des coordonnées géographiques latitude/longitude
 
 ### Mises à jour
 Les mises à jour sont effectuées à partir du fichier communiqué précédemment et en reprennent, en les modifiant le cas échéant, les données qui y figurent déjà.
