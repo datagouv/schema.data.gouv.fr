@@ -8,7 +8,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 - Schéma créé le : 09/15/21
 - Site web : https://github.com/etalab/schema-flotte-publique-vehicule
-- Version : 0.1.1
+- Version : 0.1.2
 
 ### Modèle de données
 
@@ -22,6 +22,7 @@ Spécification des données fixant les termes et modalités de publication du po
 | [nom](#propriete-nom) | chaîne de caractères  | Oui |
 | [naf](#propriete-naf) | chaîne de caractères  | Oui |
 | [cj](#propriete-cj) | chaîne de caractères  | Oui |
+| [annee](#propriete-annee) | année  | Oui |
 | [zone](#propriete-zone) | chaîne de caractères  | Oui |
 | [nbVP](#propriete-nbvp) | nombre entier  | Oui |
 | [nbVPEL](#propriete-nbvpel) | nombre entier  | Oui |
@@ -124,6 +125,12 @@ Spécification des données fixant les termes et modalités de publication du po
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{4}$`
+
+#### Propriété `annee`
+
+> *Description : Année concernée par les données rapportées.<br/>Ex : 2021*
+- Valeur obligatoire
+- Type : année
 
 #### Propriété `zone`
 
@@ -443,67 +450,67 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbCarEL`
 
-> *Description : Nombre d'autocars électriques purs.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) électriques purs.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarH2`
 
-> *Description : Nombre d'autocars à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) à hydrogène (hybrides inclus).<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarEHRE`
 
-> *Description : Nombre d'autocars électriques hybrides rechargeables de l'extérieur.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) électriques hybrides rechargeables de l'extérieur.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarGNV`
 
-> *Description : Nombre d'autocars au GNV.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) au GNV.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarbioGNV`
 
-> *Description : Nombre d'autocars au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarGPL`
 
-> *Description : Nombre d'autocars au GPL.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) au GPL.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarBio`
 
-> *Description : Nombre d'autocars exclusivement aux biocarburants.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) exclusivement aux biocarburants.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarXTL`
 
-> *Description : Nombre d'autocars exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `nbCarEuroVI`
 
-> *Description : Nombre d'autocars hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.<br/>Ex : 12*
+> *Description : Nombre d'autocar (M2 et M3) hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.<br/>Ex : 12*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `pcentLDVFE`
 
-> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean et nbN1supclean sur la somme des valeurs des champs nbVP et nbN1.<br/>Ex : 12.2*
+> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean et nbN1supclean sur la somme des valeurs des champs nbVP et nbN1. Pour les entreprises privées, la prise en compte des champs nbN1supclean et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.<br/>Ex : 12.2*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### Propriété `pcentLDVTFE`
 
-> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1.<br/>Ex : 12.2*
+> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1. Pour les personnes dont le profil est «privé», la prise en compte des champs nbN1supEL, nbN1supH2 et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.<br/>Ex : 12.2*
 - Valeur obligatoire
 - Type : nombre réel
 

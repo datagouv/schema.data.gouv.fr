@@ -11,7 +11,7 @@
    ],
    "countryCode":"FR",
    "homepage":"https://github.com/etalab/schema-flotte-publique-vehicule",
-   "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.1/schema.json",
+   "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.2/schema.json",
    "image":"",
    "licenses":[
       {
@@ -24,7 +24,7 @@
       {
          "title":"Fichier valide (CSV)",
          "name":"exemple-valide-csv",
-         "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.1/exemple-valide.csv"
+         "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.2/exemple-valide.csv"
       }
    ],
    "sources":[
@@ -42,8 +42,8 @@
       }
    ],
    "created":"2021-09-15",
-   "lastModified":"2021-09-15",
-   "version":"0.1.1",
+   "lastModified":"2022-10-14",
+   "version":"0.1.2",
    "contributors":[
       {
          "title":"Julieta Barado",
@@ -117,6 +117,15 @@
          "constraints":{
             "required":true,
             "pattern": "^\\d{4}$"
+         }
+      },
+      {
+         "name": "annee",
+         "description": "Année concernée par les données rapportées.",
+         "example": "2021",
+         "type": "year",
+         "constraints": {
+            "required": true
          }
       },
       {
@@ -594,7 +603,7 @@
       },
       {
          "name":"nbCarEL",
-         "description":"Nombre d'autocars électriques purs.",
+         "description":"Nombre d'autocars (M2 et M3) électriques purs.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -603,7 +612,7 @@
       },
       {
          "name":"nbCarH2",
-         "description":"Nombre d'autocars à hydrogène (hybrides inclus).",
+         "description":"Nombre d'autocars (M2 et M3) à hydrogène (hybrides inclus).",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -612,7 +621,7 @@
       },
       {
          "name":"nbCarEHRE",
-         "description":"Nombre d'autocars électriques hybrides rechargeables de l'extérieur.",
+         "description":"Nombre d'autocars (M2 et M3) électriques hybrides rechargeables de l'extérieur.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -621,7 +630,7 @@
       },
       {
          "name":"nbCarGNV",
-         "description":"Nombre d'autocars au GNV.",
+         "description":"Nombre d'autocars (M2 et M3) au GNV.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -630,7 +639,7 @@
       },
       {
          "name":"nbCarbioGNV",
-         "description":"Nombre d'autocars au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.",
+         "description":"Nombre d'autocars (M2 et M3) au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -639,7 +648,7 @@
       },
       {
          "name":"nbCarGPL",
-         "description":"Nombre d'autocars au GPL.",
+         "description":"Nombre d'autocars (M2 et M3) au GPL.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -648,7 +657,7 @@
       },
       {
          "name":"nbCarBio",
-         "description":"Nombre d'autocars exclusivement aux biocarburants.",
+         "description":"Nombre d'autocars (M2 et M3) exclusivement aux biocarburants.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -657,7 +666,7 @@
       },
       {
          "name":"nbCarXTL",
-         "description":"Nombre d'autocars exclusivement à carburants de synthèse ou paraffiniques.",
+         "description":"Nombre d'autocars (M2 et M3) exclusivement à carburants de synthèse ou paraffiniques.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -666,7 +675,7 @@
       },
       {
          "name":"nbCarEuroVI",
-         "description":"Nombre d'autocars hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.",
+         "description":"Nombre d'autocar (M2 et M3) hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.",
          "example":"12",
          "type":"integer",
          "constraints":{
@@ -675,7 +684,7 @@
       },
       {
          "name":"pcentLDVFE",
-         "description":"Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean et nbN1supclean sur la somme des valeurs des champs nbVP et nbN1.",
+         "description":"Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean et nbN1supclean sur la somme des valeurs des champs nbVP et nbN1. Pour les entreprises privées, la prise en compte des champs nbN1supclean et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.",
          "example":"12.2",
          "type":"number",
          "constraints":{
@@ -684,7 +693,7 @@
       },
       {
          "name":"pcentLDVTFE",
-         "description":"Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1.",
+         "description":"Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1. Pour les personnes dont le profil est «privé», la prise en compte des champs nbN1supEL, nbN1supH2 et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.",
          "example":"12.2",
          "type":"number",
          "constraints":{
