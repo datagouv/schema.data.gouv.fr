@@ -24,7 +24,7 @@ Les étapes et enjeux du projet sont également détaillés [sur le site de La M
 
 ## Description du schéma
 
-La documentation des champs du schéma est accessible ici *insérer lien schema.data.gouv.fr*. 
+La documentation des champs du schéma est accessible [sur schema.data.gouv.fr](https://schema.data.gouv.fr/LaMednum/standard-mediation-num/). 
 
 Un [gabarit](https://github.com/LaMednum/standard-mediation-num/blob/main/Schema_lieux_mediation_numerique_gabarit.xlsx) au format tableur est également prévu pour faciliter la publication d'un jeu de données conforme au format du schéma.
 
