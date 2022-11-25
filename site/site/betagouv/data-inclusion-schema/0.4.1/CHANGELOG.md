@@ -2,13 +2,6 @@
 
 # Changements
 
-## Version 0.5.0
-
-* nouvelle gestion des antennes
-  * suppression du champ `structure_parente`
-  * ajout du champ `antenne`
-* ajout du label `conseiller-numerique`
-
 ## Version 0.4.1 - 2022-11-15
 
 * documentation des typologies de structures
