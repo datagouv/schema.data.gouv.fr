@@ -8,7 +8,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 - Schéma créé le : 03/10/21
 - Site web : https://github.com/MTES-MCT/acceslibre-schema
-- Version : 0.0.9
+- Version : 0.0.10
 - Clé primaire : `id`
 
 ### Modèle de données
@@ -495,7 +495,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Sens de circulation de l'escalier - Propriété `cheminement_ext_sens_marches`
 
-> *Description : Sens de circulation des marches ou de l'escalier<br/>Ex : Valeurs possibles: montant -> Montant, descendant -> Descendant*
+> *Description : Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.<br/>Ex : descendant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -510,7 +510,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `cheminement_ext_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.<br/>Ex : amovible*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -526,7 +526,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Degré de difficulté de la pente - Propriété `cheminement_ext_pente_degre_difficulte`
 
-> *Description : Difficulté de la pente<br/>Ex : Valeurs possibles: légère -> Légère, importante -> Importante*
+> *Description : Difficulté de la pente. Valeurs possibles : légère -> Légère, importante -> Importante.<br/>Ex : importante*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -535,7 +535,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Longueur de la pente - Propriété `cheminement_ext_pente_longueur`
 
-> *Description : Longueur de la pente<br/>Ex : Valeurs possibles: courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres*
+> *Description : Longueur de la pente. Valeurs possibles : courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres.<br/>Ex : moyenne*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -545,7 +545,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Dévers - Propriété `cheminement_ext_devers`
 
-> *Description : Dévers ou inclinaison transversale du chemin<br/>Ex : Valeurs possibles: aucun -> Aucun, léger -> Léger, important -> Important*
+> *Description : Dévers ou inclinaison transversale du chemin. Valeurs possibles : aucun -> Aucun, léger -> Léger, important -> Important.<br/>Ex : important*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -615,7 +615,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `entree_marches_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.<br/>Ex : amovible*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -625,7 +625,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Sens de circulation de l'escalier - Propriété `entree_marches_sens`
 
-> *Description : Sens de circulation des marches ou de l'escalier<br/>Ex : Valeurs possibles: montant -> Montant, descendant -> Descendant*
+> *Description : Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.<br/>Ex : descendant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -640,7 +640,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Type de dispositif d'appel à l'entrée - Propriété `entree_dispositif_appel_type`
 
-> *Description : Dispositifs d'appels présents<br/>Ex : Valeurs possibles: bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone*
+> *Description : Dispositifs d'appels présents. Valeurs possibles : bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone.<br/>Ex : ['bouton', 'visiophone']*
 - Valeur optionnelle
 - Type : liste
 
@@ -676,7 +676,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Manoeuvre de la porte - Propriété `entree_porte_manoeuvre`
 
-> *Description : Mode d'ouverture de la porte<br/>Ex : Valeurs possibles: battante -> Porte battante, coulissante -> Porte coulissante, tourniquet -> Tourniquet, tambour -> Porte tambour*
+> *Description : Mode d'ouverture de la porte. Valeurs possibles : battante -> Porte battante, coulissante -> Porte coulissante, tourniquet -> Tourniquet, tambour -> Porte tambour.<br/>Ex : coulissante*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -687,7 +687,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Type de porte - Propriété `entree_porte_type`
 
-> *Description : Type de porte<br/>Ex : Valeurs possibles: manuelle -> Manuelle, automatique -> Automatique*
+> *Description : Type de porte. Valeurs possibles : manuelle -> Manuelle, automatique -> Automatique.<br/>Ex : automatique*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -702,7 +702,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Personnel d'accueil - Propriété `accueil_personnels`
 
-> *Description : Personnel à l'accueil des personnes handicapées<br/>Ex : Valeurs possibles: aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés*
+> *Description : Personnel à l'accueil des personnes handicapées. Valeurs possibles : aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés.<br/>Ex : non-formés*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -718,7 +718,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Liste des équipements d'aide à l'audition et à la communication - Propriété `accueil_equipements_malentendants`
 
-> *Description : Équipements ou prestations disponibles<br/>Ex : Valeurs possibles: bim -> Boucle à induction magnétique fixe, bmp -> Boucle à induction magnétique portative, lsf -> Langue des signes française, lpc -> Langue Française Parlée Complétée (LFPC), sts -> Sous-Titrage ou Transcription Simultanée, autres -> Autres*
+> *Description : Équipements ou prestations disponibles. Valeurs possibles : bim -> Boucle à induction magnétique fixe, bmp -> Boucle à induction magnétique portative, lsf -> Langue des signes française, lpc -> Langue Française Parlée Complétée (LFPC), sts -> Sous-Titrage ou Transcription Simultanée, autres -> Autres.<br/>Ex : ['bim', 'bmp']*
 - Valeur optionnelle
 - Type : liste
 
@@ -754,7 +754,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `accueil_cheminement_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.<br/>Ex : fixe*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -764,7 +764,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Sens de circulation de l'escalier - Propriété `accueil_cheminement_sens_marches`
 
-> *Description : Sens de circulation des marches ou de l'escalier<br/>Ex : Valeurs possibles: montant -> Montant, descendant -> Descendant*
+> *Description : Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.<br/>Ex : descendant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -791,13 +791,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Marques ou labels - Propriété `labels`
 
-> *Description : Marque(s) ou label(s) obtenus par l'établissement<br/>Ex : Valeurs possibles: autre -> Autre, dpt -> Destination pour Tous, mobalib -> Mobalib, th -> Tourisme & Handicap*
+> *Description : Marque(s) ou label(s) obtenus par l'établissement. Valeurs possibles : autre -> Autre, dpt -> Destination pour Tous, mobalib -> Mobalib, th -> Tourisme & Handicap.<br/>Ex : ['mobalib', 'th']*
 - Valeur optionnelle
 - Type : liste
 
 #### Famille(s) de handicap concernées(s) - Propriété `labels_familles_handicap`
 
-> *Description : Famille(s) de handicap couverte(s) par ces marques ou labels<br/>Ex : Valeurs possibles: auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel*
+> *Description : Famille(s) de handicap couverte(s) par ces marques ou labels. Valeurs possibles : auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel.<br/>Ex : ['moteur', 'visuel']*
 - Valeur optionnelle
 - Type : liste
 

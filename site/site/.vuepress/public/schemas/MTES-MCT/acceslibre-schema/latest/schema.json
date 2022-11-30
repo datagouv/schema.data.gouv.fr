@@ -10,7 +10,7 @@
   ],
   "countryCode": "FR",
   "homepage": "https://github.com/MTES-MCT/acceslibre-schema",
-  "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.9/schema.json",
+  "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.10/schema.json",
   "licenses": [
     {
       "title": "Etalab Licence Ouverte 2.0",
@@ -22,18 +22,18 @@
     {
       "title": "Fichier valide (CSV)",
       "name": "exemple-valide-csv",
-      "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.9/exemple-valide.csv"
+      "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.10/exemple-valide.csv"
     },
     {
       "title": "Schéma au format XLS",
       "name": "schema_format_xls",
-      "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.9/schema_format_excel.xls"
+      "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.10/schema_format_excel.xls"
     }
   ],
   "sources": [],
   "created": "2021-03-10",
   "lastModified": "2022-04-11",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "contributors": [
     {
       "title": "Christophe Vanfrackem",
@@ -995,7 +995,7 @@
     {
       "name": "cheminement_ext_sens_marches",
       "title": "Sens de circulation de l'escalier",
-      "description": "Sens de circulation des marches ou de l'escalier",
+      "description": "Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1003,7 +1003,7 @@
           "descendant"
         ]
       },
-      "example": "Valeurs possibles: montant -> Montant, descendant -> Descendant"
+      "example": "descendant"
     },
     {
       "name": "cheminement_ext_main_courante",
@@ -1039,7 +1039,7 @@
     {
       "name": "cheminement_ext_rampe",
       "title": "Rampe",
-      "description": "Présence d'une rampe fixe ou amovible",
+      "description": "Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1048,7 +1048,7 @@
           "amovible"
         ]
       },
-      "example": "Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible"
+      "example": "amovible"
     },
     {
       "name": "cheminement_ext_pente_presence",
@@ -1084,7 +1084,7 @@
     {
       "name": "cheminement_ext_pente_degre_difficulte",
       "title": "Degré de difficulté de la pente",
-      "description": "Difficulté de la pente",
+      "description": "Difficulté de la pente. Valeurs possibles : légère -> Légère, importante -> Importante.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1092,12 +1092,12 @@
           "importante"
         ]
       },
-      "example": "Valeurs possibles: légère -> Légère, importante -> Importante"
+      "example": "importante"
     },
     {
       "name": "cheminement_ext_pente_longueur",
       "title": "Longueur de la pente",
-      "description": "Longueur de la pente",
+      "description": "Longueur de la pente. Valeurs possibles : courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1106,12 +1106,12 @@
           "longue"
         ]
       },
-      "example": "Valeurs possibles: courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres"
+      "example": "moyenne"
     },
     {
       "name": "cheminement_ext_devers",
       "title": "Dévers",
-      "description": "Dévers ou inclinaison transversale du chemin",
+      "description": "Dévers ou inclinaison transversale du chemin. Valeurs possibles : aucun -> Aucun, léger -> Léger, important -> Important.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1120,7 +1120,7 @@
           "important"
         ]
       },
-      "example": "Valeurs possibles: aucun -> Aucun, léger -> Léger, important -> Important"
+      "example": "important"
     },
     {
       "name": "cheminement_ext_bande_guidage",
@@ -1411,7 +1411,7 @@
     {
       "name": "entree_marches_rampe",
       "title": "Rampe",
-      "description": "Présence d'une rampe fixe ou amovible",
+      "description": "Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1420,12 +1420,12 @@
           "amovible"
         ]
       },
-      "example": "Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible"
+      "example": "amovible"
     },
     {
       "name": "entree_marches_sens",
       "title": "Sens de circulation de l'escalier",
-      "description": "Sens de circulation des marches ou de l'escalier",
+      "description": "Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1433,7 +1433,7 @@
           "descendant"
         ]
       },
-      "example": "Valeurs possibles: montant -> Montant, descendant -> Descendant"
+      "example": "descendant"
     },
     {
       "name": "entree_dispositif_appel",
@@ -1469,7 +1469,7 @@
     {
       "name": "entree_dispositif_appel_type",
       "title": "Type de dispositif d'appel à l'entrée",
-      "description": "Dispositifs d'appels présents",
+      "description": "Dispositifs d'appels présents. Valeurs possibles : bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone.",
       "type": "array",
       "arrayItem": {
         "type": "string",
@@ -1479,7 +1479,10 @@
           "visiophone"
         ]
       },
-      "example": "Valeurs possibles: bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone"
+      "example": [
+        "bouton",
+        "visiophone"
+      ]
     },
     {
       "name": "entree_balise_sonore",
@@ -1615,7 +1618,7 @@
     {
       "name": "entree_porte_manoeuvre",
       "title": "Manoeuvre de la porte",
-      "description": "Mode d'ouverture de la porte",
+      "description": "Mode d'ouverture de la porte. Valeurs possibles : battante -> Porte battante, coulissante -> Porte coulissante, tourniquet -> Tourniquet, tambour -> Porte tambour.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1625,12 +1628,12 @@
           "tambour"
         ]
       },
-      "example": "Valeurs possibles: battante -> Porte battante, coulissante -> Porte coulissante, tourniquet -> Tourniquet, tambour -> Porte tambour"
+      "example": "coulissante"
     },
     {
       "name": "entree_porte_type",
       "title": "Type de porte",
-      "description": "Type de porte",
+      "description": "Type de porte. Valeurs possibles : manuelle -> Manuelle, automatique -> Automatique.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1638,7 +1641,7 @@
           "automatique"
         ]
       },
-      "example": "Valeurs possibles: manuelle -> Manuelle, automatique -> Automatique"
+      "example": "automatique"
     },
     {
       "name": "accueil_visibilite",
@@ -1674,7 +1677,7 @@
     {
       "name": "accueil_personnels",
       "title": "Personnel d'accueil",
-      "description": "Personnel à l'accueil des personnes handicapées",
+      "description": "Personnel à l'accueil des personnes handicapées. Valeurs possibles : aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1683,7 +1686,7 @@
           "non-formés"
         ]
       },
-      "example": "Valeurs possibles: aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés"
+      "example": "non-formés"
     },
     {
       "name": "accueil_equipements_malentendants_presence",
@@ -1719,7 +1722,7 @@
     {
       "name": "accueil_equipements_malentendants",
       "title": "Liste des équipements d'aide à l'audition et à la communication",
-      "description": "Équipements ou prestations disponibles",
+      "description": "Équipements ou prestations disponibles. Valeurs possibles : bim -> Boucle à induction magnétique fixe, bmp -> Boucle à induction magnétique portative, lsf -> Langue des signes française, lpc -> Langue Française Parlée Complétée (LFPC), sts -> Sous-Titrage ou Transcription Simultanée, autres -> Autres.",
       "type": "array",
       "arrayItem": {
         "type": "string",
@@ -1732,7 +1735,10 @@
           "autres"
         ]
       },
-      "example": "Valeurs possibles: bim -> Boucle à induction magnétique fixe, bmp -> Boucle à induction magnétique portative, lsf -> Langue des signes française, lpc -> Langue Française Parlée Complétée (LFPC), sts -> Sous-Titrage ou Transcription Simultanée, autres -> Autres"
+      "example": [
+        "bim",
+        "bmp"
+      ]
     },
     {
       "name": "accueil_cheminement_plain_pied",
@@ -1868,7 +1874,7 @@
     {
       "name": "accueil_cheminement_rampe",
       "title": "Rampe",
-      "description": "Présence d'une rampe fixe ou amovible",
+      "description": "Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1877,12 +1883,12 @@
           "amovible"
         ]
       },
-      "example": "Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible"
+      "example": "fixe"
     },
     {
       "name": "accueil_cheminement_sens_marches",
       "title": "Sens de circulation de l'escalier",
-      "description": "Sens de circulation des marches ou de l'escalier",
+      "description": "Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1890,7 +1896,7 @@
           "descendant"
         ]
       },
-      "example": "Valeurs possibles: montant -> Montant, descendant -> Descendant"
+      "example": "descendant"
     },
     {
       "name": "accueil_retrecissement",
@@ -1988,7 +1994,7 @@
     {
       "name": "labels",
       "title": "Marques ou labels",
-      "description": "Marque(s) ou label(s) obtenus par l'établissement",
+      "description": "Marque(s) ou label(s) obtenus par l'établissement. Valeurs possibles : autre -> Autre, dpt -> Destination pour Tous, mobalib -> Mobalib, th -> Tourisme & Handicap.",
       "type": "array",
       "arrayItem": {
         "type": "string",
@@ -1999,12 +2005,15 @@
           "th"
         ]
       },
-      "example": "Valeurs possibles: autre -> Autre, dpt -> Destination pour Tous, mobalib -> Mobalib, th -> Tourisme & Handicap"
+      "example": [
+        "mobalib",
+        "th"
+      ]
     },
     {
       "name": "labels_familles_handicap",
       "title": "Famille(s) de handicap concernées(s)",
-      "description": "Famille(s) de handicap couverte(s) par ces marques ou labels",
+      "description": "Famille(s) de handicap couverte(s) par ces marques ou labels. Valeurs possibles : auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel.",
       "type": "array",
       "arrayItem": {
         "type": "string",
@@ -2015,7 +2024,10 @@
           "visuel"
         ]
       },
-      "example": "Valeurs possibles: auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel"
+      "example": [
+        "moteur",
+        "visuel"
+      ]
     },
     {
       "name": "registre_url",

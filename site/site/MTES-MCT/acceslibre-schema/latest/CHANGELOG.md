@@ -4,6 +4,9 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+### Version 0.0.10 - 26-09-2022
+* Reshape schema.json to accept valid examples..
+
 ### Version 0.0.9 - 11-04-2022
 * Add constraints value for field 'activite'.
 

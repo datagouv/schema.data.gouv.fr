@@ -26,7 +26,7 @@ data.inclusion réalise une consolidation et publie la base consolidée, aux for
 
 ## Aide à la saisie
 
-Les structures se référençant données sur [Dora](https://dora.fabrique.social.gouv.fr/) sont incluses automatiquement dans la base consolidée.
+Les structures qui partagent leurs données via l'outil [Dora](https://dora.fabrique.social.gouv.fr/) sont incluses par défaut dans la base consolidée.
 
 ## Contribuer
 
