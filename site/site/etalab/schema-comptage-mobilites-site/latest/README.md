@@ -14,7 +14,7 @@ Pour l'instant, chacune de ces notions a sa propre page sur schema.data.gouv.fr 
 - measure : https://github.com/etalab/schema-comptage-mobilites-measure
 
 Ce schéma est spécifique à la notion de site. 
-Le fichier site permet de décrire les réalités physiques du site de comptage des mobilités. Ainsi, le “site” représente un lieu physique, auquel les “channels” sont rattachés. Un site a une position géographique immuable (latitude/longitude), dispose d’un code commune de rattachement, d’un type de voie. Le champ "bike_path_ids" permet notamment d'articuler le schéma au schéma national des aménagements cyclables.
+Le fichier site permet de décrire les réalités physiques du site de comptage des mobilités. Ainsi, le “site” représente un lieu physique, auquel les “channels” sont rattachés. Un site a une position géographique immuable (latitude/longitude), dispose d’un code commune de rattachement, d’un type de voie. Le champ "external_ids" permet notamment d'articuler le schéma au schéma national des aménagements cyclables.
 
 
 ## Contexte
