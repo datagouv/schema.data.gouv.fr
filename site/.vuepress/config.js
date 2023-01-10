@@ -1,5 +1,5 @@
 module.exports = {
-  dest: "../dist",
+  dest: "dist",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
