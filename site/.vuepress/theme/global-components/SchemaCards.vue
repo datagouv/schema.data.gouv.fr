@@ -275,15 +275,6 @@ export default {
           } else{
             if(!this.listDatapackages.includes(s['datapackage_name'])){
               this.listDatapackages.push(s['datapackage_name'])
-              sts3.push(
-                {
-                  'name': s['datapackage_name'],
-                  'title': s['datapackage_title'],
-                  'description': 'Spécifications du Data Package '+s['datapackage_title'],
-                  'schemaStatus': null,
-                  'cardType': 'datapackage'
-                }
-              )
             }
           }
         });

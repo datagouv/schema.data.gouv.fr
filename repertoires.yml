@@ -145,6 +145,7 @@ schema-zfe:
   type: jsonschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
+  consolidation: 625438b890bf88454b283a55
   labels:
     - transport.data.gouv.fr
 arrete-circulation-marchandise:
