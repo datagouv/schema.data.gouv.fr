@@ -1,0 +1,157 @@
+{
+    "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+    "name": "schema-irve-dynamique",
+    "title": "IRVE dynamique",
+    "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
+    "countryCode": "FR",
+    "homepage": "https://github.com/etalab/schema-irve",
+    "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/schema.json",
+    "resources": [
+        {
+            "title": "Exemple de fichier IRVE valide",
+            "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/exemple-valide-dynamique.csv"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Décret n° 2017-26 du 12 janvier 2017 relatif aux infrastructures de recharge pour véhicules électriques et portant diverses mesures de transposition de la directive 2014/94/UE du Parlement européen et du Conseil du 22 octobre 2014 sur le déploiement d’une infrastructure pour carburants alternatifs",
+            "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860620"
+        },
+        {
+            "title": "Arrêté du 12 janvier 2017 relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
+            "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860733"
+        },
+        {
+            "title": "Arrêté du 12 janvier 2017 précisant les dispositions relatives aux identifiants des unités d’exploitation pour la recharge des véhicules électriques",
+            "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860743"
+        },
+        {
+            "title": "Définition et structure des identifiants attribués par l'Association Française pour l'Itinérance de la Recharge Electrique des Véhicules (AFIREV)",
+            "path": "http://www.afirev.fr/fr/informations-generales/"
+        }
+    ],
+    "created": "2022-10-28",
+    "lastModified": "2022-10-28",
+    "version": "2.2.0",
+    "contributors": [
+        {
+            "title": "Geoffrey",
+            "email": "validation@data.gouv.fr",
+            "organisation": "Etalab",
+            "role": "author"
+        },
+        {
+            "title": "Christina Laumond",
+            "email": "christina.laumond@beta.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "author"
+        },
+        {
+            "title": "Thibaut Barrère",
+            "email": "thibaut.barrere@beta.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "author"
+        }
+    ],
+    "fields": [
+        {
+            "name": "id_pdc_itinerance",
+            "description": "L'identifiant du point de recharge, tel qu'apparaissant dans le schéma statique. Doit permettre de faire le lien entre le dynamique et le statique.",
+            "example": "FRA68E680210015",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "^FR[A-Z0-9]{4,33}$"
+            }
+        },
+        {
+            "name": "etat_pdc",
+            "description": "TODO",
+            "example": "TODO",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "en_service",
+                    "hors_service",
+                    "inconnu"
+                ]
+            }
+        },
+        {
+            "name": "occupation_pdc",
+            "description": "TODO",
+            "example": "TODO",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "libre",
+                    "occupe",
+                    "reserve",
+                    "inconnu"
+                ]
+            }
+        },
+        {
+            "name": "horodatage",
+            "description": "TODO",
+            "example": "TODO",
+            "type": "datetime",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "etat_prise_type_2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "fonctionnel",
+                    "hors_service",
+                    "inconnu"
+                ]
+            }
+        },
+        {
+            "name": "etat_prise_type_combo_ccs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "fonctionnel",
+                    "hors_service",
+                    "inconnu"
+                ]
+            }
+        },
+        {
+            "name": "etat_prise_type_chademo",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "fonctionnel",
+                    "hors_service",
+                    "inconnu"
+                ]
+            }
+        },
+        {
+            "name": "etat_prise_type_ef",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "fonctionnel",
+                    "hors_service",
+                    "inconnu"
+                ]
+            }
+        }
+    ],
+    "missingValues": [
+        ""
+    ]
+}
