@@ -3,8 +3,6 @@
 # Schema Friches issu du GT CNIG Friches
 Dépot des documents et travaux du [Groupe de travail](http://cnig.gouv.fr/gt-friches-a25940.html) pour l'élaboration du géostandard CNIG Friches
 
-<img src=https://github.com/cnigfr/Friches/blob/main/documentation/images/220429_illustration_standard.jpg width='72%' align=center>
-
 ## Contexte
 
 La réhabilitation des friches constitue un enjeu majeur d’aménagement durable des territoires pour répondre aux objectifs croisés de :
@@ -67,17 +65,11 @@ Elles sont publiées sur la plateforme nationale **[Cartofriches](https://cartof
 
 ## Nous contacter
 
-Pour contacter le GT CNIG Friches, n’hésitez pas à nous écrire à l’adresse suivante. Toutes les contributions sont les bienvenues !
-
-<p align="center">
-  <img src="https://github.com/cnigfr/Friches/blob/main/documentation/images/adresse_mail_cnig.png" />
-</p>
-
+Pour contacter le GT CNIG Friches, n’hésitez pas à nous écrire à l’adresse suivante : cnig [at] cnig.fr . Toutes les contributions sont les bienvenues !
 
 ## Licence
 Les travaux du GT CNIG Friches sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/)
 
-![licence ouverte](https://github.com/cnigfr/Friches/blob/main/documentation/images/Licence%20ouverte.png)
 
   
   
