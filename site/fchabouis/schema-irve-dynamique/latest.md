@@ -6,7 +6,7 @@
 Spécification du fichier d'échange relatif aux données dynamiques concernant la disponibilité et l’état de fonctionnement des points de recharge et de leurs connecteurs pour véhicules électriques
 
 ## Contexte
-Dans le but de constituer un répertoire national de données relatif à l’offre de recharge pour véhicules électriques, ouvert et accessible à tous, les aménageurs d’infrastructures de recharge pour véhicules électriques (IRVE), ou les personnes qu’ils désignent, doivent publier sur la plateforme data.gouv.fr les données pour tout point de recharge en service et ouvert au public. L’ouverture des données dynamiques relatives à l’état de fonctionnement et la disponibilité des points de recharge et de leurs connecteurs s’effectue selon les modalités définies par l’arrêté. 
+Dans le but de constituer un répertoire national de données relatif à l’offre de recharge pour véhicules électriques, ouvert et accessible à tous, les aménageurs d’infrastructures de recharge pour véhicules électriques (IRVE), ou les personnes qu’ils désignent, doivent publier sur la plateforme data.gouv.fr les données pour tout point de recharge en service et ouvert au public. L’ouverture des données dynamiques relatives à l’état de fonctionnement et la disponibilité des points de recharge et de leurs connecteurs s’effectue selon les modalités définies par arrêté. 
 
 ## Documents de cadrage juridique
 
@@ -31,5 +31,5 @@ Il n’existe pas de consolidation nationale des flux dynamiques pour l’heure.
 ## Voir aussi
 - [Documentation sur les données dynamiques](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve/donnees-dynamiques)
 - Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
-          - adresser un message à contact@transport.data.gouv.fr 
-          - ouvrir un ticket sur le dépôt [GitHub du schéma](https://github.com/etalab/schema-irve/issues/new)
+  - adresser un message à contact@transport.data.gouv.fr 
+  - ouvrir un ticket sur le dépôt [GitHub du schéma](https://github.com/etalab/schema-irve/issues/new)
