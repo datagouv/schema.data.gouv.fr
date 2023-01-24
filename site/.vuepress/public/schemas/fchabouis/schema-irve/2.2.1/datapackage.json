@@ -5,16 +5,6 @@
     "id": "datapackage-irve",
     "resources": [
         {
-            "name": "irve-statique",
-            "path": "statique/exemple-valide-statique.csv",
-            "profile": "tabular-data-resource",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": "statique/schema-statique.json",
-            "documentation": "statique/README.md"
-        },
-        {
             "name": "irve-dynamique",
             "path": "dynamique/exemple-valide-dynamique.csv",
             "profile": "tabular-data-resource",
@@ -23,6 +13,16 @@
             "encoding": "utf-8",
             "schema": "dynamique/schema-dynamique.json",
             "documentation": "dynamique/README.md"
+        },
+        {
+            "name": "irve-statique",
+            "path": "statique/exemple-valide-statique.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "statique/schema-statique.json",
+            "documentation": "statique/README.md"
         }
     ]
 }
