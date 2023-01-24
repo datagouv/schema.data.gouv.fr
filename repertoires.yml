@@ -1,5 +1,5 @@
 irve:
-  url: https://github.com/fchabouis/schema-irve.git
+  url: https://github.com/etalab/schema-irve.git
   type: datapackage
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
