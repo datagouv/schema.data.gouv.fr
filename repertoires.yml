@@ -211,4 +211,7 @@ structures-insertion:
   type: jsonschema
   email: data.inclusion@beta.gouv.fr
   external_doc: https://www.data.inclusion.beta.gouv.fr
-  
+friches:
+  url: https://github.com/cnigfr/schema-friches.git
+  type: tableschema
+  email: cnig@cnig.fr
