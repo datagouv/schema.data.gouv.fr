@@ -3,6 +3,12 @@
 # Schema Friches issu du GT CNIG Friches
 Dépot des documents et travaux du [Groupe de travail](http://cnig.gouv.fr/gt-friches-a25940.html) pour l'élaboration du géostandard CNIG Friches
 
+## Géostandard CNIG Friches
+
+Le [géostandard CNIG Friches v2022-12](https://github.com/cnigfr/Friches/blob/main/standard) a été validé par la Commission des standards du CNIG le 19 janvier 2023.
+
+Il est publié sur [la page des ressources du GT CNIG Friches](http://cnig.gouv.fr/ressource-friches-a26047.html).
+
 ## Contexte
 
 La réhabilitation des friches constitue un enjeu majeur d’aménagement durable des territoires pour répondre aux objectifs croisés de :
@@ -32,7 +38,7 @@ Le groupe de travail dispose d'une **[page dédiée](http://cnig.gouv.fr/?page_i
 
 ## Schéma Friches
 
-Le [projet de standard CNIG Friches](https://github.com/cnigfr/Friches/tree/main/standard) fournit une description littérale des champs, non exlusivement technique.
+Le [standard CNIG Friches](https://github.com/cnigfr/Friches/tree/main/standard) fournit une description littérale des champs, non exlusivement technique.
 
 Le fichier [schema.json](https://github.com/cnigfr/Friches/tree/main/schema.json) contient **l'implémentation technique** du modèle conceptuel de données (MCD), au format json.
 
@@ -45,7 +51,7 @@ Il respecte le standard [Table Schema](https://specs.frictionlessdata.io/table-s
 
 * Le répertoire [documentation](https://github.com/cnigfr/Friches/tree/main/documentation) contient les documents utiles au groupe de travail.
 * Le répertoire [réunions](https://github.com/cnigfr/Friches/tree/main/r%C3%A9unions) contient les documents de suivi du groupe de travail : [**présentations et compte-rendus des réunions du groupe**](https://github.com/cnigfr/Friches/blob/main/r%C3%A9unions/README.md).
-* Le répertoire [standard](https://github.com/cnigfr/Friches/tree/main/standard) contient le standard Friches en cours d'élaboration, sous **forme littérale** (.odt et/ou .pdf) avec les rubriques documentaires connexes (contexte, recommandations, métadonnées, etc.)
+* Le répertoire [standard](https://github.com/cnigfr/Friches/tree/main/standard) contient le standard Friches publié, sous **forme littérale** (.odt et/ou .pdf) avec les rubriques documentaires connexes (contexte, recommandations, métadonnées, etc.).
 * Le fichier [schema.json](https://github.com/cnigfr/Friches/tree/main/schema.json) contient **l'implémentation technique** du modèle conceptuel de données (MCD), au format json destiné à être référencé sur schema.data.gouv.fr. Ce MCD est (automatiquement) documenté [ici avec le détail du MCD](https://github.com/datagistips/Friches/blob/main/annexes_schema/documentation/schema-table.md) et [ici de façon simplifiée avec des exemples](https://github.com/datagistips/Friches/blob/main/annexes_schema/documentation/schema-page.md).
 
 ## Informations et participation au groupe de travail
