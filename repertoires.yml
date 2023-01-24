@@ -1,6 +1,6 @@
 irve:
   url: https://github.com/etalab/schema-irve.git
-  type: datapackage
+  type: tableschema
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
   labels:
