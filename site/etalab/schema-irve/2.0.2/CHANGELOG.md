@@ -2,26 +2,6 @@
 
 # Changements
 
-## Dév (2.2.0)
-
-- Le schéma est transformé en [data package](https://specs.frictionlessdata.io/data-package/) afin d'accueillir en plus du schéma existant (pour les données statiques), un schéma de données pour les données d'IRVE **dynamiques**. Le contenu de chaque schéma est contenu dans les dossiers `statique` et `dynamique`.
-
-## 2.1.0
-
-Evolutions suite aux ateliers publics et retours terrain pour faciliter la production de la donnée :
-
-- Passage en facultatif des champs `siren_amenageur`, `contact_amenageur`, `code_insee_commune`, `raccordement`, `num_pdl`, `date_mise_en_service`,`gratuit`, `paiement_cb`, `paiement_autre`
-- Ajout de précisions sur la composition des identifiants `id_station_itinerance` et `id_pdc_itinerance` selon les modalités fournies par l'AFIREV (https://afirev.fr/fr/informations-generales/)
-- Ajout d'un nouveau champ `cable_t2_attache` indiquant la présence ou non d'un câble T2 sur le point de recharge
-
-## 2.0.3
-
-- Clarification de la description du champ `condition_acces`
-- Correction des valeurs d'exemple pour les champs suivants :
-  - `code_insee_commune`
-  - `nbre_pdc`
-  - `accessibilite_pmr`
-
 ## 2.0.2
 
 - Correction des valeurs d'exemple pour les champs de dates (`date_mise_en_service` et `date_maj`)

@@ -1,14 +1,14 @@
 <MenuSchema />
 
-## irve
+## schema-irve-statique
 
-Infrastructures de recharge pour véhicules électriques
+IRVE statique
 
 Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques
 
 - Schéma créé le : 06/29/18
 - Site web : https://github.com/etalab/schema-irve
-- Version : 2.0.3
+- Version : 2.1.0
 
 ### Modèle de données
 
@@ -18,8 +18,8 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [nom_amenageur](#propriete-nom-amenageur) | chaîne de caractères  | Non |
-| [siren_amenageur](#propriete-siren-amenageur) | chaîne de caractères  | Oui |
-| [contact_amenageur](#propriete-contact-amenageur) | chaîne de caractères (format `email`) | Oui |
+| [siren_amenageur](#propriete-siren-amenageur) | chaîne de caractères  | Non |
+| [contact_amenageur](#propriete-contact-amenageur) | chaîne de caractères (format `email`) | Non |
 | [nom_operateur](#propriete-nom-operateur) | chaîne de caractères  | Non |
 | [contact_operateur](#propriete-contact-operateur) | chaîne de caractères (format `email`) | Oui |
 | [telephone_operateur](#propriete-telephone-operateur) | chaîne de caractères  | Non |
@@ -29,7 +29,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 | [nom_station](#propriete-nom-station) | chaîne de caractères  | Oui |
 | [implantation_station](#propriete-implantation-station) | chaîne de caractères  | Oui |
 | [adresse_station](#propriete-adresse-station) | chaîne de caractères  | Oui |
-| [code_insee_commune](#propriete-code-insee-commune) | chaîne de caractères  | Oui |
+| [code_insee_commune](#propriete-code-insee-commune) | chaîne de caractères  | Non |
 | [coordonneesXY](#propriete-coordonneesxy) | point géographique (format `array`) | Oui |
 | [nbre_pdc](#propriete-nbre-pdc) | nombre entier  | Oui |
 | [id_pdc_itinerance](#propriete-id-pdc-itinerance) | chaîne de caractères  | Oui |
@@ -40,10 +40,10 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 | [prise_type_combo_ccs](#propriete-prise-type-combo-ccs) | booléen  | Oui |
 | [prise_type_chademo](#propriete-prise-type-chademo) | booléen  | Oui |
 | [prise_type_autre](#propriete-prise-type-autre) | booléen  | Oui |
-| [gratuit](#propriete-gratuit) | booléen  | Oui |
+| [gratuit](#propriete-gratuit) | booléen  | Non |
 | [paiement_acte](#propriete-paiement-acte) | booléen  | Oui |
-| [paiement_cb](#propriete-paiement-cb) | booléen  | Oui |
-| [paiement_autre](#propriete-paiement-autre) | booléen  | Oui |
+| [paiement_cb](#propriete-paiement-cb) | booléen  | Non |
+| [paiement_autre](#propriete-paiement-autre) | booléen  | Non |
 | [tarification](#propriete-tarification) | chaîne de caractères  | Non |
 | [condition_acces](#propriete-condition-acces) | chaîne de caractères  | Oui |
 | [reservation](#propriete-reservation) | booléen  | Oui |
@@ -51,11 +51,12 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 | [accessibilite_pmr](#propriete-accessibilite-pmr) | chaîne de caractères  | Oui |
 | [restriction_gabarit](#propriete-restriction-gabarit) | chaîne de caractères  | Oui |
 | [station_deux_roues](#propriete-station-deux-roues) | booléen  | Oui |
-| [raccordement](#propriete-raccordement) | chaîne de caractères  | Oui |
-| [num_pdl](#propriete-num-pdl) | chaîne de caractères  | Oui |
-| [date_mise_en_service](#propriete-date-mise-en-service) | date (format `%Y-%m-%d`) | Oui |
+| [raccordement](#propriete-raccordement) | chaîne de caractères  | Non |
+| [num_pdl](#propriete-num-pdl) | chaîne de caractères  | Non |
+| [date_mise_en_service](#propriete-date-mise-en-service) | date (format `%Y-%m-%d`) | Non |
 | [observations](#propriete-observations) | chaîne de caractères  | Non |
 | [date_maj](#propriete-date-maj) | date (format `%Y-%m-%d`) | Oui |
+| [cable_t2_attache](#propriete-cable-t2-attache) | booléen  | Non |
 
 #### Propriété `nom_amenageur`
 
@@ -66,14 +67,14 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 #### Propriété `siren_amenageur`
 
 > *Description : Le numero SIREN de l'aménageur issue de la base SIRENE des entreprises. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.<br/>Ex : 130025265*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^\d{9}$`
 
 #### Propriété `contact_amenageur`
 
 > *Description : Adresse courriel de l'aménageur. Favoriser les adresses génériques de contact. Cette adresse sera utilisée par les services de l'Etat en cas d'anomalie ou de besoin de mise à jour des données.<br/>Ex : contact@societe-amenageur.com*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères (format `email`)
 
 #### Propriété `nom_operateur`
@@ -102,7 +103,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `id_station_itinerance`
 
-> *Description : L'identifiant de la station délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017. Ne pas ajouter les séparateurs *. Si la station n'est pas en itinérance, merci d'indiquer "Non concerné".<br/>Ex : FRA68P68021001*
+> *Description : L'identifiant de la station délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017. Cet ID débute par FR suivi de 3 caractères délivrés par l'AFIREV, suivi de "P" pour "pool" qui veut dire "station" en anglais (https://afirev.fr/fr/informations-generales/). Ne pas ajouter les séparateurs *. Si la station n'est pas en itinérance, merci d'indiquer "Non concerné".<br/>Ex : FRA68P68021001*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|,)(^FR[A-Z0-9]{4,33}$|Non concerné))+$`
@@ -145,7 +146,7 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 #### Propriété `code_insee_commune`
 
 > *Description : Le code INSEE de la commune d'implantation.<br/>Ex : 21231*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
@@ -164,7 +165,7 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 
 #### Propriété `id_pdc_itinerance`
 
-> *Description : L'identifiant du point de recharge délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017. Ne pas mettre de séparateur * ou -. Si le point de recharge n'est pas en itinérance, merci d'indiquer "Non concerné".<br/>Ex : FRA68P680210015*
+> *Description : L'identifiant du point de recharge délivré selon les modalités définies à l'article 10 du décret n° 2017-26 du 12 janvier 2017. Cet ID débute par FR suivi de 3 caractères délivrés par l'AFIREV, suivi de "E" pour l'équivalent du point de recharge en anglais EVSE - Electric Vehicule Supply Equipment (https://afirev.fr/fr/informations-generales/). Ne pas mettre de séparateur * ou -. Si le point de recharge n'est pas en itinérance, merci d'indiquer "Non concerné".<br/>Ex : FRA68E680210015*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|,)(^FR[A-Z0-9]{4,33}$|Non concerné))+$`
@@ -214,8 +215,8 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 
 #### Propriété `gratuit`
 
-> *Description : Gratuité de la recharge. Indiquer "true" si vrai, "false" si faux.<br/>Ex : False*
-- Valeur obligatoire
+> *Description : Gratuité de la recharge. Indiquer "true" si le point de recharge est gratuit sans condition d'utilisation, "false" si faux.<br/>Ex : False*
+- Valeur optionnelle
 - Type : booléen
 
 #### Propriété `paiement_acte`
@@ -227,13 +228,13 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 #### Propriété `paiement_cb`
 
 > *Description : Possibilité de paiement par carte bancaire (présence d'un terminal de paiement avec une CB). Indiquer "true" si vrai, "false" si faux.<br/>Ex : False*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : booléen
 
 #### Propriété `paiement_autre`
 
-> *Description : Possibilité de paiement par un autre moyen (qui peut être préciser dans le champs "observation". Indiquer "true" si vrai, "false" si faux.<br/>Ex : False*
-- Valeur obligatoire
+> *Description : Possibilité de paiement par un autre moyen (qui peut être précisé dans le champs "observation". Indiquer "true" si vrai, "false" si faux.<br/>Ex : False*
+- Valeur optionnelle
 - Type : booléen
 
 #### Propriété `tarification`
@@ -293,7 +294,7 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 #### Propriété `raccordement`
 
 > *Description : Type de raccordement de la station au réseau de distribution d'électricité : direct (point de livraison exclusivement dédié à la station) ou indirect.<br/>Ex : Direct*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - Direct
@@ -302,13 +303,13 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 #### Propriété `num_pdl`
 
 > *Description : Numéro du point de livraison d'électricité, y compris en cas de raccordement indirect. Dans le cas d'un territoire desservi par ENEDIS, ce numéro doit compoter 14 chiffres.<br/>Ex : 12345678912345*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `date_mise_en_service`
 
 > *Description : Date de mise en service de la station<br/>Ex : 2021-12-30*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
 
 #### Propriété `observations`
@@ -322,3 +323,9 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 > *Description : Date de mise à jour des données<br/>Ex : 2021-12-30*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
+
+#### Propriété `cable_t2_attache`
+
+> *Description : Champ destiné à préciser si un câble T2 est attaché au point de recharge ou non. Indiquer "true" si vrai, "false" si faux<br/>Ex : false*
+- Valeur optionnelle
+- Type : booléen
