@@ -35,7 +35,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `etat_pdc`
 
-> *Description : TODO<br/>Ex : TODO*
+> *Description : `etat_pdc` caractérise l’état de fonctionnement du point de recharge : est-il en service ou hors service ? En l’absence d’information, etat_pdc sera égal à ‘inconnu’.<br/>Ex : en_service*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -45,7 +45,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `occupation_pdc`
 
-> *Description : TODO<br/>Ex : TODO*
+> *Description : `occupation_pdc` caractérise l’occupation du point de recharge : est-il libre, occupé ou réservé ? En l’absence d’information, occupation_pdc sera égal à ‘inconnu’.<br/>Ex : occupe*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -56,13 +56,13 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `horodatage`
 
-> *Description : TODO<br/>Ex : TODO*
+> *Description : Indique la date et heure de remontée de l’information publiée, formaté selon la norme ISO 8601<br/>Ex : 2023-01-30T10:27:50+01:00*
 - Valeur obligatoire
 - Type : date et heure
 
 #### Propriété `etat_prise_type_2`
 
-> *Description : None<br/>Ex : None*
+> *Description : `etat_prise_type_2` indique l’état de fonctionnement du connecteur T2 : est-il fonctionnel ou hors-service ? En l’absence d’information, indiquer ‘inconnu’. En l’absence de connecteur de ce type sur le point de recharge, laisser une chaîne de caractère vide.<br/>Ex : fonctionnel*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -72,7 +72,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `etat_prise_type_combo_ccs`
 
-> *Description : None<br/>Ex : None*
+> *Description : `etat_prise_type_combo_ccs` indique l’état de fonctionnement du connecteur Combo CCS : est-il fonctionnel ou hors-service ? En l’absence d’information, indiquer ‘inconnu’. En l’absence de connecteur de ce type sur le point de recharge, laisser une chaîne de caractère vide.<br/>Ex : hors_service*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -82,7 +82,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `etat_prise_type_chademo`
 
-> *Description : None<br/>Ex : None*
+> *Description : `etat_prise_type_chademo` indique l’état de fonctionnement du connecteur Chademo : est-il fonctionnel ou hors-service ? En l’absence d’information, indiquer ‘inconnu’. En l’absence de connecteur de ce type sur le point de recharge, laisser une chaîne de caractère vide.<br/>Ex : inconnu*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -92,7 +92,7 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 
 #### Propriété `etat_prise_type_ef`
 
-> *Description : None<br/>Ex : None*
+> *Description : `etat_prise_type_ef` indique l’état de fonctionnement du connecteur EF : est-il fonctionnel ou hors-service ? En l’absence d’information, indiquer ‘inconnu’. En l’absence de connecteur de ce type sur le point de recharge, laisser une chaîne de caractère vide.<br/>Ex : fonctionnel*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 

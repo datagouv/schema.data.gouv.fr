@@ -31,5 +31,5 @@ Il n’existe pas de consolidation nationale des flux dynamiques pour l’heure.
 ## Voir aussi
 - [Documentation sur les données dynamiques](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve/donnees-dynamiques)
 - Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
-  - adresser un message à [contact@transport.data.gouv.fr](mailto:contact@transport.beta.gouv.fr)
+  - adresser un message à [contact@transport.beta.gouv.fr](mailto:contact@transport.beta.gouv.fr)
   - ouvrir un ticket sur le dépôt [GitHub du schéma](https://github.com/etalab/schema-irve/issues/new)
