@@ -16,9 +16,8 @@ De fait, la spécification SCDL du modèle de données relatif aux délibératio
 
 ## Outils
 
-* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.deliberations) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.deliberations)
-* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fdeliberations)
-* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/deliberations.xlsx)
+* [Valider un fichier avec Validata](https://validata.fr)
+* [Télécharger un exemple au format CSV](https://publier.etalab.studio/select?schema=scdl%2Fdeliberations)
 
 ## Voir aussi
 
