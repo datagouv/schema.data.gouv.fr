@@ -59,7 +59,7 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 
 #### code SIRET - Propriété `BGT_SIRET`
 
-> *Description : Ce champ permet de renseigner le code SIRET de la collectivité ou de l'établissement public concerné (http://xml.insee.fr/schema/siret.html#SIRET_stype).<br/>Ex : None*
+> *Description : Ce champ permet de renseigner le code SIRET de l'établissement concerné par le budget (http://xml.insee.fr/schema/siret.html#SIRET_stype).<br/>Ex : None*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`

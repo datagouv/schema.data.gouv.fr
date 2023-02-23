@@ -67,7 +67,7 @@
     {
       "name": "BGT_SIRET",
       "title": "code SIRET",
-      "description": "Ce champ permet de renseigner le code SIRET de la collectivité ou de l'établissement public concerné (http://xml.insee.fr/schema/siret.html#SIRET_stype).",
+      "description": "Ce champ permet de renseigner le code SIRET de l'établissement concerné par le budget (http://xml.insee.fr/schema/siret.html#SIRET_stype).",
       "type": "string",
       "examples": "22192720500197",
       "constraints": {

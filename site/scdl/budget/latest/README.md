@@ -2,7 +2,18 @@
 
 # Schéma Budget
 
-Spécifications des données essentielles du budget des collectivités et établissements publics locaux
+Spécifications des données essentielles du budget des collectivités et 
+établissements publics locaux
+
+__Avertissements__ :
+
+* ce schéma ne couvre que partiellement les données contenues dans les données 
+  TotEM (par exemple, dans les fichiers générés par l'outil 
+  ["totem2csv"](https://git.opendatafrance.net/outillages/totem), uniquement 
+  le fichier finissant par ".Budget.csv" est concerné). 
+* des écarts ont été constatés entre ce schéma et les schémas des données 
+  TotEM au format XML. Notamment, les données converties apparaissent pour le 
+  moment comme invalides à cause de valeurs manquantes ("Cellule vide"). 
 
 ## Contexte
 
@@ -12,19 +23,25 @@ Ce schéma reprend les données de la section LigneBudget du schéma Totem. Il p
 
 ## Documents de cadrage juridique
 
-* [​article 74 de la loi MAPTAM](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000028526298#LEGIARTI000028527814)
+* [article 74 de la loi MAPTAM](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000028526298#LEGIARTI000028527814)
 * [article 107 III de la loi du 7 août 2015 portant Nouvelle Organisation Territoriale de la République](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030985460&categorieLien=id#JORFARTI000030987060)  
 
 
 ## Document de cadrage technique
 
-​Format réglementaire pour la publication des données essentielles des budgets. Ce schéma vise à simplifier la mise à disposition des données budgétaires des collectivités locales. Pour celles en capacité de produire des fichiers au format XML TOTEM, un convertisseur XML -> csv sera proposé.
+Format réglementaire pour la publication des données essentielles des budgets. 
+Ce schéma vise à simplifier la mise à disposition des données budgétaires des 
+collectivités locales. Pour celles en capacité de produire des fichiers au 
+format XML TOTEM, un convertisseur XML -> csv est disponible sur ce 
+[dépôt](https://git.opendatafrance.net/outillages/totem). Il permet d'extraire 
+les données budgétaires ainsi que celles figurant en annexes (subvention, 
+patrimoine, emprunt, personnels)
 
 ## Outils
 
-* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.budget) [Valider un fichier avec Validata](http://go.validata.fr/table-schema?schema_name=scdl.budget)
+* [<img src="https://validata.fr/static/img/logo-horizontal.png" height="16">](https://validata.fr/table-schema?schema_name=schema-datagouvfr.scdl%2Fbudget) 
+  [Valider un fichier avec Validata](https://validata.fr/table-schema?schema_name=schema-datagouvfr.scdl%2Fbudget)
 * [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fbudget)
-* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/budget.xlsx)
 
 
 ## Voir aussi
