@@ -1,3 +1,7 @@
+friches:
+  url: https://github.com/cnigfr/schema-friches.git
+  type: tableschema
+  email: cnig@cnig.fr
 irve:
   url: https://github.com/fchabouis/schema-irve.git
   type: datapackage
