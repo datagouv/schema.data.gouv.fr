@@ -71,7 +71,7 @@ La base des informations d’accessibilité des ERP en France permet de regroupe
 
 Le schéma est disponible en format [json](https://github.com/MTES-MCT/acceslibre-schema/blob/master/schema.json) ou [excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/schema_format_excel.xls) (à télécharger). (voir procédure avant dépôt des données)
 
-Une description détaillée (champ par champ) du modèle de donnée est accessible ici : [https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.10/documentation.html](https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.10/documentation.html). Ce schéma
+Une description détaillée (champ par champ) du modèle de donnée est accessible ici : [https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.9/documentation.html](https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.9/documentation.html). Ce schéma
 respecte le standard Table Schema. Pour en savoir plus, voir la page dédiée : [TableSchema](https://specs.frictionlessdata.io/table-schema/)
 
 Une description non technique des champs est également disponible ici : [https://acceslibre.beta.gouv.fr/contrib/documentation/](https://acceslibre.beta.gouv.fr/contrib/documentation/)

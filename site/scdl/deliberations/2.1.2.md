@@ -1,0 +1,27 @@
+<MenuSchema />
+
+# Schéma relatif aux délibérations adoptées par une assemblée locale
+
+En cours de développement.
+
+- [Spec SCDL](http://www.opendatafrance.net/SCDL_Deliberations)
+
+## Custom checks
+
+Par colonne :
+
+- [X] `BUDGET_ANNEE` : valider les intervalles de date entre deux années
+  - année 1 < année 2 (custom-check `year-interval-value`)
+- [X] `DELIB_MATIERE_NOM` : valider les noms de niveau 1 (avant le `/`), à savoir leur appartenance à une liste fermée (custom-check `nomenclature-actes-value`)
+- [ ] `PREF_ID` : valider les chiffres en fonction du préfixe
+
+Inter-colonnes :
+
+- [X] soit toutes les colonnes `BUDGET_*` sont remplies, soit aucune (custom-check `cohesive-columns-value`)
+- [X] soit toutes les colonnes `VOTE_*` sont remplies, soit aucune (custom-check `cohesive-columns-value`)
+- [X] `PREF_DATE` >= `DELIB_DATE`
+- [X] `VOTE_EFFECTIF` >= `VOTE_REEL`
+- [X] `VOTE_REEL` >= `VOTE_POUR`
+- [X] `VOTE_REEL` >= `VOTE_CONTRE`
+- [X] `VOTE_REEL` >= `VOTE_ABSTENTION`
+- [X] `VOTE_POUR` + `VOTE_CONTRE` + `VOTE_ABSTENTION` = `VOTE_REEL`
