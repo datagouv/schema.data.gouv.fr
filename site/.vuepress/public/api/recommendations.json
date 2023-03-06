@@ -6993,24 +6993,6 @@
     ]
   },
   {
-    "id": "6311c10ef4c191ab58c1d6b1",
-    "recommendations": [
-      {
-        "id": "5448d3e0c751df01f85d0572",
-        "score": 50
-      }
-    ]
-  },
-  {
-    "id": "616460fc554a323e04390335",
-    "recommendations": [
-      {
-        "id": "5448d3e0c751df01f85d0572",
-        "score": 50
-      }
-    ]
-  },
-  {
     "id": "637c97d1482537ab0ef657fd",
     "recommendations": [
       {
@@ -7282,15 +7264,6 @@
   },
   {
     "id": "619f63a8903e71fc5391d2af",
-    "recommendations": [
-      {
-        "id": "5ea1add4a5a7dac3af82310a",
-        "score": 50
-      }
-    ]
-  },
-  {
-    "id": "613134e194e2b9102ca20e1d",
     "recommendations": [
       {
         "id": "5ea1add4a5a7dac3af82310a",
