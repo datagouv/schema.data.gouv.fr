@@ -1,0 +1,138 @@
+Archivistes75/registre_entrees:
+  consolidate: true
+  publication: false
+CEREMA/schema-arrete-circulation-marchandises:
+  consolidate: true
+  publication: false
+LaMednum/standard-mediation-num:
+  consolidate: false
+  search_words:
+  - "Lieux de m\xE9diation num\xE9rique"
+MTES-MCT/acceslibre-schema:
+  consolidate: true
+  publication: false
+NaturalSolutions/schema-arbre:
+  consolidate: true
+  publication: false
+atlasante/schema-dae:
+  consolidate: false
+  search_words:
+  - DAE
+cnigfr/schema-friches:
+  consolidate: false
+  search_words:
+  - Standard CNIG Friches
+datakode/schema-pei:
+  consolidate: true
+  publication: false
+etalab/schema-comptage-mobilites-channel:
+  consolidate: false
+  search_words:
+  - "Comptage des mobilit\xE9s (Channel)"
+etalab/schema-comptage-mobilites-measure:
+  consolidate: false
+  search_words:
+  - "Comptage des mobilit\xE9s (measure)"
+etalab/schema-comptage-mobilites-site:
+  consolidate: false
+  search_words:
+  - "Comptage des mobilit\xE9s (Site)"
+etalab/schema-decp-dpa:
+  consolidate: true
+  publication: false
+etalab/schema-dispositif-aide:
+  consolidate: false
+  search_words:
+  - Dispositifs d'aides
+etalab/schema-hautes-remunerations:
+  consolidate: true
+  publication: false
+etalab/schema-inclusion-numerique:
+  consolidate: true
+  publication: false
+etalab/schema-irve-dynamique:
+  consolidate: true
+  publication: false
+etalab/schema-irve-statique:
+  consolidate: true
+  consolidated_dataset_id: 5448d3e0c751df01f85d0572
+  documentation_resource_id: 41b0514d-956d-4e42-80ef-1dcf88cc74e9
+  drop_versions:
+  - 1.0.0
+  - 1.0.1
+  - 1.0.2
+  - 1.0.3
+  - 2.0.0
+  - 2.0.1
+  - 2.0.2
+  - 2.0.3
+  - 2.1.0
+  exclude_dataset_ids:
+  - 54231d4a88ee38334b5b9e1d
+  geojson_resource_id: 7eee8f09-5d1b-4f48-a304-5e99e8da1e26
+  latest_resource_ids:
+    2.2.0: 8d9398ae-3037-48b2-be19-412c24561fbb
+  publication: true
+  search_words:
+  - "Infrastructures de recharge pour v\xE9hicules \xE9lectriques"
+  - IRVE
+etalab/schema-lieux-covoiturage:
+  consolidate: true
+  publication: false
+etalab/schema-passage-a-niveau:
+  consolidate: true
+  publication: false
+etalab/schema-sdirve:
+  consolidate: true
+  publication: false
+etalab/schema-stationnement:
+  consolidate: true
+  publication: false
+etalab/schema-stationnement-cyclable:
+  consolidate: true
+  publication: false
+etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
+  consolidate: true
+  consolidated_dataset_id: 623e08af086bba04517431a3
+  documentation_resource_id: 4b3c46ee-2778-4410-ac08-8cd4c606d800
+  drop_versions:
+  - 0.1.1
+  latest_resource_ids:
+    0.1.2: 4f3697c9-c36a-4cee-b887-0adc0b08cd6e
+    0.1.3: 61ea7bdf-5a44-4d1a-8043-b7aa96d5219b
+  publication: true
+etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese:
+  consolidate: false
+  search_words:
+  - "Part des v\xE9hicules \xE0 faibles \xE9missions dans le renouvellement des parcs\
+    \ d\u2019entreprises de location, location-vente, de cr\xE9dit-bail de v\xE9hicules,\
+    \ des plateformes de livraisons et des centrales de r\xE9servation de taxi et\
+    \ VTC"
+openmaraude/schema-stationstaxi:
+  consolidate: true
+  publication: false
+scdl/budget:
+  consolidate: true
+  publication: false
+scdl/catalogue:
+  consolidate: true
+  publication: false
+scdl/deliberations:
+  consolidate: true
+  publication: false
+scdl/equipements:
+  consolidate: true
+  publication: false
+scdl/menus-collectifs:
+  consolidate: true
+  publication: false
+scdl/plats-menus-collectifs:
+  consolidate: true
+  publication: false
+scdl/prenoms:
+  consolidate: false
+  search_words:
+  - "Pr\xE9noms des nouveaux-n\xE9s"
+scdl/subventions:
+  consolidate: true
+  publication: false
