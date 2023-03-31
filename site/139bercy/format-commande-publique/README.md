@@ -30,6 +30,13 @@ Le schéma version 2.0 est un nouveau schéma prenant en compte les modification
 
 C'est le schéma qui doit être respecté pour la publication de données essentielles pour les marchés notifiés à compter du **1er janvier 2024** et pour les contrats de concession conclus à compter de cette même date.
 
+Le schéma version 2.0 est un nouveau schéma prenant en compte les modifications apportées par les arrêtés du 22 décembre 2022. Ces arrêtés procèdent :
+- à la fusion des données du recensement et des données essentielles des marchés publics au sein d’une même liste intitulée « données essentielles des marchés publics » à partir de 40 000 euros hors taxes ;
+- au maintien de la publication des données essentielles des contrats de concession ;
+- à la publication de ces données essentielles sur le portail national des données ouvertes et non plus sur le profil d’acheteur.
+
+C'est le schéma qui doit être respecté pour la publication de données essentielles pour les marchés notifiés à compter du **1er janvier 2024** et pour les contrats de concession conclus à compter de cette même date. Le schéma est disponible sur [le dépôt Github](https://github.com/139bercy/format-commande-publique/releases/tag/2.0.0), qui contient des exemples de données et les référentiels des schémas à ce lien avec une documentation associée [disponible ici](https://github.com/139bercy/format-commande-publique/blob/2.0.0/_index.md).
+
 ### Version 1.5 (arrêté du 22 mars 2019) :
 
 Le schéma version 1.5 est un nouveau schéma prenant en compte les modifications apportées par l'arrêté du 22 mars 2019 (changements dans la liste des procédures de marché). C'est le schéma recommandé pour la publication de données essentielles jusqu’au **31 décembre 2023**.
