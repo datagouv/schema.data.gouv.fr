@@ -1,18 +1,18 @@
 Archivistes75/registre_entrees:
-  consolidate: true
+  consolidate: false
   publication: false
 CEREMA/schema-arrete-circulation-marchandises:
-  consolidate: true
+  consolidate: false
   publication: false
 LaMednum/standard-mediation-num:
   consolidate: false
   search_words:
   - "Lieux de m\xE9diation num\xE9rique"
 MTES-MCT/acceslibre-schema:
-  consolidate: true
+  consolidate: false
   publication: false
 NaturalSolutions/schema-arbre:
-  consolidate: true
+  consolidate: false
   publication: false
 atlasante/schema-dae:
   consolidate: false
@@ -23,7 +23,7 @@ cnigfr/schema-friches:
   search_words:
   - Standard CNIG Friches
 datakode/schema-pei:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-comptage-mobilites-channel:
   consolidate: false
@@ -38,7 +38,7 @@ etalab/schema-comptage-mobilites-site:
   search_words:
   - "Comptage des mobilit\xE9s (Site)"
 etalab/schema-decp-dpa:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-dispositif-aide:
   consolidate: false
@@ -48,10 +48,10 @@ etalab/schema-hautes-remunerations:
   consolidate: true
   publication: false
 etalab/schema-inclusion-numerique:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-irve-dynamique:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-irve-statique:
   consolidate: true
@@ -78,19 +78,19 @@ etalab/schema-irve-statique:
   - "Infrastructures de recharge pour v\xE9hicules \xE9lectriques"
   - IRVE
 etalab/schema-lieux-covoiturage:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-passage-a-niveau:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-sdirve:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-stationnement:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-stationnement-cyclable:
-  consolidate: true
+  consolidate: false
   publication: false
 etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   consolidate: true
@@ -110,30 +110,30 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese:
     \ des plateformes de livraisons et des centrales de r\xE9servation de taxi et\
     \ VTC"
 openmaraude/schema-stationstaxi:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/budget:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/catalogue:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/deliberations:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/equipements:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/menus-collectifs:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/plats-menus-collectifs:
-  consolidate: true
+  consolidate: false
   publication: false
 scdl/prenoms:
   consolidate: false
   search_words:
   - "Pr\xE9noms des nouveaux-n\xE9s"
 scdl/subventions:
-  consolidate: true
+  consolidate: false
   publication: false
