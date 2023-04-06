@@ -21,7 +21,7 @@ Les dépôts contenant des schémas au format [Table Schema](https://frictionles
 - le schéma doit se trouver dans un fichier `schema.json` à la racine du dépôt ;
 - le schéma doit respecter la spécification Table Schema ;
 - la version déclarée dans le fichier `schema.json` doit être la même que le tag Git du dépôt ;
-- le schéma comporte les [clés supplémentaires](https://github.com/frictionlessdata/specs/blob/master/specs/patterns.md#Specification-8) suivantes à la racine du document JSON :
+- le schéma comporte les [clés supplémentaires](https://specs.frictionlessdata.io/patterns/#table-schema-metadata-properties) suivantes à la racine du document JSON :
     + `title` : le nom courant du schéma. Exemple : `Infrastructures de recharge de véhicules électriques` ;
     + `description` : la description du schéma. Exemple : `Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques`;
     + `homepage` : l'URL vers le dépôt Git contenant le schéma. Exemple : `https://github.com/etalab/schema-irve`.
