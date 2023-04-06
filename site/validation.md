@@ -60,13 +60,21 @@ Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation e
 ]
 ```
 
-Afin de valider votre schéma, nous vous conseillons d'utiliser l'outil [Goodtables](https://pypi.org/project/goodtables) en ligne de commande.
+Afin de valider votre schéma, nous vous conseillons d'utiliser l'outil [Frictionless Framework](https://framework.frictionlessdata.io/) en ligne de commande.
 
 ```bash
-# Valider votre schéma TableSchema
-goodtables validate schema.json
-# Valider votre fichier d'exemple par rapport au schéma
-goodtables validate --schema schema.json exemple-valide.csv
+# Création d'un environnement virtuel en Python 3
+python3 -m venv venv
+source venv/bin/activate
+
+# Installation des dépendances
+pip install frictionless
+
+# Test de la validité d'un schéma
+frictionless validate --type schema schema.json
+
+# Test de la conformité d'un fichier par rapport à un schéma
+frictionless validate --schema schema.json exemple-valide.csv
 ```
 
 ### Validations spécifiques au format XML Schema Definition (XSD)
