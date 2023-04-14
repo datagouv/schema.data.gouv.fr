@@ -8,7 +8,7 @@ Spécification des lieux permettant le covoiturage
 - Schéma créé le : 06/25/19
 - Site web : https://github.com/etalab/schema-lieux-covoiturage
 - Données d'exemple : https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/exemple-valide.csv
-- Version : 0.2.6
+- Version : 0.2.7
 - Clé primaire : `id_lieu`
 
 ### Modèle de données
