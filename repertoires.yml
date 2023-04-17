@@ -181,23 +181,9 @@ passage-a-niveau:
   type: tableschema
   email: contact@transport.beta.gouv.fr
     - transport.data.gouv.fr
-mobilite-site:
-  url: https://github.com/etalab/schema-comptage-mobilites-site
-  type: tableschema
-  email: contact@transport.beta.gouv.fr 
-  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
-  labels:
-    - transport.data.gouv.fr
-mobilite-channel:
-  url: https://github.com/etalab/schema-comptage-mobilites-channel
-  type: tableschema
-  email: contact@transport.beta.gouv.fr
-  external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
-  labels:
-    - transport.data.gouv.fr
-mobilite-measure:
-  url: https://github.com/etalab/schema-comptage-mobilites-measure
-  type: tableschema
+comptage-mobilite:
+  url: https://github.com/etalab/schema-comptage-mobilites_test
+  type: datapackage
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
   labels:
