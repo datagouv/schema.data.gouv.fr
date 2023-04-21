@@ -1,4 +1,5 @@
 import "@gouvfr/dsfr/dist/css/dsfr.min.css";
+import "./../.vuepress/styles/style.css";
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
