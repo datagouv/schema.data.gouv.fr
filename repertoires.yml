@@ -1,9 +1,5 @@
-friches:
-  url: https://github.com/cnigfr/schema-friches.git
-  type: tableschema
-  email: cnig@cnig.fr
 irve:
-  url: https://github.com/fchabouis/schema-irve.git
+  url: https://github.com/etalab/schema-irve.git
   type: datapackage
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
@@ -180,9 +176,10 @@ passage-a-niveau:
   url: https://github.com/etalab/schema-passage-a-niveau
   type: tableschema
   email: contact@transport.beta.gouv.fr
+  labels:
     - transport.data.gouv.fr
 comptage-mobilite:
-  url: https://github.com/etalab/schema-comptage-mobilites_test
+  url: https://github.com/etalab/schema-comptage-mobilites
   type: datapackage
   email: contact@transport.beta.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
@@ -201,4 +198,9 @@ structures-insertion:
   type: jsonschema
   email: data.inclusion@beta.gouv.fr
   external_doc: https://www.data.inclusion.beta.gouv.fr
-  
+friches:
+  url: https://github.com/cnigfr/schema-friches.git
+  type: tableschema
+  email: cnig@cnig.fr
+  labels:
+    - CNIG
