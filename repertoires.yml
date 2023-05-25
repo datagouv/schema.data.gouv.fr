@@ -202,3 +202,5 @@ friches:
   url: https://github.com/cnigfr/schema-friches.git
   type: tableschema
   email: cnig@cnig.fr
+  labels:
+    - CNIG
