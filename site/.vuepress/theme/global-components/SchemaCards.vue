@@ -33,6 +33,9 @@
         Les labels permettent de filtrer les schémas selon une classification particulière. Aujourd'hui, deux labels sont disponibles : 
         <ul>
           <li>
+            <b>CNIG</b>, qui liste les schémas labellisés par le Conseil National de l'Information Labellisé (CNIG). A date, cette liste recense uniquement les schémas de données labellisés par le CNIG au format TableSchema. Pour visiter l'ensemble des schémas du CNIG, se rendre sur cnig.gouv.fr.
+          </li>
+          <li>
             <b>Socle Commun des Données Locales</b>, qui liste les schémas à destination des collectivités territoriales dont la publication des données est considérée comme prioritaire,
           </li>
           <li>
@@ -142,7 +145,7 @@ export default {
       stats: null,
       showButtons: false,
       schemasInfos: null,
-      listLabels: ['Tous', 'Socle Commun des Données Locales', 'transport.data.gouv.fr'],
+      listLabels: ['Tous', 'CNIG', 'Socle Commun des Données Locales', 'transport.data.gouv.fr'],
       labelSelected: 'Tous',
       statusSelected: 'Tous',
       listStatus: ['Tous', 'Adopté', 'Publié', 'En construction', 'En investigation'],
