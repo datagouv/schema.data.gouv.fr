@@ -7,7 +7,7 @@ Comptage des mobilités (Channel)
 Spécification du fichier d'échange relatif aux comptages des mobilités.
 
 - Schéma créé le : 05/06/21
-- Site web : https://github.com/etalab/schema-comptage-mobilites-channel
+- Site web : https://github.com/etalab/schema-comptage-mobilites
 - Version : 0.2.3
 - Clé primaire : `channel_id`
 
@@ -31,8 +31,8 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 | [provider_direction_code](#propriete-provider-direction-code) | chaîne de caractères  | Non |
 | [provider_direction_name](#propriete-provider-direction-name) | chaîne de caractères  | Non |
 | [data_provider_name](#propriete-data-provider-name) | chaîne de caractères  | Non |
-| [temporality](#propriete-temporality) | chaîne de caractères  | Non |
-| [started_at](#propriete-started-at) | date et heure  | Non |
+| [temporality](#propriete-temporality) | chaîne de caractères  | Oui |
+| [started_at](#propriete-started-at) | date et heure  | Oui |
 | [ended_at](#propriete-ended-at) | date et heure  | Non |
 | [last_updated_at](#propriete-last-updated-at) | date et heure  | Non |
 | [time_step](#propriete-time-step) | nombre réel  | Non |
@@ -136,13 +136,16 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 #### Propriété `temporality`
 
 > *Description : Périodicité du comptage. Le compteur compte-t-il temporairement ou de manière permanente sur un même site ?<br/>Ex : PERMANENT*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
+- Valeurs autorisées : 
+    - TEMPORARY
+    - PERMANENT
 
 #### Propriété `started_at`
 
 > *Description : Date et heure de début de comptage. Utile par exemple pour déclarer un début d'usage de compteur temporaire. Notation ISO 8601, format 1977-04-22T06:00:00Z. Ne doit pas être modifié dans le temps. Si besoin, recréez un nouveau channel).<br/>Ex : 2020-06-22T10:00:00Z*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : date et heure
 
 #### Propriété `ended_at`

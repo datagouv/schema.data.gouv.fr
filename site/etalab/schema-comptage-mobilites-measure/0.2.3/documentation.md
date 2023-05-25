@@ -2,12 +2,12 @@
 
 ## schema-comptage-mobilites-measure
 
-Comptage des mobilités (measure)
+Comptage des mobilités (Measure)
 
 Spécification du fichier d'échange relatif aux comptages des mobilités.
 
 - Schéma créé le : 11/15/21
-- Site web : https://github.com/etalab/schema-comptage-mobilites-measure
+- Site web : https://github.com/etalab/schema-comptage-mobilites
 - Version : 0.2.3
 
 ### Modèle de données

@@ -1,0 +1,38 @@
+{
+    "name": "datapackage-comptage-mobilites",
+    "title": "Comptage des mobilités",
+    "description": "Data package contenant 3 schémas : site, channel, measure",
+    "id": "datapackage-comptage-mobilites",
+    "resources": [
+        {
+            "name": "site",
+            "path": "site/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "site/schema.json",
+            "documentation": "site/README.md"
+        },
+        {
+            "name": "channel",
+            "path": "channel/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "channel/schema.json",
+            "documentation": "channel/README.md"
+        },
+        {
+            "name": "measure",
+            "path": "measure/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "measure/schema.json",
+            "documentation": "measure/README.md"
+        }
+    ]
+}

@@ -7,7 +7,7 @@ Comptage des mobilités (Site)
 Spécification du fichier d'échange relatif aux comptages des mobilités.
 
 - Schéma créé le : 05/06/21
-- Site web : https://github.com/etalab/schema-comptage-mobilites-site
+- Site web : https://github.com/etalab/schema-comptage-mobilites
 - Version : 0.2.3
 - Clé primaire : `site_id`
 

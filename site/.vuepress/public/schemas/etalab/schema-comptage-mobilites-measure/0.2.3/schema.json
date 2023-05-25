@@ -1,14 +1,14 @@
 {
    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
    "name": "schema-comptage-mobilites-measure",
-   "title": "Comptage des mobilités (measure)",
+   "title": "Comptage des mobilités (Measure)",
    "description": "Spécification du fichier d'échange relatif aux comptages des mobilités.",
    "keywords": [
       "comptage",
       "mobilité"
    ],
    "countryCode": "FR",
-   "homepage": "https://github.com/etalab/schema-comptage-mobilites-measure",
+   "homepage": "https://github.com/etalab/schema-comptage-mobilites",
    "licenses": [
       {
          "title": "Etalab Licence Ouverte 2.0",
@@ -20,12 +20,12 @@
       {
          "title": "Fichier valide (CSV)",
          "name": "exemple-valide-csv",
-         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-measure/v0.2.0/exemple-valide.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/measure/exemple-valide.csv"
       },
       {
          "title": "Deuxième fichier valide (CSV)",
          "name": "exemple-valide-eco-compteur.csv",
-         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-measure/v0.2.0/exemple-valide-eco-compteur.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/measure/exemple-valide-eco-compteur.csv"
       }
    ],
    "created": "2021-11-15",
@@ -97,9 +97,11 @@
       {
          "name": "count",
          "description": "Nombre de passages comptabilisés sur la période considérée. Lorsqu'il n'y a pas eu de passage, renseigner la valeur 0. Si il n'y a aucun comptage, laisser le champ vide. Il est possible de renseigner un nombre à virgule si le chiffre est le résultat d'un calcul (interpolation, moyenne pour compléter des données abîmées ou extrapolées sur des périodes de temps différentes, mais en souhaitant conserver une justesse statistique globale). Si le champ `mobility_type` est multivalué pour le channel correspondant le fichier `channel`, il est rappelé que le `count` sera la somme des pratiques enregistrées. Pour suivre les pratiques différemment, il faut créer un channel par pratique.",
-         "example": "20",
+         "example": 20,
          "type": "number",
-         "required": false
+         "constraints": {
+            "required": false
+         }
       }
    ]
 }

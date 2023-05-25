@@ -8,7 +8,7 @@
       "mobilité"
    ],
    "countryCode": "FR",
-   "homepage": "https://github.com/etalab/schema-comptage-mobilites-site",
+   "homepage": "https://github.com/etalab/schema-comptage-mobilites",
    "licenses": [
       {
          "title": "Etalab Licence Ouverte 2.0",
@@ -20,12 +20,12 @@
       {
          "title": "Fichier valide (CSV)",
          "name": "exemple-valide-csv",
-         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-site/v0.2.0/exemple-valide.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/site/exemple-valide.csv"
       },
       {
          "title": "Deuxième fichier valide (CSV)",
          "name": "exemple-valide-eco-compteur.csv",
-         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-site/v0.2.0/exemple-valide-eco-compteur.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/site/exemple-valide-eco-compteur.csv"
       }
    ],
    "created": "2021-05-06",

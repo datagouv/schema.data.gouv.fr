@@ -8,7 +8,7 @@
       "mobilité"
    ],
    "countryCode": "FR",
-   "homepage": "https://github.com/etalab/schema-comptage-mobilites-channel",
+   "homepage": "https://github.com/etalab/schema-comptage-mobilites",
    "licenses": [
       {
          "title": "Etalab Licence Ouverte 2.0",
@@ -20,12 +20,12 @@
       {
          "title": "Fichier valide (CSV)",
          "name": "exemple-valide-csv",
-         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-channel/v0.2.0/exemple-valide.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/channel/exemple-valide.csv"
       },
       {
          "title": "Deuxième fichier valide (CSV)",
          "name": "exemple-valide-eco-compteur.csv",
-         "path": "https://raw.githubusercontent.com/etalab/comptage-mobilites-channel/v0.2.0/exemple-valide-eco-compteur.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/channel/exemple-valide-eco-compteur.csv"
       }
    ],
    "created": "2021-05-06",
@@ -206,46 +206,58 @@
          "description": "Périodicité du comptage. Le compteur compte-t-il temporairement ou de manière permanente sur un même site ?",
          "example": "PERMANENT",
          "type": "string",
-         "required": true,
-         "enum": [
-            "TEMPORARY",
-            "PERMANENT"
-         ]
+         "constraints": {
+            "required": true,
+            "enum": [
+               "TEMPORARY",
+               "PERMANENT"
+            ]
+         }
       },
       {
          "name": "started_at",
          "description": "Date et heure de début de comptage. Utile par exemple pour déclarer un début d'usage de compteur temporaire. Notation ISO 8601, format 1977-04-22T06:00:00Z. Ne doit pas être modifié dans le temps. Si besoin, recréez un nouveau channel).",
          "example": "2020-06-22T10:00:00Z",
          "type": "datetime",
-         "required": true
+         "constraints": {
+            "required": true
+         }
       },
       {
          "name": "ended_at",
          "description": "Date et heure de fin de comptage. Utile par exemple pour déclarer la fin de l'usage d'un compteur. Notation ISO 8601, format 1977-04-22T06:00:00Z. Si ce champ est rempli, un nouveau channel doit être créé.",
          "example": "2021-06-22T10:00:00Z",
          "type": "datetime",
-         "required": false
+         "constraints": {
+            "required": false
+         }
       },
       {
          "name": "last_updated_at",
          "description": "Date de dernière mise à jour des données, Notation ISO 8601, format 1977-04-22T06:00:00Z.",
          "example": "2021-06-22T10:00:00Z",
          "type": "datetime",
-         "required": false
+         "constraints": {
+            "required": false
+         }
       },
       {
          "name": "time_step",
          "description": "Le pas de temps des données fournies, en secondes. Doit être utilisé pour extrapoler la date de fin du comptage si elle est absente. Conditionnellement obligatoire. Obligatoire lorsque le champ `end_datetime` n'est complété",
          "example": "900",
          "type": "number",
-         "required": false
+         "constraints": {
+            "required": false
+         }
       },
       {
          "name": "provider_portal_url",
          "description": "Page web publique des données.",
          "example": "http://www.eco-public.com/public2/?id=100057894",
          "type": "string",
-         "required": false
+         "constraints": {
+            "required": false
+         }
       }
    ],
    "primaryKey": "channel_id"
