@@ -208,3 +208,7 @@ impact-service-public-numerique:
   url: https://github.com/etalab/schema-impact-service-public-numerique.git
   type: tableschema
   email: schema@data.gouv.fr
+indice-reparabilite:
+  url: https://github.com/etalab/schema-indice-reparabilite.git
+  type: tableschema
+  email: schema@data.gouv.fr
