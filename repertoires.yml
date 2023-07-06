@@ -20,6 +20,10 @@ catalogue:
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
+indice-reparabilite:
+  url: https://github.com/etalab/schema-indice-reparabilite.git
+  type: tableschema
+  email: schema@data.gouv.fr
     - Socle Commun des Données Locales
 deliberations:
   url: https://git.opendatafrance.net/scdl/deliberations.git
