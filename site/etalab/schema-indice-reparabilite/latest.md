@@ -2,13 +2,13 @@
 
 # Répertoire national de l’indice de réparabilité
 
-L’indice de réparabilité est une note sur 10 obligatoire en France, indiquant le caractère plus ou moins réparables des produits. L’affichage obligatoire d’un indice de réparabilité est institué par l’article 16 de la loi n° 2020-105 du 10 février 2020 de lutte contre le gaspillage et pour l’économie circulaire, pour les produits électriques et électroniques. En affichant une note sur 10, cet indice informe les consommateurs sur le caractère plus ou moins réparable des produits concernés. Il s’applique depuis le 1er janvier 2021 aux smartphones, ordinateurs portables, téléviseurs, tondeuses à gazon, et lave-linges hublot et depuis le 4 novembre 2022 aux lave-linges top, lave-vaisselles, aspirateurs, nettoyeurs haute-pression.
+L’affichage obligatoire d’un indice de réparabilité est institué par l’article 16 de la loi n° 2020-105 du 10 février 2020 de lutte contre le gaspillage et pour l’économie circulaire, pour les produits électriques et électroniques. En affichant une note sur 10, cet indice informe les consommateurs sur le caractère plus ou moins réparable des produits concernés. Il s’applique depuis le 1er janvier 2021 aux smartphones, ordinateurs portables, téléviseurs, tondeuses à gazon, et lave-linges hublot et depuis le 4 novembre 2022 aux lave-linges top, lave-vaisselles, aspirateurs, nettoyeurs haute-pression.
 Cette information sensibilise les consommateurs sur la possibilité d’allonger la durée de vie et d’utilisation de leurs appareils, notamment en orientant leurs comportements d’achat vers des produits plus facilement réparables et en les incitant à recourir davantage à la réparation en cas de panne.
 Il constitue un outil de lutte contre l’obsolescence – programmée ou non - pour éviter la mise au rebut trop précoce des produits et préserver les ressources naturelles nécessaires à leur production.
 À partir de 2024, cet indice sera progressivement remplacé par l’indice de durabilité, en commençant par les smartphones, les lave-linges et les téléviseurs. Le nouvel indice prendra en compte en plus de la réparabilité de nouveaux critères comme la robustesse et la possibilité de maintenance et d’entretien des produits.
 
 ## Contexte
-Dans le but de constituer un répertoire national de données relatif à l’indice de réparabilité, ouvert et accessible à tous, les fabricants ou metteurs sur le marché des produits concernés ont la possibilité de publier sur la plateforme data.gouv.fr les données ayant permis le calcul de l’indice. Cette ouverture de données doit être conforme aux schémas de données statique et dynamique en vigueur.
+Dans le but de constituer un répertoire national de données relatif à l’indice de réparabilité, ouvert et accessible à tous, les fabricants ou metteurs sur le marché des produits concernés ont la possibilité de publier sur la plateforme data.gouv.fr les données ayant permis le calcul de l’indice. Cette ouverture de données doit être conforme aux schémas de données en vigueur.
 Le renseignement du répertoire national relatif à l’indice de réparabilité est dans un premier temps volontaire. Cette démarche deviendra obligatoire dans le cadre de l’indice de durabilité.
 
 ## Documents de cadrage juridique
@@ -31,7 +31,7 @@ Le renseignement du répertoire national relatif à l’indice de réparabilité
 
 ## Création d'un fichier de données conforme
 
-* Les données collectées doivent respecter un formalisme particulier (schéma de données) décrit sur [la section documentation](https://schema.data.gouv.fr/etalab/schema-indice-reparabilite/latest/documentation.html) de cette page.
+* Les données collectées doivent respecter un formalisme particulier (schéma de données) décrit sur la section documentation de cette page.
 * Les données sont à remplir au format CSV, encodage UTF-8.
 * Plusieurs solutions existent pour générer ce fichier CSV.
 
