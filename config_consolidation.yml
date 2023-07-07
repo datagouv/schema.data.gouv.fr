@@ -50,6 +50,10 @@ etalab/schema-hautes-remunerations:
 etalab/schema-inclusion-numerique:
   consolidate: false
   publication: false
+etalab/schema-indice-reparabilite:
+  consolidate: false
+  search_words:
+  - "Sch\xE9ma indice de r\xE9parabilit\xE9"
 etalab/schema-irve-dynamique:
   consolidate: false
   publication: false
