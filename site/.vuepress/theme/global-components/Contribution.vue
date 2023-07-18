@@ -76,7 +76,7 @@
         <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes <a href='https://www.etalab.gouv.fr/'>d'Etalab</a> et <a href='https://www.opendatafrance.net/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
         <div style="width: 100%;">
           <div class="btn-guide">
-            <a href="https://guides.etalab.gouv.fr/producteurs-schemas/" title="Consulter le guide" class="fr-btn">
+            <a href="https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees" title="Consulter le guide" class="fr-btn">
               <img src="../../public/assets/book.png" width="15" />&nbsp;
               Consulter le guide pour créer des schémas de données
             </a>
