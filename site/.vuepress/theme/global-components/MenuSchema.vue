@@ -60,7 +60,7 @@
                     <span v-if="schema && schema_infos['type'] == 'tableschema'">
                         <button
                             class="fr-btn"
-                            @click="gotoExternalLink('https://publier.etalab.studio/select?schema='+schema)"
+                            @click="gotoExternalLink('https://publier.etalab.studio/fr/select?schema='+schema)"
                         >
                             <img src="../../public/assets/pencil.png" width="15" />&nbsp;
                             Saisir ou valider mes données

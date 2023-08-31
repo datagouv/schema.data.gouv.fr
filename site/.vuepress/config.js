@@ -74,7 +74,7 @@ module.exports = {
       button1: "Découvrez tous les schémas de données",
       url1: "/schemas.html",
       button2: 'Saisissez des données structurées sur publier.etalab.studio',
-      url2: 'https://publier.etalab.studio'
+      url2: 'https://publier.etalab.studio/fr'
     },
     presentationBox: [
       {
