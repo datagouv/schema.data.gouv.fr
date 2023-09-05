@@ -84,7 +84,10 @@ etalab/schema-irve-statique:
   publication: true
   search_words:
   - "Infrastructures de recharge pour v\xE9hicules \xE9lectriques"
+  - "bornes de recharge pour véhicules électriques"
   - IRVE
+  tags:
+  - irve
 etalab/schema-lieux-covoiturage:
   consolidate: false
   publication: false
