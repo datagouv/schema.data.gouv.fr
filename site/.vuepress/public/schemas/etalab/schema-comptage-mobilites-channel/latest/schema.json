@@ -20,17 +20,17 @@
       {
          "title": "Fichier valide (CSV)",
          "name": "exemple-valide-csv",
-         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/channel/exemple-valide.csv"
       },
       {
          "title": "Deuxième fichier valide (CSV)",
          "name": "exemple-valide-eco-compteur.csv",
-         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide-eco-compteur.csv"
+         "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.3/channel/exemple-valide-eco-compteur.csv"
       }
    ],
    "created": "2021-05-06",
-   "lastModified": "2023-05-15",
-   "version": "0.2.4",
+   "lastModified": "2023-04-07",
+   "version": "0.2.3",
    "contributors": [
       {
          "title": "Miryad Ali",

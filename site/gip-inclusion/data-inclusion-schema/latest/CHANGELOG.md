@@ -2,6 +2,21 @@
 
 # Changements
 
+## Version 0.10.0 - 2023-09-11
+
+* [schéma service](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-et-services-dinsertion#schema-service) :
+  * champs ajoutés :
+    * `modes_orientation_beneficiaire_autres`
+    * `modes_orientation_accompagnateur_autres`
+  * champs modifiés :
+    * `pre_requis` devient une liste de chaîne de caractères
+    * `justificatifs` devient une liste de chaîne de caractères
+* [labels et réseaux](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-et-services-dinsertion/labels-et-reseaux) :
+  * ajout du réseau `etcld`
+* [profils](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-et-services-dinsertion/profils) :
+  * `demandeur-demploi` devient `demandeurs-demploi`
+  * `beneficiaire-rsa` devient `beneficiaires-rsa`
+
 ## Version 0.9.0 - 2023-06-30
 
 * [schéma service](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-et-services-dinsertion#schema-service) :
@@ -16,9 +31,6 @@
   * ajout des thématiques liées à l'apprentissage du français (`apprendre-francais--*`)
   * ajout des thématiques liées à l'illettrisme (`illettrisme--*`)
 * ajouts des types de zone de diffusion `pays` et `epci`
-* [profils](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-et-services-dinsertion/profils) :
-  * ajout de "Demandeur ou demandeuse d'emploi" (`demandeur-demploi`)
-  * ajout de "Bénéficiaire RSA" (`beneficiaire-rsa`)
 
 ## Version 0.8.0 - 2023-03-08
 

@@ -41,6 +41,7 @@
         "envie",
         "epide",
         "espace-emploi-agric-arrco",
+        "etcld",
         "fabrique-de-territoire",
         "face",
         "fede-pro-fem",
@@ -149,6 +150,7 @@
             {
               "maxLength": 5,
               "minLength": 5,
+              "pattern": "^\\w{5}$",
               "type": "string"
             },
             {
