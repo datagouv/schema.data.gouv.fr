@@ -8,7 +8,7 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 
 - Schéma créé le : 11/15/21
 - Site web : https://github.com/etalab/schema-comptage-mobilites
-- Version : 0.2.4
+- Version : 0.2.3
 
 ### Modèle de données
 
@@ -18,7 +18,7 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [channel_id](#propriete-channel-id) | chaîne de caractères  | Oui |
-| [counter_id](#propriete-counter-id) | chaîne de caractères  | Non |
+| [counter_id](#propriete-counter-id) | chaîne de caractères  | Oui |
 | [start_datetime](#propriete-start-datetime) | date et heure  | Oui |
 | [end_datetime](#propriete-end-datetime) | date et heure  | Non |
 | [count](#propriete-count) | nombre réel  | Non |
@@ -32,7 +32,7 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 #### Propriété `counter_id`
 
 > *Description : Identifiant unique du compteur dans les bases de données de la collectivité territoriale productrice de données. Peut être un identifiant physique fixé par le fabricant, ou un identifiant fixé par la collectivité territoriale, au choix. Ce champ peut servir à détecter des changements de compteurs physiques sur un channel ou de suivre la réaffectation géographique d'un compteur physique.<br/>Ex : C01-Baix*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `start_datetime`

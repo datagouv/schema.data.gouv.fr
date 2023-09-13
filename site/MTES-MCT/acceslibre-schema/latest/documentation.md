@@ -8,7 +8,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 - Schéma créé le : 03/10/21
 - Site web : https://github.com/MTES-MCT/acceslibre-schema
-- Version : 0.0.9
+- Version : 0.0.14
 - Clé primaire : `id`
 
 ### Modèle de données
@@ -73,6 +73,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [entree_porte_type](#type-de-porte-propriete-entree-porte-type) | chaîne de caractères  | None |
 | [accueil_visibilite](#visibilite-de-la-zone-d'accueil-propriete-accueil-visibilite) | booléen  | Non |
 | [accueil_personnels](#personnel-d'accueil-propriete-accueil-personnels) | chaîne de caractères  | None |
+| [accueil_audiodescription_presence](#audiodescription-propriete-accueil-audiodescription-presence) | booléen  | Non |
+| [accueil_audiodescription](#liste-des-equipements-pour-l'audiodescription-propriete-accueil-audiodescription) | liste  | Non |
 | [accueil_equipements_malentendants_presence](#presence-d'equipements-d'aide-a-l'audition-et-a-la-communication-propriete-accueil-equipements-malentendants-presence) | booléen  | Non |
 | [accueil_equipements_malentendants](#liste-des-equipements-d'aide-a-l'audition-et-a-la-communication-propriete-accueil-equipements-malentendants) | liste  | Non |
 | [accueil_cheminement_plain_pied](#chemin-entre-l'entree-principale-du-batiment-et-l'accueil-de-l'etablissement-propriete-accueil-cheminement-plain-pied) | booléen  | Non |
@@ -82,6 +84,15 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [accueil_cheminement_main_courante](#main-courante-propriete-accueil-cheminement-main-courante) | booléen  | Non |
 | [accueil_cheminement_rampe](#rampe-propriete-accueil-cheminement-rampe) | chaîne de caractères  | None |
 | [accueil_cheminement_sens_marches](#sens-de-circulation-de-l'escalier-propriete-accueil-cheminement-sens-marches) | chaîne de caractères  | None |
+| [accueil_chambre_nombre_accessibles](#nombre-de-chambres-accessibles-a-une-personne-en-fauteuil-roulant-propriete-accueil-chambre-nombre-accessibles) | nombre entier  | Non |
+| [accueil_chambre_douche_plain_pied](#douche-accessible-propriete-accueil-chambre-douche-plain-pied) | booléen  | Non |
+| [accueil_chambre_douche_siege](#siege-de-douche-propriete-accueil-chambre-douche-siege) | booléen  | Non |
+| [accueil_chambre_douche_barre_appui](#douche-securisee-propriete-accueil-chambre-douche-barre-appui) | booléen  | Non |
+| [accueil_chambre_sanitaires_barre_appui](#toilette-securise-propriete-accueil-chambre-sanitaires-barre-appui) | booléen  | Non |
+| [accueil_chambre_sanitaires_espace_usage](#toilette-accessible-propriete-accueil-chambre-sanitaires-espace-usage) | booléen  | Non |
+| [accueil_chambre_numero_visible](#visibilite-des-numeros-de-chambres-propriete-accueil-chambre-numero-visible) | booléen  | Non |
+| [accueil_chambre_equipement_alerte](#equipement-d'alerte-adapte-propriete-accueil-chambre-equipement-alerte) | booléen  | Non |
+| [accueil_chambre_accompagnement](#accompagnement-specifique-propriete-accueil-chambre-accompagnement) | booléen  | Non |
 | [accueil_retrecissement](#retrecissement-du-chemin-propriete-accueil-retrecissement) | booléen  | Non |
 | [sanitaires_presence](#sanitaires-propriete-sanitaires-presence) | booléen  | Non |
 | [sanitaires_adaptes](#sanitaires-adaptes-propriete-sanitaires-adaptes) | booléen  | Non |
@@ -176,121 +187,184 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - Accessoires
+    - Accompagnement personnes agees
     - Accrobranche
     - Achat or
     - Administration publique
     - Aéroport
+    - Afpa
+    - Agence départementale d'information sur le logement
+    - Agence de publicité
     - Agence de travail temporaire
     - Agence de voyage
     - Agence immobilière
+    - Agence matrimoniale
     - Agence postale
     - Aide à la personne
     - Aide sociale à l'enfance : action éducative
     - Ambulances
     - Aménagement maison : cuisine salle de bain salon
+    - Anesthésie
     - Animalerie
     - Antiquaire
     - Apiculteur
+    - Aquarium
     - Architecte
+    - Arène
     - Armurerie coutellerie
     - Art
     - Artisanat
+    - Arts de la table
+    - Association
+    - Association aide aux victimes
+    - Association de gestion du fonds pour l'insertion professionnelle des personnes handicapées
     - Assurance
     - Athlétisme
     - Audio prothésiste
     - Auditorium et salle de conférence
     - Auto école
+    - Autre
     - Autres établissements pour adultes et familles en difficulté
     - Avocat
     - Banques, caisses d'épargne
-    - Bar tabac
     - Barbier
+    - Bar tabac
     - Bâtiment d'accueil
     - Bazar
     - Bibliothèque médiathèque
     - Bien-être
     - Bijouterie joaillerie
+    - Biscuiterie
     - Blanchisserie teinturerie
     - Boucherie / commerce de viande
     - Boulangerie
     - Boulangerie Pâtisserie
     - Boulodrome
+    - Boutique de mariage
     - Bowling
-    - Bricolage aménagement
+    - Bricolage, matériaux, travaux
     - Brocante
     - Brûlerie
+    - Bureau de douane
     - Bureau de poste
     - Café, bar, brasserie
     - Cafés et thés
+    - Caisse d'allocations familiales (caf)
     - Camping caravaning
     - Cantine
     - Cardiologie
     - Carrosserie
+    - Casino
     - Caviste / commerce de détail de boissons
+    - Centrale nucléaire
     - Centre commercial
     - Centre culturel
+    - Centre de gestion de la fonction publique territoriale
     - Centre de loisirs
+    - Centre de protection maternelle et infantile (pmi)
+    - Centre de ressources et d'information
     - Centre de vacances
     - Centre de vaccination
+    - Centre d'examen
+    - Centre d’information et d’orientation
+    - Centre d'information sur les droits des femmes et des familles
     - Centre équestre
     - Centre médical
+    - Centre national de la fonction publique territoriale
     - Centre religieux
+    - Centre social
+    - Chambre agriculture
+    - Chambre de commerce et d'industrie
+    - Chambre metier
     - Chambres d'hôtes, gîte, pension
     - Chapeaux et couvre-chefs
     - Charcuterie
+    - Château
     - Chaussures
+    - Chenil, fourrière
+    - Chirurgie
     - Chirurgien dentiste
     - Chocolatier
     - Cigarette électronique
     - Cimetière
     - Cinéma
+    - Circuit sportif deux roues / voiture
     - Clinique
     - Coiffure
+    - Collectivité territoriale
     - Collège
+    - Commerce
     - Commerce automobile
+    - Commerce bio
     - Commissariat de Police
+    - Commission conciliation
+    - Communauté de communes
     - Comptable expert-comptable
     - Concessionnaire automobile
     - Confiserie
-    - Conservatoire
+    - Conservatoire et école de musique
+    - Construction de maisons, immeubles
     - Contrôle technique auto
+    - Coopérative agricole
     - Cordonnerie serrurerie
+    - Courtier
+    - Coworking
     - Crèche
     - Crèmerie Fromagerie
     - Cure thermale
     - Cycle vente et entretien
     - Cyclisme
+    - Déchetterie
     - Décoration Design
+    - Déménageur
     - Dermatologie vénéréologie
+    - Direction départementale de la protection des populations
+    - Direction départementale de l'emploi, du travail, des solidarités et de la protection des populations
+    - Discothèque
     - Disquaire
+    - Distribution spécialisée / commerce de gros
     - Droguerie
-    - EHPAD
+    - Ecole de danse
     - École élémentaire
     - École maternelle
     - École primaire (regroupement maternelle et élémentaire)
+    - EHPAD
     - Électricien
     - Électroménager et matériel audio-vidéo
+    - Emploi, formation
     - Encadreur enlumineur
+    - Endocrinologue
     - Épicerie
     - Epicerie fine
     - Équipements du foyer
+    - Equipement sportif
     - Ergothérapeute
-    - Espace vert
+    - Espace collaboratif
+    - Espace numérique
+    - Espace vert et naturel
+    - Etablissement de prévention
     - Établissement de santé
     - Établissement militaire
+    - Etablissement pénitentiaire
+    - Fédération départementale pour la pêche et la protection du milieu aquatique
     - Fleuriste
     - Friperie
     - Fruits et légumes
     - Galerie d'art
     - Garage automobile
+    - Garderie
     - Gare avec desserte train à grande vitesse (TAGV)
     - Gare routière
     - Gare sans desserte train à grande vitesse (TAGV)
     - Gastro-entérologie hépatologie
     - Gendarmerie
+    - Géomètre
     - Glacier
+    - Greffe des associations
+    - Guichet france services
     - Gymnase
     - Gynécologie
+    - Hématologie
     - Herboristerie naturopathie
     - Hôpital
     - Horlogerie
@@ -298,15 +372,20 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - Hôtel restaurant
     - Huissier
     - Hypermarché
+    - Hypnothérapeute
+    - Immobilier
     - Imprimerie photocopie reliure
     - Infirmier
     - Information Touristique
     - Informatique
-    - Instituts de formation
+    - Institut de formation
     - Instruments et matériel de musique
     - Jardin botanique et/ou zoologique
     - Jardinerie
     - Jeux jouets
+    - Jeux vidéo
+    - Karaoké
+    - Kiosque (théâtre, pizza, journaux)
     - Laboratoire d'analyse médicale
     - Laverie
     - Librairie
@@ -321,23 +400,37 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - Luminaire
     - Lycée
     - Magasin de bois de chauffage
+    - Magasin de cbd
+    - Magasin de souvenirs
     - Magasin de tissus
     - Mairie
+    - Maison départementale des personnes handicapées
     - Maison de santé ou centre de santé
+    - Maison de services au public
     - Marché
     - Maroquinerie sellerie articles de voyage
     - Massages
     - Masseur kinésithérapeute
+    - Matériel de pêche
+    - Médecine du travail
     - Médecin généraliste
     - Menuiserie, ébénisterie
     - Mercerie
     - Meubles ameublement
+    - Mission d'accueil et d'information des associations
+    - Mission locale pour l'insertion professionnelle et sociale des jeunes
+    - Monument historique
     - Motocycle vente et entretien
     - Musée
+    - Musique
+    - Neurologie
     - Notaire
+    - Numérique
     - Office du tourisme
+    - Opéra
     - Ophtalmologie
     - Opticien
+    - Ordre des avocats
     - Organisation patronale, professionnelle, syndicale
     - Organisme de conseil
     - Orthodontie
@@ -347,7 +440,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - Ostéopathie
     - Oto-rhino-laryngologie
     - Papeterie, presse, journaux
+    - Parc
     - Parc d’attraction
+    - Parc des expositions
     - Parfumerie beauté
     - Parking & stationnement
     - Patinoire
@@ -360,9 +455,15 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - Pharmacie
     - Photographie
     - Piscine
+    - Plage
     - Plateaux et terrains de jeux extérieurs
     - Plomberie, chauffage
     - Pneumologie
+    - Point accueil numerique
+    - Point conseil budget
+    - Point d'information local dédié aux personnes âgées
+    - Point information jeunesse
+    - Point justice
     - Poissonnerie / commerce de poissons, crustacés et mollusques
     - Pompes funèbres
     - Port
@@ -371,33 +472,43 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - Primeur
     - Produits de terroir
     - Produits surgelés
+    - Profession libérale
     - Psychologie, Psychiatrie
     - Psychomotricien
     - Puériculture
     - Radiodiagnostic et imagerie médicale
+    - Refuge animalier
     - Rempailleur tapissier chaises fauteuils
     - Réparation auto et de matériel agricole
+    - Résidence, foyer
+    - Ressourcerie
     - Restaurant
     - Restaurant scolaire
     - Restauration rapide
     - Retouche
+    - Retraite
     - Revêtements murs et sols
     - Rhumatologie
     - Sage-femme
     - Salle de combat
+    - Salle de concert
     - Salle de danse
     - Salle de jeux
-    - Salle de spectacle
+    - Salle de réception
     - Salle des fêtes
+    - Salle de spectacle
     - Salle multisports
     - Salle non spécialisée
-    - Salle spécialisée
     - Salles de remise en forme
+    - Salle spécialisée
     - Salon de thé
+    - Sécurité sociale, mutuelle santé
     - Service ou aide à domicile
+    - Services techniques
     - Sex shop
     - Skatepark
     - Soins de beauté
+    - Sophrologue
     - Spa
     - Sports et loisirs
     - Sports nautiques
@@ -407,25 +518,31 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - Stomatologie
     - Supérette
     - Supermarché
+    - Syndic, gérance immo
     - Tabac
     - Tatouage Piercing
+    - Taxi
+    - Taxidermie
     - Téléphonie
     - Tennis
     - Textile hors habillement
+    - Thalassothérapie
     - Théâtre
     - Toilettes publiques
     - Toiletteur
     - Traiteur
+    - Transport
+    - Trésorerie
+    - Tribunal
     - Université ou école supérieure
     - Urologie
     - Vente à distance
-    - Vente / location d’articles de sport
+    - Vente d'articles de sport
+    - Vente de matériel et équipement industriels
+    - Vente de matériel médical
+    - Vente de matériel pour piscine
     - Vêtements
     - Vétérinaire
-    - courtier
-    - hypnothérapeute
-    - plage
-    - syndic, gérance immo
 
 #### Proximité d'un arrêt de transport en commun - Propriété `transport_station_presence`
 
@@ -495,7 +612,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Sens de circulation de l'escalier - Propriété `cheminement_ext_sens_marches`
 
-> *Description : Sens de circulation des marches ou de l'escalier<br/>Ex : Valeurs possibles: montant -> Montant, descendant -> Descendant*
+> *Description : Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.<br/>Ex : descendant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -510,7 +627,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `cheminement_ext_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.<br/>Ex : amovible*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -526,7 +643,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Degré de difficulté de la pente - Propriété `cheminement_ext_pente_degre_difficulte`
 
-> *Description : Difficulté de la pente<br/>Ex : Valeurs possibles: légère -> Légère, importante -> Importante*
+> *Description : Difficulté de la pente. Valeurs possibles : légère -> Légère, importante -> Importante.<br/>Ex : importante*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -535,7 +652,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Longueur de la pente - Propriété `cheminement_ext_pente_longueur`
 
-> *Description : Longueur de la pente<br/>Ex : Valeurs possibles: courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres*
+> *Description : Longueur de la pente. Valeurs possibles : courte -> < 0,5 mètres, moyenne -> entre 0,5 et 2 mètres, longue -> > 2 mètres.<br/>Ex : moyenne*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -545,7 +662,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Dévers - Propriété `cheminement_ext_devers`
 
-> *Description : Dévers ou inclinaison transversale du chemin<br/>Ex : Valeurs possibles: aucun -> Aucun, léger -> Léger, important -> Important*
+> *Description : Dévers ou inclinaison transversale du chemin. Valeurs possibles : aucun -> Aucun, léger -> Léger, important -> Important.<br/>Ex : important*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -615,7 +732,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `entree_marches_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.<br/>Ex : amovible*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -625,7 +742,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Sens de circulation de l'escalier - Propriété `entree_marches_sens`
 
-> *Description : Sens de circulation des marches ou de l'escalier<br/>Ex : Valeurs possibles: montant -> Montant, descendant -> Descendant*
+> *Description : Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.<br/>Ex : descendant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -640,7 +757,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Type de dispositif d'appel à l'entrée - Propriété `entree_dispositif_appel_type`
 
-> *Description : Dispositifs d'appels présents<br/>Ex : Valeurs possibles: bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone*
+> *Description : Dispositifs d'appels présents. Valeurs possibles : bouton -> Bouton d'appel, interphone -> Interphone, visiophone -> Visiophone.<br/>Ex : ['bouton', 'visiophone']*
 - Valeur optionnelle
 - Type : liste
 
@@ -676,7 +793,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Manoeuvre de la porte - Propriété `entree_porte_manoeuvre`
 
-> *Description : Mode d'ouverture de la porte<br/>Ex : Valeurs possibles: battante -> Porte battante, coulissante -> Porte coulissante, tourniquet -> Tourniquet, tambour -> Porte tambour*
+> *Description : Mode d'ouverture de la porte. Valeurs possibles : battante -> Porte battante, coulissante -> Porte coulissante, tourniquet -> Tourniquet, tambour -> Porte tambour.<br/>Ex : coulissante*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -687,7 +804,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Type de porte - Propriété `entree_porte_type`
 
-> *Description : Type de porte<br/>Ex : Valeurs possibles: manuelle -> Manuelle, automatique -> Automatique*
+> *Description : Type de porte. Valeurs possibles : manuelle -> Manuelle, automatique -> Automatique.<br/>Ex : automatique*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -702,13 +819,25 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Personnel d'accueil - Propriété `accueil_personnels`
 
-> *Description : Personnel à l'accueil des personnes handicapées<br/>Ex : Valeurs possibles: aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés*
+> *Description : Personnel à l'accueil des personnes handicapées. Valeurs possibles : aucun -> Aucun personnel, formés -> Personnels sensibilisés ou formés, non-formés -> Personnels non-formés.<br/>Ex : non-formés*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - aucun
     - formés
     - non-formés
+
+#### Audiodescription - Propriété `accueil_audiodescription_presence`
+
+> *Description : L'établissement propose l'audiodescription.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Liste des équipements pour l'audiodescription - Propriété `accueil_audiodescription`
+
+> *Description : Équipements disponibles<br/>Ex : ['app', 'avec_équipement_occasionnel']*
+- Valeur optionnelle
+- Type : liste
 
 #### Présence d'équipements d'aide à l'audition et à la communication - Propriété `accueil_equipements_malentendants_presence`
 
@@ -718,7 +847,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Liste des équipements d'aide à l'audition et à la communication - Propriété `accueil_equipements_malentendants`
 
-> *Description : Équipements ou prestations disponibles<br/>Ex : Valeurs possibles: bim -> Boucle à induction magnétique fixe, bmp -> Boucle à induction magnétique portative, lsf -> Langue des signes française, lpc -> Langue Française Parlée Complétée (LFPC), sts -> Sous-Titrage ou Transcription Simultanée, autres -> Autres*
+> *Description : Équipements ou prestations disponibles. Valeurs possibles : bim -> Boucle à induction magnétique fixe, bmp -> Boucle à induction magnétique portative, lsf -> Langue des signes française, lpc -> Langue Française Parlée Complétée (LFPC), sts -> Sous-Titrage ou Transcription Simultanée, autres -> Autres.<br/>Ex : ['bim', 'bmp']*
 - Valeur optionnelle
 - Type : liste
 
@@ -754,7 +883,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Rampe - Propriété `accueil_cheminement_rampe`
 
-> *Description : Présence d'une rampe fixe ou amovible<br/>Ex : Valeurs possibles: aucune -> Aucune, fixe -> Fixe, amovible -> Amovible*
+> *Description : Présence d'une rampe fixe ou amovible. Valeurs possibles : aucune -> Aucune, fixe -> Fixe, amovible -> Amovible.<br/>Ex : fixe*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -764,16 +893,70 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Sens de circulation de l'escalier - Propriété `accueil_cheminement_sens_marches`
 
-> *Description : Sens de circulation des marches ou de l'escalier<br/>Ex : Valeurs possibles: montant -> Montant, descendant -> Descendant*
+> *Description : Sens de circulation des marches ou de l'escalier. Valeurs possibles : montant -> Montant, descendant -> Descendant.<br/>Ex : descendant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - montant
     - descendant
 
+#### Nombre de chambres accessibles à une personne en fauteuil roulant - Propriété `accueil_chambre_nombre_accessibles`
+
+> *Description : Nombre de chambres accessibles à une personne en fauteuil roulant.<br/>Ex : 0*
+- Valeur optionnelle
+- Type : nombre entier
+
+#### Douche accessible - Propriété `accueil_chambre_douche_plain_pied`
+
+> *Description : La douche est à l'italienne ou équipée d'un bac extra plat.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Siège de douche - Propriété `accueil_chambre_douche_siege`
+
+> *Description : La douche est équipée d'un siège de douche.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Douche sécurisée - Propriété `accueil_chambre_douche_barre_appui`
+
+> *Description : La douche est équipée d'une barre d'appui horizontale.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Toilette sécurisé - Propriété `accueil_chambre_sanitaires_barre_appui`
+
+> *Description : Le toilette est équipé d'une barre d'appui horizontale.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Toilette accessible - Propriété `accueil_chambre_sanitaires_espace_usage`
+
+> *Description : Le toilette dispose d'un espace d'usage à côté de la cuvette.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Visibilité des numéros de chambres - Propriété `accueil_chambre_numero_visible`
+
+> *Description : Les numéros de chambres sont repérables et en relief.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Equipement d'alerte adapté - Propriété `accueil_chambre_equipement_alerte`
+
+> *Description : L'établissement dispose d'un ou plusieurs équipements d'alerte par flash lumineux ou vibration.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Accompagnement spécifique - Propriété `accueil_chambre_accompagnement`
+
+> *Description : Il est proposé un accompagnement personnalisé pour présenter la chambre à un client en situation de handicap, notamment aveugle ou malvoyant.<br/>Ex : True*
+- Valeur optionnelle
+- Type : booléen
+
 #### Rétrécissement du chemin - Propriété `accueil_retrecissement`
 
-> *Description : Présence d'un ou plusieurs rétrécissements inférieurs à 90 centimètres du chemin pour atteindre l'entrée<br/>Ex : True*
+> *Description : Présence d'un ou plusieurs rétrécissements inférieurs à 90 centimètres du chemin pour atteindre la zone d'accueil<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen
 
@@ -791,13 +974,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Marques ou labels - Propriété `labels`
 
-> *Description : Marque(s) ou label(s) obtenus par l'établissement<br/>Ex : Valeurs possibles: autre -> Autre, dpt -> Destination pour Tous, mobalib -> Mobalib, th -> Tourisme & Handicap*
+> *Description : Marque(s) ou label(s) obtenus par l'établissement. Valeurs possibles : autre -> Autre, dpt -> Destination pour Tous, mobalib -> Mobalib, th -> Tourisme & Handicap.<br/>Ex : ['mobalib', 'th']*
 - Valeur optionnelle
 - Type : liste
 
 #### Famille(s) de handicap concernées(s) - Propriété `labels_familles_handicap`
 
-> *Description : Famille(s) de handicap couverte(s) par ces marques ou labels<br/>Ex : Valeurs possibles: auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel*
+> *Description : Famille(s) de handicap couverte(s) par ces marques ou labels. Valeurs possibles : auditif -> Handicap auditif, mental -> Handicap mental, moteur -> Handicap moteur, visuel -> Handicap visuel.<br/>Ex : ['moteur', 'visuel']*
 - Valeur optionnelle
 - Type : liste
 
@@ -809,6 +992,6 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 #### Conformité - Propriété `conformite`
 
-> *Description : Statut réglementaire de conformité de l'établissement<br/>Ex : True*
+> *Description : L'établissement a été déclaré conforme à la réglementation<br/>Ex : True*
 - Valeur optionnelle
 - Type : booléen

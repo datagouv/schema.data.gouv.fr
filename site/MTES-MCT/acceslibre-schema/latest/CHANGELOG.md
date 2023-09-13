@@ -4,6 +4,23 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+### Version 0.0.14 - 06-19-2023
+* Change project metadata
+
+### Version 0.0.13 - 05-09-2023
+* Add new fields for hostels, room accessibility.
+* Add new activities
+
+### Version 0.0.12 - 04-01-2023
+* Add new activities
+
+### Version 0.0.11 - 13-12-2022
+* Add audiodescription fields
+* Add new activities
+
+### Version 0.0.10 - 26-09-2022
+* Reshape schema.json to accept valid examples..
+
 ### Version 0.0.9 - 11-04-2022
 * Add constraints value for field 'activite'.
 
@@ -19,7 +36,7 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
 ### Version 0.0.5 - 01-02-2022
 * Change readme
-* Fix schema.json file with activite 
+* Fix schema.json file with activite
 
 ### Version 0.0.4 - 19-01-2022
 Fix type of accueil_cheminement_rampe field.
