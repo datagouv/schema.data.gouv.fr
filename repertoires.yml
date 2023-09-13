@@ -194,7 +194,7 @@ vehicules-faibles-emissions-renouvellement-parc-synthese:
   type: tableschema
   email: schema@data.gouv.fr
 structures-insertion:
-  url: https://github.com/betagouv/data-inclusion-schema.git
+  url: https://github.com/gip-inclusion/data-inclusion-schema.git
   type: jsonschema
   email: data.inclusion@beta.gouv.fr
   external_doc: https://www.data.inclusion.beta.gouv.fr
@@ -213,7 +213,7 @@ indice-reparabilite:
   type: tableschema
   email: schema@data.gouv.fr
 schema-accessibilite-voirie:
-  url: https://github.com/cnigfr/schema-accessibilite-voirie
+  url: https://github.com/cnigfr/schema-accessibilite-voirie.git
   type: other
   external_doc: https://cnig.gouv.fr/ressources-accessibilite-a25335.html
   labels:
