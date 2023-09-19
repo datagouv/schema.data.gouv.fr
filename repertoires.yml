@@ -215,6 +215,7 @@ indice-reparabilite:
 schema-accessibilite-voirie:
   url: https://github.com/cnigfr/schema-accessibilite-voirie.git
   type: other
+  email: cnig@cnig.fr
   external_doc: https://cnig.gouv.fr/ressources-accessibilite-a25335.html
   labels:
     - CNIG
