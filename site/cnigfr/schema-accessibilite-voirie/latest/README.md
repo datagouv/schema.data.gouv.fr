@@ -19,6 +19,6 @@ Le standard détermine, entre autres :
 - le système de géoréférencement (l’attribution de coordonnées géographiques
 
 ## Versions
-- v2021-10 (révision juin 2023)
-- v2021-10 (révision mai 2022)
-- v2021-10 (version initiale)
+- v2021-10 (révision juin 2023) : 1.2.0
+- v2021-10 (révision mai 2022) : 1.1.0
+- v2021-10 (version initiale) : 1.0.0
