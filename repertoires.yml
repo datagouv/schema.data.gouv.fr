@@ -212,3 +212,10 @@ impact-service-public-numerique:
   url: https://github.com/etalab/schema-impact-service-public-numerique
   type: tableschema
   email: schema@data.gouv.fr
+schema-accessibilite-voirie:
+  url: https://github.com/cnigfr/schema-accessibilite-voirie.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/ressources-accessibilite-a25335.html
+  labels:
+    - CNIG
