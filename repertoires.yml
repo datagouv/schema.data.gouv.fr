@@ -212,10 +212,38 @@ indice-reparabilite:
   url: https://github.com/etalab/schema-indice-reparabilite.git
   type: tableschema
   email: schema@data.gouv.fr
-schema-accessibilite-voirie:
+accessibilite-voirie:
   url: https://github.com/cnigfr/schema-accessibilite-voirie.git
   type: other
   email: cnig@cnig.fr
   external_doc: https://cnig.gouv.fr/ressources-accessibilite-a25335.html
+  labels:
+    - CNIG
+plan-corps-rue-simplifie:
+  url: https://github.com/cnigfr/schema-plan-corps-rue-simplifie.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2017/12/CNIG_RTGE_PCRS_v2.0.pdf
+  labels:
+    - CNIG
+socle-reseaux:
+  url: https://github.com/cnigfr/schema-socle-reseaux.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2019/11/CNIG_STAR-DT_v1.0.pdf
+  labels:
+    - CNIG
+occupation-sols:
+  url: https://github.com/cnigfr/schema-occupation-sols.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/pnocsge-10-decembre-20141.pdf
+  labels:
+    - CNIG
+continuites-ecologiques-regionales:
+  url: https://github.com/cnigfr/schema-continuites-ecologiques-regionales.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2018/10/181001_Standard_CNIG_CER_v2018.pdf
   labels:
     - CNIG
