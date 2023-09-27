@@ -160,6 +160,7 @@ vehicules-faibles-emissions-renouvellement-parc:
   url: https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc.git
   type: tableschema
   email: schema@data.gouv.fr
+  consolidation: 6514411f0cda7e21ecad2305
 point-eau-incendie:
   url: https://gitlab.com/datakode/schema-pei.git
   type: tableschema
