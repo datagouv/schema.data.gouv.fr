@@ -21,10 +21,10 @@ Cette initiative vide à standardiser la publication des jeux de données relati
 ## Outils
 
 * [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.plats-menus-collectifs) [Valider un fichier avec Validata](http://go.validata.fr/table-schema?schema_name=scdl.plats-menus-collectifs)
-* [Télécharger un fichier gabarit au format XLSX](https://git.opendatafrance.net/scdl/plats-menus-collectifs/-/raw/master/examples/plats-collectifs_valide.xlsx?inline=false)
+* [Télécharger un fichier gabarit au format XLSX](https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/-/raw/master/examples/plats-collectifs_valide.xlsx?inline=false)
 
 
 ## Voir aussi
 
 * adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=plats-menus-collectifs)
-* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/plats-menus-collectifs/issues)
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/issues)

@@ -28,4 +28,4 @@ Il a été élaboré par [Charles Népote](mailto:charles.nepote@fing.org) à pa
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
 * adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Prénoms)
-* ouvrir un ticket sur le [dépôt Gitlab d'openDataFrance](https://git.opendatafrance.net/scdl/prenoms/issues/new)
+* ouvrir un ticket sur le [dépôt Gitlab d'openDataFrance](https://gitlab.com/opendatafrance/scdl/prenoms/issues/new)

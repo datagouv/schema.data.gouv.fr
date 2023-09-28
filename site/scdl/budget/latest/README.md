@@ -9,7 +9,7 @@ __Avertissements__ :
 
 * ce schéma ne couvre que partiellement les données contenues dans les données 
   TotEM (par exemple, dans les fichiers générés par l'outil 
-  ["totem2csv"](https://git.opendatafrance.net/outillages/totem), uniquement 
+  ["totem2csv"](https://gitlab.com/opendatafrance/outillages/totem), uniquement 
   le fichier finissant par ".Budget.csv" est concerné). 
 * des écarts ont été constatés entre ce schéma et les schémas des données 
   TotEM au format XML. Notamment, les données converties apparaissent pour le 
@@ -33,7 +33,7 @@ Format réglementaire pour la publication des données essentielles des budgets.
 Ce schéma vise à simplifier la mise à disposition des données budgétaires des 
 collectivités locales. Pour celles en capacité de produire des fichiers au 
 format XML TOTEM, un convertisseur XML -> csv est disponible sur ce 
-[dépôt](https://git.opendatafrance.net/outillages/totem). Il permet d'extraire 
+[dépôt](https://gitlab.com/opendatafrance/outillages/totem). Il permet d'extraire 
 les données budgétaires ainsi que celles figurant en annexes (subvention, 
 patrimoine, emprunt, personnels)
 
@@ -47,4 +47,4 @@ patrimoine, emprunt, personnels)
 ## Voir aussi
 
 * adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=budget)
-* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/budget/issues)
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://gitlab.com/opendatafrance/scdl/budget/issues)
