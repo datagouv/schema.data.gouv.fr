@@ -16,25 +16,25 @@ decp-dpa:
   type: tableschema
   email: schema@data.gouv.fr
 catalogue:
-  url: https://git.opendatafrance.net/scdl/catalogue.git
+  url: https://gitlab.com/opendatafrance/scdl/catalogue.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
     - Socle Commun des Données Locales
 deliberations:
-  url: https://git.opendatafrance.net/scdl/deliberations.git
+  url: https://gitlab.com/opendatafrance/scdl/deliberations.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
     - Socle Commun des Données Locales
 equipements:
-  url: https://git.opendatafrance.net/scdl/equipements.git
+  url: https://gitlab.com/opendatafrance/scdl/equipements.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
     - Socle Commun des Données Locales
 subventions:
-  url: https://git.opendatafrance.net/scdl/subventions.git
+  url: https://gitlab.com/opendatafrance/scdl/subventions.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
@@ -59,7 +59,7 @@ stationnement:
     - transport.data.gouv.fr
   consolidation: 5ea1add4a5a7dac3af82310a
 budget:
-  url: https://git.opendatafrance.net/scdl/budget.git
+  url: https://gitlab.com/opendatafrance/scdl/budget.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels: 
@@ -71,7 +71,7 @@ dae:
   labels: 
     - Socle Commun des Données Locales
 prenoms:
-  url: https://git.opendatafrance.net/scdl/prenoms.git
+  url: https://gitlab.com/opendatafrance/scdl/prenoms.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels: 
@@ -113,13 +113,13 @@ hautes-remunerations:
   type: tableschema
   email: schema@data.gouv.fr
 menus-restauration:
-  url: https://git.opendatafrance.net/scdl/menus-collectifs.git
+  url: https://gitlab.com/opendatafrance/scdl/menus-collectifs.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
     - Socle Commun des Données Locales
 plats-restauration:
-  url: https://git.opendatafrance.net/scdl/plats-menus-collectifs.git
+  url: https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs.git
   type: tableschema
   email: scdl@opendatafrance.email
   labels:
