@@ -26,4 +26,4 @@ S'appuyant sur ces travaux, de nombreuses collectivités françaises ont pu cons
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
 * adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Equipements%20collectifs%20publics)
-* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/equipements/issues/new)
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://gitlab.com/opendatafrance/scdl/equipements/issues/new)
