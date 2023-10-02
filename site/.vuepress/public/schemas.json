@@ -1895,6 +1895,28 @@
             "external_doc": "https://cnig.gouv.fr/IMG/pdf/pnocsge-10-decembre-20141.pdf",
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-occupation-sols"
+        },
+        {
+            "name": "cnigfr/schema-desserte-transport-bois",
+            "title": "Dessertes pour le transport de bois",
+            "description": "Mod\u00e8le de donn\u00e9es partag\u00e9 afin d\u2019homog\u00e9n\u00e9iser les pratiques lors de la num\u00e9risation de donn\u00e9es li\u00e9es au transport du bois.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois"
         }
     ]
 }
