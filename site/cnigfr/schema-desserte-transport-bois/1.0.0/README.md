@@ -22,4 +22,4 @@ Le standard de données est constitué de 3 thèmes :
 - Un thème « Contraintes de circulation » qui contient les ponctuels représentantsdes difficultés ou des alertes pouvant rendre délicate la circulation des camions. Ces ponctuels sont renseignés par des attributs communs et des attributs spécifiques variant en fonction de la nature des contraintes renseignées
 
 ## Versions
-- 1.0.0
+- V1 de	mars 2019 : 1.0.0
