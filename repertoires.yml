@@ -254,7 +254,7 @@ desserte-transport-bois:
   external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf
   labels:
     - CNIG
-desserte-transport-bois:
+schema-eclairage-exterieur:
   url: https://github.com/cnigfr/schema-eclairage-exterieur.git
   type: other
   email: cnig@cnig.fr
