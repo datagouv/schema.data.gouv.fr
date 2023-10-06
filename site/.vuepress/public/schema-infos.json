@@ -2249,6 +2249,46 @@
         },
         "latest": "1.0.0"
     },
+    "cnigfr/schema-continuites-ecologiques-regionales": {
+        "homepage": "https://github.com/cnigfr/schema-continuites-ecologiques-regionales.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2018/10/181001_Standard_CNIG_CER_v2018.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-continuites-ecologiques-regionales/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/schema-desserte-transport-bois": {
+        "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
     "cnigfr/schema-eclairage-exterieur": {
         "homepage": "https://github.com/cnigfr/schema-eclairage-exterieur.git",
         "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf",

@@ -1897,6 +1897,50 @@
             "homepage": "https://github.com/cnigfr/schema-occupation-sols"
         },
         {
+            "name": "cnigfr/schema-continuites-ecologiques-regionales",
+            "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
+            "description": "Prescriptions nationales pour la d\u00e9mat\u00e9rialisation des Continuit\u00e9s Ecologiques R\u00e9gionales (CER).",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-continuites-ecologiques-regionales/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-continuites-ecologiques-regionales/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2018/10/181001_Standard_CNIG_CER_v2018.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-continuites-ecologiques-regionales"
+        },
+        {
+            "name": "cnigfr/schema-desserte-transport-bois",
+            "title": "Dessertes pour le transport de bois",
+            "description": "Mod\u00e8le de donn\u00e9es partag\u00e9 afin d\u2019homog\u00e9n\u00e9iser les pratiques lors de la num\u00e9risation de donn\u00e9es li\u00e9es au transport du bois.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois"
+        },
+        {
             "name": "cnigfr/schema-eclairage-exterieur",
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
             "description": "Standard de base de donn\u00e9es g\u00e9ographique applicable aux points lumineux d\u2019\u00e9clairage ext\u00e9rieur visant \u00e0 am\u00e9liorer la connaissance du parc d\u2019\u00e9clairage (public comme priv\u00e9) existant et \u00e0 l\u2019homog\u00e9n\u00e9iser tout en anticipant les \u00e9volutions des ann\u00e9es \u00e0 venir.",
