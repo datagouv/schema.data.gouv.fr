@@ -1,0 +1,4 @@
+title: Géostandard d’éclairage extérieur
+description: standard de base de données géographique applicable aux points lumineux d’éclairage extérieur visant à améliorer la connaissance du parc d’éclairage (public comme privé) existant et à l’homogénéiser tout en anticipant les évolutions des années à venir.
+homepage: https://github.com/cnigfr/schema-eclairage-exterieur
+version: 1.1.0

@@ -1897,10 +1897,10 @@
             "homepage": "https://github.com/cnigfr/schema-occupation-sols"
         },
         {
-            "name": "cnigfr/schema-desserte-transport-bois",
-            "title": "Dessertes pour le transport de bois",
-            "description": "Mod\u00e8le de donn\u00e9es partag\u00e9 afin d\u2019homog\u00e9n\u00e9iser les pratiques lors de la num\u00e9risation de donn\u00e9es li\u00e9es au transport du bois.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/latest/schema.yml",
+            "name": "cnigfr/schema-eclairage-exterieur",
+            "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur",
+            "description": "standard de base de donn\u00e9es g\u00e9ographique applicable aux points lumineux d\u2019\u00e9clairage ext\u00e9rieur visant \u00e0 am\u00e9liorer la connaissance du parc d\u2019\u00e9clairage (public comme priv\u00e9) existant et \u00e0 l\u2019homog\u00e9n\u00e9iser tout en anticipant les \u00e9volutions des ann\u00e9es \u00e0 venir.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-eclairage-exterieur/latest/schema.yml",
             "schema_type": "other",
             "contact": "cnig@cnig.fr",
             "examples": [],
@@ -1910,13 +1910,35 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-eclairage-exterieur/1.1.0/schema.yml"
                 }
             ],
-            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+            "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf",
             "external_tool": null,
-            "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois"
+            "homepage": "https://github.com/cnigfr/schema-eclairage-exterieur"
+        },
+        {
+            "name": "cnigfr/schema-reseaux-electriques",
+            "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques",
+            "description": "G\u00e9ostandard vectoriel m\u00e9tier, transverse aux ma\u00eetres d\u2019ouvrage de r\u00e9seaux \u00e9lectriques en espaces ext\u00e9rieurs, bas\u00e9 sur le mod\u00e8le de StaR-DT et utilisable pour diverses th\u00e9matiques (transport, distribution, \u00e9clairage ext\u00e9rieur, signalisation\u2026).",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-reseaux-electriques/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-reseaux-electriques/1.0.2/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-reseaux-electriques"
         }
     ]
 }

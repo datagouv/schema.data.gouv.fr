@@ -2249,9 +2249,9 @@
         },
         "latest": "1.0.0"
     },
-    "cnigfr/schema-desserte-transport-bois": {
-        "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois.git",
-        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+    "cnigfr/schema-eclairage-exterieur": {
+        "homepage": "https://github.com/cnigfr/schema-eclairage-exterieur.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf",
         "external_tool": null,
         "type": "other",
         "email": "cnig@cnig.fr",
@@ -2260,13 +2260,33 @@
         ],
         "consolidation_dataset_id": null,
         "versions": {
-            "1.0.0": {
+            "1.1.0": {
                 "pages": [
                     "README.md"
                 ],
-                "schema_url": "/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+                "schema_url": "/cnigfr/schema-eclairage-exterieur/1.1.0/schema.yml"
             }
         },
-        "latest": "1.0.0"
+        "latest": "1.1.0"
+    },
+    "cnigfr/schema-reseaux-electriques": {
+        "homepage": "https://github.com/cnigfr/schema-reseaux-electriques.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.2": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-reseaux-electriques/1.0.2/schema.yml"
+            }
+        },
+        "latest": "1.0.2"
     }
 }
