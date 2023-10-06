@@ -1898,8 +1898,8 @@
         },
         {
             "name": "cnigfr/schema-eclairage-exterieur",
-            "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur",
-            "description": "standard de base de donn\u00e9es g\u00e9ographique applicable aux points lumineux d\u2019\u00e9clairage ext\u00e9rieur visant \u00e0 am\u00e9liorer la connaissance du parc d\u2019\u00e9clairage (public comme priv\u00e9) existant et \u00e0 l\u2019homog\u00e9n\u00e9iser tout en anticipant les \u00e9volutions des ann\u00e9es \u00e0 venir.",
+            "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
+            "description": "Standard de base de donn\u00e9es g\u00e9ographique applicable aux points lumineux d\u2019\u00e9clairage ext\u00e9rieur visant \u00e0 am\u00e9liorer la connaissance du parc d\u2019\u00e9clairage (public comme priv\u00e9) existant et \u00e0 l\u2019homog\u00e9n\u00e9iser tout en anticipant les \u00e9volutions des ann\u00e9es \u00e0 venir.",
             "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-eclairage-exterieur/latest/schema.yml",
             "schema_type": "other",
             "contact": "cnig@cnig.fr",
@@ -1920,7 +1920,7 @@
         },
         {
             "name": "cnigfr/schema-reseaux-electriques",
-            "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques",
+            "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
             "description": "G\u00e9ostandard vectoriel m\u00e9tier, transverse aux ma\u00eetres d\u2019ouvrage de r\u00e9seaux \u00e9lectriques en espaces ext\u00e9rieurs, bas\u00e9 sur le mod\u00e8le de StaR-DT et utilisable pour diverses th\u00e9matiques (transport, distribution, \u00e9clairage ext\u00e9rieur, signalisation\u2026).",
             "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-reseaux-electriques/latest/schema.yml",
             "schema_type": "other",
