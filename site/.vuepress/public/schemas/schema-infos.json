@@ -2085,9 +2085,16 @@
                     "documentation.md"
                 ],
                 "schema_url": "/cnigfr/schema-friches/1.0.2/schema.json"
+            },
+            "1.0.3": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/cnigfr/schema-friches/1.0.3/schema.json"
             }
         },
-        "latest": "1.0.2"
+        "latest": "1.0.3"
     },
     "etalab/schema-impact-service-public-numerique": {
         "homepage": "https://github.com/etalab/schema-impact-service-public-numerique.git",
