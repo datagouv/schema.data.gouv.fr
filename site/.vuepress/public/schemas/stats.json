@@ -294,12 +294,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 32,
             "title": "Sch\u00e9ma des structures de l'insertion",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 0,
@@ -309,12 +309,12 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 1
+            "contributors": 2
         }
     }
 }
