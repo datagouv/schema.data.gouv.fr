@@ -176,25 +176,6 @@
         },
         "latest": "2.0.0"
     },
-    "etalab/schema-decp-dpa": {
-        "homepage": "https://github.com/etalab/schema-decp-dpa.git",
-        "external_doc": null,
-        "external_tool": null,
-        "type": "tableschema",
-        "email": "schema@data.gouv.fr",
-        "labels": null,
-        "consolidation_dataset_id": null,
-        "versions": {
-            "1.0.0": {
-                "pages": [
-                    "README.md",
-                    "documentation.md"
-                ],
-                "schema_url": "/etalab/schema-decp-dpa/1.0.0/schema.json"
-            }
-        },
-        "latest": "1.0.0"
-    },
     "scdl/catalogue": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/catalogue.git",
         "external_doc": null,

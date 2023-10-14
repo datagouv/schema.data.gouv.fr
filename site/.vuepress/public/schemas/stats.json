@@ -87,7 +87,7 @@
     "nb_issues": 28,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 886,
+            "dgv_resources": 887,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -106,11 +106,6 @@
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 6
         },
-        "etalab/schema-decp-dpa": {
-            "dgv_resources": 5,
-            "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
-        },
         "scdl/catalogue": {
             "dgv_resources": 5,
             "title": "Catalogue simplifi\u00e9",
@@ -127,7 +122,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Subventions",
             "contributors": 11
         },
