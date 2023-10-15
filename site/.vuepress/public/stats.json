@@ -106,6 +106,11 @@
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 6
         },
+        "etalab/schema-decp-dpa": {
+            "dgv_resources": 5,
+            "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
+            "contributors": 1
+        },
         "scdl/catalogue": {
             "dgv_resources": 5,
             "title": "Catalogue simplifi\u00e9",
@@ -259,12 +264,12 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
