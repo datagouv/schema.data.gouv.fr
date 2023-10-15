@@ -131,10 +131,20 @@
             "title": "Subventions",
             "contributors": 11
         },
+        "etalab/schema-lieux-covoiturage": {
+            "dgv_resources": 26,
+            "title": "Lieux de covoiturage",
+            "contributors": 7
+        },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
             "title": "Informations travaux",
             "contributors": 2
+        },
+        "etalab/schema-stationnement": {
+            "dgv_resources": 23,
+            "title": "Lieux de stationnement",
+            "contributors": 3
         },
         "scdl/budget": {
             "dgv_resources": 23,
@@ -160,6 +170,11 @@
             "dgv_resources": 18,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 7
+        },
+        "etalab/schema-stationnement-cyclable": {
+            "dgv_resources": 14,
+            "title": "Stationnement cyclable",
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 36,
@@ -279,7 +294,7 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 32,
             "title": "Sch\u00e9ma des structures de l'insertion",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,

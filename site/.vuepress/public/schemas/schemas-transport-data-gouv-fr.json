@@ -88,6 +88,129 @@
             "homepage": "https://github.com/etalab/schema-irve.git"
         },
         {
+            "name": "etalab/schema-lieux-covoiturage",
+            "title": "Lieux de covoiturage",
+            "description": "Sp\u00e9cification des lieux permettant le covoiturage",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide",
+                    "name": "exemple-valide",
+                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5d6eaffc8b4c417cdc452ac3",
+            "versions": [
+                {
+                    "version_name": "0.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.0.1/schema.json"
+                },
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "0.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.1/schema.json"
+                },
+                {
+                    "version_name": "0.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.2/schema.json"
+                },
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json"
+                },
+                {
+                    "version_name": "0.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.1/schema.json"
+                },
+                {
+                    "version_name": "0.2.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.2/schema.json"
+                },
+                {
+                    "version_name": "0.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.3/schema.json"
+                },
+                {
+                    "version_name": "0.2.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.4/schema.json"
+                },
+                {
+                    "version_name": "0.2.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.5/schema.json"
+                },
+                {
+                    "version_name": "0.2.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.6/schema.json"
+                },
+                {
+                    "version_name": "0.2.7",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.7/schema.json"
+                },
+                {
+                    "version_name": "0.2.8",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.8/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": "https://contribuer.transport.data.gouv.fr",
+            "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git"
+        },
+        {
+            "name": "etalab/schema-stationnement",
+            "title": "Lieux de stationnement",
+            "description": "Sp\u00e9cification des lieux permettant le stationnement en parc",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource valide (XLSX)",
+                    "name": "exemple-valide-xlsx",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.xlsx"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
+            "versions": [
+                {
+                    "version_name": "0.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.4/schema.json"
+                },
+                {
+                    "version_name": "0.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.5/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-stationnement.git"
+        },
+        {
             "name": "etalab/schema-amenagements-cyclables",
             "title": "Am\u00e9nagements cyclables",
             "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es d'am\u00e9nagements cyclables",
@@ -145,6 +268,59 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables",
             "external_tool": "https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools",
             "homepage": "https://github.com/etalab/amenagements-cyclables"
+        },
+        {
+            "name": "etalab/schema-stationnement-cyclable",
+            "title": "Stationnement cyclable",
+            "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de stationnement cycable.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1.1/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1.1/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json"
+                },
+                {
+                    "version_name": "0.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.1/schema.json"
+                },
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.1.0/schema.json"
+                },
+                {
+                    "version_name": "1.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.1.1/schema.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-stationnement-cyclable"
         },
         {
             "name": "etalab/schema-zfe",

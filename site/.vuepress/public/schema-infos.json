@@ -435,6 +435,124 @@
         },
         "latest": "2.1.1"
     },
+    "etalab/schema-lieux-covoiturage": {
+        "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git",
+        "external_doc": null,
+        "external_tool": "https://contribuer.transport.data.gouv.fr",
+        "type": "tableschema",
+        "email": "contact@transport.beta.gouv.fr",
+        "labels": [
+            "transport.data.gouv.fr"
+        ],
+        "consolidation_dataset_id": "5d6eaffc8b4c417cdc452ac3",
+        "versions": {
+            "0.0.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.0.1/schema.json"
+            },
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.1.0/schema.json"
+            },
+            "0.1.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.1.1/schema.json"
+            },
+            "0.1.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.1.2/schema.json"
+            },
+            "0.2.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.0/schema.json"
+            },
+            "0.2.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.1/schema.json"
+            },
+            "0.2.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.2/schema.json"
+            },
+            "0.2.3": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.3/schema.json"
+            },
+            "0.2.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.4/schema.json"
+            },
+            "0.2.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.5/schema.json"
+            },
+            "0.2.6": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.6/schema.json"
+            },
+            "0.2.7": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.7/schema.json"
+            },
+            "0.2.8": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.2.8/schema.json"
+            }
+        },
+        "latest": "0.2.8"
+    },
     "metis-reseaux/infos-travaux": {
         "homepage": "https://github.com/metis-reseaux/infos-travaux.git",
         "external_doc": null,
@@ -455,6 +573,36 @@
             }
         },
         "latest": "0.0.2"
+    },
+    "etalab/schema-stationnement": {
+        "homepage": "https://github.com/etalab/schema-stationnement.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "contact@transport.beta.gouv.fr",
+        "labels": [
+            "transport.data.gouv.fr"
+        ],
+        "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
+        "versions": {
+            "0.1.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement/0.1.4/schema.json"
+            },
+            "0.1.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement/0.1.5/schema.json"
+            }
+        },
+        "latest": "0.1.5"
     },
     "scdl/budget": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/budget.git",
@@ -730,6 +878,68 @@
             }
         },
         "latest": "0.3.4"
+    },
+    "etalab/schema-stationnement-cyclable": {
+        "homepage": "https://github.com/etalab/schema-stationnement-cyclable",
+        "external_doc": "https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable",
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "contact@transport.beta.gouv.fr",
+        "labels": [
+            "transport.data.gouv.fr"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement-cyclable/0.1.0/schema.json"
+            },
+            "0.2.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement-cyclable/0.2.0/schema.json"
+            },
+            "0.2.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement-cyclable/0.2.1/schema.json"
+            },
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement-cyclable/1.0.0/schema.json"
+            },
+            "1.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement-cyclable/1.1.0/schema.json"
+            },
+            "1.1.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement-cyclable/1.1.1/schema.json"
+            }
+        },
+        "latest": "1.1.1"
     },
     "LaMednum/standard-mediation-num": {
         "homepage": "https://github.com/LaMednum/standard-mediation-num.git",
