@@ -254,17 +254,24 @@ desserte-transport-bois:
   external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf
   labels:
     - CNIG
-schema-eclairage-exterieur:
+eclairage-exterieur:
   url: https://github.com/cnigfr/schema-eclairage-exterieur.git
   type: other
   email: cnig@cnig.fr
   external_doc: https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf
   labels:
     - CNIG
-schema-reseaux-electriques:
+reseaux-electriques:
   url: https://github.com/cnigfr/schema-reseaux-electriques.git
   type: other
   email: cnig@cnig.fr
   external_doc: https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf
+  labels:
+    - CNIG
+grace-thd:
+  url: https://github.com/cnigfr/schema-grace-thd.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires
   labels:
     - CNIG
