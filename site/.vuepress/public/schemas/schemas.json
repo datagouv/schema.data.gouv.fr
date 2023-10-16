@@ -1987,6 +1987,28 @@
             "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf",
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-reseaux-electriques"
+        },
+        {
+            "name": "cnigfr/schema-grace-thd",
+            "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
+            "description": "Le g\u00e9ostandard Am\u00e9nagement Num\u00e9rique des Territoires - GraceTHD propose d\u2019apporter un vocabulaire et une structure de donn\u00e9es commune aux acteurs impliqu\u00e9s dans le tr\u00e8s haut d\u00e9bit et en particulier le d\u00e9ploiement de la fibre optique jusqu'\u00e0 l'abonn\u00e9 (FttH).",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-grace-thd/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "3.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-grace-thd/3.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-grace-thd"
         }
     ]
 }

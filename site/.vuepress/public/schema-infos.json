@@ -2335,5 +2335,25 @@
             }
         },
         "latest": "1.0.2"
+    },
+    "cnigfr/schema-grace-thd": {
+        "homepage": "https://github.com/cnigfr/schema-grace-thd.git",
+        "external_doc": "https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "3.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-grace-thd/3.0.0/schema.yml"
+            }
+        },
+        "latest": "3.0.0"
     }
 }
