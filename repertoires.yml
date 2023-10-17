@@ -275,3 +275,19 @@ grace-thd:
   external_doc: https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires
   labels:
     - CNIG
+plan-local-urbanisme:
+  url: https://github.com/cnigfr/schema-plan-local-urbanisme.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+carte-communale:
+  url: https://github.com/cnigfr/schema-carte-communale.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_cc_v2022-10.pdf
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
