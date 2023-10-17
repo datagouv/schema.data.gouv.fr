@@ -291,3 +291,19 @@ carte-communale:
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
+coherence-territoriale:
+  url: https://github.com/cnigfr/schema-coherence-territoriale.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/190315_standard_cnig_scot.pdf
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+nouveau-coherence-territoriale:
+  url: https://github.com/cnigfr/nouveau-schema-coherence-territoriale.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/210615_standard_cnig_nouveauscot.pdf
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
