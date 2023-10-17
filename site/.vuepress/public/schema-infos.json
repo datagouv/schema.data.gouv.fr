@@ -2355,5 +2355,89 @@
             }
         },
         "latest": "3.0.0"
+    },
+    "cnigfr/schema-plan-local-urbanisme": {
+        "homepage": "https://github.com/cnigfr/schema-plan-local-urbanisme.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "2.1.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-plan-local-urbanisme/2.1.0/schema.yml"
+            }
+        },
+        "latest": "2.1.0"
+    },
+    "cnigfr/schema-carte-communale": {
+        "homepage": "https://github.com/cnigfr/schema-carte-communale.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_cc_v2022-10.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "2.1.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-carte-communale/2.1.0/schema.yml"
+            }
+        },
+        "latest": "2.1.0"
+    },
+    "cnigfr/schema-coherence-territoriale": {
+        "homepage": "https://github.com/cnigfr/schema-coherence-territoriale.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/190315_standard_cnig_scot.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-coherence-territoriale/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/nouveau-schema-coherence-territoriale": {
+        "homepage": "https://github.com/cnigfr/nouveau-schema-coherence-territoriale.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/210615_standard_cnig_nouveauscot.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/nouveau-schema-coherence-territoriale/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
     }
 }
