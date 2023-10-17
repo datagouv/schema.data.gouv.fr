@@ -1742,8 +1742,8 @@
         },
         {
             "name": "etalab/schema-indice-reparabilite",
-            "title": "Sch\u00e9ma indice de r\u00e9parabilit\u00e9",
-            "description": "Sch\u00e9ma indice de r\u00e9parabilit\u00e9",
+            "title": "Indice de r\u00e9parabilit\u00e9",
+            "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de r\u00e9parabilit\u00e9",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-indice-reparabilite/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
@@ -1764,6 +1764,10 @@
                 {
                     "version_name": "0.1.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-indice-reparabilite/0.1.1/schema.json"
+                },
+                {
+                    "version_name": "0.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-indice-reparabilite/0.1.2/schema.json"
                 }
             ],
             "external_doc": null,
