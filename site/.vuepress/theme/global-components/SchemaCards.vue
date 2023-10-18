@@ -41,6 +41,9 @@
           <li>
             <b>transport.data.gouv.fr</b>, qui liste les schémas mis en avant par transport.data.gouv.fr, relatifs à la mobilité et aux transports.
           </li>
+          <li>
+            <b>Documents dématérialisés d’urbanisme</b>, qui liste les schémas labellisés par le CNIG comme relevant des Ressources Dématérialisation Documents d’Urbanisme (cf. https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html).
+          </li>
         </ul>
         Les schémas labellisés garantissent une portée de mise en œuvre à l'échelle nationale et ce de façon durable, de schémas réalisés ou supervisés, et maintenables par des structures publiques de référence à l'échelle nationale.
       </div>
@@ -145,7 +148,7 @@ export default {
       stats: null,
       showButtons: false,
       schemasInfos: null,
-      listLabels: ['Tous', 'CNIG', 'Socle Commun des Données Locales', 'transport.data.gouv.fr'],
+      listLabels: ['Tous', 'CNIG', 'Socle Commun des Données Locales', 'transport.data.gouv.fr', 'Documents dématérialisés d’urbanisme'],
       labelSelected: 'Tous',
       statusSelected: 'Tous',
       listStatus: ['Tous', 'Adopté', 'Publié', 'En construction', 'En investigation'],
