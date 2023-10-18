@@ -84,10 +84,10 @@
             "url": "https://github.com/etalab/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 28,
+    "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 887,
+            "dgv_resources": 888,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -308,7 +308,7 @@
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 0,
-            "title": "Sch\u00e9ma indice de r\u00e9parabilit\u00e9",
+            "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {

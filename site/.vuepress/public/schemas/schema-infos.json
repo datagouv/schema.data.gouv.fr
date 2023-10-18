@@ -2172,9 +2172,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-indice-reparabilite/0.1.1/schema.json"
+            },
+            "0.1.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-indice-reparabilite/0.1.2/schema.json"
             }
         },
-        "latest": "0.1.1"
+        "latest": "0.1.2"
     },
     "cnigfr/schema-accessibilite-voirie": {
         "homepage": "https://github.com/cnigfr/schema-accessibilite-voirie.git",
