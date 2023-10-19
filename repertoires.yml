@@ -307,3 +307,19 @@ nouveau-coherence-territoriale:
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
+plan-sauvegarde:
+  url: https://github.com/cnigfr/schema-plan-sauvegarde.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_psmv_v2022-10.pdf
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+servitudes-utilite-publique:
+  url: https://github.com/cnigfr/schema-servitudes-utilite-publique.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/230822_standard_cnig_sup__v2016b_rev2023-08.pdf
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
