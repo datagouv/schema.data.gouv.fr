@@ -2447,5 +2447,47 @@
             }
         },
         "latest": "1.0.0"
+    },
+    "cnigfr/schema-plan-sauvegarde": {
+        "homepage": "https://github.com/cnigfr/schema-plan-sauvegarde.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_psmv_v2022-10.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.3.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-plan-sauvegarde/1.3.0/schema.yml"
+            }
+        },
+        "latest": "1.3.0"
+    },
+    "cnigfr/schema-servitudes-utilite-publique": {
+        "homepage": "https://github.com/cnigfr/schema-servitudes-utilite-publique.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/230822_standard_cnig_sup__v2016b_rev2023-08.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.1.1": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-servitudes-utilite-publique/1.1.1/schema.yml"
+            }
+        },
+        "latest": "1.1.1"
     }
 }
