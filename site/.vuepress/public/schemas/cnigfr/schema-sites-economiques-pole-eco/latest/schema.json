@@ -1,0 +1,205 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"schema-sites-economiques-pole-eco",
+   "title":"Schema de la classe POLE-ECO du standard CNIG Sites Economiques",
+   "description":"Spécification du fichier d'échange conforme au standard CNIG Sites Economiques pour la classe POLE-ECO : Pôle économique",
+   "keywords":[
+      "landuse",
+      "economic activity zone",
+      "economic activity pole",
+      "artificialization",
+      "planning",
+      "industrial",
+      "economic", 
+      "touristic"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/cnigfr/schema-sites-economiques",
+   "path":"https://github.com/cnigfr/schema-sites-economiques/blob/main/datapackage.json",
+   "image":"",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Exemple valide",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/cnigfr/schema-sites-economiques/schema/pole-eco/raw/v1.0.0/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+      {
+         "title":"Standard Sites Economiques",
+         "path":"https://github.com/cnigfr/schema-sites-economiques/blob/main/standard"
+      }
+   ],
+   "created":"2023-08-22",
+   "lastModified":"2023-10-18",
+   "version":"v1.0.0",
+   "contributors":[
+      {
+         "title":"GT CNIG Aménagement, sous-groupe ZAE",
+         "email":"cnig@cnig.fr",
+         "organisation":"CNIG",
+         "role":"author"
+      },
+      {
+         "title":"Arnauld Gallais",
+         "email":"arnauld.gallais@cerema.fr",
+         "organisation":"Cerema",
+         "role":"author"
+      }
+   ],
+   "fields":
+   [
+     {
+      "name": "pole_id",
+      "title": "identifiant",
+      "description": "identifiant du pôle économique défini dans le standard CNIG Site Economique",
+      "example": "84003_POLE-ECO_00162",
+      "type": "string",
+      "constraints":{
+         "required":true
+	  }
+     },
+     {
+      "name": "pole_nom",
+      "title": "nom",
+      "description": "nom usuel du pôle économique",
+      "example": "Les Bornes du Temps",
+      "type": "string",
+      "constraints":{
+         "required":true
+	  }
+     },
+     {
+      "name": "pole_vocadomi",
+      "title": "vocation dominante",
+      "description": "vocation dominante du pôle économique, issue de la vocation dominante des sites économiques le constituant.",
+      "example": "mixte à dominante logistique",
+      "type": "string",
+      "constraints":{
+         "required":true,
+         "enum":[
+            "industrielle",
+            "commerciale",
+            "tertiaire",
+            "artisanale",
+            "touristique",
+            "portuaire",
+            "aéroportuaire, aéronautique",
+            "entrepôts, logistique",
+            "logistique agricole",
+            "mixte, sans dominante",
+            "inconnu",
+            "autre",
+            "sans objet"
+         ]
+	     }	
+				   
+     },
+     {
+      "name": "pole_identif_date",
+      "title": "date d'identification",
+      "description": "date d'identification du pôle économique",
+      "example": "2016-03-26",
+      "type": "date",
+             "format":"%Y-%m-%d",
+      "constraints":{
+         "required":true
+	  }
+     },
+     {
+      "name": "pole_actu_date",
+      "title": "date de dernière actualisation",
+      "description": "date de dernière actualisation des informations sur le pôle économique.",
+      "example": "2022-08-22",
+      "type": "date",
+             "format":"%Y-%m-%d",
+      "constraints":{
+         "required":false
+	  }
+     },
+	 {
+      "name": "pole_nb_site",
+      "title": "nombre de sites",
+      "description": "nombre de sites composant le pôle économique.",
+      "example": 2,
+      "type": "number",
+      "constraints":{
+         "required":false
+	  }
+     },
+     {
+      "name": "pole_nb_etab",
+      "title": "nombre d'établissements",
+      "description": "nombre total d'établissements du pôle économique",
+      "example": 40,
+      "type": "number",
+      "constraints":{
+         "required":false
+	  }
+     },
+     {
+      "name": "pole_nb_emploi",
+      "title": "nombre d'emploi",
+      "description": "nombre total d'emplois du pôle économique",
+      "example": 1152,
+      "type": "number",
+      "constraints":{
+         "required":false
+	  }
+     },
+     {
+      "name": "pole_surface",
+      "title": "surface ",
+      "description": "somme des surfaces (en ha) des sites économiques constituant le pôle",
+      "example": 21,
+      "type": "number",
+      "constraints":{
+         "required":true
+	  }
+     },
+     {
+      "name": "pole_geompoint",
+      "title": "localisation",
+      "description": "coordonnées géographiques du centroïde du pôle économique au format geopoint (https://specs.frictionlessdata.io//table-schema/#geopoint)",
+      "example": "3.9815, 49.2527",
+      "type": "geopoint",
+      "format": "default",
+      "constraints":{
+         "required":true
+	  }
+     },
+     {
+      "name": "pole_rayonnement",
+      "title": "rayonnement ",
+      "description": "rayonnement du pôle économique",
+      "example": "régional",
+      "type": "string",
+      "constraints":{
+         "required":false,
+         "enum":[
+            "international",
+            "national",
+            "régional",
+            "local",
+            "inconnu",
+            "autre",
+            "sans objet"
+         ]
+		 }		
+     }
+   ],
+   "missingValues":[
+      "",
+      "NA",
+      "NaN",
+      "N/A"
+   ],
+   "primaryKey":"pole_id"
+}

@@ -1,0 +1,301 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"schema-sites-economiques-terrain-eco",
+   "title":"Schema de la classe TERRAIN-ECO du standard CNIG Sites Economiques",
+   "description":"Spécification du fichier d'échange conforme au standard CNIG Sites Economiques pour la classe TERRAIN-ECO : terrain économique",
+   "keywords":[
+      "landuse",
+      "economic activity zone",
+      "artificialization",
+      "planning",
+      "industrial",
+      "economic", 
+      "touristic"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/cnigfr/schema-sites-economiques",
+   "path":"https://github.com/cnigfr/schema-sites-economiques/blob/main/datapackage.json",
+   "image":"",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Exemple valide",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/cnigfr/schema-sites-economiques/schema/terrain-eco/raw/v1.0.0/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+      {
+         "title":"Standard Sites Economiques",
+         "path":"https://github.com/cnigfr/schema-sites-economiques/blob/main/standard"
+      }
+   ],
+   "created":"2023-08-22",
+   "lastModified":"2023-10-18",
+   "version":"v1.0.0",
+   "contributors":[
+      {
+         "title":"GT CNIG Aménagement, sous-groupe ZAE",
+         "email":"cnig@cnig.fr",
+         "organisation":"CNIG",
+         "role":"author"
+      },
+      {
+         "title":"Arnauld Gallais",
+         "email":"arnauld.gallais@cerema.fr",
+         "organisation":"Cerema",
+         "role":"author"
+      }
+   ],
+   "fields":
+   [
+     {
+      "name": "terr_id",
+      "title": "identifiant du terrain",
+      "description": "identifiant du terrain à vocation économique",
+      "example": "80024_TERRAIN-ECO_00131",
+      "type": "string",
+      "constraints": {"required": true}
+     },
+     {
+      "name": "site_id",
+      "title": "identifiant du site",
+      "description": "identifiant du site où se situe le terrain économique",
+      "example": "80024_SITE-ECO_00001",
+      "type": "string",
+      "constraints": {"required": true}
+     },
+     {
+      "name": "terr_refcad",
+      "title": "liste des parcelles",
+      "description": "liste des identifiants de parcelles cadastrales",
+      "example": "80024000ZO0030|80024000ZO0034|80024000ZO0035",
+      "type": "string",
+      "constraints": {
+         "required": false,
+         "pattern":"(?:(?:^|\\|)(\\d{8}[A-Z]{2}\\d{4}|)\\1+\\d{8}[A-Z]{2}\\d{4})+$"
+      }
+     },
+     {
+      "name": "terr_surf_brute",
+      "title": "superficie brute",
+      "description": "superficie brute du terrain économique en hectare",
+      "example": 9.9,
+      "type": "number",
+      "constraints": {"required": true}
+     },
+     {
+      "name": "terr_utile",
+      "title": "superficie à prendre en compte",
+      "description": "superficie à prendre en compte ('oui' ou 'non') dans le calcul de la surface utile du site",
+      "example": "oui",
+      "type": "string",
+      "constraints": {
+         "required": false,
+         "enum": [
+            "oui",
+            "non"
+         ]
+      }
+     },
+     {
+      "name": "terr_identif_date",
+      "title": "date d’identification",
+      "description": "date d'identification du terrain économique. Exemple : 2016-03-26",
+      "example": "2023-08-29",
+      "type": "date",
+      "format": "%Y-%m-%d",
+      "constraints": {"required": true}
+     },
+     {
+      "name": "terr_actu_date",
+      "title": "date d’actualisation",
+      "description": "date de dernière actu. des informations du terrain éco. Ex: 2023-04-30",
+      "example": "2023-08-29",
+      "type": "date",
+      "format": "%Y-%m-%d",
+      "constraints": {"required": true}
+     },
+     {
+      "name": "terr_maitrise_fonc",
+      "title": "maîtrise foncière",
+      "description": "maîtrise foncière majoritaire du terrain économique",
+      "example": "structure intercommunale",
+      "type": "string",
+      "constraints": {"required": true},
+      "enum": [
+         "personne physique",
+         "Etat",
+         "région",
+         "département",
+         "structure intercommunale",
+         "commune",
+         "autre collectivité territoriale",
+         "organisme de logement social",
+         "établissement public foncier",
+         "SEM ou SPLA",
+         "aménageur",
+         "investisseur professionnel",
+         "établissement de santé et structure sociale",
+         "établissement de tourisme et structure de loisir sportive ou cultuelle",
+         "établissement industriel et commercial",
+         "organisation de gestion foncière et immobilière",
+         "établissement d'enseignement d'étude et de recherche",
+         "inconnu",
+         "autre",
+         "sans objet"
+	  ]
+     },
+     {
+      "name": "terr_stade_amngt",
+      "title": "stade d’aménagement",
+      "description": "stade d’aménagement du terrain économique",
+      "example": "viabilisé et aménagé",
+      "type": "string",
+      "constraints": {"required": true},
+      "enum": [
+         "non aménageable",
+         "non aménagé, non viabilisé",
+         "viabilisation en cours",
+         "viabilisé non aménagé",
+         "viabilisé et aménagé",
+         "inconnu",
+         "autre",
+         "sans objet"
+	  ]
+     },
+     {
+      "name": "terr_stade_comm",
+      "title": "stade de commercialisation",
+      "description": "stade de commercialisation du terrain économique",
+      "example": "vendu, commercialisation achevée",
+      "type": "string",
+      "constraints": {"required": true},
+      "enum": [
+         "non commercialisé",
+         "non commercialisable",
+         "en vente",
+         "en vente avec contraintes",
+         "vendu, commercialisation achevée",
+         "réservé par option de réservation",
+         "réservé par une délibération de l'EPCI",
+         "inconnu",
+         "autre",
+         "sans objet"
+	  ]
+     },
+     {
+      "name": "terr_etat_occup",
+      "title": "état d'occupation",
+      "description": "état d'occupation du terrain économique",
+      "example": "occupé",
+      "type": "string",
+      "constraints": {"required": true},
+      "enum": [
+         "inoccupé",
+         "occupation en transition",
+         "occupé",
+         "vacant",
+         "friche",
+         "inconnu",
+         "autre",
+         "sans objet"
+	  ]
+     },
+     {
+      "name": "terr_usage",
+      "title": "usage du terrain",
+      "description": "usage du terrain économique",
+      "example": "bâti productif",
+      "type": "string",
+      "constraints": {"required": true},
+      "enum": [
+         "voirie ou infrastructure",
+         "parkings, stationnement",
+         "zone de retournement poids-lourds",
+         "autres équipements publics",
+         "bâti productif",
+         "bâti résidentiel",
+         "bassin d'orage ou de rétention",
+         "espace vert",
+         "espace naturel ou forestier",
+         "espace agricole",
+         "zone de service partagée entre entreprises",
+         "carrières, zones d'extraction",
+         "dépôt, stockage",
+         "production d’énergie renouvelable",
+         "inconnu",
+         "autre",
+         "sans objet"
+	  ]
+     },
+     {
+      "name": "terr_geomsurf",
+      "title": "géométrie",
+      "description": "géométrie surfacique du terrain économique au format geojson (https://specs.frictionlessdata.io//table-schema/#geojson)",
+      "example": {"type": "Polygon", "coordinates": [[[30.0, 10.0],[40.0, 40.0],[20.0, 40.0],[10.0, 20.0],[30.0, 10.0]]]},
+      "type": "geojson",
+      "constraints": {"required": true}
+     },
+	 {
+      "name": "terr_cle_en_main",
+      "title": "terrain clé en main",
+      "description": "terrain purgé de tout recours et directement prêt à l'implantation d'activité",
+      "example": "oui",
+      "type": "string",
+      "constraints": {
+         "required": false,
+         "enum": [
+            "oui",
+            "non"
+         ]
+      }
+     },
+     {
+      "name": "terr_acquereur",
+      "title": "nom de l'acquéreur",
+      "description": "nom de l'acquéreur du terrain à vocation économique",
+      "example": "SA Lactalys",
+      "type": "string",
+      "constraints": {"required": false}
+     },
+     {
+      "name": "terr_cession_date",
+      "title": "date de la cession",
+      "description": "date de la cession",
+      "example": "2021-04-22",
+      "type": "date",
+      "format": "%Y-%m-%d",
+      "constraints": {"required": false}
+     },
+     {
+      "name": "terr_vente_montant",
+      "title": "montant de la vente",
+      "description": "montant de la vente",
+      "example": 530000,
+      "type": "number",
+      "constraints": {"required": false}
+     },
+     {
+      "name": "terr_m2_prix",
+      "title": "prix au m²",
+      "description": "prix au m²",
+      "example": 5.35,
+      "type": "number",
+      "constraints": {"required": false}
+     }
+   ],
+   "missingValues":[
+      "",
+      "NA",
+      "NaN",
+      "N/A"
+   ],
+   "primaryKey":"terr_id"
+}

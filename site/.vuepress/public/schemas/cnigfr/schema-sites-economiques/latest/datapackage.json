@@ -1,0 +1,48 @@
+{
+    "name": "datapackage-site-economique",
+    "title": "Site Economique",
+    "description": "Data package contenant 4 schémas : pole-eco, site-eco, terrain-eco, etablissement",
+    "id": "datapackage-site-economique",
+    "resources": [
+        {
+            "name": "pole-eco",
+            "path": "schema/pole-eco/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/pole-eco/schema.json",
+            "documentation": "schema/pole-eco/README.md"
+        },
+        {
+            "name": "site-eco",
+            "path": "schema/site-eco/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/site-eco/schema.json",
+            "documentation": "schema/site-eco/README.md"
+        },
+        {
+            "name": "terrain-eco",
+            "path": "schema/terrain-eco/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/terrain-eco/schema.json",
+            "documentation": "schema/terrain-eco/README.md"
+        },
+		{
+            "name": "etablissement",
+            "path": "schema/etablissement/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/etablissement/schema.json",
+            "documentation": "schema/etablissement/README.md"
+        }
+    ]
+}
