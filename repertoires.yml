@@ -323,3 +323,9 @@ servitudes-utilite-publique:
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
+sites-economiques:
+  url: https://github.com/cnigfr/schema-sites-economiques.git
+  type: datapackage
+  email: cnig@cnig.fr
+  labels:
+    - CNIG
