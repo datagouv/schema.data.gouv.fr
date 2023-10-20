@@ -1441,10 +1441,10 @@
             "homepage": "https://github.com/etalab/schema-indice-reparabilite.git"
         },
         {
-            "name": "cnigfr/schema-sites-economiques-pole-eco",
-            "title": "Schema de la classe POLE-ECO du standard CNIG Sites Economiques",
+            "name": "cnigfr/sites-economiques-pole-eco",
+            "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe POLE-ECO : P\u00f4le \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-pole-eco/latest/schema.json",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-pole-eco/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1461,7 +1461,7 @@
             "versions": [
                 {
                     "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-pole-eco/1.0.0/schema.json"
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-pole-eco/1.0.0/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1472,10 +1472,10 @@
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
         },
         {
-            "name": "cnigfr/schema-sites-economiques-site-eco",
-            "title": "Schema de la classe SITE-ECO du standard CNIG Sites Economiques",
+            "name": "cnigfr/sites-economiques-site-eco",
+            "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe SITE-ECO : Site \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-site-eco/latest/schema.json",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-site-eco/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1492,7 +1492,7 @@
             "versions": [
                 {
                     "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-site-eco/1.0.0/schema.json"
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-site-eco/1.0.0/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1503,10 +1503,10 @@
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
         },
         {
-            "name": "cnigfr/schema-sites-economiques-terrain-eco",
-            "title": "Schema de la classe TERRAIN-ECO du standard CNIG Sites Economiques",
+            "name": "cnigfr/sites-economiques-terrain-eco",
+            "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe TERRAIN-ECO : terrain \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-terrain-eco/latest/schema.json",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-terrain-eco/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1523,7 +1523,7 @@
             "versions": [
                 {
                     "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-terrain-eco/1.0.0/schema.json"
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-terrain-eco/1.0.0/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1534,10 +1534,10 @@
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
         },
         {
-            "name": "cnigfr/schema-sites-economiques-etablissement",
-            "title": "Schema de la classe ETABLISSEMENT du standard CNIG Sites Economiques",
+            "name": "cnigfr/sites-economiques-etablissement",
+            "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe ETABLISSEMENT : \u00e9tablissement \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-etablissement/latest/schema.json",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-etablissement/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1554,7 +1554,7 @@
             "versions": [
                 {
                     "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques-etablissement/1.0.0/schema.json"
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-etablissement/1.0.0/schema.json"
                 }
             ],
             "external_doc": null,

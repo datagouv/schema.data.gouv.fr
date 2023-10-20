@@ -84,7 +84,7 @@
             "url": "https://github.com/etalab/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 29,
+    "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
             "dgv_resources": 888,
@@ -207,7 +207,7 @@
             "contributors": 4
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 25,
+            "dgv_resources": 26,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
@@ -386,24 +386,24 @@
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
             "contributors": 1
         },
-        "cnigfr/schema-sites-economiques-pole-eco": {
+        "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
-            "title": "Schema de la classe POLE-ECO du standard CNIG Sites Economiques",
+            "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
             "contributors": 4
         },
-        "cnigfr/schema-sites-economiques-site-eco": {
+        "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 0,
-            "title": "Schema de la classe SITE-ECO du standard CNIG Sites Economiques",
+            "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
             "contributors": 4
         },
-        "cnigfr/schema-sites-economiques-terrain-eco": {
+        "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
-            "title": "Schema de la classe TERRAIN-ECO du standard CNIG Sites Economiques",
+            "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
             "contributors": 4
         },
-        "cnigfr/schema-sites-economiques-etablissement": {
+        "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
-            "title": "Schema de la classe ETABLISSEMENT du standard CNIG Sites Economiques",
+            "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
             "contributors": 4
         },
         "cnigfr/schema-sites-economiques": {
