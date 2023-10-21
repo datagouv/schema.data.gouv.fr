@@ -63,7 +63,7 @@
       {
          "name":"site_id",
          "title":"identifiant du site",
-         "description":"identifiant du site respectant la forme définie dans le standard CNIG Friches §4.3",
+         "description":"identifiant du site respectant la forme définie dans le standard CNIG Friches §4.2",
          "example":"12083_22-12.0017",
          "type":"string",
          "constraints":{
@@ -118,7 +118,7 @@
          "example":"875 rte de Pierrefond",
          "type":"string",
          "constraints":{
-            "required":true
+            "required":false
          }
       },
       {
@@ -535,7 +535,7 @@
          "type":"string",
          "constraints":{
             "required":false,
-            "pattern":"(?:(?:^|\\|)(\\d{8}[A-Z]{2}\\d{4}|)\\1+\\d{8}[A-Z]{2}\\d{4})+$"
+            "pattern":"(?:(?:^|\\|)(\\d{8}[0-9A-Z]{2}\\d{4}|)\\1+\\d{8}[0-9A-Z]{2}\\d{4})+$"
          }
       },
       {

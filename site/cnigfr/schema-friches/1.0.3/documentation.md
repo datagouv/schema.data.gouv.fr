@@ -22,7 +22,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 | [site_id](#identifiant-du-site-propriete-site-id) | chaîne de caractères  | Oui |
 | [site_nom](#nom-du-site-propriete-site-nom) | chaîne de caractères  | Oui |
 | [site_type](#type-de-site-propriete-site-type) | chaîne de caractères  | Oui |
-| [site_adresse](#adresse-du-site-propriete-site-adresse) | chaîne de caractères  | Oui |
+| [site_adresse](#adresse-du-site-propriete-site-adresse) | chaîne de caractères  | Non |
 | [site_identif_date](#date-d'identification-du-site-propriete-site-identif-date) | date (format `%Y-%m-%d`) | Oui |
 | [site_actu_date](#date-de-derniere-actualisation-propriete-site-actu-date) | date (format `%Y-%m-%d`) | Oui |
 | [site_url](#url-du-site-propriete-site-url) | chaîne de caractères (format `uri`) | Non |
@@ -70,7 +70,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### identifiant du site - Propriété `site_id`
 
-> *Description : identifiant du site respectant la forme définie dans le standard CNIG Friches §4.3<br/>Ex : 12083_22-12.0017*
+> *Description : identifiant du site respectant la forme définie dans le standard CNIG Friches §4.2<br/>Ex : 12083_22-12.0017*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
@@ -109,7 +109,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 #### adresse du site - Propriété `site_adresse`
 
 > *Description : adresse du site<br/>Ex : 875 rte de Pierrefond*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 #### date d'identification du site - Propriété `site_identif_date`
@@ -380,7 +380,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 > *Description : Liste des identifiants des parcelles cadastrales de l'unité foncière<br/>Ex : 12083000AH0035|12083000AH0072|12083000AH0279|12083000AH0367*
 - Valeur optionnelle
 - Type : chaîne de caractères
-- Motif : `(?:(?:^|\|)(\d{8}[A-Z]{2}\d{4}|)\1+\d{8}[A-Z]{2}\d{4})+$`
+- Motif : `(?:(?:^|\|)(\d{8}[0-9A-Z]{2}\d{4}|)\1+\d{8}[0-9A-Z]{2}\d{4})+$`
 
 #### type de zone d'urbanisme - Propriété `urba_zone_type`
 
