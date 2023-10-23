@@ -309,12 +309,12 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 1
+            "contributors": 2
         }
     }
 }
