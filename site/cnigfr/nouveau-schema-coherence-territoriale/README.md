@@ -29,4 +29,4 @@ Le présent standard détermine, entre autres :
 
 
 ## Versions
-- v2018 du 15 juin 2021 : 1.0.0
+- v2018 rev. 2021-06 : 1.0.0

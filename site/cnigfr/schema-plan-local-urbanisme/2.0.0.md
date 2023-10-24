@@ -1,6 +1,6 @@
 <MenuSchema />
 
-# Plan local d'urbanisme
+# Plan local d'urbanisme (PLU)
 
 ## Description
 La [documentation du standard](https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf) est disponible ici.
@@ -46,8 +46,7 @@ Le CNIG soutient la transition progressive du document d’urbanisme de sa forme
 Afin d’optimiser les processus de production et de minimiser les écarts géométriques et descriptifs entre versions « papier » et dématérialisée, le CNIG recommande que la production de la version dématérialisée par numérisation des documents papier soit désormais remplacée par une élaboration directement sous forme numérique dans un format géomatique pour les éléments graphiques et sous forme numérique structurée pour les pièces écrites, permettant ensuite l’impression papier à partir de ces éléments numériques.
 
 ## Versions
-- v2022 - octobre 2022 : 2.1.0
-- v2022 - septembre 2022 : 2.0.0
+- v2022 - octobre 2022 : 2.0.0
 - v2017d - février 2021 : 1.3.0
 - v2017c - novembre 2019 : 1.2.0
 - v2017b : 1.1.0

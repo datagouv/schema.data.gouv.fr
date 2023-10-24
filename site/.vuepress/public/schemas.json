@@ -2016,7 +2016,7 @@
         },
         {
             "name": "cnigfr/schema-plan-local-urbanisme",
-            "title": "Plan local d'urbanisme",
+            "title": "Plan local d'urbanisme (PLU)",
             "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es des plans locaux d'urbanisme (PLU). Ces sp\u00e9cifications visent \u00e0 standardiser les donn\u00e9es g\u00e9ographiques des PLU.",
             "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/latest/schema.yml",
             "schema_type": "other",
@@ -2029,8 +2029,8 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "2.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.1.0/schema.yml"
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.0.0/schema.yml"
                 }
             ],
             "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf",
@@ -2052,8 +2052,8 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "2.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-carte-communale/2.1.0/schema.yml"
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-carte-communale/2.0.0/schema.yml"
                 }
             ],
             "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_cc_v2022-10.pdf",

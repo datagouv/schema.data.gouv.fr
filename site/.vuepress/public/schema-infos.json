@@ -2376,14 +2376,14 @@
         ],
         "consolidation_dataset_id": null,
         "versions": {
-            "2.1.0": {
+            "2.0.0": {
                 "pages": [
                     "README.md"
                 ],
-                "schema_url": "/cnigfr/schema-plan-local-urbanisme/2.1.0/schema.yml"
+                "schema_url": "/cnigfr/schema-plan-local-urbanisme/2.0.0/schema.yml"
             }
         },
-        "latest": "2.1.0"
+        "latest": "2.0.0"
     },
     "cnigfr/schema-carte-communale": {
         "homepage": "https://github.com/cnigfr/schema-carte-communale.git",
@@ -2397,14 +2397,14 @@
         ],
         "consolidation_dataset_id": null,
         "versions": {
-            "2.1.0": {
+            "2.0.0": {
                 "pages": [
                     "README.md"
                 ],
-                "schema_url": "/cnigfr/schema-carte-communale/2.1.0/schema.yml"
+                "schema_url": "/cnigfr/schema-carte-communale/2.0.0/schema.yml"
             }
         },
-        "latest": "2.1.0"
+        "latest": "2.0.0"
     },
     "cnigfr/schema-coherence-territoriale": {
         "homepage": "https://github.com/cnigfr/schema-coherence-territoriale.git",
