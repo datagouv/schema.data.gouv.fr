@@ -207,7 +207,7 @@
             "contributors": 4
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 26,
+            "dgv_resources": 28,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
@@ -292,7 +292,7 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 32,
+            "dgv_resources": 33,
             "title": "Sch\u00e9ma des structures de l'insertion",
             "contributors": 5
         },
