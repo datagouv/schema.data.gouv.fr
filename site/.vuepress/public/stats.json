@@ -284,7 +284,7 @@
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 0,
             "title": "Dispositifs d'aides",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 10,
@@ -294,12 +294,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 33,
             "title": "Sch\u00e9ma des structures de l'insertion",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 0,
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
