@@ -279,7 +279,7 @@ plan-local-urbanisme:
   url: https://github.com/cnigfr/schema-plan-local-urbanisme.git
   type: other
   email: cnig@cnig.fr
-  external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
@@ -287,23 +287,15 @@ carte-communale:
   url: https://github.com/cnigfr/schema-carte-communale.git
   type: other
   email: cnig@cnig.fr
-  external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_cc_v2022-10.pdf
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
-coherence-territoriale:
-  url: https://github.com/cnigfr/schema-coherence-territoriale.git
+schema-coherence-territoriale:
+  url: https://github.com/cnigfr/schema-schema-coherence-territoriale.git
   type: other
   email: cnig@cnig.fr
-  external_doc: https://cnig.gouv.fr/IMG/pdf/190315_standard_cnig_scot.pdf
-  labels:
-    - CNIG
-    - Documents dématérialisés d’urbanisme
-nouveau-coherence-territoriale:
-  url: https://github.com/cnigfr/nouveau-schema-coherence-territoriale.git
-  type: other
-  email: cnig@cnig.fr
-  external_doc: https://cnig.gouv.fr/IMG/pdf/210615_standard_cnig_nouveauscot.pdf
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
@@ -311,7 +303,7 @@ plan-sauvegarde-et-mise-en-valeur:
   url: https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur.git
   type: other
   email: cnig@cnig.fr
-  external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_psmv_v2022-10.pdf
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
@@ -319,7 +311,7 @@ servitudes-utilite-publique:
   url: https://github.com/cnigfr/schema-servitudes-utilite-publique.git
   type: other
   email: cnig@cnig.fr
-  external_doc: https://cnig.gouv.fr/IMG/pdf/230822_standard_cnig_sup__v2016b_rev2023-08.pdf
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
