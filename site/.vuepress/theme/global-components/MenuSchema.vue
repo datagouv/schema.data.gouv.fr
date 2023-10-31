@@ -73,7 +73,14 @@
                         <img src="../../public/assets/gear.png" width="15" />&nbsp;
                         Schéma
                     </button>
-                    <button 
+                    <button v-if="schema_infos.labels.includes('Documents dématérialisés d’urbanisme')"
+                        @click="gotoExternalLink('https://www.geoportail-urbanisme.gouv.fr/')" 
+                        class="fr-btn"
+                    >
+                        <img src="../../public/assets/database.png" width="15" />&nbsp;
+                        Données
+                    </button>
+                    <button v-else
                         @click="gotoExternalLink('https://www.data.gouv.fr/fr/datasets?schema='+schema)" 
                         class="fr-btn"
                     >
