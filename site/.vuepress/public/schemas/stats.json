@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 888,
+            "dgv_resources": 890,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -207,7 +207,7 @@
             "contributors": 4
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
@@ -284,7 +284,7 @@
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 0,
             "title": "Dispositifs d'aides",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 10,
@@ -294,12 +294,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 33,
             "title": "Sch\u00e9ma des structures de l'insertion",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 0,
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
