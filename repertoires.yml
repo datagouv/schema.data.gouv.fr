@@ -307,8 +307,8 @@ nouveau-coherence-territoriale:
   labels:
     - CNIG
     - Documents dématérialisés d’urbanisme
-plan-sauvegarde:
-  url: https://github.com/cnigfr/schema-plan-sauvegarde.git
+plan-sauvegarde-et-mise-en-valeur:
+  url: https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur.git
   type: other
   email: cnig@cnig.fr
   external_doc: https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_psmv_v2022-10.pdf
