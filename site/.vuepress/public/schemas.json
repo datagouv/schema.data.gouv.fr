@@ -2033,7 +2033,7 @@
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.0.0/schema.yml"
                 }
             ],
-            "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf",
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-plan-local-urbanisme"
         },
@@ -2056,15 +2056,15 @@
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-carte-communale/2.0.0/schema.yml"
                 }
             ],
-            "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_cc_v2022-10.pdf",
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-carte-communale"
         },
         {
-            "name": "cnigfr/schema-coherence-territoriale",
+            "name": "cnigfr/schema-schema-coherence-territoriale",
             "title": "Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
             "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es relatives aux SCOT en standardisant les donn\u00e9es g\u00e9ographiques des p\u00e9rim\u00e8tres de SCOT, et y associant les pi\u00e8ces \u00e9crites r\u00e9glementaires.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-coherence-territoriale/latest/schema.yml",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-schema-coherence-territoriale/latest/schema.yml",
             "schema_type": "other",
             "contact": "cnig@cnig.fr",
             "examples": [],
@@ -2076,41 +2076,22 @@
             "versions": [
                 {
                     "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-coherence-territoriale/1.0.0/schema.yml"
-                }
-            ],
-            "external_doc": "https://cnig.gouv.fr/IMG/pdf/190315_standard_cnig_scot.pdf",
-            "external_tool": null,
-            "homepage": "https://github.com/cnigfr/schema-coherence-territoriale"
-        },
-        {
-            "name": "cnigfr/nouveau-schema-coherence-territoriale",
-            "title": "Nouveau Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
-            "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es relatives aux nouveaux SCOT issus de l' ordonnance n\u00b02020-744 du 17 juin 2020 relative \u00e0 la modernisation des SCOT.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/nouveau-schema-coherence-territoriale/latest/schema.yml",
-            "schema_type": "other",
-            "contact": "cnig@cnig.fr",
-            "examples": [],
-            "labels": [
-                "CNIG",
-                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
-            ],
-            "consolidation_dataset_id": null,
-            "versions": [
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-schema-coherence-territoriale/1.0.0/schema.yml"
+                },
                 {
-                    "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/nouveau-schema-coherence-territoriale/1.0.0/schema.yml"
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-schema-coherence-territoriale/2.0.0/schema.yml"
                 }
             ],
-            "external_doc": "https://cnig.gouv.fr/IMG/pdf/210615_standard_cnig_nouveauscot.pdf",
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
             "external_tool": null,
-            "homepage": "https://github.com/cnigfr/nouveau-schema-coherence-territoriale"
+            "homepage": "https://github.com/cnigfr/schema-schema-coherence-territoriale"
         },
         {
-            "name": "cnigfr/schema-plan-sauvegarde",
+            "name": "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur",
             "title": "Plan de sauvegarde et de mise en valeur (PSMV)",
             "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es des plans de sauvegarde et de mise en valeur (PSMV). Ces sp\u00e9cifications visent \u00e0 standardiser les donn\u00e9es g\u00e9ographiques des PSMV.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-sauvegarde/latest/schema.yml",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur/latest/schema.yml",
             "schema_type": "other",
             "contact": "cnig@cnig.fr",
             "examples": [],
@@ -2122,12 +2103,12 @@
             "versions": [
                 {
                     "version_name": "1.3.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-sauvegarde/1.3.0/schema.yml"
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur/1.3.0/schema.yml"
                 }
             ],
-            "external_doc": "https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_psmv_v2022-10.pdf",
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
             "external_tool": null,
-            "homepage": "https://github.com/cnigfr/schema-plan-sauvegarde"
+            "homepage": "https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur"
         },
         {
             "name": "cnigfr/schema-servitudes-utilite-publique",
@@ -2148,7 +2129,7 @@
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-servitudes-utilite-publique/1.1.1/schema.yml"
                 }
             ],
-            "external_doc": "https://cnig.gouv.fr/IMG/pdf/230822_standard_cnig_sup__v2016b_rev2023-08.pdf",
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-servitudes-utilite-publique"
         },
