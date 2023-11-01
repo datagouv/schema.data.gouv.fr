@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 890,
+            "dgv_resources": 889,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -219,7 +219,7 @@
         "datatourisme/ontology": {
             "dgv_resources": 3,
             "title": "DATAtourisme",
-            "contributors": 1
+            "contributors": 10
         },
         "etalab/schema-zfe": {
             "dgv_resources": 13,
@@ -237,7 +237,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 364,
+            "dgv_resources": 366,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -354,57 +354,57 @@
         "cnigfr/schema-grace-thd": {
             "dgv_resources": 0,
             "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
             "dgv_resources": 0,
             "title": "Plan local d'urbanisme (PLU)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
             "dgv_resources": 0,
             "title": "Carte communale",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-schema-coherence-territoriale": {
             "dgv_resources": 0,
             "title": "Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
             "dgv_resources": 0,
             "title": "Plan de sauvegarde et de mise en valeur (PSMV)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 0,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
             "title": "Site Economique",
-            "contributors": 4
+            "contributors": 2
         }
     }
 }
