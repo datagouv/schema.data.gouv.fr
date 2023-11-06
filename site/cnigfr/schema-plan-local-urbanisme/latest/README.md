@@ -3,7 +3,7 @@
 # Plan local d'urbanisme (PLU)
 
 ## Description
-La [documentation du standard](https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_plu_v2022-10.pdf) est disponible ici.
+La [documentation du standard](https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html) est disponible ici.
 
 Ce standard national d’échange de données géographiques a pour but d'harmoniser les informations minimales de description des PLU et PLUi.
 

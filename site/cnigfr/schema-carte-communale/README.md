@@ -3,7 +3,7 @@
 # Carte communale
 
 ## Description
-La [documentation du standard](https://cnig.gouv.fr/IMG/pdf/230112_standard_cnig_cc_v2022-10.pdf) est disponible ici.
+La [documentation du standard](https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html) est disponible ici.
 
 Ce standard national d’échange de données géographiques a pour but d'harmoniser les informations minimales de description des cartes communales. Il vise à assurer l'interopérabilité des données géographiques et textuelles des documents d’urbanisme (cartes communales) vis à vis des infrastructures de données géographiques et notamment du Géoportail de l’urbanisme.
 

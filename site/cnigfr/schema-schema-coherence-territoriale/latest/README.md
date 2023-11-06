@@ -3,7 +3,7 @@
 # Schéma de Cohérence Territoriale (SCOT)
 
 ## Description
-La [documentation du standard](https://cnig.gouv.fr/IMG/pdf/210615_standard_cnig_nouveauscot.pdf) est disponible ici.
+La [documentation du standard](https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html) est disponible ici.
 
 Ce document produit par le groupe national du CNIG décrit les spécifications des données relatives aux nouveaux SCOT issus de l'[ordonnance n°2020-744 du 17 juin 2020](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042007729/) relative à la modernisation des SCOT.
 A l'instar du [précédent standard (v2018)](https://cnig.gouv.fr/IMG/pdf/190315_standard_cnig_scot.pdf) qui s’applique aux SCOT dont l'élaboration est antérieure à cette ordonnance, il standardise les données géographiques des périmètres de SCOT, et y associant les pièces écrites réglementaires.

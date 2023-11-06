@@ -3,7 +3,7 @@
 # Servitudes d'utilité publique (SUP)
 
 ## Description
-La [documentation du standard](https://cnig.gouv.fr/IMG/pdf/230822_standard_cnig_sup__v2016b_rev2023-08.pdf) est disponible ici.
+La [documentation du standard](https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html) est disponible ici.
 
 Ce standard national de données a pour but d'harmoniser les informations minimales de description des SUP. Il est commun à toutes les catégories de servitudes et vise à assurer l'interopérabilité des données géographiques et textuelles sur les SUP.
 
