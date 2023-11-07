@@ -182,7 +182,7 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 191,
+            "dgv_resources": 190,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 4
         },
@@ -207,7 +207,7 @@
             "contributors": 4
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 29,
+            "dgv_resources": 30,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
