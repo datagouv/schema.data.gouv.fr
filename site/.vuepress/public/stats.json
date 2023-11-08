@@ -294,12 +294,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 33,
             "title": "Sch\u00e9ma des structures de l'insertion",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 0,
@@ -309,12 +309,37 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
+        },
+        "cnigfr/sites-economiques-pole-eco": {
+            "dgv_resources": 0,
+            "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
+            "contributors": 4
+        },
+        "cnigfr/sites-economiques-site-eco": {
+            "dgv_resources": 0,
+            "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
+            "contributors": 4
+        },
+        "cnigfr/sites-economiques-terrain-eco": {
+            "dgv_resources": 0,
+            "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
+            "contributors": 4
+        },
+        "cnigfr/sites-economiques-etablissement": {
+            "dgv_resources": 0,
+            "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
+            "contributors": 4
+        },
+        "cnigfr/schema-sites-economiques": {
+            "dgv_resources": 0,
+            "title": "Site Economique",
+            "contributors": 4
         }
     }
 }
