@@ -219,3 +219,9 @@ schema-accessibilite-voirie:
   external_doc: https://cnig.gouv.fr/ressources-accessibilite-a25335.html
   labels:
     - CNIG
+sites-economiques:
+  url: https://github.com/cnigfr/schema-sites-economiques.git
+  type: datapackage
+  email: cnig@cnig.fr
+  labels:
+    - CNIG
