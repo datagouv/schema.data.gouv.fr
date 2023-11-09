@@ -22,6 +22,22 @@ cnigfr/schema-friches:
   consolidate: false
   search_words:
   - Standard CNIG Friches
+cnigfr/sites-economiques-etablissement:
+  consolidate: false
+  search_words:
+  - Classe ETABLISSEMENT du standard CNIG Sites Economiques
+cnigfr/sites-economiques-pole-eco:
+  consolidate: false
+  search_words:
+  - Classe POLE-ECO du standard CNIG Sites Economiques
+cnigfr/sites-economiques-site-eco:
+  consolidate: false
+  search_words:
+  - Classe SITE-ECO du standard CNIG Sites Economiques
+cnigfr/sites-economiques-terrain-eco:
+  consolidate: false
+  search_words:
+  - Classe TERRAIN-ECO du standard CNIG Sites Economiques
 datakode/schema-pei:
   consolidate: false
   publication: false
