@@ -279,12 +279,12 @@
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 0,
             "title": "Dispositifs d'aides",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 10,
