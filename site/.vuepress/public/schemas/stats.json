@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 887,
+            "dgv_resources": 933,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -97,7 +97,7 @@
             "contributors": 7
         },
         "etalab/schema-irve": {
-            "dgv_resources": 51,
+            "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
             "contributors": 7
         },
@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 25,
+            "dgv_resources": 24,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -269,7 +269,7 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
