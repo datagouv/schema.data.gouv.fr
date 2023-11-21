@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 933,
+            "dgv_resources": 934,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -177,7 +177,7 @@
             "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 37,
+            "dgv_resources": 38,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "contributors": 6
         },
@@ -207,7 +207,7 @@
             "contributors": 4
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 30,
+            "dgv_resources": 31,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
@@ -237,7 +237,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 366,
+            "dgv_resources": 367,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -292,14 +292,14 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 33,
+            "dgv_resources": 34,
             "title": "Sch\u00e9ma des structures de l'insertion",
             "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 1,
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
