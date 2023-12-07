@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 24,
+            "dgv_resources": 26,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -299,7 +299,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 2,
