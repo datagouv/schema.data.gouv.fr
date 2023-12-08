@@ -212,7 +212,7 @@
             "contributors": 1
         },
         "Archivistes75/registre_entrees": {
-            "dgv_resources": 10,
+            "dgv_resources": 9,
             "title": "Registre d'entr\u00e9e d'archives",
             "contributors": 6
         },
@@ -282,7 +282,7 @@
             "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Dispositifs d'aides",
             "contributors": 1
         },
@@ -299,7 +299,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 2,
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
