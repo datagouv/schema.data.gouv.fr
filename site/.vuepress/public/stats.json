@@ -92,12 +92,12 @@
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 29,
+            "dgv_resources": 30,
             "title": "IRVE dynamique",
             "contributors": 7
         },
         "etalab/schema-irve": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
             "contributors": 7
         },
@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 26,
+            "dgv_resources": 27,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -207,7 +207,7 @@
             "contributors": 4
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 34,
+            "dgv_resources": 33,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
@@ -299,7 +299,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 2,
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
@@ -319,27 +319,27 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 0,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 1,
             "title": "Site Economique",
-            "contributors": 2
+            "contributors": 4
         }
     }
 }
