@@ -299,7 +299,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 2,
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
@@ -319,17 +319,17 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 0,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
