@@ -273,6 +273,7 @@ Schéma de données pour l'indice de réparabilité
     - Tondeuse à gazon électrique filaire
     - Nettoyeur haute pression
     - Téléviseur
+    - Lave-vaisselle
 
 #### Propriété `id_metteur_sur_le_marche`
 
