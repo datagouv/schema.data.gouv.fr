@@ -87,12 +87,12 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 942,
+            "dgv_resources": 941,
             "title": "IRVE statique",
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 30,
+            "dgv_resources": 29,
             "title": "IRVE dynamique",
             "contributors": 7
         },
@@ -107,7 +107,7 @@
             "contributors": 6
         },
         "etalab/schema-decp-dpa": {
-            "dgv_resources": 5,
+            "dgv_resources": 4,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
             "contributors": 1
         },
@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 27,
+            "dgv_resources": 28,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -229,12 +229,12 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 4
+            "contributors": 2
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
             "title": "Stations de taxi",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 370,
