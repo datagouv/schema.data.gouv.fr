@@ -277,12 +277,12 @@
                 {
                     "title": "Ressource valide",
                     "name": "exemple-valide",
-                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv"
+                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv"
                 },
                 {
                     "title": "Ressource invalide",
                     "name": "exemple-invalide",
-                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv"
+                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv"
                 }
             ],
             "labels": [
@@ -341,6 +341,10 @@
                 {
                     "version_name": "0.2.8",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.8/schema.json"
+                },
+                {
+                    "version_name": "0.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.3.0/schema.json"
                 }
             ],
             "external_doc": null,
