@@ -24,20 +24,18 @@ Les lieux de covoiturage sont des données précieuses, notamment pour les appli
 ## Transmission des données
 Dans le but de constituer un répertoire national des lieux de covoiturage, ouvert et accessible à tous, les collectivités peuvent transmettre systématiquement, sous forme de tableau mis à jour, les données relatives aux lieux qu'elles considèrent pertinents pour les covoitureurs.
 
-Les différents moyens permettant de contribuer sont détaillés dans la documentation "[Contribution à la Base nationale des Lieux de Covoiturage (BNLC)](https://doc.transport.data.gouv.fr/producteurs/lieux-de-covoiturage/contribuer-a-la-base-nationale-des-lieux-de-covoiturage)".
+Les différents moyens permettant de contribuer sont détaillés dans la documentation "[Publier des données > La Base nationale des Lieux de Covoiturage (BNLC)](https://doc.transport.data.gouv.fr/type-donnees/lieux-de-covoiturage/administration-des-donnees/contribuer-a-la-base-nationale-des-lieux-de-covoiturage)".
 
-En cas de contribution directement sur data.gouv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données. [Plus de détails sur l'ajout d'un schéma](https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees)
+En cas de contribution directement sur data.gouv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données, afin que celui-ci soit ajouté automatiquement à la BNLC. [Plus de détails sur l'ajout d'un schéma](https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees)
 
 ### Format des fichiers
-Le fichier doit être un fichier CSV, encodé en UTF-8 et utilisant le point-virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs du schéma sont obligatoires ; si la donnée n'est pas disponible, la colonne doit malgré tout être présente mais vide.
-
-Lorsque vous contribuez via data.gouv.fr, nous préconisons ce format de nom du fichier : `AAAAMMJJ_idproducteur_lieuxcovoit.csv` où `AAAAMMJJ`est la date de mise à jour des données et `idproducteur` est le SIREN de la collectivité productrice des données. Par exemple pour le département de l'Ain, avec des données mises à jour le 18 juin 2023 :  `20230618_220100010_lieuxcovoit.csv`.
+Le fichier doit être un fichier CSV, encodé en UTF-8 et utilisant la virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs du schéma sont obligatoires ; si la donnée n'est pas disponible, la colonne doit malgré tout être présente mais vide.
 
 ### Fichiers d'exemple
 Nous mettons à disposition des fichiers d'exemple qui peuvent servir de base pour renseigner vos lieux de covoiturage.
 
-- [Télécharger un fichier exemple valide au format CSV](https://github.com/etalab/lieux-covoiturage/blob/master/exemple-valide.csv)
-- [Télécharger un fichier d'exemple invalide](https://github.com/etalab/lieux-covoiturage/blob/master/exemple-invalide.csv) contenant des erreurs dans le formatage des dates et une inversion des coordonnées géographiques latitude/longitude
+- [Télécharger un fichier exemple valide au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv)
+- [Télécharger un fichier d'exemple invalide](https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv) contenant des erreurs dans le formatage des dates et une inversion des coordonnées géographiques latitude/longitude
 
 ### Mises à jour
 Les mises à jour sont effectuées à partir du fichier communiqué précédemment et en reprennent, en les modifiant le cas échéant, les données qui y figurent déjà.

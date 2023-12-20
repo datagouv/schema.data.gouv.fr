@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1089,
+            "dgv_resources": 1085,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -102,7 +102,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 7
         },
@@ -157,7 +157,7 @@
             "contributors": 8
         },
         "scdl/prenoms": {
-            "dgv_resources": 12,
+            "dgv_resources": 13,
             "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
             "contributors": 10
         },
@@ -182,7 +182,7 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 195,
+            "dgv_resources": 196,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 4
         },
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
