@@ -2043,6 +2043,10 @@
                 {
                     "version_name": "2.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.0.0/schema.yml"
+                },
+                {
+                    "version_name": "2.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.1.0/schema.yml"
                 }
             ],
             "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
