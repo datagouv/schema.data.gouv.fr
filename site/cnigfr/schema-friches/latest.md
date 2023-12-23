@@ -5,7 +5,7 @@ Dépot des documents et travaux du [Groupe de travail](http://cnig.gouv.fr/gt-fr
 
 ## Géostandard CNIG Friches
 
-Le [géostandard CNIG Friches v2022-12](https://github.com/cnigfr/Friches/blob/main/standard) a été validé par la Commission des standards du CNIG le 19 janvier 2023.
+Le [géostandard CNIG Friches](https://github.com/cnigfr/Friches/blob/main/standard) a été validé par la Commission des standards du CNIG le 19 janvier 2023.
 
 Il est publié sur [la page des ressources du GT CNIG Friches](http://cnig.gouv.fr/ressource-friches-a26047.html).
 
