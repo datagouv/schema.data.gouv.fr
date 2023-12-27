@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1088,
+            "dgv_resources": 1089,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -192,12 +192,12 @@
             "contributors": 2
         },
         "scdl/menus-collectifs": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Menus de la restauration collective",
             "contributors": 3
         },
         "scdl/plats-menus-collectifs": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Composition des plats des menus de la restauration collective",
             "contributors": 3
         },
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
