@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1089,
+            "dgv_resources": 1088,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -309,7 +309,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 0,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 0,
@@ -319,12 +319,12 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 0,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
