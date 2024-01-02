@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1089,
+            "dgv_resources": 1090,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -334,7 +334,7 @@
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 1,
