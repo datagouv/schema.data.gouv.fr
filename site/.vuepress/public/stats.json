@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1089,
+            "dgv_resources": 1091,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -337,7 +337,7 @@
             "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Site Economique",
             "contributors": 2
         }
