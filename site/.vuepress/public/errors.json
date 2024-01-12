@@ -75,11 +75,6 @@
         "type": "missing schemas.yml"
     },
     {
-        "schema": "format-commande-publique",
-        "version": "2.0.1",
-        "type": "jsonschema validation"
-    },
-    {
         "schema": "stationnement",
         "version": "0.1.0",
         "type": "tableschema validation"

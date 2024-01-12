@@ -113,6 +113,10 @@
                 {
                     "version_name": "2.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/2.0.0/marches.json"
+                },
+                {
+                    "version_name": "2.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/2.0.1/marches.json"
                 }
             ],
             "external_doc": null,

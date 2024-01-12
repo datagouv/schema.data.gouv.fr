@@ -172,9 +172,18 @@
                     "CONTEXT.md"
                 ],
                 "schema_url": "/139bercy/format-commande-publique/2.0.0/marches.json"
+            },
+            "2.0.1": {
+                "pages": [
+                    "README.md",
+                    "SEE_ALSO.md",
+                    "CHANGELOG.md",
+                    "CONTEXT.md"
+                ],
+                "schema_url": "/139bercy/format-commande-publique/2.0.1/marches.json"
             }
         },
-        "latest": "2.0.0"
+        "latest": "2.0.1"
     },
     "etalab/schema-decp-dpa": {
         "homepage": "https://github.com/etalab/schema-decp-dpa.git",
