@@ -2255,6 +2255,283 @@
         },
         "latest": "1.2.0"
     },
+    "cnigfr/schema-plan-corps-rue-simplifie": {
+        "homepage": "https://github.com/cnigfr/schema-plan-corps-rue-simplifie.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2017/12/CNIG_RTGE_PCRS_v2.0.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "2.0.4": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-plan-corps-rue-simplifie/2.0.4/schema.yml"
+            }
+        },
+        "latest": "2.0.4"
+    },
+    "cnigfr/schema-socle-reseaux": {
+        "homepage": "https://github.com/cnigfr/schema-socle-reseaux.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/11/CNIG_STAR-DT_v1.0.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-socle-reseaux/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/schema-occupation-sols": {
+        "homepage": "https://github.com/cnigfr/schema-occupation-sols.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/pnocsge-10-decembre-20141.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-occupation-sols/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/schema-continuites-ecologiques-regionales": {
+        "homepage": "https://github.com/cnigfr/schema-continuites-ecologiques-regionales.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2018/10/181001_Standard_CNIG_CER_v2018.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-continuites-ecologiques-regionales/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/schema-desserte-transport-bois": {
+        "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/schema-eclairage-exterieur": {
+        "homepage": "https://github.com/cnigfr/schema-eclairage-exterieur.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.1.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-eclairage-exterieur/1.1.0/schema.yml"
+            }
+        },
+        "latest": "1.1.0"
+    },
+    "cnigfr/schema-reseaux-electriques": {
+        "homepage": "https://github.com/cnigfr/schema-reseaux-electriques.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.2": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-reseaux-electriques/1.0.2/schema.yml"
+            }
+        },
+        "latest": "1.0.2"
+    },
+    "cnigfr/schema-grace-thd": {
+        "homepage": "https://github.com/cnigfr/schema-grace-thd.git",
+        "external_doc": "https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "3.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-grace-thd/3.0.0/schema.yml"
+            }
+        },
+        "latest": "3.0.0"
+    },
+    "cnigfr/schema-plan-local-urbanisme": {
+        "homepage": "https://github.com/cnigfr/schema-plan-local-urbanisme.git",
+        "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "2.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-plan-local-urbanisme/2.0.0/schema.yml"
+            },
+            "2.1.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-plan-local-urbanisme/2.1.0/schema.yml"
+            }
+        },
+        "latest": "2.1.0"
+    },
+    "cnigfr/schema-carte-communale": {
+        "homepage": "https://github.com/cnigfr/schema-carte-communale.git",
+        "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "2.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-carte-communale/2.0.0/schema.yml"
+            }
+        },
+        "latest": "2.0.0"
+    },
+    "cnigfr/schema-schema-coherence-territoriale": {
+        "homepage": "https://github.com/cnigfr/schema-schema-coherence-territoriale.git",
+        "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-schema-coherence-territoriale/1.0.0/schema.yml"
+            },
+            "2.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-schema-coherence-territoriale/2.0.0/schema.yml"
+            }
+        },
+        "latest": "2.0.0"
+    },
+    "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
+        "homepage": "https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur.git",
+        "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.3.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur/1.3.0/schema.yml"
+            }
+        },
+        "latest": "1.3.0"
+    },
+    "cnigfr/schema-servitudes-utilite-publique": {
+        "homepage": "https://github.com/cnigfr/schema-servitudes-utilite-publique.git",
+        "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG",
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.1.1": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-servitudes-utilite-publique/1.1.1/schema.yml"
+            }
+        },
+        "latest": "1.1.1"
+    },
     "cnigfr/schema-sites-economiques": {
         "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
         "external_doc": null,

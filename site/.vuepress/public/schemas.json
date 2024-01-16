@@ -1863,6 +1863,305 @@
             "homepage": "https://github.com/cnigfr/schema-accessibilite-voirie"
         },
         {
+            "name": "cnigfr/schema-plan-corps-rue-simplifie",
+            "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
+            "description": "Le Plan du Corps de Rue Simplifi\u00e9 est un ensemble de donn\u00e9es destin\u00e9es \u00e0 servir de support cartographique \u00e0 un grand nombre d'applications requ\u00e9rant une pr\u00e9cision d'ordre centim\u00e9trique.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-corps-rue-simplifie/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "2.0.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-corps-rue-simplifie/2.0.4/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2017/12/CNIG_RTGE_PCRS_v2.0.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-plan-corps-rue-simplifie"
+        },
+        {
+            "name": "cnigfr/schema-socle-reseaux",
+            "title": "Socle des R\u00e9seaux (STAR-DT)",
+            "description": "Limit\u00e9 aux objets les plus utiles et en n'abordant aucune logique \u00ab m\u00e9tiers \u00bb, le StaR-DT constitue le socle commun de base d\u00e9crivant \u00e0 tr\u00e8s grande \u00e9chelle les r\u00e9seaux concern\u00e9s par le D\u00e9cret DT-DICT afin de permettre \u00e0 leurs gestionnaires et aux collectivit\u00e9s concern\u00e9es d\u2019\u00e9changer les informations utiles \u00e0 la g\u00e9olocalisation des ouvrages en amont des travaux.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-socle-reseaux/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-socle-reseaux/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/11/CNIG_STAR-DT_v1.0.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-socle-reseaux"
+        },
+        {
+            "name": "cnigfr/schema-occupation-sols",
+            "title": "Occupation des sols \u00e0 grande \u00e9chelle",
+            "description": "Prescriptions nationales pour la production d\u2019une base de donn\u00e9es d\u2019occupation du sol \u00e0 grande \u00e9chelle.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-occupation-sols/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-occupation-sols/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/pdf/pnocsge-10-decembre-20141.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-occupation-sols"
+        },
+        {
+            "name": "cnigfr/schema-continuites-ecologiques-regionales",
+            "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
+            "description": "Prescriptions nationales pour la d\u00e9mat\u00e9rialisation des Continuit\u00e9s Ecologiques R\u00e9gionales (CER).",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-continuites-ecologiques-regionales/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-continuites-ecologiques-regionales/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2018/10/181001_Standard_CNIG_CER_v2018.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-continuites-ecologiques-regionales"
+        },
+        {
+            "name": "cnigfr/schema-desserte-transport-bois",
+            "title": "Dessertes pour le transport de bois",
+            "description": "Mod\u00e8le de donn\u00e9es partag\u00e9 afin d\u2019homog\u00e9n\u00e9iser les pratiques lors de la num\u00e9risation de donn\u00e9es li\u00e9es au transport du bois.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-desserte-transport-bois/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-desserte-transport-bois"
+        },
+        {
+            "name": "cnigfr/schema-eclairage-exterieur",
+            "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
+            "description": "Standard de base de donn\u00e9es g\u00e9ographique applicable aux points lumineux d\u2019\u00e9clairage ext\u00e9rieur visant \u00e0 am\u00e9liorer la connaissance du parc d\u2019\u00e9clairage (public comme priv\u00e9) existant et \u00e0 l\u2019homog\u00e9n\u00e9iser tout en anticipant les \u00e9volutions des ann\u00e9es \u00e0 venir.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-eclairage-exterieur/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-eclairage-exterieur/1.1.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-eclairage-exterieur"
+        },
+        {
+            "name": "cnigfr/schema-reseaux-electriques",
+            "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
+            "description": "G\u00e9ostandard vectoriel m\u00e9tier, transverse aux ma\u00eetres d\u2019ouvrage de r\u00e9seaux \u00e9lectriques en espaces ext\u00e9rieurs, bas\u00e9 sur le mod\u00e8le de StaR-DT et utilisable pour diverses th\u00e9matiques (transport, distribution, \u00e9clairage ext\u00e9rieur, signalisation\u2026).",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-reseaux-electriques/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-reseaux-electriques/1.0.2/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-reseaux-electriques"
+        },
+        {
+            "name": "cnigfr/schema-grace-thd",
+            "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
+            "description": "Le g\u00e9ostandard Am\u00e9nagement Num\u00e9rique des Territoires - GraceTHD propose d\u2019apporter un vocabulaire et une structure de donn\u00e9es commune aux acteurs impliqu\u00e9s dans le tr\u00e8s haut d\u00e9bit et en particulier le d\u00e9ploiement de la fibre optique jusqu'\u00e0 l'abonn\u00e9 (FttH).",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-grace-thd/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "3.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-grace-thd/3.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-grace-thd"
+        },
+        {
+            "name": "cnigfr/schema-plan-local-urbanisme",
+            "title": "Plan local d'urbanisme (PLU)",
+            "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es des plans locaux d'urbanisme (PLU). Ces sp\u00e9cifications visent \u00e0 standardiser les donn\u00e9es g\u00e9ographiques des PLU.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG",
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.0.0/schema.yml"
+                },
+                {
+                    "version_name": "2.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-local-urbanisme/2.1.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-plan-local-urbanisme"
+        },
+        {
+            "name": "cnigfr/schema-carte-communale",
+            "title": "Carte communale",
+            "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des cartes communales d\u00e9mat\u00e9rialis\u00e9es.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-carte-communale/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG",
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-carte-communale/2.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-carte-communale"
+        },
+        {
+            "name": "cnigfr/schema-schema-coherence-territoriale",
+            "title": "Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
+            "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es relatives aux SCOT en standardisant les donn\u00e9es g\u00e9ographiques des p\u00e9rim\u00e8tres de SCOT, et y associant les pi\u00e8ces \u00e9crites r\u00e9glementaires.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-schema-coherence-territoriale/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG",
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-schema-coherence-territoriale/1.0.0/schema.yml"
+                },
+                {
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-schema-coherence-territoriale/2.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-schema-coherence-territoriale"
+        },
+        {
+            "name": "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur",
+            "title": "Plan de sauvegarde et de mise en valeur (PSMV)",
+            "description": "Ce document produit par le groupe national du CNIG d\u00e9crit les sp\u00e9cifications des donn\u00e9es des plans de sauvegarde et de mise en valeur (PSMV). Ces sp\u00e9cifications visent \u00e0 standardiser les donn\u00e9es g\u00e9ographiques des PSMV.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG",
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur/1.3.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur"
+        },
+        {
+            "name": "cnigfr/schema-servitudes-utilite-publique",
+            "title": "Servitudes d'utilit\u00e9 publique (SUP)",
+            "description": "Ce pr\u00e9sent document d\u00e9crit les sp\u00e9cifications des donn\u00e9es des Servitudes d'Utilit\u00e9 Publique. Ces sp\u00e9cifications visent \u00e0 standardiser les donn\u00e9es g\u00e9ographiques des SUP.",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-servitudes-utilite-publique/latest/schema.yml",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG",
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-servitudes-utilite-publique/1.1.1/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-servitudes-utilite-publique"
+        },
+        {
             "name": "cnigfr/sites-economiques-pole-eco",
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe POLE-ECO : P\u00f4le \u00e9conomique",
