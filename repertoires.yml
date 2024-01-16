@@ -219,6 +219,102 @@ schema-accessibilite-voirie:
   external_doc: https://cnig.gouv.fr/ressources-accessibilite-a25335.html
   labels:
     - CNIG
+plan-corps-rue-simplifie:
+  url: https://github.com/cnigfr/schema-plan-corps-rue-simplifie.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2017/12/CNIG_RTGE_PCRS_v2.0.pdf
+  labels:
+    - CNIG
+socle-reseaux:
+  url: https://github.com/cnigfr/schema-socle-reseaux.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2019/11/CNIG_STAR-DT_v1.0.pdf
+  labels:
+    - CNIG
+occupation-sols:
+  url: https://github.com/cnigfr/schema-occupation-sols.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/pnocsge-10-decembre-20141.pdf
+  labels:
+    - CNIG
+continuites-ecologiques-regionales:
+  url: https://github.com/cnigfr/schema-continuites-ecologiques-regionales.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2018/10/181001_Standard_CNIG_CER_v2018.pdf
+  labels:
+    - CNIG
+desserte-transport-bois:
+  url: https://github.com/cnigfr/schema-desserte-transport-bois.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/documents_wordpress/2019/09/Dictionnaire_donnees_standard_dessertes_transport_de_bois_v4.pdf
+  labels:
+    - CNIG
+eclairage-exterieur:
+  url: https://github.com/cnigfr/schema-eclairage-exterieur.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf
+  labels:
+    - CNIG
+reseaux-electriques:
+  url: https://github.com/cnigfr/schema-reseaux-electriques.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/cnig_star-elec_v1_02.pdf
+  labels:
+    - CNIG
+grace-thd:
+  url: https://github.com/cnigfr/schema-grace-thd.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/les-standards-cnig-a18959.html#:~:text=Am%C3%A9nagement%20num%C3%A9rique%20des%20territoires
+  labels:
+    - CNIG
+plan-local-urbanisme:
+  url: https://github.com/cnigfr/schema-plan-local-urbanisme.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+carte-communale:
+  url: https://github.com/cnigfr/schema-carte-communale.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+schema-coherence-territoriale:
+  url: https://github.com/cnigfr/schema-schema-coherence-territoriale.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+plan-sauvegarde-et-mise-en-valeur:
+  url: https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
+servitudes-utilite-publique:
+  url: https://github.com/cnigfr/schema-servitudes-utilite-publique.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html
+  labels:
+    - CNIG
+    - Documents dématérialisés d’urbanisme
 sites-economiques:
   url: https://github.com/cnigfr/schema-sites-economiques.git
   type: datapackage
