@@ -97,6 +97,7 @@ etalab/schema-irve-statique:
   geojson_resource_id: 7eee8f09-5d1b-4f48-a304-5e99e8da1e26
   latest_resource_ids:
     2.2.0: 8d9398ae-3037-48b2-be19-412c24561fbb
+    2.2.1: 21d394d5-f29d-4918-bc24-702e75531005
   publication: true
   search_words:
   - "Infrastructures de recharge pour v\xE9hicules \xE9lectriques"
