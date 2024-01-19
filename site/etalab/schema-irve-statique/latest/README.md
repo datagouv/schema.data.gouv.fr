@@ -33,13 +33,12 @@ Pour faciliter le remplissage des données, Etalab met à disposition un génér
 
 Une fois vos données chargées ou remplies, un formulaire vous proposera de les publier sur data.gouv.fr.
 
-
 ## Consolidation
 
 Etalab réalise une consolidation automatique des jeux de données IRVE conformes déposés sur data.gouv.fr. Le code est [disponible ici](https://github.com/etalab/notebooks/tree/master/irve-v2). Le fichier en résultant est [publié ici sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5448d3e0c751df01f85d0572).
 Vous pouvez également visualiser son contenu sur une carte en passant par le [Point d’Accès National](https://transport.data.gouv.fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques).
 
-En cas de non consolidation de vos données, la raison principale possible est que vos données contiennent des erreurs et donc ne respectent pas le schéma. Nous vous invitons à les corriger et à utiliser l’[outil de validation Validata](https://validata.fr/table-schema?schema_name=schema-datagouvfr.etalab%2Fschema-irve) pour vérifier la qualité des vos données.   .
+En cas de non consolidation de vos données, la raison principale possible est que vos données contiennent des erreurs et donc ne respectent pas le schéma. Nous vous invitons à les corriger et à utiliser l’[outil de validation Validata](https://validata.fr/table-schema?schema_name=schema-datagouvfr.etalab%2Fschema-irve-statique) pour vérifier la qualité des vos données.   .
 
 ## Voir aussi
 

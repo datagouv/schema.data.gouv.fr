@@ -12,7 +12,7 @@
             "examples": [
                 {
                     "title": "Exemple de fichier IRVE valide",
-                    "path": "https://github.com/etalab/schema-irve/raw/v2.1.0/exemple-valide.csv"
+                    "path": "https://github.com/etalab/schema-irve/raw/v2.2.1/exemple-valide.csv"
                 }
             ],
             "labels": [
@@ -24,12 +24,16 @@
                 {
                     "version_name": "2.2.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.1/schema-statique.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-irve.git",
-            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "datapackage_name": "etalab/schema-irve",
             "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
         },
@@ -43,7 +47,7 @@
             "examples": [
                 {
                     "title": "Exemple de fichier IRVE valide",
-                    "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/exemple-valide-dynamique.csv"
+                    "path": "https://github.com/etalab/schema-irve/raw/v2.2.1/exemple-valide-dynamique.csv"
                 }
             ],
             "labels": [
@@ -55,18 +59,22 @@
                 {
                     "version_name": "2.2.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.1/schema-dynamique.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-irve.git",
-            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "datapackage_name": "etalab/schema-irve",
             "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
         },
         {
             "name": "etalab/schema-irve",
-            "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
+            "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/datapackage.json",
             "schema_type": "datapackage",
@@ -81,6 +89,10 @@
                 {
                     "version_name": "2.2.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.2.0/datapackage.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.2.1/datapackage.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
