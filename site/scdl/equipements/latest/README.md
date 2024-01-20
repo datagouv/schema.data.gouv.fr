@@ -17,9 +17,8 @@ S'appuyant sur ces travaux, de nombreuses collectivités françaises ont pu cons
 
 ## Outils
 
-* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.equipements) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.equipements)
-* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fequipements)
-* [Télécharger un fichier gabarit au format XLSX](https://scdl.opendatafrance.net/docs/templates/equipements.xlsx)
+* [Valider un fichier avec Validata](https://validata.fr/)
+* [Créer un fichier avec CSV pour le publier](https://publier.etalab.studio/fr/select?schema=scdl%2Fequipements)
 
 ## Voir aussi
 

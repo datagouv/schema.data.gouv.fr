@@ -398,9 +398,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/scdl/equipements/0.1.4/schema.json"
+            },
+            "0.1.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/scdl/equipements/0.1.5/schema.json"
             }
         },
-        "latest": "0.1.4"
+        "latest": "0.1.5"
     },
     "scdl/subventions": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/subventions.git",
