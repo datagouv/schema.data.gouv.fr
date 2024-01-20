@@ -213,6 +213,10 @@
                 {
                     "version_name": "0.1.4",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.4/schema.json"
+                },
+                {
+                    "version_name": "0.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.5/schema.json"
                 }
             ],
             "external_doc": null,
