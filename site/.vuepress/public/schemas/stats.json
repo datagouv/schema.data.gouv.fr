@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1109,
+            "dgv_resources": 1105,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -147,7 +147,7 @@
             "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 24,
+            "dgv_resources": 23,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
@@ -264,12 +264,12 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
