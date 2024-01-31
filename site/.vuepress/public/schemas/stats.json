@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 32,
+            "dgv_resources": 33,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -279,12 +279,12 @@
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 10,
@@ -299,12 +299,12 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-impact-service-public-numerique": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 2,
@@ -402,7 +402,7 @@
             "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Site Economique",
             "contributors": 2
         }
