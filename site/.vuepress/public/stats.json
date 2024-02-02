@@ -127,7 +127,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 32,
+            "dgv_resources": 33,
             "title": "Subventions",
             "contributors": 11
         },
@@ -177,7 +177,7 @@
             "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 38,
+            "dgv_resources": 39,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "contributors": 6
         },
@@ -274,17 +274,17 @@
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 10,
@@ -292,7 +292,7 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 35,
+            "dgv_resources": 36,
             "title": "Sch\u00e9ma des structures de l'insertion",
             "contributors": 2
         },
