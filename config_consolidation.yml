@@ -93,6 +93,7 @@ etalab/schema-irve-statique:
   - 2.1.0
   - 2.2.0
   - 2.2.1
+  - 2.3.0
   exclude_dataset_ids:
   - 54231d4a88ee38334b5b9e1d
   - 601d660f2be2c8896f86e18d
