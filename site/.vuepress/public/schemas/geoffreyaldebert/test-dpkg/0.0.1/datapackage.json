@@ -1,0 +1,28 @@
+{
+    "name": "datapackage-dgv",
+    "title": "Modèle data gouv",
+    "description": "Description",
+    "id": "datapackage-dgv",
+    "resources": [
+        {
+            "name": "table1",
+            "path": "table1/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "table1/schema.json",
+            "documentation": "table1/README.md"
+        },
+        {
+            "name": "table2",
+            "path": "table2/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "table2/schema.json",
+            "documentation": "table2/README.md"
+        }
+    ]
+}

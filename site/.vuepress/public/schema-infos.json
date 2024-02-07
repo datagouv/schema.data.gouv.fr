@@ -2634,5 +2634,76 @@
         ],
         "consolidation_dataset_id": null,
         "latest": "1.0.0"
+    },
+    "geoffreyaldebert/test-dpkg": {
+        "homepage": "https://github.com/geoffreyaldebert/test-dpkg.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "datapackage",
+        "email": "test@test.com",
+        "labels": [
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.0.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/geoffreyaldebert/test-dpkg/0.0.1/datapackage.json"
+            }
+        },
+        "schemas": [
+            "geoffreyaldebert/datapackage-dgv-table1",
+            "geoffreyaldebert/datapackage-dgv-table2"
+        ],
+        "latest": "0.0.1"
+    },
+    "geoffreyaldebert/datapackage-dgv-table1": {
+        "homepage": "https://github.com/geoffreyaldebert/test-dpkg.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "test@test.com",
+        "versions": {
+            "0.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/geoffreyaldebert/datapackage-dgv-table1/0.0.1/schema.json"
+            }
+        },
+        "datapackage": "Mod\u00e8le data gouv",
+        "datapackage_id": "datapackage-dgv",
+        "labels": [
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.0.1"
+    },
+    "geoffreyaldebert/datapackage-dgv-table2": {
+        "homepage": "https://github.com/geoffreyaldebert/test-dpkg.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "test@test.com",
+        "versions": {
+            "0.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/geoffreyaldebert/datapackage-dgv-table2/0.0.1/schema.json"
+            }
+        },
+        "datapackage": "Mod\u00e8le data gouv",
+        "datapackage_id": "datapackage-dgv",
+        "labels": [
+            "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.0.1"
     }
 }

@@ -1,0 +1,74 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name": "datapackage-dgv-table1",
+    "title": "Table 1",
+    "description": "Description Table 1",
+    "keywords": [
+       "table",
+       "datagouv"
+    ],
+    "countryCode": "FR",
+    "homepage": "https://github.com/etalab/datapackage-template",
+    "licenses": [
+       {
+          "title": "Etalab Licence Ouverte 2.0",
+          "name": "etalab-2.0",
+          "path": "https://spdx.org/licenses/etalab-2.0.html"
+       }
+    ],
+    "resources": [
+       {
+          "title": "Fichier valide (CSV)",
+          "name": "exemple-valide-csv",
+          "path": "https://raw.githubusercontent.com/etalab/datapackage-dgv/v0.0.1/table1/exemple-valide.csv"
+       }
+    ],
+    "created": "2024-02-08",
+    "lastModified": "2024-02-08",
+    "version": "0.0.1",
+    "contributors": [
+       {
+          "title": "Test Test",
+          "email": "test.test@test.fr",
+          "organisation": "Test",
+          "role": "contributor"
+       }
+    ],
+    "fields": [
+       {
+          "name": "id_table1",
+          "description": "Identifiant.",
+          "example": "C01-001",
+          "type": "string",
+          "constraints": {
+             "required": true
+          }
+       },
+       {
+          "name": "nb_table1",
+          "description": "Nombre",
+          "example": "46.59698",
+          "type": "number",
+          "constraints": {
+             "required": true,
+             "minimum": 0,
+             "maximum": 1000
+          }
+       },
+       {
+          "name": "choices_table1",
+          "description": "Choices",
+          "example": "Choice 1",
+          "type": "string",
+          "constraints": {
+             "required": false,
+             "enum": [
+                "Choice 1",
+                "Choice 2",
+                "Choice 3"
+             ]
+          }
+       }
+    ],
+    "primaryKey": "id_table1"
+ }

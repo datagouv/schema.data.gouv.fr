@@ -2350,6 +2350,90 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-sites-economiques.git"
+        },
+        {
+            "name": "geoffreyaldebert/datapackage-dgv-table1",
+            "title": "Table 1",
+            "description": "Description Table 1",
+            "schema_url": "https://schema.data.gouv.fr/schemas/geoffreyaldebert/datapackage-dgv-table1/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "test@test.com",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://raw.githubusercontent.com/etalab/datapackage-dgv/v0.0.1/table1/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/geoffreyaldebert/datapackage-dgv-table1/0.0.1/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/geoffreyaldebert/test-dpkg.git",
+            "datapackage_title": "Mod\u00e8le data gouv",
+            "datapackage_name": "geoffreyaldebert/test-dpkg",
+            "datapackage_description": "Description"
+        },
+        {
+            "name": "geoffreyaldebert/datapackage-dgv-table2",
+            "title": "Table 2",
+            "description": "Description Table 2",
+            "schema_url": "https://schema.data.gouv.fr/schemas/geoffreyaldebert/datapackage-dgv-table2/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "test@test.com",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://raw.githubusercontent.com/etalab/datapackage-dgv/v0.0.1/table2/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/geoffreyaldebert/datapackage-dgv-table2/0.0.1/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/geoffreyaldebert/test-dpkg.git",
+            "datapackage_title": "Mod\u00e8le data gouv",
+            "datapackage_name": "geoffreyaldebert/test-dpkg",
+            "datapackage_description": "Description"
+        },
+        {
+            "name": "geoffreyaldebert/test-dpkg",
+            "title": "Mod\u00e8le data gouv",
+            "description": "Description",
+            "schema_url": "https://schema.data.gouv.fr/schemas/geoffreyaldebert/test-dpkg/latest/datapackage.json",
+            "schema_type": "datapackage",
+            "contact": "test@test.com",
+            "examples": [],
+            "labels": [
+                "Documents d\u00e9mat\u00e9rialis\u00e9s d\u2019urbanisme"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/geoffreyaldebert/test-dpkg/0.0.1/datapackage.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/geoffreyaldebert/test-dpkg.git"
         }
     ]
 }
