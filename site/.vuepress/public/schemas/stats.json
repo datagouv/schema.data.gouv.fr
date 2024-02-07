@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1094,
+            "dgv_resources": 1095,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -122,7 +122,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 46,
+            "dgv_resources": 45,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -279,12 +279,12 @@
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 10,
@@ -302,7 +302,7 @@
             "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Impact d\u2019un service public num\u00e9rique",
             "contributors": 2
         },
