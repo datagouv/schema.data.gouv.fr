@@ -86,13 +86,20 @@
                     "CHANGELOG.md"
                 ],
                 "schema_url": "/etalab/schema-irve/2.3.0/datapackage.json"
+            },
+            "2.3.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/etalab/schema-irve/2.3.1/datapackage.json"
             }
         },
         "schemas": [
             "etalab/schema-irve-statique",
             "etalab/schema-irve-dynamique"
         ],
-        "latest": "2.3.0"
+        "latest": "2.3.1"
     },
     "etalab/schema-irve-statique": {
         "homepage": "https://github.com/etalab/schema-irve.git",
@@ -121,6 +128,13 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-irve-statique/2.3.0/schema-statique.json"
+            },
+            "2.3.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-irve-statique/2.3.1/schema-statique.json"
             }
         },
         "datapackage": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
@@ -130,7 +144,7 @@
             "transport.data.gouv.fr"
         ],
         "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
-        "latest": "2.3.0"
+        "latest": "2.3.1"
     },
     "etalab/schema-irve-dynamique": {
         "homepage": "https://github.com/etalab/schema-irve.git",
@@ -159,6 +173,13 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-irve-dynamique/2.3.0/schema-dynamique.json"
+            },
+            "2.3.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-irve-dynamique/2.3.1/schema-dynamique.json"
             }
         },
         "datapackage": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques",
@@ -168,7 +189,7 @@
             "transport.data.gouv.fr"
         ],
         "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
-        "latest": "2.3.0"
+        "latest": "2.3.1"
     },
     "139bercy/format-commande-publique": {
         "homepage": "https://github.com/139bercy/format-commande-publique.git",
