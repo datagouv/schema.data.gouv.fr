@@ -327,3 +327,9 @@ test-dpkg:
   email: test@test.com
   labels:
     - Documents dématérialisés d’urbanisme
+moissnoneur:
+  url: https://github.com/geoffreyaldebert/test-webinaire-mte.git
+  type: datapackage
+  email: test@test.com
+  labels:
+    - CNIG
