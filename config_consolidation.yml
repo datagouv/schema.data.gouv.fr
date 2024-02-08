@@ -102,6 +102,7 @@ etalab/schema-irve-statique:
     2.2.0: 8d9398ae-3037-48b2-be19-412c24561fbb
     2.2.1: 21d394d5-f29d-4918-bc24-702e75531005
     2.3.1: 88c11cfa-b1f5-40b6-b726-96c7974f3913
+    latest: eb76d20a-8501-400e-b336-d85724de5435
   publication: true
   search_words:
   - "Infrastructures de recharge pour v\xE9hicules \xE9lectriques"
