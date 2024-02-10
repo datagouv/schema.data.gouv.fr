@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1095,
+            "dgv_resources": 1097,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -312,7 +312,7 @@
             "contributors": 4
         },
         "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
         },
@@ -352,7 +352,7 @@
             "contributors": 1
         },
         "cnigfr/schema-grace-thd": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
             "contributors": 1
         },
