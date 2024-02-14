@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1098,
+            "dgv_resources": 1099,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -102,7 +102,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 46,
+            "dgv_resources": 45,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -177,7 +177,7 @@
             "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 39,
+            "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "contributors": 6
         },
@@ -244,7 +244,7 @@
         "datakode/schema-pei": {
             "dgv_resources": 1,
             "title": "Point d'Eau Incendie (PEI)",
-            "contributors": 2
+            "contributors": 3
         },
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 7,
@@ -292,7 +292,7 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 36,
+            "dgv_resources": 37,
             "title": "Sch\u00e9ma des structures de l'insertion",
             "contributors": 2
         },
@@ -307,7 +307,7 @@
             "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Impact d\u2019un service public num\u00e9rique",
             "contributors": 4
         },

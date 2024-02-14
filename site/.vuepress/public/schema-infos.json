@@ -1687,9 +1687,16 @@
                     "documentation.md"
                 ],
                 "schema_url": "/datakode/schema-pei/1.0.0/schema.json"
+            },
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/datakode/schema-pei/1.0.1/schema.json"
             }
         },
-        "latest": "1.0.0"
+        "latest": "1.0.1"
     },
     "PnX-SI/schema_randonnee": {
         "homepage": "https://github.com/PnX-SI/schema_randonnee.git",

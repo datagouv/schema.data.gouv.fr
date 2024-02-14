@@ -1146,6 +1146,10 @@
                 {
                     "version_name": "1.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.1/schema.json"
                 }
             ],
             "external_doc": null,
