@@ -321,15 +321,3 @@ sites-economiques:
   email: cnig@cnig.fr
   labels:
     - CNIG
-test-dpkg:
-  url: https://github.com/geoffreyaldebert/test-dpkg.git
-  type: datapackage
-  email: test@test.com
-  labels:
-    - Documents dématérialisés d’urbanisme
-moissnoneur:
-  url: https://github.com/geoffreyaldebert/test-webinaire-mte.git
-  type: datapackage
-  email: test@test.com
-  labels:
-    - CNIG
