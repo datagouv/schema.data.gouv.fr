@@ -1,22 +1,17 @@
-FROM python:3.9
+FROM node:21 as builder
 
-RUN apt-get update && apt-get -y upgrade
+WORKDIR /app
 
-COPY ./dist /dist
+COPY ./ /app
 
-EXPOSE 80
-RUN apt-get install -y nginx
-RUN rm -v /etc/nginx/nginx.conf
-ADD nginx.conf /etc/nginx/
+ENV NODE_OPTIONS=--openssl-legacy-provider
 
-USER root
+RUN npm install
+RUN echo "$(date)" && \
+    export $(cat /app/*.env | xargs) && \
+    npm run build
 
-ARG CACHEBUST=1
-RUN cp -r /dist/* /usr/share/nginx/html/
-ARG CACHEBUST=1
-RUN cp -r /dist/* /var/www/html/
+FROM nginx:alpine-slim
 
-# Append "daemon off;" to the beginning of the configuration
-RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-
-CMD service nginx start
+COPY --from=builder /app/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/dist /app/dist
