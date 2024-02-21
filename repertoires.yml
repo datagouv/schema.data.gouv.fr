@@ -321,3 +321,7 @@ sites-economiques:
   email: cnig@cnig.fr
   labels:
     - CNIG
+aire-livraison:
+  url: https://github.com/CEREMA/schema-aire-livraison.git
+  type: tableschema
+  email: mathieu.rajerison@cerema.fr
