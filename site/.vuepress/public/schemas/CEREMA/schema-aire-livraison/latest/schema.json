@@ -1,0 +1,566 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name": "aire-livraison",
+    "title": "Aires de livraison",
+    "description": "Spécification du fichier d'échange relatif aux aires de livraison",
+    "keywords": [
+        "supply",
+        "mobility",
+        "city",
+        "smartcity",
+        "regulation",
+        "parking"
+    ],
+    "countryCode": "FR",
+    "homepage": "https://github.com/CEREMA/schema-aire-livraison",
+    "path": "https://github.com/CEREMA/schema-aire-livraison/raw/v0.1.0/schema.json",
+    "image": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/files/image.jpg",
+    "licenses": [
+        {
+            "title": "Etalab Licence Ouverte 2.0",
+            "name": "etalab-2.0",
+            "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+    ],
+    "resources": [
+        {
+            "title": "Exemple valide pour Antibes",
+            "name": "exemple-antibes-csv",
+            "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/exemple-antibes.csv"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Arrêté CA/MFV/2016/328 d'Antibes de 2016",
+            "name": "arrete-CA/MFV/2016/328",
+            "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/files/513_17_creation_emplacement_reserve_bd_wilson.pdf"
+        },
+        {
+            "title": "Arrêté CA/SM/2017/261 d'Antibes de 2017",
+            "name": "arrete-CA/SM/2017/261",
+            "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/files/513_17_creation_emplacement_reserve_bd_wilson.pdf"
+        },
+        {
+            "title": "Aménager les aires de livraison",
+            "path": "https://www.cerema.fr/fr/actualites/amenager-aires-livraison"
+        },
+        {
+            "title": "AIRES DE LIVRAISON : QUELLES BONNES PRATIQUES POUR AMÉLIORER LES CONDITIONS DE LIVRAISON ?",
+            "path": "https://www.interlud.green/actualites/aires-de-livraison-quelles-bonnes-pratiques-pour-ameliorer-les-conditions-de-livraison"
+        },
+        {
+            "title": "Pratiques de livraison (par BAC IDF)",
+            "path": "https://bac-idf.fr/category/pratiques-de-livraison/"
+        },
+        {
+            "title": "Guide d'harmonisation des règlementations des livraisons co-rédigé par la Région Sud et la DREAL PACA",
+            "path": "https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/v0.9.2/ressources/Guide%20Harmonisation%20des%20arr%C3%AAt%C3%A9s%20R%C3%A9gion%20PACA%202019.pdf"
+        },
+        {
+            "title": "Les initiatives du GART en faveur d’une logistique urbaine durable",
+            "path": "https://www.gart.org/actualite/les-initiatives-du-gart-en-faveur-dune-logistique-urbaine-durable/"
+        }
+    ],
+    "created": "2024-01-04",
+    "lastModified": "2024-01-18",
+    "version": "0.1",
+    "contributors": [
+        {
+            "title": "Mathieu Rajerison",
+            "email": "mathieu.rajerison@cerema.fr",
+            "organisation": "Cerema",
+            "role": "author"
+        },
+        {
+            "title": "Cédric Bariou",
+            "email": "cedric.bariou@cerema.fr",
+            "organisation": "Cerema",
+            "role": "contributor"
+        },
+        {
+            "title": "Jean-Marie Bourgogne",
+            "email": "jmbourgogne@opendatafrance.email",
+            "organisation": "OpenDataFrance",
+            "role": "contributor"
+        },
+        {
+            "title": "Silvio Rousic",
+            "email": "silvio.rousic@cerema.fr",
+            "organisation": "Cerema",
+            "role": "contributor"
+        },
+        {
+            "title": "Ivan Slastanova",
+            "organisation": "GART",
+            "role": "contributor"
+        },
+        {
+            "title": "Joy Pasquet",
+            "organisation": "Amazon Logistics",
+            "role": "contributor"
+        }
+    ],
+    "fields": [
+        {
+            "name": "ID",
+            "title": "Identifiant de l'entité",
+            "description": "Il s'agit de l'identifiant, unique, de la ligne du tableau.. [Vous pouvez créer des identifiants grâce à l'application Heidi d'Etalab](https://heidi.app.etalab.studio/).",
+            "example": "133-3",
+            "type": "string",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "name": "COLL_NOM",
+            "title": "Nom de la collectivité à l'origine de l'arrêté",
+            "description": "Nom de la collectivité.",
+            "example": "Commune d'Aix-en-Provence",
+            "type": "string",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "COLL_INSEE",
+            "title": "Code INSEE",
+            "description": "Code INSEE de la commune sur laquelle s'applique l'arrêté",
+            "type": "string",
+            "example": "13090",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": true,
+                "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$",
+                "minLength": 5,
+                "maxLength": 5
+            }
+        },
+        {
+            "name": "ARR_REF",
+            "title": "Référence de l'arrêté",
+            "description": "Référence ou numéro de l'arrêté auquel se réfère la règlementation. Si l'arrêté a été mis à jour, la référence doit être celle de l'arrêté mis à jour et non celle de l'arrêté originel. Si l'arrêté ne possède pas de référence, mettre la valeur `NC`",
+            "type": "string",
+            "example": "AP-13090-12",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "ARR_DATE",
+            "title": "Date de l'arrêté",
+            "description": "Date de création ou de mise à jour de l'arrêté, au format ISO 8601 AAAA-MM-DD. Mettre `NC` si pas d'indication dans l'arrêté",
+            "example": "2021-04-30",
+            "type": "date",
+            "format": "%Y-%m-%d",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "ARR_OBJET",
+            "title": "Objet de l'arrêté",
+            "description": "Objet ou titre de l'arrêté. Mettre `NC` si l'arrêté ne comprend pas d'objet.",
+            "type": "string",
+            "example": "Arrêté règlementant la circulation dans le quartier Mazarin et du palais de Justice",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": true
+            },
+            "importance": 2
+        },
+        {
+            "name": "ARR_CONSIDERANT",
+            "title": "Considérant de l'arrêté",
+            "description": "Considérant est le justificatif de la mise en place de la règlementation. S'il y a plusieurs considérations, les séparer par le caractère '|'",
+            "type": "string",
+            "example": "Considérant la dangerosité que représente le trafic des PL aux abords des groupes scolaires",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "ARR_URL",
+            "title": "Adresse internet de l'arrêté",
+            "description": "Adresse internet par laquelle accéder à l'arrêté, et donc au règlement.",
+            "type": "string",
+            "format": "uri",
+            "example": "https://carte.st-paul-les-dax.fr/wp-content/uploads/2020/06/AM-10248.pdf",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "REGL_ARTICLE",
+            "title": "Article du règlement",
+            "description": "N° de l'article associé au règlement lorsqu'il existe",
+            "type": "string",
+            "example": "'Article 4' ou 'Titre 2'",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "REGL_SOUS_ARTICLE",
+            "title": "Sous-article du règlement",
+            "description": "Un article peut se décomposer en plusieurs sous-articles, contenant chacun une règlementation particulière. Ces sous-articles ont des numérotations.",
+            "type": "string",
+            "example": "Sous-article 4 bis",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "VEH_TONNAGE",
+            "title": "Tonnage",
+            "description": "Tonnage maximal du véhicule",
+            "type": "number",
+            "example": "9",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false,
+                "minimum": 0,
+                "maximum": 45
+            }
+        },
+        {
+            "name": "INTERV_JH",
+            "title": "Jours et heures de livraison",
+            "description": "Jours et heures de livraison exprimés selon le format OpeningHours d'OpenStreetMap ([https://wiki.openstreetmap.org/wiki/Key:opening_hours](https://wiki.openstreetmap.org/wiki/Key:opening_hours)). Ce format permet d'indiquer les week-ends (we), les jours fériés (PH) et les vacances scolaires (SH). Par exemple `Mo-Fr 09:00-17:00; PH 10:00-12:00; PH Su off` signifie : 'Du lundi au vendredi de 9h à 17h sauf les jours fériés où l'ouverture est de 10h à 12h, à l'exception des jours fériés tombant un dimanche'. `24/7` indique `Tous les jours`. [Utiliser groom-groom pour récupérer les jours et heures de circulation](https://cerema-med.shinyapps.io/groom-groom?action=opening_hours). Si INTERV_JH est vide, alors ce ne sont que des livraisons qui sont autorisées. S'il y a des horaires spécifiés dans INTERV_JH, alors la livraison s'effectue à ces horaires. En dehors de ces plages, le stationnement standard est autorisé. Il est donc mixte.",
+            "example": "Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00; PH off",
+            "type": "string",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "INTERV_REGIME",
+            "title": "Régime d'accès",
+            "description": "Permet de savoir si l'aire de livraison est exclusive ou partagée avec du stationnement particulier, ou éventuellement concerne le transport de fond (si on choisit d'intégrer les aires réservés au transport de fond). Mixte : cohabite avec stationnement particulier",
+            "type": "string",
+            "example": "Livraison",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Mixte",
+                    "Transport de fonds",
+                    "Livraison"
+                ]
+            }
+        },
+        {
+            "name": "INTERV_DUREE",
+            "title": "Durée maximale d'intervention",
+            "description": "Durée maximale d'intervention (au niveau d'une aire piétonne, par exemple). L'entrée et la sortie dans une zone peuvent être horodatées à la délivrance d'un ticket lors de la traversée d'une borne de passage.",
+            "example": "P0DT3H",
+            "type": "duration",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "INTERV_DISQUE",
+            "title": "Disque obligatoire",
+            "description": "Obligation de disposer d'un disque de livraison",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "example": "oui",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ],
+            "type": "boolean",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "EMPRISE_ZONE",
+            "title": "Zone",
+            "description": "Zone associée à l'aire. Il s'agit généralement de la dénomination du quartier ou de l'aire piétonne associée règlementée",
+            "example": "Secteur du Centre-Ville",
+            "type": "string",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "EMPRISE_DESIGNATION",
+            "title": "Adresse du point de référence de l'aire",
+            "description": "Adresse du point de référence de l'aire. Cela peut être toute une rue ou un tronçon. Endroit précis de l'aire de livraison réservée aux livraisons.",
+            "example": "Avenue Philippe Solari, Commune d'Aix-en-Provence, Quartier Mazarin, 200046977-ZFE-001",
+            "type": "string",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": true,
+                "pattern": "^[a-zA-Z0-9\\-\\–\\'\\’\\«\\»\\°\\\"\\s\\d\u00C0-\u00FF\\(\\)\\,\\.]+$"
+            }
+        },
+        {
+            "name": "EMPRISE_LONGUEUR",
+            "title": "Longueur de l'emprise",
+            "description": "Longueur de l'emprise en mètres.",
+            "type": "number",
+            "example": "9",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false,
+                "minimum": 0,
+                "maximum": 100
+            }
+        },
+        {
+            "name": "EMPRISE_LARGEUR",
+            "title": "Largeur de l'emprise",
+            "description": "Largeur de l'emprise en mètres.",
+            "type": "number",
+            "example": "9",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "EMPRISE_DEBATTEMENT",
+            "title": "Présence d'un débattement",
+            "description": "Un espace est disponible de part et d'autre de l'aire de livraison pour un accès facilité",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "example": "oui",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ],
+            "type": "boolean",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "STATIONNEMENT_LOCALISATION",
+            "title": "Localisation du stationnement",
+            "description": "Localisation du stationnement. Champ issu de https://opendata.paris.fr/explore/dataset/stationnement-voie-publique-emplacements/table/?disjunctive.regpri&disjunctive.regpar&disjunctive.typsta&disjunctive.arrond&disjunctive.zoneres&disjunctive.locsta&disjunctive.parite&disjunctive.signhor&disjunctive.signvert&disjunctive.confsign&disjunctive.typemob&disjunctive.zoneasp&disjunctive.stv&disjunctive.prefet&q=livraison&refine.regpri=LIVRAISON&sort=locsta&basemap=jawg.dark&location=16,48.85483,2.33805",
+            "type": "string",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "example": "Chaussée",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Autre",
+                    "Chaussée",
+                    "Contre allée",
+                    "Contre terre plein",
+                    "Demi lincoln",
+                    "Faux lincoln",
+                    "Lincoln",
+                    "Place",
+                    "Terre plein",
+                    "Trottoir"
+                ]
+            }
+        },
+        {
+            "name": "IRVE_PRESENCE",
+            "title": "Installation de recharge de véhicule électrique",
+            "description": "Présence d'une borne de recharge de véhicule électrique",
+            "example": "oui",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ],
+            "type": "boolean",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "IRVE_PUISSANCE",
+            "title": "Puissance de l'installation de recharge de véhicule électrique",
+            "description": "Puissance de l'installation de recharge de véhicule électrique en kW",
+            "type": "number",
+            "example": "22",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false,
+                "minimum": 1,
+                "maximum": 150
+            }
+        },
+        {
+            "name": "GEOM_XY",
+            "title": "Coordonnées GPS de l'Aire de Livraison ou de la rue",
+            "description": "Coordonnées longitude, latitude associées à l'aire de livraison. S'écrit sous la forme 'long,lat' (5 ou 6 décimales sont conseillées).",
+            "type": "geopoint",
+            "example": "5.42101,43.53591",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "GEOM_WKT",
+            "title": "Géométrie au format WKT",
+            "description": "Géométrie de la rue (ligne), ou de l'emprise (polygone) exprimée au format [WKT (Well Know Text](https://fr.wikipedia.org/wiki/Well-known_text) sous le système de projection WGS84 (EPSG:4326)",
+            "type": "string",
+            "example": "LineString(5.39340184 45.56538751, 5.41017215 45.56722934, 5.42510063 45.5679079)",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "missingValues": [
+        "",
+        "NA",
+        "NaN",
+        "N/A"
+    ],
+    "primaryKey": "ID"
+}
