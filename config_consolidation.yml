@@ -1,6 +1,10 @@
 Archivistes75/registre_entrees:
   consolidate: false
   publication: false
+CEREMA/schema-aire-livraison:
+  consolidate: false
+  search_words:
+  - Aires de livraison
 CEREMA/schema-arrete-circulation-marchandises:
   consolidate: false
   publication: false
