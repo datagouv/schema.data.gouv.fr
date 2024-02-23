@@ -63,7 +63,7 @@
     ],
     "created": "2024-01-04",
     "lastModified": "2024-01-18",
-    "version": "0.1",
+    "version": "v0.1.0",
     "contributors": [
         {
             "title": "Mathieu Rajerison",
@@ -104,7 +104,7 @@
         {
             "name": "ID",
             "title": "Identifiant de l'entité",
-            "description": "Il s'agit de l'identifiant, unique, de la ligne du tableau.. [Vous pouvez créer des identifiants grâce à l'application Heidi d'Etalab](https://heidi.app.etalab.studio/).",
+            "description": "Il s'agit de l'identifiant, unique, de la ligne du tableau. Vous pouvez créer des identifiants grâce à l'application [Heidi](https://heidi.app.etalab.studio/) d'Etalab.",
             "example": "133-3",
             "type": "string",
             "profiles": [
@@ -338,7 +338,7 @@
             ],
             "type": "boolean",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -440,13 +440,13 @@
             ],
             "type": "boolean",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
             "name": "STATIONNEMENT_LOCALISATION",
             "title": "Localisation du stationnement",
-            "description": "Localisation du stationnement. Champ issu de https://opendata.paris.fr/explore/dataset/stationnement-voie-publique-emplacements/table/?disjunctive.regpri&disjunctive.regpar&disjunctive.typsta&disjunctive.arrond&disjunctive.zoneres&disjunctive.locsta&disjunctive.parite&disjunctive.signhor&disjunctive.signvert&disjunctive.confsign&disjunctive.typemob&disjunctive.zoneasp&disjunctive.stv&disjunctive.prefet&q=livraison&refine.regpri=LIVRAISON&sort=locsta&basemap=jawg.dark&location=16,48.85483,2.33805",
+            "description": "Localisation du stationnement. Champ issu de [la donnée OpenData de stationnement à Paris](https://opendata.paris.fr/explore/dataset/stationnement-voie-publique-emplacements/table/?disjunctive.regpri&disjunctive.regpar&disjunctive.typsta&disjunctive.arrond&disjunctive.zoneres&disjunctive.locsta&disjunctive.parite&disjunctive.signhor&disjunctive.signvert&disjunctive.confsign&disjunctive.typemob&disjunctive.zoneasp&disjunctive.stv&disjunctive.prefet&q=livraison&refine.regpri=LIVRAISON&sort=locsta&basemap=jawg.dark&location=16,48.85483,2.33805)",
             "type": "string",
             "profiles": [
                 "Collectivité locale",
@@ -508,7 +508,7 @@
                 "Acteur économique"
             ],
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -544,7 +544,7 @@
         {
             "name": "GEOM_WKT",
             "title": "Géométrie au format WKT",
-            "description": "Géométrie de la rue (ligne), ou de l'emprise (polygone) exprimée au format [WKT (Well Know Text](https://fr.wikipedia.org/wiki/Well-known_text) sous le système de projection WGS84 (EPSG:4326)",
+            "description": "Géométrie de la rue (ligne), ou de l'emprise (polygone) exprimée au format [WKT](https://fr.wikipedia.org/wiki/Well-known_text) (Well Know Text) sous le système de projection WGS84 (EPSG:4326)",
             "type": "string",
             "example": "LineString(5.39340184 45.56538751, 5.41017215 45.56722934, 5.42510063 45.5679079)",
             "profiles": [
