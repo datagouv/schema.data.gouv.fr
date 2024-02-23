@@ -52,6 +52,10 @@ module.exports = {
         "url": "/schemas.html",
       },
       {
+        "title": "Actualités",
+        "url": "/actualites.html",
+      },
+      {
         "title": "Contribuer",
         "url": "/contribuer.html",
       },
