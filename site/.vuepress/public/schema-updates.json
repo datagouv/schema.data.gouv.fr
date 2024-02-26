@@ -8,7 +8,7 @@
         ]
     },
     "2023-01-24": {
-        "delete_schema": [
+        "deleted_schema": [
             {
                 "schema_name": "fchabouis/schema-irve",
                 "version": "2.2.2"
@@ -148,7 +148,7 @@
         ]
     },
     "2023-09-13": {
-        "delete_schema": [
+        "deleted_schema": [
             {
                 "schema_name": "betagouv/data-inclusion-schema",
                 "version": "0.9.1"
