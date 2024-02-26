@@ -1,0 +1,324 @@
+{
+    "2023-12-23": {
+        "new_version": [
+            {
+                "schema_name": "cnigfr/schema-friches",
+                "version": "1.0.3 => 1.0.4"
+            }
+        ]
+    },
+    "2023-01-24": {
+        "delete_schema": [
+            {
+                "schema_name": "fchabouis/schema-irve",
+                "version": "2.2.2"
+            },
+            {
+                "schema_name": "fchabouis/schema-irve-dynamique",
+                "version": "2.2.2"
+            },
+            {
+                "schema_name": "fchabouis/schema-irve-statique",
+                "version": "2.2.2"
+            }
+        ]
+    },
+    "2024-02-07": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-irve",
+                "version": "2.3.0 => 2.3.1"
+            },
+            {
+                "schema_name": "etalab/schema-irve-statique",
+                "version": "2.3.0 => 2.3.1"
+            },
+            {
+                "schema_name": "etalab/schema-irve-dynamique",
+                "version": "2.3.0 => 2.3.1"
+            }
+        ]
+    },
+    "2023-03-03": {
+        "new_version": [
+            {
+                "schema_name": "Archivistes75/registre_entrees",
+                "version": "0.3.1 => 0.3.1"
+            },
+            {
+                "schema_name": "atlasante/schema-dae",
+                "version": "1.0.5 => 1.0.5"
+            },
+            {
+                "schema_name": "CEREMA/schema-arrete-circulation-marchandises",
+                "version": "0.9.2 => 0.9.2"
+            },
+            {
+                "schema_name": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc",
+                "version": "0.1.3 => 0.1.3"
+            },
+            {
+                "schema_name": "etalab/schema-dispositif-aide",
+                "version": "0.0.2 => 0.0.2"
+            }
+        ]
+    },
+    "2023-12-20": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-lieux-covoiturage",
+                "version": "0.2.8 => 0.3.0"
+            }
+        ]
+    },
+    "2024-01-12": {
+        "new_version": [
+            {
+                "schema_name": "139bercy/format-commande-publique",
+                "version": "2.0.0 => 2.0.1"
+            }
+        ]
+    },
+    "2023-09-28": {
+        "new_version": [
+            {
+                "schema_name": "scdl/subventions",
+                "version": "2.1.0 => 2.1.1"
+            },
+            {
+                "schema_name": "scdl/deliberations",
+                "version": "2.1.4 => 2.1.5"
+            },
+            {
+                "schema_name": "scdl/catalogue",
+                "version": "0.1.2 => 0.1.3"
+            },
+            {
+                "schema_name": "scdl/budget",
+                "version": "0.8.1 => 0.8.3"
+            },
+            {
+                "schema_name": "scdl/prenoms",
+                "version": "1.1.5 => 1.1.6"
+            },
+            {
+                "schema_name": "scdl/menus-collectifs",
+                "version": "1.2.1 => 1.2.3"
+            },
+            {
+                "schema_name": "scdl/plats-menus-collectifs",
+                "version": "0.7.0 => 0.7.2"
+            }
+        ]
+    },
+    "2023-02-23": {
+        "new_version": [
+            {
+                "schema_name": "NaturalSolutions/schema-arbre",
+                "version": "0.3.0 => 0.3.1"
+            }
+        ]
+    },
+    "2024-01-20": {
+        "new_version": [
+            {
+                "schema_name": "scdl/equipements",
+                "version": "0.1.4 => 0.1.5"
+            }
+        ]
+    },
+    "2023-10-15": {
+        "new_schema": [
+            {
+                "schema_name": "etalab/schema-stationnement",
+                "version": "0.1.5"
+            },
+            {
+                "schema_name": "etalab/schema-stationnement-cyclable",
+                "version": "1.1.1"
+            }
+        ]
+    },
+    "2023-06-20": {
+        "new_version": [
+            {
+                "schema_name": "MTES-MCT/acceslibre-schema",
+                "version": "0.0.9 => 0.0.9"
+            }
+        ]
+    },
+    "2023-09-13": {
+        "delete_schema": [
+            {
+                "schema_name": "betagouv/data-inclusion-schema",
+                "version": "0.9.1"
+            }
+        ]
+    },
+    "2023-03-29": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-amenagements-cyclables",
+                "version": "0.3.3 => 0.3.4"
+            }
+        ]
+    },
+    "2023-05-17": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-comptage-mobilites",
+                "version": "0.2.3 => 0.2.4"
+            },
+            {
+                "schema_name": "etalab/schema-comptage-mobilites-site",
+                "version": "0.2.3 => 0.2.4"
+            }
+        ]
+    },
+    "2023-09-14": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-comptage-mobilites-channel",
+                "version": "None => 0.2.4"
+            },
+            {
+                "schema_name": "etalab/schema-comptage-mobilites-measure",
+                "version": "None => 0.2.4"
+            }
+        ]
+    },
+    "2023-10-17": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-indice-reparabilite",
+                "version": "0.1.1 => 0.1.2"
+            }
+        ]
+    },
+    "2023-09-26": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-impact-service-public-numerique",
+                "version": "0.2.2 => 0.3.0"
+            }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8"
+            }
+        ]
+    },
+    "2024-01-25": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.13.0 => 0.13.1"
+            }
+        ]
+    },
+    "2023-09-25": {
+        "new_schema": [
+            {
+                "schema_name": "cnigfr/schema-accessibilite-voirie",
+                "version": "1.2.0"
+            }
+        ]
+    },
+    "2023-11-08": {
+        "new_schema": [
+            {
+                "schema_name": "cnigfr/schema-sites-economiques",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-pole-eco",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-site-eco",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-terrain-eco",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-etablissement",
+                "version": "1.0.0"
+            }
+        ]
+    },
+    "2024-01-16": {
+        "new_schema": [
+            {
+                "schema_name": "cnigfr/schema-plan-corps-rue-simplifie",
+                "version": "2.0.4"
+            },
+            {
+                "schema_name": "cnigfr/schema-socle-reseaux",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-occupation-sols",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-continuites-ecologiques-regionales",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-desserte-transport-bois",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-eclairage-exterieur",
+                "version": "1.1.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-reseaux-electriques",
+                "version": "1.0.2"
+            },
+            {
+                "schema_name": "cnigfr/schema-grace-thd",
+                "version": "3.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-plan-local-urbanisme",
+                "version": "2.1.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-carte-communale",
+                "version": "2.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-schema-coherence-territoriale",
+                "version": "2.0.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur",
+                "version": "1.3.0"
+            },
+            {
+                "schema_name": "cnigfr/schema-servitudes-utilite-publique",
+                "version": "1.1.1"
+            }
+        ]
+    },
+    "2024-02-14": {
+        "new_version": [
+            {
+                "schema_name": "datakode/schema-pei",
+                "version": "1.0.0 => 1.0.1"
+            }
+        ]
+    },
+    "2024-02-21": {
+        "new_schema": [
+            {
+                "schema_name": "CEREMA/schema-aire-livraison",
+                "version": "0.1.0"
+            }
+        ]
+    }
+}
