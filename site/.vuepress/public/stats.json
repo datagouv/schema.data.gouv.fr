@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1104,
+            "dgv_resources": 1105,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 34,
+            "dgv_resources": 35,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -229,12 +229,12 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 2
+            "contributors": 4
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
             "title": "Stations de taxi",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 379,
@@ -249,7 +249,7 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 7,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
+            "contributors": 5
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
