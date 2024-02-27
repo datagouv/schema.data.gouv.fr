@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Schema Versioning RSS Feed</title>
+    <link>https://schema.data.gouv.fr/</link>
+    <description>Updates on schema versioning</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Tue, 27 Feb 2024 16:21:38 +0000</lastBuildDate>
+    <item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.13.1 to 0.14.0)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2024-02-27: 0.13.1 to 0.14.0 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - CEREMA/schema-aire-livraison (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/CEREMA/schema-aire-livraison</link>
+      <description>Schema update on 2024-02-21: 0.1.0 for CEREMA/schema-aire-livraison</description>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - datakode/schema-pei (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/datakode/schema-pei</link>
+      <description>Schema update on 2024-02-14: 1.0.0 to 1.0.1 for datakode/schema-pei</description>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-servitudes-utilite-publique (1.1.1)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-servitudes-utilite-publique</link>
+      <description>Schema update on 2024-01-16: 1.1.1 for cnigfr/schema-servitudes-utilite-publique</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-plan-sauvegarde-et-mise-en-valeur (1.3.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur</link>
+      <description>Schema update on 2024-01-16: 1.3.0 for cnigfr/schema-plan-sauvegarde-et-mise-en-valeur</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-schema-coherence-territoriale (2.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-schema-coherence-territoriale</link>
+      <description>Schema update on 2024-01-16: 2.0.0 for cnigfr/schema-schema-coherence-territoriale</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-carte-communale (2.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-carte-communale</link>
+      <description>Schema update on 2024-01-16: 2.0.0 for cnigfr/schema-carte-communale</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-plan-local-urbanisme (2.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-plan-local-urbanisme</link>
+      <description>Schema update on 2024-01-16: 2.1.0 for cnigfr/schema-plan-local-urbanisme</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-grace-thd (3.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-grace-thd</link>
+      <description>Schema update on 2024-01-16: 3.0.0 for cnigfr/schema-grace-thd</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-reseaux-electriques (1.0.2)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-reseaux-electriques</link>
+      <description>Schema update on 2024-01-16: 1.0.2 for cnigfr/schema-reseaux-electriques</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-eclairage-exterieur (1.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-eclairage-exterieur</link>
+      <description>Schema update on 2024-01-16: 1.1.0 for cnigfr/schema-eclairage-exterieur</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-desserte-transport-bois (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-desserte-transport-bois</link>
+      <description>Schema update on 2024-01-16: 1.0.0 for cnigfr/schema-desserte-transport-bois</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-continuites-ecologiques-regionales (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-continuites-ecologiques-regionales</link>
+      <description>Schema update on 2024-01-16: 1.0.0 for cnigfr/schema-continuites-ecologiques-regionales</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-occupation-sols (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-occupation-sols</link>
+      <description>Schema update on 2024-01-16: 1.0.0 for cnigfr/schema-occupation-sols</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-socle-reseaux (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-socle-reseaux</link>
+      <description>Schema update on 2024-01-16: 1.0.0 for cnigfr/schema-socle-reseaux</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-plan-corps-rue-simplifie (2.0.4)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-plan-corps-rue-simplifie</link>
+      <description>Schema update on 2024-01-16: 2.0.4 for cnigfr/schema-plan-corps-rue-simplifie</description>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/sites-economiques-etablissement (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-etablissement</link>
+      <description>Schema update on 2023-11-08: 1.0.0 for cnigfr/sites-economiques-etablissement</description>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/sites-economiques-terrain-eco (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-terrain-eco</link>
+      <description>Schema update on 2023-11-08: 1.0.0 for cnigfr/sites-economiques-terrain-eco</description>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/sites-economiques-site-eco (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-site-eco</link>
+      <description>Schema update on 2023-11-08: 1.0.0 for cnigfr/sites-economiques-site-eco</description>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/sites-economiques-pole-eco (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-pole-eco</link>
+      <description>Schema update on 2023-11-08: 1.0.0 for cnigfr/sites-economiques-pole-eco</description>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-sites-economiques (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-sites-economiques</link>
+      <description>Schema update on 2023-11-08: 1.0.0 for cnigfr/schema-sites-economiques</description>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - cnigfr/schema-accessibilite-voirie (1.2.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-accessibilite-voirie</link>
+      <description>Schema update on 2023-09-25: 1.2.0 for cnigfr/schema-accessibilite-voirie</description>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.13.0 to 0.13.1)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2024-01-25: 0.13.0 to 0.13.1 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New schema - datatourisme/ontology (2.4.8)</title>
+      <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
+      <description>Schema update on 2023-09-26: 2.4.8 for datatourisme/ontology</description>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-impact-service-public-numerique (0.2.2 to 0.3.0)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-impact-service-public-numerique</link>
+      <description>Schema update on 2023-09-26: 0.2.2 to 0.3.0 for etalab/schema-impact-service-public-numerique</description>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-indice-reparabilite (0.1.1 to 0.1.2)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-indice-reparabilite</link>
+      <description>Schema update on 2023-10-17: 0.1.1 to 0.1.2 for etalab/schema-indice-reparabilite</description>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-comptage-mobilites-measure (None to 0.2.4)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-measure</link>
+      <description>Schema update on 2023-09-14: None to 0.2.4 for etalab/schema-comptage-mobilites-measure</description>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-comptage-mobilites-channel (None to 0.2.4)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-channel</link>
+      <description>Schema update on 2023-09-14: None to 0.2.4 for etalab/schema-comptage-mobilites-channel</description>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-comptage-mobilites-site (0.2.3 to 0.2.4)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-site</link>
+      <description>Schema update on 2023-05-17: 0.2.3 to 0.2.4 for etalab/schema-comptage-mobilites-site</description>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-comptage-mobilites (0.2.3 to 0.2.4)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites</link>
+      <description>Schema update on 2023-05-17: 0.2.3 to 0.2.4 for etalab/schema-comptage-mobilites</description>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-amenagements-cyclables (0.3.3 to 0.3.4)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables</link>
+      <description>Schema update on 2023-03-29: 0.3.3 to 0.3.4 for etalab/schema-amenagements-cyclables</description>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>Deleted schema - betagouv/data-inclusion-schema (0.9.1)</title>
+      <link>https://schema.data.gouv.fr/betagouv/data-inclusion-schema</link>
+      <description>Schema update on 2023-09-13: 0.9.1 for betagouv/data-inclusion-schema</description>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - MTES-MCT/acceslibre-schema (0.0.9 to 0.0.9)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
+      <description>Schema update on 2023-06-20: 0.0.9 to 0.0.9 for MTES-MCT/acceslibre-schema</description>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New schema - etalab/schema-stationnement-cyclable (1.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-stationnement-cyclable</link>
+      <description>Schema update on 2023-10-15: 1.1.1 for etalab/schema-stationnement-cyclable</description>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New schema - etalab/schema-stationnement (0.1.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
+      <description>Schema update on 2023-10-15: 0.1.5 for etalab/schema-stationnement</description>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/equipements (0.1.4 to 0.1.5)</title>
+      <link>https://schema.data.gouv.fr/scdl/equipements</link>
+      <description>Schema update on 2024-01-20: 0.1.4 to 0.1.5 for scdl/equipements</description>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - NaturalSolutions/schema-arbre (0.3.0 to 0.3.1)</title>
+      <link>https://schema.data.gouv.fr/NaturalSolutions/schema-arbre</link>
+      <description>Schema update on 2023-02-23: 0.3.0 to 0.3.1 for NaturalSolutions/schema-arbre</description>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/plats-menus-collectifs (0.7.0 to 0.7.2)</title>
+      <link>https://schema.data.gouv.fr/scdl/plats-menus-collectifs</link>
+      <description>Schema update on 2023-09-28: 0.7.0 to 0.7.2 for scdl/plats-menus-collectifs</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/menus-collectifs (1.2.1 to 1.2.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
+      <description>Schema update on 2023-09-28: 1.2.1 to 1.2.3 for scdl/menus-collectifs</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/prenoms (1.1.5 to 1.1.6)</title>
+      <link>https://schema.data.gouv.fr/scdl/prenoms</link>
+      <description>Schema update on 2023-09-28: 1.1.5 to 1.1.6 for scdl/prenoms</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/budget (0.8.1 to 0.8.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/budget</link>
+      <description>Schema update on 2023-09-28: 0.8.1 to 0.8.3 for scdl/budget</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/catalogue (0.1.2 to 0.1.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/catalogue</link>
+      <description>Schema update on 2023-09-28: 0.1.2 to 0.1.3 for scdl/catalogue</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/deliberations (2.1.4 to 2.1.5)</title>
+      <link>https://schema.data.gouv.fr/scdl/deliberations</link>
+      <description>Schema update on 2023-09-28: 2.1.4 to 2.1.5 for scdl/deliberations</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - scdl/subventions (2.1.0 to 2.1.1)</title>
+      <link>https://schema.data.gouv.fr/scdl/subventions</link>
+      <description>Schema update on 2023-09-28: 2.1.0 to 2.1.1 for scdl/subventions</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>New version - 139bercy/format-commande-publique (2.0.0 to 2.0.1)</title>
+      <link>https://schema.data.gouv.fr/139bercy/format-commande-publique</link>
+      <description>Schema update on 2024-01-12: 2.0.0 to 2.0.1 for 139bercy/format-commande-publique</description>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-lieux-covoiturage (0.2.8 to 0.3.0)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-lieux-covoiturage</link>
+      <description>Schema update on 2023-12-20: 0.2.8 to 0.3.0 for etalab/schema-lieux-covoiturage</description>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-dispositif-aide (0.0.2 to 0.0.2)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-dispositif-aide</link>
+      <description>Schema update on 2023-03-03: 0.0.2 to 0.0.2 for etalab/schema-dispositif-aide</description>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-vehicules-faibles-emissions-renouvellement-parc (0.1.3 to 0.1.3)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-vehicules-faibles-emissions-renouvellement-parc</link>
+      <description>Schema update on 2023-03-03: 0.1.3 to 0.1.3 for etalab/schema-vehicules-faibles-emissions-renouvellement-parc</description>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - CEREMA/schema-arrete-circulation-marchandises (0.9.2 to 0.9.2)</title>
+      <link>https://schema.data.gouv.fr/CEREMA/schema-arrete-circulation-marchandises</link>
+      <description>Schema update on 2023-03-03: 0.9.2 to 0.9.2 for CEREMA/schema-arrete-circulation-marchandises</description>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - atlasante/schema-dae (1.0.5 to 1.0.5)</title>
+      <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
+      <description>Schema update on 2023-03-03: 1.0.5 to 1.0.5 for atlasante/schema-dae</description>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - Archivistes75/registre_entrees (0.3.1 to 0.3.1)</title>
+      <link>https://schema.data.gouv.fr/Archivistes75/registre_entrees</link>
+      <description>Schema update on 2023-03-03: 0.3.1 to 0.3.1 for Archivistes75/registre_entrees</description>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-irve-dynamique (2.3.0 to 2.3.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-irve-dynamique</link>
+      <description>Schema update on 2024-02-07: 2.3.0 to 2.3.1 for etalab/schema-irve-dynamique</description>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-irve-statique (2.3.0 to 2.3.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-irve-statique</link>
+      <description>Schema update on 2024-02-07: 2.3.0 to 2.3.1 for etalab/schema-irve-statique</description>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - etalab/schema-irve (2.3.0 to 2.3.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-irve</link>
+      <description>Schema update on 2024-02-07: 2.3.0 to 2.3.1 for etalab/schema-irve</description>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Deleted schema - fchabouis/schema-irve-statique (2.2.2)</title>
+      <link>https://schema.data.gouv.fr/fchabouis/schema-irve-statique</link>
+      <description>Schema update on 2023-01-24: 2.2.2 for fchabouis/schema-irve-statique</description>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Deleted schema - fchabouis/schema-irve-dynamique (2.2.2)</title>
+      <link>https://schema.data.gouv.fr/fchabouis/schema-irve-dynamique</link>
+      <description>Schema update on 2023-01-24: 2.2.2 for fchabouis/schema-irve-dynamique</description>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Deleted schema - fchabouis/schema-irve (2.2.2)</title>
+      <link>https://schema.data.gouv.fr/fchabouis/schema-irve</link>
+      <description>Schema update on 2023-01-24: 2.2.2 for fchabouis/schema-irve</description>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>New version - cnigfr/schema-friches (1.0.3 to 1.0.4)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-friches</link>
+      <description>Schema update on 2023-12-23: 1.0.3 to 1.0.4 for cnigfr/schema-friches</description>
+      <pubDate>Sat, 23 Dec 2023 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
