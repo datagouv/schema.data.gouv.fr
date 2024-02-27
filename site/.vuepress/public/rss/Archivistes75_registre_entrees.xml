@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Archivistes75/registre_entrees Versioning RSS Feed</title>
+    <link>https://schema.data.gouv.fr/Archivistes75/registre_entrees</link>
+    <description>Updates on Archivistes75/registre_entrees versioning</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Tue, 27 Feb 2024 16:21:39 +0000</lastBuildDate>
+    <item>
+      <title>2023-03-03 - new_version - 0.3.1 to 0.3.1</title>
+      <description>Update on 2023-03-03: New version (0.3.1 to 0.3.1)</description>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>

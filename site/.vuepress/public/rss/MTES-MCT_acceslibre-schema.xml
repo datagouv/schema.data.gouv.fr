@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>MTES-MCT/acceslibre-schema Versioning RSS Feed</title>
+    <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
+    <description>Updates on MTES-MCT/acceslibre-schema versioning</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Tue, 27 Feb 2024 16:21:39 +0000</lastBuildDate>
+    <item>
+      <title>2023-06-20 - new_version - 0.0.9 to 0.0.9</title>
+      <description>Update on 2023-06-20: New version (0.0.9 to 0.0.9)</description>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0200</pubDate>
+    </item>
+  </channel>
+</rss>
