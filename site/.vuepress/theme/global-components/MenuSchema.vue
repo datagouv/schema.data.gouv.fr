@@ -80,6 +80,14 @@
                         <img src="../../public/assets/database.png" width="15" />&nbsp;
                         Données
                     </button>
+                    <button 
+                        @click="copyToClipboard" 
+                        class="fr-btn"
+                        :title="hoverText"
+                    >
+                        <img src="../../public/assets/info-white.png" width="15" />&nbsp;
+                        Lien RSS
+                    </button>
                 </span>
                 <button 
                     @click="gotoExternalLink(schema_infos['homepage'])" 
@@ -151,6 +159,7 @@ export default {
         pageInfo: false,
         pageDoc: false,
         pageChange: false,
+        hoverText: 'Cliquer pour copier',
     };
   },
   computed: {
@@ -213,6 +222,15 @@ export default {
             return desc.slice(0,length)+' [...]';
         } 
         return desc;
+      },
+      async copyToClipboard() {
+        const _ = require('lodash')
+        let textToCopy = 'https://schema.data.gouv.fr/rss/' + _.trim(this.$router.currentRoute.path, "/").replace(/\//, '_') + '.xml'
+        await navigator.clipboard.writeText(textToCopy);
+        this.hoverText = 'Lien copié sur dans le presse-papier !';
+        setTimeout(() => {
+            this.hoverText = 'Cliquer pour copier';
+        }, 3000);
       },
   },
 };
