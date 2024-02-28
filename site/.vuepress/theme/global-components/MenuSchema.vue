@@ -80,6 +80,14 @@
                         <img src="../../public/assets/database.png" width="15" />&nbsp;
                         Données
                     </button>
+                    <button 
+                        @click="gotoRSS()" 
+                        class="fr-btn"
+                        :title="hoverText"
+                    >
+                        <img src="../../public/assets/info-white.png" width="15" />&nbsp;
+                        RSS
+                    </button>
                 </span>
                 <button 
                     @click="gotoExternalLink(schema_infos['homepage'])" 
@@ -151,6 +159,7 @@ export default {
         pageInfo: false,
         pageDoc: false,
         pageChange: false,
+        hoverText: 'Cliquer pour copier',
     };
   },
   computed: {
@@ -213,6 +222,10 @@ export default {
             return desc.slice(0,length)+' [...]';
         } 
         return desc;
+      },
+      gotoRSS(){
+         const _ = require('lodash')
+         window.location.href = window.location.origin + '/rss/' + _.trim(this.$router.currentRoute.path, "/").replace(/\//, '_') + '.xml'
       },
   },
 };
