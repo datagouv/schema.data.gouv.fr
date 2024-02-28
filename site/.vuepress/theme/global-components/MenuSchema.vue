@@ -81,12 +81,12 @@
                         Données
                     </button>
                     <button 
-                        @click="copyToClipboard" 
+                        @click="gotoRSS()" 
                         class="fr-btn"
                         :title="hoverText"
                     >
                         <img src="../../public/assets/info-white.png" width="15" />&nbsp;
-                        Lien RSS
+                        RSS
                     </button>
                 </span>
                 <button 
@@ -223,14 +223,9 @@ export default {
         } 
         return desc;
       },
-      async copyToClipboard() {
-        const _ = require('lodash')
-        let textToCopy = 'https://schema.data.gouv.fr/rss/' + _.trim(this.$router.currentRoute.path, "/").replace(/\//, '_') + '.xml'
-        await navigator.clipboard.writeText(textToCopy);
-        this.hoverText = 'Lien copié sur dans le presse-papier !';
-        setTimeout(() => {
-            this.hoverText = 'Cliquer pour copier';
-        }, 3000);
+      gotoRSS(){
+         const _ = require('lodash')
+         window.location.href = window.location.origin + '/rss/' + _.trim(this.$router.currentRoute.path, "/").replace(/\//, '_') + '.xml'
       },
   },
 };

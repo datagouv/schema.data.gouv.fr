@@ -19,9 +19,9 @@
               <p class="fr-header__service-tagline">{{ $site.description }}</p>
             </div>
           </div>
-          <button @click="copyToClipboard" class="copy-button" :title="hoverText">
-            Copier le lien du flux RSS global
-          </button>
+          <span @click="goToRSS()" class="rss-span" :title="hoverText">
+            RSS
+          </span>
         </div>
       </div>
     </div>
@@ -37,13 +37,8 @@ export default {
     };
   },
   methods: {
-    async copyToClipboard() {
-      const textToCopy = 'https://schema.data.gouv.fr/rss/global.xml';
-      await navigator.clipboard.writeText(textToCopy);
-      this.hoverText = 'Lien copié sur dans le presse-papier !';
-      setTimeout(() => {
-        this.hoverText = 'Cliquer pour copier';
-      }, 3000);
+    async goToRSS() {
+      window.location.href = 'https://schema.data.gouv.fr/rss/global.xml';
     },
   },
 };
@@ -64,16 +59,15 @@ export default {
   padding: 20px;
 }
 
-.copy-button {
-  background-color: #000091;
-  color: white;
+.rss-span {
+  color: #000091;
+  font-weight: bold;
   font-size: 12px;
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin-right: 100px;
-  transition: background-color 0.3s ease;
 }
 
 </style>
