@@ -289,7 +289,10 @@ export default {
       var sts4 = []
       if(this.searchText != ''){
         sts3.forEach((s) => {
-          if (latinize(s.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
+          if (
+            latinize(s.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))
+            || latinize(s.description.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))
+          ) {
             sts4.push(s);
           }
         });
