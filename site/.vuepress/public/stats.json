@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1109,
+            "dgv_resources": 1108,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -102,7 +102,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 46,
+            "dgv_resources": 47,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -157,7 +157,7 @@
             "contributors": 8
         },
         "scdl/prenoms": {
-            "dgv_resources": 14,
+            "dgv_resources": 13,
             "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
             "contributors": 10
         },
@@ -299,7 +299,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 2,
