@@ -73,5 +73,5 @@ Ils sont dans le dossier `scripts`:
 
 ### Autres
 
-Reformater le schéma JSON TableSchema : https://jsonformatter.curiousconcept.com/#
+[Reformater le schéma JSON TableSchema](https://jsonformatter.curiousconcept.com/#)
 
