@@ -15,18 +15,20 @@ Le schéma proposé se veut volontairement [assez simple (un seul tableau de sai
 
 Le schéma comporte les **champs** essentiels pour identifier les paramètres d'un arrêté ainsi que les caractéristiques de l'aire de livraison elle même. Sa structure est cohérente et reprend les champs du [schéma des arrêtés permanents de circulation en ville pour le transport de marchandises](https://schema.data.gouv.fr/CEREMA/schema-arrete-circulation-marchandises/).
 
-[Un fichier d'exemple](exemple_antibes.csv) est fourni, avec la numérisation de trois aires de livraison sur la commune d'Antibes.
+[Un fichier d'exemple](https://github.com/CEREMA/schema-aire-livraison/blob/main/exemple_antibes.csv) est fourni, avec la numérisation de trois aires de livraison sur la commune d'Antibes.
+
+Auteurs principaux du schéma : Mathieu RAJERISON & Cédric BARIOU
 
 ## Le schéma
 
-[Voir le schéma au format JSON TableSchema ](schema.json)  
-[Voir la documentation associée au schéma (liste des champs et valeurs possibles)](documentation/schema-page.md)   
+[Voir le schéma au format JSON TableSchema ](https://github.com/CEREMA/schema-aire-livraison/blob/main/schema.json)  
+[Voir la documentation associée au schéma (liste des champs et valeurs possibles)](https://github.com/CEREMA/schema-aire-livraison/blob/main/documentation/schema-page.md)   
 
 ### Version *ultra*
 
 Des champs supplémentaires sont disponibles pour le schéma dans sa version **ultra**
 
-[Voir le schéma version **ultra** au format TableSchema (json)](documentation/schema-page-ultra.md) 
+[Voir le schéma version **ultra** au format TableSchema (json)](https://github.com/CEREMA/schema-aire-livraison/blob/main/documentation/schema-page-ultra.md) 
 
 ### Contribuer au schéma
 
@@ -68,8 +70,8 @@ Autrement, on trouve sur internet plusieurs jeux de données ouverts sur les air
 
 Ils sont dans le dossier `scripts`:
 
-[Créer la documentation du schéma](1-Creer-Documentation.bat)  
-[Tester l'exemple avec frictionless](scripts/2-Tester-Exemple.bat)
+[Créer la documentation du schéma](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/1-Creer-Documentation.bat)  
+[Tester l'exemple avec frictionless](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/2-Tester-Exemple.bat)
 
 ### Autres
 
