@@ -7,7 +7,7 @@
             ],
             "nb_comments": 0,
             "title": "Donn\u00e9es d'autopartage",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/107"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/107"
         }
     ],
     "investigation": [
@@ -18,7 +18,7 @@
             ],
             "nb_comments": 1,
             "title": "Sch\u00e9ma des cimeti\u00e8res et des concessions ",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/237"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/237"
         },
         {
             "created_at": "2021-12-09T17:28:56Z",
@@ -27,7 +27,7 @@
             ],
             "nb_comments": 29,
             "title": "Sch\u00e9ma des lieux proposant des services",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/214"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/214"
         },
         {
             "created_at": "2021-10-31T10:23:21Z",
@@ -36,7 +36,7 @@
             ],
             "nb_comments": 0,
             "title": "Effectifs scolaires",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/205"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/205"
         },
         {
             "created_at": "2021-10-27T13:54:40Z",
@@ -45,7 +45,7 @@
             ],
             "nb_comments": 0,
             "title": " sp\u00e9cifications techniques encadrant l\u2019ouverture des donn\u00e9es du domaine \u00ab routier \u00bb pour les collectivit\u00e9s",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/204"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/204"
         },
         {
             "created_at": "2021-09-21T07:31:30Z",
@@ -54,7 +54,7 @@
             ],
             "nb_comments": 7,
             "title": "Sch\u00e9ma de partage des stationnements PMR en voirie",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/190"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/190"
         },
         {
             "created_at": "2021-07-16T13:37:40Z",
@@ -63,7 +63,7 @@
             ],
             "nb_comments": 26,
             "title": "Sch\u00e9ma de description des tiers-lieu",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/179"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/179"
         },
         {
             "created_at": "2020-01-14T13:43:09Z",
@@ -72,7 +72,7 @@
             ],
             "nb_comments": 13,
             "title": "Sch\u00e9ma PJM (Protection Juridique de Majeurs)",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/75"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/75"
         },
         {
             "created_at": "2019-11-16T23:26:52Z",
@@ -81,13 +81,13 @@
             ],
             "nb_comments": 11,
             "title": "Sch\u00e9ma des centres de secours",
-            "url": "https://github.com/etalab/schema.data.gouv.fr/issues/62"
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1108,
+            "dgv_resources": 1107,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -102,7 +102,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 47,
+            "dgv_resources": 48,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -214,7 +214,7 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "datatourisme/ontology": {
             "dgv_resources": 3,
@@ -224,17 +224,17 @@
         "etalab/schema-zfe": {
             "dgv_resources": 14,
             "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 3
+            "contributors": 2
         },
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 4
+            "contributors": 2
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
             "title": "Stations de taxi",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 382,
@@ -249,7 +249,7 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 7,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 5
+            "contributors": 2
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
@@ -264,12 +264,12 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
