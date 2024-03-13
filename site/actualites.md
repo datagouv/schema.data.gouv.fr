@@ -1,3 +1,10 @@
+### 2024-03-13
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[atlasante/schema-dae](/atlasante/schema-dae/)** : <span style="color:red;">1.0.5</span> => <span style="color:green;">1.0.6</span><br>
+
+---
+
 ### 2024-02-27
 
 #### Montée de version:

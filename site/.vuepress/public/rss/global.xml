@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Schema Versioning RSS Feed</title>
+  <title>Schema Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/</link>
     <description>Updates on schema versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -355,5 +354,10 @@
       <description>Schema update on 2023-12-23: 1.0.3 to 1.0.4 for cnigfr/schema-friches</description>
       <pubDate>Sat, 23 Dec 2023 00:00:00 +0100</pubDate>
     </item>
-  </channel>
+  <item>
+      <title>New version - atlasante/schema-dae (1.0.5 to 1.0.6)</title>
+      <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
+      <description>Schema update on 2024-03-13: 1.0.5 to 1.0.6 for atlasante/schema-dae</description>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0100</pubDate>
+    </item></channel>
 </rss>
