@@ -3,7 +3,7 @@ run-name: create and deploy ${{ github.sha }}
 on:
   push:
     branches:
-      - trigger-gitlab-ci
+      - main
 jobs:
   trigger-gitlab-pipeline:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
           echo "SCAFFOLD_DIR=scaffold" >> $GITHUB_ENV
       - name: clone scaffold repository
         shell: bash
-        run: git clone --depth 1 -b trigger-gitlab-ci https://oauth2:$GITLAB_API_TOKEN@${{ vars.SCAFFOLD_REPO_PUBLIC_URL }} ${{ env.SCAFFOLD_DIR }}
+        run: git clone --depth 1 https://oauth2:$GITLAB_API_TOKEN@${{ vars.SCAFFOLD_REPO_PUBLIC_URL }} ${{ env.SCAFFOLD_DIR }}
       - name: trigger Gitlab CI/CD pipeline
         shell: bash
         run: |
