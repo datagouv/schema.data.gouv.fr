@@ -328,5 +328,13 @@
                 "version": "0.13.1 => 0.14.0"
             }
         ]
+    },
+    "2024-03-13": {
+        "new_version": [
+            {
+                "schema_name": "atlasante/schema-dae",
+                "version": "1.0.5 => 1.0.6"
+            }
+        ]
     }
 }
