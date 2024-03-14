@@ -87,7 +87,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1109,
+            "dgv_resources": 1110,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -142,7 +142,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 22,
+            "dgv_resources": 23,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
