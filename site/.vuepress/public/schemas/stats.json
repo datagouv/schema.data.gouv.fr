@@ -97,7 +97,7 @@
             "contributors": 7
         },
         "etalab/schema-irve": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "contributors": 7
         },
@@ -217,7 +217,7 @@
             "contributors": 6
         },
         "datatourisme/ontology": {
-            "dgv_resources": 3,
+            "dgv_resources": 5,
             "title": "DATAtourisme",
             "contributors": 10
         },
@@ -264,7 +264,7 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
@@ -312,7 +312,7 @@
             "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
         },
@@ -352,7 +352,7 @@
             "contributors": 2
         },
         "cnigfr/schema-grace-thd": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
             "contributors": 2
         },
