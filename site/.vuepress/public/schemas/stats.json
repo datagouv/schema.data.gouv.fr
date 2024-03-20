@@ -269,12 +269,12 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 4,
