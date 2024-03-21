@@ -2,7 +2,7 @@
     "2024-03-14": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma fontaines \u00e0 eau",
+                "title": "Schéma fontaines à eau",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/306"
             }
         ]
@@ -348,7 +348,7 @@
     "2022-05-30": {
         "investigation": [
             {
-                "title": "Lieux de m\u00e9diation num\u00e9rique",
+                "title": "Lieux de médiation numérique",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/249"
             }
         ]
@@ -356,13 +356,13 @@
     "2022-04-19": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des donn\u00e9es d'impact d'un service num\u00e9rique public",
+                "title": "Schéma des données d'impact d'un service numérique public",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/241"
             }
         ],
         "investigation": [
             {
-                "title": "Sch\u00e9ma des donn\u00e9es d'impact d'un service num\u00e9rique public",
+                "title": "Schéma des données d'impact d'un service numérique public",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/241"
             }
         ]
@@ -370,7 +370,7 @@
     "2022-02-28": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma des cimeti\u00e8res et des concessions ",
+                "title": "Schéma des cimetières et des concessions ",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/237"
             }
         ]
@@ -378,7 +378,7 @@
     "2022-01-24": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des Universit\u00e9s et \u00e9coles",
+                "title": "Schéma des Universités et écoles",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/225"
             }
         ]
@@ -386,7 +386,7 @@
     "2022-01-06": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma des appels publics",
+                "title": "Schéma des appels publics",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/221"
             }
         ]
@@ -394,7 +394,7 @@
     "2021-12-09": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma des lieux proposant des services",
+                "title": "Schéma des lieux proposant des services",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/214"
             }
         ]
@@ -402,7 +402,7 @@
     "2021-11-26": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des pr\u00e9noms",
+                "title": "Schéma des prénoms",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/209"
             }
         ]
@@ -410,7 +410,7 @@
     "2021-11-25": {
         "construction": [
             {
-                "title": "Elaboration de sch\u00e9mas de comptage des mobilit\u00e9s ",
+                "title": "Elaboration de schémas de comptage des mobilités ",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/208"
             }
         ]
@@ -426,7 +426,7 @@
     "2021-10-27": {
         "investigation": [
             {
-                "title": " sp\u00e9cifications techniques encadrant l\u2019ouverture des donn\u00e9es du domaine \u00ab routier \u00bb pour les collectivit\u00e9s",
+                "title": " spécifications techniques encadrant l’ouverture des données du domaine « routier » pour les collectivités",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/204"
             }
         ]
@@ -434,7 +434,7 @@
     "2021-09-21": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma de partage des stationnements PMR en voirie",
+                "title": "Schéma de partage des stationnements PMR en voirie",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/190"
             }
         ]
@@ -442,7 +442,7 @@
     "2021-09-17": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des Passages \u00e0 Niveau",
+                "title": "Schéma des Passages à Niveau",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/188"
             }
         ]
@@ -450,7 +450,7 @@
     "2021-09-13": {
         "construction": [
             {
-                "title": "Sch\u00e9ma de repr\u00e9sentation des emprises de stationnement sur voie publique",
+                "title": "Schéma de représentation des emprises de stationnement sur voie publique",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/185"
             }
         ]
@@ -458,7 +458,7 @@
     "2021-08-23": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des points d'eau incendie",
+                "title": "Schéma des points d'eau incendie",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/181"
             }
         ]
@@ -466,7 +466,7 @@
     "2021-07-16": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma de description des tiers-lieu",
+                "title": "Schéma de description des tiers-lieu",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/179"
             }
         ]
@@ -474,7 +474,7 @@
     "2021-05-03": {
         "construction": [
             {
-                "title": "Sch\u00e9ma Arr\u00eat\u00e9s Permanents de Circulation",
+                "title": "Schéma Arrêtés Permanents de Circulation",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/157"
             }
         ]
@@ -482,7 +482,7 @@
     "2021-04-29": {
         "construction": [
             {
-                "title": "Ajouter un format tabulaire pour les donn\u00e9es de la commande publique",
+                "title": "Ajouter un format tabulaire pour les données de la commande publique",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/156"
             }
         ]
@@ -490,7 +490,7 @@
     "2021-03-16": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma Itin\u00e9raires de randonn\u00e9es",
+                "title": "Schéma Itinéraires de randonnées",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/150"
             }
         ]
@@ -498,7 +498,7 @@
     "2020-12-02": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des lieux de l'inclusion num\u00e9rique",
+                "title": "Schéma des lieux de l'inclusion numérique",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/136"
             }
         ]
@@ -506,7 +506,7 @@
     "2020-11-16": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma des registres d'entr\u00e9es dans les services publics d'archives",
+                "title": "Schéma des registres d'entrées dans les services publics d'archives",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/131"
             }
         ]
@@ -514,13 +514,13 @@
     "2020-11-03": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des hautes r\u00e9mun\u00e9rations dans la fonction publique",
+                "title": "Schéma des hautes rémunérations dans la fonction publique",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/130"
             }
         ],
         "investigation": [
             {
-                "title": "Sch\u00e9ma des hautes r\u00e9mun\u00e9rations dans la fonction publique",
+                "title": "Schéma des hautes rémunérations dans la fonction publique",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/130"
             }
         ]
@@ -528,7 +528,7 @@
     "2020-11-02": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des \u00e9quipements v\u00e9los",
+                "title": "Schéma des équipements vélos",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/129"
             }
         ]
@@ -536,7 +536,7 @@
     "2020-08-26": {
         "construction": [
             {
-                "title": "Donn\u00e9es de stationnement v\u00e9lo",
+                "title": "Données de stationnement vélo",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/125"
             }
         ]
@@ -552,7 +552,7 @@
     "2020-05-18": {
         "construction": [
             {
-                "title": "Donn\u00e9es d'autopartage",
+                "title": "Données d'autopartage",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/107"
             }
         ]
@@ -560,7 +560,7 @@
     "2020-01-24": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des d\u00e9fibrillateurs automatis\u00e9s externes (DAE)",
+                "title": "Schéma des défibrillateurs automatisés externes (DAE)",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/79"
             }
         ]
@@ -568,7 +568,7 @@
     "2020-01-14": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma PJM (Protection Juridique de Majeurs)",
+                "title": "Schéma PJM (Protection Juridique de Majeurs)",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/75"
             }
         ]
@@ -576,7 +576,7 @@
     "2019-12-17": {
         "construction": [
             {
-                "title": "Sch\u00e9ma des lieux de stationnement",
+                "title": "Schéma des lieux de stationnement",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/65"
             }
         ]
@@ -584,7 +584,7 @@
     "2019-12-05": {
         "construction": [
             {
-                "title": "sch\u00e9ma des informations de restauration collectivit\u00e9",
+                "title": "schéma des informations de restauration collectivité",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/64"
             }
         ]
@@ -592,7 +592,7 @@
     "2019-11-16": {
         "investigation": [
             {
-                "title": "Sch\u00e9ma des centres de secours",
+                "title": "Schéma des centres de secours",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
             }
         ]
@@ -600,7 +600,7 @@
     "2019-06-17": {
         "investigation": [
             {
-                "title": "description des sch\u00e9mas relationnels de nos g\u00e9ostandards",
+                "title": "description des schémas relationnels de nos géostandards",
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/25"
             }
         ]
