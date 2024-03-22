@@ -16,6 +16,7 @@ jobs:
           echo "REPO_PUBLIC_URL=${{ github.server_url }}/${{ github.repository }}.git" >> $GITHUB_ENV
           echo "SCAFFOLD_DIR=scaffold" >> $GITHUB_ENV
           echo "BRANCH_NAME=main" >> $GITHUB_ENV
+          echo "ENV_FILE=" >> $GITHUB_ENV
       - name: clone scaffold repository
         shell: bash
         run: git clone --depth 1 https://oauth2:$GITLAB_API_TOKEN@${{ vars.SCAFFOLD_REPO_PUBLIC_URL }} ${{ env.SCAFFOLD_DIR }}
@@ -23,5 +24,5 @@ jobs:
         shell: bash
         run: |
           RELEASE_VERSION="${GITHUB_SHA:0:8}"
-          ./scripts/gitlab-ci-pipeline.sh ${{ env.REPO_PUBLIC_URL }} ${{ vars.APP_NAME }} $RELEASE_VERSION $BRANCH_NAME
+          ./scripts/gitlab-ci-pipeline.sh ${{ env.REPO_PUBLIC_URL }} ${{ vars.APP_NAME }} $RELEASE_VERSION $BRANCH_NAME $ENV_FILE
         working-directory: ${{ env.SCAFFOLD_DIR }}
