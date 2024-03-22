@@ -1,8 +1,14 @@
+### 2024-03-22
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-friches](/cnigfr/schema-friches/)** : <span style="color:red;">1.0.4</span> => <span style="color:green;">1.0.5</span><br>
+
+---
+
 ### 2024-03-14
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma fontaines à eau](https://github.com/datagouv/schema.data.gouv.fr/issues/306/)**
-
 ---
 
 ### 2024-03-13
@@ -220,216 +226,184 @@
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Lieux de médiation numérique](https://github.com/datagouv/schema.data.gouv.fr/issues/249/)**
-
 ---
 
 ### 2022-04-19
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des données d'impact d'un service numérique public](https://github.com/datagouv/schema.data.gouv.fr/issues/241/)**
-
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des données d'impact d'un service numérique public](https://github.com/datagouv/schema.data.gouv.fr/issues/241/)**
-
 ---
 
 ### 2022-02-28
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des cimetières et des concessions ](https://github.com/datagouv/schema.data.gouv.fr/issues/237/)**
-
 ---
 
 ### 2022-01-24
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des Universités et écoles](https://github.com/datagouv/schema.data.gouv.fr/issues/225/)**
-
 ---
 
 ### 2022-01-06
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des appels publics](https://github.com/datagouv/schema.data.gouv.fr/issues/221/)**
-
 ---
 
 ### 2021-12-09
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des lieux proposant des services](https://github.com/datagouv/schema.data.gouv.fr/issues/214/)**
-
 ---
 
 ### 2021-11-26
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des prénoms](https://github.com/datagouv/schema.data.gouv.fr/issues/209/)**
-
 ---
 
 ### 2021-11-25
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Elaboration de schémas de comptage des mobilités ](https://github.com/datagouv/schema.data.gouv.fr/issues/208/)**
-
 ---
 
 ### 2021-10-31
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Effectifs scolaires](https://github.com/datagouv/schema.data.gouv.fr/issues/205/)**
-
 ---
 
 ### 2021-10-27
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[ spécifications techniques encadrant l’ouverture des données du domaine « routier » pour les collectivités](https://github.com/datagouv/schema.data.gouv.fr/issues/204/)**
-
 ---
 
 ### 2021-09-21
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma de partage des stationnements PMR en voirie](https://github.com/datagouv/schema.data.gouv.fr/issues/190/)**
-
 ---
 
 ### 2021-09-17
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des Passages à Niveau](https://github.com/datagouv/schema.data.gouv.fr/issues/188/)**
-
 ---
 
 ### 2021-09-13
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma de représentation des emprises de stationnement sur voie publique](https://github.com/datagouv/schema.data.gouv.fr/issues/185/)**
-
 ---
 
 ### 2021-08-23
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des points d'eau incendie](https://github.com/datagouv/schema.data.gouv.fr/issues/181/)**
-
 ---
 
 ### 2021-07-16
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma de description des tiers-lieu](https://github.com/datagouv/schema.data.gouv.fr/issues/179/)**
-
 ---
 
 ### 2021-05-03
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma Arrêtés Permanents de Circulation](https://github.com/datagouv/schema.data.gouv.fr/issues/157/)**
-
 ---
 
 ### 2021-04-29
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Ajouter un format tabulaire pour les données de la commande publique](https://github.com/datagouv/schema.data.gouv.fr/issues/156/)**
-
 ---
 
 ### 2021-03-16
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma Itinéraires de randonnées](https://github.com/datagouv/schema.data.gouv.fr/issues/150/)**
-
 ---
 
 ### 2020-12-02
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des lieux de l'inclusion numérique](https://github.com/datagouv/schema.data.gouv.fr/issues/136/)**
-
 ---
 
 ### 2020-11-16
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des registres d'entrées dans les services publics d'archives](https://github.com/datagouv/schema.data.gouv.fr/issues/131/)**
-
 ---
 
 ### 2020-11-03
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des hautes rémunérations dans la fonction publique](https://github.com/datagouv/schema.data.gouv.fr/issues/130/)**
-
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des hautes rémunérations dans la fonction publique](https://github.com/datagouv/schema.data.gouv.fr/issues/130/)**
-
 ---
 
 ### 2020-11-02
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des équipements vélos](https://github.com/datagouv/schema.data.gouv.fr/issues/129/)**
-
 ---
 
 ### 2020-08-26
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Données de stationnement vélo](https://github.com/datagouv/schema.data.gouv.fr/issues/125/)**
-
 ---
 
 ### 2020-07-01
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Menus collectifs](https://github.com/datagouv/schema.data.gouv.fr/issues/116/)**
-
 ---
 
 ### 2020-05-18
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Données d'autopartage](https://github.com/datagouv/schema.data.gouv.fr/issues/107/)**
-
 ---
 
 ### 2020-01-24
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des défibrillateurs automatisés externes (DAE)](https://github.com/datagouv/schema.data.gouv.fr/issues/79/)**
-
 ---
 
 ### 2020-01-14
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma PJM (Protection Juridique de Majeurs)](https://github.com/datagouv/schema.data.gouv.fr/issues/75/)**
-
 ---
 
 ### 2019-12-17
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des lieux de stationnement](https://github.com/datagouv/schema.data.gouv.fr/issues/65/)**
-
 ---
 
 ### 2019-12-05
 
 #### Schéma en construction:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[schéma des informations de restauration collectivité](https://github.com/datagouv/schema.data.gouv.fr/issues/64/)**
-
 ---
 
 ### 2019-11-16
 
 #### Schéma en investigation:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma des centres de secours](https://github.com/datagouv/schema.data.gouv.fr/issues/62/)**
-
 ---
 
 ### 2019-06-17

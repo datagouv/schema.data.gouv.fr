@@ -2004,9 +2004,15 @@
                     "README.md"
                 ],
                 "schema_url": "/cnigfr/schema-friches/1.0.4/schema.json"
+            },
+            "1.0.5": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-friches/1.0.5/schema.json"
             }
         },
-        "latest": "1.0.4"
+        "latest": "1.0.5"
     },
     "etalab/schema-indice-reparabilite": {
         "homepage": "https://github.com/etalab/schema-indice-reparabilite.git",

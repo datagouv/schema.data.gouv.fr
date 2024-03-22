@@ -995,6 +995,11 @@
         "type": "convert to markdown"
     },
     {
+        "schema": "friches",
+        "version": "1.0.5",
+        "type": "convert to markdown"
+    },
+    {
         "schema": "indice-reparabilite",
         "version": "0.1.0",
         "type": "convert to markdown"
