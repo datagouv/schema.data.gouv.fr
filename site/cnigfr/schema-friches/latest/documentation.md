@@ -92,7 +92,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
     - friche commerciale
     - friche hospitalière
     - friche agro-industrielle
-    - Friche carrière ou mine
+    - friche carrière ou mine
     - friche militaire
     - friche d'habitat
     - friche d'équipement public
@@ -411,7 +411,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 > *Description : Liste des identifiants des parcelles cadastrales de l'unité foncière<br/>Ex : 12083000AH0035|12083000AH0072|12083000AH0279|12083000AH0367*
 - Valeur optionnelle
 - Type : chaîne de caractères
-- Motif : `(?:(?:^|\|)(\d{8}[0-9A-Z]{2}\d{4}|)\1+\d{8}[0-9A-Z]{2}\d{4})+$`
+- Motif : `(?:(?:^|\|)([0-9A-B]{2}\d{6}[0-9A-Z]{2}\d{4}|)\1+[0-9A-B]{2}\d{6}[0-9A-Z]{2}\d{4})+$`
 
 #### type de zone d'urbanisme - Propriété `urba_zone_type`
 

@@ -37,7 +37,7 @@
       }
    ],
    "created":"2022-04-21",
-   "lastModified":"2023-12-22",
+   "lastModified":"2024-03-22",
    "version":"v1.0.5",
    "contributors":[
       {
@@ -93,7 +93,7 @@
                "friche commerciale",
                "friche hospitalière",
                "friche agro-industrielle",
-               "Friche carrière ou mine",
+               "friche carrière ou mine",
                "friche militaire",
                "friche d'habitat",
                "friche d'équipement public",
@@ -573,7 +573,7 @@
          "type":"string",
          "constraints":{
             "required":false,
-            "pattern":"(?:(?:^|\\|)(\\d{8}[0-9A-Z]{2}\\d{4}|)\\1+\\d{8}[0-9A-Z]{2}\\d{4})+$"
+            "pattern":"(?:(?:^|\\|)([0-9A-B]{2}\\d{6}[0-9A-Z]{2}\\d{4}|)\\1+[0-9A-B]{2}\\d{6}[0-9A-Z]{2}\\d{4})+$"
          }
       },
       {
