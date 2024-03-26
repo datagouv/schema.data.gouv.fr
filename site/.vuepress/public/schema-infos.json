@@ -1338,9 +1338,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-schema/0.0.14/schema.json"
+            },
+            "0.0.15": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.15/schema.json"
             }
         },
-        "latest": "0.0.14"
+        "latest": "0.0.15"
     },
     "etalab/schema-sdirve": {
         "homepage": "https://github.com/etalab/schema-sdirve.git",
