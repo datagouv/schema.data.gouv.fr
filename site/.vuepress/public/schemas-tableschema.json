@@ -833,12 +833,12 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.14/exemple-valide.csv"
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.10/exemple-valide.csv"
                 },
                 {
                     "title": "Sch\u00e9ma au format XLS",
                     "name": "schema_format_xls",
-                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.14/schema_format_excel.xls"
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.10/schema_format_excel.xls"
                 }
             ],
             "labels": [],
@@ -891,6 +891,10 @@
                 {
                     "version_name": "0.0.14",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.14/schema.json"
+                },
+                {
+                    "version_name": "0.0.15",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.15/schema.json"
                 }
             ],
             "external_doc": null,

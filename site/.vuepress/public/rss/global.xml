@@ -364,5 +364,10 @@
       <link>https://schema.data.gouv.fr/cnigfr/schema-friches</link>
       <description>Schema update on 2024-03-23: 1.0.4 to 1.0.5 for cnigfr/schema-friches</description>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - MTES-MCT/acceslibre-schema (0.0.14 to 0.0.15)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
+      <description>Schema update on 2024-03-26: 0.0.14 to 0.0.15 for MTES-MCT/acceslibre-schema</description>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>
