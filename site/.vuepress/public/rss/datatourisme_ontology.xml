@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>datatourisme/ontology Versioning RSS Feed</title>
+  <title>datatourisme/ontology Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
     <description>Updates on datatourisme/ontology versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -12,5 +11,9 @@
       <description>Update on 2023-09-26: New schema (2.4.8)</description>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0200</pubDate>
     </item>
-  </channel>
+  <item>
+      <title>2024-03-28 - deleted_schema - 2.4.8</title>
+      <description>Update on 2024-03-28: Deleted schema (datatourisme/ontology)</description>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0100</pubDate>
+    </item></channel>
 </rss>
