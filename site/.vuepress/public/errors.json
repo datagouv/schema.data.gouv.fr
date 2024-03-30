@@ -190,6 +190,66 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "datatourisme",
+        "version": "1.0.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.0.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.1.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.2.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.3.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.3.6",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.4.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.4.1",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.4.3",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.4.4",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.4.5",
+        "type": "validation of type other"
+    },
+    {
+        "schema": "datatourisme",
+        "version": "2.4.6",
+        "type": "validation of type other"
+    },
+    {
         "schema": "arrete-circulation-marchandise",
         "version": "0.3.1",
         "type": "tableschema validation"
