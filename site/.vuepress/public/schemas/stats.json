@@ -164,12 +164,12 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 15,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 216,
