@@ -11,7 +11,7 @@
    ],
    "countryCode":"FR",
    "homepage":"https://github.com/etalab/schema-flotte-publique-vehicule",
-   "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.2/schema.json",
+   "path":"https://github.com/etalab/schema-flotte-publique-vehicule/raw/v0.1.3/schema.json",
    "image":"",
    "licenses":[
       {
@@ -43,7 +43,7 @@
    ],
    "created":"2021-09-15",
    "lastModified":"2022-12-23",
-   "version":"0.1.3",
+   "version":"v0.1.3",
    "contributors":[
       {
          "title":"Julieta Barado",

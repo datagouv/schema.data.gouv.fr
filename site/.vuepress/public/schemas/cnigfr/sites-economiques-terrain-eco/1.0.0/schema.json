@@ -199,7 +199,7 @@
       "constraints": {"required": true},
       "enum": [
          "inoccupé",
-         "occupation en transition",
+         "occupation transitoire",
          "occupé",
          "vacant",
          "friche",

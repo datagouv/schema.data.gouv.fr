@@ -8,7 +8,7 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 
 - Schéma créé le : 20/04/2022
 - Site web : https://github.com/etalab/schema-impact-service-numerique-public
-- Version : 0.3.0
+- Version : v0.3.0
 
 ### Modèle de données
 
