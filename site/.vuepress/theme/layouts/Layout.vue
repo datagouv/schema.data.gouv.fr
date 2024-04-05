@@ -1,5 +1,6 @@
 <template>
   <main>
+    <InfoBanner />
     <Header />
     <Menu />
     <span v-if="this.$router.currentRoute.path === '/'">
@@ -32,6 +33,7 @@ main > div {
 
 <script>
 import Header from "../components/Header";
+import InfoBanner from "../components/InfoBanner";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import Hero from "../components/Hero";
@@ -40,6 +42,7 @@ import SchemaCardsSample from "../global-components/SchemaCardsSample";
 
 export default {
   components: {
+    InfoBanner,
     Header,
     Footer,
     Menu,
