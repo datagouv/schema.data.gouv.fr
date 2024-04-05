@@ -8,7 +8,7 @@ Spécification des données fixant les termes et modalités de publication du po
 
 - Schéma créé le : 15/09/2021
 - Site web : https://github.com/etalab/schema-flotte-publique-vehicule
-- Version : 0.1.3
+- Version : v0.1.3
 
 ### Modèle de données
 

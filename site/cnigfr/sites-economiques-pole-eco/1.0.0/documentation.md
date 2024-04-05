@@ -58,6 +58,7 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
     - aéroportuaire, aéronautique
     - entrepôts, logistique
     - logistique agricole
+    - mixte à dominante logistique
     - mixte, sans dominante
     - inconnu
     - autre
