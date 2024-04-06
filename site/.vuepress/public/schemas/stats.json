@@ -74,10 +74,10 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 26,
+    "nb_issues": 27,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1113,
+            "dgv_resources": 1115,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -164,15 +164,15 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 15,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 214,
+            "dgv_resources": 215,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -197,7 +197,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 16,
+            "dgv_resources": 17,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
