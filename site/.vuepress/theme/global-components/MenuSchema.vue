@@ -225,7 +225,7 @@ export default {
       },
       gotoRSS(){
          const _ = require('lodash')
-         window.location.href = window.location.origin + '/rss/' + _.trim(this.$router.currentRoute.path, "/").replace(/\//, '_') + '.xml'
+          window.location.href = window.location.origin + '/rss/' + _.trim(this.$router.currentRoute.path, "/").split('/').slice(0, 2).join('/').replace(/\//, '_') + '.xml'
       },
   },
 };
