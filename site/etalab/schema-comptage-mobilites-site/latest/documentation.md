@@ -9,7 +9,7 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 - Schéma créé le : 06/05/2021
 - Site web : https://github.com/etalab/schema-comptage-mobilites
 - Version : 0.2.4
-- Clé primaire : `site_id`
+- Clé primaire : `site_id`
 
 ### Modèle de données
 
@@ -29,52 +29,52 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 
 #### Propriété `site_id`
 
-> *Description : Identifiant unique du site (dans le référentiel de la collectivité) où est installé le compteur dans les bases de données de la collectivité territoriale productrice de données. Cette valeur doit être utilisée dans le champ `site_id`du fichier `channel` pour faire le lien. <br/>Ex : C01-Baix*
+> *Description : Identifiant unique du site (dans le référentiel de la collectivité) où est installé le compteur dans les bases de données de la collectivité territoriale productrice de données. Cette valeur doit être utilisée dans le champ `site_id`du fichier `channel` pour faire le lien. *<br/>*Exemple : C01-Baix*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `parent_site_id`
 
-> *Description : Identifiant optionnel du site parent pour regroupement géographique.<br/>Ex : C-Baix*
+> *Description : Identifiant optionnel du site parent pour regroupement géographique.*<br/>*Exemple : C-Baix*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `site_name`
 
-> *Description : Nom du site<br/>Ex : Baix*
+> *Description : Nom du site*<br/>*Exemple : Baix*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `fr_insee_code`
 
-> *Description : Code INSEE de la collectivité où se trouve le site de comptage<br/>Ex : 07022*
+> *Description : Code INSEE de la collectivité où se trouve le site de comptage*<br/>*Exemple : 07022*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### Propriété `xlong`
 
-> *Description : La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.<br/>Ex : 1.452323*
+> *Description : La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.*<br/>*Exemple : 1.452323*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -180 et 180
 
 #### Propriété `ylat`
 
-> *Description : La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.<br/>Ex : 46.59698*
+> *Description : La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement du compteur exprimée dans le système de coordonnées WGS84.*<br/>*Exemple : 46.59698*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -90 et 90
 
 #### Propriété `external_ids`
 
-> *Description : Identifiant(s) d'infrastructures de la collectivité dans une base de données publiée en opendata. Chaque identifiant est séparé par une virgule. Exemple : identifiants des aménagements cyclables dans la base nationale des aménagements cyclables.<br/>Ex : 07022-CM-001*
+> *Description : Identifiant(s) d'infrastructures de la collectivité dans une base de données publiée en opendata. Chaque identifiant est séparé par une virgule. Exemple : identifiants des aménagements cyclables dans la base nationale des aménagements cyclables.*<br/>*Exemple : 07022-CM-001*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `infrastructure_type`
 
-> *Description : Type d'infrastructure où se situe le site de comptage. Les valeurs sont énumérées en anglais et traduites en français.<br/>Ex : GREENWAY*
+> *Description : Type d'infrastructure où se situe le site de comptage. Les valeurs sont énumérées en anglais et traduites en français.*<br/>*Exemple : GREENWAY*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 

@@ -74,25 +74,25 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 27,
+    "nb_issues": 26,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1115,
+            "dgv_resources": 1120,
             "title": "IRVE statique",
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 7,
+            "dgv_resources": 8,
             "title": "IRVE dynamique",
             "contributors": 7
         },
         "etalab/schema-irve": {
-            "dgv_resources": 1,
+            "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 48,
+            "dgv_resources": 51,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -107,7 +107,7 @@
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -122,7 +122,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 37,
+            "dgv_resources": 36,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -159,22 +159,22 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 15,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 215,
+            "dgv_resources": 214,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -194,12 +194,12 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 17,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
@@ -342,7 +342,7 @@
             "contributors": 2
         },
         "cnigfr/schema-grace-thd": {
-            "dgv_resources": 3,
+            "dgv_resources": 4,
             "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
             "contributors": 2
         },

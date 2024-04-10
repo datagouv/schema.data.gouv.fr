@@ -39,32 +39,32 @@ Spécification du standard national des registres d'entrée d'archives
 
 #### Identifiant unique de chaque entrée - Propriété `ID`
 
-> *Description : Identifiant unique de chaque entrée composés de ces trois éléments séparés par des tirets bas : l'identifiant du service archives, année d'entrée et un identifiant unique (numéro incrémental, identifiant technique...) L'identifiant du service d'archives peut être composé soit du numéro utilisé pour identifier les IR, ou pour des services d'entreprises le SIREN ou pour d'autres types de services le RCR, le numéro Muséophile. Dans ce cas, il faut renseigner cet éléments dans les métadonnées associées.<br/>Ex : FRAC_13001_2020_001, FRAN_2020_aeaqaaaabehgml5fab7gialyq46s4jyaaaca*
+> *Description : Identifiant unique de chaque entrée composés de ces trois éléments séparés par des tirets bas : l'identifiant du service archives, année d'entrée et un identifiant unique (numéro incrémental, identifiant technique...) L'identifiant du service d'archives peut être composé soit du numéro utilisé pour identifier les IR, ou pour des services d'entreprises le SIREN ou pour d'autres types de services le RCR, le numéro Muséophile. Dans ce cas, il faut renseigner cet éléments dans les métadonnées associées.*<br/>*Exemple : FRAC_13001_2020_001, FRAN_2020_aeaqaaaabehgml5fab7gialyq46s4jyaaaca*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `.*_[0-9]{4}_.*`
 
 #### Nom du service archives - Propriété `nomArch`
 
-> *Description : Nom sous forme textuelle du service d'archives dans où sont entrées les archives<br/>Ex : Archives municipales d'Aix-en-Provence*
+> *Description : Nom sous forme textuelle du service d'archives dans où sont entrées les archives*<br/>*Exemple : Archives municipales d'Aix-en-Provence*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Cotation - Propriété `coteArch`
 
-> *Description : Identifiant de l'entrée d’archives et correspondant à sa place dans le cadre de classement (série et sous-série). Dans le cas où les articles sont connus dès l'entrée, ils peuvent être ajoutés à la cotation (mais cela reste optionnel).<br/>Ex : 1238W, 1240W 1-12*
+> *Description : Identifiant de l'entrée d’archives et correspondant à sa place dans le cadre de classement (série et sous-série). Dans le cas où les articles sont connus dès l'entrée, ils peuvent être ajoutés à la cotation (mais cela reste optionnel).*<br/>*Exemple : 1238W, 1240W 1-12*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Date d'entrée - Propriété `dateEntree`
 
-> *Description : date à laquelle les documents sont entrés dans le service d'archives au format ISO8601<br/>Ex : 2020-08-26*
+> *Description : date à laquelle les documents sont entrés dans le service d'archives au format ISO8601*<br/>*Exemple : 2020-08-26*
 - Valeur obligatoire
 - Type : date (format `default`)
 
 #### nature juridique des documents entrés - Propriété `statutJur`
 
-> *Description : permet d'identifier le statut juridique des archives<br/>Ex : Archives publiques*
+> *Description : permet d'identifier le statut juridique des archives*<br/>*Exemple : Archives publiques*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -74,7 +74,7 @@ Spécification du standard national des registres d'entrée d'archives
 
 #### modalité d'entrée - Propriété `modeEntree`
 
-> *Description : permet d'identifier le mode d'entrée des archives<br/>Ex : Versement*
+> *Description : permet d'identifier le mode d'entrée des archives*<br/>*Exemple : Versement*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -91,31 +91,31 @@ Spécification du standard national des registres d'entrée d'archives
 
 #### organisation qui verse l'entrée - Propriété `orgaVers`
 
-> *Description : Nom de l'organisation qui a versé l'entrée, distincte du service qui a produit les entrées dans l'organisation. Dans le cas où des identifiants pérennes existent pour identifier les organisations versantes, elles peuvent être ajoutées en complément du nom de l'organisation : URI - Nom de l'organisation. Ce champ peut comporter plusieurs valeurs, dans ce cas, les éléments sont séparés par une barre verticale |.<br/>Ex : Ville d'Aix-en-Provence, FR78422804100033_000000011 - Tribunal administratif*
+> *Description : Nom de l'organisation qui a versé l'entrée, distincte du service qui a produit les entrées dans l'organisation. Dans le cas où des identifiants pérennes existent pour identifier les organisations versantes, elles peuvent être ajoutées en complément du nom de l'organisation : URI - Nom de l'organisation. Ce champ peut comporter plusieurs valeurs, dans ce cas, les éléments sont séparés par une barre verticale |.*<br/>*Exemple : Ville d'Aix-en-Provence, FR78422804100033_000000011 - Tribunal administratif*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### service qui verse l'entrée - Propriété `servVers`
 
-> *Description : permet d'identifier la personne physique ou morale qui a transféré les documents<br/>Ex : Service de l'Achat public*
+> *Description : permet d'identifier la personne physique ou morale qui a transféré les documents*<br/>*Exemple : Service de l'Achat public*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### organisation productrice de l'entrée - Propriété `orgaProducteur`
 
-> *Description : nom de l'organisation qui a produit l'entrée, distincte du service qui a produit les entrées dans l'organisation. Dans le cas où des identifiants pérennes existent pour identifier les organisations versantes, elles peuvent être ajoutées en complément du nom de l'organisation : URI - Nom de l'organisation. Ce champ peut comporter plusieurs valeurs, dans ce cas, les éléments sont séparés par une barre verticale |.<br/>Ex : Ville d'Aix-en-Provence, FR78422804100033_000000011 - Tribunal administratif*
+> *Description : nom de l'organisation qui a produit l'entrée, distincte du service qui a produit les entrées dans l'organisation. Dans le cas où des identifiants pérennes existent pour identifier les organisations versantes, elles peuvent être ajoutées en complément du nom de l'organisation : URI - Nom de l'organisation. Ce champ peut comporter plusieurs valeurs, dans ce cas, les éléments sont séparés par une barre verticale |.*<br/>*Exemple : Ville d'Aix-en-Provence, FR78422804100033_000000011 - Tribunal administratif*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### service producteur - Propriété `servProd`
 
-> *Description : permet d'identifier la personne physique ou morale qui a produit les documents. Si le producteur est inconnu, saisir `Service producteur inconnu`.<br/>Ex : Service de l'Achat public, Service producteur inconnu*
+> *Description : permet d'identifier la personne physique ou morale qui a produit les documents. Si le producteur est inconnu, saisir `Service producteur inconnu`.*<br/>*Exemple : Service de l'Achat public, Service producteur inconnu*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### fonction du producteur - Propriété `typeProd`
 
-> *Description : permet d'identifier la fonction du producteur, liste établie à partir des éléments du SIAF. La séparation entre type et activité répond à la nouvelle organisation définie pa le SIAF et mise en place au sein de l'enquête annuelle.<br/>Ex : Commune et établissement public communal*
+> *Description : permet d'identifier la fonction du producteur, liste établie à partir des éléments du SIAF. La séparation entre type et activité répond à la nouvelle organisation définie pa le SIAF et mise en place au sein de l'enquête annuelle.*<br/>*Exemple : Commune et établissement public communal*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -138,7 +138,7 @@ Spécification du standard national des registres d'entrée d'archives
 
 #### Domaine ou thématique d'action du producteur - Propriété `activiteProd`
 
-> *Description : permet d'identifier la fonction du producteur, liste établie à partir des éléments du SIAF. La séparation entre type et activité répond à la nouvelle organisation définie pa le SIAF et mise en place au sein de l'enquête annuelle. Ce champ peut comporter plusieurs valeurs, dans ce cas, les éléments sont séparés par une barre verticale |<br/>Ex : Administration générale (fonctions transverses, RH) | Culture, jeunesse et sports*
+> *Description : permet d'identifier la fonction du producteur, liste établie à partir des éléments du SIAF. La séparation entre type et activité répond à la nouvelle organisation définie pa le SIAF et mise en place au sein de l'enquête annuelle. Ce champ peut comporter plusieurs valeurs, dans ce cas, les éléments sont séparés par une barre verticale |*<br/>*Exemple : Administration générale (fonctions transverses, RH) | Culture, jeunesse et sports*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -165,25 +165,25 @@ Spécification du standard national des registres d'entrée d'archives
 
 #### description du contenu - Propriété `descContenu`
 
-> *Description : Permet de décrire le contenu des archives de l'entrée<br/>Ex : Marchés publics de prestations intellectuelles*
+> *Description : Permet de décrire le contenu des archives de l'entrée*<br/>*Exemple : Marchés publics de prestations intellectuelles*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Date extrême de début - Propriété `datesExD`
 
-> *Description : date du plus vieux document d'archives format AAAA.<br/>Ex : 2014*
+> *Description : date du plus vieux document d'archives format AAAA.*<br/>*Exemple : 2014*
 - Valeur optionnelle
 - Type : année
 
 #### Date extrême de fin - Propriété `datesExF`
 
-> *Description : date du plus récent document d'archives format AAAA.<br/>Ex : 2020*
+> *Description : date du plus récent document d'archives format AAAA.*<br/>*Exemple : 2020*
 - Valeur optionnelle
 - Type : année
 
 #### nature du support matériel des documents - Propriété `natureSupport`
 
-> *Description : permet d'indiquer de façon macro la typologie de support des documents<br/>Ex : Support physique*
+> *Description : permet d'indiquer de façon macro la typologie de support des documents*<br/>*Exemple : Support physique*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -193,24 +193,24 @@ Spécification du standard national des registres d'entrée d'archives
 
 #### métrage linéaire de l'entrée - Propriété `mlEntree`
 
-> *Description : volume en mètre linéaire de l'entrée. le séparateur décimal doit être le point . L'unité sera rappelée en métadonnée.<br/>Ex : 1.60*
+> *Description : volume en mètre linéaire de l'entrée. le séparateur décimal doit être le point . L'unité sera rappelée en métadonnée.*<br/>*Exemple : 1.60*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### nombre d'articles - Propriété `nbreArt`
 
-> *Description : permet d'indiquer le nombre d'articles d'une entrée<br/>Ex : 56*
+> *Description : permet d'indiquer le nombre d'articles d'une entrée*<br/>*Exemple : 56*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### volume d'archives électroniques de l'entrée - Propriété `volElec`
 
-> *Description : correspond à la volumétrie de fichiers électroniques présents dans l'entrée en Go. le séparateur décimal doit être le point. L'unité sera le Go et sera rappelée en métadonnées.<br/>Ex : 2.30, 0.075*
+> *Description : correspond à la volumétrie de fichiers électroniques présents dans l'entrée en Go. le séparateur décimal doit être le point. L'unité sera le Go et sera rappelée en métadonnées.*<br/>*Exemple : 2.30, 0.075*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### nombre d'objets électroniques - Propriété `objElec`
 
-> *Description : permet d'indiquer le nombre d'objets électroniques d'une entrée<br/>Ex : 234*
+> *Description : permet d'indiquer le nombre d'objets électroniques d'une entrée*<br/>*Exemple : 234*
 - Valeur optionnelle
 - Type : nombre réel

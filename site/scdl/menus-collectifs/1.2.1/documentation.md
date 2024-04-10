@@ -46,52 +46,52 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Nom de la collectivité qui produit les données - Propriété `menuCollNom`
 
-> *Description : Nom officiel de la collectivité ou de l'établissement public responsable de l'offre de restauration collective et qui produit les données.<br/>Ex : None*
+> *Description : Nom officiel de la collectivité ou de l'établissement public responsable de l'offre de restauration collective et qui produit les données.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code SIRET de la collectivité qui produit les données. - Propriété `menuCollSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Nom de l'établissement ou entreprise qui a produit le repas servi. - Propriété `menuEtablissementNom`
 
-> *Description : Nom officiel de l'établissement qui est à l'origine de la production du repas. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.<br/>Ex : None*
+> *Description : Nom officiel de l'établissement qui est à l'origine de la production du repas. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code SIRET de l'établissement ou entreprise qui a produit le repas servi. - Propriété `menuEtablissementSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Nom du restaurant dans lequel le repas est servi. - Propriété `menuRestaurantNom`
 
-> *Description : Nom officiel de l'établissement (une école, un lycée, une résidence pour personne âgée, un restaurant administratif, etc...) au sein duquel est servi le menu.<br/>Ex : None*
+> *Description : Nom officiel de l'établissement (une école, un lycée, une résidence pour personne âgée, un restaurant administratif, etc...) au sein duquel est servi le menu.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Le code INSEE de la commune d'implantation du restaurant - Propriété `menuRestaurantInsee`
 
-> *Description : Code Insee de la commune dans laquelle se situe le restaurant où est servi le menu.<br/>Ex : None*
+> *Description : Code Insee de la commune dans laquelle se situe le restaurant où est servi le menu.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### Identifiant du restaurant où le repas est servi. - Propriété `menuRestaurantId`
 
-> *Description : Identifiant du restaurant dans lequel a été servi le menu. Si le restaurant dispose d'une raison sociale, il est obligatoire d'utiliser son numéro SIRET. Si le restaurant est un établissement scolaire qui ne dispose pas de numéro de SIRET, il est possible de l'identifier avec le code UAI de l'établissement. Sinon, il est possible d'utiliser un identifiant interne de gestion. Le champ restaurantIdType permet de caractériser le type de système d'identification auquel cet identifiant fait référence.<br/>Ex : None*
+> *Description : Identifiant du restaurant dans lequel a été servi le menu. Si le restaurant dispose d'une raison sociale, il est obligatoire d'utiliser son numéro SIRET. Si le restaurant est un établissement scolaire qui ne dispose pas de numéro de SIRET, il est possible de l'identifier avec le code UAI de l'établissement. Sinon, il est possible d'utiliser un identifiant interne de gestion. Le champ restaurantIdType permet de caractériser le type de système d'identification auquel cet identifiant fait référence.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Type d'identifiant utilisé pour caractériser un restaurant collectif. - Propriété `menuRestaurantIdType`
 
-> *Description : Afin de permettre d'identifier de manière unique chaque restaurant, plusieurs systèmes d'identification peuvent être utilisé en l'absence d'une attribution systématique d'un code SIRET. Pour les établissements scolaires le numéro UAI délivré par l'Éducation Nationale (EN) peut être utilisé. Dans le cas des autres (identifiant interne par exemple), la valeur "autre" doit être sélectionnée. Enfin en l'absence d'identifiant la valeur "sans" doit être sélectionnée. Ce champ est donc obligatoire.<br/>Ex : None*
+> *Description : Afin de permettre d'identifier de manière unique chaque restaurant, plusieurs systèmes d'identification peuvent être utilisé en l'absence d'une attribution systématique d'un code SIRET. Pour les établissements scolaires le numéro UAI délivré par l'Éducation Nationale (EN) peut être utilisé. Dans le cas des autres (identifiant interne par exemple), la valeur "autre" doit être sélectionnée. Enfin en l'absence d'identifiant la valeur "sans" doit être sélectionnée. Ce champ est donc obligatoire.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -102,7 +102,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Type de restaurant auquel le menu est proposé. - Propriété `menuRestaurantType`
 
-> *Description : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles (crèche, maternelle, élémentaire, collège, lycée, administration, résidence sénior, EHPAD, repas à domicile, centre de loisirs). Si vous ne trouvez pas de valeur qui corresponde à votre usage dans cette liste, vous pouvez saisir la valeur "autre".<br/>Ex : None*
+> *Description : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles (crèche, maternelle, élémentaire, collège, lycée, administration, résidence sénior, EHPAD, repas à domicile, centre de loisirs). Si vous ne trouvez pas de valeur qui corresponde à votre usage dans cette liste, vous pouvez saisir la valeur "autre".*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -123,19 +123,19 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Type de convive auquel le menu est proposé. - Propriété `menuRestaurantConvive`
 
-> *Description : Permet de préciser d'un restaurant, le type de public destinataire du menu proposé ou un lieu spécifique dans lequel le menu est servi par exemple. Si plusieurs publics sont destinataires d'un même menu au sein d'un même restaurant, vous pouvez détailler la liste des convives en séparant les valeurs par un point virgule ("petite section" ; "grande section"). La valeur par défaut pour ce champ est 'tous' <br/>Ex : None*
+> *Description : Permet de préciser d'un restaurant, le type de public destinataire du menu proposé ou un lieu spécifique dans lequel le menu est servi par exemple. Si plusieurs publics sont destinataires d'un même menu au sein d'un même restaurant, vous pouvez détailler la liste des convives en séparant les valeurs par un point virgule ("petite section" ; "grande section"). La valeur par défaut pour ce champ est 'tous' *
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Date de service du menu - Propriété `menuDate`
 
-> *Description : Date du jour à laquelle le menu est servi dans le restaurant au format AAAA-MM-JJ suivant la norme internationale ISO 8601.<br/>Ex : None*
+> *Description : Date du jour à laquelle le menu est servi dans le restaurant au format AAAA-MM-JJ suivant la norme internationale ISO 8601.*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### Type du repas servi - Propriété `menuRepasType`
 
-> *Description : Permet de spécifier le type du repas parmi les valeurs possibles (petit-déjeuner, déjeuner, goûter, dîner, collation, pique-nique). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur "autre".<br/>Ex : None*
+> *Description : Permet de spécifier le type du repas parmi les valeurs possibles (petit-déjeuner, déjeuner, goûter, dîner, collation, pique-nique). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur "autre".*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -149,7 +149,7 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Type de plat servi - Propriété `menuPlatType`
 
-> *Description : Le type de plat correspond à un des éléments disponibles dans la liste (entrée, plat principal, garniture, dessert, produit laitier, pain). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur "autre".<br/>Ex : None*
+> *Description : Le type de plat correspond à un des éléments disponibles dans la liste (entrée, plat principal, garniture, dessert, produit laitier, pain). Dans le cas où vous ne trouvez pas la valeur correspondant à votre usage dans la liste proposée, vous pouvez saisir la valeur "autre".*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -163,57 +163,57 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Nom du plat servi - Propriété `menuPlatNom`
 
-> *Description : Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts.<br/>Ex : None*
+> *Description : Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Moins de 160 caractères
 
 #### Code du plat servi - Propriété `menuPlatCode`
 
-> *Description : Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire une jointure avec le schéma décrivant la composition des plats.<br/>Ex : None*
+> *Description : Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire une jointure avec le schéma décrivant la composition des plats.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Moins de 16 caractères
 
 #### Les signes officiels de la qualité et de l'origine. - Propriété `menuPlatSiqo`
 
-> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule, encadrées par des crochets et entourées par des guillemets (["agriculture biologique","appellation d'origine contrôlée"])   dans ce champ.<br/>Ex : None*
+> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : agriculture biologique, appellation d'origine protégée/contrôlée, indication géographique protégée, spécialité traditionnelle garantie, label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule, encadrées par des crochets et entourées par des guillemets (["agriculture biologique","appellation d'origine contrôlée"])   dans ce champ.*
 - Valeur optionnelle
 - Type : liste
 
 #### Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication - Propriété `menuPlatLabel`
 
-> *Description : Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : https://fr.openfoodfacts.org/labels. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ. <br/>Ex : None*
+> *Description : Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : https://fr.openfoodfacts.org/labels. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ. *
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Précision associée au plat ou à l'ensemble des plats d'un menu - Propriété `menuPlatPrecision`
 
-> *Description : Lors d'évènements (semaine du goût, repas de noël, etc.) des menus spéciaux peuvent être proposés. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.<br/>Ex : None*
+> *Description : Lors d'évènements (semaine du goût, repas de noël, etc.) des menus spéciaux peuvent être proposés. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Précision qualitative associée au plat d'un menu - Propriété `menuPlatRegime`
 
-> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["végétarien","sans sucre ajouté"])<br/>Ex : None*
+> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des plats de substitution peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à un régime particulier (sans viande, végétarien, etc.). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["végétarien","sans sucre ajouté"])*
 - Valeur optionnelle
 - Type : liste
 
 #### Nom des allergènes présents dans le plat - Propriété `menuPlatAllergene`
 
-> *Description : Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["lait","fruits à coques"])<br/>Ex : None*
+> *Description : Enumération des éventuels allergènes présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["lait","fruits à coques"])*
 - Valeur optionnelle
 - Type : liste
 
 #### Précision qualitative associée à la texture du plat - Propriété `menuPlatTexture`
 
-> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["sans texture modifiée","haché"])<br/>Ex : None*
+> *Description : En fonction du type de convives ou de régimes alimentaires spécifiques, des modifications de texture peuvent être proposés. Ce champ peut permettre d'indiquer si un plat est destiné à être proposé sous différentes textures (normal, mixé, fondant, haché). Il est possible de saisir plusieurs valeurs séparées par une virgule encadrées par des crochets et entourées par des guillemets (["sans texture modifiée","haché"])*
 - Valeur optionnelle
 - Type : liste
 
 #### Indication de l'indice nutritif du plat proposé dans le menu - Propriété `menuPlatNutriscore`
 
-> *Description : Indique la valeur nutritive du plat en fonction des valeurs de l'indicateur nutriscore.<br/>Ex : None*
+> *Description : Indique la valeur nutritive du plat en fonction des valeurs de l'indicateur nutriscore.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -225,24 +225,24 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 
 #### Coût théorique de revient du plat calculé à partir du coût de production - Propriété `menuPlatPrix`
 
-> *Description : Le prix de revient pour la structure de restauration collective est utilisé pour composer les plats et les menus en combinaison avec les impératifs d'équilibre nutritionnel. Prix en euros sous la forme d'un nombre entier ou décimal avec comme séparateur le point.<br/>Ex : None*
+> *Description : Le prix de revient pour la structure de restauration collective est utilisé pour composer les plats et les menus en combinaison avec les impératifs d'équilibre nutritionnel. Prix en euros sous la forme d'un nombre entier ou décimal avec comme séparateur le point.*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Date de publication de l'enregistrement d'un menu - Propriété `menuPublicationDate`
 
-> *Description : Lors de la publication ce champ d'horodatage permet d'indiquer la date de publication de la donnée présente dans le fichier.<br/>Ex : None*
+> *Description : Lors de la publication ce champ d'horodatage permet d'indiquer la date de publication de la donnée présente dans le fichier.*
 - Valeur obligatoire
 - Type : date et heure
 
 #### Date de dernière modification de l'enregistrement d'un menu - Propriété `menuModificationDate`
 
-> *Description : Lors de la modification ce champ d'horodatage permet d'indiquer la date de dernière modification de la donnée présente dans le fichier.<br/>Ex : None*
+> *Description : Lors de la modification ce champ d'horodatage permet d'indiquer la date de dernière modification de la donnée présente dans le fichier.*
 - Valeur optionnelle
 - Type : date et heure
 
 #### Information sur la modification ayant entraîné une mise à jour de la donnée - Propriété `menuModificationInfo`
 
-> *Description : Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.<br/>Ex : None*
+> *Description : Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.*
 - Valeur optionnelle
 - Type : chaîne de caractères

@@ -9,7 +9,7 @@ Spécification des attributs liés aux arbres urbains dans le cadre d'un inventa
 - Schéma créé le : 16/10/2020
 - Site web : https://github.com/NaturalSolutions/schema-arbre
 - Version : 0.2.2
-- Clé primaire : `id`
+- Clé primaire : `id`
 
 ### Modèle de données
 
@@ -47,163 +47,163 @@ Spécification des attributs liés aux arbres urbains dans le cadre d'un inventa
 
 #### Propriété `id`
 
-> *Description : Un identifiant unique de l'objet arbre.<br/>Ex : 42*
+> *Description : Un identifiant unique de l'objet arbre.*<br/>*Exemple : 42*
 - Valeur obligatoire
 - Type : nombre entier
-- Valeur supérieur à 1
+- Valeur supérieure à 1
 
 #### Propriété `longitude`
 
-> *Description : La longitude en degrés décimaux (point comme séparateur décimal) de la localisation de l'arbre dans le système de coordonnées WGS84.<br/>Ex : 48.3610*
+> *Description : La longitude en degrés décimaux (point comme séparateur décimal) de la localisation de l'arbre dans le système de coordonnées WGS84.*<br/>*Exemple : 48.3610*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -180 et 180
 
 #### Propriété `latitude`
 
-> *Description : La latitude en degrés décimaux (point comme séparateur décimal) de la localisation de l'arbre dans le système de coordonnées WGS84.<br/>Ex : 32.2812*
+> *Description : La latitude en degrés décimaux (point comme séparateur décimal) de la localisation de l'arbre dans le système de coordonnées WGS84.*<br/>*Exemple : 32.2812*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -180 et 180
 
 #### Propriété `famille_arbre`
 
-> *Description : Le taxon auquel appartient l'arbre en latin (cinquième niveau de la classification classique).<br/>Ex : Platanaceae*
+> *Description : Le taxon auquel appartient l'arbre en latin (cinquième niveau de la classification classique).*<br/>*Exemple : Platanaceae*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `genre_arbre`
 
-> *Description : La subdivision de la famille auquel appartient l'arbre en latin (sixième niveau de la classification classique).<br/>Ex : Platanus*
+> *Description : La subdivision de la famille auquel appartient l'arbre en latin (sixième niveau de la classification classique).*<br/>*Exemple : Platanus*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `espece_arbre`
 
-> *Description : <br/>Ex : *
+> *Description : *
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `cultivar_variete_arbre`
 
-> *Description : La subdivision de l'espèce auquel appartient l'arbre en latin.<br/>Ex : Cripps Pink'*
+> *Description : La subdivision de l'espèce auquel appartient l'arbre en latin.*<br/>*Exemple : Cripps Pink'*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `nom_vernaculaire`
 
-> *Description : Le nom commun français correspondant au nom scientifique ([genre][espèce][cultivar]).<br/>Ex : Platane commun*
+> *Description : Le nom commun français correspondant au nom scientifique ([genre][espèce][cultivar]).*<br/>*Exemple : Platane commun*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `code_insee`
 
-> *Description : Le code INSEE de la commune dans laquelle l'arbre se trouve.<br/>Ex : 59599*
+> *Description : Le code INSEE de la commune dans laquelle l'arbre se trouve.*<br/>*Exemple : 59599*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### Propriété `code_postal`
 
-> *Description : Le code postal de la commune dans laquelle l'arbre se trouve.<br/>Ex : 13010*
+> *Description : Le code postal de la commune dans laquelle l'arbre se trouve.*<br/>*Exemple : 13010*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### Propriété `adresse`
 
-> *Description : Le nom de la rue (avec ou sans numéro) dans laquelle l'arbre se trouve.<br/>Ex : 61 rue de la Poste*
+> *Description : Le nom de la rue (avec ou sans numéro) dans laquelle l'arbre se trouve.*<br/>*Exemple : 61 rue de la Poste*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `matricule_arbre`
 
-> *Description : L'identifiant unique de l'arbre au norme de la collectivité.<br/>Ex : A20200525*
+> *Description : L'identifiant unique de l'arbre au norme de la collectivité.*<br/>*Exemple : A20200525*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `date_plantation`
 
-> *Description : La date de plantation de l'arbre, au format ISO 8601 AAAA-MM-DD.<br/>Ex : 1996-07-12*
+> *Description : La date de plantation de l'arbre, au format ISO 8601 AAAA-MM-DD.*<br/>*Exemple : 1996-07-12*
 - Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
 
 #### Propriété `hauteur`
 
-> *Description : La hauteur de l'arbre exprimée en cm<br/>Ex : 30*
+> *Description : La hauteur de l'arbre exprimée en cm*<br/>*Exemple : 30*
 - Valeur optionnelle
 - Type : nombre réel
-- Valeur entre 0 et 15000
+- Valeur inférieure à : 15000
 
 #### Propriété `diametre`
 
-> *Description : Le diamètre de l'arbre mesurée à hauteur d'homme, c'est-à-dire 150 exprimé en cm<br/>Ex : 70*
+> *Description : Le diamètre de l'arbre mesurée à hauteur d'homme, c'est-à-dire 150 exprimé en cm*<br/>*Exemple : 70*
 - Valeur optionnelle
 - Type : nombre réel
-- Valeur entre 0 et 3000
+- Valeur inférieure à : 3000
 
 #### Propriété `type_sol`
 
-> *Description : La composition pédologique du sol où est planté l'arbre<br/>Ex : Argileux*
+> *Description : La composition pédologique du sol où est planté l'arbre*<br/>*Exemple : Argileux*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `type_enracinement`
 
-> *Description : Le type d'enracinement de l'arbre<br/>Ex : Pivotant*
+> *Description : Le type d'enracinement de l'arbre*<br/>*Exemple : Pivotant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `port_arbre`
 
-> *Description : La forme du houppier de l'arbre<br/>Ex : Pyramide*
+> *Description : La forme du houppier de l'arbre*<br/>*Exemple : Pyramide*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `arbre_remarquable`
 
-> *Description : Classification de l'arbre à remarquable selon son âge, sa circonférence et sa hauteur<br/>Ex : Oui*
+> *Description : Classification de l'arbre à remarquable selon son âge, sa circonférence et sa hauteur*<br/>*Exemple : Oui*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `arbre_protege`
 
-> *Description : Si l'arbre fait l'objet d'une classification et d'une protection<br/>Ex : Non*
+> *Description : Si l'arbre fait l'objet d'une classification et d'une protection*<br/>*Exemple : Non*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `contraintes_sol`
 
-> *Description : Indique la présence de contraintes physiques au niveau du sol <br/>Ex : Sol perméabilisé*
+> *Description : Indique la présence de contraintes physiques au niveau du sol *<br/>*Exemple : Sol perméabilisé*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `contrainte_aeriennes`
 
-> *Description : Indique la présence de contraintes physiques au-dessus du sol<br/>Ex : Présence de cables*
+> *Description : Indique la présence de contraintes physiques au-dessus du sol*<br/>*Exemple : Présence de cables*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `eclairage`
 
-> *Description : Indique la présence d'éclairage à proximité de l'arbre<br/>Ex : Oui*
+> *Description : Indique la présence d'éclairage à proximité de l'arbre*<br/>*Exemple : Oui*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `arrosage`
 
-> *Description : Indique la présence ou non d'un arrosage et quel type d'arrosage <br/>Ex : Goutte à goutte*
+> *Description : Indique la présence ou non d'un arrosage et quel type d'arrosage *<br/>*Exemple : Goutte à goutte*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `allergie`
 
-> *Description : Indique le potentiel allergisant de l'arbre (0 = nul --> 5 = très fort)<br/>Ex : 2*
+> *Description : Indique le potentiel allergisant de l'arbre (0 = nul --> 5 = très fort)*<br/>*Exemple : 2*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `remarque`
 
-> *Description : Tout autre remarque nécessaire à la gestion de l'arbre<br/>Ex : Ceci est un exemple de remarque*
+> *Description : Tout autre remarque nécessaire à la gestion de l'arbre*<br/>*Exemple : Ceci est un exemple de remarque*
 - Valeur optionnelle
 - Type : chaîne de caractères

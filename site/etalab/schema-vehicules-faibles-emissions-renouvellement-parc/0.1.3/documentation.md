@@ -95,46 +95,46 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `sirenDeclarant`
 
-> *Description : Numéro SIREN de la personne morale déclarante<br/>Ex : 130025265*
+> *Description : Numéro SIREN de la personne morale déclarante*<br/>*Exemple : 130025265*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{9}$`
 
 #### Propriété `sirenCouvert`
 
-> *Description : Numéro SIREN couvert sous la déclaration du sirenDéclarant<br/>Ex : 130025265*
+> *Description : Numéro SIREN couvert sous la déclaration du sirenDéclarant*<br/>*Exemple : 130025265*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{9}$`
 
 #### Propriété `nom`
 
-> *Description : Dénomination officielle de la personne morale.<br/>Ex : Direction interministerielle du numerique (DINUM)*
+> *Description : Dénomination officielle de la personne morale.*<br/>*Exemple : Direction interministerielle du numerique (DINUM)*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `naf`
 
-> *Description : Code d'activité principale exercée.<br/>Ex : 47.72B*
+> *Description : Code d'activité principale exercée.*<br/>*Exemple : 47.72B*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `cj`
 
-> *Description : Catégorie juridique Insee.<br/>Ex : 5710*
+> *Description : Catégorie juridique Insee.*<br/>*Exemple : 5710*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{4}$`
 
 #### Propriété `annee`
 
-> *Description : Année concernée par les données rapportées.<br/>Ex : 2021*
+> *Description : Année concernée par les données rapportées.*<br/>*Exemple : 2021*
 - Valeur obligatoire
 - Type : année
 
 #### Propriété `zone`
 
-> *Description : Situation géographique s'agissant des transports publics.<br/>Ex : Zone A*
+> *Description : Situation géographique s'agissant des transports publics.*<br/>*Exemple : Zone A*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -146,408 +146,408 @@ Spécification des données fixant les termes et modalités de publication du po
 
 #### Propriété `nbVP`
 
-> *Description : Nombre de voitures particulières (VP).<br/>Ex : 12*
+> *Description : Nombre de voitures particulières (VP).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbVPEL`
 
-> *Description : Nombre de VP électriques purs.<br/>Ex : 12*
+> *Description : Nombre de VP électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbVPH2`
 
-> *Description : Nombre de VP à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre de VP à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbVPclean`
 
-> *Description : Nombre de VP à faibles émissions (y compris les nbVPEL et nbVPH2).<br/>Ex : 12*
+> *Description : Nombre de VP à faibles émissions (y compris les nbVPEL et nbVPH2).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1`
 
-> *Description : Nombre de camionnettes (VUL).<br/>Ex : 12*
+> *Description : Nombre de camionnettes (VUL).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1inf`
 
-> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes.<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1infEL`
 
-> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes électriques purs.<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1infH2`
 
-> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1infclean`
 
-> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes à faibles émissions (y compris les nbN1infEL et nbN1infH2).<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC inférieur à 2,6 tonnes à faibles émissions (y compris les nbN1infEL et nbN1infH2).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1sup`
 
-> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes.<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1supEL`
 
-> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes électriques purs.<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1supH2`
 
-> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN1supclean`
 
-> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à faibles émissions (y compris les nbN1supEL et nbN1supH2).<br/>Ex : 12*
+> *Description : Nombre de VUL de PTAC supérieur ou égal à 2,6 tonnes à faibles émissions (y compris les nbN1supEL et nbN1supH2).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbL`
 
-> *Description : Nombre de véhicules de catégories L1e-B, L2e-P, L2e-U et L3a-A1 (2-3RM).<br/>Ex : 12*
+> *Description : Nombre de véhicules de catégories L1e-B, L2e-P, L2e-U et L3a-A1 (2-3RM).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbLEL`
 
-> *Description : Nombre de 2-3RM électriques purs.<br/>Ex : 12*
+> *Description : Nombre de 2-3RM électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbLH2`
 
-> *Description : Nombre de 2-3RM à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre de 2-3RM à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23`
 
-> *Description : Nombre de véhicules de catégories N2 et N3 (PL).<br/>Ex : 12*
+> *Description : Nombre de véhicules de catégories N2 et N3 (PL).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23EL`
 
-> *Description : Nombre de PL électriques purs.<br/>Ex : 12*
+> *Description : Nombre de PL électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23H2`
 
-> *Description : Nombre de PL à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre de PL à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23EHRE`
 
-> *Description : Nombre de PL électriques hybrides rechargeables de l'extérieur.<br/>Ex : 12*
+> *Description : Nombre de PL électriques hybrides rechargeables de l'extérieur.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23GNV`
 
-> *Description : Nombre de PL au GNV/bioGNV.<br/>Ex : 12*
+> *Description : Nombre de PL au GNV/bioGNV.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23GPL`
 
-> *Description : Nombre de PL au GPL.<br/>Ex : 12*
+> *Description : Nombre de PL au GPL.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23Bio`
 
-> *Description : Nombre de PL exclusivement aux biocarburants.<br/>Ex : 12*
+> *Description : Nombre de PL exclusivement aux biocarburants.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbN23XTL`
 
-> *Description : Nombre de PL exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+> *Description : Nombre de PL exclusivement à carburants de synthèse ou paraffiniques.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBus`
 
-> *Description : Nombre de véhicules de catégories M2 et M3 de classe I ou A (autobus).<br/>Ex : 12*
+> *Description : Nombre de véhicules de catégories M2 et M3 de classe I ou A (autobus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2`
 
-> *Description : Nombre d'autobus M2.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2EL`
 
-> *Description : Nombre d'autobus M2 électriques purs.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2H2`
 
-> *Description : Nombre d'autobus M2 à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2clean`
 
-> *Description : Nombre d'autobus M2 à faibles émissions  (y compris les nbBusM2EL et nbBusM2H2).<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 à faibles émissions  (y compris les nbBusM2EL et nbBusM2H2).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2EHRE`
 
-> *Description : Nombre d'autobus M2 électriques hybrides rechargeables de l'extérieur.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 électriques hybrides rechargeables de l'extérieur.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2GNV`
 
-> *Description : Nombre d'autobus M2 au GNV.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 au GNV.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2bioGNV`
 
-> *Description : Nombre d'autobus M2 au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2GPL`
 
-> *Description : Nombre d'autobus M2 au GPL.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 au GPL.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2Bio`
 
-> *Description : Nombre d'autobus M2 exclusivement aux biocarburants.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 exclusivement aux biocarburants.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2XTL`
 
-> *Description : Nombre d'autobus M2 exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 exclusivement à carburants de synthèse ou paraffiniques.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM2EuroVI`
 
-> *Description : Nombre d'autobus M2 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).<br/>Ex : 12*
+> *Description : Nombre d'autobus M2 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3`
 
-> *Description : Nombre d'autobus M3.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3EL`
 
-> *Description : Nombre d'autobus M3 électriques purs.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3H2`
 
-> *Description : Nombre d'autobus M3 à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3EHRE`
 
-> *Description : Nombre d'autobus M3 électriques hybrides rechargeables de l'extérieur.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 électriques hybrides rechargeables de l'extérieur.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3GNV`
 
-> *Description : Nombre d'autobus M3 au GNV.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 au GNV.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3bioGNV`
 
-> *Description : Nombre d'autobus M3 au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3GPL`
 
-> *Description : Nombre d'autobus M3 au GPL.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 au GPL.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3Bio`
 
-> *Description : Nombre d'autobus M3 exclusivement aux biocarburants.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 exclusivement aux biocarburants.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3XTL`
 
-> *Description : Nombre d'autobus M3 exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 exclusivement à carburants de synthèse ou paraffiniques.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbBusM3EuroVI`
 
-> *Description : Nombre d'autobus M3 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).<br/>Ex : 12*
+> *Description : Nombre d'autobus M3 hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI (uniquement en zone C).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCar`
 
-> *Description : Nombre de véhicules de catégories M2 et M3 d'autres classes (autocars).<br/>Ex : 12*
+> *Description : Nombre de véhicules de catégories M2 et M3 d'autres classes (autocars).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarM2`
 
-> *Description : Nombre d'autocars M2.<br/>Ex : 12*
+> *Description : Nombre d'autocars M2.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarM2EL`
 
-> *Description : Nombre d'autocars M2 électriques purs.<br/>Ex : 12*
+> *Description : Nombre d'autocars M2 électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarM2H2`
 
-> *Description : Nombre d'autocars M2 à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre d'autocars M2 à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarM2clean`
 
-> *Description : Nombre d'autocars M2 à faibles émissions (y compris les nbCarM2EL et nbCarM2H2).<br/>Ex : 12*
+> *Description : Nombre d'autocars M2 à faibles émissions (y compris les nbCarM2EL et nbCarM2H2).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarEL`
 
-> *Description : Nombre d'autocars (M2 et M3) électriques purs.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) électriques purs.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarH2`
 
-> *Description : Nombre d'autocars (M2 et M3) à hydrogène (hybrides inclus).<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) à hydrogène (hybrides inclus).*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarEHRE`
 
-> *Description : Nombre d'autocars (M2 et M3) électriques hybrides rechargeables de l'extérieur.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) électriques hybrides rechargeables de l'extérieur.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarGNV`
 
-> *Description : Nombre d'autocars (M2 et M3) au GNV.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) au GNV.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarbioGNV`
 
-> *Description : Nombre d'autocars (M2 et M3) au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) au GNV contenant une fraction d'origine renouvelable d'au moins 20 %.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarGPL`
 
-> *Description : Nombre d'autocars (M2 et M3) au GPL.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) au GPL.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarBio`
 
-> *Description : Nombre d'autocars (M2 et M3) exclusivement aux biocarburants.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) exclusivement aux biocarburants.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarXTL`
 
-> *Description : Nombre d'autocars (M2 et M3) exclusivement à carburants de synthèse ou paraffiniques.<br/>Ex : 12*
+> *Description : Nombre d'autocars (M2 et M3) exclusivement à carburants de synthèse ou paraffiniques.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `nbCarEuroVI`
 
-> *Description : Nombre d'autocar (M2 et M3) hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.<br/>Ex : 12*
+> *Description : Nombre d'autocar (M2 et M3) hybrides non électriques ou diesel satisfaisant au moins à la norme Euro VI.*<br/>*Exemple : 12*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `pcentLDVFE`
 
-> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean et nbN1supclean sur la somme des valeurs des champs nbVP et nbN1. Pour les entreprises privées, la prise en compte des champs nbN1supclean et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.<br/>Ex : 12.2*
+> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean et nbN1supclean sur la somme des valeurs des champs nbVP et nbN1. Pour les entreprises privées, la prise en compte des champs nbN1supclean et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcentLDVTFE`
 
-> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1. Pour les personnes dont le profil est «privé», la prise en compte des champs nbN1supEL, nbN1supH2 et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.<br/>Ex : 12.2*
+> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de véhicules de PTAC inférieur ou égal à 3,5 tonnes (VP+VUL). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPEL, nbVPH2, nbN1infEL, nbN1infH2, nbN1supEL et nbN1supH2, sur la somme des valeurs des champs nbVP et nbN1. Pour les personnes dont le profil est «privé», la prise en compte des champs nbN1supEL, nbN1supH2 et nbN1sup n’est obligatoire qu’à partir du 1er janvier 2024.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcentLDVclean`
 
-> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules légers (6). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean, nbN1supclean, nbBusM2clean et nbCarM2clean, sur la somme des valeurs des champs nbVP, nbN1, nbBusM2 et nbCarM2.<br/>Ex : 12.2*
+> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de véhicules légers (6). Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbVPclean, nbN1infclean, nbN1supclean, nbBusM2clean et nbCarM2clean, sur la somme des valeurs des champs nbVP, nbN1, nbBusM2 et nbCarM2.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcent23RMTFE`
 
-> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de 2-3RM. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbLEL et nbLH2 sur la valeur du champ nbL.<br/>Ex : 12.2*
+> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes de 2-3RM. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbLEL et nbLH2 sur la valeur du champ nbL.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcentPLclean`
 
-> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de PL. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbN23EL, nbN23H2, nbN23EHRE, nbN23GNV, nbN23GPL, nbN23Bio et nbN23XTL sur la valeur du champ nbN23.<br/>Ex : 12.2*
+> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes de PL. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbN23EL, nbN23H2, nbN23EHRE, nbN23GNV, nbN23GPL, nbN23Bio et nbN23XTL sur la valeur du champ nbN23.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcentTCFE`
 
-> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes d'autobus et autocars. Correspond, en fonction de la valeur du champ zone, au quotient rapporté sur 100 de la somme des valeurs des champs relatifs aux autobus et autocars, à l'exception des champs nbBusM2clean, nbCarM2EL, nbCarM2H2 et nbCarM2clean, permettant de répondre aux dispositions pertinentes prévues aux articles D. 224-15-3, D. 224-15-4 et D. 224-15-6 du code de l'environnement, sur la somme des valeurs des champs nbBus et nbCar.<br/>Ex : 12.2*
+> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes d'autobus et autocars. Correspond, en fonction de la valeur du champ zone, au quotient rapporté sur 100 de la somme des valeurs des champs relatifs aux autobus et autocars, à l'exception des champs nbBusM2clean, nbCarM2EL, nbCarM2H2 et nbCarM2clean, permettant de répondre aux dispositions pertinentes prévues aux articles D. 224-15-3, D. 224-15-4 et D. 224-15-6 du code de l'environnement, sur la somme des valeurs des champs nbBus et nbCar.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcentBusclean`
 
-> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes d'autobus. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbBusM3EL, nbBusM3H2, nbBusM3EHRE, nbBusM3GNV, nbBusM3bioGNV, nbBusM3GPL, nbBusM3Bio et nbBusM3XTL sur la valeur du champ nbBusM3.<br/>Ex : 12.2*
+> *Description : Part de véhicules à faibles émissions dans le renouvellement des flottes d'autobus. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbBusM3EL, nbBusM3H2, nbBusM3EHRE, nbBusM3GNV, nbBusM3bioGNV, nbBusM3GPL, nbBusM3Bio et nbBusM3XTL sur la valeur du champ nbBusM3.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### Propriété `pcentBusTFE`
 
-> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes d'autobus. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbBusM3EL et nbBusM3H2 sur la valeur du champ nbBusM3.<br/>Ex : 12.2*
+> *Description : Part de véhicules à très faibles émissions dans le renouvellement des flottes d'autobus. Correspond au quotient rapporté sur 100 de la somme des valeurs des champs nbBusM3EL et nbBusM3H2 sur la valeur du champ nbBusM3.*<br/>*Exemple : 12.2*
 - Valeur optionnelle
 - Type : nombre réel
