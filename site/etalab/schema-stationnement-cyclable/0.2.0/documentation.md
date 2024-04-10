@@ -9,7 +9,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Schéma créé le : 10/03/2021
 - Site web : https://github.com/etalab/schema-stationnement-cyclable
 - Version : 0.2
-- Clé primaire : `id_local`
+- Clé primaire : `id_local`
 
 ### Modèle de données
 
@@ -24,7 +24,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 | [xlong](#propriete-xlong) | nombre réel  | Oui |
 | [ylat](#propriete-ylat) | nombre réel  | Oui |
 | [capacite](#propriete-capacite) | nombre entier  | Oui |
-| [capacite_cargo](#propriete-capacite_cargo) | nombre entier  | Non |
+| [capacite_cargo](#propriete-capacite-cargo) | nombre entier  | Non |
 | [type_accroche](#propriete-type-accroche) | chaîne de caractères  | Oui |
 | [mobilier](#propriete-mobilier) | chaîne de caractères  | Non |
 | [acces](#propriete-acces) | chaîne de caractères  | Non |
@@ -43,52 +43,52 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `id_local`
 
-> *Description : Identifiant unique du stationnement dans les bases de données de la collectivité territoriale productrice de données<br/>Ex : STSI01*
+> *Description : Identifiant unique du stationnement dans les bases de données de la collectivité territoriale productrice de données*<br/>*Exemple : STSI01*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `id_osm`
 
-> *Description : Identifiant OpenStreetMap, si les données proviennent d'OSM. On compose l'identifiant en utilisant la clef "n" s'il s'agit d'un noeud, "w" s'il s'agit d'un chemin et "r" s'il s'agit d'une relation.<br/>Ex : n34172*
+> *Description : Identifiant OpenStreetMap, si les données proviennent d'OSM. On compose l'identifiant en utilisant la clef "n" s'il s'agit d'un noeud, "w" s'il s'agit d'un chemin et "r" s'il s'agit d'une relation.*<br/>*Exemple : n34172*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `code_com`
 
-> *Description : Code INSEE de la commune où se trouve le stationnement vélo<br/>Ex : n71729735*
+> *Description : Code INSEE de la commune où se trouve le stationnement vélo*<br/>*Exemple : n71729735*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### Propriété `xlong`
 
-> *Description : La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84.<br/>Ex : 1.452323*
+> *Description : La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation du centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84.*<br/>*Exemple : 1.452323*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -180 et 180
 
 #### Propriété `ylat`
 
-> *Description : La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84.<br/>Ex : 46.59698*
+> *Description : La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de centre de l'emplacement de stationnement exprimée dans le système de coordonnées WGS84.*<br/>*Exemple : 46.59698*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -90 et 90
 
 #### Propriété `capacite`
 
-> *Description : Nombre de places de stationnement disponibles sur l'emplacement y compris les places adaptées à des vélos spéciaux (comme les vélos de grande taille).<br/>Ex : 14*
+> *Description : Nombre de places de stationnement disponibles sur l'emplacement y compris les places adaptées à des vélos spéciaux (comme les vélos de grande taille).*<br/>*Exemple : 14*
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété `capacite_cargo`
 
-> *Description : Nombre de places de stationnement disponibles pour les vélos de grande taille<br/>Ex : 2*
+> *Description : Nombre de places de stationnement disponibles pour les vélos de grande taille*<br/>*Exemple : 2*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `type_accroche`
 
-> *Description : Mode d'accrochage possible du vélo aux équipements de stationnement<br/>Ex : CADRE ET ROUE*
+> *Description : Mode d'accrochage possible du vélo aux équipements de stationnement*<br/>*Exemple : CADRE ET ROUE*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -98,7 +98,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `mobilier`
 
-> *Description : Type de mobilier de stationnement<br/>Ex : ARCEAU*
+> *Description : Type de mobilier de stationnement*<br/>*Exemple : ARCEAU*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -114,7 +114,7 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `acces`
 
-> *Description : Mode d'accès à l'emplacement de stationnement<br/>Ex : ACCES LIBRE*
+> *Description : Mode d'accès à l'emplacement de stationnement*<br/>*Exemple : ACCES LIBRE*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -124,13 +124,13 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `gratuit`
 
-> *Description : L'usage de l'équipement de stationnement est-il gratuit ?<br/>Ex : true*
+> *Description : L'usage de l'équipement de stationnement est-il gratuit ?*<br/>*Exemple : true*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `protection`
 
-> *Description : Protection du stationnement<br/>Ex : STATIONNEMENT NON FERME*
+> *Description : Protection du stationnement*<br/>*Exemple : STATIONNEMENT NON FERME*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -141,60 +141,60 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 
 #### Propriété `couverture`
 
-> *Description : Le stationnement est-il couvert et est donc protégé de la pluie, de la neige et de la grêle ?<br/>Ex : true*
+> *Description : Le stationnement est-il couvert et est donc protégé de la pluie, de la neige et de la grêle ?*<br/>*Exemple : true*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `surveillance`
 
-> *Description : Le stationnement est-il surveillé par un gardien ou par de la vidéosurveillance ?<br/>Ex : true*
+> *Description : Le stationnement est-il surveillé par un gardien ou par de la vidéosurveillance ?*<br/>*Exemple : true*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `lumiere`
 
-> *Description : L'emplacement est-il éclairé la nuit (par de l'éclairage urbain ou dédié à l'emplacement) ?<br/>Ex : true*
+> *Description : L'emplacement est-il éclairé la nuit (par de l'éclairage urbain ou dédié à l'emplacement) ?*<br/>*Exemple : true*
 - Valeur optionnelle
 - Type : booléen
 
 #### Propriété `url_info`
 
-> *Description : Site web d'information sur l'emplacement (abonnement/réservation...)<br/>Ex : https://www.exemple.fr/stationnementvelo-maville/*
+> *Description : Site web d'information sur l'emplacement (abonnement/réservation...)*<br/>*Exemple : https://www.exemple.fr/stationnementvelo-maville/*
 - Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)
 
 #### Propriété `d_service`
 
-> *Description : Date de mise en service du stationnement vélo (Notation ISO 8601, format AAAA)<br/>Ex : 2017*
+> *Description : Date de mise en service du stationnement vélo (Notation ISO 8601, format AAAA)*<br/>*Exemple : 2017*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété `source`
 
-> *Description : Nom de l'organisation ayant fourni les données<br/>Ex : Grand Poitiers*
+> *Description : Nom de l'organisation ayant fourni les données*<br/>*Exemple : Grand Poitiers*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `proprietaire`
 
-> *Description : Nom de l'organisation propriétaire de l'emplacement de stationnement<br/>Ex : Ville de Poitiers*
+> *Description : Nom de l'organisation propriétaire de l'emplacement de stationnement*<br/>*Exemple : Ville de Poitiers*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `gestionnaire`
 
-> *Description : Nom de l'organisation gestionnaire de l'emplacement de stationnement<br/>Ex : Ville de Poitiers*
+> *Description : Nom de l'organisation gestionnaire de l'emplacement de stationnement*<br/>*Exemple : Ville de Poitiers*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `date_maj`
 
-> *Description : Date de dernière mise à jour des données (Notation ISO 8601, format AAAA-MM-JJ)<br/>Ex : 2020-02-27*
+> *Description : Date de dernière mise à jour des données (Notation ISO 8601, format AAAA-MM-JJ)*<br/>*Exemple : 2020-02-27*
 - Valeur optionnelle
 - Type : date
 
 #### Propriété `commentaires`
 
-> *Description : Commentaires divers sur le stationnement vélo, conditions d'accès, précisions sur la localisation, tarifs...<br/>Ex : L'accès à l'emplacement se fait en sous-sol de la gare*
+> *Description : Commentaires divers sur le stationnement vélo, conditions d'accès, précisions sur la localisation, tarifs...*<br/>*Exemple : L'accès à l'emplacement se fait en sous-sol de la gare*
 - Valeur optionnelle
 - Type : chaîne de caractères

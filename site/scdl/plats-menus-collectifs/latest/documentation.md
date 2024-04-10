@@ -41,131 +41,131 @@ Description des plats proposés par des collectivités locales, des établisseme
 
 #### Nom de la collectivité qui produit les données - Propriété `platCollNom`
 
-> *Description : Nom officiel de la collectivité ou de l'établissement public responsable de l'offre de restauration collective et qui produit les données.<br/>Ex : None*
+> *Description : Nom officiel de la collectivité ou de l'établissement public responsable de l'offre de restauration collective et qui produit les données.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code SIRET de la collectivité qui produit les données. - Propriété `platCollSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Nom de l'établissement ou entreprise qui a produit le plat - Propriété `platEtablissementNom`
 
-> *Description : Nom officiel de l'établissement qui est à l'origine de la production du plat. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.<br/>Ex : None*
+> *Description : Nom officiel de l'établissement qui est à l'origine de la production du plat. Il s'agit soit d'une régie, soit d'un syndicat mixte, soit d'un prestataire de service.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code SIRET de l'établissement ou entreprise qui a produit le plat. - Propriété `platEtablissementSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le plat, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a confectionné le plat, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, l'établissement ne dispose pas de code SIRET. Ce champ est donc facultatif*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Code du plat servi - Propriété `platCode`
 
-> *Description : Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire le lien avec l'identifiant des plats (menuCodePlat) dans le schéma des menus.<br/>Ex : None*
+> *Description : Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire le lien avec l'identifiant des plats (menuCodePlat) dans le schéma des menus.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Nom du plat servi - Propriété `platNom`
 
-> *Description : Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts. Ce champ est répliqué dans le champ MenuNomPlat du schéma des menus-collectifs. Cette réplication permet d'envisager la publication des données des menus_collectifs indépendamment de celles du présent jeu<br/>Ex : None*
+> *Description : Le nom du plat permet de désigner dans la limite de 160 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts. Ce champ est répliqué dans le champ MenuNomPlat du schéma des menus-collectifs. Cette réplication permet d'envisager la publication des données des menus_collectifs indépendamment de celles du présent jeu*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Moins de 160 caractères
 
 #### Produit entrant dans la composition du plat - Propriété `platProduitNom`
 
-> *Description : Afin de décrire le contenu d'un plat, ce champ permet de lister (un produit par ligne) les produits entrant dans sa composition. Cela permet d'identifier à traves eux les apports nutritifs, les éventuels allergènes et les aspects diététiques associés. Ces éléments sont généralement issus de la fiche recette. Lorsque plusieurs produits composent le plat, utilisez autant de lignes que de produits entrant dans sa composition.<br/>Ex : None*
+> *Description : Afin de décrire le contenu d'un plat, ce champ permet de lister (un produit par ligne) les produits entrant dans sa composition. Cela permet d'identifier à traves eux les apports nutritifs, les éventuels allergènes et les aspects diététiques associés. Ces éléments sont généralement issus de la fiche recette. Lorsque plusieurs produits composent le plat, utilisez autant de lignes que de produits entrant dans sa composition.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Nom du fournisseur principal du produit entrant dans la composition du plat. - Propriété `platProduitFournisseurNom`
 
-> *Description : Les établissements de restauration collective font appel à divers fournisseurs pour leur approvisionnement en plats préparés ou en produits entrants dans la composition des plats préparés sur place. Ces fournisseurs sont soit des centrales d'achat soit des producteurs. Lorsque l'identité du producteur du produit est connue, elle peut remplacer la valeur du fournisseur principal. Sinon ce champ permet d'indiquer le fournisseur principal du produit parmi l’ensemble des fournisseurs qui peuvent intervenir pour cet approvisionnement.<br/>Ex : None*
+> *Description : Les établissements de restauration collective font appel à divers fournisseurs pour leur approvisionnement en plats préparés ou en produits entrants dans la composition des plats préparés sur place. Ces fournisseurs sont soit des centrales d'achat soit des producteurs. Lorsque l'identité du producteur du produit est connue, elle peut remplacer la valeur du fournisseur principal. Sinon ce champ permet d'indiquer le fournisseur principal du produit parmi l’ensemble des fournisseurs qui peuvent intervenir pour cet approvisionnement.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Le code SIRET du fournisseur principal - Propriété `platProduitFournisseurSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) du fournisseur principal du produit, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, le fournisseur dispose de plusieurs code SIRET. Dans ce cas c'est le code de l'établissement principal qui doit être indiqué.<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) du fournisseur principal du produit, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant. Dans certains cas, le fournisseur dispose de plusieurs code SIRET. Dans ce cas c'est le code de l'établissement principal qui doit être indiqué.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Le code INSEE de la commune d'implantation du fournisseur - Propriété `platProduitFournisseurInsee`
 
-> *Description : Code Insee de la commune dans laquelle se situe le siège social du fournisseur.<br/>Ex : None*
+> *Description : Code Insee de la commune dans laquelle se situe le siège social du fournisseur.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### Les signes officiels de la qualité et de l'origine - Propriété `platProduitSiqo`
 
-> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : Agriculture biologique, Appellation d'origine protégée/contrôlée, Indication géographique protégée, Spécialité traditionnelle garantie, Label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule dans ce champ sous la forme ["agriculture biologique","appelation d'origine protégée"].<br/>Ex : None*
+> *Description : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine (SIQO) : Agriculture biologique, Appellation d'origine protégée/contrôlée, Indication géographique protégée, Spécialité traditionnelle garantie, Label rouge. Il est possible de saisir plusieurs valeurs séparées par une virgule dans ce champ sous la forme ["agriculture biologique","appelation d'origine protégée"].*
 - Valeur optionnelle
 - Type : liste
 
 #### Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication - Propriété `platProduitLabel`
 
-> *Description : Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : https://fr.openfoodfacts.org/labels. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ. <br/>Ex : None*
+> *Description : Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : https://fr.openfoodfacts.org/labels. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ. *
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Description du plat préparé - Propriété `platProduitDescription`
 
-> *Description : Lorsque la collectivité achète des plats préparés (boîte de macédoine) elle ne connaît pas l'origine des produits le composant. Ce champ permet de décrire le plat à partir des informations fournies par le fournisseur.<br/>Ex : None*
+> *Description : Lorsque la collectivité achète des plats préparés (boîte de macédoine) elle ne connaît pas l'origine des produits le composant. Ce champ permet de décrire le plat à partir des informations fournies par le fournisseur.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Présence d'OGM dans le produit utilisé dans la composition du plat - Propriété `platProduitOGM`
 
-> *Description : Indique la présence d'OGM dans le produit. S'il en contient la valeur est oui et non s'il n'en contient pas.<br/>Ex : None*
+> *Description : Indique la présence d'OGM dans le produit. S'il en contient la valeur est oui et non s'il n'en contient pas.*
 - Valeur optionnelle
 - Type : booléen
 
 #### Indication de l'utilisation du procédé d'ionisation dans la fabrication du produit - Propriété `platProduitIonisation`
 
-> *Description : Indique l'utilisation du procédé d'ionisation consistant à exposer des aliments à des rayonnements ionisants afin de réduire le nombre de micro-organismes qu'ils contiennent. Si le procédé a été utilisé la valeur est oui et non sinon.<br/>Ex : None*
+> *Description : Indique l'utilisation du procédé d'ionisation consistant à exposer des aliments à des rayonnements ionisants afin de réduire le nombre de micro-organismes qu'ils contiennent. Si le procédé a été utilisé la valeur est oui et non sinon.*
 - Valeur optionnelle
 - Type : booléen
 
 #### Liste des additifs alimentaires présents dans le produit entrant dans la composition du plat - Propriété `platProduitAdditif`
 
-> *Description : Les additifs alimentaires sont des produits ajoutés aux denrées alimentaires dans le but d'en améliorer la conservation, le goût et l'aspect. Les éventuels additifs peuvent être listés dans ce champ en les séparant par un point-virgule. Un liste des additifs alimentaires est disponibles à [cette adresse](https://fr.wikipedia.org/wiki/Liste_des_additifs_alimentaires). Si le produit est certifié sans additifs inscrivez "sans additifs" dans ce champ.<br/>Ex : None*
+> *Description : Les additifs alimentaires sont des produits ajoutés aux denrées alimentaires dans le but d'en améliorer la conservation, le goût et l'aspect. Les éventuels additifs peuvent être listés dans ce champ en les séparant par un point-virgule. Un liste des additifs alimentaires est disponibles à [cette adresse](https://fr.wikipedia.org/wiki/Liste_des_additifs_alimentaires). Si le produit est certifié sans additifs inscrivez "sans additifs" dans ce champ.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Nom des allergènes présents dans le produit - Propriété `platProduitAllergene`
 
-> *Description : Enumération des éventuels allergènes présents dans le produit entrant dans la composition du plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par un virgule dans ce champ sous la forme ["oeufs","lait"].<br/>Ex : None*
+> *Description : Enumération des éventuels allergènes présents dans le produit entrant dans la composition du plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette (fiche technique) ou sous forme de traces (lieu de production). Il est possible de saisir plusieurs valeurs séparées par un virgule dans ce champ sous la forme ["oeufs","lait"].*
 - Valeur optionnelle
 - Type : liste
 
 #### Nom et quantité des nutriments présents dans le produit - Propriété `platProduitNutriment`
 
-> *Description : Les produits composant les plats contiennent différents nutriments. Cette information est notamment utilisée pour composer des menus équilibrés du point de vue diététique. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ sous la forme "14g Matière grasse ; 2g Glucides ; 1g Sel". Il s’agit ici d’une valeur de nutriment pour  100g de produit<br/>Ex : None*
+> *Description : Les produits composant les plats contiennent différents nutriments. Cette information est notamment utilisée pour composer des menus équilibrés du point de vue diététique. Il est possible de saisir plusieurs valeurs séparées par un point-virgule dans ce champ sous la forme "14g Matière grasse ; 2g Glucides ; 1g Sel". Il s’agit ici d’une valeur de nutriment pour  100g de produit*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Date de publication de l'enregistrement d'un plat - Propriété `platPublicationDate`
 
-> *Description : Lors de la publication ce champ d'horodatage permet d'indiquer la date de publication de la donnée présente dans le fichier.<br/>Ex : None*
+> *Description : Lors de la publication ce champ d'horodatage permet d'indiquer la date de publication de la donnée présente dans le fichier.*
 - Valeur obligatoire
 - Type : date et heure
 
 #### Date de dernière modification de l'enregistrement - Propriété `platModificationDate`
 
-> *Description : Lors de la publication ou d'éventuelles modifications ce champ d'horodatage permet d'indiquer la date de dernière modification de la donnée présente dans le fichier.<br/>Ex : None*
+> *Description : Lors de la publication ou d'éventuelles modifications ce champ d'horodatage permet d'indiquer la date de dernière modification de la donnée présente dans le fichier.*
 - Valeur obligatoire
 - Type : date et heure
 
 #### Information sur la modification ayant entraîné une mise à jour de la donnée - Propriété `platModificationInfo`
 
-> *Description : Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.<br/>Ex : None*
+> *Description : Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.*
 - Valeur optionnelle
 - Type : chaîne de caractères

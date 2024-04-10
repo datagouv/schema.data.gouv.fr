@@ -29,20 +29,20 @@ Spécification du fichier de déclaration des dix rémunérations les plus élev
 
 #### Propriété `siren`
 
-> *Description : Le numéro SIREN de l'organisme<br/>Ex : 110046018*
+> *Description : Le numéro SIREN de l'organisme*<br/>*Exemple : 110046018*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{9}$`
 
 #### Propriété `denomination_employeur`
 
-> *Description : Dénomination de l'employeur telle que saisie dans la base Sirene des entreprises et de leurs établissements. Vous pouvez accéder à cette dénomination exacte via le site annuaire-entreprises.data.gouv.fr<br/>Ex : Ministère de la Culture*
+> *Description : Dénomination de l'employeur telle que saisie dans la base Sirene des entreprises et de leurs établissements. Vous pouvez accéder à cette dénomination exacte via le site annuaire-entreprises.data.gouv.fr*<br/>*Exemple : Ministère de la Culture*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `type_administration`
 
-> *Description : Le type d'administration <br/>Ex : Région*
+> *Description : Le type d'administration *<br/>*Exemple : Région*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -56,40 +56,39 @@ Spécification du fichier de déclaration des dix rémunérations les plus élev
 
 #### Propriété `annee`
 
-> *Description : Année<br/>Ex : 2019*
+> *Description : Année*<br/>*Exemple : 2019*
 - Valeur obligatoire
 - Type : année
 
 #### Propriété `somme_10_plus_hautes_remunerations_brutes`
 
-> *Description : Somme des 10 plus hautes rémunérations brutes en euros (intégrant les primes et avantages en nature).<br/>Ex : 1609769*
+> *Description : Somme des 10 plus hautes rémunérations brutes en euros (intégrant les primes et avantages en nature).*<br/>*Exemple : 1609769*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur supérieur à 0
 
 #### Propriété `nb_femmes_beneficiaires`
 
-> *Description : Nombre de femmes bénéficiaires<br/>Ex : 5*
+> *Description : Nombre de femmes bénéficiaires*<br/>*Exemple : 5*
 - Valeur obligatoire
 - Type : nombre entier
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `nb_hommes_beneficiaires`
 
-> *Description : Nombre d'hommes bénéficiaires<br/>Ex : 5*
+> *Description : Nombre d'hommes bénéficiaires*<br/>*Exemple : 5*
 - Valeur obligatoire
 - Type : nombre entier
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `duree_cumulee_mois`
 
-> *Description : Durée cumulée en nombre de mois. La durée cumulée en nombre de mois correspond à la somme des durées d'activité des 10 personnes percevant les plus hautes rémunérations. Par exemple, si chacun a travaillé l'année entière, la durée cumulée vaudra 10x12=120 mois. Si parmi ces 10 personnes, une a été rémunérée 8.5 mois, la somme vaudra 9x12+8.5=116.5 mois. Cette colonne fournira un élément d'explication aux variations annuelles, les rémunérations n'étant pas redressé de la durée d'activité.<br/>Ex : 120*
+> *Description : Durée cumulée en nombre de mois. La durée cumulée en nombre de mois correspond à la somme des durées d'activité des 10 personnes percevant les plus hautes rémunérations. Par exemple, si chacun a travaillé l'année entière, la durée cumulée vaudra 10x12=120 mois. Si parmi ces 10 personnes, une a été rémunérée 8.5 mois, la somme vaudra 9x12+8.5=116.5 mois. Cette colonne fournira un élément d'explication aux variations annuelles, les rémunérations n'étant pas redressé de la durée d'activité.*<br/>*Exemple : 120*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 120
+- Valeur inférieure à : 120
 
 #### Propriété `commentaires`
 
-> *Description : Commentaires<br/>Ex : Commentaire*
+> *Description : Commentaires*<br/>*Exemple : Commentaire*
 - Valeur optionnelle
 - Type : chaîne de caractères

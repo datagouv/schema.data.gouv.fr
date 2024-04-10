@@ -36,39 +36,39 @@ Menus des repas proposés par des collectivités locales et des établissements 
 
 #### Nom de la collectivité - Propriété `collectiviteNom`
 
-> *Description : Nom officiel de la collectivité.<br/>Ex : None*
+> *Description : Nom officiel de la collectivité.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code SIRET de la collectivité - Propriété `collectiviteSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui commandé le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Nom de l'établissement ou entreprise qui a produit le repas servi - Propriété `etablissementNom`
 
-> *Description : Nom officiel de l'établissement qui est à l'origine de la production du repas.<br/>Ex : None*
+> *Description : Nom officiel de l'établissement qui est à l'origine de la production du repas.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code SIRET de l'établissement ou entreprise qui a produit le repas servi. - Propriété `etablissementSiret`
 
-> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.<br/>Ex : None*
+> *Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité qui confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Nom du restaurant où le repas est servi. - Propriété `restaurantNom`
 
-> *Description : Nom officiel de l'établissement au sein duquel est servi le menu<br/>Ex : None*
+> *Description : Nom officiel de l'établissement au sein duquel est servi le menu*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Type de client auquel le menu est proposé. - Propriété `restaurantType`
 
-> *Description : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles (Crèche, école maternelle, école élémentaire, Foyer, Collège, Lycée, administration locale, RPA, repas à domicile)<br/>Ex : None*
+> *Description : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles (Crèche, école maternelle, école élémentaire, Foyer, Collège, Lycée, administration locale, RPA, repas à domicile)*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -85,7 +85,7 @@ Menus des repas proposés par des collectivités locales et des établissements 
 
 #### Type de convive auquel le menu est proposé. - Propriété `restaurantConvive`
 
-> *Description : Permet de préciser le type personnes destinataires du menu proposé par mi les valeurs disponibles (bébés, scolaires, adultes, seniors …).<br/>Ex : None*
+> *Description : Permet de préciser le type personnes destinataires du menu proposé par mi les valeurs disponibles (bébés, scolaires, adultes, seniors …).*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -97,19 +97,19 @@ Menus des repas proposés par des collectivités locales et des établissements 
 
 #### Adresse de l'établissement où le repas est servi. - Propriété `restaurantAdresse`
 
-> *Description : Ce champ correspond à l'adresse postale de l'établissement au sein duquel est servi le menu. Idéalement il devrait faire référence à l'identifiant de cette adresse dans la base d'adresse nationale. A défaut une adresse comportant le numéro et le nom de la voirie, le code postal et le nom de la commune<br/>Ex : None*
+> *Description : Ce champ correspond à l'adresse postale de l'établissement au sein duquel est servi le menu. Idéalement il devrait faire référence à l'identifiant de cette adresse dans la base d'adresse nationale. A défaut une adresse comportant le numéro et le nom de la voirie, le code postal et le nom de la commune*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Date du menu - Propriété `menuDate`
 
-> *Description : Date de du jour où le menu est servi dans l'établissement au format AAAA-MM-JJ suivant la norme internationale ISO 8601.<br/>Ex : None*
+> *Description : Date de du jour où le menu est servi dans l'établissement au format AAAA-MM-JJ suivant la norme internationale ISO 8601.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Type du repas servi - Propriété `menuTypeRepas`
 
-> *Description : Permet de spécifier le type du repas parmi les valeurs possible (déjeuner, goûter, dîner, collation, pique-nique).<br/>Ex : None*
+> *Description : Permet de spécifier le type du repas parmi les valeurs possible (déjeuner, goûter, dîner, collation, pique-nique).*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -121,7 +121,7 @@ Menus des repas proposés par des collectivités locales et des établissements 
 
 #### Type de plat servi - Propriété `menuTypePlat`
 
-> *Description : Le type de plat correspond à un des termes associés au code choisi dans la nomenclature des repas servis en cantine scolaire.<br/>Ex : None*
+> *Description : Le type de plat correspond à un des termes associés au code choisi dans la nomenclature des repas servis en cantine scolaire.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -136,30 +136,30 @@ Menus des repas proposés par des collectivités locales et des établissements 
 
 #### Nom du plat servi - Propriété `menuNomPlat`
 
-> *Description : Le nom du plat correspond à un terme ou une expression associé au code choisi dans la nomenclature des plats servis en cantine scolaire. Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner le type de plat, dans la limite de 140 caractères maximum en prenant soin d'échapper ou de supprimer les éventuelles virgules.<br/>Ex : None*
+> *Description : Le nom du plat correspond à un terme ou une expression associé au code choisi dans la nomenclature des plats servis en cantine scolaire. Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner le type de plat, dans la limite de 140 caractères maximum en prenant soin d'échapper ou de supprimer les éventuelles virgules.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Code du plat servi - Propriété `menuCodePLat`
 
-> *Description : Code unique par plat éventuellement issu d'une base de données de gestion.<br/>Ex : None*
+> *Description : Code unique par plat éventuellement issu d'une base de données de gestion.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Type de label du plat servi - Propriété `menuLabelPlat`
 
-> *Description : Le type de label du plat correspond à un terme permettant de construire une catégorisation des labels associés aux différents plats.<br/>Ex : None*
+> *Description : Le type de label du plat correspond à un terme permettant de construire une catégorisation des labels associés aux différents plats.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Nom des allergènes présents dans le plat - Propriété `menuAllergenePLat`
 
-> *Description : Enumération séparés par des virgules des allergènes potentiellement présents dans le plat proposé.<br/>Ex : None*
+> *Description : Enumération séparés par des virgules des allergènes potentiellement présents dans le plat proposé.*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Nom du régime alimentaire - Propriété `menuRegimePlat`
 
-> *Description : Nom de régime auquel est associé le plat entrant dans la composition du menu.<br/>Ex : None*
+> *Description : Nom de régime auquel est associé le plat entrant dans la composition du menu.*
 - Valeur optionnelle
 - Type : chaîne de caractères

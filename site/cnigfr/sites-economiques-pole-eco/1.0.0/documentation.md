@@ -10,7 +10,7 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Site web : https://github.com/cnigfr/schema-sites-economiques
 - Version : v1.0.0
 - Valeurs manquantes : `""`, `"NA"`, `"NaN"`, `"N/A"`
-- Clé primaire : `pole_id`
+- Clé primaire : `pole_id`
 
 ### Modèle de données
 
@@ -33,19 +33,19 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 
 #### identifiant - Propriété `pole_id`
 
-> *Description : identifiant du pôle économique défini dans le standard CNIG Site Economique<br/>Ex : 84003_POLE-ECO_00162*
+> *Description : identifiant du pôle économique défini dans le standard CNIG Site Economique*<br/>*Exemple : 84003_POLE-ECO_00162*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### nom - Propriété `pole_nom`
 
-> *Description : nom usuel du pôle économique<br/>Ex : Les Bornes du Temps*
+> *Description : nom usuel du pôle économique*<br/>*Exemple : Les Bornes du Temps*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### vocation dominante - Propriété `pole_vocadomi`
 
-> *Description : vocation dominante du pôle économique, issue de la vocation dominante des sites économiques le constituant.<br/>Ex : mixte à dominante logistique*
+> *Description : vocation dominante du pôle économique, issue de la vocation dominante des sites économiques le constituant.*<br/>*Exemple : mixte à dominante logistique*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -66,49 +66,49 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 
 #### date d'identification - Propriété `pole_identif_date`
 
-> *Description : date d'identification du pôle économique<br/>Ex : 2016-03-26*
+> *Description : date d'identification du pôle économique*<br/>*Exemple : 2016-03-26*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### date de dernière actualisation - Propriété `pole_actu_date`
 
-> *Description : date de dernière actualisation des informations sur le pôle économique.<br/>Ex : 2022-08-22*
+> *Description : date de dernière actualisation des informations sur le pôle économique.*<br/>*Exemple : 2022-08-22*
 - Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
 
 #### nombre de sites - Propriété `pole_nb_site`
 
-> *Description : nombre de sites composant le pôle économique.<br/>Ex : 2*
+> *Description : nombre de sites composant le pôle économique.*<br/>*Exemple : 2*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### nombre d'établissements - Propriété `pole_nb_etab`
 
-> *Description : nombre total d'établissements du pôle économique<br/>Ex : 40*
+> *Description : nombre total d'établissements du pôle économique*<br/>*Exemple : 40*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### nombre d'emploi - Propriété `pole_nb_emploi`
 
-> *Description : nombre total d'emplois du pôle économique<br/>Ex : 1152*
+> *Description : nombre total d'emplois du pôle économique*<br/>*Exemple : 1152*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### surface  - Propriété `pole_surface`
 
-> *Description : somme des surfaces (en ha) des sites économiques constituant le pôle<br/>Ex : 21*
+> *Description : somme des surfaces (en ha) des sites économiques constituant le pôle*<br/>*Exemple : 21*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### localisation - Propriété `pole_geompoint`
 
-> *Description : coordonnées géographiques du centroïde du pôle économique au format geopoint (https://specs.frictionlessdata.io//table-schema/#geopoint)<br/>Ex : 3.9815, 49.2527*
+> *Description : coordonnées géographiques du centroïde du pôle économique au format geopoint (https://specs.frictionlessdata.io//table-schema/#geopoint)*<br/>*Exemple : 3.9815, 49.2527*
 - Valeur obligatoire
 - Type : point géographique (format `default`)
 
 #### rayonnement  - Propriété `pole_rayonnement`
 
-> *Description : rayonnement du pôle économique<br/>Ex : régional*
+> *Description : rayonnement du pôle économique*<br/>*Exemple : régional*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 

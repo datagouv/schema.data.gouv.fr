@@ -26,7 +26,7 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 | [frequence_monitoring](#propriete-frequence-monitoring) | chaîne de caractères  | Oui |
 | [date](#propriete-date) | date (format `%Y-%m-%d`) | Oui |
 | [est_periode](#propriete-est-periode) | booléen  | Oui |
-| [date_debut](#propriete-date_debut) | date (format `%Y-%m-%d`) | Non |
+| [date_debut](#propriete-date-debut) | date (format `%Y-%m-%d`) | Non |
 | [est_automatise](#propriete-est-automatise) | booléen  | Oui |
 | [source_collecte](#propriete-source-collecte) | chaîne de caractères  | Oui |
 | [code_insee](#propriete-code-insee) | chaîne de caractères  | Non |
@@ -35,43 +35,43 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 
 #### Propriété `administration_rattachement`
 
-> *Description : Administration à laquelle le service public numérique est rattaché.<br/>Ex : DINUM*
+> *Description : Administration à laquelle le service public numérique est rattaché.*<br/>*Exemple : DINUM*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `nom_service_public_numerique`
 
-> *Description : Nom du service public numérique<br/>Ex : Trackdéchets*
+> *Description : Nom du service public numérique*<br/>*Exemple : Trackdéchets*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `indicateur`
 
-> *Description : Intitulé de l’indicateur. Pour chaque mesure du même indicateur, il convient de renseigner le même intitulé, la date de mesure indiquant l'évolution dans le temps. NB : ce champ est non contraint, mais il convient de garder la même syntaxe au cours du temps pour un même indicateur.<br/>Ex : Nombre d’utilisateurs inscrits*
+> *Description : Intitulé de l’indicateur. Pour chaque mesure du même indicateur, il convient de renseigner le même intitulé, la date de mesure indiquant l'évolution dans le temps. NB : ce champ est non contraint, mais il convient de garder la même syntaxe au cours du temps pour un même indicateur.*<br/>*Exemple : Nombre d’utilisateurs inscrits*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `valeur`
 
-> *Description : Valeur de l’indicateur, arrêtée à la date indiquée dans le champ 'date'.<br/>Ex : 100000*
+> *Description : Valeur de l’indicateur, arrêtée à la date indiquée dans le champ 'date'.*<br/>*Exemple : 100000*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### Propriété `unite_mesure`
 
-> *Description : Unité de l’indicateur. Ex : %, jour, unité, note sur 10... NB : lorsqu’il s’agit d’un comptage ('nombre de X' dans le champ 'indicateur'), indiquer 'unité'.<br/>Ex : unité*
+> *Description : Unité de l’indicateur. Ex : %, jour, unité, note sur 10... NB : lorsqu’il s’agit d’un comptage ('nombre de X' dans le champ 'indicateur'), indiquer 'unité'.*<br/>*Exemple : unité*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `est_cible`
 
-> *Description : Indiquer si la valeur est une valeur cible (projetée à une date future) ou si c’est une valeur réelle (mesurée à une date passée).<br/>Ex : true*
+> *Description : Indiquer si la valeur est une valeur cible (projetée à une date future) ou si c’est une valeur réelle (mesurée à une date passée).*<br/>*Exemple : true*
 - Valeur obligatoire
 - Type : booléen
 
 #### Propriété `frequence_monitoring`
 
-> *Description : Fréquence à laquelle l’indicateur est consulté et utilisé par le service. NB : Peut-être différente de la fréquence de publication : il est possible de monitorer un indicateur quotidiennement mais de ne le publier que tous les mois par exemple.<br/>Ex : quotidienne*
+> *Description : Fréquence à laquelle l’indicateur est consulté et utilisé par le service. NB : Peut-être différente de la fréquence de publication : il est possible de monitorer un indicateur quotidiennement mais de ne le publier que tous les mois par exemple.*<br/>*Exemple : quotidienne*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -85,43 +85,43 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 
 #### Propriété `date`
 
-> *Description : Date à laquelle l’indicateur a été mesuré, ou à laquelle la valeur cible est souhaitée s’il s’agit d’une cible. NB : indiquer la date de fin de la période si l’indicateur porte sur un laps de temps.<br/>Ex : 2020-01-01*
+> *Description : Date à laquelle l’indicateur a été mesuré, ou à laquelle la valeur cible est souhaitée s’il s’agit d’une cible. NB : indiquer la date de fin de la période si l’indicateur porte sur un laps de temps.*<br/>*Exemple : 2020-01-01*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### Propriété `est_periode`
 
-> *Description : Booléen indiquant si la mesure est faite sur une période (true) ou si c’est un stock (false). NB : un stock représente un indicateur suivi depuis le début du projet, contrairement aux indicateurs portant spécifiquement sur des laps de temps.<br/>Ex : true*
+> *Description : Booléen indiquant si la mesure est faite sur une période (true) ou si c’est un stock (false). NB : un stock représente un indicateur suivi depuis le début du projet, contrairement aux indicateurs portant spécifiquement sur des laps de temps.*<br/>*Exemple : true*
 - Valeur obligatoire
 - Type : booléen
 
 #### Propriété `date_debut`
 
-> *Description : Date du début de la période de mesure, si l’indicateur porte sur un laps de temps (donc si le champ est_periode est true). Dans ce cas, la ligne se lit '{valeur} {unite_mesure} ont été recensés entre {date_debut} et {date}.'<br/>Ex : 2020-01-01*
+> *Description : Date du début de la période de mesure, si l’indicateur porte sur un laps de temps (donc si le champ est_periode est true). Dans ce cas, la ligne se lit '{valeur} {unite_mesure} ont été recensés entre {date_debut} et {date}.'*<br/>*Exemple : 2020-01-01*
 - Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
 
 #### Propriété `est_automatise`
 
-> *Description : Préciser si la collecte des données est automatisée (true) ou manuelle (false).<br/>Ex : true*
+> *Description : Préciser si la collecte des données est automatisée (true) ou manuelle (false).*<br/>*Exemple : true*
 - Valeur obligatoire
 - Type : booléen
 
 #### Propriété `source_collecte`
 
-> *Description : Préciser comment la collecte est réalisée : script, enquête, collecte manuelle...<br/>Ex : script*
+> *Description : Préciser comment la collecte est réalisée : script, enquête, collecte manuelle...*<br/>*Exemple : script*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `code_insee`
 
-> *Description : Si l'indicateur est calculé à une certaine échelle géographique, préciser le code INSEE de cette échelle (trouvable ici : https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/).<br/>Ex : 63113*
+> *Description : Si l'indicateur est calculé à une certaine échelle géographique, préciser le code INSEE de cette échelle (trouvable ici : https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/).*<br/>*Exemple : 63113*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Propriété `dataviz_wish`
 
-> *Description : Indication pour les producteurs de visualisation du type de dataviz approprié pour cet indicateur.<br/>Ex : linechart*
+> *Description : Indication pour les producteurs de visualisation du type de dataviz approprié pour cet indicateur.*<br/>*Exemple : linechart*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -133,6 +133,6 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 
 #### Propriété `commentaires`
 
-> *Description : Préciser les limites et biais connus et justifier le choix de l’indicateur malgré ses limites ; les modalites de lecture et d’interpretation de l’indicateur ; si l’indicateur est obsolète.<br/>Ex : None*
+> *Description : Préciser les limites et biais connus et justifier le choix de l’indicateur malgré ses limites ; les modalites de lecture et d’interpretation de l’indicateur ; si l’indicateur est obsolète.*
 - Valeur optionnelle
 - Type : chaîne de caractères

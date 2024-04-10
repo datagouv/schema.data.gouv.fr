@@ -10,7 +10,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Site web : https://github.com/cnigfr/schema-friches
 - Version : v1.0.1
 - Valeurs manquantes : `""`, `"NA"`, `"NaN"`, `"N/A"`
-- Clé primaire : `site_id`
+- Clé primaire : `site_id`
 
 ### Modèle de données
 
@@ -70,19 +70,19 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### identifiant du site - Propriété `site_id`
 
-> *Description : identifiant du site respectant la forme définie dans le standard CNIG Friches §4.3<br/>Ex : 12083_22-12.0017*
+> *Description : identifiant du site respectant la forme définie dans le standard CNIG Friches §4.3*<br/>*Exemple : 12083_22-12.0017*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### nom du site - Propriété `site_nom`
 
-> *Description : nom du site ou nom usuel du site en absence de nom officiel ou description sommaire du site<br/>Ex : Centre médical thermal*
+> *Description : nom du site ou nom usuel du site en absence de nom officiel ou description sommaire du site*<br/>*Exemple : Centre médical thermal*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### type de site - Propriété `site_type`
 
-> *Description : type de site : friche industrielle, commerciale, etc.<br/>Ex : friche industrielle*
+> *Description : type de site : friche industrielle, commerciale, etc.*<br/>*Exemple : friche industrielle*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -108,38 +108,38 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### adresse du site - Propriété `site_adresse`
 
-> *Description : adresse du site<br/>Ex : 875 rte de Pierrefond*
+> *Description : adresse du site*<br/>*Exemple : 875 rte de Pierrefond*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### date d'identification du site - Propriété `site_identif_date`
 
-> *Description : date d'identification du site, au format ISO 8601 AAAA-MM-DD<br/>Ex : 2003-05-18*
+> *Description : date d'identification du site, au format ISO 8601 AAAA-MM-DD*<br/>*Exemple : 2003-05-18*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### date de dernière actualisation - Propriété `site_actu_date`
 
-> *Description : date de dernière actualisation des informations sur le site, au format ISO 8601 AAAA-MM-DD<br/>Ex : 2019-06-23*
+> *Description : date de dernière actualisation des informations sur le site, au format ISO 8601 AAAA-MM-DD*<br/>*Exemple : 2019-06-23*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### URL du site - Propriété `site_url`
 
-> *Description : URL(s) des fiches du site dans BASIAS et/ou dans BASOL ou SIS et/ou dans un observatoire local, lorsqu'elles existent<br/>Ex : http://fiches-risques.brgm.fr/georisques/basias-detaillee/AQI4008059*
+> *Description : URL(s) des fiches du site dans BASIAS et/ou dans BASOL ou SIS et/ou dans un observatoire local, lorsqu'elles existent*<br/>*Exemple : http://fiches-risques.brgm.fr/georisques/basias-detaillee/AQI4008059*
 - Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)
 - Motif : `(?:(?:^|\|)(http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+|)\1+http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+)+$`
 
 #### URL de la fiche de l’ADEME - Propriété `site_ademe_url`
 
-> *Description : URL de la fiche lorsque le site a fait l'objet d'une intervention de l'ADEME<br/>Ex : https://data.ademe.fr/data-fair/api/v1/datasets/srd-ademe/attachments/ILE%20DER_22218_28092020.pdf*
+> *Description : URL de la fiche lorsque le site a fait l'objet d'une intervention de l'ADEME*<br/>*Exemple : https://data.ademe.fr/data-fair/api/v1/datasets/srd-ademe/attachments/ILE%20DER_22218_28092020.pdf*
 - Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)
 
 #### type de sécurisation - Propriété `site_securite`
 
-> *Description : description du (des) type(s) de sécurisation selon l'article R512-75-1 al. IV code de l'environnement<br/>Ex : interdictions ou limitations d'accès au site*
+> *Description : description du (des) type(s) de sécurisation selon l'article R512-75-1 al. IV code de l'environnement*<br/>*Exemple : interdictions ou limitations d'accès au site*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -155,7 +155,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### occupation du site - Propriété `site_occupation`
 
-> *Description : description de l'occupation du site<br/>Ex : partiellement inoccupé*
+> *Description : description de l'occupation du site*<br/>*Exemple : partiellement inoccupé*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -170,7 +170,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### statut du site - Propriété `site_statut`
 
-> *Description : statut du site au regard de son état de friche et d'un éventuel projet de reconversion<br/>Ex : friche avec projet*
+> *Description : statut du site au regard de son état de friche et d'un éventuel projet de reconversion*<br/>*Exemple : friche avec projet*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -184,63 +184,63 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### site web d'un éventuel projet sur le site - Propriété `site_projet_url`
 
-> *Description : site web ou adresse mail institutionnelle du porteur de projet de reconversion, le cas échéant<br/>Ex : http://www.reconvtafriche.fr/site_tulipe/laureat2021.html*
+> *Description : site web ou adresse mail institutionnelle du porteur de projet de reconversion, le cas échéant*<br/>*Exemple : http://www.reconvtafriche.fr/site_tulipe/laureat2021.html*
 - Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)
 
 #### libellé des activités - Propriété `activite_libelle`
 
-> *Description : libellés des ancienne(s) activité(s). Exemple : Extraction de houille|Terrils ou crassier de mines<br/>Ex : Extraction de houille|Terrils ou crassier de mines*
+> *Description : libellés des ancienne(s) activité(s). Exemple : Extraction de houille|Terrils ou crassier de mines*<br/>*Exemple : Extraction de houille|Terrils ou crassier de mines*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### code BASIAS des activités - Propriété `activite_code`
 
-> *Description : code(s) BASIAS de(s) ancienne(s) activité(s), suivant la Nomenclature d'activités française de l'INSEE<br/>Ex : B05.10Z|V89.04Z*
+> *Description : code(s) BASIAS de(s) ancienne(s) activité(s), suivant la Nomenclature d'activités française de l'INSEE*<br/>*Exemple : B05.10Z|V89.04Z*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)([A-Z]\d\d.\d\d[A-Z]|)\1+[A-Z]\d\d.\d\d[A-Z])+$`
 
 #### année de fin d'activité - Propriété `activite_fin_annee`
 
-> *Description : année de fin d'activité, au format ISO 8601 AAAA<br/>Ex : 1989*
+> *Description : année de fin d'activité, au format ISO 8601 AAAA*<br/>*Exemple : 1989*
 - Valeur optionnelle
 - Type : date (format `%Y`)
 
 #### nom de la commune - Propriété `comm_nom`
 
-> *Description : nom de la commune principale d'implantation du site<br/>Ex : CRANSAC*
+> *Description : nom de la commune principale d'implantation du site*<br/>*Exemple : CRANSAC*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### code INSEE de la commune - Propriété `comm_insee`
 
-> *Description : code INSEE de la commune principale d'implantation du site<br/>Ex : 12083*
+> *Description : code INSEE de la commune principale d'implantation du site*<br/>*Exemple : 12083*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### type de bâtiments - Propriété `bati_type`
 
-> *Description : type de bâtiments présents dans le périmètre de la friche<br/>Ex : secteur tertiaire|commercial*
+> *Description : type de bâtiments présents dans le périmètre de la friche*<br/>*Exemple : secteur tertiaire|commercial*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(industriel|commercial|résidentiel|secteur tertiaire|inconnu|autre|sans objet))+$`
 
 #### nombre de bâtiments - Propriété `bati_nombre`
 
-> *Description : nombre de bâtiments présents dans le périmètre de la friche<br/>Ex : 2*
+> *Description : nombre de bâtiments présents dans le périmètre de la friche*<br/>*Exemple : 2*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### surface des bâtiments - Propriété `bati_surface`
 
-> *Description : surface de plancher totale des bâtiments. Unité : m²<br/>Ex : 2400*
+> *Description : surface de plancher totale des bâtiments. Unité : m²*<br/>*Exemple : 2400*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### pollution connue - Propriété `bati_pollution`
 
-> *Description : pollution connue dans les bâtiments<br/>Ex : inconnu*
+> *Description : pollution connue dans les bâtiments*<br/>*Exemple : inconnu*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -252,7 +252,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### état de vacance - Propriété `bati_vacance`
 
-> *Description : état de vacance des bâtiments<br/>Ex : vacant*
+> *Description : état de vacance des bâtiments*<br/>*Exemple : vacant*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -265,7 +265,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### présence de bâti patrimonial - Propriété `bati_patrimoine`
 
-> *Description : présence de bâtiment de valeur patrimoniale<br/>Ex : aucun*
+> *Description : présence de bâtiment de valeur patrimoniale*<br/>*Exemple : aucun*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -278,7 +278,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### dégradation des bâtiment - Propriété `bati_etat`
 
-> *Description : état de dégradation des bâtiments<br/>Ex : dégradation moyenne*
+> *Description : état de dégradation des bâtiments*<br/>*Exemple : dégradation moyenne*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -292,45 +292,45 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### première année de construction - Propriété `local_ancien_annee`
 
-> *Description : année de construction du local le plus ancien<br/>Ex : 1976*
+> *Description : année de construction du local le plus ancien*<br/>*Exemple : 1976*
 - Valeur optionnelle
 - Type : date (format `%Y`)
 
 #### dernière année de construction - Propriété `local_recent_annee`
 
-> *Description : année de construction du local le plus récent<br/>Ex : 1987*
+> *Description : année de construction du local le plus récent*<br/>*Exemple : 1987*
 - Valeur optionnelle
 - Type : date (format `%Y`)
 
 #### type de propriétaire - Propriété `proprio_type`
 
-> *Description : type de propriétaire actuel dans les fichiers fonciers suivant la classification de personne morale niveau 3<br/>Ex : P4a|G1a|Z2b|G1a|M1a|G1a|R2a|R5a|X1a*
+> *Description : type de propriétaire actuel dans les fichiers fonciers suivant la classification de personne morale niveau 3*<br/>*Exemple : P4a|G1a|Z2b|G1a|M1a|G1a|R2a|R5a|X1a*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)([A-Z]\d[a-z]|)\1+[A-Z]\d[a-z])+$`
 
 #### type de personne - Propriété `proprio_personne`
 
-> *Description : indique s'il s'agit d'une personne physique ou morale<br/>Ex : personne morale*
+> *Description : indique s'il s'agit d'une personne physique ou morale*<br/>*Exemple : personne morale*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(personne physique|personne morale|inconnu|autre|sans objet))+$`
 
 #### nom du propriétaire - Propriété `proprio_nom`
 
-> *Description : nom des propriétaires actuels dans les fichiers fonciers, uniquement s'il s'agit de personnes morales<br/>Ex : Commune de Cransac*
+> *Description : nom des propriétaires actuels dans les fichiers fonciers, uniquement s'il s'agit de personnes morales*<br/>*Exemple : Commune de Cransac*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### année de la pollution du sol - Propriété `sol_pollution_annee`
 
-> *Description : année de constatation de la pollution du sol dans BASOL, SIS, ou autre source de données<br/>Ex : 1996*
+> *Description : année de constatation de la pollution du sol dans BASOL, SIS, ou autre source de données*<br/>*Exemple : 1996*
 - Valeur optionnelle
 - Type : date (format `%Y`)
 
 #### existence de pollution du sol - Propriété `sol_pollution_existe`
 
-> *Description : existence de pollution du sol<br/>Ex : pollution avérée*
+> *Description : existence de pollution du sol*<br/>*Exemple : pollution avérée*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -345,7 +345,7 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### origine de la pollution du sol - Propriété `sol_pollution_origine`
 
-> *Description : origine de la pollution du sol<br/>Ex : Pollution due au fonctionnement de l'installation*
+> *Description : origine de la pollution du sol*<br/>*Exemple : Pollution due au fonctionnement de l'installation*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -359,32 +359,32 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### commentaire sur la pollution du sol - Propriété `sol_pollution_commentaire`
 
-> *Description : commentaire décrivant la pollution<br/>Ex : Produits toxiques*
+> *Description : commentaire décrivant la pollution*<br/>*Exemple : Produits toxiques*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### fiche de dépollution - Propriété `sol_depollution_fiche`
 
-> *Description : Lien vers une fiche de gestion ou de traitement des pollutions dans BASOL, SIS, ou autre base de données<br/>Ex : https://fiches-risques.brgm.fr/georisques/infosols/instruction/basol?page=xx*
+> *Description : Lien vers une fiche de gestion ou de traitement des pollutions dans BASOL, SIS, ou autre base de données*<br/>*Exemple : https://fiches-risques.brgm.fr/georisques/infosols/instruction/basol?page=xx*
 - Valeur optionnelle
 - Type : chaîne de caractères (format `uri`)
 
 #### surface de l'unité foncière - Propriété `unite_fonciere_surface`
 
-> *Description : surface de l'unité foncière, en conformité avec la documentation sur la Table Unifiée du Parcellaire (TUP). Unité : m²<br/>Ex : 16750*
+> *Description : surface de l'unité foncière, en conformité avec la documentation sur la Table Unifiée du Parcellaire (TUP). Unité : m²*<br/>*Exemple : 16750*
 - Valeur optionnelle
 - Type : nombre entier
 
 #### liste des parcelles cadastrale - Propriété `unite_fonciere_refcad`
 
-> *Description : Liste des identifiants des parcelles cadastrales de l'unité foncière<br/>Ex : 12083000AH0035|12083000AH0072|12083000AH0279|12083000AH0367*
+> *Description : Liste des identifiants des parcelles cadastrales de l'unité foncière*<br/>*Exemple : 12083000AH0035|12083000AH0072|12083000AH0279|12083000AH0367*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(\d{8}[A-Z]{2}\d{4}|)\1+\d{8}[A-Z]{2}\d{4})+$`
 
 #### type de zone d'urbanisme - Propriété `urba_zone_type`
 
-> *Description : type de zone d'urbanisme (cf. standard CNIG PLU §3.2 ZONE_URBA : TYPEZONE)<br/>Ex : N*
+> *Description : type de zone d'urbanisme (cf. standard CNIG PLU §3.2 ZONE_URBA : TYPEZONE)*<br/>*Exemple : N*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -403,19 +403,19 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### libellé de la zone d'urbanisme - Propriété `urba_zone_lib`
 
-> *Description : libellé de la zone d'urbanisme (cf. standard CNIG PLU §3.2 ZONE_URBA : LIBELLE)<br/>Ex : Np*
+> *Description : libellé de la zone d'urbanisme (cf. standard CNIG PLU §3.2 ZONE_URBA : LIBELLE)*<br/>*Exemple : Np*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### forme dominante de la zone - Propriété `urba_zone_formedomi`
 
-> *Description : forme dominante de la zone d'urbanisme (cf. standard CNIG PLU : FORMDOMI)<br/>Ex : 0202*
+> *Description : forme dominante de la zone d'urbanisme (cf. standard CNIG PLU : FORMDOMI)*<br/>*Exemple : 0202*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### type de document d'urbanisme - Propriété `urba_doc_type`
 
-> *Description : type de document d'urbanisme<br/>Ex : PLUI*
+> *Description : type de document d'urbanisme*<br/>*Exemple : PLUI*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -430,49 +430,49 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 
 #### distances d'accès aux réseaux - Propriété `desserte_distance`
 
-> *Description : distances d'accès aux réseaux routier, ferroviaire, fluvial ou maritime<br/>Ex : 2|6|46*
+> *Description : distances d'accès aux réseaux routier, ferroviaire, fluvial ou maritime*<br/>*Exemple : 2|6|46*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `\d{1,}\|\d{1,}\|\d{1,}`
 
 #### desserte du site - Propriété `desserte_commentaire`
 
-> *Description : appréciation textuelle au sujet de la desserte du site ou, au contraire, de son niveau d'enclavement<br/>Ex : La desserte routière départementale permet les convois exceptionnels*
+> *Description : appréciation textuelle au sujet de la desserte du site ou, au contraire, de son niveau d'enclavement*<br/>*Exemple : La desserte routière départementale permet les convois exceptionnels*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### nom de la source - Propriété `source_nom`
 
-> *Description : nom court de la source ayant permis l'identification du site<br/>Ex : BASIAS*
+> *Description : nom court de la source ayant permis l'identification du site*<br/>*Exemple : BASIAS*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### URL de la source - Propriété `source_url`
 
-> *Description : URL de la source de l'information, par exemple celui du site web d'un observatoire de friches<br/>Ex : https://www.ecologie.gouv.fr/recyclage-des-friches-441-laureats-des-appels-projets-devoiles*
+> *Description : URL de la source de l'information, par exemple celui du site web d'un observatoire de friches*<br/>*Exemple : https://www.ecologie.gouv.fr/recyclage-des-friches-441-laureats-des-appels-projets-devoiles*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### identification du producteur - Propriété `source_producteur`
 
-> *Description : identification du producteur de la donnée. Exemples : Région Occitanie ; DDT des Ardennes ; Appel à projet Fonds Friches ; etc.<br/>Ex : Appel à projet Fond Friche*
+> *Description : identification du producteur de la donnée. Exemples : Région Occitanie ; DDT des Ardennes ; Appel à projet Fonds Friches ; etc.*<br/>*Exemple : Appel à projet Fond Friche*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### adresse mail - Propriété `source_contact`
 
-> *Description : adresse mail de la structure ayant fourni l'information sur le site<br/>Ex : fondfriche@ecologie.gouv.fr*
+> *Description : adresse mail de la structure ayant fourni l'information sur le site*<br/>*Exemple : fondfriche@ecologie.gouv.fr*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### coordonnées du centroïde - Propriété `geompoint`
 
-> *Description : coordonnées géographiques du centroïde du site au format WKT<br/>Ex : POINT(49.2527 3.9815)*
+> *Description : coordonnées géographiques du centroïde du site au format WKT*<br/>*Exemple : POINT(49.2527 3.9815)*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### géométrie surfacique - Propriété `geomsurf`
 
-> *Description : géométrie du périmètre du site au format WKT ([Well_Known-Text](https://fr.wikipedia.org/wiki/Well-known_text)<br/>Ex : POLYGON((49.33 3.95, 49.38 3.89, 49.42 3.96, ...))*
+> *Description : géométrie du périmètre du site au format WKT ([Well_Known-Text](https://fr.wikipedia.org/wiki/Well-known_text)*<br/>*Exemple : POLYGON((49.33 3.95, 49.38 3.89, 49.42 3.96, ...))*
 - Valeur optionnelle
 - Type : chaîne de caractères

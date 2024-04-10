@@ -10,7 +10,7 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Site web : https://github.com/cnigfr/schema-sites-economiques
 - Version : v1.0.0
 - Valeurs manquantes : `""`, `"NA"`, `"NaN"`, `"N/A"`
-- Clé primaire : `terr_id`
+- Clé primaire : `terr_id`
 
 ### Modèle de données
 
@@ -40,32 +40,32 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 
 #### identifiant du terrain - Propriété `terr_id`
 
-> *Description : identifiant du terrain à vocation économique<br/>Ex : 80024_TERRAIN-ECO_00131*
+> *Description : identifiant du terrain à vocation économique*<br/>*Exemple : 80024_TERRAIN-ECO_00131*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### identifiant du site - Propriété `site_id`
 
-> *Description : identifiant du site où se situe le terrain économique<br/>Ex : 80024_SITE-ECO_00001*
+> *Description : identifiant du site où se situe le terrain économique*<br/>*Exemple : 80024_SITE-ECO_00001*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### liste des parcelles - Propriété `terr_refcad`
 
-> *Description : liste des identifiants de parcelles cadastrales<br/>Ex : 80024000ZO0030|80024000ZO0034|80024000ZO0035*
+> *Description : liste des identifiants de parcelles cadastrales*<br/>*Exemple : 80024000ZO0030|80024000ZO0034|80024000ZO0035*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `(?:(?:^|\|)(\d{8}[0-9A-Z]{2}\d{4}|)\1+\d{8}[0-9A-Z]{2}\d{4})+$`
 
 #### superficie brute - Propriété `terr_surf_brute`
 
-> *Description : superficie brute du terrain économique en hectare<br/>Ex : 9.9*
+> *Description : superficie brute du terrain économique en hectare*<br/>*Exemple : 9.9*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### superficie à prendre en compte - Propriété `terr_utile`
 
-> *Description : superficie à prendre en compte ('oui' ou 'non') dans le calcul de la surface utile du site<br/>Ex : oui*
+> *Description : superficie à prendre en compte ('oui' ou 'non') dans le calcul de la surface utile du site*<br/>*Exemple : oui*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -74,55 +74,55 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 
 #### date d’identification - Propriété `terr_identif_date`
 
-> *Description : date d'identification du terrain économique. Exemple : 2016-03-26<br/>Ex : 2023-08-29*
+> *Description : date d'identification du terrain économique. Exemple : 2016-03-26*<br/>*Exemple : 2023-08-29*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### date d’actualisation - Propriété `terr_actu_date`
 
-> *Description : date de dernière actu. des informations du terrain éco. Ex: 2023-04-30<br/>Ex : 2023-08-29*
+> *Description : date de dernière actu. des informations du terrain éco. Ex: 2023-04-30*<br/>*Exemple : 2023-08-29*
 - Valeur obligatoire
 - Type : date (format `%Y-%m-%d`)
 
 #### maîtrise foncière - Propriété `terr_maitrise_fonc`
 
-> *Description : maîtrise foncière majoritaire du terrain économique<br/>Ex : structure intercommunale*
+> *Description : maîtrise foncière majoritaire du terrain économique*<br/>*Exemple : structure intercommunale*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### stade d’aménagement - Propriété `terr_stade_amngt`
 
-> *Description : stade d’aménagement du terrain économique<br/>Ex : viabilisé et aménagé*
+> *Description : stade d’aménagement du terrain économique*<br/>*Exemple : viabilisé et aménagé*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### stade de commercialisation - Propriété `terr_stade_comm`
 
-> *Description : stade de commercialisation du terrain économique<br/>Ex : vendu, commercialisation achevée*
+> *Description : stade de commercialisation du terrain économique*<br/>*Exemple : vendu, commercialisation achevée*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### état d'occupation - Propriété `terr_etat_occup`
 
-> *Description : état d'occupation du terrain économique<br/>Ex : occupé*
+> *Description : état d'occupation du terrain économique*<br/>*Exemple : occupé*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### usage du terrain - Propriété `terr_usage`
 
-> *Description : usage du terrain économique<br/>Ex : bâti productif*
+> *Description : usage du terrain économique*<br/>*Exemple : bâti productif*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### géométrie - Propriété `terr_geomsurf`
 
-> *Description : géométrie surfacique du terrain économique au format geojson (https://specs.frictionlessdata.io//table-schema/#geojson)<br/>Ex : {'type': 'Polygon', 'coordinates': [[[30.0, 10.0], [40.0, 40.0], [20.0, 40.0], [10.0, 20.0], [30.0, 10.0]]]}*
+> *Description : géométrie surfacique du terrain économique au format geojson (https://specs.frictionlessdata.io//table-schema/#geojson)*<br/>*Exemple : {'type': 'Polygon', 'coordinates': [[[30.0, 10.0], [40.0, 40.0], [20.0, 40.0], [10.0, 20.0], [30.0, 10.0]]]}*
 - Valeur obligatoire
 - Type : GéoJSON
 
 #### terrain clé en main - Propriété `terr_cle_en_main`
 
-> *Description : terrain purgé de tout recours et directement prêt à l'implantation d'activité<br/>Ex : oui*
+> *Description : terrain purgé de tout recours et directement prêt à l'implantation d'activité*<br/>*Exemple : oui*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -131,24 +131,24 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 
 #### nom de l'acquéreur - Propriété `terr_acquereur`
 
-> *Description : nom de l'acquéreur du terrain à vocation économique<br/>Ex : SA Lactalys*
+> *Description : nom de l'acquéreur du terrain à vocation économique*<br/>*Exemple : SA Lactalys*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
 #### date de la cession - Propriété `terr_cession_date`
 
-> *Description : date de la cession<br/>Ex : 2021-04-22*
+> *Description : date de la cession*<br/>*Exemple : 2021-04-22*
 - Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
 
 #### montant de la vente - Propriété `terr_vente_montant`
 
-> *Description : montant de la vente<br/>Ex : 530000*
+> *Description : montant de la vente*<br/>*Exemple : 530000*
 - Valeur optionnelle
 - Type : nombre réel
 
 #### prix au m² - Propriété `terr_m2_prix`
 
-> *Description : prix au m²<br/>Ex : 5.35*
+> *Description : prix au m²*<br/>*Exemple : 5.35*
 - Valeur optionnelle
 - Type : nombre réel

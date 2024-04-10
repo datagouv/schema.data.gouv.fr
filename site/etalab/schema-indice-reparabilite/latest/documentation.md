@@ -9,7 +9,7 @@ Schéma de données pour l'indice de réparabilité
 - Schéma créé le : 19/05/2023
 - Site web : https://github.com/etalab/schema-indice-reparabilite
 - Version : 0.1.2
-- Clé primaire : `id_unique`
+- Clé primaire : `id_unique`
 
 ### Modèle de données
 
@@ -34,16 +34,16 @@ Schéma de données pour l'indice de réparabilité
 | [note_c3](#propriete-note-c3) | nombre réel  | Oui |
 | [note_c4](#propriete-note-c4) | nombre réel  | Oui |
 | [note_c5](#propriete-note-c5) | nombre réel  | Oui |
-| [note_c2.1](#propriete-note-c2.1) | nombre réel  | Oui |
-| [note_c2.2](#propriete-note-c2.2) | nombre réel  | Oui |
-| [note_c2.3](#propriete-note-c2.3) | nombre réel  | Oui |
-| [note_c3.1](#propriete-note-c3.1) | nombre réel  | Oui |
-| [note_c3.2](#propriete-note-c3.2) | nombre réel  | Oui |
-| [note_c3.3](#propriete-note-c3.3) | nombre réel  | Oui |
-| [note_c3.4](#propriete-note-c3.4) | nombre réel  | Oui |
-| [note_c5.1](#propriete-note-c5.1) | nombre réel  | Oui |
-| [note_c5.2](#propriete-note-c5.2) | nombre réel  | Non |
-| [note_c5.3](#propriete-note-c5.3) | nombre réel  | Non |
+| [note_c2.1](#propriete-note-c2-1) | nombre réel  | Oui |
+| [note_c2.2](#propriete-note-c2-2) | nombre réel  | Oui |
+| [note_c2.3](#propriete-note-c2-3) | nombre réel  | Oui |
+| [note_c3.1](#propriete-note-c3-1) | nombre réel  | Oui |
+| [note_c3.2](#propriete-note-c3-2) | nombre réel  | Oui |
+| [note_c3.3](#propriete-note-c3-3) | nombre réel  | Oui |
+| [note_c3.4](#propriete-note-c3-4) | nombre réel  | Oui |
+| [note_c5.1](#propriete-note-c5-1) | nombre réel  | Oui |
+| [note_c5.2](#propriete-note-c5-2) | nombre réel  | Non |
+| [note_c5.3](#propriete-note-c5-3) | nombre réel  | Non |
 | [lien_documentation](#propriete-lien-documentation) | chaîne de caractères  | Non |
 | [nom_piece_detachee_1_reparateur](#propriete-nom-piece-detachee-1-reparateur) | chaîne de caractères  | Non |
 | [delai_jours_piece_detachee_1_reparateur](#propriete-delai-jours-piece-detachee-1-reparateur) | chaîne de caractères  | Non |
@@ -228,21 +228,21 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `id_unique`
 
-> *Description : L'identifiant garantissant l'unicité du modèle de produits faisant l'objet d'un indice de réparabilité. Il est obtenu en concaténant l'identifiant du modèle, l'identifiant du fabricant et la date du calcul de l'indice. Les trois éléments sont séparés par un tiret -.<br/>Ex : None*
+> *Description : L'identifiant garantissant l'unicité du modèle de produits faisant l'objet d'un indice de réparabilité. Il est obtenu en concaténant l'identifiant du modèle, l'identifiant du fabricant et la date du calcul de l'indice. Les trois éléments sont séparés par un tiret -.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^[\w.]+-[\w]+-\d{4}-\d{2}-\d{2}$`
 
 #### Propriété `id_modele`
 
-> *Description : La référence commerciale du modèle ou l'identifiant du modèle<br/>Ex : None*
+> *Description : La référence commerciale du modèle ou l'identifiant du modèle*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^[\w.]+$`
 
 #### Propriété `referentiel_id_modele`
 
-> *Description : Le type de référence utilisé pour l'identifiant du produit selon la norme internationale ISO 15459.<br/>Ex : None*
+> *Description : Le type de référence utilisé pour l'identifiant du produit selon la norme internationale ISO 15459.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -251,13 +251,13 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `nom_modele`
 
-> *Description : La dénomination officielle du modèle<br/>Ex : None*
+> *Description : La dénomination officielle du modèle*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `categorie_produit`
 
-> *Description : La catégorie du produit selon la nomenclature des catégories définies par arrêté faisant l'objet d'un indice<br/>Ex : None*
+> *Description : La catégorie du produit selon la nomenclature des catégories définies par arrêté faisant l'objet d'un indice*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -277,14 +277,14 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `id_metteur_sur_le_marche`
 
-> *Description : L'identifiant du metteur sur le marché<br/>Ex : None*
+> *Description : L'identifiant du metteur sur le marché*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^[\w]+$`
 
 #### Propriété `referentiel_id_metteur_sur_marche`
 
-> *Description : Le type de référence utilisé pour l'identifiant du metteur sur le marché.<br/>Ex : None*
+> *Description : Le type de référence utilisé pour l'identifiant du metteur sur le marché.*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -293,145 +293,145 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `nom_metteur_sur_le_marche`
 
-> *Description : La dénomination officielle du metteur sur le marché<br/>Ex : None*
+> *Description : La dénomination officielle du metteur sur le marché*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété `date_calcul`
 
-> *Description : La date à laquelle le calcul de l'indice a été effectué<br/>Ex : None*
+> *Description : La date à laquelle le calcul de l'indice a été effectué*
 - Valeur obligatoire
 - Type : date
 
 #### Propriété `url_tableau_detail_notation`
 
-> *Description : Le lien vers le tableau du détail de la notation<br/>Ex : None*
+> *Description : Le lien vers le tableau du détail de la notation*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^(https?)://[^\s/$.?#].[^\s]*$`
 
 #### Propriété `note_ir`
 
-> *Description : La note finale de l'indice de réparabilité : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note finale de l'indice de réparabilité : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c1`
 
-> *Description : La note du critère 1 documentation : note sur 20 comportant une décimale<br/>Ex : None*
+> *Description : La note du critère 1 documentation : note sur 20 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 20
+- Valeur inférieure à : 20
 
 #### Propriété `note_c2`
 
-> *Description : La note du critère 2 démontabilité : note sur 20 comportant une décimale<br/>Ex : None*
+> *Description : La note du critère 2 démontabilité : note sur 20 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 20
+- Valeur inférieure à : 20
 
 #### Propriété `note_c3`
 
-> *Description : La note du critère 3 disponibilité des pièces détachées : note sur 20 comportant une décimale<br/>Ex : None*
+> *Description : La note du critère 3 disponibilité des pièces détachées : note sur 20 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 20
+- Valeur inférieure à : 20
 
 #### Propriété `note_c4`
 
-> *Description : La note du critère 4 Prix : note sur 20 comportant une décimale<br/>Ex : None*
+> *Description : La note du critère 4 Prix : note sur 20 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 20
+- Valeur inférieure à : 20
 
 #### Propriété `note_c5`
 
-> *Description : La note du critère 5 spécifique : note sur 20 comportant une décimale<br/>Ex : None*
+> *Description : La note du critère 5 spécifique : note sur 20 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 20
+- Valeur inférieure à : 20
 
 #### Propriété `note_c2.1`
 
-> *Description : La note du sous-critère 2.1 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 2.1 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c2.2`
 
-> *Description : La note du sous-critère 2.2 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 2.2 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c2.3`
 
-> *Description : La note du sous-critère 2.3 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 2.3 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c3.1`
 
-> *Description : La note du sous-critère 3.1 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 3.1 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c3.2`
 
-> *Description : La note du sous-critère 3.2 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 3.2 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c3.3`
 
-> *Description : La note du sous-critère 3.3 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 3.3 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c3.4`
 
-> *Description : La note du sous-critère 3.4 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 3.4 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c5.1`
 
-> *Description : La note du sous-critère 5.1 : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 5.1 : note sur 10 comportant une décimale*
 - Valeur obligatoire
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c5.2`
 
-> *Description : La note du sous-critère 5.2 (le cas échéant) : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 5.2 (le cas échéant) : note sur 10 comportant une décimale*
 - Valeur optionnelle
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `note_c5.3`
 
-> *Description : La note du sous-critère 5.3 (le cas échéant) : note sur 10 comportant une décimale<br/>Ex : None*
+> *Description : La note du sous-critère 5.3 (le cas échéant) : note sur 10 comportant une décimale*
 - Valeur optionnelle
 - Type : nombre réel
-- Valeur entre 0 et 10
+- Valeur inférieure à : 10
 
 #### Propriété `lien_documentation`
 
-> *Description : Le lien vers la documentation technique disponible (ou modalités d'accès)<br/>Ex : None*
+> *Description : Le lien vers la documentation technique disponible (ou modalités d'accès)*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^(https?)://[^\s/$.?#].[^\s]*$`
 
 #### Propriété `nom_piece_detachee_1_reparateur`
 
-> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -548,19 +548,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_1_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -577,16 +577,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_2_reparateur`
 
-> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -703,19 +703,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_2_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -732,16 +732,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_3_reparateur`
 
-> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -858,19 +858,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_3_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -887,16 +887,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_4_reparateur`
 
-> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1013,19 +1013,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_4_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1042,16 +1042,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_5_reparateur`
 
-> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1168,19 +1168,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_5_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1197,16 +1197,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_6_reparateur`
 
-> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1323,19 +1323,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_6_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1352,16 +1352,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_7_reparateur`
 
-> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1478,19 +1478,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_7_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1507,16 +1507,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_8_reparateur`
 
-> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1633,19 +1633,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_8_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1662,16 +1662,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_9_reparateur`
 
-> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1788,19 +1788,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_9_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1817,16 +1817,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_10_reparateur`
 
-> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1943,19 +1943,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_10_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -1972,16 +1972,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_11_reparateur`
 
-> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2098,19 +2098,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_11_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2127,16 +2127,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_12_reparateur`
 
-> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2253,19 +2253,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_12_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2282,16 +2282,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_13_reparateur`
 
-> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2408,19 +2408,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_13_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2437,16 +2437,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_14_reparateur`
 
-> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2563,19 +2563,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_14_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2592,16 +2592,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_15_reparateur`
 
-> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2718,19 +2718,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_15_reparateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_reparateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les reparateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les reparateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2747,16 +2747,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_1_producteur`
 
-> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2873,19 +2873,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_1_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -2902,16 +2902,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_2_producteur`
 
-> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3028,19 +3028,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_2_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3057,16 +3057,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_3_producteur`
 
-> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3183,19 +3183,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_3_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3212,16 +3212,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_4_producteur`
 
-> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3338,19 +3338,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_4_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3367,16 +3367,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_5_producteur`
 
-> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3493,19 +3493,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_5_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3522,16 +3522,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_6_producteur`
 
-> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3648,19 +3648,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_6_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3677,16 +3677,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_7_producteur`
 
-> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3803,19 +3803,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_7_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3832,16 +3832,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_8_producteur`
 
-> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3958,19 +3958,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_8_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -3987,16 +3987,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_9_producteur`
 
-> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4113,19 +4113,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_9_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4142,16 +4142,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_10_producteur`
 
-> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4268,19 +4268,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_10_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4297,16 +4297,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_11_producteur`
 
-> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4423,19 +4423,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_11_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4452,16 +4452,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_12_producteur`
 
-> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4578,19 +4578,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_12_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4607,16 +4607,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_13_producteur`
 
-> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4733,19 +4733,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_13_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4762,16 +4762,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_14_producteur`
 
-> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4888,19 +4888,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_14_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -4917,16 +4917,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_15_producteur`
 
-> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5043,19 +5043,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_15_producteur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_producteur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les producteurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les producteurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5072,16 +5072,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_1_distributeur`
 
-> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5198,19 +5198,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_1_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5227,16 +5227,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_2_distributeur`
 
-> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5353,19 +5353,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_2_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5382,16 +5382,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_3_distributeur`
 
-> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5508,19 +5508,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_3_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5537,16 +5537,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_4_distributeur`
 
-> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5663,19 +5663,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_4_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5692,16 +5692,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_5_distributeur`
 
-> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5818,19 +5818,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_5_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5847,16 +5847,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_6_distributeur`
 
-> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -5973,19 +5973,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_6_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6002,16 +6002,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_7_distributeur`
 
-> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6128,19 +6128,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_7_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6157,16 +6157,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_8_distributeur`
 
-> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6283,19 +6283,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_8_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6312,16 +6312,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_9_distributeur`
 
-> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6438,19 +6438,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_9_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6467,16 +6467,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_10_distributeur`
 
-> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6593,19 +6593,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_10_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6622,16 +6622,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_11_distributeur`
 
-> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6748,19 +6748,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_11_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6777,16 +6777,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_12_distributeur`
 
-> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6903,19 +6903,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_12_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -6932,16 +6932,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_13_distributeur`
 
-> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7058,19 +7058,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_13_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7087,16 +7087,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_14_distributeur`
 
-> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7213,19 +7213,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_14_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7242,16 +7242,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_15_distributeur`
 
-> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7368,19 +7368,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_15_distributeur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_distributeur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les distributeurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les distributeurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7397,16 +7397,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_1_consommateur`
 
-> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°1 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7523,19 +7523,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_1_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7552,16 +7552,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_2_consommateur`
 
-> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°2 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7678,19 +7678,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_2_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7707,16 +7707,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_3_consommateur`
 
-> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°3 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7833,19 +7833,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_3_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7862,16 +7862,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_4_consommateur`
 
-> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°4 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -7988,19 +7988,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_4_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8017,16 +8017,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_5_consommateur`
 
-> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°5 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8143,19 +8143,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_5_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8172,16 +8172,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_6_consommateur`
 
-> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°6 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8298,19 +8298,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_6_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8327,16 +8327,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_7_consommateur`
 
-> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°7 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8453,19 +8453,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_7_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8482,16 +8482,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_8_consommateur`
 
-> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°8 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8608,19 +8608,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_8_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8637,16 +8637,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_9_consommateur`
 
-> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°9 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8763,19 +8763,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_9_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8792,16 +8792,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_10_consommateur`
 
-> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°10 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8918,19 +8918,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_10_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -8947,16 +8947,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_11_consommateur`
 
-> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°11 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9073,19 +9073,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_11_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9102,16 +9102,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_12_consommateur`
 
-> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°12 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9228,19 +9228,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_12_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9257,16 +9257,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_13_consommateur`
 
-> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°13 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9383,19 +9383,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_13_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9412,16 +9412,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_14_consommateur`
 
-> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°14 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9538,19 +9538,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_14_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9567,16 +9567,16 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
 
 #### Propriété `nom_piece_detachee_15_consommateur`
 
-> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le nom de la pièce détachée n°15 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9693,19 +9693,19 @@ Schéma de données pour l'indice de réparabilité
 
 #### Propriété `delai_jours_piece_detachee_15_consommateur`
 
-> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
     - <3
     - <5
     - <10
-    - >11
+    - \>11
     - Non disponible
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_consommateur`
 
-> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les consommateurs<br/>Ex : None*
+> *Description : L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les consommateurs*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
@@ -9722,9 +9722,9 @@ Schéma de données pour l'indice de réparabilité
     - 11
     - 12
     - 13
-    - >7
-    - >9
-    - >11
-    - >13
-    - >14
+    - \>7
+    - \>9
+    - \>11
+    - \>13
+    - \>14
     - Non disponible
