@@ -122,7 +122,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 36,
+            "dgv_resources": 37,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -157,19 +157,19 @@
             "contributors": 6
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 19,
+            "dgv_resources": 20,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 15,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-bal": {
             "dgv_resources": 214,
@@ -197,7 +197,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 17,
+            "dgv_resources": 18,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -237,7 +237,7 @@
             "contributors": 3
         },
         "PnX-SI/schema_randonnee": {
-            "dgv_resources": 7,
+            "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
             "contributors": 2
         },

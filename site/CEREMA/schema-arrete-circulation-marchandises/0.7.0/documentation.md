@@ -41,10 +41,10 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [PERIODE_DEBUT](#date-d'entree-en-vigueur-des-restrictions-propriete-periode-debut) | date (format `%Y-%m-%d`) | Non |
 | [PERIODE_JH](#jours-et-heures-de-circulation-propriete-periode-jh) | chaîne de caractères  | Non |
 | [EMPRISE_DESIGNATION](#nom-de-la-voie-propriete-emprise-designation) | chaîne de caractères  | Oui |
-| [EMPRISE_DEBUT](#debut-de-la-section-(libelle)---propriete-emprise-debut) | chaîne de caractères  | Non |
-| [GEOM_DEBUT](#debut-de-la-section-(coordonnees)---propriete-geom-debut) | point géographique  | Non |
-| [EMPRISE_FIN](#fin-de-la-section-(libelle)---propriete-emprise-fin) | chaîne de caractères  | Non |
-| [GEOM_FIN](#fin-de-la-section-(coordonnees)---propriete-geom-fin) | point géographique  | Non |
+| [EMPRISE_DEBUT](#debut-de-la-section-(libelle)---propriete-EMPRISE-DEBUT) | chaîne de caractères  | Non |
+| [GEOM_DEBUT](#debut-de-la-section-(coordonnees)---propriete-GEOM-DEBUT) | point géographique  | Non |
+| [EMPRISE_FIN](#fin-de-la-section-(libelle)---propriete-EMPRISE-FIN) | chaîne de caractères  | Non |
+| [GEOM_FIN](#fin-de-la-section-(coordonnees)---propriete-GEOM-FIN) | point géographique  | Non |
 | [EMPRISE_SENS](#direction-ou-sens-de-circulation-propriete-emprise-sens) | chaîne de caractères  | Non |
 | [INTERV_DUREE](#duree-maximale-d'intervention-propriete-interv-duree) | heure  | Non |
 | [INTERV_HMAX](#heure-maximale-d'intervention-propriete-interv-hmax) | heure  | Non |

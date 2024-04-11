@@ -34,8 +34,8 @@ Spécification du modèle de données relatif au catalogue des jeux de données 
 | [DATE_MAJ](#date-de-la-derniere-mise-a-jour-propriete-date-maj) | date  | Oui |
 | [MOTS_CLES](#mots-cles-propriete-mots-cles) | chaîne de caractères  | Oui |
 | [LICENCE](#licence-appliquee-sur-le-jeu-de-donnees-propriete-licence) | chaîne de caractères  | Oui |
-| [NOMBRE_RESSOURCES](#nombre-de-ressource(s)---propriete-nombre-ressources) | nombre entier  | Oui |
-| [FORMAT_RESSOURCES](#format(s)-des-ressources---propriete-format-ressources) | chaîne de caractères  | Oui |
+| [NOMBRE_RESSOURCES](#nombre-de-ressource(s)---propriete-NOMBRE-RESSOURCES) | nombre entier  | Oui |
+| [FORMAT_RESSOURCES](#format(s)-des-ressources---propriete-FORMAT-RESSOURCES) | chaîne de caractères  | Oui |
 | [URL](#url-d'acces-propriete-url) | chaîne de caractères (format `uri`) | Oui |
 
 #### Nom de la collectivité - Propriété `COLL_NOM`
