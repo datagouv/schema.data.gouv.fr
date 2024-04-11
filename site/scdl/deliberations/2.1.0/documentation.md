@@ -27,8 +27,8 @@ Spécification du modèle de données relatif aux délibérations adoptées par 
 | [BUDGET_NOM](#nom-du-budget-propriete-budget-nom) | chaîne de caractères  | Non |
 | [PREF_ID](#identifiant-de-l'entite-exercant-le-controle-de-legalite-propriete-pref-id) | chaîne de caractères  | Non |
 | [PREF_DATE](#date-d'enregistrement-de-la-deliberation-au-controle-de-legalite-propriete-pref-date) | date  | Non |
-| [VOTE_EFFECTIF](#decompte-de-l'effectif-total-des-elus-susceptibles-de-participer-au-vote-(presents-a-la-seance)---propriete-vote-effectif) | nombre entier  | Non |
-| [VOTE_REEL](#decompte-de-l'effectif-total-des-elus-ayant-reellement-participe-au-vote-(exclusion-des-absents)---propriete-vote-reel) | nombre entier  | Non |
+| [VOTE_EFFECTIF](#decompte-de-l'effectif-total-des-elus-susceptibles-de-participer-au-vote-(presents-a-la-seance)---propriete-VOTE-EFFECTIF) | nombre entier  | Non |
+| [VOTE_REEL](#decompte-de-l'effectif-total-des-elus-ayant-reellement-participe-au-vote-(exclusion-des-absents)---propriete-VOTE-REEL) | nombre entier  | Non |
 | [VOTE_POUR](#nombre-de-votes-pour-propriete-vote-pour) | nombre entier  | Non |
 | [VOTE_CONTRE](#nombre-de-votes-contre-propriete-vote-contre) | nombre entier  | Non |
 | [VOTE_ABSTENTION](#nombre-de-votes-abstention-propriete-vote-abstention) | nombre entier  | Non |

@@ -49,9 +49,9 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [SECTION_VOIE](#nom-de-la-voie-propriete-section-voie) | chaîne de caractères  | Oui |
 | [SECTION_COTE](#cote-de-la-voie-propriete-section-cote) | chaîne de caractères  | Non |
 | [SECTION_DEBUT_POINT](#debut-de-la-section-propriete-section-debut-point) | point géographique (format `default`) | Non |
-| [SECTION_DEBUT_REF](#debut-de-la-section-(texte)---propriete-section-debut-ref) | chaîne de caractères  | Non |
+| [SECTION_DEBUT_REF](#debut-de-la-section-(texte)---propriete-SECTION-DEBUT-REF) | chaîne de caractères  | Non |
 | [SECTION_FIN_POINT](#fin-de-la-section-propriete-section-fin-point) | point géographique (format `default`) | Non |
-| [SECTION_FIN_REF](#fin-de-la-section-(texte)---propriete-section-fin-ref) | chaîne de caractères  | Non |
+| [SECTION_FIN_REF](#fin-de-la-section-(texte)---propriete-SECTION-FIN-REF) | chaîne de caractères  | Non |
 | [GEOM_JSON](#geometrie-au-format-geojson-propriete-geom-json) | GéoJSON (format `default`) | Non |
 | [GEOM_WKT](#geometrie-au-format-wkt-propriete-geom-wkt) | chaîne de caractères  | Non |
 | [GEOM_SOURCE](#propriete-geom-source) | chaîne de caractères  | Non |

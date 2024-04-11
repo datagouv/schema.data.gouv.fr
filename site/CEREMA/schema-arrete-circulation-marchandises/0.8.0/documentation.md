@@ -45,14 +45,14 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [PERIODE_FIN](#fin-des-restrictions-propriete-periode-fin) | chaîne de caractères  | Non |
 | [EMPRISE_ZONE](#zone-associee-a-l'emprise-propriete-emprise-zone) | chaîne de caractères  | Non |
 | [EMPRISE_DESIGNATION](#nom-de-la-voie-propriete-emprise-designation) | chaîne de caractères  | Oui |
-| [EMPRISE_DEBUT](#debut-de-la-section-(libelle)---propriete-emprise-debut) | chaîne de caractères  | Non |
-| [EMPRISE_FIN](#fin-de-la-section-(libelle)---propriete-emprise-fin) | chaîne de caractères  | Non |
+| [EMPRISE_DEBUT](#debut-de-la-section-(libelle)---propriete-EMPRISE-DEBUT) | chaîne de caractères  | Non |
+| [EMPRISE_FIN](#fin-de-la-section-(libelle)---propriete-EMPRISE-FIN) | chaîne de caractères  | Non |
 | [EMPRISE_SENS](#direction-ou-sens-de-circulation-propriete-emprise-sens) | chaîne de caractères  | Non |
 | [INTERV_DUREE](#duree-maximale-d'intervention-propriete-interv-duree) | heure  | Non |
 | [INTERV_HMAX](#heure-maximale-d'intervention-propriete-interv-hmax) | heure  | Non |
 | [GEOM_WKT](#geometrie-au-format-wkt-propriete-geom-wkt) | chaîne de caractères  | Non |
-| [GEOM_DEBUT](#debut-de-la-section-(coordonnees)---propriete-geom-debut) | point géographique  | Non |
-| [GEOM_FIN](#fin-de-la-section-(coordonnees)---propriete-geom-fin) | point géographique  | Non |
+| [GEOM_DEBUT](#debut-de-la-section-(coordonnees)---propriete-GEOM-DEBUT) | point géographique  | Non |
+| [GEOM_FIN](#fin-de-la-section-(coordonnees)---propriete-GEOM-FIN) | point géographique  | Non |
 | [GEOM_SOURCE](#source-de-la-geometrie-propriete-geom-source) | chaîne de caractères  | Non |
 
 #### Identifiant de l'entité - Propriété `ID`

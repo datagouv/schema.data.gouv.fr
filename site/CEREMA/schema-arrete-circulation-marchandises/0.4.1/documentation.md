@@ -47,9 +47,9 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [SECTION_VOIE](#nom-de-la-voie-propriete-section-voie) | chaîne de caractères  | Oui |
 | [SECTION_SENS](#direction-ou-sens-de-circulation-propriete-section-sens) | chaîne de caractères  | Non |
 | [SECTION_DEBUT_POINT](#debut-de-la-section-propriete-section-debut-point) | point géographique (format `default`) | Non |
-| [SECTION_DEBUT_REF](#debut-de-la-section-(texte)---propriete-section-debut-ref) | chaîne de caractères  | Non |
+| [SECTION_DEBUT_REF](#debut-de-la-section-(texte)---propriete-SECTION-DEBUT-REF) | chaîne de caractères  | Non |
 | [SECTION_FIN_POINT](#fin-de-la-section-propriete-section-fin-point) | point géographique (format `default`) | Non |
-| [SECTION_FIN_REF](#fin-de-la-section-(texte)---propriete-section-fin-ref) | chaîne de caractères  | Non |
+| [SECTION_FIN_REF](#fin-de-la-section-(texte)---propriete-SECTION-FIN-REF) | chaîne de caractères  | Non |
 | [INTERV_DUREE](#duree-maximale-d'intervention-propriete-interv-duree) | heure  | Non |
 | [INTERV_HMAX](#heure-maximale-d'intervention-propriete-interv-hmax) | heure  | Non |
 | [GEOM_JSON](#geometrie-au-format-geojson-propriete-geom-json) | GéoJSON (format `default`) | Non |

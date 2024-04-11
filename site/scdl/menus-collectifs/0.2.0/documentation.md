@@ -34,7 +34,7 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 | [menuSiqoPlat](#indication-de-signe-officiel-de-la-qualite-et-de-la-qualite-propriete-menusiqoplat) | chaîne de caractères  | Non |
 | [menuLabelPlat](#indication-de-labels-complementaires-lies-a-des-approvisionnements-locaux-ou-a-des-marques-de-fabrication-propriete-menulabelplat) | chaîne de caractères  | Non |
 | [menuAllergenePlat](#nom-des-allergenes-presents-dans-le-plat-propriete-menuallergeneplat) | chaîne de caractères  | Non |
-| [menuPrecisionPlat](#precision-(regime-ou-thematique)-associée-au-plat-ou-à-l'ensemble-des-plats-d'un-menu---propriete-menuprecisionplat) | chaîne de caractères  | Non |
+| [menuPrecisionPlat](#precision-(regime-ou-thematique)-associée-au-plat-ou-à-l'ensemble-des-plats-d'un-menu---propriete-menuPrecisionPlat) | chaîne de caractères  | Non |
 | [menuModificationDate](#date-de-derniere-modification-de-l'enregistrement-propriete-menumodificationdate) | date et heure  | Oui |
 | [menuModificationActivite](#nature-de-l'activite-ayant-entraine-une-mise-a-jour-de-la-donnee-propriete-menumodificationactivite) | date et heure  | Non |
 
