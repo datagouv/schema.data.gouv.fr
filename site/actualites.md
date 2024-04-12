@@ -1,3 +1,12 @@
+### 2024-04-12
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-indice-durabilite](/etalab/schema-indice-durabilite/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-televiseur](/etalab/indice-durabilite-televiseur/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-lave-linge](/etalab/indice-durabilite-lave-linge/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2024-03-30
 
 #### Schéma ajouté:
