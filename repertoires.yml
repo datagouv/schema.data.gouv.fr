@@ -325,3 +325,7 @@ aire-livraison:
   url: https://github.com/CEREMA/schema-aire-livraison.git
   type: tableschema
   email: mathieu.rajerison@cerema.fr
+indice-durabilite:
+  url: https://github.com/etalab/schema-indice-durabilite.git
+  type: datapackage
+  email: schema@data.gouv.fr
