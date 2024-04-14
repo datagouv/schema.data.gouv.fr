@@ -45,6 +45,14 @@ cnigfr/sites-economiques-terrain-eco:
 datakode/schema-pei:
   consolidate: false
   publication: false
+etalab/indice-durabilite-lave-linge:
+  consolidate: false
+  search_words:
+  - Lave-linge
+etalab/indice-durabilite-televiseur:
+  consolidate: false
+  search_words:
+  - "T\xE9l\xE9viseur"
 etalab/schema-comptage-mobilites-channel:
   consolidate: false
   search_words:
