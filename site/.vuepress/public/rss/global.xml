@@ -394,5 +394,10 @@
       <link>https://schema.data.gouv.fr/etalab/indice-durabilite-lave-linge</link>
       <description>Schema update on 2024-04-12: 0.1.0 for etalab/indice-durabilite-lave-linge</description>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - LaMednum/standard-mediation-num (0.1.1 to 1.0.0)</title>
+      <link>https://schema.data.gouv.fr/LaMednum/standard-mediation-num</link>
+      <description>Schema update on 2024-04-15: 0.1.1 to 1.0.0 for LaMednum/standard-mediation-num</description>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
