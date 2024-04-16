@@ -1020,9 +1020,16 @@
                     "documentation.md"
                 ],
                 "schema_url": "/LaMednum/standard-mediation-num/0.1.1/schema.json"
+            },
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/LaMednum/standard-mediation-num/1.0.0/schema.json"
             }
         },
-        "latest": "0.1.1"
+        "latest": "1.0.0"
     },
     "etalab/schema-bal": {
         "homepage": "https://github.com/etalab/schema-bal",
