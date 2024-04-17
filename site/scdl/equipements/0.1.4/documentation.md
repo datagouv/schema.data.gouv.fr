@@ -19,22 +19,22 @@ Spécification du modèle de données relatif aux équipements collectifs public
 | -- | -- | -- |
 | [COLL_NOM](#nom-de-la-collectivite-propriete-coll-nom) | chaîne de caractères  | Oui |
 | [COLL_SIRET](#code-siret-de-la-collectivite-propriete-coll-siret) | chaîne de caractères  | Oui |
-| [EQUIP_UID](#identifiant-unique-de-l'equipement-propriete-equip-uid) | chaîne de caractères  | Oui |
-| [EQUIP_THEME](#theme-de-classement-de-l'equipement-propriete-equip-theme) | chaîne de caractères  | Oui |
-| [EQUIP_CODE](#code-d'identification-de-l'equipement-propriete-equip-code) | chaîne de caractères  | Oui |
-| [EQUIP_TYPE](#type-d'equipement-propriete-equip-type) | chaîne de caractères  | Oui |
-| [EQUIP_NOM](#nom-complet-de-l'equipement-propriete-equip-nom) | chaîne de caractères  | Oui |
+| [EQUIP_UID](#identifiant-unique-de-l-equipement-propriete-equip-uid) | chaîne de caractères  | Oui |
+| [EQUIP_THEME](#theme-de-classement-de-l-equipement-propriete-equip-theme) | chaîne de caractères  | Oui |
+| [EQUIP_CODE](#code-d-identification-de-l-equipement-propriete-equip-code) | chaîne de caractères  | Oui |
+| [EQUIP_TYPE](#type-d-equipement-propriete-equip-type) | chaîne de caractères  | Oui |
+| [EQUIP_NOM](#nom-complet-de-l-equipement-propriete-equip-nom) | chaîne de caractères  | Oui |
 | [ADR_NUMERO](#numero-d'adresse-complet-propriete-adr-numero) | chaîne de caractères  | Oui |
 | [ADR_NOMVOIE](#nom-complet-de-la-voie-propriete-adr-nomvoie) | chaîne de caractères  | Oui |
 | [ADR_CODEPOSTAL](#code-postal-propriete-adr-codepostal) | chaîne de caractères  | Oui |
 | [ADR_COMMUNE](#commune-propriete-adr-commune) | chaîne de caractères  | Oui |
-| [ADR_CLE_INTEROP](#cle-d'interoperabilite-de-l'adresse-propriete-adr-cle-interop) | chaîne de caractères  | Non |
-| [ERP_ID](#identifiant-d'etablissement-recevant-du-public-propriete-erp-id) | chaîne de caractères  | Non |
-| [ERP_TYPE](#type-d'etablissement-recevant-du-public-propriete-erp-type) | chaîne de caractères  | Non |
-| [ERP_CATEGORIE](#categorie-d'etablissement-recevant-du-public-propriete-erp-categorie) | nombre entier  | Non |
+| [ADR_CLE_INTEROP](#cle-d-interoperabilite-de-l-adresse-propriete-adr-cle-interop) | chaîne de caractères  | Non |
+| [ERP_ID](#identifiant-d-etablissement-recevant-du-public-propriete-erp-id) | chaîne de caractères  | Non |
+| [ERP_TYPE](#type-d-etablissement-recevant-du-public-propriete-erp-type) | chaîne de caractères  | Non |
+| [ERP_CATEGORIE](#categorie-d-etablissement-recevant-du-public-propriete-erp-categorie) | nombre entier  | Non |
 | [EQUIP_LAT](#latitude-propriete-equip-lat) | nombre réel  | Oui |
 | [EQUIP_LONG](#longitude-propriete-equip-long) | nombre réel  | Oui |
-| [EQUIP_OUVERTURE](#jours-et-horaires-d'ouverture-propriete-equip-ouverture) | chaîne de caractères  | Non |
+| [EQUIP_OUVERTURE](#jours-et-horaires-d-ouverture-propriete-equip-ouverture) | chaîne de caractères  | Non |
 | [EQUIP_TEL](#telephone-propriete-equip-tel) | chaîne de caractères  | Non |
 | [EQUIP_EMAIL](#adresse-email-propriete-equip-email) | chaîne de caractères (format `email`) | Non |
 | [EQUIP_WEB](#adresse-du-site-web-propriete-equip-web) | chaîne de caractères (format `uri`) | Non |

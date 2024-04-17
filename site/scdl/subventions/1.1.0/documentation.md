@@ -16,8 +16,8 @@ Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Don
 
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [nomAttribuant](#nom-de-l'attribuant-propriete-nomattribuant) | chaîne de caractères  | Oui |
-| [idAttribuant](#identification-de-l'attribuant-propriete-idattribuant) | chaîne de caractères  | Oui |
+| [nomAttribuant](#nom-de-l-attribuant-propriete-nomattribuant) | chaîne de caractères  | Oui |
+| [idAttribuant](#identification-de-l-attribuant-propriete-idattribuant) | chaîne de caractères  | Oui |
 | [dateConvention](#date-de-la-convention-de-subvention-propriete-dateconvention) | date  | Oui |
 | [referenceDecision](#reference-de-la-decision-propriete-referencedecision) | chaîne de caractères  | Non |
 | [nomBeneficiaire](#nom-du-beneficiaire-propriete-nombeneficiaire) | chaîne de caractères  | Oui |
@@ -28,7 +28,7 @@ Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Don
 | [conditionsVersement](#conditions-de-versement-de-la-subvention-propriete-conditionsversement) | chaîne de caractères  | Oui |
 | [datesPeriodeVersement](#date-ou-periode-de-versement-propriete-datesperiodeversement) | chaîne de caractères  | Oui |
 | [idRAE](#numero-unique-de-referencement-dans-le-repertoire-des-aides-aux-entreprises-propriete-idrae) | chaîne de caractères  | Non |
-| [notificationUE](#aide-d'etat-notifiee-a-la-commission-europeenne-propriete-notificationue) | booléen  | Oui |
+| [notificationUE](#aide-d-etat-notifiee-a-la-commission-europeenne-propriete-notificationue) | booléen  | Oui |
 | [pourcentageSubvention](#pourcentage-du-montant-total-de-la-subvention-attribuee-au-beneficiaire-propriete-pourcentagesubvention) | nombre réel  | Oui |
 
 #### Nom de l'attribuant - Propriété `nomAttribuant`

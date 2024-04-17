@@ -19,30 +19,30 @@ Spécification du fichier d'échange relatif aux aires de livraison
 
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [ID](#identifiant-de-l'entite-propriete-id) | chaîne de caractères  | Oui |
-| [COLL_NOM](#nom-de-la-collectivite-a-l'origine-de-l'arrete-propriete-coll-nom) | chaîne de caractères  | Oui |
+| [ID](#identifiant-de-l-entite-propriete-id) | chaîne de caractères  | Oui |
+| [COLL_NOM](#nom-de-la-collectivite-a-l-origine-de-l-arrete-propriete-coll-nom) | chaîne de caractères  | Oui |
 | [COLL_INSEE](#code-insee-propriete-coll-insee) | chaîne de caractères  | Oui |
-| [ARR_REF](#reference-de-l'arrete-propriete-arr-ref) | chaîne de caractères  | Oui |
-| [ARR_DATE](#date-de-l'arrete-propriete-arr-date) | date (format `%Y-%m-%d`) | Oui |
-| [ARR_OBJET](#objet-de-l'arrete-propriete-arr-objet) | chaîne de caractères  | Oui |
-| [ARR_CONSIDERANT](#considerant-de-l'arrete-propriete-arr-considerant) | chaîne de caractères  | Non |
-| [ARR_URL](#adresse-internet-de-l'arrete-propriete-arr-url) | chaîne de caractères (format `uri`) | Non |
+| [ARR_REF](#reference-de-l-arrete-propriete-arr-ref) | chaîne de caractères  | Oui |
+| [ARR_DATE](#date-de-l-arrete-propriete-arr-date) | date (format `%Y-%m-%d`) | Oui |
+| [ARR_OBJET](#objet-de-l-arrete-propriete-arr-objet) | chaîne de caractères  | Oui |
+| [ARR_CONSIDERANT](#considerant-de-l-arrete-propriete-arr-considerant) | chaîne de caractères  | Non |
+| [ARR_URL](#adresse-internet-de-l-arrete-propriete-arr-url) | chaîne de caractères (format `uri`) | Non |
 | [REGL_ARTICLE](#article-du-reglement-propriete-regl-article) | chaîne de caractères  | Non |
 | [REGL_SOUS_ARTICLE](#sous-article-du-reglement-propriete-regl-sous-article) | chaîne de caractères  | Non |
 | [VEH_TONNAGE](#tonnage-propriete-veh-tonnage) | nombre réel  | Non |
 | [INTERV_JH](#jours-et-heures-de-livraison-propriete-interv-jh) | chaîne de caractères  | Non |
-| [INTERV_REGIME](#regime-d'acces-propriete-interv-regime) | chaîne de caractères  | Non |
-| [INTERV_DUREE](#duree-maximale-d'intervention-propriete-interv-duree) | durée  | Non |
+| [INTERV_REGIME](#regime-d-acces-propriete-interv-regime) | chaîne de caractères  | Non |
+| [INTERV_DUREE](#duree-maximale-d-intervention-propriete-interv-duree) | durée  | Non |
 | [INTERV_DISQUE](#disque-obligatoire-propriete-interv-disque) | booléen  | Non |
 | [EMPRISE_ZONE](#zone-propriete-emprise-zone) | chaîne de caractères  | Non |
-| [EMPRISE_DESIGNATION](#adresse-du-point-de-reference-de-l'aire-propriete-emprise-designation) | chaîne de caractères  | Oui |
-| [EMPRISE_LONGUEUR](#longueur-de-l'emprise-propriete-emprise-longueur) | nombre réel  | Non |
-| [EMPRISE_LARGEUR](#largeur-de-l'emprise-propriete-emprise-largeur) | nombre réel  | Non |
-| [EMPRISE_DEBATTEMENT](#presence-d'un-debattement-propriete-emprise-debattement) | booléen  | Non |
+| [EMPRISE_DESIGNATION](#adresse-du-point-de-reference-de-l-aire-propriete-emprise-designation) | chaîne de caractères  | Oui |
+| [EMPRISE_LONGUEUR](#longueur-de-l-emprise-propriete-emprise-longueur) | nombre réel  | Non |
+| [EMPRISE_LARGEUR](#largeur-de-l-emprise-propriete-emprise-largeur) | nombre réel  | Non |
+| [EMPRISE_DEBATTEMENT](#presence-d-un-debattement-propriete-emprise-debattement) | booléen  | Non |
 | [STATIONNEMENT_LOCALISATION](#localisation-du-stationnement-propriete-stationnement-localisation) | chaîne de caractères  | Non |
 | [IRVE_PRESENCE](#installation-de-recharge-de-vehicule-electrique-propriete-irve-presence) | booléen  | Non |
-| [IRVE_PUISSANCE](#puissance-de-l'installation-de-recharge-de-vehicule-electrique-propriete-irve-puissance) | nombre réel  | Non |
-| [GEOM_XY](#coordonnees-gps-de-l'aire-de-livraison-ou-de-la-rue-propriete-geom-xy) | point géographique  | Oui |
+| [IRVE_PUISSANCE](#puissance-de-l-installation-de-recharge-de-vehicule-electrique-propriete-irve-puissance) | nombre réel  | Non |
+| [GEOM_XY](#coordonnees-gps-de-l-aire-de-livraison-ou-de-la-rue-propriete-geom-xy) | point géographique  | Oui |
 | [GEOM_WKT](#geometrie-au-format-wkt-propriete-geom-wkt) | chaîne de caractères  | Non |
 
 #### Identifiant de l'entité - Propriété `ID`

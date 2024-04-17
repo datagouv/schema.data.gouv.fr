@@ -19,23 +19,23 @@ Spécification du standard national des registres d'entrée d'archives
 | [ID](#identifiant-unique-de-chaque-entree-propriete-id) | chaîne de caractères  | Oui |
 | [nomArch](#nom-du-service-archives-propriete-nomarch) | chaîne de caractères  | Oui |
 | [coteArch](#cotation-propriete-cotearch) | chaîne de caractères  | Non |
-| [dateEntree](#date-d'entree-propriete-dateentree) | date (format `default`) | Oui |
+| [dateEntree](#date-d-entree-propriete-dateentree) | date (format `default`) | Oui |
 | [statutJur](#nature-juridique-des-documents-entres-propriete-statutjur) | chaîne de caractères  | Oui |
-| [modeEntree](#modalite-d'entree-propriete-modeentree) | chaîne de caractères  | Oui |
-| [orgaVers](#organisation-qui-verse-l'entree-propriete-orgavers) | chaîne de caractères  | Non |
-| [servVers](#service-qui-verse-l'entree-propriete-servvers) | chaîne de caractères  | Non |
-| [orgaProducteur](#organisation-productrice-de-l'entree-propriete-orgaproducteur) | chaîne de caractères  | Non |
+| [modeEntree](#modalite-d-entree-propriete-modeentree) | chaîne de caractères  | Oui |
+| [orgaVers](#organisation-qui-verse-l-entree-propriete-orgavers) | chaîne de caractères  | Non |
+| [servVers](#service-qui-verse-l-entree-propriete-servvers) | chaîne de caractères  | Non |
+| [orgaProducteur](#organisation-productrice-de-l-entree-propriete-orgaproducteur) | chaîne de caractères  | Non |
 | [servProd](#service-producteur-propriete-servprod) | chaîne de caractères  | Oui |
 | [typeProd](#fonction-du-producteur-propriete-typeprod) | chaîne de caractères  | Oui |
-| [activiteProd](#domaine-ou-thematique-d'action-du-producteur-propriete-activiteprod) | chaîne de caractères  | Oui |
+| [activiteProd](#domaine-ou-thematique-d-action-du-producteur-propriete-activiteprod) | chaîne de caractères  | Oui |
 | [descContenu](#description-du-contenu-propriete-desccontenu) | chaîne de caractères  | Oui |
 | [datesExD](#date-extreme-de-debut-propriete-datesexd) | année  | Non |
 | [datesExF](#date-extreme-de-fin-propriete-datesexf) | année  | Non |
 | [natureSupport](#nature-du-support-materiel-des-documents-propriete-naturesupport) | chaîne de caractères  | Oui |
-| [mlEntree](#metrage-lineaire-de-l'entree-propriete-mlentree) | nombre réel  | Non |
-| [nbreArt](#nombre-d'articles-propriete-nbreart) | nombre réel  | Non |
-| [volElec](#volume-d'archives-electroniques-de-l'entree-propriete-volelec) | nombre réel  | Non |
-| [objElec](#nombre-d'objets-electroniques-propriete-objelec) | nombre réel  | Non |
+| [mlEntree](#metrage-lineaire-de-l-entree-propriete-mlentree) | nombre réel  | Non |
+| [nbreArt](#nombre-d-articles-propriete-nbreart) | nombre réel  | Non |
+| [volElec](#volume-d-archives-electroniques-de-l-entree-propriete-volelec) | nombre réel  | Non |
+| [objElec](#nombre-d-objets-electroniques-propriete-objelec) | nombre réel  | Non |
 
 #### Identifiant unique de chaque entrée - Propriété `ID`
 

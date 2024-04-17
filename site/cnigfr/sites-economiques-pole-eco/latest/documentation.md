@@ -22,11 +22,11 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 | [pole_id](#identifiant-propriete-pole-id) | chaîne de caractères  | Oui |
 | [pole_nom](#nom-propriete-pole-nom) | chaîne de caractères  | Oui |
 | [pole_vocadomi](#vocation-dominante-propriete-pole-vocadomi) | chaîne de caractères  | Oui |
-| [pole_identif_date](#date-d'identification-propriete-pole-identif-date) | date (format `%Y-%m-%d`) | Oui |
+| [pole_identif_date](#date-d-identification-propriete-pole-identif-date) | date (format `%Y-%m-%d`) | Oui |
 | [pole_actu_date](#date-de-derniere-actualisation-propriete-pole-actu-date) | date (format `%Y-%m-%d`) | Non |
 | [pole_nb_site](#nombre-de-sites-propriete-pole-nb-site) | nombre réel  | Non |
-| [pole_nb_etab](#nombre-d'etablissements-propriete-pole-nb-etab) | nombre réel  | Non |
-| [pole_nb_emploi](#nombre-d'emploi-propriete-pole-nb-emploi) | nombre réel  | Non |
+| [pole_nb_etab](#nombre-d-etablissements-propriete-pole-nb-etab) | nombre réel  | Non |
+| [pole_nb_emploi](#nombre-d-emploi-propriete-pole-nb-emploi) | nombre réel  | Non |
 | [pole_surface](#surface--propriete-pole-surface) | nombre réel  | Oui |
 | [pole_geompoint](#localisation-propriete-pole-geompoint) | point géographique (format `default`) | Oui |
 | [pole_rayonnement](#rayonnement--propriete-pole-rayonnement) | chaîne de caractères  | Non |

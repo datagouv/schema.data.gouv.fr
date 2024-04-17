@@ -23,17 +23,17 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 | [site_nom](#nom-du-site-propriete-site-nom) | chaîne de caractères  | Oui |
 | [site_type](#type-de-site-propriete-site-type) | chaîne de caractères  | Oui |
 | [site_adresse](#adresse-du-site-propriete-site-adresse) | chaîne de caractères  | Non |
-| [site_identif_date](#date-d'identification-du-site-propriete-site-identif-date) | date (format `%Y-%m-%d`) | Oui |
+| [site_identif_date](#date-d-identification-du-site-propriete-site-identif-date) | date (format `%Y-%m-%d`) | Oui |
 | [site_actu_date](#date-de-derniere-actualisation-propriete-site-actu-date) | date (format `%Y-%m-%d`) | Oui |
 | [site_url](#url-du-site-propriete-site-url) | chaîne de caractères (format `uri`) | Non |
 | [site_ademe_url](#url-de-la-fiche-de-l'ademe-propriete-site-ademe-url) | chaîne de caractères (format `uri`) | Non |
 | [site_securite](#type-de-securisation-propriete-site-securite) | chaîne de caractères  | Non |
 | [site_occupation](#occupation-du-site-propriete-site-occupation) | chaîne de caractères  | Non |
 | [site_statut](#statut-du-site-propriete-site-statut) | chaîne de caractères  | Non |
-| [site_projet_url](#site-web-d'un-eventuel-projet-sur-le-site-propriete-site-projet-url) | chaîne de caractères (format `uri`) | Non |
+| [site_projet_url](#site-web-d-un-eventuel-projet-sur-le-site-propriete-site-projet-url) | chaîne de caractères (format `uri`) | Non |
 | [activite_libelle](#libelle-des-activites-propriete-activite-libelle) | chaîne de caractères  | Non |
 | [activite_code](#code-basias-des-activites-propriete-activite-code) | chaîne de caractères  | Non |
-| [activite_fin_annee](#annee-de-fin-d'activite-propriete-activite-fin-annee) | date (format `%Y`) | Non |
+| [activite_fin_annee](#annee-de-fin-d-activite-propriete-activite-fin-annee) | date (format `%Y`) | Non |
 | [comm_nom](#nom-de-la-commune-propriete-comm-nom) | chaîne de caractères  | Oui |
 | [comm_insee](#code-insee-de-la-commune-propriete-comm-insee) | chaîne de caractères  | Oui |
 | [bati_type](#type-de-batiments-propriete-bati-type) | chaîne de caractères  | Non |
@@ -53,13 +53,13 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 | [sol_pollution_origine](#origine-de-la-pollution-du-sol-propriete-sol-pollution-origine) | chaîne de caractères  | Non |
 | [sol_pollution_commentaire](#commentaire-sur-la-pollution-du-sol-propriete-sol-pollution-commentaire) | chaîne de caractères  | Non |
 | [sol_depollution_fiche](#fiche-de-depollution-propriete-sol-depollution-fiche) | chaîne de caractères (format `uri`) | Non |
-| [unite_fonciere_surface](#surface-de-l'unite-fonciere-propriete-unite-fonciere-surface) | nombre entier  | Non |
+| [unite_fonciere_surface](#surface-de-l-unite-fonciere-propriete-unite-fonciere-surface) | nombre entier  | Non |
 | [unite_fonciere_refcad](#liste-des-parcelles-cadastrale-propriete-unite-fonciere-refcad) | chaîne de caractères  | Non |
-| [urba_zone_type](#type-de-zone-d'urbanisme-propriete-urba-zone-type) | chaîne de caractères  | Non |
-| [urba_zone_lib](#libelle-de-la-zone-d'urbanisme-propriete-urba-zone-lib) | chaîne de caractères  | Non |
+| [urba_zone_type](#type-de-zone-d-urbanisme-propriete-urba-zone-type) | chaîne de caractères  | Non |
+| [urba_zone_lib](#libelle-de-la-zone-d-urbanisme-propriete-urba-zone-lib) | chaîne de caractères  | Non |
 | [urba_zone_formdomi](#forme-dominante-de-la-zone-propriete-urba-zone-formdomi) | chaîne de caractères  | Non |
-| [urba_doc_type](#type-de-document-d'urbanisme-propriete-urba-doc-type) | chaîne de caractères  | Non |
-| [desserte_distance](#distances-d'acces-aux-reseaux-propriete-desserte-distance) | chaîne de caractères  | Non |
+| [urba_doc_type](#type-de-document-d-urbanisme-propriete-urba-doc-type) | chaîne de caractères  | Non |
+| [desserte_distance](#distances-d-acces-aux-reseaux-propriete-desserte-distance) | chaîne de caractères  | Non |
 | [desserte_commentaire](#desserte-du-site-propriete-desserte-commentaire) | chaîne de caractères  | Non |
 | [source_nom](#nom-de-la-source-propriete-source-nom) | chaîne de caractères  | Oui |
 | [source_url](#url-de-la-source-propriete-source-url) | chaîne de caractères  | Non |

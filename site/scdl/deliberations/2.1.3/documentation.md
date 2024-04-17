@@ -20,14 +20,14 @@ Spécification du modèle de données relatif aux délibérations adoptées par 
 | [COLL_NOM](#nom-de-la-collectivite-propriete-coll-nom) | chaîne de caractères  | Oui |
 | [COLL_SIRET](#code-siret-de-la-collectivite-propriete-coll-siret) | chaîne de caractères  | Oui |
 | [DELIB_ID](#identifiant-de-la-deliberation-propriete-delib-id) | chaîne de caractères  | Oui |
-| [DELIB_DATE](#date-d'adoption-de-la-deliberation-propriete-delib-date) | date  | Oui |
+| [DELIB_DATE](#date-d-adoption-de-la-deliberation-propriete-delib-date) | date  | Oui |
 | [DELIB_MATIERE_CODE](#code-de-matiere-issu-de-la-nomenclature-actes-propriete-delib-matiere-code) | chaîne de caractères  | Oui |
 | [DELIB_MATIERE_NOM](#nom-de-matiere-propriete-delib-matiere-nom) | chaîne de caractères  | Oui |
 | [DELIB_OBJET](#objet-de-la-deliberation-propriete-delib-objet) | chaîne de caractères  | Oui |
 | [BUDGET_ANNEE](#annee-du-budget-propriete-budget-annee) | chaîne de caractères  | Non |
 | [BUDGET_NOM](#nom-du-budget-propriete-budget-nom) | chaîne de caractères  | Non |
-| [PREF_ID](#identifiant-de-l'entite-exercant-le-controle-de-legalite-propriete-pref-id) | chaîne de caractères  | Non |
-| [PREF_DATE](#date-d'enregistrement-de-la-deliberation-aupres-du-controle-de-legalite-propriete-pref-date) | date  | Non |
+| [PREF_ID](#identifiant-de-l-entite-exercant-le-controle-de-legalite-propriete-pref-id) | chaîne de caractères  | Non |
+| [PREF_DATE](#date-d-enregistrement-de-la-deliberation-aupres-du-controle-de-legalite-propriete-pref-date) | date  | Non |
 | [VOTE_EFFECTIF](#effectif-theorique-des-votants-propriete-vote-effectif) | nombre entier  | Non |
 | [VOTE_REEL](#effectif-reel-des-votants-propriete-vote-reel) | nombre entier  | Non |
 | [VOTE_POUR](#pour-propriete-vote-pour) | nombre entier  | Non |

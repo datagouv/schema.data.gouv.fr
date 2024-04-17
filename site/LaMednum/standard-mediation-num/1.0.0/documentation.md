@@ -26,12 +26,12 @@ Spécification du standard national des lieux de médiation numérique
 | [code_postal](#code-postal-propriete-code-postal) | chaîne de caractères  | Oui |
 | [code_insee](#code-insee-propriete-code-insee) | chaîne de caractères  | Non |
 | [adresse](#adresse-propriete-adresse) | chaîne de caractères  | Oui |
-| [complement_adresse](#complement-d'adresse-propriete-complement-adresse) | chaîne de caractères  | Non |
+| [complement_adresse](#complement-d-adresse-propriete-complement-adresse) | chaîne de caractères  | Non |
 | [latitude](#latitude-propriete-latitude) | nombre réel  | Non |
 | [longitude](#longitude-propriete-longitude) | nombre réel  | Non |
 | [typologie](#typologie-propriete-typologie) | chaîne de caractères  | Non |
 | [telephone](#numero-de-telephone-propriete-telephone) | chaîne de caractères  | Non |
-| [courriels](#courriel(s)---propriete-courriels) | chaîne de caractères  | Non |
+| [courriels](#courriel(s)-propriete-courriels) | chaîne de caractères  | Non |
 | [site_web](#site-web-propriete-site-web) | chaîne de caractères  | Non |
 | [horaires](#horaires-propriete-horaires) | chaîne de caractères  | Non |
 | [presentation_resume](#presentation-resume-propriete-presentation-resume) | chaîne de caractères  | Non |
@@ -47,8 +47,8 @@ Spécification du standard national des lieux de médiation numérique
 | [dispositif_programmes_nationaux](#dispositifs-et-programmes-nationaux-propriete-dispositif-programmes-nationaux) | chaîne de caractères  | Non |
 | [formations_labels](#formations-et-labels-propriete-formations-labels) | chaîne de caractères  | Non |
 | [autres_formations_labels](#autres-formations-et-labels-propriete-autres-formations-labels) | chaîne de caractères  | Non |
-| [modalites_acces](#modalites-d'acces-propriete-modalites-acces) | chaîne de caractères  | Non |
-| [modalites_accompagnement](#modalites-d'accompagnement-propriete-modalites-accompagnement) | chaîne de caractères  | Non |
+| [modalites_acces](#modalites-d-acces-propriete-modalites-acces) | chaîne de caractères  | Non |
+| [modalites_accompagnement](#modalites-d-accompagnement-propriete-modalites-accompagnement) | chaîne de caractères  | Non |
 | [fiche_acces_libre](#fiche-acces-libre-propriete-fiche-acces-libre) | chaîne de caractères  | Non |
 | [prise_rdv](#prise-de-rdv-propriete-prise-rdv) | chaîne de caractères  | Non |
 

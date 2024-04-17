@@ -24,10 +24,10 @@ Spécification du standard national des lieux de médiation numérique
 | [code_postal](#code-postal-propriete-code-postal) | chaîne de caractères  | Oui |
 | [code_insee](#code-officiel-geographique-propriete-code-insee) | chaîne de caractères  | Non |
 | [adresse](#adresse-propriete-adresse) | chaîne de caractères  | Oui |
-| [complement_adresse](#complement-d'adresse-propriete-complement-adresse) | chaîne de caractères  | Non |
+| [complement_adresse](#complement-d-adresse-propriete-complement-adresse) | chaîne de caractères  | Non |
 | [latitude](#latitude-propriete-latitude) | nombre réel  | Non |
 | [longitude](#longitude-propriete-longitude) | nombre réel  | Non |
-| [cle_ban](#cle-nationale-d'interoperabilite-de-l'adresse-propriete-cle-ban) | chaîne de caractères  | Non |
+| [cle_ban](#cle-nationale-d'interoperabilite-de-l-adresse-propriete-cle-ban) | chaîne de caractères  | Non |
 | [typologie](#typologie-propriete-typologie) | chaîne de caractères  | Non |
 | [telephone](#numero-de-telephone-propriete-telephone) | chaîne de caractères  | Non |
 | [courriel](#courriel-propriete-courriel) | chaîne de caractères  | Non |
@@ -40,11 +40,11 @@ Spécification du standard national des lieux de médiation numérique
 | [date_maj](#date-de-mise-a-jour-propriete-date-maj) | date (format `default`) | Oui |
 | [services](#services-propriete-services) | chaîne de caractères  | Oui |
 | [publics_accueillis](#publics-accueillis-propriete-publics-accueillis) | chaîne de caractères  | Non |
-| [conditions_acces](#conditions-d'acces-propriete-conditions-acces) | chaîne de caractères  | Non |
+| [conditions_acces](#conditions-d-acces-propriete-conditions-acces) | chaîne de caractères  | Non |
 | [labels_nationaux](#labels-nationaux-propriete-labels-nationaux) | chaîne de caractères  | Non |
 | [labels_autres](#autres-labels-propriete-labels-autres) | chaîne de caractères  | Non |
-| [modalites_accompagnement](#modalites-d'accompagnement-propriete-modalites-accompagnement) | chaîne de caractères  | Non |
-| [accessibilite](#accessibilite-/-accueil-handicap-propriete-accessibilite) | chaîne de caractères  | Non |
+| [modalites_accompagnement](#modalites-d-accompagnement-propriete-modalites-accompagnement) | chaîne de caractères  | Non |
+| [accessibilite](#accessibilite-accueil-handicap-propriete-accessibilite) | chaîne de caractères  | Non |
 | [prise_rdv](#prise-de-rdv-propriete-prise-rdv) | chaîne de caractères  | Non |
 
 #### Identifiant unique local du lieu - Propriété `id`

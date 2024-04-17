@@ -23,7 +23,7 @@ Spécification du modèle de données relatif aux PEI
 | [nom_gest](#nom-du-gestionnaire-responsable-de-distribution-propriete-nom-gest) | chaîne de caractères  | Non |
 | [ref_terr](#numero-ou-reference-du-point-d'eau-visible-sur-le-terrain-propriete-ref-terr) | chaîne de caractères  | Non |
 | [type_pei](#type-de-point-d'eau-incendie-propriete-type-pei) | chaîne de caractères  | Oui |
-| [type_rd](#precision-sur-le-type-de-point-d'eau-incendie-defini-dans-le-reglement-departemental-deci.-typologie-utilisee-au-niveau-local-pour-caracteriser-le-type-de-point-d'eau-propriete-type-rd) | chaîne de caractères  | Oui |
+| [type_rd](#precision-sur-le-type-de-point-d'eau-incendie-defini-dans-le-reglement-departemental-deci--typologie-utilisee-au-niveau-local-pour-caracteriser-le-type-de-point-d'eau-propriete-type-rd) | chaîne de caractères  | Oui |
 | [diam_pei](#diametre-interieur-du-poteau-ou-de-la-bouche-propriete-diam-pei) | nombre réel  | Non |
 | [diam_cana](#propriete-diam-cana) | nombre réel  | Non |
 | [source_pei](#propriete-source-pei) | chaîne de caractères  | Non |
@@ -32,7 +32,7 @@ Spécification du modèle de données relatif aux PEI
 | [situation](#situation-du-pei-propriete-situation) | chaîne de caractères  | Non |
 | [press_dyn](#pression-dynamique-en-bars-au-debit-nominal-propriete-press-dyn) | nombre réel  | Non |
 | [press_stat](#pression-statique-en-bars-propriete-press-stat) | nombre réel  | Non |
-| [debit](#valeur-de-debit-mesure-exprime-en-m3/h-sous-une-pression-de-1-bar-propriete-debit) | nombre réel  | Non |
+| [debit](#valeur-de-debit-mesure-exprime-en-m3-h-sous-une-pression-de-1-bar-propriete-debit) | nombre réel  | Non |
 | [volume](#capacite-volumique-utile-de-la-source-d'eau-en-m3-propriete-volume) | nombre réel  | Non |
 | [disponible](#valide-a-la-date-de-derniere-mise-a-disposition-des-donnees-propriete-disponible) | booléen  | Non |
 | [date_dispo](#date-de-dernier-changement-d'etat-de-disponibilite-propriete-date-dispo) | date  | Non |
@@ -41,8 +41,8 @@ Spécification du modèle de données relatif aux PEI
 | [date_ct](#date-du-dernier-controle-technique-propriete-date-ct) | date  | Non |
 | [date_ro](#date-de-la-derniere-reconnaissance-operationnelle-propriete-date-ro) | date  | Non |
 | [prec](#classes-de-precision-propriete-prec) | chaîne de caractères  | Non |
-| [x](#x-en-lambert-93-(precision-de-2-decimales)---propriete-x) | nombre réel  | Non |
-| [y](#y-en-lambert-93-(precision-de-2-decimales)---propriete-y) | nombre réel  | Non |
+| [x](#x-en-lambert-93-(precision-de-2-decimales)-propriete-x) | nombre réel  | Non |
+| [y](#y-en-lambert-93-(precision-de-2-decimales)-propriete-y) | nombre réel  | Non |
 | [lon](#longitude-propriete-lon) | nombre réel  | Non |
 | [lat](#latitude-propriete-lat) | nombre réel  | Non |
 

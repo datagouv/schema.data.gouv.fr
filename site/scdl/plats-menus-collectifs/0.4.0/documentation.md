@@ -22,16 +22,16 @@ Description des plats proposés par des collectivités locales et des établisse
 | [plat_nb_convive](#nombre-de-convives-destinataires-du-plat-propose-propriete-plat-nb-convive) | nombre réel  | Non |
 | [plat_prod_nom](#produit-entrant-dans-la-composition-du-plat-propriete-plat-prod-nom) | chaîne de caractères  | Oui |
 | [plat_prod_Fourn_nom](#nom-du-fournisseur-du-produit-entrant-dans-la-composition-du-plat-propriete-plat-prod-fourn-nom) | chaîne de caractères  | Non |
-| [plat_prod_fourn_siret](#le-code-insee-de-la-commune-d'implantation-du-fournisseur-propriete-plat-prod-fourn-siret) | chaîne de caractères  | Non |
-| [plat_prod_fourn_insee](#le-code-insee-de-la-commune-d'implantation-du-fournisseur-propriete-plat-prod-fourn-insee) | chaîne de caractères  | Non |
-| [plat_prod_OGM](#presence-d'ogm-dans-le-produit-utilise-dans-la-composition-du-plat-propriete-plat-prod-ogm) | booléen  | Non |
-| [plat_prod_ion](#indication-de-l'utilisation-du-procede-d'ionisation-dans-la-fabrication-du-produit-propriete-plat-prod-ion) | booléen  | Non |
+| [plat_prod_fourn_siret](#le-code-insee-de-la-commune-d-implantation-du-fournisseur-propriete-plat-prod-fourn-siret) | chaîne de caractères  | Non |
+| [plat_prod_fourn_insee](#le-code-insee-de-la-commune-d-implantation-du-fournisseur-propriete-plat-prod-fourn-insee) | chaîne de caractères  | Non |
+| [plat_prod_OGM](#presence-d-ogm-dans-le-produit-utilise-dans-la-composition-du-plat-propriete-plat-prod-ogm) | booléen  | Non |
+| [plat_prod_ion](#indication-de-l-utilisation-du-procede-d-ionisation-dans-la-fabrication-du-produit-propriete-plat-prod-ion) | booléen  | Non |
 | [plat_prod_add](#liste-des-additifs-alimentaires-presents-dans-le-produit-entrant-dans-la-composition-du-produit-propriete-plat-prod-add) | chaîne de caractères  | Non |
 | [plat_prod_all](#nom-des-allergenes-presents-dans-le-plat-propriete-plat-prod-all) | chaîne de caractères  | Non |
-| [plat_prod_nut_nom](#nom-des-nutriments-presents-dans-l'ingredient-propriete-plat-prod-nut-nom) | chaîne de caractères  | Non |
-| [plat_prod_nut_quant](#quantite-de-nutriments-presents-dans-le-produit-pour-100g.-propriete-plat-prod-nut-quant) | nombre réel  | Non |
-| [plat_pub_date](#date-de-publication-de-l'enregistrement-d'un-plat-propriete-plat-pub-date) | date et heure  | Oui |
-| [plat_mod_date](#date-de-derniere-modification-de-l'enregistrement-propriete-plat-mod-date) | date et heure  | Oui |
+| [plat_prod_nut_nom](#nom-des-nutriments-presents-dans-l-ingredient-propriete-plat-prod-nut-nom) | chaîne de caractères  | Non |
+| [plat_prod_nut_quant](#quantite-de-nutriments-presents-dans-le-produit-pour-100g--propriete-plat-prod-nut-quant) | nombre réel  | Non |
+| [plat_pub_date](#date-de-publication-de-l-enregistrement-d-un-plat-propriete-plat-pub-date) | date et heure  | Oui |
+| [plat_mod_date](#date-de-derniere-modification-de-l-enregistrement-propriete-plat-mod-date) | date et heure  | Oui |
 | [plat_mod_info](#information-sur-la-modification-ayant-entraine-une-mise-a-jour-de-la-donnee-propriete-plat-mod-info) | chaîne de caractères  | Non |
 
 #### Code du plat servi - Propriété `plat_code`
