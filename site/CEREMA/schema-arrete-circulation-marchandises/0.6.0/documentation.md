@@ -19,14 +19,14 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [ID](#identifiant-de-l'entite-propriete-id) | chaîne de caractères  | Oui |
-| [COLL_NOM](#nom-de-la-collectivite-a-l'origine-de-l'arrete-propriete-coll-nom) | chaîne de caractères  | Oui |
-| [ARR_REF](#reference-de-l'arrete-propriete-arr-ref) | chaîne de caractères  | Oui |
-| [ARR_OBJET](#objet-de-l'arrete-propriete-arr-objet) | chaîne de caractères  | Oui |
-| [ARR_CONSIDERANT](#considerant-de-l'arrete-propriete-arr-considerant) | chaîne de caractères  | Non |
-| [ARR_DATE](#date-de-l'arrete-propriete-arr-date) | date (format `%Y-%m-%d`) | Oui |
+| [ID](#identifiant-de-l-entite-propriete-id) | chaîne de caractères  | Oui |
+| [COLL_NOM](#nom-de-la-collectivite-a-l-origine-de-l-arrete-propriete-coll-nom) | chaîne de caractères  | Oui |
+| [ARR_REF](#reference-de-l-arrete-propriete-arr-ref) | chaîne de caractères  | Oui |
+| [ARR_OBJET](#objet-de-l-arrete-propriete-arr-objet) | chaîne de caractères  | Oui |
+| [ARR_CONSIDERANT](#considerant-de-l-arrete-propriete-arr-considerant) | chaîne de caractères  | Non |
+| [ARR_DATE](#date-de-l-arrete-propriete-arr-date) | date (format `%Y-%m-%d`) | Oui |
 | [ARR_INSEE](#code-insee-propriete-arr-insee) | chaîne de caractères  | Oui |
-| [ARR_URL](#adresse-internet-de-l'arrete-propriete-arr-url) | chaîne de caractères (format `uri`) | Non |
+| [ARR_URL](#adresse-internet-de-l-arrete-propriete-arr-url) | chaîne de caractères (format `uri`) | Non |
 | [REGL_ARTICLE](#article-du-reglement-propriete-regl-article) | nombre entier  | Non |
 | [REGL_SOUS_ARTICLE](#sous-article-du-reglement-propriete-regl-sous-article) | chaîne de caractères  | Non |
 | [REGL_MODALITE](#modalite-du-reglement-propriete-regl-modalite) | chaîne de caractères  | Oui |
@@ -35,17 +35,17 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [VEH_LONG](#longueur-du-vehicule-propriete-veh-long) | nombre réel  | Non |
 | [VEH_LARG](#largeur-du-vehicule-propriete-veh-larg) | nombre réel  | Non |
 | [VEH_HAUT](#hauteur-du-vehicule-propriete-veh-haut) | nombre réel  | Non |
-| [VEH_USAGES](#types-d'usage-propriete-veh-usages) | chaîne de caractères  | Non |
+| [VEH_USAGES](#types-d-usage-propriete-veh-usages) | chaîne de caractères  | Non |
 | [VEH_MOTORS](#types-de-motorisation-propriete-veh-motors) | chaîne de caractères  | Non |
-| [VEH_CQAS](#vignettes-crit'air-propriete-veh-cqas) | chaîne de caractères  | Non |
-| [PERIODE_DEBUT](#date-d'entree-en-vigueur-des-restrictions-propriete-periode-debut) | date (format `%Y-%m-%d`) | Non |
+| [VEH_CQAS](#vignettes-crit-air-propriete-veh-cqas) | chaîne de caractères  | Non |
+| [PERIODE_DEBUT](#date-d-entree-en-vigueur-des-restrictions-propriete-periode-debut) | date (format `%Y-%m-%d`) | Non |
 | [PERIODE_JH](#jours-et-heures-de-circulation-propriete-periode-jh) | chaîne de caractères  | Non |
 | [EMPRISE_DESIGNATION](#nom-de-la-voie-propriete-emprise-designation) | chaîne de caractères  | Oui |
 | [EMPRISE_SENS](#direction-ou-sens-de-circulation-propriete-emprise-sens) | chaîne de caractères  | Non |
 | [EMPRISE_DEBUT](#debut-de-la-section-propriete-emprise-debut) | chaîne de caractères  | Non |
 | [EMPRISE_FIN](#fin-de-la-section-propriete-emprise-fin) | chaîne de caractères  | Non |
-| [INTERV_DUREE](#duree-maximale-d'intervention-propriete-interv-duree) | heure  | Non |
-| [INTERV_HMAX](#heure-maximale-d'intervention-propriete-interv-hmax) | heure  | Non |
+| [INTERV_DUREE](#duree-maximale-d-intervention-propriete-interv-duree) | heure  | Non |
+| [INTERV_HMAX](#heure-maximale-d-intervention-propriete-interv-hmax) | heure  | Non |
 | [GEOM_WKT](#geometrie-au-format-wkt-propriete-geom-wkt) | chaîne de caractères  | Non |
 | [GEOM_SOURCE](#source-de-la-geometrie-propriete-geom-source) | chaîne de caractères  | Non |
 

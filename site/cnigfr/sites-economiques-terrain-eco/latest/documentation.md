@@ -29,11 +29,11 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 | [terr_maitrise_fonc](#maitrise-fonciere-propriete-terr-maitrise-fonc) | chaîne de caractères  | Oui |
 | [terr_stade_amngt](#stade-d'amenagement-propriete-terr-stade-amngt) | chaîne de caractères  | Oui |
 | [terr_stade_comm](#stade-de-commercialisation-propriete-terr-stade-comm) | chaîne de caractères  | Oui |
-| [terr_etat_occup](#etat-d'occupation-propriete-terr-etat-occup) | chaîne de caractères  | Oui |
+| [terr_etat_occup](#etat-d-occupation-propriete-terr-etat-occup) | chaîne de caractères  | Oui |
 | [terr_usage](#usage-du-terrain-propriete-terr-usage) | chaîne de caractères  | Oui |
 | [terr_geomsurf](#geometrie-propriete-terr-geomsurf) | GéoJSON  | Oui |
 | [terr_cle_en_main](#terrain-cle-en-main-propriete-terr-cle-en-main) | chaîne de caractères  | Non |
-| [terr_acquereur](#nom-de-l'acquereur-propriete-terr-acquereur) | chaîne de caractères  | Non |
+| [terr_acquereur](#nom-de-l-acquereur-propriete-terr-acquereur) | chaîne de caractères  | Non |
 | [terr_cession_date](#date-de-la-cession-propriete-terr-cession-date) | date (format `%Y-%m-%d`) | Non |
 | [terr_vente_montant](#montant-de-la-vente-propriete-terr-vente-montant) | nombre réel  | Non |
 | [terr_m2_prix](#prix-au-m2-propriete-terr-m2-prix) | nombre réel  | Non |

@@ -18,25 +18,25 @@ Description des plats proposés par des collectivités locales, des établisseme
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [platCollNom](#nom-de-la-collectivite-qui-produit-les-donnees-propriete-platcollnom) | chaîne de caractères  | Oui |
-| [platCollSiret](#code-siret-de-la-collectivite-qui-produit-les-donnees.-propriete-platcollsiret) | chaîne de caractères  | Oui |
-| [platEtablissementNom](#nom-de-l'etablissement-ou-entreprise-qui-a-produit-le-plat-propriete-platetablissementnom) | chaîne de caractères  | Oui |
-| [platEtablissementSiret](#code-siret-de-l'etablissement-ou-entreprise-qui-a-produit-le-plat.-propriete-platetablissementsiret) | chaîne de caractères  | Non |
+| [platCollSiret](#code-siret-de-la-collectivite-qui-produit-les-donnees--propriete-platcollsiret) | chaîne de caractères  | Oui |
+| [platEtablissementNom](#nom-de-l-etablissement-ou-entreprise-qui-a-produit-le-plat-propriete-platetablissementnom) | chaîne de caractères  | Oui |
+| [platEtablissementSiret](#code-siret-de-l-etablissement-ou-entreprise-qui-a-produit-le-plat--propriete-platetablissementsiret) | chaîne de caractères  | Non |
 | [platCode](#code-du-plat-servi-propriete-platcode) | chaîne de caractères  | Oui |
 | [platNom](#nom-du-plat-servi-propriete-platnom) | chaîne de caractères  | Oui |
 | [platProduitNom](#produit-entrant-dans-la-composition-du-plat-propriete-platproduitnom) | chaîne de caractères  | Oui |
-| [platProduitFournisseurNom](#nom-du-fournisseur-principal-du-produit-entrant-dans-la-composition-du-plat.-propriete-platproduitfournisseurnom) | chaîne de caractères  | Non |
+| [platProduitFournisseurNom](#nom-du-fournisseur-principal-du-produit-entrant-dans-la-composition-du-plat--propriete-platproduitfournisseurnom) | chaîne de caractères  | Non |
 | [platProduitFournisseurSiret](#le-code-siret-du-fournisseur-principal-propriete-platproduitfournisseursiret) | chaîne de caractères  | Non |
-| [platProduitFournisseurInsee](#le-code-insee-de-la-commune-d'implantation-du-fournisseur-propriete-platproduitfournisseurinsee) | chaîne de caractères  | Non |
-| [platProduitSiqo](#les-signes-officiels-de-la-qualite-et-de-l'origine-propriete-platproduitsiqo) | liste  | Non |
+| [platProduitFournisseurInsee](#le-code-insee-de-la-commune-d-implantation-du-fournisseur-propriete-platproduitfournisseurinsee) | chaîne de caractères  | Non |
+| [platProduitSiqo](#les-signes-officiels-de-la-qualite-et-de-l-origine-propriete-platproduitsiqo) | liste  | Non |
 | [platProduitLabel](#indication-de-labels-complementaires-lies-a-des-approvisionnements-locaux-ou-a-des-marques-de-fabrication-propriete-platproduitlabel) | chaîne de caractères  | Non |
 | [platProduitDescription](#description-du-plat-prepare-propriete-platproduitdescription) | chaîne de caractères  | Non |
-| [platProduitOGM](#presence-d'ogm-dans-le-produit-utilise-dans-la-composition-du-plat-propriete-platproduitogm) | booléen  | Non |
-| [platProduitIonisation](#indication-de-l'utilisation-du-procede-d'ionisation-dans-la-fabrication-du-produit-propriete-platproduitionisation) | booléen  | Non |
+| [platProduitOGM](#presence-d-ogm-dans-le-produit-utilise-dans-la-composition-du-plat-propriete-platproduitogm) | booléen  | Non |
+| [platProduitIonisation](#indication-de-l-utilisation-du-procede-d-ionisation-dans-la-fabrication-du-produit-propriete-platproduitionisation) | booléen  | Non |
 | [platProduitAdditif](#liste-des-additifs-alimentaires-presents-dans-le-produit-entrant-dans-la-composition-du-plat-propriete-platproduitadditif) | chaîne de caractères  | Non |
 | [platProduitAllergene](#nom-des-allergenes-presents-dans-le-produit-propriete-platproduitallergene) | liste  | Non |
 | [platProduitNutriment](#nom-et-quantite-des-nutriments-presents-dans-le-produit-propriete-platproduitnutriment) | chaîne de caractères  | Non |
-| [platPublicationDate](#date-de-publication-de-l'enregistrement-d'un-plat-propriete-platpublicationdate) | date et heure  | Oui |
-| [platModificationDate](#date-de-derniere-modification-de-l'enregistrement-propriete-platmodificationdate) | date et heure  | Oui |
+| [platPublicationDate](#date-de-publication-de-l-enregistrement-d-un-plat-propriete-platpublicationdate) | date et heure  | Oui |
+| [platModificationDate](#date-de-derniere-modification-de-l-enregistrement-propriete-platmodificationdate) | date et heure  | Oui |
 | [platModificationInfo](#information-sur-la-modification-ayant-entraine-une-mise-a-jour-de-la-donnee-propriete-platmodificationinfo) | chaîne de caractères  | Non |
 
 #### Nom de la collectivité qui produit les données - Propriété `platCollNom`

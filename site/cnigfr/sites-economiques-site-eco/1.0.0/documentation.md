@@ -28,7 +28,7 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 | [site_surf_brute](#superficie-totale-propriete-site-surf-brute) | nombre réel  | Oui |
 | [site_surf_utile](#superficie-utile-propriete-site-surf-utile) | nombre réel  | Oui |
 | [site_creation_date](#annee-de-creation-propriete-site-creation-date) | date (format `%Y`) | Non |
-| [site_identif_date](#date-d'identification-propriete-site-identif-date) | date (format `%Y-%m-%d`) | Oui |
+| [site_identif_date](#date-d-identification-propriete-site-identif-date) | date (format `%Y-%m-%d`) | Oui |
 | [site_actu_date](#date-d'actualisation-propriete-site-actu-date) | date (format `%Y-%m-%d`) | Oui |
 | [source_producteur](#producteur-de-la-donnee-propriete-source-producteur) | chaîne de caractères  | Non |
 | [site_description](#commentaire-libre-propriete-site-description) | chaîne de caractères  | Non |
@@ -39,16 +39,16 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 | [site_epci_siren](#code-siren-de-l'epci-competent-propriete-site-epci-siren) | chaîne de caractères  | Oui |
 | [site_comm_nom](#nom-de-la-commune-propriete-site-comm-nom) | chaîne de caractères  | Oui |
 | [site_comm_insee](#code-insee-de-la-commune-propriete-site-comm-insee) | chaîne de caractères  | Oui |
-| [site_moa_type](#type-de-maitrise-d'ouvrage-propriete-site-moa-type) | chaîne de caractères  | Oui |
+| [site_moa_type](#type-de-maitrise-d-ouvrage-propriete-site-moa-type) | chaîne de caractères  | Oui |
 | [site_moa_nom](#nom-du-gestionnaire-propriete-site-moa-nom) | chaîne de caractères  | Non |
 | [site_moa_amngt](#nom-de-l'amenageur-propriete-site-moa-amngt) | chaîne de caractères  | Non |
 | [site_moa_comm](#nom-du-vendeur-propriete-site-moa-comm) | chaîne de caractères  | Non |
-| [site_uf_nbre](#nombre-d'unites-foncieres-propriete-site-uf-nbre) | nombre réel  | Non |
-| [site_uf_vacant_nbre](#nombre-d'unites-foncieres-vacantes-propriete-site-uf-vacant-nbre) | nombre réel  | Non |
+| [site_uf_nbre](#nombre-d-unites-foncieres-propriete-site-uf-nbre) | nombre réel  | Non |
+| [site_uf_vacant_nbre](#nombre-d-unites-foncieres-vacantes-propriete-site-uf-vacant-nbre) | nombre réel  | Non |
 | [site_taux_vacance](#taux-de-vacance-propriete-site-taux-vacance) | nombre réel  | Non |
-| [site_uf_bati_nbre](#nombre-d'unites-foncieres-baties-propriete-site-uf-bati-nbre) | nombre réel  | Non |
+| [site_uf_bati_nbre](#nombre-d-unites-foncieres-baties-propriete-site-uf-bati-nbre) | nombre réel  | Non |
 | [site_nb_etab](#nombre-d'etablissements-propriete-site-nb-etab) | nombre réel  | Non |
-| [site_nb_emploi](#nombre-d'emplois-propriete-site-nb-emploi) | nombre réel  | Non |
+| [site_nb_emploi](#nombre-d-emplois-propriete-site-nb-emploi) | nombre réel  | Non |
 | [site_geomsurf](#geometrie-propriete-site-geomsurf) | GéoJSON  | Oui |
 | [site_geompoint](#centroide-propriete-site-geompoint) | point géographique (format `default`) | Non |
 | [site_media](#medias-propriete-site-media) | chaîne de caractères  | Non |
@@ -61,9 +61,9 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 | [site_voca_touristique](#presence-activite-touristique-propriete-site-voca-touristique) | chaîne de caractères  | Non |
 | [site_voca_portuaire](#presence-activite-portuaire-propriete-site-voca-portuaire) | chaîne de caractères  | Non |
 | [site_voca_aeroportuaire](#presence-activite-aeroportuaire-propriete-site-voca-aeroportuaire) | chaîne de caractères  | Non |
-| [reseau_eau_pluviale](#presence-reseau-d'eau-pluviale-propriete-reseau-eau-pluviale) | chaîne de caractères  | Non |
-| [reseau_eau_potable](#presence-reseau-d'eau-potable-propriete-reseau-eau-potable) | chaîne de caractères  | Non |
-| [reseau_assainissement](#presence-reseau-d'assainissement-propriete-reseau-assainissement) | chaîne de caractères  | Non |
+| [reseau_eau_pluviale](#presence-reseau-d-eau-pluviale-propriete-reseau-eau-pluviale) | chaîne de caractères  | Non |
+| [reseau_eau_potable](#presence-reseau-d-eau-potable-propriete-reseau-eau-potable) | chaîne de caractères  | Non |
+| [reseau_assainissement](#presence-reseau-d-assainissement-propriete-reseau-assainissement) | chaîne de caractères  | Non |
 | [reseau_gaz](#presence-reseau-de-gaz-propriete-reseau-gaz) | chaîne de caractères  | Non |
 | [reseau_electrique](#presence-reseau-electrique-propriete-reseau-electrique) | chaîne de caractères  | Non |
 | [reseau_fibre_optique](#presence-reseau-de-fibre-optique-propriete-reseau-fibre-optique) | chaîne de caractères  | Non |

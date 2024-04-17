@@ -19,16 +19,16 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [ID](#identifiant-de-l'entite-propriete-id) | chaîne de caractères  | Oui |
+| [ID](#identifiant-de-l-entite-propriete-id) | chaîne de caractères  | Oui |
 | [COLL_NOM](#nom-de-la-collectivite-propriete-coll-nom) | chaîne de caractères  | Oui |
 | [COLL_SIRET](#code-siret-de-la-collectivite-propriete-coll-siret) | chaîne de caractères  | Non |
-| [ARR_REF](#reference-de-l'arrete-propriete-arr-ref) | chaîne de caractères  | Oui |
-| [ARR_OBJET](#objet-de-l'arrete-propriete-arr-objet) | chaîne de caractères  | Oui |
-| [ARR_CONSIDERANT](#considerant-de-l'arrete-propriete-arr-considerant) | chaîne de caractères  | Non |
-| [ARR_DATE_CREATION](#date-de-creation-de-l'arrete-propriete-arr-date-creation) | date (format `%Y-%m-%d`) | Oui |
-| [ARR_EST_MAJ](#arrete-mis-a-jour-?-propriete-arr-est-maj) | booléen  | Oui |
+| [ARR_REF](#reference-de-l-arrete-propriete-arr-ref) | chaîne de caractères  | Oui |
+| [ARR_OBJET](#objet-de-l-arrete-propriete-arr-objet) | chaîne de caractères  | Oui |
+| [ARR_CONSIDERANT](#considerant-de-l-arrete-propriete-arr-considerant) | chaîne de caractères  | Non |
+| [ARR_DATE_CREATION](#date-de-creation-de-l-arrete-propriete-arr-date-creation) | date (format `%Y-%m-%d`) | Oui |
+| [ARR_EST_MAJ](#arrete-mis-a-jour-propriete-arr-est-maj) | booléen  | Oui |
 | [ARR_INSEE](#code-insee-propriete-arr-insee) | chaîne de caractères  | Oui |
-| [ARR_URL](#url-d'acces-de-l'arrete-propriete-arr-url) | chaîne de caractères (format `uri`) | Non |
+| [ARR_URL](#url-d-acces-de-l-arrete-propriete-arr-url) | chaîne de caractères (format `uri`) | Non |
 | [REGL_ARTICLE](#article-du-reglement-propriete-regl-article) | nombre entier  | Non |
 | [REGL_SOUS_ARTICLE](#sous-article-du-reglement-propriete-regl-sous-article) | chaîne de caractères  | Non |
 | [REGL_MODALITE](#propriete-regl-modalite) | chaîne de caractères  | Oui |
@@ -39,19 +39,19 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 | [VEH_LONG](#longueur-du-vehicule-propriete-veh-long) | nombre réel  | Non |
 | [VEH_LARG](#largeur-du-largeur-propriete-veh-larg) | nombre réel  | Non |
 | [VEH_HAUT](#largeur-du-largeur-propriete-veh-haut) | nombre réel  | Non |
-| [VEH_USAGE](#type-d'usage-propriete-veh-usage) | chaîne de caractères  | Non |
+| [VEH_USAGE](#type-d-usage-propriete-veh-usage) | chaîne de caractères  | Non |
 | [VEH_MOTOR](#type-de-motorisation-propriete-veh-motor) | chaîne de caractères  | Non |
-| [VEH_CQA](#vignettes-crit'air-propriete-veh-cqa) | chaîne de caractères  | Non |
-| [PERIODE_DEBUT](#date-d'entree-en-vigueur-des-restrictions-propriete-periode-debut) | date (format `%Y-%m-%d`) | Non |
+| [VEH_CQA](#vignettes-crit-air-propriete-veh-cqa) | chaîne de caractères  | Non |
+| [PERIODE_DEBUT](#date-d-entree-en-vigueur-des-restrictions-propriete-periode-debut) | date (format `%Y-%m-%d`) | Non |
 | [PERIODE_JH](#jours-et-heures-de-circulation-propriete-periode-jh) | chaîne de caractères  | Non |
 | [SECTION_VOIE](#nom-de-la-voie-propriete-section-voie) | chaîne de caractères  | Oui |
 | [SECTION_SENS](#direction-ou-sens-de-circulation-propriete-section-sens) | chaîne de caractères  | Non |
 | [SECTION_DEBUT_POINT](#debut-de-la-section-propriete-section-debut-point) | point géographique (format `default`) | Non |
-| [SECTION_DEBUT_REF](#debut-de-la-section-(texte)---propriete-SECTION-DEBUT-REF) | chaîne de caractères  | Non |
+| [SECTION_DEBUT_REF](#debut-de-la-section-(texte)-propriete-section-debut-ref) | chaîne de caractères  | Non |
 | [SECTION_FIN_POINT](#fin-de-la-section-propriete-section-fin-point) | point géographique (format `default`) | Non |
-| [SECTION_FIN_REF](#fin-de-la-section-(texte)---propriete-SECTION-FIN-REF) | chaîne de caractères  | Non |
-| [INTERV_DUREE](#duree-maximale-d'intervention-propriete-interv-duree) | heure  | Non |
-| [INTERV_HMAX](#heure-maximale-d'intervention-propriete-interv-hmax) | heure  | Non |
+| [SECTION_FIN_REF](#fin-de-la-section-(texte)-propriete-section-fin-ref) | chaîne de caractères  | Non |
+| [INTERV_DUREE](#duree-maximale-d-intervention-propriete-interv-duree) | heure  | Non |
+| [INTERV_HMAX](#heure-maximale-d-intervention-propriete-interv-hmax) | heure  | Non |
 | [GEOM_JSON](#geometrie-au-format-geojson-propriete-geom-json) | GéoJSON (format `default`) | Non |
 | [GEOM_WKT](#geometrie-au-format-wkt-propriete-geom-wkt) | chaîne de caractères  | Non |
 | [GEOM_SOURCE](#source-de-la-geometrie-propriete-geom-source) | chaîne de caractères  | Non |

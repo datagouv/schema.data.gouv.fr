@@ -77,7 +77,7 @@
     "nb_issues": 26,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1119,
+            "dgv_resources": 1118,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -144,7 +144,7 @@
         "atlasante/schema-dae": {
             "dgv_resources": 5,
             "title": "DAE",
-            "contributors": null
+            "contributors": 8
         },
         "scdl/prenoms": {
             "dgv_resources": 13,
@@ -174,7 +174,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 216,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -302,7 +302,7 @@
             "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
         },
@@ -347,7 +347,7 @@
             "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Plan local d'urbanisme (PLU)",
             "contributors": 2
         },

@@ -20,23 +20,23 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 | [BGT_NATDEC](#etape-budgetaire-propriete-bgt-natdec) | chaîne de caractères  | Oui |
 | [BGT_ANNEE](#annee-de-exercice-propriete-bgt-annee) | année  | Oui |
 | [BGT_SIRET](#code-siret-propriete-bgt-siret) | chaîne de caractères  | Oui |
-| [BGT_NOM](#nom-de-la-collectivite-ou-de-l'etablissement-concerne-propriete-bgt-nom) | chaîne de caractères  | Oui |
+| [BGT_NOM](#nom-de-la-collectivite-ou-de-l-etablissement-concerne-propriete-bgt-nom) | chaîne de caractères  | Oui |
 | [BGT_CONTNAT](#numero-du-compte-budgetaire-propriete-bgt-contnat) | chaîne de caractères  | Oui |
 | [BGT_CONTNAT_LABEL](#libelle-du-compte-budgetaire-propriete-bgt-contnat-label) | chaîne de caractères  | Oui |
 | [BGT_NATURE](#nature-de-la-depense-ou-de-la-recette-propriete-bgt-nature) | chaîne de caractères  | Oui |
 | [BGT_NATURE_LABEL](#libelle-de-la-nature-de-la-depense-ou-de-la-recette-propriete-bgt-nature-label) | chaîne de caractères  | Oui |
 | [BGT_FONCTION](#fonction-de-la-depense-ou-de-la-recette-propriete-bgt-fonction) | chaîne de caractères  | Non |
 | [BGT_FONCTION_LABEL](#libelle-de-la-fonction-de-la-depense-ou-de-la-recette-propriete-bgt-fonction-label) | chaîne de caractères  | Non |
-| [BGT_OPERATION](#code-ou-libelle-de-l'operation-budgetaire-votee-propriete-bgt-operation) | chaîne de caractères  | Non |
+| [BGT_OPERATION](#code-ou-libelle-de-l-operation-budgetaire-votee-propriete-bgt-operation) | chaîne de caractères  | Non |
 | [BGT_SECTION](#section-budgetaire-propriete-bgt-section) | chaîne de caractères  | Oui |
 | [BGT_OPBUDG](#type-operation-budgetaire-propriete-bgt-opbudg) | chaîne de caractères  | Oui |
-| [BGT_CODRD](#code-recette-/-depense-propriete-bgt-codrd) | chaîne de caractères  | Oui |
+| [BGT_CODRD](#code-recette-depense-propriete-bgt-codrd) | chaîne de caractères  | Oui |
 | [BGT_MTREAL](#montant-signe-des-realisations-budgetaires-propriete-bgt-mtreal) | nombre réel  | Non |
 | [BGT_MTBUDGPREC](#montant-du-budget-precedent-propriete-bgt-mtbudgprec) | nombre réel  | Non |
 | [BGT_MTRARPREC](#montant-restant-a-realiser-n-1-propriete-bgt-mtrarprec) | nombre réel  | Non |
 | [BGT_MTPROPNOUV](#montant-"propositions-nouvelles"-propriete-bgt-mtpropnouv) | nombre réel  | Non |
 | [BGT_MTPREV](#montant-budget-vote-propriete-bgt-mtprev) | nombre réel  | Non |
-| [BGT_CREDOUV](#credits-ouverts-a-l'article-propriete-bgt-credouv) | nombre réel  | Non |
+| [BGT_CREDOUV](#credits-ouverts-a-l-article-propriete-bgt-credouv) | nombre réel  | Non |
 | [BGT_MTRAR3112](#montant-reste-a-realiser-exercice-propriete-bgt-mtrar3112) | nombre réel  | Non |
 | [BGT_ARTSPE](#article-specialise-propriete-bgt-artspe) | chaîne de caractères  | Non |
 

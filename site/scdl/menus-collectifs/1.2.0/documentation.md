@@ -18,30 +18,30 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
 | [menuCollNom](#nom-de-la-collectivite-qui-produit-les-donnees-propriete-menucollnom) | chaîne de caractères  | Oui |
-| [menuCollSiret](#code-siret-de-la-collectivite-qui-produit-les-donnees.-propriete-menucollsiret) | chaîne de caractères  | Oui |
-| [menuEtablissementNom](#nom-de-l'etablissement-ou-entreprise-qui-a-produit-le-repas-servi-propriete-menuetablissementnom) | chaîne de caractères  | Oui |
-| [menuEtablissementSiret](#code-siret-de-l'etablissement-ou-entreprise-qui-a-produit-le-repas-servi.-propriete-menuetablissementsiret) | chaîne de caractères  | Non |
-| [menuRestaurantNom](#nom-du-restaurant-dans-lequel-le-repas-est-servi.-propriete-menurestaurantnom) | chaîne de caractères  | Oui |
-| [menuRestaurantInsee](#le-code-insee-de-la-commune-d'implantation-du-restaurant-propriete-menurestaurantinsee) | chaîne de caractères  | Non |
-| [menuRestaurantId](#identifiant-du-restaurant-ou-le-repas-est-servi.-propriete-menurestaurantid) | chaîne de caractères  | Non |
-| [menuRestaurantIdType](#type-d'identifiant-utilise-pour-caracteriser-un-restaurant-collectif.-propriete-menurestaurantidtype) | chaîne de caractères  | Oui |
-| [menuRestaurantType](#type-de-restaurant-auquel-le-menu-est-propose.-propriete-menurestauranttype) | chaîne de caractères  | Oui |
-| [menuRestaurantConvive](#type-de-convive-auquel-le-menu-est-propose.-propriete-menurestaurantconvive) | chaîne de caractères  | Oui |
+| [menuCollSiret](#code-siret-de-la-collectivite-qui-produit-les-donnees--propriete-menucollsiret) | chaîne de caractères  | Oui |
+| [menuEtablissementNom](#nom-de-l-etablissement-ou-entreprise-qui-a-produit-le-repas-servi-propriete-menuetablissementnom) | chaîne de caractères  | Oui |
+| [menuEtablissementSiret](#code-siret-de-l-etablissement-ou-entreprise-qui-a-produit-le-repas-servi--propriete-menuetablissementsiret) | chaîne de caractères  | Non |
+| [menuRestaurantNom](#nom-du-restaurant-dans-lequel-le-repas-est-servi--propriete-menurestaurantnom) | chaîne de caractères  | Oui |
+| [menuRestaurantInsee](#le-code-insee-de-la-commune-d-implantation-du-restaurant-propriete-menurestaurantinsee) | chaîne de caractères  | Non |
+| [menuRestaurantId](#identifiant-du-restaurant-ou-le-repas-est-servi--propriete-menurestaurantid) | chaîne de caractères  | Non |
+| [menuRestaurantIdType](#type-d-identifiant-utilise-pour-caracteriser-un-restaurant-collectif--propriete-menurestaurantidtype) | chaîne de caractères  | Oui |
+| [menuRestaurantType](#type-de-restaurant-auquel-le-menu-est-propose--propriete-menurestauranttype) | chaîne de caractères  | Oui |
+| [menuRestaurantConvive](#type-de-convive-auquel-le-menu-est-propose--propriete-menurestaurantconvive) | chaîne de caractères  | Oui |
 | [menuDate](#date-de-service-du-menu-propriete-menudate) | date (format `%Y-%m-%d`) | Oui |
 | [menuTypeRepas](#type-du-repas-servi-propriete-menutyperepas) | chaîne de caractères  | Oui |
 | [menuTypePlat](#type-de-plat-servi-propriete-menutypeplat) | chaîne de caractères  | Oui |
 | [menuNomPlat](#nom-du-plat-servi-propriete-menunomplat) | chaîne de caractères  | Oui |
 | [menuCodePlat](#code-du-plat-servi-propriete-menucodeplat) | chaîne de caractères  | Non |
-| [menuPlatSiqo](#les-signes-officiels-de-la-qualite-et-de-l'origine.-propriete-menuplatsiqo) | liste  | Non |
+| [menuPlatSiqo](#les-signes-officiels-de-la-qualite-et-de-l-origine--propriete-menuplatsiqo) | liste  | Non |
 | [menuPlatLabel](#indication-de-labels-complementaires-lies-a-des-approvisionnements-locaux-ou-a-des-marques-de-fabrication-propriete-menuplatlabel) | chaîne de caractères  | Non |
-| [menuPlatPrecision](#precision-associee-au-plat-ou-a-l'ensemble-des-plats-d'un-menu-propriete-menuplatprecision) | chaîne de caractères  | Non |
-| [menuPlatRegime](#precision-qualitative-associee-au-plat-d'un-menu-propriete-menuplatregime) | liste  | Non |
+| [menuPlatPrecision](#precision-associee-au-plat-ou-a-l-ensemble-des-plats-d-un-menu-propriete-menuplatprecision) | chaîne de caractères  | Non |
+| [menuPlatRegime](#precision-qualitative-associee-au-plat-d-un-menu-propriete-menuplatregime) | liste  | Non |
 | [menuPlatAllergene](#nom-des-allergenes-presents-dans-le-plat-propriete-menuplatallergene) | liste  | Non |
 | [menuPlatTexture](#precision-qualitative-associee-a-la-texture-du-plat-propriete-menuplattexture) | liste  | Non |
-| [menuPlatNutriscore](#indication-de-l'indice-nutritif-du-plat-propose-dans-le-menu-propriete-menuplatnutriscore) | chaîne de caractères  | Non |
+| [menuPlatNutriscore](#indication-de-l-indice-nutritif-du-plat-propose-dans-le-menu-propriete-menuplatnutriscore) | chaîne de caractères  | Non |
 | [menuPlatPrix](#cout-theorique-de-revient-du-plat-calcule-a-partir-du-cout-de-production-propriete-menuplatprix) | nombre réel  | Non |
-| [menuPublicationDate](#date-de-publication-de-l'enregistrement-d'un-menu-propriete-menupublicationdate) | date et heure  | Oui |
-| [menuModificationDate](#date-de-derniere-modification-de-l'enregistrement-d'un-menu-propriete-menumodificationdate) | date et heure  | Non |
+| [menuPublicationDate](#date-de-publication-de-l-enregistrement-d-un-menu-propriete-menupublicationdate) | date et heure  | Oui |
+| [menuModificationDate](#date-de-derniere-modification-de-l-enregistrement-d-un-menu-propriete-menumodificationdate) | date et heure  | Non |
 | [menuModificationInfo](#information-sur-la-modification-ayant-entraine-une-mise-a-jour-de-la-donnee-propriete-menumodificationinfo) | chaîne de caractères  | Non |
 
 #### Nom de la collectivité qui produit les données - Propriété `menuCollNom`

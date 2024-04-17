@@ -19,12 +19,12 @@ Menus des repas proposés par des collectivités locales et des établissements 
 | -- | -- | -- |
 | [collectiviteNom](#nom-de-la-collectivite-propriete-collectivitenom) | chaîne de caractères  | Oui |
 | [collectiviteSiret](#code-siret-de-la-collectivite-propriete-collectivitesiret) | chaîne de caractères  | Oui |
-| [etablissementNom](#nom-de-l'etablissement-ou-entreprise-qui-a-produit-le-repas-servi-propriete-etablissementnom) | chaîne de caractères  | Oui |
-| [etablissementSiret](#code-siret-de-l'etablissement-ou-entreprise-qui-a-produit-le-repas-servi.-propriete-etablissementsiret) | chaîne de caractères  | Oui |
-| [restaurantNom](#nom-du-restaurant-ou-le-repas-est-servi.-propriete-restaurantnom) | chaîne de caractères  | Oui |
-| [restaurantType](#type-de-client-auquel-le-menu-est-propose.-propriete-restauranttype) | chaîne de caractères  | Oui |
-| [restaurantConvive](#type-de-convive-auquel-le-menu-est-propose.-propriete-restaurantconvive) | chaîne de caractères  | Oui |
-| [restaurantAdresse](#adresse-de-l'etablissement-ou-le-repas-est-servi.-propriete-restaurantadresse) | chaîne de caractères  | Oui |
+| [etablissementNom](#nom-de-l-etablissement-ou-entreprise-qui-a-produit-le-repas-servi-propriete-etablissementnom) | chaîne de caractères  | Oui |
+| [etablissementSiret](#code-siret-de-l-etablissement-ou-entreprise-qui-a-produit-le-repas-servi--propriete-etablissementsiret) | chaîne de caractères  | Oui |
+| [restaurantNom](#nom-du-restaurant-ou-le-repas-est-servi--propriete-restaurantnom) | chaîne de caractères  | Oui |
+| [restaurantType](#type-de-client-auquel-le-menu-est-propose--propriete-restauranttype) | chaîne de caractères  | Oui |
+| [restaurantConvive](#type-de-convive-auquel-le-menu-est-propose--propriete-restaurantconvive) | chaîne de caractères  | Oui |
+| [restaurantAdresse](#adresse-de-l-etablissement-ou-le-repas-est-servi--propriete-restaurantadresse) | chaîne de caractères  | Oui |
 | [menuDate](#date-du-menu-propriete-menudate) | chaîne de caractères  | Oui |
 | [menuTypeRepas](#type-du-repas-servi-propriete-menutyperepas) | chaîne de caractères  | Oui |
 | [menuTypePlat](#type-de-plat-servi-propriete-menutypeplat) | chaîne de caractères  | Oui |

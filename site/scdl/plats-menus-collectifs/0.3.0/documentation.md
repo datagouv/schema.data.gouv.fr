@@ -21,16 +21,16 @@ Description des plats proposés par des collectivités locales et des établisse
 | [platNom](#nom-du-plat-servi-propriete-platnom) | chaîne de caractères  | Oui |
 | [platNombreConvive](#nombre-de-convives-destinataires-du-plat-propose-propriete-platnombreconvive) | nombre réel  | Non |
 | [platProduitNom](#produit-entrant-dans-la-composition-du-plat-propriete-platproduitnom) | chaîne de caractères  | Non |
-| [platProduitOGM](#presence-d'ogm-dans-le-produit-utilise-dans-la-composition-du-plat-propriete-platproduitogm) | booléen  | Oui |
-| [platProduitIonisation](#indication-de-l'utilisation-du-procede-d'ionisation-dans-la-fabrication-du-produit-propriete-platproduitionisation) | booléen  | Oui |
+| [platProduitOGM](#presence-d-ogm-dans-le-produit-utilise-dans-la-composition-du-plat-propriete-platproduitogm) | booléen  | Oui |
+| [platProduitIonisation](#indication-de-l-utilisation-du-procede-d-ionisation-dans-la-fabrication-du-produit-propriete-platproduitionisation) | booléen  | Oui |
 | [platProduitAdditif](#liste-des-additifs-alimentaires-presents-dans-le-produit-entrant-dans-la-composition-du-plat-propriete-platproduitadditif) | chaîne de caractères  | Non |
 | [platProduitConditionnementType](#type-de-conditionnement-du-plat-propriete-platproduitconditionnementtype) | chaîne de caractères  | Non |
-| [platProduitNutri-score](#indiquation-de-l'indice-nutritif-du-produit-entrant-dans-la-composition-du-plat-propriete-platproduitnutri-score) | chaîne de caractères  | Non |
+| [platProduitNutri-score](#indiquation-de-l-indice-nutritif-du-produit-entrant-dans-la-composition-du-plat-propriete-platproduitnutri-score) | chaîne de caractères  | Non |
 | [platProduitPrix](#cout-de-revient-du-produit-entrant-dans-la-composition-du-plat-propriete-platproduitprix) | chaîne de caractères  | Non |
 | [platProduitFournisseurNom](#nom-du-fournisseur-du-produit-entrant-dans-la-composition-du-plat-propriete-platproduitfournisseurnom) | chaîne de caractères  | Non |
-| [platProduitFournisseurSiret](#code-siret-du-fournisseur-qui-fournit-les-plats-ou-les-produits-bruts.-propriete-platproduitfournisseursiret) | chaîne de caractères  | Non |
-| [platProduitFournisseurInsee](#le-code-insee-de-la-commune-d'implantation-du-fournisseur-propriete-platproduitfournisseurinsee) | chaîne de caractères  | Non |
-| [platModificationDate](#date-de-derniere-modification-de-l'enregistrement-propriete-platmodificationdate) | date et heure  | Oui |
+| [platProduitFournisseurSiret](#code-siret-du-fournisseur-qui-fournit-les-plats-ou-les-produits-bruts--propriete-platproduitfournisseursiret) | chaîne de caractères  | Non |
+| [platProduitFournisseurInsee](#le-code-insee-de-la-commune-d-implantation-du-fournisseur-propriete-platproduitfournisseurinsee) | chaîne de caractères  | Non |
+| [platModificationDate](#date-de-derniere-modification-de-l-enregistrement-propriete-platmodificationdate) | date et heure  | Oui |
 | [platModificationInformation](#information-sur-la-modification-ayant-entraine-une-mise-a-jour-de-la-donnee-propriete-platmodificationinformation) | chaîne de caractères  | Non |
 
 #### Code du plat servi - Propriété `platCode`

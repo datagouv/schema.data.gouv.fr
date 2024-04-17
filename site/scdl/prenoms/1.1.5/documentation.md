@@ -17,11 +17,11 @@ Spécification du modèle de données relatif aux prénoms des nouveaux-nés dé
 
 | Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [COMMUNE_NOM](#nom-de-la-commune-d'enregistrement-a-l'etat-civil-propriete-commune-nom) | chaîne de caractères  | Non |
-| [COLL_INSEE](#code-insee-de-la-commune-d'enregistrement-a-l'etat-civil-propriete-coll-insee) | chaîne de caractères  | Oui |
+| [COMMUNE_NOM](#nom-de-la-commune-d-enregistrement-a-l-etat-civil-propriete-commune-nom) | chaîne de caractères  | Non |
+| [COLL_INSEE](#code-insee-de-la-commune-d-enregistrement-a-l-etat-civil-propriete-coll-insee) | chaîne de caractères  | Oui |
 | [ENFANT_SEXE](#sexe-relatif-au-prenom-propriete-enfant-sexe) | chaîne de caractères  | Oui |
 | [ENFANT_PRENOM](#prenom-propriete-enfant-prenom) | chaîne de caractères  | Oui |
-| [NOMBRE_OCCURRENCES](#nombre-d'occurrences-propriete-nombre-occurrences) | nombre entier  | Oui |
+| [NOMBRE_OCCURRENCES](#nombre-d-occurrences-propriete-nombre-occurrences) | nombre entier  | Oui |
 | [ANNEE](#annee-propriete-annee) | année  | Oui |
 
 #### Nom de la commune d'enregistrement à l'état-civil - Propriété `COMMUNE_NOM`

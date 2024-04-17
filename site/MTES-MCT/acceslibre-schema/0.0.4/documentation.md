@@ -32,18 +32,18 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [longitude](#propriete-longitude) | nombre réel  | Non |
 | [latitude](#propriete-latitude) | nombre réel  | Non |
 | [activite](#activite-propriete-activite) | chaîne de caractères  | Non |
-| [transport_station_presence](#proximite-d'un-arret-de-transport-en-commun-propriete-transport-station-presence) | booléen  | Non |
-| [stationnement_presence](#stationnement-dans-l'etablissement-propriete-stationnement-presence) | booléen  | Non |
-| [stationnement_pmr](#stationnements-adaptes-dans-l'etablissement-propriete-stationnement-pmr) | booléen  | Non |
-| [stationnement_ext_presence](#stationnement-a-proximite-de-l'etablissement-propriete-stationnement-ext-presence) | booléen  | Non |
-| [stationnement_ext_pmr](#stationnements-pmr-a-proximite-de-l'etablissement-propriete-stationnement-ext-pmr) | booléen  | Non |
+| [transport_station_presence](#proximite-d-un-arret-de-transport-en-commun-propriete-transport-station-presence) | booléen  | Non |
+| [stationnement_presence](#stationnement-dans-l-etablissement-propriete-stationnement-presence) | booléen  | Non |
+| [stationnement_pmr](#stationnements-adaptes-dans-l-etablissement-propriete-stationnement-pmr) | booléen  | Non |
+| [stationnement_ext_presence](#stationnement-a-proximite-de-l-etablissement-propriete-stationnement-ext-presence) | booléen  | Non |
+| [stationnement_ext_pmr](#stationnements-pmr-a-proximite-de-l-etablissement-propriete-stationnement-ext-pmr) | booléen  | Non |
 | [cheminement_ext_presence](#chemin-exterieur-propriete-cheminement-ext-presence) | booléen  | Non |
 | [cheminement_ext_terrain_accidente](#revetement-exterieur-propriete-cheminement-ext-terrain-accidente) | booléen  | Non |
 | [cheminement_ext_plain_pied](#chemin-exterieur-de-plain-pied-propriete-cheminement-ext-plain-pied) | booléen  | Non |
-| [cheminement_ext_ascenseur](#ascenseur/elevateur-propriete-cheminement-ext-ascenseur) | booléen  | Non |
+| [cheminement_ext_ascenseur](#ascenseur-elevateur-propriete-cheminement-ext-ascenseur) | booléen  | Non |
 | [cheminement_ext_nombre_marches](#nombre-de-marches-propriete-cheminement-ext-nombre-marches) | nombre entier  | Non |
-| [cheminement_ext_reperage_marches](#marches-ou-escalier-securise(es)---propriete-cheminement-ext-reperage-marches) | booléen  | Non |
-| [cheminement_ext_sens_marches](#sens-de-circulation-de-l'escalier-propriete-cheminement-ext-sens-marches) | chaîne de caractères  | Non |
+| [cheminement_ext_reperage_marches](#marches-ou-escalier-securise(es)-propriete-cheminement-ext-reperage-marches) | booléen  | Non |
+| [cheminement_ext_sens_marches](#sens-de-circulation-de-l-escalier-propriete-cheminement-ext-sens-marches) | chaîne de caractères  | Non |
 | [cheminement_ext_main_courante](#main-courante-propriete-cheminement-ext-main-courante) | booléen  | Non |
 | [cheminement_ext_rampe](#rampe-propriete-cheminement-ext-rampe) | chaîne de caractères  | Non |
 | [cheminement_ext_pente_presence](#pente-propriete-cheminement-ext-pente-presence) | booléen  | Non |
@@ -56,37 +56,37 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [entree_vitree](#entree-vitree-propriete-entree-vitree) | booléen  | Non |
 | [entree_vitree_vitrophanie](#reperage-de-la-vitre-propriete-entree-vitree-vitrophanie) | booléen  | Non |
 | [entree_plain_pied](#entree-de-plain-pied-propriete-entree-plain-pied) | booléen  | Non |
-| [entree_ascenseur](#ascenseur/elevateur-propriete-entree-ascenseur) | booléen  | Non |
+| [entree_ascenseur](#ascenseur-elevateur-propriete-entree-ascenseur) | booléen  | Non |
 | [entree_marches](#nombre-de-marches-propriete-entree-marches) | nombre entier  | Non |
 | [entree_marches_reperage](#reperage-des-marches-propriete-entree-marches-reperage) | booléen  | Non |
 | [entree_marches_main_courante](#main-courante-propriete-entree-marches-main-courante) | booléen  | Non |
 | [entree_marches_rampe](#rampe-propriete-entree-marches-rampe) | chaîne de caractères  | Non |
-| [entree_marches_sens](#sens-de-circulation-de-l'escalier-propriete-entree-marches-sens) | chaîne de caractères  | Non |
-| [entree_dispositif_appel](#dispositif-d'appel-a-l'entree-propriete-entree-dispositif-appel) | booléen  | Non |
-| [entree_dispositif_appel_type](#type-de-dispositif-d'appel-a-l'entree-propriete-entree-dispositif-appel-type) | liste  | Non |
-| [entree_balise_sonore](#balise-sonore-a-l'entree-propriete-entree-balise-sonore) | booléen  | Non |
+| [entree_marches_sens](#sens-de-circulation-de-l-escalier-propriete-entree-marches-sens) | chaîne de caractères  | Non |
+| [entree_dispositif_appel](#dispositif-d-appel-a-l-entree-propriete-entree-dispositif-appel) | booléen  | Non |
+| [entree_dispositif_appel_type](#type-de-dispositif-d-appel-a-l-entree-propriete-entree-dispositif-appel-type) | liste  | Non |
+| [entree_balise_sonore](#balise-sonore-a-l-entree-propriete-entree-balise-sonore) | booléen  | Non |
 | [entree_aide_humaine](#aide-humaine-propriete-entree-aide-humaine) | booléen  | Non |
 | [entree_largeur_mini](#largeur-de-la-porte-propriete-entree-largeur-mini) | nombre entier  | Non |
 | [entree_pmr](#entree-specifique-pmr-propriete-entree-pmr) | booléen  | Non |
-| [entree_porte_presence](#y-a-t-il-une-porte ?-propriete-entree-porte-presence) | booléen  | Non |
+| [entree_porte_presence](#y-a-t-il-une-porte-propriete-entree-porte-presence) | booléen  | Non |
 | [entree_porte_manoeuvre](#manoeuvre-de-la-porte-propriete-entree-porte-manoeuvre) | chaîne de caractères  | Non |
 | [entree_porte_type](#type-de-porte-propriete-entree-porte-type) | chaîne de caractères  | Non |
-| [accueil_visibilite](#visibilite-de-la-zone-d'accueil-propriete-accueil-visibilite) | booléen  | Non |
-| [accueil_personnels](#personnel-d'accueil-propriete-accueil-personnels) | chaîne de caractères  | Non |
-| [accueil_equipements_malentendants_presence](#presence-d'equipements-d'aide-a-l'audition-et-a-la-communication-propriete-accueil-equipements-malentendants-presence) | booléen  | Non |
-| [accueil_equipements_malentendants](#liste-des-equipements-d'aide-a-l'audition-et-a-la-communication-propriete-accueil-equipements-malentendants) | liste  | Non |
-| [accueil_cheminement_plain_pied](#chemin-entre-l'entree-principale-du-batiment-et-l'accueil-de-l'etablissement-propriete-accueil-cheminement-plain-pied) | booléen  | Non |
-| [accueil_cheminement_ascenseur](#ascenseur/elevateur-propriete-accueil-cheminement-ascenseur) | booléen  | Non |
+| [accueil_visibilite](#visibilite-de-la-zone-d-accueil-propriete-accueil-visibilite) | booléen  | Non |
+| [accueil_personnels](#personnel-d-accueil-propriete-accueil-personnels) | chaîne de caractères  | Non |
+| [accueil_equipements_malentendants_presence](#presence-d-equipements-d-aide-a-l-audition-et-a-la-communication-propriete-accueil-equipements-malentendants-presence) | booléen  | Non |
+| [accueil_equipements_malentendants](#liste-des-equipements-d-aide-a-l-audition-et-a-la-communication-propriete-accueil-equipements-malentendants) | liste  | Non |
+| [accueil_cheminement_plain_pied](#chemin-entre-l-entree-principale-du-batiment-et-l-accueil-de-l-etablissement-propriete-accueil-cheminement-plain-pied) | booléen  | Non |
+| [accueil_cheminement_ascenseur](#ascenseur-elevateur-propriete-accueil-cheminement-ascenseur) | booléen  | Non |
 | [accueil_cheminement_nombre_marches](#nombre-de-marches-propriete-accueil-cheminement-nombre-marches) | nombre entier  | Non |
-| [accueil_cheminement_reperage_marches](#reperage-des-marches-ou-de-l'escalier-propriete-accueil-cheminement-reperage-marches) | booléen  | Non |
+| [accueil_cheminement_reperage_marches](#reperage-des-marches-ou-de-l-escalier-propriete-accueil-cheminement-reperage-marches) | booléen  | Non |
 | [accueil_cheminement_main_courante](#main-courante-propriete-accueil-cheminement-main-courante) | booléen  | Non |
 | [accueil_cheminement_rampe](#rampe-propriete-accueil-cheminement-rampe) | chaîne de caractères  | Non |
-| [accueil_cheminement_sens_marches](#sens-de-circulation-de-l'escalier-propriete-accueil-cheminement-sens-marches) | chaîne de caractères  | Non |
+| [accueil_cheminement_sens_marches](#sens-de-circulation-de-l-escalier-propriete-accueil-cheminement-sens-marches) | chaîne de caractères  | Non |
 | [accueil_retrecissement](#retrecissement-du-chemin-propriete-accueil-retrecissement) | booléen  | Non |
 | [sanitaires_presence](#sanitaires-propriete-sanitaires-presence) | booléen  | Non |
 | [sanitaires_adaptes](#sanitaires-adaptes-propriete-sanitaires-adaptes) | nombre entier  | Non |
 | [labels](#marques-ou-labels-propriete-labels) | liste  | Non |
-| [labels_familles_handicap](#famille(s)-de-handicap-concernées(s)---propriete-labels-familles-handicap) | liste  | Non |
+| [labels_familles_handicap](#famille(s)-de-handicap-concernees(s)-propriete-labels-familles-handicap) | liste  | Non |
 | [registre_url](#registre-propriete-registre-url) | chaîne de caractères (format `uri`) | Non |
 | [conformite](#conformite-propriete-conformite) | booléen  | Non |
 
