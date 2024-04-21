@@ -154,27 +154,27 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 20,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 15,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 216,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
