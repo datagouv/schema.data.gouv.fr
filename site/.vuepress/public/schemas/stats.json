@@ -154,12 +154,12 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 20,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 15,
