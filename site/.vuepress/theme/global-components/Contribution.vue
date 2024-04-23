@@ -181,23 +181,23 @@ export default {
       level2:[
         {
           code: 1,
-          name: 'Je souhaite proposer une nouvelle idée de schéma'
+          name: 'Proposer une nouvelle idée de schéma'
         },
         {
           code: 2,
-          name: 'Je souhaite créer un nouveau schéma'
+          name: 'Créer un nouveau schéma'
         },
         {
           code: 3,
-          name: 'Je souhaite modifier un schéma existant'
+          name: 'Modifier un schéma existant'
         },
         {
           code: 4,
-          name: 'Je souhaite référencer mon schéma'
+          name: 'Référencer mon schéma'
         },
         {
           code: 5,
-          name: 'Je souhaite publier de nouvelles données'
+          name: 'Publier de nouvelles données'
         }
       ],
       level3: [
