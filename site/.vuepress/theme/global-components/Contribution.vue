@@ -20,10 +20,10 @@
           <div v-for='item in level1' v-bind:key='item.name' @click='selectLevel1(item.code)'>
             <span v-if='item.code === level1Selected'>
               <div class='answerSelected'>{{ item.name }}</div>
-            </span>          
+            </span>
             <span v-if='item.code != level1Selected'>
               <div class='answer'>{{ item.name }}</div>
-            </span>          
+            </span>
           </div>
         </div>
         <span v-if='level1Selected != 0'>
@@ -32,21 +32,34 @@
             <div v-for='item in level2' v-bind:key='item.name' @click='selectLevel2(item.code)'>
               <span v-if='item.code === level2Selected'>
                 <div class='answerSelected'>{{ item.name }}</div>
-              </span>          
+              </span>
               <span v-if='item.code != level2Selected'>
                 <div class='answer'>{{ item.name }}</div>
-              </span>          
+              </span>
             </div>
           </div>
         </span>
-        <span v-if='skipLevel3 == 0 && level2Selected != 0'>
+        <span v-if='skipLevel3 == 0 && level2Selected != 0 && level2Selected != 3'>
           <div class='formTitle'>Le schéma concerné fait-il référence à la thématique des transports / mobilité ?</div>
           <div class='answers'>
             <div v-for='item in level3' v-bind:key='item.name' @click='selectLevel3(item.code)'>
               <span v-if='item.code === level3Selected'>
                 <div class='answerSelected'>{{ item.name }}</div>
-              </span>          
+              </span>
               <span v-if='item.code != level3Selected'>
+                <div class='answer'>{{ item.name }}</div>
+              </span>
+            </div>
+          </div>
+        </span>
+        <span v-if='level3Selected == 2'>
+          <div class='formTitle'>Le schéma concerné contient-il une information géolocalisée ?</div>
+          <div class='answers'>
+            <div v-for='item in level4' v-bind:key='item.name' @click='selectLevel4(item.code)'>
+              <span v-if='item.code === level4Selected'>
+                <div class='answerSelected'>{{ item.name }}</div>
+              </span>          
+              <span v-if='item.code != level4Selected'>
                 <div class='answer'>{{ item.name }}</div>
               </span>          
             </div>
@@ -55,73 +68,85 @@
       </div>
     
   
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 1' class='formTitle'>Proposer un nouveau schéma</div>
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 1' class='answerSpace'>
+      <div v-if='(level3Selected == 1 || skipLevel3 == 1 || level4Selected == 2) && level2Selected == 1' class='formTitle'>Proposer un nouveau schéma</div>
+      <div v-if='(level3Selected == 1 || skipLevel3 == 1 || level4Selected == 2) && level2Selected == 1' class='answerSpace'>
         <p>Pour valider l'intérêt d'un nouveau schéma et informer la communauté d'une nouvelle initiative, nous vous proposons d'initier un message sur notre espace de discussion (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
-        La communauté pourra alors réagir à votre proposition et nous pourrons également vous accompagner dans la conception</p>
+        La communauté pourra alors réagir à votre proposition et nous pourrons également vous accompagner dans la conception.</p>
         <div style="width: 100%;">
           <div class="btn-guide">
-            <a href="https://github.com/etalab/schema.data.gouv.fr/issues/new?assignees=&labels=&template=referencer-un-schema.md&title=" title="Initier une discussion" class="fr-btn">
+            <a href="https://github.com/datagouv/schema.data.gouv.fr/issues/new?assignees=&labels=&template=referencer-un-schema.md&title=" title="Initier une discussion" class="fr-btn">
               <img src="../../public/assets/book.png" width="15" />&nbsp;
               Proposer un nouveau schéma dans une nouvelle discussion
             </a>
           </div>
         </div>
         <br />
-        <p>En cas de difficulté, vous pouvez contacter {{ this.selectedOrganizationName }} à l'adresse suivante {{ this.selectedOrganizationMail }}</p>
+        <p>En cas de difficulté, vous pouvez contacter {{ this.selectedOrganizationName }} à l'adresse suivante : {{ this.selectedOrganizationMail }}</p>
       </div>
       
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 2' class='formTitle'>Créer un nouveau schéma</div>
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 2' class='answerSpace'>
-        <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes <a href='https://www.etalab.gouv.fr/'>d'Etalab</a> et <a href='https://www.opendatafrance.net/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
+      <div v-if='(level3Selected == 1 || skipLevel3 == 1 || level4Selected == 2) && level2Selected == 2' class='formTitle'>Créer un nouveau schéma</div>
+      <div v-if='(level3Selected == 1 || skipLevel3 == 1 || level4Selected == 2) && level2Selected == 2' class='answerSpace'>
+        <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes de <a href='https://www.data.gouv.fr/'>data.gouv.fr</a> et <a href='https://www.opendatafrance.net/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
         <div style="width: 100%;">
           <div class="btn-guide">
-            <a href="https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees" title="Consulter le guide" class="fr-btn">
+            <a href="https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees" title="Consulter le guide" class="fr-btn">
               <img src="../../public/assets/book.png" width="15" />&nbsp;
               Consulter le guide pour créer des schémas de données
             </a>
           </div>
         </div>
         <br />
-        <p>Pour toute question complémentaire, vous pouvez contacter {{ this.selectedOrganizationName }} à l'adresse suivante {{ this.selectedOrganizationMail }}</p>
+        <p>Pour toute question complémentaire, vous pouvez contacter {{ this.selectedOrganizationName }} à l'adresse suivante : {{ this.selectedOrganizationMail }}</p>
       </div>
       
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 3' class='formTitle'>Modifier un schéma</div>
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 3' class='answerSpace'>
-        <p>Pour valider l'intérêt d'un modification sur un schéma existant et en informer la communauté, nous vous proposons d'initier un message sur notre espace de discussion (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
-        Attention de vérifier qu'un fil de discussion n'est pas déjà créé sur le schéma en question (<a href="https://github.com/etalab/schema.data.gouv.fr/issues">voir la liste des discussions en cours</a>)</p>
-        <div style="width: 100%;">
-          <div class="btn-guide">
-            <a href="https://github.com/etalab/schema.data.gouv.fr/issues/new?assignees=&labels=&template=referencer-un-schema.md&title=" title="Initier une discussion" class="fr-btn">
-              <img src="../../public/assets/book.png" width="15" />&nbsp;
-              Proposer une modification d'un schéma dans une nouvelle discussion
-            </a>
+      <div v-if='level2Selected == 3' class='formTitle'>Modifier un schéma</div>
+      <div v-if='level2Selected == 3' class='answerSpace'>
+        <p>Sur quel schéma souhaitez-vous suggérer une modification ?</p>
+        <div>
+          <input
+              v-model="searchQuery"
+              v-on:input="displaySchemasModify"
+              class="rf-input-search"
+              placeholder="Rechercher un schéma de données"
+              type="text"
+          >
+          <div><br></div>
+          <div v-for="schema in schemasToShow" :key="schema.name">
+            <button class="rf-button-search" @click='selectSchemaModif(schema)'>
+              {{ schema.title }}
+            </button>
+          </div>
+          <div v-if='linkToSchema != ""'>
+            Vous pouvez suggérer une modification de ce schéma créant <a :href="linkToSchema">une nouvelle discussion dans le forum dédié.</a><br>
+            Il vous faudra au préalable disposer d'un compte sur {{ schemaPlatform }}, qui héberge ce schéma.
           </div>
         </div>
-        <br />
-        <p>Si vous êtes un profil technique, vous pouvez également proposer la modification d'un schéma directement en modifiant le code source du schéma, accessible sur la fiche du schéma sur schema.data.gouv.fr (bouton "Git"). Vous pourrez alors forké le répertoire Git et proposer vos modifications dans une Pull Request.</p>
-        <p>En cas de difficulté, vous pouvez contacter {{ this.selectedOrganizationName }} à l'adresse suivante {{ this.selectedOrganizationMail }}</p>
       </div>
-          
       
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 4' class='formTitle'>Référencer un schéma</div>
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 4' class='answerSpace'>
+      
+      <div v-if='(level3Selected == 1 || skipLevel3 == 1 || level4Selected == 2) && level2Selected == 4' class='formTitle'>Référencer un schéma</div>
+      <div v-if='(level3Selected == 1 || skipLevel3 == 1 || level4Selected == 2) && level2Selected == 4' class='answerSpace'>
         <div>Pour référencer un nouveau schéma, celui-ci doit au préalable vérifier plusieurs conditions :</div>
         <ul>
           <li>le schéma doit décrire des données publiques</li>
-          <li>le schéma doit avoir été soumis à la communauté <a href="https://github.com/etalab/schema.data.gouv.fr/issues">via un message</a> sur notre espace de discussion</li>
+          <li>le schéma doit avoir été soumis à la communauté <a href="https://github.com/datagouv/schema.data.gouv.fr/issues">via un message</a> sur notre espace de discussion</li>
           <li>le schéma doit avoir été co-conçu avec plusieurs acteurs du domaine auquel il fait référence</li>
-          <li>le schéma doit avoir été conçu selon <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">une spécification technique autorisée</a> et doit <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">être valide</a></li>
+          <li>le schéma doit avoir été conçu selon <a href="https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr#quels-schemas-de-donnees-sont-acceptes">être valide</a></li>
           <li>si aucune donnée n'est encore produite à partir de ce schéma, la version de celui-ci doit être inférieure à la v1.0.0</li>
         </ul>
           
         <p>Une fois ces conditions remplies, vous pouvez nous contacter via la discussion ouverte préalablement ou en contactant {{ this.selectedOrganizationName }} à l'adresse suivante {{ this.selectedOrganizationMail }}</p>
       </div>
       
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 5' class='formTitle'>Publier des données</div>
-      <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 5' class='answerSpace'>
-        <p>Pour publier des données respectant les spécifications d'un schéma de données, vous pouvez vous référez à la documentation des schémas sur ce site et adopté la structure indiquée par le schéma. Si vous avez besoin d'être accompagner en termes d'outillage pour la production de données respectant un schéma, Etalab propose un outil : publier.etalab.studio.</p>
-        <p>publier.etalab.studio est un nouvel outil permettant aux producteurs de données de pouvoir saisir ou charger leur données en vue de leur publication sur la plateforme data.gouv.fr. L'outil propose un accompagnement des producteurs de données sous trois formats : chargement/upload des données déjà existantes, saisie via formulaires ou saisie via tableurs.</p>
+      <div v-if='level4Selected == 1' class='formTitle'>Schéma de données géolocalisées</div>
+      <div v-if='level4Selected == 1' class='answerSpace'>
+        <p>En construction</p>
+      </div>
+
+      <div v-if='level2Selected == 5' class='formTitle'>Publier des données</div>
+      <div v-if='level2Selected == 5' class='answerSpace'>
+        <p>Pour publier des données respectant les spécifications d'un schéma de données, vous pouvez vous référez à la documentation des schémas sur ce site et adopté la structure indiquée par le schéma. Si vous avez besoin d'être accompagner en termes d'outillage pour la production de données respectant un schéma, data.gouv.fr propose un outil : <a href="https://publier.etalab.studio/fr">publier.etalab.studio</a>.</p>
+        <p><a href="https://publier.etalab.studio/fr">publier.etalab.studio</a> est un nouvel outil permettant aux producteurs de données de pouvoir saisir ou charger leur données en vue de leur publication sur la plateforme data.gouv.fr. L'outil propose un accompagnement des producteurs de données sous trois formats : chargement/upload des données déjà existantes, saisie via formulaires ou saisie via tableurs.</p>
 
         <p>En cas de difficulté, vous pouvez contacter Etalab à l'adresse suivante : schema [at] data.gouv.fr.</p>
       </div>
@@ -130,6 +155,7 @@
 </template>
 
 <script>
+import latinize from 'latinize';
 
 
 export default {
@@ -155,23 +181,23 @@ export default {
       level2:[
         {
           code: 1,
-          name: 'Je souhaite proposer une nouvelle idée de schéma'
+          name: 'Proposer une nouvelle idée de schéma'
         },
         {
           code: 2,
-          name: 'Je souhaite créer un nouveau schéma'
+          name: 'Créer un nouveau schéma'
         },
         {
           code: 3,
-          name: 'Je souhaite modifier un schéma existant'
+          name: 'Modifier un schéma existant'
         },
         {
           code: 4,
-          name: 'Je souhaite référencer mon schéma'
+          name: 'Référencer mon schéma'
         },
         {
           code: 5,
-          name: 'Je souhaite publier de nouvelles données'
+          name: 'Publier de nouvelles données'
         }
       ],
       level3: [
@@ -184,21 +210,42 @@ export default {
           name: 'Non'
         }
       ],
+      level4: [
+        {
+          code: 1,
+          name: 'Oui'
+        },
+        {
+          code: 2,
+          name: 'Non'
+        }
+      ],
       level1Selected: 0,
       level2Selected: 0,
       level3Selected: 0,
+      level4Selected: 0,
       skipLevel3: 0,
-      selectedOrganizationName: 'Etalab',
-      selectedOrganizationMail: 'schema [at] data.gouv.fr'
+      skipLevel4: 0,
+      selectedOrganizationName: 'data.gouv.fr',
+      selectedOrganizationMail: 'schema [at] data.gouv.fr',
+      searchQuery: '',
+      schemasToShow: [],
+      dataSchemas: null,
+      linkToSchema: '',
+      schemaPlatform: ''
     };
   },
   mounted() {
+    this.dataSchemas = require('../../public/schemas.json');
   },
   methods: {
     selectLevel1(code){
       this.level1Selected = code;
+      this.level2Selected = 0;
+      this.level3Selected = 0;
+      this.level4Selected = 0;
       if(code != 2){
-        this.selectedOrganizationName = 'Etalab'
+        this.selectedOrganizationName = 'data.gouv.fr'
         this.selectedOrganizationMail = 'schema [at] data.gouv.fr'
       } else{
         this.selectedOrganizationName = 'OpenDataFrance'
@@ -211,6 +258,7 @@ export default {
     selectLevel2(code){
       this.level2Selected = code;
       this.level3Selected = 0;
+      this.level4Selected = 0;
       if(code == 5){
         this.skipLevel3 = 1;
       } else{
@@ -219,19 +267,53 @@ export default {
     },
     selectLevel3(code){
       this.level3Selected = code;
+      this.level4Selected = 0;
       if(code === 1){
         this.selectedOrganizationName = 'transport.data.gouv.fr'
-        this.selectedOrganizationMail = 'contact [at] transport.beta.gouv.fr'
+        this.selectedOrganizationMail = 'contact [at] transport.data.gouv.fr'
+        this.skipLevel4 = 1;
       } else {
         if(this.level1Selected != 2){
-          this.selectedOrganizationName = 'Etalab'
+          this.selectedOrganizationName = 'data.gouv.fr'
           this.selectedOrganizationMail = 'schema [at] data.gouv.fr'
         } else{
           this.selectedOrganizationName = 'OpenDataFrance'
           this.selectedOrganizationMail = 'scdl [at] opendatafrance.email'
         }
       }
-    }
+    },
+    selectLevel4(code){
+      this.level4Selected = code;
+    },
+    displaySchemasModify() {
+      if (this.searchQuery.trim() === '') {
+        this.schemasToShow = [];
+        return;
+      }
+      this.schemasToShow = this.dataSchemas.schemas.filter(schema => {
+        const lowerCaseSearchQuery = latinize(this.searchQuery.toLowerCase());
+        const lowerCaseTitle = latinize(schema.title.toLowerCase());
+        const lowerCaseDescription = latinize(schema.description.toLowerCase());
+        return (
+          lowerCaseTitle.includes(lowerCaseSearchQuery) ||
+          lowerCaseDescription.includes(lowerCaseSearchQuery)
+        );
+      });
+      this.schemasToShow = this.schemasToShow.slice(0, 5);
+      this.linkToSchema = "";
+    },
+    selectSchemaModif(schema){
+      if (schema.homepage.includes("gitlab")){
+        this.linkToSchema = schema.homepage.replace(".git", "/issues/new");
+        this.schemaPlatform = "Gitlab";
+      }
+      else {
+        this.linkToSchema = schema.homepage.replace(".git", "/issues/new/choose");
+        this.schemaPlatform = "Github";
+      }
+      this.searchQuery = schema.title;
+      this.schemasToShow = [];
+    },
   },
 };
 </script>
@@ -284,6 +366,23 @@ export default {
 
 .btn-guide{
   text-align: center;
+}
+
+.rf-input-search{
+  background-color: #ebebeb;
+  margin: 0px;
+  width: 80%;
+  border: 0px;
+  font-size: 16px;
+  border-top-left-radius: 5px;
+  padding-left: 15px;
+}
+
+.rf-button-search{
+  padding: 15px;
+  font-size: 15px;
+  border-bottom: 2px solid #000091;
+  border-top-right-radius: 5px;
 }
 
 </style>
