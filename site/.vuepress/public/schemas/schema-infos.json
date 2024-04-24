@@ -2513,9 +2513,15 @@
                     "README.md"
                 ],
                 "schema_url": "/cnigfr/schema-schema-coherence-territoriale/2.0.0/schema.yml"
+            },
+            "2.0.1": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-schema-coherence-territoriale/2.0.1/schema.yml"
             }
         },
-        "latest": "2.0.0"
+        "latest": "2.0.1"
     },
     "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
         "homepage": "https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur.git",
