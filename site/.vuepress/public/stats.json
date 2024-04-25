@@ -77,7 +77,7 @@
     "nb_issues": 26,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1119,
+            "dgv_resources": 1122,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -197,7 +197,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 20,
+            "dgv_resources": 19,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -227,7 +227,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 388,
+            "dgv_resources": 389,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -352,7 +352,7 @@
             "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Carte communale",
             "contributors": 2
         },
