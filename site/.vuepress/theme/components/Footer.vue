@@ -26,8 +26,8 @@
               >
             </li>
             <li class="fr-footer__content-item">
-              <a class="fr-footer__content-link" href="https://gouvernement.fr"
-                >gouvernement.fr</a
+              <a class="fr-footer__content-link" href="https://info.gouv.fr"
+                >info.gouv.fr</a
               >
             </li>
             <li class="fr-footer__content-item">
