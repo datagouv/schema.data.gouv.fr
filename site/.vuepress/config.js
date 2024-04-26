@@ -84,7 +84,7 @@ head: [
         "url": "/statistiques.html",
       },
       {
-        "title": "A propos",
+        "title": "À propos",
         "url": "/apropos.html",
       },
     ],
@@ -108,7 +108,7 @@ head: [
         url: '/schemas.html'
       },
       {
-        img: '/assets/chat.png',
+        img: '/assets/community.png',
         text: 'Contribuez en proposant votre propre schéma',
         url: '/contribuer.html'
       },

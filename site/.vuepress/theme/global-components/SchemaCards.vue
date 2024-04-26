@@ -469,11 +469,11 @@ export default {
   border: 2px solid #ebebeb;
 }
 .addSchemaDiv{
-  border: 2px solid #000091;
+  border: 2px solid #3558A2;
   float: left;
   padding: 10px;
   border-radius: 15px;
-  color: #000091;
+  color: #3558A2;
   cursor: pointer;
 }
 .search-bar{
@@ -484,13 +484,13 @@ export default {
   margin: 0px;
   width: 80%;
   border: 0px;
-  border-bottom: 2px solid #000091;
+  border-bottom: 2px solid #3558A2;
   font-size: 16px;
   border-top-left-radius: 5px;
   padding-left: 15px;
 }
 .rf-button-search{
-  background-color: #000091;
+  background-color: #3558A2;
   color: white;
   padding: 15px;
   margin: 0px;
@@ -515,7 +515,7 @@ export default {
   padding: 7px;
   font-size: 13px;
   border-radius: 15px;
-  color: #000091;
+  color: #3558A2;
   text-decoration: underline dotted;
 }
 
@@ -526,7 +526,7 @@ export default {
 .labelSelected{
   margin-right: 15px;
   padding: 7px;
-  background-color: #000091;
+  background-color: #3558A2;
   border-radius: 15px;
   color: white;
   font-size: 13px;
@@ -536,7 +536,7 @@ export default {
   padding: 7px;
   background-color: #ECEDFE;
   border-radius: 15px;
-  color: #000091;
+  color: #3558A2;
   font-size: 13px;
 }
 
@@ -557,7 +557,7 @@ export default {
   border-radius: 15px;
   font-size: 13px;
   background-color: #ECEDFE;
-  color: #000091;
+  color: #3558A2;
 }
 
 .statutNotSelected:hover{
@@ -565,7 +565,7 @@ export default {
 }
 
 .tousSelected{
-  background-color: #000091;
+  background-color: #3558A2;
   color: white;
 }
 .adopteSelected{

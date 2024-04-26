@@ -11,16 +11,16 @@
                 <br />
                 <button @click="goto($site.themeConfig.hero.url1)" class="heroButton fr-btn fr-btn--secondary">
                     {{ $site.themeConfig.hero.button1 }}&nbsp;&nbsp;
-                    <img src="../../public/assets/right-arrow.png" width="15" />
+                    <img src="../../public/assets/right-arrow.png" width="20" />
                 </button>
                 <br /><br />
                 <button @click="goto($site.themeConfig.hero.url2)" class="heroButton fr-btn fr-btn--secondary">
                     {{ $site.themeConfig.hero.button2 }}&nbsp;&nbsp;
-                    <img src="../../public/assets/right-arrow.png" width="15" />
+                    <img src="../../public/assets/right-arrow.png" width="20" />
                 </button>
             </div>
             <div class="heroImage">
-                <img src="../../public/assets/logo-schema.png" width="350" />
+                <img src="../../public/assets/logo_schema.png" width="250" />
             </div>
         </div>
     </div>
@@ -56,9 +56,9 @@ export default {
 }
 .hero{
     min-height: 430px;
-    background-color: #000091;
+    background-color: #E6EEFE;
     display: flex;
-    color: white;
+    color: #3558A2;
     padding-bottom: 30px;
 }
 .heroText{

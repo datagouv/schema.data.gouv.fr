@@ -130,7 +130,7 @@ export default {
     height: 150px;
     background-color: #ebebeb;
     margin: auto;
-    border-bottom: 5px solid #000091;
+    border-bottom: 5px solid #3558A2;
     cursor: pointer;
 }
 .pbBoxImage{
@@ -139,7 +139,7 @@ export default {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
-    color: #000091;
+    color: #3558A2;
 }
 .pbBoxText{
     margin-bottom: 20px;
@@ -152,7 +152,7 @@ export default {
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 20px;
-    background-color: #000091;
+    background-color: #3558A2;
     border-radius: 5px;
     float: left;
     cursor: pointer;
@@ -160,7 +160,7 @@ export default {
 .nameJDD{
     float: left;
     cursor: pointer;
-    color: #000091;
+    color: #3558A2;
 }
 .nameJDD:hover{
     text-decoration: underline;

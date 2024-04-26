@@ -257,7 +257,7 @@ export default {
   margin-right: 5px;
   border-radius: 5px;
   padding: 15px;
-  color: #000091;
+  color: #3558A2;
   margin-bottom: 5px;
 }
 .answerSelected{
@@ -265,7 +265,7 @@ export default {
   margin-right: 5px;
   border-radius: 5px;
   padding: 15px;
-  color: #000091;
+  color: #3558A2;
   margin-bottom: 5px;
 }
 

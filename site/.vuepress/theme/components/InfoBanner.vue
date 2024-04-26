@@ -18,8 +18,8 @@ export default {
 
 <style scoped>
 .custom-notice {
-  background-color: #e5efff; /* Couleur de fond */
-  color: #0053b3; /* Couleur du texte */
+  background-color: #E6EEFE; /* Couleur de fond */
+  color: #3558A2; /* Couleur du texte */
   padding: 1rem; /* Espace interne */
 }
 
@@ -41,6 +41,6 @@ export default {
 }
 
 .custom-notice__title a {
-  color: #0053b3; /* Couleur du lien */
+  color: #3558A2; /* Couleur du lien */
 }
 </style>
