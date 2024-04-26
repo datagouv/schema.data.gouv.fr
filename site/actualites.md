@@ -1,3 +1,10 @@
+### 2024-04-26
+
+#### Schéma en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les végétaux](https://github.com/datagouv/schema.data.gouv.fr/issues/313/)**
+
+---
+
 ### 2024-04-24
 
 #### Montée de version:
