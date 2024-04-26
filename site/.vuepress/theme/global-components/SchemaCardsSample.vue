@@ -1,7 +1,7 @@
 <template>
   <div class="schemaCardsSample">
     <div class="fr-container schemaCardsTitle">
-      Découvrez les schémas référencés
+      <b>Découvrez les schémas référencés</b>
     </div>
     <div class="fr-container boxes">
       <div
@@ -28,7 +28,7 @@
     <div class="schemaCardsSampleButtonDiv">
       <button @click="maingoto()" class="schemaCardsSampleButton fr-btn fr-btn--secondary">
           Découvrez tous les schémas référencés&nbsp;&nbsp;
-          <img src="../../public/assets/right-arrow.png" width="15" />
+          <img src="../../public/assets/right-arrow.png" width="20" />
       </button>
     </div>
   </div>
@@ -100,13 +100,13 @@ export default {
 <style scoped>
 
 .schemaCardsSample{
-  background-color: #000091;
+  background-color: #E6EEFE;
   padding-top: 50px;
   padding-bottom: 50px;
 
 }
 .schemaCardsTitle{
-  color: white;
+  color: #3558A2;
   text-align: center;
   font-size: 24px;
   margin-bottom: 30px;
