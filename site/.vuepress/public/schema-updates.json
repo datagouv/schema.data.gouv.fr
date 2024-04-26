@@ -652,5 +652,13 @@
                 "version": "2.0.0 => 2.0.1"
             }
         ]
+    },
+    "2024-04-26": {
+        "construction": [
+            {
+                "title": "Sch\u00e9ma sur les v\u00e9g\u00e9taux",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/313"
+            }
+        ]
     }
 }
