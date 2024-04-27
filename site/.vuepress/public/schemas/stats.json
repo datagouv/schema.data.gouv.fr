@@ -87,7 +87,7 @@
     "nb_issues": 27,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1122,
+            "dgv_resources": 1124,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -172,7 +172,7 @@
             "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 16,
+            "dgv_resources": 15,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
@@ -184,7 +184,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 216,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
