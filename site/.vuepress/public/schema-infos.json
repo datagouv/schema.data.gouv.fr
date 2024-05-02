@@ -214,19 +214,22 @@
             },
             "1.5.0": {
                 "pages": [
-                    "README.md"
+                    "README.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/139bercy/format-commande-publique/1.5.0/marches.json"
             },
             "2.0.0": {
                 "pages": [
-                    "README.md"
+                    "README.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/139bercy/format-commande-publique/2.0.0/marches.json"
             },
             "2.0.1": {
                 "pages": [
-                    "README.md"
+                    "README.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/139bercy/format-commande-publique/2.0.1/marches.json"
             }
@@ -637,7 +640,8 @@
         "versions": {
             "0.0.2": {
                 "pages": [
-                    "README.md"
+                    "README.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/metis-reseaux/infos-travaux/0.0.2/informations_travaux.json"
             }
@@ -866,70 +870,80 @@
             "0.1.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.1.0/schema_amenagements_cyclables.json"
             },
             "0.2.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.2.0/schema_amenagements_cyclables.json"
             },
             "0.2.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.2.1/schema_amenagements_cyclables.json"
             },
             "0.2.2": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.2.2/schema_amenagements_cyclables.json"
             },
             "0.2.3": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.2.3/schema_amenagements_cyclables.json"
             },
             "0.3.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.3.0/schema_amenagements_cyclables.json"
             },
             "0.3.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.3.1/schema_amenagements_cyclables.json"
             },
             "0.3.2": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.3.2/schema_amenagements_cyclables.json"
             },
             "0.3.3": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.3.3/schema_amenagements_cyclables.json"
             },
             "0.3.4": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.3.4/schema_amenagements_cyclables.json"
             }
@@ -1441,42 +1455,48 @@
             "0.6.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-zfe/0.6.1/schema.json"
             },
             "0.7.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-zfe/0.7.0/schema.json"
             },
             "0.7.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-zfe/0.7.1/schema.json"
             },
             "0.7.2": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-zfe/0.7.2/schema.json"
             },
             "0.8.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-zfe/0.8.1/schema.json"
             },
             "0.8.2": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-zfe/0.8.2/schema.json"
             }
@@ -1732,42 +1752,48 @@
             "0.3.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/PnX-SI/schema_randonnee/0.3.0/schema.json"
             },
             "0.3.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/PnX-SI/schema_randonnee/0.3.1/schema.json"
             },
             "1.0.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/PnX-SI/schema_randonnee/1.0.0/schema.json"
             },
             "1.0.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/PnX-SI/schema_randonnee/1.0.1/schema.json"
             },
             "1.0.2": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/PnX-SI/schema_randonnee/1.0.2/schema.json"
             },
             "1.1.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/PnX-SI/schema_randonnee/1.1.0/schema.json"
             }
@@ -1786,7 +1812,8 @@
             "1.0.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "documentation.md"
                 ],
                 "schema_url": "/macaron-ai/onstreet-parking-schema/1.0.0/onstreet-parking.schema.json"
             }
