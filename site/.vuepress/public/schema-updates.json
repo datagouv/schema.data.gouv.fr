@@ -676,5 +676,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/313"
             }
         ]
+    },
+    "2024-05-02": {
+        "deleted_schema": [
+            {
+                "schema_name": "etalab/schema-stationnement",
+                "version": "0.1.5"
+            }
+        ]
     }
 }

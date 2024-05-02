@@ -57,7 +57,7 @@ Spécification du schéma de données des Zones à Faibles Emissions
 #### Propriété vp_critair
 > *Description : Véhicules particuliers : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple V4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler. L'ordre des vignettes est le suivant : EL, V1, V2, V3, V4, V5, NC. EL correspond aux véhicules électriques et NC aux véhicules sans vignette.*<br>
 > *Exemple : V4*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `vp_horaires` renseigné)
 - Type : chaîne de caractères ou `null`
 - Valeurs autorisées :
    - V5
@@ -72,13 +72,13 @@ Spécification du schéma de données des Zones à Faibles Emissions
 #### Propriété vp_horaires
 > *Description : Véhicules particuliers : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours*<br>
 > *Exemple : Mo-Fr 08:00-20:00; PH off*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `vp_critair` renseigné)
 - Type : chaîne de caractères ou `null`
 
 #### Propriété vul_critair
 > *Description : Véhicules utilitaires légers : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple V4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler. L'ordre des vignettes est le suivant : EL, V1, V2, V3, V4, V5, NC. EL correspond aux véhicules électriques et NC aux véhicules sans vignette.*<br>
 > *Exemple : V4*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `vul_horaires` renseigné)
 - Type : chaîne de caractères ou `null`
 - Valeurs autorisées :
    - V5
@@ -93,13 +93,13 @@ Spécification du schéma de données des Zones à Faibles Emissions
 #### Propriété vul_horaires
 > *Description : Véhicules utilitaires légers : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours*<br>
 > *Exemple : Mo-Fr 08:00-20:00; PH off*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `vul_critair` renseigné)
 - Type : chaîne de caractères ou `null`
 
 #### Propriété pl_critair
 > *Description : Poids lourds (>3,5t): Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple V4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler. L'ordre des vignettes est le suivant : EL, V1, V2, V3, V4, V5, NC. EL correspond aux véhicules électriques et NC aux véhicules sans vignette.*<br>
 > *Exemple : V4*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `pl_horaires` renseigné)
 - Type : chaîne de caractères ou `null`
 - Valeurs autorisées :
    - V5
@@ -114,13 +114,13 @@ Spécification du schéma de données des Zones à Faibles Emissions
 #### Propriété pl_horaires
 > *Description : Poids lourds (>3,5t): jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours*<br>
 > *Exemple : Mo-Fr 08:00-20:00; PH off*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `pl_critair` renseigné)
 - Type : chaîne de caractères ou `null`
 
 #### Propriété autobus_autocars_critair
 > *Description : Autobus et autocars : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple V4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler. L'ordre des vignettes est le suivant : EL, V1, V2, V3, V4, V5, NC. EL correspond aux véhicules électriques et NC aux véhicules sans vignette.*<br>
 > *Exemple : V4*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `autobus_autocars_horaires` renseigné)
 - Type : chaîne de caractères ou `null`
 - Valeurs autorisées :
    - V5
@@ -135,13 +135,13 @@ Spécification du schéma de données des Zones à Faibles Emissions
 #### Propriété autobus_autocars_horaires
 > *Description : Autobus et autocars : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours*<br>
 > *Exemple : Mo-Fr 08:00-20:00; PH off*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `autobus_autocars_critair` renseigné)
 - Type : chaîne de caractères ou `null`
 
 #### Propriété deux_rm_critair
 > *Description : Deux roues, tricycles et quadricycles à moteur : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple V4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler. L'ordre des vignettes est le suivant : EL, V1, V2, V3, V4, V5, NC. EL correspond aux véhicules électriques et NC aux véhicules sans vignette.*<br>
 > *Exemple : V4*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `deux_rm_horaires` renseigné)
 - Type : chaîne de caractères ou `null`
 - Valeurs autorisées :
    - V5
@@ -156,7 +156,7 @@ Spécification du schéma de données des Zones à Faibles Emissions
 #### Propriété deux_rm_horaires
 > *Description : Deux roues, tricycles et quadricycles à moteur : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours*<br>
 > *Exemple : Mo-Fr 08:00-20:00; PH off*
-- Valeur optionnelle
+- Valeur optionnelle (obligatoire si `deux_rm_critair` renseigné)
 - Type : chaîne de caractères ou `null`
 
 #### Propriété url_arrete

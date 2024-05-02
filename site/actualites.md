@@ -1,3 +1,10 @@
+### 2024-05-02
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-stationnement](/etalab/schema-stationnement/)** : <span style="color:blue;">0.1.5</span><br>
+
+---
+
 ### 2024-04-26
 
 #### Schéma en construction:
