@@ -11,7 +11,7 @@ Spécification du schéma de données d'aménagements cyclables
 
 ### Arborescence des propriétés :
 
-#### features - Propriété features
+#### Propriété features
 - Type : liste
 
 <blockquote>
@@ -28,7 +28,7 @@ Spécification du schéma de données d'aménagements cyclables
 
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
-#### properties - Propriété properties
+#### Propriété properties
 - Type : dictionnaire (clés-valeurs)
 
 <blockquote>
@@ -36,13 +36,13 @@ Spécification du schéma de données d'aménagements cyclables
 
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
-#### id_local - Propriété id_local
+#### Propriété id_local
 > *Description : Identifiant unique pérenne défini par la collectivité*<br>
 > *Exemple : 751AC*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 
-#### reseau_loc - Propriété reseau_loc
+#### Propriété reseau_loc
 > *Description : Type de réseau structurant local auquel l'aménagement appartient*<br>
 > *Exemple : Structurant*
 - Valeur optionnelle
@@ -52,7 +52,7 @@ Spécification du schéma de données d'aménagements cyclables
    - Structurant
    - Autre
 
-#### nom_loc - Propriété nom_loc
+#### Propriété nom_loc
 - Type : liste
 
 <blockquote>
@@ -60,7 +60,7 @@ Spécification du schéma de données d'aménagements cyclables
 
 <summary>Cette propriété doit contenir une liste d'éléments parmi les suivants :</summary>
 
-#### nom_loc - Propriété nom_loc
+#### Propriété nom_loc
 > *Description : Nom et numéro des itinéraires locaux*<br>
 > *Exemple : V1*
 - Valeur optionnelle
@@ -69,29 +69,29 @@ Spécification du schéma de données d'aménagements cyclables
 </details>
 </blockquote>
 
-#### code_com - Propriété code_com
+#### Propriété code_com
 > *Description : Code INSEE de la commune (5 caractères alphanumériques)*<br>
 > *Exemple : 75114*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^([013-9]\d|2[AB1-9])\d{3}`
 
-#### id_osm - Propriété id_osm
+#### Propriété id_osm
 > *Description : Identifiant de l'aménagement sur OSM*<br>
 > *Exemple : 7746952719*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### num_iti - Propriété num_iti
+#### Propriété num_iti
 > *Description : Numéro des itinéraires, des EuroVelo au schéma départementaux, auxquels le segment appartient. Séparé par « : »*<br>
 > *Exemple : 0001:*
 - Valeur optionnelle
 - Type : liste
 
-#### ame_d - Propriété ame_d
+#### Propriété ame_d
 > *Description : Type d'aménagement présent sur la voie de droite*<br>
 > *Exemple : BANDE CYCLABLE*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées :
    - PISTE CYCLABLE
@@ -110,7 +110,7 @@ Spécification du schéma de données d'aménagements cyclables
    - AUCUN
    - AUTRE
 
-#### regime_d - Propriété regime_d
+#### Propriété regime_d
 > *Description : Régime présent sur la voie de droite*<br>
 > *Exemple : AIRE PIETONNE*
 - Valeur optionnelle
@@ -123,7 +123,7 @@ Spécification du schéma de données d'aménagements cyclables
    - HORS AGGLOMERATION
    - AUTRE
 
-#### sens_d - Propriété sens_d
+#### Propriété sens_d
 > *Description : Sens de circulation pour les cyclistes sur la voie de droite*<br>
 > *Exemple : UNIDIRECTIONNEL*
 - Valeur optionnelle
@@ -132,16 +132,16 @@ Spécification du schéma de données d'aménagements cyclables
    - UNIDIRECTIONNEL
    - BIDIRECTIONNEL
 
-#### largeur_d - Propriété largeur_d
+#### Propriété largeur_d
 > *Description : Largeur hors marquage minimale utile de la voie de droite réservée au cycliste, en mètre. La largeur du marquage est exclue*<br>
 > *Exemple : 3*
 - Valeur optionnelle
 - Type : nombre
 
-#### ame_g - Propriété ame_g
+#### Propriété ame_g
 > *Description : Type d'aménagement présent sur la voie de gauche*<br>
 > *Exemple : BANDE CYCLABLE*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées :
    - PISTE CYCLABLE
@@ -160,7 +160,7 @@ Spécification du schéma de données d'aménagements cyclables
    - AUCUN
    - AUTRE
 
-#### regime_g - Propriété regime_g
+#### Propriété regime_g
 > *Description : Régime présent sur la voie de gauche*<br>
 > *Exemple : AIRE PIETONNE*
 - Valeur optionnelle
@@ -173,7 +173,7 @@ Spécification du schéma de données d'aménagements cyclables
    - HORS AGGLOMERATION
    - AUTRE
 
-#### sens_g - Propriété sens_g
+#### Propriété sens_g
 > *Description : Sens de circulation pour les cyclistes sur la voie de gauche*<br>
 > *Exemple : UNIDIRECTIONNEL*
 - Valeur optionnelle
@@ -182,13 +182,13 @@ Spécification du schéma de données d'aménagements cyclables
    - UNIDIRECTIONNEL
    - BIDIRECTIONNEL
 
-#### largeur_g - Propriété largeur_g
+#### Propriété largeur_g
 > *Description : Largeur hors marquage minimale utile de la voie de gauche réservée au cycliste, en mètre. La largeur du marquage est exclue*<br>
 > *Exemple : 4.1*
 - Valeur optionnelle
 - Type : nombre
 
-#### local_ame - Propriété local_ame
+#### Propriété local_ame
 > *Description : Emplacement de l'aménagement*<br>
 > *Exemple : TROTTOIR*
 - Valeur optionnelle
@@ -197,7 +197,7 @@ Spécification du schéma de données d'aménagements cyclables
    - TROTTOIR
    - CHAUSSEE
 
-#### statut_ame - Propriété statut_ame
+#### Propriété statut_ame
 > *Description : Niveau de réalisation de l'infrastructure*<br>
 > *Exemple : PROVISOIRE*
 - Valeur optionnelle
@@ -207,7 +207,7 @@ Spécification du schéma de données d'aménagements cyclables
    - EN SERVICE
    - PROVISOIRE
 
-#### access_ame - Propriété access_ame
+#### Propriété access_ame
 > *Description : Accessibilité des amanégements par type de véhicule à deux roues non motorisé*<br>
 > *Exemple : VTT*
 - Valeur optionnelle
@@ -218,49 +218,49 @@ Spécification du schéma de données d'aménagements cyclables
    - VTC
    - VELO DE ROUTE
 
-#### date_maj - Propriété date_maj
+#### Propriété date_maj
 > *Description : Date de dernière mise à jour des données du segment  Notation ISO 8601, format AAAA-MM-JJ*<br>
 > *Exemple : 2020-08-15*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### trafic_vit - Propriété trafic_vit
+#### Propriété trafic_vit
 > *Description : Vitesse maximale autorisée pour le trafic adjacent à l'aménagement, en km/h. La vitesse 5 km/h correspond à une vitesse à l'allure du pas*<br>
 > *Exemple : 80*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : nombre entier
 
-#### lumiere - Propriété lumiere
+#### Propriété lumiere
 > *Description : Aménagement éclairé*<br>
 > *Exemple : True*
 - Valeur optionnelle
 - Type : booléen
 
-#### d_service - Propriété d_service
+#### Propriété d_service
 > *Description : Date de mise en oeuvre de l'aménagement (AAAA)*<br>
 > *Exemple : 2015*
 - Valeur optionnelle
 - Type : nombre
 
-#### comm - Propriété comm
+#### Propriété comm
 > *Description : Remarques éventuelles au sujet de l'aménagement*<br>
 > *Exemple : forte pente sur 10 mètres*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### source - Propriété source
+#### Propriété source
 > *Description : Entité ayant fourni les données*<br>
 > *Exemple : Ville de Paris*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### project_c - Propriété project_c
+#### Propriété project_c
 > *Description : Projection cartographique utilisée*<br>
 > *Exemple : Peters*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### ref_geo - Propriété ref_geo
+#### Propriété ref_geo
 > *Description : référentiel géographique utilisé*<br>
 > *Exemple : Bdortho*
 - Valeur optionnelle

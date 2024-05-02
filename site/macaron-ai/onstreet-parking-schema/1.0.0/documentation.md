@@ -11,12 +11,12 @@ Spécification du schéma de données d'emprises de stationnement
 
 ### Arborescence des propriétés :
 
-#### type - Propriété type
+#### Propriété type
 - Type : liste
 - Valeurs autorisées :
    - FeatureCollection
 
-#### features - Propriété features
+#### Propriété features
 - Type : liste
 
 <blockquote>
@@ -24,7 +24,7 @@ Spécification du schéma de données d'emprises de stationnement
 
 <summary>Cette propriété doit contenir une liste d'éléments parmi les suivants :</summary>
 
-#### feature - Propriété feature
+#### Propriété feature
 - Type : dictionnaire (clés-valeurs)
 
 <blockquote>
@@ -32,12 +32,12 @@ Spécification du schéma de données d'emprises de stationnement
 
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
-#### type - Propriété type
+#### Propriété type
 - Type : liste
 - Valeurs autorisées :
    - Feature
 
-#### properties - Propriété properties
+#### Propriété properties
 - Type : dictionnaire (clés-valeurs)
 
 <blockquote>
@@ -47,26 +47,26 @@ Spécification du schéma de données d'emprises de stationnement
 
 #### Nom de la ville - Propriété city
 > *Exemple : Paris*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^(.*)$`
 
 #### France: Code INSEE - Propriété city_code
 > *Exemple : 75056*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^(.*)$`
 
 #### Longeur - Propriété lenght
 > *Description : Longueur de l'emprise de stationnemment en mètre*<br>
 > *Exemple : 35.83*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : nombre
 
 #### Largeur - Propriété width
 > *Description : Largeur de l'emprise de stationnemment en mètre*<br>
 > *Exemple : 2*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : nombre
 
 #### Places - Propriété places
@@ -78,19 +78,19 @@ Spécification du schéma de données d'emprises de stationnement
 #### Places calculées - Propriété calculated_places
 > *Description : Nombre de places calculée pour l'emprise. Exemple: 5m par place*<br>
 > *Exemple : 11*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : nombre entier
 
 #### Surface calculée - Propriété calculated_area
 > *Description : Surface calculée en m2 de l'emprise de stationnement*<br>
 > *Exemple : 71.66*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : nombre
 
 #### Nom de la rue - Propriété street_name
 > *Description : Nom de la voie où est situé l'emprise de stationnment*<br>
 > *Exemple : Rue Berger*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Début numéro de voie - Propriété street_number_start
@@ -108,13 +108,13 @@ Spécification du schéma de données d'emprises de stationnement
 #### Code postal - Propriété postal_code
 > *Description : Code postal de la voie de la commune sur 5 caractères (incluant 'A' ou 'B' pour la Corse)*<br>
 > *Exemple : 75012*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Date de relevée de l'emprise - Propriété created_at
 > *Description : Date de relevée de l'emprise au format AAAA-MM-JJ, suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).*<br>
 > *Exemple : 2021-08-02*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `(((19|20)([2468][048]|[13579][26]|0[48])|2000)[/-]02[/-]29|((19|20)[0-9]{2}[/-](0[469]|11)[/-](0[1-9]|[12][0-9]|30)|(19|20)[0-9]{2}[/-](0[13578]|1[02])[/-](0[1-9]|[12][0-9]|3[01])|(19|20)[0-9]{2}[/-]02[/-](0[1-9]|1[0-9]|2[0-8])))`
 
@@ -159,7 +159,7 @@ Spécification du schéma de données d'emprises de stationnement
 
 #### Régle - Propriété rule
 > *Description : Règle qui régie une emprise de stationnement*<br>
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : dictionnaire (clés-valeurs)
 
 <blockquote>
@@ -169,7 +169,7 @@ Spécification du schéma de données d'emprises de stationnement
 
 #### Type de staionnement - Propriété type
 > *Exemple : POLICE*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées :
    - PAYANT
@@ -202,7 +202,7 @@ Spécification du schéma de données d'emprises de stationnement
 #### Plage horaire - Propriété opening_hours
 > *Description : Liste des périodes pendant lesquelles la règle est appliquée*<br>
 > *Exemple : Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00; PH 09:00-12:00*
-- Valeur optionnelle
+- Valeur obligatoire
 - Type : chaîne de caractères
 
 </details>
