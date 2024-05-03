@@ -471,6 +471,48 @@
             "homepage": "https://github.com/metis-reseaux/infos-travaux"
         },
         {
+            "name": "etalab/schema-stationnement",
+            "title": "Lieux de stationnement",
+            "description": "Sp\u00e9cification des lieux permettant le stationnement en parc",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource valide (XLSX)",
+                    "name": "exemple-valide-xlsx",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.xlsx"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
+            "versions": [
+                {
+                    "version_name": "0.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.4/schema.json"
+                },
+                {
+                    "version_name": "0.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.5/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-stationnement.git"
+        },
+        {
             "name": "scdl/budget",
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "description": "Les donn\u00e9es essentielles du budget permettent de d\u00e9crire le contenu des \u00e9tapes budg\u00e9taires des collectivit\u00e9s locales et des \u00e9tablissements publics. Il permet de pr\u00e9ciser les cat\u00e9gories de montants financiers ainsi que le d\u00e9coupage de ces sommes en fonction du type de pr\u00e9sentation utilis\u00e9 (par nature ou par fonction). Ce sch\u00e9ma d\u00e9crit le d\u00e9tail de chaque champ et le cas \u00e9ch\u00e9ant les r\u00e8gles de validit\u00e9 associ\u00e9es.",

@@ -75,6 +75,26 @@
         "type": "missing schemas.yml"
     },
     {
+        "schema": "stationnement",
+        "version": "0.1.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "stationnement",
+        "version": "0.1.1",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "stationnement",
+        "version": "0.1.2",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "stationnement",
+        "version": "0.1.3",
+        "type": "tableschema validation"
+    },
+    {
         "schema": "budget",
         "version": "0.2.0",
         "type": "tableschema validation"

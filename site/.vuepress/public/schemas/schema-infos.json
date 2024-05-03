@@ -648,6 +648,36 @@
         },
         "latest": "0.0.2"
     },
+    "etalab/schema-stationnement": {
+        "homepage": "https://github.com/etalab/schema-stationnement.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "contact@transport.beta.gouv.fr",
+        "labels": [
+            "transport.data.gouv.fr"
+        ],
+        "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
+        "versions": {
+            "0.1.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement/0.1.4/schema.json"
+            },
+            "0.1.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-stationnement/0.1.5/schema.json"
+            }
+        },
+        "latest": "0.1.5"
+    },
     "scdl/budget": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/budget.git",
         "external_doc": null,
