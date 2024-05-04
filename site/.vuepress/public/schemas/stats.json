@@ -182,12 +182,12 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 216,
+            "dgv_resources": 218,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
-            "dgv_resources": 6,
+            "dgv_resources": 5,
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
             "contributors": 2
         },
@@ -362,7 +362,7 @@
             "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Carte communale",
             "contributors": 2
         },
