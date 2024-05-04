@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - preprod
 jobs:
   trigger-gitlab-pipeline:
     runs-on: ubuntu-latest
@@ -12,7 +13,7 @@ jobs:
       APP_NAME: ${{ vars.APP_NAME }}
       SCAFFOLD_REPO_SSH_URL: ${{ vars.SCAFFOLD_REPO_SSH_URL }}
       SCAFFOLD_DIR: "scaffold"
-      ENV: "prod"
+      ENV: ""
       GITLAB_API_TOKEN: ${{ secrets.GITLAB_API_TOKEN }}
       DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
     steps:
@@ -28,6 +29,13 @@ jobs:
           # configure git
           git config --global user.email "root@data.gouv.fr"
           git config --global user.name "datagouv"
+
+          # set ENV based on branch
+          if [ "$GITHUB_REF" = "refs/heads/main" ]; then
+            echo "ENV=prod" >> $GITHUB_ENV
+          elif [ "$GITHUB_REF" = "refs/heads/preprod" ]; then
+            echo "ENV=demo" >> $GITHUB_ENV
+          fi
       - name: clone scaffold repository
         shell: bash
         run: |
