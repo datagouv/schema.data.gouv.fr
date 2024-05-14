@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 40,
+            "dgv_resources": 41,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -142,7 +142,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 17,
+            "dgv_resources": 16,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
@@ -222,7 +222,7 @@
             "contributors": 10
         },
         "etalab/schema-zfe": {
-            "dgv_resources": 14,
+            "dgv_resources": 12,
             "title": "Zone \u00e0 Faibles Emissions",
             "contributors": 2
         },
