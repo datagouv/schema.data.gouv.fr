@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 41,
+            "dgv_resources": 42,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -142,7 +142,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 16,
+            "dgv_resources": 17,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
@@ -184,7 +184,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 216,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -204,12 +204,12 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 18,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 2
+            "contributors": 1
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
@@ -222,7 +222,7 @@
             "contributors": 10
         },
         "etalab/schema-zfe": {
-            "dgv_resources": 12,
+            "dgv_resources": 13,
             "title": "Zone \u00e0 Faibles Emissions",
             "contributors": 2
         },
