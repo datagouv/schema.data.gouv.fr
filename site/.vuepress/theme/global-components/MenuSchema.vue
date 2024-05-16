@@ -130,6 +130,16 @@
                         Changements
                     </button>
                 </span>
+                <span v-if="schema_infos['versions'][version]['pages'].includes('sources.md')">
+                    <button 
+                        class="ongletItem"
+                        :style="this.pageSources ? 'background-color: var(--bf200-bf300); border-top: 1px solid #3558A2; border-left: 1px solid #3558A2; border-right: 1px solid #3558A2;' : ''"
+                        @click="gotoInternal('sources.html')"
+                    >
+                        <img src="../../public/assets/book-marked-line.png" width="15" />&nbsp;
+                        Réglementation
+                    </button>
+                </span>
             </div>
             <div class="box-right">
                 Version du schéma :
@@ -159,6 +169,7 @@ export default {
         pageInfo: false,
         pageDoc: false,
         pageChange: false,
+        pageSources: false,
         hoverText: 'Cliquer pour copier',
     };
   },
@@ -187,6 +198,8 @@ export default {
         this.pageDoc = true
       } else if(last == 'CHANGELOG.html'){
         this.pageChange = true
+      } else if(last == 'sources.html'){
+        this.pageSources = true
       } else {
           this.pageInfo = true
       }
