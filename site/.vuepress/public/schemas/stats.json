@@ -87,7 +87,7 @@
     "nb_issues": 27,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1119,
+            "dgv_resources": 1120,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 42,
+            "dgv_resources": 43,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -164,22 +164,22 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 20,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 15,
+            "dgv_resources": 16,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-bal": {
             "dgv_resources": 216,
