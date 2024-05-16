@@ -87,7 +87,7 @@
     "nb_issues": 27,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1119,
+            "dgv_resources": 1120,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -132,7 +132,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 42,
+            "dgv_resources": 43,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -172,7 +172,7 @@
             "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 15,
+            "dgv_resources": 16,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
@@ -184,7 +184,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 216,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -204,12 +204,12 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 18,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
