@@ -1,3 +1,12 @@
+---
+name: Modifier un schéma
+about: Modifier un schéma sur schema.data.gouv.fr
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 ## Schéma concerné
 Indiquez ici le schéma existant concerné
 
