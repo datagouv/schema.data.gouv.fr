@@ -419,5 +419,10 @@
       <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
       <description>Schema update on 2024-05-03: 0.1.5 for etalab/schema-stationnement</description>
       <pubDate>Fri, 03 May 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Investigation - Sch&#233;ma sur les Op&#233;rations d'am&#233;nagement</title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/317</link>
+      <description>Schema update on 2024-05-17: Sch&#233;ma sur les Op&#233;rations d'am&#233;nagement is in investigation</description>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

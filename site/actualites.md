@@ -1,3 +1,10 @@
+### 2024-05-17
+
+#### Schéma en investigation:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les Opérations d'aménagement](https://github.com/datagouv/schema.data.gouv.fr/issues/317/)**
+
+---
+
 ### 2024-05-03
 
 #### Schéma ajouté:

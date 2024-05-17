@@ -692,5 +692,13 @@
                 "version": "0.1.5"
             }
         ]
+    },
+    "2024-05-17": {
+        "investigation": [
+            {
+                "title": "Sch\u00e9ma sur les Op\u00e9rations d'am\u00e9nagement",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
+            }
+        ]
     }
 }
