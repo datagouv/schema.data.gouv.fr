@@ -1,3 +1,10 @@
+### 2024-05-23
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-bal](/etalab/schema-bal/)** : <span style="color:red;">1.3.0</span> => <span style="color:green;">1.4.0</span><br>
+
+---
+
 ### 2024-05-17
 
 #### Schéma en investigation:
