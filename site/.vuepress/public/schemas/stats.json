@@ -173,22 +173,22 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 20,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 16,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 40,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-bal": {
             "dgv_resources": 217,
@@ -216,7 +216,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 19,
+            "dgv_resources": 20,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -246,7 +246,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 389,
+            "dgv_resources": 390,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
