@@ -141,7 +141,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 43,
+            "dgv_resources": 44,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -176,7 +176,7 @@
             "contributors": 6
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 20,
+            "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 7
         },
@@ -191,7 +191,7 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 217,
+            "dgv_resources": 268,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
