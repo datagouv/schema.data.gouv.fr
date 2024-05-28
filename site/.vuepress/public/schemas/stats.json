@@ -96,7 +96,7 @@
     "nb_issues": 28,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1121,
+            "dgv_resources": 1123,
             "title": "IRVE statique",
             "contributors": 7
         },
