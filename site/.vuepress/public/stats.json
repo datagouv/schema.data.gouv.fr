@@ -96,7 +96,7 @@
     "nb_issues": 28,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1123,
+            "dgv_resources": 1124,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -188,7 +188,7 @@
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 41,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 268,
