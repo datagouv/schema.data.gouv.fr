@@ -676,5 +676,13 @@
                 "version": "1.3.0 => 1.4.0"
             }
         ]
+    },
+    "2024-06-04": {
+        "construction": [
+            {
+                "title": "Espace Naturel Sensible",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/307"
+            }
+        ]
     }
 }
