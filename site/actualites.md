@@ -1,3 +1,10 @@
+### 2024-06-04
+
+#### Schéma en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Espace Naturel Sensible](https://github.com/datagouv/schema.data.gouv.fr/issues/307/)**
+
+---
+
 ### 2024-05-23
 
 #### Montée de version:
