@@ -105,7 +105,7 @@
     "nb_issues": 28,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1123,
+            "dgv_resources": 1126,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -200,7 +200,7 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 268,
+            "dgv_resources": 256,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 5
         },
@@ -222,12 +222,12 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 20,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
@@ -247,7 +247,7 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 4
+            "contributors": 2
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
@@ -297,7 +297,7 @@
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
