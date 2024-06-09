@@ -684,5 +684,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/307"
             }
         ]
+    },
+    "2024-06-09": {
+        "deleted_schema": [
+            {
+                "schema_name": "scdl/menus-collectifs",
+                "version": "1.2.3"
+            }
+        ]
     }
 }

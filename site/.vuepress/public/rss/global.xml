@@ -409,5 +409,10 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/307</link>
       <description>Schema update on 2024-06-04: Espace Naturel Sensible is in construction</description>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Deleted schema - scdl/menus-collectifs (1.2.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
+      <description>Schema update on 2024-06-09: 1.2.3 for scdl/menus-collectifs</description>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
