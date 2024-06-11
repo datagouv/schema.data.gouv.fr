@@ -105,12 +105,12 @@
     "nb_issues": 28,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1128,
+            "dgv_resources": 1127,
             "title": "IRVE statique",
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 8,
+            "dgv_resources": 9,
             "title": "IRVE dynamique",
             "contributors": 7
         },
