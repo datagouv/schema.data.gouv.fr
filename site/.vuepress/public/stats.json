@@ -200,7 +200,7 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 256,
+            "dgv_resources": 257,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
