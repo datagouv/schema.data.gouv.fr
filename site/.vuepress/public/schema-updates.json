@@ -708,5 +708,13 @@
                 "version": "0.14.0 => 0.15.0"
             }
         ]
+    },
+    "2024-06-14": {
+        "new_version": [
+            {
+                "schema_name": "LaMednum/standard-mediation-num",
+                "version": "1.0.0 => 1.0.1"
+            }
+        ]
     }
 }

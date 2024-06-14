@@ -424,5 +424,10 @@
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2024-06-12: 0.14.0 to 0.15.0 for gip-inclusion/data-inclusion-schema</description>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - LaMednum/standard-mediation-num (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/LaMednum/standard-mediation-num</link>
+      <description>Schema update on 2024-06-14: 1.0.0 to 1.0.1 for LaMednum/standard-mediation-num</description>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

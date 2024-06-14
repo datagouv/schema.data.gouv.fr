@@ -1,3 +1,10 @@
+### 2024-06-14
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[LaMednum/standard-mediation-num](/LaMednum/standard-mediation-num/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
+
+---
+
 ### 2024-06-12
 
 #### Montée de version:
