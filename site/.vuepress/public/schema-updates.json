@@ -732,5 +732,13 @@
                 "version": "1.0.0 => 1.0.1"
             }
         ]
+    },
+    "2024-06-17": {
+        "deleted_schema": [
+            {
+                "schema_name": "scdl/menus-collectifs",
+                "version": "1.2.3"
+            }
+        ]
     }
 }

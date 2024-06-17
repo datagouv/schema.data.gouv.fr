@@ -1,3 +1,10 @@
+### 2024-06-17
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:blue;">1.2.3</span><br>
+
+---
+
 ### 2024-06-14
 
 #### Montée de version:
