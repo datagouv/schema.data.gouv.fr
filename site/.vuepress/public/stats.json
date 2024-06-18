@@ -209,6 +209,11 @@
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
             "contributors": 2
         },
+        "scdl/menus-collectifs": {
+            "dgv_resources": 3,
+            "title": "Menus de la restauration collective",
+            "contributors": 3
+        },
         "scdl/plats-menus-collectifs": {
             "dgv_resources": 2,
             "title": "Composition des plats des menus de la restauration collective",
@@ -340,7 +345,7 @@
             "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
             "contributors": 2
         },

@@ -1,3 +1,10 @@
+### 2024-06-18
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:blue;">1.2.3</span><br>
+
+---
+
 ### 2024-06-17
 
 #### Schéma supprimé:
