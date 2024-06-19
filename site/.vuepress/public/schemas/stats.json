@@ -185,7 +185,7 @@
             "contributors": 6
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 20,
+            "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 7
         },
@@ -200,9 +200,9 @@
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 258,
+            "dgv_resources": 259,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -222,7 +222,7 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 20,
