@@ -209,6 +209,48 @@
             "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git"
         },
         {
+            "name": "etalab/schema-stationnement",
+            "title": "Lieux de stationnement",
+            "description": "Sp\u00e9cification des lieux permettant le stationnement en parc",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource valide (XLSX)",
+                    "name": "exemple-valide-xlsx",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.xlsx"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
+            "versions": [
+                {
+                    "version_name": "0.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.4/schema.json"
+                },
+                {
+                    "version_name": "0.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.5/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-stationnement.git"
+        },
+        {
             "name": "etalab/schema-amenagements-cyclables",
             "title": "Am\u00e9nagements cyclables",
             "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es d'am\u00e9nagements cyclables",

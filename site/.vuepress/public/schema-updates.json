@@ -755,6 +755,12 @@
                 "schema_name": "etalab/schema-stationnement",
                 "version": "0.1.5"
             }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "etalab/schema-stationnement",
+                "version": "0.1.5"
+            }
         ]
     }
 }
