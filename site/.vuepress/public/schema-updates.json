@@ -748,5 +748,13 @@
                 "version": "1.2.3"
             }
         ]
+    },
+    "2024-06-20": {
+        "deleted_schema": [
+            {
+                "schema_name": "etalab/schema-stationnement",
+                "version": "0.1.5"
+            }
+        ]
     }
 }

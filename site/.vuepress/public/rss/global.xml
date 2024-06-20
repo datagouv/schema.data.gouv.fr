@@ -454,5 +454,10 @@
       <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
       <description>Schema update on 2024-06-18: 1.2.3 for scdl/menus-collectifs</description>
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Deleted schema - etalab/schema-stationnement (0.1.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
+      <description>Schema update on 2024-06-20: 0.1.5 for etalab/schema-stationnement</description>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
