@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 68,
+            "dgv_resources": 69,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -195,12 +195,12 @@
             "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 41,
+            "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "contributors": 6
         },
         "etalab/schema-bal": {
-            "dgv_resources": 259,
+            "dgv_resources": 261,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -310,7 +310,7 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 38,
+            "dgv_resources": 39,
             "title": "Sch\u00e9ma des structures de l'insertion",
             "contributors": 2
         },
@@ -330,7 +330,7 @@
             "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 3,
+            "dgv_resources": 2,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
         },
