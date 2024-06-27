@@ -819,15 +819,6 @@
     ]
   },
   {
-    "id": "655c7fb899abb26d52bcdfa0",
-    "recommendations": [
-      {
-        "id": "5448d3e0c751df01f85d0572",
-        "score": 50
-      }
-    ]
-  },
-  {
     "id": "655b8c832e40d0b6d76c8cff",
     "recommendations": [
       {
@@ -3052,24 +3043,6 @@
   },
   {
     "id": "6419eca7d5e73c12166f0b88",
-    "recommendations": [
-      {
-        "id": "5448d3e0c751df01f85d0572",
-        "score": 50
-      }
-    ]
-  },
-  {
-    "id": "6419dfc8ab288b9155116b78",
-    "recommendations": [
-      {
-        "id": "5448d3e0c751df01f85d0572",
-        "score": 50
-      }
-    ]
-  },
-  {
-    "id": "6419cf434cf95cafb51055c3",
     "recommendations": [
       {
         "id": "5448d3e0c751df01f85d0572",
