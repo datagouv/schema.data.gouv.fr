@@ -1,3 +1,10 @@
+### 2024-06-28
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[139bercy/format-commande-publique](/139bercy/format-commande-publique/)** : <span style="color:red;">2.0.1</span> => <span style="color:green;">2.0.2</span><br>
+
+---
+
 ### 2024-06-14
 
 #### Montée de version:

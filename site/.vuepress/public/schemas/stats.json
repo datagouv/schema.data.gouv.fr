@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 261,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "CEREMA/schema-aire-livraison": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Aires de livraison",
             "contributors": 2
         }
