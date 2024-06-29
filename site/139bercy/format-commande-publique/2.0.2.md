@@ -10,7 +10,7 @@ Les schémas de données présentés jusqu’à la **version 1.5** régissent la
 **Vous trouverez l'ensemble des fichiers techniques décrivant la structure du [schéma version 1.5 sur ce lien](https://github.com/139bercy/format-commande-publique/releases/tag/1.5.0).**
 
 Les schémas de données présentés à partir de la **version 2.0** régissent la structure des données à publier par les acheteurs publics le portail national des données ouvertes à compter du 1er janvier 2024. Ces formats sont la traduction technique des arrêtés modifiés du 22 décembre 2022 relatifs aux données essentielles des marchés publics et des contrats de concession.
-**Vous trouverez l'ensemble des fichiers techniques décrivant la structure du [schéma version 2.0.1 sur ce lien](https://github.com/139bercy/format-commande-publique/releases/tag/2.0.1).**
+**Vous trouverez l'ensemble des fichiers techniques décrivant la structure du [schéma version 2.0.2 sur ce lien](https://github.com/139bercy/format-commande-publique/releases/tag/2.0.2).**
 
 Les acheteurs publics doivent publier leurs données de marchés publics et de contrats de concession dans ce format **à partir du 1er janvier 2024**, sur le portail national des données ouvertes.
 
@@ -28,7 +28,7 @@ Le schéma version 2.0 est un nouveau schéma prenant en compte les modification
 - au maintien de la publication des données essentielles des contrats de concession ;
 - à la publication de ces données essentielles sur le portail national des données ouvertes et non plus sur le profil d’acheteur.
 
-C'est le schéma qui doit être respecté pour la publication de données essentielles pour les marchés notifiés à compter du **1er janvier 2024** et pour les contrats de concession conclus à compter de cette même date. Le schéma est disponible sur [le dépôt Github](https://github.com/139bercy/format-commande-publique/releases/tag/2.0.1), qui contient des exemples de données et les référentiels des schémas à ce lien avec une documentation associée [disponible ici](https://github.com/139bercy/format-commande-publique/blob/2.0.1/_index.md).
+C'est le schéma qui doit être respecté pour la publication de données essentielles pour les marchés notifiés à compter du **1er janvier 2024** et pour les contrats de concession conclus à compter de cette même date. Le schéma est disponible sur [le dépôt Github](https://github.com/139bercy/format-commande-publique/releases/tag/2.0.2), qui contient des exemples de données et les référentiels des schémas à ce lien avec une documentation associée [disponible ici](https://github.com/139bercy/format-commande-publique/blob/2.0.2/_index.md).
 
 ### Version 1.5 (arrêté du 22 mars 2019) :
 

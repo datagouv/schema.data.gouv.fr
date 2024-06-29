@@ -145,7 +145,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 34,
+            "dgv_resources": 35,
             "title": "Subventions",
             "contributors": 11
         },
@@ -182,12 +182,12 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 16,
@@ -200,7 +200,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 261,
+            "dgv_resources": 262,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },

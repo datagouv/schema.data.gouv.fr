@@ -127,7 +127,7 @@
             "name": "139bercy/format-commande-publique",
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "description": "Donn\u00e9es des attributions de march\u00e9s publics et de contrats de concessions sup\u00e9rieures \u00e0 40 000 euros.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/latest/marches.json",
+            "schema_url": "https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/latest/schema_decp_v2.0.2.json",
             "schema_type": "jsonschema",
             "contact": "schema@data.gouv.fr",
             "examples": [],
@@ -156,7 +156,7 @@
                 },
                 {
                     "version_name": "2.0.2",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/2.0.2/marches.json"
+                    "schema_url": "https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/2.0.2/schema_decp_v2.0.2.json"
                 }
             ],
             "external_doc": null,
