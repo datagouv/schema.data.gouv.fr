@@ -246,7 +246,7 @@
                     "README.md",
                     "documentation.md"
                 ],
-                "schema_url": "/139bercy/format-commande-publique/2.0.2/marches.json"
+                "schema_url": "/139bercy/format-commande-publique/2.0.2/schema_decp_v2.0.2.json"
             }
         },
         "latest": "2.0.2"

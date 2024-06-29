@@ -102,7 +102,7 @@ Données des attributions de marchés publics et de contrats de concessions sup�
    - Accord-cadre
    - Concours
    - Système de qualification
-   - Système d’acquisition dynamique
+   - Système d'acquisition dynamique
    - Catalogue électronique
    - Enchère électronique
    - Sans objet
@@ -152,7 +152,7 @@ Données des attributions de marchés publics et de contrats de concessions sup�
    - Fournitures courantes et services
    - Marchés industriels
    - Prestations intellectuelles
-   - Techniques de l’information et de la communication
+   - Techniques de l'information et de la communication
    - Pas de CCAG
 
 #### Nombre d'offres reçues - Propriété offresRecues
@@ -166,12 +166,12 @@ Données des attributions de marchés publics et de contrats de concessions sup�
 - Type : booléen
 
 #### Taux de l'avance - Propriété tauxAvance
-> *Description : Taux de l'avance attribuée au titulaire principal du marché public par rapport au montant du marché (O.1 = 10 % du montant du marché). En fonction de la valeur de attributionAvance, une valeur égale à 0 signifie soit qu'aucune avance n'a été accordée (si attributionAvance=false), soit que le taux de l'avance n'est pas connu (si attributionAvance=true).*<br>
+> *Description : Taux de l'avance attribuée au titulaire principal du marché public par rapport au montant du marché (O.1 = 10 % du montant du marché). En fonction de la valeur de attributionAvance, une valeur égale à 0 signifie qu'il y a une avance  mais que le taux n'est pas connu (attributionAvance=true).*<br>
 - Valeur optionnelle
 - Type : nombre
 
 #### Type de groupement d'opérateurs - Propriété typeGroupementOperateurs
-> *Description : Le type de groupement d’entreprises ou d’opérateurs économiques*<br>
+> *Description : Le type de groupement d'entreprises ou d'opérateurs économiques*<br>
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées :
@@ -381,13 +381,13 @@ Données des attributions de marchés publics et de contrats de concessions sup�
    - Mixte
 
 #### Part des produits provenant de l'Union européenne - Propriété origineUE
-> *Description : Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d’habillement, selon la liste annexée à l'arrêté, la part des produits issus de l’Union européenne avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits provient de l'Union européenne. Cette valeur ne peut pas être inférieure à la valeur d'origineFrance. Si le marché n'est pas concerné, saisir null.*<br>
-- Valeur obligatoire
+> *Description : Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d'habillement, selon la liste annexée à l'arrêté, la part des produits issus de l'Union européenne avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits provient de l'Union européenne. Cette valeur ne peut pas être inférieure à la valeur d'origineFrance.*<br>
+- Valeur optionnelle
 - Type : nombre
 
 #### Part des produits français - Propriété origineFrance
-> *Description : Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d’habillement, selon la liste annexée à l'arrêté, la part des produits français avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits sont français. Cette valeur ne peut pas être supérieure à la valeur d'origineUE. Si le marché n'est pas concerné, saisir null.*<br>
-- Valeur obligatoire
+> *Description : Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d'habillement, selon la liste annexée à l'arrêté, la part des produits français avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits sont français. Cette valeur ne peut pas être supérieure à la valeur d'origineUE.*<br>
+- Valeur optionnelle
 - Type : nombre
 
 #### Titulaires du marché - Propriété titulaires

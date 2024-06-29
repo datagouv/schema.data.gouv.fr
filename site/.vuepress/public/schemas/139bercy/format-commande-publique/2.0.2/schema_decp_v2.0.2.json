@@ -105,7 +105,7 @@
                 },
                 "idAccordCadre": {
                     "title": "Identifiant de l'accord-cadre",
-                    "description": "Pour un marché subséquent, le numéro d’identification de marché public relevant de la technique d’achat accord-cadre. Exemples : 1234 ou C123_456-98777nz",
+                    "description": "Pour un marché subséquent, le numéro d'identification de marché public relevant de la technique d'achat accord-cadre. Exemples : 1234 ou C123_456-98777nz",
                     "$ref": "#/definitions/marche/definitions/IdentifiantMarche"
                 },
                 "marcheInnovant": {
@@ -123,7 +123,7 @@
                         "Fournitures courantes et services",
                         "Marchés industriels",
                         "Prestations intellectuelles",
-                        "Techniques de l’information et de la communication",
+                        "Techniques de l'information et de la communication",
                         "Pas de CCAG"
                     ]
                 },
@@ -140,14 +140,14 @@
                 },
                 "tauxAvance": {
                     "title": "Taux de l'avance",
-                    "description": "Taux de l'avance attribuée au titulaire principal du marché public par rapport au montant du marché (O.1 = 10 % du montant du marché). En fonction de la valeur de attributionAvance, une valeur égale à 0 signifie soit qu'aucune avance n'a été accordée (si attributionAvance=false), soit que le taux de l'avance n'est pas connu (si attributionAvance=true).",
+                    "description": "Taux de l'avance attribuée au titulaire principal du marché public par rapport au montant du marché (O.1 = 10 % du montant du marché). En fonction de la valeur de attributionAvance, une valeur égale à 0 signifie qu'il y a une avance  mais que le taux n'est pas connu (attributionAvance=true).",
                     "type": "number",
                     "minimum": 0,
                     "maximum": 1
                 },
                 "typeGroupementOperateurs": {
                     "title": "Type de groupement d'opérateurs",
-                    "description": "Le type de groupement d’entreprises ou d’opérateurs économiques",
+                    "description": "Le type de groupement d'entreprises ou d'opérateurs économiques",
                     "type": "string",
                     "enum": [
                         "Conjoint",
@@ -262,14 +262,14 @@
                 },
                 "origineUE": {
                     "title": "Part des produits provenant de l'Union européenne",
-                    "description": "Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d’habillement, selon la liste annexée à l'arrêté, la part des produits issus de l’Union européenne avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits provient de l'Union européenne. Cette valeur ne peut pas être inférieure à la valeur d'origineFrance. Si le marché n'est pas concerné, saisir null.",
+                    "description": "Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d'habillement, selon la liste annexée à l'arrêté, la part des produits issus de l'Union européenne avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits provient de l'Union européenne. Cette valeur ne peut pas être inférieure à la valeur d'origineFrance.",
                     "type": "number",
                     "minimum": 0,
                     "maximum": 1
                 },
                 "origineFrance": {
                     "title": "Part des produits français",
-                    "description": "Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d’habillement, selon la liste annexée à l'arrêté, la part des produits français avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits sont français. Cette valeur ne peut pas être supérieure à la valeur d'origineUE. Si le marché n'est pas concerné, saisir null.",
+                    "description": "Pour les marchés de fournitures de denrées alimentaires, de véhicules, de produits de santé et d'habillement, selon la liste annexée à l'arrêté, la part des produits français avec laquelle le marché sera exécuté. 0.2 = 20 % de la part des produits sont français. Cette valeur ne peut pas être supérieure à la valeur d'origineUE.",
                     "type": "number",
                     "minimum": 0,
                     "maximum": 1
@@ -352,8 +352,6 @@
                 "montant",
                 "typesPrix",
                 "formePrix",
-                "origineUE",
-                "origineFrance",
                 "sousTraitanceDeclaree",
                 "titulaires",
                 "considerationsSociales",
@@ -398,7 +396,7 @@
                             "Accord-cadre",
                             "Concours",
                             "Système de qualification",
-                            "Système d’acquisition dynamique",
+                            "Système d'acquisition dynamique",
                             "Catalogue électronique",
                             "Enchère électronique",
 							"Sans objet"
@@ -794,7 +792,7 @@
                     "title": "Données d'exécution",
                     "description": "Les données d'exécution du contrat de concession à une date donnée. Tous les ans, l'autorité concédante publie les données d'exécution, jusqu'à la fin du contrat de concession. Ces données ne sont inclues qu'à partir de la première année, pas lors de la publication initiale des données qui fait suite à la notification.",
                     "type": "array",
-                    "minItems": 1,
+                    "minItems": 0,
                     "items": {
                         "$ref": "#/definitions/contrat-concession/definitions/DonneesExecutionArray"
                     },
@@ -1010,6 +1008,7 @@
                         "donneesAnnuelles": {
 							"$ref": "#/definitions/contrat-concession/definitions/DonneesExecution"
 						}
+
 					},
 					"required": [
 						"donneesAnnuelles"
