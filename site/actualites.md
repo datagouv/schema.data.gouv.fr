@@ -1,3 +1,10 @@
+### 2024-07-01
+
+#### Schéma en investigation:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les résultats des élections ](https://github.com/datagouv/schema.data.gouv.fr/issues/319/)**
+
+---
+
 ### 2024-06-28
 
 #### Montée de version:
