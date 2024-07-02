@@ -793,9 +793,17 @@
                     "sources.md"
                 ],
                 "schema_url": "/atlasante/schema-dae/1.0.6/schema.json"
+            },
+            "1.0.7": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/atlasante/schema-dae/1.0.7/schema.json"
             }
         },
-        "latest": "1.0.6"
+        "latest": "1.0.7"
     },
     "scdl/prenoms": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/prenoms.git",

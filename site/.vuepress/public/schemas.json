@@ -561,19 +561,19 @@
             "examples": [
                 {
                     "title": "Exemple de fichier DAE avec des donn\u00e9es invalides",
-                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.6/exemple_invalide.csv"
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_invalide.csv"
                 },
                 {
                     "title": "Exemple de fichier DAE avec une structure invalide",
-                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.6/exemple_invalide_structure.csv"
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_invalide_structure.csv"
                 },
                 {
                     "title": "Exemple de fichier DAE toutes les donn\u00e9es invalides",
-                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.6/exemple_invalide_complet.csv"
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_invalide_complet.csv"
                 },
                 {
                     "title": "Exemple de fichier DAE valide",
-                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.6/exemple_valide.csv"
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_valide.csv"
                 }
             ],
             "labels": [
@@ -600,6 +600,10 @@
                 {
                     "version_name": "1.0.6",
                     "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.6/schema.json"
+                },
+                {
+                    "version_name": "1.0.7",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.7/schema.json"
                 }
             ],
             "external_doc": null,

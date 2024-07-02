@@ -474,5 +474,10 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/319</link>
       <description>Schema update on 2024-07-01: Sch&#233;ma sur les r&#233;sultats des &#233;lections  is in investigation</description>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - atlasante/schema-dae (1.0.6 to 1.0.7)</title>
+      <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
+      <description>Schema update on 2024-07-02: 1.0.6 to 1.0.7 for atlasante/schema-dae</description>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
