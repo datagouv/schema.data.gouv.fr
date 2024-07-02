@@ -1,3 +1,13 @@
+### 2024-07-02
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[atlasante/schema-dae](/atlasante/schema-dae/)** : <span style="color:red;">1.0.6</span> => <span style="color:green;">1.0.7</span><br>
+
+#### Schéma en investigation:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les résultats des élections ](https://github.com/datagouv/schema.data.gouv.fr/issues/319/)**
+
+---
+
 ### 2024-06-28
 
 #### Montée de version:

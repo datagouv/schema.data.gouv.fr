@@ -33,8 +33,8 @@ L’ensemble des outils de collecte et de diffusion des données s’appuient su
 
 ## Voir aussi
 * [Portail GéoDAE](https://geodae.sante.gouv.fr)
-* [Fichier gabarit à télécharger au format csv](https://carto.atlasante.fr/IHM/cartes/ressources/dae/DGS-DAE_%20Base_de_donnees_nationale_Gabarit_declaration_donnees.csv) (proposé par la DGS)
-* [Fichier gabarit à télécharger au format xlsx](https://carto.atlasante.fr/IHM/cartes/ressources/dae/DGS-DAE_%20Base_de_donnees_nationale_Gabarit_declaration_donnees.xlsx) (généré automatiquement à partir du schéma)
+* [Fichier gabarit à télécharger au format csv](https://carto.atlasante.fr/IHM/cartes/pdf_pub/GeoDAE/DGS-DAE_Base_de_donnees_nationale_Gabarit_declaration_donnees.csv) (proposé par la DGS)
+* [Fichier gabarit à télécharger au format xlsx](https://carto.atlasante.fr/IHM/cartes/pdf_pub/GeoDAE/DGS-DAE_Base_de_donnees_nationale_Gabarit_declaration_donnees.xlsx) (généré automatiquement à partir du schéma)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 

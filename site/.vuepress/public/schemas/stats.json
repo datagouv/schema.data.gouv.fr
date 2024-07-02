@@ -102,10 +102,10 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 28,
+    "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1123,
+            "dgv_resources": 1124,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -220,7 +220,7 @@
             "contributors": 3
         },
         "MTES-MCT/acceslibre-schema": {
-            "dgv_resources": 3,
+            "dgv_resources": 2,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
             "contributors": 2
         },

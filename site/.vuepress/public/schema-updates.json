@@ -724,5 +724,19 @@
                 "version": "2.0.1 => 2.0.2"
             }
         ]
+    },
+    "2024-07-02": {
+        "new_version": [
+            {
+                "schema_name": "atlasante/schema-dae",
+                "version": "1.0.6 => 1.0.7"
+            }
+        ],
+        "investigation": [
+            {
+                "title": "Sch\u00e9ma sur les r\u00e9sultats des \u00e9lections ",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/319"
+            }
+        ]
     }
 }
