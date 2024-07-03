@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1124,
+            "dgv_resources": 1125,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -190,7 +190,7 @@
             "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 16,
+            "dgv_resources": 17,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
