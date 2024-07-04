@@ -1,0 +1,157 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"fontaine-eau",
+   "title":"Schéma des fontaines à eau",
+   "description":"Spécification du fichier d'échange relatif aux fontaines à eau mises à disposition notamment par les Etablissements recevant du public (ERP) dans le cadre de la loi anti-gaspillage.",
+   "keywords":[
+      "fontaine",
+      "eau",
+      "potable"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/datagouv/schema-fontaine-eau",
+   "path":"https://github.com/datagouv/schema-fontaine-eau/raw/v0.1.0/schema.json",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Fichier valide (CSV)",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/datagouv/schema-fontaine-eau/raw/v0.1.0/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+      {
+         "title":"LOI n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire",
+         "path":"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041553759"
+      }
+   ],
+   "created":"2024-07-03",
+   "version":"v0.1.0",
+   "contributors":[
+      {
+         "title":"Pierlou Ramade",
+         "email":"pierlou.ramade@data.gouv.fr",
+         "organisation":"DINUM",
+         "role":"author"
+      }
+   ],
+   "fields":[
+      {
+         "name":"id",
+         "description":"Un identifiant unique de la fontaine.",
+         "type":"string",
+         "example":"450024946",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"type_fontaine",
+         "description":"Le type de fontaine installée.",
+         "type":"string",
+         "example":"robinet",
+         "constraints":{
+            "required":true,
+            "enum":[
+               "normale",
+               "robinet",
+               "bouche_a_boire",
+               "estivale",
+               "kiosque",
+               "autre"
+            ]
+         }
+      },
+      {
+         "name":"modele",
+         "description":"Le modèle de la fontaine.",
+         "type":"string",
+         "example":"BF Bayard",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"coordonnees_geo",
+         "description":"Coordonnées GPS de la fontaine, au format `lon,lat`, avec le point comme séparateur décimal et une virgule entre les deux.",
+         "type":"geopoint",
+         "example":"2.303713,48.849598",
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"adresse",
+         "description":"Adresse de l'objet contenant la voie et le numéro sur la voie.",
+         "type":"string",
+         "example":"8 boulevard Victor Hugo",
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"code_commune_insee",
+         "description":"Code INSEE de la commune dans laquelle la fontaine est installée.",
+         "type":"string",
+         "example":"63113",
+         "constraints": {
+            "required":true,
+            "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
+         }
+      },
+      {
+         "name":"precision_geo",
+         "description":"Champ de texte libre facultatif pour préciser la localisation de la fontaine.",
+         "type":"string",
+         "example":"Dans le bâtiment au rez-de-chaussée"
+      },
+      {
+         "name":"date_installation",
+         "description":"Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).",
+         "type":"date",
+         "format": "%Y-%m-%d",
+         "example":"2022-02-11",
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"est_potable",
+         "description":"Booléen renseignant sur le caractère potable ou non de la fontaine.",
+         "type":"boolean",
+         "example":true,
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"indisponible",
+         "description":"Date de début d'indisponibilité de la fontaine si elle est indisponible. Si elle est en fonctionnement, à laisser vide.",
+         "type":"date",
+         "format": "%Y-%m-%d",
+         "example":"2023-05-12"
+      },
+      {
+         "name":"ouverture_restriction",
+         "description":"Booléen renseignant sur la fermeture ou non de la fontaine en période de restrictions. `true` si elle reste ouverte, `false` sinon.",
+         "type":"boolean",
+         "example":true,
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"gestionnaire",
+         "description":"Nom du gestionnaire de la fontaine.",
+         "type":"string",
+         "example":"Ville de Rennes"
+      }
+   ],
+   "primaryKey":"id"
+}

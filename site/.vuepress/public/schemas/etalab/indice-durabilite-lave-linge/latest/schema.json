@@ -1,0 +1,3897 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name": "indice-durabilite-lave-linge",
+    "title": "Indice de durabilité - Lave-linge",
+    "description": "Schéma de données pour l'indice de durabilité - lave-linge",
+    "keywords": [
+        "durabilite",
+        "lave-linge"
+    ],
+    "countryCode": "FR",
+    "homepage": "https://github.com/etalab/schema-indice-durabilite",
+    "path": "https://github.com/etalab/schema-indice-durabilite/v0.1.0/datapackage.json",
+    "image": "",
+    "licenses": [
+        {
+            "title": "Etalab Licence Ouverte 2.0",
+            "name": "etalab-2.0",
+            "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+    ],
+    "resources": [
+        {
+            "title": "Fichier valide (CSV)",
+            "name": "exemple-valide-csv",
+            "path": "https://raw.githubusercontent.com/etalab/schema-indice-durabilite/v0.1.0/lave-linge/exemple-valide.csv"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Loi n°2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire",
+            "path": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041553759"
+        },
+        {
+            "title": "Décret n° 2024-316 du 5 avril 2024 relatif à l'indice de durabilité des équipements électriques et électroniques",
+            "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049375942"
+        },
+        {
+            "title": "Arrêté du 5 avril 2024 relatif aux modalités d'affichage, à la signalétique et aux paramètres généraux de calcul de l'indice de durabilité des équipements électriques et électroniques",
+            "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049376179"
+        },
+        {
+            "title": "Arrêté du 5 avril 2024 relatif aux critères, aux sous critères et au système de notation pour le calcul et l'affichage de l'indice de durabilité des lave-linge ménagers",
+            "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049376249"
+        }
+    ],
+    "created": "2023-11-30",
+    "lastModified": "2024-04-12",
+    "version": "v0.1.0",
+    "contributors": [
+        {
+            "title": "Flavien Barraud",
+            "email": "flavien.barraud@developpement-durable.gouv.fr",
+            "organisation": "Commissariat Général au Développement Durable",
+            "role": "author"
+        },
+        {
+            "title": "Olivier Dissard",
+            "email": "olivier.dissard@developpement-durable.gouv.fr",
+            "organisation": "Ministère de la Transition Ecologique",
+            "role": "author"
+        },
+        {
+            "title": "Pierlou Ramade",
+            "email": "pierlou.ramade@data.gouv.fr",
+            "organisation": "Direction Interministérielle du Numérique",
+            "role": "author"
+        }
+    ],
+    "fields": [
+        {
+            "name": "id_unique",
+            "description": "L'identifiant garantissant l'unicité du modèle de produits faisant l'objet d'un indice de réparabilité. Il est obtenu en concaténant l'identifiant du modèle, l'identifiant du fabricant et la date du calcul de l'indice. Les trois éléments sont séparés par un tiret -.",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "^[\\w.]+-[\\w]+-\\d{4}-\\d{2}-\\d{2}$"
+            }
+        },
+        {
+            "name": "id_modele",
+            "description": "La référence commerciale du modèle ou l'identifiant du modèle",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "^[\\w.]+$"
+            }
+        },
+        {
+            "name": "referentiel_id_modele",
+            "description": "Le type de référence utilisé pour l'identifiant du produit selon la norme internationale ISO 15459.",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "GTIN_EAN",
+                    "SH4"
+                ]
+            }
+        },
+        {
+            "name": "nom_modele",
+            "description": "La dénomination officielle du modèle",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "categorie_produit",
+            "description": "Type de produit concerné. Ce champ est utile lors de la concaténation de fichiers issus de différentes classes du datapackage durabilité.",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Lave-linge"
+                ]
+            }
+        },
+        {
+            "name": "id_metteur_sur_le_marche",
+            "description": "L'identifiant du metteur sur le marché",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "pattern": "^[\\w]+$"
+            }
+        },
+        {
+            "name": "referentiel_id_metteur_sur_marche",
+            "description": "Le type de référence utilisé pour l'identifiant du metteur sur le marché.",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "GLN",
+                    "SYDEREP"
+                ]
+            }
+        },
+        {
+            "name": "nom_metteur_sur_le_marche",
+            "description": "La dénomination officielle du metteur sur le marché",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "date_calcul",
+            "description": "La date à laquelle le calcul de l'indice a été effectué",
+            "type": "date",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "url_tableau_detail_notation",
+            "description": "Le lien vers le tableau du détail de la notation",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+            }
+        },
+        {
+            "name": "note_id",
+            "description": "La note finale de l'indice de durabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_reparabilite",
+            "description": "La note obtenu aux critères de réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_fiabilite",
+            "description": "La note obtenu aux critères de fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c1",
+            "description": "La note du critère 1 documentation du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c2",
+            "description": "La note du critère 2 démontabilité du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c3",
+            "description": "La note du critère 3 disponibilité des pièces détachées du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c4",
+            "description": "La note du critère 4 prix des pièces détachées du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+            {
+            "name": "note_A_c1.1",
+            "description": "La note du sous-critère 1.1 durée de mise à disposition de la documentation du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+          {
+            "name": "note_A_c1.2",
+            "description": "La note du sous-critère 1.2 accompagnement du consommateur au diagnostic et à l'autoréparation du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c2.1",
+            "description": "La note du sous-critère 2.1 nombre d'étapes de démontage du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c2.2",
+            "description": "La note du sous-critère 2.2 type d'outils du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c2.3",
+            "description": "La note du sous-critère 2.3 type de fixations du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c3.1",
+            "description": "La note du sous-critère 3.1 durée de mise à disposition pièces liste 2 du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c3.2",
+            "description": "La note du sous-critère 3.2 délai de livraison des pièces de la lise 2 du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c3.3",
+            "description": "La note du sous-critère 3.3 durée de mise à disposition des pièces liste 1 du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_A_c3.4",
+            "description": "La note du sous-critère 3.4 délai de livraison pièces de la liste 1 du bloc réparabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c1",
+            "description": "La note du critère 1  Résistance aux contraintes et/ou à l'usure du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c2",
+            "description": "La note du critère 2 Maintenance et entretien du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c3",
+            "description": "La note du critère 3 Garantie de durabilité et processus qualité du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c1.1",
+            "description": "La note du critère 1.1 Résistance a l'usure du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c1.2",
+            "description": "La note du critère 1.2 Garanti moteur du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c2.1",
+            "description": "La note du critère 2.1 Maintenance du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c2.2",
+            "description": "La note du critère 2.2 Entretien du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c3.1",
+            "description": "La note du critère 3.1 Durée de la garantie commerciale de durabilité du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "note_B_c3.2",
+            "description": "La note du critère 3.2 Mise en place d'un processus d'amélioration continue du bloc fiabilité : note sur 10 comportant une décimale",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        }, 
+        {
+            "name": "accessibilite_compteur_usage",
+            "description": "Nombre de points obtenus pour le critère relatif à l'accessibilité du compteur d'usage bloc fiabilité ",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        {
+            "name": "lien_documentation_professionnels",
+            "description": "Le lien vers la documentation technique disponible (ou modalités d'accès) a destination des professionnels",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+            }
+        },
+              {
+            "name": "lien_documentation_particuliers",
+            "description": "Le lien vers la documentation technique disponible (ou modalités d'accès) a destination des particuliers",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+            }
+        },
+        {
+            "name": "nom_piece_1_liste_2",
+            "description": "Le nom de la pièce détachée 1 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance"
+                ]
+            }
+        },
+       {
+            "name": "etape_demontage_piece_1_liste_2",
+            "description": "nombre d'étapes de démontage nécessaires pour avoir la pièce unitairement la pièce 1 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<7",
+                    "13",
+                    "19",
+                    ">19",
+                    "Non démontable"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_2_liste_2",
+            "description": "Le nom de la pièce détachée 2 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance"
+                ]
+            }
+        },
+       {
+            "name": "etape_demontage_piece_2_liste_2",
+            "description": "nombre d'étapes de démontage nécessaires pour avoir la pièce unitairement la pièce 2 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<7",
+                    "13",
+                    "19",
+                    ">19",
+                    "Non démontable"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_3_liste_2",
+            "description": "Le nom de la pièce détachée 3 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance"
+                ]
+            }
+        },
+       {
+            "name": "etape_demontage_piece_3_liste_2",
+            "description": "nombre d'étapes de démontage nécessaires pour avoir la pièce unitairement la pièce 3 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<7",
+                    "13",
+                    "19",
+                    ">19",
+                    "Non démontable"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_4_liste_2",
+            "description": "Le nom de la pièce détachée 4 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance"
+                ]
+            }
+        },
+       {
+            "name": "etape_demontage_piece_4_liste_2",
+            "description": "nombre d'étapes de démontage nécessaires pour avoir la pièce unitairement la pièce 4 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<7",
+                    "13",
+                    "19",
+                    ">19",
+                    "Non démontable"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_5_liste_2",
+            "description": "Le nom de la pièce détachée 5 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance"
+                ]
+            }
+        },
+       {
+            "name": "etape_demontage_piece_5_liste_2",
+            "description": "nombre d'étapes de démontage nécessaires pour avoir la pièce unitairement la pièce 5 de la liste 2",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<7",
+                    "13",
+                    "19",
+                    ">19",
+                    "Non démontable"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_1_reparateur",
+            "description": "Le nom de la pièce détachée n°1 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_1_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_1_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_2_reparateur",
+            "description": "Le nom de la pièce détachée n°2 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_2_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_2_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_3_reparateur",
+            "description": "Le nom de la pièce détachée n°3 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_3_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_3_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_4_reparateur",
+            "description": "Le nom de la pièce détachée n°4 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_4_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_4_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_5_reparateur",
+            "description": "Le nom de la pièce détachée n°5 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_5_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_5_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_6_reparateur",
+            "description": "Le nom de la pièce détachée n°6 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_6_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_6_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_7_reparateur",
+            "description": "Le nom de la pièce détachée n°7 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_7_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_7_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_8_reparateur",
+            "description": "Le nom de la pièce détachée n°8 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_8_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_8_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_9_reparateur",
+            "description": "Le nom de la pièce détachée n°9 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_9_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_9_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_10_reparateur",
+            "description": "Le nom de la pièce détachée n°10 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_10_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_10_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_11_reparateur",
+            "description": "Le nom de la pièce détachée n°11 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_11_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_11_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_12_reparateur",
+            "description": "Le nom de la pièce détachée n°12 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_12_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_12_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_13_reparateur",
+            "description": "Le nom de la pièce détachée n°13 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_13_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_13_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_14_reparateur",
+            "description": "Le nom de la pièce détachée n°14 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_14_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_14_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_15_reparateur",
+            "description": "Le nom de la pièce détachée n°15 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_15_reparateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_15_reparateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les reparateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_1_producteur",
+            "description": "Le nom de la pièce détachée n°1 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_1_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_1_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_2_producteur",
+            "description": "Le nom de la pièce détachée n°2 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_2_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_2_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_3_producteur",
+            "description": "Le nom de la pièce détachée n°3 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_3_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_3_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_4_producteur",
+            "description": "Le nom de la pièce détachée n°4 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_4_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_4_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_5_producteur",
+            "description": "Le nom de la pièce détachée n°5 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_5_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_5_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_6_producteur",
+            "description": "Le nom de la pièce détachée n°6 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_6_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_6_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_7_producteur",
+            "description": "Le nom de la pièce détachée n°7 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_7_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_7_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_8_producteur",
+            "description": "Le nom de la pièce détachée n°8 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_8_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_8_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_9_producteur",
+            "description": "Le nom de la pièce détachée n°9 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_9_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_9_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_10_producteur",
+            "description": "Le nom de la pièce détachée n°10 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_10_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_10_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_11_producteur",
+            "description": "Le nom de la pièce détachée n°11 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_11_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_11_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                  "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_12_producteur",
+            "description": "Le nom de la pièce détachée n°12 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_12_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_12_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_13_producteur",
+            "description": "Le nom de la pièce détachée n°13 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_13_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_13_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_14_producteur",
+            "description": "Le nom de la pièce détachée n°14 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_14_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_14_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_15_producteur",
+            "description": "Le nom de la pièce détachée n°15 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_15_producteur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_15_producteur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les producteurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_1_distributeur",
+            "description": "Le nom de la pièce détachée n°1 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_1_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_1_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_2_distributeur",
+            "description": "Le nom de la pièce détachée n°2 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_2_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_2_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_3_distributeur",
+            "description": "Le nom de la pièce détachée n°3 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_3_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_3_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                    "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_4_distributeur",
+            "description": "Le nom de la pièce détachée n°4 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_4_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_4_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_5_distributeur",
+            "description": "Le nom de la pièce détachée n°5 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_5_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_5_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_6_distributeur",
+            "description": "Le nom de la pièce détachée n°6 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_6_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_6_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_7_distributeur",
+            "description": "Le nom de la pièce détachée n°7 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_7_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_7_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_8_distributeur",
+            "description": "Le nom de la pièce détachée n°8 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_8_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_8_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_9_distributeur",
+            "description": "Le nom de la pièce détachée n°9 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_9_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_9_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                  "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_10_distributeur",
+            "description": "Le nom de la pièce détachée n°10 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_10_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_10_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_11_distributeur",
+            "description": "Le nom de la pièce détachée n°11 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_11_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_11_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_12_distributeur",
+            "description": "Le nom de la pièce détachée n°12 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_12_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_12_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_13_distributeur",
+            "description": "Le nom de la pièce détachée n°13 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_13_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_13_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_14_distributeur",
+            "description": "Le nom de la pièce détachée n°14 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_14_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_14_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_15_distributeur",
+            "description": "Le nom de la pièce détachée n°15 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_15_distributeur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_15_distributeur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les distributeurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_1_consommateur",
+            "description": "Le nom de la pièce détachée n°1 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_1_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°1 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_1_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°1 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_2_consommateur",
+            "description": "Le nom de la pièce détachée n°2 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_2_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°2 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_2_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°2 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_3_consommateur",
+            "description": "Le nom de la pièce détachée n°3 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_3_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°3 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_3_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°3 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_4_consommateur",
+            "description": "Le nom de la pièce détachée n°4 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_4_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°4 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_4_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°4 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_5_consommateur",
+            "description": "Le nom de la pièce détachée n°5 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_5_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°5 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_5_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°5 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_6_consommateur",
+            "description": "Le nom de la pièce détachée n°6 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_6_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°6 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_6_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°6 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_7_consommateur",
+            "description": "Le nom de la pièce détachée n°7 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_7_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°7 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_7_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°7 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_8_consommateur",
+            "description": "Le nom de la pièce détachée n°8 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_8_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°8 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_8_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°8 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_9_consommateur",
+            "description": "Le nom de la pièce détachée n°9 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_9_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°9 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_9_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°9 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_10_consommateur",
+            "description": "Le nom de la pièce détachée n°10 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_10_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°10 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_10_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°10 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_11_consommateur",
+            "description": "Le nom de la pièce détachée n°11 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_11_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°11 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_11_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°11 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_12_consommateur",
+            "description": "Le nom de la pièce détachée n°12 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_12_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°12 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_12_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°12 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                  "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_13_consommateur",
+            "description": "Le nom de la pièce détachée n°13 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_13_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°13 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_13_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°13 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                 "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_14_consommateur",
+            "description": "Le nom de la pièce détachée n°14 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_14_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°14 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_14_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°14 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                   "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nom_piece_detachee_15_consommateur",
+            "description": "Le nom de la pièce détachée n°15 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Manchette ou soufflet",
+                    "Assemblage verrouillage porte",
+                    "Pompes",
+                    "Générateurs de chaleurs, éléments chauffants",
+                    "Carte électronique de puissance",
+                    "Moteur et balais (ou charbons de moteur)",
+                    "Transmission entre moteur et tambour (courroie)",
+                    "Amortisseurs et ressorts",
+                    "Tambour de lavage (dont croisillon et roulements)",
+                    "Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)",
+                    "Affichages électroniques",
+                    "Manocontacts",
+                    "Thermostats et capteurs",
+                    "Portes, charnières et joints de porte (portillon et aube de tambour)",
+                    "Logiciels et micrologiciels, y compris de reinitialisation"
+                ]
+            }
+        },
+        {
+            "name": "delai_jours_piece_detachee_15_consommateur",
+            "description": "Le délai de livraison (en jours) de la pièce détachée n°15 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<3",
+                    "<5",
+                    "<10",
+                    ">11",
+                    "Non disponible"
+                ]
+            }
+        },
+        {
+            "name": "nb_annees_disponibilite_piece_detachee_15_consommateur",
+            "description": "L'engagement (en années) de mise à disposition à partir de la date de mise sur le marché de la pièce détachée n°15 de la liste 2 pour les consommateurs",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "<11",
+                    "13",
+                    "15",
+                    ">15",
+                    "Non disponible"
+                ]
+            }
+        }
+    ],
+    "primaryKey": "id_unique"
+}

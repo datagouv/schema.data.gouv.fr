@@ -1,3 +1,13 @@
+### 2024-07-04
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-indice-durabilite](/etalab/schema-indice-durabilite/)** : <span style="color:blue;">0.1.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-televiseur](/etalab/indice-durabilite-televiseur/)** : <span style="color:blue;">0.1.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-lave-linge](/etalab/indice-durabilite-lave-linge/)** : <span style="color:blue;">0.1.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-fontaine-eau](/datagouv/schema-fontaine-eau/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2024-07-02
 
 #### Montée de version:

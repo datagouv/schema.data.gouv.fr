@@ -444,5 +444,25 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/319</link>
       <description>Schema update on 2024-07-02: Sch&#233;ma sur les r&#233;sultats des &#233;lections  is in investigation</description>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - etalab/schema-indice-durabilite (0.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-indice-durabilite</link>
+      <description>Schema update on 2024-07-04: 0.1.1 for etalab/schema-indice-durabilite</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - etalab/indice-durabilite-televiseur (0.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/indice-durabilite-televiseur</link>
+      <description>Schema update on 2024-07-04: 0.1.1 for etalab/indice-durabilite-televiseur</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - etalab/indice-durabilite-lave-linge (0.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/indice-durabilite-lave-linge</link>
+      <description>Schema update on 2024-07-04: 0.1.1 for etalab/indice-durabilite-lave-linge</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - datagouv/schema-fontaine-eau (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-fontaine-eau</link>
+      <description>Schema update on 2024-07-04: 0.1.0 for datagouv/schema-fontaine-eau</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

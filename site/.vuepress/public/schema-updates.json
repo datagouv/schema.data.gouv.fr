@@ -738,5 +738,25 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/319"
             }
         ]
+    },
+    "2024-07-04": {
+        "new_schema": [
+            {
+                "schema_name": "etalab/schema-indice-durabilite",
+                "version": "0.1.1"
+            },
+            {
+                "schema_name": "etalab/indice-durabilite-televiseur",
+                "version": "0.1.1"
+            },
+            {
+                "schema_name": "etalab/indice-durabilite-lave-linge",
+                "version": "0.1.1"
+            },
+            {
+                "schema_name": "datagouv/schema-fontaine-eau",
+                "version": "0.1.0"
+            }
+        ]
     }
 }
