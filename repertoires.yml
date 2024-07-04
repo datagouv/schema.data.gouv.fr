@@ -325,3 +325,6 @@ aire-livraison:
   url: https://github.com/CEREMA/schema-aire-livraison.git
   type: tableschema
   email: mathieu.rajerison@cerema.fr
+fontaine-eau:
+  url: https://github.com/datagouv/schema-fontaine-eau.git
+  type: tableschema
