@@ -1,0 +1,49 @@
+name: Create and deploy a new release
+run-name: create and deploy ${{ github.sha }}
+on:
+  push:
+    branches:
+      - main
+      - preprod
+jobs:
+  trigger-gitlab-pipeline:
+    runs-on: ubuntu-latest
+    env:
+      # static variables and secrets to be defined
+      APP_NAME: ${{ vars.APP_NAME }}
+      SCAFFOLD_REPO_SSH_URL: ${{ vars.SCAFFOLD_REPO_SSH_URL }}
+      SCAFFOLD_DIR: "scaffold"
+      ENV: ""
+      GITLAB_API_TOKEN: ${{ secrets.GITLAB_API_TOKEN }}
+      DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+    steps:
+      - name: configure environment
+        shell: bash
+        run: |
+          # configure the SSH deploy private key
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
+
+          # configure git
+          git config --global user.email "root@data.gouv.fr"
+          git config --global user.name "datagouv"
+
+          # set ENV based on branch
+          if [ "$GITHUB_REF" = "refs/heads/main" ]; then
+            echo "ENV=prod" >> $GITHUB_ENV
+          elif [ "$GITHUB_REF" = "refs/heads/preprod" ]; then
+            echo "ENV=demo" >> $GITHUB_ENV
+          fi
+      - name: clone scaffold repository
+        shell: bash
+        run: |
+          git clone --quiet --depth 1 $SCAFFOLD_REPO_SSH_URL $SCAFFOLD_DIR
+      - name: trigger Gitlab CI/CD pipeline
+        shell: bash
+        run: |
+          RELEASE_VERSION="${GITHUB_SHA:0:8}"
+
+          ./scripts/gitlab-ci-pipeline.sh $APP_NAME $RELEASE_VERSION $ENV ""
+        working-directory: ${{ env.SCAFFOLD_DIR }}
