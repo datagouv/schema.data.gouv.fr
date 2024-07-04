@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 69,
+            "dgv_resources": 70,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 43,
+            "dgv_resources": 44,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -187,17 +187,17 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 7
+            "contributors": null
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 262,
