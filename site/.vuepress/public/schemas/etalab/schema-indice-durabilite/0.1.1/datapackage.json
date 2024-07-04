@@ -1,0 +1,28 @@
+{
+    "name": "datapackage-indice-durabilite",
+    "title": "Indice de durabilité",
+    "description": "Data package contenant 2 schémas : televiseur et lave-linge. D'autres types d'appareils pourront être ajoutés si la législation évolue.",
+    "id": "datapackage-indice-durabilite",
+    "resources": [
+        {
+            "name": "televiseur",
+            "path": "televiseur/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "televiseur/schema.json",
+            "documentation": "televiseur/README.md"
+        },
+        {
+            "name": "lave-linge",
+            "path": "lave-linge/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "lave-linge/schema.json",
+            "documentation": "lave-linge/README.md"
+        }
+    ]
+}

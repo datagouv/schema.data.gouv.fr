@@ -479,5 +479,20 @@
       <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
       <description>Schema update on 2024-07-02: 1.0.6 to 1.0.7 for atlasante/schema-dae</description>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-indice-durabilite (0.1.0 to 0.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-indice-durabilite</link>
+      <description>Schema update on 2024-07-04: 0.1.0 to 0.1.1 for etalab/schema-indice-durabilite</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - etalab/indice-durabilite-televiseur (0.1.0 to 0.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/indice-durabilite-televiseur</link>
+      <description>Schema update on 2024-07-04: 0.1.0 to 0.1.1 for etalab/indice-durabilite-televiseur</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - etalab/indice-durabilite-lave-linge (0.1.0 to 0.1.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/indice-durabilite-lave-linge</link>
+      <description>Schema update on 2024-07-04: 0.1.0 to 0.1.1 for etalab/indice-durabilite-lave-linge</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

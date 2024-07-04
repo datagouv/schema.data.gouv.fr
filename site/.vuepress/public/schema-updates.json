@@ -786,5 +786,21 @@
                 "version": "1.0.6 => 1.0.7"
             }
         ]
+    },
+    "2024-07-04": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-indice-durabilite",
+                "version": "0.1.0 => 0.1.1"
+            },
+            {
+                "schema_name": "etalab/indice-durabilite-televiseur",
+                "version": "0.1.0 => 0.1.1"
+            },
+            {
+                "schema_name": "etalab/indice-durabilite-lave-linge",
+                "version": "0.1.0 => 0.1.1"
+            }
+        ]
     }
 }

@@ -1656,7 +1656,7 @@
         },
         {
             "name": "etalab/indice-durabilite-televiseur",
-            "title": "T\u00e9l\u00e9viseur",
+            "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de durabilit\u00e9 - t\u00e9l\u00e9viseur",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-televiseur/latest/schema.json",
             "schema_type": "tableschema",
@@ -1674,6 +1674,10 @@
                 {
                     "version_name": "0.1.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-televiseur/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "0.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-televiseur/0.1.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1685,7 +1689,7 @@
         },
         {
             "name": "etalab/indice-durabilite-lave-linge",
-            "title": "Lave-linge",
+            "title": "Indice de durabilit\u00e9 - Lave-linge",
             "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de durabilit\u00e9 - lave-linge",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-lave-linge/latest/schema.json",
             "schema_type": "tableschema",
@@ -1703,6 +1707,10 @@
                 {
                     "version_name": "0.1.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-lave-linge/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "0.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-lave-linge/0.1.1/schema.json"
                 }
             ],
             "external_doc": null,
