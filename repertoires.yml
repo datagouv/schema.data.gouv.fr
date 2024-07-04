@@ -325,6 +325,14 @@ aire-livraison:
   url: https://github.com/CEREMA/schema-aire-livraison.git
   type: tableschema
   email: mathieu.rajerison@cerema.fr
+indice-durabilite:
+  url: https://github.com/etalab/schema-indice-durabilite.git
+  type: datapackage
+  email: schema@data.gouv.fr
+aire-livraison:
+  url: https://github.com/CEREMA/schema-aire-livraison.git
+  type: tableschema
+  email: mathieu.rajerison@cerema.fr
 fontaine-eau:
   url: https://github.com/datagouv/schema-fontaine-eau.git
   type: tableschema
