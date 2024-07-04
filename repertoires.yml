@@ -336,3 +336,4 @@ aire-livraison:
 fontaine-eau:
   url: https://github.com/datagouv/schema-fontaine-eau.git
   type: tableschema
+  email: tmp@data.gouv.fr
