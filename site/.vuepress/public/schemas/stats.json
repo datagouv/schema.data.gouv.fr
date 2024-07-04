@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 69,
+            "dgv_resources": 70,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 43,
+            "dgv_resources": 44,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 262,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -222,7 +222,7 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 2,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 19,
@@ -372,7 +372,7 @@
         "cnigfr/schema-grace-thd": {
             "dgv_resources": 4,
             "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
-            "contributors": null
+            "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
             "dgv_resources": 1,
