@@ -44,6 +44,7 @@
    "fields":[
       {
          "name":"id",
+         "title": "Identifiant",
          "description":"Un identifiant unique de la fontaine.",
          "type":"string",
          "example":"450024946",
@@ -53,7 +54,8 @@
       },
       {
          "name":"type_fontaine",
-         "description":"Le type de fontaine installée.",
+         "title": "Type de fontaine",
+         "description":"Le type de fontaine installée, parmi la liste de valeurs prédéfinie.",
          "type":"string",
          "example":"robinet",
          "constraints":{
@@ -70,6 +72,7 @@
       },
       {
          "name":"modele",
+         "title": "Modèle",
          "description":"Le modèle de la fontaine.",
          "type":"string",
          "example":"BF Bayard",
@@ -79,6 +82,7 @@
       },
       {
          "name":"coordonnees_geo",
+         "title": "Coordonnées GPS",
          "description":"Coordonnées GPS de la fontaine, au format `lon,lat`, avec le point comme séparateur décimal et une virgule entre les deux.",
          "type":"geopoint",
          "example":"2.303713,48.849598",
@@ -88,6 +92,7 @@
       },
       {
          "name":"adresse",
+         "title": "Voie et numéro de voie",
          "description":"Adresse de l'objet contenant la voie et le numéro sur la voie.",
          "type":"string",
          "example":"8 boulevard Victor Hugo",
@@ -97,6 +102,7 @@
       },
       {
          "name":"code_commune_insee",
+         "title": "Code commune INSEE",
          "description":"Code INSEE de la commune dans laquelle la fontaine est installée.",
          "type":"string",
          "example":"63113",
@@ -107,12 +113,14 @@
       },
       {
          "name":"precision_geo",
+         "title": "Précisions du lieu",
          "description":"Champ de texte libre facultatif pour préciser la localisation de la fontaine.",
          "type":"string",
          "example":"Dans le bâtiment au rez-de-chaussée"
       },
       {
          "name":"date_installation",
+         "title": "Date d'installation",
          "description":"Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).",
          "type":"date",
          "format": "%Y-%m-%d",
@@ -123,6 +131,7 @@
       },
       {
          "name":"est_potable",
+         "title": "Potabilité",
          "description":"Booléen renseignant sur le caractère potable ou non de la fontaine.",
          "type":"boolean",
          "example":true,
@@ -132,6 +141,7 @@
       },
       {
          "name":"indisponible",
+         "title": "Date début indisponibilité",
          "description":"Date de début d'indisponibilité de la fontaine si elle est indisponible. Si elle est en fonctionnement, à laisser vide.",
          "type":"date",
          "format": "%Y-%m-%d",
@@ -139,6 +149,7 @@
       },
       {
          "name":"ouverture_restriction",
+         "title": "Ouverture si restriction",
          "description":"Booléen renseignant sur la fermeture ou non de la fontaine en période de restrictions. `true` si elle reste ouverte, `false` sinon.",
          "type":"boolean",
          "example":true,
@@ -148,6 +159,7 @@
       },
       {
          "name":"gestionnaire",
+         "title": "Gestionnaire",
          "description":"Nom du gestionnaire de la fontaine.",
          "type":"string",
          "example":"Ville de Rennes"
