@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1125,
+            "dgv_resources": 1126,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -182,7 +182,7 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 6
+            "contributors": 5
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 19,
@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 262,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -222,17 +222,17 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 2,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 20,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "datatourisme/ontology": {
             "dgv_resources": 5,
