@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1125,
+            "dgv_resources": 1126,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -162,7 +162,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 17,
             "title": "Lieux de stationnement",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/budget": {
             "dgv_resources": 23,
@@ -182,22 +182,22 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-bal": {
             "dgv_resources": 262,
