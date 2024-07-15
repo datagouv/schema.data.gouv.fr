@@ -187,17 +187,17 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 19,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 262,
@@ -237,7 +237,7 @@
         "datatourisme/ontology": {
             "dgv_resources": 5,
             "title": "DATAtourisme",
-            "contributors": 10
+            "contributors": 1
         },
         "etalab/schema-zfe": {
             "dgv_resources": 14,
