@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 76,
+            "dgv_resources": 77,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -140,7 +140,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 47,
+            "dgv_resources": 48,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -197,7 +197,7 @@
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 262,
@@ -380,7 +380,7 @@
             "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
-            "dgv_resources": 2,
+            "dgv_resources": 4,
             "title": "Carte communale",
             "contributors": 2
         },
