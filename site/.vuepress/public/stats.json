@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 77,
+            "dgv_resources": 86,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -135,7 +135,7 @@
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 29,
+            "dgv_resources": 30,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 262,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -287,7 +287,7 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": null
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
@@ -350,7 +350,7 @@
             "contributors": 2
         },
         "cnigfr/schema-continuites-ecologiques-regionales": {
-            "dgv_resources": 0,
+            "dgv_resources": 2,
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
             "contributors": 2
         },
