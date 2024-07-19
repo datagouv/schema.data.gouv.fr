@@ -464,5 +464,10 @@
       <link>https://schema.data.gouv.fr/datagouv/schema-fontaine-eau</link>
       <description>Schema update on 2024-07-04: 0.1.0 for datagouv/schema-fontaine-eau</description>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.15.0 to 0.16.0)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2024-07-19: 0.15.0 to 0.16.0 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
