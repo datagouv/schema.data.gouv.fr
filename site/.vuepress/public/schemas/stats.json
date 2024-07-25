@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1127,
+            "dgv_resources": 1126,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 45,
+            "dgv_resources": 46,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -160,7 +160,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 17,
+            "dgv_resources": 16,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
