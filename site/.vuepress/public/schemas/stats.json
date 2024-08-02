@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1130,
+            "dgv_resources": 1133,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -265,7 +265,7 @@
             "contributors": 3
         },
         "PnX-SI/schema_randonnee": {
-            "dgv_resources": 7,
+            "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
             "contributors": 2
         },
