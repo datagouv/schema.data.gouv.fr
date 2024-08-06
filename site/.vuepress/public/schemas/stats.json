@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1133,
+            "dgv_resources": 1134,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -197,7 +197,7 @@
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 262,
@@ -225,7 +225,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 21,
+            "dgv_resources": 22,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -255,7 +255,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 400,
+            "dgv_resources": 401,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
