@@ -554,6 +554,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -709,6 +710,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -864,6 +866,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1019,6 +1022,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1174,6 +1178,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1329,6 +1334,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1484,6 +1490,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1639,6 +1646,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1794,6 +1802,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -1949,6 +1958,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -2104,6 +2114,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -2259,6 +2270,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -2414,6 +2426,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -2569,6 +2582,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -2724,6 +2738,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -2879,6 +2894,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3034,6 +3050,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3189,6 +3206,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3344,6 +3362,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3499,6 +3518,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3654,6 +3674,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3809,6 +3830,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -3964,6 +3986,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -4119,6 +4142,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -4274,6 +4298,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -4429,6 +4454,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -4584,6 +4610,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -4739,6 +4766,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -4894,6 +4922,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5049,6 +5078,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5204,6 +5234,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5359,6 +5390,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5514,6 +5546,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5669,6 +5702,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5824,6 +5858,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -5979,6 +6014,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -6134,6 +6170,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -6289,6 +6326,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -6444,6 +6482,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -6599,6 +6638,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -6754,6 +6794,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -6909,6 +6950,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7064,6 +7106,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7219,6 +7262,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7374,6 +7418,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7529,6 +7574,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7684,6 +7730,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7839,6 +7886,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -7994,6 +8042,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -8149,6 +8198,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -8304,6 +8354,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -8459,6 +8510,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -8614,6 +8666,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -8769,6 +8822,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -8924,6 +8978,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -9079,6 +9134,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -9234,6 +9290,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -9389,6 +9446,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -9544,6 +9602,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
@@ -9699,6 +9758,7 @@ Schéma de données pour l'indice de réparabilité
 - Valeurs autorisées : 
     - <3
     - <5
+    - <6
     - <10
     - \>11
     - Non disponible
