@@ -375,12 +375,12 @@
             "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
-            "dgv_resources": 8,
+            "dgv_resources": 10,
             "title": "Plan local d'urbanisme (PLU)",
             "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
-            "dgv_resources": 4,
+            "dgv_resources": 5,
             "title": "Carte communale",
             "contributors": 2
         },
