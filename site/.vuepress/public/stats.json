@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1139,
+            "dgv_resources": 1140,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -197,12 +197,12 @@
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 42,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 262,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -255,7 +255,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 404,
+            "dgv_resources": 405,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
