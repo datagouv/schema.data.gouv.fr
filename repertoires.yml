@@ -337,3 +337,7 @@ fontaine-eau:
   url: https://github.com/datagouv/schema-fontaine-eau.git
   type: tableschema
   email: tmp@data.gouv.fr
+sandre-hydrometrie:
+  url: https://github.com/Pierlou/test-schema-hydrometrie.git
+  type: jsonschema
+  email: schema@data.gouv.fr
