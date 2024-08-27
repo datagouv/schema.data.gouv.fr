@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Pierlou/test-schema-hydrometrie Versioning RSS Feed</title>
+    <link>https://schema.data.gouv.fr/Pierlou/test-schema-hydrometrie</link>
+    <description>Updates on Pierlou/test-schema-hydrometrie versioning</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Tue, 27 Aug 2024 16:04:01 +0000</lastBuildDate>
+    <item>
+      <title>2024-08-27 - new_schema - 0.1.0</title>
+      <description>Update on 2024-08-27: New schema (Pierlou/test-schema-hydrometrie)</description>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0200</pubDate>
+    </item>
+  </channel>
+</rss>

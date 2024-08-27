@@ -1,3 +1,10 @@
+### 2024-08-27
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Pierlou/test-schema-hydrometrie](/Pierlou/test-schema-hydrometrie/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2024-08-15
 
 #### Montée de version:

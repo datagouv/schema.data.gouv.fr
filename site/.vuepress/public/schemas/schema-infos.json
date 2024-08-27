@@ -2992,5 +2992,25 @@
             }
         },
         "latest": "0.1.0"
+    },
+    "Pierlou/test-schema-hydrometrie": {
+        "homepage": "https://github.com/Pierlou/test-schema-hydrometrie.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "jsonschema",
+        "email": "schema@data.gouv.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/Pierlou/test-schema-hydrometrie/0.1.0/sandre-hydrometrie.json"
+            }
+        },
+        "latest": "0.1.0"
     }
 }
