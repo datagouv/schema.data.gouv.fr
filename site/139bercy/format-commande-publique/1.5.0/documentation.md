@@ -61,8 +61,7 @@ Données des attributions de marchés publics et de contrats de concessions sup�
 - Motif : `^[0-9]{14}$`
 
 #### Nom de l'acheteur - Propriété nom
-> *Description : Nom de l'acheteur (le caractère univoque est assuré par le SIRET).
-Exemple : "Région Bretagne"*<br>
+> *Description : Nom de l'acheteur (le caractère univoque est assuré par le SIRET). Exemple : "Région Bretagne"*<br>
 - Valeur obligatoire
 - Type : chaîne de caractères
 
@@ -359,8 +358,7 @@ Exemple : "Région Bretagne"*<br>
 - Motif : `^[0-9]{14}$`
 
 #### Nom de l'autorité concédante - Propriété nom
-> *Description : Nom de l'autorité concédante (le caractère univoque est assuré par le SIRET).
-Exemple : "Région Bretagne"*<br>
+> *Description : Nom de l'autorité concédante (le caractère univoque est assuré par le SIRET). Exemple : "Région Bretagne"*<br>
 - Valeur obligatoire
 - Type : chaîne de caractères
 

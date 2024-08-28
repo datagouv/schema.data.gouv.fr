@@ -164,9 +164,7 @@ Spécification du schéma de données du Sandre pour l'hydrométrie
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdProfilAdminLocal
-> *Description : Identifiant du rôle assumé par l'administrateur (ie.contact) vis à vis d'une zone hydrographique. Le code du profil de l'administrateur prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°539.
-    
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:539::::::referentiel:3.1:html*<br>
+> *Description : Identifiant du rôle assumé par l'administrateur (ie.contact) vis à vis d'une zone hydrographique. Le code du profil de l'administrateur prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°539.       cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:539::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété ZonesHydro
@@ -232,10 +230,7 @@ Spécification du schéma de données du Sandre pour l'hydrométrie
 </blockquote>
 
 #### Propriété PaysComplementIntervenant
-> *Description : Territoire d'une nation délimitée par des frontières et constituant une entité géographique, auquel appartient l'intervenant sur le plan géographique.
-
-Chaque pays est identifié par un code à 2 chiffres selon la norme ISO 3166-1 alpha2.
-La liste des valeurs possibles est définie dans la nomenclature n°678. cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:678::::::referentiel:3.1:html*<br>
+> *Description : Territoire d'une nation délimitée par des frontières et constituant une entité géographique, auquel appartient l'intervenant sur le plan géographique.  Chaque pays est identifié par un code à 2 chiffres selon la norme ISO 3166-1 alpha2. La liste des valeurs possibles est définie dans la nomenclature n°678. cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:678::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété AdEtrangereComplementIntervenant
@@ -277,33 +272,11 @@ La liste des valeurs possibles est définie dans la nomenclature n°678. cf http
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteHydro
-> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante :
-- article et nom du cours d'eau,
-- précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...),
-- à (au, aux)
-- nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes)
-- lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).
-
-Exemple :
-- La Seine à Paris [Pont d'Austerlitz],
-- La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach],
-- Le Roder à Schweighoure sur Roder [amont],
-- Le Couzou à Courpière [Le Salet],
-- La Choisille [bras sud] à Mettray,
-- La Vienne à Limoges et au Palais-sur-Vienne
-- Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].
-
-L'intitulé du site relève de la responsabilité du producteur.*<br>
+> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante : - article et nom du cours d'eau, - précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...), - à (au, aux) - nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes) - lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).  Exemple : - La Seine à Paris [Pont d'Austerlitz], - La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach], - Le Roder à Schweighoure sur Roder [amont], - Le Couzou à Courpière [Le Salet], - La Choisille [bras sud] à Mettray, - La Vienne à Limoges et au Palais-sur-Vienne - Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].  L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 #### Propriété LbUsuelSiteHydro
@@ -315,9 +288,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 #### Propriété PrecisionTypSiteHydro
-> *Description : Précision complémentaire apporté au type de site hydrométrique. La précision du type de site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°972.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:972::::::referentiel:3.1:html*<br>
+> *Description : Précision complémentaire apporté au type de site hydrométrique. La précision du type de site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°972.     cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:972::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété MnSiteHydro
@@ -337,43 +308,29 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CoordXSiteHydro
-> *Description : Nombre X qui détermine l'abscisse d'un site hydrométrique dans un plan, exprimé dans le système de projection indiqué selon l’attribut système de projection des coordonnées géographique. Par convention, la projection est en Lambert 93 pour tous les sites situés sur le territoire métropolitain et corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage de 0 à 1 250 000.
-		
-Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée X de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur.
-		
-Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
+> *Description : Nombre X qui détermine l'abscisse d'un site hydrométrique dans un plan, exprimé dans le système de projection indiqué selon l’attribut système de projection des coordonnées géographique. Par convention, la projection est en Lambert 93 pour tous les sites situés sur le territoire métropolitain et corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage de 0 à 1 250 000. 		 Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée X de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur. 		 Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété CoordYSiteHydro
-> *Description : Nombre Y qui détermine l'ordonnée d'un site hydrométrique dans un plan, exprimé dans le système de projection indiqué dans l’attribut système de projection des coordonnées géographique. 
-
-Par convention, la projection est en Lambert 93 pour tous les points d'eau situés sur le territoire métropolitain et Corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage allant de 6 000 000 à 7 100 000. Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée Y de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et varie dans une plage allant de - 10 000 000 (pour le pôle Sud) à + 10 000 000 (pour le pôle Nord).
-		
-Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
+> *Description : Nombre Y qui détermine l'ordonnée d'un site hydrométrique dans un plan, exprimé dans le système de projection indiqué dans l’attribut système de projection des coordonnées géographique.   Par convention, la projection est en Lambert 93 pour tous les points d'eau situés sur le territoire métropolitain et Corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage allant de 6 000 000 à 7 100 000. Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée Y de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et varie dans une plage allant de - 10 000 000 (pour le pôle Sud) à + 10 000 000 (pour le pôle Nord). 		 Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété ProjCoordSiteHydro
-> *Description : Code indiquant la projection dans laquelle s'expriment les coordonnées X et Y du site hydrométrique. Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e. Par convention, par défaut, les coordonnées des sites sont exprimées en Lambert 93, exceptées celles situées en dehors du territoire métropolitain et corse. Le type de projection du site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°22.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:22::::::referentiel:3.1:html*<br>
+> *Description : Code indiquant la projection dans laquelle s'expriment les coordonnées X et Y du site hydrométrique. Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e. Par convention, par défaut, les coordonnées des sites sont exprimées en Lambert 93, exceptées celles situées en dehors du territoire métropolitain et corse. Le type de projection du site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°22.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:22::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 </details>
 </blockquote>
 
 #### Propriété PkAmontSiteHydro
-> *Description : Nombre correspondant au point kilométrique en amont d'un site hydrométrique localisé sur le référentiel hydrographique BD CARTHAGE. Le pk correspond à une abscisse curviligne du point caractéristique en amont du site hydrométrique en utilisant les références pK du tronçon hydrographique élémentaire de la BD CARTHAGE sur lequel est situé le site. Elle s'exprime en mètres dans une plage variant de 0 à 1000000 mètres. Plus la valeur est grande, plus le site est situé en aval du cours d'eau.
-
-Le point kilométrique amont correspond au point amont du site hydrométrique.*<br>
+> *Description : Nombre correspondant au point kilométrique en amont d'un site hydrométrique localisé sur le référentiel hydrographique BD CARTHAGE. Le pk correspond à une abscisse curviligne du point caractéristique en amont du site hydrométrique en utilisant les références pK du tronçon hydrographique élémentaire de la BD CARTHAGE sur lequel est situé le site. Elle s'exprime en mètres dans une plage variant de 0 à 1000000 mètres. Plus la valeur est grande, plus le site est situé en aval du cours d'eau.  Le point kilométrique amont correspond au point amont du site hydrométrique.*<br>
 - Valeur optionnelle
 - Type : nombre entier
 
 #### Propriété PkAvalSiteHydro
-> *Description : Nombre correspondant au point kilométrique aval d'un site hydrométrique localisé sur le référentiel hydrographique BD CARTHAGE. Le pk correspond à une abscisse curviligne du point caractéristique en aval du site hydrométrique en utilisant les références pK du tronçon hydrographique élémentaire de la BD CARTHAGE sur lequel est situé le site. Elle s'exprime en mètres dans une plage variant de 0 à 1000000 mètres. Plus la valeur est grande, plus le site est situé en aval du cours d'eau.
-
-Le point kilométrique aval correspond au point aval du site hydro.*<br>
+> *Description : Nombre correspondant au point kilométrique aval d'un site hydrométrique localisé sur le référentiel hydrographique BD CARTHAGE. Le pk correspond à une abscisse curviligne du point caractéristique en aval du site hydrométrique en utilisant les références pK du tronçon hydrographique élémentaire de la BD CARTHAGE sur lequel est situé le site. Elle s'exprime en mètres dans une plage variant de 0 à 1000000 mètres. Plus la valeur est grande, plus le site est situé en aval du cours d'eau.  Le point kilométrique aval correspond au point aval du site hydro.*<br>
 - Valeur optionnelle
 - Type : nombre entier
 
@@ -386,13 +343,7 @@ Le point kilométrique aval correspond au point aval du site hydro.*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété AltitudeSiteHydro
-> *Description : Indication altimétrique, exprimée au mètre près, la plus proche obtenue sur les lieux (borne...) ou sur une carte au 1/25000e d'un site hydrométrique. L'altitude du site hydrométrique peut être négative pour des sites situés au dessous du niveau de la mer. 
-
-Attention : cette altitude « générale » ne correspond pas à un zéro d'une échelle limnimétrique. 
-
-En métropole, l'altitude est exprimée en NGF69, codifié selon la nomenclature du Sandre. Dans les DOM, il sera utilisé le système de référence altimétrique local. 
-
-Cette information relève de la responsabilité du producteur.*<br>
+> *Description : Indication altimétrique, exprimée au mètre près, la plus proche obtenue sur les lieux (borne...) ou sur une carte au 1/25000e d'un site hydrométrique. L'altitude du site hydrométrique peut être négative pour des sites situés au dessous du niveau de la mer.   Attention : cette altitude « générale » ne correspond pas à un zéro d'une échelle limnimétrique.   En métropole, l'altitude est exprimée en NGF69, codifié selon la nomenclature du Sandre. Dans les DOM, il sera utilisé le système de référence altimétrique local.   Cette information relève de la responsabilité du producteur.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -477,13 +428,7 @@ Cette information relève de la responsabilité du producteur.*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 </details>
@@ -550,33 +495,11 @@ Pour les stations actuelles d'HYDRO situées sur un même site, un travail prél
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteHydro
-> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante :
-- article et nom du cours d'eau,
-- précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...),
-- à (au, aux)
-- nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes)
-- lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).
-
-Exemple :
-- La Seine à Paris [Pont d'Austerlitz],
-- La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach],
-- Le Roder à Schweighoure sur Roder [amont],
-- Le Couzou à Courpière [Le Salet],
-- La Choisille [bras sud] à Mettray,
-- La Vienne à Limoges et au Palais-sur-Vienne
-- Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].
-
-L'intitulé du site relève de la responsabilité du producteur.*<br>
+> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante : - article et nom du cours d'eau, - précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...), - à (au, aux) - nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes) - lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).  Exemple : - La Seine à Paris [Pont d'Austerlitz], - La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach], - Le Roder à Schweighoure sur Roder [amont], - Le Couzou à Courpière [Le Salet], - La Choisille [bras sud] à Mettray, - La Vienne à Limoges et au Palais-sur-Vienne - Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].  L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 </details>
@@ -605,8 +528,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 </blockquote>
 
 #### Propriété CdEuMasseDEau
-> *Description : Le code européen de la masse d'eau est structuré de la manière suivante :
-Code Nationale de la masse d'eau préfixé par "FR".*<br>
+> *Description : Le code européen de la masse d'eau est structuré de la manière suivante : Code Nationale de la masse d'eau préfixé par "FR".*<br>
 - Valeur optionnelle
 - Type : chaîne de caractères
 
@@ -642,8 +564,7 @@ Code Nationale de la masse d'eau préfixé par "FR".*<br>
 - Valeur obligatoire
 
 #### Propriété TypLoiSiteHydro
-> *Description : Type de la loi statistique. Il prend les valeurs suivantes administrées par le Sandre dans la nomenclature n°114.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:114::::::referentiel:3.1:html*<br>
+> *Description : Type de la loi statistique. Il prend les valeurs suivantes administrées par le Sandre dans la nomenclature n°114.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:114::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 </details>
@@ -711,13 +632,7 @@ Code Nationale de la masse d'eau préfixé par "FR".*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété RoleContactSiteHydro
-> *Description : Fonction assurée par une personne vis à vis d'un site hydrométrique. Le rôle du contact du site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°527. Seuls, les codes suivants de cette nomenclature sont autorisés : 
-- ADM ! Administrateur local du site (pôle 2)
-- REF ! Responsable référentiel (pôle 2)
-- RC ! Responsable règles de calcul (pôle 2)
-- EXP ! Gestion des gestion des paramètres liés aux échanges de données temps réel 
-- CT ! Droit de consultation sur les sites privés ou restreints
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:527::::::referentiel:3.1:html*<br>
+> *Description : Fonction assurée par une personne vis à vis d'un site hydrométrique. Le rôle du contact du site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°527. Seuls, les codes suivants de cette nomenclature sont autorisés :  - ADM ! Administrateur local du site (pôle 2) - REF ! Responsable référentiel (pôle 2) - RC ! Responsable règles de calcul (pôle 2) - EXP ! Gestion des gestion des paramètres liés aux échanges de données temps réel  - CT ! Droit de consultation sur les sites privés ou restreints  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:527::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtDebutContactSiteHydro
@@ -758,9 +673,7 @@ Code Nationale de la masse d'eau préfixé par "FR".*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdEntVigiCru
-> *Description : Identifiant, unique et non signifiant, de l'entité de vigilance crues. La gestion des identifiants uniques des entités de vigilance crues est assurée par le service central d'hydrométéorologie et d'appui à la prévision des inondations (Schapi). Les créations et les modifications des entités de vigilance crues peuvent être demandées par leurs administrateurs via le site Web du service d'administration national des données et des référentiels sur l'eau (Sandre)  ; le  Schapi est ensuite chargé de les valider.
-
-Notons que ces administrateurs peuvent être  des services de prévision des crues (SPC), des cellules de veille hydrométéorologique (CVH) ....*<br>
+> *Description : Identifiant, unique et non signifiant, de l'entité de vigilance crues. La gestion des identifiants uniques des entités de vigilance crues est assurée par le service central d'hydrométéorologie et d'appui à la prévision des inondations (Schapi). Les créations et les modifications des entités de vigilance crues peuvent être demandées par leurs administrateurs via le site Web du service d'administration national des données et des référentiels sur l'eau (Sandre)  ; le  Schapi est ensuite chargé de les valider.  Notons que ces administrateurs peuvent être  des services de prévision des crues (SPC), des cellules de veille hydrométéorologique (CVH) ....*<br>
 - Valeur obligatoire
 
 #### Propriété NomEntVigiCru
@@ -824,14 +737,7 @@ Notons que ces administrateurs peuvent être  des services de prévision des cru
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -839,9 +745,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Valeur optionnelle
 
 #### Propriété TypStationHydro
-> *Description : Catégorie d'appareil installé sur une station hydrométrique. Le type de station ne décrit pas le matériel exact utilisé pour la mesure. Le type de la station hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°531.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:531::::::referentiel:3.1:html*<br>
+> *Description : Catégorie d'appareil installé sur une station hydrométrique. Le type de station ne décrit pas le matériel exact utilisé pour la mesure. Le type de la station hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°531.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:531::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété ComplementLbStationHydro
@@ -866,20 +770,12 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CoordXStationHydro
-> *Description : Nombre X qui détermine l'abscisse d'une station hydrométrique dans un plan, exprimé dans le système de projection indiqué selon l’attribut système de projection des coordonnées géographique. Par convention, la projection est en Lambert 93 pour tous les sites situés sur le territoire métropolitain et corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage de 0 à 1 250 000.
-		
-Pour les stations situées en dehors de la France métropolitaine, cet attribut contient la coordonnée X de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur.
-		
-Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
+> *Description : Nombre X qui détermine l'abscisse d'une station hydrométrique dans un plan, exprimé dans le système de projection indiqué selon l’attribut système de projection des coordonnées géographique. Par convention, la projection est en Lambert 93 pour tous les sites situés sur le territoire métropolitain et corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage de 0 à 1 250 000. 		 Pour les stations situées en dehors de la France métropolitaine, cet attribut contient la coordonnée X de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur. 		 Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété CoordYStationHydro
-> *Description : Nombre Y qui détermine l'ordonnée d'une station hydrométrique dans un plan, exprimé dans le système de projection indiqué dans l’attribut système de projection des coordonnées géographique. 
-		
-Pour les stations situées en dehors de la France métropolitaine, cet attribut contient la coordonnée Y de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur.
-		
-Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
+> *Description : Nombre Y qui détermine l'ordonnée d'une station hydrométrique dans un plan, exprimé dans le système de projection indiqué dans l’attribut système de projection des coordonnées géographique.  		 Pour les stations situées en dehors de la France métropolitaine, cet attribut contient la coordonnée Y de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur. 		 Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
@@ -963,14 +859,7 @@ Les coordonnées devront être déterminées sur une carte dont l'échelle est s
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -1000,14 +889,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -1037,14 +919,11 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdRegime
-> *Description : Information décrivant la qualité générale des données hydrométriques portant sur les informations en basses eaux, moyenne eaux et/ou hautes eaux. Le code du régime hydrométrique prend l'une valeurs possibles administrées par le Sandre selon la nomenclature n°526.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:526::::::referentiel:3.1:html*<br>
+> *Description : Information décrivant la qualité générale des données hydrométriques portant sur les informations en basses eaux, moyenne eaux et/ou hautes eaux. Le code du régime hydrométrique prend l'une valeurs possibles administrées par le Sandre selon la nomenclature n°526.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:526::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété QualifDonStationHydro
-> *Description : Valeur de la qualité des données produites par une station hydrométrique selon un régime hydrométrique. La qualification des données de la station hydrométrique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°533.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:533::::::referentiel:3.1:html*<br>
+> *Description : Valeur de la qualité des données produites par une station hydrométrique selon un régime hydrométrique. La qualification des données de la station hydrométrique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°533.    cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:533::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété ComQualifDonStationHydro
@@ -1104,8 +983,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Valeur obligatoire
 
 #### Propriété TypLoiStationHydro
-> *Description : Type de la loi statistique.Il prend les valeurs suivantes administrées par le Sandre dans la nomenclature n°114.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:114::::::referentiel:3.1:html*<br>
+> *Description : Type de la loi statistique.Il prend les valeurs suivantes administrées par le Sandre dans la nomenclature n°114.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:114::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 </details>
@@ -1173,9 +1051,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété RoleContactStationHydro
-> *Description : Fonction assurée par une personne vis à vis d'une station hydrométrique. Le rôle du contact de la station hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°527. 
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:527::::::referentiel:3.1:html*<br>
+> *Description : Fonction assurée par une personne vis à vis d'une station hydrométrique. Le rôle du contact de la station hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°527.      cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:527::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtDebutContactStationHydro
@@ -1263,40 +1139,12 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CodeSandreRdd
-> *Description : Le code du dispositif de collecte est un code artificiel non signifiant sur 10 positions qui identifie sur le plan national tout dispositif relatif à l'eau.
-
- Il est constitué : [code bassin étendu sur 2 caractères] + [code sans signification]. 
-
-Le code bassin est celui attribué par l'INSEE pour les 6 bassins auquel il est ajouté les cas suivants :
-
-00 réseau de niveau national (Ensemble des bassins)
-01 Artois-Picardie
-02 Rhin-Meuse
-03 Seine-Normandie
-04 Loire-Bretagne
-05 Adour-Garonne
-06 Rhône-Méditerranée
-07 Guadeloupe
-08 Martinique
-09 Guyane
-10 Réunion
-11 Mayotte
-12 Corse
-99 Réseau concernant plus de 1 bassin et moins de 6, ou s'il est transfrontalier
-
-Ce code est attribué par le Sandre pour les dispositifs de collecte nationaux et par les administrateurs de bassin pour les dispositifs de collecte des bassin.*<br>
+> *Description : Le code du dispositif de collecte est un code artificiel non signifiant sur 10 positions qui identifie sur le plan national tout dispositif relatif à l'eau.   Il est constitué : [code bassin étendu sur 2 caractères] + [code sans signification].   Le code bassin est celui attribué par l'INSEE pour les 6 bassins auquel il est ajouté les cas suivants :  00 réseau de niveau national (Ensemble des bassins) 01 Artois-Picardie 02 Rhin-Meuse 03 Seine-Normandie 04 Loire-Bretagne 05 Adour-Garonne 06 Rhône-Méditerranée 07 Guadeloupe 08 Martinique 09 Guyane 10 Réunion 11 Mayotte 12 Corse 99 Réseau concernant plus de 1 bassin et moins de 6, ou s'il est transfrontalier  Ce code est attribué par le Sandre pour les dispositifs de collecte nationaux et par les administrateurs de bassin pour les dispositifs de collecte des bassin.*<br>
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété NomRdd
-> *Description : Le libellé du dispositif de collecte est un nom sur 110 caractères qui identifie explicitement le réseau de mesure. Les noms des nouveaux réseaux de mesure comportent les informations suivantes sur 110 caractères : :
-- la nature (quantité ou qualité),
-- la géographie (local, régional, national, ou l’aquifère,…)
-- le type d’eau : eaux superficielles, souterraines, littorales….
-
-Les abréviations sont à éviter dans le nom du réseau de mesure et seront utilisées uniquement pour le mnémonique du réseau de mesure.
-
-Les informations sur le dispositif de collecte relèvent de la responsabilité du maître d'ouvrage du dispositif de collecte.*<br>
+> *Description : Le libellé du dispositif de collecte est un nom sur 110 caractères qui identifie explicitement le réseau de mesure. Les noms des nouveaux réseaux de mesure comportent les informations suivantes sur 110 caractères : : - la nature (quantité ou qualité), - la géographie (local, régional, national, ou l’aquifère,…) - le type d’eau : eaux superficielles, souterraines, littorales….  Les abréviations sont à éviter dans le nom du réseau de mesure et seront utilisées uniquement pour le mnémonique du réseau de mesure.  Les informations sur le dispositif de collecte relèvent de la responsabilité du maître d'ouvrage du dispositif de collecte.*<br>
 - Valeur optionnelle
 
 </details>
@@ -1334,14 +1182,11 @@ Les informations sur le dispositif de collecte relèvent de la responsabilité d
 - Valeur optionnelle
 
 #### Propriété TypCapteur
-> *Description : Catégorie d'un capteur qui effectue les mesures dans un milieu. Le type du capteur prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°519.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:519::::::referentiel:3.1:html*<br>
+> *Description : Catégorie d'un capteur qui effectue les mesures dans un milieu. Le type du capteur prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°519.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:519::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété TypMesureCapteur
-> *Description : Paramètre mesuré d'un capteur. Le type de mesure du capteur prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°509.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:509::::::referentiel:3.1:html*<br>
+> *Description : Paramètre mesuré d'un capteur. Le type de mesure du capteur prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°509.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:509::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété ASurveillerCapteur
@@ -1355,9 +1200,7 @@ Les informations sur le dispositif de collecte relèvent de la responsabilité d
 - Type : chaîne de caractères
 
 #### Propriété PDTCapteur
-> *Description : Fréquence des mesures réalisées par un capteur. Le pas de temps du capteur peut être : 
-- variable : dans ce cas le pas de temps est null.
-- fixe : dans ce cas le pas de temps est exprimé en minutes.*<br>
+> *Description : Fréquence des mesures réalisées par un capteur. Le pas de temps du capteur peut être :  - variable : dans ce cas le pas de temps est null. - fixe : dans ce cas le pas de temps est exprimé en minutes.*<br>
 - Valeur optionnelle
 - Type : nombre entier
 
@@ -1460,9 +1303,7 @@ Les informations sur le dispositif de collecte relèvent de la responsabilité d
 - Type : nombre entier
 
 #### Propriété SysAltiRefAlti
-> *Description : Système dans lequel la référence altimétrique de la station hydrométrique est exprimée. Le système altimétrique de la référence altimétrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°76.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:76::::::referentiel:3.1:html*<br>
+> *Description : Système dans lequel la référence altimétrique de la station hydrométrique est exprimée. Le système altimétrique de la référence altimétrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°76.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:76::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtDebutRefAlti
@@ -1536,14 +1377,7 @@ Les informations sur le dispositif de collecte relèvent de la responsabilité d
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -1573,14 +1407,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -1618,14 +1445,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -1681,14 +1501,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -1742,48 +1555,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 #### Propriété PonderationPluieDeBassin
@@ -1829,33 +1601,11 @@ Exemples :
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteHydro
-> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante :
-- article et nom du cours d'eau,
-- précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...),
-- à (au, aux)
-- nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes)
-- lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).
-
-Exemple :
-- La Seine à Paris [Pont d'Austerlitz],
-- La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach],
-- Le Roder à Schweighoure sur Roder [amont],
-- Le Couzou à Courpière [Le Salet],
-- La Choisille [bras sud] à Mettray,
-- La Vienne à Limoges et au Palais-sur-Vienne
-- Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].
-
-L'intitulé du site relève de la responsabilité du producteur.*<br>
+> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante : - article et nom du cours d'eau, - précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...), - à (au, aux) - nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes) - lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).  Exemple : - La Seine à Paris [Pont d'Austerlitz], - La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach], - Le Roder à Schweighoure sur Roder [amont], - Le Couzou à Courpière [Le Salet], - La Choisille [bras sud] à Mettray, - La Vienne à Limoges et au Palais-sur-Vienne - Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].  L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 </details>
@@ -1881,33 +1631,11 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteHydro
-> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante :
-- article et nom du cours d'eau,
-- précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...),
-- à (au, aux)
-- nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes)
-- lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).
-
-Exemple :
-- La Seine à Paris [Pont d'Austerlitz],
-- La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach],
-- Le Roder à Schweighoure sur Roder [amont],
-- Le Couzou à Courpière [Le Salet],
-- La Choisille [bras sud] à Mettray,
-- La Vienne à Limoges et au Palais-sur-Vienne
-- Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].
-
-L'intitulé du site relève de la responsabilité du producteur.*<br>
+> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante : - article et nom du cours d'eau, - précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...), - à (au, aux) - nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes) - lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).  Exemple : - La Seine à Paris [Pont d'Austerlitz], - La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach], - Le Roder à Schweighoure sur Roder [amont], - Le Couzou à Courpière [Le Salet], - La Choisille [bras sud] à Mettray, - La Vienne à Limoges et au Palais-sur-Vienne - Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].  L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 </details>
@@ -1939,48 +1667,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteMeteo
@@ -2008,26 +1695,17 @@ Exemples :
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CoordXSiteMeteo
-> *Description : Nombre X qui détermine l'abscisse du site de mesure dans un plan, exprimé dans le système de projection des coordonnées géographiques (cf. type de projection des coordonnées du site de mesure). Par convention, celle-ci est exprimée en Lambert 93 pour tous les sites situés sur le territoire métropolitain et corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage de 0 à 1 250 000.
-		
-Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée X de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur.
-		
-Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
+> *Description : Nombre X qui détermine l'abscisse du site de mesure dans un plan, exprimé dans le système de projection des coordonnées géographiques (cf. type de projection des coordonnées du site de mesure). Par convention, celle-ci est exprimée en Lambert 93 pour tous les sites situés sur le territoire métropolitain et corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage de 0 à 1 250 000. 		 Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée X de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et prend une valeur comprise dans une plage variant au maximum de 0 à + 833 000 au niveau de l'équateur. 		 Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété CoordYSiteMeteo
-> *Description : Nombre Y qui détermine l'ordonnée du site de mesure dans un plan, exprimé dans le système de projection des coordonnées géographiques (cf. type de projection des coordonnées du site de mesure). Par convention, celle-ci est en Lambert 93 pour tous les points d'eau situés sur le territoire métropolitain et Corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage allant de 6 000 000 à 7 100 000.
-		
-Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée Y de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et varie dans une plage allant de - 10 000 000 (pour le pôle Sud) à + 10 000 000 (pour le pôle Nord).
-		
-Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
+> *Description : Nombre Y qui détermine l'ordonnée du site de mesure dans un plan, exprimé dans le système de projection des coordonnées géographiques (cf. type de projection des coordonnées du site de mesure). Par convention, celle-ci est en Lambert 93 pour tous les points d'eau situés sur le territoire métropolitain et Corse. Elle est exprimée avec la précision maximale du mètre et varie dans une plage allant de 6 000 000 à 7 100 000. 		 Pour les sites situés en dehors de la France métropolitaine, cet attribut contient la coordonnée Y de la projection U.T.M. précisée dans l'attribut "Type de projection des coordonnées du site de mesure". Il est également exprimé avec la précision maximale du mètre et varie dans une plage allant de - 10 000 000 (pour le pôle Sud) à + 10 000 000 (pour le pôle Nord). 		 Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e.*<br>
 - Valeur obligatoire
 - Type : nombre entier
 
 #### Propriété ProjCoordSiteMeteo
-> *Description : Code indiquant la projection dans laquelle s'expriment les coordonnées X et Y du site météorologique. Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e. Par convention, par défaut, les coordonnées des sites météorologique sont exprimées en Lambert 93, exceptées celles situées en dehors du territoire métropolitain et corse. Le type de projection du site météorologique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°22.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:22::::::referentiel:3.1:html*<br>
+> *Description : Code indiquant la projection dans laquelle s'expriment les coordonnées X et Y du site météorologique. Les coordonnées devront être déterminées sur une carte dont l'échelle est supérieure ou égale au 50 000e. Par convention, par défaut, les coordonnées des sites météorologique sont exprimées en Lambert 93, exceptées celles situées en dehors du territoire métropolitain et corse. Le type de projection du site météorologique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°22.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:22::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 </details>
@@ -2146,40 +1824,12 @@ Les coordonnées devront être déterminées sur une carte dont l'échelle est s
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CodeSandreRdd
-> *Description : Le code du dispositif de collecte est un code artificiel non signifiant sur 10 positions qui identifie sur le plan national tout dispositif relatif à l'eau.
-
- Il est constitué : [code bassin étendu sur 2 caractères] + [code sans signification]. 
-
-Le code bassin est celui attribué par l'INSEE pour les 6 bassins auquel il est ajouté les cas suivants :
-
-00 réseau de niveau national (Ensemble des bassins)
-01 Artois-Picardie
-02 Rhin-Meuse
-03 Seine-Normandie
-04 Loire-Bretagne
-05 Adour-Garonne
-06 Rhône-Méditerranée
-07 Guadeloupe
-08 Martinique
-09 Guyane
-10 Réunion
-11 Mayotte
-12 Corse
-99 Réseau concernant plus de 1 bassin et moins de 6, ou s'il est transfrontalier
-
-Ce code est attribué par le Sandre pour les dispositifs de collecte nationaux et par les administrateurs de bassin pour les dispositifs de collecte des bassin.*<br>
+> *Description : Le code du dispositif de collecte est un code artificiel non signifiant sur 10 positions qui identifie sur le plan national tout dispositif relatif à l'eau.   Il est constitué : [code bassin étendu sur 2 caractères] + [code sans signification].   Le code bassin est celui attribué par l'INSEE pour les 6 bassins auquel il est ajouté les cas suivants :  00 réseau de niveau national (Ensemble des bassins) 01 Artois-Picardie 02 Rhin-Meuse 03 Seine-Normandie 04 Loire-Bretagne 05 Adour-Garonne 06 Rhône-Méditerranée 07 Guadeloupe 08 Martinique 09 Guyane 10 Réunion 11 Mayotte 12 Corse 99 Réseau concernant plus de 1 bassin et moins de 6, ou s'il est transfrontalier  Ce code est attribué par le Sandre pour les dispositifs de collecte nationaux et par les administrateurs de bassin pour les dispositifs de collecte des bassin.*<br>
 - Valeur obligatoire
 - Type : chaîne de caractères
 
 #### Propriété NomRdd
-> *Description : Le libellé du dispositif de collecte est un nom sur 110 caractères qui identifie explicitement le réseau de mesure. Les noms des nouveaux réseaux de mesure comportent les informations suivantes sur 110 caractères : :
-- la nature (quantité ou qualité),
-- la géographie (local, régional, national, ou l’aquifère,…)
-- le type d’eau : eaux superficielles, souterraines, littorales….
-
-Les abréviations sont à éviter dans le nom du réseau de mesure et seront utilisées uniquement pour le mnémonique du réseau de mesure.
-
-Les informations sur le dispositif de collecte relèvent de la responsabilité du maître d'ouvrage du dispositif de collecte.*<br>
+> *Description : Le libellé du dispositif de collecte est un nom sur 110 caractères qui identifie explicitement le réseau de mesure. Les noms des nouveaux réseaux de mesure comportent les informations suivantes sur 110 caractères : : - la nature (quantité ou qualité), - la géographie (local, régional, national, ou l’aquifère,…) - le type d’eau : eaux superficielles, souterraines, littorales….  Les abréviations sont à éviter dans le nom du réseau de mesure et seront utilisées uniquement pour le mnémonique du réseau de mesure.  Les informations sur le dispositif de collecte relèvent de la responsabilité du maître d'ouvrage du dispositif de collecte.*<br>
 - Valeur optionnelle
 
 </details>
@@ -2205,16 +1855,7 @@ Les informations sur le dispositif de collecte relèvent de la responsabilité d
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété RoleContactSiteMeteo
-> *Description : Fonction assurée par une personne (ie. contact) vis à vis d'un site météorologique. Le rôle du contact du site météorologique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°527. Seuls, les codes suivants sont autorisés :
-
-ADM ! administrateur local du site (pôle 2)
-REF ! responsable référentiel (pôle 2)
-RC ! responsable règles de calcul (pôle 2)
-DB ! responsable données brutes (et concentration -pôle 4)
-DC ! responsable données corrigée (pôle 4)
-MA ! responsable maintenance (utilisation future)
-EXP ! gestion des paramètres liés aux échanges de données temps réel
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:527::::::referentiel:3.1:html*<br>
+> *Description : Fonction assurée par une personne (ie. contact) vis à vis d'un site météorologique. Le rôle du contact du site météorologique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°527. Seuls, les codes suivants sont autorisés :  ADM ! administrateur local du site (pôle 2) REF ! responsable référentiel (pôle 2) RC ! responsable règles de calcul (pôle 2) DB ! responsable données brutes (et concentration -pôle 4) DC ! responsable données corrigée (pôle 4) MA ! responsable maintenance (utilisation future) EXP ! gestion des paramètres liés aux échanges de données temps réel  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:527::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtDebutContactSiteMeteo
@@ -2436,8 +2077,7 @@ EXP ! gestion des paramètres liés aux échanges de données temps réel
 - Valeur optionnelle
 
 #### Propriété TypModelePrevision
-> *Description : Classe d'appartenance d'un modèle numérique de prévision hydrologique. Un modèle de prévision hydrologique appartient à l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°525.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:525::::::referentiel:3.1:html*<br>
+> *Description : Classe d'appartenance d'un modèle numérique de prévision hydrologique. Un modèle de prévision hydrologique appartient à l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°525.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:525::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété DescModelePrevision
@@ -2466,13 +2106,7 @@ EXP ! gestion des paramètres liés aux échanges de données temps réel
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 </details>
@@ -2517,33 +2151,11 @@ Pour les stations actuelles d'HYDRO situées sur un même site, un travail prél
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteHydro
-> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante :
-- article et nom du cours d'eau,
-- précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...),
-- à (au, aux)
-- nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes)
-- lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).
-
-Exemple :
-- La Seine à Paris [Pont d'Austerlitz],
-- La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach],
-- Le Roder à Schweighoure sur Roder [amont],
-- Le Couzou à Courpière [Le Salet],
-- La Choisille [bras sud] à Mettray,
-- La Vienne à Limoges et au Palais-sur-Vienne
-- Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].
-
-L'intitulé du site relève de la responsabilité du producteur.*<br>
+> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante : - article et nom du cours d'eau, - précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...), - à (au, aux) - nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes) - lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).  Exemple : - La Seine à Paris [Pont d'Austerlitz], - La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach], - Le Roder à Schweighoure sur Roder [amont], - Le Couzou à Courpière [Le Salet], - La Choisille [bras sud] à Mettray, - La Vienne à Limoges et au Palais-sur-Vienne - Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].  L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 </details>
@@ -2554,9 +2166,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 #### Propriété NatureSeuilHydro
-> *Description : Catégorie à laquelle appartient un seuil hydrométrique. Dans le contexte des seuils de type "hydrométrique", une valeur basse désigne une valeur d'étiage et une valeur forte désigne une valeur de crue. La nature du seuil du site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°529.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:529::::::referentiel:3.1:html*<br>
+> *Description : Catégorie à laquelle appartient un seuil hydrométrique. Dans le contexte des seuils de type "hydrométrique", une valeur basse désigne une valeur d'étiage et une valeur forte désigne une valeur de crue. La nature du seuil du site hydrométrique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°529.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:529::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété DureeSeuilHydro
@@ -2569,11 +2179,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 #### Propriété MnSeuilHydro
-> *Description : Sigle ou symbole désignant un seuil hydrométrique utilisé en hydrologie. Aucune règle d'écriture n'est imposée ; il est néanmoins préférable de s'assurer qu'il n'existe pas de mnémonique identique. Le mnémonique du seuil hydrométrique correspond au libellé commun du seuil ; à titre d'exemples :
-- DOE - DCR
-- Premiers débordements - Débordements dommageables
-- VCN3 2 - VCN3 5 - QMNa
-- QIX 10 - QJX 20*<br>
+> *Description : Sigle ou symbole désignant un seuil hydrométrique utilisé en hydrologie. Aucune règle d'écriture n'est imposée ; il est néanmoins préférable de s'assurer qu'il n'existe pas de mnémonique identique. Le mnémonique du seuil hydrométrique correspond au libellé commun du seuil ; à titre d'exemples : - DOE - DCR - Premiers débordements - Débordements dommageables - VCN3 2 - VCN3 5 - QMNa - QIX 10 - QJX 20*<br>
 - Valeur optionnelle
 
 #### Propriété TypPubliSeuilHydro
@@ -2621,13 +2227,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Type : nombre entier
 
 #### Propriété ToleranceValSeuilHydro
-> *Description : Limite de l'écart admis entre la valeur mesurée et celle du seuil de l'alarme. La tolérance est retranchée (pour un seuil de crue) ou ajoutée (pour un seuil d'étiage) à la valeur mesurée pour déclencher une alarme de franchissement du seuil. 
-
-Notons que cette tolérance évite la génération d'alarmes multiples lorsque le débit ou la hauteur du cours d'eau oscille autour de la valeur du seuil. Elle est exprimée en l/s ou en mm. 
-
-Exemple 1: un site hydrométrique possède un seuil d'étiage à 955 l/s, affecté d'une tolérance de 25 l/s. En début d'étiage, une alarme est déclenchée lorsque le débit du cours cours d'eau atteint 955 l/s. En sortie d'étiage, l'alarme n'est déclenchée que lorsque le débit dépasse la valeur de 955 + 25 = 980 l/s.
-
-Exemple 2: une station hydrométrique possède un seuil de crue  à 3,25 m affecté d'une tolérance de 20 cm. En montée de crue, une alarme est déclenchée lorsque le cours d'eau atteint 3,25 m. A la décrue, l'alarme n'est déclenchée que lorsque le niveau descend sous la valeur de 3,25 - 0,20 = 3,05 m.*<br>
+> *Description : Limite de l'écart admis entre la valeur mesurée et celle du seuil de l'alarme. La tolérance est retranchée (pour un seuil de crue) ou ajoutée (pour un seuil d'étiage) à la valeur mesurée pour déclencher une alarme de franchissement du seuil.   Notons que cette tolérance évite la génération d'alarmes multiples lorsque le débit ou la hauteur du cours d'eau oscille autour de la valeur du seuil. Elle est exprimée en l/s ou en mm.   Exemple 1: un site hydrométrique possède un seuil d'étiage à 955 l/s, affecté d'une tolérance de 25 l/s. En début d'étiage, une alarme est déclenchée lorsque le débit du cours cours d'eau atteint 955 l/s. En sortie d'étiage, l'alarme n'est déclenchée que lorsque le débit dépasse la valeur de 955 + 25 = 980 l/s.  Exemple 2: une station hydrométrique possède un seuil de crue  à 3,25 m affecté d'une tolérance de 20 cm. En montée de crue, une alarme est déclenchée lorsque le cours d'eau atteint 3,25 m. A la décrue, l'alarme n'est déclenchée que lorsque le niveau descend sous la valeur de 3,25 - 0,20 = 3,05 m.*<br>
 - Valeur optionnelle
 - Type : nombre entier
 
@@ -2650,14 +2250,7 @@ Exemple 2: une station hydrométrique possède un seuil de crue  à 3,25 m affec
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbStationHydro
@@ -2676,33 +2269,11 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteHydro
-> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante :
-- article et nom du cours d'eau,
-- précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...),
-- à (au, aux)
-- nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes)
-- lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).
-
-Exemple :
-- La Seine à Paris [Pont d'Austerlitz],
-- La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach],
-- Le Roder à Schweighoure sur Roder [amont],
-- Le Couzou à Courpière [Le Salet],
-- La Choisille [bras sud] à Mettray,
-- La Vienne à Limoges et au Palais-sur-Vienne
-- Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].
-
-L'intitulé du site relève de la responsabilité du producteur.*<br>
+> *Description : Chaque site hydrométrique possède un intitulé à des fins d'identification rapide et de reprise dans la plupart des références. Il est établi de la manière suivante : - article et nom du cours d'eau, - précision sur le cours d'eau entre crochets (canal, bras rive gauche, dérivation, ...), - à (au, aux) - nom de la ou des communes (définition INSEE avec l'utilisation impérative de 'St', 'Ste' et 'Stes' pour Saint, Sainte et Saintes) - lieu-dit ou complément du nom,entre crochets  (cf. attribut correspondant).  Exemple : - La Seine à Paris [Pont d'Austerlitz], - La Doller [totale] à Burnhaubt-le-Haut [Pont d'Aspach], - Le Roder à Schweighoure sur Roder [amont], - Le Couzou à Courpière [Le Salet], - La Choisille [bras sud] à Mettray, - La Vienne à Limoges et au Palais-sur-Vienne - Le ru d'Elancourt à Jouars-Pontchartrain [Chemevières].  L'intitulé du site relève de la responsabilité du producteur.*<br>
 - Valeur optionnelle
 
 </details>
@@ -2769,48 +2340,7 @@ L'intitulé du site relève de la responsabilité du producteur.*<br>
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 #### Propriété LbSiteMeteo
@@ -2858,9 +2388,7 @@ Exemples :
 - Valeur optionnelle
 
 #### Propriété MnSeuilMeteo
-> *Description : Sigle ou symbole désignant un seuil météorologique. Aucune règle d'écriture n'est imposée excepté pour un seuil météorologique de valeurs expertisées. Dans ce cas, les mnémoniques suivants sont imposés :
-- Cumul 1 heure
-- Cumul 12 heures*<br>
+> *Description : Sigle ou symbole désignant un seuil météorologique. Aucune règle d'écriture n'est imposée excepté pour un seuil météorologique de valeurs expertisées. Dans ce cas, les mnémoniques suivants sont imposés : - Cumul 1 heure - Cumul 12 heures*<br>
 - Valeur optionnelle
 
 #### Propriété IndiceGraviteSeuilMeteo
@@ -2899,11 +2427,7 @@ Exemples :
 - Type : nombre entier
 
 #### Propriété ToleranceValSeuilMeteo
-> *Description : Limite de l'écart admis entre valeur mesurée et celle du seuil de l'alarme. La tolérance est retranchée (pour un seuil haut) ou ajoutée (pour un seuil bas) à la valeur mesurée pour déclencher une alarme de franchissement du seuil à la baisse ou à la hausse.
-
-Notons que cette tolérance évite la génération d'alarmes multiples lorsque la valeur mesurée oscille autour de la valeur du seuil.Elle est exprimée dans l'unité de la grandeur météo concernée.
-
-Exemple: un site météo possède un seuil bas de température à 0°c affecté d'une tolérance de 2°c. Lorsque la température descend, une alarme est déclenchée à 0°C. Lorsque la température remonte, l'alarme n'est déclenchée que lorsque sa valeur atteint 0 +2 = 2°c.*<br>
+> *Description : Limite de l'écart admis entre valeur mesurée et celle du seuil de l'alarme. La tolérance est retranchée (pour un seuil haut) ou ajoutée (pour un seuil bas) à la valeur mesurée pour déclencher une alarme de franchissement du seuil à la baisse ou à la hausse.  Notons que cette tolérance évite la génération d'alarmes multiples lorsque la valeur mesurée oscille autour de la valeur du seuil.Elle est exprimée dans l'unité de la grandeur météo concernée.  Exemple: un site météo possède un seuil bas de température à 0°c affecté d'une tolérance de 2°c. Lorsque la température descend, une alarme est déclenchée à 0°C. Lorsque la température remonte, l'alarme n'est déclenchée que lorsque sa valeur atteint 0 +2 = 2°c.*<br>
 - Valeur optionnelle
 - Type : nombre entier
 
@@ -2962,9 +2486,7 @@ Exemple: un site météo possède un seuil bas de température à 0°c affecté 
 - Type : chaîne de caractères
 
 #### Propriété TypEvenement
-> *Description : Catégorie d'événement. Le type d'événement repose sur l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°891.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:891::::::referentiel:3.1:html*<br>
+> *Description : Catégorie d'événement. Le type d'événement repose sur l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°891.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:891::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété DescEvenement
@@ -2972,9 +2494,7 @@ Exemple: un site météo possède un seuil bas de température à 0°c affecté 
 - Valeur obligatoire
 
 #### Propriété TypPubliEvenement
-> *Description : Indication autorisant la communication et la portée d'un événement. Le type de publication d'un événement repose sur l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°874.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:874::::::referentiel:3.1:html*<br>
+> *Description : Indication autorisant la communication et la portée d'un événement. Le type de publication d'un événement repose sur l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°874.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:874::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété DtMajEvenement
@@ -3018,69 +2538,15 @@ Exemple: un site météo possède un seuil bas de température à 0°c affecté 
 - Type : chaîne de caractères
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 </details>
@@ -3115,8 +2581,7 @@ Exemples :
 - Valeur obligatoire
 
 #### Propriété TypCourbeTarage
-> *Description : Classe de fonction (au sens mathématique) à laquelle une courbe de tarage se réfère. Le type de courbe de tarage prend l'une des valeurs possibles définies par le Sandre selon la nomenclature n°503.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:503::::::referentiel:3.1:html*<br>
+> *Description : Classe de fonction (au sens mathématique) à laquelle une courbe de tarage se réfère. Le type de courbe de tarage prend l'une des valeurs possibles définies par le Sandre selon la nomenclature n°503.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:503::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtCreatCourbeTarage
@@ -3164,14 +2629,7 @@ Exemples :
 - Valeur optionnelle
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété PivotsCourbeTarage
@@ -3379,13 +2837,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : nombre entier
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété HauteursJaugeage
@@ -3405,20 +2857,11 @@ Pour les stations actuelles d'HYDRO situées sur un même site, un travail prél
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété SysAltiStationJaugeage
-> *Description : Système d'altitude dans lequel s'exprime l'altitude de la référence altimétrique du jaugeage. Le système altimétrique de référence du jaugeage prend l'une des valeurs possibles administrées par les Sandre selon la nomenclature n°76.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:76::::::referentiel:3.1:html*<br>
+> *Description : Système d'altitude dans lequel s'exprime l'altitude de la référence altimétrique du jaugeage. Le système altimétrique de référence du jaugeage prend l'une des valeurs possibles administrées par les Sandre selon la nomenclature n°76.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:76::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété CoteRetenueStationJaugeage
@@ -3455,14 +2898,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 </details>
@@ -3499,9 +2935,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : nombre entier
 
 #### Propriété QualifJaugeage
-> *Description : Evaluation de la qualité du jaugeage permettant de savoir s'il peut être employé pour construire une courbe de tarage. La qualification du jaugeage prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°877. 
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:877::::::referentiel:3.1:html*<br>
+> *Description : Evaluation de la qualité du jaugeage permettant de savoir s'il peut être employé pour construire une courbe de tarage. La qualification du jaugeage prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°877.     cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:877::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété ComPrivJaugeage
@@ -3562,14 +2996,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété LbCourbeCorrH
@@ -3650,8 +3077,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété GrdSerieObsHydro
-> *Description : Paramètre mesuré pour l'ensemble des observations hydrométriques. La grandeur observée de la série d'observations hydrométriques prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°509.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:509::::::referentiel:3.1:html*<br>
+> *Description : Paramètre mesuré pour l'ensemble des observations hydrométriques. La grandeur observée de la série d'observations hydrométriques prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°509.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:509::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtDebSerieObsHydro
@@ -3726,26 +3152,19 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : nombre entier
 
 #### Propriété QualifObsHydro
-> *Description : Précision relative à la qualification de l'observation hydrométrique. La qualification de la donnée de l'observation prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°515.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:515::::::referentiel:3.1:html*<br>
+> *Description : Précision relative à la qualification de l'observation hydrométrique. La qualification de la donnée de l'observation prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°515.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:515::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété MethObsHydro
-> *Description : Manière de procéder pour réaliser l'observation hydrométrique. La méthode d'obtention du résultat de l'observation hydrométrique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°512.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:512::::::referentiel:3.1:html*<br>
+> *Description : Manière de procéder pour réaliser l'observation hydrométrique. La méthode d'obtention du résultat de l'observation hydrométrique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°512.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:512::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété ContObsHydro
-> *Description : Indication relative à l'enchaînement d'une observation hydrométrique vis-à-vis de la précédente. La continuité de la donnée de l'observation hydrométrique est vraie lorsqu'elle est jugée continue dans le temps. Lorsque cette indication est absente la données est considérée comme continue. La continuité de la donnée de l'observation hydrométrique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°923.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:923::::::referentiel:3.1:html*<br>
+> *Description : Indication relative à l'enchaînement d'une observation hydrométrique vis-à-vis de la précédente. La continuité de la donnée de l'observation hydrométrique est vraie lorsqu'elle est jugée continue dans le temps. Lorsque cette indication est absente la données est considérée comme continue. La continuité de la donnée de l'observation hydrométrique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°923.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:923::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété StObsHydro
-> *Description : Niveau de validité de l'observation hydrométrique. Le statut de l'observation hydrométrique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
+> *Description : Niveau de validité de l'observation hydrométrique. Le statut de l'observation hydrométrique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.    cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 </details>
@@ -3771,24 +3190,11 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 </blockquote>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété CdCapteur
@@ -3818,48 +3224,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 #### Propriété CdGrdMeteo
@@ -3918,25 +3283,19 @@ Exemples :
 - Type : nombre entier
 
 #### Propriété ContxtObsMeteo
-> *Description : Cadre environnemental dans lequel l'observation météorologique est réalisée. Le contexte environnemental prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°872.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:872::::::referentiel:3.1:html*<br>
+> *Description : Cadre environnemental dans lequel l'observation météorologique est réalisée. Le contexte environnemental prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°872.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:872::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété QualifObsMeteo
-> *Description : Etat de qualification de l'observation météorologique. Par défaut, la valeur par défaut est non qualifiée. La qualification de la donnée de l'observation météorologique prend l'une des valeurs possibles administrées par le Sandre selon nomenclature n°508.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:508::::::referentiel:3.1:html*<br>
+> *Description : Etat de qualification de l'observation météorologique. Par défaut, la valeur par défaut est non qualifiée. La qualification de la donnée de l'observation météorologique prend l'une des valeurs possibles administrées par le Sandre selon nomenclature n°508.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:508::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété MethObsMeteo
-> *Description : Manière de procéder aboutissant à l'observation météorologique. La mesure correspond à une valeur effectivement mesurée. 
-Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple : « recomposition » d'un cumul pluvio 24h à partir de cumuls pluvio 1h). L'interpolation permet d'indiquer que les valeurs échangées sont issus d'une interpolation qui fait « apparaître » des données là où il n'y a pas de mesure réelle (à la charge des utilisateurs d'évaluer la pertinence de ces données interpolées). La méthode d'obtention du résultat de l'observation météorologique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°512.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:512::::::referentiel:3.1:html*<br>
+> *Description : Manière de procéder aboutissant à l'observation météorologique. La mesure correspond à une valeur effectivement mesurée.  Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple : « recomposition » d'un cumul pluvio 24h à partir de cumuls pluvio 1h). L'interpolation permet d'indiquer que les valeurs échangées sont issus d'une interpolation qui fait « apparaître » des données là où il n'y a pas de mesure réelle (à la charge des utilisateurs d'évaluer la pertinence de ces données interpolées). La méthode d'obtention du résultat de l'observation météorologique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°512.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:512::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété StObsMeteo
-> *Description : Niveau de validité de l'observation météorologique. Le statut de l'observation météorologique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
+> *Description : Niveau de validité de l'observation météorologique. Le statut de l'observation météorologique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 </details>
@@ -3968,9 +3327,7 @@ Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple 
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété TypDeGrdSerieObsElaborHydro
-> *Description : Paramètre calculé de la série d'observations élaborées hydrométriques. Le type de grandeur de la série d'observations élaborées hydrométriques prend l'une des valeurs possibles définies par le Sandre dans la nomenclature n°513.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:513::::::referentiel:3.1:html*<br>
+> *Description : Paramètre calculé de la série d'observations élaborées hydrométriques. Le type de grandeur de la série d'observations élaborées hydrométriques prend l'une des valeurs possibles définies par le Sandre dans la nomenclature n°513.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:513::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété PDTSerieObsElaborHydro
@@ -4044,8 +3401,7 @@ Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple 
 - Type : nombre entier
 
 #### Propriété QualifObsElaborHydro
-> *Description : Etat de qualification de l'observation élaborée hydrométrique. La qualification de l'observation élaborée hydrométrique hérite de la qualification la plus faible des données ayant servies à la calculer. La qualification de l'observation élaborée hydrométrique prend l'une des valeurs possibles définies par le Sandre dans la nomenclature n°515.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:515::::::referentiel:3.1:html*<br>
+> *Description : Etat de qualification de l'observation élaborée hydrométrique. La qualification de l'observation élaborée hydrométrique hérite de la qualification la plus faible des données ayant servies à la calculer. La qualification de l'observation élaborée hydrométrique prend l'une des valeurs possibles définies par le Sandre dans la nomenclature n°515.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:515::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété MethObsElaborHydro
@@ -4057,9 +3413,7 @@ Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple 
 - Valeur optionnelle
 
 #### Propriété StObsElaborHydro
-> *Description : Niveau de validité de l'observation élaborée hydrométrique. Le statut de l'observation élaborée hydrométrique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
+> *Description : Niveau de validité de l'observation élaborée hydrométrique. Le statut de l'observation élaborée hydrométrique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.    cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 </details>
@@ -4069,24 +3423,11 @@ Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple 
 </blockquote>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 </details>
@@ -4192,22 +3533,15 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : nombre entier
 
 #### Propriété QualifObsElaborMeteo
-> *Description : Etat de qualification du résultat de la mesure de l'observation élaborée météorologique. Par défaut, la valeur par défaut est non qualifiée. La qualification de la donnée de l'observation élaborée météorologique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°508.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:508::::::referentiel:3.1:html*<br>
+> *Description : Etat de qualification du résultat de la mesure de l'observation élaborée météorologique. Par défaut, la valeur par défaut est non qualifiée. La qualification de la donnée de l'observation élaborée météorologique prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°508.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:508::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété MethObsElaborMeteo
-> *Description : Manière de procéder permettent d'obtenir l'observation élaborée météorologique. La mesure correspond à une valeur effectivement mesurée. Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple : « recomposition » d'un cumul pluvio 24h à partir de cumuls pluvio 1h). 
-
-L'interpolation permet d'indiquer que les valeurs échangées sont issues d'une interpolation qui fait « apparaître » des données là où il n'y a pas de mesure réelle (à la charge des utilisateurs d'évaluer la pertinence de ces données interpolées). 
-
-La méthode d'obtention du résultat de l'observation élaborée météorologique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°512.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:512::::::referentiel:3.1:html*<br>
+> *Description : Manière de procéder permettent d'obtenir l'observation élaborée météorologique. La mesure correspond à une valeur effectivement mesurée. Le calcul permet d'indiquer que la valeur est le résultat d'un calcul (exemple : « recomposition » d'un cumul pluvio 24h à partir de cumuls pluvio 1h).   L'interpolation permet d'indiquer que les valeurs échangées sont issues d'une interpolation qui fait « apparaître » des données là où il n'y a pas de mesure réelle (à la charge des utilisateurs d'évaluer la pertinence de ces données interpolées).   La méthode d'obtention du résultat de l'observation élaborée météorologique prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°512.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:512::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété StObsElaborMeteo
-> *Description : Niveau de validité de l'observation élaborée météorologique. Le statut de l'observation élaborée météorologique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
+> *Description : Niveau de validité de l'observation élaborée météorologique. Le statut de l'observation élaborée météorologique prend l'une des valeurs possibles, administrées par le Sandre, selon la nomenclature n°510.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 </details>
@@ -4217,58 +3551,11 @@ La méthode d'obtention du résultat de l'observation élaborée météorologiqu
 </blockquote>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 #### Propriété ValPondSiteMeteo
@@ -4331,8 +3618,7 @@ Exemples :
 - Type : nombre entier
 
 #### Propriété StGradHydro
-> *Description : Statut du gradient. Il prend le statut le plus faible des données ayant servies à le calculer. Cet attribut prend les valeurs possibles définies par le Sandre administrées dans la nomenclature n°510. 
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
+> *Description : Statut du gradient. Il prend le statut le plus faible des données ayant servies à le calculer. Cet attribut prend les valeurs possibles définies par le Sandre administrées dans la nomenclature n°510.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:510::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété QualifGradHydro
@@ -4344,14 +3630,7 @@ Exemples :
 - Valeur optionnelle
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété CdCapteur
@@ -4359,13 +3638,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Valeur obligatoire
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 </details>
@@ -4407,8 +3680,7 @@ Pour les stations actuelles d'HYDRO situées sur un même site, un travail prél
 - Valeur optionnelle
 
 #### Propriété DispoQValidAnneeHydro
-> *Description : Indique si la chronique des débits mensuels est complète sur l'année. Une année complète est une année comportant 12 débits mensuels. La disponibilité prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°518.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:518::::::referentiel:3.1:html*<br>
+> *Description : Indique si la chronique des débits mensuels est complète sur l'année. Une année complète est une année comportant 12 débits mensuels. La disponibilité prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°518.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:518::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété ComValidAnneeHydro
@@ -4421,24 +3693,11 @@ Pour les stations actuelles d'HYDRO situées sur un même site, un travail prél
 - Type : chaîne de caractères
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 </details>
@@ -4469,8 +3728,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : chaîne de caractères
 
 #### Propriété GrdSimul
-> *Description : Paramètre objet de la simulation. La grandeur de la simulation prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°509.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:509::::::referentiel:3.1:html*<br>
+> *Description : Paramètre objet de la simulation. La grandeur de la simulation prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°509.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:509::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété CdSimul
@@ -4509,8 +3767,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : chaîne de caractères
 
 #### Propriété ModeCalSimul
-> *Description : Méthode de calcul employée pour produire les résultats de la simulation. Le mode de calcul de la simulation prend l'une des valeurs possibles de la nomenclature Sandre n°924.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:924::::::referentiel:3.1:html*<br>
+> *Description : Méthode de calcul employée pour produire les résultats de la simulation. Le mode de calcul de la simulation prend l'une des valeurs possibles de la nomenclature Sandre n°924.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:924::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété StSimul
@@ -4518,14 +3775,11 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Valeur optionnelle
 
 #### Propriété TypPubliSimul
-> *Description : Indication signifiant si une simulation est rendue publique ou non. Le type de publication de la simulation prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°874
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:874::::::referentiel:3.1:html*<br>
+> *Description : Indication signifiant si une simulation est rendue publique ou non. Le type de publication de la simulation prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°874  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:874::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété SysAltiSimul
-> *Description : Système d'altitude dans lequel s'exprime l'altitude de la référence altimétrique employée dans une simulation. Le système de référence altimétrique de la série d'observations hydrométriques prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°76.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:76::::::referentiel:3.1:html*<br>
+> *Description : Système d'altitude dans lequel s'exprime l'altitude de la référence altimétrique employée dans une simulation. Le système de référence altimétrique de la série d'observations hydrométriques prend l'une des valeurs possibles administrées par le Sandre selon la nomenclature n°76.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:76::::::referentiel:3.1:html*<br>
 - Valeur optionnelle
 
 #### Propriété ContexteSimul
@@ -4790,14 +4044,11 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 <summary>Cet objet doit contenir les champs suivants :</summary>
 
 #### Propriété TypPrevEvol
-> *Description : Evolution à la hausse comme à la baisse de la prévision. Le type de prévision d'évolution prend l'une des valeurs possibles définies selon la nomenclature Sandre n°927.
-
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:927::::::referentiel:3.1:html*<br>
+> *Description : Evolution à la hausse comme à la baisse de la prévision. Le type de prévision d'évolution prend l'une des valeurs possibles définies selon la nomenclature Sandre n°927.   cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:927::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété DtDebPrevEvol
-> *Description : Jour, mois, et année suivis de l'heure, minute et seconde, exprimée en temps universel (TU), date de début de la prévision d’évolution valable jusqu’à la date de la prévision suivante ou indéfiniment.
-.*<br>
+> *Description : Jour, mois, et année suivis de l'heure, minute et seconde, exprimée en temps universel (TU), date de début de la prévision d’évolution valable jusqu’à la date de la prévision suivante ou indéfiniment. .*<br>
 - Valeur obligatoire
 - Type : chaîne de caractères
 
@@ -4813,24 +4064,11 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 </blockquote>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 </details>
@@ -4861,8 +4099,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Type : chaîne de caractères
 
 #### Propriété TypAlarm
-> *Description : Catégorie d'alarme. Le type de l'alarme prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°517.
- cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:517::::::referentiel:3.1:html*<br>
+> *Description : Catégorie d'alarme. Le type de l'alarme prend l'une des valeurs possibles administrées par le Sandre dans la nomenclature n°517.  cf http://www.sandre.eaufrance.fr/?urn=urn:sandre:donnees:517::::::referentiel:3.1:html*<br>
 - Valeur obligatoire
 
 #### Propriété MessAlarm
@@ -4905,14 +4142,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Valeur obligatoire
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété CdGrdMeteo
@@ -4920,13 +4150,7 @@ Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des an
 - Valeur obligatoire
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété DtObsHydro
@@ -4956,69 +4180,15 @@ Pour les stations actuelles d'HYDRO situées sur un même site, un travail prél
 </blockquote>
 
 #### Propriété CdSiteHydro
-> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431. 
-
-Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues : 
-1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué)
-2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance). 
-
-Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
+> *Description : Identifiant national unique d'un site hydrométrique. Le code d'un site hydrométrique est signifiant pour partie ; il est construit selon la règle suivante : [Code de la zone hydrographique sur 4 caractères sur laquelle est situé le site hydrométrique] + [Numéro incrémental sans signification particulière sur 4 caractères].  Par exemple, J4310010 pour un site localisé sur la zone hydrographique J431.   Afin de gérer l'historique des codes de la banque HYDRO, les règles suivantes sont retenues :  1.	Toute station banque HYDRO est « transformée » en un site hydro ET une station SAUF pour les stations situées sur un site déjà référencé (auquel cas un nouveau numéro est attribué) 2.	Toute station banque HYDRO conserve son code actuel qui devient le code du site hydro en respectant la règle générale retenue (anciennement Code hydro + numéro avec  signifiance).   Pour les stations actuelles d'HYDRO situées sur un même site, un travail préliminaire des producteurs de données sera nécessaire pour définir le code hydro à conserver.*<br>
 - Valeur obligatoire
 
 #### Propriété CdStationHydro
-> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.
-
-Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) : 
-Station 1 du site : L0410610 : L0410610 (Hydro) / 01
-Station 2 du site : L0410610 : L0410610 (Hydro) / 02
-Station 1 du site L0321510 : L0321510 (Hydro) / 01
-
-Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
+> *Description : Identifiant unique d'un site hydrométrique. L'identifiant complet de la station hydrométrique est le code du site hydrométrique + le code de la station hydrométrique sur 2 caractères. La codification des stations est sous la responsabilité des producteurs de données.  Par exemple, les trois stations suivantes appartenant à deux sites de mesures sont identifiées comme il suit (code site / code station) :  Station 1 du site : L0410610 : L0410610 (Hydro) / 01 Station 2 du site : L0410610 : L0410610 (Hydro) / 02 Station 1 du site L0321510 : L0321510 (Hydro) / 01  Afin de gérer l'historique des codes de la banque HYDRO, les codes hydro des anciennes « stations » seront conservés et affectés aux sites hydrométriques, dans la mesure où l’ancienne station en question n’est pas située sur un site comportant une autre station.*<br>
 - Valeur obligatoire
 
 #### Propriété CdSiteMeteo
-> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM). 
-1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous.
-Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco :
-plage 001.***.*** à 099.***.*** : 
-
-L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.
-
-	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	
-N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	
-N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	
-N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	
-Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	
-
-(*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites :
-de 001 à 399 : postes climatologiques du réseau d’état,
-de 400 à 499 : postes à vocation nivo-météorologiques,
-de 500 à 599 : sites particuliers n’envoyant pas de données,
-de 600 à 699 : points servant à une prévision par adaptation statistique,
-de 700 à 799 : radars profileurs 
-de 800 à 899 : sites en double 
-de 900 à 999 : postes SNCF.
-
-Site fictif  (site en test dans les locaux du service de maintenance)
-plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)
-
-Sites en mer et sites étrangers :
-plage 100.***.*** à 199.***.*** : sites en mer
-plage 200.***.*** à 899.***.*** : sites étrangers
-
-Exemples : 
-200.***.*** R.F.A
-201.***.*** Bénélux
-202.***.*** Royaume Uni
-203.***.*** Espagne
-204.***.*** Italie
-205.***.*** Suisse
-300.***.*** Afrique
-400.***.*** Asie
-500.***.*** Amérique
-600.***.*** Océanie
-
-2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
+> *Description : Identifiant unique du site météorologique. Il prend la forme soit d'un code Météo-France (METEOFRANCE), soit d'un code de l'Organisation mondiale de la météo (OMM).  1) Le code Météo-France est un identifiant numérique de 9 chiffres, attribué selon les règles ci-dessous. Sites fixes du territoire français (outre-mer inclus) +  Andorre et Monaco : plage 001.***.*** à 099.***.*** :   L’identifiant est alors construit sur la base du numéro de département, du code INSEE de la commune et du rang du site dans la commune. La notion de département est étendue aux territoires d’outre-mer et collectivités territoriales « Tom » ainsi qu’à l’Andorre et à Monaco. Le tableau suivant résume les modalités de construction de l’identifiant. Précisons que les colonnes « département » et « commune » correspondent par ailleurs aux valeurs que prennent respectivement les champs département et commune dans diverses tables de métadonnées.  	Métropole	Dom	Tom, Taaf et Collectivités territoriales	Andorre et  Monaco	 N°département	 2 chiffres : dd ex. 33 Gironde	3 chiffres : 97d ex. 972 Martinique       973 Guyane       974 Réunion      	3 chiffres : 98d ex. 988 N. Calédonie       985 Mayotte       984 Taaf 	2 chiffres : 99 	 N°commune	 3 chiffres : ccc ex. 281 Bordeaux	2 chiffres : cc ex. 04 Kourou	2 chiffres : cc ex.18 Nouméa      08 Mayotte	3 chiffres : ccc ex. 130 Andorre 138 Monaco	 N° d’ordre ou rang du site dans la commune(*)	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	3 chiffres : ooo ex.  001	 Identifiant	0ddcccooo	097dccooo	098dcc000	099cccooo	  (*)En fonction de la plage dans laquelle il se situe, le rang correspond à plusieurs sortes de sites : de 001 à 399 : postes climatologiques du réseau d’état, de 400 à 499 : postes à vocation nivo-météorologiques, de 500 à 599 : sites particuliers n’envoyant pas de données, de 600 à 699 : points servant à une prévision par adaptation statistique, de 700 à 799 : radars profileurs  de 800 à 899 : sites en double  de 900 à 999 : postes SNCF.  Site fictif  (site en test dans les locaux du service de maintenance) plage ddd.000.001 à ddd.000.999  (ddd : n° de département ou 000 pour Dclim)  Sites en mer et sites étrangers : plage 100.***.*** à 199.***.*** : sites en mer plage 200.***.*** à 899.***.*** : sites étrangers  Exemples :  200.***.*** R.F.A 201.***.*** Bénélux 202.***.*** Royaume Uni 203.***.*** Espagne 204.***.*** Italie 205.***.*** Suisse 300.***.*** Afrique 400.***.*** Asie 500.***.*** Amérique 600.***.*** Océanie  2) Le code OMM est un code numérique entier sur 5 chiffres. Les 2 premiers sont un code pays (07 pour la France), les 3 autres un numéro d'ordre.*<br>
 - Valeur obligatoire
 
 </details>
