@@ -479,5 +479,10 @@
       <link>https://schema.data.gouv.fr/Pierlou/test-schema-hydrometrie</link>
       <description>Schema update on 2024-08-27: 0.1.0 for Pierlou/test-schema-hydrometrie</description>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.16.0 to 0.17.0)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2024-08-30: 0.16.0 to 0.17.0 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

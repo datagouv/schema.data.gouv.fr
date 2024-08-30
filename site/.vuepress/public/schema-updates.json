@@ -782,5 +782,13 @@
                 "version": "0.1.0"
             }
         ]
+    },
+    "2024-08-30": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.16.0 => 0.17.0"
+            }
+        ]
     }
 }
