@@ -826,5 +826,13 @@
                 "version": "0.16.0 => 0.17.0"
             }
         ]
+    },
+    "2024-08-31": {
+        "new_version": [
+            {
+                "schema_name": "cnigfr/schema-servitudes-utilite-publique",
+                "version": "1.1.1 => 1.1.2"
+            }
+        ]
     }
 }
