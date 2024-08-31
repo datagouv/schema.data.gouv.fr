@@ -1,3 +1,10 @@
+### 2024-08-31
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-servitudes-utilite-publique](/cnigfr/schema-servitudes-utilite-publique/)** : <span style="color:red;">1.1.1</span> => <span style="color:green;">1.1.2</span><br>
+
+---
+
 ### 2024-08-30
 
 #### Montée de version:

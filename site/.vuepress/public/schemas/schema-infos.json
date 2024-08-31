@@ -2741,9 +2741,15 @@
                     "README.md"
                 ],
                 "schema_url": "/cnigfr/schema-servitudes-utilite-publique/1.1.1/schema.yml"
+            },
+            "1.1.2": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/schema-servitudes-utilite-publique/1.1.2/schema.yml"
             }
         },
-        "latest": "1.1.1"
+        "latest": "1.1.2"
     },
     "cnigfr/schema-sites-economiques": {
         "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",

@@ -2259,6 +2259,10 @@
                 {
                     "version_name": "1.1.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-servitudes-utilite-publique/1.1.1/schema.yml"
+                },
+                {
+                    "version_name": "1.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-servitudes-utilite-publique/1.1.2/schema.yml"
                 }
             ],
             "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",
