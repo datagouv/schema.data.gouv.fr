@@ -798,5 +798,13 @@
                 "version": "1.1.1 => 1.1.2"
             }
         ]
+    },
+    "2024-09-13": {
+        "new_schema": [
+            {
+                "schema_name": "datagouv/schema-declaration-biens-valorisation",
+                "version": "0.1.0"
+            }
+        ]
     }
 }

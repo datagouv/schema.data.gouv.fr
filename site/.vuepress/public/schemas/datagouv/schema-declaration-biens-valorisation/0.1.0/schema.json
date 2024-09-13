@@ -1,0 +1,184 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "declaration-biens-valorisation",
+   "title": "Schéma de déclaration de l'acquisition de biens issus de la valorisation",
+   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées.",
+   "keywords": [
+      "valorisation",
+      "réemploi",
+      "recyclage",
+      "réutilisation"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/datagouv/schema-declaration-biens-valorisation",
+   "path": "https://github.com/datagouv/schema-declaration-biens-valorisation/raw/v0.1.0/schema.json",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://github.com/datagouv/schema-declaration-biens-valorisation/raw/v0.1.0/exemple-valide.csv"
+      }
+   ],
+   "sources": [
+      {
+         "title": "Arrêté du […] fixant les modalités de déclaration de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées",
+         "path": ""
+      }
+   ],
+   "created": "2024-07-24",
+   "lastModified": "2024-07-24",
+   "version": "v0.1.0",
+   "contributors": [
+      {
+         "title": "Pierlou Ramade",
+         "email": "pierlou.ramade@data.gouv.fr",
+         "organisation": "DINUM",
+         "role": "author"
+      }
+   ],
+   "fields": [
+      {
+         "name": "annee",
+         "description": "Année civile des dépenses.",
+         "example": 2024,
+         "type": "year",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "siret",
+         "description": "N° SIRET de l'organisme acheteur (14 chiffres)",
+         "example": "13002526500013",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "pattern": "^\\d{14}$"
+         }
+      },
+      {
+         "name": "raison_sociale",
+         "description": "Raison sociale de l'organisme acheteur",
+         "example": "DINUM",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "type_produit_acquis",
+         "description": "Produits ou catégories de produits acquis",
+         "example": "Mobilier urbain",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "Produits textiles à l'exception des équipements de protection individuels",
+               "Matériel informatique et téléphonie",
+               "Matériel de reprographie et d'impression",
+               "Consommables d'impression",
+               "Papier",
+               "Fournitures de bureau",
+               "Engins de transport et pièces détachées",
+               "Véhicules et pièces détachées",
+               "Mobilier et aménagement d'intérieur",
+               "Mobilier urbain",
+               "Equipements de collecte de déchets",
+               "Bocaux et flacons",
+               "Articles et équipement sportifs",
+               "Matériel d'entretien des espaces verts",
+               "Bâtiments modulaires ou préfabriqués",
+               "Gros électroménager, y compris appareils professionnels",
+               "Jeux et jouets"
+            ]
+         }
+      },
+      {
+         "name": "montant_total",
+         "description": "Montant total HT des dépenses en euros sur l'année",
+         "example": 15000,
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "montant_valorisation_et_don",
+         "description": "Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année",
+         "example": 5000,
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "montant_produits_issus_don",
+         "description": "Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'annexe de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année",
+         "example": 1000,
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "montant_produits_recycles",
+         "description": "Montant HT des dépenses associées à l'acquisition de produits intégrant des matières recyclées en euros sur l'année",
+         "example": 1500,
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "pourcent_valorisation",
+         "description": "% issu du réemploi ou de la réutilisation ou intégrant des matières recyclées par rapport au montant total",
+         "example": 25.2,
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": 0,
+            "maximum": 100
+         }
+      },
+      {
+         "name": "pourcent_reemploi_reutilisation",
+         "description": "% issu du réemploi ou de la réutilisation par rapport au montant total",
+         "example": 13.1,
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": 0,
+            "maximum": 100
+         }
+      },
+      {
+         "name": "pourcent_don",
+         "description": "% issu du don",
+         "example": 8.4,
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": 0,
+            "maximum": 100
+         }
+      },
+      {
+         "name": "pourcent_matieres_recyclees",
+         "description": "% issu de l'intégration de matières recyclées par rapport au montant total",
+         "example": 7.4,
+         "type": "number",
+         "constraints": {
+            "required": true,
+            "minimum": 0,
+            "maximum": 100
+         }
+      }
+   ]
+}

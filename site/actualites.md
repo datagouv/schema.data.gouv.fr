@@ -1,3 +1,10 @@
+### 2024-09-13
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-declaration-biens-valorisation](/datagouv/schema-declaration-biens-valorisation/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2024-08-31
 
 #### Montée de version:
