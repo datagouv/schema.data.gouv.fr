@@ -181,3 +181,9 @@ scdl/prenoms:
 scdl/subventions:
   consolidate: false
   publication: false
+etalab/schema-indice-reparabilite:
+  consolidate: true
+  drop_versions:
+  - 0.1.0
+  - 0.1.1
+  publication: true
