@@ -83,9 +83,12 @@ etalab/schema-inclusion-numerique:
   consolidate: false
   publication: false
 etalab/schema-indice-reparabilite:
-  consolidate: false
-  search_words:
-  - "Sch\xE9ma indice de r\xE9parabilit\xE9"
+  consolidate: true
+  consolidated_dataset_id: 66e93c3609e8e1084058b1b4
+  drop_versions:
+  - 0.1.0
+  - 0.1.1
+  publication: true
 etalab/schema-irve-dynamique:
   consolidate: false
   publication: false
@@ -181,9 +184,3 @@ scdl/prenoms:
 scdl/subventions:
   consolidate: false
   publication: false
-etalab/schema-indice-reparabilite:
-  consolidate: true
-  drop_versions:
-  - 0.1.0
-  - 0.1.1
-  publication: true
