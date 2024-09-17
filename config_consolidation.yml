@@ -88,6 +88,9 @@ etalab/schema-indice-reparabilite:
   drop_versions:
   - 0.1.0
   - 0.1.1
+  latest_resource_ids:
+    0.1.2: 60be0572-1ba9-4cad-95e0-bfb32fd20d70
+    latest: b0fddb1d-7032-4e30-a055-9d923e94ce59
   publication: true
 etalab/schema-irve-dynamique:
   consolidate: false
