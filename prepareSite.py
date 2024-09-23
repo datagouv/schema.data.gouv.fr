@@ -15,7 +15,7 @@ folder_to_remove.append('./site/.vuepress/public/schemas')
 for folder in folder_to_remove:
     if os.path.exists(folder):
         shutil.rmtree(folder)
-    os.mkdir(folder)    
+    os.mkdir(folder)
 
 
 def getListOfFiles(dirName):
@@ -32,14 +32,15 @@ def getListOfFiles(dirName):
             allFiles = allFiles + getListOfFiles(fullPath)
         else:
             allFiles.append(fullPath)
-                
+
     return allFiles
+
 
 def find_md_links(md):
     """Returns dict of links in markdown:
     'regular': [foo](some.url)
     'footnotes': [foo][3]
-    
+
     [3]: some.url
     """
     # https://stackoverflow.com/a/30738268/2755116
@@ -53,9 +54,11 @@ def find_md_links(md):
     footnote_urls = dict(FOOTNOTE_LINK_URL_RE.findall(md))
 
     footnotes_linking = []
-        
+
     for key in footnote_links.keys():
-        footnotes_linking.append((footnote_links[key], footnote_urls[footnote_links[key]]))
+        footnotes_linking.append(
+            (footnote_links[key], footnote_urls[footnote_links[key]])
+        )
 
     return links
 
@@ -63,61 +66,80 @@ def find_md_links(md):
 def get_contributors(url):
 
     parse_url = parse.urlsplit(url)
-    if('github.com' in parse_url.netloc):
-        api_url =  parse_url.scheme+'://api.github.com/repos/'+parse_url.path[1:].replace('.git','')+'/contributors'
+    if 'github.com' in parse_url.netloc:
+        api_url = (
+            parse_url.scheme+'://api.github.com/repos/'
+            + parse_url.path[1:].replace('.git', '')+'/contributors'
+        )
     else:
-        api_url =  parse_url.scheme+'://'+parse_url.netloc+'/api/v4/projects/'+parse_url.path[1:].replace('/','%2F').replace('.git','')+'/repository/contributors'
+        api_url = (
+            parse_url.scheme+'://'+parse_url.netloc+'/api/v4/projects/'
+            + parse_url.path[1:].replace('/', '%2F').replace('.git', '')
+            + '/repository/contributors'
+        )
     try:
         r = requests.get(api_url)
         return len(r.json())
-    except:
+    except Exception:
         return None
-        
 
 
 allfiles = getListOfFiles('../aggregateur/data/')
 
 for af in allfiles:
-    if(af.split('.')[-1] == 'md'):
-        os.makedirs(os.path.dirname(af.replace('../aggregateur/data','./site')), exist_ok=True)
-        shutil.copy(af, af.replace('../aggregateur/data','./site'))
-        with open(af.replace('../aggregateur/data','./site'), 'r') as file:
+    if af.split('.')[-1] == 'md':
+        os.makedirs(
+            os.path.dirname(af.replace('../aggregateur/data', './site')),
+            exist_ok=True
+        )
+        shutil.copy(af, af.replace('../aggregateur/data', './site'))
+        with open(af.replace('../aggregateur/data', './site'), 'r') as file:
             data = file.read()
             data = '---'.join(data.split('---')[2:])
             data = "<MenuSchema />"+data
             # Exception scdl Budget
             data = data.replace('<DocumentBudgetaire>', 'DocumentBudgetaire')
-            if(af.split('/')[-1] == 'documentation.md'):
+            if af.split('/')[-1] == 'documentation.md':
                 links = find_md_links(data)
                 for (name, link) in links:
-                    if(link.startswith('#')):
+                    if link.startswith('#'):
                         newlink = link.lower()
-                        newlink = newlink.replace(' ','-')
-                        newlink = newlink.replace('_','-')
+                        newlink = newlink.replace(' ', '-')
+                        newlink = newlink.replace('_', '-')
                         newlink = unidecode(newlink, "utf-8")
-                        newlink = newlink.replace('---','-')
-                        data = data.replace(link,newlink)
-            
-            fin = open(af.replace('../aggregateur/data','./site'), "wt")
+                        newlink = newlink.replace('---', '-')
+                        data = data.replace(link, newlink)
+
+            fin = open(af.replace('../aggregateur/data', './site'), "wt")
             fin.write(data)
     else:
-        os.makedirs(os.path.dirname(af.replace('../aggregateur/data','./site/.vuepress/public/schemas')), exist_ok=True)
-        shutil.copy(af, af.replace('../aggregateur/data','./site/.vuepress/public/schemas'))
+        os.makedirs(
+            os.path.dirname(af.replace('../aggregateur/data', './site/.vuepress/public/schemas')),
+            exist_ok=True
+        )
+        shutil.copy(
+            af,
+            af.replace('../aggregateur/data', './site/.vuepress/public/schemas')
+        )
 
-shutil.copy('../aggregateur/data/schemas.json', './site/.vuepress/public/schemas.json')
+shutil.copy(
+    '../aggregateur/data/schemas.json',
+    './site/.vuepress/public/schemas.json'
+)
 
-shutil.copy('../aggregateur/data/schemas.yml', './site/.vuepress/public/schemas.yml')
+shutil.copy(
+    '../aggregateur/data/schemas.yml',
+    './site/.vuepress/public/schemas.yml'
+)
 with open("./site/.vuepress/public/schemas.yml", 'r') as stream:
     data_loaded = yaml.safe_load(stream)
 
-
 schemas = glob.glob("./site/*/*")
-
 
 mydict = {}
 stats = {}
 for s in schemas:
-    r = requests.get('https://www.data.gouv.fr/api/1/datasets/?schema='+s.split('./site/')[1])
+    r = requests.get('https://www.data.gouv.fr/api/1/datasets/?schema=' + s.split('./site/')[1])
     stats[s.split('./site/')[1]] = {}
     stats[s.split('./site/')[1]]['dgv_resources'] = r.json()['total']
     stats[s.split('./site/')[1]]['title'] = data_loaded[s.split('./site/')[1]]['title']
@@ -129,25 +151,26 @@ for s in schemas:
         mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['pages'] = []
         pages = glob.glob(sub+"/*")
         for p in pages:
-           mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['pages'].append(p.split(sub+"/")[1]) 
+            mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['pages'].append(p.split(sub+"/")[1])
         for schema_info in data_loaded[s.split('./site/')[1]]['schemas']:
-            if(sub.split(s+"/")[1] in schema_info['versions']):
+            if sub.split(s+"/")[1] in schema_info['versions']:
                 mydict[s.split('./site/')[1]]['versions'][sub.split(s+"/")[1]]['schema_url'] = '/'+s.split('./site/')[1]+'/'+sub.split(s+"/")[1]+'/'+schema_info['path']
-        if(sub.split(s+"/")[1] > max):
+        if sub.split(s+"/")[1] > max:
             max = sub.split(s+"/")[1]
     mydict[s.split('./site/')[1]]['latest'] = max
     mydict[s.split('./site/')[1]]['homepage'] = data_loaded[s.split('./site/')[1]]['homepage']
 
-    
-    stats[s.split('./site/')[1]]['contributors'] = get_contributors(data_loaded[s.split('./site/')[1]]['homepage'])
+    stats[s.split('./site/')[1]]['contributors'] = get_contributors(
+        data_loaded[s.split('./site/')[1]]['homepage']
+    )
 
     mydict[s.split('./site/')[1]]['email'] = data_loaded[s.split('./site/')[1]]['email']
     mydict[s.split('./site/')[1]]['external_tool'] = data_loaded[s.split('./site/')[1]]['external_tool']
     mydict[s.split('./site/')[1]]['external_doc'] = data_loaded[s.split('./site/')[1]]['external_doc']
     mydict[s.split('./site/')[1]]['labels'] = data_loaded[s.split('./site/')[1]]['labels']
     mydict[s.split('./site/')[1]]['type'] = data_loaded[s.split('./site/')[1]]['type']
-    shutil.copy(s+"/"+max+"/README.md",s+"/"+"README.md")
-    shutil.copy(s+"/"+max+"/README.md",s+"/"+"latest.md")
+    shutil.copy(s+"/"+max+"/README.md", s+"/"+"README.md")
+    shutil.copy(s+"/"+max+"/README.md", s+"/"+"latest.md")
     os.makedirs(s+"/latest/", exist_ok=True)
     files = glob.glob(s+"/"+max+"/*")
     for f in files:
@@ -158,15 +181,12 @@ for s in schemas:
 schv = glob.glob("./site/*/*/*/*.md")
 
 for s in schv:
-    if(s.split('/')[-1] == 'README.md'):
-        shutil.copy(s, s.replace('/'+s.split('/')[-1],'')+'.md')
-
-
+    if s.split('/')[-1] == 'README.md':
+        shutil.copy(s, s.replace('/'+s.split('/')[-1], '')+'.md')
 
 
 with open('./site/.vuepress/public/schema-infos.json', 'w') as fp:
     json.dump(mydict, fp,  indent=4)
-
 
 
 with open("../aggregateur/data/issues.yml", 'r') as stream:
@@ -183,4 +203,7 @@ with open("../aggregateur/data/issues.yml", 'r') as stream:
 if os.path.isfile('../api/recommendations.json'):
     if os.path.isfile('../site/site/.vuepress/public/api/recommendations.json'):
         os.remove('../site/site/.vuepress/public/api/recommendations.json')
-    shutil.copy('../api/recommendations.json','../site/site/.vuepress/public/api/recommendations.json')
+    shutil.copy(
+        '../api/recommendations.json',
+        '../site/site/.vuepress/public/api/recommendations.json'
+    )
