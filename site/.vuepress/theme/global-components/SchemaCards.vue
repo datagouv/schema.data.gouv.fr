@@ -110,16 +110,16 @@
             <div class="box-content2">{{ truncateText(schema.description,100) }}</div>
             <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
             {{ messageSchema }}
-            <span v-if="schema.schemaType === 'tableschema'" class="statutSelected adopteSelected">
+            <span v-if="schema.schema_type === 'tableschema'" class="statutSelected adopteSelected">
               TableSchema
             </span>
-            <span v-if="schema.schemaType === 'datapackage'" class="statutSelected publieSelected">
+            <span v-if="schema.schema_type === 'datapackage'" class="statutSelected publieSelected">
               Data Package
             </span>
-            <span v-if="schema.schemaType === 'jsonschema'" class="statutSelected constructionSelected">
+            <span v-if="schema.schema_type === 'jsonschema'" class="statutSelected constructionSelected">
               JsonSchema
             </span>
-            <span v-if="schema.schemaType === 'other'" class="statutSelected investigationSelected">
+            <span v-if="schema.schema_type === 'other'" class="statutSelected investigationSelected">
               Autre
             </span>
             <span v-if="schema.schemaStatus === 'Adopté'" class="statutSelected adopteSelected">
@@ -225,6 +225,7 @@ export default {
     
 
     dataSchemas.schemas.forEach((s) => {
+      s.schemaStatus = 'Publié'
       for(var key in datafile.references) {
         if(key == s.name){
           if(datafile.references[key]['dgv_resources'] >= 3){
