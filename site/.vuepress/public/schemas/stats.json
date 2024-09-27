@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1145,
+            "dgv_resources": 1144,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 118,
+            "dgv_resources": 120,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -140,7 +140,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 50,
+            "dgv_resources": 51,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 55,
+            "dgv_resources": 56,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -240,7 +240,7 @@
             "contributors": 10
         },
         "etalab/schema-zfe": {
-            "dgv_resources": 15,
+            "dgv_resources": 16,
             "title": "Zone \u00e0 Faibles Emissions",
             "contributors": 2
         },
@@ -255,7 +255,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 510,
+            "dgv_resources": 536,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -305,7 +305,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 17,
+            "dgv_resources": 19,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         },
