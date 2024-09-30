@@ -1,7 +1,7 @@
 irve:
   url: https://github.com/etalab/schema-irve.git
   type: datapackage
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve
   labels:
     - Socle Commun des Données Locales
@@ -42,7 +42,7 @@ subventions:
 covoiturage:
   url: https://github.com/etalab/schema-lieux-covoiturage.git
   type: tableschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   external_tool: https://contribuer.transport.data.gouv.fr
   labels:
     - transport.data.gouv.fr
@@ -54,7 +54,7 @@ infos-travaux:
 stationnement:
   url: https://github.com/etalab/schema-stationnement.git
   type: tableschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   labels:
     - transport.data.gouv.fr
   consolidation: 5ea1add4a5a7dac3af82310a
@@ -83,7 +83,7 @@ arbres_urbains:
 amenagements-cyclables:
   url: https://github.com/etalab/schema-amenagements-cyclables
   type: jsonschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   external_tool: https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools
   external_doc: https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables
   labels:
@@ -92,7 +92,7 @@ amenagements-cyclables:
 stationnement-cyclable:
   url: https://github.com/etalab/schema-stationnement-cyclable
   type: tableschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable
   labels:
     - transport.data.gouv.fr
@@ -143,7 +143,7 @@ datatourisme:
 schema-zfe:
   url: https://github.com/etalab/schema-zfe
   type: jsonschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions
   consolidation: 625438b890bf88454b283a55
   labels:
@@ -171,17 +171,17 @@ itineraire-randonnee:
 emprise-stationnement-voirie:
   url: https://github.com/macaron-ai/onstreet-parking-schema.git
   type: jsonschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
 passage-a-niveau:
   url: https://github.com/etalab/schema-passage-a-niveau
   type: tableschema
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   labels:
     - transport.data.gouv.fr
 comptage-mobilite:
   url: https://github.com/etalab/schema-comptage-mobilites
   type: datapackage
-  email: contact@transport.beta.gouv.fr
+  email: contact@transport.data.gouv.fr
   external_doc: https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites
   labels:
     - transport.data.gouv.fr
