@@ -224,7 +224,7 @@ export default {
         window.location.href = window.location.origin + '/schemas' + this.schema_infos['versions'][this.version]['schema_url']
       },
       gotoExternalLink(link){
-        window.location.href = link
+        window.open(link, '_blank')
       },
       changeVersion(){
           let link = '/'+this.schema+'/'+this.optionSelect+'/'
