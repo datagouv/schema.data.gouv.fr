@@ -72,18 +72,18 @@
         <div @mouseleave="hoverType = false" @mouseover="hoverType= true" class="titleFilter">Filtrer par type de standard :</div>
 
         <div @click="selectType('Tous')" v-bind:class="typeSelected === 'Tous' ? 'statutSelected tousSelected' : 'statutNotSelected tousNotSelected'">Tous</div>
-        <div  @click="selectType('tableschema')" v-bind:class="typeSelected === 'tableschema' ? 'statutSelected adopteSelected' : 'statutNotSelected tableschemaNotSelected'">TableSchema</div>
+        <div  @click="selectType('tableschema')" v-bind:class="typeSelected === 'tableschema' ? 'statutSelected adopteSelected' : 'statutNotSelected tableschemaNotSelected'">Table Schema</div>
         <div  @click="selectType('datapackage')" v-bind:class="typeSelected === 'datapackage' ? 'statutSelected publieSelected' : 'statutNotSelected datapackageNotSelected'">Data Package</div>
-        <div  @click="selectType('jsonschema')" v-bind:class="typeSelected === 'jsonschema' ? 'statutSelected constructionSelected' : 'statutNotSelected jsonschemaNotSelected'">JsonSchema</div>
+        <div  @click="selectType('jsonschema')" v-bind:class="typeSelected === 'jsonschema' ? 'statutSelected constructionSelected' : 'statutNotSelected jsonschemaNotSelected'">JSON Schema</div>
         <div  @click="selectType('other')" v-bind:class="typeSelected === 'other' ? 'statutSelected  investigationSelected' : 'statutNotSelected otherSelected'">Autres</div>
 
       </div>
       <div v-if="hoverType" class='onTitleHoverStatut'>
         Sélectionner un standard pour filtrer les schémas disponibles selon leur état :
         <ul>
-          <li>TableSchema : Standardisation de fichiers tabulaires (https://specs.frictionlessdata.io//table-schema/).</li>
-          <li>Data Package : Groupement de plusieurs TableSchemas (modèle de données).</li>
-          <li>JsonSchema : Standardisation d'un fichier en arborescence (https://json-schema.org/).</li>
+          <li>Table Schema : Standardisation de fichiers tabulaires (https://specs.frictionlessdata.io/table-schema/).</li>
+          <li>Data Package : Groupement de plusieurs Table Schemas (modèle de données).</li>
+          <li>JSON Schema : Standardisation d'un fichier en arborescence (https://json-schema.org/).</li>
           <li>Autres standards, ou standards non retranscrits techniquement.</li>
         </ul>
       </div>
@@ -111,13 +111,13 @@
             <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
             {{ messageSchema }}
             <span v-if="schema.schema_type === 'tableschema'" class="statutSelected adopteSelected">
-              TableSchema
+              Table Schema
             </span>
             <span v-if="schema.schema_type === 'datapackage'" class="statutSelected publieSelected">
               Data Package
             </span>
             <span v-if="schema.schema_type === 'jsonschema'" class="statutSelected constructionSelected">
-              JsonSchema
+              JSON Schema
             </span>
             <span v-if="schema.schema_type === 'other'" class="statutSelected investigationSelected">
               Autre
