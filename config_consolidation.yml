@@ -146,6 +146,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   consolidated_dataset_id: 623e08af086bba04517431a3
   documentation_resource_id: 4b3c46ee-2778-4410-ac08-8cd4c606d800
   drop_versions:
+  - 0.1.0
   - 0.1.1
   latest_resource_ids:
     0.1.2: 4f3697c9-c36a-4cee-b887-0adc0b08cd6e
