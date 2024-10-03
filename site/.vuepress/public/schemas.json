@@ -8,7 +8,7 @@
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/latest/schema-statique.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Exemple de fichier IRVE valide",
@@ -51,7 +51,7 @@
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/latest/schema-dynamique.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Exemple de fichier IRVE valide",
@@ -94,7 +94,7 @@
             "description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/datapackage.json",
             "schema_type": "datapackage",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [],
             "labels": [
                 "Socle Commun des Donn\u00e9es Locales",
@@ -375,7 +375,7 @@
             "description": "Sp\u00e9cification des lieux permettant le covoiturage",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Ressource valide",
@@ -480,7 +480,7 @@
             "description": "Sp\u00e9cification des lieux permettant le stationnement en parc",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Ressource valide (CSV)",
@@ -702,7 +702,7 @@
             "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es d'am\u00e9nagements cyclables",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/latest/schema_amenagements_cyclables.json",
             "schema_type": "jsonschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [],
             "labels": [
                 "transport.data.gouv.fr",
@@ -761,7 +761,7 @@
             "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de stationnement cycable.",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Ressource valide (CSV)",
@@ -1181,7 +1181,7 @@
             "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es des Zones \u00e0 Faibles Emissions",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-zfe/latest/schema.json",
             "schema_type": "jsonschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [],
             "labels": [
                 "transport.data.gouv.fr"
@@ -1476,7 +1476,7 @@
             "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es d'emprises de stationnement",
             "schema_url": "https://schema.data.gouv.fr/schemas/macaron-ai/onstreet-parking-schema/latest/onstreet-parking.schema.json",
             "schema_type": "jsonschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [],
             "labels": [],
             "consolidation_dataset_id": null,
@@ -1496,7 +1496,7 @@
             "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de passages \u00e0 niveau.",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-passage-a-niveau/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Fichier valide (CSV)",
@@ -1524,7 +1524,7 @@
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Fichier valide (CSV)",
@@ -1564,7 +1564,7 @@
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Fichier valide (CSV)",
@@ -1604,7 +1604,7 @@
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/latest/schema.json",
             "schema_type": "tableschema",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [
                 {
                     "title": "Fichier valide (CSV)",
@@ -1644,7 +1644,7 @@
             "description": "Data package contenant 3 sch\u00e9mas : site, channel, measure",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites/latest/datapackage.json",
             "schema_type": "datapackage",
-            "contact": "contact@transport.beta.gouv.fr",
+            "contact": "contact@transport.data.gouv.fr",
             "examples": [],
             "labels": [
                 "transport.data.gouv.fr"
