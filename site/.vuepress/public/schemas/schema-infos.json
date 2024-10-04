@@ -994,9 +994,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-amenagements-cyclables/0.3.4/schema_amenagements_cyclables.json"
+            },
+            "0.3.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-amenagements-cyclables/0.3.5/schema_amenagements_cyclables.json"
             }
         },
-        "latest": "0.3.4"
+        "latest": "0.3.5"
     },
     "etalab/schema-stationnement-cyclable": {
         "homepage": "https://github.com/etalab/schema-stationnement-cyclable",

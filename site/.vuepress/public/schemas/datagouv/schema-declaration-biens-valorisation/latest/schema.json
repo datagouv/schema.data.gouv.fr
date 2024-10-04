@@ -2,12 +2,13 @@
    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
    "name": "declaration-biens-valorisation",
    "title": "Schéma de déclaration de l'acquisition de biens issus de la valorisation",
-   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées.",
+   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation, de dons, ou intégrant des matières recyclées.",
    "keywords": [
       "valorisation",
       "réemploi",
       "recyclage",
-      "réutilisation"
+      "réutilisation",
+      "don"
    ],
    "countryCode": "FR",
    "homepage": "https://github.com/datagouv/schema-declaration-biens-valorisation",
@@ -33,13 +34,18 @@
       }
    ],
    "created": "2024-07-24",
-   "lastModified": "2024-07-24",
+   "lastModified": "2024-10-04",
    "version": "v0.1.0",
    "contributors": [
       {
          "title": "Pierlou Ramade",
          "email": "pierlou.ramade@data.gouv.fr",
          "organisation": "DINUM",
+         "role": "author"
+      },
+      {
+         "title": "Marine Weber",
+         "organisation": "CGDD",
          "role": "author"
       }
    ],
@@ -102,7 +108,7 @@
       },
       {
          "name": "montant_total",
-         "description": "Montant total HT des dépenses en euros sur l'année",
+         "description": "Montant total HT des dépenses en euros sur l'année pour le type de produit considéré.",
          "example": 15000,
          "type": "number",
          "constraints": {
@@ -111,7 +117,7 @@
       },
       {
          "name": "montant_valorisation_et_don",
-         "description": "Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année",
+         "description": "Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année, pour le type de produit considéré.",
          "example": 5000,
          "type": "number",
          "constraints": {
@@ -120,7 +126,7 @@
       },
       {
          "name": "montant_produits_issus_don",
-         "description": "Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'annexe de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année",
+         "description": "Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'annexe de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année, pour le type de produit considéré.",
          "example": 1000,
          "type": "number",
          "constraints": {
@@ -129,7 +135,7 @@
       },
       {
          "name": "montant_produits_recycles",
-         "description": "Montant HT des dépenses associées à l'acquisition de produits intégrant des matières recyclées en euros sur l'année",
+         "description": "Montant HT des dépenses associées à l'acquisition de produits intégrant des matières recyclées en euros sur l'année, pour le type de produit considéré.",
          "example": 1500,
          "type": "number",
          "constraints": {
@@ -137,47 +143,11 @@
          }
       },
       {
-         "name": "pourcent_valorisation",
-         "description": "% issu du réemploi ou de la réutilisation ou intégrant des matières recyclées par rapport au montant total",
-         "example": 25.2,
-         "type": "number",
+         "name": "commentaires",
+         "description": "Commentaires éventuels sur la dépense considérée",
+         "type": "string",
          "constraints": {
-            "required": true,
-            "minimum": 0,
-            "maximum": 100
-         }
-      },
-      {
-         "name": "pourcent_reemploi_reutilisation",
-         "description": "% issu du réemploi ou de la réutilisation par rapport au montant total",
-         "example": 13.1,
-         "type": "number",
-         "constraints": {
-            "required": true,
-            "minimum": 0,
-            "maximum": 100
-         }
-      },
-      {
-         "name": "pourcent_don",
-         "description": "% issu du don",
-         "example": 8.4,
-         "type": "number",
-         "constraints": {
-            "required": true,
-            "minimum": 0,
-            "maximum": 100
-         }
-      },
-      {
-         "name": "pourcent_matieres_recyclees",
-         "description": "% issu de l'intégration de matières recyclées par rapport au montant total",
-         "example": 7.4,
-         "type": "number",
-         "constraints": {
-            "required": true,
-            "minimum": 0,
-            "maximum": 100
+            "required": false
          }
       }
    ]

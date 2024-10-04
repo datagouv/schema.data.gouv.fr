@@ -4,7 +4,7 @@
 
 Schéma de déclaration de l'acquisition de biens issus de la valorisation
 
-Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées.
+Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation, de dons, ou intégrant des matières recyclées.
 
 - Schéma créé le : 24/07/2024
 - Site web : https://github.com/datagouv/schema-declaration-biens-valorisation
@@ -25,10 +25,7 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 | [montant_valorisation_et_don](#propriete-montant-valorisation-et-don) | nombre réel  | Oui |
 | [montant_produits_issus_don](#propriete-montant-produits-issus-don) | nombre réel  | Oui |
 | [montant_produits_recycles](#propriete-montant-produits-recycles) | nombre réel  | Oui |
-| [pourcent_valorisation](#propriete-pourcent-valorisation) | nombre réel  | Oui |
-| [pourcent_reemploi_reutilisation](#propriete-pourcent-reemploi-reutilisation) | nombre réel  | Oui |
-| [pourcent_don](#propriete-pourcent-don) | nombre réel  | Oui |
-| [pourcent_matieres_recyclees](#propriete-pourcent-matieres-recyclees) | nombre réel  | Oui |
+| [commentaires](#propriete-commentaires) | chaîne de caractères  | Non |
 
 #### Propriété `annee`
 
@@ -75,52 +72,30 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 
 #### Propriété `montant_total`
 
-> *Description : Montant total HT des dépenses en euros sur l'année*<br/>*Exemple : 15000*
+> *Description : Montant total HT des dépenses en euros sur l'année pour le type de produit considéré.*<br/>*Exemple : 15000*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### Propriété `montant_valorisation_et_don`
 
-> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année*<br/>*Exemple : 5000*
+> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 5000*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### Propriété `montant_produits_issus_don`
 
-> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'annexe de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année*<br/>*Exemple : 1000*
+> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'annexe de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 1000*
 - Valeur obligatoire
 - Type : nombre réel
 
 #### Propriété `montant_produits_recycles`
 
-> *Description : Montant HT des dépenses associées à l'acquisition de produits intégrant des matières recyclées en euros sur l'année*<br/>*Exemple : 1500*
+> *Description : Montant HT des dépenses associées à l'acquisition de produits intégrant des matières recyclées en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 1500*
 - Valeur obligatoire
 - Type : nombre réel
 
-#### Propriété `pourcent_valorisation`
+#### Propriété `commentaires`
 
-> *Description : % issu du réemploi ou de la réutilisation ou intégrant des matières recyclées par rapport au montant total*<br/>*Exemple : 25.2*
-- Valeur obligatoire
-- Type : nombre réel
-- Valeur inférieure à : 100
-
-#### Propriété `pourcent_reemploi_reutilisation`
-
-> *Description : % issu du réemploi ou de la réutilisation par rapport au montant total*<br/>*Exemple : 13.1*
-- Valeur obligatoire
-- Type : nombre réel
-- Valeur inférieure à : 100
-
-#### Propriété `pourcent_don`
-
-> *Description : % issu du don*<br/>*Exemple : 8.4*
-- Valeur obligatoire
-- Type : nombre réel
-- Valeur inférieure à : 100
-
-#### Propriété `pourcent_matieres_recyclees`
-
-> *Description : % issu de l'intégration de matières recyclées par rapport au montant total*<br/>*Exemple : 7.4*
-- Valeur obligatoire
-- Type : nombre réel
-- Valeur inférieure à : 100
+> *Description : Commentaires éventuels sur la dépense considérée*
+- Valeur optionnelle
+- Type : chaîne de caractères
