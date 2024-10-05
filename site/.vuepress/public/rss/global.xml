@@ -514,5 +514,10 @@
       <link>https://schema.data.gouv.fr/cnigfr/schema-servitudes-utilite-publique</link>
       <description>Schema update on 2024-08-31: 1.1.1 to 1.1.2 for cnigfr/schema-servitudes-utilite-publique</description>
       <pubDate>Sat, 31 Aug 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-amenagements-cyclables (0.3.4 to 0.3.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables</link>
+      <description>Schema update on 2024-10-05: 0.3.4 to 0.3.5 for etalab/schema-amenagements-cyclables</description>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

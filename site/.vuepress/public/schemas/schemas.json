@@ -749,6 +749,10 @@
                 {
                     "version_name": "0.3.4",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.4/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.5/schema_amenagements_cyclables.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables",

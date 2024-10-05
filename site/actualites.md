@@ -1,3 +1,10 @@
+### 2024-10-05
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-amenagements-cyclables](/etalab/schema-amenagements-cyclables/)** : <span style="color:red;">0.3.4</span> => <span style="color:green;">0.3.5</span><br>
+
+---
+
 ### 2024-08-31
 
 #### Montée de version:
