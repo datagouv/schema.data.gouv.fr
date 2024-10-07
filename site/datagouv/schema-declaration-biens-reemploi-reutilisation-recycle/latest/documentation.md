@@ -22,7 +22,7 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 | [raison_sociale](#propriete-raison-sociale) | chaîne de caractères  | Oui |
 | [type_produit_acquis](#propriete-type-produit-acquis) | chaîne de caractères  | Oui |
 | [montant_total](#propriete-montant-total) | nombre réel  | Oui |
-| [montant_reemploi_et_recycle](#propriete-montant-reemploi-et-recycle) | nombre réel  | Oui |
+| [montant_reemploi_et_reutilisation](#propriete-montant-reemploi-et-reutilisation) | nombre réel  | Oui |
 | [montant_produits_issus_don](#propriete-montant-produits-issus-don) | nombre réel  | Oui |
 | [montant_produits_recycles](#propriete-montant-produits-recycles) | nombre réel  | Oui |
 | [commentaires](#propriete-commentaires) | chaîne de caractères  | Non |
@@ -76,7 +76,7 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 - Valeur obligatoire
 - Type : nombre réel
 
-#### Propriété `montant_reemploi_et_recycle`
+#### Propriété `montant_reemploi_et_reutilisation`
 
 > *Description : Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 5000*
 - Valeur obligatoire

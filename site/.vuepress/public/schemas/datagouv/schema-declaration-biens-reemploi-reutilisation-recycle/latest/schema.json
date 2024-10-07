@@ -115,7 +115,7 @@
          }
       },
       {
-         "name": "montant_reemploi_et_recycle",
+         "name": "montant_reemploi_et_reutilisation",
          "description": "Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année, pour le type de produit considéré.",
          "example": 5000,
          "type": "number",
