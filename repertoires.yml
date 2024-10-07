@@ -341,7 +341,7 @@ sandre-hydrometrie:
   url: https://github.com/Pierlou/test-schema-hydrometrie.git
   type: jsonschema
   email: schema@data.gouv.fr
-declaration-biens-valorisation:
-  url: https://github.com/datagouv/schema-declaration-biens-valorisation.git
+declaration-biens-reemploi-reutilisation-recycle:
+  url: https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git
   type: tableschema
   email: tmp@data.gouv.fr
