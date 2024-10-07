@@ -1,18 +1,17 @@
 {
    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
-   "name": "declaration-biens-valorisation",
-   "title": "Schéma de déclaration de l'acquisition de biens issus de la valorisation",
-   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation, de dons, ou intégrant des matières recyclées.",
+   "name": "schema-declaration-biens-reemploi-reutilisation-recycle",
+   "title": "Schéma de déclaration de l'acquisition de biens issus du réemploi, de la réutilisation ou intégrant des matières recyclées",
+   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées.",
    "keywords": [
-      "valorisation",
       "réemploi",
       "recyclage",
       "réutilisation",
       "don"
    ],
    "countryCode": "FR",
-   "homepage": "https://github.com/datagouv/schema-declaration-biens-valorisation",
-   "path": "https://github.com/datagouv/schema-declaration-biens-valorisation/raw/v0.1.0/schema.json",
+   "homepage": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle",
+   "path": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/raw/v0.1.0/schema.json",
    "licenses": [
       {
          "title": "Etalab Licence Ouverte 2.0",
@@ -24,7 +23,7 @@
       {
          "title": "Fichier valide (CSV)",
          "name": "exemple-valide-csv",
-         "path": "https://github.com/datagouv/schema-declaration-biens-valorisation/raw/v0.1.0/exemple-valide.csv"
+         "path": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/raw/v0.1.0/exemple-valide.csv"
       }
    ],
    "sources": [
@@ -34,7 +33,7 @@
       }
    ],
    "created": "2024-07-24",
-   "lastModified": "2024-10-04",
+   "lastModified": "2024-10-07",
    "version": "v0.1.0",
    "contributors": [
       {
@@ -44,7 +43,7 @@
          "role": "author"
       },
       {
-         "title": "Marine Weber",
+         "title": "Marline Weber",
          "organisation": "CGDD",
          "role": "author"
       }
@@ -116,7 +115,7 @@
          }
       },
       {
-         "name": "montant_valorisation_et_don",
+         "name": "montant_reemploi_et_recycle",
          "description": "Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année, pour le type de produit considéré.",
          "example": 5000,
          "type": "number",

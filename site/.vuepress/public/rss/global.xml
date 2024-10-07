@@ -499,5 +499,15 @@
       <link>https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables</link>
       <description>Schema update on 2024-10-04: 0.3.4 to 0.3.5 for etalab/schema-amenagements-cyclables</description>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - datagouv/schema-declaration-biens-reemploi-reutilisation-recycle (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle</link>
+      <description>Schema update on 2024-10-07: 0.1.0 for datagouv/schema-declaration-biens-reemploi-reutilisation-recycle</description>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Deleted schema - datagouv/schema-declaration-biens-valorisation (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-declaration-biens-valorisation</link>
+      <description>Schema update on 2024-10-07: 0.1.0 for datagouv/schema-declaration-biens-valorisation</description>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
