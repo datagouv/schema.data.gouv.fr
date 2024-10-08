@@ -231,8 +231,8 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - GTIN_EAN
-    - SH4
+    - `GTIN_EAN`
+    - `SH4`
 
 #### Propriété `nom_modele`
 
@@ -246,7 +246,7 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Téléviseur
+    - `Téléviseur`
 
 #### Propriété `id_metteur_sur_le_marche`
 
@@ -261,8 +261,8 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - GLN
-    - SYDEREP
+    - `GLN`
+    - `SYDEREP`
 
 #### Propriété `nom_metteur_sur_le_marche`
 
@@ -464,9 +464,9 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur obligatoire
 - Type : nombre réel
 - Valeurs autorisées : 
-    - 0
-    - 1
-    - 2
+    - `0`
+    - `1`
+    - `2`
 
 #### Propriété `lien_documentation_professionnels`
 
@@ -488,11 +488,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
 
 #### Propriété `etape_demontage_piece_1_liste_2`
 
@@ -500,11 +500,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <8
-    - 10
-    - 12
-    - \>12
-    - Non démontable
+    - `<8`
+    - `10`
+    - `12`
+    - `>12`
+    - `Non démontable`
 
 #### Propriété `nom_piece_2_liste_2`
 
@@ -512,11 +512,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
 
 #### Propriété `etape_demontage_piece_2_liste_2`
 
@@ -524,11 +524,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <8
-    - 10
-    - 12
-    - \>12
-    - Non démontable
+    - `<8`
+    - `10`
+    - `12`
+    - `>12`
+    - `Non démontable`
 
 #### Propriété `nom_piece_3_liste_2`
 
@@ -536,11 +536,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
 
 #### Propriété `etape_demontage_piece_3_liste_2`
 
@@ -548,11 +548,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <8
-    - 10
-    - 12
-    - \>12
-    - Non démontable
+    - `<8`
+    - `10`
+    - `12`
+    - `>12`
+    - `Non démontable`
 
 #### Propriété `nom_piece_4_liste_2`
 
@@ -560,11 +560,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
 
 #### Propriété `etape_demontage_piece_4_liste_2`
 
@@ -572,11 +572,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <8
-    - 10
-    - 12
-    - \>12
-    - Non démontable
+    - `<8`
+    - `10`
+    - `12`
+    - `>12`
+    - `Non démontable`
 
 #### Propriété `nom_piece_5_liste_2`
 
@@ -584,11 +584,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
 
 #### Propriété `etape_demontage_piece_5_liste_2`
 
@@ -596,11 +596,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <8
-    - 10
-    - 12
-    - \>12
-    - Non démontable
+    - `<8`
+    - `10`
+    - `12`
+    - `>12`
+    - `Non démontable`
 
 #### Propriété `nom_piece_detachee_1_reparateur`
 
@@ -608,18 +608,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_1_reparateur`
 
@@ -627,11 +627,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_reparateur`
 
@@ -639,11 +639,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_reparateur`
 
@@ -651,18 +651,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_2_reparateur`
 
@@ -670,11 +670,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_reparateur`
 
@@ -682,11 +682,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_reparateur`
 
@@ -694,18 +694,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_3_reparateur`
 
@@ -713,11 +713,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_reparateur`
 
@@ -725,11 +725,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_reparateur`
 
@@ -737,18 +737,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_4_reparateur`
 
@@ -756,11 +756,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_reparateur`
 
@@ -768,11 +768,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_reparateur`
 
@@ -780,18 +780,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_5_reparateur`
 
@@ -799,11 +799,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_reparateur`
 
@@ -811,11 +811,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_reparateur`
 
@@ -823,18 +823,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_6_reparateur`
 
@@ -842,11 +842,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_reparateur`
 
@@ -854,11 +854,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_reparateur`
 
@@ -866,18 +866,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_7_reparateur`
 
@@ -885,11 +885,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_reparateur`
 
@@ -897,11 +897,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_reparateur`
 
@@ -909,18 +909,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_8_reparateur`
 
@@ -928,11 +928,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_reparateur`
 
@@ -940,11 +940,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_reparateur`
 
@@ -952,18 +952,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_9_reparateur`
 
@@ -971,11 +971,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_reparateur`
 
@@ -983,11 +983,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_reparateur`
 
@@ -995,18 +995,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_10_reparateur`
 
@@ -1014,11 +1014,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_reparateur`
 
@@ -1026,11 +1026,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_reparateur`
 
@@ -1038,18 +1038,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_11_reparateur`
 
@@ -1057,11 +1057,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_reparateur`
 
@@ -1069,11 +1069,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_reparateur`
 
@@ -1081,18 +1081,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_12_reparateur`
 
@@ -1100,11 +1100,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_reparateur`
 
@@ -1112,11 +1112,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_1_producteur`
 
@@ -1124,18 +1124,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_1_producteur`
 
@@ -1143,11 +1143,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_producteur`
 
@@ -1155,11 +1155,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_producteur`
 
@@ -1167,18 +1167,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_2_producteur`
 
@@ -1186,11 +1186,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_producteur`
 
@@ -1198,11 +1198,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_producteur`
 
@@ -1210,18 +1210,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_3_producteur`
 
@@ -1229,11 +1229,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_producteur`
 
@@ -1241,11 +1241,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_producteur`
 
@@ -1253,18 +1253,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_4_producteur`
 
@@ -1272,11 +1272,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_producteur`
 
@@ -1284,11 +1284,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_producteur`
 
@@ -1296,18 +1296,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_5_producteur`
 
@@ -1315,11 +1315,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_producteur`
 
@@ -1327,11 +1327,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_producteur`
 
@@ -1339,18 +1339,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_6_producteur`
 
@@ -1358,11 +1358,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_producteur`
 
@@ -1370,11 +1370,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_producteur`
 
@@ -1382,18 +1382,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_7_producteur`
 
@@ -1401,11 +1401,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_producteur`
 
@@ -1413,11 +1413,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_producteur`
 
@@ -1425,18 +1425,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_8_producteur`
 
@@ -1444,11 +1444,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_producteur`
 
@@ -1456,11 +1456,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_producteur`
 
@@ -1468,18 +1468,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_9_producteur`
 
@@ -1487,11 +1487,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_producteur`
 
@@ -1499,11 +1499,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_producteur`
 
@@ -1511,18 +1511,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_10_producteur`
 
@@ -1530,11 +1530,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_producteur`
 
@@ -1542,11 +1542,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_producteur`
 
@@ -1554,18 +1554,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_11_producteur`
 
@@ -1573,11 +1573,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_producteur`
 
@@ -1585,11 +1585,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_producteur`
 
@@ -1597,18 +1597,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_12_producteur`
 
@@ -1616,11 +1616,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_producteur`
 
@@ -1628,11 +1628,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_1_distributeur`
 
@@ -1640,18 +1640,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_1_distributeur`
 
@@ -1659,11 +1659,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_distributeur`
 
@@ -1671,11 +1671,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_distributeur`
 
@@ -1683,18 +1683,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_2_distributeur`
 
@@ -1702,11 +1702,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_distributeur`
 
@@ -1714,11 +1714,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_distributeur`
 
@@ -1726,18 +1726,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_3_distributeur`
 
@@ -1745,11 +1745,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_distributeur`
 
@@ -1757,11 +1757,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_distributeur`
 
@@ -1769,18 +1769,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_4_distributeur`
 
@@ -1788,11 +1788,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_distributeur`
 
@@ -1800,11 +1800,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_distributeur`
 
@@ -1812,18 +1812,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_5_distributeur`
 
@@ -1831,11 +1831,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_distributeur`
 
@@ -1843,11 +1843,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_distributeur`
 
@@ -1855,18 +1855,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_6_distributeur`
 
@@ -1874,11 +1874,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_distributeur`
 
@@ -1886,11 +1886,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_distributeur`
 
@@ -1898,18 +1898,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_7_distributeur`
 
@@ -1917,11 +1917,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_distributeur`
 
@@ -1929,11 +1929,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_distributeur`
 
@@ -1941,18 +1941,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_8_distributeur`
 
@@ -1960,11 +1960,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_distributeur`
 
@@ -1972,11 +1972,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_distributeur`
 
@@ -1984,18 +1984,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_9_distributeur`
 
@@ -2003,11 +2003,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_distributeur`
 
@@ -2015,11 +2015,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_distributeur`
 
@@ -2027,18 +2027,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_10_distributeur`
 
@@ -2046,11 +2046,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_distributeur`
 
@@ -2058,11 +2058,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_distributeur`
 
@@ -2070,18 +2070,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_11_distributeur`
 
@@ -2089,11 +2089,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_distributeur`
 
@@ -2101,11 +2101,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_distributeur`
 
@@ -2113,18 +2113,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_12_distributeur`
 
@@ -2132,11 +2132,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_distributeur`
 
@@ -2144,11 +2144,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_1_consommateur`
 
@@ -2156,18 +2156,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_1_consommateur`
 
@@ -2175,11 +2175,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_consommateur`
 
@@ -2187,11 +2187,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_consommateur`
 
@@ -2199,18 +2199,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_2_consommateur`
 
@@ -2218,11 +2218,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_consommateur`
 
@@ -2230,11 +2230,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_consommateur`
 
@@ -2242,18 +2242,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_3_consommateur`
 
@@ -2261,11 +2261,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_consommateur`
 
@@ -2273,11 +2273,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_consommateur`
 
@@ -2285,18 +2285,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_4_consommateur`
 
@@ -2304,11 +2304,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_consommateur`
 
@@ -2316,11 +2316,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_consommateur`
 
@@ -2328,18 +2328,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_5_consommateur`
 
@@ -2347,11 +2347,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_consommateur`
 
@@ -2359,11 +2359,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_consommateur`
 
@@ -2371,18 +2371,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_6_consommateur`
 
@@ -2390,11 +2390,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_consommateur`
 
@@ -2402,11 +2402,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_consommateur`
 
@@ -2414,18 +2414,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_7_consommateur`
 
@@ -2433,11 +2433,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_consommateur`
 
@@ -2445,11 +2445,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_consommateur`
 
@@ -2457,18 +2457,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_8_consommateur`
 
@@ -2476,11 +2476,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_consommateur`
 
@@ -2488,11 +2488,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_consommateur`
 
@@ -2500,18 +2500,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_9_consommateur`
 
@@ -2519,11 +2519,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_consommateur`
 
@@ -2531,11 +2531,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_consommateur`
 
@@ -2543,18 +2543,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_10_consommateur`
 
@@ -2562,11 +2562,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_consommateur`
 
@@ -2574,11 +2574,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_consommateur`
 
@@ -2586,18 +2586,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_11_consommateur`
 
@@ -2605,11 +2605,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_consommateur`
 
@@ -2617,11 +2617,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_consommateur`
 
@@ -2629,18 +2629,18 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Barre LED
-    - Sources d'alimentation externes
-    - Sources d'alimentation internes
-    - Carte principale (main board)
-    - Dalle
-    - Cache arrière
-    - Module Wi-Fi
-    - Module Bluetooth
-    - Récepteur Infrarouge (IR)
-    - Haut-parleur
-    - Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)
-    - Télécommande
+    - `Barre LED`
+    - `Sources d'alimentation externes`
+    - `Sources d'alimentation internes`
+    - `Carte principale (main board)`
+    - `Dalle`
+    - `Cache arrière`
+    - `Module Wi-Fi`
+    - `Module Bluetooth`
+    - `Récepteur Infrarouge (IR)`
+    - `Haut-parleur`
+    - `Connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et Blue-Ray)`
+    - `Télécommande`
 
 #### Propriété `delai_jours_piece_detachee_12_consommateur`
 
@@ -2648,11 +2648,11 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_consommateur`
 
@@ -2660,8 +2660,8 @@ Schéma de données pour l'indice de durabilité - téléviseur
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 7
-    - 9
-    - \>11
-    - Non disponible
+    - `<7`
+    - `7`
+    - `9`
+    - `>11`
+    - `Non disponible`

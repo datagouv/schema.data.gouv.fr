@@ -119,8 +119,8 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Autorise
-    - Interdit
+    - `Autorise`
+    - `Interdit`
 
 #### Types de véhicules - Propriété `VEH_TYPES`
 
@@ -227,13 +227,13 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Pair
-    - Impair
-    - Nord
-    - Sud
-    - Est
-    - Ouest
-    - Deux sens
+    - `Pair`
+    - `Impair`
+    - `Nord`
+    - `Sud`
+    - `Est`
+    - `Ouest`
+    - `Deux sens`
 
 #### Durée maximale d'intervention - Propriété `INTERV_DUREE`
 

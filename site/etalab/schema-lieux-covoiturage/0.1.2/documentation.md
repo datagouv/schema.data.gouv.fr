@@ -75,12 +75,12 @@ Spécification des lieux permettant le covoiturage
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Aire de covoiturage
-    - Sortie d'autoroute
-    - Parking
-    - Supermarché
-    - Parking relais
-    - Délaissé routier
+    - `Aire de covoiturage`
+    - `Sortie d'autoroute`
+    - `Parking`
+    - `Supermarché`
+    - `Parking relais`
+    - `Délaissé routier`
 
 #### Propriété `date_maj`
 

@@ -52,23 +52,23 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Produits textiles à l'exception des équipements de protection individuels
-    - Matériel informatique et téléphonie
-    - Matériel de reprographie et d'impression
-    - Consommables d'impression
-    - Papier
-    - Fournitures de bureau
-    - Engins de transport et pièces détachées
-    - Véhicules et pièces détachées
-    - Mobilier et aménagement d'intérieur
-    - Mobilier urbain
-    - Equipements de collecte de déchets
-    - Bocaux et flacons
-    - Articles et équipement sportifs
-    - Matériel d'entretien des espaces verts
-    - Bâtiments modulaires ou préfabriqués
-    - Gros électroménager, y compris appareils professionnels
-    - Jeux et jouets
+    - `Produits textiles à l'exception des équipements de protection individuels`
+    - `Matériel informatique et téléphonie`
+    - `Matériel de reprographie et d'impression`
+    - `Consommables d'impression`
+    - `Papier`
+    - `Fournitures de bureau`
+    - `Engins de transport et pièces détachées`
+    - `Véhicules et pièces détachées`
+    - `Mobilier et aménagement d'intérieur`
+    - `Mobilier urbain`
+    - `Equipements de collecte de déchets`
+    - `Bocaux et flacons`
+    - `Articles et équipement sportifs`
+    - `Matériel d'entretien des espaces verts`
+    - `Bâtiments modulaires ou préfabriqués`
+    - `Gros électroménager, y compris appareils professionnels`
+    - `Jeux et jouets`
 
 #### Propriété `montant_total`
 

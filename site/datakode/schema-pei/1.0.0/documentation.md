@@ -82,10 +82,10 @@ Spécification du modèle de données relatif aux PEI
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - PI
-    - BI
-    - PA
-    - CI
+    - `PI`
+    - `BI`
+    - `PA`
+    - `CI`
 
 #### Précision sur le type de point d’eau incendie défini dans le règlement départemental DECI. Typologie utilisée au niveau local pour caractériser le type de point d’eau - Propriété `type_rd`
 
@@ -99,9 +99,9 @@ Spécification du modèle de données relatif aux PEI
 - Valeur optionnelle
 - Type : nombre réel
 - Valeurs autorisées : 
-    - 80
-    - 100
-    - 150
+    - `80`
+    - `100`
+    - `150`
 
 #### Propriété `diam_cana`
 
@@ -115,13 +115,13 @@ Spécification du modèle de données relatif aux PEI
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - citerne
-    - plan_eau
-    - piscine
-    - puits
-    - cours_eau
-    - reseau_aep
-    - reseau_irrigation
+    - `citerne`
+    - `plan_eau`
+    - `piscine`
+    - `puits`
+    - `cours_eau`
+    - `reseau_aep`
+    - `reseau_irrigation`
 
 #### Statut du point d’eau - Propriété `statut`
 
@@ -129,8 +129,8 @@ Spécification du modèle de données relatif aux PEI
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - public
-    - prive
+    - `public`
+    - `prive`
 
 #### Dans le cas d’un statut privé, nom de l’établissement propriétaire - Propriété `nom_etab`
 
@@ -210,10 +210,10 @@ Spécification du modèle de données relatif aux PEI
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - 01
-    - 05
-    - 10
-    - 99
+    - `01`
+    - `05`
+    - `10`
+    - `99`
 
 #### x en lambert 93 (précision de 2 décimales) - Propriété `x`
 

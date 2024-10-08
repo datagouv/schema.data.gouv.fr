@@ -55,9 +55,9 @@ Spécification du fichier d’échange relatif aux parts de véhicules à faible
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Location, Location-Vente et/ou Crédit-bail de véhicules
-    - Plateforme de livraisons
-    - Centrale de réservation de taxi ou de VTC
+    - `Location, Location-Vente et/ou Crédit-bail de véhicules`
+    - `Plateforme de livraisons`
+    - `Centrale de réservation de taxi ou de VTC`
 
 #### Propriété `naf`
 

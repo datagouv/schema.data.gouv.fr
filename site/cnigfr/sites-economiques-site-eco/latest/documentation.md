@@ -300,8 +300,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence activité commerciale - Propriété `site_voca_commerciale`
 
@@ -309,8 +309,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence activité tertiaire - Propriété `site_voca_tertiaire`
 
@@ -318,8 +318,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence activité artisanale - Propriété `site_voca_artisanale`
 
@@ -327,8 +327,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence activité touristique - Propriété `site_voca_touristique`
 
@@ -336,8 +336,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence activité portuaire - Propriété `site_voca_portuaire`
 
@@ -345,8 +345,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence activité aéroportuaire - Propriété `site_voca_aeroportuaire`
 
@@ -354,8 +354,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence réseau d'eau pluviale - Propriété `reseau_eau_pluviale`
 
@@ -363,8 +363,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence réseau d'eau potable - Propriété `reseau_eau_potable`
 
@@ -372,8 +372,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence réseau d'assainissement - Propriété `reseau_assainissement`
 
@@ -381,8 +381,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence réseau de gaz - Propriété `reseau_gaz`
 
@@ -390,8 +390,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence réseau électrique - Propriété `reseau_electrique`
 
@@ -399,8 +399,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence réseau de fibre optique - Propriété `reseau_fibre_optique`
 
@@ -408,8 +408,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence d’une ITE - Propriété `reseau_fret_ferroviaire`
 
@@ -417,8 +417,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence d’un réseau fluvial - Propriété `reseau_fluvial`
 
@@ -426,8 +426,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### présence de transport en commun - Propriété `desserte_tc`
 
@@ -435,8 +435,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### desserte routière principale - Propriété `desserte_route_nom`
 

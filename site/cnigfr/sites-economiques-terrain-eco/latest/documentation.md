@@ -69,8 +69,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### date d’identification - Propriété `terr_identif_date`
 
@@ -126,8 +126,8 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### nom de l'acquéreur - Propriété `terr_acquereur`
 

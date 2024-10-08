@@ -60,12 +60,12 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Quotidienne
-    - Hebdomadaire
-    - Mensuelle
-    - Annuelle
-    - Trimestrielle
-    - Continue
+    - `Quotidienne`
+    - `Hebdomadaire`
+    - `Mensuelle`
+    - `Annuelle`
+    - `Trimestrielle`
+    - `Continue`
 
 #### Propriété `frequence_affichage`
 
@@ -73,12 +73,12 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Quotidienne
-    - Hebdomadaire
-    - Mensuelle
-    - Annuelle
-    - Trimestrielle
-    - Continue
+    - `Quotidienne`
+    - `Hebdomadaire`
+    - `Mensuelle`
+    - `Annuelle`
+    - `Trimestrielle`
+    - `Continue`
 
 #### Propriété `periode`
 
@@ -104,8 +104,8 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - À la hausse
-    - À la baisse
+    - `À la hausse`
+    - `À la baisse`
 
 #### Propriété `commentaires`
 

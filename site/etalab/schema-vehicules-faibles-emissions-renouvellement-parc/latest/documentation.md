@@ -138,11 +138,11 @@ Spécification des données fixant les termes et modalités de publication du po
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Zone A
-    - Zone B
-    - Zone C
-    - Plusieurs zones
-    - Non concerné
+    - `Zone A`
+    - `Zone B`
+    - `Zone C`
+    - `Plusieurs zones`
+    - `Non concerné`
 
 #### Propriété `nbVP`
 

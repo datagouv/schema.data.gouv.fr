@@ -89,10 +89,10 @@ Spécification du modèle de données relatif aux subventions attribuées par un
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aide en numéraire
-    - aide en nature
-    - aide en numéraire;aide en nature
-    - aide en nature;aide en numéraire
+    - `aide en numéraire`
+    - `aide en nature`
+    - `aide en numéraire;aide en nature`
+    - `aide en nature;aide en numéraire`
 
 #### Conditions de versement de la subvention - Propriété `conditionsVersement`
 

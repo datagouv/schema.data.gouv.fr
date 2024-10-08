@@ -86,25 +86,25 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - friche industrielle
-    - friche commerciale
-    - friche hospitalière
-    - friche agro-industrielle
-    - Friche carrière ou mine
-    - friche militaire
-    - friche d'habitat
-    - friche d'équipement public
-    - friche portuaire
-    - friche aéroportuaire
-    - friche ferroviaire
-    - friche logistique
-    - friche loisir tourisme hôtellerie
-    - friche enseignement
-    - friche cultuelle
-    - mixte
-    - inconnu
-    - autre
-    - sans objet
+    - `friche industrielle`
+    - `friche commerciale`
+    - `friche hospitalière`
+    - `friche agro-industrielle`
+    - `Friche carrière ou mine`
+    - `friche militaire`
+    - `friche d'habitat`
+    - `friche d'équipement public`
+    - `friche portuaire`
+    - `friche aéroportuaire`
+    - `friche ferroviaire`
+    - `friche logistique`
+    - `friche loisir tourisme hôtellerie`
+    - `friche enseignement`
+    - `friche cultuelle`
+    - `mixte`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### adresse du site - Propriété `site_adresse`
 
@@ -143,15 +143,15 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - évacuation des produits dangereux et déchets présents sur le site
-    - interdictions ou limitations d'accès au site
-    - suppression des risques d'incendie et d'explosion
-    - surveillance des effets de l'installation sur son environnement
-    - mesures de gestion de pollution ou restrictions temporaires
-    - existence d'une attestation de mise en sécurité
-    - inconnu
-    - autre
-    - sans objet
+    - `évacuation des produits dangereux et déchets présents sur le site`
+    - `interdictions ou limitations d'accès au site`
+    - `suppression des risques d'incendie et d'explosion`
+    - `surveillance des effets de l'installation sur son environnement`
+    - `mesures de gestion de pollution ou restrictions temporaires`
+    - `existence d'une attestation de mise en sécurité`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### occupation du site - Propriété `site_occupation`
 
@@ -159,14 +159,14 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - totalement inoccupé
-    - partiellement inoccupé
-    - occupation transitoire ou temporaire
-    - occupation illicite supposée
-    - occupation illicite avérée
-    - inconnu
-    - autre
-    - sans objet
+    - `totalement inoccupé`
+    - `partiellement inoccupé`
+    - `occupation transitoire ou temporaire`
+    - `occupation illicite supposée`
+    - `occupation illicite avérée`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### statut du site - Propriété `site_statut`
 
@@ -174,13 +174,13 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - friche potentielle
-    - friche sans projet
-    - friche avec projet
-    - friche reconvertie
-    - inconnu
-    - autre
-    - sans objet
+    - `friche potentielle`
+    - `friche sans projet`
+    - `friche avec projet`
+    - `friche reconvertie`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### site web d'un éventuel projet sur le site - Propriété `site_projet_url`
 
@@ -244,11 +244,11 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - amiante
-    - plomb
-    - inconnu
-    - autre
-    - sans objet
+    - `amiante`
+    - `plomb`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### état de vacance - Propriété `bati_vacance`
 
@@ -256,12 +256,12 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - occupé
-    - partiellement occupé
-    - vacant
-    - inconnu
-    - autre
-    - sans objet
+    - `occupé`
+    - `partiellement occupé`
+    - `vacant`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### présence de bâti patrimonial - Propriété `bati_patrimoine`
 
@@ -269,12 +269,12 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucun
-    - présence d'un bâtiment d'intérêt
-    - présence d'un bâtiment classé
-    - inconnu
-    - autre
-    - sans objet
+    - `aucun`
+    - `présence d'un bâtiment d'intérêt`
+    - `présence d'un bâtiment classé`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### dégradation des bâtiment - Propriété `bati_etat`
 
@@ -282,13 +282,13 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - dégradation inexistante ou faible
-    - dégradation moyenne
-    - dégradation très importante
-    - dégradation hétérogène
-    - inconnu
-    - autre
-    - sans objet
+    - `dégradation inexistante ou faible`
+    - `dégradation moyenne`
+    - `dégradation très importante`
+    - `dégradation hétérogène`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### première année de construction - Propriété `local_ancien_annee`
 
@@ -334,14 +334,14 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - pollution inexistante
-    - pollution traitée
-    - pollution peu probable
-    - pollution supposée
-    - pollution avérée
-    - inconnu
-    - autre
-    - sans objet
+    - `pollution inexistante`
+    - `pollution traitée`
+    - `pollution peu probable`
+    - `pollution supposée`
+    - `pollution avérée`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### origine de la pollution du sol - Propriété `sol_pollution_origine`
 
@@ -349,13 +349,13 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Dépôt de déchets, stockages de produits
-    - Pollution due au fonctionnement de l'installation
-    - Origine accidentelle (transport, transbordement, manipulation,...)
-    - Retombées atmosphériques
-    - inconnu
-    - autre
-    - sans objet
+    - `Dépôt de déchets, stockages de produits`
+    - `Pollution due au fonctionnement de l'installation`
+    - `Origine accidentelle (transport, transbordement, manipulation,...)`
+    - `Retombées atmosphériques`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### commentaire sur la pollution du sol - Propriété `sol_pollution_commentaire`
 
@@ -388,18 +388,18 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - U
-    - AUc
-    - AU
-    - A
-    - N
-    - Zc
-    - ZCa
-    - ZnC
-    - RNU
-    - inconnu
-    - autre
-    - sans objet
+    - `U`
+    - `AUc`
+    - `AU`
+    - `A`
+    - `N`
+    - `Zc`
+    - `ZCa`
+    - `ZnC`
+    - `RNU`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### libellé de la zone d'urbanisme - Propriété `urba_zone_lib`
 
@@ -419,14 +419,14 @@ Spécification du fichier d'échange conforme au standard CNIG Friches relatif a
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - RNU
-    - CC
-    - PLU
-    - PLUI
-    - PSMV
-    - inconnu
-    - autre
-    - sans objet
+    - `RNU`
+    - `CC`
+    - `PLU`
+    - `PLUI`
+    - `PSMV`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### distances d'accès aux réseaux - Propriété `desserte_distance`
 

@@ -267,8 +267,8 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - GTIN_EAN
-    - SH4
+    - `GTIN_EAN`
+    - `SH4`
 
 #### Propriété `nom_modele`
 
@@ -282,7 +282,7 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Lave-linge
+    - `Lave-linge`
 
 #### Propriété `id_metteur_sur_le_marche`
 
@@ -297,8 +297,8 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - GLN
-    - SYDEREP
+    - `GLN`
+    - `SYDEREP`
 
 #### Propriété `nom_metteur_sur_le_marche`
 
@@ -500,9 +500,9 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur obligatoire
 - Type : nombre réel
 - Valeurs autorisées : 
-    - 0
-    - 1
-    - 2
+    - `0`
+    - `1`
+    - `2`
 
 #### Propriété `lien_documentation_professionnel`
 
@@ -524,11 +524,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
 
 #### Propriété `etape_demontage_piece_1_liste_2`
 
@@ -536,11 +536,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 13
-    - 19
-    - \>19
-    - Non démontable
+    - `<7`
+    - `13`
+    - `19`
+    - `>19`
+    - `Non démontable`
 
 #### Propriété `nom_piece_2_liste_2`
 
@@ -548,11 +548,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
 
 #### Propriété `etape_demontage_piece_2_liste_2`
 
@@ -560,11 +560,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 13
-    - 19
-    - \>19
-    - Non démontable
+    - `<7`
+    - `13`
+    - `19`
+    - `>19`
+    - `Non démontable`
 
 #### Propriété `nom_piece_3_liste_2`
 
@@ -572,11 +572,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
 
 #### Propriété `etape_demontage_piece_3_liste_2`
 
@@ -584,11 +584,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 13
-    - 19
-    - \>19
-    - Non démontable
+    - `<7`
+    - `13`
+    - `19`
+    - `>19`
+    - `Non démontable`
 
 #### Propriété `nom_piece_4_liste_2`
 
@@ -596,11 +596,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
 
 #### Propriété `etape_demontage_piece_4_liste_2`
 
@@ -608,11 +608,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 13
-    - 19
-    - \>19
-    - Non démontable
+    - `<7`
+    - `13`
+    - `19`
+    - `>19`
+    - `Non démontable`
 
 #### Propriété `nom_piece_5_liste_2`
 
@@ -620,11 +620,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
 
 #### Propriété `etape_demontage_piece_5_liste_2`
 
@@ -632,11 +632,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <7
-    - 13
-    - 19
-    - \>19
-    - Non démontable
+    - `<7`
+    - `13`
+    - `19`
+    - `>19`
+    - `Non démontable`
 
 #### Propriété `nom_piece_detachee_1_reparateur`
 
@@ -644,21 +644,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_1_reparateur`
 
@@ -666,11 +666,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_reparateur`
 
@@ -678,11 +678,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_reparateur`
 
@@ -690,21 +690,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_2_reparateur`
 
@@ -712,11 +712,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_reparateur`
 
@@ -724,11 +724,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_reparateur`
 
@@ -736,21 +736,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_3_reparateur`
 
@@ -758,11 +758,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_reparateur`
 
@@ -770,11 +770,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_reparateur`
 
@@ -782,21 +782,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_4_reparateur`
 
@@ -804,11 +804,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_reparateur`
 
@@ -816,11 +816,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_reparateur`
 
@@ -828,21 +828,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_5_reparateur`
 
@@ -850,11 +850,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_reparateur`
 
@@ -862,11 +862,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_reparateur`
 
@@ -874,21 +874,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_6_reparateur`
 
@@ -896,11 +896,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_reparateur`
 
@@ -908,11 +908,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_reparateur`
 
@@ -920,21 +920,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_7_reparateur`
 
@@ -942,11 +942,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_reparateur`
 
@@ -954,11 +954,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_reparateur`
 
@@ -966,21 +966,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_8_reparateur`
 
@@ -988,11 +988,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_reparateur`
 
@@ -1000,11 +1000,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_reparateur`
 
@@ -1012,21 +1012,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_9_reparateur`
 
@@ -1034,11 +1034,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_reparateur`
 
@@ -1046,11 +1046,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_reparateur`
 
@@ -1058,21 +1058,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_10_reparateur`
 
@@ -1080,11 +1080,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_reparateur`
 
@@ -1092,11 +1092,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_reparateur`
 
@@ -1104,21 +1104,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_11_reparateur`
 
@@ -1126,11 +1126,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_reparateur`
 
@@ -1138,11 +1138,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_reparateur`
 
@@ -1150,21 +1150,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_12_reparateur`
 
@@ -1172,11 +1172,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_reparateur`
 
@@ -1184,11 +1184,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_13_reparateur`
 
@@ -1196,21 +1196,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_13_reparateur`
 
@@ -1218,11 +1218,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_reparateur`
 
@@ -1230,11 +1230,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_14_reparateur`
 
@@ -1242,21 +1242,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_14_reparateur`
 
@@ -1264,11 +1264,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_reparateur`
 
@@ -1276,11 +1276,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_15_reparateur`
 
@@ -1288,21 +1288,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_15_reparateur`
 
@@ -1310,11 +1310,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_reparateur`
 
@@ -1322,11 +1322,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_1_producteur`
 
@@ -1334,21 +1334,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_1_producteur`
 
@@ -1356,11 +1356,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_producteur`
 
@@ -1368,11 +1368,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_producteur`
 
@@ -1380,21 +1380,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_2_producteur`
 
@@ -1402,11 +1402,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_producteur`
 
@@ -1414,11 +1414,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_producteur`
 
@@ -1426,21 +1426,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_3_producteur`
 
@@ -1448,11 +1448,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_producteur`
 
@@ -1460,11 +1460,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_producteur`
 
@@ -1472,21 +1472,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_4_producteur`
 
@@ -1494,11 +1494,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_producteur`
 
@@ -1506,11 +1506,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_producteur`
 
@@ -1518,21 +1518,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_5_producteur`
 
@@ -1540,11 +1540,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_producteur`
 
@@ -1552,11 +1552,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_producteur`
 
@@ -1564,21 +1564,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_6_producteur`
 
@@ -1586,11 +1586,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_producteur`
 
@@ -1598,11 +1598,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_producteur`
 
@@ -1610,21 +1610,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_7_producteur`
 
@@ -1632,11 +1632,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_producteur`
 
@@ -1644,11 +1644,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_producteur`
 
@@ -1656,21 +1656,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_8_producteur`
 
@@ -1678,11 +1678,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_producteur`
 
@@ -1690,11 +1690,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_producteur`
 
@@ -1702,21 +1702,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_9_producteur`
 
@@ -1724,11 +1724,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_producteur`
 
@@ -1736,11 +1736,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_producteur`
 
@@ -1748,21 +1748,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_10_producteur`
 
@@ -1770,11 +1770,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_producteur`
 
@@ -1782,11 +1782,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_producteur`
 
@@ -1794,21 +1794,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_11_producteur`
 
@@ -1816,11 +1816,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_producteur`
 
@@ -1828,11 +1828,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_producteur`
 
@@ -1840,21 +1840,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_12_producteur`
 
@@ -1862,11 +1862,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_producteur`
 
@@ -1874,11 +1874,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_13_producteur`
 
@@ -1886,21 +1886,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_13_producteur`
 
@@ -1908,11 +1908,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_producteur`
 
@@ -1920,11 +1920,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_14_producteur`
 
@@ -1932,21 +1932,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_14_producteur`
 
@@ -1954,11 +1954,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_producteur`
 
@@ -1966,11 +1966,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_15_producteur`
 
@@ -1978,21 +1978,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_15_producteur`
 
@@ -2000,11 +2000,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_producteur`
 
@@ -2012,11 +2012,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_1_distributeur`
 
@@ -2024,21 +2024,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_1_distributeur`
 
@@ -2046,11 +2046,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_distributeur`
 
@@ -2058,11 +2058,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_distributeur`
 
@@ -2070,21 +2070,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_2_distributeur`
 
@@ -2092,11 +2092,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_distributeur`
 
@@ -2104,11 +2104,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_distributeur`
 
@@ -2116,21 +2116,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_3_distributeur`
 
@@ -2138,11 +2138,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_distributeur`
 
@@ -2150,11 +2150,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_distributeur`
 
@@ -2162,21 +2162,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_4_distributeur`
 
@@ -2184,11 +2184,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_distributeur`
 
@@ -2196,11 +2196,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_distributeur`
 
@@ -2208,21 +2208,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_5_distributeur`
 
@@ -2230,11 +2230,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_distributeur`
 
@@ -2242,11 +2242,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_distributeur`
 
@@ -2254,21 +2254,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_6_distributeur`
 
@@ -2276,11 +2276,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_distributeur`
 
@@ -2288,11 +2288,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_distributeur`
 
@@ -2300,21 +2300,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_7_distributeur`
 
@@ -2322,11 +2322,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_distributeur`
 
@@ -2334,11 +2334,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_distributeur`
 
@@ -2346,21 +2346,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_8_distributeur`
 
@@ -2368,11 +2368,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_distributeur`
 
@@ -2380,11 +2380,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_distributeur`
 
@@ -2392,21 +2392,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_9_distributeur`
 
@@ -2414,11 +2414,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_distributeur`
 
@@ -2426,11 +2426,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_distributeur`
 
@@ -2438,21 +2438,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_10_distributeur`
 
@@ -2460,11 +2460,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_distributeur`
 
@@ -2472,11 +2472,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_distributeur`
 
@@ -2484,21 +2484,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_11_distributeur`
 
@@ -2506,11 +2506,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_distributeur`
 
@@ -2518,11 +2518,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_distributeur`
 
@@ -2530,21 +2530,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_12_distributeur`
 
@@ -2552,11 +2552,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_distributeur`
 
@@ -2564,11 +2564,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_13_distributeur`
 
@@ -2576,21 +2576,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_13_distributeur`
 
@@ -2598,11 +2598,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_distributeur`
 
@@ -2610,11 +2610,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_14_distributeur`
 
@@ -2622,21 +2622,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_14_distributeur`
 
@@ -2644,11 +2644,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_distributeur`
 
@@ -2656,11 +2656,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_15_distributeur`
 
@@ -2668,21 +2668,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_15_distributeur`
 
@@ -2690,11 +2690,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_distributeur`
 
@@ -2702,11 +2702,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_1_consommateur`
 
@@ -2714,21 +2714,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_1_consommateur`
 
@@ -2736,11 +2736,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_consommateur`
 
@@ -2748,11 +2748,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_2_consommateur`
 
@@ -2760,21 +2760,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_2_consommateur`
 
@@ -2782,11 +2782,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_consommateur`
 
@@ -2794,11 +2794,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_3_consommateur`
 
@@ -2806,21 +2806,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_3_consommateur`
 
@@ -2828,11 +2828,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_consommateur`
 
@@ -2840,11 +2840,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_4_consommateur`
 
@@ -2852,21 +2852,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_4_consommateur`
 
@@ -2874,11 +2874,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_consommateur`
 
@@ -2886,11 +2886,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_5_consommateur`
 
@@ -2898,21 +2898,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_5_consommateur`
 
@@ -2920,11 +2920,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_consommateur`
 
@@ -2932,11 +2932,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_6_consommateur`
 
@@ -2944,21 +2944,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_6_consommateur`
 
@@ -2966,11 +2966,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_consommateur`
 
@@ -2978,11 +2978,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_7_consommateur`
 
@@ -2990,21 +2990,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_7_consommateur`
 
@@ -3012,11 +3012,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_consommateur`
 
@@ -3024,11 +3024,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_8_consommateur`
 
@@ -3036,21 +3036,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_8_consommateur`
 
@@ -3058,11 +3058,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_consommateur`
 
@@ -3070,11 +3070,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_9_consommateur`
 
@@ -3082,21 +3082,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_9_consommateur`
 
@@ -3104,11 +3104,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_consommateur`
 
@@ -3116,11 +3116,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_10_consommateur`
 
@@ -3128,21 +3128,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_10_consommateur`
 
@@ -3150,11 +3150,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_consommateur`
 
@@ -3162,11 +3162,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_11_consommateur`
 
@@ -3174,21 +3174,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_11_consommateur`
 
@@ -3196,11 +3196,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_consommateur`
 
@@ -3208,11 +3208,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_12_consommateur`
 
@@ -3220,21 +3220,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_12_consommateur`
 
@@ -3242,11 +3242,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_consommateur`
 
@@ -3254,11 +3254,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_13_consommateur`
 
@@ -3266,21 +3266,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_13_consommateur`
 
@@ -3288,11 +3288,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_consommateur`
 
@@ -3300,11 +3300,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_14_consommateur`
 
@@ -3312,21 +3312,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_14_consommateur`
 
@@ -3334,11 +3334,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_consommateur`
 
@@ -3346,11 +3346,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`
 
 #### Propriété `nom_piece_detachee_15_consommateur`
 
@@ -3358,21 +3358,21 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manchette ou soufflet
-    - Assemblage verrouillage porte
-    - Pompes
-    - Générateurs de chaleurs, éléments chauffants
-    - Carte électronique de puissance
-    - Moteur et balais (ou charbons de moteur)
-    - Transmission entre moteur et tambour (courroie)
-    - Amortisseurs et ressorts
-    - Tambour de lavage (dont croisillon et roulements)
-    - Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)
-    - Affichages électroniques
-    - Manocontacts
-    - Thermostats et capteurs
-    - Portes, charnières et joints de porte (portillon et aube de tambour)
-    - Logiciels et micrologiciels, y compris de reinitialisation
+    - `Manchette ou soufflet`
+    - `Assemblage verrouillage porte`
+    - `Pompes`
+    - `Générateurs de chaleurs, éléments chauffants`
+    - `Carte électronique de puissance`
+    - `Moteur et balais (ou charbons de moteur)`
+    - `Transmission entre moteur et tambour (courroie)`
+    - `Amortisseurs et ressorts`
+    - `Tambour de lavage (dont croisillon et roulements)`
+    - `Conduites et matériel connexe (incluant l'ensemble des flexibles, filtres et systèmes aquastop)`
+    - `Affichages électroniques`
+    - `Manocontacts`
+    - `Thermostats et capteurs`
+    - `Portes, charnières et joints de porte (portillon et aube de tambour)`
+    - `Logiciels et micrologiciels, y compris de reinitialisation`
 
 #### Propriété `delai_jours_piece_detachee_15_consommateur`
 
@@ -3380,11 +3380,11 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
-    - Non disponible
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
+    - `Non disponible`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_consommateur`
 
@@ -3392,8 +3392,8 @@ Schéma de données pour l'indice de durabilité - lave-linge
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <11
-    - 13
-    - 15
-    - \>15
-    - Non disponible
+    - `<11`
+    - `13`
+    - `15`
+    - `>15`
+    - `Non disponible`

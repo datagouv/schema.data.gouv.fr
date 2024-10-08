@@ -43,12 +43,12 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - normale
-    - robinet
-    - bouche_a_boire
-    - estivale
-    - kiosque
-    - autre
+    - `normale`
+    - `robinet`
+    - `bouche_a_boire`
+    - `estivale`
+    - `kiosque`
+    - `autre`
 
 #### Modèle - Propriété `modele`
 

@@ -88,10 +88,10 @@ Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Don
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aide en numéraire
-    - aide en nature
-    - aide en numéraire;aide en nature
-    - aide en nature;aide en numéraire
+    - `aide en numéraire`
+    - `aide en nature`
+    - `aide en numéraire;aide en nature`
+    - `aide en nature;aide en numéraire`
 
 #### Conditions de versement de la subvention - Propriété `conditionsVersement`
 

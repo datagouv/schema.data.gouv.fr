@@ -66,16 +66,16 @@ Spécification du modèle de données relatif aux équipements collectifs public
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Equipement administratif
-    - Equipement de justice
-    - Equipement sanitaire
-    - Equipement social et d'animation
-    - Equipement sportif et de loisirs
-    - Equipement d'enseignement
-    - Equipement cultuel
-    - Equipement culturel
-    - Equipement de mobilité
-    - Autre équipement
+    - `Equipement administratif`
+    - `Equipement de justice`
+    - `Equipement sanitaire`
+    - `Equipement social et d'animation`
+    - `Equipement sportif et de loisirs`
+    - `Equipement d'enseignement`
+    - `Equipement cultuel`
+    - `Equipement culturel`
+    - `Equipement de mobilité`
+    - `Autre équipement`
 
 #### Code d'identification de l'équipement - Propriété `EQUIP_CODE`
 

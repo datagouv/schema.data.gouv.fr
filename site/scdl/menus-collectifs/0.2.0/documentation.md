@@ -82,10 +82,10 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Siret
-    - EN
-    - Autre
-    - Sans
+    - `Siret`
+    - `EN`
+    - `Autre`
+    - `Sans`
 
 #### Type de client auquel le menu est proposé. - Propriété `restaurantType`
 
@@ -93,18 +93,18 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - crèche
-    - École maternelle
-    - École élémentaire
-    - Foyer
-    - Collège
-    - Lycée
-    - Administration locale
-    - RPA
-    - EHPAD
-    - Foyer de personnes âgées
-    - Repas à domicile
-    - Centre de loisirs
+    - `crèche`
+    - `École maternelle`
+    - `École élémentaire`
+    - `Foyer`
+    - `Collège`
+    - `Lycée`
+    - `Administration locale`
+    - `RPA`
+    - `EHPAD`
+    - `Foyer de personnes âgées`
+    - `Repas à domicile`
+    - `Centre de loisirs`
 
 #### Type de convive auquel le menu est proposé. - Propriété `restaurantConvive`
 
@@ -112,11 +112,11 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - bébé
-    - scolaire
-    - agent administratif
-    - adulte
-    - sénior
+    - `bébé`
+    - `scolaire`
+    - `agent administratif`
+    - `adulte`
+    - `sénior`
 
 #### Date du menu - Propriété `menuDate`
 
@@ -130,11 +130,11 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - déjeuner
-    - goûter
-    - dîner
-    - collation
-    - pique-nique
+    - `déjeuner`
+    - `goûter`
+    - `dîner`
+    - `collation`
+    - `pique-nique`
 
 #### Type de plat servi - Propriété `menuTypePlat`
 
@@ -142,14 +142,14 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - entrée
-    - plat principal
-    - garniture
-    - dessert
-    - produit laitier
-    - collation
-    - goûter
-    - pain
+    - `entrée`
+    - `plat principal`
+    - `garniture`
+    - `dessert`
+    - `produit laitier`
+    - `collation`
+    - `goûter`
+    - `pain`
 
 #### Nom du plat servi - Propriété `menuNomPlat`
 
@@ -170,11 +170,11 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Agriculture Biologique
-    - Appellation d'origine protégée/contrôlée
-    - Indication géographique protégée
-    - Spécialité traditionnelle garantie
-    - Label Rouge
+    - `Agriculture Biologique`
+    - `Appellation d'origine protégée/contrôlée`
+    - `Indication géographique protégée`
+    - `Spécialité traditionnelle garantie`
+    - `Label Rouge`
 
 #### Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication - Propriété `menuLabelPlat`
 
@@ -188,20 +188,20 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Céréales contenant du gluten
-    - Crustacés
-    - Oeufs
-    - Poissons
-    - Arachides
-    - Soja
-    - Lait
-    - Fruits à coques
-    - Céleri
-    - Moutarde
-    - Graines de sésame
-    - Anhydride sulfureux et sulfites
-    - Lupin
-    - Mollusques
+    - `Céréales contenant du gluten`
+    - `Crustacés`
+    - `Oeufs`
+    - `Poissons`
+    - `Arachides`
+    - `Soja`
+    - `Lait`
+    - `Fruits à coques`
+    - `Céleri`
+    - `Moutarde`
+    - `Graines de sésame`
+    - `Anhydride sulfureux et sulfites`
+    - `Lupin`
+    - `Mollusques`
 
 #### Précision (régime ou thématique) associée au plat ou à l'ensemble des plats d'un menu - Propriété `menuPrecisionPlat`
 

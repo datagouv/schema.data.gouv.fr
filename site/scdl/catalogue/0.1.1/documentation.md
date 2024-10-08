@@ -94,13 +94,13 @@ Spécification du modèle de données relatif au catalogue des jeux de données 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Infracommunale
-    - Communale
-    - Intercommunale
-    - Cantonale
-    - Départementale
-    - Régionale
-    - Autre
+    - `Infracommunale`
+    - `Communale`
+    - `Intercommunale`
+    - `Cantonale`
+    - `Départementale`
+    - `Régionale`
+    - `Autre`
 
 #### Nom de couverture spatiale - Propriété `COUV_SPAT_NOM`
 
@@ -132,21 +132,21 @@ Spécification du modèle de données relatif au catalogue des jeux de données 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Inconnue
-    - Ponctuelle
-    - Irrégulière
-    - Continuelle
-    - Toutes les heures
-    - Quotidienne ou plusieurs fois par jour
-    - Hebdomadaire ou plusieurs fois par semaine
-    - Mensuelle ou plusieurs fois par mois
-    - Bimestrielle
-    - Trimestrielle
-    - Semestrielle
-    - Annuelle
-    - Biennale
-    - Triennale
-    - Quinquennale
+    - `Inconnue`
+    - `Ponctuelle`
+    - `Irrégulière`
+    - `Continuelle`
+    - `Toutes les heures`
+    - `Quotidienne ou plusieurs fois par jour`
+    - `Hebdomadaire ou plusieurs fois par semaine`
+    - `Mensuelle ou plusieurs fois par mois`
+    - `Bimestrielle`
+    - `Trimestrielle`
+    - `Semestrielle`
+    - `Annuelle`
+    - `Biennale`
+    - `Triennale`
+    - `Quinquennale`
 
 #### Date de la dernière mise à jour - Propriété `DATE_MAJ`
 
@@ -166,10 +166,10 @@ Spécification du modèle de données relatif au catalogue des jeux de données 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Licence Ouverte-LO
-    - Open Database License-ODBL
-    - Creative Commons-CC
-    - Spécifique ou autre
+    - `Licence Ouverte-LO`
+    - `Open Database License-ODBL`
+    - `Creative Commons-CC`
+    - `Spécifique ou autre`
 
 #### Nombre de ressource(s) - Propriété `NOMBRE_RESSOURCES`
 

@@ -81,8 +81,8 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - REMOTE TRANSMISSION
-    - MANUAL
+    - `REMOTE TRANSMISSION`
+    - `MANUAL`
 
 #### Propriété `publication_transmission_type`
 
@@ -90,8 +90,8 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - API
-    - MANUAL
+    - `API`
+    - `MANUAL`
 
 #### Propriété `counter_type`
 
@@ -106,14 +106,14 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - N
-    - NW
-    - NE
-    - W
-    - SW
-    - S
-    - SE
-    - E
+    - `N`
+    - `NW`
+    - `NE`
+    - `W`
+    - `SW`
+    - `S`
+    - `SE`
+    - `E`
 
 #### Propriété `provider_direction_code`
 
@@ -139,8 +139,8 @@ Spécification du fichier d'échange relatif aux comptages des mobilités.
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - TEMPORARY
-    - PERMANENT
+    - `TEMPORARY`
+    - `PERMANENT`
 
 #### Propriété `started_at`
 

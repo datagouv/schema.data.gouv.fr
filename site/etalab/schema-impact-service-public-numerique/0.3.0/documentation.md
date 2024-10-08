@@ -75,13 +75,13 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - quotidienne
-    - hebdomadaire
-    - mensuelle
-    - annuelle
-    - trimestrielle
-    - semestrielle
-    - autre
+    - `quotidienne`
+    - `hebdomadaire`
+    - `mensuelle`
+    - `annuelle`
+    - `trimestrielle`
+    - `semestrielle`
+    - `autre`
 
 #### Propriété `date`
 
@@ -125,11 +125,11 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - linechart
-    - barchart
-    - map
-    - scatterplot
-    - piechart
+    - `linechart`
+    - `barchart`
+    - `map`
+    - `scatterplot`
+    - `piechart`
 
 #### Propriété `commentaires`
 

@@ -131,11 +131,11 @@ Pour une station dédiée à la recharge rapide dont la durée d'utilisation est
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Voirie
-    - Parking public
-    - Parking privé à usage public
-    - Parking privé réservé à la clientèle
-    - Station dédiée à la recharge rapide
+    - `Voirie`
+    - `Parking public`
+    - `Parking privé à usage public`
+    - `Parking privé réservé à la clientèle`
+    - `Station dédiée à la recharge rapide`
 
 #### Propriété `adresse_station`
 
@@ -248,8 +248,8 @@ Dans le cas d'un accès limité / réservé qui nécessite une identification ou
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Accès libre
-    - Accès réservé
+    - `Accès libre`
+    - `Accès réservé`
 
 #### Propriété `reservation`
 
@@ -272,10 +272,10 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Réservé PMR
-    - Accessible mais non réservé PMR
-    - Non accessible
-    - Accessibilité inconnue
+    - `Réservé PMR`
+    - `Accessible mais non réservé PMR`
+    - `Non accessible`
+    - `Accessibilité inconnue`
 
 #### Propriété `restriction_gabarit`
 
@@ -295,8 +295,8 @@ Dans le cas d'un point de recharge non accessible PMR, indiquer "Non accessible"
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Direct
-    - Indirect
+    - `Direct`
+    - `Indirect`
 
 #### Propriété `num_pdl`
 

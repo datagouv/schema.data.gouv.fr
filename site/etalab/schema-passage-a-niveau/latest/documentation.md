@@ -76,27 +76,27 @@ Spécification du fichier décrivant les emplacements de passages à niveau.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - CLASSE 00
-    - CLASSE 10
-    - CLASSE 11
-    - CLASSE 12
-    - CLASSE 13
-    - CLASSE 14
-    - CLASSE 15
-    - CLASSE 16
-    - CLASSE 17
-    - CLASSE 18
-    - CLASSE 19
-    - CLASSE 20
-    - CLASSE 21
-    - CLASSE 31
-    - CLASSE 32
-    - CLASSE 41
-    - CLASSE 42
-    - CLASSE 43
-    - CLASSE 44
-    - CLASSE 45
-    - CLASSE 46
+    - `CLASSE 00`
+    - `CLASSE 10`
+    - `CLASSE 11`
+    - `CLASSE 12`
+    - `CLASSE 13`
+    - `CLASSE 14`
+    - `CLASSE 15`
+    - `CLASSE 16`
+    - `CLASSE 17`
+    - `CLASSE 18`
+    - `CLASSE 19`
+    - `CLASSE 20`
+    - `CLASSE 21`
+    - `CLASSE 31`
+    - `CLASSE 32`
+    - `CLASSE 41`
+    - `CLASSE 42`
+    - `CLASSE 43`
+    - `CLASSE 44`
+    - `CLASSE 45`
+    - `CLASSE 46`
 
 #### Propriété `obstacle`
 

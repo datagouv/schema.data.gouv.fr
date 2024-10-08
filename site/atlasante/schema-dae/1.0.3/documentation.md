@@ -119,8 +119,8 @@ Spécification du modèle de données relatif aux DAE
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Intérieur
-    - Extérieur
+    - `Intérieur`
+    - `Extérieur`
 
 #### Propriété `acc_lib`
 
@@ -218,11 +218,11 @@ Spécification du modèle de données relatif aux DAE
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - En fonctionnement
-    - Hors service
-    - Supprimé définitivement
-    - Absent momentanément
-    - Inconnu
+    - `En fonctionnement`
+    - `Hors service`
+    - `Supprimé définitivement`
+    - `Absent momentanément`
+    - `Inconnu`
 
 #### Numéro SIREN du fabricant du DAE - Propriété `fab_siren`
 

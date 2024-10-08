@@ -46,13 +46,13 @@ Spécification du fichier de déclaration des dix rémunérations les plus élev
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Département ministériel
-    - Région
-    - Département
-    - Autre collectivité territoriale
-    - EPCI à fiscalité propre
-    - Etablissement hospitalier
-    - Autre
+    - `Département ministériel`
+    - `Région`
+    - `Département`
+    - `Autre collectivité territoriale`
+    - `EPCI à fiscalité propre`
+    - `Etablissement hospitalier`
+    - `Autre`
 
 #### Propriété `annee`
 

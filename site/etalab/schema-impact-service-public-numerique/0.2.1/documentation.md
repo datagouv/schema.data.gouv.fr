@@ -60,12 +60,12 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Quotidienne
-    - Hebdomadaire
-    - Mensuelle
-    - Annuelle
-    - Trimestrielle
-    - Continue
+    - `Quotidienne`
+    - `Hebdomadaire`
+    - `Mensuelle`
+    - `Annuelle`
+    - `Trimestrielle`
+    - `Continue`
 
 #### Propriété `date`
 
@@ -91,10 +91,10 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Manuel
-    - Automatisé
-    - Enquête
-    - Autre
+    - `Manuel`
+    - `Automatisé`
+    - `Enquête`
+    - `Autre`
 
 #### Propriété `mode_calcul`
 
@@ -108,9 +108,9 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - À la hausse
-    - À la baisse
-    - Stable
+    - `À la hausse`
+    - `À la baisse`
+    - `Stable`
 
 #### Propriété `commentaires`
 
