@@ -138,8 +138,8 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Autorise
-    - Interdit
+    - `Autorise`
+    - `Interdit`
 
 #### Propriété `ZONE_TYPE`
 
@@ -147,11 +147,11 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Arrondissement
-    - Commune entière
-    - Zone à Faible Émission
-    - Zone IRIS INSEE
-    - Zone piétonne
+    - `Arrondissement`
+    - `Commune entière`
+    - `Zone à Faible Émission`
+    - `Zone IRIS INSEE`
+    - `Zone piétonne`
 
 #### Nom ou identifiant de la zone associée à la règlementation - Propriété `ZONE_REF`
 
@@ -193,8 +193,8 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Poids lourds
-    - Véhicules utilitaires légers
+    - `Poids lourds`
+    - `Véhicules utilitaires légers`
 
 #### Type d'usage - Propriété `VEH_USAGE`
 
@@ -254,9 +254,9 @@ Spécification du fichier d'échange relatif aux arrêtés permanents de circula
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Pair
-    - Impair
-    - Deux côtés
+    - `Pair`
+    - `Impair`
+    - `Deux côtés`
 
 #### Début de la section - Propriété `SECTION_DEBUT_POINT`
 

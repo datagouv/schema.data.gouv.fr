@@ -49,20 +49,20 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - industrielle
-    - commerciale
-    - tertiaire
-    - artisanale
-    - touristique
-    - portuaire
-    - aéroportuaire, aéronautique
-    - entrepôts, logistique
-    - logistique agricole
-    - mixte à dominante logistique
-    - mixte, sans dominante
-    - inconnu
-    - autre
-    - sans objet
+    - `industrielle`
+    - `commerciale`
+    - `tertiaire`
+    - `artisanale`
+    - `touristique`
+    - `portuaire`
+    - `aéroportuaire, aéronautique`
+    - `entrepôts, logistique`
+    - `logistique agricole`
+    - `mixte à dominante logistique`
+    - `mixte, sans dominante`
+    - `inconnu`
+    - `autre`
+    - `sans objet`
 
 #### date d'identification - Propriété `pole_identif_date`
 
@@ -112,10 +112,10 @@ Spécification du fichier d'échange conforme au standard CNIG Sites Economiques
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - international
-    - national
-    - régional
-    - local
-    - inconnu
-    - autre
-    - sans objet
+    - `international`
+    - `national`
+    - `régional`
+    - `local`
+    - `inconnu`
+    - `autre`
+    - `sans objet`

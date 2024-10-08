@@ -68,9 +68,9 @@ Spécification du standard national des registres d'entrée d'archives
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Archives publiques
-    - Archives privées
-    - Archives publiques et privées
+    - `Archives publiques`
+    - `Archives privées`
+    - `Archives publiques et privées`
 
 #### modalité d'entrée - Propriété `modeEntree`
 
@@ -78,16 +78,16 @@ Spécification du standard national des registres d'entrée d'archives
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Versement
-    - Don
-    - Dépôt
-    - Dévolution
-    - Achat
-    - Legs ou dation
-    - Copie
-    - Réintégration
-    - Protocole
-    - Autre
+    - `Versement`
+    - `Don`
+    - `Dépôt`
+    - `Dévolution`
+    - `Achat`
+    - `Legs ou dation`
+    - `Copie`
+    - `Réintégration`
+    - `Protocole`
+    - `Autre`
 
 #### organisation qui verse l'entrée - Propriété `orgaVers`
 
@@ -119,22 +119,22 @@ Spécification du standard national des registres d'entrée d'archives
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Présidence de la République
-    - Premier ministre
-    - Ministère (administration centrale) 
-    - Assemblée parlementaire
-    - Grand organe de contrôle
-    - Service déconcentré et établissement public de l’État à compétence départementale ou locale
-    - Service déconcentré et établissement public de l’État à compétence régionale ou supra-départementale
-    - Etablissement public national
-    - Commune et établissement public communal
-    - Conseil départemental et établissement public départemental
-    - Conseil régional et établissement public régional
-    - Structure de coopération intercommunale ou interdépartementale
-    - Établissement public de santé
-    - Organisme de droit privé chargé d’une mission de service public
-    - Officier public ou ministériel (dont notaire) 
-    - Producteur privé
+    - `Présidence de la République`
+    - `Premier ministre`
+    - `Ministère (administration centrale) `
+    - `Assemblée parlementaire`
+    - `Grand organe de contrôle`
+    - `Service déconcentré et établissement public de l’État à compétence départementale ou locale`
+    - `Service déconcentré et établissement public de l’État à compétence régionale ou supra-départementale`
+    - `Etablissement public national`
+    - `Commune et établissement public communal`
+    - `Conseil départemental et établissement public départemental`
+    - `Conseil régional et établissement public régional`
+    - `Structure de coopération intercommunale ou interdépartementale`
+    - `Établissement public de santé`
+    - `Organisme de droit privé chargé d’une mission de service public`
+    - `Officier public ou ministériel (dont notaire) `
+    - `Producteur privé`
 
 #### Domaine ou thématique d'action du producteur - Propriété `activiteProd`
 
@@ -167,9 +167,9 @@ Spécification du standard national des registres d'entrée d'archives
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Support physique
-    - Support électronique
-    - Support mixte
+    - `Support physique`
+    - `Support électronique`
+    - `Support mixte`
 
 #### métrage linéaire de l'entrée - Propriété `mlEntree`
 

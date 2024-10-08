@@ -83,10 +83,10 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - ROUE
-    - CADRE
-    - CADRE ET ROUE
-    - SANS ACCROCHE
+    - `ROUE`
+    - `CADRE`
+    - `CADRE ET ROUE`
+    - `SANS ACCROCHE`
 
 #### Propriété `mobilier`
 
@@ -94,15 +94,15 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - ARCEAU
-    - RATELIER
-    - RACK DOUBLE ETAGE
-    - CROCHET
-    - SUPPORT GUIDON
-    - POTELET
-    - ARCEAU VELO GRANDE TAILLE
-    - AUCUN EQUIPEMENT
-    - AUTRE
+    - `ARCEAU`
+    - `RATELIER`
+    - `RACK DOUBLE ETAGE`
+    - `CROCHET`
+    - `SUPPORT GUIDON`
+    - `POTELET`
+    - `ARCEAU VELO GRANDE TAILLE`
+    - `AUCUN EQUIPEMENT`
+    - `AUTRE`
 
 #### Propriété `acces`
 
@@ -110,9 +110,9 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - LIBRE ACCES
-    - ABONNEMENT OU INSCRIPTION PREALABLE
-    - PRIVE
+    - `LIBRE ACCES`
+    - `ABONNEMENT OU INSCRIPTION PREALABLE`
+    - `PRIVE`
 
 #### Propriété `gratuit`
 
@@ -126,10 +126,10 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - STATIONNEMENT NON FERME
-    - CONSIGNE COLLECTIVE FERMEE
-    - BOX INDIVIDUEL FERME
-    - AUTRE
+    - `STATIONNEMENT NON FERME`
+    - `CONSIGNE COLLECTIVE FERMEE`
+    - `BOX INDIVIDUEL FERME`
+    - `AUTRE`
 
 #### Propriété `couverture`
 

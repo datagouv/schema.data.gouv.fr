@@ -94,10 +94,10 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - SIRET
-    - EN
-    - Autre
-    - Sans
+    - `SIRET`
+    - `EN`
+    - `Autre`
+    - `Sans`
 
 #### Type de restaurant auquel le menu est proposé. - Propriété `menu_rest_type`
 
@@ -105,18 +105,18 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - crèche
-    - maternelle
-    - élémentaire
-    - collège
-    - lycée
-    - administration
-    - résidence sénior
-    - EHPAD
-    - repas à domicile
-    - centre de loisirs
-    - tous
-    - autre
+    - `crèche`
+    - `maternelle`
+    - `élémentaire`
+    - `collège`
+    - `lycée`
+    - `administration`
+    - `résidence sénior`
+    - `EHPAD`
+    - `repas à domicile`
+    - `centre de loisirs`
+    - `tous`
+    - `autre`
 
 #### Type de convive auquel le menu est proposé. - Propriété `menu_rest_convive`
 
@@ -136,13 +136,13 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - petit-déjeuner
-    - déjeuner
-    - goûter
-    - dîner
-    - collation
-    - pique-nique
-    - autre
+    - `petit-déjeuner`
+    - `déjeuner`
+    - `goûter`
+    - `dîner`
+    - `collation`
+    - `pique-nique`
+    - `autre`
 
 #### Type de plat servi - Propriété `menu_type_plat`
 
@@ -150,13 +150,13 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - entrée
-    - plat principal
-    - garniture
-    - dessert
-    - produit laitier
-    - pain
-    - autre
+    - `entrée`
+    - `plat principal`
+    - `garniture`
+    - `dessert`
+    - `produit laitier`
+    - `pain`
+    - `autre`
 
 #### Nom du plat servi - Propriété `menu_nom_plat`
 
@@ -177,12 +177,12 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Agriculture Biologique
-    - Appellation d'origine protégée
-    - Appellation d'origine contrôlée
-    - Indication géographique protégée
-    - Spécialité traditionnelle garantie
-    - Label Rouge
+    - `Agriculture Biologique`
+    - `Appellation d'origine protégée`
+    - `Appellation d'origine contrôlée`
+    - `Indication géographique protégée`
+    - `Spécialité traditionnelle garantie`
+    - `Label Rouge`
 
 #### Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication - Propriété `menu_label_plat`
 
@@ -208,11 +208,11 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - sans texture modifié
-    - mixé
-    - mixé lissé
-    - fondant
-    - haché
+    - `sans texture modifié`
+    - `mixé`
+    - `mixé lissé`
+    - `fondant`
+    - `haché`
 
 #### Indication de l'indice nutritif du plat proposé dans le menu - Propriété `menu_nutri-score_plat`
 
@@ -220,11 +220,11 @@ Schéma permettant de décrire les menus des repas proposés par des collectivit
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - A
-    - B
-    - C
-    - D
-    - E
+    - `A`
+    - `B`
+    - `C`
+    - `D`
+    - `E`
 
 #### Coût théorique de revient du plat calculé à partir du coût de production - Propriété `menu_prix_plat`
 

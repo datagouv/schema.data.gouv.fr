@@ -126,9 +126,9 @@ Spécification du fichier d'échange relatif aux aires de livraison
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Mixte
-    - Transport de fonds
-    - Livraison
+    - `Mixte`
+    - `Transport de fonds`
+    - `Livraison`
 
 #### Durée maximale d'intervention - Propriété `INTERV_DUREE`
 
@@ -181,16 +181,16 @@ Spécification du fichier d'échange relatif aux aires de livraison
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Autre
-    - Chaussée
-    - Contre allée
-    - Contre terre plein
-    - Demi lincoln
-    - Faux lincoln
-    - Lincoln
-    - Place
-    - Terre plein
-    - Trottoir
+    - `Autre`
+    - `Chaussée`
+    - `Contre allée`
+    - `Contre terre plein`
+    - `Demi lincoln`
+    - `Faux lincoln`
+    - `Lincoln`
+    - `Place`
+    - `Terre plein`
+    - `Trottoir`
 
 #### Installation de recharge de véhicule électrique - Propriété `IRVE_PRESENCE`
 

@@ -186,363 +186,363 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Accessoires
-    - Accompagnement personnes agees
-    - Accrobranche
-    - Achat or
-    - Administration publique
-    - Aéroport
-    - Afpa
-    - Agence départementale d'information sur le logement
-    - Agence de publicité
-    - Agence de travail temporaire
-    - Agence de voyage
-    - Agence immobilière
-    - Agence matrimoniale
-    - Agence postale
-    - Aide à la personne
-    - Aide sociale à l'enfance : action éducative
-    - Ambulances
-    - Aménagement maison : cuisine salle de bain salon
-    - Anesthésie
-    - Animalerie
-    - Antiquaire
-    - Apiculteur
-    - Aquarium
-    - Architecte
-    - Arène
-    - Armurerie coutellerie
-    - Art
-    - Artisanat
-    - Arts de la table
-    - Association
-    - Association aide aux victimes
-    - Association de gestion du fonds pour l'insertion professionnelle des personnes handicapées
-    - Assurance
-    - Athlétisme
-    - Audio prothésiste
-    - Auditorium et salle de conférence
-    - Auto école
-    - Autre
-    - Autres établissements pour adultes et familles en difficulté
-    - Avocat
-    - Banques, caisses d'épargne
-    - Barbier
-    - Bar tabac
-    - Bâtiment d'accueil
-    - Bazar
-    - Bibliothèque médiathèque
-    - Bien-être
-    - Bijouterie joaillerie
-    - Biscuiterie
-    - Blanchisserie teinturerie
-    - Boucherie / commerce de viande
-    - Boulangerie
-    - Boulangerie Pâtisserie
-    - Boulodrome
-    - Boutique de mariage
-    - Bowling
-    - Bricolage, matériaux, travaux
-    - Brocante
-    - Brûlerie
-    - Bureau de douane
-    - Bureau de poste
-    - Café, bar, brasserie
-    - Cafés et thés
-    - Caisse d'allocations familiales (caf)
-    - Camping caravaning
-    - Cantine
-    - Cardiologie
-    - Carrosserie
-    - Casino
-    - Caviste / commerce de détail de boissons
-    - Centrale nucléaire
-    - Centre commercial
-    - Centre culturel
-    - Centre de gestion de la fonction publique territoriale
-    - Centre de loisirs
-    - Centre de protection maternelle et infantile (pmi)
-    - Centre de ressources et d'information
-    - Centre de vacances
-    - Centre de vaccination
-    - Centre d'examen
-    - Centre d’information et d’orientation
-    - Centre d'information sur les droits des femmes et des familles
-    - Centre équestre
-    - Centre médical
-    - Centre national de la fonction publique territoriale
-    - Centre religieux
-    - Centre social
-    - Chambre agriculture
-    - Chambre de commerce et d'industrie
-    - Chambre metier
-    - Chambres d'hôtes, gîte, pension
-    - Chapeaux et couvre-chefs
-    - Charcuterie
-    - Château
-    - Chaussures
-    - Chenil, fourrière
-    - Chirurgie
-    - Chirurgien dentiste
-    - Chocolatier
-    - Cigarette électronique
-    - Cimetière
-    - Cinéma
-    - Circuit sportif deux roues / voiture
-    - Clinique
-    - Coiffure
-    - Collectivité territoriale
-    - Collège
-    - Commerce
-    - Commerce automobile
-    - Commerce bio
-    - Commissariat de Police
-    - Commission conciliation
-    - Communauté de communes
-    - Comptable expert-comptable
-    - Concessionnaire automobile
-    - Confiserie
-    - Conservatoire et école de musique
-    - Construction de maisons, immeubles
-    - Contrôle technique auto
-    - Coopérative agricole
-    - Cordonnerie serrurerie
-    - Courtier
-    - Coworking
-    - Crèche
-    - Crèmerie Fromagerie
-    - Cure thermale
-    - Cycle vente et entretien
-    - Cyclisme
-    - Déchetterie
-    - Décoration Design
-    - Déménageur
-    - Dermatologie vénéréologie
-    - Direction départementale de la protection des populations
-    - Direction départementale de l'emploi, du travail, des solidarités et de la protection des populations
-    - Discothèque
-    - Disquaire
-    - Distribution spécialisée / commerce de gros
-    - Droguerie
-    - Ecole de danse
-    - École élémentaire
-    - École maternelle
-    - École primaire (regroupement maternelle et élémentaire)
-    - EHPAD
-    - Électricien
-    - Électroménager et matériel audio-vidéo
-    - Emploi, formation
-    - Encadreur enlumineur
-    - Endocrinologue
-    - Épicerie
-    - Epicerie fine
-    - Équipements du foyer
-    - Equipement sportif
-    - Ergothérapeute
-    - Espace collaboratif
-    - Espace numérique
-    - Espace vert et naturel
-    - Etablissement de prévention
-    - Établissement de santé
-    - Établissement militaire
-    - Etablissement pénitentiaire
-    - Fédération départementale pour la pêche et la protection du milieu aquatique
-    - Fleuriste
-    - Friperie
-    - Fruits et légumes
-    - Galerie d'art
-    - Garage automobile
-    - Garderie
-    - Gare avec desserte train à grande vitesse (TAGV)
-    - Gare routière
-    - Gare sans desserte train à grande vitesse (TAGV)
-    - Gastro-entérologie hépatologie
-    - Gendarmerie
-    - Géomètre
-    - Glacier
-    - Greffe des associations
-    - Guichet france services
-    - Gymnase
-    - Gynécologie
-    - Hématologie
-    - Herboristerie naturopathie
-    - Hôpital
-    - Horlogerie
-    - Hôtel
-    - Hôtel restaurant
-    - Huissier
-    - Hypermarché
-    - Hypnothérapeute
-    - Immobilier
-    - Imprimerie photocopie reliure
-    - Infirmier
-    - Information Touristique
-    - Informatique
-    - Institut de formation
-    - Instruments et matériel de musique
-    - Jardin botanique et/ou zoologique
-    - Jardinerie
-    - Jeux jouets
-    - Jeux vidéo
-    - Karaoké
-    - Kiosque (théâtre, pizza, journaux)
-    - Laboratoire d'analyse médicale
-    - Laverie
-    - Librairie
-    - Lieu de culte
-    - Lieu de visite
-    - Lingerie sous-vêtements
-    - Literie
-    - Location articles loisirs et sport
-    - Location de matériels
-    - Location véhicules
-    - Loisirs créatifs
-    - Luminaire
-    - Lycée
-    - Magasin de bois de chauffage
-    - Magasin de cbd
-    - Magasin de souvenirs
-    - Magasin de tissus
-    - Mairie
-    - Maison départementale des personnes handicapées
-    - Maison de santé ou centre de santé
-    - Maison de services au public
-    - Marché
-    - Maroquinerie sellerie articles de voyage
-    - Massages
-    - Masseur kinésithérapeute
-    - Matériel de pêche
-    - Médecine du travail
-    - Médecin généraliste
-    - Menuiserie, ébénisterie
-    - Mercerie
-    - Meubles ameublement
-    - Mission d'accueil et d'information des associations
-    - Mission locale pour l'insertion professionnelle et sociale des jeunes
-    - Monument historique
-    - Motocycle vente et entretien
-    - Musée
-    - Musique
-    - Neurologie
-    - Notaire
-    - Numérique
-    - Office du tourisme
-    - Opéra
-    - Ophtalmologie
-    - Opticien
-    - Ordre des avocats
-    - Organisation patronale, professionnelle, syndicale
-    - Organisme de conseil
-    - Orthodontie
-    - Orthopédie
-    - Orthophonie
-    - Orthoptie
-    - Ostéopathie
-    - Oto-rhino-laryngologie
-    - Papeterie, presse, journaux
-    - Parc
-    - Parc d’attraction
-    - Parc des expositions
-    - Parfumerie beauté
-    - Parking & stationnement
-    - Patinoire
-    - Pâtisserie
-    - Pédiatrie
-    - Pédicure-podologue
-    - Pépinière
-    - Personnes âgées : foyer restaurant
-    - Personnes âgées : hébergement
-    - Pharmacie
-    - Photographie
-    - Piscine
-    - Plage
-    - Plateaux et terrains de jeux extérieurs
-    - Plomberie, chauffage
-    - Pneumologie
-    - Point accueil numerique
-    - Point conseil budget
-    - Point d'information local dédié aux personnes âgées
-    - Point information jeunesse
-    - Point justice
-    - Poissonnerie / commerce de poissons, crustacés et mollusques
-    - Pompes funèbres
-    - Port
-    - Poterie verrerie céramique
-    - Pressing, nettoyage
-    - Primeur
-    - Produits de terroir
-    - Produits surgelés
-    - Profession libérale
-    - Psychologie, Psychiatrie
-    - Psychomotricien
-    - Puériculture
-    - Radiodiagnostic et imagerie médicale
-    - Refuge animalier
-    - Rempailleur tapissier chaises fauteuils
-    - Réparation auto et de matériel agricole
-    - Résidence, foyer
-    - Ressourcerie
-    - Restaurant
-    - Restaurant scolaire
-    - Restauration rapide
-    - Retouche
-    - Retraite
-    - Revêtements murs et sols
-    - Rhumatologie
-    - Sage-femme
-    - Salle de combat
-    - Salle de concert
-    - Salle de danse
-    - Salle de jeux
-    - Salle de réception
-    - Salle des fêtes
-    - Salle de spectacle
-    - Salle multisports
-    - Salle non spécialisée
-    - Salles de remise en forme
-    - Salle spécialisée
-    - Salon de thé
-    - Sécurité sociale, mutuelle santé
-    - Service ou aide à domicile
-    - Services techniques
-    - Sex shop
-    - Skatepark
-    - Soins de beauté
-    - Sophrologue
-    - Spa
-    - Sports et loisirs
-    - Sports nautiques
-    - Stade
-    - Station lavage auto
-    - Station service
-    - Stomatologie
-    - Supérette
-    - Supermarché
-    - Syndic, gérance immo
-    - Tabac
-    - Tatouage Piercing
-    - Taxi
-    - Taxidermie
-    - Téléphonie
-    - Tennis
-    - Textile hors habillement
-    - Thalassothérapie
-    - Théâtre
-    - Toilettes publiques
-    - Toiletteur
-    - Traiteur
-    - Transport
-    - Trésorerie
-    - Tribunal
-    - Université ou école supérieure
-    - Urologie
-    - Vente à distance
-    - Vente d'articles de sport
-    - Vente de matériel et équipement industriels
-    - Vente de matériel médical
-    - Vente de matériel pour piscine
-    - Vêtements
-    - Vétérinaire
+    - `Accessoires`
+    - `Accompagnement personnes agees`
+    - `Accrobranche`
+    - `Achat or`
+    - `Administration publique`
+    - `Aéroport`
+    - `Afpa`
+    - `Agence départementale d'information sur le logement`
+    - `Agence de publicité`
+    - `Agence de travail temporaire`
+    - `Agence de voyage`
+    - `Agence immobilière`
+    - `Agence matrimoniale`
+    - `Agence postale`
+    - `Aide à la personne`
+    - `Aide sociale à l'enfance : action éducative`
+    - `Ambulances`
+    - `Aménagement maison : cuisine salle de bain salon`
+    - `Anesthésie`
+    - `Animalerie`
+    - `Antiquaire`
+    - `Apiculteur`
+    - `Aquarium`
+    - `Architecte`
+    - `Arène`
+    - `Armurerie coutellerie`
+    - `Art`
+    - `Artisanat`
+    - `Arts de la table`
+    - `Association`
+    - `Association aide aux victimes`
+    - `Association de gestion du fonds pour l'insertion professionnelle des personnes handicapées`
+    - `Assurance`
+    - `Athlétisme`
+    - `Audio prothésiste`
+    - `Auditorium et salle de conférence`
+    - `Auto école`
+    - `Autre`
+    - `Autres établissements pour adultes et familles en difficulté`
+    - `Avocat`
+    - `Banques, caisses d'épargne`
+    - `Barbier`
+    - `Bar tabac`
+    - `Bâtiment d'accueil`
+    - `Bazar`
+    - `Bibliothèque médiathèque`
+    - `Bien-être`
+    - `Bijouterie joaillerie`
+    - `Biscuiterie`
+    - `Blanchisserie teinturerie`
+    - `Boucherie / commerce de viande`
+    - `Boulangerie`
+    - `Boulangerie Pâtisserie`
+    - `Boulodrome`
+    - `Boutique de mariage`
+    - `Bowling`
+    - `Bricolage, matériaux, travaux`
+    - `Brocante`
+    - `Brûlerie`
+    - `Bureau de douane`
+    - `Bureau de poste`
+    - `Café, bar, brasserie`
+    - `Cafés et thés`
+    - `Caisse d'allocations familiales (caf)`
+    - `Camping caravaning`
+    - `Cantine`
+    - `Cardiologie`
+    - `Carrosserie`
+    - `Casino`
+    - `Caviste / commerce de détail de boissons`
+    - `Centrale nucléaire`
+    - `Centre commercial`
+    - `Centre culturel`
+    - `Centre de gestion de la fonction publique territoriale`
+    - `Centre de loisirs`
+    - `Centre de protection maternelle et infantile (pmi)`
+    - `Centre de ressources et d'information`
+    - `Centre de vacances`
+    - `Centre de vaccination`
+    - `Centre d'examen`
+    - `Centre d’information et d’orientation`
+    - `Centre d'information sur les droits des femmes et des familles`
+    - `Centre équestre`
+    - `Centre médical`
+    - `Centre national de la fonction publique territoriale`
+    - `Centre religieux`
+    - `Centre social`
+    - `Chambre agriculture`
+    - `Chambre de commerce et d'industrie`
+    - `Chambre metier`
+    - `Chambres d'hôtes, gîte, pension`
+    - `Chapeaux et couvre-chefs`
+    - `Charcuterie`
+    - `Château`
+    - `Chaussures`
+    - `Chenil, fourrière`
+    - `Chirurgie`
+    - `Chirurgien dentiste`
+    - `Chocolatier`
+    - `Cigarette électronique`
+    - `Cimetière`
+    - `Cinéma`
+    - `Circuit sportif deux roues / voiture`
+    - `Clinique`
+    - `Coiffure`
+    - `Collectivité territoriale`
+    - `Collège`
+    - `Commerce`
+    - `Commerce automobile`
+    - `Commerce bio`
+    - `Commissariat de Police`
+    - `Commission conciliation`
+    - `Communauté de communes`
+    - `Comptable expert-comptable`
+    - `Concessionnaire automobile`
+    - `Confiserie`
+    - `Conservatoire et école de musique`
+    - `Construction de maisons, immeubles`
+    - `Contrôle technique auto`
+    - `Coopérative agricole`
+    - `Cordonnerie serrurerie`
+    - `Courtier`
+    - `Coworking`
+    - `Crèche`
+    - `Crèmerie Fromagerie`
+    - `Cure thermale`
+    - `Cycle vente et entretien`
+    - `Cyclisme`
+    - `Déchetterie`
+    - `Décoration Design`
+    - `Déménageur`
+    - `Dermatologie vénéréologie`
+    - `Direction départementale de la protection des populations`
+    - `Direction départementale de l'emploi, du travail, des solidarités et de la protection des populations`
+    - `Discothèque`
+    - `Disquaire`
+    - `Distribution spécialisée / commerce de gros`
+    - `Droguerie`
+    - `Ecole de danse`
+    - `École élémentaire`
+    - `École maternelle`
+    - `École primaire (regroupement maternelle et élémentaire)`
+    - `EHPAD`
+    - `Électricien`
+    - `Électroménager et matériel audio-vidéo`
+    - `Emploi, formation`
+    - `Encadreur enlumineur`
+    - `Endocrinologue`
+    - `Épicerie`
+    - `Epicerie fine`
+    - `Équipements du foyer`
+    - `Equipement sportif`
+    - `Ergothérapeute`
+    - `Espace collaboratif`
+    - `Espace numérique`
+    - `Espace vert et naturel`
+    - `Etablissement de prévention`
+    - `Établissement de santé`
+    - `Établissement militaire`
+    - `Etablissement pénitentiaire`
+    - `Fédération départementale pour la pêche et la protection du milieu aquatique`
+    - `Fleuriste`
+    - `Friperie`
+    - `Fruits et légumes`
+    - `Galerie d'art`
+    - `Garage automobile`
+    - `Garderie`
+    - `Gare avec desserte train à grande vitesse (TAGV)`
+    - `Gare routière`
+    - `Gare sans desserte train à grande vitesse (TAGV)`
+    - `Gastro-entérologie hépatologie`
+    - `Gendarmerie`
+    - `Géomètre`
+    - `Glacier`
+    - `Greffe des associations`
+    - `Guichet france services`
+    - `Gymnase`
+    - `Gynécologie`
+    - `Hématologie`
+    - `Herboristerie naturopathie`
+    - `Hôpital`
+    - `Horlogerie`
+    - `Hôtel`
+    - `Hôtel restaurant`
+    - `Huissier`
+    - `Hypermarché`
+    - `Hypnothérapeute`
+    - `Immobilier`
+    - `Imprimerie photocopie reliure`
+    - `Infirmier`
+    - `Information Touristique`
+    - `Informatique`
+    - `Institut de formation`
+    - `Instruments et matériel de musique`
+    - `Jardin botanique et/ou zoologique`
+    - `Jardinerie`
+    - `Jeux jouets`
+    - `Jeux vidéo`
+    - `Karaoké`
+    - `Kiosque (théâtre, pizza, journaux)`
+    - `Laboratoire d'analyse médicale`
+    - `Laverie`
+    - `Librairie`
+    - `Lieu de culte`
+    - `Lieu de visite`
+    - `Lingerie sous-vêtements`
+    - `Literie`
+    - `Location articles loisirs et sport`
+    - `Location de matériels`
+    - `Location véhicules`
+    - `Loisirs créatifs`
+    - `Luminaire`
+    - `Lycée`
+    - `Magasin de bois de chauffage`
+    - `Magasin de cbd`
+    - `Magasin de souvenirs`
+    - `Magasin de tissus`
+    - `Mairie`
+    - `Maison départementale des personnes handicapées`
+    - `Maison de santé ou centre de santé`
+    - `Maison de services au public`
+    - `Marché`
+    - `Maroquinerie sellerie articles de voyage`
+    - `Massages`
+    - `Masseur kinésithérapeute`
+    - `Matériel de pêche`
+    - `Médecine du travail`
+    - `Médecin généraliste`
+    - `Menuiserie, ébénisterie`
+    - `Mercerie`
+    - `Meubles ameublement`
+    - `Mission d'accueil et d'information des associations`
+    - `Mission locale pour l'insertion professionnelle et sociale des jeunes`
+    - `Monument historique`
+    - `Motocycle vente et entretien`
+    - `Musée`
+    - `Musique`
+    - `Neurologie`
+    - `Notaire`
+    - `Numérique`
+    - `Office du tourisme`
+    - `Opéra`
+    - `Ophtalmologie`
+    - `Opticien`
+    - `Ordre des avocats`
+    - `Organisation patronale, professionnelle, syndicale`
+    - `Organisme de conseil`
+    - `Orthodontie`
+    - `Orthopédie`
+    - `Orthophonie`
+    - `Orthoptie`
+    - `Ostéopathie`
+    - `Oto-rhino-laryngologie`
+    - `Papeterie, presse, journaux`
+    - `Parc`
+    - `Parc d’attraction`
+    - `Parc des expositions`
+    - `Parfumerie beauté`
+    - `Parking & stationnement`
+    - `Patinoire`
+    - `Pâtisserie`
+    - `Pédiatrie`
+    - `Pédicure-podologue`
+    - `Pépinière`
+    - `Personnes âgées : foyer restaurant`
+    - `Personnes âgées : hébergement`
+    - `Pharmacie`
+    - `Photographie`
+    - `Piscine`
+    - `Plage`
+    - `Plateaux et terrains de jeux extérieurs`
+    - `Plomberie, chauffage`
+    - `Pneumologie`
+    - `Point accueil numerique`
+    - `Point conseil budget`
+    - `Point d'information local dédié aux personnes âgées`
+    - `Point information jeunesse`
+    - `Point justice`
+    - `Poissonnerie / commerce de poissons, crustacés et mollusques`
+    - `Pompes funèbres`
+    - `Port`
+    - `Poterie verrerie céramique`
+    - `Pressing, nettoyage`
+    - `Primeur`
+    - `Produits de terroir`
+    - `Produits surgelés`
+    - `Profession libérale`
+    - `Psychologie, Psychiatrie`
+    - `Psychomotricien`
+    - `Puériculture`
+    - `Radiodiagnostic et imagerie médicale`
+    - `Refuge animalier`
+    - `Rempailleur tapissier chaises fauteuils`
+    - `Réparation auto et de matériel agricole`
+    - `Résidence, foyer`
+    - `Ressourcerie`
+    - `Restaurant`
+    - `Restaurant scolaire`
+    - `Restauration rapide`
+    - `Retouche`
+    - `Retraite`
+    - `Revêtements murs et sols`
+    - `Rhumatologie`
+    - `Sage-femme`
+    - `Salle de combat`
+    - `Salle de concert`
+    - `Salle de danse`
+    - `Salle de jeux`
+    - `Salle de réception`
+    - `Salle des fêtes`
+    - `Salle de spectacle`
+    - `Salle multisports`
+    - `Salle non spécialisée`
+    - `Salles de remise en forme`
+    - `Salle spécialisée`
+    - `Salon de thé`
+    - `Sécurité sociale, mutuelle santé`
+    - `Service ou aide à domicile`
+    - `Services techniques`
+    - `Sex shop`
+    - `Skatepark`
+    - `Soins de beauté`
+    - `Sophrologue`
+    - `Spa`
+    - `Sports et loisirs`
+    - `Sports nautiques`
+    - `Stade`
+    - `Station lavage auto`
+    - `Station service`
+    - `Stomatologie`
+    - `Supérette`
+    - `Supermarché`
+    - `Syndic, gérance immo`
+    - `Tabac`
+    - `Tatouage Piercing`
+    - `Taxi`
+    - `Taxidermie`
+    - `Téléphonie`
+    - `Tennis`
+    - `Textile hors habillement`
+    - `Thalassothérapie`
+    - `Théâtre`
+    - `Toilettes publiques`
+    - `Toiletteur`
+    - `Traiteur`
+    - `Transport`
+    - `Trésorerie`
+    - `Tribunal`
+    - `Université ou école supérieure`
+    - `Urologie`
+    - `Vente à distance`
+    - `Vente d'articles de sport`
+    - `Vente de matériel et équipement industriels`
+    - `Vente de matériel médical`
+    - `Vente de matériel pour piscine`
+    - `Vêtements`
+    - `Vétérinaire`
 
 #### Proximité d'un arrêt de transport en commun - Propriété `transport_station_presence`
 
@@ -616,8 +616,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - montant
-    - descendant
+    - `montant`
+    - `descendant`
 
 #### Main courante - Propriété `cheminement_ext_main_courante`
 
@@ -631,9 +631,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucune
-    - fixe
-    - amovible
+    - `aucune`
+    - `fixe`
+    - `amovible`
 
 #### Pente - Propriété `cheminement_ext_pente_presence`
 
@@ -647,8 +647,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - légère
-    - importante
+    - `légère`
+    - `importante`
 
 #### Longueur de la pente - Propriété `cheminement_ext_pente_longueur`
 
@@ -656,9 +656,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - courte
-    - moyenne
-    - longue
+    - `courte`
+    - `moyenne`
+    - `longue`
 
 #### Dévers - Propriété `cheminement_ext_devers`
 
@@ -666,9 +666,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucun
-    - léger
-    - important
+    - `aucun`
+    - `léger`
+    - `important`
 
 #### Bande de guidage - Propriété `cheminement_ext_bande_guidage`
 
@@ -736,9 +736,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucune
-    - fixe
-    - amovible
+    - `aucune`
+    - `fixe`
+    - `amovible`
 
 #### Sens de circulation de l'escalier - Propriété `entree_marches_sens`
 
@@ -746,8 +746,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - montant
-    - descendant
+    - `montant`
+    - `descendant`
 
 #### Dispositif d'appel à l'entrée - Propriété `entree_dispositif_appel`
 
@@ -797,10 +797,10 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - battante
-    - coulissante
-    - tourniquet
-    - tambour
+    - `battante`
+    - `coulissante`
+    - `tourniquet`
+    - `tambour`
 
 #### Type de porte - Propriété `entree_porte_type`
 
@@ -808,8 +808,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - manuelle
-    - automatique
+    - `manuelle`
+    - `automatique`
 
 #### Visibilité de la zone d'accueil - Propriété `accueil_visibilite`
 
@@ -823,9 +823,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucun
-    - formés
-    - non-formés
+    - `aucun`
+    - `formés`
+    - `non-formés`
 
 #### Audiodescription - Propriété `accueil_audiodescription_presence`
 
@@ -887,9 +887,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucune
-    - fixe
-    - amovible
+    - `aucune`
+    - `fixe`
+    - `amovible`
 
 #### Sens de circulation de l'escalier - Propriété `accueil_cheminement_sens_marches`
 
@@ -897,8 +897,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - montant
-    - descendant
+    - `montant`
+    - `descendant`
 
 #### Nombre de chambres accessibles à une personne en fauteuil roulant - Propriété `accueil_chambre_nombre_accessibles`
 

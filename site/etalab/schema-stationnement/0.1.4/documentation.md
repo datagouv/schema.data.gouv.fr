@@ -86,8 +86,8 @@ Spécification des lieux permettant le stationnement en parc
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - tous
-    - abonnés
+    - `tous`
+    - `abonnés`
 
 #### Propriété `gratuit`
 
@@ -183,9 +183,9 @@ Spécification des lieux permettant le stationnement en parc
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - gratuit
-    - normal_payant
-    - tarif_special
+    - `gratuit`
+    - `normal_payant`
+    - `tarif_special`
 
 #### Propriété `tarif_1h`
 
@@ -235,8 +235,8 @@ Spécification des lieux permettant le stationnement en parc
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - enclos_en_surface
-    - ouvrage
+    - `enclos_en_surface`
+    - `ouvrage`
 
 #### Propriété `info`
 

@@ -88,11 +88,11 @@ Description des plats proposés par des collectivités locales et des établisse
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - A
-    - B
-    - C
-    - D
-    - E
+    - `A`
+    - `B`
+    - `C`
+    - `D`
+    - `E`
 
 #### Coût de revient du plat - Propriété `platPrix`
 

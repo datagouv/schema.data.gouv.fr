@@ -247,8 +247,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - montant
-    - descendant
+    - `montant`
+    - `descendant`
 
 #### Main courante - Propriété `cheminement_ext_main_courante`
 
@@ -262,9 +262,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucune
-    - fixe
-    - amovible
+    - `aucune`
+    - `fixe`
+    - `amovible`
 
 #### Pente - Propriété `cheminement_ext_pente_presence`
 
@@ -278,8 +278,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - légère
-    - importante
+    - `légère`
+    - `importante`
 
 #### Longueur de la pente - Propriété `cheminement_ext_pente_longueur`
 
@@ -287,9 +287,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - courte
-    - moyenne
-    - longue
+    - `courte`
+    - `moyenne`
+    - `longue`
 
 #### Dévers - Propriété `cheminement_ext_devers`
 
@@ -297,9 +297,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucun
-    - léger
-    - important
+    - `aucun`
+    - `léger`
+    - `important`
 
 #### Bande de guidage - Propriété `cheminement_ext_bande_guidage`
 
@@ -367,9 +367,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucune
-    - fixe
-    - amovible
+    - `aucune`
+    - `fixe`
+    - `amovible`
 
 #### Sens de circulation de l'escalier - Propriété `entree_marches_sens`
 
@@ -377,8 +377,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - montant
-    - descendant
+    - `montant`
+    - `descendant`
 
 #### Dispositif d'appel à l'entrée - Propriété `entree_dispositif_appel`
 
@@ -428,10 +428,10 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - battante
-    - coulissante
-    - tourniquet
-    - tambour
+    - `battante`
+    - `coulissante`
+    - `tourniquet`
+    - `tambour`
 
 #### Type de porte - Propriété `entree_porte_type`
 
@@ -439,8 +439,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - manuelle
-    - automatique
+    - `manuelle`
+    - `automatique`
 
 #### Visibilité de la zone d'accueil - Propriété `accueil_visibilite`
 
@@ -454,9 +454,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucun
-    - formés
-    - non-formés
+    - `aucun`
+    - `formés`
+    - `non-formés`
 
 #### Présence d'équipements d'aide à l'audition et à la communication - Propriété `accueil_equipements_malentendants_presence`
 
@@ -506,9 +506,9 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aucune
-    - fixe
-    - amovible
+    - `aucune`
+    - `fixe`
+    - `amovible`
 
 #### Sens de circulation de l'escalier - Propriété `accueil_cheminement_sens_marches`
 
@@ -516,8 +516,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - montant
-    - descendant
+    - `montant`
+    - `descendant`
 
 #### Rétrécissement du chemin - Propriété `accueil_retrecissement`
 

@@ -39,9 +39,9 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - en_service
-    - hors_service
-    - inconnu
+    - `en_service`
+    - `hors_service`
+    - `inconnu`
 
 #### Propriété `occupation_pdc`
 
@@ -49,10 +49,10 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - libre
-    - occupe
-    - reserve
-    - inconnu
+    - `libre`
+    - `occupe`
+    - `reserve`
+    - `inconnu`
 
 #### Propriété `horodatage`
 
@@ -66,9 +66,9 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - fonctionnel
-    - hors_service
-    - inconnu
+    - `fonctionnel`
+    - `hors_service`
+    - `inconnu`
 
 #### Propriété `etat_prise_type_combo_ccs`
 
@@ -76,9 +76,9 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - fonctionnel
-    - hors_service
-    - inconnu
+    - `fonctionnel`
+    - `hors_service`
+    - `inconnu`
 
 #### Propriété `etat_prise_type_chademo`
 
@@ -86,9 +86,9 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - fonctionnel
-    - hors_service
-    - inconnu
+    - `fonctionnel`
+    - `hors_service`
+    - `inconnu`
 
 #### Propriété `etat_prise_type_ef`
 
@@ -96,6 +96,6 @@ Spécification du fichier d'échange relatif aux données concernant la localisa
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - fonctionnel
-    - hors_service
-    - inconnu
+    - `fonctionnel`
+    - `hors_service`
+    - `inconnu`

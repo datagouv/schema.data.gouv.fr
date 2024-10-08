@@ -46,10 +46,10 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - budget primitif
-    - budget supplémentaire
-    - décision modificative
-    - compte administratif
+    - `budget primitif`
+    - `budget supplémentaire`
+    - `décision modificative`
+    - `compte administratif`
 
 #### année de exercice - Propriété `BGT_ANNEE`
 
@@ -121,8 +121,8 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - investissement
-    - fonctionnement
+    - `investissement`
+    - `fonctionnement`
 
 #### type opération budgétaire - Propriété `BGT_OPBUDG`
 
@@ -130,8 +130,8 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - réel
-    - ordre
+    - `réel`
+    - `ordre`
 
 #### Code recette / dépense - Propriété `BGT_CODRD`
 
@@ -139,8 +139,8 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - recette
-    - dépense
+    - `recette`
+    - `dépense`
 
 #### Montant signé des réalisations budgétaires - Propriété `BGT_MTREAL`
 
@@ -190,5 +190,5 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - non spécialisé
-    - spécialisé
+    - `non spécialisé`
+    - `spécialisé`

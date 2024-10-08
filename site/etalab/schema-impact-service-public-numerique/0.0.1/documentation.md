@@ -89,5 +89,5 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - À la hausse
-    - À la baisse
+    - `À la hausse`
+    - `À la baisse`

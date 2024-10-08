@@ -90,14 +90,14 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - ARCEAU
-    - RATELIER
-    - CORCHET
-    - RACK DOUBLE ETAGE
-    - ANCRAGE
-    - POTELET
-    - ARCEAU VELO GRANDE TAILLE
-    - AUTRE
+    - `ARCEAU`
+    - `RATELIER`
+    - `CORCHET`
+    - `RACK DOUBLE ETAGE`
+    - `ANCRAGE`
+    - `POTELET`
+    - `ARCEAU VELO GRANDE TAILLE`
+    - `AUTRE`
 
 #### Propriété `protection`
 
@@ -105,10 +105,10 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - STATIONNEMENT NON FERME
-    - CONSIGNE COLLECTIVE FERMEE
-    - BOX INDIVIDUEL FERME
-    - AUTRE
+    - `STATIONNEMENT NON FERME`
+    - `CONSIGNE COLLECTIVE FERMEE`
+    - `BOX INDIVIDUEL FERME`
+    - `AUTRE`
 
 #### Propriété `couverture`
 
@@ -122,9 +122,9 @@ Spécification du fichier décrivant les emplacements de stationnement cycable.
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - LIBRE
-    - PAYANT
-    - PRIVE
+    - `LIBRE`
+    - `PAYANT`
+    - `PRIVE`
 
 #### Propriété `surveillance`
 

@@ -95,10 +95,10 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - SIRET
-    - EN
-    - autre
-    - sans
+    - `SIRET`
+    - `EN`
+    - `autre`
+    - `sans`
 
 #### Type de restaurant auquel le menu est proposé. - Propriété `menuRestaurantType`
 
@@ -106,20 +106,20 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - crèche
-    - maternelle
-    - élémentaire
-    - collège
-    - lycée
-    - université
-    - centre de formation
-    - administration
-    - résidence sénior
-    - EHPAD
-    - repas à domicile
-    - centre de loisirs
-    - restaurant d'entreprise
-    - autre
+    - `crèche`
+    - `maternelle`
+    - `élémentaire`
+    - `collège`
+    - `lycée`
+    - `université`
+    - `centre de formation`
+    - `administration`
+    - `résidence sénior`
+    - `EHPAD`
+    - `repas à domicile`
+    - `centre de loisirs`
+    - `restaurant d'entreprise`
+    - `autre`
 
 #### Type de convive auquel le menu est proposé. - Propriété `menuRestaurantConvive`
 
@@ -139,13 +139,13 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - petit-déjeuner
-    - déjeuner
-    - goûter
-    - dîner
-    - collation
-    - pique-nique
-    - autre
+    - `petit-déjeuner`
+    - `déjeuner`
+    - `goûter`
+    - `dîner`
+    - `collation`
+    - `pique-nique`
+    - `autre`
 
 #### Type de plat servi - Propriété `menuTypePlat`
 
@@ -153,13 +153,13 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - entrée
-    - plat principal
-    - garniture
-    - dessert
-    - produit laitier
-    - pain
-    - autre
+    - `entrée`
+    - `plat principal`
+    - `garniture`
+    - `dessert`
+    - `produit laitier`
+    - `pain`
+    - `autre`
 
 #### Nom du plat servi - Propriété `menuNomPlat`
 
@@ -217,11 +217,11 @@ Schéma permettant de décrire les menus des repas proposés par les collectivit
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - A
-    - B
-    - C
-    - D
-    - E
+    - `A`
+    - `B`
+    - `C`
+    - `D`
+    - `E`
 
 #### Coût théorique de revient du plat calculé à partir du coût de production - Propriété `menuPlatPrix`
 

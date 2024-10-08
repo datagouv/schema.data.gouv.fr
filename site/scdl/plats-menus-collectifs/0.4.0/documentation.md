@@ -103,20 +103,20 @@ Description des plats proposés par des collectivités locales et des établisse
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Gluten
-    - Crustacés
-    - Oeufs
-    - Poissons
-    - Arachides
-    - Soja
-    - Lait
-    - Fruits à coques
-    - Céleri
-    - Moutarde
-    - Graines de sésame
-    - Anhydride sulfureux et sulfites
-    - Lupin
-    - Mollusques
+    - `Gluten`
+    - `Crustacés`
+    - `Oeufs`
+    - `Poissons`
+    - `Arachides`
+    - `Soja`
+    - `Lait`
+    - `Fruits à coques`
+    - `Céleri`
+    - `Moutarde`
+    - `Graines de sésame`
+    - `Anhydride sulfureux et sulfites`
+    - `Lupin`
+    - `Mollusques`
 
 #### Nom des nutriments présents dans l'ingrédient - Propriété `plat_prod_nut_nom`
 

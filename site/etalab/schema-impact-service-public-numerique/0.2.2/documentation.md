@@ -67,12 +67,12 @@ Spécification du fichier de l'impact d'un service public numérique
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - quotidienne
-    - hebdomadaire
-    - mensuelle
-    - annuelle
-    - trimestrielle
-    - autre
+    - `quotidienne`
+    - `hebdomadaire`
+    - `mensuelle`
+    - `annuelle`
+    - `trimestrielle`
+    - `autre`
 
 #### Propriété `date`
 

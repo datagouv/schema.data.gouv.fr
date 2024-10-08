@@ -135,8 +135,8 @@ De la nomenclature des catégories juridiques de l'INSEE.*<br/>*Exemple : 5710*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### date de création - Propriété `etab_creation_date`
 
@@ -162,8 +162,8 @@ De la nomenclature des catégories juridiques de l'INSEE.*<br/>*Exemple : 5710*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - oui
-    - non
+    - `oui`
+    - `non`
 
 #### date de fermeture - Propriété `etab_fermeture_date`
 

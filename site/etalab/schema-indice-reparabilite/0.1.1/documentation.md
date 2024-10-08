@@ -246,8 +246,8 @@ Schéma indice de réparabilité
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - GTIN_EAN
-    - SH4
+    - `GTIN_EAN`
+    - `SH4`
 
 #### Propriété `nom_modele`
 
@@ -261,19 +261,19 @@ Schéma indice de réparabilité
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - aspirateur filaire
-    - aspirateur non filaire
-    - aspirateur robot
-    - lave linge hublot
-    - lave linge top
-    - lave vaisselle
-    - ordinateur portable
-    - smartphone
-    - tondeuse batterie
-    - tondeuse robot
-    - téléviseur
-    - nettoyeur haute pression
-    - tondeuse filaire
+    - `aspirateur filaire`
+    - `aspirateur non filaire`
+    - `aspirateur robot`
+    - `lave linge hublot`
+    - `lave linge top`
+    - `lave vaisselle`
+    - `ordinateur portable`
+    - `smartphone`
+    - `tondeuse batterie`
+    - `tondeuse robot`
+    - `téléviseur`
+    - `nettoyeur haute pression`
+    - `tondeuse filaire`
 
 #### Propriété `id_metteur_sur_le_marche`
 
@@ -288,8 +288,8 @@ Schéma indice de réparabilité
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - GTIN_EAN
-    - SYDEREP
+    - `GTIN_EAN`
+    - `SYDEREP`
 
 #### Propriété `nom_metteur_sur_le_marche`
 
@@ -435,114 +435,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_1_reparateur`
 
@@ -550,10 +550,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_reparateur`
 
@@ -561,24 +561,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_2_reparateur`
 
@@ -586,114 +586,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_2_reparateur`
 
@@ -701,10 +701,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_reparateur`
 
@@ -712,24 +712,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_3_reparateur`
 
@@ -737,114 +737,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_3_reparateur`
 
@@ -852,10 +852,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_reparateur`
 
@@ -863,24 +863,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_4_reparateur`
 
@@ -888,114 +888,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_4_reparateur`
 
@@ -1003,10 +1003,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_reparateur`
 
@@ -1014,24 +1014,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_5_reparateur`
 
@@ -1039,114 +1039,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_5_reparateur`
 
@@ -1154,10 +1154,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_reparateur`
 
@@ -1165,24 +1165,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_6_reparateur`
 
@@ -1190,114 +1190,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_6_reparateur`
 
@@ -1305,10 +1305,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_reparateur`
 
@@ -1316,24 +1316,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_7_reparateur`
 
@@ -1341,114 +1341,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_7_reparateur`
 
@@ -1456,10 +1456,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_reparateur`
 
@@ -1467,24 +1467,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_8_reparateur`
 
@@ -1492,114 +1492,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_8_reparateur`
 
@@ -1607,10 +1607,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_reparateur`
 
@@ -1618,24 +1618,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_9_reparateur`
 
@@ -1643,114 +1643,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_9_reparateur`
 
@@ -1758,10 +1758,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_reparateur`
 
@@ -1769,24 +1769,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_10_reparateur`
 
@@ -1794,114 +1794,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_10_reparateur`
 
@@ -1909,10 +1909,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_reparateur`
 
@@ -1920,24 +1920,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_11_reparateur`
 
@@ -1945,114 +1945,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_11_reparateur`
 
@@ -2060,10 +2060,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_reparateur`
 
@@ -2071,24 +2071,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_12_reparateur`
 
@@ -2096,114 +2096,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_12_reparateur`
 
@@ -2211,10 +2211,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_reparateur`
 
@@ -2222,24 +2222,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_13_reparateur`
 
@@ -2247,114 +2247,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_13_reparateur`
 
@@ -2362,10 +2362,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_reparateur`
 
@@ -2373,24 +2373,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_14_reparateur`
 
@@ -2398,114 +2398,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_14_reparateur`
 
@@ -2513,10 +2513,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_reparateur`
 
@@ -2524,24 +2524,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_15_reparateur`
 
@@ -2549,114 +2549,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_15_reparateur`
 
@@ -2664,10 +2664,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_reparateur`
 
@@ -2675,24 +2675,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_1_producteur`
 
@@ -2700,114 +2700,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_1_producteur`
 
@@ -2815,10 +2815,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_producteur`
 
@@ -2826,24 +2826,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_2_producteur`
 
@@ -2851,114 +2851,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_2_producteur`
 
@@ -2966,10 +2966,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_producteur`
 
@@ -2977,24 +2977,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_3_producteur`
 
@@ -3002,114 +3002,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_3_producteur`
 
@@ -3117,10 +3117,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_producteur`
 
@@ -3128,24 +3128,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_4_producteur`
 
@@ -3153,114 +3153,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_4_producteur`
 
@@ -3268,10 +3268,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_producteur`
 
@@ -3279,24 +3279,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_5_producteur`
 
@@ -3304,114 +3304,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_5_producteur`
 
@@ -3419,10 +3419,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_producteur`
 
@@ -3430,24 +3430,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_6_producteur`
 
@@ -3455,114 +3455,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_6_producteur`
 
@@ -3570,10 +3570,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_producteur`
 
@@ -3581,24 +3581,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_7_producteur`
 
@@ -3606,114 +3606,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_7_producteur`
 
@@ -3721,10 +3721,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_producteur`
 
@@ -3732,24 +3732,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_8_producteur`
 
@@ -3757,114 +3757,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_8_producteur`
 
@@ -3872,10 +3872,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_producteur`
 
@@ -3883,24 +3883,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_9_producteur`
 
@@ -3908,114 +3908,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_9_producteur`
 
@@ -4023,10 +4023,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_producteur`
 
@@ -4034,24 +4034,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_10_producteur`
 
@@ -4059,114 +4059,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_10_producteur`
 
@@ -4174,10 +4174,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_producteur`
 
@@ -4185,24 +4185,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_11_producteur`
 
@@ -4210,114 +4210,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_11_producteur`
 
@@ -4325,10 +4325,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_producteur`
 
@@ -4336,24 +4336,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_12_producteur`
 
@@ -4361,114 +4361,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_12_producteur`
 
@@ -4476,10 +4476,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_producteur`
 
@@ -4487,24 +4487,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_13_producteur`
 
@@ -4512,114 +4512,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_13_producteur`
 
@@ -4627,10 +4627,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_producteur`
 
@@ -4638,24 +4638,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_14_producteur`
 
@@ -4663,114 +4663,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_14_producteur`
 
@@ -4778,10 +4778,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_producteur`
 
@@ -4789,24 +4789,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_15_producteur`
 
@@ -4814,114 +4814,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_15_producteur`
 
@@ -4929,10 +4929,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_producteur`
 
@@ -4940,24 +4940,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_1_distributeur`
 
@@ -4965,114 +4965,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_1_distributeur`
 
@@ -5080,10 +5080,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_distributeur`
 
@@ -5091,24 +5091,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_2_distributeur`
 
@@ -5116,114 +5116,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_2_distributeur`
 
@@ -5231,10 +5231,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_distributeur`
 
@@ -5242,24 +5242,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_3_distributeur`
 
@@ -5267,114 +5267,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_3_distributeur`
 
@@ -5382,10 +5382,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_distributeur`
 
@@ -5393,24 +5393,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_4_distributeur`
 
@@ -5418,114 +5418,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_4_distributeur`
 
@@ -5533,10 +5533,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_distributeur`
 
@@ -5544,24 +5544,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_5_distributeur`
 
@@ -5569,114 +5569,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_5_distributeur`
 
@@ -5684,10 +5684,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_distributeur`
 
@@ -5695,24 +5695,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_6_distributeur`
 
@@ -5720,114 +5720,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_6_distributeur`
 
@@ -5835,10 +5835,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_distributeur`
 
@@ -5846,24 +5846,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_7_distributeur`
 
@@ -5871,114 +5871,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_7_distributeur`
 
@@ -5986,10 +5986,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_distributeur`
 
@@ -5997,24 +5997,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_8_distributeur`
 
@@ -6022,114 +6022,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_8_distributeur`
 
@@ -6137,10 +6137,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_distributeur`
 
@@ -6148,24 +6148,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_9_distributeur`
 
@@ -6173,114 +6173,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_9_distributeur`
 
@@ -6288,10 +6288,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_distributeur`
 
@@ -6299,24 +6299,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_10_distributeur`
 
@@ -6324,114 +6324,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_10_distributeur`
 
@@ -6439,10 +6439,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_distributeur`
 
@@ -6450,24 +6450,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_11_distributeur`
 
@@ -6475,114 +6475,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_11_distributeur`
 
@@ -6590,10 +6590,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_distributeur`
 
@@ -6601,24 +6601,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_12_distributeur`
 
@@ -6626,114 +6626,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_12_distributeur`
 
@@ -6741,10 +6741,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_distributeur`
 
@@ -6752,24 +6752,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_13_distributeur`
 
@@ -6777,114 +6777,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_13_distributeur`
 
@@ -6892,10 +6892,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_distributeur`
 
@@ -6903,24 +6903,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_14_distributeur`
 
@@ -6928,114 +6928,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_14_distributeur`
 
@@ -7043,10 +7043,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_distributeur`
 
@@ -7054,24 +7054,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_15_distributeur`
 
@@ -7079,114 +7079,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_15_distributeur`
 
@@ -7194,10 +7194,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_distributeur`
 
@@ -7205,24 +7205,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_1_consommateur`
 
@@ -7230,114 +7230,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_1_consommateur`
 
@@ -7345,10 +7345,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_1_consommateur`
 
@@ -7356,24 +7356,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_2_consommateur`
 
@@ -7381,114 +7381,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_2_consommateur`
 
@@ -7496,10 +7496,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_2_consommateur`
 
@@ -7507,24 +7507,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_3_consommateur`
 
@@ -7532,114 +7532,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_3_consommateur`
 
@@ -7647,10 +7647,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_3_consommateur`
 
@@ -7658,24 +7658,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_4_consommateur`
 
@@ -7683,114 +7683,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_4_consommateur`
 
@@ -7798,10 +7798,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_4_consommateur`
 
@@ -7809,24 +7809,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_5_consommateur`
 
@@ -7834,114 +7834,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_5_consommateur`
 
@@ -7949,10 +7949,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_5_consommateur`
 
@@ -7960,24 +7960,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_6_consommateur`
 
@@ -7991,10 +7991,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_6_consommateur`
 
@@ -8002,24 +8002,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_7_consommateur`
 
@@ -8027,114 +8027,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_7_consommateur`
 
@@ -8142,10 +8142,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_7_consommateur`
 
@@ -8153,24 +8153,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_8_consommateur`
 
@@ -8178,114 +8178,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_8_consommateur`
 
@@ -8293,10 +8293,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_8_consommateur`
 
@@ -8304,24 +8304,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_9_consommateur`
 
@@ -8329,114 +8329,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_9_consommateur`
 
@@ -8444,10 +8444,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_9_consommateur`
 
@@ -8455,24 +8455,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_10_consommateur`
 
@@ -8480,114 +8480,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_10_consommateur`
 
@@ -8595,10 +8595,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_10_consommateur`
 
@@ -8606,24 +8606,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_11_consommateur`
 
@@ -8631,114 +8631,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_11_consommateur`
 
@@ -8746,10 +8746,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_11_consommateur`
 
@@ -8757,24 +8757,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_12_consommateur`
 
@@ -8782,114 +8782,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_12_consommateur`
 
@@ -8897,10 +8897,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_12_consommateur`
 
@@ -8908,24 +8908,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_13_consommateur`
 
@@ -8933,114 +8933,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_13_consommateur`
 
@@ -9048,10 +9048,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_13_consommateur`
 
@@ -9059,24 +9059,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_14_consommateur`
 
@@ -9084,114 +9084,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_14_consommateur`
 
@@ -9199,10 +9199,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_14_consommateur`
 
@@ -9210,24 +9210,24 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`
 
 #### Propriété `nom_piece_detachee_15_consommateur`
 
@@ -9235,114 +9235,114 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - récepteur infrarouge (IR)
-    - filtres / préfiltres
-    - pompe de vidange
-    - pompe de cyclage
-    - contact de fermeture de porte
-    - amortisseurs et ressorts
-    - tambour de lavage (dont croisillon de tambour et roulements correspondants)
-    - flexible haute pression
-    - moteur de coupe
-    - manchette de hublot
-    - tête d'aspiration
-    - flexible
-    - joint de porte
-    - carte principale (main board)
-    - clavier
-    - logiciels et micrologiciels, y compris de reinitialisation
-    - composant mémoire de masse (HDD - SSD)
-    - module bluetooth
-    - moteur brosse latérale
-    - station d'accueil
-    - moteur
-    - electrovanne
-    - kit réparation d'étanchéité piston (pochette de joints)
-    - manette / actionneur de variateur (partie mécanique)
-    - batterie
-    - générateurs de chaleur, éléments chauffants
-    - moteur de déplacement (avec ou sans roues motrices)
-    - ventilateurs / radiateurs
-    - roues avant de guidage
-    - hauteur de coupe
-    - capot
-    - ports et connecteurs
-    - roue suiveuse
-    - affichage électroniques
-    - charbons
-    - kit réparation clapet anti-retours
-    - carte électronique de commande
-    - générateur de chaleur, élément chauffant
-    - connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)
-    - cache arrière
-    - pistolet
-    - transmission entre moteur et tambour
-    - roues
-    - afficheur
-    - panier
-    - lames
-    - interrupteur marche/arrêt
-    - lance
-    - réceptacle à poussière ou trappe d'accès au sac
-    - boutons
-    - télécommande
-    - charnières de porte
-    - assembalge verrouillage porte
-    - système de detection du niveau d'eau
-    - connecteurs d'alimentation
-    - connecteur de charge
-    - filtre / tamis
-    - condensateur
-    - cartes de circuit imprimé
-    - moteur d'avance
-    - chargeur
-    - sonde
-    - kit réparation régulation (du système de pression de la pompe)
-    - bouton enrouleur
-    - dispositif d'affichage
-    - pompes
-    - caméra frontale
-    - bras d'aspertion inférieur
-    - connecteurs
-    - guidon
-    - porte lames
-    - interface utilisateurs
-    - manocontacts
-    - rouleau brosse
-    - chargeur station
-    - tubes
-    - commutateur marche/arrêt
-    - tuyau d'évacuation
-    - caméra dorsale
-    - carte électronique de puissance
-    - filtre principal
-    - sources d'alimentation internes
-    - carte mère
-    - poignée
-    - roues motrice (avec ou sans moteur de déplacement)
-    - barre LED
-    - cartes électroniques
-    - moteur et balais de moteur
-    - haut-parleur
-    - mémoire (RAM)
-    - conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)
-    - capteur bumper
-    - moteur d'aspiration
-    - station de charge
-    - affichage et commande électronique
-    - arrêt urgence
-    - module wi-fi
-    - thermostats et capteurs
-    - piston distributeur
-    - sources d'alimentation externes
-    - panier inférieur
-    - microphone
-    - station d'alimentation
-    - buse
-    - enrouleur avec câble prise incluse
-    - cadre de poignée
-    - portes, charnières et joints de porte
-    - dalle
+    - `récepteur infrarouge (IR)`
+    - `filtres / préfiltres`
+    - `pompe de vidange`
+    - `pompe de cyclage`
+    - `contact de fermeture de porte`
+    - `amortisseurs et ressorts`
+    - `tambour de lavage (dont croisillon de tambour et roulements correspondants)`
+    - `flexible haute pression`
+    - `moteur de coupe`
+    - `manchette de hublot`
+    - `tête d'aspiration`
+    - `flexible`
+    - `joint de porte`
+    - `carte principale (main board)`
+    - `clavier`
+    - `logiciels et micrologiciels, y compris de reinitialisation`
+    - `composant mémoire de masse (HDD - SSD)`
+    - `module bluetooth`
+    - `moteur brosse latérale`
+    - `station d'accueil`
+    - `moteur`
+    - `electrovanne`
+    - `kit réparation d'étanchéité piston (pochette de joints)`
+    - `manette / actionneur de variateur (partie mécanique)`
+    - `batterie`
+    - `générateurs de chaleur, éléments chauffants`
+    - `moteur de déplacement (avec ou sans roues motrices)`
+    - `ventilateurs / radiateurs`
+    - `roues avant de guidage`
+    - `hauteur de coupe`
+    - `capot`
+    - `ports et connecteurs`
+    - `roue suiveuse`
+    - `affichage électroniques`
+    - `charbons`
+    - `kit réparation clapet anti-retours`
+    - `carte électronique de commande`
+    - `générateur de chaleur, élément chauffant`
+    - `connecteurs pour connecter les équipements externes (câble, antenne, USB, DVD et blue-ray)`
+    - `cache arrière`
+    - `pistolet`
+    - `transmission entre moteur et tambour`
+    - `roues`
+    - `afficheur`
+    - `panier`
+    - `lames`
+    - `interrupteur marche/arrêt`
+    - `lance`
+    - `réceptacle à poussière ou trappe d'accès au sac`
+    - `boutons`
+    - `télécommande`
+    - `charnières de porte`
+    - `assembalge verrouillage porte`
+    - `système de detection du niveau d'eau`
+    - `connecteurs d'alimentation`
+    - `connecteur de charge`
+    - `filtre / tamis`
+    - `condensateur`
+    - `cartes de circuit imprimé`
+    - `moteur d'avance`
+    - `chargeur`
+    - `sonde`
+    - `kit réparation régulation (du système de pression de la pompe)`
+    - `bouton enrouleur`
+    - `dispositif d'affichage`
+    - `pompes`
+    - `caméra frontale`
+    - `bras d'aspertion inférieur`
+    - `connecteurs`
+    - `guidon`
+    - `porte lames`
+    - `interface utilisateurs`
+    - `manocontacts`
+    - `rouleau brosse`
+    - `chargeur station`
+    - `tubes`
+    - `commutateur marche/arrêt`
+    - `tuyau d'évacuation`
+    - `caméra dorsale`
+    - `carte électronique de puissance`
+    - `filtre principal`
+    - `sources d'alimentation internes`
+    - `carte mère`
+    - `poignée`
+    - `roues motrice (avec ou sans moteur de déplacement)`
+    - `barre LED`
+    - `cartes électroniques`
+    - `moteur et balais de moteur`
+    - `haut-parleur`
+    - `mémoire (RAM)`
+    - `conduites et matériel connexe (incluant l'ensemble des flexibles, vannes, filtres et systèmes aquastop)`
+    - `capteur bumper`
+    - `moteur d'aspiration`
+    - `station de charge`
+    - `affichage et commande électronique`
+    - `arrêt urgence`
+    - `module wi-fi`
+    - `thermostats et capteurs`
+    - `piston distributeur`
+    - `sources d'alimentation externes`
+    - `panier inférieur`
+    - `microphone`
+    - `station d'alimentation`
+    - `buse`
+    - `enrouleur avec câble prise incluse`
+    - `cadre de poignée`
+    - `portes, charnières et joints de porte`
+    - `dalle`
 
 #### Propriété `delai_jours_piece_detachee_15_consommateur`
 
@@ -9350,10 +9350,10 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <3
-    - <5
-    - <10
-    - \>11
+    - `<3`
+    - `<5`
+    - `<10`
+    - `>11`
 
 #### Propriété `nb_annees_disponibilite_piece_detachee_15_consommateur`
 
@@ -9361,21 +9361,21 @@ Schéma indice de réparabilité
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - <5
-    - <7
-    - <9
-    - <10
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - \>7
-    - \>9
-    - \>11
-    - \>13
-    - \>14
+    - `<5`
+    - `<7`
+    - `<9`
+    - `<10`
+    - `5`
+    - `6`
+    - `7`
+    - `8`
+    - `9`
+    - `10`
+    - `11`
+    - `12`
+    - `13`
+    - `>7`
+    - `>9`
+    - `>11`
+    - `>13`
+    - `>14`

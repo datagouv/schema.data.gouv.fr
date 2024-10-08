@@ -72,16 +72,16 @@ Menus des repas proposés par des collectivités locales et des établissements 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - crèche
-    - école maternelle
-    - école élémentaire
-    - Foyer
-    - Collège
-    - Lycée
-    - administration locale
-    - RPA
-    - repas à domicile
-    - centre de loisirs
+    - `crèche`
+    - `école maternelle`
+    - `école élémentaire`
+    - `Foyer`
+    - `Collège`
+    - `Lycée`
+    - `administration locale`
+    - `RPA`
+    - `repas à domicile`
+    - `centre de loisirs`
 
 #### Type de convive auquel le menu est proposé. - Propriété `restaurantConvive`
 
@@ -89,11 +89,11 @@ Menus des repas proposés par des collectivités locales et des établissements 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - bébé
-    - scolaire
-    - agent administratif
-    - adulte
-    - sénior
+    - `bébé`
+    - `scolaire`
+    - `agent administratif`
+    - `adulte`
+    - `sénior`
 
 #### Adresse de l'établissement où le repas est servi. - Propriété `restaurantAdresse`
 
@@ -113,11 +113,11 @@ Menus des repas proposés par des collectivités locales et des établissements 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - déjeuner
-    - goûter
-    - dîner
-    - collation
-    - pique-nique
+    - `déjeuner`
+    - `goûter`
+    - `dîner`
+    - `collation`
+    - `pique-nique`
 
 #### Type de plat servi - Propriété `menuTypePlat`
 
@@ -125,14 +125,14 @@ Menus des repas proposés par des collectivités locales et des établissements 
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - entrée
-    - plat principal
-    - garniture
-    - dessert
-    - produit laitier
-    - collation matinale
-    - goûter
-    - pain
+    - `entrée`
+    - `plat principal`
+    - `garniture`
+    - `dessert`
+    - `produit laitier`
+    - `collation matinale`
+    - `goûter`
+    - `pain`
 
 #### Nom du plat servi - Propriété `menuNomPlat`
 

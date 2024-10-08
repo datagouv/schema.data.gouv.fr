@@ -44,9 +44,9 @@ Spécification du modèle de données relatif aux prénoms des nouveaux-nés dé
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - M
-    - F
-    - I
+    - `M`
+    - `F`
+    - `I`
 
 #### Prénom - Propriété `ENFANT_PRENOM`
 

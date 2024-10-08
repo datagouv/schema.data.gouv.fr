@@ -128,9 +128,9 @@ Spécification des données fixant les termes et modalités de publication du po
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Zone A (1)
-    - Zone B (2)
-    - Zone C (3)
+    - `Zone A (1)`
+    - `Zone B (2)`
+    - `Zone C (3)`
 
 #### Propriété `nbVP`
 

@@ -154,9 +154,9 @@ Spécification du fichier d'échange relatif aux dispositifs d'aides.
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - Permanente
-    - Ponctuelle
-    - Récurrente
+    - `Permanente`
+    - `Ponctuelle`
+    - `Récurrente`
 
 #### Propriété `date_ouverture`
 
