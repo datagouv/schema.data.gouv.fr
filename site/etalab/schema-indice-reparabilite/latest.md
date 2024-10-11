@@ -11,6 +11,18 @@ Il constitue un outil de lutte contre l’obsolescence – programmée ou non - 
 Dans le but de constituer un répertoire national de données relatif à l’indice de réparabilité, ouvert et accessible à tous, les fabricants ou metteurs sur le marché des produits concernés ont la possibilité de publier sur la plateforme data.gouv.fr les données ayant permis le calcul de l’indice. Cette ouverture de données doit être conforme aux schémas de données en vigueur.
 Le renseignement du répertoire national relatif à l’indice de réparabilité est dans un premier temps volontaire. Cette démarche deviendra obligatoire dans le cadre de l’indice de durabilité.
 
+## Foire aux questions 
+La saisie des notes de l'indice de réparabilité est-elle obligatoire ? 
+> La saisie des notes pour l'indice de réparabilité est faite sur base de volontariat uniquement. De ce fait, les notes sur la plateforme ne réprésentent pas forcément une exhaustivité des données du marché.
+
+Quel est le lien avec les calculs d'éco-modulation ?
+> Les évolutions des critères d'éco-modulation intègrent l'indice de réparabilité pour le calcul du bonus quand l'indice est en vigueur. 
+Seules les notes saisies sur la plateforme pourront être prise en compte dans le calcul du bonus par les éco-organismes. 
+ 
+
+Quelle est la fréquence de mise à jour des notes sur la plateforme ? 
+> Il est recommandé de ne pas faire de mise à jour des notes plus d'une fois par an. 
+
 ## Documents de cadrage juridique
 - [Loi n°2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041553759),
 - [Décret n°2020-1757 du 29 décembre 2020 relatif à l'indice de réparabilité des équipements électriques et électroniques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042837821),
