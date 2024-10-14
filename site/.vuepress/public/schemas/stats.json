@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 263,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -222,7 +222,7 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 26,
