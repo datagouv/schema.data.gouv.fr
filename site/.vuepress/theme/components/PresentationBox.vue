@@ -6,7 +6,7 @@
         <div class="pbBoxes">
             <div v-for="pbbox in $site.themeConfig.presentationBox" v-bind:key="pbbox.text" class="pbBox" @click="goto(pbbox.url)">
                 <div class="pbBoxImage">
-                     <img :src="pbbox.img" width="45" />
+                     <img :src="pbbox.img" width="50" />
                 </div>
                 <div class="pbBoxText">
                     {{ pbbox.text }}
@@ -47,6 +47,7 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: stretch;
 }
 .pbHeader{
     text-align: center;
@@ -56,13 +57,13 @@ export default {
     margin-bottom: 50px;
 }
 .pbBox{
-    width: 250px;
+    width: 320px;
     height: 220px;
     background-color: #ebebeb;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 50px;
-    border-bottom: 5px solid #000091;
+    border-bottom: 5px solid #3558A2;
     cursor: pointer;
 }
 .pbBoxImage{
@@ -74,6 +75,11 @@ export default {
 .pbBoxText{
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 20px;
     text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px
+
 }
 </style>

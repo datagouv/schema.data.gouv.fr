@@ -105,7 +105,7 @@
                 <button 
                     @click="gotoInternal('')" 
                     class="ongletItem"
-                    :style="this.pageInfo ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
+                    :style="this.pageInfo ? 'background-color: var(--bf200-bf300); border-top: 1px solid #3558A2; border-left: 1px solid #3558A2; border-right: 1px solid #3558A2;' : ''"
                 >
                     <img src="../../public/assets/info.png" width="15" />&nbsp;
                     Informations
@@ -113,7 +113,7 @@
                 <span v-if="schema_infos['versions'][version]['pages'].includes('documentation.md')">
                     <button 
                         class="ongletItem"
-                        :style="this.pageDoc ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
+                        :style="this.pageDoc ? 'background-color: var(--bf200-bf300); border-top: 1px solid #3558A2; border-left: 1px solid #3558A2; border-right: 1px solid #3558A2;' : ''"
                         @click="gotoInternal('documentation.html')"
                     >
                         <img src="../../public/assets/file-blue.png" width="15" />&nbsp;
@@ -124,10 +124,20 @@
                     <button 
                         @click="gotoInternal('CHANGELOG.html')"
                         class="ongletItem"
-                        :style="this.pageChange ? 'background-color: var(--bf200-bf300); border-top: 1px solid #000091; border-left: 1px solid #000091; border-right: 1px solid #000091;' : ''"
+                        :style="this.pageChange ? 'background-color: var(--bf200-bf300); border-top: 1px solid #3558A2; border-left: 1px solid #3558A2; border-right: 1px solid #3558A2;' : ''"
                     >
                         <img src="../../public/assets/couple-de-fleches-changeant-de-place.png" width="15" />&nbsp;
                         Changements
+                    </button>
+                </span>
+                <span v-if="schema_infos['versions'][version]['pages'].includes('sources.md')">
+                    <button 
+                        class="ongletItem"
+                        :style="this.pageSources ? 'background-color: var(--bf200-bf300); border-top: 1px solid #3558A2; border-left: 1px solid #3558A2; border-right: 1px solid #3558A2;' : ''"
+                        @click="gotoInternal('sources.html')"
+                    >
+                        <img src="../../public/assets/book-marked-line.png" width="15" />&nbsp;
+                        Réglementation
                     </button>
                 </span>
             </div>
@@ -159,6 +169,7 @@ export default {
         pageInfo: false,
         pageDoc: false,
         pageChange: false,
+        pageSources: false,
         hoverText: 'Cliquer pour copier',
     };
   },
@@ -187,6 +198,8 @@ export default {
         this.pageDoc = true
       } else if(last == 'CHANGELOG.html'){
         this.pageChange = true
+      } else if(last == 'sources.html'){
+        this.pageSources = true
       } else {
           this.pageInfo = true
       }
@@ -225,7 +238,7 @@ export default {
       },
       gotoRSS(){
          const _ = require('lodash')
-         window.location.href = window.location.origin + '/rss/' + _.trim(this.$router.currentRoute.path, "/").replace(/\//, '_') + '.xml'
+          window.location.href = window.location.origin + '/rss/' + _.trim(this.$router.currentRoute.path, "/").split('/').slice(0, 2).join('/').replace(/\//, '_') + '.xml'
       },
   },
 };
@@ -269,7 +282,7 @@ export default {
 .box-left{
   width: 75%;
   display: flex;
-  border-bottom: 1px solid #000091;
+  border-bottom: 1px solid #3558A2;
 }
 
 .fr-select-custom{

@@ -4,7 +4,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
         "external_tool": null,
         "type": "datapackage",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "Socle Commun des Donn\u00e9es Locales",
             "transport.data.gouv.fr"
@@ -106,7 +106,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "versions": {
             "2.2.0": {
                 "pages": [
@@ -155,7 +155,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "versions": {
             "2.2.0": {
                 "pages": [
@@ -532,7 +532,7 @@
         "external_doc": null,
         "external_tool": "https://contribuer.transport.data.gouv.fr",
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr"
         ],
@@ -677,7 +677,7 @@
         "external_doc": null,
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr"
         ],
@@ -908,7 +908,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables",
         "external_tool": "https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools",
         "type": "jsonschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr",
             "Socle Commun des Donn\u00e9es Locales"
@@ -1011,7 +1011,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable",
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr"
         ],
@@ -1549,7 +1549,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/zones-a-faibles-emissions",
         "external_tool": null,
         "type": "jsonschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr"
         ],
@@ -1932,7 +1932,7 @@
         "external_doc": null,
         "external_tool": null,
         "type": "jsonschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
@@ -1952,7 +1952,7 @@
         "external_doc": null,
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr"
         ],
@@ -1975,7 +1975,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
         "external_tool": null,
         "type": "datapackage",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "labels": [
             "transport.data.gouv.fr"
         ],
@@ -2008,7 +2008,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "versions": {
             "0.2.3": {
                 "pages": [
@@ -2038,7 +2038,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "versions": {
             "0.2.3": {
                 "pages": [
@@ -2068,7 +2068,7 @@
         "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
         "external_tool": null,
         "type": "tableschema",
-        "email": "contact@transport.beta.gouv.fr",
+        "email": "contact@transport.data.gouv.fr",
         "versions": {
             "0.2.3": {
                 "pages": [

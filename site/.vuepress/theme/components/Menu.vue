@@ -74,8 +74,8 @@ export default {
     font-size: 15px;
     padding: 19px;
     line-height: 100%;
-    color: #000091;
-    border-bottom: 2px solid #000091;
+    color: #3558A2;
+    border-bottom: 2px solid #3558A2;
 }
 .menuItem:hover{
     background-color: #ebebeb;
@@ -99,8 +99,8 @@ export default {
     font-size: 18px;
     padding: 19px;
     line-height: 100%;
-    color: #000091;
-    border-bottom: 2px solid #000091;
+    color: #3558A2;
+    border-bottom: 2px solid #3558A2;
     font-weight: bold;
 }
 .menuItemList:hover{

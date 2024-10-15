@@ -13,3 +13,13 @@ h3 {
 h4 {
   margin-top: 2rem;
 }
+
+.fr-btn { /* Styles pour les boutons avec classe `fr-btn` */
+  background-color: #3558A2; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+}
+
+.fr-btn--secondary { /* Styles pour les boutons avec classe `fr-btn--secondary` */
+  background-color: white; /* Couleur personnalisée pour le bouton secondaire */
+  color: #3558A2; /* Couleur du texte */
+}

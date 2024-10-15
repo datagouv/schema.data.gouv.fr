@@ -60,7 +60,7 @@ export default {
 }
 
 .rss-span {
-  color: #000091;
+  color: #3558A2;
   font-weight: bold;
   font-size: 12px;
   padding: 8px 16px;

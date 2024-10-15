@@ -20,14 +20,30 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
-  head: [
+head: [
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
-    ],
+    ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
     ["link", { rel: "icon", href: "/assets/favicons/favicon.ico" }],
+    // Code pour le suivi Matomo 
+    [
+      "script",
+      {},
+      `
+      var _paq = window._paq = window._paq || [];
+      _paq.push(["setExcludedQueryParams", ["simulationId","_csrf"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://stats.data.gouv.fr/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '90']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+      `
+    ]
   ],
+
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -68,7 +84,7 @@ module.exports = {
         "url": "/statistiques.html",
       },
       {
-        "title": "A propos",
+        "title": "À propos",
         "url": "/apropos.html",
       },
     ],
@@ -92,7 +108,7 @@ module.exports = {
         url: '/schemas.html'
       },
       {
-        img: '/assets/chat.png',
+        img: '/assets/community.png',
         text: 'Contribuez en proposant votre propre schéma',
         url: '/contribuer.html'
       },

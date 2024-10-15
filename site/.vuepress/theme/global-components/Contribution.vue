@@ -221,7 +221,7 @@ export default {
       this.level3Selected = code;
       if(code === 1){
         this.selectedOrganizationName = 'transport.data.gouv.fr'
-        this.selectedOrganizationMail = 'contact [at] transport.beta.gouv.fr'
+        this.selectedOrganizationMail = 'contact [at] transport.data.gouv.fr'
       } else {
         if(this.level1Selected != 2){
           this.selectedOrganizationName = 'Etalab'
@@ -257,7 +257,7 @@ export default {
   margin-right: 5px;
   border-radius: 5px;
   padding: 15px;
-  color: #000091;
+  color: #3558A2;
   margin-bottom: 5px;
 }
 .answerSelected{
@@ -265,7 +265,7 @@ export default {
   margin-right: 5px;
   border-radius: 5px;
   padding: 15px;
-  color: #000091;
+  color: #3558A2;
   margin-bottom: 5px;
 }
 

@@ -45,6 +45,14 @@ cnigfr/sites-economiques-terrain-eco:
 datakode/schema-pei:
   consolidate: false
   publication: false
+etalab/indice-durabilite-lave-linge:
+  consolidate: false
+  search_words:
+  - Lave-linge
+etalab/indice-durabilite-televiseur:
+  consolidate: false
+  search_words:
+  - "T\xE9l\xE9viseur"
 etalab/schema-comptage-mobilites-channel:
   consolidate: false
   search_words:
@@ -75,9 +83,15 @@ etalab/schema-inclusion-numerique:
   consolidate: false
   publication: false
 etalab/schema-indice-reparabilite:
-  consolidate: false
-  search_words:
-  - "Sch\xE9ma indice de r\xE9parabilit\xE9"
+  consolidate: true
+  consolidated_dataset_id: 66e93c3609e8e1084058b1b4
+  drop_versions:
+  - 0.1.0
+  - 0.1.1
+  latest_resource_ids:
+    0.1.2: 60be0572-1ba9-4cad-95e0-bfb32fd20d70
+    latest: b0fddb1d-7032-4e30-a055-9d923e94ce59
+  publication: true
 etalab/schema-irve-dynamique:
   consolidate: false
   publication: false
@@ -103,9 +117,7 @@ etalab/schema-irve-statique:
   - 601d660f2be2c8896f86e18d
   geojson_resource_id: 7eee8f09-5d1b-4f48-a304-5e99e8da1e26
   latest_resource_ids:
-    2.2.0: 8d9398ae-3037-48b2-be19-412c24561fbb
-    2.2.1: 21d394d5-f29d-4918-bc24-702e75531005
-    2.3.1: 88c11cfa-b1f5-40b6-b726-96c7974f3913
+    2.3.1: 2729b192-40ab-4454-904d-735084dca3a3
     latest: eb76d20a-8501-400e-b336-d85724de5435
   publication: true
   search_words:
@@ -134,12 +146,16 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
   consolidated_dataset_id: 623e08af086bba04517431a3
   documentation_resource_id: 4b3c46ee-2778-4410-ac08-8cd4c606d800
   drop_versions:
+  - 0.1.0
   - 0.1.1
   latest_resource_ids:
     0.1.2: 4f3697c9-c36a-4cee-b887-0adc0b08cd6e
     0.1.3: 61ea7bdf-5a44-4d1a-8043-b7aa96d5219b
     latest: 8de41e64-2ed5-4982-9e42-cf2721a2761c
   publication: true
+  search_words:
+  - "faible emission"
+  - LOM
 etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese:
   consolidate: false
   search_words:

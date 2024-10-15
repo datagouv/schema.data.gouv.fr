@@ -68,6 +68,26 @@
         </ul>
       </div>
       <br />
+      <div class="labels">
+        <div @mouseleave="hoverType = false" @mouseover="hoverType= true" class="titleFilter">Filtrer par type de standard :</div>
+
+        <div @click="selectType('Tous')" v-bind:class="typeSelected === 'Tous' ? 'statutSelected tousSelected' : 'statutNotSelected tousNotSelected'">Tous</div>
+        <div  @click="selectType('tableschema')" v-bind:class="typeSelected === 'tableschema' ? 'statutSelected adopteSelected' : 'statutNotSelected tableschemaNotSelected'">Table Schema</div>
+        <div  @click="selectType('datapackage')" v-bind:class="typeSelected === 'datapackage' ? 'statutSelected publieSelected' : 'statutNotSelected datapackageNotSelected'">Data Package</div>
+        <div  @click="selectType('jsonschema')" v-bind:class="typeSelected === 'jsonschema' ? 'statutSelected constructionSelected' : 'statutNotSelected jsonschemaNotSelected'">JSON Schema</div>
+        <div  @click="selectType('other')" v-bind:class="typeSelected === 'other' ? 'statutSelected  investigationSelected' : 'statutNotSelected otherSelected'">Autres</div>
+
+      </div>
+      <div v-if="hoverType" class='onTitleHoverStatut'>
+        Sélectionner un standard pour filtrer les schémas disponibles selon leur état :
+        <ul>
+          <li>Table Schema : Standardisation de fichiers tabulaires (https://specs.frictionlessdata.io/table-schema/).</li>
+          <li>Data Package : Groupement de plusieurs Table Schemas (modèle de données).</li>
+          <li>JSON Schema : Standardisation d'un fichier en arborescence (https://json-schema.org/).</li>
+          <li>Autres standards, ou standards non retranscrits techniquement.</li>
+        </ul>
+      </div>
+      <br />
     </div>
     <div v-else>
       <span class="labelNotSelected" @click="resetDataPackage()">Revenir à l'ensemble des schémas</span>
@@ -90,6 +110,18 @@
             <div class="box-content2">{{ truncateText(schema.description,100) }}</div>
             <div style="float: right"><img src="../../public/assets/right-arrow.png" width="20" /></div>
             {{ messageSchema }}
+            <span v-if="schema.schema_type === 'tableschema'" class="statutSelected adopteSelected">
+              Table Schema
+            </span>
+            <span v-if="schema.schema_type === 'datapackage'" class="statutSelected publieSelected">
+              Data Package
+            </span>
+            <span v-if="schema.schema_type === 'jsonschema'" class="statutSelected constructionSelected">
+              JSON Schema
+            </span>
+            <span v-if="schema.schema_type === 'other'" class="statutSelected investigationSelected">
+              Autre
+            </span>
             <span v-if="schema.schemaStatus === 'Adopté'" class="statutSelected adopteSelected">
               {{ schema.schemaStatus }}
             </span>
@@ -151,9 +183,11 @@ export default {
       listLabels: ['Tous', 'CNIG', 'Socle Commun des Données Locales', 'transport.data.gouv.fr', 'Documents dématérialisés d’urbanisme'],
       labelSelected: 'Tous',
       statusSelected: 'Tous',
+      typeSelected: 'Tous',
       listStatus: ['Tous', 'Adopté', 'Publié', 'En construction', 'En investigation'],
       hoverLabel: false,
       hoverStatut: false,
+      hoverType: false,
       listDatapackages: [],
       datapackageSelected: '',
     };
@@ -173,6 +207,16 @@ export default {
         dataSchemas.schemas.forEach((s) => {
           if(s.name == key){
             s.labels = si[key]['labels']
+          }
+        });
+      }
+    }
+
+    for(var key in si) {
+      if(si[key]['type'] != null){
+        dataSchemas.schemas.forEach((s) => {
+          if(s.name == key){
+            s.schema_type = si[key]['type']
           }
         });
       }
@@ -226,6 +270,10 @@ export default {
 
     if(this.$route.query.statut){
       this.statusSelected = this.$route.query.statut
+    }
+
+    if(this.$route.query.type){
+      this.typeSelected = this.$route.query.type
     }
 
     if(this.$route.query.datapackage){
@@ -289,15 +337,28 @@ export default {
       var sts4 = []
       if(this.searchText != ''){
         sts3.forEach((s) => {
-          if (latinize(s.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))) {
+          if (
+            latinize(s.title.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))
+            || latinize(s.description.toLowerCase()).includes(latinize(this.searchText.toLowerCase()))
+          ) {
             sts4.push(s);
           }
         });
       } else{
         sts4 = sts3
       }
+      var sts5 = []
+      if(this.typeSelected != 'Tous'){
+        sts4.forEach((s) => {
+          if(s['schema_type'] == this.typeSelected){
+            sts5.push(s)
+          }
+        });
+      } else{
+        sts5 = sts4
+      }
 
-      this.schemasToShow = sts4;
+      this.schemasToShow = sts5;
 
       this.schemasToShow = this.schemasToShow.sort(function(a, b){
         var nameA=latinize(a.title), nameB=latinize(b.title);
@@ -327,6 +388,9 @@ export default {
       if(this.statusSelected != 'Tous'){
         newurl = newurl + '&statut=' + this.statusSelected
       }
+      if(this.typeSelected != 'Tous'){
+        newurl = newurl + '&type=' + this.typeSelected
+      }
       if(this.datapackageSelected != ''){
         newurl = newurl + '&datapackage=' + this.datapackageSelected
       }
@@ -343,6 +407,11 @@ export default {
     },
     selectStatus(item){
       this.statusSelected = item;
+      this.manageCardsToShow();
+      this.reshapeUrl(false);
+    },
+    selectType(item){
+      this.typeSelected = item;
       this.manageCardsToShow();
       this.reshapeUrl(false);
     },
@@ -466,11 +535,11 @@ export default {
   border: 2px solid #ebebeb;
 }
 .addSchemaDiv{
-  border: 2px solid #000091;
+  border: 2px solid #3558A2;
   float: left;
   padding: 10px;
   border-radius: 15px;
-  color: #000091;
+  color: #3558A2;
   cursor: pointer;
 }
 .search-bar{
@@ -481,13 +550,13 @@ export default {
   margin: 0px;
   width: 80%;
   border: 0px;
-  border-bottom: 2px solid #000091;
+  border-bottom: 2px solid #3558A2;
   font-size: 16px;
   border-top-left-radius: 5px;
   padding-left: 15px;
 }
 .rf-button-search{
-  background-color: #000091;
+  background-color: #3558A2;
   color: white;
   padding: 15px;
   margin: 0px;
@@ -512,7 +581,7 @@ export default {
   padding: 7px;
   font-size: 13px;
   border-radius: 15px;
-  color: #000091;
+  color: #3558A2;
   text-decoration: underline dotted;
 }
 
@@ -523,7 +592,7 @@ export default {
 .labelSelected{
   margin-right: 15px;
   padding: 7px;
-  background-color: #000091;
+  background-color: #3558A2;
   border-radius: 15px;
   color: white;
   font-size: 13px;
@@ -533,7 +602,7 @@ export default {
   padding: 7px;
   background-color: #ECEDFE;
   border-radius: 15px;
-  color: #000091;
+  color: #3558A2;
   font-size: 13px;
 }
 
@@ -554,7 +623,7 @@ export default {
   border-radius: 15px;
   font-size: 13px;
   background-color: #ECEDFE;
-  color: #000091;
+  color: #3558A2;
 }
 
 .statutNotSelected:hover{
@@ -562,7 +631,7 @@ export default {
 }
 
 .tousSelected{
-  background-color: #000091;
+  background-color: #3558A2;
   color: white;
 }
 .adopteSelected{
