@@ -362,8 +362,8 @@
     </item><item>
       <title>New version - cnigfr/schema-friches (1.0.4 to 1.0.5)</title>
       <link>https://schema.data.gouv.fr/cnigfr/schema-friches</link>
-      <description>Schema update on 2024-03-22: 1.0.4 to 1.0.5 for cnigfr/schema-friches</description>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0100</pubDate>
+      <description>Schema update on 2024-03-23: 1.0.4 to 1.0.5 for cnigfr/schema-friches</description>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0100</pubDate>
     </item><item>
       <title>New version - MTES-MCT/acceslibre-schema (0.0.14 to 0.0.15)</title>
       <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
@@ -380,25 +380,10 @@
       <description>Schema update on 2024-03-30: 2.4.8 for datatourisme/ontology</description>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0100</pubDate>
     </item><item>
-      <title>New schema - etalab/schema-indice-durabilite (0.1.0)</title>
-      <link>https://schema.data.gouv.fr/etalab/schema-indice-durabilite</link>
-      <description>Schema update on 2024-04-12: 0.1.0 for etalab/schema-indice-durabilite</description>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>New schema - etalab/indice-durabilite-televiseur (0.1.0)</title>
-      <link>https://schema.data.gouv.fr/etalab/indice-durabilite-televiseur</link>
-      <description>Schema update on 2024-04-12: 0.1.0 for etalab/indice-durabilite-televiseur</description>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>New schema - etalab/indice-durabilite-lave-linge (0.1.0)</title>
-      <link>https://schema.data.gouv.fr/etalab/indice-durabilite-lave-linge</link>
-      <description>Schema update on 2024-04-12: 0.1.0 for etalab/indice-durabilite-lave-linge</description>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0200</pubDate>
-    </item><item>
       <title>New version - LaMednum/standard-mediation-num (0.1.1 to 1.0.0)</title>
       <link>https://schema.data.gouv.fr/LaMednum/standard-mediation-num</link>
-      <description>Schema update on 2024-04-15: 0.1.1 to 1.0.0 for LaMednum/standard-mediation-num</description>
-      <pubDate>Mon, 15 Apr 2024 00:00:00 +0200</pubDate>
+      <description>Schema update on 2024-04-16: 0.1.1 to 1.0.0 for LaMednum/standard-mediation-num</description>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0200</pubDate>
     </item><item>
       <title>New version - cnigfr/schema-schema-coherence-territoriale (2.0.0 to 2.0.1)</title>
       <link>https://schema.data.gouv.fr/cnigfr/schema-schema-coherence-territoriale</link>
@@ -410,20 +395,10 @@
       <description>Schema update on 2024-04-26: Sch&#233;ma sur les v&#233;g&#233;taux is in construction</description>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0200</pubDate>
     </item><item>
-      <title>Deleted schema - etalab/schema-stationnement (0.1.5)</title>
-      <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
-      <description>Schema update on 2024-05-02: 0.1.5 for etalab/schema-stationnement</description>
-      <pubDate>Thu, 02 May 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>New schema - etalab/schema-stationnement (0.1.5)</title>
-      <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
-      <description>Schema update on 2024-05-03: 0.1.5 for etalab/schema-stationnement</description>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0200</pubDate>
-    </item><item>
       <title>Investigation - Sch&#233;ma sur les Op&#233;rations d'am&#233;nagement</title>
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/317</link>
-      <description>Schema update on 2024-05-17: Sch&#233;ma sur les Op&#233;rations d'am&#233;nagement is in investigation</description>
-      <pubDate>Fri, 17 May 2024 00:00:00 +0200</pubDate>
+      <description>Schema update on 2024-05-18: Sch&#233;ma sur les Op&#233;rations d'am&#233;nagement is in investigation</description>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0200</pubDate>
     </item><item>
       <title>New version - etalab/schema-bal (1.3.0 to 1.4.0)</title>
       <link>https://schema.data.gouv.fr/etalab/schema-bal</link>
@@ -435,6 +410,16 @@
       <description>Schema update on 2024-06-04: Espace Naturel Sensible is in construction</description>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0200</pubDate>
     </item><item>
+      <title>Deleted schema - scdl/menus-collectifs (1.2.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
+      <description>Schema update on 2024-06-09: 1.2.3 for scdl/menus-collectifs</description>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - scdl/menus-collectifs (1.2.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
+      <description>Schema update on 2024-06-10: 1.2.3 for scdl/menus-collectifs</description>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0200</pubDate>
+    </item><item>
       <title>New version - gip-inclusion/data-inclusion-schema (0.14.0 to 0.15.0)</title>
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2024-06-12: 0.14.0 to 0.15.0 for gip-inclusion/data-inclusion-schema</description>
@@ -445,54 +430,39 @@
       <description>Schema update on 2024-06-14: 1.0.0 to 1.0.1 for LaMednum/standard-mediation-num</description>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0200</pubDate>
     </item><item>
-      <title>Deleted schema - scdl/menus-collectifs (1.2.3)</title>
-      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
-      <description>Schema update on 2024-06-17: 1.2.3 for scdl/menus-collectifs</description>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>New schema - scdl/menus-collectifs (1.2.3)</title>
-      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
-      <description>Schema update on 2024-06-18: 1.2.3 for scdl/menus-collectifs</description>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>Deleted schema - etalab/schema-stationnement (0.1.5)</title>
-      <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
-      <description>Schema update on 2024-06-20: 0.1.5 for etalab/schema-stationnement</description>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>New schema - etalab/schema-stationnement (0.1.5)</title>
-      <link>https://schema.data.gouv.fr/etalab/schema-stationnement</link>
-      <description>Schema update on 2024-06-20: 0.1.5 for etalab/schema-stationnement</description>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0200</pubDate>
-    </item><item>
       <title>New version - 139bercy/format-commande-publique (2.0.1 to 2.0.2)</title>
       <link>https://schema.data.gouv.fr/139bercy/format-commande-publique</link>
       <description>Schema update on 2024-06-28: 2.0.1 to 2.0.2 for 139bercy/format-commande-publique</description>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0200</pubDate>
-    </item><item>
-      <title>Investigation - Sch&#233;ma sur les r&#233;sultats des &#233;lections </title>
-      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/319</link>
-      <description>Schema update on 2024-07-01: Sch&#233;ma sur les r&#233;sultats des &#233;lections  is in investigation</description>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0200</pubDate>
     </item><item>
       <title>New version - atlasante/schema-dae (1.0.6 to 1.0.7)</title>
       <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
       <description>Schema update on 2024-07-02: 1.0.6 to 1.0.7 for atlasante/schema-dae</description>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0200</pubDate>
     </item><item>
-      <title>New version - etalab/schema-indice-durabilite (0.1.0 to 0.1.1)</title>
+      <title>Investigation - Sch&#233;ma sur les r&#233;sultats des &#233;lections </title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/319</link>
+      <description>Schema update on 2024-07-02: Sch&#233;ma sur les r&#233;sultats des &#233;lections  is in investigation</description>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - etalab/schema-indice-durabilite (0.1.1)</title>
       <link>https://schema.data.gouv.fr/etalab/schema-indice-durabilite</link>
-      <description>Schema update on 2024-07-04: 0.1.0 to 0.1.1 for etalab/schema-indice-durabilite</description>
+      <description>Schema update on 2024-07-04: 0.1.1 for etalab/schema-indice-durabilite</description>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
     </item><item>
-      <title>New version - etalab/indice-durabilite-televiseur (0.1.0 to 0.1.1)</title>
+      <title>New schema - etalab/indice-durabilite-televiseur (0.1.1)</title>
       <link>https://schema.data.gouv.fr/etalab/indice-durabilite-televiseur</link>
-      <description>Schema update on 2024-07-04: 0.1.0 to 0.1.1 for etalab/indice-durabilite-televiseur</description>
+      <description>Schema update on 2024-07-04: 0.1.1 for etalab/indice-durabilite-televiseur</description>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
     </item><item>
-      <title>New version - etalab/indice-durabilite-lave-linge (0.1.0 to 0.1.1)</title>
+      <title>New schema - etalab/indice-durabilite-lave-linge (0.1.1)</title>
       <link>https://schema.data.gouv.fr/etalab/indice-durabilite-lave-linge</link>
-      <description>Schema update on 2024-07-04: 0.1.0 to 0.1.1 for etalab/indice-durabilite-lave-linge</description>
+      <description>Schema update on 2024-07-04: 0.1.1 for etalab/indice-durabilite-lave-linge</description>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - datagouv/schema-fontaine-eau (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-fontaine-eau</link>
+      <description>Schema update on 2024-07-04: 0.1.0 for datagouv/schema-fontaine-eau</description>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
     </item><item>
       <title>New version - gip-inclusion/data-inclusion-schema (0.15.0 to 0.16.0)</title>
@@ -515,9 +485,24 @@
       <description>Schema update on 2024-08-31: 1.1.1 to 1.1.2 for cnigfr/schema-servitudes-utilite-publique</description>
       <pubDate>Sat, 31 Aug 2024 00:00:00 +0200</pubDate>
     </item><item>
+      <title>New schema - datagouv/schema-declaration-biens-valorisation (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-declaration-biens-valorisation</link>
+      <description>Schema update on 2024-09-13: 0.1.0 for datagouv/schema-declaration-biens-valorisation</description>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0200</pubDate>
+    </item><item>
       <title>New version - etalab/schema-amenagements-cyclables (0.3.4 to 0.3.5)</title>
       <link>https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables</link>
-      <description>Schema update on 2024-10-05: 0.3.4 to 0.3.5 for etalab/schema-amenagements-cyclables</description>
-      <pubDate>Sat, 05 Oct 2024 00:00:00 +0200</pubDate>
+      <description>Schema update on 2024-10-04: 0.3.4 to 0.3.5 for etalab/schema-amenagements-cyclables</description>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - datagouv/schema-declaration-biens-reemploi-reutilisation-recycle (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle</link>
+      <description>Schema update on 2024-10-07: 0.1.0 for datagouv/schema-declaration-biens-reemploi-reutilisation-recycle</description>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Deleted schema - datagouv/schema-declaration-biens-valorisation (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-declaration-biens-valorisation</link>
+      <description>Schema update on 2024-10-07: 0.1.0 for datagouv/schema-declaration-biens-valorisation</description>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

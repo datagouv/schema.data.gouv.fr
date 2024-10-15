@@ -1,19 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-  <title>etalab/schema-indice-durabilite Versioning RSS Feed</title>
+    <title>etalab/schema-indice-durabilite Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/etalab/schema-indice-durabilite</link>
     <description>Updates on etalab/schema-indice-durabilite versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 12 Apr 2024 12:25:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2024 14:48:07 +0000</lastBuildDate>
     <item>
-      <title>2024-04-12 - new_schema - 0.1.0</title>
-      <description>Update on 2024-04-12: New schema (etalab/schema-indice-durabilite)</description>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0200</pubDate>
-    </item>
-  <item>
-      <title>2024-07-04 - new_version - 0.1.0 to 0.1.1</title>
-      <description>Update on 2024-07-04: New version (etalab/schema-indice-durabilite)</description>
+      <title>2024-07-04 - new_schema - 0.1.1</title>
+      <description>Update on 2024-07-04: New schema (etalab/schema-indice-durabilite)</description>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0200</pubDate>
-    </item></channel>
+    </item>
+  </channel>
 </rss>

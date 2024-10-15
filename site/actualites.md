@@ -1,7 +1,25 @@
-### 2024-10-05
+
+### 2024-10-07
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-declaration-biens-reemploi-reutilisation-recycle](/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/)** : <span style="color:blue;">0.1.0</span><br>
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-declaration-biens-valorisation](/datagouv/schema-declaration-biens-valorisation/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
+### 2024-10-04
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-amenagements-cyclables](/etalab/schema-amenagements-cyclables/)** : <span style="color:red;">0.3.4</span> => <span style="color:green;">0.3.5</span><br>
+
+---
+
+### 2024-09-13
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-declaration-biens-valorisation](/datagouv/schema-declaration-biens-valorisation/)** : <span style="color:blue;">0.1.0</span><br>
 
 ---
 
@@ -16,6 +34,13 @@
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.16.0</span> => <span style="color:green;">0.17.0</span><br>
+
+---
+
+### 2024-08-27
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Pierlou/test-schema-hydrometrie](/Pierlou/test-schema-hydrometrie/)** : <span style="color:blue;">0.1.0</span><br>
 
 ---
 
@@ -63,26 +88,24 @@
 
 ---
 
-### 2024-06-20
+### 2024-06-14
 
-#### Schéma supprimé:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-stationnement](/etalab/schema-stationnement/)** : <span style="color:blue;">0.1.5</span><br>
-
-#### Schéma ajouté:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-stationnement](/etalab/schema-stationnement/)** : <span style="color:blue;">0.1.5</span><br>
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[LaMednum/standard-mediation-num](/LaMednum/standard-mediation-num/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
 
 ---
 
-### 2024-06-18
+### 2024-06-12
 
-#### Schéma ajouté:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:blue;">1.2.3</span><br>
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.14.0</span> => <span style="color:green;">0.15.0</span><br>
 
 ---
 
-### 2024-06-17
+### 2024-06-10
 
-#### Schéma supprimé:
+#### Schéma ajouté:
+
 &nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:blue;">1.2.3</span><br>
 
 ---
@@ -150,19 +173,10 @@
 
 ---
 
-### 2024-04-15
+### 2024-04-16
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[LaMednum/standard-mediation-num](/LaMednum/standard-mediation-num/)** : <span style="color:red;">0.1.1</span> => <span style="color:green;">1.0.0</span><br>
-
----
-
-### 2024-04-12
-
-#### Schémas ajoutés:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-indice-durabilite](/etalab/schema-indice-durabilite/)** : <span style="color:blue;">0.1.0</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-televiseur](/etalab/indice-durabilite-televiseur/)** : <span style="color:blue;">0.1.0</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-lave-linge](/etalab/indice-durabilite-lave-linge/)** : <span style="color:blue;">0.1.0</span><br>
 
 ---
 
@@ -187,7 +201,7 @@
 
 ---
 
-### 2024-03-22
+### 2024-03-23
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-friches](/cnigfr/schema-friches/)** : <span style="color:red;">1.0.4</span> => <span style="color:green;">1.0.5</span><br>
