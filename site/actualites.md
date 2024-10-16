@@ -1,3 +1,9 @@
+### 2024-10-16
+
+#### Schéma en investigation:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les résultats des élections ](https://github.com/datagouv/schema.data.gouv.fr/issues/319/)**
+
+---
 
 ### 2024-10-07
 
@@ -6,6 +12,13 @@
 
 #### Schéma supprimé:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-declaration-biens-valorisation](/datagouv/schema-declaration-biens-valorisation/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
+### 2024-10-05
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-amenagements-cyclables](/etalab/schema-amenagements-cyclables/)** : <span style="color:red;">0.3.4</span> => <span style="color:green;">0.3.5</span><br>
 
 ---
 
@@ -60,10 +73,11 @@
 
 ### 2024-07-04
 
-#### Montées de versions:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-indice-durabilite](/etalab/schema-indice-durabilite/)** : <span style="color:red;">0.1.0</span> => <span style="color:green;">0.1.1</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-televiseur](/etalab/indice-durabilite-televiseur/)** : <span style="color:red;">0.1.0</span> => <span style="color:green;">0.1.1</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-lave-linge](/etalab/indice-durabilite-lave-linge/)** : <span style="color:red;">0.1.0</span> => <span style="color:green;">0.1.1</span><br>
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-indice-durabilite](/etalab/schema-indice-durabilite/)** : <span style="color:blue;">0.1.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-televiseur](/etalab/indice-durabilite-televiseur/)** : <span style="color:blue;">0.1.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-lave-linge](/etalab/indice-durabilite-lave-linge/)** : <span style="color:blue;">0.1.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-fontaine-eau](/datagouv/schema-fontaine-eau/)** : <span style="color:blue;">0.1.0</span><br>
 
 ---
 
@@ -74,17 +88,20 @@
 
 ---
 
-### 2024-07-01
-
-#### Schéma en investigation:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les résultats des élections ](https://github.com/datagouv/schema.data.gouv.fr/issues/319/)**
-
----
-
 ### 2024-06-28
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[139bercy/format-commande-publique](/139bercy/format-commande-publique/)** : <span style="color:red;">2.0.1</span> => <span style="color:green;">2.0.2</span><br>
+
+---
+
+### 2024-06-20
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-stationnement](/etalab/schema-stationnement/)** : <span style="color:blue;">0.1.5</span><br>
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-stationnement](/etalab/schema-stationnement/)** : <span style="color:blue;">0.1.5</span><br>
 
 ---
 
@@ -105,22 +122,14 @@
 ### 2024-06-10
 
 #### Schéma ajouté:
-
 &nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:blue;">1.2.3</span><br>
 
 ---
 
-### 2024-06-14
+### 2024-06-09
 
-#### Montée de version:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[LaMednum/standard-mediation-num](/LaMednum/standard-mediation-num/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
-
----
-
-### 2024-06-12
-
-#### Montée de version:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.14.0</span> => <span style="color:green;">0.15.0</span><br>
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:blue;">1.2.3</span><br>
 
 ---
 
@@ -135,6 +144,13 @@
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-bal](/etalab/schema-bal/)** : <span style="color:red;">1.3.0</span> => <span style="color:green;">1.4.0</span><br>
+
+---
+
+### 2024-05-18
+
+#### Schéma en investigation:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur les Opérations d'aménagement](https://github.com/datagouv/schema.data.gouv.fr/issues/317/)**
 
 ---
 
@@ -180,6 +196,22 @@
 
 ---
 
+### 2024-04-15
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[LaMednum/standard-mediation-num](/LaMednum/standard-mediation-num/)** : <span style="color:red;">0.1.1</span> => <span style="color:green;">1.0.0</span><br>
+
+---
+
+### 2024-04-12
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-indice-durabilite](/etalab/schema-indice-durabilite/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-televiseur](/etalab/indice-durabilite-televiseur/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/indice-durabilite-lave-linge](/etalab/indice-durabilite-lave-linge/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2024-03-30
 
 #### Schéma ajouté:
@@ -202,6 +234,13 @@
 ---
 
 ### 2024-03-23
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-friches](/cnigfr/schema-friches/)** : <span style="color:red;">1.0.4</span> => <span style="color:green;">1.0.5</span><br>
+
+---
+
+### 2024-03-22
 
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-friches](/cnigfr/schema-friches/)** : <span style="color:red;">1.0.4</span> => <span style="color:green;">1.0.5</span><br>

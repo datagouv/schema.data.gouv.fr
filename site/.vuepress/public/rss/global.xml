@@ -504,5 +504,10 @@
       <link>https://schema.data.gouv.fr/datagouv/schema-declaration-biens-valorisation</link>
       <description>Schema update on 2024-10-07: 0.1.0 for datagouv/schema-declaration-biens-valorisation</description>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Investigation - Sch&#233;ma sur les r&#233;sultats des &#233;lections </title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/319</link>
+      <description>Schema update on 2024-10-16: Sch&#233;ma sur les r&#233;sultats des &#233;lections  is in investigation</description>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

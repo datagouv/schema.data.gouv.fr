@@ -259,6 +259,22 @@
             }
         ]
     },
+    "2023-01-24": {
+        "deleted_schema": [
+            {
+                "schema_name": "fchabouis/schema-irve",
+                "version": "2.2.2"
+            },
+            {
+                "schema_name": "fchabouis/schema-irve-dynamique",
+                "version": "2.2.2"
+            },
+            {
+                "schema_name": "fchabouis/schema-irve-statique",
+                "version": "2.2.2"
+            }
+        ]
+    },
     "2023-02-23": {
         "new_version": [
             {
@@ -597,6 +613,14 @@
             }
         ]
     },
+    "2024-03-23": {
+        "new_version": [
+            {
+                "schema_name": "cnigfr/schema-friches",
+                "version": "1.0.4 => 1.0.5"
+            }
+        ]
+    },
     "2024-03-26": {
         "new_version": [
             {
@@ -645,6 +669,14 @@
             }
         ]
     },
+    "2024-04-16": {
+        "new_version": [
+            {
+                "schema_name": "LaMednum/standard-mediation-num",
+                "version": "0.1.1 => 1.0.0"
+            }
+        ]
+    },
     "2024-04-24": {
         "new_version": [
             {
@@ -685,6 +717,14 @@
             }
         ]
     },
+    "2024-05-18": {
+        "investigation": [
+            {
+                "title": "Sch\u00e9ma sur les Op\u00e9rations d'am\u00e9nagement",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
+            }
+        ]
+    },
     "2024-05-23": {
         "new_version": [
             {
@@ -701,19 +741,19 @@
             }
         ]
     },
-    "2023-01-24": {
+    "2024-06-09": {
         "deleted_schema": [
             {
-                "schema_name": "fchabouis/schema-irve",
-                "version": "2.2.2"
-            },
+                "schema_name": "scdl/menus-collectifs",
+                "version": "1.2.3"
+            }
+        ]
+    },
+    "2024-06-10": {
+        "new_schema": [
             {
-                "schema_name": "fchabouis/schema-irve-dynamique",
-                "version": "2.2.2"
-            },
-            {
-                "schema_name": "fchabouis/schema-irve-statique",
-                "version": "2.2.2"
+                "schema_name": "scdl/menus-collectifs",
+                "version": "1.2.3"
             }
         ]
     },
@@ -747,91 +787,19 @@
             }
         ]
     },
-    "2024-07-02": {
-        "new_version": [
-            {
-                "schema_name": "atlasante/schema-dae",
-                "version": "1.0.6 => 1.0.7"
-            }
-        ]
-    },
-    "2024-07-19": {
-        "new_version": [
-            {
-                "schema_name": "gip-inclusion/data-inclusion-schema",
-                "version": "0.15.0 => 0.16.0"
-            }
-        ]
-    },
-    "2024-08-15": {
-        "new_version": [
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.15 => 0.0.16"
-            }
-        ]
-    },
-    "2024-08-31": {
-        "new_version": [
-            {
-                "schema_name": "cnigfr/schema-servitudes-utilite-publique",
-                "version": "1.1.1 => 1.1.2"
-            }
-        ]
-    },
-    "2024-10-05": {
-        "new_version": [
-            {
-                "schema_name": "etalab/schema-amenagements-cyclables",
-                "version": "0.3.4 => 0.3.5"
-            }
-        ]
-    },
-    "2024-03-23": {
-        "new_version": [
-            {
-                "schema_name": "cnigfr/schema-friches",
-                "version": "1.0.4 => 1.0.5"
-            }
-        ]
-    },
-    "2024-04-16": {
-        "new_version": [
-            {
-                "schema_name": "LaMednum/standard-mediation-num",
-                "version": "0.1.1 => 1.0.0"
-            }
-        ]
-    },
-    "2024-05-18": {
-        "investigation": [
-            {
-                "title": "Sch\u00e9ma sur les Op\u00e9rations d'am\u00e9nagement",
-                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
-            }
-        ]
-    },
-    "2024-06-09": {
-        "deleted_schema": [
-            {
-                "schema_name": "scdl/menus-collectifs",
-                "version": "1.2.3"
-            }
-        ]
-    },
-    "2024-06-10": {
-        "new_schema": [
-            {
-                "schema_name": "scdl/menus-collectifs",
-                "version": "1.2.3"
-            }
-        ]
-    },
     "2024-06-28": {
         "new_version": [
             {
                 "schema_name": "139bercy/format-commande-publique",
                 "version": "2.0.1 => 2.0.2"
+            }
+        ]
+    },
+    "2024-07-02": {
+        "new_version": [
+            {
+                "schema_name": "atlasante/schema-dae",
+                "version": "1.0.6 => 1.0.7"
             }
         ]
     },
@@ -855,6 +823,22 @@
             }
         ]
     },
+    "2024-07-19": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.15.0 => 0.16.0"
+            }
+        ]
+    },
+    "2024-08-15": {
+        "new_version": [
+            {
+                "schema_name": "MTES-MCT/acceslibre-schema",
+                "version": "0.0.15 => 0.0.16"
+            }
+        ]
+    },
     "2024-08-27": {
         "new_schema": [
             {
@@ -868,6 +852,14 @@
             {
                 "schema_name": "gip-inclusion/data-inclusion-schema",
                 "version": "0.16.0 => 0.17.0"
+            }
+        ]
+    },
+    "2024-08-31": {
+        "new_version": [
+            {
+                "schema_name": "cnigfr/schema-servitudes-utilite-publique",
+                "version": "1.1.1 => 1.1.2"
             }
         ]
     },
@@ -887,6 +879,14 @@
             }
         ]
     },
+    "2024-10-05": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-amenagements-cyclables",
+                "version": "0.3.4 => 0.3.5"
+            }
+        ]
+    },
     "2024-10-07": {
         "new_schema": [
             {
@@ -898,6 +898,14 @@
             {
                 "schema_name": "datagouv/schema-declaration-biens-valorisation",
                 "version": "0.1.0"
+            }
+        ]
+    },
+    "2024-10-16": {
+        "investigation": [
+            {
+                "title": "Sch\u00e9ma sur les r\u00e9sultats des \u00e9lections ",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/319"
             }
         ]
     }
