@@ -84,7 +84,7 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 
 #### Propriété `montant_produits_issus_don`
 
-> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'annexe de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 1000*
+> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du don (calculé à partir de l'arrêté du 29 février 2024 fixant la grille de valeur forfaitaire permettant la comptabilisation des dons acquis en application de l'article 58 de la loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire) en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 1000*
 - Valeur obligatoire
 - Type : nombre réel
 
