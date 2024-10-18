@@ -78,7 +78,7 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 
 #### Propriété `montant_reemploi_et_reutilisation`
 
-> *Description : Montant HT des dépenses associées à l'acquisition de produits issus du réemploi ou de la réutilisation, y compris le montant des dons comptabilisés monétairement, en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 5000*
+> *Description : Montant HT des dépenses associées à l'achat de produits issus du réemploi ou de la réutilisation, en euros sur l'année, pour le type de produit considéré.*<br/>*Exemple : 5000*
 - Valeur obligatoire
 - Type : nombre réel
 
