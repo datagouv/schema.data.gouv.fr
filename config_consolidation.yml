@@ -85,6 +85,7 @@ etalab/schema-inclusion-numerique:
 etalab/schema-indice-reparabilite:
   consolidate: true
   consolidated_dataset_id: 66e93c3609e8e1084058b1b4
+  documentation_resource_id: c04b65e1-70e5-4eec-ac17-a1d963ef08ad
   drop_versions:
   - 0.1.0
   - 0.1.1
