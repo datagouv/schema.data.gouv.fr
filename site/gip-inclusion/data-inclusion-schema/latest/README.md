@@ -18,7 +18,7 @@ Le schéma définit les structures de l'insertion et devraient à terme inclure 
 
 Le schéma est pour le moment formalisé dans le format JSON schema. Nous veillions néanmoins à maintenir la possibilité de représenter les données au format csv.
 
-La documentation détaillée du schéma est disponible [ici](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
+La documentation détaillée du schéma est disponible [ici](https://data.inclusion.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
 
 ## Consolidation
 
@@ -26,10 +26,10 @@ data.inclusion réalise une consolidation et publie la base consolidée, aux for
 
 ## Aide à la saisie
 
-Les structures qui partagent leurs données via l'outil [Dora](https://dora.fabrique.social.gouv.fr/) sont incluses par défaut dans la base consolidée.
+Les structures qui partagent leurs données via l'outil [Dora](https://dora.inclusion.beta.gouv.fr/) sont incluses par défaut dans la base consolidée.
 
 ## Contribuer
 
-Nous organisons des ateliers régulièrement pour définir et améliorer le schéma de données. Vous pouvez librement participer aux prochains ateliers en vous inscrivant [ici](https://www.data.inclusion.beta.gouv.fr/schemas-de-donnees-de-loffre/les-ateliers-collaboratifs).
+Nous organisons des ateliers régulièrement pour définir et améliorer le schéma de données. Vous pouvez librement participer aux prochains ateliers en vous inscrivant [ici](https://data.inclusion.gouv.fr/schemas-de-donnees-de-loffre/les-ateliers-collaboratifs).
 
-Vous pouvez également créer un [nouveau ticket](https://github.com/betagouv/data-inclusion-schema/issues/new) sur le dépôt ouvert du schéma pour proposer une modification ou une amélioration ou poser une question.
+Vous pouvez également créer un [nouveau ticket](https://github.com/gip-inclusion/data-inclusion-schema/issues/new) sur le dépôt ouvert du schéma pour proposer une modification ou une amélioration ou poser une question.

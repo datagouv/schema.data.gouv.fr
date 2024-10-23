@@ -908,5 +908,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/319"
             }
         ]
+    },
+    "2024-10-23": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.17.0 => 0.18.0"
+            }
+        ]
     }
 }
