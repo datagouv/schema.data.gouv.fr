@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1144,
+            "dgv_resources": 1145,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -222,12 +222,12 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 3,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 26,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
@@ -255,7 +255,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 676,
+            "dgv_resources": 677,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -297,7 +297,7 @@
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
@@ -322,7 +322,7 @@
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 4,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 2,

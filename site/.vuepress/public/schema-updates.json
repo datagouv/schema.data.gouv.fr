@@ -850,5 +850,29 @@
                 "version": "0.17.0 => 0.18.0"
             }
         ]
+    },
+    "2024-10-24": {
+        "new_version": [
+            {
+                "schema_name": "cnigfr/schema-sites-economiques",
+                "version": "1.0.0 => 1.0.1"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-pole-eco",
+                "version": "1.0.0 => 1.0.1"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-site-eco",
+                "version": "1.0.0 => 1.0.1"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-terrain-eco",
+                "version": "1.0.0 => 1.0.1"
+            },
+            {
+                "schema_name": "cnigfr/sites-economiques-etablissement",
+                "version": "1.0.0 => 1.0.1"
+            }
+        ]
     }
 }

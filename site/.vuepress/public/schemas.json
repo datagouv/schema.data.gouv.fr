@@ -2288,7 +2288,7 @@
                 {
                     "title": "Exemple valide",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/pole-eco/raw/v1.0.0/exemple-valide.csv"
+                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/pole-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
             "labels": [
@@ -2299,6 +2299,10 @@
                 {
                     "version_name": "1.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-pole-eco/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-pole-eco/1.0.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -2319,7 +2323,7 @@
                 {
                     "title": "Exemple valide",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/site-eco/raw/v1.0.0/exemple-valide.csv"
+                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/site-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
             "labels": [
@@ -2330,6 +2334,10 @@
                 {
                     "version_name": "1.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-site-eco/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-site-eco/1.0.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -2350,7 +2358,7 @@
                 {
                     "title": "Exemple valide",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/terrain-eco/raw/v1.0.0/exemple-valide.csv"
+                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/terrain-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
             "labels": [
@@ -2361,6 +2369,10 @@
                 {
                     "version_name": "1.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-terrain-eco/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-terrain-eco/1.0.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -2381,7 +2393,7 @@
                 {
                     "title": "Exemple valide",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/etablissement/raw/v1.0.0/exemple-valide.csv"
+                    "path": "https://github.com/cnigfr/schema-sites-economiques/schema/etablissement/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
             "labels": [
@@ -2392,6 +2404,10 @@
                 {
                     "version_name": "1.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-etablissement/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-etablissement/1.0.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -2417,6 +2433,10 @@
                 {
                     "version_name": "1.0.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques/1.0.0/datapackage.json"
+                },
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-sites-economiques/1.0.1/datapackage.json"
                 }
             ],
             "external_doc": null,

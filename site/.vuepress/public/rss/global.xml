@@ -524,5 +524,30 @@
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2024-10-23: 0.17.0 to 0.18.0 for gip-inclusion/data-inclusion-schema</description>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - cnigfr/schema-sites-economiques (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-sites-economiques</link>
+      <description>Schema update on 2024-10-24: 1.0.0 to 1.0.1 for cnigfr/schema-sites-economiques</description>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - cnigfr/sites-economiques-pole-eco (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-pole-eco</link>
+      <description>Schema update on 2024-10-24: 1.0.0 to 1.0.1 for cnigfr/sites-economiques-pole-eco</description>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - cnigfr/sites-economiques-site-eco (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-site-eco</link>
+      <description>Schema update on 2024-10-24: 1.0.0 to 1.0.1 for cnigfr/sites-economiques-site-eco</description>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - cnigfr/sites-economiques-terrain-eco (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-terrain-eco</link>
+      <description>Schema update on 2024-10-24: 1.0.0 to 1.0.1 for cnigfr/sites-economiques-terrain-eco</description>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - cnigfr/sites-economiques-etablissement (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sites-economiques-etablissement</link>
+      <description>Schema update on 2024-10-24: 1.0.0 to 1.0.1 for cnigfr/sites-economiques-etablissement</description>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
