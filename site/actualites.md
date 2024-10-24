@@ -1,3 +1,14 @@
+### 2024-10-24
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-sites-economiques](/cnigfr/schema-sites-economiques/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/sites-economiques-pole-eco](/cnigfr/sites-economiques-pole-eco/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/sites-economiques-site-eco](/cnigfr/sites-economiques-site-eco/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/sites-economiques-terrain-eco](/cnigfr/sites-economiques-terrain-eco/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/sites-economiques-etablissement](/cnigfr/sites-economiques-etablissement/)** : <span style="color:red;">1.0.0</span> => <span style="color:green;">1.0.1</span><br>
+
+---
+
 ### 2024-10-23
 
 #### Montée de version:

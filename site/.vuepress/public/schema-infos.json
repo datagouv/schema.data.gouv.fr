@@ -2783,6 +2783,13 @@
                     "CHANGELOG.md"
                 ],
                 "schema_url": "/cnigfr/schema-sites-economiques/1.0.0/datapackage.json"
+            },
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/cnigfr/schema-sites-economiques/1.0.1/datapackage.json"
             }
         },
         "schemas": [
@@ -2791,7 +2798,7 @@
             "cnigfr/sites-economiques-terrain-eco",
             "cnigfr/sites-economiques-etablissement"
         ],
-        "latest": "1.0.0"
+        "latest": "1.0.1"
     },
     "cnigfr/sites-economiques-pole-eco": {
         "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
@@ -2807,6 +2814,14 @@
                     "sources.md"
                 ],
                 "schema_url": "/cnigfr/sites-economiques-pole-eco/1.0.0/schema.json"
+            },
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/sites-economiques-pole-eco/1.0.1/schema.json"
             }
         },
         "datapackage": "Site Economique",
@@ -2815,7 +2830,7 @@
             "CNIG"
         ],
         "consolidation_dataset_id": null,
-        "latest": "1.0.0"
+        "latest": "1.0.1"
     },
     "cnigfr/sites-economiques-site-eco": {
         "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
@@ -2831,6 +2846,14 @@
                     "sources.md"
                 ],
                 "schema_url": "/cnigfr/sites-economiques-site-eco/1.0.0/schema.json"
+            },
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/sites-economiques-site-eco/1.0.1/schema.json"
             }
         },
         "datapackage": "Site Economique",
@@ -2839,7 +2862,7 @@
             "CNIG"
         ],
         "consolidation_dataset_id": null,
-        "latest": "1.0.0"
+        "latest": "1.0.1"
     },
     "cnigfr/sites-economiques-terrain-eco": {
         "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
@@ -2855,6 +2878,14 @@
                     "sources.md"
                 ],
                 "schema_url": "/cnigfr/sites-economiques-terrain-eco/1.0.0/schema.json"
+            },
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/sites-economiques-terrain-eco/1.0.1/schema.json"
             }
         },
         "datapackage": "Site Economique",
@@ -2863,7 +2894,7 @@
             "CNIG"
         ],
         "consolidation_dataset_id": null,
-        "latest": "1.0.0"
+        "latest": "1.0.1"
     },
     "cnigfr/sites-economiques-etablissement": {
         "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
@@ -2879,6 +2910,14 @@
                     "sources.md"
                 ],
                 "schema_url": "/cnigfr/sites-economiques-etablissement/1.0.0/schema.json"
+            },
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/sites-economiques-etablissement/1.0.1/schema.json"
             }
         },
         "datapackage": "Site Economique",
@@ -2887,7 +2926,7 @@
             "CNIG"
         ],
         "consolidation_dataset_id": null,
-        "latest": "1.0.0"
+        "latest": "1.0.1"
     },
     "CEREMA/schema-aire-livraison": {
         "homepage": "https://github.com/CEREMA/schema-aire-livraison.git",
