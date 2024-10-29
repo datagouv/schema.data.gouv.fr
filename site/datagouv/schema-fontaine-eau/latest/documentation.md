@@ -20,15 +20,16 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 | -- | -- | -- |
 | [id](#identifiant-propriete-id) | chaîne de caractères  | Oui |
 | [type_fontaine](#type-de-fontaine-propriete-type-fontaine) | chaîne de caractères  | Oui |
-| [modele](#modele-propriete-modele) | chaîne de caractères  | Oui |
-| [coordonnees_geo](#coordonnees-gps-propriete-coordonnees-geo) | point géographique  | Oui |
-| [adresse](#voie-et-numero-de-voie-propriete-adresse) | chaîne de caractères  | Oui |
+| [modele](#modele-propriete-modele) | chaîne de caractères  | Non |
+| [latitude](#latitude-(coordonnees-gps)-propriete-latitude) | nombre réel  | Oui |
+| [longitude](#longitude-(coordonnees-gps)-propriete-longitude) | nombre réel  | Oui |
+| [adresse](#voie-et-numero-de-voie-propriete-adresse) | chaîne de caractères  | Non |
 | [code_commune_insee](#code-commune-insee-propriete-code-commune-insee) | chaîne de caractères  | Oui |
 | [precision_geo](#precisions-du-lieu-propriete-precision-geo) | chaîne de caractères  | Non |
-| [date_installation](#date-d-installation-propriete-date-installation) | date (format `%Y-%m-%d`) | Oui |
-| [est_potable](#potabilite-propriete-est-potable) | booléen  | Oui |
+| [date_installation](#date-d-installation-propriete-date-installation) | date (format `%Y-%m-%d`) | Non |
 | [indisponible](#date-debut-indisponibilite-propriete-indisponible) | date (format `%Y-%m-%d`) | Non |
-| [ouverture_restriction](#ouverture-si-restriction-propriete-ouverture-restriction) | booléen  | Oui |
+| [accessible_pmr](#accessibilite-pmr-propriete-accessible-pmr) | booléen  | Oui |
+| [remplissage_contenant_possible](#possibilite-de-remplir-un-contenant-propriete-remplissage-contenant-possible) | booléen  | Oui |
 | [gestionnaire](#gestionnaire-propriete-gestionnaire) | chaîne de caractères  | Non |
 
 #### Identifiant - Propriété `id`
@@ -53,19 +54,27 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 #### Modèle - Propriété `modele`
 
 > *Description : Le modèle de la fontaine.*<br/>*Exemple : BF Bayard*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : chaîne de caractères
 
-#### Coordonnées GPS - Propriété `coordonnees_geo`
+#### Latitude (coordonnées GPS) - Propriété `latitude`
 
-> *Description : Coordonnées GPS de la fontaine, au format `lon,lat`, avec le point comme séparateur décimal et une virgule entre les deux.*<br/>*Exemple : 2.303713,48.849598*
+> *Description : Latitude de la fontaine.*<br/>*Exemple : 48.849598*
 - Valeur obligatoire
-- Type : point géographique
+- Type : nombre réel
+- Valeur entre -90 et 90
+
+#### Longitude (coordonnées GPS) - Propriété `longitude`
+
+> *Description : Latitude de la fontaine.*<br/>*Exemple : 2.303713*
+- Valeur obligatoire
+- Type : nombre réel
+- Valeur entre -180 et 180
 
 #### Voie et numéro de voie - Propriété `adresse`
 
-> *Description : Adresse de l'objet contenant la voie et le numéro sur la voie.*<br/>*Exemple : 8 boulevard Victor Hugo*
-- Valeur obligatoire
+> *Description : Adresse de l'objet contenant la voie et le numéro sur la voie, au format BAN.*<br/>*Exemple : 8 boulevard Victor Hugo*
+- Valeur optionnelle
 - Type : chaîne de caractères
 
 #### Code commune INSEE - Propriété `code_commune_insee`
@@ -84,14 +93,8 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 #### Date d'installation - Propriété `date_installation`
 
 > *Description : Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).*<br/>*Exemple : 2022-02-11*
-- Valeur obligatoire
+- Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
-
-#### Potabilité - Propriété `est_potable`
-
-> *Description : Booléen renseignant sur le caractère potable ou non de la fontaine.*<br/>*Exemple : True*
-- Valeur obligatoire
-- Type : booléen
 
 #### Date début indisponibilité - Propriété `indisponible`
 
@@ -99,9 +102,15 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 - Valeur optionnelle
 - Type : date (format `%Y-%m-%d`)
 
-#### Ouverture si restriction - Propriété `ouverture_restriction`
+#### Accessibilité PMR - Propriété `accessible_pmr`
 
-> *Description : Booléen renseignant sur la fermeture ou non de la fontaine en période de restrictions. `true` si elle reste ouverte, `false` sinon.*<br/>*Exemple : True*
+> *Description : Booléen renseignant sur l'accessibilité PMR de la fontaine. `true` si accessible, `false` sinon.*<br/>*Exemple : True*
+- Valeur obligatoire
+- Type : booléen
+
+#### Possibilité de remplir un contenant - Propriété `remplissage_contenant_possible`
+
+> *Description : Booléen renseignant sur la possibilité de remplir un contenant (gourde, bouteille...). `true` si possible, `false` sinon.*<br/>*Exemple : True*
 - Valeur obligatoire
 - Type : booléen
 

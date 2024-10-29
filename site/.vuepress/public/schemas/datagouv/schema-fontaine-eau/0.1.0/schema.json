@@ -75,30 +75,38 @@
          "title": "Modèle",
          "description":"Le modèle de la fontaine.",
          "type":"string",
-         "example":"BF Bayard",
-         "constraints":{
-            "required":true
+         "example":"BF Bayard"
+      },
+      {
+         "name":"latitude",
+         "title": "Latitude (coordonnées GPS)",
+         "description":"Latitude de la fontaine.",
+         "type": "number",
+         "example":"48.849598",
+         "constraints": {
+            "required":true,
+            "minimum": "-90",
+            "maximum": "90"
          }
       },
       {
-         "name":"coordonnees_geo",
-         "title": "Coordonnées GPS",
-         "description":"Coordonnées GPS de la fontaine, au format `lon,lat`, avec le point comme séparateur décimal et une virgule entre les deux.",
-         "type":"geopoint",
-         "example":"2.303713,48.849598",
+         "name":"longitude",
+         "title": "Longitude (coordonnées GPS)",
+         "description":"Latitude de la fontaine.",
+         "type": "number",
+         "example":"2.303713",
          "constraints": {
-            "required":true
+            "required":true,
+            "minimum": "-180",
+            "maximum": "180"
          }
       },
       {
          "name":"adresse",
          "title": "Voie et numéro de voie",
-         "description":"Adresse de l'objet contenant la voie et le numéro sur la voie.",
+         "description":"Adresse de l'objet contenant la voie et le numéro sur la voie, au format BAN.",
          "type":"string",
-         "example":"8 boulevard Victor Hugo",
-         "constraints": {
-            "required":true
-         }
+         "example":"8 boulevard Victor Hugo"
       },
       {
          "name":"code_commune_insee",
@@ -124,20 +132,7 @@
          "description":"Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).",
          "type":"date",
          "format": "%Y-%m-%d",
-         "example":"2022-02-11",
-         "constraints": {
-            "required":true
-         }
-      },
-      {
-         "name":"est_potable",
-         "title": "Potabilité",
-         "description":"Booléen renseignant sur le caractère potable ou non de la fontaine.",
-         "type":"boolean",
-         "example":true,
-         "constraints": {
-            "required":true
-         }
+         "example":"2022-02-11"
       },
       {
          "name":"indisponible",
@@ -148,9 +143,19 @@
          "example":"2023-05-12"
       },
       {
-         "name":"ouverture_restriction",
-         "title": "Ouverture si restriction",
-         "description":"Booléen renseignant sur la fermeture ou non de la fontaine en période de restrictions. `true` si elle reste ouverte, `false` sinon.",
+         "name":"accessible_pmr",
+         "title": "Accessibilité PMR",
+         "description":"Booléen renseignant sur l'accessibilité PMR de la fontaine. `true` si accessible, `false` sinon.",
+         "type":"boolean",
+         "example":true,
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"remplissage_contenant_possible",
+         "title": "Possibilité de remplir un contenant",
+         "description":"Booléen renseignant sur la possibilité de remplir un contenant (gourde, bouteille...). `true` si possible, `false` sinon.",
          "type":"boolean",
          "example":true,
          "constraints": {
