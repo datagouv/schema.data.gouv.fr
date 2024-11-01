@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1147,
+            "dgv_resources": 1148,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -192,12 +192,12 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 44,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 273,
