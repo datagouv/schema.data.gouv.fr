@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1147,
+            "dgv_resources": 1148,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 273,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
