@@ -1730,9 +1730,9 @@
         },
         {
             "name": "gip-inclusion/data-inclusion-schema",
-            "title": "Sch\u00e9ma des structures de l'insertion",
-            "description": "Sch\u00e9ma des structures de l'insertion",
-            "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/latest/schemas/structures.json",
+            "title": "Services de l'inclusion",
+            "description": "Services de l'inclusion",
+            "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/latest/schemas/service.json",
             "schema_type": "jsonschema",
             "contact": "data.inclusion@beta.gouv.fr",
             "examples": [],
@@ -1822,11 +1822,15 @@
                 {
                     "version_name": "0.18.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.18.0/schemas/structures.json"
+                },
+                {
+                    "version_name": "0.19.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.19.0/schemas/service.json"
                 }
             ],
             "external_doc": "https://www.data.inclusion.beta.gouv.fr",
             "external_tool": null,
-            "homepage": "https://github.com/betagouv/data-inclusion-schema"
+            "homepage": "https://github.com/gip-inclusion/data-inclusion-schema"
         },
         {
             "name": "cnigfr/schema-friches",

@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1148,
+            "dgv_resources": 1147,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 142,
+            "dgv_resources": 143,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -182,25 +182,25 @@
         "NaturalSolutions/schema-arbre": {
             "dgv_resources": 5,
             "title": "Arbres urbains",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 21,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 44,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 273,
+            "dgv_resources": 274,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -225,7 +225,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 26,
+            "dgv_resources": 27,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -255,7 +255,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 680,
+            "dgv_resources": 681,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -311,7 +311,7 @@
         },
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 41,
-            "title": "Sch\u00e9ma des structures de l'insertion",
+            "title": "Services de l'inclusion",
             "contributors": 2
         },
         "cnigfr/schema-friches": {
