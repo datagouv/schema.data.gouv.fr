@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1149,
+            "dgv_resources": 1150,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 143,
+            "dgv_resources": 144,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 60,
+            "dgv_resources": 61,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
