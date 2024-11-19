@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 144,
+            "dgv_resources": 145,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -130,7 +130,7 @@
             "contributors": 1
         },
         "scdl/catalogue": {
-            "dgv_resources": 7,
+            "dgv_resources": 8,
             "title": "Catalogue simplifi\u00e9",
             "contributors": 7
         },
@@ -140,7 +140,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 53,
+            "dgv_resources": 54,
             "title": "\u00c9quipements",
             "contributors": 10
         },
