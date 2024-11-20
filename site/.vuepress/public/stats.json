@@ -79,7 +79,7 @@
             "labels": [
                 "investigation"
             ],
-            "nb_comments": 27,
+            "nb_comments": 28,
             "title": "Sch\u00e9ma de description des tiers-lieu",
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/179"
         },
@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1149,
+            "dgv_resources": 1150,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -130,7 +130,7 @@
             "contributors": 1
         },
         "scdl/catalogue": {
-            "dgv_resources": 8,
+            "dgv_resources": 7,
             "title": "Catalogue simplifi\u00e9",
             "contributors": 7
         },
