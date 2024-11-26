@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 62,
+            "dgv_resources": 63,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -180,7 +180,7 @@
             "contributors": 10
         },
         "NaturalSolutions/schema-arbre": {
-            "dgv_resources": 5,
+            "dgv_resources": 6,
             "title": "Arbres urbains",
             "contributors": 5
         },
@@ -197,7 +197,7 @@
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 44,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 279,
@@ -430,7 +430,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
