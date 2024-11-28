@@ -165,7 +165,7 @@
             "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 24,
+            "dgv_resources": 23,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 279,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -430,7 +430,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 3,
+            "dgv_resources": 7,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
