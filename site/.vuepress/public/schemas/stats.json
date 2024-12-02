@@ -345,7 +345,7 @@
             "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
-            "dgv_resources": 1,
+            "dgv_resources": 0,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
             "contributors": 2
         },
@@ -430,7 +430,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 7,
+            "dgv_resources": 8,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
