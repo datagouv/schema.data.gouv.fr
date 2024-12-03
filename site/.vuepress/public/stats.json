@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 279,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -430,7 +430,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 8,
+            "dgv_resources": 7,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
