@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 63,
+            "dgv_resources": 64,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -185,12 +185,12 @@
             "contributors": 5
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 21,
+            "dgv_resources": 22,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 17,
+            "dgv_resources": 18,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
@@ -200,9 +200,9 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 279,
+            "dgv_resources": 280,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -220,9 +220,9 @@
             "contributors": 3
         },
         "MTES-MCT/acceslibre-schema": {
-            "dgv_resources": 3,
+            "dgv_resources": 4,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 26,
@@ -320,7 +320,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 3,
+            "dgv_resources": 4,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -375,12 +375,12 @@
             "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
-            "dgv_resources": 12,
+            "dgv_resources": 15,
             "title": "Plan local d'urbanisme (PLU)",
             "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
-            "dgv_resources": 5,
+            "dgv_resources": 6,
             "title": "Carte communale",
             "contributors": 2
         },
