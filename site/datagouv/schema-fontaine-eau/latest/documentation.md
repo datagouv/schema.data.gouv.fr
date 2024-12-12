@@ -21,16 +21,17 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 | [id](#identifiant-propriete-id) | chaîne de caractères  | Oui |
 | [type_fontaine](#type-de-fontaine-propriete-type-fontaine) | chaîne de caractères  | Oui |
 | [modele](#modele-propriete-modele) | chaîne de caractères  | Non |
+| [gestionnaire](#gestionnaire-propriete-gestionnaire) | chaîne de caractères  | Non |
 | [latitude](#latitude-(coordonnees-gps)-propriete-latitude) | nombre réel  | Oui |
 | [longitude](#longitude-(coordonnees-gps)-propriete-longitude) | nombre réel  | Oui |
 | [adresse](#voie-et-numero-de-voie-propriete-adresse) | chaîne de caractères  | Non |
 | [code_commune_insee](#code-commune-insee-propriete-code-commune-insee) | chaîne de caractères  | Oui |
 | [precision_geo](#precisions-du-lieu-propriete-precision-geo) | chaîne de caractères  | Non |
+| [conditions_acces](#conditions-d-acces-a-l-epr-propriete-conditions-acces) | chaîne de caractères  | Oui |
 | [date_installation](#date-d-installation-propriete-date-installation) | date (format `%Y-%m-%d`) | Non |
 | [indisponible](#date-debut-indisponibilite-propriete-indisponible) | date (format `%Y-%m-%d`) | Non |
 | [accessible_pmr](#accessibilite-pmr-propriete-accessible-pmr) | booléen  | Oui |
 | [remplissage_contenant_possible](#possibilite-de-remplir-un-contenant-propriete-remplissage-contenant-possible) | booléen  | Oui |
-| [gestionnaire](#gestionnaire-propriete-gestionnaire) | chaîne de caractères  | Non |
 
 #### Identifiant - Propriété `id`
 
@@ -44,16 +45,20 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Valeurs autorisées : 
-    - `normale`
+    - `borne fontaine`
     - `robinet`
-    - `bouche_a_boire`
-    - `estivale`
-    - `kiosque`
+    - `fontaine type Wallace`
     - `autre`
 
 #### Modèle - Propriété `modele`
 
 > *Description : Le modèle de la fontaine.*<br/>*Exemple : BF Bayard*
+- Valeur optionnelle
+- Type : chaîne de caractères
+
+#### Gestionnaire - Propriété `gestionnaire`
+
+> *Description : Nom du gestionnaire de la fontaine.*<br/>*Exemple : Ville de Rennes*
 - Valeur optionnelle
 - Type : chaîne de caractères
 
@@ -90,6 +95,17 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 - Valeur optionnelle
 - Type : chaîne de caractères
 
+#### Conditions d'accès à l'EPR - Propriété `conditions_acces`
+
+> *Description : Conditions d'accès à l'EPR le cas échéant.*<br/>*Exemple : aucune*
+- Valeur obligatoire
+- Type : chaîne de caractères
+- Valeurs autorisées : 
+    - `établissement soumis à horaires`
+    - `établissement nécessitant l'achat d'un billet`
+    - `autre`
+    - `aucune`
+
 #### Date d'installation - Propriété `date_installation`
 
 > *Description : Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).*<br/>*Exemple : 2022-02-11*
@@ -113,9 +129,3 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 > *Description : Booléen renseignant sur la possibilité de remplir un contenant (gourde, bouteille...). `true` si possible, `false` sinon.*<br/>*Exemple : True*
 - Valeur obligatoire
 - Type : booléen
-
-#### Gestionnaire - Propriété `gestionnaire`
-
-> *Description : Nom du gestionnaire de la fontaine.*<br/>*Exemple : Ville de Rennes*
-- Valeur optionnelle
-- Type : chaîne de caractères

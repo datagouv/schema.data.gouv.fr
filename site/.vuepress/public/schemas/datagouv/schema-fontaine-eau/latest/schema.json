@@ -44,7 +44,7 @@
    "fields":[
       {
          "name":"id",
-         "title": "Identifiant",
+         "title":"Identifiant",
          "description":"Un identifiant unique de la fontaine.",
          "type":"string",
          "example":"450024946",
@@ -54,120 +54,134 @@
       },
       {
          "name":"type_fontaine",
-         "title": "Type de fontaine",
+         "title":"Type de fontaine",
          "description":"Le type de fontaine installée, parmi la liste de valeurs prédéfinie.",
          "type":"string",
          "example":"robinet",
          "constraints":{
             "required":true,
             "enum":[
-               "normale",
+               "borne fontaine",
                "robinet",
-               "bouche_a_boire",
-               "estivale",
-               "kiosque",
+               "fontaine type Wallace",
                "autre"
             ]
          }
       },
       {
          "name":"modele",
-         "title": "Modèle",
+         "title":"Modèle",
          "description":"Le modèle de la fontaine.",
          "type":"string",
          "example":"BF Bayard"
       },
       {
+         "name":"gestionnaire",
+         "title":"Gestionnaire",
+         "description":"Nom du gestionnaire de la fontaine.",
+         "type":"string",
+         "example":"Ville de Rennes"
+      },
+      {
          "name":"latitude",
-         "title": "Latitude (coordonnées GPS)",
+         "title":"Latitude (coordonnées GPS)",
          "description":"Latitude de la fontaine.",
-         "type": "number",
+         "type":"number",
          "example":"48.849598",
-         "constraints": {
+         "constraints":{
             "required":true,
-            "minimum": "-90",
-            "maximum": "90"
+            "minimum":"-90",
+            "maximum":"90"
          }
       },
       {
          "name":"longitude",
-         "title": "Longitude (coordonnées GPS)",
+         "title":"Longitude (coordonnées GPS)",
          "description":"Latitude de la fontaine.",
-         "type": "number",
+         "type":"number",
          "example":"2.303713",
-         "constraints": {
+         "constraints":{
             "required":true,
-            "minimum": "-180",
-            "maximum": "180"
+            "minimum":"-180",
+            "maximum":"180"
          }
       },
       {
          "name":"adresse",
-         "title": "Voie et numéro de voie",
+         "title":"Voie et numéro de voie",
          "description":"Adresse de l'objet contenant la voie et le numéro sur la voie, au format BAN.",
          "type":"string",
          "example":"8 boulevard Victor Hugo"
       },
       {
          "name":"code_commune_insee",
-         "title": "Code commune INSEE",
+         "title":"Code commune INSEE",
          "description":"Code INSEE de la commune dans laquelle la fontaine est installée.",
          "type":"string",
          "example":"63113",
-         "constraints": {
+         "constraints":{
             "required":true,
-            "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$"
+            "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}$"
          }
       },
       {
          "name":"precision_geo",
-         "title": "Précisions du lieu",
+         "title":"Précisions du lieu",
          "description":"Champ de texte libre facultatif pour préciser la localisation de la fontaine.",
          "type":"string",
          "example":"Dans le bâtiment au rez-de-chaussée"
       },
       {
+         "name":"conditions_acces",
+         "title":"Conditions d'accès à l'EPR",
+         "description":"Conditions d'accès à l'EPR le cas échéant.",
+         "type":"string",
+         "example":"aucune",
+         "constraints":{
+            "required":true,
+            "enum":[
+               "établissement soumis à horaires",
+               "établissement nécessitant l'achat d'un billet",
+               "autre",
+               "aucune"
+            ]
+         }
+      },
+      {
          "name":"date_installation",
-         "title": "Date d'installation",
+         "title":"Date d'installation",
          "description":"Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).",
          "type":"date",
-         "format": "%Y-%m-%d",
+         "format":"%Y-%m-%d",
          "example":"2022-02-11"
       },
       {
          "name":"indisponible",
-         "title": "Date début indisponibilité",
+         "title":"Date début indisponibilité",
          "description":"Date de début d'indisponibilité de la fontaine si elle est indisponible. Si elle est en fonctionnement, à laisser vide.",
          "type":"date",
-         "format": "%Y-%m-%d",
+         "format":"%Y-%m-%d",
          "example":"2023-05-12"
       },
       {
          "name":"accessible_pmr",
-         "title": "Accessibilité PMR",
+         "title":"Accessibilité PMR",
          "description":"Booléen renseignant sur l'accessibilité PMR de la fontaine. `true` si accessible, `false` sinon.",
          "type":"boolean",
          "example":true,
-         "constraints": {
+         "constraints":{
             "required":true
          }
       },
       {
          "name":"remplissage_contenant_possible",
-         "title": "Possibilité de remplir un contenant",
+         "title":"Possibilité de remplir un contenant",
          "description":"Booléen renseignant sur la possibilité de remplir un contenant (gourde, bouteille...). `true` si possible, `false` sinon.",
          "type":"boolean",
          "example":true,
-         "constraints": {
+         "constraints":{
             "required":true
          }
-      },
-      {
-         "name":"gestionnaire",
-         "title": "Gestionnaire",
-         "description":"Nom du gestionnaire de la fontaine.",
-         "type":"string",
-         "example":"Ville de Rennes"
       }
    ],
    "primaryKey":"id"
