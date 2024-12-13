@@ -105,7 +105,7 @@
     "nb_issues": 29,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1157,
+            "dgv_resources": 1164,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -185,7 +185,7 @@
             "contributors": 5
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 22,
+            "dgv_resources": 23,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 10
         },
@@ -240,7 +240,7 @@
             "contributors": 10
         },
         "etalab/schema-zfe": {
-            "dgv_resources": 17,
+            "dgv_resources": 19,
             "title": "Zone \u00e0 Faibles Emissions",
             "contributors": 2
         },
@@ -375,7 +375,7 @@
             "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Plan local d'urbanisme (PLU)",
             "contributors": 2
         },
