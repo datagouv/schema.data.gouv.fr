@@ -102,7 +102,7 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 29,
+    "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
             "dgv_resources": 1164,
@@ -202,7 +202,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 280,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -320,7 +320,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 4,
+            "dgv_resources": 5,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
