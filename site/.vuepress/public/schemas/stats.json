@@ -185,7 +185,7 @@
             "contributors": 5
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 23,
+            "dgv_resources": 24,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 10
         },
@@ -235,7 +235,7 @@
             "contributors": 2
         },
         "datatourisme/ontology": {
-            "dgv_resources": 5,
+            "dgv_resources": 9,
             "title": "DATAtourisme",
             "contributors": 10
         },
