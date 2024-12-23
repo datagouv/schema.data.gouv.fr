@@ -402,25 +402,6 @@
         ],
         "consolidation_dataset_id": null,
         "versions": {
-            "0.1.0": {
-                "pages": [
-                    "README.md",
-                    "SEE_ALSO.md",
-                    "CHANGELOG.md",
-                    "CONTEXT.md",
-                    "documentation.md"
-                ],
-                "schema_url": "/scdl/equipements/0.1.0/schema.json"
-            },
-            "0.1.1": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/scdl/equipements/0.1.1/schema.json"
-            },
             "0.1.2": {
                 "pages": [
                     "README.md",
@@ -754,46 +735,6 @@
         ],
         "consolidation_dataset_id": null,
         "versions": {
-            "1.0.2": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/atlasante/schema-dae/1.0.2/schema.json"
-            },
-            "1.0.3": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/atlasante/schema-dae/1.0.3/schema.json"
-            },
-            "1.0.4": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/atlasante/schema-dae/1.0.4/schema.json"
-            },
-            "1.0.5": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/atlasante/schema-dae/1.0.5/schema.json"
-            },
-            "1.0.6": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/atlasante/schema-dae/1.0.6/schema.json"
-            },
             "1.0.7": {
                 "pages": [
                     "README.md",
@@ -845,63 +786,7 @@
         "email": "contact@natural-solutions.eu",
         "labels": null,
         "consolidation_dataset_id": null,
-        "versions": {
-            "0.1.0": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/NaturalSolutions/schema-arbre/0.1.0/schema.json"
-            },
-            "0.2.0": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/NaturalSolutions/schema-arbre/0.2.0/schema.json"
-            },
-            "0.2.1": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/NaturalSolutions/schema-arbre/0.2.1/schema.json"
-            },
-            "0.2.2": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/NaturalSolutions/schema-arbre/0.2.2/schema.json"
-            },
-            "0.3.0": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/NaturalSolutions/schema-arbre/0.3.0/schema.json"
-            },
-            "0.3.1": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/NaturalSolutions/schema-arbre/0.3.1/schema.json"
-            }
-        },
-        "latest": "0.3.1"
+        "versions": {}
     },
     "etalab/schema-amenagements-cyclables": {
         "homepage": "https://github.com/etalab/schema-amenagements-cyclables",
@@ -1017,14 +902,6 @@
         ],
         "consolidation_dataset_id": null,
         "versions": {
-            "0.1.0": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md"
-                ],
-                "schema_url": "/etalab/schema-stationnement-cyclable/0.1.0/schema.json"
-            },
             "0.2.0": {
                 "pages": [
                     "README.md",
@@ -1344,87 +1221,6 @@
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
-            "0.0.1": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.1/schema.json"
-            },
-            "0.0.2": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.2/schema.json"
-            },
-            "0.0.3": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.3/schema.json"
-            },
-            "0.0.4": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.4/schema.json"
-            },
-            "0.0.5": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.5/schema.json"
-            },
-            "0.0.6": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.6/schema.json"
-            },
-            "0.0.7": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.7/schema.json"
-            },
-            "0.0.8": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.8/schema.json"
-            },
-            "0.0.9": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.9/schema.json"
-            },
             "0.0.10": {
                 "pages": [
                     "README.md",
@@ -1503,13 +1299,6 @@
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
-            "0.2.0": {
-                "pages": [
-                    "README.md",
-                    "documentation.md"
-                ],
-                "schema_url": "/Archivistes75/registre_entrees/0.2.0/schema.json"
-            },
             "0.3.1": {
                 "pages": [
                     "README.md",
@@ -1615,32 +1404,6 @@
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
-            "0.3.0": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/CEREMA/schema-arrete-circulation-marchandises/0.3.0/schema.json"
-            },
-            "0.4.0": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/CEREMA/schema-arrete-circulation-marchandises/0.4.0/schema.json"
-            },
-            "0.4.1": {
-                "pages": [
-                    "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/CEREMA/schema-arrete-circulation-marchandises/0.4.1/schema.json"
-            },
             "0.5.0": {
                 "pages": [
                     "README.md",
@@ -1848,14 +1611,6 @@
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
-            "1.0.0": {
-                "pages": [
-                    "README.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/datakode/schema-pei/1.0.0/schema.json"
-            },
             "1.0.1": {
                 "pages": [
                     "README.md",
