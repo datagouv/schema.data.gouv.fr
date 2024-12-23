@@ -338,10 +338,6 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "0.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.1.0/schema.json"
-                },
-                {
                     "version_name": "0.2.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json"
                 },

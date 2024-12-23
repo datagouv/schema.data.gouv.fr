@@ -75,6 +75,16 @@
         "type": "missing schemas.yml"
     },
     {
+        "schema": "equipements",
+        "version": "0.1.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "equipements",
+        "version": "0.1.1",
+        "type": "tableschema validation"
+    },
+    {
         "schema": "stationnement",
         "version": "0.1.0",
         "type": "tableschema validation"
@@ -150,6 +160,31 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "dae",
+        "version": "1.0.2",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "dae",
+        "version": "1.0.3",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "dae",
+        "version": "1.0.4",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "dae",
+        "version": "1.0.5",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "dae",
+        "version": "1.0.6",
+        "type": "tableschema validation"
+    },
+    {
         "schema": "prenoms",
         "version": "1.1.0",
         "type": "missing schema.json"
@@ -170,6 +205,41 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "arbres_urbains",
+        "version": "0.1.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arbres_urbains",
+        "version": "0.2.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arbres_urbains",
+        "version": "0.2.1",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arbres_urbains",
+        "version": "0.2.2",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arbres_urbains",
+        "version": "0.3.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arbres_urbains",
+        "version": "0.3.1",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "stationnement-cyclable",
+        "version": "0.1.0",
+        "type": "tableschema validation"
+    },
+    {
         "schema": "menus-restauration",
         "version": "0.3.0",
         "type": "tableschema validation"
@@ -187,6 +257,56 @@
     {
         "schema": "plats-restauration",
         "version": "0.6.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.1",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.2",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.3",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.4",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.5",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.6",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.7",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.8",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "accessibilite-erp",
+        "version": "0.0.9",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "registre-archive",
+        "version": "0.2.0",
         "type": "tableschema validation"
     },
     {
@@ -251,6 +371,11 @@
     },
     {
         "schema": "arrete-circulation-marchandise",
+        "version": "0.3.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arrete-circulation-marchandise",
         "version": "0.3.1",
         "type": "tableschema validation"
     },
@@ -262,6 +387,21 @@
     {
         "schema": "arrete-circulation-marchandise",
         "version": "0.3.2",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arrete-circulation-marchandise",
+        "version": "0.4.0",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "arrete-circulation-marchandise",
+        "version": "0.4.1",
+        "type": "tableschema validation"
+    },
+    {
+        "schema": "point-eau-incendie",
+        "version": "1.0.0",
         "type": "tableschema validation"
     },
     {

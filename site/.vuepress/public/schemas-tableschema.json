@@ -211,14 +211,6 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "0.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.0/schema.json"
-                },
-                {
-                    "version_name": "0.1.1",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.1/schema.json"
-                },
-                {
                     "version_name": "0.1.2",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.2/schema.json"
                 },
@@ -487,26 +479,6 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "1.0.2",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.2/schema.json"
-                },
-                {
-                    "version_name": "1.0.3",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.3/schema.json"
-                },
-                {
-                    "version_name": "1.0.4",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.4/schema.json"
-                },
-                {
-                    "version_name": "1.0.5",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.5/schema.json"
-                },
-                {
-                    "version_name": "1.0.6",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.6/schema.json"
-                },
-                {
                     "version_name": "1.0.7",
                     "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.7/schema.json"
                 }
@@ -551,57 +523,6 @@
             "homepage": "https://gitlab.com/opendatafrance/scdl/prenoms.git"
         },
         {
-            "name": "NaturalSolutions/schema-arbre",
-            "title": "Arbres urbains",
-            "description": "Sp\u00e9cification des attributs li\u00e9s aux arbres urbains dans le cadre d'un inventaire du patrimoine arbor\u00e9 par les collectivit\u00e9s.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/latest/schema.json",
-            "schema_type": "tableschema",
-            "contact": "contact@natural-solutions.eu",
-            "examples": [
-                {
-                    "title": "Fichier valide (CSV)",
-                    "name": "exemple-valide-csv",
-                    "path": "https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.csv"
-                },
-                {
-                    "title": "Ressource valide (XLSX)",
-                    "name": "exemple-valide-xlsx",
-                    "path": "https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.xlsx"
-                }
-            ],
-            "labels": [],
-            "consolidation_dataset_id": null,
-            "versions": [
-                {
-                    "version_name": "0.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.1.0/schema.json"
-                },
-                {
-                    "version_name": "0.2.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json"
-                },
-                {
-                    "version_name": "0.2.1",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.1/schema.json"
-                },
-                {
-                    "version_name": "0.2.2",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.2/schema.json"
-                },
-                {
-                    "version_name": "0.3.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.3.0/schema.json"
-                },
-                {
-                    "version_name": "0.3.1",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.3.1/schema.json"
-                }
-            ],
-            "external_doc": null,
-            "external_tool": null,
-            "homepage": "https://github.com/NaturalSolutions/schema-arbre.git"
-        },
-        {
             "name": "etalab/schema-stationnement-cyclable",
             "title": "Stationnement cyclable",
             "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de stationnement cycable.",
@@ -625,10 +546,6 @@
             ],
             "consolidation_dataset_id": null,
             "versions": [
-                {
-                    "version_name": "0.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.1.0/schema.json"
-                },
                 {
                     "version_name": "0.2.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json"
@@ -857,42 +774,6 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "0.0.1",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.1/schema.json"
-                },
-                {
-                    "version_name": "0.0.2",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.2/schema.json"
-                },
-                {
-                    "version_name": "0.0.3",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.3/schema.json"
-                },
-                {
-                    "version_name": "0.0.4",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.4/schema.json"
-                },
-                {
-                    "version_name": "0.0.5",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.5/schema.json"
-                },
-                {
-                    "version_name": "0.0.6",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.6/schema.json"
-                },
-                {
-                    "version_name": "0.0.7",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.7/schema.json"
-                },
-                {
-                    "version_name": "0.0.8",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.8/schema.json"
-                },
-                {
-                    "version_name": "0.0.9",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.9/schema.json"
-                },
-                {
                     "version_name": "0.0.10",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.10/schema.json"
                 },
@@ -955,10 +836,6 @@
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "0.2.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/0.2.0/schema.json"
-                },
-                {
                     "version_name": "0.3.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/0.3.1/schema.json"
                 }
@@ -1014,18 +891,6 @@
             "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
-                {
-                    "version_name": "0.3.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.3.0/schema.json"
-                },
-                {
-                    "version_name": "0.4.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.4.0/schema.json"
-                },
-                {
-                    "version_name": "0.4.1",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.4.1/schema.json"
-                },
                 {
                     "version_name": "0.5.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/0.5.0/schema.json"
@@ -1167,10 +1032,6 @@
             "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
-                {
-                    "version_name": "1.0.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.0/schema.json"
-                },
                 {
                     "version_name": "1.0.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.1/schema.json"
