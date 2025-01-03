@@ -2801,5 +2801,26 @@
         "labels": null,
         "consolidation_dataset_id": null,
         "latest": "0.1.1"
+    },
+    "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
+        "homepage": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "schema@data.gouv.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/0.1.0/schema.json"
+            }
+        },
+        "latest": "0.1.0"
     }
 }

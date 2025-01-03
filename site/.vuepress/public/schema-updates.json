@@ -882,5 +882,13 @@
                 "version": "0.18.0 => 0.19.0"
             }
         ]
+    },
+    "2025-01-03": {
+        "new_schema": [
+            {
+                "schema_name": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle",
+                "version": "0.1.0"
+            }
+        ]
     }
 }

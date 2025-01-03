@@ -1,3 +1,10 @@
+### 2025-01-03
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-declaration-biens-reemploi-reutilisation-recycle](/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2024-11-06
 
 #### Montée de version:
