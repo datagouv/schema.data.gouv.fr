@@ -42,6 +42,11 @@ cnigfr/sites-economiques-terrain-eco:
   consolidate: false
   search_words:
   - Classe TERRAIN-ECO du standard CNIG Sites Economiques
+datagouv/schema-declaration-biens-reemploi-reutilisation-recycle:
+  consolidate: false
+  search_words:
+  - "Sch\xE9ma de d\xE9claration de l'acquisition de biens issus du r\xE9emploi, de\
+    \ la r\xE9utilisation ou int\xE9grant des mati\xE8res recycl\xE9es"
 datakode/schema-pei:
   consolidate: false
   publication: false
@@ -155,7 +160,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
     latest: 8de41e64-2ed5-4982-9e42-cf2721a2761c
   publication: true
   search_words:
-  - "faible emission"
+  - faible emission
   - LOM
 etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese:
   consolidate: false
