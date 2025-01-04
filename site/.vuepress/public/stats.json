@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1166,
+            "dgv_resources": 1167,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -140,7 +140,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 54,
+            "dgv_resources": 55,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -315,7 +315,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 6,
+            "dgv_resources": 7,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },

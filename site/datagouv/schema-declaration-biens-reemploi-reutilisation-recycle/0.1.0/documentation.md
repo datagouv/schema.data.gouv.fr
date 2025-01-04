@@ -35,14 +35,14 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 
 #### Propriété `siret`
 
-> *Description : N° SIRET de l'organisme acheteur (14 chiffres)*<br/>*Exemple : 13002526500013*
+> *Description : N° SIRET de l'organisme acheteur (14 chiffres).*<br/>*Exemple : 13002526500013*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^\d{14}$`
 
 #### Propriété `raison_sociale`
 
-> *Description : Raison sociale de l'organisme acheteur*<br/>*Exemple : DINUM*
+> *Description : Raison sociale de l'organisme acheteur.*<br/>*Exemple : DINUM*
 - Valeur obligatoire
 - Type : chaîne de caractères
 
@@ -96,6 +96,6 @@ Spécification du fichier d'échange relatif aux déclarations de la part des d�
 
 #### Propriété `commentaires`
 
-> *Description : Commentaires éventuels sur la dépense considérée*
+> *Description : Commentaires éventuels sur la dépense considérée.*
 - Valeur optionnelle
 - Type : chaîne de caractères

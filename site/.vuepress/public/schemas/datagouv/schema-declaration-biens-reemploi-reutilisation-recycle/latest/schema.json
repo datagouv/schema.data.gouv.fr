@@ -76,7 +76,7 @@
       },
       {
          "name": "siret",
-         "description": "N° SIRET de l'organisme acheteur (14 chiffres)",
+         "description": "N° SIRET de l'organisme acheteur (14 chiffres).",
          "example": "13002526500013",
          "type": "string",
          "constraints": {
@@ -86,7 +86,7 @@
       },
       {
          "name": "raison_sociale",
-         "description": "Raison sociale de l'organisme acheteur",
+         "description": "Raison sociale de l'organisme acheteur.",
          "example": "DINUM",
          "type": "string",
          "constraints": {
@@ -159,7 +159,7 @@
       },
       {
          "name": "commentaires",
-         "description": "Commentaires éventuels sur la dépense considérée",
+         "description": "Commentaires éventuels sur la dépense considérée.",
          "type": "string",
          "constraints": {
             "required": false
