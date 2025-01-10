@@ -1687,6 +1687,10 @@
                 {
                     "version_name": "0.19.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.19.0/schemas/service.json"
+                },
+                {
+                    "version_name": "0.20.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.20.0/schemas/service.json"
                 }
             ],
             "external_doc": "https://www.data.inclusion.beta.gouv.fr",

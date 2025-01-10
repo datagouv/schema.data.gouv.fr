@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1169,
+            "dgv_resources": 1170,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 66,
+            "dgv_resources": 65,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -195,7 +195,7 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 280,
+            "dgv_resources": 281,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 5
         },
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 97,
+            "dgv_resources": 150,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
