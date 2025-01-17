@@ -2760,8 +2760,7 @@
             "0.1.0": {
                 "pages": [
                     "README.md",
-                    "documentation.md",
-                    "sources.md"
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/indice-durabilite-televiseur/0.1.0/schema.json"
             },
@@ -2790,8 +2789,7 @@
             "0.1.0": {
                 "pages": [
                     "README.md",
-                    "documentation.md",
-                    "sources.md"
+                    "documentation.md"
                 ],
                 "schema_url": "/etalab/indice-durabilite-lave-linge/0.1.0/schema.json"
             },

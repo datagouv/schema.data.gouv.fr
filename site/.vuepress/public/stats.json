@@ -26,7 +26,7 @@
                 "investigation"
             ],
             "nb_comments": 0,
-            "title": "Sch\u00e9ma sur les Op\u00e9rations d'am\u00e9nagement",
+            "title": "Standard CNIG Op\u00e9rations d'am\u00e9nagement",
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
         },
         {
@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1173,
+            "dgv_resources": 1174,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -315,7 +315,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 11,
+            "dgv_resources": 12,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -440,7 +440,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         }
