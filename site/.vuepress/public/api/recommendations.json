@@ -12132,6 +12132,24 @@
     ]
   },
   {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-commune-de-perols-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-commune-de-perols-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "pourcentage-de-vehicules-a-faibles-et-a-tres-faibles-emissions-parmi-les-vehicules-integres-dans-un-renouvellement-de-parc-2",
     "recommendations": [
       {
