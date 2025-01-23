@@ -295,7 +295,7 @@
             "contributors": 2
         },
         "etalab/schema-dispositif-aide": {
-            "dgv_resources": 1,
+            "dgv_resources": 0,
             "title": "Dispositifs d'aides",
             "contributors": 2
         },
