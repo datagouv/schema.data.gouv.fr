@@ -4,7 +4,7 @@
 
 Schéma de déclaration de l'acquisition de biens issus du réemploi, de la réutilisation ou intégrant des matières recyclées
 
-Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées.
+Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées (loi AGEC).
 
 - Schéma créé le : 24/07/2024
 - Site web : https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle

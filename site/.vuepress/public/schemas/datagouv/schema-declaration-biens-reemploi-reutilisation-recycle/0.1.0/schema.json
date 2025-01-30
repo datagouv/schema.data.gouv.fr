@@ -2,7 +2,7 @@
    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
    "name": "schema-declaration-biens-reemploi-reutilisation-recycle",
    "title": "Schéma de déclaration de l'acquisition de biens issus du réemploi, de la réutilisation ou intégrant des matières recyclées",
-   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées.",
+   "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées (loi AGEC).",
    "keywords": [
       "réemploi",
       "recyclage",
@@ -44,8 +44,8 @@
          "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049241790"
       },
       {
-         "title": "Arrêté du [...] fixant les modalités de déclaration de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées",
-         "path": ""
+         "title": "Arrêté du 13 janvier 2025 fixant les modalités de déclaration de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées",
+         "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050998194"
       }
    ],
    "created": "2024-07-24",

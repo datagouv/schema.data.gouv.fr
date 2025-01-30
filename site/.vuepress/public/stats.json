@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 64,
+            "dgv_resources": 65,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -315,7 +315,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 12,
+            "dgv_resources": 11,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
