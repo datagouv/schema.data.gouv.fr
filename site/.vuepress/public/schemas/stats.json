@@ -195,9 +195,9 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 283,
+            "dgv_resources": 284,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -222,7 +222,7 @@
         "etalab/schema-sdirve": {
             "dgv_resources": 27,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 2
+            "contributors": 1
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 9,
@@ -250,9 +250,9 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 697,
+            "dgv_resources": 698,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 2
+            "contributors": 3
         },
         "datakode/schema-pei": {
             "dgv_resources": 1,
@@ -262,7 +262,7 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
+            "contributors": 5
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
@@ -352,7 +352,7 @@
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 2
+            "contributors": 1
         },
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
@@ -392,7 +392,7 @@
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 2
+            "contributors": 3
         },
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
@@ -447,10 +447,10 @@
         "Pierlou/test-schema-hydrometrie": {
             "dgv_resources": 0,
             "title": "Hydrom\u00e9trie",
-            "contributors": 2
+            "contributors": 1
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 3,
+            "dgv_resources": 4,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         }
