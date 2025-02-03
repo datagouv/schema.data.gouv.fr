@@ -197,7 +197,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 284,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
