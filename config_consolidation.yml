@@ -97,6 +97,8 @@ etalab/schema-indice-reparabilite:
   latest_resource_ids:
     0.1.2: 60be0572-1ba9-4cad-95e0-bfb32fd20d70
     latest: b0fddb1d-7032-4e30-a055-9d923e94ce59
+  search_words:
+  - "r\xE9parabilit\xE9"
   publication: true
 etalab/schema-irve-dynamique:
   consolidate: false
@@ -127,7 +129,7 @@ etalab/schema-irve-statique:
     latest: eb76d20a-8501-400e-b336-d85724de5435
   publication: true
   search_words:
-  - "Infrastructures de recharge pour v\xE9hicules \xE9lectriques"
+  - "infrastructures de recharge pour v\xE9hicules \xE9lectriques"
   - "bornes de recharge pour v\xE9hicules \xE9lectriques"
   - IRVE
   tags:
@@ -160,7 +162,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
     latest: 8de41e64-2ed5-4982-9e42-cf2721a2761c
   publication: true
   search_words:
-  - faible emission
+  - "faible emission"
   - LOM
 etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese:
   consolidate: false
