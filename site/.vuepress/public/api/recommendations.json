@@ -1503,6 +1503,42 @@
     ]
   },
   {
+    "id": "propositions-faites-lors-de-la-consultation-publique-lancee-par-la-mission-sur-la-politique-publique-de-la-donnee-des-algorithmes-et-des-codes-sources",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-essentielles-des-contrats-de-concession-vdn-depuis-1er-octobre-2018",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-essentielles-des-contrats-de-concession-nca-depuis-1er-octobre-2018",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-ekleo-20250302",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "brasserie-stade-toulousain-irve-statique-organisation-solveo-energies",
     "recommendations": [
       {
@@ -17955,7 +17991,7 @@
     ]
   },
   {
-    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-chartres-metropole",
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-chartres-metropole-pour-transports-urbains",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
