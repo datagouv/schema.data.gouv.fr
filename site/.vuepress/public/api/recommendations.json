@@ -1449,6 +1449,15 @@
     ]
   },
   {
+    "id": "indice-de-reparabilite-lave-vaisselle-organisation-european-appliances-france-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-reparabilite-organisation-beko-france",
     "recommendations": [
       {
@@ -1498,6 +1507,15 @@
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-sdirve-de-nantes-metropole-2025",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
         "score": 30
       }
     ]
@@ -2296,6 +2314,15 @@
   },
   {
     "id": "irve-statique-organisation-maneo-11",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharges-izivia-express-limoges",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -11638,6 +11665,15 @@
   },
   {
     "id": "electro-mobility",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharge-electrique-du-sde35-dans-le-departement-dille-et-vilaine",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
