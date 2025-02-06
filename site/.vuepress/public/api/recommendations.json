@@ -1512,6 +1512,33 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-lumiin-15",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-statique-organisation-lumiin-14",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-statique-organisation-lumiin-13",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-sdirve-de-nantes-metropole-2025",
     "recommendations": [
       {
