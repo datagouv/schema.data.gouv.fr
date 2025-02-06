@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1184,
+            "dgv_resources": 1187,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -197,7 +197,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 286,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -220,7 +220,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 27,
+            "dgv_resources": 28,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
