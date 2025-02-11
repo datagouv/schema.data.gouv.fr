@@ -196,8 +196,8 @@ vehicules-faibles-emissions-renouvellement-parc-synthese:
 structures-insertion:
   url: https://github.com/gip-inclusion/data-inclusion-schema.git
   type: jsonschema
-  email: data.inclusion@beta.gouv.fr
-  external_doc: https://www.data.inclusion.beta.gouv.fr
+  email: data-inclusion@inclusion.gouv.fr
+  external_doc: https://gip-inclusion.github.io/data-inclusion-schema/
 friches:
   url: https://github.com/cnigfr/schema-friches.git
   type: tableschema
