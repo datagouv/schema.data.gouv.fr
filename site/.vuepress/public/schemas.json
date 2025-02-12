@@ -1595,7 +1595,7 @@
             "description": "Services de l'inclusion",
             "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/latest/schemas/service.json",
             "schema_type": "jsonschema",
-            "contact": "data.inclusion@beta.gouv.fr",
+            "contact": "data-inclusion@inclusion.gouv.fr",
             "examples": [],
             "labels": [],
             "consolidation_dataset_id": null,
@@ -1693,7 +1693,7 @@
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.20.0/schemas/service.json"
                 }
             ],
-            "external_doc": "https://www.data.inclusion.beta.gouv.fr",
+            "external_doc": "https://gip-inclusion.github.io/data-inclusion-schema/",
             "external_tool": null,
             "homepage": "https://github.com/gip-inclusion/data-inclusion-schema"
         },

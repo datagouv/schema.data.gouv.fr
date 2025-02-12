@@ -1910,10 +1910,10 @@
     },
     "gip-inclusion/data-inclusion-schema": {
         "homepage": "https://github.com/gip-inclusion/data-inclusion-schema.git",
-        "external_doc": "https://www.data.inclusion.beta.gouv.fr",
+        "external_doc": "https://gip-inclusion.github.io/data-inclusion-schema/",
         "external_tool": null,
         "type": "jsonschema",
-        "email": "data.inclusion@beta.gouv.fr",
+        "email": "data-inclusion@inclusion.gouv.fr",
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
