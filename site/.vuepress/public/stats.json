@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1194,
+            "dgv_resources": 1195,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -160,7 +160,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 17,
+            "dgv_resources": 18,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
@@ -315,7 +315,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 13,
+            "dgv_resources": 14,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -355,7 +355,7 @@
             "contributors": 2
         },
         "cnigfr/schema-eclairage-exterieur": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
             "contributors": 2
         },
