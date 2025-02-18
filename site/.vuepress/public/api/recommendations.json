@@ -1530,6 +1530,24 @@
     ]
   },
   {
+    "id": "donnees-essentielles-des-contrats-de-concession-nca-depuis-le-1er-janvier-2024",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-essentielles-des-contrats-de-concession-vdn-depuis-le-1er-janvier-2024",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "hainaut-services-automobiles",
     "recommendations": [
       {
@@ -4627,6 +4645,15 @@
   },
   {
     "id": "irve-statique-organisation-wellborne",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-statique-organisation-soregies-1",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
