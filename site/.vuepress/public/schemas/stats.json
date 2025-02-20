@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 177,
+            "dgv_resources": 179,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -152,7 +152,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 69,
             "title": "Lieux de covoiturage",
-            "contributors": 2
+            "contributors": 7
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -162,7 +162,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 18,
             "title": "Lieux de stationnement",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/budget": {
             "dgv_resources": 23,
@@ -182,22 +182,22 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 24,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 47,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 286,
+            "dgv_resources": 285,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 156,
+            "dgv_resources": 158,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
