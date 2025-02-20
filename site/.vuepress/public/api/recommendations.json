@@ -1,5 +1,23 @@
 [
   {
+    "id": "indice-de-durabilite-televiseur-organisation-hisense",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-55w95aeg",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-continental-edison-2",
     "recommendations": [
       {
@@ -6966,7 +6984,7 @@
     ]
   },
   {
-    "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-nexteneo",
+    "id": "irve-infrastructures-de-recharge-pour-vehicules-electriques-organisation-nexteneo",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -12298,6 +12316,15 @@
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-euro-disney-associes-sas-disneyland-paris",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
         "score": 30
       }
     ]
