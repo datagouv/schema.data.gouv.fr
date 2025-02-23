@@ -152,7 +152,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 69,
             "title": "Lieux de covoiturage",
-            "contributors": 2
+            "contributors": 7
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -162,7 +162,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 18,
             "title": "Lieux de stationnement",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/budget": {
             "dgv_resources": 23,
@@ -182,22 +182,22 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 24,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 47,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 286,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -452,7 +452,7 @@
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
             "dgv_resources": 9,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
-            "contributors": null
+            "contributors": 2
         }
     }
 }
