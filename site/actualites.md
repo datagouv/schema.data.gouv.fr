@@ -1,3 +1,10 @@
+### 2025-02-25
+
+#### Schéma en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Base Nationale des Réglementations de Voirie / DiaLog](https://github.com/datagouv/schema.data.gouv.fr/issues/330/)**
+
+---
+
 ### 2025-01-10
 
 #### Montée de version:
