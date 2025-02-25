@@ -549,5 +549,10 @@
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2025-01-10: 0.19.0 to 0.20.0 for gip-inclusion/data-inclusion-schema</description>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>Construction - Base Nationale des R&#233;glementations de Voirie / DiaLog</title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/330</link>
+      <description>Schema update on 2025-02-25: Base Nationale des R&#233;glementations de Voirie / DiaLog is in construction</description>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>
