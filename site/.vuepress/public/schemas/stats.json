@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1205,
+            "dgv_resources": 1206,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -127,7 +127,7 @@
         "etalab/schema-decp-dpa": {
             "dgv_resources": 6,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
+            "contributors": null
         },
         "scdl/catalogue": {
             "dgv_resources": 7,
@@ -197,7 +197,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 286,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 158,
+            "dgv_resources": 159,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
