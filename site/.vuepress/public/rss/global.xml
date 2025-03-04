@@ -554,5 +554,10 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/330</link>
       <description>Schema update on 2025-02-25: Base Nationale des R&#233;glementations de Voirie / DiaLog is in construction</description>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>Construction - Sch&#233;ma de M&#233;tadonn&#233;es pour des indicateurs de transition &#233;cologique</title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/331</link>
+      <description>Schema update on 2025-03-04: Sch&#233;ma de M&#233;tadonn&#233;es pour des indicateurs de transition &#233;cologique is in construction</description>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>
