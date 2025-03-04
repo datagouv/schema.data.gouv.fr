@@ -1,3 +1,10 @@
+### 2025-03-04
+
+#### Schéma en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma de Métadonnées pour des indicateurs de transition écologique](https://github.com/datagouv/schema.data.gouv.fr/issues/331/)**
+
+---
+
 ### 2025-02-25
 
 #### Schéma en construction:

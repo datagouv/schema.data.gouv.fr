@@ -906,5 +906,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/330"
             }
         ]
+    },
+    "2025-03-04": {
+        "construction": [
+            {
+                "title": "Sch\u00e9ma de M\u00e9tadonn\u00e9es pour des indicateurs de transition \u00e9cologique",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/331"
+            }
+        ]
     }
 }
