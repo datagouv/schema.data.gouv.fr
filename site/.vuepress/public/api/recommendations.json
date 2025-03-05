@@ -1,5 +1,14 @@
 [
   {
+    "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation",
     "recommendations": [
       {
@@ -1557,6 +1566,15 @@
     ]
   },
   {
+    "id": "irve-statique-sts26",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-statique-organisation-inforomu",
     "recommendations": [
       {
@@ -2187,15 +2205,6 @@
     ]
   },
   {
-    "id": "irve-statique-organisation-soregies",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "schema-directeur-des-infrastructure-de-recharge-pour-vehicule-electrique-en-isere",
     "recommendations": [
       {
@@ -2296,15 +2305,6 @@
   },
   {
     "id": "irve-statique-organisation-indelec-mobility-5",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-center-parcs-organisation-engie-mobilites-electriques",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -3483,24 +3483,6 @@
     ]
   },
   {
-    "id": "irve-statique-b-b-organisation-engie-mobilites-electriques",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-vinci-sodiplec-organisation-engie-mobilites-electriques",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-maneo-7",
     "recommendations": [
       {
@@ -4338,15 +4320,6 @@
     ]
   },
   {
-    "id": "irve-statique-lhg-organisation-engie-mobilites-electriques",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-we-sun",
     "recommendations": [
       {
@@ -4438,24 +4411,6 @@
   },
   {
     "id": "irve-statique-organisation-borneco-2",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-vinci-organisation-engie-mobilites-electriques",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-ssec-organisation-engie-mobilites-electriques",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -5409,15 +5364,6 @@
     ]
   },
   {
-    "id": "irve-statique-cae-organisation-engie-mobilites-electriques",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "09-03-2023",
     "recommendations": [
       {
@@ -5589,25 +5535,7 @@
     ]
   },
   {
-    "id": "irve-statique-sanef-organisation-engie-mobilites-electriques",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "secab-bellignies",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-aprr-organisation-engie-mobilites-electriques",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -5653,15 +5581,6 @@
   },
   {
     "id": "le-grand-hotel",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-eurotunnel-organisation-engie-mobilites-electriques",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
