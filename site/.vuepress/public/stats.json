@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1206,
+            "dgv_resources": 1196,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -162,7 +162,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 18,
             "title": "Lieux de stationnement",
-            "contributors": 3
+            "contributors": 2
         },
         "scdl/budget": {
             "dgv_resources": 23,
@@ -182,17 +182,17 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 24,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 10
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 47,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 286,
@@ -225,7 +225,7 @@
             "contributors": 2
         },
         "Archivistes75/registre_entrees": {
-            "dgv_resources": 10,
+            "dgv_resources": 12,
             "title": "Registre d'entr\u00e9e d'archives",
             "contributors": 2
         },
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 159,
+            "dgv_resources": 160,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
