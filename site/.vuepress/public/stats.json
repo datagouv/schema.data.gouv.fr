@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1206,
+            "dgv_resources": 1196,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -197,7 +197,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 286,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -217,17 +217,17 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 4,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 29,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 2
+            "contributors": 1
         },
         "Archivistes75/registre_entrees": {
-            "dgv_resources": 10,
+            "dgv_resources": 12,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
+            "contributors": 6
         },
         "datatourisme/ontology": {
             "dgv_resources": 9,
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 159,
+            "dgv_resources": 160,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
