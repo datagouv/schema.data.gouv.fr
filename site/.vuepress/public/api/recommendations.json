@@ -5247,6 +5247,15 @@
     ]
   },
   {
+    "id": "programme-des-vols-air-france",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "herve-thermique-irve-societe-ouest-location",
     "recommendations": [
       {
