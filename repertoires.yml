@@ -321,6 +321,12 @@ sites-economiques:
   email: cnig@cnig.fr
   labels:
     - CNIG
+operations-amenagement:
+  url: https://github.com/cnigfr/schema-operations-amenagement.git
+  type: datapackage
+  email: cnig@cnig.fr
+  labels:
+    - CNIG
 aire-livraison:
   url: https://github.com/CEREMA/schema-aire-livraison.git
   type: tableschema
