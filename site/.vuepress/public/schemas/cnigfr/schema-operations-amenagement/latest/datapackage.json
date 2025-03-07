@@ -1,0 +1,38 @@
+{
+    "name": "datapackage-operation-amenagement",
+    "title": "Operation aménagement",
+    "description": "Data package contenant 3 schémas : operation-amenagement, secteur, programme",
+    "id": "operation-amenagement",
+    "resources": [
+        {
+            "name": "operation-amenagement",
+            "path": "schema/operation-amenagement/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/operation-amenagement/schema_operation-amenagement.json",
+            "documentation": "schema/operation-amenagement/README.md"
+        },
+        {
+            "name": "secteur",
+            "path": "schema/secteur/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/secteur/schema_secteur.json",
+            "documentation": "schema/secteur/README.md"
+        },
+        {
+            "name": "programme",
+            "path": "schema/programme/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/programme/schema_programme.json",
+            "documentation": "schema/programme/README.md"
+        }
+    ]
+}

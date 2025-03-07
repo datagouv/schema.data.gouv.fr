@@ -1,0 +1,226 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"secteur",
+   "title":"Classe SECTEUR du standard CNIG Opérations d'aménagement",
+   "description":"Spécification du fichier d'échange conforme au standard CNIG Opérations d'aménagement pour la classe SECTEUR",
+   "keywords":[
+      "landuse",
+      "development operation",
+      "artificialization",
+      "planning"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/cnigfr/schema-operations-amenagement",
+   "path":"https://github.com/cnigfr/operations-amenagement/raw/v1.0.0/schema/datapackage.json",
+   "image":"",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Exemple valide",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/cnigfr/operations-amenagement/raw/v1.0.0/schema/secteur/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+      {
+         "title":"Directive européenne Inspire -  article L. 127-1 du code de l’environnement, résultant de la transposition de la directive",
+         "path":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022964012"
+      },
+      {
+         "title":"Article 191 de la LOI n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets",
+         "path":"https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043957220"
+      },
+      {
+         "title":"Article L300-1 du Code de l'urbanisme",
+         "path":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978042"
+      }
+   ],
+   "created":"2024-05-24",
+   "lastModified":"2025-02-19",
+   "version":"v1.0.0",
+   "contributors":[
+      {
+         "title":"GT CNIG Aménagement, sous-groupe OPAM",
+         "email":"cnig@cnig.fr",
+         "organisation":"CNIG",
+         "role":"author"
+      },
+      {
+         "title":"Arnauld Gallais",
+         "email":"arnauld.gallais@cerema.fr",
+         "organisation":"Cerema",
+         "role":"author"
+      }
+   ],
+   "fields":[
+      {
+         "name":"secteur_id",
+         "title":"secteur d’aménagement",
+         "description":"identifiant du secteur d’aménagement",
+         "example":"78418_SECTEUR_0001",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"opam_id",
+         "title":"opération d’aménagement",
+         "description":"identifiant de l’opération d’aménagement à laquelle appartient le secteur d’aménagement",
+         "example":"78418_OPERATION-AMENAGEMENT_0053",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"sect_nom",
+         "title":"nom du secteur",
+         "description":"nom du secteur d’aménagement",
+         "example":"Secteur sud de la ZAC des Terres Ocres",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"sect_description",
+         "title":"description du secteur",
+         "description":"court commentaire de description du secteur",
+         "example":"Secteur sud de la ZAC des Terres Ocres mixte habitat et activités",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"sect_url_plan_masse",
+         "title":"URL du plan masse",
+         "description":"URL du plan masse du secteur",
+         "example":"https://terres-ocres/info/plan-masse.fr/secteur_sud.html",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"date_prev_realisation",
+         "title":"date prévisionnelle de réalisation",
+         "description":"date prévisionnelle de réalisation",
+         "example":"2030-06-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"etat_avancement",
+         "title":"état d’avancement",
+         "description":"état d’avancement du secteur",
+         "example":"en cours",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "à l’étude",
+            "programmé",
+            "autorisé",
+            "inactif",
+            "en cours",
+            "livré",
+            "annulé",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"sect_identif_date",
+         "title":"date des premières données",
+         "description":"date des premières données sur le secteur d’aménagement",
+         "example":"2023-03-15",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"sect_actu_date",
+         "title":"date de dernière actualisation",
+         "description":"date de dernière actualisation des données sur le secteur d’aménagement",
+         "example":"2024-04-14",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"source_producteur",
+         "title":"nom du producteur de la donnée",
+         "description":"nom du producteur de la donnée d’identification ou d’actualisation",
+         "example":"Direction des autorisations d’urbanisme",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"sect_geomsurf",
+         "title":"géométrie",
+         "description":"multi géométries surfaciques du périmètre du secteur d’aménagement au format geoJSON",
+         "example":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     656589.70,
+                     6425785.32
+                  ],
+                  [
+                     656655.02,
+                     6425866.31
+                  ],
+                  [
+                     656663.55,
+                     6425874.43
+                  ],
+                  [
+                     656589.707,
+                     6425785.32
+                  ]
+               ]
+            ]
+         },
+         "type":"geojson",
+         "constraints":{
+            "required":true
+         }
+      }
+   ],
+   "missingValues":[
+      "",
+      "NA",
+      "NaN",
+      "N/A"
+   ],
+   "primaryKey":"secteur_id",
+   "foreignKeys": [
+          {
+            "fields": "opam_id",
+            "reference": {
+              "resource": "operation-amenagement",
+              "fields": "opam_id"
+            }
+          }
+        ]
+}

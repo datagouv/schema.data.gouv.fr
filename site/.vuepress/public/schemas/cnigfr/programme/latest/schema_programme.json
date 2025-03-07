@@ -1,0 +1,704 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"programme",
+   "title":"Classe PROGRAMME du standard CNIG Opérations d'aménagement",
+   "description":"Spécification du fichier d'échange conforme au standard CNIG Opérations d'aménagement pour la classe PROGRAMME",
+   "keywords":[
+      "landuse",
+      "development operation",
+      "artificialization",
+      "planning"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/cnigfr/schema-operations-amenagement",
+   "path":"https://github.com/cnigfr/operations-amenagement/raw/v1.0.0/schema/datapackage.json",
+   "image":"",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Exemple valide",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/cnigfr/operations-amenagement/raw/v1.0.0/schema/programme/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+      {
+         "title":"Directive européenne Inspire -  article L. 127-1 du code de l’environnement, résultant de la transposition de la directive",
+         "path":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022964012"
+      },
+      {
+         "title":"Article 191 de la LOI n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets",
+         "path":"https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043957220"
+      },
+      {
+         "title":"Article L300-1 du Code de l'urbanisme",
+         "path":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978042"
+      }
+   ],
+   "created":"2024-05-24",
+   "lastModified":"2025-02-19",
+   "version":"v1.0.0",
+   "contributors":[
+      {
+         "title":"GT CNIG Aménagement, sous-groupe OPAM",
+         "email":"cnig@cnig.fr",
+         "organisation":"CNIG",
+         "role":"author"
+      },
+      {
+         "title":"Arnauld Gallais",
+         "email":"arnauld.gallais@cerema.fr",
+         "organisation":"Cerema",
+         "role":"author"
+      }
+   ],
+   "fields":[
+      {
+         "name":"programme_id",
+         "title":"identifiant du programme",
+         "description":"identifiant du programme",
+         "example":"78418_PROGRAMME_0021",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"secteur_id",
+         "title":"identifiant du secteur d’aménagement",
+         "description":"identifiant du secteur d’aménagement auquel appartient le programme",
+         "example":"78418_SECTEUR_0001",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"opam_id",
+         "title":"identifiant de l’opération d’aménagement",
+         "description":"identifiant de l’opération d’aménagement à laquelle appartient le programme",
+         "example":"78418_OPERATION-AMENAGEMENT_0053",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_nom",
+         "title":"nom du programme",
+         "description":"nom du programme",
+         "example":"Les Alteralies",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_description",
+         "title":"court commentaire de description",
+         "description":"court commentaire de description du programme",
+         "example":"Les Alteralies, 58 rue Blaise Cendrars. Logements étudiants, résidence seniors et commerces (dont le supermarché Lidl)",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"vocation_dominante",
+         "title":"vocation dominante",
+         "description":"vocation dominante du programme",
+         "example":"habitat",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "activités et commerce",
+            "équipement ou infrastructure d’intérêt collectif ou service public",
+            "exploitation agricole ou forestière",
+            "espace vert",
+            "mobilité",
+            "mixte",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"prog_nature",
+         "title":"nature majoritaire",
+         "description":"nature majoritaire du programme",
+         "example":"réhabilitation",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "construction neuve",
+            "réhabilitation",
+            "démolition",
+            "extension",
+            "changement de destination",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"prog_ban_id",
+         "title":"référence à l'adresse principale",
+         "description":"référence à l'adresse principale du programme dans la base adresse nationale, en utilisant le champ : id_ban_adresse",
+         "example":"",
+         "type":"string",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"prog_reference_ads",
+         "title":"référence du dossier dans le système ADS",
+         "description":"référence du dossier dans le système ADS de la collectivité",
+         "example":"PC 78418 52-0458",
+         "type":"string",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"prog_url_medias",
+         "title":"URL des médias photo, vue d’artiste, vidéo",
+         "description":"URL des médias photo, vue d’artiste, vidéo du programme",
+         "example":"https://terres-ocres/info/media.fr/secteur_sud/prog/les_alteralies.html",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"prog_url_plan_masse",
+         "title":"URL du plan masse",
+         "description":"URL du plan masse du programme",
+         "example":"https://terres-ocres/info/plan-masse.fr/secteur_sud/prog/les_alteralies.html",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"prog_nom_moa",
+         "title":"nom du (des) maître(s) d'ouvrage",
+         "description":"nom du (des) maître(s) d'ouvrage",
+         "example":"Batyvelines",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_nom_moe",
+         "title":"nom du (des) maître(s) d’œuvre",
+         "description":"nom du (des) maître(s) d’œuvre",
+         "example":"Dupont & Richard Construction et associés",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"surf_totale_prog",
+         "title":"surface totale",
+         "description":"surface de plancher totale du programme (m² de SdP)",
+         "example":"1600",
+         "type":"integer",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"surf_logt_total",
+         "title":"surface totale des logements",
+         "description":"surface de plancher totale des logements (m² de SdP)",
+         "example":"2040",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_individuel",
+         "title":"surface des logements individuels",
+         "description":"surface de plancher des logements individuels (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_collectif",
+         "title":"surface des logements collectifs",
+         "description":"surface de plancher des logements collectifs (m² de SdP)",
+         "example":"2040",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_locatif_libre",
+         "title":"surface des logements en locatif libre",
+         "description":"surface de plancher des logements en locatif libre (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_access_libre",
+         "title":"surface des logements en accession libre",
+         "description":"surface de plancher des logements en accession libre (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_locatif_aide",
+         "title":"surface des logements en locatif aidé",
+         "description":"surface de plancher des logements en locatif aidé (m² de SdP)",
+         "example":"2040",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_locatif_regul",
+         "title":"surface des logements en locatif régulé",
+         "description":"surface de plancher des logements en locatif régulé (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_access_aide",
+         "title":"surface des logements en accession aidée",
+         "description":"surface de plancher des logements en accession aidée (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_access_regul",
+         "title":"surface des logements en accession régulée",
+         "description":"surface de plancher des logements en accession régulée (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_industrie",
+         "title":"surface des activités industrielles",
+         "description":"surface de plancher des activités industrielles (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_logistique",
+         "title":"surface des activités logistiques",
+         "description":"surface de plancher des activités logistiques (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_artisanat",
+         "title":"surface des activités artisanales",
+         "description":"surface de plancher des activités artisanales (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_comm_serv",
+         "title":"surface des activités commerciales et services",
+         "description":"surface de plancher des activités commerciales et services (m² de SdP)",
+         "example":"500",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_bureau",
+         "title":"surface des activités de bureau",
+         "description":"surface de plancher des activités de bureau (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_autres",
+         "title":"surface des autres activités",
+         "description":"surface de plancher des autres activités (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_equipt_public",
+         "title":"surface des équipements publics",
+         "description":"surface de plancher des équipements publics (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_esp_public",
+         "title":"‍surface des espaces publics ",
+         "description":"‍surface des espaces publics (m² terrain) ",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_esp_vert_public",
+         "title":"surface espaces verts publics",
+         "description":"(dont) espaces verts publics (m² terrain)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_total",
+         "title":"nombre total de logements",
+         "description":"nombre total de logements du programme",
+         "example":"34",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_individuel",
+         "title":"nombre de logements individuels",
+         "description":"nombre de logements individuels",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_collectif",
+         "title":"nombre de logements collectifs",
+         "description":"nombre de logements collectifs",
+         "example":"34",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_access_libre",
+         "title":"nombre de logements en accession libre",
+         "description":"nombre de logements en accession libre",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_locatif_libre",
+         "title":"Nombre de logements locatifs libres",
+         "description":"Nombre de logements locatifs libres",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_locatif_aide",
+         "title":"nombre de logements locatifs aidés",
+         "description":"nombre de logements locatifs aidés, financés par PLUS PLAI",
+         "example":"34",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_locatif_regul",
+         "title":"nombre de logements locatifs régulés",
+         "description":"nombre de logements locatifs régulés",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_access_aide",
+         "title":"nombre de logements en accession aidée",
+         "description":"nombre de logements en accession aidée",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_access_regul",
+         "title":"nombre de logements en accession régulée",
+         "description":"nombre de logements en accession régulée",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_participatif",
+         "title":"nombre de logements participatifs",
+         "description":"nombre de logements participatifs",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_specifique",
+         "title":"nombre de logements spécifiques",
+         "description":"nombre de logements spécifiques",
+         "example":"34",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"type_logt_specifique",
+         "title":"types de logements spécifiques",
+         "description":"types de logements spécifiques",
+         "example":"étudiants|seniors",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern": "(?:(?:^|\\|)(personnes en situation de handicap|jeunes actifs|étudiants|seniors|publics en insertion|gens du voyage|mixte|non renseigné|autre))+$"
+         }
+      },
+      {
+         "name":"etat_avancement",
+         "title":"état d’avancement",
+         "description":"état d’avancement du programme",
+         "example":"en chantier",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "veille foncière",
+            "étude - faisabilité",
+            "permis délivré",
+            "commercialisation",
+            "en chantier",
+            "livré",
+            "annulé",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"date_attribution_foncier",
+         "title":"date d’attribution foncière",
+         "description":"date d’attribution foncière",
+         "example":"2022-06-10",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_commercialisation",
+         "title":"date de commercialisation",
+         "description":"date de commercialisation",
+         "example":"2023-09-02",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_obtention_pc",
+         "title":"date d’obtention du permis de construire",
+         "description":"date d’obtention du permis de construire",
+         "example":"2024-05-17",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_livraison_prevue",
+         "title":"date de livraison prévue",
+         "description":"date de livraison prévue",
+         "example":"2026-01-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_livraison_effective",
+         "title":"date de livraison effective",
+         "description":"date de livraison effective",
+         "example":"",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"prog_identif_date",
+         "title":"date des premières données",
+         "description":"date des premières données sur le programme",
+         "example":"2023-04-30",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_actu_date",
+         "title":"date de dernière actualisation",
+         "description":"date de dernière actualisation des données sur le programme",
+         "example":"2024-06-15",
+         "type":"date",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"source_producteur",
+         "title":"nom du producteur de la donnée",
+         "description":"nom du producteur de la donnée d’identification ou d’actualisation",
+         "example":"Service ADS",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_geompoint",
+         "title":"géométrie ponctuelle",
+         "description":"localisation ponctuelle du programme au format geoJSON (https://specs.frictionlessdata.io//table-schema/#geojson)",
+         "example":{
+            "type":"Point",
+            "coordinates":[
+               656589.70,
+               6425785.32
+            ]
+         },
+         "type":"geojson",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_geomsurf",
+         "title":"géométrie surfacique",
+         "description":"géométrie surfacique du programme au format geoJSON (https://specs.frictionlessdata.io//table-schema/#geojson)",
+         "example":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     656589.70,
+                     6425785.32
+                  ],
+                  [
+                     656655.02,
+                     6425866.31
+                  ],
+                  [
+                     656663.55,
+                     6425874.43
+                  ],
+                  [
+                     656589.707,
+                     6425785.32
+                  ]
+               ]
+            ]
+         },
+         "type":"geojson",
+         "constraints":{
+            "required":true
+         }
+      }
+   ],
+   "missingValues":[
+      "",
+      "NA",
+      "NaN",
+      "N/A",
+      "NC"
+   ],
+   "primaryKey":"programme_id",
+   "foreignKeys": [
+          {
+            "fields": "secteur_id",
+            "reference": {
+              "resource": "secteur",
+              "fields": "secteur_id"
+            }
+          },
+          {
+            "fields": "opam_id",
+            "reference": {
+              "resource": "operation-amenagement",
+              "fields": "opam_id"
+            }
+          }
+        ]
+}

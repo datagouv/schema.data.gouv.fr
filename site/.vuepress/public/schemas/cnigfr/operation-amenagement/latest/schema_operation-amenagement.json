@@ -1,0 +1,1211 @@
+{
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name":"operation-amenagement",
+   "title":"Classe OPERATION-AMENAGEMENT du standard CNIG Opérations d'aménagement",
+   "description":"Spécification du fichier d'échange conforme au standard CNIG Opérations d'aménagement pour la classe OPERATION-AMENAGEMENT",
+   "keywords":[
+      "landuse",
+      "development operation",
+      "artificialization",
+      "planning"
+   ],
+   "countryCode":"FR",
+   "homepage":"https://github.com/cnigfr/schema-operations-amenagement",
+   "path":"https://github.com/cnigfr/operations-amenagement/raw/v1.0.0/schema/datapackage.json",
+   "image":"",
+   "licenses":[
+      {
+         "title":"Etalab Licence Ouverte 2.0",
+         "name":"etalab-2.0",
+         "path":"https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources":[
+      {
+         "title":"Exemple valide",
+         "name":"exemple-valide-csv",
+         "path":"https://github.com/cnigfr/operations-amenagement/raw/v1.0.0/schema/operations-amenagement/exemple-valide.csv"
+      }
+   ],
+   "sources":[
+      {
+         "title":"Directive européenne Inspire -  article L. 127-1 du code de l’environnement, résultant de la transposition de la directive",
+         "path":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022964012"
+      },
+      {
+         "title":"Article 191 de la LOI n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets",
+         "path":"https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043957220"
+      },
+      {
+         "title":"Article L300-1 du Code de l'urbanisme",
+         "path":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978042"
+      }
+   ],
+   "created":"2024-05-24",
+   "lastModified":"2025-02-20",
+   "version":"v1.0.0",
+   "contributors":[
+      {
+         "title":"GT CNIG Aménagement, sous-groupe OPAM",
+         "email":"cnig@cnig.fr",
+         "organisation":"CNIG",
+         "role":"author"
+      },
+      {
+         "title":"Arnauld Gallais",
+         "email":"arnauld.gallais@cerema.fr",
+         "organisation":"Cerema",
+         "role":"author"
+      }
+   ],
+   "fields":[
+      {
+         "name":"opam_id",
+         "title":"identifiant",
+         "description":"identifiant de l’opération d’aménagement",
+         "example":"78418_OPERATION-AMENAGEMENT_0053",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"nom",
+         "title":"nom",
+         "description":"nom de l’opération d’aménagement",
+         "example":"ZAC des Terres Ocres",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"procedure",
+         "title":"procédure",
+         "description":"procédure de l’opération d’aménagement",
+         "example":"zone d’aménagement concerté",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "zones d’aménagement concerté",
+            "permis d’aménager",
+            "permis de construire valant division",
+            "association foncière urbaine",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"description",
+         "title":"description de l’opération",
+         "description":"court commentaire de description de l’opération",
+         "example":"ZAC des Terres Ocres sur le site de Val industrie à vocation principalement résidentielle",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"type_urbanisation",
+         "title":"type d’urbanisation",
+         "description":"type d’urbanisation",
+         "example":"renouvellement urbain",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "extension",
+            "renouvellement urbain",
+            "mixte",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"duree_previsionnelle",
+         "title":"durée prévisionnelle de l’opération",
+         "description":"durée prévisionnelle de l’opération. (unité : année)",
+         "example":"14",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"vocation_dominante",
+         "title":"vocation dominante",
+         "description":"vocation dominante de l’opération d’aménagement",
+         "example":"mixte",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "habitat",
+            "activités et commerce",
+            "équipement ou infrastructure d’intérêt collectif ou service public",
+            "exploitation agricole ou forestière",
+            "espace vert",
+            "mobilité",
+            "mixte",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"emprise_foncière",
+         "title":"emprise foncière",
+         "description":"emprise foncière (en ha)",
+         "example":20,
+         "type":"number",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"surface_cessible",
+         "title":"surface commercialisable",
+         "description":"surface commercialisable (en ha). Emp. totale moins les espaces publics",
+         "example":18,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"multi_site",
+         "title":"opérations d’aménagement contiguës",
+         "description":"le site présente (oui / non) plusieurs opérations d’aménagement contiguës",
+         "example":"non",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "oui",
+            "non",
+            "non renseigné"
+         ]
+      },
+      {
+         "name":"date_autorisation",
+         "title":"date d’autorisation",
+         "description":"date d’autorisation du PA, PCVD, DP (ou permis groupé) ou date d’approbation du dossier de création pour la ZAC",
+         "example":"2022-09-27",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"etat_avancement",
+         "title":"état d’avancement global du projet",
+         "description":"état d’avancement global du projet",
+         "example":"en cours",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "à l’étude",
+            "programmé",
+            "autorisé",
+            "inactif",
+            "en cours",
+            "livré",
+            "annulé",
+            "en révision",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"url_presa_projet",
+         "title":"URL du site du projet",
+         "description":"URL du site de présentation du projet",
+         "example":"https://terres-ocres/info.fr",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"url_medias",
+         "title":"URL des médias",
+         "description":"URL des médias photo, vue d’artiste, vidéo du projet",
+         "example":"https://terres-ocres/info/media.fr",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"url_plan_masse",
+         "title":"URL du plan masse",
+         "description":"URL du plan masse",
+         "example":"https://terres-ocres/info/plan-masse.fr",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"nom_EPCI",
+         "title":"nom de l‘EPCI",
+         "description":"nom de la communauté de communes, la principale si plusieurs",
+         "example":"Communauté d'Agglomération Saint Germain Boucles de Seine",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"siren_EPCI",
+         "title":"code SIREN de l’EPCI",
+         "description":"code SIREN de la communauté de communes, la principale si plusieurs",
+         "example":"200058519",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"nom_commune",
+         "title":"nom de la commune",
+         "description":"nom de la commune, la principale si plusieurs",
+         "example":"Montesson",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"insee_commune",
+         "title":"code INSEE de la commune",
+         "description":"code INSEE de la commune, la principale si plusieurs",
+         "example":"78418",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"opam_geomsurf",
+         "title":"périmètre de l’opération d'aménagement",
+         "description":"multi géométries surfaciques du périmètre de l’opération d’aménagement au format geoJSON(https://specs.frictionlessdata.io//table-schema/#geojson)",
+         "example":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     656589.70,
+                     6425785.32
+                  ],
+                  [
+                     656655.02,
+                     6425866.31
+                  ],
+                  [
+                     656663.55,
+                     6425874.43
+                  ],
+                  [
+                     656589.707,
+                     6425785.32
+                  ]
+               ]
+            ]
+         },
+         "type":"geojson",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"opam_geompoint",
+         "title":"centroïde de l’opération",
+         "description":"coordonnées géographiques du centroïde de l’opération d’aménagement au format geopoint (https://specs.frictionlessdata.io//table-schema/#geopoint)",
+         "example":"3.9815, 49.2527",
+         "type":"geopoint",
+         "format":"default",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"nom_moa",
+         "title":"nom du maître d'ouvrage",
+         "description":"nom du maître d'ouvrage",
+         "example":"Yvelines aménagement",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"nature_moa",
+         "title":"nature du maître d'ouvrage ",
+         "description":"nature du maître d'ouvrage",
+         "example":"SEM ou EPL",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "collectivité",
+            "Etat",
+            "EPA",
+            "SEM ou EPL",
+            "privé",
+            "bailleur social",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"raison_sociale_moa",
+         "title":"raison sociale du maître d'ouvrage",
+         "description":"raison sociale du maître d'ouvrage",
+         "example":"Yvelines aménagement",
+         "type":"string",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"modalite_realisation",
+         "title":"‍modalités de réalisation",
+         "description":"modalités de réalisation",
+         "example":"‍concession",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "régie",
+            "mandat",
+            "concession",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"nom_concedant",
+         "title":"nom du concédant",
+         "description":"nom du concédant",
+         "example":"Communauté d'Agglomération Saint Germain Boucles de Seine",
+         "type":"string",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_deb_concession",
+         "title":"date de début de la concession",
+         "description":"date de début de la concession",
+         "example":"2022-12-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_fin_concession",
+         "title":"date de fin de la concession",
+         "description":"date de fin de la concession",
+         "example":"2025-07-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nom_moe",
+         "title":"‍nom de la maîtrise d’œuvre",
+         "description":"nom de la maîtrise d’œuvre",
+         "example":"Atelier des rives",
+         "type":"string",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"‍portage_EPF",
+         "title":"portage par un établissement public foncier",
+         "description":"portage (oui / non) par un établissement public foncier",
+         "example":"oui",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "oui",
+            "non"
+         ]
+      },
+      {
+         "name":"densite_brute",
+         "title":"densité brute",
+         "description":"nombre total de m² SdP / emprise totale (ha)",
+         "example":6275,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"densite_brute_logt",
+         "title":"densité brute en équivalent logement",
+         "description":"densité brute du projet en équivalent logement nombre total d’équivalent logement / emprise totale (ha)",
+         "example":89,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"densite_nette",
+         "title":"densité nette du projet",
+         "description":"densité nette du projet nombre total de m² SdP / emprise cessible (ha)",
+         "example":6994,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"densite_nette_logt",
+         "title":"densité nette du projet en équivalent logement",
+         "description":"densité nette du projet en équivalent logement nombre total d’équivalent logement / emprise cessible (ha)",
+         "example":99,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_totale_operation",
+         "title":"surface totale",
+         "description":"surface de plancher totale de l’opération d’aménagement (m² de SdP)",
+         "example":"125500",
+         "type":"integer",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"surf_logt_individuel",
+         "title":"surface des logements individuels",
+         "description":"surface de plancher des logements individuels (m² de SdP)",
+         "example":"34000",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_collectif",
+         "title":"surface des logements collectifs",
+         "description":"surface de plancher des logements collectifs (m² de SdP)",
+         "example":"88400",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_locatif_aide",
+         "title":"surface des logements en locatif aidé",
+         "description":"surface de plancher des logements en locatif aidé (m² de SdP)",
+         "example":"27625",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_access_aide",
+         "title":"surface des logements en accession aidée",
+         "description":"surface de plancher des logements en accession aidée (m² de SdP)",
+         "example":"16000",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_logt_access_libre",
+         "title":"surface des logements en accession libre",
+         "description":"surface de plancher des logements en accession libre (m² de SdP)",
+         "example":"40000",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_industrie",
+         "title":"surface des activités industrielles",
+         "description":"surface de plancher des activités industrielles (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_logistique",
+         "title":"surface des activités logistiques",
+         "description":"surface de plancher des activités logistiques (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_artisanat",
+         "title":"surface des activités artisanales",
+         "description":"surface de plancher des activités artisanales (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_comm_serv",
+         "title":"surface des activités commerciales et services",
+         "description":"surface de plancher des activités commerciales et services (m² de SdP)",
+         "example":"15000",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_bureau",
+         "title":"surface des activités de bureau",
+         "description":"surface de plancher des activités de bureau (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_act_autres",
+         "title":"surface des autres activités",
+         "description":"surface de plancher des autres activités (m² de SdP)",
+         "example":"0",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_equipt_public",
+         "title":"surface des équipements publics",
+         "description":"surface de plancher des équipements publics (m² de SdP)",
+         "example":"1200",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"type_equipt_public_bati",
+         "title":"nature des équipements publics batis",
+         "description":"nature des équipements publics batis",
+         "example":"parking et stationnement en ouvrage|établissement de service public|équipement culturel",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern": "(?:(?:^|\\|)(parking et stationnement en ouvrage|équipement de transport en commun|établissement d'enseignement ou de recherche|établissement de santé|établissement de service public|équipement sportif|équipement culturel|équipement d’action sociale|équipement de culte|production d’énergie renouvelable|non renseigné|autre))+$"
+         }
+      },
+      {
+         "name":"surf_esp_public",
+         "title":"‍surface des espaces publics",
+         "description":"surface des espaces publics (m² terrain)",
+         "example":"20000",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"surf_esp_vert_public",
+         "title":"Surface des espaces verts publics",
+         "description":"(dont) espaces verts publics (m² terrain)",
+         "example":"10000",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_total",
+         "title":"nombre total de logements",
+         "description":"nombre total de logements de l’opération d’aménagement",
+         "example":"1700",
+         "type":"integer",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"nb_logt_individuel",
+         "title":"nombre de logements individuels",
+         "description":"nombre de logements individuels",
+         "example":"340",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_collectif",
+         "title":"nombre de logements collectifs",
+         "description":"nombre de logements collectifs",
+         "example":"1360",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_access_libre",
+         "title":"nombre de logements en accession libre",
+         "description":"nombre de logements en accession libre",
+         "example":"500",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_locatif_libre",
+         "title":"nombre de logements locatifs libres",
+         "description":"nombre de logements locatifs libres",
+         "example":"427",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_locatif_aide",
+         "title":"nombre de logements locatifs aidés",
+         "description":"nombre de logements locatifs aidés, financés par PLUS PLAI",
+         "example":"425",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_locatif_regul",
+         "title":"nombre de logements locatifs régulés",
+         "description":"nombre de logements locatifs régulés",
+         "example":"50",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_access_aide",
+         "title":"nombre de logements en accession aidée",
+         "description":"nombre de logements en accession aidée",
+         "example":"200",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_access_regul",
+         "title":"nombre de logements en accession régulée",
+         "description":"nombre de logements en accession régulée",
+         "example":"50",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_participatif",
+         "title":"nombre de logements participatifs",
+         "description":"nombre de logements participatifs",
+         "example":"8",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_specifique",
+         "title":"nombre de logements spécifiques",
+         "description":"nombre de logements spécifiques",
+         "example":"40",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"type_logt_specifique",
+         "title":"types de logements spécifiques",
+         "description":"types de logements spécifiques",
+         "example":"étudiants",
+         "type":"string",
+         "constraints":{
+            "required":false
+         },
+         "enum":[
+            "personnes en situation de handicap",
+            "jeunes actifs",
+            "étudiants",
+            "seniors",
+            "publics en insertion",
+            "gens du voyage",
+            "mixte",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"nb_logt_supprimes",
+         "title":"nombre de logements supprimés",
+         "description":"nombre de logements supprimés",
+         "example":"15",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_demolition",
+         "title":"nombre de bâtiments démolis",
+         "description":"nombre de bâtiments démolis",
+         "example":"5",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"nb_logt_construire",
+         "title":"nombre de logements restant à construire",
+         "description":"nombre de logements restant à construire (m² de surface de plancher)",
+         "example":"1500",
+         "type":"integer",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"annee_debut_travaux",
+         "title":"année de commencement des travaux",
+         "description":"année de commencement des travaux",
+         "example":"2022",
+         "type":"date",
+         "format":"%Y",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"annee_fin_travaux",
+         "title":"année d’achèvement des travaux",
+         "description":"année d’achèvement des travaux",
+         "example":"2036",
+         "type":"date",
+         "format":"%Y",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_reception",
+         "title":"date de réception et de mise en service",
+         "description":"date de réception et de mise en service",
+         "example":"2037-07-30",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_prev_livr_amngt",
+         "title":"date estimée de livraison aménagement",
+         "description":"date estimée de livraison aménagement",
+         "example":"2028-05-02",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_prev_livr_immo",
+         "title":"date estimée de livraison immobilière",
+         "description":"date estimée de livraison immobilière",
+         "example":"2038-06-30",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_achevement",
+         "title":"date d’achèvement",
+         "description":"date de l’acte pris par l’autorité compétente supprimant la ZAC",
+         "example":"2038-12-30",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_de_valeur",
+         "title":"millésime de l’exercice",
+         "description":"millésime de l’exercice",
+         "example":"2024",
+         "type":"date",
+         "format":"%Y",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"depense_total",
+         "title":"total des dépenses hors taxes",
+         "description":"total des dépenses hors taxes sur l’opération (kilo €)",
+         "example":20300,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"depense_foncier",
+         "title":"acquisitions foncières",
+         "description":"acquisitions foncières (kilo €)",
+         "example":5000,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"depense_etudes",
+         "title":"coût des études",
+         "description":"coût des études (kilo €)",
+         "example":1050,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"depense_travaux",
+         "title":"coût des travaux",
+         "description":"coût des travaux (kilo €)",
+         "example":9050,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"depense_contributions",
+         "title":"dépenses liées aux contributions et participation",
+         "description":"dépenses liées aux contributions et participation (kilo €)",
+         "example":1000,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"depense_frais_annexes",
+         "title":"dépenses liées aux frais annexes",
+         "description":"dépenses liées aux frais annexes (kilo €)",
+         "example":4200,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_total",
+         "title":"total des recettes hors taxes sur l’opération",
+         "description":"total des recettes hors taxes sur l’opération (kilo €)",
+         "example":20300,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_cessions",
+         "title":"recettes liées aux cessions, charges foncières",
+         "description":"recettes liées aux cessions, charges foncières (kilo €)",
+         "example":15000,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_loyers",
+         "title":"recettes liées aux loyers",
+         "description":"recettes liées aux loyers (kilo €)",
+         "example":0,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_contributions",
+         "title":"recettes liées aux contributions publiques",
+         "description":"recettes liées aux contributions publiques (pour les opérations d’initiative publique) (kilo €)",
+         "example":3000,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_subventions",
+         "title":"total des subventions",
+         "description":"total des subventions (kilo €)",
+         "example":2000,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_autres",
+         "title":"total des autres recettes",
+         "description":"toutes autres recettes (kilo €) : fonds d’investissement privés, produits bancaires, location de toiture pour production d’énergie solaire, etc",
+         "example":300,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"recette_fiscalite_locale",
+         "title":"recettes attendues en fiscalité locale",
+         "description":"recettes attendues sous forme de fiscalité locale (kilo €)",
+         "example":250,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"url_gpu",
+         "title":"url GPU",
+         "description":"url d’accès direct au géoportail de l’urbanisme. Sinon, renseigner par la mention : document d’urbanisme non publié",
+         "example":"https://www.geoportail-urbanisme.gouv.fr/map/#tile=1&zoom=14&mlon=2.201085&mlat=48.898525",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"url_reglement_urba",
+         "title":"url règlement d’urbanisme dans le GPU",
+         "description":"url d’accès direct au règlement d’urbanisme dans le GPU",
+         "example":"https://data.geopf.fr/annexes/gpu/documents/DU_92050/92050_reglement_20230627.pdf",
+         "type":"string",
+         "constraints":{
+            "required":true,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"urba_zone_lib",
+         "title":"libellé de la zone d’urbanisme",
+         "description":"libellé de la zone d’urbanisme",
+         "example":"Ubd",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"oap_de_quartier",
+         "title":"existence d’une OAP de quartier",
+         "description":"existence (oui / non) d’une OAP de quartier",
+         "example":"oui",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "oui",
+            "non"
+         ]
+      },
+      {
+         "name":"situation_initiale",
+         "title":"situation initiale du site",
+         "description":"situation initiale du site, préalablement à l’autorisation d’urbanisme",
+         "example":"friche",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "friche",
+            "espace naturel agricole ou forestier",
+            "renouvellement urbain",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"emprise_ini_friche",
+         "title":"emprise foncière initialement en friche",
+         "description":"Emprise foncière (ha) initialement en friche, si situation_initiale = friche",
+         "example":5.4,
+         "type":"number",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"url_cartofriches",
+         "title":"url Cartofriches",
+         "description":"url dans Cartofriches de l’ancienne friche, si situation_initiale = friche",
+         "example":"https://cartofriches.cerema.fr/cartofriches/_w_315f3ab4/?site=48095_11974",
+         "type":"string",
+         "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name":"durete_fonciere",
+         "title":"commentaire court sur la dureté foncière",
+         "description":"commentaire court sur l’éventuelle dureté foncière du site",
+         "example":"pas de dureté foncière particulière",
+         "type":"string",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"label",
+         "title":"label ou certification",
+         "description":"label ou certification pour une démarche environnementale",
+         "example":"Certification HQE Aménagement Durable|Label BBCA Quartier",
+         "type":"string",
+         "constraints":{
+            "required":true
+         },
+         "enum":[
+            "label EcoQuartier",
+            "label BBCA Quartier",
+            "label BiodiverCity",
+            "certification HQE Aménagement Durable",
+            "label Quartier Bâtiment Durable",
+            "aucun",
+            "non renseigné",
+            "autre"
+         ]
+      },
+      {
+         "name":"candidature_ami",
+         "title":"appel à manifestation d’intérêt",
+         "description":"appel à manifestation d’intérêt (sinon : « aucun »)",
+         "example":"territoire engagé pour le logement",
+         "type":"string",
+         "constraints":{
+            "required":true, 
+            "pattern": "(?:(?:^|\\|)(fonds friche|reconversion de friches industrielles issues de sites ICPE|recyclage foncier|transformation des zones commerciales|territoire engagé pour le logement|action cœur de ville|petite ville de demain|aucun|non renseigné|autre))+$"
+         }
+        
+      },
+      {
+         "name":"date_approbation_PLH",
+         "title":"date d’approbation du PLH",
+         "description":"date d’approbation de validité d’un éventuel PLH indiquant le nombre de logements conventionnés",
+         "example":"2019-08-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"date_fin_validite_PLH",
+         "title":"date de fin de validité dy PLH",
+         "description":"date de fin de validité d’un éventuel PLH indiquant le nombre de logements conventionnés",
+         "example":"2024-08-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
+         "name":"opam_identif_date",
+         "title":"date des premières données",
+         "description":"date des premières données sur l’opération d’aménagement",
+         "example":"2023-01-15",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"opam_actu_date",
+         "title":"date de dernière actualisation",
+         "description":"date de dernière actualisation des données sur l’opération d’aménagement",
+         "example":"2024-02-14",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"source_producteur",
+         "title":"nom du producteur des informations",
+         "description":"r nom du producteur de la donnée d’identification ou d’actualisation. Ex : EPA Bordeaux Euratlantique ; Région Ile-de-France ; DDT de la Sarthe",
+         "example":"DDT des Yvelines",
+         "type":"string",
+         "constraints":{
+            "required":true
+         }
+      }
+   ],
+   "missingValues":[
+      "",
+      "NA",
+      "NaN",
+      "N/A"
+   ],
+   "primaryKey":"opam_id"
+}

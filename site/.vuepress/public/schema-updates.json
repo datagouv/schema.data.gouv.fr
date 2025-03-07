@@ -914,5 +914,37 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/331"
             }
         ]
+    },
+    "2025-03-07": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.20.0 => 0.21.0"
+            }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "cnigfr/schema-operations-amenagement",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/operation-amenagement",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/secteur",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/programme",
+                "version": "1.0.0"
+            }
+        ],
+        "construction": [
+            {
+                "title": "Standard CNIG Op\u00e9rations d'am\u00e9nagement",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
+            }
+        ]
     }
 }

@@ -2079,9 +2079,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/gip-inclusion/data-inclusion-schema/0.20.0/schemas/service.json"
+            },
+            "0.21.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/gip-inclusion/data-inclusion-schema/0.21.0/schemas/service.json"
             }
         },
-        "latest": "0.20.0"
+        "latest": "0.21.0"
     },
     "cnigfr/schema-friches": {
         "homepage": "https://github.com/cnigfr/schema-friches.git",
@@ -2698,6 +2706,104 @@
         ],
         "consolidation_dataset_id": null,
         "latest": "1.0.1"
+    },
+    "cnigfr/schema-operations-amenagement": {
+        "homepage": "https://github.com/cnigfr/schema-operations-amenagement.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "datapackage",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/cnigfr/schema-operations-amenagement/1.0.0/datapackage.json"
+            }
+        },
+        "schemas": [
+            "cnigfr/operation-amenagement",
+            "cnigfr/secteur",
+            "cnigfr/programme"
+        ],
+        "latest": "1.0.0"
+    },
+    "cnigfr/operation-amenagement": {
+        "homepage": "https://github.com/cnigfr/schema-operations-amenagement.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/operation-amenagement/1.0.0/schema_operation-amenagement.json"
+            }
+        },
+        "datapackage": "Operation am\u00e9nagement",
+        "datapackage_id": "datapackage-operation-amenagement",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/secteur": {
+        "homepage": "https://github.com/cnigfr/schema-operations-amenagement.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/secteur/1.0.0/schema_secteur.json"
+            }
+        },
+        "datapackage": "Operation am\u00e9nagement",
+        "datapackage_id": "datapackage-operation-amenagement",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/programme": {
+        "homepage": "https://github.com/cnigfr/schema-operations-amenagement.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/programme/1.0.0/schema_programme.json"
+            }
+        },
+        "datapackage": "Operation am\u00e9nagement",
+        "datapackage_id": "datapackage-operation-amenagement",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
     },
     "CEREMA/schema-aire-livraison": {
         "homepage": "https://github.com/CEREMA/schema-aire-livraison.git",
