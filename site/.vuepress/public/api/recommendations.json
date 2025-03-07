@@ -1,14 +1,5 @@
 [
   {
-    "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation-1",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation",
     "recommendations": [
       {
@@ -1566,6 +1557,15 @@
     ]
   },
   {
+    "id": "zones-de-preemption-espaces-naturels-sensibles-zpens-du-departement-de-la-charente",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-statique-sts26",
     "recommendations": [
       {
@@ -2197,15 +2197,6 @@
   },
   {
     "id": "bornevo-technique-auto-drancy",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructure-de-recharge-pour-vehicule-electrique-en-isere",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
