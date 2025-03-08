@@ -22,10 +22,22 @@ atlasante/schema-dae:
   consolidate: false
   search_words:
   - DAE
+cnigfr/operation-amenagement:
+  consolidate: false
+  search_words:
+  - "Classe OPERATION-AMENAGEMENT du standard CNIG Op\xE9rations d'am\xE9nagement"
+cnigfr/programme:
+  consolidate: false
+  search_words:
+  - "Classe PROGRAMME du standard CNIG Op\xE9rations d'am\xE9nagement"
 cnigfr/schema-friches:
   consolidate: false
   search_words:
   - Standard CNIG Friches
+cnigfr/secteur:
+  consolidate: false
+  search_words:
+  - "Classe SECTEUR du standard CNIG Op\xE9rations d'am\xE9nagement"
 cnigfr/sites-economiques-etablissement:
   consolidate: false
   search_words:
@@ -55,9 +67,15 @@ etalab/indice-durabilite-lave-linge:
   search_words:
   - Lave-linge
 etalab/indice-durabilite-televiseur:
-  consolidate: false
-  search_words:
-  - "T\xE9l\xE9viseur"
+  consolidate: true
+  consolidated_dataset_id: 677ce460c58a7cc3d7ea9708
+  documentation_resource_id: 69440bd0-d506-4d47-96f6-1be9a38f2e6e
+  drop_versions:
+  - 0.1.0
+  latest_resource_ids:
+    0.1.1: 6acc87e2-4438-4ced-a4e0-738c55593faf
+    latest: 3df7e799-cba8-4f74-b33c-6d9db9b6361e
+  publication: true
 etalab/schema-comptage-mobilites-channel:
   consolidate: false
   search_words:
@@ -97,9 +115,9 @@ etalab/schema-indice-reparabilite:
   latest_resource_ids:
     0.1.2: 60be0572-1ba9-4cad-95e0-bfb32fd20d70
     latest: b0fddb1d-7032-4e30-a055-9d923e94ce59
+  publication: true
   search_words:
   - "r\xE9parabilit\xE9"
-  publication: true
 etalab/schema-irve-dynamique:
   consolidate: false
   publication: false
@@ -162,7 +180,7 @@ etalab/schema-vehicules-faibles-emissions-renouvellement-parc:
     latest: 8de41e64-2ed5-4982-9e42-cf2721a2761c
   publication: true
   search_words:
-  - "faible emission"
+  - faible emission
   - LOM
 etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese:
   consolidate: false
@@ -199,13 +217,3 @@ scdl/prenoms:
 scdl/subventions:
   consolidate: false
   publication: false
-etalab/indice-durabilite-televiseur:
-  consolidate: true
-  consolidated_dataset_id: 677ce460c58a7cc3d7ea9708
-  documentation_resource_id: 69440bd0-d506-4d47-96f6-1be9a38f2e6e
-  drop_versions:
-  - 0.1.0
-  latest_resource_ids:
-    0.1.1: 6acc87e2-4438-4ced-a4e0-738c55593faf
-    latest: 3df7e799-cba8-4f74-b33c-6d9db9b6361e
-  publication: true
