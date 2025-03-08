@@ -1557,6 +1557,15 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-aldi",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "zones-de-preemption-espaces-naturels-sensibles-zpens-du-departement-de-la-charente",
     "recommendations": [
       {
@@ -1594,15 +1603,6 @@
   },
   {
     "id": "hainaut-services-automobiles-feignies",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "donnees-schema-irve-statique-e-motum-sas-20250225-csv",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
