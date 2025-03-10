@@ -3,6 +3,92 @@
     "version": 1,
     "schemas": [
         {
+            "name": "etalab/schema-irve-statique",
+            "title": "IRVE statique",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier IRVE valide",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/statique/exemple-valide-statique.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.1/schema-statique.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.3.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.3.1/schema-statique.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/latest/schema-statique.json",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "datapackage_name": "etalab/schema-irve",
+            "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
+        },
+        {
+            "name": "etalab/schema-irve-dynamique",
+            "title": "IRVE dynamique",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier IRVE valide",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/dynamique/exemple-valide-dynamique.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.1/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.3.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.3.1/schema-dynamique.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/latest/schema-dynamique.json",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "datapackage_name": "etalab/schema-irve",
+            "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
+        },
+        {
             "name": "etalab/schema-irve",
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique",
@@ -36,6 +122,293 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-irve.git"
+        },
+        {
+            "name": "scdl/catalogue",
+            "title": "Catalogue simplifi\u00e9",
+            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif au catalogue des jeux de donn\u00e9es publi\u00e9s en open data par une collectivit\u00e9",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.1/schema.json"
+                },
+                {
+                    "version_name": "0.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.2/schema.json"
+                },
+                {
+                    "version_name": "0.1.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.3/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/catalogue.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/latest/schema.json"
+        },
+        {
+            "name": "scdl/deliberations",
+            "title": "D\u00e9lib\u00e9rations",
+            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux d\u00e9lib\u00e9rations adopt\u00e9es par une collectivit\u00e9 locale",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [
+                {
+                    "title": "Exemple de fichier d\u00e9lib\u00e9rations valide",
+                    "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_ok.csv"
+                },
+                {
+                    "title": "Exemple de fichier d\u00e9lib\u00e9rations invalide",
+                    "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_coll_siret_ko.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/1.1.0/schema.json"
+                },
+                {
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.0.0/schema.json"
+                },
+                {
+                    "version_name": "2.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.0/schema.json"
+                },
+                {
+                    "version_name": "2.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.1/schema.json"
+                },
+                {
+                    "version_name": "2.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.2/schema.json"
+                },
+                {
+                    "version_name": "2.1.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.3/schema.json"
+                },
+                {
+                    "version_name": "2.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.4/schema.json"
+                },
+                {
+                    "version_name": "2.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.5/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/deliberations.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/latest/schema.json"
+        },
+        {
+            "name": "scdl/equipements",
+            "title": "\u00c9quipements",
+            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux \u00e9quipements collectifs publics d'une collectivit\u00e9",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.2/schema.json"
+                },
+                {
+                    "version_name": "0.1.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.3/schema.json"
+                },
+                {
+                    "version_name": "0.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.4/schema.json"
+                },
+                {
+                    "version_name": "0.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.5/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/equipements.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/latest/schema.json"
+        },
+        {
+            "name": "scdl/subventions",
+            "title": "Subventions",
+            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux subventions attribu\u00e9es par une collectivit\u00e9",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [
+                {
+                    "title": "Exemple de fichier subventions valide",
+                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_valide.csv"
+                },
+                {
+                    "title": "Exemple de fichier subventions invalide (erreurs cellules)",
+                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_cellules.csv"
+                },
+                {
+                    "title": "Exemple de fichier subventions invalide (erreurs colonnes)",
+                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_colonnes.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/1.1.0/schema.json"
+                },
+                {
+                    "version_name": "2.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.0/schema.json"
+                },
+                {
+                    "version_name": "2.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.1/schema.json"
+                },
+                {
+                    "version_name": "2.0.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.0.2/schema.json"
+                },
+                {
+                    "version_name": "2.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.1.0/schema.json"
+                },
+                {
+                    "version_name": "2.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.1.1/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/subventions.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json"
+        },
+        {
+            "name": "scdl/budget",
+            "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
+            "description": "Les donn\u00e9es essentielles du budget permettent de d\u00e9crire le contenu des \u00e9tapes budg\u00e9taires des collectivit\u00e9s locales et des \u00e9tablissements publics. Il permet de pr\u00e9ciser les cat\u00e9gories de montants financiers ainsi que le d\u00e9coupage de ces sommes en fonction du type de pr\u00e9sentation utilis\u00e9 (par nature ou par fonction). Ce sch\u00e9ma d\u00e9crit le d\u00e9tail de chaque champ et le cas \u00e9ch\u00e9ant les r\u00e8gles de validit\u00e9 associ\u00e9es.",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [
+                {
+                    "title": "Exemple de fichier budget valide",
+                    "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.3/examples/budget_valide.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.8.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/0.8.1/schema.json"
+                },
+                {
+                    "version_name": "0.8.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/0.8.2/schema.json"
+                },
+                {
+                    "version_name": "0.8.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/0.8.3/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/budget.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/latest/schema.json"
+        },
+        {
+            "name": "atlasante/schema-dae",
+            "title": "DAE",
+            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux DAE",
+            "schema_type": "tableschema",
+            "contact": "contact@geodae.sante.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier DAE avec des donn\u00e9es invalides",
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_invalide.csv"
+                },
+                {
+                    "title": "Exemple de fichier DAE avec une structure invalide",
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_invalide_structure.csv"
+                },
+                {
+                    "title": "Exemple de fichier DAE toutes les donn\u00e9es invalides",
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_invalide_complet.csv"
+                },
+                {
+                    "title": "Exemple de fichier DAE valide",
+                    "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_valide.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.7",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/1.0.7/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/arsante/atlasante/schema-dae.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/latest/schema.json"
+        },
+        {
+            "name": "scdl/prenoms",
+            "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
+            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux pr\u00e9noms des nouveaux-n\u00e9s d\u00e9clar\u00e9s \u00e0 l\u2019\u00e9tat-civil",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [
+                {
+                    "title": "Exemple de fichier des pr\u00e9noms valide",
+                    "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-valide.csv"
+                },
+                {
+                    "title": "Exemple de fichier des pr\u00e9noms invalide",
+                    "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/1.1.5/schema.json"
+                },
+                {
+                    "version_name": "1.1.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/1.1.6/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/prenoms.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/latest/schema.json"
         },
         {
             "name": "etalab/schema-amenagements-cyclables",
@@ -129,6 +502,128 @@
             "external_tool": "https://mes-adresses.data.gouv.fr/new",
             "homepage": "https://github.com/etalab/schema-bal",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-bal/latest/schema.yml"
+        },
+        {
+            "name": "scdl/menus-collectifs",
+            "title": "Menus de la restauration collective",
+            "description": "Sch\u00e9ma permettant de d\u00e9crire les menus des repas propos\u00e9s par les collectivit\u00e9s locales, les \u00e9tablissements publics et priv\u00e9s. Il permet de pr\u00e9ciser les modalit\u00e9s de distribution et le contenu des menus propos\u00e9s (les plats). Le choix a \u00e9t\u00e9 fait de d\u00e9tailler chaque plat sur une ligne. Pour d\u00e9crire un menu il faut donc r\u00e9p\u00e9ter certaines informations plusieurs fois (voir exemple).",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [
+                {
+                    "title": "Exemple de fichier de menus valide en csv",
+                    "path": "https://gitlab.com/opendatafrance/scdl/menus-collectifs/-/raw/v1.2.3/examples/menus-collectifs_valide.csv"
+                },
+                {
+                    "title": "Exemple de fichier de menus valide en Office Open XML",
+                    "path": "https://gitlab.com/opendatafrance/scdl/menus-collectifs/-/raw/v1.2.3/examples/menus-collectifs_valide.xlsx"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.2.0/schema.json"
+                },
+                {
+                    "version_name": "0.4.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.4.0/schema.json"
+                },
+                {
+                    "version_name": "0.5.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.5.0/schema.json"
+                },
+                {
+                    "version_name": "0.6.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.6.0/schema.json"
+                },
+                {
+                    "version_name": "0.7.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.7.0/schema.json"
+                },
+                {
+                    "version_name": "0.9.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/0.9.0/schema.json"
+                },
+                {
+                    "version_name": "1.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.0/schema.json"
+                },
+                {
+                    "version_name": "1.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.1/schema.json"
+                },
+                {
+                    "version_name": "1.2.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.2/schema.json"
+                },
+                {
+                    "version_name": "1.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.3/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/menus-collectifs.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/latest/schema.json"
+        },
+        {
+            "name": "scdl/plats-menus-collectifs",
+            "title": "Composition des plats des menus de la restauration collective",
+            "description": "Description des plats propos\u00e9s par des collectivit\u00e9s locales, des \u00e9tablissements publics et des entreprises dans le cadre de l'offre de restauration collective. Il permet de pr\u00e9ciser les modalit\u00e9s de fabrication des plats et de d\u00e9tailler les produits qui les composent. Ce sch\u00e9ma d\u00e9crit le d\u00e9tail de chaque champ et le cas \u00e9ch\u00e9ant les r\u00e8gles de validit\u00e9 associ\u00e9es. Il peut \u00eatre utilis\u00e9 ind\u00e9pendamment ou en compl\u00e9ment du le sch\u00e9ma sur les menus collectifs qui d\u00e9crit la composition en plats.",
+            "schema_type": "tableschema",
+            "contact": "scdl@opendatafrance.email",
+            "examples": [
+                {
+                    "title": "Exemple de fichier de menus valide en csv",
+                    "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.csv"
+                },
+                {
+                    "title": "Exemple de fichier de menus valide en OOXML",
+                    "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.xlsx"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.2.0/schema.json"
+                },
+                {
+                    "version_name": "0.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.3.0/schema.json"
+                },
+                {
+                    "version_name": "0.4.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.4.0/schema.json"
+                },
+                {
+                    "version_name": "0.7.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.0/schema.json"
+                },
+                {
+                    "version_name": "0.7.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.1/schema.json"
+                },
+                {
+                    "version_name": "0.7.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.2/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/latest/schema.json"
         }
     ]
 }

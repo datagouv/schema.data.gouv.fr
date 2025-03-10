@@ -3,6 +3,92 @@
     "version": 1,
     "schemas": [
         {
+            "name": "etalab/schema-irve-statique",
+            "title": "IRVE statique",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier IRVE valide",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/statique/exemple-valide-statique.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.1/schema-statique.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.3.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.3.1/schema-statique.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/latest/schema-statique.json",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "datapackage_name": "etalab/schema-irve",
+            "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
+        },
+        {
+            "name": "etalab/schema-irve-dynamique",
+            "title": "IRVE dynamique",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier IRVE valide",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/dynamique/exemple-valide-dynamique.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.1/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.3.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.3.1/schema-dynamique.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/latest/schema-dynamique.json",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "datapackage_name": "etalab/schema-irve",
+            "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
+        },
+        {
             "name": "etalab/schema-irve",
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique",
@@ -36,6 +122,133 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-irve.git"
+        },
+        {
+            "name": "etalab/schema-lieux-covoiturage",
+            "title": "Lieux de covoiturage",
+            "description": "Sp\u00e9cification des lieux permettant le covoiturage",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide",
+                    "name": "exemple-valide",
+                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5d6eaffc8b4c417cdc452ac3",
+            "versions": [
+                {
+                    "version_name": "0.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.0.1/schema.json"
+                },
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "0.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.1/schema.json"
+                },
+                {
+                    "version_name": "0.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.2/schema.json"
+                },
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json"
+                },
+                {
+                    "version_name": "0.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.1/schema.json"
+                },
+                {
+                    "version_name": "0.2.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.2/schema.json"
+                },
+                {
+                    "version_name": "0.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.3/schema.json"
+                },
+                {
+                    "version_name": "0.2.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.4/schema.json"
+                },
+                {
+                    "version_name": "0.2.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.5/schema.json"
+                },
+                {
+                    "version_name": "0.2.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.6/schema.json"
+                },
+                {
+                    "version_name": "0.2.7",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.7/schema.json"
+                },
+                {
+                    "version_name": "0.2.8",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.8/schema.json"
+                },
+                {
+                    "version_name": "0.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.3.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": "https://contribuer.transport.data.gouv.fr",
+            "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json"
+        },
+        {
+            "name": "etalab/schema-stationnement",
+            "title": "Lieux de stationnement",
+            "description": "Sp\u00e9cification des lieux permettant le stationnement en parc",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource valide (XLSX)",
+                    "name": "exemple-valide-xlsx",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-valide.xlsx"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
+            "versions": [
+                {
+                    "version_name": "0.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.4/schema.json"
+                },
+                {
+                    "version_name": "0.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/0.1.5/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-stationnement.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json"
         },
         {
             "name": "etalab/schema-amenagements-cyclables",
@@ -101,6 +314,55 @@
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/latest/schema_amenagements_cyclables.json"
         },
         {
+            "name": "etalab/schema-stationnement-cyclable",
+            "title": "Stationnement cyclable",
+            "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de stationnement cycable.",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Ressource valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1.1/exemple-valide.csv"
+                },
+                {
+                    "title": "Ressource invalide",
+                    "name": "exemple-invalide",
+                    "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1.1/exemple-invalide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.0/schema.json"
+                },
+                {
+                    "version_name": "0.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/0.2.1/schema.json"
+                },
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.0.0/schema.json"
+                },
+                {
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.1.0/schema.json"
+                },
+                {
+                    "version_name": "1.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/1.1.1/schema.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-stationnement-cyclable",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/latest/schema.json"
+        },
+        {
             "name": "etalab/schema-zfe",
             "title": "Zone \u00e0 Faibles Emissions",
             "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es des Zones \u00e0 Faibles Emissions",
@@ -141,6 +403,154 @@
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-zfe",
             "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-zfe/latest/schema.json"
+        },
+        {
+            "name": "etalab/schema-passage-a-niveau",
+            "title": "Sch\u00e9ma pour les passages \u00e0 niveau",
+            "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de passages \u00e0 niveau.",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/etalab/schema-passage-a-niveau/raw/v0.1.0/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-passage-a-niveau/0.1.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-passage-a-niveau",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-passage-a-niveau/latest/schema.json"
+        },
+        {
+            "name": "etalab/schema-comptage-mobilites-site",
+            "title": "Comptage des mobilit\u00e9s (Site)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/site/exemple-valide.csv"
+                },
+                {
+                    "title": "Deuxi\u00e8me fichier valide (CSV)",
+                    "name": "exemple-valide-eco-compteur.csv",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/site/exemple-valide-eco-compteur.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/0.2.3/schema.json"
+                },
+                {
+                    "version_name": "0.2.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/0.2.4/schema.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-comptage-mobilites",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/latest/schema.json",
+            "datapackage_title": "Comptage des mobilit\u00e9s",
+            "datapackage_name": "etalab/schema-comptage-mobilites",
+            "datapackage_description": "Data package contenant 3 sch\u00e9mas : site, channel, measure"
+        },
+        {
+            "name": "etalab/schema-comptage-mobilites-channel",
+            "title": "Comptage des mobilit\u00e9s (Channel)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide.csv"
+                },
+                {
+                    "title": "Deuxi\u00e8me fichier valide (CSV)",
+                    "name": "exemple-valide-eco-compteur.csv",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide-eco-compteur.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/0.2.3/schema.json"
+                },
+                {
+                    "version_name": "0.2.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/0.2.4/schema.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-comptage-mobilites",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/latest/schema.json",
+            "datapackage_title": "Comptage des mobilit\u00e9s",
+            "datapackage_name": "etalab/schema-comptage-mobilites",
+            "datapackage_description": "Data package contenant 3 sch\u00e9mas : site, channel, measure"
+        },
+        {
+            "name": "etalab/schema-comptage-mobilites-measure",
+            "title": "Comptage des mobilit\u00e9s (Measure)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/measure/exemple-valide.csv"
+                },
+                {
+                    "title": "Deuxi\u00e8me fichier valide (CSV)",
+                    "name": "exemple-valide-eco-compteur.csv",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/measure/exemple-valide-eco-compteur.csv"
+                }
+            ],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/0.2.3/schema.json"
+                },
+                {
+                    "version_name": "0.2.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/0.2.4/schema.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-comptage-mobilites",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/latest/schema.json",
+            "datapackage_title": "Comptage des mobilit\u00e9s",
+            "datapackage_name": "etalab/schema-comptage-mobilites",
+            "datapackage_description": "Data package contenant 3 sch\u00e9mas : site, channel, measure"
         },
         {
             "name": "etalab/schema-comptage-mobilites",
