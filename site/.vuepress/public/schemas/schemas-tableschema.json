@@ -6,7 +6,6 @@
             "name": "etalab/schema-irve-statique",
             "title": "IRVE statique",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/latest/schema-statique.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -15,10 +14,7 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/statique/exemple-valide-statique.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales",
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
             "versions": [
                 {
@@ -41,6 +37,7 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/latest/schema-statique.json",
             "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "datapackage_name": "etalab/schema-irve",
             "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
@@ -49,7 +46,6 @@
             "name": "etalab/schema-irve-dynamique",
             "title": "IRVE dynamique",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/latest/schema-dynamique.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -58,10 +54,7 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/dynamique/exemple-valide-dynamique.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales",
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
             "versions": [
                 {
@@ -84,6 +77,7 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/latest/schema-dynamique.json",
             "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "datapackage_name": "etalab/schema-irve",
             "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
@@ -92,7 +86,6 @@
             "name": "etalab/schema-decp-dpa",
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
             "description": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [],
@@ -106,19 +99,17 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-decp-dpa.git"
+            "homepage": "https://github.com/etalab/schema-decp-dpa.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-decp-dpa/latest/schema.json"
         },
         {
             "name": "scdl/catalogue",
             "title": "Catalogue simplifi\u00e9",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif au catalogue des jeux de donn\u00e9es publi\u00e9s en open data par une collectivit\u00e9",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -136,13 +127,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/catalogue.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/catalogue.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/latest/schema.json"
         },
         {
             "name": "scdl/deliberations",
             "title": "D\u00e9lib\u00e9rations",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux d\u00e9lib\u00e9rations adopt\u00e9es par une collectivit\u00e9 locale",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [
@@ -155,9 +146,7 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_coll_siret_ko.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -195,19 +184,17 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/deliberations.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/deliberations.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/latest/schema.json"
         },
         {
             "name": "scdl/equipements",
             "title": "\u00c9quipements",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux \u00e9quipements collectifs publics d'une collectivit\u00e9",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -229,13 +216,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/equipements.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/equipements.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/latest/schema.json"
         },
         {
             "name": "scdl/subventions",
             "title": "Subventions",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux subventions attribu\u00e9es par une collectivit\u00e9",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [
@@ -252,9 +239,7 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_colonnes.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -284,13 +269,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/subventions.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/subventions.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json"
         },
         {
             "name": "etalab/schema-lieux-covoiturage",
             "title": "Lieux de covoiturage",
             "description": "Sp\u00e9cification des lieux permettant le covoiturage",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -305,9 +290,7 @@
                     "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": "5d6eaffc8b4c417cdc452ac3",
             "versions": [
                 {
@@ -369,13 +352,13 @@
             ],
             "external_doc": null,
             "external_tool": "https://contribuer.transport.data.gouv.fr",
-            "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git"
+            "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json"
         },
         {
             "name": "etalab/schema-stationnement",
             "title": "Lieux de stationnement",
             "description": "Sp\u00e9cification des lieux permettant le stationnement en parc",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -395,9 +378,7 @@
                     "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
             "versions": [
                 {
@@ -411,13 +392,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-stationnement.git"
+            "homepage": "https://github.com/etalab/schema-stationnement.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement/latest/schema.json"
         },
         {
             "name": "scdl/budget",
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "description": "Les donn\u00e9es essentielles du budget permettent de d\u00e9crire le contenu des \u00e9tapes budg\u00e9taires des collectivit\u00e9s locales et des \u00e9tablissements publics. Il permet de pr\u00e9ciser les cat\u00e9gories de montants financiers ainsi que le d\u00e9coupage de ces sommes en fonction du type de pr\u00e9sentation utilis\u00e9 (par nature ou par fonction). Ce sch\u00e9ma d\u00e9crit le d\u00e9tail de chaque champ et le cas \u00e9ch\u00e9ant les r\u00e8gles de validit\u00e9 associ\u00e9es.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [
@@ -426,9 +407,7 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.3/examples/budget_valide.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -446,13 +425,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/budget.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/budget.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/latest/schema.json"
         },
         {
             "name": "atlasante/schema-dae",
             "title": "DAE",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux DAE",
-            "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@geodae.sante.gouv.fr",
             "examples": [
@@ -473,9 +452,7 @@
                     "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_valide.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -485,13 +462,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/arsante/atlasante/schema-dae.git"
+            "homepage": "https://gitlab.com/arsante/atlasante/schema-dae.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/latest/schema.json"
         },
         {
             "name": "scdl/prenoms",
             "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux pr\u00e9noms des nouveaux-n\u00e9s d\u00e9clar\u00e9s \u00e0 l\u2019\u00e9tat-civil",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [
@@ -504,9 +481,7 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -520,13 +495,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/prenoms.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/prenoms.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/latest/schema.json"
         },
         {
             "name": "etalab/schema-stationnement-cyclable",
             "title": "Stationnement cyclable",
             "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de stationnement cycable.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -541,9 +516,7 @@
                     "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1.1/exemple-invalide.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -569,13 +542,13 @@
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/documentation-sur-le-stationnement-cyclable",
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-stationnement-cyclable"
+            "homepage": "https://github.com/etalab/schema-stationnement-cyclable",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-stationnement-cyclable/latest/schema.json"
         },
         {
             "name": "LaMednum/standard-mediation-num",
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "description": "Sp\u00e9cification du standard national des lieux de m\u00e9diation num\u00e9rique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/LaMednum/standard-mediation-num/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@lamednum.coop",
             "examples": [
@@ -607,13 +580,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/LaMednum/standard-mediation-num.git"
+            "homepage": "https://github.com/LaMednum/standard-mediation-num.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/LaMednum/standard-mediation-num/latest/schema.json"
         },
         {
             "name": "etalab/schema-hautes-remunerations",
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
             "description": "Sp\u00e9cification du fichier de d\u00e9claration des dix r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es des agents publiques",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-hautes-remunerations/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [],
@@ -627,13 +600,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-hautes-remunerations"
+            "homepage": "https://github.com/etalab/schema-hautes-remunerations",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-hautes-remunerations/latest/schema.json"
         },
         {
             "name": "scdl/menus-collectifs",
             "title": "Menus de la restauration collective",
             "description": "Sch\u00e9ma permettant de d\u00e9crire les menus des repas propos\u00e9s par les collectivit\u00e9s locales, les \u00e9tablissements publics et priv\u00e9s. Il permet de pr\u00e9ciser les modalit\u00e9s de distribution et le contenu des menus propos\u00e9s (les plats). Le choix a \u00e9t\u00e9 fait de d\u00e9tailler chaque plat sur une ligne. Pour d\u00e9crire un menu il faut donc r\u00e9p\u00e9ter certaines informations plusieurs fois (voir exemple).",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [
@@ -646,9 +619,7 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/menus-collectifs/-/raw/v1.2.3/examples/menus-collectifs_valide.xlsx"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -698,13 +669,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/menus-collectifs.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/menus-collectifs.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/latest/schema.json"
         },
         {
             "name": "scdl/plats-menus-collectifs",
             "title": "Composition des plats des menus de la restauration collective",
             "description": "Description des plats propos\u00e9s par des collectivit\u00e9s locales, des \u00e9tablissements publics et des entreprises dans le cadre de l'offre de restauration collective. Il permet de pr\u00e9ciser les modalit\u00e9s de fabrication des plats et de d\u00e9tailler les produits qui les composent. Ce sch\u00e9ma d\u00e9crit le d\u00e9tail de chaque champ et le cas \u00e9ch\u00e9ant les r\u00e8gles de validit\u00e9 associ\u00e9es. Il peut \u00eatre utilis\u00e9 ind\u00e9pendamment ou en compl\u00e9ment du le sch\u00e9ma sur les menus collectifs qui d\u00e9crit la composition en plats.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [
@@ -717,9 +688,7 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.xlsx"
                 }
             ],
-            "labels": [
-                "Socle Commun des Donn\u00e9es Locales"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -749,13 +718,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs.git"
+            "homepage": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/latest/schema.json"
         },
         {
             "name": "MTES-MCT/acceslibre-schema",
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
-            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "acceslibre@beta.gouv.fr",
             "examples": [
@@ -796,13 +765,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git"
+            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/latest/schema.json"
         },
         {
             "name": "etalab/schema-sdirve",
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-sdirve/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -822,13 +791,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-sdirve.git"
+            "homepage": "https://github.com/etalab/schema-sdirve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-sdirve/latest/schema.json"
         },
         {
             "name": "Archivistes75/registre_entrees",
             "title": "Registre d'entr\u00e9e d'archives",
             "description": "Sp\u00e9cification du standard national des registres d'entr\u00e9e d'archives",
-            "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "hello@datactivist.coop",
             "examples": [],
@@ -842,13 +811,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/Archivistes75/registre_entrees.git"
+            "homepage": "https://github.com/Archivistes75/registre_entrees.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/latest/schema.json"
         },
         {
             "name": "CEREMA/schema-arrete-circulation-marchandises",
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises g\u00e9r\u00e9s par les collectivit\u00e9s.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "data-med@cerema.fr",
             "examples": [
@@ -942,13 +911,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/CEREMA/schema-arrete-circulation-marchandises.git"
+            "homepage": "https://github.com/CEREMA/schema-arrete-circulation-marchandises.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-arrete-circulation-marchandises/latest/schema.json"
         },
         {
             "name": "openmaraude/schema-stationstaxi",
             "title": "Stations de taxi",
             "description": "Sp\u00e9cification des stations de taxi \u00e0 usage public",
-            "schema_url": "https://schema.data.gouv.fr/schemas/openmaraude/schema-stationstaxi/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "tech@le.taxi",
             "examples": [
@@ -976,13 +945,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/openmaraude/schema-stationstaxi.git"
+            "homepage": "https://github.com/openmaraude/schema-stationstaxi.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/openmaraude/schema-stationstaxi/latest/schema.json"
         },
         {
             "name": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc",
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "description": "Sp\u00e9cification des donn\u00e9es fixant les termes et modalit\u00e9s de publication du pourcentage de v\u00e9hicules \u00e0 faibles et \u00e0 tr\u00e8s faibles \u00e9missions parmi les v\u00e9hicules int\u00e9gr\u00e9s dans un renouvellement de parc",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -1014,13 +983,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc.git"
+            "homepage": "https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc/latest/schema.json"
         },
         {
             "name": "datakode/schema-pei",
             "title": "Point d'Eau Incendie (PEI)",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux PEI",
-            "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "portier@datakode.fr",
             "examples": [
@@ -1039,13 +1008,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://gitlab.com/datakode/schema-pei.git"
+            "homepage": "https://gitlab.com/datakode/schema-pei.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/latest/schema.json"
         },
         {
             "name": "etalab/schema-passage-a-niveau",
             "title": "Sch\u00e9ma pour les passages \u00e0 niveau",
             "description": "Sp\u00e9cification du fichier d\u00e9crivant les emplacements de passages \u00e0 niveau.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-passage-a-niveau/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -1055,9 +1024,7 @@
                     "path": "https://github.com/etalab/schema-passage-a-niveau/raw/v0.1.0/exemple-valide.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1067,13 +1034,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-passage-a-niveau"
+            "homepage": "https://github.com/etalab/schema-passage-a-niveau",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-passage-a-niveau/latest/schema.json"
         },
         {
             "name": "etalab/schema-comptage-mobilites-site",
             "title": "Comptage des mobilit\u00e9s (Site)",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -1088,9 +1055,7 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/site/exemple-valide-eco-compteur.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1105,6 +1070,7 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-comptage-mobilites",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/latest/schema.json",
             "datapackage_title": "Comptage des mobilit\u00e9s",
             "datapackage_name": "etalab/schema-comptage-mobilites",
             "datapackage_description": "Data package contenant 3 sch\u00e9mas : site, channel, measure"
@@ -1113,7 +1079,6 @@
             "name": "etalab/schema-comptage-mobilites-channel",
             "title": "Comptage des mobilit\u00e9s (Channel)",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -1128,9 +1093,7 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide-eco-compteur.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1145,6 +1108,7 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-comptage-mobilites",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/latest/schema.json",
             "datapackage_title": "Comptage des mobilit\u00e9s",
             "datapackage_name": "etalab/schema-comptage-mobilites",
             "datapackage_description": "Data package contenant 3 sch\u00e9mas : site, channel, measure"
@@ -1153,7 +1117,6 @@
             "name": "etalab/schema-comptage-mobilites-measure",
             "title": "Comptage des mobilit\u00e9s (Measure)",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux comptages des mobilit\u00e9s.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "contact@transport.data.gouv.fr",
             "examples": [
@@ -1168,9 +1131,7 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/measure/exemple-valide-eco-compteur.csv"
                 }
             ],
-            "labels": [
-                "transport.data.gouv.fr"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1185,6 +1146,7 @@
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-comptage-mobilites",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/latest/schema.json",
             "datapackage_title": "Comptage des mobilit\u00e9s",
             "datapackage_name": "etalab/schema-comptage-mobilites",
             "datapackage_description": "Data package contenant 3 sch\u00e9mas : site, channel, measure"
@@ -1193,7 +1155,6 @@
             "name": "etalab/schema-dispositif-aide",
             "title": "Dispositifs d'aides",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux dispositifs d'aides.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-dispositif-aide/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "aides-territoires@beta.gouv.fr",
             "examples": [
@@ -1217,13 +1178,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-dispositif-aide.git"
+            "homepage": "https://github.com/etalab/schema-dispositif-aide.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-dispositif-aide/latest/schema.json"
         },
         {
             "name": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese",
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "description": "Sp\u00e9cification du fichier d\u2019\u00e9change relatif aux parts de v\u00e9hicules \u00e0 faibles \u00e9missions dans les parcs de v\u00e9hicules des entreprises de location, location-vente et cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraison, des centrales de r\u00e9servation de taxi et de VTC. Certaines donn\u00e9es demand\u00e9es n\u00e9cessitent des champs qui doivent \u00eatre transmis aux services de l'administration comp\u00e9tents, mais dont la publication sur data.gouv.fr n'est pas obligatoire.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -1247,13 +1208,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git"
+            "homepage": "https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese/latest/schema.json"
         },
         {
             "name": "cnigfr/schema-friches",
             "title": "Standard CNIG Friches",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Friches relatif aux friches urbanis\u00e9es. Une friche \"urbanis\u00e9e\" a connu une activit\u00e9 \u00e9conomique (industrielle, artisanale, logistique, commerciale, de loisir, tertiaire, agricole), un usage r\u00e9sidentiel ou un usage d'\u00e9quipement. La d\u00e9finition r\u00e8glementaire d\u00e9crit \"tout bien ou droit immobilier, b\u00e2ti ou non b\u00e2ti, inutilis\u00e9 et dont l'\u00e9tat, la configuration ou l'occupation totale ou partielle ne permet pas un r\u00e9emploi sans un am\u00e9nagement ou des travaux pr\u00e9alables\". En particulier, les friches dites \"agricoles\", au sens des espaces auparavant cultiv\u00e9s et qui se sont enfrich\u00e9s, ne sont pas prises en compte dans le cadre de ce standard, au contraire des b\u00e2tis agricoles d\u00e9saffect\u00e9s.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-friches/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1263,9 +1224,7 @@
                     "path": "https://github.com/cnigfr/schema-friches/raw/v1.0.5/fichier-valide.csv"
                 }
             ],
-            "labels": [
-                "CNIG"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1291,13 +1250,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/cnigfr/schema-friches.git"
+            "homepage": "https://github.com/cnigfr/schema-friches.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-friches/latest/schema.json"
         },
         {
             "name": "etalab/schema-indice-reparabilite",
             "title": "Indice de r\u00e9parabilit\u00e9",
             "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de r\u00e9parabilit\u00e9",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-indice-reparabilite/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -1325,13 +1284,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-indice-reparabilite.git"
+            "homepage": "https://github.com/etalab/schema-indice-reparabilite.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-indice-reparabilite/latest/schema.json"
         },
         {
             "name": "etalab/schema-impact-service-public-numerique",
             "title": "Impact d\u2019un service public num\u00e9rique",
             "description": "Sch\u00e9ma de donn\u00e9es pour les indicateurs d\u2019impact d\u2019un service public num\u00e9rique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-impact-service-public-numerique/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -1367,13 +1326,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/etalab/schema-impact-service-public-numerique"
+            "homepage": "https://github.com/etalab/schema-impact-service-public-numerique",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-impact-service-public-numerique/latest/schema.json"
         },
         {
             "name": "cnigfr/sites-economiques-pole-eco",
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe POLE-ECO : P\u00f4le \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-pole-eco/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1383,9 +1342,7 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/pole-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [
-                "CNIG"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1400,6 +1357,7 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-pole-eco/latest/schema.json",
             "datapackage_title": "Site Economique",
             "datapackage_name": "cnigfr/schema-sites-economiques",
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
@@ -1408,7 +1366,6 @@
             "name": "cnigfr/sites-economiques-site-eco",
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe SITE-ECO : Site \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-site-eco/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1418,9 +1375,7 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/site-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [
-                "CNIG"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1435,6 +1390,7 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-site-eco/latest/schema.json",
             "datapackage_title": "Site Economique",
             "datapackage_name": "cnigfr/schema-sites-economiques",
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
@@ -1443,7 +1399,6 @@
             "name": "cnigfr/sites-economiques-terrain-eco",
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe TERRAIN-ECO : terrain \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-terrain-eco/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1453,9 +1408,7 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/terrain-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [
-                "CNIG"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1470,6 +1423,7 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-terrain-eco/latest/schema.json",
             "datapackage_title": "Site Economique",
             "datapackage_name": "cnigfr/schema-sites-economiques",
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
@@ -1478,7 +1432,6 @@
             "name": "cnigfr/sites-economiques-etablissement",
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
             "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Sites Economiques pour la classe ETABLISSEMENT : \u00e9tablissement \u00e9conomique",
-            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-etablissement/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "cnig@cnig.fr",
             "examples": [
@@ -1488,9 +1441,7 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/etablissement/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [
-                "CNIG"
-            ],
+            "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1505,6 +1456,7 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/schema-sites-economiques.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sites-economiques-etablissement/latest/schema.json",
             "datapackage_title": "Site Economique",
             "datapackage_name": "cnigfr/schema-sites-economiques",
             "datapackage_description": "Data package contenant 4 sch\u00e9mas : pole-eco, site-eco, terrain-eco, etablissement"
@@ -1513,7 +1465,6 @@
             "name": "CEREMA/schema-aire-livraison",
             "title": "Aires de livraison",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux aires de livraison",
-            "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-aire-livraison/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "mathieu.rajerison@cerema.fr",
             "examples": [
@@ -1533,13 +1484,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/CEREMA/schema-aire-livraison.git"
+            "homepage": "https://github.com/CEREMA/schema-aire-livraison.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-aire-livraison/latest/schema.json"
         },
         {
             "name": "etalab/indice-durabilite-televiseur",
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de durabilit\u00e9 - t\u00e9l\u00e9viseur",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-televiseur/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -1564,6 +1515,7 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-indice-durabilite.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-televiseur/latest/schema.json",
             "datapackage_title": "Indice de durabilit\u00e9",
             "datapackage_name": "etalab/schema-indice-durabilite",
             "datapackage_description": "Data package contenant 2 sch\u00e9mas : televiseur et lave-linge. D'autres types d'appareils pourront \u00eatre ajout\u00e9s si la l\u00e9gislation \u00e9volue."
@@ -1572,7 +1524,6 @@
             "name": "etalab/indice-durabilite-lave-linge",
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de durabilit\u00e9 - lave-linge",
-            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-lave-linge/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "schema@data.gouv.fr",
             "examples": [
@@ -1597,6 +1548,7 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/etalab/schema-indice-durabilite.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/indice-durabilite-lave-linge/latest/schema.json",
             "datapackage_title": "Indice de durabilit\u00e9",
             "datapackage_name": "etalab/schema-indice-durabilite",
             "datapackage_description": "Data package contenant 2 sch\u00e9mas : televiseur et lave-linge. D'autres types d'appareils pourront \u00eatre ajout\u00e9s si la l\u00e9gislation \u00e9volue."
@@ -1605,7 +1557,6 @@
             "name": "datagouv/schema-fontaine-eau",
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux fontaines \u00e0 eau mises \u00e0 disposition notamment par les Etablissements recevant du public (ERP) dans le cadre de la loi anti-gaspillage.",
-            "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-fontaine-eau/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "tmp@data.gouv.fr",
             "examples": [
@@ -1625,13 +1576,13 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/datagouv/schema-fontaine-eau.git"
+            "homepage": "https://github.com/datagouv/schema-fontaine-eau.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-fontaine-eau/latest/schema.json"
         },
         {
             "name": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle",
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux d\u00e9clarations de la part des d\u00e9penses relatives \u00e0 l'acquisition de biens issus du r\u00e9emploi ou de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es (loi AGEC).",
-            "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/latest/schema.json",
             "schema_type": "tableschema",
             "contact": "tmp@data.gouv.fr",
             "examples": [
@@ -1651,7 +1602,8 @@
             ],
             "external_doc": null,
             "external_tool": null,
-            "homepage": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git"
+            "homepage": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/latest/schema.json"
         }
     ]
 }

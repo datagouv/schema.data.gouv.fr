@@ -1,3 +1,13 @@
+### 2025-03-10
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.20.0</span> => <span style="color:green;">0.21.0</span><br>
+
+#### Schéma en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Standard CNIG Opérations d'aménagement](https://github.com/datagouv/schema.data.gouv.fr/issues/317/)**
+
+---
+
 ### 2025-03-04
 
 #### Schéma en construction:
