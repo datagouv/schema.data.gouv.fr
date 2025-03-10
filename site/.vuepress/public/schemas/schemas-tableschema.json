@@ -14,7 +14,10 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/statique/exemple-valide-statique.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
             "versions": [
                 {
@@ -54,7 +57,10 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/dynamique/exemple-valide-dynamique.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
             "versions": [
                 {
@@ -109,7 +115,9 @@
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -146,7 +154,9 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_coll_siret_ko.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -194,7 +204,9 @@
             "schema_type": "tableschema",
             "contact": "scdl@opendatafrance.email",
             "examples": [],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -239,7 +251,9 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_colonnes.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -290,7 +304,9 @@
                     "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": "5d6eaffc8b4c417cdc452ac3",
             "versions": [
                 {
@@ -378,7 +394,9 @@
                     "path": "https://github.com/etalab/schema-stationnement/raw/v0.1.5/exemple-invalide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": "5ea1add4a5a7dac3af82310a",
             "versions": [
                 {
@@ -407,7 +425,9 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.3/examples/budget_valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -452,7 +472,9 @@
                     "path": "https://gitlab.com/arsante/atlasante/schema-dae/raw/1.0.7/exemple_valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -481,7 +503,9 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -516,7 +540,9 @@
                     "path": "https://github.com/etalab/schema-stationnement-cyclable/raw/v1.1.1/exemple-invalide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -619,7 +645,9 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/menus-collectifs/-/raw/v1.2.3/examples/menus-collectifs_valide.xlsx"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -688,7 +716,9 @@
                     "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.xlsx"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1024,7 +1054,9 @@
                     "path": "https://github.com/etalab/schema-passage-a-niveau/raw/v0.1.0/exemple-valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1055,7 +1087,9 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/site/exemple-valide-eco-compteur.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1093,7 +1127,9 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide-eco-compteur.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1131,7 +1167,9 @@
                     "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/measure/exemple-valide-eco-compteur.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "transport.data.gouv.fr"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1224,7 +1262,9 @@
                     "path": "https://github.com/cnigfr/schema-friches/raw/v1.0.5/fichier-valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "CNIG"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1342,7 +1382,9 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/pole-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "CNIG"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1375,7 +1417,9 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/site-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "CNIG"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1408,7 +1452,9 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/terrain-eco/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "CNIG"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
@@ -1441,7 +1487,9 @@
                     "path": "https://github.com/cnigfr/schema-sites-economiques/schema/etablissement/raw/v1.0.1/exemple-valide.csv"
                 }
             ],
-            "labels": [],
+            "labels": [
+                "CNIG"
+            ],
             "consolidation_dataset_id": null,
             "versions": [
                 {
