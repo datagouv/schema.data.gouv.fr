@@ -61,7 +61,7 @@
         La communauté pourra alors réagir à votre proposition et nous pourrons également vous accompagner dans la conception</p>
         <div style="width: 100%;">
           <div class="btn-guide">
-            <a href="https://github.com/etalab/schema.data.gouv.fr/issues/new?assignees=&labels=&template=referencer-un-schema.md&title=" title="Initier une discussion" class="fr-btn">
+            <a href="https://forum.data.gouv.fr/c/schema-de-donnees/5" title="Initier une discussion" class="fr-btn">
               <img src="../../public/assets/book.png" width="15" />&nbsp;
               Proposer un nouveau schéma dans une nouvelle discussion
             </a>
@@ -73,7 +73,7 @@
       
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 2' class='formTitle'>Créer un nouveau schéma</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 2' class='answerSpace'>
-        <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes <a href='https://www.etalab.gouv.fr/'>d'Etalab</a> et <a href='https://www.opendatafrance.net/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
+        <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes <a href='https://www.data.gouv.fr/'>de datagouv</a> et <a href='https://www.opendatafrance.fr/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
         <div style="width: 100%;">
           <div class="btn-guide">
             <a href="https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees" title="Consulter le guide" class="fr-btn">
@@ -89,10 +89,10 @@
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 3' class='formTitle'>Modifier un schéma</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 3' class='answerSpace'>
         <p>Pour valider l'intérêt d'un modification sur un schéma existant et en informer la communauté, nous vous proposons d'initier un message sur notre espace de discussion (l'espace de discussion est hébergé sur Github, il faudra en préalable vous créer un compte pour initier une discussion).<br />
-        Attention de vérifier qu'un fil de discussion n'est pas déjà créé sur le schéma en question (<a href="https://github.com/etalab/schema.data.gouv.fr/issues">voir la liste des discussions en cours</a>)</p>
+        Attention de vérifier qu'un fil de discussion n'est pas déjà créé sur le schéma en question (<a href="https://forum.data.gouv.fr/c/schema-de-donnees/5">voir la liste des discussions en cours</a>)</p>
         <div style="width: 100%;">
           <div class="btn-guide">
-            <a href="https://github.com/etalab/schema.data.gouv.fr/issues/new?assignees=&labels=&template=referencer-un-schema.md&title=" title="Initier une discussion" class="fr-btn">
+            <a href="https://forum.data.gouv.fr/c/schema-de-donnees/5" title="Initier une discussion" class="fr-btn">
               <img src="../../public/assets/book.png" width="15" />&nbsp;
               Proposer une modification d'un schéma dans une nouvelle discussion
             </a>
@@ -109,9 +109,9 @@
         <div>Pour référencer un nouveau schéma, celui-ci doit au préalable vérifier plusieurs conditions :</div>
         <ul>
           <li>le schéma doit décrire des données publiques</li>
-          <li>le schéma doit avoir été soumis à la communauté <a href="https://github.com/etalab/schema.data.gouv.fr/issues">via un message</a> sur notre espace de discussion</li>
+          <li>le schéma doit avoir été soumis à la communauté <a href="https://forum.data.gouv.fr/c/schema-de-donnees/5">via un message</a> sur notre espace de discussion</li>
           <li>le schéma doit avoir été co-conçu avec plusieurs acteurs du domaine auquel il fait référence</li>
-          <li>le schéma doit avoir été conçu selon <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">une spécification technique autorisée</a> et doit <a href="https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv/#quels-schemas-de-donnees-sont-acceptes-2">être valide</a></li>
+          <li>le schéma doit avoir été conçu selon <a href="https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees">une spécification technique autorisée</a> et doit être valide</li>
           <li>si aucune donnée n'est encore produite à partir de ce schéma, la version de celui-ci doit être inférieure à la v1.0.0</li>
         </ul>
           
@@ -120,10 +120,10 @@
       
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 5' class='formTitle'>Publier des données</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 5' class='answerSpace'>
-        <p>Pour publier des données respectant les spécifications d'un schéma de données, vous pouvez vous référez à la documentation des schémas sur ce site et adopté la structure indiquée par le schéma. Si vous avez besoin d'être accompagner en termes d'outillage pour la production de données respectant un schéma, Etalab propose un outil : publier.etalab.studio.</p>
+        <p>Pour publier des données respectant les spécifications d'un schéma de données, vous pouvez vous référez à la documentation des schémas sur ce site et adopté la structure indiquée par le schéma. Si vous avez besoin d'être accompagner en termes d'outillage pour la production de données respectant un schéma, datagouv propose un outil : publier.etalab.studio.</p>
         <p>publier.etalab.studio est un nouvel outil permettant aux producteurs de données de pouvoir saisir ou charger leur données en vue de leur publication sur la plateforme data.gouv.fr. L'outil propose un accompagnement des producteurs de données sous trois formats : chargement/upload des données déjà existantes, saisie via formulaires ou saisie via tableurs.</p>
 
-        <p>En cas de difficulté, vous pouvez contacter Etalab à l'adresse suivante : schema [at] data.gouv.fr.</p>
+        <p>En cas de difficulté, vous pouvez contacter datagouv à l'adresse suivante : schema [at] data.gouv.fr.</p>
       </div>
           
   </div>
@@ -188,7 +188,7 @@ export default {
       level2Selected: 0,
       level3Selected: 0,
       skipLevel3: 0,
-      selectedOrganizationName: 'Etalab',
+      selectedOrganizationName: 'datagouv',
       selectedOrganizationMail: 'schema [at] data.gouv.fr'
     };
   },
@@ -198,7 +198,7 @@ export default {
     selectLevel1(code){
       this.level1Selected = code;
       if(code != 2){
-        this.selectedOrganizationName = 'Etalab'
+        this.selectedOrganizationName = 'datagouv'
         this.selectedOrganizationMail = 'schema [at] data.gouv.fr'
       } else{
         this.selectedOrganizationName = 'OpenDataFrance'
@@ -224,7 +224,7 @@ export default {
         this.selectedOrganizationMail = 'contact [at] transport.data.gouv.fr'
       } else {
         if(this.level1Selected != 2){
-          this.selectedOrganizationName = 'Etalab'
+          this.selectedOrganizationName = 'datagouv'
           this.selectedOrganizationMail = 'schema [at] data.gouv.fr'
         } else{
           this.selectedOrganizationName = 'OpenDataFrance'
