@@ -1557,6 +1557,15 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-shango-shango-8",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "points-deau-incendie-du-departement-du-tarn",
     "recommendations": [
       {
