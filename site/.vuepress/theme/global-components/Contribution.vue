@@ -73,7 +73,7 @@
       
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 2' class='formTitle'>Créer un nouveau schéma</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 2' class='answerSpace'>
-        <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes <a href='https://www.data.gouv.fr/'>de datagouv</a> et <a href='https://www.opendatafrance.fr/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
+        <p>Pour vous accompagner lors des phases nécessaires à la création d’un schéma de données et à son référencement sur schema.data.gouv.fr le cas échéant, les équipes de <a href='https://www.data.gouv.fr/'>datagouv</a> et <a href='https://www.opendatafrance.fr/'>OpenDataFrance</a> ont élaboré un guide vous proposant un processus à suivre, des bonnes pratiques et des outils.</p>
         <div style="width: 100%;">
           <div class="btn-guide">
             <a href="https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees" title="Consulter le guide" class="fr-btn">
