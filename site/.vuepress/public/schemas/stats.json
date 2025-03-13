@@ -110,7 +110,7 @@
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 12,
+            "dgv_resources": 13,
             "title": "IRVE dynamique",
             "contributors": 7
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 69,
+            "dgv_resources": 72,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -220,7 +220,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 29,
+            "dgv_resources": 30,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -460,7 +460,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 15,
+            "dgv_resources": 16,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         }
