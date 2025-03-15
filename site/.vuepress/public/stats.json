@@ -190,7 +190,7 @@
             "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 47,
+            "dgv_resources": 48,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "contributors": 7
         },
@@ -250,7 +250,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 704,
+            "dgv_resources": 705,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -305,7 +305,7 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 44,
+            "dgv_resources": 45,
             "title": "Services de l'inclusion",
             "contributors": 2
         },
@@ -370,7 +370,7 @@
             "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Plan local d'urbanisme (PLU)",
             "contributors": 2
         },
@@ -450,7 +450,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 1,
+            "dgv_resources": 3,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
