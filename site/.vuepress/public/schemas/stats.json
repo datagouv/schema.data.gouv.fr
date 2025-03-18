@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1199,
+            "dgv_resources": 1201,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 183,
+            "dgv_resources": 185,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 159,
+            "dgv_resources": 160,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
