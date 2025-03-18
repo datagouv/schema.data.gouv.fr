@@ -1,5 +1,14 @@
 [
   {
+    "id": "indice-de-durabilite-televiseur-organisation-electro-depot-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation",
     "recommendations": [
       {
@@ -1552,6 +1561,15 @@
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "br1467-sainte-anastasie-irve-statique-organisation-solveo-energies",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
         "score": 30
       }
     ]
@@ -3997,6 +4015,15 @@
   },
   {
     "id": "irve-statique-organisation-maneo-3",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharge-pour-vehicules-electriques-alize-et-ses-reseaux-partenaires",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
