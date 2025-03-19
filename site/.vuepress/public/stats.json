@@ -105,7 +105,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1201,
+            "dgv_resources": 1200,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 73,
+            "dgv_resources": 72,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -165,7 +165,7 @@
             "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 23,
+            "dgv_resources": 25,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
