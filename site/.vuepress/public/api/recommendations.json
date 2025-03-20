@@ -12006,6 +12006,15 @@
     ]
   },
   {
+    "id": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-territoire-denergie-90-territoire-de-belfort",
     "recommendations": [
       {
