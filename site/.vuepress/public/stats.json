@@ -120,7 +120,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 185,
+            "dgv_resources": 186,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -150,7 +150,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 73,
+            "dgv_resources": 72,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -190,7 +190,7 @@
             "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 48,
+            "dgv_resources": 50,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
             "contributors": 7
         },
@@ -235,7 +235,7 @@
             "contributors": 10
         },
         "etalab/schema-zfe": {
-            "dgv_resources": 21,
+            "dgv_resources": 22,
             "title": "Zone \u00e0 Faibles Emissions",
             "contributors": 2
         },
@@ -305,7 +305,7 @@
             "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 45,
+            "dgv_resources": 47,
             "title": "Services de l'inclusion",
             "contributors": 2
         },
@@ -425,7 +425,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 160,
+            "dgv_resources": 161,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
