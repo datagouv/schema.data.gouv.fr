@@ -1,5 +1,14 @@
 [
   {
+    "id": "indice-de-durabilite-televiseur-organisation-adbc",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-electro-depot-france",
     "recommendations": [
       {
