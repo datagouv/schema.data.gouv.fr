@@ -2187,6 +2187,15 @@
     ]
   },
   {
+    "id": "bornes-de-recharge-pour-vehicules-electriques-11",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-statique-organisation-proviridis-sas",
     "recommendations": [
       {
