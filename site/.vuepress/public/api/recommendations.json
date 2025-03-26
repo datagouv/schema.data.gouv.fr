@@ -1575,6 +1575,15 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-ma-borne-auto",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "br1467-sainte-anastasie-irve-statique-organisation-solveo-energies",
     "recommendations": [
       {
