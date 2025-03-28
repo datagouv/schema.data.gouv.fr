@@ -339,3 +339,7 @@ declaration-biens-reemploi-reutilisation-recycle:
   url: https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git
   type: tableschema
   email: schema@data.gouv.fr
+fontaine-eau:
+  url: https://github.com/datagouv/schema-fontaine-eau.git
+  type: tableschema
+  email: schema@data.gouv.fr
