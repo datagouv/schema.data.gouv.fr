@@ -1719,6 +1719,32 @@
             "external_tool": null,
             "homepage": "https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git",
             "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/latest/schema.json"
+        },
+        {
+            "name": "datagouv/schema-fontaine-eau",
+            "title": "Sch\u00e9ma des fontaines \u00e0 eau",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux fontaines \u00e0 eau mises \u00e0 disposition notamment par les Etablissements recevant du public (ERP) dans le cadre de la loi anti-gaspillage.",
+            "schema_type": "tableschema",
+            "contact": "schema@data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/datagouv/schema-fontaine-eau/raw/v0.1.0/exemple-valide.csv"
+                }
+            ],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-fontaine-eau/0.1.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/datagouv/schema-fontaine-eau.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-fontaine-eau/latest/schema.json"
         }
     ]
 }

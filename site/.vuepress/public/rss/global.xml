@@ -604,5 +604,10 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/317</link>
       <description>Schema update on 2025-03-07: Standard CNIG Op&#233;rations d'am&#233;nagement is in construction</description>
       <pubDate>Fri, 07 Mar 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New schema - datagouv/schema-fontaine-eau (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/datagouv/schema-fontaine-eau</link>
+      <description>Schema update on 2025-03-28: 0.1.0 for datagouv/schema-fontaine-eau</description>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>

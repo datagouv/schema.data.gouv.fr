@@ -1,3 +1,10 @@
+### 2025-03-28
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datagouv/schema-fontaine-eau](/datagouv/schema-fontaine-eau/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2025-03-07
 
 #### Montée de version:

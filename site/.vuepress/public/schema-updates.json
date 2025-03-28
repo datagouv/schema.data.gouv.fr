@@ -946,5 +946,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
             }
         ]
+    },
+    "2025-03-28": {
+        "new_schema": [
+            {
+                "schema_name": "datagouv/schema-fontaine-eau",
+                "version": "0.1.0"
+            }
+        ]
     }
 }
