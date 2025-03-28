@@ -84,7 +84,8 @@
       },
       {
          "name": "siren_gestionnaire",
-         "description": "Le numero SIREN du gestionnaire. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.",
+         "title":"SIREN du gestionnaire",
+         "description": "Le numéro SIREN du gestionnaire. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.",
          "example": "130025265",
          "type": "string",
          "constraints": {

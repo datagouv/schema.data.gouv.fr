@@ -22,7 +22,7 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 | [type_fontaine](#type-de-fontaine-propriete-type-fontaine) | chaîne de caractères  | Oui |
 | [modele](#modele-propriete-modele) | chaîne de caractères  | Non |
 | [gestionnaire](#gestionnaire-propriete-gestionnaire) | chaîne de caractères  | Non |
-| [siren_gestionnaire](#propriete-siren-gestionnaire) | chaîne de caractères  | Non |
+| [siren_gestionnaire](#siren-du-gestionnaire-propriete-siren-gestionnaire) | chaîne de caractères  | Non |
 | [latitude](#latitude-(coordonnees-gps)-propriete-latitude) | nombre réel  | Oui |
 | [longitude](#longitude-(coordonnees-gps)-propriete-longitude) | nombre réel  | Oui |
 | [adresse](#voie-et-numero-de-voie-propriete-adresse) | chaîne de caractères  | Non |
@@ -63,9 +63,9 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### Propriété `siren_gestionnaire`
+#### SIREN du gestionnaire - Propriété `siren_gestionnaire`
 
-> *Description : Le numero SIREN du gestionnaire. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.*<br/>*Exemple : 130025265*
+> *Description : Le numéro SIREN du gestionnaire. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.*<br/>*Exemple : 130025265*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^\d{9}$`
