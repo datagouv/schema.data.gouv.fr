@@ -83,6 +83,15 @@
          "example":"Ville de Rennes"
       },
       {
+         "name": "siren_gestionnaire",
+         "description": "Le numero SIREN du gestionnaire. Vous pouvez récupérer cet identifiant sur le site annuaire-entreprises.data.gouv.fr.",
+         "example": "130025265",
+         "type": "string",
+         "constraints": {
+             "pattern": "^\\d{9}$"
+         }
+      },
+      {
          "name":"latitude",
          "title":"Latitude (coordonnées GPS)",
          "description":"Latitude de la fontaine.",
