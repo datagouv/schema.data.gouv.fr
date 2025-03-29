@@ -16,7 +16,7 @@ Ce schéma de données a pour but de standardiser la publication des données su
 
 ## Utilisation de notre outil d'aide à la saisie
 
-Pour faciliter le remplissage des données, data.gouv.fr met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/select?schema=datagouv%2Fschema-fontaine-eau), vous pourrez alors publier votre fichier à partir : 
+Pour faciliter le remplissage des données, data.gouv.fr met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/fr/select?schema=datagouv%2Fschema-fontaine-eau), vous pourrez alors publier votre fichier à partir : 
 - d'un fichier csv déjà existant. (vous pouvez partir de [ce fichier exemple](https://github.com/datagouv/schema-fontaine-eau/blob/main/exemple-valide.csv)).
 - d'un formulaire
 - d'un tableur

@@ -6,7 +6,7 @@ Schéma des fontaines à eau
 
 Spécification du fichier d'échange relatif aux fontaines à eau mises à disposition notamment par les Etablissements recevant du public (ERP) dans le cadre de la loi anti-gaspillage.
 
-- Schéma créé le : 03/07/2024
+- Schéma créé le : 28/03/2025
 - Site web : https://github.com/datagouv/schema-fontaine-eau
 - Version : v0.1.0
 - Clé primaire : `id`
