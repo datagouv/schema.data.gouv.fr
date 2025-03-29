@@ -59,6 +59,10 @@ datagouv/schema-declaration-biens-reemploi-reutilisation-recycle:
   search_words:
   - "Sch\xE9ma de d\xE9claration de l'acquisition de biens issus du r\xE9emploi, de\
     \ la r\xE9utilisation ou int\xE9grant des mati\xE8res recycl\xE9es"
+datagouv/schema-fontaine-eau:
+  consolidate: false
+  search_words:
+  - "Sch\xE9ma des fontaines \xE0 eau"
 datakode/schema-pei:
   consolidate: false
   publication: false
