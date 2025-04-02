@@ -1,5 +1,14 @@
 [
   {
+    "id": "indice-de-durabilite-televiseur-organisation-continental-edison",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-xiaomi-technology-france",
     "recommendations": [
       {
@@ -55,15 +64,6 @@
   },
   {
     "id": "indice-de-durabilite-televiseur-tv-55w95aeg",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "indice-de-durabilite-televiseur-organisation-continental-edison-2",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
