@@ -1,3 +1,10 @@
+### 2025-04-02
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-impact-service-public-numerique](/etalab/schema-impact-service-public-numerique/)** : <span style="color:red;">0.3.0</span> => <span style="color:green;">0.4.0</span><br>
+
+---
+
 ### 2025-03-28
 
 #### Schéma ajouté:

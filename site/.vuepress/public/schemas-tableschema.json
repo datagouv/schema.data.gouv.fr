@@ -1337,7 +1337,7 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/etalab/schema-impact-service-public-numerique/raw/v0.3.0/exemple-valide.csv"
+                    "path": "https://github.com/etalab/schema-impact-service-public-numerique/raw/v0.4.0/exemple-valide.csv"
                 }
             ],
             "labels": [],
@@ -1362,6 +1362,10 @@
                 {
                     "version_name": "0.3.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-impact-service-public-numerique/0.3.0/schema.json"
+                },
+                {
+                    "version_name": "0.4.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-impact-service-public-numerique/0.4.0/schema.json"
                 }
             ],
             "external_doc": null,
