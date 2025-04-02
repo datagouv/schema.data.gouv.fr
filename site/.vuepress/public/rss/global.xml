@@ -569,5 +569,10 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/317</link>
       <description>Schema update on 2025-03-10: Standard CNIG Op&#233;rations d'am&#233;nagement is in construction</description>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-impact-service-public-numerique (0.3.0 to 0.4.0)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-impact-service-public-numerique</link>
+      <description>Schema update on 2025-04-02: 0.3.0 to 0.4.0 for etalab/schema-impact-service-public-numerique</description>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

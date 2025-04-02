@@ -986,5 +986,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
             }
         ]
+    },
+    "2025-04-02": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-impact-service-public-numerique",
+                "version": "0.3.0 => 0.4.0"
+            }
+        ]
     }
 }
