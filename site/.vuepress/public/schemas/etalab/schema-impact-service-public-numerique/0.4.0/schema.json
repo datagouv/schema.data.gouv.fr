@@ -188,11 +188,22 @@
       },
 	{
          "name": "denom_insee",
-         "description": "Si l'indicateur est calculé à une certaine échelle géographique, préciser l'échelon géographique INSEE concerné, entre REG, DEP, COM, CTCD, ARR, COMER, COG... (trouvable ici : https://www.insee.fr/fr/information/8377162).",
+         "description": "Si l'indicateur est calculé à une certaine échelle géographique, préciser l'échelon géographique INSEE concerné (cf https://www.insee.fr/fr/information/8377162).",
          "example": "REG",
          "type": "string",
          "constraints": {
-            "required": false
+            "required": false,
+            "enum": [
+               "REG",
+               "DEP",
+               "COM",
+               "ARR",
+               "COMER",
+               "COM_COMER",
+	       "COG",
+	       "CTCD",
+	       "CAN"
+            ]
       	}
 	},
       {

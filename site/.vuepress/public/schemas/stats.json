@@ -126,7 +126,7 @@
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 32,
+            "dgv_resources": 33,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -178,12 +178,12 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 50,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 285,
@@ -416,12 +416,12 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 163,
+            "dgv_resources": 164,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 6,
+            "dgv_resources": 7,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },

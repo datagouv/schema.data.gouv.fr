@@ -116,9 +116,19 @@ Schéma de données pour les indicateurs d’impact d’un service public numér
 
 #### Propriété `denom_insee`
 
-> *Description : Si l'indicateur est calculé à une certaine échelle géographique, préciser l'échelon géographique INSEE concerné, entre REG, DEP, COM, CTCD, ARR, COMER, COG... (trouvable ici : https://www.insee.fr/fr/information/8377162).*<br/>*Exemple : REG*
+> *Description : Si l'indicateur est calculé à une certaine échelle géographique, préciser l'échelon géographique INSEE concerné (cf https://www.insee.fr/fr/information/8377162).*<br/>*Exemple : REG*
 - Valeur optionnelle
 - Type : chaîne de caractères
+- Valeurs autorisées : 
+    - `REG`
+    - `DEP`
+    - `COM`
+    - `ARR`
+    - `COMER`
+    - `COM_COMER`
+    - `COG`
+    - `CTCD`
+    - `CAN`
 
 #### Propriété `code_insee`
 
