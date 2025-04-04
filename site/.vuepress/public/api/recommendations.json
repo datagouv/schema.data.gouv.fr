@@ -1476,6 +1476,60 @@
     ]
   },
   {
+    "id": "indice-de-durabilite-televiseur-organisation-sony-france-succursale-de-sony-europe-b-v",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-hublot-es-nfb814ewda-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-hublot-es-nfl914cwna-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-hublot-fc0634w1a-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-lave-linge-hublot-es-nfb814cwda-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-organisation-nilfisk-5",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-hublot-es-nib814bwna-fr",
     "recommendations": [
       {
@@ -1804,6 +1858,15 @@
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-statique-organisation-ma-borne-auto-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
         "score": 30
       }
     ]
