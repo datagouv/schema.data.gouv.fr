@@ -1,5 +1,113 @@
 [
   {
+    "id": "indice-de-durabilite-lave-linge-organisation-vestel-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-schulthess-maschinen-ag",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-continental-edison",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-beko-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-electro-depot-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-front-organisation-european-appliances-france-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-top-organisation-european-appliances-france-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-brandt-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-etablissements-darty-et-fils-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-bsh-electromenager",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-sas-organisation-intra-groupe-des-achats",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-srt65ug8773c",
     "recommendations": [
       {
@@ -12655,6 +12763,15 @@
   },
   {
     "id": "recharge-a-destination-tesla",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "vigilance-meteorologique-en-metropole",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
