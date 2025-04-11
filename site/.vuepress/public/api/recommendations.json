@@ -1980,6 +1980,15 @@
     ]
   },
   {
+    "id": "electric-vehicles-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "itineraires-de-randonnee-circuits-qualite-departement-du-calvados",
     "recommendations": [
       {
@@ -2773,15 +2782,6 @@
   },
   {
     "id": "irve-statique-organisation-eranovum-e-mobility-france",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-syndicat-audois-denergies-et-du-numerique",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
