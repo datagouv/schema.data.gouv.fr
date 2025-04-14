@@ -1980,6 +1980,15 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-qowatt",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "electric-vehicles-1",
     "recommendations": [
       {
