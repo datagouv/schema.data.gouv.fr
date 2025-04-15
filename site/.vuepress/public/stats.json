@@ -126,7 +126,7 @@
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 33,
+            "dgv_resources": 34,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -171,12 +171,12 @@
             "contributors": 10
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 25,
+            "dgv_resources": 26,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 18,
+            "dgv_resources": 17,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
@@ -186,7 +186,7 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 283,
+            "dgv_resources": 282,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -436,7 +436,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 168,
+            "dgv_resources": 170,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
