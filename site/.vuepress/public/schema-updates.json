@@ -994,5 +994,13 @@
                 "version": "0.3.0 => 0.4.0"
             }
         ]
+    },
+    "2025-04-15": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.21.0 => 0.22.0"
+            }
+        ]
     }
 }
