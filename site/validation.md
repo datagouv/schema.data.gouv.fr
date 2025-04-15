@@ -2,30 +2,28 @@
 
 ## Validation des schémas
 
-Cette page décrit comment sont validés les schémas avant leur intégration sur `schema.data.gouv.fr` et non comment utiliser des schémas pour valider des données.
+Cette page décrit comment sont validés les schémas avant leur intégration sur `schema.data.gouv.fr` (et non comment utiliser des schémas pour valider des données).
 
 Seuls les schémas considérés comme valides sont intégrés sur `schema.data.gouv.fr`. Si votre schéma comporte plusieurs versions, seules les versions valides seront automatiquement intégrées.
 
 Pour tous les types de schéma, il faut que :
 - votre schéma soit sur un dépôt Git, à raison d'un dépôt par schéma. Ce dépôt doit pouvoir être cloné depuis Internet sans authentification préalable ;
-- votre dépôt Git doit comporter des tags indiquant les versions de votre schéma. Ces versions doivent respecter la [gestion sémantique de version semver](https://semver.org/lang/fr/), sous la forme `1.3.2` par exemple ;
+- votre dépôt Git doit comporter des tags indiquant les versions de votre schéma. Ces versions doivent respecter la [gestion sémantique de version semver](https://semver.org/lang/fr/), sous la forme `v0.1.2` par exemple ;
 - votre dépôt doit comporter un fichier `README.md` à la racine contenant une documentation du schéma indiquant par exemple le contexte de production, la gouvernance ;
 - passer avec succès les tests spécifiques au type de schéma que votre dépôt contient.
-
-### Erreurs de validation
-Dès lors qu'une version de votre schéma est considérée comme invalide, vous recevrez un e-mail à l'adresse e-mail déclarée lors de l'enregistrement de votre dépôt avec les erreurs. Une fois ces erreurs corrigées, votre schéma sera intégré sur `schema.data.gouv.fr` sans action supplémentaire de votre part.
 
 ### Validations spécifiques au format Table Schema
 Les dépôts contenant des schémas au format [Table Schema](https://frictionlessdata.io/specs/table-schema/) subissent les validations supplémentaires suivantes :
 
 - le schéma doit se trouver dans un fichier `schema.json` à la racine du dépôt ;
-- le schéma doit respecter la spécification Table Schema ;
+- le schéma doit respecter la spécification [Table Schema](https://frictionlessdata.io/specs/table-schema/) ;
 - la version déclarée dans le fichier `schema.json` doit être la même que le tag Git du dépôt ;
 - le schéma comporte les [clés supplémentaires](https://specs.frictionlessdata.io/patterns/#table-schema-metadata-properties) suivantes à la racine du document JSON :
+    + `name` : le nom technique du schéma (ou *slug*), en minuscules, sans caractères spéciaux autres que `-` et `_`. Exemple : `irve-statique` ;
     + `title` : le nom courant du schéma. Exemple : `Infrastructures de recharge de véhicules électriques` ;
     + `description` : la description du schéma. Exemple : `Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques`;
     + `homepage` : l'URL vers le dépôt Git contenant le schéma. Exemple : `https://github.com/etalab/schema-irve`.
-    + `version` : le numéro de version du schéma respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `1.0.2` ;
+    + `version` : le numéro de version du schéma respectant la [gestion sémantique de version semver](https://semver.org/lang/fr/). Exemple : `v0.1.2` ;
     + `contributors` : les informations sur les auteurs du schéma. Exemple :
     ```json
     "contributors": [
@@ -37,7 +35,6 @@ Les dépôts contenant des schémas au format [Table Schema](https://frictionles
     ]
     ```
 Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation est encouragée pour enrichir encore davantage la description de votre schéma :
-- `name` : l'identifiant ou « slug » du schéma. Exemple : `irve` ;
 - `path` : l'URL vers cette version du schéma. Exemple : `https://github.com/etalab/schema-irve/raw/v1.0.2/schema.json` ;
 - `created` : la date de création initiale du schéma, au format `YYYY-MM-DD`. Exemple : `2018-06-29` ;
 - `lastModified` : la date de publication de la dernière version du schéma, au format `YYYY-MM-DD`. Exemple : `2019-06-28` ;
@@ -50,7 +47,7 @@ Les clés suivantes ne font pas l'objet d'une validation mais leur utilisation e
     }
 ],
 ```
-- `sources` : les documents ayant servi de base au schéma. Exemple :
+- `sources` : les documents, notamment juridiques, ayant servi de base au schéma. Exemple :
 ```json
 "sources": [
     {
@@ -131,7 +128,7 @@ Le fichier `schema.yml` doit avoir le format suivant :
 title: Mon schéma très générique
 description: Mon schéma très générique est vraiment très très bien.
 homepage: https://github.com/example/generic-schema
-version: 1.0.0
+version: v1.0.0
 ```
 
 <br />
