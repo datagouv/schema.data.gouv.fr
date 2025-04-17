@@ -188,7 +188,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 282,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -281,7 +281,7 @@
             "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
-            "dgv_resources": 3,
+            "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
             "contributors": 2
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 41,
+            "dgv_resources": 49,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -406,7 +406,7 @@
             "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
-            "dgv_resources": 1,
+            "dgv_resources": 0,
             "title": "Site Economique",
             "contributors": 2
         },
