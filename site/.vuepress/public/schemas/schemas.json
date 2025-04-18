@@ -1591,8 +1591,8 @@
         },
         {
             "name": "gip-inclusion/data-inclusion-schema",
-            "title": "Services de l'inclusion",
-            "description": "Services de l'inclusion",
+            "title": "Services de l\u2019inclusion",
+            "description": "Services de l\u2019inclusion",
             "schema_type": "jsonschema",
             "contact": "data.inclusion@beta.gouv.fr",
             "examples": [],
@@ -1702,6 +1702,10 @@
                 {
                     "version_name": "0.23.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.23.0/schemas/service.json"
+                },
+                {
+                    "version_name": "0.24.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.24.0/schemas/service.json"
                 }
             ],
             "external_doc": "https://www.data.inclusion.beta.gouv.fr",
