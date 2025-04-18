@@ -1656,6 +1656,15 @@
     ]
   },
   {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfb814ewda-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-tll148w",
     "recommendations": [
       {
@@ -1936,24 +1945,6 @@
   },
   {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-hublot-es-nfb914ewda-fr",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-na4yf44eaa-fr",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-ni1ei45ex-fr",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
