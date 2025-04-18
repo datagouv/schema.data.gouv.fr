@@ -1,3 +1,10 @@
+### 2025-04-18
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.23.0</span> => <span style="color:green;">0.24.0</span><br>
+
+---
+
 ### 2025-04-16
 
 #### Montée de version:
