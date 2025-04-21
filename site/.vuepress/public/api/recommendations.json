@@ -2097,6 +2097,15 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-milence",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-statique-organisation-aldi-1",
     "recommendations": [
       {
