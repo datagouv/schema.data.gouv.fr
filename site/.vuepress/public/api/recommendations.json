@@ -2097,15 +2097,6 @@
     ]
   },
   {
-    "id": "amenagements-cyclables-existants-pays-de-brest",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-milence",
     "recommendations": [
       {
