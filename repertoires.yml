@@ -345,7 +345,7 @@ declaration-biens-reemploi-reutilisation-recycle:
   url: https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git
   type: tableschema
   email: tmp@data.gouv.f
-projet-collectivites-transition-ecologique:
-  url: https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git
-  type: datapackage
-  email: tmp@data.gouv.fr
+# projet-collectivites-transition-ecologique:
+#   url: https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git
+#   type: datapackage
+#   email: tmp@data.gouv.fr
