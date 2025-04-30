@@ -311,7 +311,7 @@
             "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Impact d\u2019un service public num\u00e9rique",
             "contributors": 2
         },
@@ -451,7 +451,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 37,
+            "dgv_resources": 38,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
