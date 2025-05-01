@@ -1,5 +1,23 @@
 [
   {
+    "id": "indice-de-durabilite-vestel-france-lave-linge-oxford-oxa812w",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-vestel-france-lave-linge-oxford-ox814sa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-lave-linge-organisation-samsung-electronics-france",
     "recommendations": [
       {
@@ -3141,6 +3159,15 @@
     ]
   },
   {
+    "id": "reseau-mobive-reseau-de-recharge-publique-en-nouvelle-aquitaine",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-sdec23",
     "recommendations": [
       {
@@ -3214,6 +3241,15 @@
   },
   {
     "id": "bornes-de-recharges-izivia-express-limoges",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharges-izivia-impact",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -4303,6 +4339,15 @@
   },
   {
     "id": "irve-statique-organisation-zeborne-amsom-habitat-longueau",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "sde54-1",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -5590,6 +5635,15 @@
   },
   {
     "id": "irve-statique-organisation-zeborne-ford-marmande",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "infrastructure-de-recharge-vehicules-electriques-irve-e-totem-infrastructures",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
