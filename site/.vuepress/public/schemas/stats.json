@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1215,
+            "dgv_resources": 1219,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -211,7 +211,7 @@
             "contributors": 2
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 30,
+            "dgv_resources": 31,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
@@ -291,7 +291,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 24,
+            "dgv_resources": 25,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         },
@@ -421,7 +421,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 14,
+            "dgv_resources": 16,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
