@@ -178,17 +178,17 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 51,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 282,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
