@@ -1018,5 +1018,21 @@
                 "version": "0.23.0 => 0.24.0"
             }
         ]
+    },
+    "2025-05-06": {
+        "new_schema": [
+            {
+                "schema_name": "betagouv/schema-projet-collectivites-transition-ecologique",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "betagouv/projets-territoire",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "betagouv/collectivites",
+                "version": "0.1.0"
+            }
+        ]
     }
 }
