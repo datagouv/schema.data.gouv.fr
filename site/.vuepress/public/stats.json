@@ -173,20 +173,20 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 51,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 282,
+            "dgv_resources": 283,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 710,
+            "dgv_resources": 711,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -416,7 +416,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 173,
+            "dgv_resources": 177,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
