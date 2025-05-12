@@ -183,12 +183,12 @@
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 51,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 283,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -208,7 +208,7 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 4,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 31,
@@ -338,7 +338,7 @@
         "cnigfr/schema-continuites-ecologiques-regionales": {
             "dgv_resources": 2,
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
-            "contributors": 2
+            "contributors": 1
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
