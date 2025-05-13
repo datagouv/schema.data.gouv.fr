@@ -19,8 +19,15 @@ Le schéma est organisé en deux tables principales et deux référentiels :
 
 ### Référentiels
 
-1. **Référentiel des compétences M57** : Liste hiérarchique des compétences et sous-compétences des collectivités selon la nomenclature M57
-2. **Référentiel des leviers de transition écologique** : Liste des leviers d'action disponibles et leur description pour les projets de transition écologique
+Les référentiels sont disponibles ici : https://github.com/betagouv/schema-projet-collectivites-transition-ecologique/tree/main/reference-data
+
+1. **Référentiel des compétences M57** : Liste hiérarchique des compétences et sous-compétences des collectivités selon la nomenclature M57. Les compétences ont un code du type : 90-XY, et les compétences 90-XYZ
+- Le fichier JSON reprend la structure compétences et sous-compétences associées (lorsqu'il y en a), via une liste d'objets : 
+`{"code": "90-XY",
+ "nom": "compétence ABC",
+"sous_competences": [{"code" : "90-XYZ", "nom" : "sous-compétence ABCD"},{}]}`
+- tandis que le fichier csv contient une colonne code, et une colonne competence-sous-competence correspondant à leur intitulé.  
+2. **Référentiel des leviers de transition écologique** : Liste des leviers SGPE disponibles et leur description pour les projets de transition écologique. Il s'agit d'un fichier csv avec 2 colonnes : `levier` et `description`
 
 Ces référentiels sont utilisés pour catégoriser et standardiser les données des projets.
 
