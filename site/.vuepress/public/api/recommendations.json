@@ -1737,6 +1737,15 @@
     ]
   },
   {
+    "id": "asus-notebook-v3607vu",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfb814ewda-fr",
     "recommendations": [
       {
@@ -12781,6 +12790,15 @@
   },
   {
     "id": "bornes-de-recharge-electrique-parking-mairie-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
