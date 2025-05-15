@@ -2987,5 +2987,70 @@
             }
         },
         "latest": "0.1.0"
+    },
+    "betagouv/schema-projet-collectivites-transition-ecologique": {
+        "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "datapackage",
+        "email": "adrien.zemour@beta.gouv.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/betagouv/schema-projet-collectivites-transition-ecologique/0.1.0/datapackage.json"
+            }
+        },
+        "schemas": [
+            "betagouv/projets-territoire",
+            "betagouv/collectivites"
+        ],
+        "latest": "0.1.0"
+    },
+    "betagouv/projets-territoire": {
+        "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "adrien.zemour@beta.gouv.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/betagouv/projets-territoire/0.1.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma des projets de transition \u00e9cologique des collectivit\u00e9s",
+        "datapackage_id": "schema-projet-collectivites-transition-ecologique",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "betagouv/collectivites": {
+        "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "adrien.zemour@beta.gouv.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/betagouv/collectivites/0.1.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma des projets de transition \u00e9cologique des collectivit\u00e9s",
+        "datapackage_id": "schema-projet-collectivites-transition-ecologique",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
     }
 }
