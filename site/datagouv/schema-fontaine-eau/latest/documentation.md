@@ -79,7 +79,7 @@ Spécification du fichier d'échange relatif aux fontaines à eau mises à dispo
 
 #### Longitude (coordonnées GPS) - Propriété `longitude`
 
-> *Description : Latitude de la fontaine.*<br/>*Exemple : 2.303713*
+> *Description : Longitude de la fontaine.*<br/>*Exemple : 2.303713*
 - Valeur obligatoire
 - Type : nombre réel
 - Valeur entre -180 et 180

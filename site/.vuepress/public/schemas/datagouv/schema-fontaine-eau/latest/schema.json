@@ -111,7 +111,7 @@
       {
          "name":"longitude",
          "title":"Longitude (coordonnées GPS)",
-         "description":"Latitude de la fontaine.",
+         "description":"Longitude de la fontaine.",
          "type":"number",
          "example":"2.303713",
          "constraints":{
