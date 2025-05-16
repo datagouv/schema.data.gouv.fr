@@ -2358,6 +2358,24 @@
     ]
   },
   {
+    "id": "lieux-durables-a-nyons",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-du-barometre-de-lapplication-des-lois",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-static",
     "recommendations": [
       {
@@ -2368,15 +2386,6 @@
   },
   {
     "id": "geolocalisation-des-residences-dediees-aux-etudiants-recensees-par-lotle-du-sillon-alpin-en-2024",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "la",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -3466,6 +3475,15 @@
   },
   {
     "id": "irve-statique-organisation-zeborne-amsom-habitat-henson",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "liste-des-deliberations-2024-2025-du-conseil-departemental-du-finistere",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
