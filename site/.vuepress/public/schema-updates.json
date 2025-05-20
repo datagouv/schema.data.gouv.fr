@@ -1002,5 +1002,21 @@
                 "version": "0.1.0"
             }
         ]
+    },
+    "2025-05-20": {
+        "deleted_schema": [
+            {
+                "schema_name": "betagouv/schema-projet-collectivites-transition-ecologique",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "betagouv/projets-territoire",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "betagouv/collectivites",
+                "version": "0.1.0"
+            }
+        ]
     }
 }

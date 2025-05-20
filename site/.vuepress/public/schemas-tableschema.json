@@ -1749,52 +1749,6 @@
             "external_tool": null,
             "homepage": "https://github.com/datagouv/schema-fontaine-eau.git",
             "schema_url": "https://schema.data.gouv.fr/schemas/datagouv/schema-fontaine-eau/latest/schema.json"
-        },
-        {
-            "name": "betagouv/projets-territoire",
-            "title": "Projets de collectivit\u00e9s",
-            "description": "Sch\u00e9ma de donn\u00e9es pour d\u00e9crire un projet de collectivit\u00e9 visant la transition \u00e9cologique, incluant les informations de suivi, le budget, le statut, les d\u00e9tails du porteur et les r\u00e9f\u00e9rentiels de comp\u00e9tences et leviers.",
-            "schema_type": "tableschema",
-            "contact": "adrien.zemour@beta.gouv.fr",
-            "examples": [],
-            "labels": [],
-            "consolidation_dataset_id": null,
-            "versions": [
-                {
-                    "version_name": "0.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/betagouv/projets-territoire/0.1.0/schema.json"
-                }
-            ],
-            "external_doc": null,
-            "external_tool": null,
-            "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git",
-            "schema_url": "https://schema.data.gouv.fr/schemas/betagouv/projets-territoire/latest/schema.json",
-            "datapackage_title": "Sch\u00e9ma des projets de transition \u00e9cologique des collectivit\u00e9s",
-            "datapackage_name": "betagouv/schema-projet-collectivites-transition-ecologique",
-            "datapackage_description": "Mod\u00e8le de donn\u00e9es pour d\u00e9crire les projets de transition \u00e9cologique men\u00e9s par les collectivit\u00e9s territoriales, incluant les informations sur les projets et les collectivit\u00e9s associ\u00e9es."
-        },
-        {
-            "name": "betagouv/collectivites",
-            "title": "Collectivit\u00e9s",
-            "description": "Sch\u00e9ma de donn\u00e9es pour d\u00e9crire les collectivit\u00e9s territoriales associ\u00e9es aux projets de transition \u00e9cologique.",
-            "schema_type": "tableschema",
-            "contact": "adrien.zemour@beta.gouv.fr",
-            "examples": [],
-            "labels": [],
-            "consolidation_dataset_id": null,
-            "versions": [
-                {
-                    "version_name": "0.1.0",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/betagouv/collectivites/0.1.0/schema.json"
-                }
-            ],
-            "external_doc": null,
-            "external_tool": null,
-            "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git",
-            "schema_url": "https://schema.data.gouv.fr/schemas/betagouv/collectivites/latest/schema.json",
-            "datapackage_title": "Sch\u00e9ma des projets de transition \u00e9cologique des collectivit\u00e9s",
-            "datapackage_name": "betagouv/schema-projet-collectivites-transition-ecologique",
-            "datapackage_description": "Mod\u00e8le de donn\u00e9es pour d\u00e9crire les projets de transition \u00e9cologique men\u00e9s par les collectivit\u00e9s territoriales, incluant les informations sur les projets et les collectivit\u00e9s associ\u00e9es."
         }
     ]
 }

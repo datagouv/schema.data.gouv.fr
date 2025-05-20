@@ -1,3 +1,12 @@
+### 2025-05-20
+
+#### Schémas supprimés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/schema-projet-collectivites-transition-ecologique](/betagouv/schema-projet-collectivites-transition-ecologique/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/projets-territoire](/betagouv/projets-territoire/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/collectivites](/betagouv/collectivites/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2025-05-15
 
 #### Schémas ajoutés:
