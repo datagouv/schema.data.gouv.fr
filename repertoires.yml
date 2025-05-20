@@ -343,7 +343,7 @@ fontaine-eau:
   url: https://github.com/datagouv/schema-fontaine-eau.git
   type: tableschema
   email: schema@data.gouv.fr
-# projet-collectivites-transition-ecologique:
-#   url: https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git
-#   type: datapackage
-#   email: adrien.zemour@beta.gouv.fr
+projet-collectivites-transition-ecologique:
+  url: https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git
+  type: datapackage
+  email: adrien.zemour@beta.gouv.fr
