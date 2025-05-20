@@ -659,5 +659,25 @@
       <link>https://schema.data.gouv.fr/betagouv/collectivites</link>
       <description>Schema update on 2025-05-20: 0.1.0 for betagouv/collectivites</description>
       <pubDate>Tue, 20 May 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.24.0 to 0.25.0)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2025-05-20: 0.24.0 to 0.25.0 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - betagouv/schema-projet-collectivites-transition-ecologique (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/betagouv/schema-projet-collectivites-transition-ecologique</link>
+      <description>Schema update on 2025-05-20: 0.1.0 for betagouv/schema-projet-collectivites-transition-ecologique</description>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - betagouv/projets-territoire (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/betagouv/projets-territoire</link>
+      <description>Schema update on 2025-05-20: 0.1.0 for betagouv/projets-territoire</description>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - betagouv/collectivites (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/betagouv/collectivites</link>
+      <description>Schema update on 2025-05-20: 0.1.0 for betagouv/collectivites</description>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

@@ -5,6 +5,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/projets-territoire](/betagouv/projets-territoire/)** : <span style="color:blue;">0.1.0</span><br>
 &nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/collectivites](/betagouv/collectivites/)** : <span style="color:blue;">0.1.0</span><br>
 
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.24.0</span> => <span style="color:green;">0.25.0</span><br>
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/schema-projet-collectivites-transition-ecologique](/betagouv/schema-projet-collectivites-transition-ecologique/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/projets-territoire](/betagouv/projets-territoire/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[betagouv/collectivites](/betagouv/collectivites/)** : <span style="color:blue;">0.1.0</span><br>
+
 ---
 
 ### 2025-05-15
