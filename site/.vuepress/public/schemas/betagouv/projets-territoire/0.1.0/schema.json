@@ -3,13 +3,6 @@
     "name": "projets-territoire",
     "title": "Projets de collectivités",
     "description": "Schéma de données pour décrire un projet de collectivité visant la transition écologique, incluant les informations de suivi, le budget, le statut, les détails du porteur et les référentiels de compétences et leviers.",
-    "keywords": [
-       "transition écologique",
-       "collectivité",
-       "projet",
-       "leviers",
-       "compétences"
-    ],
     "countryCode": "FR",
     "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique",
     "path": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique/datapackage.json",
@@ -201,7 +194,7 @@
        {
           "name": "competences",
           "title": "Compétences",
-          "description": "Liste des compétences associées au projet",
+          "description": "Liste des compétences associées au projet, voir référentiel des compétences M57",
           "type": "array",
           "items": {
              "type": "string"
@@ -215,7 +208,7 @@
        {
           "name": "leviers",
           "title": "Leviers",
-          "description": "Liste des leviers d'action du projet",
+          "description": "Liste des leviers d'action du projet, voir référentiel des leviers SGPE",
           "type": "array",
           "items": {
              "type": "string"

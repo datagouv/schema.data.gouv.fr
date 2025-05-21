@@ -153,13 +153,13 @@ Schéma de données pour décrire un projet de collectivité visant la transitio
 
 #### Compétences - Propriété `competences`
 
-> *Description : Liste des compétences associées au projet*
+> *Description : Liste des compétences associées au projet, voir référentiel des compétences M57*
 - Valeur optionnelle
 - Type : liste
 
 #### Leviers - Propriété `leviers`
 
-> *Description : Liste des leviers d'action du projet*
+> *Description : Liste des leviers d'action du projet, voir référentiel des leviers SGPE*
 - Valeur optionnelle
 - Type : liste
 

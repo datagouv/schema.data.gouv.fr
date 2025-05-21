@@ -3,12 +3,6 @@
     "name": "collectivites",
     "title": "Collectivités",
     "description": "Schéma de données pour décrire les collectivités territoriales associées aux projets de transition écologique.",
-    "keywords": [
-       "collectivité",
-       "commune",
-       "EPCI",
-       "transition écologique"
-    ],
     "countryCode": "FR",
     "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique",
     "path": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique/datapackage.json",
