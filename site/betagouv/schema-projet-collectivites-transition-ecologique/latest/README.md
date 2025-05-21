@@ -21,7 +21,7 @@ Le schéma est organisé en deux tables principales et deux référentiels :
 
 Les référentiels sont disponibles ici : https://github.com/betagouv/schema-projet-collectivites-transition-ecologique/tree/main/reference-data
 
-1. **Référentiel des compétences M57** : Liste hiérarchique des compétences et sous-compétences des collectivités selon la nomenclature M57. Les compétences ont un code du type : 90-XY, et les compétences 90-XYZ
+1. **Référentiel des compétences M57** : Liste hiérarchique des compétences et sous-compétences des collectivités selon la nomenclature M57. Les compétences ont un code du type : 90-XY, et les sous-compétences 90-XYZ
 - Le fichier JSON reprend la structure compétences et sous-compétences associées (lorsqu'il y en a), via une liste d'objets : 
 `{"code": "90-XY",
  "nom": "compétence ABC",
