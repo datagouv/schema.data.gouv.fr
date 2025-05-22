@@ -144,6 +144,15 @@
     ]
   },
   {
+    "id": "indice-de-durabilite-televiseur-organisation-continental-edison-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-samsung-electronics-france-1",
     "recommendations": [
       {
@@ -1674,6 +1683,15 @@
     ]
   },
   {
+    "id": "victim-spz",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-vestel-france-4",
     "recommendations": [
       {
@@ -2484,6 +2502,15 @@
     ]
   },
   {
+    "id": "documentation-vigilance-metropole",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "itineraires-de-randonnee-circuits-qualite-departement-du-calvados",
     "recommendations": [
       {
@@ -2592,7 +2619,25 @@
     ]
   },
   {
+    "id": "donnees-schema-irve-statique-e-motum-sas-20250225-csv",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "test-189",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "haies-plantees-par-le-parc",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -2791,6 +2836,15 @@
   },
   {
     "id": "irve-statique-organisation-greenspot-enersoft-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "citiz-autopartage-provence",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -4734,6 +4788,24 @@
     ]
   },
   {
+    "id": "borne-de-recharge-vehicule-electrique-irve-emida-grand-ouest",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "test-81",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "irve-statique-organisation-rsb-zni-non-parking-camping-supervision-non",
     "recommendations": [
       {
@@ -5418,6 +5490,15 @@
     ]
   },
   {
+    "id": "test-183",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "ccfi",
     "recommendations": [
       {
@@ -5428,6 +5509,15 @@
   },
   {
     "id": "irve-statique-organisation-borneco-2",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "infrastructures-bornes-de-recharge-de-vehicules-electriques-du-reseau-saint-etienne-metropole-semob",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -5599,6 +5689,15 @@
   },
   {
     "id": "irve-statique-organisation-zeborne-sud-aveyron-automobiles",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "test-bornes-de-chargement-publiques-pour-voitures-electriques-du-plusieurs-operateurs-gtw-allego",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -5815,6 +5914,15 @@
   },
   {
     "id": "irve-statique-organisation-e-motum-sas",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-modulo-bornes-de-recharge-electrique",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8641,6 +8749,15 @@
   },
   {
     "id": "borne-de-recharge-irve",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "chargepoint-data-for-selected-cpos-in-france",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -11988,6 +12105,15 @@
     ]
   },
   {
+    "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-virta",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "test-jeu-de-donnees-avec-des-exports-de-catalogue-dorganisations",
     "recommendations": [
       {
@@ -12843,6 +12969,15 @@
     ]
   },
   {
+    "id": "belib-points-de-recharge-pour-vehicules-electriques-donnees-statiques",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "metropolis-le-reseau-de-recharge-pour-vehicules-electriques",
     "recommendations": [
       {
@@ -13015,6 +13150,24 @@
   },
   {
     "id": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharge-du-reseau-te61",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharge-du-reseau-sydego-1",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -13257,6 +13410,15 @@
     ]
   },
   {
+    "id": "infrastructure-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-du-syndicat-intercommunal-de-distribution-denergie-de-loir-et-cher",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "infrastructure-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-du-syndicat-intercommunal-denergie-dindre-et-loire-1",
     "recommendations": [
       {
@@ -13347,7 +13509,25 @@
     ]
   },
   {
+    "id": "bornes-de-recharge-mobisdec-syndicat-departemental-denergies-du-calvados",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "useda-dirve02",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "bornes-de-recharge-electrique-sde18",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -13410,7 +13590,16 @@
     ]
   },
   {
-    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-du-parc-de-la-ville-de-saint-herblain",
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-du-parc-de-la-ville-de-saint-herblain-2022-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-du-parc-de-la-ville-de-saint-herblain-old",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
@@ -13429,6 +13618,15 @@
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-centre-de-conseil-et-de-service-ccs-19",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "loi-lom-declaration-2025",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
@@ -13681,6 +13879,15 @@
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-mutuelle-nationale-des-hospitaliers",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-des-vehicules-a-faible-emission-pour-lannee-2023",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
@@ -15472,6 +15679,15 @@
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-fdg-group-2023",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-sgs-france",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
