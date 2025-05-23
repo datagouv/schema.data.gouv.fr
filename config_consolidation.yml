@@ -22,6 +22,14 @@ atlasante/schema-dae:
   consolidate: false
   search_words:
   - DAE
+betagouv/collectivites:
+  consolidate: false
+  search_words:
+  - "Collectivit\xE9s"
+betagouv/projets-territoire:
+  consolidate: false
+  search_words:
+  - "Projets de collectivit\xE9s"
 cnigfr/operation-amenagement:
   consolidate: false
   search_words:
@@ -68,8 +76,6 @@ datakode/schema-pei:
   publication: false
 etalab/indice-durabilite-lave-linge:
   consolidate: true
-  search_words:
-  - Lave-linge
   consolidated_dataset_id: 67f62e8693c5c74265692d64
   documentation_resource_id: fe5b470c-9e35-4303-bb9f-913f928ee124
   drop_versions:
@@ -78,10 +84,10 @@ etalab/indice-durabilite-lave-linge:
     0.1.1: c36b419c-ae52-4afe-a78e-a1afa862bddf
     latest: 53b4d56e-5e23-4e52-9527-9921ef1934d0
   publication: true
+  search_words:
+  - Lave-linge
 etalab/indice-durabilite-televiseur:
   consolidate: true
-  search_words:
-  - T\xE9l\xE9viseur
   consolidated_dataset_id: 677ce460c58a7cc3d7ea9708
   documentation_resource_id: 69440bd0-d506-4d47-96f6-1be9a38f2e6e
   drop_versions:
@@ -90,6 +96,8 @@ etalab/indice-durabilite-televiseur:
     0.1.1: 6acc87e2-4438-4ced-a4e0-738c55593faf
     latest: 3df7e799-cba8-4f74-b33c-6d9db9b6361e
   publication: true
+  search_words:
+  - T\xE9l\xE9viseur
 etalab/schema-comptage-mobilites-channel:
   consolidate: false
   search_words:
