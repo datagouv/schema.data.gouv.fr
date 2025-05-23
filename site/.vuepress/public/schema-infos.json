@@ -2272,9 +2272,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-impact-service-public-numerique/0.4.0/schema.json"
+            },
+            "0.5.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-impact-service-public-numerique/0.5.0/schema.json"
             }
         },
-        "latest": "0.4.0"
+        "latest": "0.5.0"
     },
     "cnigfr/schema-accessibilite-voirie": {
         "homepage": "https://github.com/cnigfr/schema-accessibilite-voirie.git",
