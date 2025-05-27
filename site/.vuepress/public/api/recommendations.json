@@ -2394,6 +2394,15 @@
     ]
   },
   {
+    "id": "irve-statique-organisation-partage-ma-borne",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "lieux-durables-a-nyons",
     "recommendations": [
       {
