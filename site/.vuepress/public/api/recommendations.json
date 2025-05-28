@@ -1755,6 +1755,15 @@
     ]
   },
   {
+    "id": "asus-notebook-ux3407qa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "stellar-m6e-crosscall-1",
     "recommendations": [
       {
@@ -1936,15 +1945,6 @@
   },
   {
     "id": "stellar-m6-crosscall",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "asus-notebook-v3607vu",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -3700,6 +3700,15 @@
   },
   {
     "id": "irve-saint-martin-belle-roche",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "infrastructure-infrastructures-de-recharge-de-vehicules-elec",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -13612,6 +13621,15 @@
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-richardson",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
         "score": 30
       }
     ]
