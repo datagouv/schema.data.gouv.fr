@@ -11655,6 +11655,15 @@
     ]
   },
   {
+    "id": "logements-vacants-du-parc-prive-en-france-et-par-commune-departement-region",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-32",
     "recommendations": [
       {
