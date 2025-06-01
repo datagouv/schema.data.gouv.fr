@@ -1746,15 +1746,6 @@
     ]
   },
   {
-    "id": "indice-de-reparabilite-organisation-fairphone",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "asus-notebook-ux3407qa",
     "recommendations": [
       {
