@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1231,
+            "dgv_resources": 1229,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -156,7 +156,7 @@
             "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 27,
+            "dgv_resources": 28,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
@@ -416,7 +416,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 176,
+            "dgv_resources": 186,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
@@ -441,7 +441,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 68,
+            "dgv_resources": 69,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
