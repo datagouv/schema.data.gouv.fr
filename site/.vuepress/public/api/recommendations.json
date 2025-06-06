@@ -1836,6 +1836,42 @@
     ]
   },
   {
+    "id": "asus-notebook-p1403cva",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-b9403cva",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-b9403cvar",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-p5405csa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-ux3407qa",
     "recommendations": [
       {
@@ -2475,7 +2511,16 @@
     ]
   },
   {
-    "id": "documentation-climatologie",
+    "id": "irve-statique-organisation-fuzed-fuzed",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-fichier-irve-statique",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
