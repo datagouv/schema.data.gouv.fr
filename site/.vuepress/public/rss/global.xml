@@ -684,5 +684,10 @@
       <link>https://schema.data.gouv.fr/etalab/schema-impact-service-public-numerique</link>
       <description>Schema update on 2025-05-23: 0.4.0 to 0.5.0 for etalab/schema-impact-service-public-numerique</description>
       <pubDate>Fri, 23 May 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.25.0 to 0.26.0)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2025-06-07: 0.25.0 to 0.26.0 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

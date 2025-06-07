@@ -1710,12 +1710,16 @@
                 {
                     "version_name": "0.25.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.25.0/schemas/service.json"
+                },
+                {
+                    "version_name": "0.26.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.26.0/schemas/v1/service.json"
                 }
             ],
             "external_doc": "https://gip-inclusion.github.io/data-inclusion-schema/",
             "external_tool": null,
             "homepage": "https://github.com/gip-inclusion/data-inclusion-schema",
-            "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/latest/schemas/service.json"
+            "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/latest/schemas/v1/service.json"
         },
         {
             "name": "cnigfr/schema-friches",
