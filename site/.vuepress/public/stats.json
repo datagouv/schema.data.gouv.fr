@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 84,
+            "dgv_resources": 93,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -436,7 +436,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 186,
+            "dgv_resources": 187,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
