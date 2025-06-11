@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1230,
+            "dgv_resources": 1231,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 93,
+            "dgv_resources": 109,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -451,7 +451,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 79,
+            "dgv_resources": 83,
             "title": "Sch\u00e9ma de d\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
