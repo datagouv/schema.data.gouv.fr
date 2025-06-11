@@ -1845,6 +1845,177 @@
     ]
   },
   {
+    "id": "asus-notebook-x1404va",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-x1404za",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-x1605va",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-x1605pa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-e510ka",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-e410ma",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-e410ka",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-v3607vj",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-g634jzr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-g635lx",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-g635lw",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-g615lw",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-g615lr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-g615lm",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-fx607vu",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-fa401wu",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-ux8406ca",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-gu603zv",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-x1407qa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-m1502ia",
     "recommendations": [
       {
@@ -4024,6 +4195,15 @@
   },
   {
     "id": "infrastructure-infrastructures-de-recharge-de-vehicules-elec",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "massifs-alpins",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
