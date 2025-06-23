@@ -1881,6 +1881,15 @@
     ]
   },
   {
+    "id": "asus-notebook-x1607qa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-b5604cvf",
     "recommendations": [
       {
@@ -3997,15 +4006,6 @@
   },
   {
     "id": "irve-statique-organisation-ma-borne-auto-2",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-statique-organisation-qowatt",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
