@@ -1881,6 +1881,24 @@
     ]
   },
   {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfb814awna-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-m1407ka",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-x1607qa",
     "recommendations": [
       {
@@ -2125,15 +2143,6 @@
   },
   {
     "id": "asus-notebook-b3605cva",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "indice-de-reparabilite-vestel-france",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -3838,6 +3847,15 @@
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "beta-fichiers-bruts-consolides-des-points-de-recharge-pour-vehicules-electriques-en-france-irve",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
         "score": 30
       }
     ]
