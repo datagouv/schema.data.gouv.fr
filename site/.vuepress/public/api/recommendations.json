@@ -1881,6 +1881,42 @@
     ]
   },
   {
+    "id": "indice-de-reparabilite-organisation-dell-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-tll148bi-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-tll148bi-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-b3605cca",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfb814awna-fr",
     "recommendations": [
       {
@@ -3411,6 +3447,15 @@
     ]
   },
   {
+    "id": "indice-de-reparabilite-organisation-groupe-seb-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfb814ewda-fr",
     "recommendations": [
       {
@@ -3421,15 +3466,6 @@
   },
   {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-tll148w",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "indice-de-reparabilite-vestel-france-lave-linge-tll148bi",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -3484,15 +3520,6 @@
   },
   {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-es-db114ewna-fr",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfa014dwna-fr",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -4771,6 +4798,15 @@
   },
   {
     "id": "irve-statique-organisation-lamia-jp",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-brandt-france",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
