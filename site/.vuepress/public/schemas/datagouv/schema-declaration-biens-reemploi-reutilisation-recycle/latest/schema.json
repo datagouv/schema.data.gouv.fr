@@ -1,7 +1,7 @@
 {
    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
    "name": "schema-declaration-biens-reemploi-reutilisation-recycle",
-   "title": "Schéma de déclaration de l'acquisition de biens issus du réemploi, de la réutilisation ou intégrant des matières recyclées",
+   "title": "Déclaration de l'acquisition de biens issus du réemploi, de la réutilisation ou intégrant des matières recyclées",
    "description": "Spécification du fichier d'échange relatif aux déclarations de la part des dépenses relatives à l'acquisition de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées (loi AGEC).",
    "keywords": [
       "réemploi",
