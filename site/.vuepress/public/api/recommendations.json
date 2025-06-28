@@ -3996,6 +3996,15 @@
     ]
   },
   {
+    "id": "publication-des-recensement-achats-3r",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "beta-fichiers-bruts-consolides-des-points-de-recharge-pour-vehicules-electriques-en-france-irve",
     "recommendations": [
       {
