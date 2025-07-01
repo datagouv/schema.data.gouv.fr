@@ -66,10 +66,8 @@ datagouv/schema-declaration-biens-reemploi-reutilisation-recycle:
   consolidate: true
   consolidated_dataset_id: 68626c75e820e70ccbf63d19
   documentation_resource_id: fb8af5a5-48a7-480a-b98f-6b48250b6898
-  drop_versions:
-  - 0.1.0
   latest_resource_ids:
-    0.1.1: f6617969-eef0-426e-986a-fb0d41dceac8
+    0.1.0: f6617969-eef0-426e-986a-fb0d41dceac8
     latest: 258f8c32-a0c2-46d2-b592-1de9defaf3c6
   publication: true
   search_words:
