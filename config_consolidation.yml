@@ -72,7 +72,7 @@ datagouv/schema-declaration-biens-reemploi-reutilisation-recycle:
   publication: true
   search_words:
   - agec
-  - r\xE9emploi
+  - "r\xE9emploi"
 datagouv/schema-fontaine-eau:
   consolidate: false
   search_words:
@@ -103,7 +103,7 @@ etalab/indice-durabilite-televiseur:
     latest: 3df7e799-cba8-4f74-b33c-6d9db9b6361e
   publication: true
   search_words:
-  - T\xE9l\xE9viseur
+  - "T\xE9l\xE9viseur"
 etalab/schema-comptage-mobilites-channel:
   consolidate: false
   search_words:
@@ -122,7 +122,7 @@ etalab/schema-decp-dpa:
 etalab/schema-dispositif-aide:
   consolidate: false
   search_words:
-  - Dispositifs d'aides
+  - "Dispositifs d'aides"
 etalab/schema-hautes-remunerations:
   consolidate: true
   publication: false
