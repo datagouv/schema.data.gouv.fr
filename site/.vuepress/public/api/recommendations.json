@@ -1,5 +1,14 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-la-manche-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-vitre",
     "recommendations": [
       {
@@ -2574,6 +2583,15 @@
     ]
   },
   {
+    "id": "indice-de-durabilite-lave-linge-organisation-cfee",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "indice-de-durabilite-lave-linge-organisation-sourcing-et-creation-1",
     "recommendations": [
       {
@@ -2745,7 +2763,151 @@
     ]
   },
   {
-    "id": "indice-de-durabilite-televiseur-tv-55z95beg-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "id": "indice-de-durabilite-televiseur-tv-48z80bez-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-65w85bez-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-55w85bez-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-43w85bez-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-50w85bez-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-43w93be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-50w93be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-55w93be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-55w95beg-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-65w93be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-65w95beg-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-75w95beg-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-55z95beg-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-55z90be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-48z90be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-42z90be6-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-tv-85w95beg-organisation-panasonic-france-succursale-de-panasonic-marketing-europe-gmbh",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
@@ -17686,15 +17848,6 @@
   },
   {
     "id": "saint-louis-agglomeration-bornes-de-recharge-pour-vehicule-electrique",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "arrets-horaires-et-parcours-theoriques-du-reseau-de-transports-beemob-beziers-mediterranee",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
