@@ -4680,6 +4680,24 @@
     ]
   },
   {
+    "id": "asus-notebook-cx3401fba",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "asus-notebook-cm3401ffa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-cx1500cka",
     "recommendations": [
       {
@@ -6903,7 +6921,7 @@
     ]
   },
   {
-    "id": "publication-des-recensement-achats-3r",
+    "id": "autosphere-e-motion-byd-aubiere",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
