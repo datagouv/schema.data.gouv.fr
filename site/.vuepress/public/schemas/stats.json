@@ -101,7 +101,7 @@
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 14,
+            "dgv_resources": 15,
             "title": "IRVE dynamique",
             "contributors": 7
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 247,
+            "dgv_resources": 249,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
