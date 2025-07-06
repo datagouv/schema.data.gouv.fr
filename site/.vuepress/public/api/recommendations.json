@@ -4680,6 +4680,15 @@
     ]
   },
   {
+    "id": "asus-notebook-e1504fa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-cx3401fba",
     "recommendations": [
       {
