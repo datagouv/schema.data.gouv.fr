@@ -1,5 +1,23 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-toulon",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-du-pays-de-la-chataigneraie-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-la-manche-1",
     "recommendations": [
       {
@@ -7002,15 +7020,6 @@
     ]
   },
   {
-    "id": "documentation-climatologie",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-soregies",
     "recommendations": [
       {
@@ -7048,15 +7057,6 @@
   },
   {
     "id": "irve-statique-organisation-partage-ma-borne",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "lieux-durables-a-nyons",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -7164,15 +7164,6 @@
     ]
   },
   {
-    "id": "electric-vehicles-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "documentation-vigilance-metropole",
     "recommendations": [
       {
@@ -7245,15 +7236,6 @@
     ]
   },
   {
-    "id": "zones-de-preemption-espaces-naturels-sensibles-zpens-du-departement-de-la-charente",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-sts26",
     "recommendations": [
       {
@@ -7299,15 +7281,6 @@
     ]
   },
   {
-    "id": "test-189",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "haies-plantees-par-le-parc",
     "recommendations": [
       {
@@ -7318,24 +7291,6 @@
   },
   {
     "id": "caracteristiques-comptables-financieres-et-demploi-des-entreprises-en-2022",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "donnees-essentielles-des-contrats-de-concession-nca-depuis-le-1er-janvier-2024",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "donnees-essentielles-des-contrats-de-concession-vdn-depuis-le-1er-janvier-2024",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -7452,15 +7407,6 @@
     ]
   },
   {
-    "id": "donnees-essentielles-des-contrats-de-concession-vdn-depuis-1er-octobre-2018",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "donnees-essentielles-des-contrats-de-concession-nca-depuis-1er-octobre-2018",
     "recommendations": [
       {
@@ -7543,15 +7489,6 @@
   },
   {
     "id": "irve-statique-organisation-e-motum-sas-3",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "irve-sydesl-71",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -7893,25 +7830,7 @@
     ]
   },
   {
-    "id": "liste-des-bornes-irve",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-lamia-jp",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-departement-du-cher",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8532,24 +8451,6 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-delectricite-et-de-gaz-de-la-charente",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-denergie-et-dequipement-du-finistere",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-zephyre",
     "recommendations": [
       {
@@ -8596,15 +8497,6 @@
   },
   {
     "id": "cadial",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndical-departemental-denergies-de-la-manche",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8829,24 +8721,6 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-syndicat-departemental-denergies-et-delectricite-du-pays-catalan",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-territoire-denergie-smeg-gard",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-maneo-9",
     "recommendations": [
       {
@@ -8928,24 +8802,6 @@
     ]
   },
   {
-    "id": "schema-directeur-irve-le-havre-seine-metropole",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-metropole-du-grand-nancy",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-indelec-mobility-2",
     "recommendations": [
       {
@@ -8992,24 +8848,6 @@
   },
   {
     "id": "irve-statique-organisation-indelec-mobility-avia-location",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-denergie-de-la-haute-garonne",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "sdirve-sev-base-de-donnees-globales-reglementaire-ndeg2-actualisee",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -9099,15 +8937,6 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-te38",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-inouid-smart-mobility-caliceo-ste-foy",
     "recommendations": [
       {
@@ -9144,25 +8973,7 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-denergies-de-la-dordogne",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-carroserie-denis-jean",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-delectricite-de-meurthe-et-moselle",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -9307,15 +9118,6 @@
   },
   {
     "id": "irve-statique-organisation-bump-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-de-deploiement-des-infrastructures-de-recharges-pour-vehicules-electriques-alpes-de-haute-provence",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -9523,15 +9325,6 @@
   },
   {
     "id": "irve-dynamique-organisation-lr-habitat-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-sded-territoire-denergie-drome",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -9810,15 +9603,6 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-intercommunal-denergies-du-departement-de-laveyron",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "cote-dargent-auto-gnj",
     "recommendations": [
       {
@@ -9973,15 +9757,6 @@
   },
   {
     "id": "irve-statique-organisation-zeborne-malbet-auto-passion",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-dequipements-des-communes-des-landes",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -10503,15 +10278,6 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-denergies-et-environnement-de-la-gironde",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-sergent-1",
     "recommendations": [
       {
@@ -10549,15 +10315,6 @@
   },
   {
     "id": "camping-des-graniers-rsda-mobility-satujo-euro-taxi-line-ricome-et-sadoul-axa-france",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-haute-loire-sde-43",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -10890,15 +10647,6 @@
     ]
   },
   {
-    "id": "schema-directeur-de-deploiement-des-infrastructures-de-recharges-pour-vehicules-electriques-haute-savoie",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-sanou-electricite-1",
     "recommendations": [
       {
@@ -11071,15 +10819,6 @@
   },
   {
     "id": "irve-statique-organisation-volta-sas",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "programme-des-vols-air-france",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -11736,15 +11475,6 @@
     ]
   },
   {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-departemental-des-energies-de-seine-et-marne",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-lumiin-50",
     "recommendations": [
       {
@@ -12177,15 +11907,6 @@
     ]
   },
   {
-    "id": "schema-directeur-a-lechelle-du-departement-de-la-vienne-86-pour-le-developpement-dinfrastructures-de-recharges-ouvertes-au-public-pour-vehicules-electriques-et-hybrides-rechargeables",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-vinci-autoroutes",
     "recommendations": [
       {
@@ -12313,15 +12034,6 @@
   },
   {
     "id": "mairie-de-ghyvelde",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-denergie-des-deux-sevres",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -13375,15 +13087,6 @@
   },
   {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-zeborne-intermarche-de-courtisols",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-organisation-syndicat-intercommunal-denergie-des-communes-de-flandre-territoire-denergie-flandre",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -14842,15 +14545,6 @@
   },
   {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-suraya-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "base-adresse-locale-lisle-sur-tarn",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -16803,25 +16497,7 @@
     ]
   },
   {
-    "id": "referentiel-geographique-adresses-ban-gpcu-grand-poitiers-donnees-de-reference-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-virta",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "test-jeu-de-donnees-avec-des-exports-de-catalogue-dorganisations",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -17433,15 +17109,6 @@
     ]
   },
   {
-    "id": "emissions-de-gaz-a-effet-de-serre-des-installations-soumises-a-quota-de-lue",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-riquewihr",
     "recommendations": [
       {
@@ -17784,15 +17451,6 @@
     ]
   },
   {
-    "id": "masses-attribuees-par-le-fiphfp-par-le-biais-de-conventions-aux-employeurs-publics",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "bornes-de-recharge-pour-vehicule-electrique-1",
     "recommendations": [
       {
@@ -17839,15 +17497,6 @@
   },
   {
     "id": "infrastructure-de-recharge-vehicules-electriques-irve-de-saint-etienne-metropole",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -18180,15 +17829,6 @@
     ]
   },
   {
-    "id": "vigilance-meteorologique-en-metropole",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "bornes-de-recharge-pour-vehicules-electriques-sde29",
     "recommendations": [
       {
@@ -18265,6 +17905,24 @@
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-banque-populaire-du-sud-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-neolia-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
         "score": 30
       }
     ]
