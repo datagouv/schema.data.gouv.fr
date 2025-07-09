@@ -1,5 +1,23 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-la-boissiere-des-landes",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-chambre-de-commerce-et-dindustrie-metropolitaine-aix-marseille-provence",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-toulon",
     "recommendations": [
       {
@@ -19,6 +37,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-la-manche-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-5",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -54,6 +81,24 @@
     ]
   },
   {
+    "id": "donnees-biens-reemploi-reutilisation-recycle-cd76-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "achats-realises-en-2024-entrant-dans-le-cadre-la-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-art-58-loi-agec-organisation-grand-annecy-agglomeration",
     "recommendations": [
       {
@@ -73,6 +118,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-rennes",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-istres-3",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -144,6 +198,15 @@
     ]
   },
   {
+    "id": "declaration-loi-agec-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-maisons-alfort",
     "recommendations": [
       {
@@ -180,16 +243,7 @@
     ]
   },
   {
-    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-4",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-3",
+    "id": "achats-comportant-des-produits-recycles-reemployes-reutilises-ou-issus-de-dons-loi-agec-tours-metropole-val-de-loire",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -279,6 +333,15 @@
     ]
   },
   {
+    "id": "depenses-agec-2024-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-lillebonne",
     "recommendations": [
       {
@@ -306,6 +369,24 @@
     ]
   },
   {
+    "id": "agec-declaration-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-depenses-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-kaysersberg-vignoble",
     "recommendations": [
       {
@@ -315,7 +396,34 @@
     ]
   },
   {
+    "id": "declaration-agec-2025-achats-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-val-dyerres-val-de-seine-7",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-de-lile-de-noirmoutier",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-declaration-agec-cc-bresse-louhannaise-intercom",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -441,6 +549,15 @@
     ]
   },
   {
+    "id": "declaration-agec-2024-16",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ccas-de-buxerolles",
     "recommendations": [
       {
@@ -477,7 +594,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-avranches",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-avranches",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -495,6 +612,15 @@
     ]
   },
   {
+    "id": "declaration-agec-3",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-danzin",
     "recommendations": [
       {
@@ -504,7 +630,43 @@
     ]
   },
   {
-    "id": "departement-de-la-seine-maritime-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+    "id": "agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "departement-de-la-seine-maritime-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-agec-pour-lannee-2024-3",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-agec-pour-lannee-2024-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-agec-pour-lannee-2024-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -523,6 +685,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-saint-alban-leysse",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-agec-pour-lannee-2024",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -630,6 +801,15 @@
     ]
   },
   {
+    "id": "declaration-agec-2024-13",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-de-la-gironde",
     "recommendations": [
       {
@@ -639,7 +819,34 @@
     ]
   },
   {
+    "id": "declaration-des-donnees-relatives-a-larticle-58-de-la-loi-agec-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "marseille-declaration-agec-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-agence-technique-departementale-de-la-charente",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-informatique",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -711,6 +918,15 @@
     ]
   },
   {
+    "id": "declaration-agec-2024-12",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-angers-loire-metropole",
     "recommendations": [
       {
@@ -721,6 +937,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-danjoutin",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-acquisition-de-biens-issus-du-reemploi-pour-luniversite-de-pau-et-des-pays-de-ladour",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -748,6 +973,24 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-ville-de-nice",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "loi-agec-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "agec-2024-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -792,7 +1035,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-de-la-plaine-de-l4ain",
+    "id": "declaration-donnees-article-58-de-la-loi-agec",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -801,7 +1044,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-thouare-sur-loire",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-de-la-plaine-de-l4ain",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -810,7 +1053,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-damberieu-en-bugey",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-thouare-sur-loire",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -819,7 +1062,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-la-domitienne",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-damberieu-en-bugey",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -828,7 +1071,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-direction-des-achats-de-letat",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-la-domitienne",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -837,7 +1080,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-sautron",
+    "id": "declaration-loi-agec-2024-3",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -846,7 +1089,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-lot-et-garonne",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-direction-des-achats-de-letat",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -855,7 +1098,43 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-du-val-doise",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-sautron",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-relative-a-larticle-58-de-la-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-lot-et-garonne",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-du-val-doise",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-11",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -882,7 +1161,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-marquette-lez-lille",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-marquette-lez-lille",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -891,7 +1170,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-colombier-saugnieu",
+    "id": "declaration-agec-2024-10",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -900,7 +1179,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-kaysersberg-vignoble",
+    "id": "declaration-agec-2",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -909,7 +1188,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-laube",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-colombier-saugnieu",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -918,7 +1197,34 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-eptb-eaux-et-vilaine",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-kaysersberg-vignoble-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-laube",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-eptb-eaux-et-vilaine",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-7",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -936,7 +1242,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-martigues",
+    "id": "declaration-agec-2025-sur-les-depenses-2024",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -945,7 +1251,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-reims",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-de-lessonne",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -954,7 +1260,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-urbaine-du-grand-reims",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-martigues",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -963,7 +1269,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-du-bassin-darcachon-nord",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-reims",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -972,7 +1278,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-yerres",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-urbaine-du-grand-reims",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -981,7 +1287,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-provence-verte",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-du-bassin-darcachon-nord",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -990,7 +1296,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-lyon",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-yerres",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -999,7 +1305,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-vendome",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-provence-verte",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1008,7 +1314,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-ecouflant",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-lyon",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1017,7 +1323,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-vienne-condrieu-agglomeration",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-vendome",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1026,7 +1332,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-de-louest-rhodanien",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-ecouflant",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1035,7 +1341,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-maine-et-loire",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-vienne-condrieu-agglomeration",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1044,7 +1350,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-villeurbanne-1",
+    "id": "declaration-agec-2024-9",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1053,7 +1359,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-borne",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-de-louest-rhodanien",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1062,7 +1368,106 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-tarn-et-garonne",
+    "id": "agec-2024-sna",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-donnees-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "agec-2024-ville-de-vernon",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "donnees-agec-2024-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-maine-et-loire",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-ville-de-reze",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-8",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-villeurbanne",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-6",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-loi-agec-depenses-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-borne",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-de-tarn-et-garonne",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1080,7 +1485,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-saint-colomban",
+    "id": "declaration-agec-2024-5",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1089,7 +1494,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-perols",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-saint-colomban",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1098,7 +1503,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-pontarlier",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-pontarlier",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1107,7 +1512,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-lambersart",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-lambersart",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1116,7 +1521,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-bressuire",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-bressuire",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1125,7 +1530,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-porte-de-lisere",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-porte-de-lisere",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1134,7 +1539,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-saint-prix",
+    "id": "declaration-agec-annee-2024",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1143,7 +1548,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-syndicat-du-bois-de-laumone",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-saint-prix",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1152,7 +1557,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-guipavas",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-syndicat-du-bois-de-laumone",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1161,7 +1566,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-sarreguemines",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-guipavas",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1170,7 +1575,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-fressenneville",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-sarreguemines",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1179,7 +1584,25 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ccas-de-bessan",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-fressenneville",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-2024-loi-agec-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ccas-de-bessan",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1197,7 +1620,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-chomelix",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-chomelix",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1206,7 +1629,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-dynacite",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-dynacite",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1215,7 +1638,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-bessan",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-bessan",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1224,7 +1647,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-dijon-metropole",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-dijon-metropole",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1233,7 +1656,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-metropole-nice-cote-dazur",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-metropole-nice-cote-dazur",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1242,7 +1665,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-crous-grenoble-alpes",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-crous-grenoble-alpes",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1260,7 +1683,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-charlieu-belmont-communaute",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-charlieu-belmont-communaute",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1269,7 +1692,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-simaje-du-pays-de-lourdes",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-simaje-du-pays-de-lourdes",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1278,7 +1701,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-villefranche-sur-saone",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-villefranche-sur-saone",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1287,7 +1710,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-fercher",
+    "id": "declaration-agec-2024-departement-des-cotes-darmor",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1296,7 +1719,25 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-de-seine-et-marne",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-fercher",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-du-departement-de-loire-atlantique",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-de-seine-et-marne",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1314,7 +1755,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-coeur-de-loire",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-coeur-de-loire",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1323,7 +1764,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-du-gard",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-conseil-departemental-du-gard",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1332,7 +1773,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-la-ferte-sous-jouarre-8",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-la-ferte-sous-jouarre",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1341,7 +1782,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-syndicat-mixte-de-lagglomeration-tarbaise",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-syndicat-mixte-de-lagglomeration-tarbaise",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1359,7 +1800,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-du-val-damour",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-du-val-damour",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1368,7 +1809,16 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-sarrians",
+    "id": "loi-agec-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-sarrians",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1395,6 +1845,15 @@
     ]
   },
   {
+    "id": "declaration-loi-agec-2024-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-paimpol",
     "recommendations": [
       {
@@ -1404,7 +1863,25 @@
     ]
   },
   {
+    "id": "donnees-loi-agec-mairie-cahors-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-chauny",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "loi-agec",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1449,7 +1926,7 @@
     ]
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-du-cher",
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-du-cher",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1512,7 +1989,34 @@
     ]
   },
   {
+    "id": "declaration-des-depenses-relatives-aux-achats-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-article-58-loi-agec-en-2024-departement-de-la-dordogne",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-neuville-de-poitou",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-val-de-saone-centre",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-2024-loi-agec-ville-de-begles",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1539,6 +2043,33 @@
     ]
   },
   {
+    "id": "declaration-2024-loi-agec-ville-de-pessac",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-4",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-de-grand-chambery",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-sophia-antipolis-casa",
     "recommendations": [
       {
@@ -1549,6 +2080,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-montivilliers",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-3",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1665,6 +2205,24 @@
     ]
   },
   {
+    "id": "declaration-agec-2024-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-region-occitanie-pyrenees-mediterranee",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mauges-sur-loire",
     "recommendations": [
       {
@@ -1701,6 +2259,15 @@
     ]
   },
   {
+    "id": "declaration-2024-agec-ville-de-feyzin",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-bretagne-porte-de-loire-communaute",
     "recommendations": [
       {
@@ -1719,7 +2286,34 @@
     ]
   },
   {
+    "id": "declaration-des-depenses-agec-2024-2025",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-marolles-en-hurepoix",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2025",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1810,6 +2404,24 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ville-de-croix",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-agec-2024-vincennes",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "achats-comportant-des-produits-recycles-reemployes-reutilises-ou-issus-de-dons-loi-agec-ville-de-tours",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -1935,6 +2547,15 @@
     ]
   },
   {
+    "id": "declaration-2025-des-depenses-2024-relatives-aux-achats-issus-de-larticle-58-de-la-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-syndicat-intercommunal-dalimentation-en-eau-du-nord-ouest-varois",
     "recommendations": [
       {
@@ -2043,6 +2664,24 @@
     ]
   },
   {
+    "id": "achats-comportant-des-produits-recycles-reemployes-reutilises-ou-issus-de-dons-declaration-annuelle-des-collectivites-loi-agec-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "achats-comportant-des-produits-recycles-reemployes-reutilises-ou-issus-de-dons-declaration-annuelle-des-collectivites-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-semoctom",
     "recommendations": [
       {
@@ -2097,6 +2736,15 @@
     ]
   },
   {
+    "id": "declaration-agec-2024-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-cabries",
     "recommendations": [
       {
@@ -2125,6 +2773,15 @@
   },
   {
     "id": "declaration-des-depenses-relatives-aux-achats-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-article-58-loi-agec-agglo-pays-dissoire",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-2025-des-depenses-2024-relatives-aux-achats-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-article-58-loi-agec-2025-agec-2024",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -2223,6 +2880,15 @@
     ]
   },
   {
+    "id": "declaration-loi-agec-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-scom-est-vendeen",
     "recommendations": [
       {
@@ -2233,6 +2899,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-etoile-sur-rhone",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -2260,6 +2935,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-open-data-rodez-agglomeration",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "loi-agec-2024-commune-de-cagnes-sur-mer",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -2332,6 +3016,15 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-dagglomeration-du-grand-avignon",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-dacquisition-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-agec",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -2466,6 +3159,15 @@
     ]
   },
   {
+    "id": "declaration-2024-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-guichen",
     "recommendations": [
       {
@@ -2529,6 +3231,15 @@
     ]
   },
   {
+    "id": "depenses-2024-consacrees-a-lacquisition-de-biens-issus-de-leconomie-circulaire-pour-la-cchf",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-sictom-issoire-brioude",
     "recommendations": [
       {
@@ -2574,7 +3285,25 @@
     ]
   },
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-du-bassin-daubenas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-castries",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "declaration-annuelle-loi-agec",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -4693,6 +5422,15 @@
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "indice-de-reparabilite-organisation-fairphone-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
         "score": 30
       }
     ]
@@ -7002,7 +7740,7 @@
     ]
   },
   {
-    "id": "declaration-2024-loi-agec-ville-de-begles",
+    "id": "ozecar-points-de-recharge-en-corse-donnes-data-gouv-fr-oze",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -7498,15 +8236,6 @@
   },
   {
     "id": "irve-statique-engie-vianeo-all-janvier2025-csv",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "test-data-set",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8227,6 +8956,15 @@
   },
   {
     "id": "aquitaine-parking",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "irve-statique-organisation-ozecar",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -11763,15 +12501,6 @@
     ]
   },
   {
-    "id": "electro-mob-44",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "infrastructures-de-recharge-centrakor-sarl-wilis-organisation-aceap-autorecharge",
     "recommendations": [
       {
@@ -12448,15 +13177,6 @@
   },
   {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-bornevo",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "sas-energia-doghje-lenergie-daujourdhui-6",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -13159,15 +13879,6 @@
   },
   {
     "id": "chargepoint-data-for-selected-cpos-in-france",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "sas-energia-doghje-lenergie-daujourdhui-2",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
