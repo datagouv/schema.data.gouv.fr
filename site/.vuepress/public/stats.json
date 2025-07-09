@@ -96,12 +96,12 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1194,
+            "dgv_resources": 1191,
             "title": "IRVE statique",
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 15,
+            "dgv_resources": 14,
             "title": "IRVE dynamique",
             "contributors": 7
         },
@@ -111,7 +111,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 205,
+            "dgv_resources": 204,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -121,7 +121,7 @@
             "contributors": 1
         },
         "scdl/catalogue": {
-            "dgv_resources": 6,
+            "dgv_resources": 7,
             "title": "Catalogue simplifi\u00e9",
             "contributors": 7
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 254,
+            "dgv_resources": 255,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -451,7 +451,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 287,
+            "dgv_resources": 368,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
