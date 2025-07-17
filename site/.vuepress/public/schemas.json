@@ -2696,6 +2696,50 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git"
+        },
+        {
+            "name": "cnigfr/Geostandards-Risques",
+            "title": "G\u00e9ostandards Risques - Mod\u00e8le Commun",
+            "description": "La famille des G\u00e9ostandards Risques a pour objectif de standardiser les donn\u00e9es num\u00e9riques g\u00e9ographiques relatives aux proc\u00e9dures r\u00e9glementaires de pr\u00e9vention des risques. Ce document constitue le socle commun de ces G\u00e9ostandards en d\u00e9finissant les concepts communs qui sont ensuite pr\u00e9cis\u00e9s dans les profils applicatifs d\u00e9di\u00e9s aux proc\u00e9dures particuli\u00e8res.",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-Risques/1.0.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://cnig.gouv.fr/IMG/pdf/geostandards-risques-modele-commun-v1_0.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/Geostandards-Risques/",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-Risques/latest/schema.yml"
+        },
+        {
+            "name": "cnigfr/Geostandards-risques-ppr",
+            "title": "G\u00e9ostandards Risques - Plans de pr\u00e9vention des risques (PPR)",
+            "description": "La famille des G\u00e9ostandards Risques a pour objectif de standardiser les donn\u00e9es num\u00e9riques g\u00e9ographiques relatives aux proc\u00e9dures r\u00e9glementaires de pr\u00e9vention des risques. Ce document est le profil applicatif d\u00e9di\u00e9 aux Plans de Pr\u00e9vention des Risques (PPR) Naturels et Technologiques.",
+            "schema_type": "other",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-risques-ppr/1.0.1/schema.yml"
+                }
+            ],
+            "external_doc": "https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf",
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/Geostandards-risques-ppr",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-risques-ppr/latest/schema.yml"
         }
     ]
 }

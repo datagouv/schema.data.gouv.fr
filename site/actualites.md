@@ -1,3 +1,11 @@
+### 2025-07-17
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/Geostandards-Risques](/cnigfr/Geostandards-Risques/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/Geostandards-risques-ppr](/cnigfr/Geostandards-risques-ppr/)** : <span style="color:blue;">1.0.1</span><br>
+
+---
+
 ### 2025-06-13
 
 #### Montée de version:

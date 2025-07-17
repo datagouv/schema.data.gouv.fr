@@ -3084,5 +3084,46 @@
         "labels": null,
         "consolidation_dataset_id": null,
         "latest": "0.1.0"
+    },
+    "cnigfr/Geostandards-Risques": {
+        "homepage": "https://github.com/cnigfr/Geostandards-Risques.git",
+        "external_doc": "https://cnig.gouv.fr/IMG/pdf/geostandards-risques-modele-commun-v1_0.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/cnigfr/Geostandards-Risques/1.0.0/schema.yml"
+            }
+        },
+        "latest": "1.0.0"
+    },
+    "cnigfr/Geostandards-risques-ppr": {
+        "homepage": "https://github.com/cnigfr/Geostandards-risques-ppr.git",
+        "external_doc": "https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf",
+        "external_tool": null,
+        "type": "other",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/cnigfr/Geostandards-risques-ppr/1.0.1/schema.yml"
+            }
+        },
+        "latest": "1.0.1"
     }
 }
