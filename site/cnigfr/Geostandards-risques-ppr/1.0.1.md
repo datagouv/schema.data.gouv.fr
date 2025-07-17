@@ -12,8 +12,8 @@ Ce dépôt est le lieu des développements relatifs à la refonte du Géostandar
 
 Les versions en cours de ce géostandard sont accessibles ici :
 
-* [Version correctrice 1.0.1](./standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf) en cours de publication sur le site du CNIG
-* [Version en cours de rédaction](./standard/Document.md)
+* [Version correctrice 1.0.1](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf) en cours de publication sur le site du CNIG
+* [Version en cours de rédaction](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md)
 
 Ce standard s'appuie sur le Géostandard risques - Modèle commun dont les développements se déroulent sur le dépôt [Geostandards Risques](https://github.com/cnigfr/Geostandards-Risques)
 
@@ -21,35 +21,35 @@ Ce standard CNIG ne possède pas de schéma de données directement accessible s
 
 Davantage de documentation peut être trouvée sur le site du CNIG sur la [page suivante](https://cnig.gouv.fr/gt-risques-a25378.html).
 
-![logo du CNIG](./ressources/images/logo-cnig.png)
-![logo GT Risques](./ressources/images/logo-gt-risques.png)
-![logo MTE](./ressources/images/ministere-de-la-transition-ecologique-et-solidaire_logo.png)
+![logo du CNIG](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/ressources/images/logo-cnig.png)
+![logo GT Risques](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/ressources/images/logo-gt-risques.png)
+![logo MTE](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/ressources/images/ministere-de-la-transition-ecologique-et-solidaire_logo.png)
 
 ## Contexte
 
-Le contexte d'élaboration de ce standard est décrit dans la partie [Objectif et raison d'être du standard](./standard/Document.md#objectif-et-raison-d%C3%AAtre-du-standard).
+Le contexte d'élaboration de ce standard est décrit dans la partie [Objectif et raison d'être du standard](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#objectif-et-raison-d%C3%AAtre-du-standard).
 
 ## Cadre juridique
 
-Le cadre juridique de ce standard est décrit dans la partie [Cadre réglementaire des Plans de Prévention des Risques](./standard/Document.md#cadre-réglementaire-des-plans-de-prévention-des-risques)
+Le cadre juridique de ce standard est décrit dans la partie [Cadre réglementaire des Plans de Prévention des Risques](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#cadre-réglementaire-des-plans-de-prévention-des-risques)
 
 ## Finalité
 
-La finalité de ce standard est décrite dans la partie [Objectif et raison d'être di standard](./standard/Document.md#objectif-et-raison-d%C3%AAtre-du-standard)
+La finalité de ce standard est décrite dans la partie [Objectif et raison d'être du standard](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#objectif-et-raison-d%C3%AAtre-du-standard)
 
 ## Cas d’usage
 
-Les cas d'usages types de ce standard sont décrits dans la partie [Cas d'utilisation](./standard/Document.md#cas-dutilisation)
+Les cas d'usages types de ce standard sont décrits dans la partie [Cas d'utilisation](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#cas-dutilisation)
 
 ## Organisation du dépôt
 
-* Le dossier [ressources](ressources) contient les documents utiles pour les utilisateurs du standard ;
-* Le dossier [groupe_de_travail_CNIG](groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
-* Le dossier [standard](standard) contient le standard ainsi que les documents qui lui sont liés ;
+* Le dossier [ressources](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/ressources) contient les documents utiles pour les utilisateurs du standard ;
+* Le dossier [groupe_de_travail_CNIG](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
+* Le dossier [standard](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard) contient le standard ainsi que les documents qui lui sont liés ;
 
 ## Modalités de production des données
 
-Les modalités de production des données PPR sont décrites dans la partie [Cycle de vie des données des données](./standard/Document.md#cycle-de-vie-des-données).
+Les modalités de production des données PPR sont décrites dans la partie [Cycle de vie des données des données](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#cycle-de-vie-des-données).
 
 ### Données ouvertes
 

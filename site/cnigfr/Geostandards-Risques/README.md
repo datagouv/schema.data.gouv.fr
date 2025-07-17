@@ -14,7 +14,7 @@ Les versions en cours des géostandards développés par ce groupe de travail so
 
 * **Géostandards risques - Modèle commun** :
   * [Version 1.0 **publiée** sur le site du CNIG](https://cnig.gouv.fr/IMG/pdf/geostandards-risques-modele-commun-v1_0.pdf)
-  * [Version en cours de rédaction](./standards/Geostandards-risques-commun/Document.md)
+  * [Version en cours de rédaction](https://github.com/cnigfr/Geostandards-Risques/tree/main/standards/Geostandards-risques-commun/Document.md)
 
 * **Géostandards risques - Plans de prévention des risques (PPR)**, sur le dépot github spécifique de ce standard :
   * [Version 1.0.1](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf) en cours de publication sur le site du CNIG
@@ -22,17 +22,17 @@ Les versions en cours des géostandards développés par ce groupe de travail so
 
 ## Organisation du dépôt
 
-* Le répertoire [documents](/documents) contient ou fait référence aux documents existants utiles au groupe de travail :
+* Le répertoire [documents](https://github.com/cnigfr/Geostandards-Risques/tree/main/documents) contient ou fait référence aux documents existants utiles au groupe de travail :
 
   * Standards à refondre, en adhérence, ou en rapport avec la problématique risques
 
   * Autres documents utiles en rapport avec les standards risques (guides, études, ... )
 
-* Le répertoire [suivi](/suivi) contient les documents de suivi du Groupe de travail : agendas, présentations, compte-rendus des réunions du groupe.
+* Le répertoire [suivi](https://github.com/cnigfr/Geostandards-Risques/tree/main/suivi) contient les documents de suivi du Groupe de travail : agendas, présentations, compte-rendus des réunions du groupe.
 
-* Le répertoire [standards](/standards) contient les éléments constitutifs du standard "modèle commun" en cours de rédaction.
+* Le répertoire [standards](https://github.com/cnigfr/Geostandards-Risques/tree/main/standards) contient les éléments constitutifs du standard "modèle commun" en cours de rédaction.
 
-* Le répertoire [ressources](/ressources) contient des ressources diverses (scripts, jeux tests, ...) pour la mise en oeuvre des géostandards
+* Le répertoire [ressources](https://github.com/cnigfr/Geostandards-Risques/tree/main/ressources) contient des ressources diverses (scripts, jeux tests, ...) pour la mise en oeuvre des géostandards
 
 ## Liste de diffusion
 
