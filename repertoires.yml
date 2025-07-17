@@ -347,3 +347,17 @@ projet-collectivites-transition-ecologique:
   url: https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git
   type: datapackage
   email: adrien.zemour@beta.gouv.fr
+geostandard-risque:
+  url: https://github.com/cnigfr/Geostandards-Risques.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnig.gouv.fr/IMG/pdf/geostandards-risques-modele-commun-v1_0.pdf
+  labels:
+    - CNIG
+geostandard-risque-ppr:
+  url: https://github.com/cnigfr/Geostandards-risques-ppr.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf
+  labels:
+    - CNIG
