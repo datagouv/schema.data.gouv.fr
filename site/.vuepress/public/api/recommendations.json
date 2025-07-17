@@ -7812,15 +7812,6 @@
     ]
   },
   {
-    "id": "de-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "autosphere-e-motion-byd-aubiere",
     "recommendations": [
       {
@@ -7894,15 +7885,6 @@
   },
   {
     "id": "irve-statique-organisation-partage-ma-borne",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "donnees-du-barometre-de-lapplication-des-lois",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8127,15 +8109,6 @@
     ]
   },
   {
-    "id": "caracteristiques-comptables-financieres-et-demploi-des-entreprises-en-2022",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "hainaut-services-automobiles",
     "recommendations": [
       {
@@ -8236,15 +8209,6 @@
   },
   {
     "id": "propositions-faites-lors-de-la-consultation-publique-lancee-par-la-mission-sur-la-politique-publique-de-la-donnee-des-algorithmes-et-des-codes-sources",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "donnees-essentielles-des-contrats-de-concession-nca-depuis-1er-octobre-2018",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8389,15 +8353,6 @@
   },
   {
     "id": "golf-de-garonne-irve-statique-organisation-solveo-energies",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "donnees-essentielles-de-la-commande-publique-de-paris-la-defense-decembre-2024",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -9109,15 +9064,6 @@
   },
   {
     "id": "infrastructure-infrastructures-de-recharge-de-vehicules-elec",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "massifs-alpins",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -18279,15 +18225,6 @@
     ]
   },
   {
-    "id": "bornes-de-recharge-de-vehicule-electrique-issues-dopenstreetmap",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "bornes-de-recharges-izivia-grand-lyon",
     "recommendations": [
       {
@@ -18715,6 +18652,24 @@
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-man-location-et-services",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-volkswagen-bank",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
         "score": 30
       }
     ]
