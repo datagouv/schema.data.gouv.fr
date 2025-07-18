@@ -118,7 +118,7 @@
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
+            "contributors": 2
         },
         "scdl/catalogue": {
             "dgv_resources": 6,
@@ -143,7 +143,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 76,
             "title": "Lieux de covoiturage",
-            "contributors": 7
+            "contributors": 2
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -153,7 +153,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 19,
             "title": "Lieux de stationnement",
-            "contributors": 3
+            "contributors": 2
         },
         "scdl/budget": {
             "dgv_resources": 29,
@@ -173,22 +173,22 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 10
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 51,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-bal": {
             "dgv_resources": 336,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -208,17 +208,17 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 4,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 57,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 7,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "datatourisme/ontology": {
             "dgv_resources": 9,
@@ -228,22 +228,22 @@
         "etalab/schema-zfe": {
             "dgv_resources": 22,
             "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 3
+            "contributors": 2
         },
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 4
+            "contributors": 2
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
             "title": "Stations de taxi",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 744,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 3
+            "contributors": 2
         },
         "datakode/schema-pei": {
             "dgv_resources": 1,
@@ -253,12 +253,12 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 7,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 5
+            "contributors": 2
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -268,22 +268,22 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 0,
@@ -298,62 +298,62 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 48,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 262,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 8,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 2,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-socle-reseaux": {
             "dgv_resources": 0,
             "title": "Socle des R\u00e9seaux (STAR-DT)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
             "dgv_resources": 0,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-continuites-ecologiques-regionales": {
             "dgv_resources": 2,
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-reseaux-electriques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-grace-thd": {
             "dgv_resources": 4,
