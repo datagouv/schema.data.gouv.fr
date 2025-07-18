@@ -5454,6 +5454,15 @@
     ]
   },
   {
+    "id": "indice-de-reparabilite-organisation-btlec-est",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "asus-notebook-cx1505cka",
     "recommendations": [
       {
@@ -11494,15 +11503,6 @@
   },
   {
     "id": "irve-statique-organisation-mobelec",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "gtfs-transport-horaires-chemins-de-fer-corse-1",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -18652,6 +18652,15 @@
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-departemental-de-la-gironde",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
         "score": 30
       }
     ]
