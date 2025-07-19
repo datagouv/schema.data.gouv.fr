@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1185,
+            "dgv_resources": 1187,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -118,7 +118,7 @@
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 2
+            "contributors": 1
         },
         "scdl/catalogue": {
             "dgv_resources": 6,
