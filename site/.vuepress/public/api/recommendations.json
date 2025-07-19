@@ -12105,6 +12105,15 @@
     ]
   },
   {
+    "id": "infrastructures-de-recharge-pour-vehicules-electriques-borne-elec-fr",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "camping-de-la-hooghe-moote",
     "recommendations": [
       {
@@ -18181,6 +18190,15 @@
   },
   {
     "id": "irve-eborn-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "liste-des-bornes-de-recharge-ouvertes-au-public",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
