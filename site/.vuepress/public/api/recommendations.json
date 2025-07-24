@@ -8073,6 +8073,15 @@
     ]
   },
   {
+    "id": "ozecar-points-de-recharge-en-corse-donnes-data-gouv-fr-oze-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ]
+  },
+  {
     "id": "ozecar-points-de-recharge-en-corse-donnes-data-gouv-fr-oze",
     "recommendations": [
       {
