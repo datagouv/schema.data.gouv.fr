@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1187,
+            "dgv_resources": 1188,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -113,7 +113,7 @@
         "139bercy/format-commande-publique": {
             "dgv_resources": 204,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
@@ -218,7 +218,7 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 7,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
+            "contributors": 6
         },
         "datatourisme/ontology": {
             "dgv_resources": 9,
@@ -258,7 +258,7 @@
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
