@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1188,
+            "dgv_resources": 1180,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -233,7 +233,7 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 4
+            "contributors": 2
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
