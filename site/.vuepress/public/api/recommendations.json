@@ -8361,24 +8361,6 @@
     ]
   },
   {
-    "id": "documentation-vigilance-metropole",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "itineraires-de-randonnee-circuits-qualite-departement-du-calvados",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "irve-statique-organisation-ma-borne-auto-1",
     "recommendations": [
       {
@@ -8407,15 +8389,6 @@
   },
   {
     "id": "irve-statique-organisation-shango-shango-8",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "points-deau-incendie-du-departement-du-tarn",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8542,15 +8515,6 @@
   },
   {
     "id": "irve-statique-organisation-lumiin-16",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "schema-directeur-des-infrastructures-de-recharge-pour-vehicules-electriques-et-hybrides-rechargeables-grand-chalon-2024-2026",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -8820,15 +8784,6 @@
     ]
   },
   {
-    "id": "reseau-aravis-bus",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
     "id": "limacri-1",
     "recommendations": [
       {
@@ -8839,24 +8794,6 @@
   },
   {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-virta-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "appuis-aeriens-enedis-utilises-dans-le-cadre-du-deploiement-de-la-fibre-sur-le-rip-de-la-vendee",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "erp-du-departement-du-tarn",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -18658,15 +18595,6 @@
   },
   {
     "id": "bornes-de-recharge-electrique-parking-mairie-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ]
-  },
-  {
-    "id": "horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
