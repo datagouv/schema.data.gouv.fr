@@ -143,7 +143,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 77,
             "title": "Lieux de covoiturage",
-            "contributors": 2
+            "contributors": 7
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -153,7 +153,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 19,
             "title": "Lieux de stationnement",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/budget": {
             "dgv_resources": 29,
@@ -173,7 +173,7 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 18,
@@ -186,7 +186,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 338,
+            "dgv_resources": 339,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 748,
+            "dgv_resources": 750,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 293,
+            "dgv_resources": 294,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -451,7 +451,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 375,
+            "dgv_resources": 376,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
