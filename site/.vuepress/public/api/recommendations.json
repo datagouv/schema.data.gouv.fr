@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-saint-louis-agglomeration",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-des-herbiers",
     "recommendations": [
       {
@@ -6752,6 +6763,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
+    "id": "indice-de-reparabilite-organisation-ingram-micro",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
   },
   {
     "id": "indice-de-reparabilite-organisation-asus-global-pte-ltd-2",
@@ -23175,6 +23197,28 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-banque-populaire-du-sud-2024",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-sivom-sioule-et-bouble",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "taux-de-verdissement-2024-organisation-abalone-france",
