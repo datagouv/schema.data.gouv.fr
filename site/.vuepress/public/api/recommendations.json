@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-des-depenses-2024-relatives-a-lacquisition-de-biens-issus-du-reemploi-ou-de-la-reutilisation-ou-integrant-des-matieres-recyclees-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-departement-du-gard",
     "recommendations": [
       {
