@@ -101,7 +101,7 @@
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 16,
+            "dgv_resources": 15,
             "title": "IRVE dynamique",
             "contributors": 7
         },
@@ -273,12 +273,12 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
