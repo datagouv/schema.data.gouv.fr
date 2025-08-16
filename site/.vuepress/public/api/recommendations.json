@@ -10032,6 +10032,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "sport-a-nyons",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "indigo-open-data-irve",
     "recommendations": [
       {
