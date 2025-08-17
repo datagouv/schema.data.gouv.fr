@@ -93,12 +93,12 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 2,
+    "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
             "dgv_resources": 1183,
             "title": "IRVE statique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 15,
