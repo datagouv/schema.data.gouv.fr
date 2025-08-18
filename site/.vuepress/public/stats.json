@@ -98,7 +98,7 @@
         "etalab/schema-irve-statique": {
             "dgv_resources": 1183,
             "title": "IRVE statique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 15,
