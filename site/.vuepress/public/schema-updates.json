@@ -1074,5 +1074,41 @@
                 "version": "1.0.1"
             }
         ]
+    },
+    "2025-08-20": {
+        "new_version": [
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            },
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "2.4.8 => 3.1.6"
+            }
+        ]
     }
 }

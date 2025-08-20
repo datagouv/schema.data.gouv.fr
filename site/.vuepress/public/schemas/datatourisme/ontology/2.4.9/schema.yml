@@ -1,4 +1,4 @@
 title: DATAtourisme
 description: Ontologie destinée à structurer les données décrivant l'ensemble des points d'intérêts recensés par les Offices de Tourisme, Agences Départementales et Comités Régionaux du Tourisme. Fêtes et manifestations, sites patrimoniaux, activités de loisirs, itinéraires, hébergements, restaurants, boutiques et services. 
-homepage: https://gitlab.adullact.net/adntourisme/datatourisme/ontology
-version: 3.0.0
+homepage: https://framagit.org/datatourisme/ontology
+version: 2.4.8
