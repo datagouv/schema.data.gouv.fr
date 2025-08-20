@@ -137,7 +137,7 @@ registre-archive:
   type: tableschema
   email: hello@datactivist.coop
 datatourisme:
-  url: https://framagit.org/datatourisme/ontology.git
+  url: https://gitlab.adullact.net/adntourisme/datatourisme/ontology.git
   type: other
   email: contact@datatourisme.fr
 schema-zfe:
