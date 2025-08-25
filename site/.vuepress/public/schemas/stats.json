@@ -103,7 +103,7 @@
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 15,
             "title": "IRVE dynamique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
