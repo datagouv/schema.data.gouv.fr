@@ -258,7 +258,7 @@
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
