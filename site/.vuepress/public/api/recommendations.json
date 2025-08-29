@@ -11495,17 +11495,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "irve-statique-organisation-ozecar",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "reseau-qwello",
     "recommendations": [
       {
@@ -12056,6 +12045,17 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "irve-humbrecht-trapp",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "donnees-schema-irve-statique-optic-2000",
     "recommendations": [
       {
@@ -12090,6 +12090,17 @@
   },
   {
     "id": "irve-statique-organisation-maneo-9",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-le-schloffer",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -12233,6 +12244,28 @@
   },
   {
     "id": "irve-statique-organisation-qonexio-5",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-camping-de-riquewhir",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-hotel-argos",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -12595,6 +12628,17 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "irve-bax-bowling-brumath",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "donnees-schema-irve-statique",
     "recommendations": [
       {
@@ -12728,6 +12772,17 @@
   },
   {
     "id": "irve-statique-organisation-bornevo-1",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-les-vergers-des-chateaux",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -13035,6 +13090,17 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "irve-chra-alsace",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "combes",
     "recommendations": [
       {
@@ -13146,6 +13212,17 @@
   },
   {
     "id": "le-1774-les-jambons-de-marinette",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "borne-de-charge-au-boeuf-a-blaesheim",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -14697,17 +14774,6 @@
   },
   {
     "id": "irve-statique-organisation-lumiin-1",
-    "recommendations": [
-      {
-        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "ozecar-points-de-recharge-en-corse-donnes-data-gouv-fr",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
@@ -17183,6 +17249,17 @@
   },
   {
     "id": "circuit-beltoise-evolution-trappes",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-evbox",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
