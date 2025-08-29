@@ -96,12 +96,12 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1182,
+            "dgv_resources": 1189,
             "title": "IRVE statique",
             "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 15,
+            "dgv_resources": 16,
             "title": "IRVE dynamique",
             "contributors": 7
         },
@@ -243,7 +243,7 @@
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 757,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 2
+            "contributors": 3
         },
         "datakode/schema-pei": {
             "dgv_resources": 1,
@@ -253,12 +253,12 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
+            "contributors": 5
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
