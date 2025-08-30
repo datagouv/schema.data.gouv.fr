@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1189,
+            "dgv_resources": 1191,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 757,
+            "dgv_resources": 758,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
@@ -258,7 +258,7 @@
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -291,7 +291,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 26,
+            "dgv_resources": 27,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         },
