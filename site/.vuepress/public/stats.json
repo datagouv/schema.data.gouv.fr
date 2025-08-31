@@ -253,7 +253,7 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 5
+            "contributors": 2
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
