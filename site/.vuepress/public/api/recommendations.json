@@ -6809,6 +6809,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "indice-de-reparabilite-organisation-hp-france-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-ingram-micro",
     "recommendations": [
       {
@@ -11474,6 +11485,17 @@
   },
   {
     "id": "irve-statique-organisation-virta-global-gifi-caudebec",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-statique-organisation-ozecar-1",
     "recommendations": [
       {
         "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
