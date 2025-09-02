@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1191,
+            "dgv_resources": 1192,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -113,12 +113,12 @@
         "139bercy/format-commande-publique": {
             "dgv_resources": 207,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
+            "contributors": 2
         },
         "scdl/catalogue": {
             "dgv_resources": 6,
@@ -141,9 +141,9 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 78,
+            "dgv_resources": 79,
             "title": "Lieux de covoiturage",
-            "contributors": 7
+            "contributors": 2
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 294,
+            "dgv_resources": 295,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
