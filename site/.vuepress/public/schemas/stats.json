@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1191,
+            "dgv_resources": 1192,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -141,7 +141,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 78,
+            "dgv_resources": 79,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -218,7 +218,7 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 7,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
+            "contributors": 6
         },
         "datatourisme/ontology": {
             "dgv_resources": 9,
@@ -228,22 +228,22 @@
         "etalab/schema-zfe": {
             "dgv_resources": 22,
             "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 2
+            "contributors": 3
         },
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 2
+            "contributors": 4
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
             "title": "Stations de taxi",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 758,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 2
+            "contributors": 3
         },
         "datakode/schema-pei": {
             "dgv_resources": 1,
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 294,
+            "dgv_resources": 295,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
