@@ -93,12 +93,12 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 2,
+    "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
             "dgv_resources": 1194,
             "title": "IRVE statique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 16,
@@ -176,7 +176,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 18,
+            "dgv_resources": 17,
             "title": "Stationnement cyclable",
             "contributors": 2
         },
