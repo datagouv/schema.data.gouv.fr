@@ -10076,6 +10076,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-keos-englos-alpine-lomme",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "garage-aubree-taule",
     "recommendations": [
       {
@@ -23485,6 +23496,61 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-colisee-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-societe-cooperative-agricole-emc2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-communaute-dagglomeration-pays-basque",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-q-park-france-services",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-unilever-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-vyv3-24",
     "recommendations": [
       {
@@ -31274,6 +31340,17 @@
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-centre-hospitalier-intercommunal-de-mont-de-marsan-et-du-pays-des-sources",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "vehicules-a-faibles-et-a-tres-faibles-emissions-du-reseau-transports-en-commun-lyonnais",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
