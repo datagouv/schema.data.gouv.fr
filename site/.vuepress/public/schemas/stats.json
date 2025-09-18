@@ -143,7 +143,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 78,
             "title": "Lieux de covoiturage",
-            "contributors": 2
+            "contributors": 7
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -153,10 +153,10 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 19,
             "title": "Lieux de stationnement",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 29,
+            "dgv_resources": 33,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
@@ -173,22 +173,22 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 354,
+            "dgv_resources": 355,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 788,
+            "dgv_resources": 795,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -371,7 +371,7 @@
             "contributors": 2
         },
         "cnigfr/schema-schema-coherence-territoriale": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
             "contributors": 2
         },
@@ -466,7 +466,7 @@
             "contributors": 2
         },
         "betagouv/collectivites": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Collectivit\u00e9s",
             "contributors": 2
         },
