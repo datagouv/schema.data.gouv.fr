@@ -156,7 +156,7 @@
             "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 33,
+            "dgv_resources": 34,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
@@ -178,17 +178,17 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 29,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-bal": {
             "dgv_resources": 355,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 5,
@@ -208,17 +208,17 @@
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 5,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 4
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 60,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 2
+            "contributors": 1
         },
         "Archivistes75/registre_entrees": {
             "dgv_resources": 7,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
+            "contributors": 6
         },
         "datatourisme/ontology": {
             "dgv_resources": 9,
@@ -228,7 +228,7 @@
         "etalab/schema-zfe": {
             "dgv_resources": 24,
             "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 2
+            "contributors": 3
         },
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 795,
+            "dgv_resources": 801,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -416,12 +416,12 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 214,
+            "dgv_resources": 215,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 24,
+            "dgv_resources": 25,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
