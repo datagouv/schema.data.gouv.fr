@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1201,
+            "dgv_resources": 1190,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -111,7 +111,7 @@
             "contributors": 7
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 207,
+            "dgv_resources": 206,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -143,7 +143,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 78,
             "title": "Lieux de covoiturage",
-            "contributors": 2
+            "contributors": 7
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -153,7 +153,7 @@
         "etalab/schema-stationnement": {
             "dgv_resources": 19,
             "title": "Lieux de stationnement",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/budget": {
             "dgv_resources": 34,
@@ -173,7 +173,7 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 17,
@@ -186,7 +186,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 355,
+            "dgv_resources": 356,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 801,
+            "dgv_resources": 806,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 294,
+            "dgv_resources": 295,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
