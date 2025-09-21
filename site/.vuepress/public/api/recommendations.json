@@ -30525,6 +30525,17 @@
     "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
+    "id": "verdissement-du-renouvellement-de-la-flotte",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
     "id": "vehicule-a-faibles-emissions",
     "recommendations": [
       {
