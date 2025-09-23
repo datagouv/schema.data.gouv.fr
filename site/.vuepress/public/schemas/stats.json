@@ -93,12 +93,12 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 30,
+    "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
             "dgv_resources": 1190,
             "title": "IRVE statique",
-            "contributors": 7
+            "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 17,
@@ -141,7 +141,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 78,
+            "dgv_resources": 79,
             "title": "Lieux de covoiturage",
             "contributors": 2
         },
@@ -186,7 +186,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 356,
+            "dgv_resources": 357,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 807,
+            "dgv_resources": 821,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -291,7 +291,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 27,
+            "dgv_resources": 28,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 295,
+            "dgv_resources": 297,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
