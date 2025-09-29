@@ -118,7 +118,7 @@
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
+            "contributors": 2
         },
         "scdl/catalogue": {
             "dgv_resources": 6,
