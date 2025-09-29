@@ -1922,9 +1922,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/etalab/schema-dispositif-aide/0.0.2/schema.json"
+            },
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/etalab/schema-dispositif-aide/0.1.0/schema.json"
             }
         },
-        "latest": "0.0.2"
+        "latest": "0.1.0"
     },
     "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
         "homepage": "https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git",

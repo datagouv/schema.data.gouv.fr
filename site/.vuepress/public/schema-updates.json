@@ -1082,5 +1082,13 @@
                 "version": "2.4.8 => 3.1.6"
             }
         ]
+    },
+    "2025-09-29": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-dispositif-aide",
+                "version": "0.0.2 => 0.1.0"
+            }
+        ]
     }
 }

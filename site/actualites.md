@@ -1,13 +1,13 @@
+### 2025-09-29
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-dispositif-aide](/etalab/schema-dispositif-aide/)** : <span style="color:red;">0.0.2</span> => <span style="color:green;">0.1.0</span><br>
+
+---
+
 ### 2025-08-20
 
-#### Montées de versions:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
+#### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
 
 ---

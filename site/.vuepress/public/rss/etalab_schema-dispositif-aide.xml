@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>etalab/schema-dispositif-aide Versioning RSS Feed</title>
+  <title>etalab/schema-dispositif-aide Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/etalab/schema-dispositif-aide</link>
     <description>Updates on etalab/schema-dispositif-aide versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -12,5 +11,9 @@
       <description>Update on 2023-03-03: New version (0.0.2 to 0.0.2)</description>
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0100</pubDate>
     </item>
-  </channel>
+  <item>
+      <title>2025-09-29 - new_version - 0.0.2 to 0.1.0</title>
+      <description>Update on 2025-09-29: New version (etalab/schema-dispositif-aide)</description>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0200</pubDate>
+    </item></channel>
 </rss>
