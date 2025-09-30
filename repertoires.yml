@@ -361,9 +361,3 @@ geostandard-risque-ppr:
   external_doc: https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf
   labels:
     - CNIG
-paysage:
-  url: https://github.com/cnigfr/schema-paysage.git
-  type: datapackage
-  email: cnig@cnig.fr
-  labels:
-    - CNIG
