@@ -74,7 +74,7 @@
                         Schéma
                     </button>
                     <button 
-                        @click="gotoExternalLink('https://www.data.gouv.fr/fr/datasets?schema='+schema)" 
+                        @click="gotoExternalLink('https://www.data.gouv.fr/datasets/search?schema='+schema)" 
                         class="fr-btn"
                     >
                         <img src="../../public/assets/database.png" width="15" />&nbsp;
