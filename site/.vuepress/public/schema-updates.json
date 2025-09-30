@@ -1102,5 +1102,17 @@
                 "version": "2.4.8 => 3.1.6"
             }
         ]
+    },
+    "2025-09-30": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-dispositif-aide",
+                "version": "0.0.2 => 0.1.0"
+            },
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "0.27.0 => 1.0.0"
+            }
+        ]
     }
 }

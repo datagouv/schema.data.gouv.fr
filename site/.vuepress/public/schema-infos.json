@@ -1922,9 +1922,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/etalab/schema-dispositif-aide/0.0.2/schema.json"
+            },
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/etalab/schema-dispositif-aide/0.1.0/schema.json"
             }
         },
-        "latest": "0.0.2"
+        "latest": "0.1.0"
     },
     "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
         "homepage": "https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git",
@@ -2183,9 +2192,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/gip-inclusion/data-inclusion-schema/0.27.0/schemas/v1/service.json"
+            },
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.0/schemas/v1/service.json"
             }
         },
-        "latest": "0.27.0"
+        "latest": "1.0.0"
     },
     "cnigfr/schema-friches": {
         "homepage": "https://github.com/cnigfr/schema-friches.git",

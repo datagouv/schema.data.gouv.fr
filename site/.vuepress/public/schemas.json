@@ -1571,7 +1571,7 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/etalab/schema-dispositif-aide/raw/v0.0.1/exemple-valide.csv"
+                    "path": "https://github.com/etalab/schema-dispositif-aide/raw/v0.1.0/exemple-valide.csv"
                 }
             ],
             "labels": [],
@@ -1584,6 +1584,10 @@
                 {
                     "version_name": "0.0.2",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-dispositif-aide/0.0.2/schema.json"
+                },
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-dispositif-aide/0.1.0/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1750,6 +1754,10 @@
                 {
                     "version_name": "0.27.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/0.27.0/schemas/v1/service.json"
+                },
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/1.0.0/schemas/v1/service.json"
                 }
             ],
             "external_doc": "https://www.data.inclusion.beta.gouv.fr",

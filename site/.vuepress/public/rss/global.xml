@@ -664,5 +664,15 @@
       <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
       <description>Schema update on 2025-08-21: 2.4.8 to 3.1.6 for datatourisme/ontology</description>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-dispositif-aide (0.0.2 to 0.1.0)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-dispositif-aide</link>
+      <description>Schema update on 2025-09-30: 0.0.2 to 0.1.0 for etalab/schema-dispositif-aide</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (0.27.0 to 1.0.0)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2025-09-30: 0.27.0 to 1.0.0 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
