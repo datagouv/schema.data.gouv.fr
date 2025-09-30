@@ -1,0 +1,150 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "limite-decoupage-paysager",
+  "title": "Limite Découpage Paysager",
+  "description": "Une limite de découpage paysager est une portion du contour d’un découpage paysager : unité paysagère ou ensemble paysager ou sous-ensemble paysager.\nCette classe est essentiellement destinée à renseigner l’utilisateur sur la nature et la précision de la limite.",
+  "Status": "Recommandé pour les données des atlas réalisés après la publication du standard.",
+  "input rules": "La limite de découpage paysager doit être saisie en utilisant le partage de géométrie avec les contours des découpages paysagers concernés.\nIl est recommandé de couper les limites de découpages paysagers :\n-En cas de changement de valeurs d’attribut\n-En cas de jonction avec une autre limite\nVoir conseils de mise en œuvre (annexe A).",
+  "keywords": [
+    "Données géographiques",
+    "paysage",
+    "atlas des paysages",
+    "découpages paysagers",
+    "unité paysagère",
+    "ensemble paysager",
+    "sous-unité",
+    "dynamiques paysagères",
+    "SIG",
+    "information géographique",
+    "urbanisme",
+    "CNIG",
+    "IGN"
+  ],
+  "countryCode": "FR",
+  "homepage":"https://github.com/cnigfr/schema-paysage",
+  "image":"",
+  "licenses": [
+    {
+      "title": "Etalab Licence Ouverte 2.0",
+      "name": "etalab-2.0",
+      "path": "https://spdx.org/licenses/etalab-2.0.html"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Exemple valide",
+      "name": "exemple-valide-csv",
+      "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-limitedecoupagepaysager/exemple-valide.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Standard Paysages",
+      "path": "https://github.com/cnigfr/schema-paysage/tree/main/test%20standard"
+    }
+  ],
+  "created": "2023-01-01",
+  "version": "v1.0.0",
+  "contributors": [
+    {
+      "title": "Membres du GT Paysages du CNIG",
+      "email": "cnig@cnig.fr",
+      "organisation": "CNIG",
+      "role": "author"
+    }
+  ],
+  "fields": [
+    {
+      "name": "geometrie",
+      "description": "Représentation géométrique 2D de la limite du découpage paysager.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "enum": [
+        "GM_Curve"
+      ],
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "identifiantLocal",
+      "description": "Chaîne de caractères identifiant de façon unique le découpage paysager au sein de sa classe et du  jeu de données dans lesquels il a été défini",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "comment": "Un identifiant fourni de façon automatique par le SIG peut suffire.",
+      "example": "84",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "identifiantGlobal",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "description": "Chaîne de caractères identifiant de façon unique la limite de découpage paysager au sein de sa classe et de l’ensemble des atlas  de paysage sur le territoire français.",
+      "comment": "Cet identifiant global doit être constitué par concaténation de l’identifiant de l’atlas et de l’identifiant local de la limite du  découpage paysager, en utilisant le point (.) comme séparateur.",
+      "example": "AtlasPaysage_dept_33_2020.84",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "statut",
+      "description": "Cet attribut indique la fiabilité de la position de la limite, i.e. s’il s’agit d’une limite nette ou d’une limite floue.",
+      "type": "string",
+      "minProperties": 0,
+      "maxProperties": 1,
+      "enum": [
+        "limiteFranche",
+        "limiteFloue"
+      ],
+      "comment": "Cet attribut peut être utilisé pour cartographier de façon différenciée les limites de découpage paysager selon leur caractère « limite nette » ou « limite floue ».\nIl est recommandé de fournir au moins l’un des 2 attributs statutLimite ou largeurEstimée.",
+      "example": "limiteFloue",
+      "nullable": true
+    },
+    {
+      "name": "largeurEstimee",
+      "description": "Largeur moyenne estimée de la zone de transition entre 2 découpages paysagers, exprimée en mètres.\nCet attribut mesure l’incertitude de la position de la limite sur le terrain.",
+      "type": "integer",
+      "minProperties": 0,
+      "maxProperties": 1,
+      "comment": "Cet attribut peut être utilisé pour cartographier de façon différenciée les limites de découpage paysager selon leur largeur estimée sur le terrain. Il est recommandé de fournir au moins l’un des 2 attributs statutLimite ou largeurEstimée.\nIl est conseillé d’utiliser des valeurs arrondies pour exprimer cette largeurEstimée (ex : 10 m, 20 m, 50 m, 100 m, 200 m, 500 m, etc.).",
+      "example": "500",
+      "nullable": true
+    },
+    {
+      "name": "natureLimite",
+      "description": "Cet attribut indique quel objet géographique a été utilisé comme limite du découpage paysager.",
+      "type": "string",
+      "minProperties": 0,
+      "maxProperties": 1,
+      "enum": [
+        "limite administrative",
+        "ligne de crête",
+        "thalweg",
+		"front urbain",
+        "rupture de pente",
+        "horizon en mer",
+        "autre"
+      ],
+      "comment": "Cet attribut doit être laissé vide si la limite du découpage paysager ne s’appuie sur aucun objet géographique (ex : une limite « floue » passant à travers champs).",
+      "example": "lignede crête",
+      "nullable": true
+    },
+    {
+      "name": "lienAtlas",
+      "description": "Lien vers la classe AtlasPaysage correspondant à la limite de découpage paysager.\nCe lien permet à l’utilisateur global de trouver les limites de découpages paysagers relatives à un atlas donné.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "comment": "En pratique, le lien vers l’atlas doit être fourni sous la forme de l’identifiant de l’atlas (qui joue ainsi le rôle de clé externe).",
+      "example": "AtlasPaysage_dept_33_2020",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}

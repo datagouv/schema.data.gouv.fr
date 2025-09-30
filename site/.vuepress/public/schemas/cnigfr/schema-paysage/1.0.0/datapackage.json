@@ -1,0 +1,79 @@
+{
+    "name": "datapackage-paysage",
+    "title": "Schéma paysage",
+    "description": "Schéma pour le GT Paysage du CNIG",
+    "id": "datapackage-paysage",
+    "resources": [
+        {
+            "name": "classe-atlaspaysager",
+            "path": "schema/classe-atlaspaysager/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-atlaspaysager/schema.json",
+            "documentation": "schema/classe-atlaspaysager/README.md"
+        },
+         {
+            "name": "classe-documentpaysage",
+            "path": "schema/classe-documentpaysage/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-documentpaysage/schema.json",
+            "documentation": "schema/classe-documentpaysage/README.md"
+        },
+         {
+            "name": "classe-dynamique",
+            "path": "schema/classe-dynamique/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-dynamique/schema.json",
+            "documentation": "schema/classe-dynamique/README.md"
+        },
+         {
+            "name": "classe-ensemblepaysager",
+            "path": "schema/classe-ensemblepaysager/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-ensemblepaysager/schema.json",
+            "documentation": "schema/classe-ensemblepaysager/README.md"
+        },
+         {
+            "name": "classe-limitedecoupagepaysager",
+            "path": "schema/classe-limitedecoupagepaysager/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-limitedecoupagepaysager/schema.json",
+            "documentation": "schema/classe-limitedecoupagepaysager/README.md"
+        },
+         {
+            "name": "classe-sousunitepaysagere",
+            "path": "schema/classe-sousunitepaysagere/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-sousunitepaysagere/schema.json",
+            "documentation": "schema/classe-sousunitepaysagere/README.md"
+        },
+         {
+            "name": "classe-unitepaysagere",
+            "path": "schema/classe-unitepaysagere/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/classe-unitepaysagere/schema.json",
+            "documentation": "schema/classe-unitepaysagere/README.md"
+        }
+        
+    ]
+}

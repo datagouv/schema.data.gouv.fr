@@ -3,6 +3,16 @@
 #### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">0.27.0</span> => <span style="color:green;">1.0.0</span><br>
 
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-paysage](/cnigfr/schema-paysage/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/atlas-paysager](/cnigfr/atlas-paysager/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/document-paysage](/cnigfr/document-paysage/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/dynamique](/cnigfr/dynamique/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/ensemble-paysager](/cnigfr/ensemble-paysager/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/limite-decoupage-paysager](/cnigfr/limite-decoupage-paysager/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/sousunite-paysagere](/cnigfr/sousunite-paysagere/)** : <span style="color:blue;">1.0.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/unite-paysagere](/cnigfr/unite-paysagere/)** : <span style="color:blue;">1.0.0</span><br>
+
 ---
 
 ### 2025-09-29

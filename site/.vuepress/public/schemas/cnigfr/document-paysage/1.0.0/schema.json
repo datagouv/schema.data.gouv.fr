@@ -1,0 +1,148 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "title": "Document Paysage",
+	"name": "document-paysage",
+    "description": "Un document paysage est un document illustrant un découpage paysager. Il peut s’agir d’un bloc-diagramme, d’une coupe, d’un croquis, d’une photographie, etc",
+    "statut": "Facultatif",
+    "input rules": "La sélection des documents paysage à fournir sous forme de données géomatiques est à la discrétion de l’auteur ou du commanditaire de l’atlas.",
+    "keywords": [
+        "Données géographiques",
+        "paysage",
+        "atlas des paysages",
+        "découpages paysagers",
+        "unité paysagère",
+        "ensemble paysager",
+        "sous-unité",
+        "dynamiques paysagères",
+        "SIG",
+        "information géographique",
+        "urbanisme",
+        "CNIG",
+        "IGN"
+      ],
+      "countryCode": "FR",
+      "homepage":"https://github.com/cnigfr/schema-paysage",
+      "image":"",
+      "licenses": [
+        {
+          "title": "Etalab Licence Ouverte 2.0",
+          "name": "etalab-2.0",
+          "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+      ],
+      "resources": [
+        {
+          "title": "Exemple valide",
+          "name": "exemple-valide-csv",
+          "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-documentpaysage/exemple-valide.csv"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Standard Paysages",
+          "path": "https://github.com/cnigfr/schema-paysage/tree/main/test%20standard"
+        }
+      ],
+      "created": "2023-01-01",
+      "version": "v1.0.0",
+      "contributors": [
+        {
+          "title": "Membres du GT Paysages du CNIG",
+          "email": "cnig@cnig.fr",
+          "organisation": "CNIG",
+          "role": "author"
+        }
+      ],
+    "fields": [
+        {
+            "name": "geometrie",
+            "type": "string",
+            "enum": [
+                "GM_Point"
+            ],
+            "minProperties": 1,
+            "maxProperties": 1,
+            "description": "Localisation géométrique 2D du document paysage.",
+            "comment": "Pour un document illustrant l’ensemble du découpage paysager, il est conseillé de positionner le document au centroïde du découpage.\nPour un document illustrant un site particulier du découpage paysager, il est conseillé de localiser le document sur ce site (il peut s’agir d’une localisation approximative).",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "nom",
+            "type": "string",
+            "minProperties": 1,
+            "maxProperties": 1,
+            "description": "Intitulé du document paysage.",
+            "comment": "Il peut s’agir par example de la légende d’une photographie.",
+            "example": "Les ruelles étroites du centre ancien - Langon",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "date",
+            "type": "date",
+            "minProperties": 1,
+            "maxProperties": 1,
+            "description": "Date à laquelle le document paysage a été réalisé.",
+            "comment": "Pour une photographie, il est conseillé de donner la date exacte. Pour un autre document (ex : bloc diagramme), on peut mettre simplement la date de publication de l’atlas.",
+            "example": "2021-02-15",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "auteur",
+            "type": "string",
+            "minProperties": 1,
+            "maxProperties": 1,
+            "description": "Nom de l’auteur du document.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "conditionsUtilisationTexte",
+            "description": "Conditions d'utilisation du document, sous forme d'un texte.",
+            "type": "string",
+            "minProperties": 0,
+            "maxProperties": 1,
+            "comment": "Il peut s'agir par exemple du type de licence.",
+            "example": "CC BY (Creative Commons)",
+            "nullable": true
+        },
+        {
+            "name": "conditionsUtilisationURL",
+            "description": "Conditions d’utilisation du document, sous forme d’un lien vers un texte.",
+            "type": "string",
+            "minProperties": 0,
+            "maxProperties": 1,
+            "comment": "Cet attribut est à utiliser si les conditions d’utilisation nécessitent le recours à une description détaillée.",
+            "nullable": true
+        },
+        {
+            "name": "document",
+            "description": "Lien vers le document paysage.",
+            "type": "string",
+            "minProperties": 1,
+            "maxProperties": 1,
+            "comment": "Les documents paysage doivent être disponibles en ligne.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "lienAtlasPaysage",
+            "description": "Lien vers la classe AtlasPaysage correspondant au document paysage.\nCe lien permet à l’utilisateur global de trouver les documents paysage relatifs à un atlas donné.",
+            "type": "string",
+            "minProperties": 1,
+            "maxProperties": 1,
+            "comment": "En pratique, le lien vers l’atlas doit être fourni sous la forme de l’identifiant de l’atlas (qui joue ainsi le rôle de clé externe).",
+            "example": "AtlasPaysage_dept_33_2020",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}

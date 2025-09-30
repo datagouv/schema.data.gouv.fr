@@ -1,0 +1,199 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "title": "Dynamique",
+  "name": "dynamique",
+  "description": "Une dynamique est une évolution du paysage en général depuis la dernière version de l’atlas des paysages.\nUne dynamique est modélisée par un « data type », c’est-à-dire un attribut complexe ; celui-ci peut s’appliquer à tout niveau de découpage paysager : sous-unités paysagères, unités paysagères, ensembles paysagers.\nUn découpage paysager peut avoir plusieurs dynamiques.",
+  "statuts": "Fortement recommandé au moins pour les atlas réalisés après la publication du standard.",
+  "input rules": "L’objectif des données géomatiques étant de donner une information synthétique, il est recommandé de se limiter aux dynamiques principales.\nUn nombre maximal de 5-6 dynamiques par découpage paysager est considéré comme raisonnable.",
+  "keywords": [
+    "Données géographiques",
+    "paysage",
+    "atlas des paysages",
+    "découpages paysagers",
+    "unité paysagère",
+    "ensemble paysager",
+    "sous-unité",
+    "dynamiques paysagères",
+    "SIG",
+    "information géographique",
+    "urbanisme",
+    "CNIG",
+    "IGN"
+  ],
+  "countryCode": "FR",
+  "homepage":"https://github.com/cnigfr/schema-paysage",
+  "image":"",
+  "licenses": [
+    {
+      "title": "Etalab Licence Ouverte 2.0",
+      "name": "etalab-2.0",
+      "path": "https://spdx.org/licenses/etalab-2.0.html"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Exemple valide",
+      "name": "exemple-valide-csv",
+      "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-dynamique/exemple-valide.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Standard Paysages",
+      "path": "https://github.com/cnigfr/schema-paysage/tree/main/test%20standard"
+    }
+  ],
+  "created": "2023-01-01",
+  "version": "v1.0.0",
+  "contributors": [
+    {
+      "title": "Membres du GT Paysages du CNIG",
+      "email": "cnig@cnig.fr",
+      "organisation": "CNIG",
+      "role": "author"
+    }
+  ],
+  "fields": [
+    {
+      "name": "objetEvolution",
+      "description": "Caractéristique paysagère sur laquelle porte l’évolution.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "enum": [
+        "zones impermeables",
+        "zones bâties",
+        "zones non bâties",
+        "matériaux minéraux",
+        "matériaux composites",
+        "sols nus",
+	"eaux continentales",
+	"eaux maritimes",
+	"névés et glaciers",
+	"formations arborées",
+	"peuplement de feuillus",
+	"peuplement de conifères",
+        "formations arbustives",
+	"landes",
+	"végétation sclérophylle",
+	"haies et formations arbustives organisées",
+	"fourrés",
+	"vignes",
+	"formations herbacées",
+	"prairies naturelles",
+	"pelouses naturelles",
+	"pelouses et prairies urbaines",
+	"terres arables",
+	"autres formations herbacées",
+	"lichens et mousses",
+	"bananiers, palmiers, et bambous",
+	"trait de côte",
+	"écosystème marin fixe",
+	"énergie",
+	"pollution lumineuse",
+	"autre"
+      ],
+      "comment": "La dynamique est décrite par la combinaison de l’attribut « natureEvolution » et de l’attribut « objetEvolution ».",
+      "example": "sols nus",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "natureEvolution",
+      "description": "Catégorie d’évolution de la dynamique.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "enum": [
+        "apparition",
+        "augmentation",
+	"diminution",
+        "disparition",
+        "stabilisation"
+      ],
+      "comment": "La dynamique est décrite de façon standardisée par la combinaison de l’attribut « natureEvolution » et de l’attribut « objetEvolution ».",
+      "example": "augmentation",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description",
+      "description": "Texte libre décrivant la dynamique de façon plus détaillée ou plus adaptée que la combinaison natureEvolution + objetEvolution.",
+      "type": "string",
+      "minProperties": 0,
+      "maxProperties": 1,
+      "comment": " Voir conseils de mise en œuvre (annexe A)",
+      "example": "Construction de 15 éoliennes sur la ligne de crête. Les toits de nombreuses fermes ont été équipés de panneaux photovoltaïques.",
+      "nullable": true
+    },
+    {
+      "name": "dateObservation",
+      "description": "Date à laquelle la dynamique a été observée.",
+      "type": "date",
+      "minProperties": 0,
+      "maxProperties": 1,
+      "comment": "Cet attribut est à utiliser en cas de mise à jour ponctuelle d’une dynamique particulière sur un découpage paysager donné.\nUne révision systématique des dynamiques est à renseigner au moyen de l’attribut « dateRevisionDynamiques » de la classe AtlasPaysage.",
+      "example": "2027-06-30",
+      "nullable": true
+    },
+	 {
+      "name": "dateFin",
+      "description": "Date à laquelle un arrêt de la dynamique a été observé.",
+      "type": "date",
+      "minProperties": 0,
+      "maxProperties": 1,
+      "comment": "Cet attribut est surtout destiné à documenter les cas de mise à jour ponctuelle lorsqu'une dynamique particulière sur un découpage paysager donné s'arrête et est remplacée par une dynamique antagoniste.",
+      "example": "2027-07-18",
+      "nullable": true
+    },
+	{
+      "name": "lienPhotoOPP",
+      "description": "Lien vers la série de photos de l'OPP illustrant cette dynamique.",
+      "type": "string",
+      "minProperties": 0,
+      "comment": "Les photos de l'OPP sont un moyen puissant de documenter une dynamique.",
+      "example": "http://mon_url.fr",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "lienUP",
+      "description": "Lien vers l’unité paysagère à laquelle s’applique cette dynamique.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "comment": "En pratique, cet attribut est constitué de l’identifiant global de l’unité paysagère (qui joue le rôle de clé externe).",
+      "example": "AtlasPaysage_dept_33_2021.J2",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "lienEP",
+      "description": "Lien vers l’ensemble  paysager auquel s’applique cette dynamique.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "comment": "En pratique, cet attribut est constitué de l’identifiant global de l’ensemble paysager (qui joue le rôle de clé externe).",
+      "example": "AtlasPaysage_dept_33_2021.J",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "lienSousUP",
+      "description": "Lien vers la sous-unité paysagère à laquelle s’applique cette dynamique.",
+      "type": "string",
+      "minProperties": 1,
+      "maxProperties": 1,
+      "comment": "En pratique, cet attribut est constitué de l’identifiant global de la sous-unité paysagère (qui joue le rôle de clé externe).",
+      "example": "AtlasPaysage_dept_33_2021.3",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}

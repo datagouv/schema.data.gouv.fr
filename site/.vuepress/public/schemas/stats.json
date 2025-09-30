@@ -484,6 +484,46 @@
             "dgv_resources": 0,
             "title": "G\u00e9ostandards Risques - Plans de pr\u00e9vention des risques (PPR)",
             "contributors": 2
+        },
+        "cnigfr/atlas-paysager": {
+            "dgv_resources": 0,
+            "title": " Atlas Paysager",
+            "contributors": 2
+        },
+        "cnigfr/document-paysage": {
+            "dgv_resources": 0,
+            "title": "Document Paysage",
+            "contributors": 2
+        },
+        "cnigfr/dynamique": {
+            "dgv_resources": 0,
+            "title": "Dynamique",
+            "contributors": 2
+        },
+        "cnigfr/ensemble-paysager": {
+            "dgv_resources": 0,
+            "title": "Ensemble Paysager",
+            "contributors": 2
+        },
+        "cnigfr/limite-decoupage-paysager": {
+            "dgv_resources": 0,
+            "title": "Limite D\u00e9coupage Paysager",
+            "contributors": 2
+        },
+        "cnigfr/sousunite-paysagere": {
+            "dgv_resources": 0,
+            "title": "Sous-unit\u00e9 Paysag\u00e8re",
+            "contributors": 2
+        },
+        "cnigfr/unite-paysagere": {
+            "dgv_resources": 0,
+            "title": "Unit\u00e9 Paysag\u00e8re",
+            "contributors": 2
+        },
+        "cnigfr/schema-paysage": {
+            "dgv_resources": 0,
+            "title": "Sch\u00e9ma paysage",
+            "contributors": 2
         }
     }
 }

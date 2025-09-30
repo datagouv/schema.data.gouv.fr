@@ -754,5 +754,45 @@
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2025-09-30: 0.27.0 to 1.0.0 for gip-inclusion/data-inclusion-schema</description>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/schema-paysage (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/schema-paysage</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/schema-paysage</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/atlas-paysager (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/atlas-paysager</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/atlas-paysager</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/document-paysage (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/document-paysage</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/document-paysage</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/dynamique (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/dynamique</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/dynamique</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/ensemble-paysager (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/ensemble-paysager</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/ensemble-paysager</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/limite-decoupage-paysager (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/limite-decoupage-paysager</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/limite-decoupage-paysager</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/sousunite-paysagere (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/sousunite-paysagere</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/sousunite-paysagere</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/unite-paysagere (1.0.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/unite-paysagere</link>
+      <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/unite-paysagere</description>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

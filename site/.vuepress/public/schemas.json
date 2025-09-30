@@ -2780,6 +2780,245 @@
             "external_tool": null,
             "homepage": "https://github.com/cnigfr/Geostandards-risques-ppr",
             "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-risques-ppr/latest/schema.yml"
+        },
+        {
+            "name": "cnigfr/atlas-paysager",
+            "title": " Atlas Paysager",
+            "description": "Un atlas du paysage est un document de connaissance des paysages.\nCette classe est destin\u00e9e \u00e0 fournir \u00e0 l\u2019utilisateur des informations g\u00e9n\u00e9rales sur l\u2019atlas, ses conditions de r\u00e9alisation et de mise \u00e0 jour.",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/schema/classe-atlaspaysager/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/atlas-paysager/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/atlas-paysager/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/document-paysage",
+            "title": "Document Paysage",
+            "description": "Un document paysage est un document illustrant un d\u00e9coupage paysager. Il peut s\u2019agir d\u2019un bloc-diagramme, d\u2019une coupe, d\u2019un croquis, d\u2019une photographie, etc",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-documentpaysage/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/document-paysage/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/document-paysage/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/dynamique",
+            "title": "Dynamique",
+            "description": "Une dynamique est une \u00e9volution du paysage en g\u00e9n\u00e9ral depuis la derni\u00e8re version de l\u2019atlas des paysages.\nUne dynamique est mod\u00e9lis\u00e9e par un \u00ab data type \u00bb, c\u2019est-\u00e0-dire un attribut complexe ; celui-ci peut s\u2019appliquer \u00e0 tout niveau de d\u00e9coupage paysager : sous-unit\u00e9s paysag\u00e8res, unit\u00e9s paysag\u00e8res, ensembles paysagers.\nUn d\u00e9coupage paysager peut avoir plusieurs dynamiques.",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-dynamique/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/dynamique/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/dynamique/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/ensemble-paysager",
+            "title": "Ensemble Paysager",
+            "description": "Un ensemble paysager est observ\u00e9 \u00e0 l\u2019\u00e9chelle d\u2019un territoire r\u00e9gional. Il est issu de l\u2019association de plusieurs unit\u00e9s paysag\u00e8res dont les caract\u00e9-istiques g\u00e9omorphologiques, \u00e9cologiques, d\u2019occupation du sol et de perception des habitants et des acteurs sont coh\u00e9rentes \u00e0 l\u2019\u00e9chelle d\u00e9zoom\u00e9e du territoire r\u00e9gional.\nComme pour les unit\u00e9s paysag\u00e8res, les limites entre ensembles paysagers peuvent \u00eatre nettes ou \u00ab floues \u00bb. Cette nomination \u00ab EP \u00bb englobe celles parfois usit\u00e9es telles que \u00ab grands paysages \u00bb, \u00ab grands ensembles paysagers \u00bb, \u00ab grandes entit\u00e9s paysag\u00e8res \u00bb, etc.",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-ensemblepaysager/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/ensemble-paysager/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/ensemble-paysager/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/limite-decoupage-paysager",
+            "title": "Limite D\u00e9coupage Paysager",
+            "description": "Une limite de d\u00e9coupage paysager est une portion du contour d\u2019un d\u00e9coupage paysager : unit\u00e9 paysag\u00e8re ou ensemble paysager ou sous-ensemble paysager.\nCette classe est essentiellement destin\u00e9e \u00e0 renseigner l\u2019utilisateur sur la nature et la pr\u00e9cision de la limite.",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-limitedecoupagepaysager/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/limite-decoupage-paysager/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/limite-decoupage-paysager/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/sousunite-paysagere",
+            "title": "Sous-unit\u00e9 Paysag\u00e8re",
+            "description": "Une sous-unit\u00e9 paysag\u00e8re est une subdivision d\u2019une unit\u00e9 paysag\u00e8re.\nLe d\u00e9coupage y est r\u00e9alis\u00e9 de mani\u00e8re plus fine, les sous\u2013unit\u00e9s pr\u00e9sentant entre elles de l\u00e9g\u00e8res variations des composantes paysag\u00e8res (li\u00e9es \u00e0 la topographie, \u00e0 la fonctionnalit\u00e9 des milieux, aux tissus urbains\u2026).\nLes sous-unit\u00e9s sont particuli\u00e8rement utilis\u00e9es au sein des unit\u00e9s paysag\u00e8res tr\u00e8s urbaines et peuvent \u00eatre compatibles avec un d\u00e9coupage par quartier. \nComme pour les unit\u00e9s paysag\u00e8res, les limites entre sous-unit\u00e9s peuvent \u00eatre nettes ou \u00ab floues \u00bb.",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-sousunitepaysagere/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sousunite-paysagere/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/sousunite-paysagere/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/unite-paysagere",
+            "title": "Unit\u00e9 Paysag\u00e8re",
+            "description": "L\u2019unit\u00e9 paysag\u00e8re est le d\u00e9coupage paysager central dans la construction de la connaissance du paysage, il est issu de la qualification et de la caract\u00e9risation des paysages \u00e0 l\u2019\u00e9chelle globale du d\u00e9partement.\nElle d\u00e9signe une partie continue de territoire homog\u00e8ne au regard de ses caract\u00e9ristiques g\u00e9omorphologiques, \u00e9cologiques, d\u2019occupation du sol et de perception que les habitants et acteurs du territoire lui portent.\nCe \u00ab paysage donn\u00e9 \u00bb est caract\u00e9ris\u00e9 par un ensemble de structures paysag\u00e8res et d\u2019\u00e9l\u00e9ments de paysage qui lui procurent sa singularit\u00e9.\nUne unit\u00e9 paysag\u00e8re est distingu\u00e9e des unit\u00e9s paysag\u00e8res voisines par des limites qui peuvent \u00eatre nettes ou \u00ab floues \u00bb.",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-unitepaysagere/exemple-valide.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/unite-paysagere/1.0.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/unite-paysagere/latest/schema.json",
+            "datapackage_title": "Sch\u00e9ma paysage",
+            "datapackage_name": "cnigfr/schema-paysage",
+            "datapackage_description": "Sch\u00e9ma pour le GT Paysage du CNIG"
+        },
+        {
+            "name": "cnigfr/schema-paysage",
+            "title": "Sch\u00e9ma paysage",
+            "description": "Sch\u00e9ma pour le GT Paysage du CNIG",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-paysage/latest/datapackage.json",
+            "schema_type": "datapackage",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-paysage/1.0.0/datapackage.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/schema-paysage.git"
         }
     ]
 }

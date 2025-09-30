@@ -1,0 +1,245 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+	"name": "sousunite-paysagere",
+    "title": "Sous-unité Paysagère",
+    "description": "Une sous-unité paysagère est une subdivision d’une unité paysagère.\nLe découpage y est réalisé de manière plus fine, les sous–unités présentant entre elles de légères variations des composantes paysagères (liées à la topographie, à la fonctionnalité des milieux, aux tissus urbains…).\nLes sous-unités sont particulièrement utilisées au sein des unités paysagères très urbaines et peuvent être compatibles avec un découpage par quartier. \nComme pour les unités paysagères, les limites entre sous-unités peuvent être nettes ou « floues ».",
+    "status": "Conditionnel.\nLes sous-unités paysagères ne sont pas définies dans tous les atlas. La classe SousUnitePaysagere doit être fournie si ce découpage est présent",
+    "input rules": "Toutes les sous-unités paysagères définies sous forme localisées dans l’atlas de paysage doivent être saisies dans le jeu de données correspondant.",
+    "constraints": "La géométrie d’une sous-unité paysagère doit être entièrement incluse dans la géométrie de l’unité paysagère à laquelle elle appartient.\nIl ne doit pas y avoir de recouvrements entre les sous-unités paysagères d’un même jeu de données.\nNOTE 1 : Des exceptions à cette règle sont tolérées pour les données issues d’atlas réalisés avant la publication de ce standard.\nNOTE 2 : Il n’y a pas forcément d’homogénéité : certaines unités paysagères peuvent faire l’objet d’un découpage en sous-unités paysagères et d’autres pas.",
+    "keywords": [
+        "Données géographiques",
+        "paysage",
+        "atlas des paysages",
+        "découpages paysagers",
+        "unité paysagère",
+        "ensemble paysager",
+        "sous-unité",
+        "dynamiques paysagères",
+        "SIG",
+        "information géographique",
+        "urbanisme",
+        "CNIG",
+        "IGN"
+      ],
+      "countryCode": "FR",
+      "homepage":"https://github.com/cnigfr/schema-paysage",
+      "image":"",
+      "licenses": [
+        {
+          "title": "Etalab Licence Ouverte 2.0",
+          "name": "etalab-2.0",
+          "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+      ],
+      "resources": [
+        {
+          "title": "Exemple valide",
+          "name": "exemple-valide-csv",
+          "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-sousunitepaysagere/exemple-valide.csv"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Standard Paysages",
+          "path": "https://github.com/cnigfr/schema-paysage/tree/main/test%20standard"
+        }
+      ],
+      "created": "2023-01-01",
+      "version": "v1.0.0",
+      "contributors": [
+        {
+          "title": "Membres du GT Paysages du CNIG",
+          "email": "cnig@cnig.fr",
+          "organisation": "CNIG",
+          "role": "author"
+        }
+      ],
+    "fields": [
+        {
+            "name": "geometrie",
+            "description": "Représentation géométrique 2D de la sous-unité paysagère",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "enum": [
+                "GM_MultiSurface"
+            ],
+            "comment": "Il ne doit pas y avoir de recouvrements entre sous-unités paysagères mais il peut y avoir des trous : toutes les unités paysagères d'un atlas ne sont pas forcément découpées en sous-unités.\nUne sous-unité paysagère est normalement une portion continue du territoire ; le standard autorise une géométrie de type GM_MultiSurface pour permettre de traiter certaines exceptions (exemple : un ensemble d'îles).",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "identifiantLocal",
+            "description": "Chaîne de caractères identifiant de façon unique la sous-unité paysagère au sein de sa classe et de l’atlas dans lequel il a été défini",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "Il est conseillé d’utiliser un système simple d’identification, par exemple une suite d’entiers et/ou de lettres (voir conseils de mise en oeuvre)",
+            "example": "D",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "identifiantGlobal",
+            "description": "Chaîne de caractères identifiant de façon unique la sous-unité paysagère au sein de sa classe et de l’ensemble des atlas de paysage sur le territoire français.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "Cet identifiant global doit être constitué par concaténation de l’identifiant de l’atlas et de l’identifiant local de la sous-unité paysagère, en utilisant le point (.) comme séparateur.",
+            "example": "AtlasPaysage_dept_33_2020.D",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "nom",
+            "description": "Le nom de la sous-unité paysagère, tel qu’il apparaît dans l’atlas du paysage au sein de l’atlas dans lequel il a été défini",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "example": "La terrasse du Bazadais",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "lienPageAtlas",
+            "description": "Lien vers la partie de l’atlas de paysage décrivant la sous-unité paysagère. Ce lien permet à l’utilisateur d’avoir accès à la totalité de l’information concernant la sous-unité paysagère.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "L’atlas doit être en ligne, soit sous la forme d’un site Web, soit sous forme d’un document PDF en ligne. Le lien doit donc se faire vers la page correspondant à la sous-unité paysagère du site web ou du document PDF.\nSi la sous-unité paysagère est décrite sur plusieurs pages de l’atlas, donner le lien vers la page d’introduction.",
+            "example": "https://www.gironde.fr/environnement/unites-de-paysage/h-le-bazadais#terrasse-bazadais",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "motClefGenerique",
+            "description": "Mots ou expressions indiquant les principales caractéristiques de la sous-unité paysagère. Un mot-clef générique ne contient pas de nom propre.",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": "zones pavillonnaires, rues jardinées"
+            },
+            "comment": "Les mots-clefs génériques sont issus de la description de la sous-unité paysagère dans l’atlas.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "motClefToponymique",
+            "description": "Suite de mots ou expressions indiquant les principaux lieux nommés d’intérêt de la sous-unité paysagère.\nUn mot-clef toponymique est un nom de lieu (avec un nom propre).",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": "Vallon du Lisos, valon de la Bassane, vallon du Beuve, Langon, berges de la Garonne, plaine de Castet-en-Dorthe"
+            },
+            "comment": "Les mots-clefs génériques sont issus de la description de la sous-unité paysagère dans l’atlas.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "description",
+            "description": "Texte court, extrait de l’atlas, décrivant de façon synthétique la sous-unité paysagère.",
+            "type": "string",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "example": "Surplombant la vallée de la Garonne en rive gauche, cette unité est composée d’une terrasse alluviale résolument plane.\nCinq vallons (le Lisos, la Bassanne, le Beuve...), souvent accompagnés de prairies et de boisements, divisent l’unité perpendiculairement à l’axe de la vallée, enrichissant ainsi ses paysages de plateau à dominante céréalière.\nÀ l’exception de Langon, ville principale implantée à l’ouest, à l’aplomb du fleuve, l’urbanisation est plutôt dispersée.",
+            "nullable": true
+        },
+        {
+            "name": "image",
+            "description": "Lien vers une image illustrant ou symbolisant la sous-unité paysagère.",
+            "type": "string",
+			"minProperties": 1,
+            "comment": "Il est conseillé de se limiter à un très petit nombre d’images, voire à une seule.",
+            "nullable": true
+        },
+        {
+            "name": "dateDefinition",
+            "description": "Date à laquelle la sous-unité paysagère a été définie, délimitée et nommée.",
+            "type": "date",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "comment": "Il peut s’agir de la date de réalisation de l’atlas en cours ou de la date de réalisation d’une version précédente de l’atlas.\nIl est particulièrement recommandé de documenter l’attribut dans ce deuxième cas.",
+            "exemple": "2021-10-31",
+            "nullable": true
+        },
+        {
+            "name": "dateActualisation",
+            "description": "Date à laquelle la sous-unité paysagère a été actualisée.",
+            "type": "date",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "comment": "Il peut s’agir de la date où certains attributs ont été modifiés.",
+            "exemple": "2021-10-31",
+            "nullable": true
+        },
+        {
+            "name": "lienAtlasPaysage",
+            "description": "Lien vers la classe AtlasPaysage correspondant à la sous-unité paysagère .\nCe lien permet à l’utilisateur global de trouver les sous-unités paysagères relatives à un atlas donné.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "En pratique, le lien vers l’atlas doit être fourni sous la forme de l’identifiant de l’atlas (qui joue ainsi le rôle de clé externe).",
+            "exemple": "AtlasPaysage_dept_33_2020",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "codeDepartement",
+            "description": "Code INSEE du ou des département(s) où se situe la sous-unité paysagère.",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": "33"
+            },
+            "comment": "Le code INSEE doit provenir du fichier des départements du COG (Code Géographique Officiel).\nLe millésime de ce fichier doit être celui de l’année de réalisation de l’atlas. https://www.insee.fr/fr/information/2560452.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "codeRegion",
+            "description": "Code INSEE du ou des région(s) où se situe la sous-unité paysagère.",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": "75"
+            },
+            "comment": "Le code INSEE doit provenir du fichier des régions du COG (Code Géographique Officiel).\nLe millésime de ce fichier doit être celui de l’année de réalisation de l’atlas. https://www.insee.fr/fr/information/2560452.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "lienUP",
+            "description": "Lien vers l’unité paysagère à laquelle appartient la sous-unité paysagère.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "En pratique, cet attribut est constitué de l’identifiant global de l’unité paysagère (qui joue le rôle de clé externe).",
+            "example": "AtlasPaysage_dept_40_2020.GLA",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}

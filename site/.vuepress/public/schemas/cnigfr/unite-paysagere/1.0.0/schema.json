@@ -1,0 +1,343 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+	"name": "unite-paysagere",
+    "title": "Unité Paysagère",
+    "description": "L’unité paysagère est le découpage paysager central dans la construction de la connaissance du paysage, il est issu de la qualification et de la caractérisation des paysages à l’échelle globale du département.\nElle désigne une partie continue de territoire homogène au regard de ses caractéristiques géomorphologiques, écologiques, d’occupation du sol et de perception que les habitants et acteurs du territoire lui portent.\nCe « paysage donné » est caractérisé par un ensemble de structures paysagères et d’éléments de paysage qui lui procurent sa singularité.\nUne unité paysagère est distinguée des unités paysagères voisines par des limites qui peuvent être nettes ou « floues ».",
+    "statut": "Conditionnel.\nDans la plupart des cas, c’est la classe essentielle du jeu de données du paysage.\nNéanmoins, dans certains atlas, seuls les ensembles paysagers sont définis. Cela peut être le cas par exemple de certains atlas régionaux.\nTout jeu de données géomatiques du paysage doit comporter au moins l’une des trois classes suivantes : UnitePaysagere ou EnsemblePaysager ou SousUnitePaysagere.",
+    "règle de saisie": "Toutes les unités paysagères définies dans l’atlas de paysage  doivent être saisies dans le jeu de données correspondant.",
+    "constraints": "Les unités paysagères doivent former une partition de l’emprise de l’atlas auquel elles appartiennent : il ne doit y avoir ni trous, ni recouvrements.\nNOTE : Des exceptions à cette règle sont tolérées pour les données issues d’atlas réalisés avant la publication de ce standard.\nSi le jeu de données comprend une classe EnsemblePaysager, la géométrie de chaque unité paysagère doit être entièrement incluse dans la géométrie de l’ensemble paysager auquel elle appartient.",
+    "keywords": [
+        "Données géographiques",
+        "paysage",
+        "atlas des paysages",
+        "découpages paysagers",
+        "unité paysagère",
+        "ensemble paysager",
+        "sous-unité",
+        "dynamiques paysagères",
+        "SIG",
+        "information géographique",
+        "urbanisme",
+        "CNIG",
+        "IGN"
+      ],
+      "countryCode": "FR",
+      "homepage":"https://github.com/cnigfr/schema-paysage",
+      "image":"",
+      "licenses": [
+        {
+          "title": "Etalab Licence Ouverte 2.0",
+          "name": "etalab-2.0",
+          "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+      ],
+      "resources": [
+        {
+          "title": "Exemple valide",
+          "name": "exemple-valide-csv",
+          "path": "https://github.com/cnigfr/schema-paysage/blob/main/schema/classe-unitepaysagere/exemple-valide.csv"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Standard Paysages",
+          "path": "https://github.com/cnigfr/schema-paysage/tree/main/test%20standard"
+        }
+      ],
+      "created": "2023-01-01",
+      "version": "v1.0.0",
+      "contributors": [
+        {
+          "title": "Membres du GT Paysages du CNIG",
+          "email": "cnig@cnig.fr",
+          "organisation": "CNIG",
+          "role": "author"
+        }
+      ],
+    "fields": [
+        {
+            "name": "geometrie",
+            "description": "Représentation géométrique 2D de l'unité paysagère.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "enum": [
+                "GM_Multisurfaces"
+            ],
+            "comment": "En règle générale, les unités paysagères doivent constituer une portion continue du territoire. Le standard autorise une géométrie de type GM_MultiSurface pour permettre de traiter certaines exceptions (exemple : un ensemble d’îles).",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "identifiantLocal",
+            "description": "Chaîne de caractères identifiant de façon unique l'unité paysagère au sein de sa classe et de l’atlas dans lequel elle a été définie.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "Il est conseillé d’utiliser un système simple d’identification, par exemple une suite d’entiers et/ou de lettres (voir conseils de mise en œuvre)",
+            "example": "H1",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "identifiantGlobal",
+            "description": "Chaîne de caractères identifiant de façon unique l'unité paysagère au sein de sa classe et de l’ensemble des atlas de paysage sur le territoire français.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "Cet identifiant global doit être constitué par concaténation de l’identifiant de l’atlas et de l’identifiant local de l'unité paysagère, en utilisant le point (.) comme séparateur.",
+            "example": "AtlasPaysage_dept_33_2020.H1",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "nom",
+            "description": "Le nom de l'unité paysagère, tel qu’il apparaît dans l’atlas du paysage au sein de l’atlas dans lequel elle a été définie.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "example": "La terrasse du Bazadais",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "lienPageAtlas",
+            "description": "Lien vers la partie de l’atlas de paysage décrivant l'unité paysagère. Ce lien permet à l’utilisateur d’avoir accès à la totalité de l’information concernant l'unité paysagère.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "L’atlas doit être en ligne, soit sous la forme d’un site Web, soit sous forme d’un document PDF en ligne. Le lien doit donc se faire vers la page correspondante à l'unité paysagère du site web ou du document PDF.\nSi l'unité paysagère est décrit sur plusieurs pages de l’atlas, donner le lien vers la page d’introduction.",
+            "example": "https://www.gironde.fr/environnement/unites-de-paysage/h-le-bazadais#terrasse-bazadais",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "typeOrographie1",
+            "description": "Caractéristique dominante de l’unité paysagère selon des critères orographiques ou géomorphologiques.\nListe de valeurs (TypeOrographie)",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+			"enum": [
+                "marin",
+				"littoral",
+				"lacustre",
+				"cours d'eau",
+				"plaine",
+				"plateau",
+				"coteau",
+				"vallée",
+				"montagne",
+				"autre relief marqué"
+            ],
+            "comment": "Il s’agit d’un attribut de classification. Une description plus complète de l’unité paysagère (comme par exemple, les caractéristiques secondaires ou un niveau plus fin de détail) peut être fournie par les attributs mots-clefs ou description.",
+            "example": "vallee",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "typeOrographie2",
+            "description": "Caractéristique dominante de l’unité paysagère selon des critères orographiques ou géomorphologiques.\nListe de valeurs (TypeOrographie)",
+            "type": "string",
+			"minProperties": 0,
+			"maxProperties": 1,
+			"enum": [
+                "marin",
+				"littoral",
+				"lacustre",
+				"cours d'eau",
+				"plaine",
+				"plateau",
+				"coteau",
+				"vallée",
+				"montagne",
+				"autre relief marqué"
+            ],
+            "comment": "Cet attribut est à utiliser seulement pour les unités paysagères pour lesquelles il y a clairement deux valeurs dominantes d'orographie ou de géomorphologie. Cela peut être le cas par exemple d'une UP influencée fortement à la fois par son relief et par sa géomorphologie liée à la présence de l'eau. Les caractéristiques secondaires sont à renseigner par les attributs relatifs aux mots-clefs.",
+            "example": "plaine",
+            "nullable": true
+        },
+        {
+            "name": "dominantePaysagere1",
+            "description": "Caractéristique dominante de l’unité paysagère selon des critères d’occupation ou d’usage du sol.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+			"enum": [
+				"paysage bâti continu",
+				"paysage bâti discontinu",
+				"paysage d'infrastuctures",
+				"paysage agricole",
+				"paysage boisé",
+				"paysage d'eau ou humide",
+				"paysage ouvert naturel"
+			],
+            "comment": "Il s’agit d’un attribut de classification. Une description plus complète de l’unité paysagère (comme par exemple, les caractéristiques secon-daires ou un niveau plus fin de détail) peut être fournie par les attributs mots-clefs ou description.",
+            "example": "paysage agricole",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "dominantePaysagere2",
+            "description": "Caractéristique dominante de l’unité paysagère selon des critères d’occupation ou d’usage du sol.",
+            "type": "string",
+			"minProperties": 0,
+			"maxProperties": 1,
+			"enum": [
+				"paysage bâti continu",
+				"paysage bâti discontinu",
+				"paysage d'infrastuctures",
+				"paysage agricole",
+				"paysage boisé",
+				"paysage d'eau ou humide",
+				"paysage ouvert naturel"
+			],
+            "comment": "Cet attribut est à utiliser seulement pour les unités paysagères pour lesquelles il y a clairement deux valeurs dominantes d’occupation ou usage du sol.\nLes caractéristiques secondaires sont à renseigner par les attributs relatifs aux mots-clefs.",
+            "example": "paysage boisé",
+            "nullable": true,
+            "maxItems": 1
+        },
+        {
+            "name": "typeLocal",
+            "description": "Caractéristique dominante de l’unité paysagère selon une classification spécifique à l’atlas des paysages correspondant au jeu de données géomatiques.",
+            "type": "string",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "comment": "Cet attribut est à renseigner seulement dans le cas où une classification locale a été établie.",
+            "example": "paysage de bocage",
+            "nullable": true,
+            "maxItems": 1
+        },
+        {
+            "name": "motClefGenerique",
+            "description": "Mots ou expressions indiquant les principales caractéristiques de l’unité paysagère. Un mot-clef générique ne contient pas de nom propre.",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": [
+                    "Vallons, coteaux, terres labourées, boisements, villages anciens, vignobles, séchoirs à tabac"
+                ]
+            },
+            "comment": "Les mots-clefs génériques sont issus de la description de l’unité paysagère dans l’atlas.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "motClefToponymique",
+            "description": "Suite de mots ou expressions indiquant les principaux lieux nommés d’intérêt de l’unité paysagère.\nUn mot-clef toponymique est un nom de lieu (avec un nom propre).",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": "Vallon du Lisos, valon de la Bassane, vallon du Beuve, Langon, berges de la Garonne, plaine de Castet-en-Dorthe"
+            },
+            "comment": "Les mots-clefs génériques sont issus de la description de l’unité paysagère dans l’atlas.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "description",
+            "description": "Texte court, extrait de l’atlas, décrivant de façon synthétique l’unité paysagère.",
+            "type": "string",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "example": "Surplombant la vallée de la Garonne en rive gauche, cette unité est composée d’une terrasse alluviale résolument plane.\nCinq vallons (le Lisos, la Bassanne, le Beuve...), souvent accompagnés de prairies et de boisements, divisent l’unité perpendiculairement à l’axe de la vallée, enrichissant ainsi ses paysages de plateau à dominante céréalière.\nÀ l’exception de Langon, ville principale implantée à l’ouest, à l’aplomb du fleuve, l’urbanisation est plutôt dispersée.",
+            "nullable": true
+        },
+        {
+            "name": "image",
+            "description": "Lien vers une image illustrant ou symbolisant l’unité paysagère.",
+            "type": "string",
+			"minProperties": 0,
+            "comment": "Il est conseillé de se limiter à un très petit nombre d’images, voire à une seule.",
+			"example": "http://mon_image.fr",
+            "nullable": true
+        },
+        {
+            "name": "dateDefinition",
+            "description": "Date à laquelle l’unité paysagère a été définie, délimitée et nommée.",
+            "type": "date",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "comment": "Il peut s’agir de la date de réalisation de l’atlas en cours ou de la date de réalisation d’une version précédente de l’atlas.\nIl est particulièrement recommandé de documenter l’attribut dans ce deuxième cas.",
+            "example": "2021-10-31",
+            "nullable": true
+        },
+		{
+            "name": "dateActualisation",
+            "description": "Date à laquelle l’unité paysagère a été actualisée.",
+            "type": "date",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "comment": "Il peut s’agir de la date où certains attributs ont été modifiés.",
+            "example": "2021-11-24",
+            "nullable": true
+        },
+        {
+            "name": "lienAtlasPaysage",
+            "description": "Lien vers la classe AtlasPaysage correspondant à l’unité paysagère.\nCe lien permet à l’utilisateur global de trouver les unités paysagères relatifs à un atlas donné.",
+            "type": "string",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "comment": "En pratique, le lien vers l’atlas doit être fourni sous la forme de l’identifiant de l’atlas (qui joue ainsi le rôle de clé externe).",
+            "example": "AtlasPaysage_dept_33_2020",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "codeDepartement",
+            "description": "Code INSEE du ou des département(s) où se situe l’unité paysagère.",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": 33
+            },
+            "comment": "Le code INSEE doit provenir du fichier des départements du COG (Code Géographique Officiel).\nLe millésime de ce fichier doit être celui de l’année de réalisation de l’atlas. https://www.insee.fr/fr/information/2560452.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "codeRegion",
+            "description": "Code INSEE du ou des région(s) où se situe l’unité paysagère.",
+            "type": "array",
+			"minProperties": 1,
+			"maxProperties": 1,
+            "items": {
+                "type": "string",
+                "minItems": 1,
+                "example": 75
+            },
+            "comment": "Le code INSEE doit provenir du fichier des régions du COG (Code Géographique Officiel).\nLe millésime de ce fichier doit être celui de l’année de réalisation de l’atlas. https://www.insee.fr/fr/information/2560452.",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "lienEP",
+            "description": "Lien vers l’ensemble paysager auquel appartient l’unité paysagère.",
+            "type": "string",
+			"minProperties": 0,
+			"maxProperties": 1,
+            "comment": "En pratique, cet attribut est constitué de l’identifiant global de l’ensemble paysager (qui joue le rôle de clé externe). Cet attribut est à fournir de façon obligatoire si le jeu de données géomatiques comprend la classe EnsemblePaysager.",
+            "nullable": true
+        }
+    ]
+}

@@ -1097,6 +1097,40 @@
                 "schema_name": "gip-inclusion/data-inclusion-schema",
                 "version": "0.27.0 => 1.0.0"
             }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "cnigfr/schema-paysage",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/atlas-paysager",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/document-paysage",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/dynamique",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/ensemble-paysager",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/limite-decoupage-paysager",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/sousunite-paysagere",
+                "version": "1.0.0"
+            },
+            {
+                "schema_name": "cnigfr/unite-paysagere",
+                "version": "1.0.0"
+            }
         ]
     }
 }

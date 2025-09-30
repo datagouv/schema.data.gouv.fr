@@ -3190,5 +3190,203 @@
             }
         },
         "latest": "1.0.1"
+    },
+    "cnigfr/schema-paysage": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "datapackage",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/cnigfr/schema-paysage/1.0.0/datapackage.json"
+            }
+        },
+        "schemas": [
+            "cnigfr/atlas-paysager",
+            "cnigfr/document-paysage",
+            "cnigfr/dynamique",
+            "cnigfr/ensemble-paysager",
+            "cnigfr/limite-decoupage-paysager",
+            "cnigfr/sousunite-paysagere",
+            "cnigfr/unite-paysagere"
+        ],
+        "latest": "1.0.0"
+    },
+    "cnigfr/atlas-paysager": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/atlas-paysager/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/document-paysage": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/document-paysage/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/dynamique": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/dynamique/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/ensemble-paysager": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/ensemble-paysager/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/limite-decoupage-paysager": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/limite-decoupage-paysager/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/sousunite-paysagere": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/sousunite-paysagere/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
+    },
+    "cnigfr/unite-paysagere": {
+        "homepage": "https://github.com/cnigfr/schema-paysage.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/unite-paysagere/1.0.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9ma paysage",
+        "datapackage_id": "datapackage-paysage",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "1.0.0"
     }
 }
