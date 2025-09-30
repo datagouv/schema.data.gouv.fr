@@ -18,7 +18,7 @@ Le schéma définit les structures de l’insertion et devraient à terme inclur
 
 Le schéma est pour le moment formalisé dans le format JSON schema. Nous veillions néanmoins à maintenir la possibilité de représenter les données au format csv.
 
-La documentation détaillée du schéma est disponible [ici](https://data.inclusion.gouv.fr/schemas-de-donnees-de-loffre/schema-des-structures-dinsertion).
+La documentation détaillée du schéma est disponible [ici](https://gip-inclusion.github.io/data-inclusion-schema/latest/).
 
 ## Consolidation
 

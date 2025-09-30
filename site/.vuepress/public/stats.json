@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 918,
+            "dgv_resources": 940,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
@@ -286,12 +286,12 @@
             "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Dispositifs d'aides",
             "contributors": 3
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 28,
+            "dgv_resources": 29,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         },
