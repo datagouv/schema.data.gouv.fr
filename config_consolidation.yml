@@ -30,6 +30,26 @@ betagouv/projets-territoire:
   consolidate: false
   search_words:
   - "Projets de collectivit\xE9s"
+cnigfr/atlas-paysager:
+  consolidate: false
+  search_words:
+  - ' Atlas Paysager'
+cnigfr/document-paysage:
+  consolidate: false
+  search_words:
+  - Document Paysage
+cnigfr/dynamique:
+  consolidate: false
+  search_words:
+  - Dynamique
+cnigfr/ensemble-paysager:
+  consolidate: false
+  search_words:
+  - Ensemble Paysager
+cnigfr/limite-decoupage-paysager:
+  consolidate: false
+  search_words:
+  - "Limite D\xE9coupage Paysager"
 cnigfr/operation-amenagement:
   consolidate: false
   search_words:
@@ -62,6 +82,14 @@ cnigfr/sites-economiques-terrain-eco:
   consolidate: false
   search_words:
   - Classe TERRAIN-ECO du standard CNIG Sites Economiques
+cnigfr/sousunite-paysagere:
+  consolidate: false
+  search_words:
+  - "Sous-unit\xE9 Paysag\xE8re"
+cnigfr/unite-paysagere:
+  consolidate: false
+  search_words:
+  - "Unit\xE9 Paysag\xE8re"
 datagouv/schema-declaration-biens-reemploi-reutilisation-recycle:
   consolidate: true
   consolidated_dataset_id: 68626c75e820e70ccbf63d19
@@ -122,7 +150,7 @@ etalab/schema-decp-dpa:
 etalab/schema-dispositif-aide:
   consolidate: false
   search_words:
-  - "Dispositifs d'aides"
+  - Dispositifs d'aides
 etalab/schema-hautes-remunerations:
   consolidate: true
   publication: false
