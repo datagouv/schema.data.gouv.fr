@@ -166,7 +166,7 @@
             "contributors": 8
         },
         "scdl/prenoms": {
-            "dgv_resources": 16,
+            "dgv_resources": 15,
             "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
             "contributors": 10
         },
@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1005,
+            "dgv_resources": 1012,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
@@ -273,12 +273,12 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
