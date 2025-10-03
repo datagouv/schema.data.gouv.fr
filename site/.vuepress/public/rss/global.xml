@@ -794,5 +794,10 @@
       <link>https://schema.data.gouv.fr/cnigfr/unite-paysagere</link>
       <description>Schema update on 2025-09-30: 1.0.0 for cnigfr/unite-paysagere</description>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - MTES-MCT/acceslibre-schema (0.0.16 to 0.0.17)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
+      <description>Schema update on 2025-10-03: 0.0.16 to 0.0.17 for MTES-MCT/acceslibre-schema</description>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
