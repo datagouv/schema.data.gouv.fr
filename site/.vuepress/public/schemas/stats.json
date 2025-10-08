@@ -131,7 +131,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 55,
+            "dgv_resources": 54,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1013,
+            "dgv_resources": 1017,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
