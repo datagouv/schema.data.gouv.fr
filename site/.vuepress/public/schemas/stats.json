@@ -131,7 +131,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 54,
+            "dgv_resources": 55,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -141,7 +141,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 79,
+            "dgv_resources": 80,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -228,7 +228,7 @@
         "etalab/schema-zfe": {
             "dgv_resources": 24,
             "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 2
+            "contributors": 3
         },
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
@@ -241,7 +241,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1017,
+            "dgv_resources": 1018,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 298,
+            "dgv_resources": 300,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
