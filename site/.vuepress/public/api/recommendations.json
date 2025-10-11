@@ -6886,6 +6886,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "core-m6-crosscall",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-btlec-est-3",
     "recommendations": [
       {
