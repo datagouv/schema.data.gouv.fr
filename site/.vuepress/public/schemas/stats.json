@@ -98,27 +98,27 @@
         "etalab/schema-irve-statique": {
             "dgv_resources": 1190,
             "title": "IRVE statique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 17,
             "title": "IRVE dynamique",
-            "contributors": 2
+            "contributors": 7
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
-            "contributors": 2
+            "contributors": 7
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 206,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
+            "contributors": 8
         },
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 2
+            "contributors": 1
         },
         "scdl/catalogue": {
             "dgv_resources": 6,
