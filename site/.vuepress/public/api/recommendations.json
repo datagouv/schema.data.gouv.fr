@@ -4928,17 +4928,6 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
-    "id": "indice-de-durabilite-televiseur-organisation-continental-edison-1",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-televiseur"
-  },
-  {
     "id": "indice-de-durabilite-televiseur-organisation-samsung-electronics-france-1",
     "recommendations": [
       {
@@ -6886,6 +6875,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "indice-de-reparabilite-organisation-seb-international-services-3",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "core-m6-crosscall",
     "recommendations": [
       {
@@ -7558,17 +7558,6 @@
   },
   {
     "id": "indice-de-reparabilite-organisation-groupe-seb-retailing-1",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-indice-reparabilite"
-  },
-  {
-    "id": "indice-de-reparabilite-organisation-seb-international-services-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
