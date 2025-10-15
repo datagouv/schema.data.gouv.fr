@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1190,
+            "dgv_resources": 1191,
             "title": "IRVE statique",
             "contributors": 7
         },
@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1018,
+            "dgv_resources": 1021,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
@@ -278,12 +278,12 @@
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
@@ -303,7 +303,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 301,
@@ -338,7 +338,7 @@
         "cnigfr/schema-continuites-ecologiques-regionales": {
             "dgv_resources": 2,
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
@@ -383,7 +383,7 @@
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
@@ -398,7 +398,7 @@
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
@@ -408,7 +408,7 @@
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
             "title": "Site Economique",
-            "contributors": 5
+            "contributors": 2
         },
         "CEREMA/schema-aire-livraison": {
             "dgv_resources": 1,
@@ -443,7 +443,7 @@
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
             "dgv_resources": 380,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
-            "contributors": 1
+            "contributors": 2
         },
         "betagouv/projets-territoire": {
             "dgv_resources": 0,
