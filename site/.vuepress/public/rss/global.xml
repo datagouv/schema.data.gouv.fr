@@ -799,5 +799,10 @@
       <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
       <description>Schema update on 2025-10-03: 0.0.16 to 0.0.17 for MTES-MCT/acceslibre-schema</description>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (1.0.0 to 1.0.1)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2025-10-15: 1.0.0 to 1.0.1 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
