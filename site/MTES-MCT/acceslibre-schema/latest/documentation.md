@@ -84,8 +84,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [accueil_cheminement_main_courante](#main-courante-propriete-accueil-cheminement-main-courante) | booléen  | Non |
 | [accueil_cheminement_rampe](#rampe-propriete-accueil-cheminement-rampe) | chaîne de caractères  | Non |
 | [accueil_cheminement_sens_marches](#sens-de-circulation-de-l-escalier-propriete-accueil-cheminement-sens-marches) | chaîne de caractères  | Non |
-| [accueil_ascenceur_etage](#ascenceur-desservant-le-ou-les-etages-propriete-accueil-ascenceur-etage) | booléen  | Non |
-| [accueil_ascenceur_etage_pmr](#accessibilite-de-l'ascenseur-propriete-accueil-ascenceur-etage-pmr) | booléen  | Non |
+| [accueil_ascenseur_etage](#ascenseur-desservant-le-ou-les-etages-propriete-accueil-ascenseur-etage) | booléen  | Non |
+| [accueil_ascenseur_etage_pmr](#accessibilite-de-l'ascenseur-propriete-accueil-ascenseur-etage-pmr) | booléen  | Non |
 | [accueil_classes_accessibilite](#accessibilite-des-salles-de-classes-propriete-accueil-classes-accessibilite) | chaîne de caractères  | Non |
 | [accueil_espaces_ouverts](#accessibilite-des-differents-espaces-ouverts-aux-eleves-ou-etudiants-propriete-accueil-espaces-ouverts) | liste  | Non |
 | [accueil_chambre_nombre_accessibles](#nombre-de-chambres-accessibles-a-une-personne-en-fauteuil-roulant-propriete-accueil-chambre-nombre-accessibles) | nombre entier  | Non |
@@ -546,13 +546,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
     - `montant`
     - `descendant`
 
-#### Ascenceur desservant le ou les étages - Propriété `accueil_ascenceur_etage`
+#### Ascenseur desservant le ou les étages - Propriété `accueil_ascenseur_etage`
 
-> *Description : Ascenceur desservant le ou les étages*<br/>*Exemple : True*
+> *Description : Ascenseur desservant le ou les étages*<br/>*Exemple : True*
 - Valeur optionnelle
 - Type : booléen
 
-#### Accessibilité de l’ascenseur - Propriété `accueil_ascenceur_etage_pmr`
+#### Accessibilité de l’ascenseur - Propriété `accueil_ascenseur_etage_pmr`
 
 > *Description : L’ascenseur est accessible*<br/>*Exemple : True*
 - Valeur optionnelle
