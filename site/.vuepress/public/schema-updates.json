@@ -1130,5 +1130,13 @@
                 "version": "1.0.0 => 1.0.1"
             }
         ]
+    },
+    "2025-10-17": {
+        "new_version": [
+            {
+                "schema_name": "MTES-MCT/acceslibre-schema",
+                "version": "0.0.17 => 0.0.18"
+            }
+        ]
     }
 }
