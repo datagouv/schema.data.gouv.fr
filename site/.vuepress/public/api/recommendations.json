@@ -4510,6 +4510,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
     "id": "indice-de-durabilite-televiseur-srt32hg4723c",
     "recommendations": [
       {
@@ -10184,6 +10195,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "irve-statique-organisation-partage-ma-borne-1",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "irve-statique-organisation-fuzed-homebox",
