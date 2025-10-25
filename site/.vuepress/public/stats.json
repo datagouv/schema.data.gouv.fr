@@ -93,27 +93,27 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 2,
+    "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
             "dgv_resources": 1194,
             "title": "IRVE statique",
-            "contributors": 2
+            "contributors": 8
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 17,
             "title": "IRVE dynamique",
-            "contributors": 2
+            "contributors": 8
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
-            "contributors": 2
+            "contributors": 8
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 206,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
+            "contributors": 8
         },
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
@@ -121,12 +121,12 @@
             "contributors": 2
         },
         "scdl/catalogue": {
-            "dgv_resources": 6,
+            "dgv_resources": 17,
             "title": "Catalogue simplifi\u00e9",
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 37,
+            "dgv_resources": 40,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -136,7 +136,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 43,
+            "dgv_resources": 48,
             "title": "Subventions",
             "contributors": 11
         },
@@ -156,7 +156,7 @@
             "contributors": 2
         },
         "scdl/budget": {
-            "dgv_resources": 34,
+            "dgv_resources": 36,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
