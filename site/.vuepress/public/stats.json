@@ -121,12 +121,12 @@
             "contributors": 1
         },
         "scdl/catalogue": {
-            "dgv_resources": 6,
+            "dgv_resources": 17,
             "title": "Catalogue simplifi\u00e9",
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 37,
+            "dgv_resources": 40,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -136,7 +136,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 43,
+            "dgv_resources": 48,
             "title": "Subventions",
             "contributors": 11
         },
@@ -156,7 +156,7 @@
             "contributors": 3
         },
         "scdl/budget": {
-            "dgv_resources": 34,
+            "dgv_resources": 36,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
         },
@@ -243,7 +243,7 @@
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 1027,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 3
+            "contributors": 2
         },
         "datakode/schema-pei": {
             "dgv_resources": 1,
@@ -253,12 +253,12 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 5
+            "contributors": 2
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -268,12 +268,12 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
