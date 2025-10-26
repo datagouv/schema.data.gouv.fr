@@ -121,7 +121,7 @@
             "contributors": 1
         },
         "scdl/catalogue": {
-            "dgv_resources": 17,
+            "dgv_resources": 25,
             "title": "Catalogue simplifi\u00e9",
             "contributors": 7
         },
@@ -243,7 +243,7 @@
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
             "dgv_resources": 1027,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 2
+            "contributors": 3
         },
         "datakode/schema-pei": {
             "dgv_resources": 1,
@@ -253,12 +253,12 @@
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
+            "contributors": 5
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -268,27 +268,27 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 31,
