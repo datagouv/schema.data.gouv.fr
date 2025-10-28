@@ -4213,6 +4213,17 @@
     "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
   },
   {
+    "id": "indice-de-durabilite-lave-linge-organisation-vestel-france-tucson-tll914t2a-id",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
     "id": "indice-de-durabilite-lave-linge-organisation-electrolux-france",
     "recommendations": [
       {
