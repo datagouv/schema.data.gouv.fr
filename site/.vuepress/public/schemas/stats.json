@@ -141,7 +141,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 81,
+            "dgv_resources": 80,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -176,7 +176,7 @@
             "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 17,
+            "dgv_resources": 16,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
