@@ -9735,6 +9735,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "indice-de-reparabilite-organisation-haier-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-groupe-seb-france",
     "recommendations": [
       {
@@ -10261,6 +10272,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "bornes-de-recharges-izivia-grand-frais",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-92",
