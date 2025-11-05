@@ -19,7 +19,7 @@
             "contributors": 2
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 206,
+            "dgv_resources": 207,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 2
         },
@@ -39,7 +39,7 @@
             "contributors": 10
         },
         "scdl/equipements": {
-            "dgv_resources": 55,
+            "dgv_resources": 54,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -49,7 +49,7 @@
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 81,
+            "dgv_resources": 82,
             "title": "Lieux de covoiturage",
             "contributors": 2
         },
@@ -94,7 +94,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 360,
+            "dgv_resources": 359,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -214,7 +214,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 305,
+            "dgv_resources": 306,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
