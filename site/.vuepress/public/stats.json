@@ -111,7 +111,7 @@
             "contributors": 8
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 207,
+            "dgv_resources": 208,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -151,7 +151,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 20,
+            "dgv_resources": 19,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
@@ -186,7 +186,7 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 360,
+            "dgv_resources": 359,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 5
         },
@@ -211,7 +211,7 @@
             "contributors": 5
         },
         "etalab/schema-sdirve": {
-            "dgv_resources": 61,
+            "dgv_resources": 60,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 1
         },
