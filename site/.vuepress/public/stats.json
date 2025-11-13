@@ -96,12 +96,12 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1193,
+            "dgv_resources": 1194,
             "title": "IRVE statique",
             "contributors": 8
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 17,
+            "dgv_resources": 18,
             "title": "IRVE dynamique",
             "contributors": 8
         },
@@ -111,7 +111,7 @@
             "contributors": 8
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 208,
+            "dgv_resources": 209,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -126,7 +126,7 @@
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 40,
+            "dgv_resources": 41,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -298,22 +298,22 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 2
+            "contributors": 11
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 306,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 8,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 6
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 2,
@@ -421,7 +421,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 28,
+            "dgv_resources": 30,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
