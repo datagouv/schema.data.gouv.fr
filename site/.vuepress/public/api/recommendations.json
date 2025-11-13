@@ -4400,6 +4400,17 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
+    "id": "indice-de-durabilite-lave-linge-organisation-miele-s-a-s",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
     "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
     "recommendations": [
       {
@@ -4467,6 +4478,17 @@
   },
   {
     "id": "indice-de-durabilite-lave-linge-top-organisation-european-appliances-france-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-haier-france-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
@@ -10283,6 +10305,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "irve-statique-organisation-mobilygreen-1",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "bornes-de-recharges-izivia-lfrem",
