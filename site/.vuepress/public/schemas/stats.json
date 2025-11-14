@@ -4,12 +4,12 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1193,
+            "dgv_resources": 1195,
             "title": "IRVE statique",
             "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 17,
+            "dgv_resources": 18,
             "title": "IRVE dynamique",
             "contributors": 2
         },
@@ -19,7 +19,7 @@
             "contributors": 2
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 208,
+            "dgv_resources": 209,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 2
         },
@@ -34,7 +34,7 @@
             "contributors": 7
         },
         "scdl/deliberations": {
-            "dgv_resources": 40,
+            "dgv_resources": 41,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -349,7 +349,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 28,
+            "dgv_resources": 30,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
