@@ -2790,6 +2790,10 @@
                 {
                     "version_name": "1.0.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-risques-ppr/1.0.1/schema.yml"
+                },
+                {
+                    "version_name": "1.0.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/Geostandards-risques-ppr/1.0.2/schema.yml"
                 }
             ],
             "external_doc": "https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/diffusion/geostandards-risques-ppr-v1.0.1.pdf",

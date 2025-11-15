@@ -1164,5 +1164,13 @@
                 "version": "1.0.1 => 1.0.2"
             }
         ]
+    },
+    "2025-11-15": {
+        "new_version": [
+            {
+                "schema_name": "cnigfr/Geostandards-risques-ppr",
+                "version": "1.0.1 => 1.0.2"
+            }
+        ]
     }
 }

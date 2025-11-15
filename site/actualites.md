@@ -1,3 +1,10 @@
+### 2025-11-15
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/Geostandards-risques-ppr](/cnigfr/Geostandards-risques-ppr/)** : <span style="color:red;">1.0.1</span> => <span style="color:green;">1.0.2</span><br>
+
+---
+
 ### 2025-11-04
 
 #### Montée de version:

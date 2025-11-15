@@ -2,7 +2,7 @@
 
 # Géostandards Risques - Plan de Prévention des Risques
 
-Le Groupe de travail pour la refonte des Géostandards Risques a pour objectif de moderniser les géostandards COVADIS existants liés aux risques en prenant en compte les aspects liés à la diffusion, en cohérence avec les autres standards existants au niveau national et européen pour facilité l'intéropérabilité entre systèmes, la consultation nationale, le croisement de données et le rapportage.
+Le Groupe de travail pour la refonte des Géostandards Risques a pour objectif de moderniser les géostandards COVADIS existants liés aux risques en prenant en compte les aspects liés à la diffusion, en cohérence avec les autres standards existants au niveau national et européen pour faciliter l'intéropérabilité entre systèmes, la consultation nationale, le croisement de données et le rapportage.
 
 Il oeuvre sous mandat de la **Commission des Standards du Conseil National de l'Information Géolocalisée** (CNIG). Le **mandat du Groupe de Travail** peut être consulté [ici](https://cnig.gouv.fr/IMG/documents_wordpress/2021/10/MandatModernisationStandardsRisque-vf.pdf).
 
@@ -17,6 +17,7 @@ Les versions en cours de ce géostandard sont accessibles ici :
 
 Ce standard s'appuie sur le Géostandard risques - Modèle commun dont les développements se déroulent sur le dépôt [Geostandards Risques](https://github.com/cnigfr/Geostandards-Risques)
 
+> [!TIP]
 Ce standard CNIG ne possède pas de schéma de données directement accessible sur schema.data.gouv.fr.
 
 Davantage de documentation peut être trouvée sur le site du CNIG sur la [page suivante](https://cnig.gouv.fr/gt-risques-a25378.html).
@@ -49,7 +50,7 @@ Les cas d'usages types de ce standard sont décrits dans la partie [Cas d'utilis
 
 ## Modalités de production des données
 
-Les modalités de production des données PPR sont décrites dans la partie [Cycle de vie des données des données](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#cycle-de-vie-des-données).
+Les modalités de production des données PPR sont décrites dans la partie [Cycle de vie des données](https://github.com/cnigfr/Geostandards-risques-ppr/blob/master/standard/Document.md#cycle-de-vie-des-données).
 
 ### Données ouvertes
 

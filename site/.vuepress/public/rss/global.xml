@@ -814,5 +814,10 @@
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2025-11-04: 1.0.1 to 1.0.2 for gip-inclusion/data-inclusion-schema</description>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - cnigfr/Geostandards-risques-ppr (1.0.1 to 1.0.2)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/Geostandards-risques-ppr</link>
+      <description>Schema update on 2025-11-15: 1.0.1 to 1.0.2 for cnigfr/Geostandards-risques-ppr</description>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>

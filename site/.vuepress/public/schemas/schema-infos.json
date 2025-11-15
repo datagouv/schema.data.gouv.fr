@@ -3221,9 +3221,16 @@
                     "CHANGELOG.md"
                 ],
                 "schema_url": "/cnigfr/Geostandards-risques-ppr/1.0.1/schema.yml"
+            },
+            "1.0.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/cnigfr/Geostandards-risques-ppr/1.0.2/schema.yml"
             }
         },
-        "latest": "1.0.1"
+        "latest": "1.0.2"
     },
     "cnigfr/schema-paysage": {
         "homepage": "https://github.com/cnigfr/schema-paysage.git",
