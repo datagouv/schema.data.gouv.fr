@@ -111,7 +111,7 @@
             "contributors": 8
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 210,
+            "dgv_resources": 211,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1030,
+            "dgv_resources": 1031,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
