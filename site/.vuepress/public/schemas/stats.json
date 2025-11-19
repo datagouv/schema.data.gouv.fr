@@ -101,7 +101,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 18,
+            "dgv_resources": 19,
             "title": "IRVE dynamique",
             "contributors": 8
         },
@@ -111,7 +111,7 @@
             "contributors": 8
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 211,
+            "dgv_resources": 213,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 8
         },
@@ -186,7 +186,7 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 359,
+            "dgv_resources": 367,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 5
         },
