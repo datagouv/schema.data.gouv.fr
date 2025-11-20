@@ -2234,9 +2234,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.2/schemas/v1/service.json"
+            },
+            "1.0.3": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.3/schemas/v1/service.json"
             }
         },
-        "latest": "1.0.2"
+        "latest": "1.0.3"
     },
     "cnigfr/schema-friches": {
         "homepage": "https://github.com/cnigfr/schema-friches.git",
