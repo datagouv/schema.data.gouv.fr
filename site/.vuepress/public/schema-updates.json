@@ -1146,5 +1146,13 @@
                 "version": "1.0.1 => 1.0.2"
             }
         ]
+    },
+    "2025-11-20": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "1.0.2 => 1.0.3"
+            }
+        ]
     }
 }
