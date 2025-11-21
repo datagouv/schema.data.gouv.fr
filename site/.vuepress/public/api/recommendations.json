@@ -10318,6 +10318,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "borne-rsm-reunion-expertise",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-organisation-greenea",
     "recommendations": [
       {
@@ -15841,17 +15852,6 @@
   },
   {
     "id": "irve-france-solar",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "infrastructures-de-recharge-pour-vehicules-electriques-borne-elec-fr",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
