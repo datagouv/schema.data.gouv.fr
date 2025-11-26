@@ -6,7 +6,7 @@ COPY ./ /app
 
 ENV NODE_OPTIONS=--openssl-legacy-provider
 
-RUN npm install
+RUN npm ci
 RUN echo "$(date)" && \
     export $(cat /app/*.env | xargs) && \
     npm run build
