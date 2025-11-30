@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1035,
+            "dgv_resources": 1037,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
@@ -298,12 +298,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 306,
