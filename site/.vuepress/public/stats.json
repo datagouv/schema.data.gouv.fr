@@ -4,7 +4,7 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1199,
+            "dgv_resources": 1198,
             "title": "IRVE statique",
             "contributors": 2
         },
@@ -349,7 +349,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 30,
+            "dgv_resources": 31,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
