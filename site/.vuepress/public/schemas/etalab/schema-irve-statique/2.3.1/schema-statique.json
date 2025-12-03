@@ -1,8 +1,8 @@
 {
-    "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
     "name": "schema-irve-statique",
     "title": "IRVE statique",
-    "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
+    "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques. Chaque ligne du fichier correspond à un point de recharge (PDC).",
     "countryCode": "FR",
     "homepage": "https://github.com/etalab/schema-irve",
     "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/statique/schema-statique.json",
@@ -15,24 +15,24 @@
     "sources": [
         {
             "title": "Décret n° 2017-26 du 12 janvier 2017 relatif aux infrastructures de recharge pour véhicules électriques et portant diverses mesures de transposition de la directive 2014/94/UE du Parlement européen et du Conseil du 22 octobre 2014 sur le déploiement d’une infrastructure pour carburants alternatifs",
-            "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860620"
+            "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033860620"
         },
         {
             "title": "Arrêté du 12 janvier 2017 relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
-            "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860733"
+            "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033860733"
         },
         {
             "title": "Arrêté du 12 janvier 2017 précisant les dispositions relatives aux identifiants des unités d’exploitation pour la recharge des véhicules électriques",
-            "path": "https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860743"
+            "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033860743"
         },
         {
             "title": "Définition et structure des identifiants attribués par l'Association Française pour l'Itinérance de la Recharge Electrique des Véhicules (AFIREV)",
-            "path": "http://www.afirev.fr/fr/informations-generales/"
+            "path": "https://afirev.fr/fr/informations-generales/"
         }
     ],
     "created": "2018-06-29",
     "lastModified": "2022-10-10",
-    "version": "2.3.0",
+    "version": "v2.3.0",
     "contributors": [
         {
             "title": "Alexandre Bulté",
@@ -90,6 +90,18 @@
         {
             "title": "Francis Chabouis",
             "email": "francis.chabouis@beta.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "contributor"
+        },
+        {
+            "title": "Vincent Degove",
+            "email": "vincent.degove@transport.data.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "contributor"
+        },
+        {
+            "title": "Stéphane Pignal",
+            "email": "stephane.pignal@transport.data.gouv.fr",
             "organisation": "transport.data.gouv.fr",
             "role": "contributor"
         }

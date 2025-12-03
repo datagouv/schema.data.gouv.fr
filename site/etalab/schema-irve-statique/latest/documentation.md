@@ -4,11 +4,11 @@
 
 IRVE statique
 
-Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques
+Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques. Chaque ligne du fichier correspond à un point de recharge (PDC).
 
 - Schéma créé le : 29/06/2018
 - Site web : https://github.com/etalab/schema-irve
-- Version : 2.3.0
+- Version : v2.3.0
 
 ### Modèle de données
 

@@ -4,11 +4,11 @@
 
 IRVE dynamique
 
-Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques
+Spécification du fichier d'échange relatif aux données concernant l’état temps réel des points de recharge pour véhicules électriques. Chaque ligne du fichier correspond à un point de recharge (PDC) dont les caractéristiques complètes sont décrites dans un fichier au schéma « IRVE statique »
 
 - Schéma créé le : 28/10/2022
 - Site web : https://github.com/etalab/schema-irve
-- Version : 2.3.0
+- Version : v2.3.0
 
 ### Modèle de données
 
