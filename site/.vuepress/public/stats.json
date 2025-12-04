@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1197,
+            "dgv_resources": 1199,
             "title": "IRVE statique",
             "contributors": 8
         },
@@ -298,17 +298,17 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 306,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 8,
