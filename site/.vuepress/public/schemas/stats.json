@@ -298,12 +298,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 2
+            "contributors": 11
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 306,
@@ -421,7 +421,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 31,
+            "dgv_resources": 30,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
