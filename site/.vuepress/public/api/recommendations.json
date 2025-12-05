@@ -4565,17 +4565,6 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
-    "id": "indice-de-durabilite-lave-linge-organisation-sas-organisation-intra-groupe-des-achats",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-lave-linge"
-  },
-  {
     "id": "indice-de-durabilite-televiseur-srt55uh7773",
     "recommendations": [
       {
