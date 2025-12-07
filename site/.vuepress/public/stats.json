@@ -298,52 +298,52 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 306,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 8,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 6
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 2,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-socle-reseaux": {
             "dgv_resources": 0,
             "title": "Socle des R\u00e9seaux (STAR-DT)",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
             "dgv_resources": 0,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-continuites-ecologiques-regionales": {
             "dgv_resources": 2,
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
