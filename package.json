@@ -28,11 +28,12 @@
     "gh-pages": "^2.2.0"
   },
   "dependencies": {
-    "@gouvfr/dsfr": "^1.0.0",
+    "@gouvfr/dsfr": "*1.1.0",
     "axios": "^0.21.2",
     "latinize": "^0.5.0",
     "moment": "^2.29.1",
     "vue-loading-overlay": "^3.3.2",
     "vuepress-plugin-matomo": "^1.0.2"
-  }
+  },
+  "packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a"
 }
