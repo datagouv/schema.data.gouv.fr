@@ -298,7 +298,7 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 2
+            "contributors": 11
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
@@ -316,7 +316,7 @@
             "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
         },
@@ -416,7 +416,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 216,
+            "dgv_resources": 217,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
