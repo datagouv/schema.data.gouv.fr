@@ -4,7 +4,7 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1199,
+            "dgv_resources": 1200,
             "title": "IRVE statique",
             "contributors": 2
         },
@@ -224,7 +224,7 @@
             "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 2,
+            "dgv_resources": 3,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
             "contributors": 2
         },
@@ -344,7 +344,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 216,
+            "dgv_resources": 217,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
@@ -359,7 +359,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 382,
+            "dgv_resources": 383,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
