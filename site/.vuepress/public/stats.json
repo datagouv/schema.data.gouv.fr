@@ -94,7 +94,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 368,
+            "dgv_resources": 294,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
@@ -124,7 +124,7 @@
             "contributors": 2
         },
         "Archivistes75/registre_entrees": {
-            "dgv_resources": 7,
+            "dgv_resources": 8,
             "title": "Registre d'entr\u00e9e d'archives",
             "contributors": 2
         },
