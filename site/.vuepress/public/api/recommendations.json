@@ -20757,17 +20757,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "infrastructure-de-recharge-vehicules-electriques-cooperative-u-enseigne",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-71",
     "recommendations": [
       {
