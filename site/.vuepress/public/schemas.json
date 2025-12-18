@@ -1799,7 +1799,7 @@
                 {
                     "title": "Fichier valide",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/cnigfr/schema-friches/raw/v1.0.5/fichier-valide.csv"
+                    "path": "https://github.com/cnigfr/schema-friches/raw/v1.0.6/fichier-valide.csv"
                 }
             ],
             "labels": [
@@ -1826,6 +1826,10 @@
                 {
                     "version_name": "1.0.5",
                     "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-friches/1.0.5/schema.json"
+                },
+                {
+                    "version_name": "1.0.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-friches/1.0.6/schema.json"
                 }
             ],
             "external_doc": null,
