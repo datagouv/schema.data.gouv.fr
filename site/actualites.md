@@ -1,3 +1,10 @@
+### 2025-12-18
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/schema-friches](/cnigfr/schema-friches/)** : <span style="color:red;">1.0.5</span> => <span style="color:green;">1.0.6</span><br>
+
+---
+
 ### 2025-12-17
 
 #### Montée de version:
