@@ -6985,6 +6985,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "ir-lave-linge-top-sourcing-et-creation",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-groupe-seb-france-4",
     "recommendations": [
       {
