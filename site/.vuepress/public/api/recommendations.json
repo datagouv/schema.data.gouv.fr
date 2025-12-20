@@ -6996,6 +6996,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "indice-de-reparabilite-organisation-global-applius-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "ir-lave-linge-top-sourcing-et-creation",
     "recommendations": [
       {
