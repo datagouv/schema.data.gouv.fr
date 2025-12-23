@@ -709,5 +709,25 @@
       <link>https://schema.data.gouv.fr/cnigfr/schema-friches</link>
       <description>Schema update on 2025-12-18: 1.0.5 to 1.0.6 for cnigfr/schema-friches</description>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-comptage-mobilites (0.2.4 to 0.2.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites</link>
+      <description>Schema update on 2025-12-23: 0.2.4 to 0.2.5 for etalab/schema-comptage-mobilites</description>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-comptage-mobilites-site (0.2.4 to 0.2.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-site</link>
+      <description>Schema update on 2025-12-23: 0.2.4 to 0.2.5 for etalab/schema-comptage-mobilites-site</description>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-comptage-mobilites-channel (0.2.4 to 0.2.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-channel</link>
+      <description>Schema update on 2025-12-23: 0.2.4 to 0.2.5 for etalab/schema-comptage-mobilites-channel</description>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-comptage-mobilites-measure (0.2.4 to 0.2.5)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-measure</link>
+      <description>Schema update on 2025-12-23: 0.2.4 to 0.2.5 for etalab/schema-comptage-mobilites-measure</description>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>

@@ -1170,5 +1170,25 @@
                 "version": "1.0.5 => 1.0.6"
             }
         ]
+    },
+    "2025-12-23": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-comptage-mobilites",
+                "version": "0.2.4 => 0.2.5"
+            },
+            {
+                "schema_name": "etalab/schema-comptage-mobilites-site",
+                "version": "0.2.4 => 0.2.5"
+            },
+            {
+                "schema_name": "etalab/schema-comptage-mobilites-channel",
+                "version": "0.2.4 => 0.2.5"
+            },
+            {
+                "schema_name": "etalab/schema-comptage-mobilites-measure",
+                "version": "0.2.4 => 0.2.5"
+            }
+        ]
     }
 }

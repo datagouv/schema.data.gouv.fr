@@ -93,10 +93,9 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1196,
+            "dgv_resources": 1198,
             "title": "IRVE statique",
             "contributors": 8
         },
@@ -113,7 +112,7 @@
         "139bercy/format-commande-publique": {
             "dgv_resources": 212,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 8
+            "contributors": null
         },
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
@@ -143,7 +142,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 84,
             "title": "Lieux de covoiturage",
-            "contributors": 7
+            "contributors": null
         },
         "metis-reseaux/infos-travaux": {
             "dgv_resources": 1,
@@ -273,22 +272,22 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 31,

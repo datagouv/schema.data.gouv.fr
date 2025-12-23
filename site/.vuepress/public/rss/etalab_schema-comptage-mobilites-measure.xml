@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>etalab/schema-comptage-mobilites-measure Versioning RSS Feed</title>
+  <title>etalab/schema-comptage-mobilites-measure Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/etalab/schema-comptage-mobilites-measure</link>
     <description>Updates on etalab/schema-comptage-mobilites-measure versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -12,5 +11,9 @@
       <description>Update on 2023-09-14: New version (None to 0.2.4)</description>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0200</pubDate>
     </item>
-  </channel>
+  <item>
+      <title>2025-12-23 - new_version - 0.2.4 to 0.2.5</title>
+      <description>Update on 2025-12-23: New version (etalab/schema-comptage-mobilites-measure)</description>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0100</pubDate>
+    </item></channel>
 </rss>

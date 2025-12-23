@@ -1087,12 +1087,12 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/site/exemple-valide.csv"
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.5/site/exemple-valide.csv"
                 },
                 {
                     "title": "Deuxi\u00e8me fichier valide (CSV)",
                     "name": "exemple-valide-eco-compteur.csv",
-                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/site/exemple-valide-eco-compteur.csv"
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.5/site/exemple-valide-eco-compteur.csv"
                 }
             ],
             "labels": [
@@ -1107,6 +1107,10 @@
                 {
                     "version_name": "0.2.4",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/0.2.4/schema.json"
+                },
+                {
+                    "version_name": "0.2.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-site/0.2.5/schema.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
@@ -1127,12 +1131,12 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide.csv"
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.5/channel/exemple-valide.csv"
                 },
                 {
                     "title": "Deuxi\u00e8me fichier valide (CSV)",
                     "name": "exemple-valide-eco-compteur.csv",
-                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/channel/exemple-valide-eco-compteur.csv"
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.5/channel/exemple-valide-eco-compteur.csv"
                 }
             ],
             "labels": [
@@ -1147,6 +1151,10 @@
                 {
                     "version_name": "0.2.4",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/0.2.4/schema.json"
+                },
+                {
+                    "version_name": "0.2.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-channel/0.2.5/schema.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
@@ -1167,12 +1175,12 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/measure/exemple-valide.csv"
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.5/measure/exemple-valide.csv"
                 },
                 {
                     "title": "Deuxi\u00e8me fichier valide (CSV)",
                     "name": "exemple-valide-eco-compteur.csv",
-                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.4/measure/exemple-valide-eco-compteur.csv"
+                    "path": "https://raw.githubusercontent.com/etalab/schema-comptage-mobilites/v0.2.5/measure/exemple-valide-eco-compteur.csv"
                 }
             ],
             "labels": [
@@ -1187,6 +1195,10 @@
                 {
                     "version_name": "0.2.4",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/0.2.4/schema.json"
+                },
+                {
+                    "version_name": "0.2.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-comptage-mobilites-measure/0.2.5/schema.json"
                 }
             ],
             "external_doc": "https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites",
