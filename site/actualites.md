@@ -1,3 +1,13 @@
+### 2025-12-24
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-comptage-mobilites](/etalab/schema-comptage-mobilites/)** : <span style="color:red;">0.2.4</span> => <span style="color:green;">0.2.5</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-comptage-mobilites-site](/etalab/schema-comptage-mobilites-site/)** : <span style="color:red;">0.2.4</span> => <span style="color:green;">0.2.5</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-comptage-mobilites-channel](/etalab/schema-comptage-mobilites-channel/)** : <span style="color:red;">0.2.4</span> => <span style="color:green;">0.2.5</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-comptage-mobilites-measure](/etalab/schema-comptage-mobilites-measure/)** : <span style="color:red;">0.2.4</span> => <span style="color:green;">0.2.5</span><br>
+
+---
+
 ### 2025-12-18
 
 #### Montée de version:

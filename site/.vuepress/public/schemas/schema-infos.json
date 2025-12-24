@@ -1815,6 +1815,13 @@
                     "CHANGELOG.md"
                 ],
                 "schema_url": "/etalab/schema-comptage-mobilites/0.2.4/datapackage.json"
+            },
+            "0.2.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/etalab/schema-comptage-mobilites/0.2.5/datapackage.json"
             }
         },
         "schemas": [
@@ -1822,7 +1829,7 @@
             "etalab/schema-comptage-mobilites-channel",
             "etalab/schema-comptage-mobilites-measure"
         ],
-        "latest": "0.2.4"
+        "latest": "0.2.5"
     },
     "etalab/schema-comptage-mobilites-site": {
         "homepage": "https://github.com/etalab/schema-comptage-mobilites",
@@ -1844,6 +1851,13 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-comptage-mobilites-site/0.2.4/schema.json"
+            },
+            "0.2.5": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-comptage-mobilites-site/0.2.5/schema.json"
             }
         },
         "datapackage": "Comptage des mobilit\u00e9s",
@@ -1852,7 +1866,7 @@
             "transport.data.gouv.fr"
         ],
         "consolidation_dataset_id": null,
-        "latest": "0.2.4"
+        "latest": "0.2.5"
     },
     "etalab/schema-comptage-mobilites-channel": {
         "homepage": "https://github.com/etalab/schema-comptage-mobilites",
@@ -1874,6 +1888,13 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-comptage-mobilites-channel/0.2.4/schema.json"
+            },
+            "0.2.5": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-comptage-mobilites-channel/0.2.5/schema.json"
             }
         },
         "datapackage": "Comptage des mobilit\u00e9s",
@@ -1882,7 +1903,7 @@
             "transport.data.gouv.fr"
         ],
         "consolidation_dataset_id": null,
-        "latest": "0.2.4"
+        "latest": "0.2.5"
     },
     "etalab/schema-comptage-mobilites-measure": {
         "homepage": "https://github.com/etalab/schema-comptage-mobilites",
@@ -1904,6 +1925,13 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-comptage-mobilites-measure/0.2.4/schema.json"
+            },
+            "0.2.5": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-comptage-mobilites-measure/0.2.5/schema.json"
             }
         },
         "datapackage": "Comptage des mobilit\u00e9s",
@@ -1912,7 +1940,7 @@
             "transport.data.gouv.fr"
         ],
         "consolidation_dataset_id": null,
-        "latest": "0.2.4"
+        "latest": "0.2.5"
     },
     "etalab/schema-dispositif-aide": {
         "homepage": "https://github.com/etalab/schema-dispositif-aide.git",
