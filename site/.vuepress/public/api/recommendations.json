@@ -4367,18 +4367,7 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
-    "id": "indice-de-durabilite-lave-linge-organisation-sourcing-et-creation-1",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-lave-linge"
-  },
-  {
-    "id": "indice-de-durabilite-lave-linge-sourcing-et-creation",
+    "id": "indices-durabilite-lave-linge-sourcing-et-creation",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
@@ -4587,17 +4576,6 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
-    "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation-3",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-televiseur"
-  },
-  {
     "id": "indice-de-durabilite-televiseur-srt55uh7773",
     "recommendations": [
       {
@@ -4632,28 +4610,6 @@
   },
   {
     "id": "indice-de-durabilite-televiseur-srt32hg4723c",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-televiseur"
-  },
-  {
-    "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation-2",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-televiseur"
-  },
-  {
-    "id": "indice-de-durabilite-televiseur-organisation-sourcing-et-creation-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
@@ -5236,7 +5192,7 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
-    "id": "indice-de-durabilite-televiseur-sourcing-et-creation",
+    "id": "indices-durabilite-televiseur-sourcing-et-creation",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
@@ -7007,7 +6963,7 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
-    "id": "ir-lave-linge-top-sourcing-et-creation",
+    "id": "indices-reparabilite-lave-linge-top-sourcing-et-creation",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -23989,6 +23945,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-saipem-sa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-communaute-agglo-forbach-porte-de-france-1",
