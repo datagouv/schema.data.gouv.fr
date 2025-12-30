@@ -1,3 +1,10 @@
+### 2025-12-30
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.18</span> => <span style="color:green;">0.0.19</span><br>
+
+---
+
 ### 2025-12-23
 
 #### Montées de versions:
