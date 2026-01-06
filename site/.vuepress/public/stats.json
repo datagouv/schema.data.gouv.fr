@@ -124,7 +124,7 @@
             "contributors": 2
         },
         "Archivistes75/registre_entrees": {
-            "dgv_resources": 8,
+            "dgv_resources": 9,
             "title": "Registre d'entr\u00e9e d'archives",
             "contributors": 2
         },
@@ -149,7 +149,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1040,
+            "dgv_resources": 1041,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -344,7 +344,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 214,
+            "dgv_resources": 215,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
