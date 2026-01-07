@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1200,
+            "dgv_resources": 1202,
             "title": "IRVE statique",
             "contributors": 8
         },
@@ -221,7 +221,7 @@
             "contributors": 6
         },
         "datatourisme/ontology": {
-            "dgv_resources": 9,
+            "dgv_resources": 7,
             "title": "DATAtourisme",
             "contributors": 10
         },
