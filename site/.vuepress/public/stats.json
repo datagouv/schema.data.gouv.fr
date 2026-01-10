@@ -4,7 +4,7 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1202,
+            "dgv_resources": 1203,
             "title": "IRVE statique",
             "contributors": 2
         },
@@ -214,7 +214,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 308,
+            "dgv_resources": 310,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
