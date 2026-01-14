@@ -6974,7 +6974,7 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
-    "id": "indice-de-reparabilite-vestel-france-lave-linge-fc-8514w1na-fr",
+    "id": "indice-de-reparabilite-organisation-btlec-est-6",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -6985,7 +6985,7 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
-    "id": "indice-de-reparabilite-organisation-btlec-est-4",
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-fc-8514w1na-fr",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -10428,6 +10428,28 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "carte-des-lieux-de-baignade",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-statique-moissy-cramayel-77",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-macon-71",
     "recommendations": [
       {
@@ -10462,17 +10484,6 @@
   },
   {
     "id": "irve-statique-ma-borne-auto-ggpc-maubeuge",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "carte-des-randonnees-autour-de-nyons-avec-departs-gps-et-parkings",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -15741,7 +15752,7 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "bornes-de-chargement-publiques-pour-voitures-electriques-de-plusieurs-operateurs",
+    "id": "public-charging-stations-for-electric-cars-from-several-cpos",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -24099,6 +24110,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-mondial-frigo-ifc",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-saprena",
