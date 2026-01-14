@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CEREMA/schema-aire-livraison Versioning RSS Feed</title>
+  <title>CEREMA/schema-aire-livraison Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/CEREMA/schema-aire-livraison</link>
     <description>Updates on CEREMA/schema-aire-livraison versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -12,5 +11,9 @@
       <description>Update on 2024-02-21: New schema (0.1.0)</description>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0100</pubDate>
     </item>
-  </channel>
+  <item>
+      <title>2026-01-14 - new_version - 0.1.0 to 1.0.0</title>
+      <description>Update on 2026-01-14: New version (CEREMA/schema-aire-livraison)</description>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0100</pubDate>
+    </item></channel>
 </rss>

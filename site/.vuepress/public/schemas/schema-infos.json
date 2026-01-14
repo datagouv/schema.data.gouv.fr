@@ -2956,9 +2956,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/CEREMA/schema-aire-livraison/0.1.0/schema.json"
+            },
+            "1.0.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/CEREMA/schema-aire-livraison/1.0.0/schema.json"
             }
         },
-        "latest": "0.1.0"
+        "latest": "1.0.0"
     },
     "etalab/schema-indice-durabilite": {
         "homepage": "https://github.com/etalab/schema-indice-durabilite.git",

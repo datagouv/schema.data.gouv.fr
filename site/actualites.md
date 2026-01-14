@@ -1,3 +1,10 @@
+### 2026-01-14
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[CEREMA/schema-aire-livraison](/CEREMA/schema-aire-livraison/)** : <span style="color:red;">0.1.0</span> => <span style="color:green;">1.0.0</span><br>
+
+---
+
 ### 2026-01-09
 
 #### Montée de version:

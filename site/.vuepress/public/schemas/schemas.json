@@ -2448,9 +2448,9 @@
             "contact": "mathieu.rajerison@cerema.fr",
             "examples": [
                 {
-                    "title": "Exemple valide pour Antibes",
-                    "name": "exemple-antibes-csv",
-                    "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/exemple-antibes.csv"
+                    "title": "Exemple valide pour le Grand Lyon",
+                    "name": "exemple-grand-lyon.csv",
+                    "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/refs/tags/v1.0.0/exemple-grand-lyon.csv"
                 }
             ],
             "labels": [],
@@ -2459,6 +2459,10 @@
                 {
                     "version_name": "0.1.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-aire-livraison/0.1.0/schema.json"
+                },
+                {
+                    "version_name": "1.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/CEREMA/schema-aire-livraison/1.0.0/schema.json"
                 }
             ],
             "external_doc": null,

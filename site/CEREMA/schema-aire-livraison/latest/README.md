@@ -15,24 +15,30 @@ Le schéma proposé se veut volontairement [assez simple (un seul tableau de sai
 
 Le schéma comporte les **champs** essentiels pour identifier les paramètres d'un arrêté ainsi que les caractéristiques de l'aire de livraison elle même. Sa structure est cohérente et reprend les champs du [schéma des arrêtés permanents de circulation en ville pour le transport de marchandises](https://schema.data.gouv.fr/CEREMA/schema-arrete-circulation-marchandises/).
 
-[Un fichier d'exemple](https://github.com/CEREMA/schema-aire-livraison/blob/main/exemple_antibes.csv) est fourni, avec la numérisation de trois aires de livraison sur la commune d'Antibes.
+Un jeu de données a été créé sur la version initiale du schéma (la [v0.1.0](https://github.com/CEREMA/schema-aire-livraison/tree/v0.1.0)) par la Ville d'Antibes. [Il est disponible sur data.gouv.fr](https://www.data.gouv.fr/datasets/aires-de-livraison-a-antibes-juan-les-pins).
 
-Auteurs principaux du schéma : Mathieu RAJERISON & Cédric BARIOU
+Les auteurs initiaux du schéma sont Mathieu RAJERISON (Cerema) & Cédric BARIOU (Cerema), en s'appuyant sur les travaux de la Fabrique de la Logistique, en particulier ceux d'OpenDataFrance.
+
+### Evolution du schéma en 2026
+
+Une mise à jour du schéma à été travaillée en 2025 dans le cadre du projet DigiLog (programme InTerLUD+). 
+
+Certains champs du standard Curb Data Specification (https://github.com/openmobilityfoundation/curb-data-specification) ont été traduits et ajoutés au schéma. 
+
+Cette nouvelle version (la v1.0.0) vise une caractérisation plus détaillée des aires de livraisons et une intégration dans les outils JOPTIMIZ (https://www.interlud.green/projets-et-etudes-1/outils-innovants).
+
+[Un fichier d'exemple sur le Grand Lyon](https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/refs/tags/v1.0.0/exemple-grand-lyon.csv) est fourni pour la dernière version du schéma.
+
+#### Contributeurs du schéma v1.0.0
+
+Les contributeurs de cette évolution sont Evan BOULOGNE et Philippe RAPIN (Urban Radar), Timothée FRITSCH HUMBLET (Cerema), Hélène DE SOLERE (Cerema) et Jean-Philippe Elie (Logistic Low Carbon).
+
+
 
 ## Le schéma
 
 [Voir le schéma au format JSON TableSchema ](https://github.com/CEREMA/schema-aire-livraison/blob/main/schema.json)  
 [Voir la documentation associée au schéma (liste des champs et valeurs possibles)](https://github.com/CEREMA/schema-aire-livraison/blob/main/documentation/schema-page.md)   
-
-### Version *ultra*
-
-Des champs supplémentaires sont disponibles pour le schéma dans sa version **ultra**
-
-[Voir le schéma version **ultra** au format TableSchema (json)](https://github.com/CEREMA/schema-aire-livraison/blob/main/documentation/schema-page-ultra.md) 
-
-### Contribuer au schéma
-
-Vous pouvez donner votre avis sur le schéma via ce [questionnaire](https://forms.gle/R4TSNCpCyVPiacy48).
 
 ## Inspirations pour le schéma
 
@@ -70,10 +76,12 @@ Autrement, on trouve sur internet plusieurs jeux de données ouverts sur les air
 
 Ils sont dans le dossier `scripts`:
 
-[Créer la documentation du schéma](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/1-Creer-Documentation.bat)  
-[Tester l'exemple avec frictionless](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/2-Tester-Exemple.bat)
+- [01-Tester-Schema.bat (vérifier la conformité du schéma)](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/01-Tester-Schema.bat)
+- [02-Creer-Documentation.bat (créer la documentation du schéma)](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/02-Creer-Documentation.bat)
+- [03-Tester-Exemple.bat (tester la conformité du fichier exemple)](https://github.com/CEREMA/schema-aire-livraison/blob/main/scripts/03-Tester-Exemple.bat)
+
+Ces scripts s'appuient sur la librairie [frictionless](https://framework.frictionlessdata.io/).
 
 ### Autres
 
 [Reformater le schéma JSON TableSchema](https://jsonformatter.curiousconcept.com/#)
-
