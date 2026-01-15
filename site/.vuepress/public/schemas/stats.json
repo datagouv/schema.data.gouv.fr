@@ -4,12 +4,12 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1206,
+            "dgv_resources": 1211,
             "title": "IRVE statique",
             "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 17,
+            "dgv_resources": 18,
             "title": "IRVE dynamique",
             "contributors": 2
         },
@@ -44,12 +44,12 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 50,
+            "dgv_resources": 51,
             "title": "Subventions",
             "contributors": 11
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 84,
+            "dgv_resources": 85,
             "title": "Lieux de covoiturage",
             "contributors": 2
         },
@@ -344,7 +344,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 215,
+            "dgv_resources": 216,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },

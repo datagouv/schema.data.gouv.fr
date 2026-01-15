@@ -1232,5 +1232,13 @@
                 "version": "1.0.4 => 1.0.5"
             }
         ]
+    },
+    "2026-01-15": {
+        "new_version": [
+            {
+                "schema_name": "CEREMA/schema-aire-livraison",
+                "version": "0.1.0 => 1.0.0"
+            }
+        ]
     }
 }
