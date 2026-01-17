@@ -1,5 +1,27 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-vezin-le-coquet-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-vezin-le-coquet",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-syndicat-intercommunal-du-bassin-d-arcachon",
     "recommendations": [
       {
@@ -24143,6 +24165,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-groupe-idec-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-airelys",
