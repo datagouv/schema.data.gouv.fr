@@ -10461,6 +10461,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "borne-vito-st-andre",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "bornes-de-recharges-soregies",
     "recommendations": [
       {
@@ -10473,17 +10484,6 @@
   },
   {
     "id": "declaration-verdissement-flotte-auto",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "carte-des-lieux-de-baignade",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
