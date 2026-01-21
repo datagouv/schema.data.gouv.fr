@@ -136,7 +136,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 51,
+            "dgv_resources": 52,
             "title": "Subventions",
             "contributors": 11
         },
@@ -186,7 +186,7 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 294,
+            "dgv_resources": 293,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 5
         },
@@ -298,7 +298,7 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
