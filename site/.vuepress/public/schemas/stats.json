@@ -4,12 +4,12 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1210,
+            "dgv_resources": 1211,
             "title": "IRVE statique",
             "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 18,
+            "dgv_resources": 19,
             "title": "IRVE dynamique",
             "contributors": 2
         },
@@ -44,7 +44,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 51,
+            "dgv_resources": 52,
             "title": "Subventions",
             "contributors": 11
         },
@@ -94,7 +94,7 @@
             "contributors": 2
         },
         "etalab/schema-bal": {
-            "dgv_resources": 294,
+            "dgv_resources": 293,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 2
         },
