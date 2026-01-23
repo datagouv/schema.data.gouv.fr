@@ -7007,6 +7007,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfl014cwna-fr-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-btlec-est-6",
     "recommendations": [
       {
@@ -7283,17 +7294,6 @@
   },
   {
     "id": "indice-de-reparabilite-organisation-asus-global-pte-ltd",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-indice-reparabilite"
-  },
-  {
-    "id": "asus-notebook-g814pp-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -10461,6 +10461,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-ma-borne-auto-1",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "borne-vito-st-andre",
     "recommendations": [
       {
@@ -10561,6 +10572,17 @@
   },
   {
     "id": "irve-statique-organisation-ll-parc-mondeville",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-statique-engie-vianeo-all-janvier2026",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
