@@ -23661,7 +23661,7 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "bornes-de-recharge-pour-vehicule-electrique-1",
+    "id": "stations-de-recharge-pour-vehicule-electrique",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
