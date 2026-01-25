@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## collectivites
 
 Collectivités

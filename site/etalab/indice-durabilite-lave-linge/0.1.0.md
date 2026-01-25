@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Répertoire national de l’indice de réparabilité
 
 L’affichage obligatoire d’un indice de réparabilité est institué par l’article 16 de la loi n° 2020-105 du 10 février 2020 de lutte contre le gaspillage et pour l’économie circulaire, pour les produits électriques et électroniques. En affichant une note sur 10, cet indice informe les consommateurs sur le caractère plus ou moins réparable des produits concernés. Il s’applique depuis le 1er janvier 2021 aux smartphones, ordinateurs portables, téléviseurs, tondeuses à gazon, et lave-linges hublot et depuis le 4 novembre 2022 aux lave-linges top, lave-vaisselles, aspirateurs, nettoyeurs haute-pression.

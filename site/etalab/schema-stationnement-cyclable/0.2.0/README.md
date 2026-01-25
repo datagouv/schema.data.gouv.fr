@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma de données pour le stationnement cyclable
 
 Schéma du stationnement cyclable.

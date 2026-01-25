@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Socle juridique du schéma
 - [Fiche technique de rédaction d'arrêté de circulation](https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/v0.7.1/ressources/fiche_technique_arrete_de_circulation_cle27195e-1.pdf)
 - [Démarche "Harmoniser les règlementations de transport de marchandises"](https://www.metropolegrandparis.fr/sites/default/files/2021-02/Me%CC%81mo%202%20%2B%20guide%20pratique.pdf)

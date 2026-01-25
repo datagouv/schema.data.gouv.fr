@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schema des hautes rémunérations dans la fonction publique
 
 Spécification du fichier de déclaration des dix rémunérations les plus élevées des agents publiques.

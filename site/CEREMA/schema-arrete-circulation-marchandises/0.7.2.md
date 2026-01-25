@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma sur les arrêtés permanents de circulation en ville pour le transport de marchandises
 
 Les arrêtés de circulation, le plus souvent municipaux, règlementent l'accès à des rues, pour certains types de véhicules (poids lourds,…), voire certains usages (livraison, urgence,…), parfois à certaines heures de la journée.

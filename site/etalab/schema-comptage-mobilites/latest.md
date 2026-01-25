@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Schéma de données pour le comptage des mobilités
 
 Spécifications du fichier d'échange relatif aux comptages des mobilités 

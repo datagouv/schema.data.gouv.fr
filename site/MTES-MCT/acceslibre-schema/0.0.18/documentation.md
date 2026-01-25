@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## acceslibre
 
 Schéma des données d'accessibilité des ERPs

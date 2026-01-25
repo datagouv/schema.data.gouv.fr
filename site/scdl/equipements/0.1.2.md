@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Équipements
 
 Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité.

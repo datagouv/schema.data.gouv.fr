@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Changements
 
 ## Version 0.3.0 - 2022-10-27

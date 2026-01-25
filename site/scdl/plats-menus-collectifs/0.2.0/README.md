@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schémaplats des menus de la restauration collective
 
 Ce schéma permet de décrire la composition des plats proposés par les collectivités locales ou les syndicats mixtes de restauration. Il est complété par un autre schéma décrivant la composition des menus

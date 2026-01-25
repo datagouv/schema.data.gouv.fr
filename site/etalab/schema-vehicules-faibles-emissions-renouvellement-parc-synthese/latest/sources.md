@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Socle juridique du schéma
 - []()
 - [Décret n° 2021-1600 du 9 décembre 2021 pris pour l'application des articles L. 224-11 et L. 224-12 du code de l'environnement en ce qui concerne les centrales de réservation mentionnées à l'article L. 3142-1 du code des transports](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044464309)

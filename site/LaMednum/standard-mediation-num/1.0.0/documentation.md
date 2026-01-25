@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## standard-mediation-num
 
 Lieux de médiation numérique

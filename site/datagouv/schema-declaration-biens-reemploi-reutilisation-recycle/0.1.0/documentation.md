@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## schema-declaration-biens-reemploi-reutilisation-recycle
 
 Déclaration de l'acquisition de biens issus du réemploi, de la réutilisation ou intégrant des matières recyclées

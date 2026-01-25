@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma du format SCDL relatif aux subventions
 
 - Basé sur la spécification SCDL "Subventions" version 1.1 (non publiée actuellement)

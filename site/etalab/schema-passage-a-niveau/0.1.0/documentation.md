@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## passage-a-niveau
 
 Schéma pour les passages à niveau

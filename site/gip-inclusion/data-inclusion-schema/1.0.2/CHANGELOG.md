@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Journal des changements
 
 ## 1.0.2 - 2025-11-03

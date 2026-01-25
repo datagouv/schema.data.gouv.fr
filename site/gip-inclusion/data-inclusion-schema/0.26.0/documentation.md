@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## data-inclusion-schema
 
 Services de l’inclusion

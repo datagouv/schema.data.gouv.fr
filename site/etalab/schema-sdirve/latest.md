@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Schéma directeur des Infrastructures de recharges pour véhicules électriques
 
 Afin d’accélérer le déploiement des IRVE ouvertes au public et d’en assurer la cohérence territoriale, l’article 68 de la loi d’orientation des mobilités prévoit la possibilité, pour les collectivités ou établissements publics, de réaliser un schéma directeur de développement des IRVE. 

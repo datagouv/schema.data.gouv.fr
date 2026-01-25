@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Socle juridique du schéma
 - [Données Ouvertes Aires de Livraison pour la commune d'Antibes](https://www.data.gouv.fr/datasets/aires-de-livraison-a-antibes-juan-les-pins)
 - [Arrêté CA/MFV/2016/328 d'Antibes de 2016](https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v1.0.0/files/1095_16_regl_perm_emplact_livraison_bd_chancel-1.pdf)

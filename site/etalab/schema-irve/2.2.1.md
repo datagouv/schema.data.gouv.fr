@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Infrastructures de recharge pour véhicules électriques
 
 Il existe deux schémas relatifs aux données des points de recharge pour véhicules électriques :

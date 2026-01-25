@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Catalogue simplifié
 
 Spécification du modèle de données relatif au catalogue des jeux de données publiés en open data par une collectivité

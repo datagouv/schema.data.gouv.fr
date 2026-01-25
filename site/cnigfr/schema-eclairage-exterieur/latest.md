@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Géostandard d’éclairage extérieur EclExt
 
 ## Description

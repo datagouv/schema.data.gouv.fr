@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 > WIP - Work In Progress
 
 # Infrastructures de recharge pour véhicules électriques

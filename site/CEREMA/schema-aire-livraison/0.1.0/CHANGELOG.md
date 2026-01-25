@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # 0.2
 
 ## EMPRISE_NBPLACES

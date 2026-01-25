@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Schéma d’accessibilité aux établissements recevant du public (ERP)
 
 Ce schéma permet de modéliser les informations d’accessibilité aux bâtiments recevant du public, afin notamment de

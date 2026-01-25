@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Schéma de données Socle des Réseaux (STAR-DT)
 
 ## Description

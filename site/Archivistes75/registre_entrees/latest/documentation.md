@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Registre d'entrée d'archives
 
 Spécification du standard national des registres d'entrée d'archives

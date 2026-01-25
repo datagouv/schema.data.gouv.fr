@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Subventions
 
 Spécification du modèle de données relatif aux subventions attribuées par une collectivité

@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## aire-livraison
 
 Aires de livraison

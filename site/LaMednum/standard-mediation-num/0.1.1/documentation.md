@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Lieux de médiation numérique
 
 Spécification du standard national des lieux de médiation numérique

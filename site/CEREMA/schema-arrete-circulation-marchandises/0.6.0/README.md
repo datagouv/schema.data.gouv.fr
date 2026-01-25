@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma sur les arrêtés permanents de circulation en ville pour le transport de marchandises
 
 Le schéma sur les arrêtés permanents de circulation en ville pour le transport de marchandises vise à proposer [une structure](documentation/schema-page.md) selon laquelle saisir les informations contenues dans ces arrêtés dans un tableau de données.

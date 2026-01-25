@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## schema-amenagements-cyclables
 
 Aménagements cyclables

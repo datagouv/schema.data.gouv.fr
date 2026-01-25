@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Socle juridique du schéma
 - [Décret n° 2008-1153 du 7 novembre 2008 concernant la liste des ingrédients allergènes majeurs devant figurer sur l'étiquetage des denrées alimentaires.](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000019735750)
 - [Règlement (UE) n°1169/2011 concernant l’information du consommateur sur les denrées alimentaires et notamment ses articles 9, 21, 44 et l’annexe II sur les substances ou produits provoquant des allergies ou intolérances.](http://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32011R1169&from=fr)

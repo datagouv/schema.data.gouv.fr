@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Carte communale
 
 ## Description

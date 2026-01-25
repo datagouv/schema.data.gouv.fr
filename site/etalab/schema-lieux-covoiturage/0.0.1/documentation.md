@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Lieux de covoiturage
 
 Spécification des lieux permettant le covoiturage

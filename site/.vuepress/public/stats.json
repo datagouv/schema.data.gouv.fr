@@ -353,7 +353,7 @@
         "cnigfr/schema-reseaux-electriques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 2
+            "contributors": 1
         },
         "cnigfr/schema-grace-thd": {
             "dgv_resources": 4,

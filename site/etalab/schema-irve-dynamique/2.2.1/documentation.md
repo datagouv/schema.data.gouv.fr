@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## schema-irve-dynamique
 
 IRVE dynamique

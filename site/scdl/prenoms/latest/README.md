@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Prénoms des nouveaux-nés
 
 Spécification de la liste annuelle des prénoms des nouveaux-nés déclarés à l'état-civil

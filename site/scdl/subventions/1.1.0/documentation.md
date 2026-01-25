@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Schéma SCDL Subventions
 
 Schéma validant le format relatif aux subventions du SCDL (Socle Commun des Données Locales).

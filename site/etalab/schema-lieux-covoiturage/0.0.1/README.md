@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma des lieux de covoiturage
 
 Le Point d’accès national aux données de transport ([transport.data.gouv.fr](https://transport.data.gouv.fr])) réalise une consolidation régulière des fichiers déposés sur data.gouv.fr avec le mot-clé `covoiturage` respectant le format de référence décrit ci-dessous. 

@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Infrastructures de recharge pour véhicules électriques
 
 ## Contexte et références

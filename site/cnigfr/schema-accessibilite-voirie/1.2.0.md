@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma de données accessibilité du cheminement en voirie
 
 ## Description

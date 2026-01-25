@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Schéma menus restauration collective
 
 Ce schéma permet de décrire la composition des menus proposés par les collectivités locales ou les syndicats mixtes de restauration. Il s'attache à permettre de détailler la compositions des menus en listant les différents plats qui les composent et d'indiquer des éléments descriptifs relatifs à l'origine des plats. 

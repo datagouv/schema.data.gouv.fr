@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 Le catalogue opendata d'une collectivité rassemble les métadonnées de description des jeux de données qu'elle publie. Il peut être généré automatiquement par la plateforme qui les héberge ou qui les moissonne. Plusieurs standards permettent de normaliser les métadonnées d'un catalogue \(INSPIRE pour les données géographiques, DCAT et ses déclinaisons pour tout type de données ouvertes\), mais les catalogues locaux, lorsqu'ils existent, qu'ils soient exposés via une API ou extraits sous forme de fichiers, dépendent souvent de la capacité technique de la solution utilisée et de son paramétrage \(formats différents, plus ou moins riches ou étendus, en fonction de la plateforme, catalogue unique et pas pour chaque producteur quand la plateforme est mutualisée, distinction ou non entre jeux de données et ressources, etc\). Sans compter que de nombreuses collectivités utilisent de simples sites web pour mettre à disposition leurs données.
 
 La spécification d'un modèle de données simplifié doit permettre d'harmoniser ces catalogues locaux dans un format accessible à toutes les collectivités et faciliter leur consolidation dans un inventaire national, le "catalogue des catalogues des données locales ouvertes".

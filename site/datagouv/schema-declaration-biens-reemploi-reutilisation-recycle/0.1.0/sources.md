@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Socle juridique du schéma
 - [Loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759/)
 - [Décret n° 2024-134 du 21 février 2024 relatif à l'obligation d'acquisition par la commande publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées et à l'interdiction d'acquisition par l'Etat de produits en plastique à usage unique](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049184670)

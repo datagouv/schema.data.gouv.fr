@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## sites-economiques-etablissement
 
 Classe ETABLISSEMENT du standard CNIG Sites Economiques

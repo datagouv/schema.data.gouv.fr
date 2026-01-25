@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma Site Economique
 
 Les sites économiques comprennent :

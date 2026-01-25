@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## sites-economiques-terrain-eco
 
 Classe TERRAIN-ECO du standard CNIG Sites Economiques

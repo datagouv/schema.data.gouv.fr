@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma Pole Economique
 
 Un pôle économique est constitué d'un regroupement de [sites économiques](https://github.com/cnigfr/schema-sites-economiques/tree/main/schema/site-eco) géographiquement proches.

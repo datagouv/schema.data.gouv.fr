@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 # Schéma relatif aux subventions attribuées par une collectivité
 
 - Basé sur la spécification SCDL "Subventions" version 1.1

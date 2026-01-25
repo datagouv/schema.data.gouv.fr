@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 # Géostandard de réseaux électriques StaR-Elec
 
 ## Description

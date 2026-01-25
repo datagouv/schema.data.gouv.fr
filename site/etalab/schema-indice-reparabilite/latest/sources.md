@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## Socle juridique du schéma
 - [Décret n° 2020-1757 du 29 décembre 2020 relatif à l'indice de réparabilité des équipements électriques et électroniques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042837821)
 - [Arrêté du 29 décembre 2020 relatif aux modalités d'affichage, à la signalétique et aux paramètres généraux de calcul de l'indice de réparabilité](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042838100)

@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## indice-reparabilite
 
 Indice de réparabilité

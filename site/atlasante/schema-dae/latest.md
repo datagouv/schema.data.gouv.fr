@@ -1,5 +1,9 @@
 <MenuSchema />
 
+<MenuSchema />
+
+<MenuSchema />
+
 ## Les Défibrillateurs Automatisés Externes (DAE)
 
 Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des Défibrillateurs Automatisés Externes (DAE) accessibles au public ;

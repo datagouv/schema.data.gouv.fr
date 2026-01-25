@@ -1,5 +1,7 @@
 <MenuSchema />
 
+<MenuSchema />
+
 ## indice-durabilite-lave-linge
 
 Lave-linge
