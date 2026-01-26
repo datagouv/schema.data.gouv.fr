@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## budget
 
 Budget des collectivités et établissements publics locaux

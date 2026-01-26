@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## Spécification du fichier de déclaration de profil d'acheteur
 
 Spécification du fichier de déclaration de profil d'acheteur

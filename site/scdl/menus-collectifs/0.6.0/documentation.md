@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## menus-collectifs
 
 Menus de la restauration collective

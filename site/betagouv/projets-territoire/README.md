@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des projets de transition écologique
 
 Ce schéma permet de décrire les projets de transition écologique menés par les collectivités territoriales françaises.

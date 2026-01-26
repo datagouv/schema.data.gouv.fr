@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 ## Les Points d'Eau Incendie (PEI)
 Aujourd’hui les points d’eau incendie (borne incendie, poteau incendie et autres points d’eau) sont recensés par les SDIS, les collectivités territoriales et/ou les délégataires de service public.
 La consolidation de ces données est effectuée à un échelon départemental. Ces bases constituent un enjeu majeur pour la gestion des risques incendie et doivent pouvoir être partagées facilement entre organisations.

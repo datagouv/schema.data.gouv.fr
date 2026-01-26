@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## sites-economiques-site-eco
 
 Classe SITE-ECO du standard CNIG Sites Economiques

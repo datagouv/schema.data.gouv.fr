@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## schema-friches
 
 Standard CNIG Friches

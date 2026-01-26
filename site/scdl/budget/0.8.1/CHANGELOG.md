@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Changelog
 
 ## 0.8.1

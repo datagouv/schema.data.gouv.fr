@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## schema-comptage-mobilites-measure
 
 Comptage des mobilités (Measure)

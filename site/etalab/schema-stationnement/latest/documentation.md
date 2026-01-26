@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## Lieux de stationnement
 
 Spécification des lieux permettant le stationnement en parc

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des stations de taxi
 
 Ce schéma permet de modéliser les stations de taxi à usage public.

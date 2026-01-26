@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des lieux de stationnement
 Ce schéma permet de modéliser les stationnements en parcs publics et privés à usage public.
 

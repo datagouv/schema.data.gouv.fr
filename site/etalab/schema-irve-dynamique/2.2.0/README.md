@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Infrastructures de recharge pour véhicules électriques - données dynamiques
 
 

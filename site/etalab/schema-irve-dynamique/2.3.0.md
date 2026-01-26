@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Infrastructures de recharge pour véhicules électriques - données dynamiques
 
 Spécification du fichier d'échange relatif aux données dynamiques concernant la disponibilité et l’état de fonctionnement des points de recharge et de leurs connecteurs pour véhicules électriques

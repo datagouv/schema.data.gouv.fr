@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## test-schema-hydrometrie
 
 Hydrométrie

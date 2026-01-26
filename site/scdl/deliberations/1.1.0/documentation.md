@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## Schéma SCDL Délibérations
 
 Schéma validant le format relatif aux délibérations du SCDL (Socle Commun des Données Locales).

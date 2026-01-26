@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # 1.0 (refonte importance du schéma)
 
 ## Introduction

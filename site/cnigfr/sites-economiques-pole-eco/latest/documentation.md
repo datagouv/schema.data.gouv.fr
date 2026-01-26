@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## sites-economiques-pole-eco
 
 Classe POLE-ECO du standard CNIG Sites Economiques

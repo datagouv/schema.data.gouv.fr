@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Les schémas des données essentielles de la commande publique
 
 ## Description des schémas de données essentielles :

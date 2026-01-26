@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## schema_randonnee
 
 Schéma des itinéraires de randonnée

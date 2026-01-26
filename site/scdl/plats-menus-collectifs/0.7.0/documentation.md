@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## plats-menus-collectifs
 
 Composition des plats des menus de la restauration collective

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## indice-durabilite-televiseur
 
 Indice de durabilité - Téléviseur

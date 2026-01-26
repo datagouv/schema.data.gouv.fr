@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Schema des Sites économiques
 Dépot des documents et travaux du **[sous-groupe de travail ZAE](http://cnig.gouv.fr/gt-friches-a25940.html#Sous-groupe-ZAE)** du **[GT CNIG Aménagement](http://cnig.gouv.fr/gt-friches-a25940.html)**
 

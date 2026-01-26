@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## schema-vehicules-faibles-emissions-renouvellement-parc-syntheses
 
 Part des véhicules à faibles émissions dans le renouvellement des parcs d’entreprises de location, location-vente, de crédit-bail de véhicules, des plateformes de livraisons et des centrales de réservation de taxi et VTC

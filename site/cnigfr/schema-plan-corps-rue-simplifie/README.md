@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma de données plan du corps de rue simplifié (PCRS)
 
 ## Description

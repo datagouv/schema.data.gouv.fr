@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma sur les arrêtés permanents de circulation en ville pour le transport de marchandises
 
 Ce schéma sur les arrêtés permanents de circulation en ville pour le transport de marchandises a été construit en partenariat avec la Région Sud et l'association OpenDataFrance.

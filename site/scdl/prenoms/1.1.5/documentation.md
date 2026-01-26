@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## prenoms
 
 Prénoms des nouveaux-nés

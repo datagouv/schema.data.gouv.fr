@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schema Friches issu du GT CNIG Friches
 Dépot des documents et travaux du [Groupe de travail](http://cnig.gouv.fr/gt-friches-a25940.html) pour l'élaboration du géostandard CNIG Friches
 

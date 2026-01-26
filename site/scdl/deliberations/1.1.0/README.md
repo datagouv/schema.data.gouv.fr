@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma du format SCDL relatif aux délibérations adoptées par une assemblée locale
 
 En cours de développement.

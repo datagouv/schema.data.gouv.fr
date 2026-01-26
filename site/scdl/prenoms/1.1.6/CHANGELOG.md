@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Changelog
 
 ## 1.1.6

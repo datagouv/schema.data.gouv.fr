@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## impact-service-public-numerique
 
 Impact d’un service public numérique

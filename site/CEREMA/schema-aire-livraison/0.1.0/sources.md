@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## Socle juridique du schéma
 - [Arrêté CA/MFV/2016/328 d'Antibes de 2016](https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/files/513_17_creation_emplacement_reserve_bd_wilson.pdf)
 - [Arrêté CA/SM/2017/261 d'Antibes de 2017](https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v0.1.0/files/513_17_creation_emplacement_reserve_bd_wilson.pdf)

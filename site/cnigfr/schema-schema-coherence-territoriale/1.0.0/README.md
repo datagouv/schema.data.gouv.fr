@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma de Cohérence Territoriale (SCOT)
 
 ## Description

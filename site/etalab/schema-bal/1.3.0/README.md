@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma Base Adresse Locale
 
 ## Bases Adresses Locales

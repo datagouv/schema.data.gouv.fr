@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## pei
 
 Point d'Eau Incendie (PEI)

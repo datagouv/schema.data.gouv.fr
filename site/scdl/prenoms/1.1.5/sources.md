@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## Socle juridique du schéma
 - [Code civil](https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006070721&dateTexte=20170327)
 - [Circulaire du 28 octobre 2011 relative aux règles particulières à divers actes de l'état civil relatifs à la naissance et à la filiation — NOR : JUSC1119808C](http://www.textes.justice.gouv.fr/art_pix/JUSC1119808C.pdf)

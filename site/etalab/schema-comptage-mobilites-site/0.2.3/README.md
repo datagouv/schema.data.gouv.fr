@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma de données pour le comptage des mobilités - Fichier sites
 
 Spécifications du fichier d'échange relatif aux comptages des mobilités : fichier sites.

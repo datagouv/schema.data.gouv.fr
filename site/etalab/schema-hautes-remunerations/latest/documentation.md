@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## hautes-remunerations
 
 Hautes rémunérations dans la fonction publique

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 Dans le but de constituer un répertoire national des Infrastructures de Recharge de Véhicules Electriques \(IRVE\), ouvert et accessible à tous, les collectivités locales porteuses d'un projet d'installation d'IRVE doivent, au fur et à mesure de la mise en service des stations, publier sur la plateforme data.gouv.fr les données statiques relatives à la localisation et aux caractéristiques techniques de ces installations selon les modalités définies dans [l'arrêté du 12 janvier 2017](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860733).
 
 Etalab réalise une consolidation des jeux de données IRVE déposés sur data.gouv.fr et publiée dans le jeu de données "[Fichier consolidé des Bornes de Recharge pour Véhicules Électriques IRVE](https://www.data.gouv.fr/fr/datasets/5448d3e0c751df01f85d0572/)", se conformant au schéma IRVE.

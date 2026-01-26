@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des données d’impact d’un service public numérique
 
 ## Contexte sur les données d’impact des services publics numériques

@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Schéma des projets de transition écologique des collectivités
 
 Ce dépôt contient les schémas de données standardisés pour décrire les projets de transition écologique menés par les collectivités territoriales françaises.

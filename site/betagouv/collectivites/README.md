@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des collectivités
 
 Ce schéma permet de décrire les collectivités territoriales qui sont associées aux projets de transition écologique.

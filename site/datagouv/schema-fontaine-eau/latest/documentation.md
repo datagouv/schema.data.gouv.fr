@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## fontaine-eau
 
 Schéma des fontaines à eau

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma de données des lieux de médiation numérique
 Ce schéma permet de modéliser les différents attributs des lieux de médiation et d'inclusion numérique. 
 

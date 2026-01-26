@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Prescriptions nationales pour la dématérialisation des continuités écologiques régionales
 
 ## Description

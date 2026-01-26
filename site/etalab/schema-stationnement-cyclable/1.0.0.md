@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Schéma de données pour le stationnement cyclable
 
 Ce schéma permet de modéliser et définir le stationnement cyclable sur le territoire national.   

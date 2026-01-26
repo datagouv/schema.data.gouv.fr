@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma registres d'entrée d'archives
 
 Ce schéma permet de modéliser les différents attributs des entrées dans les services publics d'archives.

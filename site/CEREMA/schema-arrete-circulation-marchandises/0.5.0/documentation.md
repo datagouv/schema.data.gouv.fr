@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## arrete-circulation-marchandises
 
 Schéma des arrêtés permanents de circulation pour le transport de marchandises

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des dispositifs d'aides
 
 Ce schéma de données définit un modèle permettant de spécifier les dispositifs d'aides publiques sous leurs différentes formes afin de favoriser leur diffusion vers leurs bénéficiaires.

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Changements
 
 ## Version 0.8.0 - 2023-03-08

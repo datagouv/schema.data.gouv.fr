@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## schema-comptage-mobilites-channel
 
 Comptage des mobilités (Channel)

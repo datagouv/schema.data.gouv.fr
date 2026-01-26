@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## dispositif-aide
 
 Dispositifs d'aides

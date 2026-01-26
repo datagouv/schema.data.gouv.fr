@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma de données sur les fontaines à eau
 
 La bouteille plastique est le premier déchet plastique à usage unique retrouvé sur les plages en Europe. La France consomme au total 15 milliards de bouteilles en plastique par an pour l’eau et les boissons. Ainsi, la bouteille plastique est l’emballage le plus vendu en France.

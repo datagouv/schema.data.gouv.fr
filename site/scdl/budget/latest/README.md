@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma Budget
 
 Spécifications des données essentielles du budget des collectivités et 

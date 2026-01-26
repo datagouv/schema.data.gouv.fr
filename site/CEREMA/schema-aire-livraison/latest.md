@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Schéma sur les aires de livraison
 Ceci est le répertoire du schéma sur les aires de livraison.
 

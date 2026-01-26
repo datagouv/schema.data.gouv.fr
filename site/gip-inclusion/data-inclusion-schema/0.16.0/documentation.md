@@ -1,4 +1,2 @@
 <MenuSchema />
 
-<MenuSchema />
-

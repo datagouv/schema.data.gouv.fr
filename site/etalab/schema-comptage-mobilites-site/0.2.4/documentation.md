@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## schema-comptage-mobilites-site
 
 Comptage des mobilités (Site)

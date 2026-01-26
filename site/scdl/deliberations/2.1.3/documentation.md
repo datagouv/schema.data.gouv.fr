@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## deliberations
 
 Délibérations

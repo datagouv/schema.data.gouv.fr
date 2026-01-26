@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Schéma de l’offre d’insertion
 
 Ce dépôt contient le schéma de l’offre d’insertion. Il est issu de la collaboration d’acteurs de l’insertion.

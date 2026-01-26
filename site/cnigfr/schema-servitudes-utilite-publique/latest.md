@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Servitudes d'utilité publique (SUP)
 
 ## Description

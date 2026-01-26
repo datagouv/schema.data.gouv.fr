@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Plan local d'urbanisme (PLU)
 
 ## Description

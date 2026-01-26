@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma des lieux de covoiturage
 
 Ce schéma permet de modéliser des lieux pertinents (aires de covoiturage, parkings, délaissés routiers, etc) pour commencer ou terminer un trajet en covoiturage. Ces lieux de covoiturage ne concernent que les offres qui permettent de stationner gratuitement.

@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Schéma plats des menus de la restauration collective
 
 Ce schéma permet de décrire la composition des plats proposés par les collectivités locales ou les syndicats mixtes de restauration. Il est complété par un autre schéma décrivant la composition des menus. Il permet de décrire les informations associées à la qualité des produits composant les plats (OGM, allergènes, ionisation, additifs) et à leur origine (fournisseurs). La composition des produits peut également être décrire en listant les nutriment et leur quantité

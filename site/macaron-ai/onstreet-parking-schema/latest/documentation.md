@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## onstreet-parking-schema
 
 Emprise de stationnement sur la voirie

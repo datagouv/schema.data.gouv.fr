@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Part des véhicules à faibles émissions dans le renouvellement des parcs d’entreprises de location, location-vente, de crédit-bail de véhicules, des plateformes de livraisons et des centrales de réservation de taxi et VTC
 
 Spécification du fichier d’échange relatif aux parts de véhicules à faibles émissions dans les parcs de véhicules des entreprises de location, location-vente et crédit-bail de véhicules, des plateformes de livraison, des centrales de réservation de taxi et de VTC.

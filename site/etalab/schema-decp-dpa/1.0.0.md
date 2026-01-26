@@ -1,9 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
-<MenuSchema />
-
 # Déclaration des profils d'acheteur
 
 ## Contexte et références

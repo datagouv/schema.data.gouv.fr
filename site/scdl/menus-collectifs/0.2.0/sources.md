@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 ## Socle juridique du schéma
 - [Règlement (UE) n°1169/2011 concernant l’information du consommateur sur les denrées alimentaires et notamment ses articles 9, 21, 44 et l’annexe II sur les substances ou produits provoquant des allergies ou intolérances.](http://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32011R1169&from=fr)
 - [Décret n°2015-447 du 17 avril 2015 relatif à l’information des consommateurs sur les allergènes et les denrées alimentaires non préemballées.](http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030491684&categorieLien=id)

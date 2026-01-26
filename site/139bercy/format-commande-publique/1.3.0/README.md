@@ -1,7 +1,5 @@
 <MenuSchema />
 
-<MenuSchema />
-
 # Format réglementaire pour la publication des données essentielles des marchés publics français
 
 > v1.3.0
