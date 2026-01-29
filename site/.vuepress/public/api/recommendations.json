@@ -1,5 +1,27 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-college-de-castelnau-destretefonds",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-dynacite-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-commune-de-sallertaine",
     "recommendations": [
       {
@@ -7060,6 +7082,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
+    "id": "indice-de-reparabilite-organisation-dell-sas-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
   },
   {
     "id": "indice-de-reparabilite-vestel-france-lave-linge-es-nfl014cwna-fr-1",
