@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1213,
+            "dgv_resources": 1214,
             "title": "IRVE statique",
             "contributors": 8
         },
@@ -241,7 +241,7 @@
             "contributors": 1
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1047,
+            "dgv_resources": 1051,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 3
         },
