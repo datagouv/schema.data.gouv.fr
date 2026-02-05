@@ -298,7 +298,7 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
@@ -366,7 +366,7 @@
             "contributors": 2
         },
         "cnigfr/schema-carte-communale": {
-            "dgv_resources": 10,
+            "dgv_resources": 11,
             "title": "Carte communale",
             "contributors": 2
         },
