@@ -1,4 +1,4 @@
-FROM node:22 as builder
+FROM node:22 AS builder
 
 RUN corepack enable && corepack prepare pnpm@latest-10 --activate
 
