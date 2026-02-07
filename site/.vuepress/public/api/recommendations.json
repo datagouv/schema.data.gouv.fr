@@ -7117,6 +7117,17 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "indice-de-reparabilite-organisation-adeoservices",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-dell-sas-2",
     "recommendations": [
       {
