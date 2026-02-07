@@ -171,7 +171,7 @@
             "contributors": 10
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 24,
+            "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 10
         },
@@ -298,7 +298,7 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 11
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
@@ -306,7 +306,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 314,
+            "dgv_resources": 315,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
