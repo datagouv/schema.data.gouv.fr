@@ -7150,6 +7150,105 @@
     "reason": "etalab/indice-durabilite-televiseur"
   },
   {
+    "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "impact-dun-service-public-numerique-organisation-boris",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "impact-dun-service-public-numerique-organisation-zero-logement-vacant",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "indicateurs-dimpact-daigle",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "indicateurs-dimpact-de-dossierfacile",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "impact-dun-service-public-numerique-organisation-mon-diagnostic-artificialisation",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "indicateurs-dimpact-de-signal-logement",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "indicateurs-dimpact-de-data-gouv-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "cadastre-minier",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-impact-dun-service-public-numerique",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-adeoservices",
     "recommendations": [
       {
