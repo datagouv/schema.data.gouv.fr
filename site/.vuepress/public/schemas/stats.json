@@ -4,7 +4,7 @@
     "nb_issues": 2,
     "references": {
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1214,
+            "dgv_resources": 1215,
             "title": "IRVE statique",
             "contributors": 2
         },
@@ -219,7 +219,7 @@
             "contributors": 2
         },
         "etalab/schema-impact-service-public-numerique": {
-            "dgv_resources": 8,
+            "dgv_resources": 9,
             "title": "Impact d\u2019un service public num\u00e9rique",
             "contributors": 2
         },
