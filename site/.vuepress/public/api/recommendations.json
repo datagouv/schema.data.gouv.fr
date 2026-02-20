@@ -7271,6 +7271,17 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "indice-de-reparabilite-organisation-boulanger-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-adeoservices",
     "recommendations": [
       {
@@ -10745,17 +10756,6 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
-  },
-  {
-    "id": "bornes-de-recharge-pour-vehicules-electriques-mobisdec",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "irve-statique-ma-borne-auto-2",
