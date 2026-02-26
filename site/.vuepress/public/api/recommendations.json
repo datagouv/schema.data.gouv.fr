@@ -4444,17 +4444,6 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
-    "id": "id-lave-linge-3609130017239-signature-vestel-france-blanc",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/indice-durabilite-lave-linge"
-  },
-  {
     "id": "indice-de-durabilite-lave-linge-organisation-vestel-france-1",
     "recommendations": [
       {
@@ -4772,6 +4761,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-organisation-but-international",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
   },
   {
     "id": "indice-de-durabilite-televiseur-organisation-easypitch-sas",
