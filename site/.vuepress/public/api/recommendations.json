@@ -10813,6 +10813,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-ma-borne-auto-keos-englos-by-autosphere-507549",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "bornes-de-recharge-pour-vehicules-electriques-load-stations",
     "recommendations": [
       {
@@ -10825,17 +10836,6 @@
   },
   {
     "id": "irve-statique-ma-borne-auto-ggp-maubeuge",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "irve-statique-ma-borne-auto-2",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
