@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-de-wannehain",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-communaute-de-communes-du-val-briard-annee-2025",
     "recommendations": [
       {
@@ -4840,6 +4851,17 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
     "id": "indice-de-durabilite-televiseur-srt32hh5553",
     "recommendations": [
       {
@@ -7357,6 +7379,28 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "indice-de-reparabilite-organisation-hisense-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "indice-de-reparabilite-organisation-hisense",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
   },
   {
     "id": "indice-de-reparabilite-organisation-boulanger-1",
@@ -11473,7 +11517,7 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "beta-fichiers-bruts-consolides-des-points-de-recharge-pour-vehicules-electriques-en-france-irve",
+    "id": "beta-base-nationale-consolidee-des-points-de-recharge-pour-vehicules-electriques-en-france-irve",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -13487,6 +13531,17 @@
   },
   {
     "id": "irve-le-schloffer",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "reseau-avia-volt-thevenin-ducrot-avia-volt",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
