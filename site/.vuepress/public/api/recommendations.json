@@ -4851,6 +4851,61 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-7",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-6",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-5",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-4",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-3",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-1",
     "recommendations": [
       {
@@ -17468,17 +17523,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "irve-easycharge-services",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "borne-de-recharge-hotel-le-grand-large-palavas",
     "recommendations": [
       {
@@ -24157,17 +24201,6 @@
   },
   {
     "id": "bornes-de-recharge-irve-chateau-de-la-bucherie",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "irve-eborn-1",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
