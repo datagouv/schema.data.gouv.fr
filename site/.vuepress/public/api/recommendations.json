@@ -11517,17 +11517,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "bornes-de-recharge-pour-vehicules-electriques-reveo",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "sport-a-nyons",
     "recommendations": [
       {
