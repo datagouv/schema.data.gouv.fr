@@ -1,0 +1,140 @@
+{
+   "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+   "name": "espace-naturel-sensible",
+   "title": "Schéma du format d'échange des Espaces Naturels Sensibles (ENS).",
+   "description": "Spécification du format d'échange des Espaces Naturels Sensibles (ENS) établi par la communauté des CD AURA",
+   "keywords": [
+      "ENS",
+      "Espace Naturel Sensible",
+      "Aires protégées de France"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/freddtce/ENS_AURA",
+   "path": "https://github.com/freddtce/ENS_AURA/blob/master/schema.json",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "created": "2024-04-08",
+   "lastModified": "2024-04-08",
+   "version": "v0.1.0",
+   "contributors": [
+      {
+         "title": "frédéric sanchez",
+         "email": "frederic.sanchez@ign.fr",
+         "organisation": "ign",
+         "role": "author"
+      }
+   ],
+   "fields": [
+      {
+         "name": "identifiant",
+         "description": "Identifiant unique de l'objet définit comme suit :fr-ENS<dep>-<counter> avec dep sur 3 chiffres (0 en 1er chiffre pour les départements métropolitains) et 1 counter sur  6 chiffres avec des 0 pour combler.",
+         "example": "fr-ENS001-000001" ,
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "pattern": "fr-ENS\\d{3}-\\d{6}"
+         }
+      },
+      {
+         "name": "nom",
+         "description": "Dénomination de l'ENS comme inscrit dans la délibération, en graphie riche (minuscules accentuées)",
+         "example": "Zone humide de la Forêt du Bout et Combe Grasse",
+         "type": "string",
+         "maxLength" : "100",
+         "constraints": {
+            "required": true
+         }
+      },
+       {
+         "name": "date_delib",
+         "description": "Date de délibération de création de l'ENS, au format AAAA-MM-JJ.\nSi la date est inconnue, ne pas remplir.\nSi uniquement l'année est connue, remplir avec AAAA-01-01",
+         "type": "date",
+         "format": "%Y-%m-%d",
+         "example": "2023-08-04",
+          "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "diffusion_carto",
+         "description": "Autorise ou non la diffusion sur les productions cartographiques.",
+         "example" :"1",
+         "type":"boolean",
+            "trueValues":[
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "vrai",
+            "Vrai",
+            "VRAI",
+            "Oui",
+            "oui",
+            "OUI"
+            ],
+            "falseValues":[
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "faux",
+            "Faux",
+            "FAUX",
+            "Non",
+            "non",
+            "NON"
+            ],
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "surface_off",
+         "description": "Surface officielle inscrite dans la délibération, en hectares (2 décimales).",
+         "example": "3453619.67",
+         "type": "number"
+      },
+      {
+         "name": "lien",
+         "description": "Lien url pointant vers une description plus complète de l'ENS (article, photo, fichier …).",
+         "example": "http://patrimoines.ain.fr/img/thumbnails/425_266/dombes_reserve_1_cs.jpg?1522831882",
+         "type": "string",
+         "format": "uri"
+      },
+      {
+         "name": "source",
+         "description": "Source utilisée pour la saisie de la géométrie du multipolygon.",
+         "example": "Orthophoto",
+         "type": "string",
+         "enum": [
+            "Orthophoto",
+            "PCI Vecteur",
+            "PCI Raster",
+            "BDParcellaire",
+            "RPCU",
+            "GPS",
+            "SCAN25",
+            "Autre"
+         ]
+      },
+      {
+         "name": "millesime",
+         "description": "Millésime de la source utilisée pour la saisie de la géométrie du multipolygon.",
+         "type": "year",
+         "example": "2022"
+      },
+      {
+         "name": "commentaire",
+         "description": "Ajout de précisions concernant l’ENS (1000 caractères maximum).",
+         "type": "string",
+         "maxLength": "1000",
+         "example": "Zone humide composée de marais et de tourbières"
+      }
+   ],
+   "primaryKey": "identifiant"
+}

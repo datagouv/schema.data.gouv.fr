@@ -1214,5 +1214,27 @@
                 "version": "0.1.0 => 1.0.0"
             }
         ]
+    },
+    "2026-03-23": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-lieux-covoiturage",
+                "version": "0.3.0 => 0.3.1"
+            },
+            {
+                "schema_name": "Archivistes75/registre_entrees",
+                "version": "0.3.1 => 0.4.1"
+            },
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "1.0.5 => 1.0.6"
+            }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "freddtce/ENS_AURA",
+                "version": "0.1.0"
+            }
+        ]
     }
 }

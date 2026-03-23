@@ -630,9 +630,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/etalab/schema-lieux-covoiturage/0.3.0/schema.json"
+            },
+            "0.3.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/schema-lieux-covoiturage/0.3.1/schema.json"
             }
         },
-        "latest": "0.3.0"
+        "latest": "0.3.1"
     },
     "metis-reseaux/infos-travaux": {
         "homepage": "https://github.com/metis-reseaux/infos-travaux.git",
@@ -1332,9 +1340,16 @@
                     "documentation.md"
                 ],
                 "schema_url": "/Archivistes75/registre_entrees/0.3.1/schema.json"
+            },
+            "0.4.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/Archivistes75/registre_entrees/0.4.1/schema.json"
             }
         },
-        "latest": "0.3.1"
+        "latest": "0.4.1"
     },
     "datatourisme/ontology": {
         "homepage": "https://gitlab.adullact.net/adntourisme/datatourisme/ontology.git",
@@ -2295,9 +2310,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.5/schemas/v1/service.json"
+            },
+            "1.0.6": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.6/schemas/v1/service.json"
             }
         },
-        "latest": "1.0.5"
+        "latest": "1.0.6"
     },
     "cnigfr/schema-friches": {
         "homepage": "https://github.com/cnigfr/schema-friches.git",
@@ -3103,7 +3126,7 @@
         "external_doc": null,
         "external_tool": null,
         "type": "tableschema",
-        "email": "tmp@data.gouv.f",
+        "email": "tmp@data.gouv.fr",
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
@@ -3182,6 +3205,26 @@
         "datapackage_id": "schema-projet-collectivites-transition-ecologique",
         "labels": null,
         "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "freddtce/ENS_AURA": {
+        "homepage": "https://github.com/freddtce/ENS_AURA.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "tmp@data.gouv.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/freddtce/ENS_AURA/0.1.0/schema.json"
+            }
+        },
         "latest": "0.1.0"
     }
 }

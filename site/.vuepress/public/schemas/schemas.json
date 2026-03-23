@@ -439,6 +439,10 @@
                 {
                     "version_name": "0.3.0",
                     "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.3.0/schema.json"
+                },
+                {
+                    "version_name": "0.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.3.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1037,6 +1041,10 @@
                 {
                     "version_name": "0.3.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/0.3.1/schema.json"
+                },
+                {
+                    "version_name": "0.4.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/0.4.1/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1806,6 +1814,10 @@
                 {
                     "version_name": "1.0.5",
                     "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/1.0.5/schemas/v1/service.json"
+                },
+                {
+                    "version_name": "1.0.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/gip-inclusion/data-inclusion-schema/1.0.6/schemas/v1/service.json"
                 }
             ],
             "external_doc": "https://www.data.inclusion.beta.gouv.fr",
@@ -2611,7 +2623,7 @@
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux d\u00e9clarations de la part des d\u00e9penses relatives \u00e0 l'acquisition de biens issus du r\u00e9emploi ou de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es (loi AGEC).",
             "schema_type": "tableschema",
-            "contact": "tmp@data.gouv.f",
+            "contact": "tmp@data.gouv.fr",
             "examples": [
                 {
                     "title": "Fichier valide (CSV)",
@@ -2697,6 +2709,26 @@
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git"
+        },
+        {
+            "name": "freddtce/ENS_AURA",
+            "title": "Sch\u00e9ma du format d'\u00e9change des Espaces Naturels Sensibles (ENS).",
+            "description": "Sp\u00e9cification du format d'\u00e9change des Espaces Naturels Sensibles (ENS) \u00e9tabli par la communaut\u00e9 des CD AURA",
+            "schema_type": "tableschema",
+            "contact": "tmp@data.gouv.fr",
+            "examples": [],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/freddtce/ENS_AURA/0.1.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/freddtce/ENS_AURA.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/freddtce/ENS_AURA/latest/schema.json"
         }
     ]
 }

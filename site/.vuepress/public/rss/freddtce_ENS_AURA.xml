@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Archivistes75/registre_entrees Versioning RSS Feed</title>
-    <link>https://schema.data.gouv.fr/Archivistes75/registre_entrees</link>
-    <description>Updates on Archivistes75/registre_entrees versioning</description>
+    <title>freddtce/ENS_AURA Versioning RSS Feed</title>
+    <link>https://schema.data.gouv.fr/freddtce/ENS_AURA</link>
+    <description>Updates on freddtce/ENS_AURA versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <lastBuildDate>Mon, 23 Mar 2026 15:47:16 +0000</lastBuildDate>
     <item>
-      <title>2026-03-23 - new_version - 0.3.1 to 0.4.1</title>
-      <description>Update on 2026-03-23: New version (Archivistes75/registre_entrees)</description>
+      <title>2026-03-23 - new_schema - 0.1.0</title>
+      <description>Update on 2026-03-23: New schema (freddtce/ENS_AURA)</description>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
     </item>
   </channel>

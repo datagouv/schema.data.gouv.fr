@@ -1,3 +1,15 @@
+### 2026-03-23
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-lieux-covoiturage](/etalab/schema-lieux-covoiturage/)** : <span style="color:red;">0.3.0</span> => <span style="color:green;">0.3.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Archivistes75/registre_entrees](/Archivistes75/registre_entrees/)** : <span style="color:red;">0.3.1</span> => <span style="color:green;">0.4.1</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.5</span> => <span style="color:green;">1.0.6</span><br>
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[freddtce/ENS_AURA](/freddtce/ENS_AURA/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2026-01-14
 
 #### Montée de version:
