@@ -869,5 +869,20 @@
       <link>https://schema.data.gouv.fr/CEREMA/schema-aire-livraison</link>
       <description>Schema update on 2026-01-15: 0.1.0 to 1.0.0 for CEREMA/schema-aire-livraison</description>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-lieux-covoiturage (0.3.0 to 0.3.1)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-lieux-covoiturage</link>
+      <description>Schema update on 2026-03-23: 0.3.0 to 0.3.1 for etalab/schema-lieux-covoiturage</description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - Archivistes75/registre_entrees (0.3.1 to 0.4.1)</title>
+      <link>https://schema.data.gouv.fr/Archivistes75/registre_entrees</link>
+      <description>Schema update on 2026-03-23: 0.3.1 to 0.4.1 for Archivistes75/registre_entrees</description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (1.0.5 to 1.0.6)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2026-03-23: 1.0.5 to 1.0.6 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>
