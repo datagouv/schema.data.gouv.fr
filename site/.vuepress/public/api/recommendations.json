@@ -7513,6 +7513,39 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "indice-de-reparabilite-seb-international-services-new-2026",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "indice-de-reparabilite-groupe-seb-retailing-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "indice-de-reparabilite-groupe-seb-france-new-2026",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-groupe-seb-retailing",
     "recommendations": [
       {
@@ -11617,17 +11650,6 @@
   },
   {
     "id": "indigo-open-data-irve",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "metzmetropole-agd-trans-irve-450adadae3c487c8b4d77bbc204350c2",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -24354,17 +24376,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "infrastructures-de-recharge-pour-vehicules-electriques-eurometropole-de-metz",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "bornes-de-recharges-izivia-grand-lyon",
     "recommendations": [
       {
@@ -24869,6 +24880,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-syndicat-departemental-de-la-voirie-des-collectivites-du-departement-de-la-charente-maritime",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "2025-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-mecadev",
