@@ -1021,9 +1021,15 @@
                     "README.md"
                 ],
                 "schema_url": "/etalab/schema-bal/1.4.0/schema.yml"
+            },
+            "1.5.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/etalab/schema-bal/1.5.0/schema.yml"
             }
         },
-        "latest": "1.4.0"
+        "latest": "1.5.0"
     },
     "etalab/schema-hautes-remunerations": {
         "homepage": "https://github.com/etalab/schema-hautes-remunerations",

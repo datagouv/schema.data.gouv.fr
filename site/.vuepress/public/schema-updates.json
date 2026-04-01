@@ -1236,5 +1236,13 @@
                 "version": "0.1.0"
             }
         ]
+    },
+    "2026-04-01": {
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-bal",
+                "version": "1.4.0 => 1.5.0"
+            }
+        ]
     }
 }

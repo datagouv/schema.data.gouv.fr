@@ -764,5 +764,10 @@
       <link>https://schema.data.gouv.fr/freddtce/ENS_AURA</link>
       <description>Schema update on 2026-03-23: 0.1.0 for freddtce/ENS_AURA</description>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - etalab/schema-bal (1.4.0 to 1.5.0)</title>
+      <link>https://schema.data.gouv.fr/etalab/schema-bal</link>
+      <description>Schema update on 2026-04-01: 1.4.0 to 1.5.0 for etalab/schema-bal</description>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>
