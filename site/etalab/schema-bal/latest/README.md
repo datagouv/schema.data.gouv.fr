@@ -22,11 +22,11 @@ Ces données communales ont vocation à alimenter la [**Base Adresse Nationale (
 Un fichier Base Adresse Locale correspond à un format simple d'échange de données sur les adresses. 
 
 Issu des travaux de l’<a href='http://www.aitf.fr/'>Association des Ingénieurs Territoriaux de France</a> (AITF) initiés en 2015, la spécification du format d’échange
-"BAL" est aujourd'hui en <a href='https://aitf-sig-topo.github.io/voies-adresses/files/AITF_SIG_Topo_Format_Base_Adresse_Locale_v1.4.pdf'> version 1.4 </a>.
+"BAL" est aujourd'hui en <a href='https://aitf-sig-topo.github.io/voies-adresses/files/AITF_SIG_Topo_Format_Base_Adresse_Locale_v1.5.pdf'> version 1.5 </a>.
 
 C'est le **format d’échange à utiliser pour mettre à jour la BAN**.  
-Les services de la BAN sont **optimisés pour fonctionner avec la version en vigueur (actuellement la version BAL 1.4)**. 
-La publication des adresses est acceptée dans la version précédente (BAL 1.3) cependant les services associés sont dégradés. 
+Les services de la BAN sont **optimisés depuis début mars 2026 pour fonctionner avec la version en vigueur (actuellement la version BAL 1.5)**. 
+La publication des adresses est acceptée dans la version précédente (BAL 1.4) cependant les services associés sont dégradés. 
 
 
 
