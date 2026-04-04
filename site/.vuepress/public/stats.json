@@ -186,7 +186,7 @@
             "contributors": 7
         },
         "etalab/schema-bal": {
-            "dgv_resources": 294,
+            "dgv_resources": 295,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -416,7 +416,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 227,
+            "dgv_resources": 228,
             "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
             "contributors": 2
         },
@@ -441,7 +441,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 411,
+            "dgv_resources": 412,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
