@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-2026-des-depenses-2025-relatives-aux-achats-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-article-58-loi-agec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-ehpad-francis-panicot",
     "recommendations": [
       {
