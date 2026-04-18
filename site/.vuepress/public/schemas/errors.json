@@ -305,6 +305,11 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "accessibilite-erp",
+        "version": "0.0.20",
+        "type": "missing schema.json"
+    },
+    {
         "schema": "registre-archive",
         "version": "0.2.0",
         "type": "tableschema validation"
