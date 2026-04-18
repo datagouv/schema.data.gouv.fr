@@ -7711,6 +7711,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "asus-notebook-h7606ww",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-organisation-dell-sas-2",
     "recommendations": [
       {
@@ -11163,6 +11174,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "irve-statique-organisation-qovoltis",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "irve-statique-engie-mobilites-electriques",
@@ -16754,6 +16776,17 @@
   },
   {
     "id": "bornes-de-recharge-pour-vehicule-electrique-ouvertes-au-public-hotel-jenny",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "raiden-fichier-consolide-bornes-de-recharge-pour-vehicules-electriques-irve-statique",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -28491,17 +28524,6 @@
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-du-parc-de-la-ville-de-saint-herblain-old",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
-  },
-  {
-    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-eau-de-paris",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
