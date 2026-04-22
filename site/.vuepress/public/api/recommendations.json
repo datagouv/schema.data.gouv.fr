@@ -31944,17 +31944,6 @@
     "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
-    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-direction-regionale-du-service-medical-de-bretagne",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
-  },
-  {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-organisation-eaux-de-vienne-2",
     "recommendations": [
       {
