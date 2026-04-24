@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-agec-depenses-faites-en-2025",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-2026-des-depenses-2025-relatives-aux-achats-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-article-58-loi-agec",
     "recommendations": [
       {
@@ -4939,6 +4950,17 @@
     "reason": "etalab/indice-durabilite-lave-linge"
   },
   {
+    "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-12",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
+  },
+  {
     "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-11",
     "recommendations": [
       {
@@ -7568,6 +7590,28 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "asus-notebook-g634jz",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-m1502naq",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "indice-de-reparabilite-lave-vaisselle-organisation-sourcing-et-creation",
     "recommendations": [
       {
@@ -7712,6 +7756,17 @@
   },
   {
     "id": "asus-notebook-h7606ww",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-s3407qa-1",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -7987,17 +8042,6 @@
   },
   {
     "id": "indice-de-reparabilite-organisation-asus-global-pte-ltd-1",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-indice-reparabilite"
-  },
-  {
-    "id": "asus-notebook-g814fm",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -11176,6 +11220,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-organisation-groupe-lanie",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-organisation-qovoltis",
     "recommendations": [
       {
@@ -11540,6 +11595,17 @@
   },
   {
     "id": "irve-statique-organisation-car2plug",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "infrastructures-de-recharge-pour-vehicules-electriques-93",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
