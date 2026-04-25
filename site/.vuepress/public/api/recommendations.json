@@ -7590,6 +7590,17 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "asus-notebook-m3607ka-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "asus-notebook-g634jz",
     "recommendations": [
       {
@@ -7745,6 +7756,17 @@
   },
   {
     "id": "indice-de-reparabilite-organisation-adeoservices",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-fx608jhr",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
