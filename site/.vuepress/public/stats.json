@@ -136,7 +136,7 @@
             "contributors": 10
         },
         "scdl/subventions": {
-            "dgv_resources": 51,
+            "dgv_resources": 52,
             "title": "Subventions",
             "contributors": 11
         },
@@ -303,10 +303,10 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
+            "contributors": 6
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 329,
+            "dgv_resources": 331,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -383,12 +383,12 @@
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 2
+            "contributors": 4
         },
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
