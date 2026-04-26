@@ -303,7 +303,7 @@
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 331,
@@ -383,12 +383,12 @@
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
