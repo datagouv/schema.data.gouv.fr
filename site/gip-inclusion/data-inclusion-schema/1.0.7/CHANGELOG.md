@@ -2,19 +2,11 @@
 
 # Journal des changements
 
-## 1.0.8 - 2026-04-27
-
-* ajout de la valeur `mdph` aux réseaux porteurs
-
 ## 1.0.7 - 2026-04-21
-
-### Suppressions
 
 * abandon v0
 
 ## 1.0.6 - 2026-03-04
-
-### Internes
 
 * refonte de la gestion des avertissements
 
