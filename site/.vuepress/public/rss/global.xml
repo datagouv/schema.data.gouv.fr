@@ -769,5 +769,15 @@
       <link>https://schema.data.gouv.fr/etalab/schema-bal</link>
       <description>Schema update on 2026-04-01: 1.4.0 to 1.5.0 for etalab/schema-bal</description>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (1.0.6 to 1.0.8)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2026-04-28: 1.0.6 to 1.0.8 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (1.0.6 to 1.0.8)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2026-04-28: 1.0.6 to 1.0.8 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

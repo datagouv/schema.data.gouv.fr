@@ -1244,5 +1244,17 @@
                 "version": "1.4.0 => 1.5.0"
             }
         ]
+    },
+    "2026-04-28": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "1.0.6 => 1.0.8"
+            },
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "1.0.6 => 1.0.8"
+            }
+        ]
     }
 }
