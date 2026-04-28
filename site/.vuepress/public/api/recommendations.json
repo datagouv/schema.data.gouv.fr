@@ -1,5 +1,27 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-smetom-geeode-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-communaute-de-communes-du-val-damour",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-agec-depenses-faites-en-2025",
     "recommendations": [
       {
@@ -4103,17 +4125,6 @@
     "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
   },
   {
-    "id": "schema-de-declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
-  },
-  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-organisation-mairie-orsay",
     "recommendations": [
       {
@@ -4948,6 +4959,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
+    "id": "indice-de-durabilite-televiseur-organisation-ethikis",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-televiseur",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-televiseur"
   },
   {
     "id": "indice-de-durabilite-televiseur-organisation-metz-display-polska-sp-z-o-o-12",
@@ -7588,6 +7610,50 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "asus-notebook-fx607vj",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-tp3407aa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-s3607aa",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-cm1406cm4a",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
   },
   {
     "id": "asus-notebook-m3607ka-1",
@@ -11240,6 +11306,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "kia-montauban-autos-services-albasud-irve",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "irve-statique-organisation-groupe-lanie",
