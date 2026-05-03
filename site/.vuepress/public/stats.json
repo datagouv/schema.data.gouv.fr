@@ -293,7 +293,7 @@
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
             "dgv_resources": 33,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
-            "contributors": 1
+            "contributors": 2
         },
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 24,
