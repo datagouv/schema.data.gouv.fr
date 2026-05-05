@@ -353,3 +353,7 @@ espaces-naturels-sensibles:
   url: https://github.com/freddtce/ENS_AURA.git
   type: tableschema
   email: tmp@data.gouv.fr
+donnees-communication-publique:
+  url: https://github.com/GouvernementFR/referentiel-donnees-communication-publique.git
+  type: jsonschema
+  email: tmp@data.gouv.fr
