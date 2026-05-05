@@ -1,3 +1,10 @@
+### 2026-05-05
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[GouvernementFR/referentiel-donnees-communication-publique](/GouvernementFR/referentiel-donnees-communication-publique/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2026-04-28
 
 #### Montées de versions:

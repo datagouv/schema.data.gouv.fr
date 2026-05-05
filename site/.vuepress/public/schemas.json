@@ -2741,6 +2741,26 @@
             "external_tool": null,
             "homepage": "https://github.com/freddtce/ENS_AURA.git",
             "schema_url": "https://schema.data.gouv.fr/schemas/freddtce/ENS_AURA/latest/schema.json"
+        },
+        {
+            "name": "GouvernementFR/referentiel-donnees-communication-publique",
+            "title": "D\u00e9p\u00f4t de r\u00e9f\u00e9rence des sch\u00e9mas de donn\u00e9es et de la documentation des jeux de donn\u00e9es ouverts",
+            "description": "D\u00e9p\u00f4t de r\u00e9f\u00e9rence des sch\u00e9mas de donn\u00e9es et de la documentation des jeux de donn\u00e9es ouverts publi\u00e9s par le **Service d'information du Gouvernement (SIG).",
+            "schema_type": "jsonschema",
+            "contact": "tmp@data.gouv.fr",
+            "examples": [],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/GouvernementFR/referentiel-donnees-communication-publique/0.1.0/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/GouvernementFR/referentiel-donnees-communication-publique",
+            "schema_url": "https://schema.data.gouv.fr/schemas/GouvernementFR/referentiel-donnees-communication-publique/latest/schema.json"
         }
     ]
 }
