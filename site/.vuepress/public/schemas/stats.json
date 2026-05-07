@@ -3,6 +3,16 @@
     "investigation": [],
     "nb_issues": 2,
     "references": {
+        "etalab/schema-bal": {
+            "dgv_resources": 295,
+            "title": "Base Adresse Locale (BAL)",
+            "contributors": 2
+        },
+        "atlasante/schema-dae": {
+            "dgv_resources": 5,
+            "title": "DAE",
+            "contributors": 8
+        },
         "etalab/schema-irve-statique": {
             "dgv_resources": 1225,
             "title": "IRVE statique",
@@ -18,379 +28,19 @@
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
             "contributors": 2
         },
-        "139bercy/format-commande-publique": {
-            "dgv_resources": 219,
-            "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
-        },
-        "etalab/schema-decp-dpa": {
-            "dgv_resources": 8,
-            "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 2
-        },
-        "scdl/catalogue": {
-            "dgv_resources": 27,
-            "title": "Catalogue simplifi\u00e9",
-            "contributors": 7
-        },
-        "scdl/deliberations": {
-            "dgv_resources": 41,
-            "title": "D\u00e9lib\u00e9rations",
-            "contributors": 10
-        },
-        "scdl/equipements": {
-            "dgv_resources": 54,
-            "title": "\u00c9quipements",
-            "contributors": 10
-        },
-        "scdl/subventions": {
-            "dgv_resources": 52,
-            "title": "Subventions",
-            "contributors": 11
-        },
-        "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 88,
-            "title": "Lieux de covoiturage",
-            "contributors": 2
-        },
-        "metis-reseaux/infos-travaux": {
-            "dgv_resources": 1,
-            "title": "Informations travaux",
-            "contributors": 2
-        },
-        "etalab/schema-stationnement": {
-            "dgv_resources": 20,
-            "title": "Lieux de stationnement",
-            "contributors": 2
-        },
         "scdl/budget": {
             "dgv_resources": 37,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
             "contributors": 7
-        },
-        "atlasante/schema-dae": {
-            "dgv_resources": 5,
-            "title": "DAE",
-            "contributors": 8
-        },
-        "scdl/prenoms": {
-            "dgv_resources": 16,
-            "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
-            "contributors": 10
-        },
-        "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 25,
-            "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
-        },
-        "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 20,
-            "title": "Stationnement cyclable",
-            "contributors": 2
-        },
-        "LaMednum/standard-mediation-num": {
-            "dgv_resources": 32,
-            "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
-        },
-        "etalab/schema-bal": {
-            "dgv_resources": 295,
-            "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
-        },
-        "etalab/schema-hautes-remunerations": {
-            "dgv_resources": 6,
-            "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
-            "contributors": 2
-        },
-        "scdl/menus-collectifs": {
-            "dgv_resources": 3,
-            "title": "Menus de la restauration collective",
-            "contributors": 3
-        },
-        "scdl/plats-menus-collectifs": {
-            "dgv_resources": 2,
-            "title": "Composition des plats des menus de la restauration collective",
-            "contributors": 3
-        },
-        "MTES-MCT/acceslibre-schema": {
-            "dgv_resources": 5,
-            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 61,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
             "contributors": 2
         },
-        "Archivistes75/registre_entrees": {
-            "dgv_resources": 11,
-            "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
-        },
-        "datatourisme/ontology": {
-            "dgv_resources": 7,
-            "title": "DATAtourisme",
-            "contributors": 10
-        },
-        "etalab/schema-zfe": {
-            "dgv_resources": 25,
-            "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 2
-        },
-        "CEREMA/schema-arrete-circulation-marchandises": {
-            "dgv_resources": 1,
-            "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 2
-        },
-        "openmaraude/schema-stationstaxi": {
-            "dgv_resources": 4,
-            "title": "Stations de taxi",
-            "contributors": 2
-        },
-        "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1054,
-            "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
-            "contributors": 2
-        },
-        "datakode/schema-pei": {
-            "dgv_resources": 1,
-            "title": "Point d'Eau Incendie (PEI)",
-            "contributors": 3
-        },
-        "PnX-SI/schema_randonnee": {
-            "dgv_resources": 6,
-            "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
-        },
-        "macaron-ai/onstreet-parking-schema": {
-            "dgv_resources": 0,
-            "title": "Emprise de stationnement sur la voirie",
-            "contributors": 2
-        },
-        "etalab/schema-passage-a-niveau": {
-            "dgv_resources": 2,
-            "title": "Sch\u00e9ma pour les passages \u00e0 niveau",
-            "contributors": 2
-        },
-        "etalab/schema-comptage-mobilites-site": {
-            "dgv_resources": 5,
-            "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 2
-        },
-        "etalab/schema-comptage-mobilites-channel": {
-            "dgv_resources": 1,
-            "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 2
-        },
-        "etalab/schema-comptage-mobilites-measure": {
-            "dgv_resources": 3,
-            "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
-        },
-        "etalab/schema-comptage-mobilites": {
-            "dgv_resources": 0,
-            "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
-        },
-        "etalab/schema-dispositif-aide": {
-            "dgv_resources": 1,
-            "title": "Dispositifs d'aides",
-            "contributors": 2
-        },
-        "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 33,
-            "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
-            "contributors": 2
-        },
-        "gip-inclusion/data-inclusion-schema": {
-            "dgv_resources": 24,
-            "title": "Services de l\u2019inclusion",
-            "contributors": 2
-        },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 2
-        },
-        "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 343,
-            "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 2
-        },
-        "etalab/schema-impact-service-public-numerique": {
-            "dgv_resources": 9,
-            "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
-        },
-        "cnigfr/schema-accessibilite-voirie": {
-            "dgv_resources": 4,
-            "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 2
-        },
-        "cnigfr/schema-plan-corps-rue-simplifie": {
-            "dgv_resources": 0,
-            "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 2
-        },
-        "cnigfr/schema-socle-reseaux": {
-            "dgv_resources": 0,
-            "title": "Socle des R\u00e9seaux (STAR-DT)",
-            "contributors": 2
-        },
-        "cnigfr/schema-occupation-sols": {
-            "dgv_resources": 0,
-            "title": "Occupation des sols \u00e0 grande \u00e9chelle",
-            "contributors": 2
-        },
-        "cnigfr/schema-continuites-ecologiques-regionales": {
-            "dgv_resources": 2,
-            "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
-            "contributors": 2
-        },
-        "cnigfr/schema-desserte-transport-bois": {
-            "dgv_resources": 0,
-            "title": "Dessertes pour le transport de bois",
-            "contributors": 2
-        },
-        "cnigfr/schema-eclairage-exterieur": {
-            "dgv_resources": 0,
-            "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
-            "contributors": 2
-        },
-        "cnigfr/schema-reseaux-electriques": {
-            "dgv_resources": 0,
-            "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 2
-        },
-        "cnigfr/schema-grace-thd": {
-            "dgv_resources": 4,
-            "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
-            "contributors": 2
-        },
-        "cnigfr/schema-plan-local-urbanisme": {
-            "dgv_resources": 29,
-            "title": "Plan local d'urbanisme (PLU)",
-            "contributors": 2
-        },
-        "cnigfr/schema-carte-communale": {
-            "dgv_resources": 11,
-            "title": "Carte communale",
-            "contributors": 2
-        },
-        "cnigfr/schema-schema-coherence-territoriale": {
-            "dgv_resources": 1,
-            "title": "Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
-            "contributors": 2
-        },
-        "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
-            "dgv_resources": 0,
-            "title": "Plan de sauvegarde et de mise en valeur (PSMV)",
-            "contributors": 2
-        },
-        "cnigfr/schema-servitudes-utilite-publique": {
-            "dgv_resources": 0,
-            "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 2
-        },
-        "cnigfr/sites-economiques-pole-eco": {
-            "dgv_resources": 0,
-            "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
-        },
-        "cnigfr/sites-economiques-site-eco": {
-            "dgv_resources": 2,
-            "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
-        },
-        "cnigfr/sites-economiques-terrain-eco": {
-            "dgv_resources": 0,
-            "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
-        },
-        "cnigfr/sites-economiques-etablissement": {
-            "dgv_resources": 0,
-            "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 2
-        },
-        "cnigfr/schema-sites-economiques": {
-            "dgv_resources": 0,
-            "title": "Site Economique",
-            "contributors": 2
-        },
-        "cnigfr/operation-amenagement": {
-            "dgv_resources": 0,
-            "title": "Classe OPERATION-AMENAGEMENT du standard CNIG Op\u00e9rations d'am\u00e9nagement",
-            "contributors": 2
-        },
-        "cnigfr/secteur": {
-            "dgv_resources": 0,
-            "title": "Classe SECTEUR du standard CNIG Op\u00e9rations d'am\u00e9nagement",
-            "contributors": 2
-        },
-        "cnigfr/programme": {
-            "dgv_resources": 0,
-            "title": "Classe PROGRAMME du standard CNIG Op\u00e9rations d'am\u00e9nagement",
-            "contributors": 2
-        },
-        "cnigfr/schema-operations-amenagement": {
-            "dgv_resources": 0,
-            "title": "Operation am\u00e9nagement",
-            "contributors": 2
-        },
-        "CEREMA/schema-aire-livraison": {
-            "dgv_resources": 1,
-            "title": "Aires de livraison",
-            "contributors": 2
-        },
-        "etalab/indice-durabilite-televiseur": {
-            "dgv_resources": 230,
-            "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
-            "contributors": 2
-        },
-        "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 32,
-            "title": "Indice de durabilit\u00e9 - Lave-linge",
-            "contributors": 2
-        },
-        "etalab/schema-indice-durabilite": {
-            "dgv_resources": 0,
-            "title": "Indice de durabilit\u00e9",
-            "contributors": 2
-        },
-        "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 419,
-            "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
-            "contributors": 2
-        },
-        "datagouv/schema-fontaine-eau": {
-            "dgv_resources": 0,
-            "title": "Sch\u00e9ma des fontaines \u00e0 eau",
-            "contributors": 2
-        },
-        "betagouv/projets-territoire": {
-            "dgv_resources": 0,
-            "title": "Projets de collectivit\u00e9s",
-            "contributors": 2
-        },
-        "betagouv/collectivites": {
-            "dgv_resources": 2,
-            "title": "Collectivit\u00e9s",
-            "contributors": 2
-        },
-        "betagouv/schema-projet-collectivites-transition-ecologique": {
-            "dgv_resources": 0,
-            "title": "Sch\u00e9ma des projets de transition \u00e9cologique des collectivit\u00e9s",
-            "contributors": 2
-        },
-        "cnigfr/Geostandards-Risques": {
-            "dgv_resources": 0,
-            "title": "G\u00e9ostandards Risques - Mod\u00e8le Commun",
-            "contributors": 2
-        },
-        "cnigfr/Geostandards-risques-ppr": {
-            "dgv_resources": 0,
-            "title": "G\u00e9ostandards Risques - Plans de pr\u00e9vention des risques (PPR)",
             "contributors": 2
         },
         "cnigfr/atlas-paysager": {
@@ -431,6 +81,356 @@
         "cnigfr/schema-paysage": {
             "dgv_resources": 0,
             "title": "Sch\u00e9ma paysage",
+            "contributors": 2
+        },
+        "scdl/prenoms": {
+            "dgv_resources": 16,
+            "title": "Pr\u00e9noms des nouveaux-n\u00e9s",
+            "contributors": 10
+        },
+        "etalab/schema-decp-dpa": {
+            "dgv_resources": 8,
+            "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
+            "contributors": 2
+        },
+        "scdl/catalogue": {
+            "dgv_resources": 27,
+            "title": "Catalogue simplifi\u00e9",
+            "contributors": 7
+        },
+        "cnigfr/schema-grace-thd": {
+            "dgv_resources": 4,
+            "title": "Am\u00e9nagement Num\u00e9rique des Territoires GraceTHD",
+            "contributors": 2
+        },
+        "etalab/schema-zfe": {
+            "dgv_resources": 25,
+            "title": "Zone \u00e0 Faibles Emissions",
+            "contributors": 2
+        },
+        "etalab/schema-lieux-covoiturage": {
+            "dgv_resources": 88,
+            "title": "Lieux de covoiturage",
+            "contributors": 2
+        },
+        "scdl/equipements": {
+            "dgv_resources": 54,
+            "title": "\u00c9quipements",
+            "contributors": 10
+        },
+        "scdl/subventions": {
+            "dgv_resources": 52,
+            "title": "Subventions",
+            "contributors": 11
+        },
+        "datatourisme/ontology": {
+            "dgv_resources": 7,
+            "title": "DATAtourisme",
+            "contributors": 10
+        },
+        "datagouv/schema-fontaine-eau": {
+            "dgv_resources": 0,
+            "title": "Sch\u00e9ma des fontaines \u00e0 eau",
+            "contributors": 2
+        },
+        "scdl/deliberations": {
+            "dgv_resources": 41,
+            "title": "D\u00e9lib\u00e9rations",
+            "contributors": 10
+        },
+        "metis-reseaux/infos-travaux": {
+            "dgv_resources": 1,
+            "title": "Informations travaux",
+            "contributors": 2
+        },
+        "cnigfr/schema-socle-reseaux": {
+            "dgv_resources": 0,
+            "title": "Socle des R\u00e9seaux (STAR-DT)",
+            "contributors": 2
+        },
+        "etalab/schema-stationnement": {
+            "dgv_resources": 20,
+            "title": "Lieux de stationnement",
+            "contributors": 2
+        },
+        "openmaraude/schema-stationstaxi": {
+            "dgv_resources": 4,
+            "title": "Stations de taxi",
+            "contributors": 2
+        },
+        "CEREMA/schema-aire-livraison": {
+            "dgv_resources": 1,
+            "title": "Aires de livraison",
+            "contributors": 2
+        },
+        "cnigfr/schema-carte-communale": {
+            "dgv_resources": 11,
+            "title": "Carte communale",
+            "contributors": 2
+        },
+        "etalab/schema-dispositif-aide": {
+            "dgv_resources": 1,
+            "title": "Dispositifs d'aides",
+            "contributors": 2
+        },
+        "cnigfr/schema-occupation-sols": {
+            "dgv_resources": 0,
+            "title": "Occupation des sols \u00e0 grande \u00e9chelle",
+            "contributors": 2
+        },
+        "etalab/schema-passage-a-niveau": {
+            "dgv_resources": 2,
+            "title": "Sch\u00e9ma pour les passages \u00e0 niveau",
+            "contributors": 2
+        },
+        "Archivistes75/registre_entrees": {
+            "dgv_resources": 11,
+            "title": "Registre d'entr\u00e9e d'archives",
+            "contributors": 2
+        },
+        "MTES-MCT/acceslibre-schema": {
+            "dgv_resources": 5,
+            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "contributors": 2
+        },
+        "etalab/schema-comptage-mobilites-site": {
+            "dgv_resources": 5,
+            "title": "Comptage des mobilit\u00e9s (Site)",
+            "contributors": 2
+        },
+        "etalab/schema-comptage-mobilites-channel": {
+            "dgv_resources": 1,
+            "title": "Comptage des mobilit\u00e9s (Channel)",
+            "contributors": 2
+        },
+        "etalab/schema-comptage-mobilites-measure": {
+            "dgv_resources": 3,
+            "title": "Comptage des mobilit\u00e9s (Measure)",
+            "contributors": 2
+        },
+        "etalab/schema-comptage-mobilites": {
+            "dgv_resources": 0,
+            "title": "Comptage des mobilit\u00e9s",
+            "contributors": 2
+        },
+        "etalab/indice-durabilite-televiseur": {
+            "dgv_resources": 230,
+            "title": "Indice de durabilit\u00e9 - T\u00e9l\u00e9viseur",
+            "contributors": 2
+        },
+        "etalab/indice-durabilite-lave-linge": {
+            "dgv_resources": 32,
+            "title": "Indice de durabilit\u00e9 - Lave-linge",
+            "contributors": 2
+        },
+        "etalab/schema-indice-durabilite": {
+            "dgv_resources": 0,
+            "title": "Indice de durabilit\u00e9",
+            "contributors": 2
+        },
+        "cnigfr/sites-economiques-pole-eco": {
+            "dgv_resources": 0,
+            "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
+            "contributors": 2
+        },
+        "cnigfr/sites-economiques-site-eco": {
+            "dgv_resources": 2,
+            "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
+            "contributors": 2
+        },
+        "cnigfr/sites-economiques-terrain-eco": {
+            "dgv_resources": 0,
+            "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
+            "contributors": 2
+        },
+        "cnigfr/sites-economiques-etablissement": {
+            "dgv_resources": 0,
+            "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
+            "contributors": 2
+        },
+        "cnigfr/schema-sites-economiques": {
+            "dgv_resources": 0,
+            "title": "Site Economique",
+            "contributors": 2
+        },
+        "cnigfr/Geostandards-Risques": {
+            "dgv_resources": 0,
+            "title": "G\u00e9ostandards Risques - Mod\u00e8le Commun",
+            "contributors": 2
+        },
+        "scdl/menus-collectifs": {
+            "dgv_resources": 3,
+            "title": "Menus de la restauration collective",
+            "contributors": 3
+        },
+        "scdl/plats-menus-collectifs": {
+            "dgv_resources": 2,
+            "title": "Composition des plats des menus de la restauration collective",
+            "contributors": 3
+        },
+        "datakode/schema-pei": {
+            "dgv_resources": 1,
+            "title": "Point d'Eau Incendie (PEI)",
+            "contributors": 3
+        },
+        "cnigfr/schema-eclairage-exterieur": {
+            "dgv_resources": 0,
+            "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
+            "contributors": 2
+        },
+        "etalab/schema-indice-reparabilite": {
+            "dgv_resources": 343,
+            "title": "Indice de r\u00e9parabilit\u00e9",
+            "contributors": 2
+        },
+        "cnigfr/schema-reseaux-electriques": {
+            "dgv_resources": 0,
+            "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
+            "contributors": 2
+        },
+        "etalab/schema-hautes-remunerations": {
+            "dgv_resources": 6,
+            "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
+            "contributors": 2
+        },
+        "PnX-SI/schema_randonnee": {
+            "dgv_resources": 6,
+            "title": "Itin\u00e9raires de randonn\u00e9e",
+            "contributors": 2
+        },
+        "cnigfr/schema-plan-local-urbanisme": {
+            "dgv_resources": 29,
+            "title": "Plan local d'urbanisme (PLU)",
+            "contributors": 2
+        },
+        "gip-inclusion/data-inclusion-schema": {
+            "dgv_resources": 24,
+            "title": "Services de l\u2019inclusion",
+            "contributors": 2
+        },
+        "etalab/schema-amenagements-cyclables": {
+            "dgv_resources": 25,
+            "title": "Am\u00e9nagements cyclables",
+            "contributors": 2
+        },
+        "cnigfr/Geostandards-risques-ppr": {
+            "dgv_resources": 0,
+            "title": "G\u00e9ostandards Risques - Plans de pr\u00e9vention des risques (PPR)",
+            "contributors": 2
+        },
+        "cnigfr/operation-amenagement": {
+            "dgv_resources": 0,
+            "title": "Classe OPERATION-AMENAGEMENT du standard CNIG Op\u00e9rations d'am\u00e9nagement",
+            "contributors": 2
+        },
+        "cnigfr/secteur": {
+            "dgv_resources": 0,
+            "title": "Classe SECTEUR du standard CNIG Op\u00e9rations d'am\u00e9nagement",
+            "contributors": 2
+        },
+        "cnigfr/programme": {
+            "dgv_resources": 0,
+            "title": "Classe PROGRAMME du standard CNIG Op\u00e9rations d'am\u00e9nagement",
+            "contributors": 2
+        },
+        "cnigfr/schema-operations-amenagement": {
+            "dgv_resources": 0,
+            "title": "Operation am\u00e9nagement",
+            "contributors": 2
+        },
+        "etalab/schema-stationnement-cyclable": {
+            "dgv_resources": 20,
+            "title": "Stationnement cyclable",
+            "contributors": 2
+        },
+        "cnigfr/schema-desserte-transport-bois": {
+            "dgv_resources": 0,
+            "title": "Dessertes pour le transport de bois",
+            "contributors": 2
+        },
+        "139bercy/format-commande-publique": {
+            "dgv_resources": 219,
+            "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
+            "contributors": 2
+        },
+        "cnigfr/schema-plan-corps-rue-simplifie": {
+            "dgv_resources": 0,
+            "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
+            "contributors": 2
+        },
+        "LaMednum/standard-mediation-num": {
+            "dgv_resources": 32,
+            "title": "Lieux de m\u00e9diation num\u00e9rique",
+            "contributors": 2
+        },
+        "cnigfr/schema-accessibilite-voirie": {
+            "dgv_resources": 4,
+            "title": "Accessibilit\u00e9 du cheminement en voirie",
+            "contributors": 2
+        },
+        "cnigfr/schema-servitudes-utilite-publique": {
+            "dgv_resources": 0,
+            "title": "Servitudes d'utilit\u00e9 publique (SUP)",
+            "contributors": 2
+        },
+        "macaron-ai/onstreet-parking-schema": {
+            "dgv_resources": 0,
+            "title": "Emprise de stationnement sur la voirie",
+            "contributors": 2
+        },
+        "cnigfr/schema-schema-coherence-territoriale": {
+            "dgv_resources": 1,
+            "title": "Sch\u00e9ma de Coh\u00e9rence Territoriale (SCOT)",
+            "contributors": 2
+        },
+        "CEREMA/schema-arrete-circulation-marchandises": {
+            "dgv_resources": 1,
+            "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
+            "contributors": 2
+        },
+        "etalab/schema-impact-service-public-numerique": {
+            "dgv_resources": 9,
+            "title": "Impact d\u2019un service public num\u00e9rique",
+            "contributors": 2
+        },
+        "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
+            "dgv_resources": 0,
+            "title": "Plan de sauvegarde et de mise en valeur (PSMV)",
+            "contributors": 2
+        },
+        "cnigfr/schema-continuites-ecologiques-regionales": {
+            "dgv_resources": 2,
+            "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
+            "contributors": 2
+        },
+        "betagouv/projets-territoire": {
+            "dgv_resources": 0,
+            "title": "Projets de collectivit\u00e9s",
+            "contributors": 2
+        },
+        "betagouv/collectivites": {
+            "dgv_resources": 2,
+            "title": "Collectivit\u00e9s",
+            "contributors": 2
+        },
+        "betagouv/schema-projet-collectivites-transition-ecologique": {
+            "dgv_resources": 0,
+            "title": "Sch\u00e9ma des projets de transition \u00e9cologique des collectivit\u00e9s",
+            "contributors": 2
+        },
+        "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
+            "dgv_resources": 1054,
+            "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
+            "contributors": 2
+        },
+        "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
+            "dgv_resources": 419,
+            "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
+            "contributors": 2
+        },
+        "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
+            "dgv_resources": 33,
+            "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         }
     }
