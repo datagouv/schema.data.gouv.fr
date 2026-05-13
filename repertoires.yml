@@ -367,3 +367,7 @@ paysage:
   email: cnig@cnig.fr
   labels:
     - CNIG
+donnees-communication-publique:
+  url: https://github.com/GouvernementFR/referentiel-donnees-communication-publique.git
+  type: jsonschema
+  email: sebastien.malot@pm.gouv.fr
