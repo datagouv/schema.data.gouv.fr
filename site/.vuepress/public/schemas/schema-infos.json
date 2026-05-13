@@ -3280,6 +3280,26 @@
         },
         "latest": "0.9.2"
     },
+    "GouvernementFR/referentiel-donnees-communication-publique": {
+        "homepage": "https://github.com/GouvernementFR/referentiel-donnees-communication-publique.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "jsonschema",
+        "email": "sebastien.malot@pm.gouv.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/GouvernementFR/referentiel-donnees-communication-publique/0.1.0/schema.json"
+            }
+        },
+        "latest": "0.1.0"
+    },
     "etalab/schema-impact-service-public-numerique": {
         "homepage": "https://github.com/etalab/schema-impact-service-public-numerique",
         "external_doc": null,
