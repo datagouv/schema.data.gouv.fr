@@ -1,0 +1,11 @@
+engineStrict: true
+sideEffectsCache: false
+strictPeerDependencies: false
+nodeLinker: hoisted
+minimumReleaseAge: 5760
+shamefullyHoist: true
+allowBuilds:
+  core-js: true
+  esbuild: true
+  highlight.js: true
+  vuepress: true

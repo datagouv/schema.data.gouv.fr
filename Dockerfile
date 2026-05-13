@@ -1,12 +1,13 @@
 FROM node:22 AS builder
 
-RUN corepack enable && corepack prepare pnpm@latest-10 --activate
+RUN corepack enable && corepack prepare pnpm@latest-11 --activate
 
 WORKDIR /app
 
 COPY ./ /app
 
 ENV NODE_OPTIONS=--openssl-legacy-provider
+ENV CI=true
 
 RUN pnpm i
 RUN echo "$(date)" && \
