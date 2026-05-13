@@ -5,7 +5,7 @@ nodeLinker: hoisted
 minimumReleaseAge: 5760
 shamefullyHoist: true
 allowBuilds:
-  core-js: true
-  esbuild: true
-  highlight.js: true
-  vuepress: true
+  core-js: false
+  esbuild: false
+  highlight.js: false
+  vuepress: false
