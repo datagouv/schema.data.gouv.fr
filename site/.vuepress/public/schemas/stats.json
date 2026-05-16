@@ -98,7 +98,7 @@
         "etalab/schema-bal": {
             "dgv_resources": 295,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 6
+            "contributors": 2
         },
         "atlasante/schema-dae": {
             "dgv_resources": 5,
@@ -108,12 +108,12 @@
         "etalab/schema-irve-statique": {
             "dgv_resources": 1228,
             "title": "IRVE statique",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 20,
             "title": "IRVE dynamique",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
