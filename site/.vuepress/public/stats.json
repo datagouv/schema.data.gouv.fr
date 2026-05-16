@@ -253,17 +253,17 @@
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
             "dgv_resources": 230,
@@ -283,27 +283,27 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
             "title": "Site Economique",
-            "contributors": 5
+            "contributors": 2
         },
         "scdl/menus-collectifs": {
             "dgv_resources": 3,
@@ -323,32 +323,32 @@
         "Pierlou/test-schema-hydrometrie": {
             "dgv_resources": 0,
             "title": "Hydrom\u00e9trie",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 344,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/schema-reseaux-electriques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 6,
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
-            "contributors": 1
+            "contributors": 2
         },
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
             "dgv_resources": 29,
