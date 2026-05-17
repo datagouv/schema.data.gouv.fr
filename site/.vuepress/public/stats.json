@@ -93,7 +93,7 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 30,
+    "nb_issues": 2,
     "references": {
         "etalab/schema-bal": {
             "dgv_resources": 295,
