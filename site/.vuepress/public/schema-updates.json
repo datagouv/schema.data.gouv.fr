@@ -1284,5 +1284,13 @@
                 "version": "0.1.0"
             }
         ]
+    },
+    "2026-05-21": {
+        "construction": [
+            {
+                "title": "Sch\u00e9ma sur l'accessiblit\u00e9 du cheminement en espace naturel (ACEN)",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/347"
+            }
+        ]
     }
 }

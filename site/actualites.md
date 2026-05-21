@@ -1,3 +1,10 @@
+### 2026-05-21
+
+#### Schéma en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma sur l'accessiblité du cheminement en espace naturel (ACEN)](https://github.com/datagouv/schema.data.gouv.fr/issues/347/)**
+
+---
+
 ### 2026-05-13
 
 #### Schéma ajouté:
