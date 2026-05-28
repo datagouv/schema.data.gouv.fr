@@ -7788,6 +7788,17 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-na1ff47d5w-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "asus-notebook-b9406caa",
     "recommendations": [
       {
@@ -17964,17 +17975,6 @@
   },
   {
     "id": "infrastructures-de-recharge-pour-vehicules-electriques-organisation-sergent-4",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "bornes-de-recharge-pour-vehicules-electriques-sowatt-irve-20221215",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
