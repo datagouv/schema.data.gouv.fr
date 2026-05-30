@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1230,
+            "dgv_resources": 1227,
             "title": "IRVE statique",
             "contributors": 8
         },
@@ -238,32 +238,32 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 11,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 2
+            "contributors": 6
         },
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 5,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 2
+            "contributors": 5
         },
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 2
+            "contributors": 3
         },
         "etalab/indice-durabilite-televiseur": {
             "dgv_resources": 230,
