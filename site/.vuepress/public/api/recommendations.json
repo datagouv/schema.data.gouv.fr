@@ -11682,7 +11682,29 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
-    "id": "fitness-park-baillif",
+    "id": "irve-statique-g-mob",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-statique-organisation-sas-delmonicos-1",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-statique-organisation-sas-delmonicos",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -11705,17 +11727,6 @@
   },
   {
     "id": "irve-statique-dynamique",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "fitness-park-le-moule",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -11870,17 +11881,6 @@
   },
   {
     "id": "bornes-de-recharge-pour-vehicules-electriques-mobisdec",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "emploi-et-logistique-lies-au-e-commerce-indicateurs-structurels-2024-2025",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -12860,17 +12860,6 @@
   },
   {
     "id": "irve-statique-organisation-lumiin-13",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "propositions-faites-lors-de-la-consultation-publique-lancee-par-la-mission-sur-la-politique-publique-de-la-donnee-des-algorithmes-et-des-codes-sources",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -17898,28 +17887,6 @@
   },
   {
     "id": "borne-de-recharge-pour-vehicules-electriques-2",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "borne-de-recharge-pour-vehicules-electriques-1",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "borne-de-recharge-pour-vehicule-electrique-6",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
