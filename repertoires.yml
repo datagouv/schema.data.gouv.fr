@@ -62,19 +62,19 @@ budget:
   url: https://gitlab.com/opendatafrance/scdl/budget.git
   type: tableschema
   email: scdl@opendatafrance.email
-  labels: 
+  labels:
     - Socle Commun des Données Locales
 dae:
   url: https://gitlab.com/arsante/atlasante/schema-dae.git
   type: tableschema
   email: contact@geodae.sante.gouv.fr
-  labels: 
+  labels:
     - Socle Commun des Données Locales
 prenoms:
   url: https://gitlab.com/opendatafrance/scdl/prenoms.git
   type: tableschema
   email: scdl@opendatafrance.email
-  labels: 
+  labels:
     - Socle Commun des Données Locales
 arbres_urbains:
   url: https://github.com/NaturalSolutions/schema-arbre.git
@@ -126,7 +126,7 @@ plats-restauration:
     - Socle Commun des Données Locales
 accessibilite-erp:
   url: https://github.com/MTES-MCT/acceslibre-schema.git
-  type: tableschema
+  type: datapackage
   email: acceslibre@beta.gouv.fr
 sdirve:
   url: https://github.com/etalab/schema-sdirve.git
