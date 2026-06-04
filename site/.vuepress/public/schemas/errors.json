@@ -225,51 +225,6 @@
         "type": "tableschema validation"
     },
     {
-        "schema": "accessibilite-erp",
-        "version": "0.0.1",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.2",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.3",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.4",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.5",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.6",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.7",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.8",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.9",
-        "type": "tableschema validation"
-    },
-    {
         "schema": "menus-restauration",
         "version": "0.3.0",
         "type": "tableschema validation"

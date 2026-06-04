@@ -1460,85 +1460,151 @@
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
         "external_doc": null,
         "external_tool": null,
-        "type": "tableschema",
+        "type": "datapackage",
         "email": "acceslibre@beta.gouv.fr",
         "labels": null,
         "consolidation_dataset_id": null,
         "versions": {
+            "0.0.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.3": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.5": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.6": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.7": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.8": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.9": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            },
             "0.0.10": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.10/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.13": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.13/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.14": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.14/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.15": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.15/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.16": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.16/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.17": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.17/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.18": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.18/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.19": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.0.20": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
                 ],
-                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.19/schema.json"
+                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.20/datapackage.json"
             }
         },
-        "latest": "0.0.19"
+        "schemas": [
+            "MTES-MCT/acceslibre",
+            "MTES-MCT/acceslibre",
+            "MTES-MCT/acceslibre",
+            "MTES-MCT/acceslibre",
+            "MTES-MCT/acceslibre",
+            "MTES-MCT/acceslibre"
+        ],
+        "latest": "0.0.20"
+    },
+    "MTES-MCT/acceslibre": {
+        "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "acceslibre@beta.gouv.fr",
+        "versions": {
+            "0.0.20": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre/0.0.20/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+        "datapackage_id": "acceslibre",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "latest": "0.0.20"
     },
     "etalab/schema-comptage-mobilites": {
         "homepage": "https://github.com/etalab/schema-comptage-mobilites",

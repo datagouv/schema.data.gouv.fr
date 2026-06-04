@@ -1,3 +1,22 @@
+### 2026-06-04
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre](/MTES-MCT/acceslibre/)** : <span style="color:blue;">0.0.20</span><br>
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.19</span> => <span style="color:green;">0.0.20</span><br>
+
+---
+
 ### 2026-05-21
 
 #### Schéma en construction:

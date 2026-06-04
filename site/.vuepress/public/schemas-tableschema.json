@@ -994,7 +994,7 @@
             "schema_url": "https://schema.data.gouv.fr/schemas/Archivistes75/registre_entrees/latest/schema.json"
         },
         {
-            "name": "MTES-MCT/acceslibre-schema",
+            "name": "MTES-MCT/acceslibre",
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
             "schema_type": "tableschema",
@@ -1003,54 +1003,199 @@
                 {
                     "title": "Fichier valide (CSV)",
                     "name": "exemple-valide-csv",
-                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.19/exemple-valide.csv"
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.20/etablissements_scolaires/exemple.csv"
                 },
                 {
                     "title": "Sch\u00e9ma au format XLS",
                     "name": "schema_format_xls",
-                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.19/schema_format_excel.xls"
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.20/etablissements_scolaires/schema.xls"
                 }
             ],
             "labels": [],
             "consolidation_dataset_id": null,
             "versions": [
                 {
-                    "version_name": "0.0.10",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.10/schema.json"
-                },
-                {
-                    "version_name": "0.0.13",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.13/schema.json"
-                },
-                {
-                    "version_name": "0.0.14",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.14/schema.json"
-                },
-                {
-                    "version_name": "0.0.15",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.15/schema.json"
-                },
-                {
-                    "version_name": "0.0.16",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.16/schema.json"
-                },
-                {
-                    "version_name": "0.0.17",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.17/schema.json"
-                },
-                {
-                    "version_name": "0.0.18",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.18/schema.json"
-                },
-                {
-                    "version_name": "0.0.19",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/0.0.19/schema.json"
+                    "version_name": "0.0.20",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/0.0.20/schema.json"
                 }
             ],
             "external_doc": null,
             "external_tool": null,
             "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
-            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-schema/latest/schema.json"
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/latest/schema.json",
+            "datapackage_title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "datapackage_name": "MTES-MCT/acceslibre-schema",
+            "datapackage_description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP)."
+        },
+        {
+            "name": "MTES-MCT/acceslibre",
+            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
+            "schema_type": "tableschema",
+            "contact": "acceslibre@beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.20/etablissements_scolaires/exemple.csv"
+                },
+                {
+                    "title": "Sch\u00e9ma au format XLS",
+                    "name": "schema_format_xls",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.20/etablissements_scolaires/schema.xls"
+                }
+            ],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.20",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/0.0.20/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/latest/schema.json",
+            "datapackage_title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "datapackage_name": "MTES-MCT/acceslibre-schema",
+            "datapackage_description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP)."
+        },
+        {
+            "name": "MTES-MCT/acceslibre",
+            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
+            "schema_type": "tableschema",
+            "contact": "acceslibre@beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.20/etablissements_scolaires/exemple.csv"
+                },
+                {
+                    "title": "Sch\u00e9ma au format XLS",
+                    "name": "schema_format_xls",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.20/etablissements_scolaires/schema.xls"
+                }
+            ],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.20",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/0.0.20/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/latest/schema.json",
+            "datapackage_title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "datapackage_name": "MTES-MCT/acceslibre-schema",
+            "datapackage_description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP)."
+        },
+        {
+            "name": "MTES-MCT/acceslibre",
+            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
+            "schema_type": "tableschema",
+            "contact": "acceslibre@beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.20/etablissements_scolaires/exemple.csv"
+                },
+                {
+                    "title": "Sch\u00e9ma au format XLS",
+                    "name": "schema_format_xls",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.20/etablissements_scolaires/schema.xls"
+                }
+            ],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.20",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/0.0.20/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/latest/schema.json",
+            "datapackage_title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "datapackage_name": "MTES-MCT/acceslibre-schema",
+            "datapackage_description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP)."
+        },
+        {
+            "name": "MTES-MCT/acceslibre",
+            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
+            "schema_type": "tableschema",
+            "contact": "acceslibre@beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.20/etablissements_scolaires/exemple.csv"
+                },
+                {
+                    "title": "Sch\u00e9ma au format XLS",
+                    "name": "schema_format_xls",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.20/etablissements_scolaires/schema.xls"
+                }
+            ],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.20",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/0.0.20/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/latest/schema.json",
+            "datapackage_title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "datapackage_name": "MTES-MCT/acceslibre-schema",
+            "datapackage_description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP)."
+        },
+        {
+            "name": "MTES-MCT/acceslibre",
+            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP).",
+            "schema_type": "tableschema",
+            "contact": "acceslibre@beta.gouv.fr",
+            "examples": [
+                {
+                    "title": "Fichier valide (CSV)",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/raw/v0.0.20/etablissements_scolaires/exemple.csv"
+                },
+                {
+                    "title": "Sch\u00e9ma au format XLS",
+                    "name": "schema_format_xls",
+                    "path": "https://github.com/MTES-MCT/acceslibre-schema/blob/v0.0.20/etablissements_scolaires/schema.xls"
+                }
+            ],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.0.20",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/0.0.20/schema.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre/latest/schema.json",
+            "datapackage_title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "datapackage_name": "MTES-MCT/acceslibre-schema",
+            "datapackage_description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es d'accessibilit\u00e9 des \u00c9tablissements Recevant du Public (ERP)."
         },
         {
             "name": "etalab/schema-comptage-mobilites-site",

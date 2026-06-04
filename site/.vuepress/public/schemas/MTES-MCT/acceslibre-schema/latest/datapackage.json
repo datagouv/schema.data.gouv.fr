@@ -1,0 +1,67 @@
+{
+  "name": "acceslibre",
+  "title": "Schémas des données d'accessibilité des ERPs",
+  "description": "Spécification du fichier d'échange relatif aux données d'accessibilité des Établissements Recevant du Public (ERP).",
+  "resources": [
+    {
+      "name": "acceslibre-erp-base",
+      "description": "Établissements Recevant du Public (ERP)",
+      "path": "base/exemple.csv",
+      "profile": "tabular-data-resource",
+      "schema": "base/schema.json",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "acceslibre-erp-grand-etablissement",
+      "description": "Établissements Recevant du Public (ERP) appartenant à la macro activité en rapport avec les grands établissements",
+      "path": "grands_etablissements/exemple.csv",
+      "profile": "tabular-data-resource",
+      "schema": "grands_etablissements/schema.json",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "acceslibre-erp-hebergement",
+      "description": "Établissements Recevant du Public (ERP) appartenant à la macro activité en rapport avec l'hébérgement",
+      "path": "hebergement/exemple.csv",
+      "profile": "tabular-data-resource",
+      "schema": "hebergement/schema.json",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "acceslibre-erp-bureau-de-vote",
+      "description": "Établissements Recevant du Public (ERP) appartenant à la macro activité en rapport avec les bureaux de vote",
+      "path": "bureau_de_vote/exemple.csv",
+      "profile": "tabular-data-resource",
+      "schema": "bureau_de_vote/schema.json",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "acceslibre-erp-etablissement-scolaire",
+      "description": "Établissements Recevant du Public (ERP) appartenant à la macro activité en rapport avec les établissements scolaires",
+      "path": "etablissements_scolaires/exemple.csv",
+      "profile": "tabular-data-resource",
+      "schema": "etablissements_scolaires/schema.json",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+        {
+      "name": "acceslibre-erp-sante",
+      "description": "Établissements Recevant du Public (ERP) appartenant à la macro activité en rapport avec les lieux de santé",
+      "path": "sante/exemple.csv",
+      "profile": "tabular-data-resource",
+      "schema": "sante/schema.json",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    }
+  ]
+}
