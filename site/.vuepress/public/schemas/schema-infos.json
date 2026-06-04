@@ -1338,9 +1338,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-schema/0.0.19/schema.json"
+            },
+            "0.0.20": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.20/schema.json"
             }
         },
-        "latest": "0.0.19"
+        "latest": "0.0.20"
     },
     "etalab/schema-comptage-mobilites": {
         "homepage": "https://github.com/etalab/schema-comptage-mobilites",

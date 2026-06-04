@@ -789,5 +789,10 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/347</link>
       <description>Schema update on 2026-05-21: Sch&#233;ma sur l'accessiblit&#233; du cheminement en espace naturel (ACEN) is in construction</description>
       <pubDate>Thu, 21 May 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - MTES-MCT/acceslibre-schema (0.0.19 to 0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
+      <description>Schema update on 2026-06-04: 0.0.19 to 0.0.20 for MTES-MCT/acceslibre-schema</description>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

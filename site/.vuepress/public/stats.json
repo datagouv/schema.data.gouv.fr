@@ -283,27 +283,27 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
             "title": "Site Economique",
-            "contributors": 2
+            "contributors": 5
         },
         "scdl/menus-collectifs": {
             "dgv_resources": 3,
@@ -323,32 +323,32 @@
         "Pierlou/test-schema-hydrometrie": {
             "dgv_resources": 0,
             "title": "Hydrom\u00e9trie",
-            "contributors": 2
+            "contributors": 1
         },
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 350,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 2
+            "contributors": 3
         },
         "cnigfr/schema-reseaux-electriques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 6,
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
-            "contributors": 2
+            "contributors": 1
         },
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 6,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-plan-local-urbanisme": {
             "dgv_resources": 29,
@@ -461,7 +461,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 438,
+            "dgv_resources": 440,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
