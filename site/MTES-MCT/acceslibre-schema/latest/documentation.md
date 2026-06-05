@@ -8,7 +8,7 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 
 - Schéma créé le : 10/03/2021
 - Site web : https://github.com/MTES-MCT/acceslibre-schema
-- Version : 0.0.20
+- Version : 0.0.19
 - Clé primaire : `id`
 
 ### Modèle de données

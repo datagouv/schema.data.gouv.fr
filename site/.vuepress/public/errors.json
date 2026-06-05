@@ -270,6 +270,11 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "accessibilite-erp",
+        "version": "0.0.20",
+        "type": "missing schema.json"
+    },
+    {
         "schema": "menus-restauration",
         "version": "0.3.0",
         "type": "tableschema validation"

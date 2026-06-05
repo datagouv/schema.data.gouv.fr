@@ -3,19 +3,6 @@
 ## Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
-### Version 0.0.20 - 29-04-2026
-* Updated base schema to contain all the fields related to all the other macro activities (in floo,r hosting, polling_station, school)
-* Updated csv sample for base schema
-* Updated json files with correct versions
-
-### Version 0.0.20 - 15-04-2026
-* Use of datapackage to support multiple schema files broken into :
-  * schema_base
-  * schema_floor
-  * schema_hosting
-  * schema_polling_station
-  * schema_school
-
 ### Version 0.0.19 - 23-12-2025
 * Add new fields for polling station accessibility.
 

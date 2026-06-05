@@ -69,14 +69,12 @@ La base des informations d’accessibilité des ERP en France permet de regroupe
 
 ### Description du schéma <a name="schema"></a>
 
-Le schéma de base est disponible en format [json](https://github.com/MTES-MCT/acceslibre-schema/blob/master/base/schema_base.json) ou [excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/base/schema_data_base.xls) (à télécharger). (voir procédure avant dépôt des données)
+Le schéma est disponible en format [json](https://github.com/MTES-MCT/acceslibre-schema/blob/master/schema.json) ou [excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/schema_format_excel.xls) (à télécharger). (voir procédure avant dépôt des données)
 
 Une description détaillée (champ par champ) du modèle de donnée est accessible ici : [https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.14/documentation.html](https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.14/documentation.html). Ce schéma
-respecte le standard Data Package Schema. Pour en savoir plus, voir la page dédiée : [DataPackage](https://specs.frictionlessdata.io/data-package/)
+respecte le standard Table Schema. Pour en savoir plus, voir la page dédiée : [TableSchema](https://specs.frictionlessdata.io/table-schema/)
 
 Une description non technique des champs est également disponible ici : [https://acceslibre.beta.gouv.fr/contrib/documentation/](https://acceslibre.beta.gouv.fr/contrib/documentation/)
-
-D'autres schémas sont également disponibles pour les macro-activités correspondantes dans les dossiers floor, hosting, polling_station et school.
 
 ### OpenData <a name="opendata"></a>
 
@@ -89,15 +87,14 @@ Notre politique Open Data: [https://fabrique-numerique.gitbook.io/acceslibre/acc
 
 ### Transmission des données <a name="transmission"></a>
 
-Dans le but de constituer un répertoire de référence des établissements recevant du public en France, tout acteur volontaire peut transmettre des données relatives aux ERP publics ou privés. 
-Voici les étapes à suivre en fonction du format choisi :
+Dans le but de constituer un répertoire de référence des établissements recevant du public en France, tout acteur volontaire peut transmettre des données relatives aux ERP publics ou privés. Voici les étapes à suivre en fonction du format choisi :
 
 1) Format json :
    1) Publier le jeu de données sur data.gouv.fr
    2) Prévenir l’équipe acceslibre du dépôt en écrivant un mail à [acceslibre@beta.gouv.fr](mailto:acceslibre@beta.gouv.fr)
 
 2) Format csv, via le modèle fourni “schema_format_excel”
-   1) Télécharger et remplissez le document excel [schéma format excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/base/schema_data_base.xls)
+   1) Télécharger et remplissez le document excel [schéma format excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/schema_format_excel.xls)
    2) Avant le dépôt de données :
       * supprimer les lignes 2,3 et tout les lignes “vides”(le modèle comportant 100 lignes)
       * supprimer l’onglet ‘tuto’
