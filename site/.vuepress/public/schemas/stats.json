@@ -93,12 +93,12 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 30,
+    "nb_issues": 2,
     "references": {
         "etalab/schema-bal": {
             "dgv_resources": 297,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 6
+            "contributors": 2
         },
         "atlasante/schema-dae": {
             "dgv_resources": 5,
@@ -108,17 +108,17 @@
         "etalab/schema-irve-statique": {
             "dgv_resources": 1223,
             "title": "IRVE statique",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 21,
             "title": "IRVE dynamique",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
-            "contributors": 8
+            "contributors": 2
         },
         "scdl/budget": {
             "dgv_resources": 37,
@@ -128,52 +128,52 @@
         "etalab/schema-sdirve": {
             "dgv_resources": 61,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "cnigfr/atlas-paysager": {
             "dgv_resources": 0,
             "title": " Atlas Paysager",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/document-paysage": {
             "dgv_resources": 0,
             "title": "Document Paysage",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/dynamique": {
             "dgv_resources": 0,
             "title": "Dynamique",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/ensemble-paysager": {
             "dgv_resources": 0,
             "title": "Ensemble Paysager",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/limite-decoupage-paysager": {
             "dgv_resources": 0,
             "title": "Limite D\u00e9coupage Paysager",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/sousunite-paysagere": {
             "dgv_resources": 0,
             "title": "Sous-unit\u00e9 Paysag\u00e8re",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/unite-paysagere": {
             "dgv_resources": 0,
             "title": "Unit\u00e9 Paysag\u00e8re",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/schema-paysage": {
             "dgv_resources": 0,
             "title": "Sch\u00e9ma paysage",
-            "contributors": 9
+            "contributors": 2
         },
         "scdl/prenoms": {
             "dgv_resources": 16,
@@ -183,7 +183,7 @@
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
+            "contributors": 2
         },
         "scdl/catalogue": {
             "dgv_resources": 27,
@@ -201,7 +201,7 @@
             "contributors": 2
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 87,
+            "dgv_resources": 88,
             "title": "Lieux de covoiturage",
             "contributors": 2
         },
