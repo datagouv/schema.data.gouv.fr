@@ -12,6 +12,10 @@ LaMednum/standard-mediation-num:
   consolidate: false
   search_words:
   - "Lieux de m\xE9diation num\xE9rique"
+MTES-MCT/acceslibre:
+  consolidate: false
+  search_words:
+  - "Sch\xE9ma des donn\xE9es d'accessibilit\xE9 des ERPs"
 MTES-MCT/acceslibre-schema:
   consolidate: false
   publication: false
