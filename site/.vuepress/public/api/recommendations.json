@@ -4884,6 +4884,28 @@
     "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
   },
   {
+    "id": "indice-de-durabilite-lave-linge-organisation-sourcing-et-creation-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
+    "id": "indice-de-durabilite-lave-linge-organisation-sourcing-et-creation-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-durabilite-lave-linge",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/indice-durabilite-lave-linge"
+  },
+  {
     "id": "indice-de-durabilite-lave-linge-organisation-sourcing-et-creation",
     "recommendations": [
       {
@@ -7885,6 +7907,28 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-impact-service-public-numerique"
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-na1ff45d6w-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-na1ff45d6i-fr",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
   },
   {
     "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-na1ff47d3w-fr",
