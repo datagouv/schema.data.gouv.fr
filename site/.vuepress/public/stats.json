@@ -161,7 +161,7 @@
             "contributors": 3
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 88,
+            "dgv_resources": 89,
             "title": "Lieux de covoiturage",
             "contributors": 7
         },
@@ -248,17 +248,17 @@
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
@@ -271,7 +271,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 32,
+            "dgv_resources": 34,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },
