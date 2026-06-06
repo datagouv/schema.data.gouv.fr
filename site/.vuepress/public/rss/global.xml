@@ -964,5 +964,40 @@
       <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema</link>
       <description>Schema update on 2026-06-04: 0.0.19 to 0.0.20 for MTES-MCT/acceslibre-schema</description>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - MTES-MCT/acceslibre-erp-base (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-base</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre-erp-base</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - MTES-MCT/acceslibre-erp-sante (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-sante</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre-erp-sante</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - MTES-MCT/acceslibre-erp-hebergement (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-hebergement</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre-erp-hebergement</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - MTES-MCT/acceslibre-erp-bureau-de-vote (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-bureau-de-vote</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre-erp-bureau-de-vote</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - MTES-MCT/acceslibre-erp-grand-etablissement (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-grand-etablissement</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre-erp-grand-etablissement</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - MTES-MCT/acceslibre-erp-etablissement-scolaire (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-etablissement-scolaire</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre-erp-etablissement-scolaire</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>Deleted schema - MTES-MCT/acceslibre (0.0.20)</title>
+      <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre</link>
+      <description>Schema update on 2026-06-06: 0.0.20 for MTES-MCT/acceslibre</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

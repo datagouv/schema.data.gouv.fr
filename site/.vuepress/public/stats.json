@@ -93,12 +93,12 @@
             "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
         }
     ],
-    "nb_issues": 2,
+    "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
             "dgv_resources": 297,
             "title": "Base Adresse Locale (BAL)",
-            "contributors": 2
+            "contributors": 6
         },
         "atlasante/schema-dae": {
             "dgv_resources": 5,
@@ -201,7 +201,7 @@
             "contributors": 2
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 88,
+            "dgv_resources": 89,
             "title": "Lieux de covoiturage",
             "contributors": 2
         },
@@ -280,9 +280,34 @@
             "title": "Registre d'entr\u00e9e d'archives",
             "contributors": 2
         },
-        "MTES-MCT/acceslibre": {
+        "MTES-MCT/acceslibre-erp-base": {
             "dgv_resources": 0,
-            "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
+            "title": "Accessibilit\u00e9 ERP \u2014 Base",
+            "contributors": 2
+        },
+        "MTES-MCT/acceslibre-erp-grand-etablissement": {
+            "dgv_resources": 0,
+            "title": "Accessibilit\u00e9 ERP \u2014 Grands \u00e9tablissements",
+            "contributors": 2
+        },
+        "MTES-MCT/acceslibre-erp-hebergement": {
+            "dgv_resources": 0,
+            "title": "Accessibilit\u00e9 ERP \u2014 H\u00e9bergement",
+            "contributors": 2
+        },
+        "MTES-MCT/acceslibre-erp-bureau-de-vote": {
+            "dgv_resources": 0,
+            "title": "Accessibilit\u00e9 ERP \u2014 Bureau de vote",
+            "contributors": 2
+        },
+        "MTES-MCT/acceslibre-erp-etablissement-scolaire": {
+            "dgv_resources": 0,
+            "title": "Accessibilit\u00e9 ERP \u2014 \u00c9tablissements scolaires",
+            "contributors": 2
+        },
+        "MTES-MCT/acceslibre-erp-sante": {
+            "dgv_resources": 0,
+            "title": "Accessibilit\u00e9 ERP \u2014 Sant\u00e9",
             "contributors": 2
         },
         "MTES-MCT/acceslibre-schema": {
@@ -316,7 +341,7 @@
             "contributors": 2
         },
         "etalab/indice-durabilite-lave-linge": {
-            "dgv_resources": 32,
+            "dgv_resources": 34,
             "title": "Indice de durabilit\u00e9 - Lave-linge",
             "contributors": 2
         },

@@ -1,5 +1,6 @@
 {
   "name": "acceslibre",
+  "id": "datapackage-acceslibre",
   "title": "Schémas des données d'accessibilité des ERPs",
   "description": "Spécification du fichier d'échange relatif aux données d'accessibilité des Établissements Recevant du Public (ERP).",
   "resources": [
@@ -11,7 +12,8 @@
       "schema": "base/schema.json",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "documentation": "base/README.md"
     },
     {
       "name": "acceslibre-erp-grand-etablissement",
@@ -21,7 +23,8 @@
       "schema": "grands_etablissements/schema.json",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "documentation": "grands_etablissements/README.md"
     },
     {
       "name": "acceslibre-erp-hebergement",
@@ -31,7 +34,8 @@
       "schema": "hebergement/schema.json",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "documentation": "hebergement/README.md"
     },
     {
       "name": "acceslibre-erp-bureau-de-vote",
@@ -41,7 +45,8 @@
       "schema": "bureau_de_vote/schema.json",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "documentation": "bureau_de_vote/README.md"
     },
     {
       "name": "acceslibre-erp-etablissement-scolaire",
@@ -51,7 +56,8 @@
       "schema": "etablissements_scolaires/schema.json",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "documentation": "etablissements_scolaires/README.md"
     },
         {
       "name": "acceslibre-erp-sante",
@@ -61,7 +67,8 @@
       "schema": "sante/schema.json",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "documentation": "sante/README.md"
     }
   ]
 }

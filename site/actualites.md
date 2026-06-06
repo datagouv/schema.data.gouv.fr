@@ -1,3 +1,18 @@
+### 2026-06-06
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-base](/MTES-MCT/acceslibre-erp-base/)** : <span style="color:blue;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-sante](/MTES-MCT/acceslibre-erp-sante/)** : <span style="color:blue;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-hebergement](/MTES-MCT/acceslibre-erp-hebergement/)** : <span style="color:blue;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-bureau-de-vote](/MTES-MCT/acceslibre-erp-bureau-de-vote/)** : <span style="color:blue;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-grand-etablissement](/MTES-MCT/acceslibre-erp-grand-etablissement/)** : <span style="color:blue;">0.0.20</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-etablissement-scolaire](/MTES-MCT/acceslibre-erp-etablissement-scolaire/)** : <span style="color:blue;">0.0.20</span><br>
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre](/MTES-MCT/acceslibre/)** : <span style="color:blue;">0.0.20</span><br>
+
+---
+
 ### 2026-06-04
 
 #### Schéma ajouté:
