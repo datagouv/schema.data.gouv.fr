@@ -16,6 +16,30 @@ MTES-MCT/acceslibre:
   consolidate: false
   search_words:
   - "Sch\xE9ma des donn\xE9es d'accessibilit\xE9 des ERPs"
+MTES-MCT/acceslibre-erp-base:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 Base"
+MTES-MCT/acceslibre-erp-bureau-de-vote:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 Bureau de vote"
+MTES-MCT/acceslibre-erp-etablissement-scolaire:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 \xC9tablissements scolaires"
+MTES-MCT/acceslibre-erp-grand-etablissement:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 Grands \xE9tablissements"
+MTES-MCT/acceslibre-erp-hebergement:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 H\xE9bergement"
+MTES-MCT/acceslibre-erp-sante:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 Sant\xE9"
 MTES-MCT/acceslibre-schema:
   consolidate: false
   publication: false
