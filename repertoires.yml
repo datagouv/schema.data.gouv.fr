@@ -187,7 +187,7 @@ comptage-mobilite:
     - transport.data.gouv.fr
 dispositif-aide:
   url: https://github.com/etalab/schema-dispositif-aide.git
-  type: datapackage
+  type: tableschema
   email: aides-territoires@beta.gouv.fr
 vehicules-faibles-emissions-renouvellement-parc-synthese:
   url: https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git
