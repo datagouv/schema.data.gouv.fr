@@ -220,11 +220,6 @@
         "type": "tableschema validation"
     },
     {
-        "schema": "dispositif-aide",
-        "version": "0.2.0",
-        "type": "missing schema.json"
-    },
-    {
         "schema": "registre-archive",
         "version": "0.2.0",
         "type": "tableschema validation"
