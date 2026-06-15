@@ -1,6 +1,10 @@
 module.exports = {
   dest: "dist",
-  lang: "fr-FR",
+  locales: {
+    "/": {
+      lang: "fr-FR"
+    }
+  },
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
