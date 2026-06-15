@@ -181,7 +181,7 @@
             "contributors": 10
         },
         "datagouv/schema-fontaine-eau": {
-            "dgv_resources": 0,
+            "dgv_resources": 1,
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
             "contributors": 1
         },
@@ -238,12 +238,12 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 11,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 5,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
