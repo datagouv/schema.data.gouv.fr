@@ -1376,5 +1376,27 @@
                 "version": "0.0.20"
             }
         ]
+    },
+    "2026-06-15": {
+        "new_schema": [
+            {
+                "schema_name": "etalab/dispositif-aide",
+                "version": "0.2.0"
+            },
+            {
+                "schema_name": "etalab/dispositif-aide-professionnels",
+                "version": "0.2.0"
+            }
+        ],
+        "new_version": [
+            {
+                "schema_name": "etalab/schema-dispositif-aide",
+                "version": "0.1.0 => 0.2.0"
+            },
+            {
+                "schema_name": "GouvernementFR/referentiel-donnees-communication-publique",
+                "version": "0.1.0 => 0.2.0"
+            }
+        ]
     }
 }

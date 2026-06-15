@@ -8,7 +8,7 @@ Spécification du fichier d'échange relatif aux dispositifs d'aides.
 
 - Schéma créé le : 14/03/2022
 - Site web : https://github.com/etalab/schema-dispositif-aide
-- Version : v0.1.0
+- Version : v0.2.0
 
 ### Modèle de données
 
@@ -103,14 +103,14 @@ Spécification du fichier d'échange relatif aux dispositifs d'aides.
 
 #### Couverture géographique de l’aide - Propriété `eligibilite_geographique`
 
-> *Description : Couverture géographique du dispositif. Champ à écrire en utilisant le formalisme du Code Officiel Géographique du COG : https://www.insee.fr/fr/information/5230987. Séparer chaque code COG par des pipes*<br/>*Exemple : PAYS-99100 pour la France entière    OU    REG-84|DEP-05 pour la région Auvergne-Rhône-Alpes et le département des Hautes-Alpes*
+> *Description : Couverture géographique du dispositif. Champ à écrire en utilisant le formalisme du Code Officiel Géographique du COG : https://www.insee.fr/fr/information/5230987. Séparer chaque code COG par des pipes*<br/>*Exemple : PAYS-99100*
 - Valeur obligatoire
 - Type : chaîne de caractères
 - Motif : `^[A-Z]+-\d+(\|[A-Z]+-\d+)*$`
 
-#### Couverture géographique de l’aide - exclusions - Propriété `eligibilite_geographique_exclusions`
+#### Couverture géographique de l’aide - Exclusions - Propriété `eligibilite_geographique_exclusions`
 
-> *Description : Aires géographique exclues du dispositif. Cette propriété a précédence sur les "eligibilite_geographique" s'il y a recouvrement. Champ à écrire en utilisant le formalisme du Code Officiel Géographique : https: //www.insee.fr/fr/information/5230987. Séparer chaque code COG par des pipes.*<br/>*Exemple : DEP-01|COM-83141*
+> *Description : Aires géographique exclues du dispositif. Cette propriété a précédence sur les "eligibilite_geographique" s'il y a recouvrement. Champ à écrire en utilisant le formalisme du Code Officiel Géographique : https: //www.insee.fr/fr/information/5230987. Séparer chaque code COG par des pipes.*<br/>*Exemple : REG-84|DEP-01|COM-83141*
 - Valeur optionnelle
 - Type : chaîne de caractères
 - Motif : `^[A-Z]+-\d+(\|[A-Z]+-\d+)*$`

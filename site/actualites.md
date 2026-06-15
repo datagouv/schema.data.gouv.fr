@@ -1,3 +1,15 @@
+### 2026-06-15
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/dispositif-aide](/etalab/dispositif-aide/)** : <span style="color:blue;">0.2.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/dispositif-aide-professionnels](/etalab/dispositif-aide-professionnels/)** : <span style="color:blue;">0.2.0</span><br>
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[etalab/schema-dispositif-aide](/etalab/schema-dispositif-aide/)** : <span style="color:red;">0.1.0</span> => <span style="color:green;">0.2.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[GouvernementFR/referentiel-donnees-communication-publique](/GouvernementFR/referentiel-donnees-communication-publique/)** : <span style="color:red;">0.1.0</span> => <span style="color:green;">0.2.0</span><br>
+
+---
+
 ### 2026-06-06
 
 #### Schémas ajoutés:

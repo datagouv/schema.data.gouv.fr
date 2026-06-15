@@ -1,0 +1,28 @@
+{
+  "name": "schemas-dispositif-aide",
+  "title": "Schémas des dispositifs d'aide",
+  "description": "Schémas de données permettant de décrire plus ou moins précisément les dispositifs d'aide",
+  "id": "schemas-dispositif-aide",
+  "resources": [
+    {
+      "name": "dispositif-aide",
+      "path": "build/dispositif-aide/exemple.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "build/dispositif-aide/schema.json",
+      "documentation": "build/dispositif-aide/README.md"
+    },
+    {
+      "name": "dispositif-aide-professionnels",
+      "path": "build/dispositif-aide-professionnels/exemple.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "build/dispositif-aide-professionnels/schema.json",
+      "documentation": "build/dispositif-aide-professionnels/README.md"
+    }
+  ]
+}

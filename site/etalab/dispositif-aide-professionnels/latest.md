@@ -1,8 +1,14 @@
 <MenuSchema />
 
-# Schéma des dispositifs d'aides
+# Dispositifs d'aides pour les professionnels
 
-Ce schéma de données définit un modèle permettant de spécifier les dispositifs d'aides publiques sous leurs différentes formes afin de favoriser leur diffusion vers leurs bénéficiaires.
+Extension du schéma dispositif-aide pour la cible 'professionnels'
+
+## Composition
+
+Ce schéma enrichit le socle commun « Dispositifs d'aides » avec les extensions suivantes :
+
+- **Extension du schéma des dispositifs d'aides pour les aides dédiées aux professionnels** — Ajout de champs permettant de préciser l'éligibilité des entreprises aux différents dispositifs d'aides ainsi que les informations administratives nécessaires à leur instruction (base juridique, chaînage avec une demande de paiement).
 
 ## Contexte
 
@@ -26,4 +32,4 @@ Enfin, il pourrait être pertinent de faire un lien entre un dispositif d'aide e
 
 La gestion du schéma est centralisée sur [ce fichier grist](https://grist.numerique.gouv.fr/o/docs/uC2J5niqzb48/Gestion-des-schemas-des-dispositifs-daide).
 Ce fichier est librement accessible en lecture. Vous y trouverez notamment les listes de valeurs autorisées pour les champs sur lesquels des contraintes ont été imposées. 
-Vous y trouverez également un lien vers un channel de discussion si vous souhaitez participer au développement de ce schéma. 
+Vous y trouverez également un lien vers un channel de discussion si vous souhaitez participer au développement de ce schéma.

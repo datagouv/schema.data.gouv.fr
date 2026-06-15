@@ -1,8 +1,12 @@
 <MenuSchema />
 
-# Schéma des dispositifs d'aides
+# Dispositifs d'aides
 
-Ce schéma de données définit un modèle permettant de spécifier les dispositifs d'aides publiques sous leurs différentes formes afin de favoriser leur diffusion vers leurs bénéficiaires.
+Spécification du fichier d'échange relatif aux dispositifs d'aides.
+
+## Composition
+
+Ce schéma correspond au socle commun « Dispositifs d'aides », sans extension.
 
 ## Contexte
 
@@ -26,4 +30,4 @@ Enfin, il pourrait être pertinent de faire un lien entre un dispositif d'aide e
 
 La gestion du schéma est centralisée sur [ce fichier grist](https://grist.numerique.gouv.fr/o/docs/uC2J5niqzb48/Gestion-des-schemas-des-dispositifs-daide).
 Ce fichier est librement accessible en lecture. Vous y trouverez notamment les listes de valeurs autorisées pour les champs sur lesquels des contraintes ont été imposées. 
-Vous y trouverez également un lien vers un channel de discussion si vous souhaitez participer au développement de ce schéma. 
+Vous y trouverez également un lien vers un channel de discussion si vous souhaitez participer au développement de ce schéma.

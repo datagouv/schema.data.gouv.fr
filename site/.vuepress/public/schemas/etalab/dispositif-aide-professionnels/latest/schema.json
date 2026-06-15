@@ -1,15 +1,15 @@
 {
   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
-  "name": "dispositif-aide",
-  "title": "Dispositifs d'aides",
-  "description": "Spécification du fichier d'échange relatif aux dispositifs d'aides.",
+  "name": "dispositif-aide-professionnels",
+  "title": "Dispositifs d'aides pour les professionnels",
+  "description": "Extension du schéma dispositif-aide pour la cible 'professionnels'",
   "keywords": [
     "dispositifs",
     "aide"
   ],
   "countryCode": "FR",
   "homepage": "https://github.com/etalab/schema-dispositif-aide",
-  "path": "https://github.com/etalab/schema-dispositif-aide/raw/v0.1.0/schema.json",
+  "path": "https://github.com/etalab/schema-dispositif-aide/raw/v0.2.0/build/dispositif-aide-professionnels/schema.json",
   "licenses": [
     {
       "title": "Etalab Licence Ouverte 2.0",
@@ -19,32 +19,32 @@
   ],
   "resources": [
     {
-      "title": "Fichier valide (CSV)",
-      "name": "exemple-valide-csv",
-      "path": "https://github.com/etalab/schema-dispositif-aide/raw/v0.1.0/exemple-valide.csv"
+      "title": "Fichier de validation (CSV)",
+      "name": "exemple-csv",
+      "path": "https://github.com/etalab/schema-dispositif-aide/raw/v0.2.0/build/dispositif-aide-professionnels/exemple.csv"
     }
   ],
   "sources": [],
   "created": "2022-03-14",
-  "lastModified": "2025-09-12",
-  "version": "v0.1.0",
+  "lastModified": "2026-06-08",
+  "version": "v0.2.0",
   "contributors": [
     {
-      "title": "Thibaut Tezenas",
-      "email": "thibaut.tezenas@murmures.coop",
-      "organisation": "ADEME Extérieur - Coopérative Murmures",
+      "title": "Jean-Baptiste Le Devehat",
+      "email": "jeanbaptiste.ledevehat.ext@ademe.fr",
+      "organisation": "ADEME Extérieur - Transition écologique des entreprises",
       "role": "contributor"
     },
     {
-      "title": "Pierlou Ramade",
-      "email": "pierlou.ramade@data.gouv.fr",
-      "organisation": "data.gouv",
+      "title": "Béatrice Neyrac",
+      "email": "beatrice.neyrac@agriculture.gouv.fr",
+      "organisation": "Ministère de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire",
       "role": "contributor"
     },
     {
-      "title": "David Guillot",
-      "email": "david.guillot@ext.beta.gouv.fr",
-      "organisation": "beta.gouv",
+      "title": "Stéphanie Pouliquen",
+      "email": "pouliquen@cma-france.fr",
+      "organisation": "CMA France",
       "role": "contributor"
     }
   ],
@@ -153,7 +153,7 @@
       "name": "eligibilite_geographique",
       "title": "Couverture géographique de l’aide",
       "description": "Couverture géographique du dispositif. Champ à écrire en utilisant le formalisme du Code Officiel Géographique du COG : https://www.insee.fr/fr/information/5230987. Séparer chaque code COG par des pipes",
-      "example": "PAYS-99100 pour la France entière    OU    REG-84|DEP-05 pour la région Auvergne-Rhône-Alpes et le département des Hautes-Alpes",
+      "example": "PAYS-99100",
       "type": "string",
       "constraints": {
         "required": true,
@@ -162,9 +162,9 @@
     },
     {
       "name": "eligibilite_geographique_exclusions",
-      "title": "Couverture géographique de l’aide - exclusions",
+      "title": "Couverture géographique de l’aide - Exclusions",
       "description": "Aires géographique exclues du dispositif. Cette propriété a précédence sur les \"eligibilite_geographique\" s'il y a recouvrement. Champ à écrire en utilisant le formalisme du Code Officiel Géographique : https: //www.insee.fr/fr/information/5230987. Séparer chaque code COG par des pipes.",
-      "example": "DEP-01|COM-83141",
+      "example": "REG-84|DEP-01|COM-83141",
       "type": "string",
       "constraints": {
         "pattern": "^[A-Z]+-\\d+(\\|[A-Z]+-\\d+)*$"
@@ -193,6 +193,102 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "base_juridique",
+      "title": "Bases juridiques",
+      "description": "Une liste de références vers les textes juridiques qui servent de base au dispositif d'aide. Format : liste JSON d'objets ayant obligatoirement un champ 'libelle' et un champ 'lien', afin de représenter une collection de liens hypertexte.",
+      "example": "[{ libelle: 'Arrêté n° 123456', lien: 'https://www.legifrance.fr/arrete-123456' }, { libelle: 'Règlement de minimis', lien: 'https://europa.eu/reglement-de-minimis' }]",
+      "type": "string"
+    },
+    {
+      "name": "eligibilite_effectif_minimal",
+      "title": "Éligibilité - Effectif minimal",
+      "description": "Nombre de salariés minimum requis pour qu'une entreprise puisse bénéficier de l'aide.",
+      "example": "10",
+      "type": "integer"
+    },
+    {
+      "name": "eligibilite_effectif_maximal",
+      "title": "Éligibilité - Effectif maximal",
+      "description": "Nombre de salariés maximum au-delà duquel une entreprise n'est plus éligible à l'aide.",
+      "example": "249",
+      "type": "integer"
+    },
+    {
+      "name": "eligibilite_categorie_taille_entreprise",
+      "title": "Éligibilité - Catégories de taille d'entreprise",
+      "description": "Catégories d'entreprises éligibles, telles que définies par l'INSEE : https://www.insee.fr/fr/metadonnees/definition/c1057. À utiliser uniquement lorsque l'éligibilité s'appuie sur les seuils combinés (effectif et critères financiers) plutôt que sur le seul effectif. Choix multiples parmi MIC (microentreprise), PME (petite et moyenne entreprise), ETI (entreprise de taille intermédiaire), GE (grande entreprise). Format : valeurs autorisées séparées par des pipes : valeur1|valeur2.",
+      "example": "MIC|PME|ETI|GE",
+      "type": "string",
+      "constraints": {
+        "pattern": "^(MIC|PME|ETI|GE)(\\|(MIC|PME|ETI|GE))*$"
+      }
+    },
+    {
+      "name": "eligibilite_annees_existence_minimal",
+      "title": "Éligibilité - Nombre d'années d'existence minimal",
+      "description": "Nombre d'années d'existence minimale (en années) requise pour qu'une entreprise puisse bénéficier de l'aide.",
+      "example": "2",
+      "type": "integer"
+    },
+    {
+      "name": "eligibilite_forme_juridique",
+      "title": "Éligibilité - Formes juridiques éligibles",
+      "description": "Liste des formes juridiques (entreprises individuelles, sociétés, formes de regroupement) éligibles au dispositif. La liste de référence des valeurs autorisées est tenue à jour dans la table dédiée à la gestion du schéma. Format : valeurs autorisées séparées par des pipes : valeur1|valeur2.",
+      "example": "EI|Microentrepreneur|EURL|SASU|SARL|SAS|SA|SNC|SCS|SCA|SICA|GAEC|GIE",
+      "type": "string",
+      "constraints": {
+        "pattern": "^[^|]+(\\|[^|]+)*$"
+      }
+    },
+    {
+      "name": "eligibilite_forme_juridique_exclusions",
+      "title": "Éligibilité - Formes juridiques - Exclusions",
+      "description": "Formes juridiques explicitement exclues du dispositif d'aide. Cette propriété a précédence sur \"eligibilite_forme_juridique\" s'il y a recouvrement. Format : valeurs autorisées séparées par des pipes : valeur1|valeur2.",
+      "example": "Microentrepreneur|EI",
+      "type": "string",
+      "constraints": {
+        "pattern": "^[^|]+(\\|[^|]+)*$"
+      }
+    },
+    {
+      "name": "ciblage_secteur_activite",
+      "title": "Secteurs d'activité principalement concernés",
+      "description": "Secteurs d'activité prioritairement ciblés par le dispositif. Mettre \"tous secteurs d'activité\" si le dispositif n'est pas restreint à des secteurs particuliers. La nomenclature de référence est en cours de définition : utiliser pour l'instant soit des libellés de secteurs courants (agriculture, IAA, services, industrie...). Format : valeurs séparées par des pipes : valeur1|valeur2.",
+      "example": "agriculture|IAA|services",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^[^|]+(\\|[^|]+)*$"
+      }
+    },
+    {
+      "name": "ciblage_naf",
+      "title": "Ciblage - NAF",
+      "description": "Liste de codes NAF prioritairement ciblés par l'aide. Tous les niveaux de granularité du NAF sont acceptés (section lettre, division, groupe, classe, sous-classe). Format : valeurs autorisées séparées par des pipes : valeur1|valeur2.",
+      "example": "A|B|C|55|56.1|74.10|10.11Z",
+      "type": "string",
+      "constraints": {
+        "pattern": "^([A-U]|\\d{2}|\\d{2}\\.\\d|\\d{2}\\.\\d{2}|\\d{2}\\.\\d{2}[A-Z])(\\|([A-U]|\\d{2}|\\d{2}\\.\\d|\\d{2}\\.\\d{2}|\\d{2}\\.\\d{2}[A-Z]))*$"
+      }
+    },
+    {
+      "name": "ciblage_naf_exclusions",
+      "title": "Ciblage - NAF - Exclusions",
+      "description": "Liste de codes NAF explicitement exclus du dispositif d'aide. Cette propriété a précédence sur \"ciblage_naf\" s'il y a recouvrement. Tous les niveaux de granularité du NAF sont acceptés. Format : valeurs autorisées séparées par des pipes : valeur1|valeur2.",
+      "example": "A|B|C|55|56.1|74.10|10.11Z",
+      "type": "string",
+      "constraints": {
+        "pattern": "^([A-U]|\\d{2}|\\d{2}\\.\\d|\\d{2}\\.\\d{2}|\\d{2}\\.\\d{2}[A-Z])(\\|([A-U]|\\d{2}|\\d{2}\\.\\d|\\d{2}\\.\\d{2}|\\d{2}\\.\\d{2}[A-Z]))*$"
+      }
+    },
+    {
+      "name": "chainage_paiement",
+      "title": "ID de l'aide dont ce dispositif est la demande de paiement",
+      "description": "Certaines aides sont découpées en deux dispositifs distincts : celui de l'étude d'éligibilité, et celui de la demande de paiement, qui est toujours publié plus tard. Ce champ sert donc à retrouver, pour un dispositif de demande de paiement, le dispositif d'étude d'éligibilité concerné. Il contient l'identifiant dudit dispositif.",
+      "example": "DSP000123",
+      "type": "string"
     }
   ]
 }

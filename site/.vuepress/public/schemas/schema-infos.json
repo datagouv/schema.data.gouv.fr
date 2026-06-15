@@ -1352,7 +1352,7 @@
         "homepage": "https://github.com/etalab/schema-dispositif-aide.git",
         "external_doc": null,
         "external_tool": null,
-        "type": "tableschema",
+        "type": "datapackage",
         "email": "aides-territoires@beta.gouv.fr",
         "labels": null,
         "consolidation_dataset_id": null,
@@ -1360,32 +1360,76 @@
             "0.0.1": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/etalab/schema-dispositif-aide/0.0.1/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.0.2": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
-                ],
-                "schema_url": "/etalab/schema-dispositif-aide/0.0.2/schema.json"
+                    "CHANGELOG.md"
+                ]
             },
             "0.1.0": {
                 "pages": [
                     "README.md",
-                    "CHANGELOG.md",
-                    "documentation.md",
-                    "sources.md"
+                    "CHANGELOG.md"
+                ]
+            },
+            "0.2.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
                 ],
-                "schema_url": "/etalab/schema-dispositif-aide/0.1.0/schema.json"
+                "schema_url": "/etalab/schema-dispositif-aide/0.2.0/datapackage.json"
             }
         },
-        "latest": "0.1.0"
+        "schemas": [
+            "etalab/dispositif-aide",
+            "etalab/dispositif-aide-professionnels"
+        ],
+        "latest": "0.2.0"
+    },
+    "etalab/dispositif-aide": {
+        "homepage": "https://github.com/etalab/schema-dispositif-aide.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "aides-territoires@beta.gouv.fr",
+        "versions": {
+            "0.2.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/dispositif-aide/0.2.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9mas des dispositifs d'aide",
+        "datapackage_id": "schemas-dispositif-aide",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "latest": "0.2.0"
+    },
+    "etalab/dispositif-aide-professionnels": {
+        "homepage": "https://github.com/etalab/schema-dispositif-aide.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "aides-territoires@beta.gouv.fr",
+        "versions": {
+            "0.2.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/etalab/dispositif-aide-professionnels/0.2.0/schema.json"
+            }
+        },
+        "datapackage": "Sch\u00e9mas des dispositifs d'aide",
+        "datapackage_id": "schemas-dispositif-aide",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "latest": "0.2.0"
     },
     "cnigfr/schema-occupation-sols": {
         "homepage": "https://github.com/cnigfr/schema-occupation-sols.git",
@@ -3467,9 +3511,16 @@
                     "documentation.md"
                 ],
                 "schema_url": "/GouvernementFR/referentiel-donnees-communication-publique/0.1.0/schema.json"
+            },
+            "0.2.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/GouvernementFR/referentiel-donnees-communication-publique/0.2.0/communiques-de-presse/schema.json"
             }
         },
-        "latest": "0.1.0"
+        "latest": "0.2.0"
     },
     "etalab/schema-impact-service-public-numerique": {
         "homepage": "https://github.com/etalab/schema-impact-service-public-numerique",
