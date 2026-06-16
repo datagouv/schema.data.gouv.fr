@@ -1280,5 +1280,13 @@
                 "version": "0.0.19 => 0.0.20"
             }
         ]
+    },
+    "2026-06-16": {
+        "new_version": [
+            {
+                "schema_name": "GouvernementFR/referentiel-donnees-communication-publique",
+                "version": "0.1.0 => 0.2.0"
+            }
+        ]
     }
 }
