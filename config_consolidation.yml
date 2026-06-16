@@ -136,6 +136,14 @@ datagouv/schema-fontaine-eau:
 datakode/schema-pei:
   consolidate: false
   publication: false
+etalab/dispositif-aide:
+  consolidate: false
+  search_words:
+  - Dispositifs d'aides
+etalab/dispositif-aide-professionnels:
+  consolidate: false
+  search_words:
+  - Dispositifs d'aides pour les professionnels
 etalab/indice-durabilite-lave-linge:
   consolidate: true
   consolidated_dataset_id: 67f62e8693c5c74265692d64
