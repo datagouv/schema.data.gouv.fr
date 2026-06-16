@@ -108,17 +108,17 @@
         "etalab/schema-irve-statique": {
             "dgv_resources": 1218,
             "title": "IRVE statique",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 20,
             "title": "IRVE dynamique",
-            "contributors": 8
+            "contributors": 2
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
-            "contributors": 8
+            "contributors": 2
         },
         "scdl/budget": {
             "dgv_resources": 37,
@@ -128,52 +128,52 @@
         "etalab/schema-sdirve": {
             "dgv_resources": 61,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
             "title": "Standard CNIG Friches",
-            "contributors": 6
+            "contributors": 2
         },
         "cnigfr/atlas-paysager": {
             "dgv_resources": 0,
             "title": " Atlas Paysager",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/document-paysage": {
             "dgv_resources": 0,
             "title": "Document Paysage",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/dynamique": {
             "dgv_resources": 0,
             "title": "Dynamique",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/ensemble-paysager": {
             "dgv_resources": 0,
             "title": "Ensemble Paysager",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/limite-decoupage-paysager": {
             "dgv_resources": 0,
             "title": "Limite D\u00e9coupage Paysager",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/sousunite-paysagere": {
             "dgv_resources": 0,
             "title": "Sous-unit\u00e9 Paysag\u00e8re",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/unite-paysagere": {
             "dgv_resources": 0,
             "title": "Unit\u00e9 Paysag\u00e8re",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/schema-paysage": {
             "dgv_resources": 0,
             "title": "Sch\u00e9ma paysage",
-            "contributors": 9
+            "contributors": 2
         },
         "scdl/prenoms": {
             "dgv_resources": 16,
@@ -183,7 +183,7 @@
         "etalab/schema-decp-dpa": {
             "dgv_resources": 8,
             "title": "Sp\u00e9cification du fichier de d\u00e9claration de profil d'acheteur",
-            "contributors": 1
+            "contributors": 2
         },
         "scdl/catalogue": {
             "dgv_resources": 27,
@@ -198,12 +198,12 @@
         "etalab/schema-zfe": {
             "dgv_resources": 25,
             "title": "Zone \u00e0 Faibles Emissions",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 89,
             "title": "Lieux de covoiturage",
-            "contributors": 7
+            "contributors": 2
         },
         "scdl/equipements": {
             "dgv_resources": 54,
@@ -223,7 +223,7 @@
         "datagouv/schema-fontaine-eau": {
             "dgv_resources": 1,
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
-            "contributors": 1
+            "contributors": 2
         },
         "scdl/deliberations": {
             "dgv_resources": 40,
@@ -238,17 +238,17 @@
         "cnigfr/schema-socle-reseaux": {
             "dgv_resources": 0,
             "title": "Socle des R\u00e9seaux (STAR-DT)",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-stationnement": {
             "dgv_resources": 21,
             "title": "Lieux de stationnement",
-            "contributors": 3
+            "contributors": 2
         },
         "openmaraude/schema-stationstaxi": {
             "dgv_resources": 4,
             "title": "Stations de taxi",
-            "contributors": 1
+            "contributors": 2
         },
         "CEREMA/schema-aire-livraison": {
             "dgv_resources": 1,
@@ -258,27 +258,27 @@
         "cnigfr/schema-carte-communale": {
             "dgv_resources": 11,
             "title": "Carte communale",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/dispositif-aide": {
             "dgv_resources": 0,
             "title": "Dispositifs d'aides",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/dispositif-aide-professionnels": {
             "dgv_resources": 0,
             "title": "Dispositifs d'aides pour les professionnels",
-            "contributors": 4
+            "contributors": 2
         },
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Sch\u00e9mas des dispositifs d'aide",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
             "dgv_resources": 0,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -288,57 +288,57 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 11,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-base": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Base",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-grand-etablissement": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Grands \u00e9tablissements",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-hebergement": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 H\u00e9bergement",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-bureau-de-vote": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Bureau de vote",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-etablissement-scolaire": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 \u00c9tablissements scolaires",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-sante": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Sant\u00e9",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 5,
             "title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
@@ -556,7 +556,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1056,
+            "dgv_resources": 1057,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
