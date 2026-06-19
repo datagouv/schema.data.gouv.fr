@@ -223,12 +223,12 @@
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 4
+            "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
             "dgv_resources": 0,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -238,32 +238,32 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 11,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 5,
             "title": "Sch\u00e9ma des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 5
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 1,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 3,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
             "dgv_resources": 235,
