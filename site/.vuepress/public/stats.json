@@ -1,7 +1,99 @@
 {
-    "construction": [],
-    "investigation": [],
-    "nb_issues": 2,
+    "construction": [
+        {
+            "created_at": "2024-05-16T08:40:14Z",
+            "labels": [
+                "construction"
+            ],
+            "nb_comments": 1,
+            "title": "Standard CNIG Op\u00e9rations d'am\u00e9nagement",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/317"
+        },
+        {
+            "created_at": "2024-04-25T05:59:44Z",
+            "labels": [
+                "construction"
+            ],
+            "nb_comments": 2,
+            "title": "Sch\u00e9ma sur les v\u00e9g\u00e9taux",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/313"
+        },
+        {
+            "created_at": "2024-03-19T16:05:10Z",
+            "labels": [
+                "construction"
+            ],
+            "nb_comments": 33,
+            "title": "Espace Naturel Sensible",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/307"
+        }
+    ],
+    "investigation": [
+        {
+            "created_at": "2022-02-28T11:39:51Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 1,
+            "title": "Sch\u00e9ma des cimeti\u00e8res et des concessions ",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/237"
+        },
+        {
+            "created_at": "2021-12-09T17:28:56Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 29,
+            "title": "Sch\u00e9ma des lieux proposant des services",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/214"
+        },
+        {
+            "created_at": "2021-10-27T13:54:40Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 0,
+            "title": " sp\u00e9cifications techniques encadrant l\u2019ouverture des donn\u00e9es du domaine \u00ab routier \u00bb pour les collectivit\u00e9s",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/204"
+        },
+        {
+            "created_at": "2021-09-21T07:31:30Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 7,
+            "title": "Sch\u00e9ma de partage des stationnements PMR en voirie",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/190"
+        },
+        {
+            "created_at": "2021-07-16T13:37:40Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 28,
+            "title": "Sch\u00e9ma de description des tiers-lieu",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/179"
+        },
+        {
+            "created_at": "2020-01-14T13:43:09Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 13,
+            "title": "Sch\u00e9ma PJM (Protection Juridique de Majeurs)",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/75"
+        },
+        {
+            "created_at": "2019-11-16T23:26:52Z",
+            "labels": [
+                "investigation"
+            ],
+            "nb_comments": 11,
+            "title": "Sch\u00e9ma des centres de secours",
+            "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/62"
+        }
+    ],
+    "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
             "dgv_resources": 298,
@@ -14,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1209,
+            "dgv_resources": 1204,
             "title": "IRVE statique",
             "contributors": 2
         },
@@ -129,7 +221,7 @@
             "contributors": 10
         },
         "datagouv/schema-fontaine-eau": {
-            "dgv_resources": 1,
+            "dgv_resources": 2,
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
             "contributors": 2
         },
@@ -201,12 +293,12 @@
         "MTES-MCT/acceslibre-erp-base": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Base",
-            "contributors": 5
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-grand-etablissement": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Grands \u00e9tablissements",
-            "contributors": 2
+            "contributors": 5
         },
         "MTES-MCT/acceslibre-erp-hebergement": {
             "dgv_resources": 0,
@@ -276,7 +368,7 @@
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
@@ -319,7 +411,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 352,
+            "dgv_resources": 353,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -416,7 +508,7 @@
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 2
+            "contributors": 3
         },
         "cnigfr/schema-schema-coherence-territoriale": {
             "dgv_resources": 1,
@@ -469,7 +561,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 493,
+            "dgv_resources": 495,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 1
         },
