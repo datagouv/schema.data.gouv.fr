@@ -1,3 +1,13 @@
+### 2026-07-07
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">3.1.6</span> => <span style="color:green;">3.2.2</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">3.1.6</span> => <span style="color:green;">3.2.2</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">3.1.6</span> => <span style="color:green;">3.2.2</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.8</span> => <span style="color:green;">1.0.9</span><br>
+
+---
+
 ### 2026-06-16
 
 #### Montée de version:
