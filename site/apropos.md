@@ -13,8 +13,8 @@ Une plateforme de référencement nationale permet un accès aux schémas produi
 
 Nous vous invitons à [prendre connaissance d'un schéma](/etalab/schema-irve/latest.html) ou découvrir quelle est la procédure pour [ajouter un schéma](contribuer.md).
 
-### Quelle est la différence entre schema.data.gouv.fr et publier.etalab.studio ?
+### Quelle est la différence entre schema.data.gouv.fr et le parcours de publication des schémas sur data.gouv.fr ?
 
 schema.data.gouv.fr est un outil permettant de référencer l'ensemble des schémas de données publiques pour la France. C'est un outil qui permet d'accéder à la documentation des schémas et aide les producteurs de données à connaître et comprendre les gabarits de données attendus. Il accompagne également les producteurs de schémas de données dans leurs démarches pour le référencement d'un schéma.
 
-publier.etalab.studio est un nouvel outil permettant aux producteurs de données de pouvoir saisir ou charger leur données en vue de leur publication sur la plateforme data.gouv.fr. L'outil propose un accompagnement des producteurs de données sous trois formats : chargement/upload des données déjà existantes, saisie via formulaires ou saisie via tableurs.
+[Le parcours de publication des schémas sur data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?step=1) permet aux producteurs de données de pouvoir saisir ou charger leur données en vue de leur publication sur la plateforme. L'outil propose un accompagnement des producteurs de données sous trois formats : chargement/upload des données déjà existantes, saisie via formulaires ou saisie via tableurs.
