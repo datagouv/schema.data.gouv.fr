@@ -106,19 +106,19 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1211,
+            "dgv_resources": 1212,
             "title": "IRVE statique",
-            "contributors": 8
+            "contributors": 9
         },
         "etalab/schema-irve-dynamique": {
             "dgv_resources": 21,
             "title": "IRVE dynamique",
-            "contributors": 8
+            "contributors": 9
         },
         "etalab/schema-irve": {
             "dgv_resources": 0,
             "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
-            "contributors": 8
+            "contributors": 9
         },
         "scdl/budget": {
             "dgv_resources": 37,
@@ -128,7 +128,7 @@
         "etalab/schema-sdirve": {
             "dgv_resources": 61,
             "title": "Sch\u00e9ma directeur des infrastructures de recharge pour v\u00e9hicules \u00e9lectriques et hybrides rechargeables",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/schema-friches": {
             "dgv_resources": 1,
@@ -163,7 +163,7 @@
         "etalab/schema-lieux-covoiturage": {
             "dgv_resources": 91,
             "title": "Lieux de covoiturage",
-            "contributors": 7
+            "contributors": 8
         },
         "scdl/equipements": {
             "dgv_resources": 54,
@@ -186,7 +186,7 @@
             "contributors": 1
         },
         "scdl/deliberations": {
-            "dgv_resources": 41,
+            "dgv_resources": 40,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -223,7 +223,7 @@
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Dispositifs d'aides",
-            "contributors": 4
+            "contributors": 5
         },
         "cnigfr/schema-occupation-sols": {
             "dgv_resources": 0,
@@ -366,7 +366,7 @@
             "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 21,
+            "dgv_resources": 22,
             "title": "Stationnement cyclable",
             "contributors": 2
         },
@@ -461,7 +461,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 606,
+            "dgv_resources": 607,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
