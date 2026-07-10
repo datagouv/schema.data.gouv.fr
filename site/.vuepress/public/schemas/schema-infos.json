@@ -1073,9 +1073,30 @@
                     "README.md"
                 ],
                 "schema_url": "/datatourisme/ontology/3.1.6/schema.yml"
+            },
+            "3.2.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.2.0/schema.yml"
+            },
+            "3.2.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.2.1/schema.yml"
+            },
+            "3.2.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.2.2/schema.yml"
             }
         },
-        "latest": "3.1.6"
+        "latest": "3.2.2"
     },
     "datagouv/schema-fontaine-eau": {
         "homepage": "https://github.com/datagouv/schema-fontaine-eau.git",
@@ -2856,9 +2877,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.8/schemas/v1/service.json"
+            },
+            "1.0.9": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.9/schemas/v1/service.json"
             }
         },
-        "latest": "1.0.8"
+        "latest": "1.0.9"
     },
     "etalab/schema-amenagements-cyclables": {
         "homepage": "https://github.com/etalab/schema-amenagements-cyclables",
