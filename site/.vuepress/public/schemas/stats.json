@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1212,
+            "dgv_resources": 1213,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -166,7 +166,7 @@
             "contributors": 8
         },
         "scdl/equipements": {
-            "dgv_resources": 54,
+            "dgv_resources": 55,
             "title": "\u00c9quipements",
             "contributors": 10
         },
@@ -358,37 +358,37 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 2
+            "contributors": 12
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 25,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 22,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 2
+            "contributors": 1
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 220,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
+            "contributors": 8
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 2
+            "contributors": 1
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 34,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 2
+            "contributors": 7
         },
         "freddtce/ENS_AURA": {
             "dgv_resources": 0,
