@@ -13871,6 +13871,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-static-daf-le-mans-datagouv",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "fitness-park-basse-terre",
     "recommendations": [
       {
