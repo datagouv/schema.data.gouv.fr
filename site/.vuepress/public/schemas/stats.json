@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1213,
+            "dgv_resources": 1216,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -161,7 +161,7 @@
             "contributors": 3
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 91,
+            "dgv_resources": 92,
             "title": "Lieux de covoiturage",
             "contributors": 8
         },
@@ -361,7 +361,7 @@
             "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 25,
+            "dgv_resources": 26,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 2
         },
