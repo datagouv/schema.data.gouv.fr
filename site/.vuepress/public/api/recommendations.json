@@ -9834,6 +9834,17 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "ordinateurs",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "asus-notebook-b3606cca",
     "recommendations": [
       {
@@ -14554,17 +14565,6 @@
   },
   {
     "id": "irve-statique-organisation-partage-ma-borne-1",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "irve-statique-organisation-r-mob-beziers",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
