@@ -14795,7 +14795,7 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "beta-base-nationale-des-points-de-recharge-pour-vehicules-electriques-en-france-irve",
+    "id": "beta-bases-nationales-des-points-de-recharge-pour-vehicules-electriques-en-france-irve",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -27192,7 +27192,7 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "stations-de-recharge-pour-vehicule-electrique",
+    "id": "archive-stations-de-recharge-pour-vehicule-electrique",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
