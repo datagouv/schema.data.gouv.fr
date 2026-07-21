@@ -226,6 +226,8 @@ etalab/schema-indice-reparabilite:
 etalab/schema-irve-dynamique:
   consolidate: false
   publication: false
+  exclude_dataset_ids:
+  - 685965d0ab901919e14a4a1b
 etalab/schema-irve-statique:
   consolidate: true
   consolidated_dataset_id: 5448d3e0c751df01f85d0572
@@ -246,6 +248,7 @@ etalab/schema-irve-statique:
   exclude_dataset_ids:
   - 54231d4a88ee38334b5b9e1d
   - 601d660f2be2c8896f86e18d
+  - 685965d0ab901919e14a4a1b
   geojson_resource_id: 7eee8f09-5d1b-4f48-a304-5e99e8da1e26
   latest_resource_ids:
     2.3.1: 2729b192-40ab-4454-904d-735084dca3a3
