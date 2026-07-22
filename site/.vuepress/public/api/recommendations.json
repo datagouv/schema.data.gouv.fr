@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-vitre-communaute-1",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-pays-de-landerneau-daoulas",
     "recommendations": [
       {
@@ -12,17 +23,6 @@
   },
   {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-ville-de-vitre",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
-  },
-  {
-    "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-vitre-communaute",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -13926,6 +13926,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-totalenergies-marketing-france",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-ma-borne-auto-bordeaux-1",
     "recommendations": [
       {
@@ -13937,7 +13948,7 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "bornes-de-recharge-electrique-4",
+    "id": "bornes-de-recharge-electrique-de-la-commune-de-rillieux-la-pape",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
