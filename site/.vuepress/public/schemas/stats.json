@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1215,
+            "dgv_resources": 1216,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -201,7 +201,7 @@
             "contributors": 1
         },
         "etalab/schema-stationnement": {
-            "dgv_resources": 21,
+            "dgv_resources": 22,
             "title": "Lieux de stationnement",
             "contributors": 3
         },
@@ -361,7 +361,7 @@
             "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 26,
+            "dgv_resources": 27,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 2
         },
@@ -461,7 +461,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 609,
+            "dgv_resources": 610,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
