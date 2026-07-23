@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 296,
+            "dgv_resources": 297,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -201,7 +201,7 @@
             "contributors": 3
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 92,
+            "dgv_resources": 93,
             "title": "Lieux de covoiturage",
             "contributors": 8
         },
