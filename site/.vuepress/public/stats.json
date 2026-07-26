@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 297,
+            "dgv_resources": 296,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
