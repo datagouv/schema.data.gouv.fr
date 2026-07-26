@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 297,
+            "dgv_resources": 296,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -411,7 +411,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 363,
+            "dgv_resources": 364,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
