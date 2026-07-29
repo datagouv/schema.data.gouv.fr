@@ -161,7 +161,7 @@
             "contributors": 3
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 93,
+            "dgv_resources": 94,
             "title": "Lieux de covoiturage",
             "contributors": 8
         },
@@ -361,7 +361,7 @@
             "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
-            "dgv_resources": 27,
+            "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
             "contributors": 2
         },
@@ -461,7 +461,7 @@
             "contributors": 2
         },
         "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle": {
-            "dgv_resources": 611,
+            "dgv_resources": 612,
             "title": "D\u00e9claration de l'acquisition de biens issus du r\u00e9emploi, de la r\u00e9utilisation ou int\u00e9grant des mati\u00e8res recycl\u00e9es",
             "contributors": 2
         },
