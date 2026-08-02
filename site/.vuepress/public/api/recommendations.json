@@ -9922,6 +9922,17 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "indice-de-reparabilite-electrolux-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "asus-notebook-gu606ar",
     "recommendations": [
       {
