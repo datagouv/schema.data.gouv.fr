@@ -371,3 +371,10 @@ donnees-communication-publique:
   url: https://github.com/GouvernementFR/referentiel-donnees-communication-publique.git
   type: jsonschema
   email: sebastien.malot@pm.gouv.fr
+reseaux-eaux:
+  url: https://github.com/cnigfr/StaR-Eau.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnigfr.github.io/StaR-Eau/
+  labels:
+    - CNIG
