@@ -161,7 +161,7 @@
             "contributors": 3
         },
         "etalab/schema-lieux-covoiturage": {
-            "dgv_resources": 94,
+            "dgv_resources": 95,
             "title": "Lieux de covoiturage",
             "contributors": 8
         },
@@ -358,32 +358,32 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 2
+            "contributors": 12
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 10
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 2
+            "contributors": 1
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 220,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
+            "contributors": 8
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 2
+            "contributors": 1
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 34,
