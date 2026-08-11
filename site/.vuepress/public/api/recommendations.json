@@ -2904,7 +2904,7 @@
     "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
   },
   {
-    "id": "achats-realises-en-2024-entrant-dans-le-cadre-la-loi-agec",
+    "id": "achats-realises-depuis-2024-et-entrant-dans-le-cadre-de-la-loi-agec-loi-anti-gaspillage-pour-une-economie-circulaire",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
@@ -14047,7 +14047,7 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
-    "id": "irve-statique-e-clearing-net",
+    "id": "irve-statique-dynamique-e-clearing-net",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
