@@ -7,7 +7,7 @@ on:
       - preprod
 jobs:
   trigger-gitlab-pipeline:
-    runs-on: [self-hosted]
+    runs-on: ubuntu-latest
     env:
       # static variables and secrets to be defined
       APP_NAME: ${{ vars.APP_NAME }}
