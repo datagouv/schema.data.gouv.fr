@@ -1,5 +1,16 @@
 [
   {
+    "id": "declaration-agec-2026-2",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-declarations-dacquisitions-de-produits-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "datagouv/schema-declaration-biens-reemploi-reutilisation-recycle"
+  },
+  {
     "id": "declaration-de-lacquisition-de-biens-issus-du-reemploi-de-la-reutilisation-ou-integrant-des-matieres-recyclees-communaute-dagglomeration-du-grand-dax",
     "recommendations": [
       {
@@ -14045,6 +14056,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "irve-statique-mobilize-power-solutions",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
   },
   {
     "id": "fitness-park-le-moule-1",
