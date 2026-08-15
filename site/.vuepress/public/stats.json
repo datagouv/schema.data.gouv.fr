@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1219,
+            "dgv_resources": 1220,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -186,7 +186,7 @@
             "contributors": 1
         },
         "scdl/deliberations": {
-            "dgv_resources": 45,
+            "dgv_resources": 46,
             "title": "D\u00e9lib\u00e9rations",
             "contributors": 10
         },
@@ -376,7 +376,7 @@
             "contributors": 2
         },
         "139bercy/format-commande-publique": {
-            "dgv_resources": 220,
+            "dgv_resources": 221,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
             "contributors": 2
         },
