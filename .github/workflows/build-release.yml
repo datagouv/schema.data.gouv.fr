@@ -1,0 +1,41 @@
+name: Build and push
+run-name: build and push ${{ github.sha }}
+on:
+  push:
+    branches:
+      - main
+      - preprod
+      - build-workflow
+permissions:
+  contents: read
+env:
+  CONTAINER_REGISTRY_URL: ${{ vars.CONTAINER_REGISTRY_URL }}
+  IMAGE_NAME: datagouv_schema.data.gouv.fr/schema
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set image version
+        id: version
+        run: echo "version=${GITHUB_SHA::8}" >> "$GITHUB_OUTPUT"
+
+      - name: Log in to container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ vars.CONTAINER_REGISTRY_URL }}
+          username: ${{ secrets.CONTAINER_REGISTRY_USERNAME }}
+          password: ${{ secrets.CONTAINER_REGISTRY_PASSWORD }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ vars.CONTAINER_REGISTRY_URL }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.version }}
+            ${{ vars.CONTAINER_REGISTRY_URL }}/${{ env.IMAGE_NAME }}:latest
+          build-args: |
+            VERSION=${{ steps.version.outputs.version }}
