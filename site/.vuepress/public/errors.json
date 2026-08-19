@@ -220,6 +220,11 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "arbres_urbains",
+        "version": null,
+        "type": "aucune version valide"
+    },
+    {
         "schema": "dispositif-aide",
         "version": "0.2.0",
         "type": "missing schema.json"
