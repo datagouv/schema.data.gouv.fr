@@ -5,7 +5,6 @@ on:
     branches:
       - main
       - preprod
-      - build-workflow
 permissions:
   contents: read
 env:
@@ -33,7 +32,9 @@ jobs:
       - name: Set environment
         id: environment
         run: |
-          if [ "${GITHUB_REF_NAME}" = "build-workflow" ]; then
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            echo "environment=prod" >> "$GITHUB_OUTPUT"
+          elif [ "${GITHUB_REF_NAME}" = "preprod" ]; then
             echo "environment=demo" >> "$GITHUB_OUTPUT"
           else
             echo "environment=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
