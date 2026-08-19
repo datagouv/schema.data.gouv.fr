@@ -9,8 +9,9 @@ on:
 permissions:
   contents: read
 env:
-  CONTAINER_REGISTRY_URL: ${{ vars.CONTAINER_REGISTRY_URL }}
-  IMAGE_NAME: datagouv_schema.data.gouv.fr/schema
+  CONTAINER_REGISTRY_SERVER: ${{ vars.CONTAINER_REGISTRY_SERVER }}
+  CONTAINER_REGISTRY_NAMESPACE: ${{ vars.CONTAINER_REGISTRY_NAMESPACE }}
+  IMAGE_NAME: schema
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +26,7 @@ jobs:
       - name: Log in to container registry
         uses: docker/login-action@v3
         with:
-          registry: ${{ vars.CONTAINER_REGISTRY_URL }}
+          registry: ${{ vars.CONTAINER_REGISTRY_SERVER }}
           username: ${{ secrets.CONTAINER_REGISTRY_USERNAME }}
           password: ${{ secrets.CONTAINER_REGISTRY_PASSWORD }}
 
@@ -35,7 +36,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ vars.CONTAINER_REGISTRY_URL }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.version }}
-            ${{ vars.CONTAINER_REGISTRY_URL }}/${{ env.IMAGE_NAME }}:latest
+            ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.version }}
+            ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:latest
           build-args: |
             VERSION=${{ steps.version.outputs.version }}
