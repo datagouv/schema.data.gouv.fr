@@ -1,0 +1,52 @@
+name: Build and push
+run-name: Build and push ${{ github.ref_name }}
+on:
+  push:
+    branches:
+      - main
+      - preprod
+permissions:
+  contents: read
+env:
+  CONTAINER_REGISTRY_SERVER: ${{ vars.CONTAINER_REGISTRY_SERVER }}
+  CONTAINER_REGISTRY_NAMESPACE: ${{ vars.CONTAINER_REGISTRY_NAMESPACE }}
+  IMAGE_NAME: schema
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set image version
+        id: version
+        run: echo "version=${GITHUB_SHA::8}" >> "$GITHUB_OUTPUT"
+
+      - name: Log in to container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ vars.CONTAINER_REGISTRY_SERVER }}
+          username: ${{ secrets.CONTAINER_REGISTRY_USERNAME }}
+          password: ${{ secrets.CONTAINER_REGISTRY_PASSWORD }}
+
+      - name: Set environment
+        id: environment
+        run: |
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            echo "environment=prod" >> "$GITHUB_OUTPUT"
+          elif [ "${GITHUB_REF_NAME}" = "preprod" ]; then
+            echo "environment=demo" >> "$GITHUB_OUTPUT"
+          else
+            echo "environment=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:${{ steps.environment.outputs.environment }}-${{ steps.version.outputs.version }}
+            ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:${{ steps.environment.outputs.environment }}-latest
+          build-args: |
+            VERSION=${{ steps.version.outputs.version }}
