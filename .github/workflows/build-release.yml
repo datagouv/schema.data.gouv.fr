@@ -1,5 +1,5 @@
 name: Build and push
-run-name: build and push ${{ github.sha }}
+run-name: Build and push ${{ github.ref_name }}
 on:
   push:
     branches:
@@ -38,5 +38,6 @@ jobs:
           tags: |
             ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.version }}
             ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:latest
+            ${{ vars.CONTAINER_REGISTRY_SERVER }}/${{ vars.CONTAINER_REGISTRY_NAMESPACE }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}-latest
           build-args: |
             VERSION=${{ steps.version.outputs.version }}
