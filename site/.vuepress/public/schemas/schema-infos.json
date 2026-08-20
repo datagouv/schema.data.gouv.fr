@@ -1338,16 +1338,6 @@
         },
         "latest": "1.0.0"
     },
-    "NaturalSolutions/schema-arbre": {
-        "homepage": "https://github.com/NaturalSolutions/schema-arbre.git",
-        "external_doc": null,
-        "external_tool": null,
-        "type": "tableschema",
-        "email": "contact@natural-solutions.eu",
-        "labels": null,
-        "consolidation_dataset_id": null,
-        "versions": {}
-    },
     "cnigfr/schema-carte-communale": {
         "homepage": "https://github.com/cnigfr/schema-carte-communale.git",
         "external_doc": "https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html",

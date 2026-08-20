@@ -170,6 +170,31 @@
         "type": "validation of type other"
     },
     {
+        "schema": "reseaux-eaux",
+        "version": "2020.09.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "reseaux-eaux",
+        "version": "2022.09.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "reseaux-eaux",
+        "version": "2022.10.0",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "reseaux-eaux",
+        "version": "2024",
+        "type": "missing schema.yml"
+    },
+    {
+        "schema": "reseaux-eaux",
+        "version": null,
+        "type": "aucune version valide"
+    },
+    {
         "schema": "stationnement",
         "version": "0.1.0",
         "type": "tableschema validation"
@@ -218,6 +243,11 @@
         "schema": "arbres_urbains",
         "version": "0.3.1",
         "type": "tableschema validation"
+    },
+    {
+        "schema": "arbres_urbains",
+        "version": null,
+        "type": "aucune version valide"
     },
     {
         "schema": "registre-archive",
