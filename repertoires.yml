@@ -372,13 +372,16 @@ donnees-communication-publique:
   type: jsonschema
   email: sebastien.malot@pm.gouv.fr
 reseaux-eaux:
+  url: https://github.com/cnigfr/StaR-Eau.git
+  type: other
+  email: cnig@cnig.fr
+  external_doc: https://cnigfr.github.io/StaR-Eau/
+  labels:
+    - CNIG
 comptes-annuels-entreprises:
   url: https://github.com/TEFUDA/schema-comptes-annuels.git
   type: tableschema
   email: contact@loicgrosflandre.com
-  url: https://github.com/cnigfr/StaR-Eau.git
-  type: other
-  email: cnig@cnig.fr
   external_doc: https://cnigfr.github.io/StaR-Eau/
   labels:
     - CNIG
