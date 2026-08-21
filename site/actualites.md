@@ -1,3 +1,10 @@
+### 2026-08-21
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datakode/schema-pei](/datakode/schema-pei/)** : <span style="color:blue;">1.0.1</span><br>
+
+---
+
 ### 2026-07-10
 
 #### Montées de versions:

@@ -1682,31 +1682,6 @@
             "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/latest/schema.json"
         },
         {
-            "name": "datakode/schema-pei",
-            "title": "Point d'Eau Incendie (PEI)",
-            "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux PEI",
-            "schema_type": "tableschema",
-            "contact": "portier@datakode.fr",
-            "examples": [
-                {
-                    "title": "Imp\u00e9mentations",
-                    "path": "https://docs.google.com/spreadsheets/d/1UBlX52Of20q4HnAFTyxrfX75vZrUtXDxwXP6j6_kUp4/edit#gid=0"
-                }
-            ],
-            "labels": [],
-            "consolidation_dataset_id": null,
-            "versions": [
-                {
-                    "version_name": "1.0.1",
-                    "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/1.0.1/schema.json"
-                }
-            ],
-            "external_doc": null,
-            "external_tool": null,
-            "homepage": "https://gitlab.com/datakode/schema-pei.git",
-            "schema_url": "https://schema.data.gouv.fr/schemas/datakode/schema-pei/latest/schema.json"
-        },
-        {
             "name": "etalab/schema-indice-reparabilite",
             "title": "Indice de r\u00e9parabilit\u00e9",
             "description": "Sch\u00e9ma de donn\u00e9es pour l'indice de r\u00e9parabilit\u00e9",

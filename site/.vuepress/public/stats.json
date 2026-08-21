@@ -400,11 +400,6 @@
             "title": "Composition des plats des menus de la restauration collective",
             "contributors": 3
         },
-        "datakode/schema-pei": {
-            "dgv_resources": 1,
-            "title": "Point d'Eau Incendie (PEI)",
-            "contributors": 3
-        },
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
