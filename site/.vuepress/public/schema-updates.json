@@ -1270,10 +1270,6 @@
             {
                 "schema_name": "gip-inclusion/data-inclusion-schema",
                 "version": "1.0.6 => 1.0.8"
-            },
-            {
-                "schema_name": "gip-inclusion/data-inclusion-schema",
-                "version": "1.0.6 => 1.0.8"
             }
         ]
     },
@@ -1301,42 +1297,6 @@
             }
         ],
         "new_version": [
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
-            {
-                "schema_name": "MTES-MCT/acceslibre-schema",
-                "version": "0.0.19 => 0.0.20"
-            },
             {
                 "schema_name": "MTES-MCT/acceslibre-schema",
                 "version": "0.0.19 => 0.0.20"
@@ -1401,14 +1361,6 @@
     },
     "2026-07-10": {
         "new_version": [
-            {
-                "schema_name": "datatourisme/ontology",
-                "version": "3.1.6 => 3.2.2"
-            },
-            {
-                "schema_name": "datatourisme/ontology",
-                "version": "3.1.6 => 3.2.2"
-            },
             {
                 "schema_name": "datatourisme/ontology",
                 "version": "3.1.6 => 3.2.2"
