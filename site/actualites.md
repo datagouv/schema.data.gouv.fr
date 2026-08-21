@@ -2,8 +2,6 @@
 
 #### Montées de versions:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">3.1.6</span> => <span style="color:green;">3.2.2</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">3.1.6</span> => <span style="color:green;">3.2.2</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">3.1.6</span> => <span style="color:green;">3.2.2</span><br>
 &nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.8</span> => <span style="color:green;">1.0.9</span><br>
 
 ---
@@ -38,8 +36,7 @@
 
 ### 2026-04-28
 
-#### Montées de versions:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.6</span> => <span style="color:green;">1.0.8</span><br>
+#### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.6</span> => <span style="color:green;">1.0.8</span><br>
 
 ---
@@ -153,14 +150,7 @@
 
 ### 2025-08-21
 
-#### Montées de versions:
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
+#### Montée de version:
 &nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:red;">2.4.8</span> => <span style="color:green;">3.1.6</span><br>
 
 ---
