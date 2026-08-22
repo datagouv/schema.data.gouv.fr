@@ -2361,6 +2361,26 @@
         },
         "latest": "0.7.2"
     },
+    "datakode/schema-pei": {
+        "homepage": "https://gitlab.com/datakode/schema-pei.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "portier@datakode.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "1.0.1": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/datakode/schema-pei/1.0.1/schema.json"
+            }
+        },
+        "latest": "1.0.1"
+    },
     "cnigfr/schema-eclairage-exterieur": {
         "homepage": "https://github.com/cnigfr/schema-eclairage-exterieur.git",
         "external_doc": "https://cnig.gouv.fr/IMG/pdf/cnig_eclext_v1_1.pdf",

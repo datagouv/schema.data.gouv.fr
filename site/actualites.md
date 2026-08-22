@@ -1,3 +1,10 @@
+### 2026-08-22
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datakode/schema-pei](/datakode/schema-pei/)** : <span style="color:blue;">1.0.1</span><br>
+
+---
+
 ### 2026-08-21
 
 #### Schéma supprimé:

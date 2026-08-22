@@ -1378,5 +1378,13 @@
                 "version": "1.0.1"
             }
         ]
+    },
+    "2026-08-22": {
+        "new_schema": [
+            {
+                "schema_name": "datakode/schema-pei",
+                "version": "1.0.1"
+            }
+        ]
     }
 }

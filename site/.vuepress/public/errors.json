@@ -276,8 +276,8 @@
     },
     {
         "schema": "point-eau-incendie",
-        "version": null,
-        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://gitlab.com/datakode/schema-pei.git /var/lib/airflow/tmp/schema_website_publication_prod/cache/datakode/schema-pei/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_prod/cache/datakode/schema-pei'... POST git..."
+        "version": "1.0.0",
+        "type": "tableschema validation"
     },
     {
         "schema": "itineraire-randonnee",
