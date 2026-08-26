@@ -175,11 +175,6 @@
             "title": "Subventions",
             "contributors": 11
         },
-        "datatourisme/ontology": {
-            "dgv_resources": 6,
-            "title": "DATAtourisme",
-            "contributors": 10
-        },
         "datagouv/schema-fontaine-eau": {
             "dgv_resources": 2,
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
