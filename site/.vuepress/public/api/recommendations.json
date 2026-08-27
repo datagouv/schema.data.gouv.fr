@@ -14091,6 +14091,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-aldi",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-totalenergies-marketing-france-temp-compiegne",
     "recommendations": [
       {
@@ -15202,17 +15213,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "irve-statique-organisation-aldi-2",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "irve-statique-organisation-ma-borne-auto-5",
     "recommendations": [
       {
@@ -15236,17 +15236,6 @@
   },
   {
     "id": "irve-statique-organisation-milence",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "irve-statique-organisation-aldi-1",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques",
@@ -15335,17 +15324,6 @@
   },
   {
     "id": "irve-statique-organisation-shango-shango-8",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "irve-statique-organisation-aldi",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques",
