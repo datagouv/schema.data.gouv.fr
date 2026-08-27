@@ -872,6 +872,74 @@
             "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/latest/schema.json"
         },
         {
+            "name": "datatourisme/ontology",
+            "title": "DATAtourisme",
+            "description": "Ontologie destin\u00e9e \u00e0 structurer les donn\u00e9es d\u00e9crivant l'ensemble des points d'int\u00e9r\u00eats recens\u00e9s par les Offices de Tourisme, Agences D\u00e9partementales et Comit\u00e9s R\u00e9gionaux du Tourisme. F\u00eates et manifestations, sites patrimoniaux, activit\u00e9s de loisirs, itin\u00e9raires, h\u00e9bergements, restaurants, boutiques et services.",
+            "schema_type": "other",
+            "contact": "contact@datatourisme.fr",
+            "examples": [],
+            "labels": [],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "2.4.7",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/2.4.7/schema.yml"
+                },
+                {
+                    "version_name": "2.4.8",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/2.4.8/schema.yml"
+                },
+                {
+                    "version_name": "2.4.9",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/2.4.9/schema.yml"
+                },
+                {
+                    "version_name": "3.0.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.0.0/schema.yml"
+                },
+                {
+                    "version_name": "3.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.1.0/schema.yml"
+                },
+                {
+                    "version_name": "3.1.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.1.1/schema.yml"
+                },
+                {
+                    "version_name": "3.1.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.1.3/schema.yml"
+                },
+                {
+                    "version_name": "3.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.1.4/schema.yml"
+                },
+                {
+                    "version_name": "3.1.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.1.5/schema.yml"
+                },
+                {
+                    "version_name": "3.1.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.1.6/schema.yml"
+                },
+                {
+                    "version_name": "3.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.2.0/schema.yml"
+                },
+                {
+                    "version_name": "3.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.2.1/schema.yml"
+                },
+                {
+                    "version_name": "3.2.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/3.2.2/schema.yml"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://gitlab.adullact.net/adntourisme/datatourisme/ontology",
+            "schema_url": "https://schema.data.gouv.fr/schemas/datatourisme/ontology/latest/schema.yml"
+        },
+        {
             "name": "datagouv/schema-fontaine-eau",
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
             "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux fontaines \u00e0 eau mises \u00e0 disposition notamment par les Etablissements recevant du public (ERP) dans le cadre de la loi anti-gaspillage.",
