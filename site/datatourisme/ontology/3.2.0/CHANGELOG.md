@@ -1,0 +1,2486 @@
+<MenuSchema />
+
+# Changelog global — 29/06/2026
+> +8013 triplets, -14937 supprimés, ~19 modifiés
+
+---
+## INSEE (insee.ttl)
+_Mise à jour du COG officiel de l'INSEE
+---
+## Ontologie core (datatourisme.ttl) (datatourisme_core.ttl)
+## Nouvelles ressources
+- dt:nationalAddressId (owl:DatatypeProperty, owl:FunctionalProperty) — "Identifiant adresse national"
+- dt:hasBeenAssertedBy (owl:ObjectProperty, owl:FunctionalProperty) — "a été affirmé par"
+- dt:hasBeenAssertedOn (owl:DatatypeProperty, owl:FunctionalProperty) — "a été affirmé le"
+- dt:hasExternalWidgetCode (owl:DatatypeProperty, owl:FunctionalProperty) — "a pour code widget"
+- dt:AccessibilityAmenity (owl:Class) — "Équipement et service d'accessibilité"
+- dt:AccessAmenity (owl:Class) — "Équipement d'accès"
+- dt:ExteriorAccessAmenity (owl:Class) — "Équipement extérieur entre le trottoir et l'entrée principale"
+- dt:EntranceAmenity (owl:Class) — "Équipement d'entrée"
+- dt:ReceptionAmenity (owl:Class) — "Équipement d'accueil"
+- dt:characteristicValue (owl:DatatypeProperty) — "A comme caractéristique"
+- dt:EmergencyConditions (owl:DatatypeProperty) — "Conditions d'urgence"
+- dt:BivouacArea (owl:Class) — "Aire de bivouac"
+- dt:hasCompletenessScore (owl:DatatypeProperty, owl:FunctionalProperty) — "score de complétude"
+- dt:hasAssertionNature (owl:DatatypeProperty, owl:FunctionalProperty) — "nature de l'assertion"
+
+## Fusions
+- Ajout sous-classe + renommage : "Centre et galerie commerciale" ⊂ "dt:ConvenientService" → label "Centre commercial, galerie marchande"
+- Fusion : "dt:BoardMeeting" → "dt:BusinessEvent"
+- Ajout sous-classe : "dt:BoutiqueOrLocalShop" ⊂ "dt:ConvenientService"
+- Fusion : "dt:ExecutiveBoardMeeting" → "dt:BusinessEvent"
+- Fusion : "dt:HypermarketAndSupermarket" → "dt:ShoppingCentreAndGallery"
+- Fusion : "dt:PilgrimageAndProcession" → "dt:Parade"
+- Fusion : "dt:Recital" → "dt:Concert"
+- Fusion : "dt:Seminar" → "dt:Congress"
+- Fusion : "dt:SportsDemonstration" → "dt:SportsCompetition"
+- Fusion : "dt:TrainingWorkshop" → "dt:Traineeship"
+- Fusion : "dt:WorkMeeting" → "dt:BusinessEvent"
+
+## Renommages
+- Renommage : "…core" → "DATAtourisme, Ontologie d'information touristique" (…core)
+- Renommage : "Spécification d'équipement d'hôtellrie de plein air" → "Spécification d'équipement d'hôtellerie de plein air" (dt:CampingAndCaravanningFeatureSpecification)
+- Renommage : "Congrès" → "Congrès et séminaire" (dt:Congress)
+- Renommage : "Défilé Cortège Parade" → "Défilé Cortège Parade Pèlerinage" (dt:Parade)
+- Renommage : "Compétition sportive" → "Compétition, démonstration sportive" (dt:SportsCompetition)
+
+## Dépréciations
+- dt:COVID19SpecialMeasures
+
+## Commentaires ajoutés
+- dt:ChamberOfCommerceAndIndustry : Un site d'affaires représentant une chambre de commerce et d'industrie, organism…
+- dt:Abbey : Site religieux correspondant à un monastère dirigé par un abbé ou une abbesse, s…
+- dt:AccommodationFeatureSpecification : Spécialisation de FeatureSpecification pour les équipements et services spécifiq…
+- dt:AccommodationPricingOffer : Prestation tarifée spécifique aux services d'hébergement touristique : chambre d…
+- dt:AccommodationProduct : Un produit d'hébergement est un produit touristique qui propose des services de …
+- dt:AccompaniedPractice : Une pratique touristique qui se déroule avec un accompagnateur ou guide professi…
+- dt:ActivityPricingOffer : Prestation tarifée spécifique aux activités touristiques : cours, excursions, at…
+- dt:ActivityProvider : Un lieu d'intérêt touristique qui propose et organise des activités de loisirs, …
+- dt:AdaptedsportsLocomotionMode : Mode de locomotion spécialement adapté aux personnes en situation de handicap po…
+- dt:AdventurePark : Site sportif et de loisirs proposant des parcours d'accrobranche et d'escalade d…
+- dt:Agent : Entité capable d'agir dans le domaine du tourisme, incluant les personnes physiq…
+- dt:Airfield : Un aérodrome destiné au transport aérien, pouvant accueillir des aéronefs civils…
+- dt:Airport : Infrastructure de transport aérien pour l'embarquement et le débarquement des pa…
+- dt:AlpinePasture : Pâturage d'altitude où le bétail passe l'été, constituant un patrimoine naturel …
+- dt:Annotation : Représente une annotation ou commentaire ajouté à une ressource touristique pour…
+- dt:AntiqueAndSecondhandGoodDealer : Commerce de détail spécialisé dans la vente d'antiquités, objets anciens et arti…
+- dt:Apartment : Un appartement est un produit d'hébergement constitué d'un logement meublé indép…
+- dt:AquaticLocomotionMode : Mode de locomotion utilisant des moyens aquatiques pour parcourir les itinéraire…
+- dt:Aqueduct : Ouvrage d'art hydraulique historique transportant l'eau, constituant un bâtiment…
+- dt:ArcheologicalSite : Site culturel présentant des vestiges archéologiques d'intérêt touristique, témo…
+- dt:ArchitecturalStyle : Style architectural représente un thème spécialisé caractérisant les approches a…
+- dt:Arena : Bâtiment civil remarquable destiné aux spectacles et compétitions, avec gradins …
+- dt:ArtGalleryOrExhibitionGallery : Commerce spécialisé dans la vente et l'exposition d'œuvres d'art, peintures, scu…
+- dt:ArtistSigning : Événement culturel où un artiste rencontre le public pour dédicacer ses œuvres (…
+- dt:ATM : Un distributeur automatique de billets permettant aux touristes de retirer de l'…
+- dt:Auditorium : Lieu de spectacle et de loisirs équipé pour accueillir des représentations artis…
+- dt:Bakery : Établissement de restauration spécialisé dans la fabrication et la vente de pain…
+- dt:BalneotherapyCentre : Site sportif et de loisirs proposant des soins thérapeutiques et de bien-être pa…
+- dt:BarOrPub : Établissement de restauration spécialisé dans la vente de boissons alcoolisées e…
+- dt:Basilica : Site religieux chrétien de grande importance architecturale et spirituelle, souv…
+- dt:Bastide : Ville fortifiée médiévale planifiée, caractérisée par son plan géométrique régul…
+- dt:Beach : Zone côtière de sable, galets ou rochers où les visiteurs peuvent se détendre, s…
+- dt:BeachClub : Établissement de loisirs situé sur une plage offrant des services et équipements…
+- dt:Bed : Un produit d'hébergement offrant un couchage temporaire, typiquement dans un cad…
+- dt:BicycleLocomotionMode : Mode de locomotion pour les itinéraires praticables à vélo, incluant les pistes …
+- dt:BikeStationOrDepot : Infrastructure de transport proposant des services liés aux vélos : location, st…
+- dt:BilliardRoom : Lieu dédié à la pratique du billard, équipé de tables de jeu spécialisées et pro…
+- dt:Bishopric : Site religieux correspondant au siège administratif d'un évêque et centre du dio…
+- dt:BistroOrWineBar : Établissement de restauration de type bistrot ou bar à vin, offrant une ambiance…
+- dt:BoatRestaurant : Un restaurant situé sur un bateau, offrant une expérience culinaire unique en mi…
+- dt:Bocage : Paysage rural traditionnel caractérisé par des champs enclos de haies vives, for…
+- dt:Bog : Site naturel constitué de zones humides caractérisées par l'accumulation de tour…
+- dt:BoulesPitch : Site sportif dédié à la pratique des sports de boules comme la pétanque, la boul…
+- dt:BowlingAlley : Établissement de loisirs proposant des pistes de bowling pour la pratique de ce …
+- dt:BrasserieOrTavern : Un restaurant spécialisé dans la bière, offrant une ambiance décontractée et une…
+- dt:Brewery : Un lieu de production de bière qui propose des dégustations et visites touristiq…
+- dt:BricABrac : Évènement commercial spécialisé dans la vente d'objets anciens, de collection ou…
+- dt:Bridge : Un pont remarquable présentant un intérêt architectural, historique ou patrimoni…
+- dt:Bubble : Un hébergement temporaire dans une structure gonflable transparente offrant une …
+- dt:BuddhistTemple : Site religieux dédié à la pratique du bouddhisme, comprenant des espaces de médi…
+- dt:Bungalow : Un produit d'hébergement de type bungalow ou mobil-home, proposant un logement t…
+- dt:Bungatoile : Un produit d'hébergement de type bungalow toilé, structure légère avec toile ten…
+- dt:BusinessEvent : Événement professionnel destiné aux entreprises et au monde des affaires dans le…
+- dt:BusinessPlace : Un lieu d'intérêt touristique dédié aux activités commerciales et professionnell…
+- dt:BusStation : Infrastructure de transport public où les autocars et bus interurbains effectuen…
+- dt:BusStop : Arrêt ou station de transport public (bus, tramway, métro) d'intérêt touristique…
+- dt:Cabaret : Un restaurant proposant des spectacles de divertissement avec des artistes sur s…
+- dt:CableCarStation : Infrastructure de transport par câble permettant aux touristes de se déplacer, g…
+- dt:CafeOrTeahouse : Établissement de restauration spécialisé dans le service de café, thé et boisson…
+- dt:Calvary : Site religieux comprenant des calvaires et des enclos paroissiaux, représentant …
+- dt:CamperVanArea : Aire aménagée spécialement pour l'accueil des camping-cars avec services dédiés …
+- dt:Camping : Terrain aménagé pour l'accueil de tentes, caravanes et camping-cars, proposant d…
+- dt:CampingAndCaravanning : Un hébergement de plein air proposant des emplacements pour tentes, caravanes ou…
+- dt:CampingCar : Un produit d'hébergement mobile autonome équipé pour le camping, offrant logemen…
+- dt:CampingPitch : Un emplacement de camping est un produit d'hébergement délimité dans un camping …
+- dt:Canal : Voie d'eau artificielle créée par l'homme pour la navigation, l'irrigation ou le…
+- dt:Canyon : Formation géologique naturelle caractérisée par une gorge profonde aux parois ab…
+- dt:Caravan : Un produit d'hébergement mobile tracté, équipé pour le camping et les séjours te…
+- dt:Carnival : Événement social festif traditionnel avec défilés, costumes et divertissements, …
+- dt:CarOrBikeWash : Service pratique destiné au lavage et nettoyage de véhicules automobiles ou de v…
+- dt:CarpoolArea : Aire de stationnement dédiée au covoiturage où les voyageurs peuvent se retrouve…
+- dt:Casino : Établissement de jeux d'argent proposant diverses activités ludiques comme machi…
+- dt:Castle : Bâtiment civil remarquable de type fortifié, généralement construit pour la défe…
+- dt:CastleAndPrestigeMansion : Un produit d'hébergement proposé dans un château historique ou une demeure de pr…
+- dt:CateringFeatureSpecification : Spécialise FeatureSpecification pour décrire les équipements et services de rest…
+- dt:CateringPricingOffer : Prestation tarifée spécifique aux services de restauration : menus, plats, boiss…
+- dt:Cathedral : Site religieux abritant le siège d'un évêque, remarquable par son architecture e…
+- dt:Causse : Plateau calcaire typique des régions méditerranéennes, formant un site naturel d…
+- dt:CaveSinkholeOrAven : Site naturel souterrain ou géologique d'intérêt touristique comprenant grottes, …
+- dt:Cellar : Un lieu souterrain ou semi-enterré dédié à la production, conservation et dégust…
+- dt:Chalet : Un chalet est un produit d'hébergement de type maison traditionnelle en bois, gé…
+- dt:ChalkyLawn : Site naturel caractérisé par une végétation herbacée sur sol calcaire, offrant u…
+- dt:Chapel : Lieu de culte de petite taille, souvent privé ou dédié à un saint particulier, d…
+- dt:Chartreuse : Monastère de l'ordre des Chartreux, bâtiment religieux remarquable présentant un…
+- dt:ChildrensEvent : Évènement culturel spécifiquement conçu et adapté pour un public d'enfants et de…
+- dt:ChildrensGite : Un hébergement collectif spécialement conçu et aménagé pour accueillir des group…
+- dt:Church : Édifice religieux chrétien destiné au culte, souvent d'intérêt architectural et …
+- dt:Cinema : Établissement de loisirs destiné à la projection de films pour le divertissement…
+- dt:Cinematheque : Institution culturelle dédiée à la conservation, à l'étude et à la diffusion du …
+- dt:Cirque : Site naturel formé par l'érosion glaciaire, caractérisé par une dépression circu…
+- dt:Citadel : Une fortification urbaine ou militaire conçue pour protéger une ville ou contrôl…
+- dt:City : Division administrative de base en France, regroupant un territoire et sa popula…
+- dt:CivilCemetery : Un cimetière civil servant de lieu de mémoire, distinct des cimetières religieux…
+- dt:Cliff : Site naturel constitué d'une paroi rocheuse abrupte, souvent située en bord de m…
+- dt:ClimbingWall : Site sportif dédié à l'escalade, comprenant des murs d'escalade artificiels ou n…
+- dt:Cloister : Site religieux constitué d'une galerie couverte entourant une cour, typique des …
+- dt:ClubOrHolidayVillage : Hébergement collectif proposant des activités et services intégrés dans un conce…
+- dt:Coastline : Site naturel correspondant à la zone de contact entre la terre et la mer, inclua…
+- dt:Col : Un col est un site naturel de passage entre deux sommets montagneux, constituant…
+- dt:CollectiveAccommodation : Un hébergement proposé à la réservation destiné à accueillir des groupes ou coll…
+- dt:CollectiveHostel : Une auberge collective proposant un hébergement en dortoirs ou chambres partagée…
+- dt:Collegiate : Un site religieux constitué d'une église dirigée par un collège de chanoines, sa…
+- dt:Commanderie : Site religieux historique correspondant à un domaine ou établissement géré par u…
+- dt:Commemoration : Événement culturel célébrant la mémoire d'une personne, d'un fait historique ou …
+- dt:CommonFeatureSpecification : Spécifie les équipements et services partagés disponibles dans un hébergement ou…
+- dt:Competition : Une pratique touristique organisée sous forme de concours ou tournoi, où partici…
+- dt:Concert : Événement culturel consistant en une représentation musicale live par un ou plus…
+- dt:ConeNeck : Site naturel constitué d'un cône volcanique ou d'un neck, formation géologique d…
+- dt:Conference : Événement culturel organisé autour de présentations, débats ou échanges sur des …
+- dt:ConvenientService : Un lieu d'intérêt touristique offrant des services pratiques facilitant le séjou…
+- dt:Convent : Site religieux correspondant à un établissement monastique abritant une communau…
+- dt:ConventionCentre : Un site d'affaires spécialisé dans l'organisation d'événements professionnels, c…
+- dt:Cooperative : Une coopérative qui propose des dégustations de produits locaux dans un cadre to…
+- dt:Course : Un cours est une pratique touristique organisée permettant l'apprentissage d'une…
+- dt:CoveredMarket : Structure architecturale couverte destinée au commerce de produits alimentaires …
+- dt:CraftsmanShop : Commerce de détail spécialisé dans la vente d'objets artisanaux et créations d'a…
+- dt:Crest : Site naturel constitué d'une ligne de crête montagneuse ou d'un sommet allongé p…
+- dt:CrossCountrySkiResort : Site sportif dédié à la pratique du ski de fond et du ski nordique, proposant de…
+- dt:CrossCountrySkiTrail : Site sportif, récréatif et de loisirs constitué d'un parcours aménagé pour la pr…
+- dt:Cuesta : Formation géologique constituée d'un relief asymétrique avec un versant en pente…
+- dt:CulturalActivityProvider : Un prestataire d'activité spécialisé dans l'organisation d'activités culturelles…
+- dt:CulturalEvent : Évènement à caractère culturel proposé aux visiteurs : spectacle, exposition, fe…
+- dt:CulturalHeritageFeatureSpecification : Spécification d'équipement dédiée au patrimoine culturel, incluant les aménageme…
+- dt:CulturalSite : Un lieu d'intérêt touristique ayant une valeur culturelle, patrimoniale ou histo…
+- dt:CulturalTheme : Un thème culturel auquel un POI peut se rapporter. Ex: patrimoine, art, traditio…
+- dt:Culture : Site naturel présentant un intérêt culturel particulier, comme des paysages faço…
+- dt:Cybercafe : Un service pratique offrant l'accès à Internet et aux ordinateurs pour les visit…
+- dt:CycleRouteTheme : Thème spécifique aux itinéraires cyclables et pistes cyclistes, désignant les no…
+- dt:CyclingTour : Un itinéraire touristique spécifiquement conçu pour la pratique du vélo, proposa…
+- dt:DefenceSite : Site culturel lié à la défense militaire, comprenant fortifications, citadelles,…
+- dt:DepartementTourismCommittee : Service d'information touristique géré au niveau départemental, chargé de promou…
+- dt:DepartmentStore : Grand magasin proposant une large gamme de produits dans différents rayons sous …
+- dt:DevelopmentCourse : Pratique touristique axée sur l'amélioration des compétences professionnelles ou…
+- dt:Distillery : Un lieu de production d'alcools distillés qui propose des dégustations touristiq…
+- dt:District : Un quartier ou district urbain au sein d'une ville ou village patrimonial, prése…
+- dt:DogSleddingTrail : Piste aménagée pour la pratique du traîneau à chiens, activité de loisir ou spor…
+- dt:DownhillSkiResort : Site sportif dédié à la pratique du ski alpin, équipé de pistes et remontées méc…
+- dt:DownhillSkiRun : Piste de ski alpin aménagée pour la descente, constituant un site sportif et réc…
+- dt:Dune : Formation naturelle de sable accumulé par le vent, constituant un site naturel d…
+- dt:Dungeon : Tour maîtresse d'un château fort, généralement la plus haute et la mieux fortifi…
+- dt:EducationalTrail : Sentier aménagé à vocation pédagogique permettant la découverte et l'interprétat…
+- dt:ElectricBycicleChargingPoint : Service pratique offrant une infrastructure de recharge électrique dédiée aux vé…
+- dt:ElectricVehicleChargingPoint : Service pratique permettant la recharge de véhicules électriques, facilitant les…
+- dt:EntertainmentAndEvent : Point d'intérêt touristique représentant un événement culturel, festif ou de div…
+- dt:EntertainmentAndEventTheme : Un thème spécifique aux fêtes, festivals, spectacles et événements culturels ou …
+- dt:EquestrianCenter : Site sportif et de loisirs dédié aux activités équestres, proposant cours d'équi…
+- dt:EquestrianLocomotionMode : Mode de locomotion pour les itinéraires touristiques pratiqués à cheval ou à dos…
+- dt:EquipmentRental : Service de location spécialisé dans la mise à disposition d'équipements et matér…
+- dt:EquipmentRentalShop : Un prestataire de services touristiques spécialisé dans la location de matériel …
+- dt:EquipmentRepairShop : Un prestataire de service spécialisé dans la réparation d'équipements et de maté…
+- dt:Exhibition : Événement culturel présentant des œuvres d'art, objets historiques ou collection…
+- dt:ExternalReference : Référence vers une ressource ou un système d'information externe au domaine tour…
+- dt:FairOrShow : Événement commercial regroupant exposants et visiteurs autour d'un secteur d'act…
+- dt:Farm : Une exploitation agricole d'intérêt patrimonial présentant les techniques et tra…
+- dt:FarmCamping : Un camping situé dans une exploitation agricole, offrant des emplacements pour t…
+- dt:Farmer : Un éleveur qui propose des dégustations de ses produits d'origine animale dans u…
+- dt:FarmhouseInn : Restaurant situé dans une exploitation agricole ou dans un environnement rural, …
+- dt:FastFoodRestaurant : Établissement de restauration proposant des repas préparés rapidement et servis …
+- dt:Festival : Événement culturel périodique regroupant plusieurs spectacles, concerts ou manif…
+- dt:FirstPractice : Une pratique sportive d'initiation destinée aux débutants pour découvrir une act…
+- dt:FitnessCenter : Centre équipé de machines et d'espaces dédiés à l'entraînement physique et au fi…
+- dt:FitnessPath : Site sportif proposant un parcours aménagé avec équipements d'exercices physique…
+- dt:FluvialTour : Un itinéraire touristique qui se déroule sur l'eau, proposant des parcours fluvi…
+- dt:FoodEstablishment : Un lieu d'intérêt touristique dédié à la restauration et à la gastronomie, propo…
+- dt:FoodEstablishmentTheme : Un thème spécifique aux établissements de restauration, comme la cuisine régiona…
+- dt:FoodProduct : Thème spécialisé désignant les produits alimentaires et types de mets associés a…
+- dt:Forest : Un site naturel constitué d'arbres et de végétation forestière présentant un int…
+- dt:Forge : Site de patrimoine technique où se pratiquait le travail du métal par forgeage, …
+- dt:Fort : Site de défense constitué d'un ouvrage militaire fortifié destiné à protéger un …
+- dt:FortifiedCastle : Site défensif médiéval combinant résidence seigneuriale et fortification militai…
+- dt:FortifiedSet : Site de défense constitué d'un ensemble coordonné de fortifications, murailles e…
+- dt:Fountain : Une fontaine remarquable constituant un élément architectural d'intérêt patrimon…
+- dt:FreePractice : Une pratique touristique qui peut être exercée librement par les visiteurs sans …
+- dt:FrontonBelotaCourt : Site sportif équipé d'un mur de frappe pour la pratique du fronton et de la pelo…
+- dt:Game : Événement sportif ou de loisir organisé sous forme de jeu ou de concours, propos…
+- dt:GarageOrAirPump : Un service pratique offrant des équipements de garage ou de gonflage pour l'entr…
+- dt:GarageSale : Événement commercial où particuliers vendent objets d'occasion, brocante et arti…
+- dt:GeneralPricingOffer : Prestation tarifée de type général, sans spécification particulière de catégorie…
+- dt:GeographicReach : Audience définie par son origine géographique ou sa zone de provenance. Permet d…
+- dt:Glacier : Site naturel constitué d'une masse de glace en mouvement permanent, formée par l…
+- dt:GolfCourse : Terrain aménagé pour la pratique du golf, comprenant parcours, green et infrastr…
+- dt:Gorge : Site naturel constitué d'une vallée étroite et profonde creusée par l'érosion, o…
+- dt:GourmetRestaurant : Un restaurant offrant une cuisine raffinée et une expérience gastronomique haut …
+- dt:GPX : Document GPX contenant des données géographiques de traces, parcours ou points d…
+- dt:Grassland : Site naturel constitué d'étendues d'herbe et de végétation herbacée, offrant un …
+- dt:GroupLodging : Un hébergement collectif spécifiquement conçu pour accueillir des groupes, offra…
+- dt:Guesthouse : Hébergement locatif chez l'habitant proposant des chambres meublées avec petit-d…
+- dt:Gymnasium : Salle ou terrain de sport couvert ou extérieur destiné à la pratique d'activités…
+- dt:HalophilicArea : Site naturel caractérisé par une forte concentration en sel, abritant une flore …
+- dt:Hammam : Établissement de bien-être proposant des bains de vapeur et soins corporels dans…
+- dt:Harvest : Événement culturel lié aux activités de récolte agricole, notamment les vendange…
+- dt:HealthcareProfessional : Lieu de santé représenté par un professionnel de santé individuel proposant des …
+- dt:HealthTheme : Un thème de santé est un sujet lié au bien-être, aux soins médicaux ou à la prév…
+- dt:Hillsides : Site naturel constitué de terrains en pente douce, souvent cultivés ou boisés, p…
+- dt:HolidayCentre : Un hébergement collectif spécialisé dans l'accueil de groupes pour des séjours d…
+- dt:HolidayResort : Une résidence de tourisme proposant des appartements ou studios meublés avec ser…
+- dt:HorseTour : Un itinéraire touristique spécialement conçu et aménagé pour la pratique de l'éq…
+- dt:Hotel : Un établissement hôtelier offrant hébergement et services aux voyageurs, avec ac…
+- dt:HotelRestaurant : Un établissement qui combine les services d'hébergement hôtelier et de restaurat…
+- dt:HotelSuite : Un produit d'hébergement correspondant à une suite d'hôtel, offrant des espaces …
+- dt:HotelTrade : Un hébergement de type hôtelier proposant des services d'accueil et d'hébergemen…
+- dt:House : Un produit d'hébergement de type maison individuelle proposant un logement tempo…
+- dt:HouseBoat : Un produit d'hébergement proposant un logement temporaire sur une embarcation am…
+- dt:Hut : Un produit d'hébergement de type cabane, offrant un logement temporaire rustique…
+- dt:IceCreamShop : Un établissement de restauration spécialisé dans la vente et la dégustation de g…
+- dt:Icefall : Site naturel constitué d'une chute d'eau gelée, formant une cascade de glace d'i…
+- dt:IceSkatingRink : Site sportif et de loisirs équipé d'une surface glacée pour la pratique du patin…
+- dt:IncomingTravelAgency : Service d'information touristique spécialisé dans l'accueil et l'organisation de…
+- dt:IndustrialSite : Site industriel ayant une valeur patrimoniale, comprenant usines, manufactures, …
+- dt:InformativeFeatureSpecification : Spécifie les équipements d'information partagés dans un hébergement ou site tour…
+- dt:InterpretationCentre : Site culturel dédié à l'explication et à la médiation d'un territoire, d'un patr…
+- dt:IntroductionCourse : Une pratique touristique destinée aux débutants pour découvrir et apprendre les …
+- dt:IslandPeninsula : Site naturel constitué d'une île ou d'une presqu'île présentant un intérêt touri…
+- dt:Jetty : Structure d'accostage pour embarcations dans un site récréatif, permettant l'emb…
+- dt:KidsClub : Site récréatif spécialement conçu pour accueillir et divertir les enfants avec d…
+- dt:KML : Document au format KML contenant des données géospatiales pour la localisation e…
+- dt:LabelReviewSystem : Un système de classement par label attribue des distinctions ou certifications à…
+- dt:Lake : Un lac naturel d'intérêt touristique, étendue d'eau douce continentale offrant d…
+- dt:Landes : Site naturel caractérisé par des étendues de landes, formations végétales typiqu…
+- dt:LandType : Classification du type de terrain ou d'espace géographique dans le contexte tour…
+- dt:LandTypeName : Désigne la nature ou la catégorie d'un terrain dans le contexte touristique, tel…
+- dt:LaunchingRamp : Infrastructure nautique permettant la mise à l'eau et la sortie d'embarcations. …
+- dt:LeftLuggage : Service pratique permettant aux visiteurs de déposer temporairement leurs bagage…
+- dt:LeisureChalet : Un chalet résidentiel de loisirs est un produit d'hébergement de type chalet des…
+- dt:LeisureComplex : Site sportif et de loisirs regroupant plusieurs activités récréatives dans un mê…
+- dt:LeisureSportActivityProvider : Un prestataire d'activité spécialisé dans l'organisation d'activités sportives e…
+- dt:LevyOrDike : Un barrage ou une digue, ouvrage d'art hydraulique remarquable présentant un int…
+- dt:Library : Un site culturel dédié à la conservation et à la consultation de livres, documen…
+- dt:Lighthouse : Un phare maritime constituant un patrimoine technique d'intérêt touristique, gén…
+- dt:LocalAnimation : Événement social de proximité organisé au niveau local pour animer un territoire…
+- dt:LocalProductsShop : Magasin spécialisé dans la vente de produits locaux et du terroir, valorisant le…
+- dt:LocalTouristOffice : Service d'information touristique local géré par une collectivité territoriale p…
+- dt:Lock : Ouvrage hydraulique remarquable permettant le passage des bateaux entre des nive…
+- dt:LocomotionMode : Méthode de déplacement utilisée pour parcourir un itinéraire touristique, comme …
+- dt:Marina : Site sportif et de loisirs dédié à l'accueil et au stationnement des bateaux de …
+- dt:Market : Événement commercial représentant un marché traditionnel, de producteurs ou thém…
+- dt:MedicalPlace : Un lieu de santé d'intérêt touristique comme un centre thermal, spa médical ou é…
+- dt:MegalithDolmenMenhir : Site archéologique comprenant des monuments mégalithiques préhistoriques tels qu…
+- dt:MilitaryCemetery : Un lieu de mémoire dédié à l'inhumation de militaires et à la commémoration des …
+- dt:Mill : Structure historique utilisée pour moudre des grains ou actionner des mécanismes…
+- dt:Mine : Site d'extraction minière ayant une valeur patrimoniale technique, témoignant de…
+- dt:MiniGolf : Site sportif et de loisirs proposant un parcours de golf miniaturisé avec obstac…
+- dt:Monastery : Un site religieux constitué d'un ensemble architectural où vivent des communauté…
+- dt:MooringArea : Site sportif et de loisirs désignant une zone ou un port où les embarcations peu…
+- dt:Mosque : Un lieu de culte islamique d'intérêt touristique, caractérisé par son architectu…
+- dt:Mountain : Un relief naturel d'altitude significative constituant un site d'intérêt tourist…
+- dt:MountainResort : Une ville ou village de montagne à caractère patrimonial, offrant des infrastruc…
+- dt:MountainRestaurant : Un restaurant situé en altitude ou dans les alpages, offrant des services de res…
+- dt:MTBRouteTheme : Un thème spécifique aux itinéraires de VTT (vélo tout-terrain) permettant de cat…
+- dt:MultiActivity : Une pratique touristique qui combine plusieurs activités différentes au sein d'u…
+- dt:MultiPurposeRoomOrCommunityRoom : Salle polyvalente ou salle des fêtes destinée à accueillir divers événements cul…
+- dt:Museum : Un site culturel dédié à la conservation, l'étude et l'exposition d'objets d'art…
+- dt:NaturalCampingArea : Un hébergement de plein air de petite capacité intégré dans un environnement nat…
+- dt:NaturalCuriosity : Site naturel remarquable présentant des phénomènes géologiques, botaniques ou gé…
+- dt:NaturalHeritage : Un lieu d'intérêt touristique présentant un patrimoine naturel remarquable comme…
+- dt:NaturalHeritageFeatureSpecification : Spécialise FeatureSpecification pour les équipements et aménagements liés au pat…
+- dt:NaturalPark : Un espace naturel protégé désigné officiellement comme parc naturel, offrant des…
+- dt:NauticalCentre : Site sportif spécialisé dans les activités nautiques et sports aquatiques, propo…
+- dt:NightClub : Établissement de loisir nocturne proposant de la musique et un espace de danse, …
+- dt:NonHousingRealEstateRental : Location d'espaces non résidentiels comme salles de réunion, espaces événementie…
+- dt:OpenDay : Événement commercial permettant au public de visiter et découvrir gratuitement u…
+- dt:Opera : Évènement culturel représentant un spectacle d'opéra, forme d'art lyrique combin…
+- dt:OperaHouse : Théâtre spécialisé dans la représentation d'opéras, offrant des spectacles lyriq…
+- dt:Orchard : Verger conservatoire dédié à la préservation des variétés fruitières anciennes o…
+- dt:Organisation : Agent représentant une entité collective structurée dans le secteur touristique,…
+- dt:OutstandingTree : Un arbre remarquable désigne un spécimen d'arbre présentant un intérêt patrimoni…
+- dt:Palace : Un bâtiment civil remarquable qui était la résidence officielle d'un souverain, …
+- dt:ParkAndGarden : Un site culturel constitué d'espaces verts aménagés, comprenant parcs publics, j…
+- dt:ParkAndGardenTheme : Thème spécifique aux parcs et jardins, caractérisant leur style, époque ou fonct…
+- dt:Parking : Infrastructure de transport dédiée au stationnement des véhicules, constituant u…
+- dt:PDF : Document au format PDF contenant des informations touristiques comme des brochur…
+- dt:Peak : Un sommet ou point culminant d'une montagne constituant un site naturel remarqua…
+- dt:PedestrianLocomotionMode : Mode de locomotion à pied pour les itinéraires touristiques, incluant la marche …
+- dt:Person : Personne physique impliquée dans le secteur touristique, comme un guide, un arti…
+- dt:Pharmacy : Une pharmacie d'intérêt touristique où les visiteurs peuvent se procurer des méd…
+- dt:PicnicArea : Service pratique désignant un espace aménagé et équipé pour permettre aux visite…
+- dt:Pier : Structure technique construite sur l'eau pour l'amarrage des bateaux, constituan…
+- dt:PigeonLoft : Construction destinée à abriter les pigeons, témoignage du patrimoine rural et a…
+- dt:Place : Concept racine représentant tout emplacement géographique ou spatial dans le dom…
+- dt:Plain : Site naturel constitué d'une étendue de terrain plat ou faiblement vallonné, pré…
+- dt:Plateau : Site naturel caractérisé par une étendue de terrain élevée et relativement plane…
+- dt:PlayArea : Un espace de loisirs dédié aux jeux et au divertissement, généralement équipé de…
+- dt:PointOfView : Un site naturel offrant une vue panoramique remarquable sur un paysage, vallée, …
+- dt:Pond : Un plan d'eau naturel de petite taille constituant un site naturel d'intérêt tou…
+- dt:Practice : Une pratique est un produit touristique correspondant à une activité ou un savoi…
+- dt:Producer : Un prestataire de dégustation qui produit des biens alimentaires ou des boissons…
+- dt:ProducersGroup : Un groupement de producteurs qui propose des dégustations de leurs produits loca…
+- dt:ProfessionalTourGuide : Service d'information touristique proposé par un guide professionnel qualifié po…
+- dt:PublicLavatories : Un service pratique offrant des installations sanitaires publiques accessibles a…
+- dt:Racetrack : Site sportif dédié aux courses de chevaux, comprenant une piste et des infrastru…
+- dt:RacingCircuit : Site sportif et de loisirs dédié aux courses automobiles et motocyclistes, propo…
+- dt:RailBike : Site de loisirs proposant une activité de vélorail sur d'anciennes voies ferrées…
+- dt:Rally : Évènement sportif automobile ou motocycliste où les participants parcourent un i…
+- dt:Rambling : Événement sportif organisé consistant en une randonnée pédestre ou balade guidée…
+- dt:Reading : Évènement culturel centré sur la lecture publique d'œuvres littéraires, poétique…
+- dt:RegionalTourismCommittee : Service d'information touristique opérant au niveau régional, chargé de promouvo…
+- dt:ReligiousEvent : Événement social à caractère religieux organisé à des dates spécifiques, tel qu'…
+- dt:ReligiousSite : Un site culturel dédié à la pratique ou au patrimoine religieux, tel qu'une égli…
+- dt:RemarkableBuilding : Un site culturel constitué d'un bâtiment civil d'importance architecturale, hist…
+- dt:RemarkableHouse : Une maison présentant un intérêt architectural, historique ou patrimonial partic…
+- dt:RemembranceSite : Un site culturel dédié à la commémoration d'événements historiques ou de personn…
+- dt:Rental : Un produit touristique qui propose la location de biens ou équipements pour une …
+- dt:RentalAccommodation : Un hébergement proposé en location, généralement pour des séjours de courte à mo…
+- dt:RentalPricingOffer : Prestation tarifée de location d'équipements ou services hors hébergement : vélo…
+- dt:ResidentialLeisurePark : Un hébergement de plein air proposant la location de mobil-homes et chalets dans…
+- dt:Restaurant : Un établissement de restauration proposant des repas complets servis à table dan…
+- dt:RestStop : Un service pratique offrant aux voyageurs un lieu de pause et de repos lors de l…
+- dt:River : Un cours d'eau naturel constituant un patrimoine naturel d'intérêt touristique, …
+- dt:RiverPort : Infrastructure de transport fluvial comprenant les ports et haltes nautiques sur…
+- dt:RoadsideLocomotionMode : Mode de locomotion utilisant les infrastructures routières pour les déplacements…
+- dt:RoadTour : Un itinéraire touristique spécifiquement conçu pour être parcouru en voiture ou …
+- dt:RomanPath : Site archéologique présentant les vestiges d'une ancienne voie de communication …
+- dt:Room : Une chambre est un produit d'hébergement correspondant à une unité de logement i…
+- dt:RoomFeatureSpecification : Spécialisation d'équipement et service permettant de décrire les équipements et …
+- dt:RouteTheme : Un thème spécifique aux itinéraires touristiques, caractérisant le sujet ou la n…
+- dt:Ruins : Site archéologique présentant des ruines et vestiges de constructions anciennes,…
+- dt:RVServiceArea : Service pratique dédié aux camping-cars offrant des équipements spécialisés comm…
+- dt:SaleEvent : Événement culturel, festif ou de divertissement à caractère commercial, tel qu'u…
+- dt:ScaleReviewSystem : Un système de classement par note utilise une échelle numérique ou de symboles p…
+- dt:SchoolOrTrainingCentre : Établissement éducatif ou de formation ayant un intérêt touristique, comme une é…
+- dt:ScreeningEvent : Événement culturel dédié à la projection de films, documentaires ou œuvres audio…
+- dt:Seaport : Infrastructure portuaire maritime destinée au transport de passagers et de march…
+- dt:SelfServiceCafeteria : Un restaurant où les clients se servent eux-mêmes à un comptoir ou buffet, sans …
+- dt:ServiceArea : Service pratique dédié aux aires de service pour véhicules, offrant des commodit…
+- dt:ServiceProvider : Un lieu d'intérêt touristique qui fournit des services aux visiteurs, comme une …
+- dt:ShowEvent : Évènement culturel de type spectacle vivant : théâtre, danse, cirque, music-hall…
+- dt:SightseeingBoat : Bateau proposant des excursions et promenades touristiques sur l'eau pour découv…
+- dt:SocialEvent : Événement culturel ou de divertissement axé sur les interactions sociales et la …
+- dt:Sound : Élément audio associé à une expérience touristique, incluant musiques, ambiances…
+- dt:Source : Une source naturelle d'eau présentant un intérêt touristique, comme une résurgen…
+- dt:Spa : Établissement thermal utilisant les eaux minérales naturelles à des fins thérape…
+- dt:SpaResort : Ville ou village patrimoniaux reconnus pour leurs sources thermales et établisse…
+- dt:SpatialEnvironmentTheme : Un thème d'environnement spatial est un sujet relatif à l'environnement géograph…
+- dt:SportsAndLeisurePlace : Un lieu d'intérêt touristique dédié aux activités sportives, récréatives et de l…
+- dt:SportsClub : Organisation sportive proposant des activités et services sportifs à ses membres…
+- dt:SportsEvent : Point d'intérêt touristique représentant un événement sportif ou de loisir organ…
+- dt:SportsHall : Équipement sportif couvert destiné à la pratique et au spectacle sportif, pouvan…
+- dt:SportsTheme : Un thème spécialisé dans les domaines du sport, des loisirs et des événements as…
+- dt:SquashCourt : Site sportif doté d'une ou plusieurs salles fermées équipées pour la pratique du…
+- dt:Stables : Établissement d'élevage et de dressage de chevaux constituant un patrimoine tech…
+- dt:Stadium : Enceinte sportive de grande capacité destinée à accueillir des compétitions et é…
+- dt:Stone : Formation géologique d'intérêt touristique comme un rocher remarquable, une pier…
+- dt:StopOverOrGroupLodge : Un hébergement collectif de type refuge de montagne ou gîte d'étape, destiné aux…
+- dt:Store : Un lieu de commerce de détail d'intérêt touristique où les visiteurs peuvent ach…
+- dt:Stream : Un cours d'eau naturel de petite taille présentant un intérêt touristique pour s…
+- dt:StreetFood : Un établissement de restauration mobile ou temporaire proposant des repas à empo…
+- dt:StubbleFields : Un site naturel présentant des champs de chaumes après la moisson, offrant un pa…
+- dt:SummerToboggan : Un site sportif et de loisirs équipé d'une piste de luge praticable en été, offr…
+- dt:Summit : Un point culminant d'une montagne ou d'une colline constituant un site naturel d…
+- dt:Swamp : Un site naturel constitué de zones humides marécageuses d'intérêt touristique, a…
+- dt:SwimmingPool : Un site sportif et de loisirs équipé d'un bassin de natation pour la baignade, l…
+- dt:Synagogue : Un site religieux juif servant au culte et à l'enseignement, présentant souvent …
+- dt:TableHoteGuesthouse : Chambre d'hôtes proposant également un service de table d'hôtes avec repas prépa…
+- dt:TableHotes : Service de restauration proposé dans une chambre d'hôtes, où les hôtes partagent…
+- dt:Tasting : Une dégustation est une pratique touristique permettant aux visiteurs de goûter …
+- dt:TastingFeatureSpecification : Spécialisation d'équipement pour les activités de dégustation, incluant matériel…
+- dt:TaxiCompany : Une entreprise de taxis fournissant des services de transport de personnes par v…
+- dt:TaxiStation : Lieu de stationnement désigné pour les taxis, permettant aux voyageurs de trouve…
+- dt:TeachingFarm : Une exploitation agricole ouverte au public proposant des activités éducatives p…
+- dt:TechnicalHeritage : Un site culturel lié au patrimoine industriel, artisanal, rural, agricole ou tec…
+- dt:Temple : Un site religieux dédié au culte et à la prière, caractérisé par une architectur…
+- dt:TennisComplex : Un lieu sportif et de loisirs dédié à la pratique du tennis, comprenant un ou pl…
+- dt:Tent : Un produit d'hébergement proposant un logement temporaire sous tente, généraleme…
+- dt:TerrainPark : Un site sportif de montagne aménagé avec des modules et obstacles pour la pratiq…
+- dt:Text : Document textuel contenant des informations touristiques sous forme écrite, comm…
+- dt:ThalassotherapyCentre : Un centre de soins utilisant l'eau de mer et les éléments marins à des fins thér…
+- dt:Theater : Un lieu de spectacle vivant dédié aux représentations théâtrales, dramatiques et…
+- dt:TheaterEvent : Évènement culturel consistant en une représentation théâtrale avec acteurs inter…
+- dt:ThemePark : Un lieu de loisirs proposant des attractions et divertissements organisés autour…
+- dt:Tipi : Un tipi est un produit d'hébergement traditionnel en forme de tente conique, off…
+- dt:TobogganBobsleigh : Un site sportif et récréatif équipé d'une piste dédiée à la pratique de la luge …
+- dt:TourGuideAgency : Service d'information touristique spécialisé dans la fourniture et l'organisatio…
+- dt:TourismCableCar : Un site sportif et de loisirs proposant un transport par câble aérien à des fins…
+- dt:TourismCentre : Centre d'information touristique regroupant plusieurs services et offrant une ap…
+- dt:TouristBus : Un service de transport touristique par autocar proposant des circuits et visite…
+- dt:TouristInformationCenter : Un lieu d'accueil et d'information pour les touristes, proposant des conseils, d…
+- dt:TouristTrain : Un train à vocation touristique proposant des parcours pittoresques ou thématiqu…
+- dt:TourOperatorOrTravelAgency : Service d'information touristique spécialisé dans l'organisation et la vente de …
+- dt:Tower : Un bâtiment civil remarquable de forme verticale élancée, généralement utilisé p…
+- dt:TrackRollerOrSkateBoard : Un site sportif et de loisirs équipé d'une piste spécialement aménagée pour la p…
+- dt:Trader : Un négociant est un fournisseur de dégustation spécialisé dans le commerce et la…
+- dt:TraditionalCelebration : Événement social célébrant les coutumes, traditions et patrimoine culturel local…
+- dt:Traineeship : Un stage ou atelier est une pratique touristique offrant une formation ou un app…
+- dt:TrainStation : Une infrastructure ferroviaire destinée à l'embarquement et au débarquement des …
+- dt:Trampoline : Un site sportif équipé de tremplins pour la pratique du saut, du plongeon ou d'a…
+- dt:Transport : Lieu d'intérêt touristique lié aux moyens de transport : gares, aéroports, ports…
+- dt:Transporter : Un prestataire de service spécialisé dans le transport de personnes ou de marcha…
+- dt:TreeHouse : Produit d'hébergement offrant un logement temporaire dans une construction élevé…
+- dt:TriumphalArch : Un monument commémoratif en forme d'arche érigé pour célébrer des victoires mili…
+- dt:TypeOfBed : Catégorie spécifique de couchage proposée dans un hébergement. Ex: lit double, l…
+- dt:UnderwaterRoute : Un itinéraire touristique sous-marin proposant un parcours de découverte des fon…
+- dt:Valley : Une dépression géographique naturelle située entre des reliefs, constituant un s…
+- dt:Velodrome : Un site sportif spécialisé dans le cyclisme sur piste, caractérisé par une piste…
+- dt:ViaFerrata : Un site sportif de montagne équipé de câbles, échelles et passerelles métallique…
+- dt:Video : Contenu vidéo numérique présentant des destinations, activités ou services touri…
+- dt:Visit : Une visite est un produit touristique qui consiste en la découverte guidée ou li…
+- dt:VisualArtsEvent : Évènement culturel à caractère visuel : spectacle son et lumière, feu d'artifice…
+- dt:VivariumAquarium : Un site de loisirs présentant des collections d'animaux aquatiques et terrestres…
+- dt:Volcano : Un site naturel d'intérêt touristique constitué d'une formation géologique volca…
+- dt:VolunteerTourGuideOrGreeter : Un service d'information touristique proposant des visites guidées et d'accueil …
+- dt:WalkingTour : Un itinéraire touristique conçu spécifiquement pour la pratique de la marche à p…
+- dt:WashHouse : Un site de patrimoine technique traditionnel où les habitants lavaient le linge …
+- dt:Waterfall : Site naturel touristique constitué d'une chute d'eau naturelle, offrant un spect…
+- dt:WaterSource : Un service pratique offrant un accès à l'eau potable ou non potable pour les vis…
+- dt:Wetland : Site naturel caractérisé par la présence permanente ou temporaire d'eau, abritan…
+- dt:WifiHotSpot : Un service pratique fournissant un accès internet sans fil aux visiteurs dans un…
+- dt:WintersportsLocomotionMode : Mode de locomotion spécifique aux sports d'hiver pour les itinéraires touristiqu…
+- dt:YachtClub : Un club nautique dédié à la plaisance et aux activités yachting, offrant des ser…
+- dt:YouthHostelAndInternationalCenter : Un hébergement collectif spécialisé dans l'accueil des jeunes voyageurs et des g…
+- dt:Yurt : Un produit d'hébergement proposant le logement dans une habitation traditionnell…
+- dt:ZooAnimalPark : Un site de loisirs présentant des collections d'animaux sauvages ou domestiques …
+
+## Autres modifications
+- dt:cedex : dt:hasPriority modifié
+- dt:ChamberOfCommerceAndIndustry : rdfs:label modifié
+- dt:hasPriority : rdfs:label modifié, rdf:type supprimé
+- dt:reducedMobilityAccess : rdf:type supprimé, rdfs:domain supprimé, rdfs:range supprimé, dt:hasPriority supprimé
+---
+## Thésaurus (thesaurus.ttl)
+## Nouvelles ressources
+- …core (owl:Ontology) — "Référentiel DATAtourisme"
+- data:Padel (owl:NamedIndividual, dt:SportsTheme) — "Padel"
+- data:Champagne (owl:NamedIndividual, dt:FoodProduct) — "Champagne"
+- data:MP3Audio (owl:NamedIndividual, …MimeType) — "audio/mp3"
+- data:MP4Video (owl:NamedIndividual, …MimeType) — "video/mp4"
+- data:NearbyPublicTransportStop (owl:NamedIndividual, dt:AccessAmenity) — "Proximité d'un arrêt de transport en commun"
+- data:PublicTransportAccessInfo (owl:NamedIndividual, dt:AccessAmenity) — "Informations complémentaires"
+- data:AdaptedMunicipalTransportService (owl:NamedIndividual, dt:AccessAmenity) — "Service municipal de transport adapté"
+- data:PrivateParkingOnSite (owl:NamedIndividual, dt:AccessAmenity) — "Stationnement privé dans l'établissement"
+- data:AdaptedParkingOnSite (owl:NamedIndividual, dt:AccessAmenity) — "Stationnements adaptés dans l'établissement"
+- data:NearbyParking (owl:NamedIndividual, dt:AccessAmenity) — "Stationnement à proximité de l'établissement"
+- data:NearbyAdaptedParking (owl:NamedIndividual, dt:AccessAmenity) — "Stationnements adaptés à proximité de l'établissement"
+- data:ExteriorPathToEntrance (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Extérieur entre le trottoir et l'entrée principale du bâtiment"
+- data:ExteriorSurfacing (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Revêtement extérieur"
+- data:LevelExteriorPath (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Chemin extérieur de plain-pied"
+- data:LiftOrElevator (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Ascenseur/élévateur"
+- data:AccessibleLift (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Accessibilité de l'ascenseur"
+- data:StepCount (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Nombre de marches"
+- data:StaircaseDirection (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Sens de circulation de l'escalier"
+- data:StepMarking (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Repérage des marches"
+- data:Handrail (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Main courante"
+- data:Ramp (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Rampe"
+- data:Slope (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Pente"
+- data:SlopeDifficulty (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Degré de difficulté de la pente"
+- data:SlopeLength (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Longueur de la pente"
+- data:CrossFall (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Dévers"
+- data:GuidanceStrip (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Bande de guidage"
+- data:PathNarrowing (owl:NamedIndividual, dt:ExteriorAccessAmenity) — "Rétrécissement du chemin"
+- data:DedicatedDisabledEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Entrée dédiée aux personnes en situation de handicap"
+- data:DedicatedDisabledEntranceInfo (owl:NamedIndividual, dt:EntranceAmenity) — "Informations complémentaires concernant l'entrée dédiée aux personnes en situation de handicap"
+- data:EntranceDoorWidth (owl:NamedIndividual, dt:EntranceAmenity) — "Largeur de la porte ou de l'entrée"
+- data:HumanAssistance (owl:NamedIndividual, dt:EntranceAmenity) — "Aide humaine"
+- data:AudioBeaconAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Balise sonore à l'entrée"
+- data:EntranceCallDevice (owl:NamedIndividual, dt:EntranceAmenity) — "Dispositif d'appel à l'entrée"
+- data:EntranceCallDeviceType (owl:NamedIndividual, dt:EntranceAmenity) — "Type de dispositif d'appel à l'entrée"
+- data:RampAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Rampe"
+- data:HandrailAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Main courante"
+- data:StepMarkingAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Repérage des marches"
+- data:StaircaseDirectionAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Sens de circulation de l'escalier"
+- data:StepCountAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Nombre de marches"
+- data:AccessibleLiftAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Accessibilité de l'ascenseur"
+- data:LiftOrElevatorAtEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Ascenseur/élévateur"
+- data:LevelEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Entrée de plain-pied"
+- data:GlazingMarking (owl:NamedIndividual, dt:EntranceAmenity) — "Repérage de la vitre"
+- data:GlazedEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "Entrée vitrée"
+- data:DoorType (owl:NamedIndividual, dt:EntranceAmenity) — "Type de porte"
+- data:DoorManeuver (owl:NamedIndividual, dt:EntranceAmenity) — "Manoeuvre de la porte"
+- data:EntranceDoor (owl:NamedIndividual, dt:EntranceAmenity) — "Porte d'entrée"
+- data:EstablishmentEntrance (owl:NamedIndividual, dt:EntranceAmenity) — "L'entrée de l'établissement"
+- data:ReceptionAreaVisibility (owl:NamedIndividual, dt:ReceptionAmenity) — "Visibilité de la zone d'accueil"
+- data:PathToReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Chemin entre l'entrée principale du bâtiment et l'accueil de l'établissement"
+- data:LiftOrElevatorAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Ascenseur/élévateur"
+- data:AccessibleLiftAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Accessibilité de l'ascenseur"
+- data:StepCountAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Nombre de marches"
+- data:StaircaseDirectionAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Sens de circulation de l'escalier"
+- data:StepMarkingAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Repérage des marches ou de l'escalier"
+- data:HandrailAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Main courante"
+- data:RampAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Rampe"
+- data:PathNarrowingAtReception (owl:NamedIndividual, dt:ReceptionAmenity) — "Rétrécissement du chemin"
+- data:WheelchairAccessibleRoomCount (owl:NamedIndividual, dt:ReceptionAmenity) — "Nombre de chambres accessibles à une personne en fauteuil roulant"
+- data:AccessibleShower (owl:NamedIndividual, dt:ReceptionAmenity) — "Douche accessible"
+- data:ShowerSeat (owl:NamedIndividual, dt:ReceptionAmenity) — "Siège de douche"
+- data:SecuredShower (owl:NamedIndividual, dt:ReceptionAmenity) — "Douche sécurisée"
+- data:SecuredToilets (owl:NamedIndividual, dt:ReceptionAmenity) — "Toilettes sécurisées"
+- data:AccessibleToilets (owl:NamedIndividual, dt:ReceptionAmenity) — "Toilettes accessibles"
+- data:RoomNumberVisibility (owl:NamedIndividual, dt:ReceptionAmenity) — "Visibilité des numéros de chambres"
+- data:AdaptedAlertEquipment (owl:NamedIndividual, dt:ReceptionAmenity) — "Equipement d'alerte adapté"
+- data:SpecificAccompaniment (owl:NamedIndividual, dt:ReceptionAmenity) — "Accompagnement spécifique"
+- data:ReceptionStaff (owl:NamedIndividual, dt:ReceptionAmenity) — "Personnel d'accueil"
+- data:AudioDescription (owl:NamedIndividual, dt:ReceptionAmenity) — "Audiodescription"
+- data:AudioDescriptionEquipmentType (owl:NamedIndividual, dt:ReceptionAmenity) — "Type d'équipements pour l'audiodescription"
+- data:HearingAidEquipmentPresence (owl:NamedIndividual, dt:ReceptionAmenity) — "Présence d'équipements d'aide à l'audition et à la compréhension"
+- data:HearingAidEquipmentList (owl:NamedIndividual, dt:ReceptionAmenity) — "Liste des équipements d'aide à l'audition et à la communication"
+- data:FloorLift (owl:NamedIndividual, dt:ReceptionAmenity) — "Ascenseur desservant le ou les étages"
+- data:AccessibleFloorLift (owl:NamedIndividual, dt:ReceptionAmenity) — "Accessibilité de l'ascenseur"
+- data:ClassroomAccessibility (owl:NamedIndividual, dt:ReceptionAmenity) — "Accessibilité des salles de classes"
+- data:StudentSpacesAccessibility (owl:NamedIndividual, dt:ReceptionAmenity) — "Accessibilité des différents espaces ouverts aux élèves ou étudiants"
+
+## Renommages
+- Renommage : "Bagagerie" → "Bagagerie, consigne" (data:LuggageRoomOrLocker)
+
+## Commentaires ajoutés
+- data:Barbecue : Équipement de cuisson en plein air
+
+## Autres modifications
+- data:CableSkiing : rdf:type modifié
+- data:Week0 : rdf:type modifié
+- data:Week1 : rdf:type modifié
+- data:Week2 : rdf:type modifié
+- data:Week3 : rdf:type modifié
+- data:Week4 : rdf:type modifié
+- data:Week5 : rdf:type modifié
+- data:padel : rdf:type supprimé
+---
+## Reviews (reviews.ttl)
+## Nouvelles ressources
+- data:LabelRating_AccueilCompostelle (owl:NamedIndividual, dt:LabelRating) — "Accueil chemins de Compostelle en France"
+- data:LabelRating_AccueilMotards (owl:NamedIndividual, dt:LabelRating) — "Accueil motards"
+- data:LabelRating_AccueilPaysan (owl:NamedIndividual, dt:LabelRating) — "Accueil Paysan"
+- data:LabelRating_AccueilVelo (owl:NamedIndividual, dt:LabelRating) — "Accueil Vélo"
+- data:LabelRating_AireNaturelle (owl:NamedIndividual, dt:LabelRating) — "Aire Naturelle"
+- data:LabelRating_ArchitectureContemporaineRemarquable (owl:NamedIndividual, dt:LabelRating) — "Architecture contemporaine remarquable"
+- data:LabelRating_ArtisansDeQualite (owl:NamedIndividual, dt:LabelRating) — "Artisans Militants de la Qualité"
+- data:LabelRating_ATR (owl:NamedIndividual, dt:LabelRating) — "ATR - Agir pour un Tourisme Responsable"
+- data:LabelRating_AubergeCollective (owl:NamedIndividual, dt:LabelRating) — "Auberge collective"
+- data:LabelRating_AubergeDeVillage (owl:NamedIndividual, dt:LabelRating) — "Auberge de Village"
+- data:LabelRating_BenefitCorporation (owl:NamedIndividual, dt:LabelRating) — "B-Corp, Benefit Corporation"
+- data:LabelRating_BibGourmand (owl:NamedIndividual, dt:LabelRating) — "Bib Gourmand Michelin"
+- data:LabelRating_BienvenueaLaFerme (owl:NamedIndividual, dt:LabelRating) — "Bienvenue à la ferme"
+- data:LabelRating_BistrotDePays (owl:NamedIndividual, dt:LabelRating) — "Bistrot de Pays"
+- data:LabelRating_BistrotGourmand (owl:NamedIndividual, dt:LabelRating) — "Bistrot Gourmand"
+- data:LabelRating_BonClimat (owl:NamedIndividual, dt:LabelRating) — "Bon pour le Climat"
+- data:LabelRating_BottinGourmand (owl:NamedIndividual, dt:LabelRating) — "Bottin Gourmand"
+- data:LabelRating_BouillabaisseCharter (owl:NamedIndividual, dt:LabelRating) — "Signataire de la Charte de la bouillabaisse"
+- data:LabelRating_CampingQualite (owl:NamedIndividual, dt:LabelRating) — "Camping Qualité"
+- data:LabelRating_ChambreDhotesReference (owl:NamedIndividual, dt:LabelRating) — "Chambre d'hôtes référence"
+- data:LabelRating_Charmance (owl:NamedIndividual, dt:LabelRating) — "Charmance"
+- data:LabelRating_ChefsDoeuvreDuPatrimoineMondial (owl:NamedIndividual, dt:LabelRating) — "Chefs-d'oeuvre du patrimoine mondial"
+- data:LabelRating_ChouetteNature (owl:NamedIndividual, dt:LabelRating) — "Chouette Nature"
+- data:LabelRating_CityBreakConfort (owl:NamedIndividual, dt:LabelRating) — "City Break Confort"
+- data:LabelRating_CityBreakLuxury (owl:NamedIndividual, dt:LabelRating) — "City Break Luxury"
+- data:LabelRating_CityBreakPremium (owl:NamedIndividual, dt:LabelRating) — "City Break Premium"
+- data:LabelRating_ClefVerte (owl:NamedIndividual, dt:LabelRating) — "Clef Verte"
+- data:LabelRating_CleVacances (owl:NamedIndividual, dt:LabelRating) — "Clé Vacances"
+- data:LabelRating_CoastlandPreservationArea (owl:NamedIndividual, dt:LabelRating) — "Domaine du conservatoire de l'espace littoral"
+- data:LabelRating_CommuneHalte (owl:NamedIndividual, dt:LabelRating) — "Commune halte"
+- data:LabelRating_CommuneTouristique (owl:NamedIndividual, dt:LabelRating) — "Commune touristique"
+- data:LabelRating_CyclingAndWheelchairPath (owl:NamedIndividual, dt:LabelRating) — "Balade à roulette, BR"
+- data:LabelRating_CyclingRoute (owl:NamedIndividual, dt:LabelRating) — "Véloroute"
+- data:LabelRating_Demeter (owl:NamedIndividual, dt:LabelRating) — "Demeter"
+- data:LabelRating_DepartementMapOfHikingAndWalkingPaths (owl:NamedIndividual, dt:LabelRating) — "Plan Départemental des Itinéraires de Promenade et de Randonnée, PDIPR"
+- data:LabelRating_DestinationExcellence (owl:NamedIndividual, dt:LabelRating) — "Destination d'excellence"
+- data:LabelRating_DestinationPourTous (owl:NamedIndividual, dt:LabelRating) — "Destination pour tous"
+- data:LabelRating_DestinationRando (owl:NamedIndividual, dt:LabelRating) — "Destination Rando"
+- data:LabelRating_DivertissementDurable (owl:NamedIndividual, dt:LabelRating) — "Divertissement durable"
+- data:LabelRating_EcoJardin (owl:NamedIndividual, dt:LabelRating) — "Eco Jardin"
+- data:LabelRating_EcolabelEuropeen (owl:NamedIndividual, dt:LabelRating) — "Ecolabel européen"
+- data:LabelRating_Ecotable (owl:NamedIndividual, dt:LabelRating) — "Ecotable"
+- data:LabelRating_EducationTrail (owl:NamedIndividual, dt:LabelRating) — "Sentier de découverte et d'interprétation"
+- data:LabelRating_EscapadeNatureSansVoiture (owl:NamedIndividual, dt:LabelRating) — "Escapade nature sans voiture"
+- data:LabelRating_EspritParc (owl:NamedIndividual, dt:LabelRating) — "Esprit parc national"
+- data:LabelRating_FamilleFamily (owl:NamedIndividual, dt:LabelRating) — "Famille Family"
+- data:LabelRating_FamillePlus (owl:NamedIndividual, dt:LabelRating) — "Famille plus"
+- data:LabelRating_FIG (owl:NamedIndividual, dt:LabelRating) — "Food Index for Good"
+- data:LabelRating_FleursDeSoleil (owl:NamedIndividual, dt:LabelRating) — "Fleurs de Soleil"
+- data:LabelRating_FranceBotanicalGardens (owl:NamedIndividual, dt:LabelRating) — "Jardins botaniques de France"
+- data:LabelRating_FranceSpas (owl:NamedIndividual, dt:LabelRating) — "Spas de France"
+- data:LabelRating_FrenchHikingFederation (owl:NamedIndividual, dt:LabelRating) — "Fédération Française de Randonnée"
+- data:LabelRating_GaultMillau (owl:NamedIndividual, dt:LabelRating) — "Gault&Millau"
+- data:LabelRating_GeoparcMondialUnesco (owl:NamedIndividual, dt:LabelRating) — "Géoparc Mondial UNESCO"
+- data:LabelRating_GitesDeFrance (owl:NamedIndividual, dt:LabelRating) — "Gîtes de France"
+- data:LabelRating_GitesDenfants (owl:NamedIndividual, dt:LabelRating) — "Gîtes de France Enfants"
+- data:LabelRating_GitesEcoGites (owl:NamedIndividual, dt:LabelRating) — "Gîtes de France Ecogîtes"
+- data:LabelRating_GitesInsolites (owl:NamedIndividual, dt:LabelRating) — "Gîtes de France Insolites"
+- data:LabelRating_GitesPanda (owl:NamedIndividual, dt:LabelRating) — "Gîtes de France Panda"
+- data:LabelRating_Gourmediterrannee (owl:NamedIndividual, dt:LabelRating) — "Membre Gourméditerrannée"
+- data:LabelRating_GrandeRandonneeLongDistanceFootpath (owl:NamedIndividual, dt:LabelRating) — "Itinéraire de sentier de grande randonnée, GR"
+- data:LabelRating_GrandesTablesDuMonde (owl:NamedIndividual, dt:LabelRating) — "Grandes tables du monde"
+- data:LabelRating_GrandeTraverseVTTFFC (owl:NamedIndividual, dt:LabelRating) — "Grande Traversée VTT-FFC"
+- data:LabelRating_GrandSiteDeFrance (owl:NamedIndividual, dt:LabelRating) — "Grand Site de France"
+- data:LabelRating_GrandSudConservatoryOfLocalCuisine (owl:NamedIndividual, dt:LabelRating) — "Membre du Conservatoire Grand Sud des Cuisines de Terroir"
+- data:LabelRating_GTMC (owl:NamedIndividual, dt:LabelRating) — "Recommandé GTMC Grand Traversée du Massif Central"
+- data:LabelRating_HebergementPeche (owl:NamedIndividual, dt:LabelRating) — "Hébergement Pêche"
+- data:LabelRating_HotellerieDeFrance (owl:NamedIndividual, dt:LabelRating) — "Hôtellerie de France"
+- data:LabelRating_HotelsNaturel (owl:NamedIndividual, dt:LabelRating) — "Hôtels au Naturel"
+- data:LabelRating_ISO14001 (owl:NamedIndividual, dt:LabelRating) — "ISO 14001"
+- data:LabelRating_ISO20121 (owl:NamedIndividual, dt:LabelRating) — "ISO 20121"
+- data:LabelRating_ItineraireCulturelDuConseilDeLeurope (owl:NamedIndividual, dt:LabelRating) — "Itinéraire culturel du conseil de l'Europe"
+- data:LabelRating_LeadingHotelsOfTheWorld (owl:NamedIndividual, dt:LabelRating) — "Leading hotels of the world"
+- data:LabelRating_LeFooding (owl:NamedIndividual, dt:LabelRating) — "Le Fooding"
+- data:LabelRating_ListedSite (owl:NamedIndividual, dt:LabelRating) — "Site inscrit"
+- data:LabelRating_LivingHeritageEnterprise (owl:NamedIndividual, dt:LabelRating) — "Entreprise du Patrimoine Vivant, EPV"
+- data:LabelRating_LogisRestaurantException (owl:NamedIndividual, dt:LabelRating) — "Table d'exception"
+- data:LabelRating_LogisRestaurantGourmand (owl:NamedIndividual, dt:LabelRating) — "Restaurant Gourmand"
+- data:LabelRating_LogisRestaurantSavoureux (owl:NamedIndividual, dt:LabelRating) — "Restaurant Savoureux"
+- data:LabelRating_LogisRestaurantTerroir (owl:NamedIndividual, dt:LabelRating) — "Restaurant de Terroir"
+- data:LabelRating_LPO (owl:NamedIndividual, dt:LabelRating) — "Ligue de Protection des Oiseaux"
+- data:LabelRating_MaisonDesIllustres (owl:NamedIndividual, dt:LabelRating) — "Maison des Illustres"
+- data:LabelRating_MaisonFamilialeDeVacances (owl:NamedIndividual, dt:LabelRating) — "Maison familiale de vacances"
+- data:LabelRating_MaitreCuisinierDeFrance (owl:NamedIndividual, dt:LabelRating) — "Maître Cuisinier de France"
+- data:LabelRating_MaitreRestaurateur (owl:NamedIndividual, dt:LabelRating) — "Maître Restaurateur"
+- data:LabelRating_MonumentHistorique (owl:NamedIndividual, dt:LabelRating) — "Monument Historique"
+- data:LabelRating_MuseeDeFrance (owl:NamedIndividual, dt:LabelRating) — "Musée de France"
+- data:LabelRating_Natura2000 (owl:NamedIndividual, dt:LabelRating) — "Natura 2000"
+- data:LabelRating_NaturalReserve (owl:NamedIndividual, dt:LabelRating) — "Espace Naturel Sensible"
+- data:LabelRating_NaturalZoneOfEcologicalInterestFaunaAndFlora (owl:NamedIndividual, dt:LabelRating) — "Zone naturelle d'intérêt écologique, faunistique et floristique, ZNIEFF"
+- data:LabelRating_NaturePath (owl:NamedIndividual, dt:LabelRating) — "Voie verte"
+- data:LabelRating_NFEnvironnement (owl:NamedIndividual, dt:LabelRating) — "NF environnement"
+- data:LabelRating_NFEVisite (owl:NamedIndividual, dt:LabelRating) — "NF Environnement – Sites de Visite"
+- data:LabelRating_OrganicFarming (owl:NamedIndividual, dt:LabelRating) — "Agriculture Biologique"
+- data:LabelRating_OutstandingGarden (owl:NamedIndividual, dt:LabelRating) — "Jardin remarquable"
+- data:LabelRating_Palace (owl:NamedIndividual, dt:LabelRating) — "Palace"
+- data:LabelRating_ParcNaturelNational (owl:NamedIndividual, dt:LabelRating) — "Parc Naturel National"
+- data:LabelRating_ParcNaturelRegional (owl:NamedIndividual, dt:LabelRating) — "Parc Naturel Régional"
+- data:LabelRating_ParcoursSavoirFaireFrancais (owl:NamedIndividual, dt:LabelRating) — "Parcours des savoir-faire français"
+- data:LabelRating_ParcResidentielDeLoisirs (owl:NamedIndividual, dt:LabelRating) — "Parc résidentiel de loisirs"
+- data:LabelRating_PatrimoineMondialUnesco (owl:NamedIndividual, dt:LabelRating) — "Patrimoine Mondial UNESCO"
+- data:LabelRating_PavillonBleu (owl:NamedIndividual, dt:LabelRating) — "Pavillon bleu"
+- data:LabelRating_PDESI (owl:NamedIndividual, dt:LabelRating) — "Plan Départemental des Espaces, Sites et Itinéraires, PDESI"
+- data:LabelRating_PetitesCitesDeCaractere (owl:NamedIndividual, dt:LabelRating) — "Petites cités de caractère"
+- data:LabelRating_PlusBeauxDetoursDeFrance (owl:NamedIndividual, dt:LabelRating) — "Plus Beaux Détours de France"
+- data:LabelRating_PlusBeauxVillagesDeFrance (owl:NamedIndividual, dt:LabelRating) — "Plus Beaux Villages de France"
+- data:LabelRating_ProtectedGarden (owl:NamedIndividual, dt:LabelRating) — "Jardin protégé Monument Historique"
+- data:LabelRating_ProtectedSite (owl:NamedIndividual, dt:LabelRating) — "Site protégé"
+- data:LabelRating_QualiteTourisme (owl:NamedIndividual, dt:LabelRating) — "Qualité Tourisme"
+- data:LabelRating_RandoAccueil (owl:NamedIndividual, dt:LabelRating) — "Rando Accueil"
+- data:LabelRating_ReasonedAgriculture (owl:NamedIndividual, dt:LabelRating) — "Agriculture raisonnée"
+- data:LabelRating_RegionalLongDistanceFootpath (owl:NamedIndividual, dt:LabelRating) — "Itinéraire de sentier de grande randonnée de pays GRP"
+- data:LabelRating_RelaisChateaux (owl:NamedIndividual, dt:LabelRating) — "Relais & châteaux"
+- data:LabelRating_RelaisSilence (owl:NamedIndividual, dt:LabelRating) — "Relais du silence"
+- data:LabelRating_ReserveNaturelleNationale (owl:NamedIndividual, dt:LabelRating) — "Réserve naturelle nationale"
+- data:LabelRating_ReserveNaturelleRegionale (owl:NamedIndividual, dt:LabelRating) — "Réserve naturelle régionale"
+- data:LabelRating_ReservesDeCorse (owl:NamedIndividual, dt:LabelRating) — "Réserves de Corse"
+- data:LabelRating_ResponsibleTourism (owl:NamedIndividual, dt:LabelRating) — "Démarche Tourisme Responsable"
+- data:LabelRating_RestaurateurDeQualite (owl:NamedIndividual, dt:LabelRating) — "Restaurateur de Qualité"
+- data:LabelRating_SelectionMichelin (owl:NamedIndividual, dt:LabelRating) — "Sélection Michelin"
+- data:LabelRating_SitesRemarquablesDuGout (owl:NamedIndividual, dt:LabelRating) — "Sites Remarquables du Goût"
+- data:LabelRating_SiteVTTFFC (owl:NamedIndividual, dt:LabelRating) — "Site VTT-FFC"
+- data:LabelRating_StationDeTourisme (owl:NamedIndividual, dt:LabelRating) — "Station de tourisme"
+- data:LabelRating_StationPeche (owl:NamedIndividual, dt:LabelRating) — "Station Pêche"
+- data:LabelRating_StationVerte (owl:NamedIndividual, dt:LabelRating) — "Station Verte"
+- data:LabelRating_TableDePrestige (owl:NamedIndividual, dt:LabelRating) — "Table de prestige"
+- data:LabelRating_TableDeTerroir (owl:NamedIndividual, dt:LabelRating) — "Table de terroir"
+- data:LabelRating_TableDistinguee (owl:NamedIndividual, dt:LabelRating) — "Table distinguée"
+- data:LabelRating_TableGastronomique (owl:NamedIndividual, dt:LabelRating) — "Table gastronomique"
+- data:LabelRating_TablesEtAubergesDeFrance (owl:NamedIndividual, dt:LabelRating) — "Tables et auberges de France"
+- data:LabelRating_Teritoria (owl:NamedIndividual, dt:LabelRating) — "Teritoria"
+- data:LabelRating_TerreDeJeux2024 (owl:NamedIndividual, dt:LabelRating) — "Terre de Jeux 2024"
+- data:LabelRating_TourismeEquitable (owl:NamedIndividual, dt:LabelRating) — "Tourisme Équitable"
+- data:LabelRating_TourismeHandicapPictogrammeAuditif (owl:NamedIndividual, dt:LabelRating) — "Tourisme & Handicap auditif"
+- data:LabelRating_TourismeHandicapPictogrammeMental (owl:NamedIndividual, dt:LabelRating) — "Tourisme & Handicap mental"
+- data:LabelRating_TourismeHandicapPictogrammeMoteur (owl:NamedIndividual, dt:LabelRating) — "Tourisme & Handicap moteur"
+- data:LabelRating_TourismeHandicapPictogrammeVisuel (owl:NamedIndividual, dt:LabelRating) — "Tourisme & Handicap visuel"
+- data:LabelRating_UniVertTrail (owl:NamedIndividual, dt:LabelRating) — "Uni'Vert Trail"
+- data:LabelRating_Valeur (owl:NamedIndividual, dt:LabelRating) — "Valeur"
+- data:LabelRating_ValeursPNR (owl:NamedIndividual, dt:LabelRating) — "Valeurs Parc Naturel Régional"
+- data:LabelRating_VeloFromages (owl:NamedIndividual, dt:LabelRating) — "Vélo & Fromage"
+- data:LabelRating_VigneronsIndependants (owl:NamedIndividual, dt:LabelRating) — "Vignerons Indépendants de France"
+- data:LabelRating_VignoblesDecouvertes (owl:NamedIndividual, dt:LabelRating) — "Vignobles & Découvertes"
+- data:LabelRating_VillageDeNeige (owl:NamedIndividual, dt:LabelRating) — "Village de Neige"
+- data:LabelRating_VillageResidentielDeTourisme (owl:NamedIndividual, dt:LabelRating) — "Village résidentiel de tourisme"
+- data:LabelRating_VilleOuPaysDartEtDhistoire (owl:NamedIndividual, dt:LabelRating) — "Ville ou Pays d'art et d'histoire"
+- data:LabelRating_WalkingAndHikingFootpath (owl:NamedIndividual, dt:LabelRating) — "Itinéraire de promenade et de randonnée, PR"
+- data:LabelReviewSystem_AccueilMotards (owl:NamedIndividual, dt:LabelReviewSystem) — "Accueil motards"
+- data:LabelReviewSystem_AccueilPaysan (owl:NamedIndividual, dt:LabelReviewSystem) — "Accueil Paysan"
+- data:LabelReviewSystem_AFCSJ (owl:NamedIndividual, dt:LabelReviewSystem) — "Agence Française des Chemins de St Jacques"
+- data:LabelReviewSystem_AFNOR (owl:NamedIndividual, dt:LabelReviewSystem) — "AFNOR Certification"
+- data:LabelReviewSystem_AssociationCampingQualite (owl:NamedIndividual, dt:LabelReviewSystem) — "Association Camping Qualité"
+- data:LabelReviewSystem_ATES (owl:NamedIndividual, dt:LabelReviewSystem) — "Association pour le Tourisme Equitable et Solidaire (ATES)"
+- data:LabelReviewSystem_AtoutFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Atout France"
+- data:LabelReviewSystem_ATR (owl:NamedIndividual, dt:LabelReviewSystem) — "Association Agir pour un Tourisme Responsable"
+- data:LabelReviewSystem_BenefitCorporation (owl:NamedIndividual, dt:LabelReviewSystem) — "B-Corp - BenefitCorporation"
+- data:LabelReviewSystem_BienvenueaLaFerme (owl:NamedIndividual, dt:LabelReviewSystem) — "Bienvenue à la ferme"
+- data:LabelReviewSystem_BirdLife (owl:NamedIndividual, dt:LabelReviewSystem) — "BirdLife International"
+- data:LabelReviewSystem_BistrotDePays (owl:NamedIndividual, dt:LabelReviewSystem) — "Fédération Nationale des Bistrots de Pays"
+- data:LabelReviewSystem_BonClimat (owl:NamedIndividual, dt:LabelReviewSystem) — "Association Bon pour le Climat"
+- data:LabelReviewSystem_BottinGourmand (owl:NamedIndividual, dt:LabelReviewSystem) — "Bottin Gourmand"
+- data:LabelReviewSystem_BouillabaisseCharter (owl:NamedIndividual, dt:LabelReviewSystem) — "Charte de la bouillabaisse"
+- data:LabelReviewSystem_CG (owl:NamedIndividual, dt:LabelReviewSystem) — "Conseil Général"
+- data:LabelReviewSystem_ChambreDhotesReference (owl:NamedIndividual, dt:LabelReviewSystem) — "Chambre d'hôtes référence"
+- data:LabelReviewSystem_ChouetteNature (owl:NamedIndividual, dt:LabelReviewSystem) — "Chouette Nature"
+- data:LabelReviewSystem_CityBreakByGitesDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "City Break by Gîtes de France"
+- data:LabelReviewSystem_ClassementDesCommunesTouristiquesEtStationsClassees (owl:NamedIndividual, dt:LabelReviewSystem) — "Classement des communes touristiques et stations classées"
+- data:LabelReviewSystem_ClassementOfficielDesHebergementsTouristiques (owl:NamedIndividual, dt:LabelReviewSystem) — "Classement officiel des hébergements touristiques"
+- data:LabelReviewSystem_ClefVerte (owl:NamedIndividual, dt:LabelReviewSystem) — "Clef verte"
+- data:LabelReviewSystem_Clevacances (owl:NamedIndividual, dt:LabelReviewSystem) — "Clé vacances"
+- data:LabelReviewSystem_CoastlandPreservationArea (owl:NamedIndividual, dt:LabelReviewSystem) — "Domaine du conservatoire de l'espace littoral"
+- data:LabelReviewSystem_CultureMinistry (owl:NamedIndividual, dt:LabelReviewSystem) — "Ministère de la Culture"
+- data:LabelReviewSystem_CyclingAndWheelchairPath (owl:NamedIndividual, dt:LabelReviewSystem) — "Balade à roulette, BR"
+- data:LabelReviewSystem_CyclingRoute (owl:NamedIndividual, dt:LabelReviewSystem) — "Véloroute"
+- data:LabelReviewSystem_DATAtourisme (owl:NamedIndividual, dt:LabelReviewSystem) — "DATAtourisme"
+- data:LabelReviewSystem_Demeter (owl:NamedIndividual, dt:LabelReviewSystem) — "Demeter"
+- data:LabelReviewSystem_DepartementMapOfHikingAndWalkingPaths (owl:NamedIndividual, dt:LabelReviewSystem) — "Plan Départemental des Itinéraires de Promenade et de Randonnée, PDIPR"
+- data:LabelReviewSystem_DestinationRando (owl:NamedIndividual, dt:LabelReviewSystem) — "Destination Rando"
+- data:LabelReviewSystem_DGE (owl:NamedIndividual, dt:LabelReviewSystem) — "Parcours des savoir-faire français"
+- data:LabelReviewSystem_EcoJardin (owl:NamedIndividual, dt:LabelReviewSystem) — "Eco Jardin"
+- data:LabelReviewSystem_EcolabelEuropeen (owl:NamedIndividual, dt:LabelReviewSystem) — "Ecolabel européen"
+- data:LabelReviewSystem_Ecotable (owl:NamedIndividual, dt:LabelReviewSystem) — "Ecotable"
+- data:LabelReviewSystem_EducationTrail (owl:NamedIndividual, dt:LabelReviewSystem) — "Sentier de découverte et d'interprétation"
+- data:LabelReviewSystem_FamilleFamily (owl:NamedIndividual, dt:LabelReviewSystem) — "Famille Family"
+- data:LabelReviewSystem_FamillePlus (owl:NamedIndividual, dt:LabelReviewSystem) — "Famille plus"
+- data:LabelReviewSystem_FederationDesParcsNaturelsRegionauxDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Fédération des Parcs Naturels Régionaux de France"
+- data:LabelReviewSystem_FFC (owl:NamedIndividual, dt:LabelReviewSystem) — "Fédération Française de Cyclisme"
+- data:LabelReviewSystem_FIG (owl:NamedIndividual, dt:LabelReviewSystem) — "Association Food index for Good"
+- data:LabelReviewSystem_FleursDeSoleil (owl:NamedIndividual, dt:LabelReviewSystem) — "Fleurs de soleil"
+- data:LabelReviewSystem_FranceBotanicalGardens (owl:NamedIndividual, dt:LabelReviewSystem) — "Jardins botaniques de France"
+- data:LabelReviewSystem_FranceSpas (owl:NamedIndividual, dt:LabelReviewSystem) — "Spas de France"
+- data:LabelReviewSystem_FrenchAthleticsFederation (owl:NamedIndividual, dt:LabelReviewSystem) — "Fédération Française d'Athlétisme"
+- data:LabelReviewSystem_FrenchHikingFederation (owl:NamedIndividual, dt:LabelReviewSystem) — "Fédération Française de Randonnée"
+- data:LabelReviewSystem_GaultMillau (owl:NamedIndividual, dt:LabelReviewSystem) — "Gault&Millau"
+- data:LabelReviewSystem_GitesDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Gîtes de France"
+- data:LabelReviewSystem_Gourmediterrannee (owl:NamedIndividual, dt:LabelReviewSystem) — "Gourméditerrannée"
+- data:LabelReviewSystem_GrandesTablesDuMonde (owl:NamedIndividual, dt:LabelReviewSystem) — "Grandes tables du monde"
+- data:LabelReviewSystem_GrandSudConservatoryOfLocalCuisine (owl:NamedIndividual, dt:LabelReviewSystem) — "Conservatoire Grand Sud des Cuisines de Terroir"
+- data:LabelReviewSystem_GTMC (owl:NamedIndividual, dt:LabelReviewSystem) — "GTMC Great Crossing of the Massif Central"
+- data:LabelReviewSystem_HebergementPeche (owl:NamedIndividual, dt:LabelReviewSystem) — "Hébergement Pêche"
+- data:LabelReviewSystem_HotelsNaturel (owl:NamedIndividual, dt:LabelReviewSystem) — "Groupement Hôtels au Naturel"
+- data:LabelReviewSystem_ISO (owl:NamedIndividual, dt:LabelReviewSystem) — "Organisation Internationale de Normalisation (ISO)"
+- data:LabelReviewSystem_ItinerairesCulturelsDuConseilDeLeurope (owl:NamedIndividual, dt:LabelReviewSystem) — "Itinéraires culturels du Conseil de l'Europe"
+- data:LabelReviewSystem_Label (owl:NamedIndividual, dt:LabelReviewSystem) — "Label"
+- data:LabelReviewSystem_LabelDestinationPourTous (owl:NamedIndividual, dt:LabelReviewSystem) — "Label Destination pour tous"
+- data:LabelReviewSystem_LabelVignoblesDecouvertes (owl:NamedIndividual, dt:LabelReviewSystem) — "Label Vignobles & Découvertes"
+- data:LabelReviewSystem_LeadingHotelsOfTheWorld (owl:NamedIndividual, dt:LabelReviewSystem) — "Leading hotels of the world"
+- data:LabelReviewSystem_LeFooding (owl:NamedIndividual, dt:LabelReviewSystem) — "Le Fooding"
+- data:LabelReviewSystem_LesPlusBeauxDetoursDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Les Plus Beaux Détours de France"
+- data:LabelReviewSystem_LesPlusBeauxVillagesDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Les Plus Beaux Villages de France"
+- data:LabelReviewSystem_ListedSite (owl:NamedIndividual, dt:LabelReviewSystem) — "Site inscrit"
+- data:LabelReviewSystem_LivingHeritageEnterprise (owl:NamedIndividual, dt:LabelReviewSystem) — "Entreprise du Patrimoine Vivant, EPV"
+- data:LabelReviewSystem_Logis (owl:NamedIndividual, dt:LabelReviewSystem) — "Logis"
+- data:LabelReviewSystem_MaisonFamilialeDeVacances (owl:NamedIndividual, dt:LabelReviewSystem) — "Maison familiale de vacances"
+- data:LabelReviewSystem_MaitresCuisiniersDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Association des Maîtres Cuisiniers de France"
+- data:LabelReviewSystem_MaitresRestaurateurs (owl:NamedIndividual, dt:LabelReviewSystem) — "Association Française des Maîtres Restaurateurs"
+- data:LabelReviewSystem_MarqueAccueilVelo (owl:NamedIndividual, dt:LabelReviewSystem) — "France Vélo Tourisme"
+- data:LabelReviewSystem_MarqueTourismeEtHandicap (owl:NamedIndividual, dt:LabelReviewSystem) — "Marque Tourisme et Handicap"
+- data:LabelReviewSystem_Michelin (owl:NamedIndividual, dt:LabelReviewSystem) — "Guide Michelin"
+- data:LabelReviewSystem_Natura2000 (owl:NamedIndividual, dt:LabelReviewSystem) — "Natura 2000"
+- data:LabelReviewSystem_NaturalReserve (owl:NamedIndividual, dt:LabelReviewSystem) — "Espace Naturel Sensible"
+- data:LabelReviewSystem_NaturalZoneOfEcologicalInterestFaunaAndFlora (owl:NamedIndividual, dt:LabelReviewSystem) — "Zone naturelle d'intérêt écologique, faunistique et floristique, ZNIEFF"
+- data:LabelReviewSystem_NaturePath (owl:NamedIndividual, dt:LabelReviewSystem) — "Voie verte"
+- data:LabelReviewSystem_OrganicFarming (owl:NamedIndividual, dt:LabelReviewSystem) — "Agriculture Biologique"
+- data:LabelReviewSystem_ParcResidentielDeLoisirs (owl:NamedIndividual, dt:LabelReviewSystem) — "Parc résidentiel de loisirs"
+- data:LabelReviewSystem_ParcsNationauxDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Parcs Nationaux de France"
+- data:LabelReviewSystem_PavillonBleu (owl:NamedIndividual, dt:LabelReviewSystem) — "Pavillon bleu"
+- data:LabelReviewSystem_PetitesCitesDeCaractere (owl:NamedIndividual, dt:LabelReviewSystem) — "Petites cités de caractère"
+- data:LabelReviewSystem_ProtectedSite (owl:NamedIndividual, dt:LabelReviewSystem) — "Site protégé"
+- data:LabelReviewSystem_QualiteTourisme (owl:NamedIndividual, dt:LabelReviewSystem) — "Qualité Tourisme"
+- data:LabelReviewSystem_RandoAccueil (owl:NamedIndividual, dt:LabelReviewSystem) — "Rando Accueil"
+- data:LabelReviewSystem_ReasonedAgriculture (owl:NamedIndividual, dt:LabelReviewSystem) — "Agriculture raisonnée"
+- data:LabelReviewSystem_RelaisChateaux (owl:NamedIndividual, dt:LabelReviewSystem) — "Relais & châteaux"
+- data:LabelReviewSystem_RelaisSilence (owl:NamedIndividual, dt:LabelReviewSystem) — "Relais du silence"
+- data:LabelReviewSystem_ReseauDesGrandsSitesDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Réseau des Grands sites de France"
+- data:LabelReviewSystem_ReserveNaturelleDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Réserve naturelle de France"
+- data:LabelReviewSystem_RestaurateurDeQualite (owl:NamedIndividual, dt:LabelReviewSystem) — "Collège culinaire de France"
+- data:LabelReviewSystem_SitesRemarquablesDuGout (owl:NamedIndividual, dt:LabelReviewSystem) — "Sites remarquables du goût"
+- data:LabelReviewSystem_SNELAC (owl:NamedIndividual, dt:LabelReviewSystem) — "Syndicat National des Espaces de Loisirs, d’Attractions et Culturels"
+- data:LabelReviewSystem_StationsVertes (owl:NamedIndividual, dt:LabelReviewSystem) — "Stations Vertes"
+- data:LabelReviewSystem_TablesEtAubergesDeFrance (owl:NamedIndividual, dt:LabelReviewSystem) — "Tables et Auberges de France"
+- data:LabelReviewSystem_Teritoria (owl:NamedIndividual, dt:LabelReviewSystem) — "Demeter"
+- data:LabelReviewSystem_TerreDeJeux2024 (owl:NamedIndividual, dt:LabelReviewSystem) — "Terre de Jeux 2024"
+- data:LabelReviewSystem_UNESCO (owl:NamedIndividual, dt:LabelReviewSystem) — "UNESCO"
+- data:LabelReviewSystem_VeloTerritoires (owl:NamedIndividual, dt:LabelReviewSystem) — "Vélo & Territoires"
+- data:LabelReviewSystem_VigneronsIndependants (owl:NamedIndividual, dt:LabelReviewSystem) — "Vignerons Indépendants de France"
+- data:LabelReviewSystem_VillageResidentielDeTourisme (owl:NamedIndividual, dt:LabelReviewSystem) — "Village résidentiel de tourisme"
+- data:ScaleRating_1arobace (owl:NamedIndividual, dt:ScaleRating) — "1@"
+- data:ScaleRating_1Cle (owl:NamedIndividual, dt:ScaleRating) — "1 Clé"
+- data:ScaleRating_1epi (owl:NamedIndividual, dt:ScaleRating) — "1 épi"
+- data:ScaleRating_1etoile (owl:NamedIndividual, dt:ScaleRating) — "1 étoile"
+- data:ScaleRating_1Fleur (owl:NamedIndividual, dt:ScaleRating) — "1 fleur"
+- data:ScaleRating_2arobace (owl:NamedIndividual, dt:ScaleRating) — "2@"
+- data:ScaleRating_2Cles (owl:NamedIndividual, dt:ScaleRating) — "2 Clés"
+- data:ScaleRating_2epis (owl:NamedIndividual, dt:ScaleRating) — "2 épis"
+- data:ScaleRating_2etoiles (owl:NamedIndividual, dt:ScaleRating) — "2 étoiles"
+- data:ScaleRating_2Fleurs (owl:NamedIndividual, dt:ScaleRating) — "2 fleurs"
+- data:ScaleRating_3arobace (owl:NamedIndividual, dt:ScaleRating) — "3@"
+- data:ScaleRating_3Cles (owl:NamedIndividual, dt:ScaleRating) — "3 Clés"
+- data:ScaleRating_3epis (owl:NamedIndividual, dt:ScaleRating) — "3 épis / Confort"
+- data:ScaleRating_3etoiles (owl:NamedIndividual, dt:ScaleRating) — "3 étoiles"
+- data:ScaleRating_3Fleurs (owl:NamedIndividual, dt:ScaleRating) — "3 fleurs"
+- data:ScaleRating_4arobace (owl:NamedIndividual, dt:ScaleRating) — "4@"
+- data:ScaleRating_4Cles (owl:NamedIndividual, dt:ScaleRating) — "4 Clés"
+- data:ScaleRating_4epis (owl:NamedIndividual, dt:ScaleRating) — "4 épis / Premium"
+- data:ScaleRating_4etoiles (owl:NamedIndividual, dt:ScaleRating) — "4 étoiles"
+- data:ScaleRating_4Fleurs (owl:NamedIndividual, dt:ScaleRating) — "4 fleurs"
+- data:ScaleRating_5arobace (owl:NamedIndividual, dt:ScaleRating) — "5@"
+- data:ScaleRating_5Cles (owl:NamedIndividual, dt:ScaleRating) — "5 Clés"
+- data:ScaleRating_5epis (owl:NamedIndividual, dt:ScaleRating) — "5 épis / Luxury"
+- data:ScaleRating_5etoiles (owl:NamedIndividual, dt:ScaleRating) — "5 étoiles"
+- data:ScaleRating_AffichageEnvironnementalA (owl:NamedIndividual, dt:ScaleRating) — "Affichage Environnemental A"
+- data:ScaleRating_AffichageEnvironnementalB (owl:NamedIndividual, dt:ScaleRating) — "Affichage Environnemental B"
+- data:ScaleRating_AffichageEnvironnementalC (owl:NamedIndividual, dt:ScaleRating) — "Affichage Environnemental C"
+- data:ScaleRating_AffichageEnvironnementalD (owl:NamedIndividual, dt:ScaleRating) — "Affichage Environnemental D"
+- data:ScaleRating_AffichageEnvironnementalE (owl:NamedIndividual, dt:ScaleRating) — "Affichage Environnemental E"
+- data:ScaleRating_Categorie1 (owl:NamedIndividual, dt:ScaleRating) — "Catégorie 1"
+- data:ScaleRating_Categorie2 (owl:NamedIndividual, dt:ScaleRating) — "Catégorie 2"
+- data:ScaleRating_DeuxEtoilesMichelin (owl:NamedIndividual, dt:ScaleRating) — "2 étoiles Michelin"
+- data:ScaleRating_EvenementEcoEngageInitial (owl:NamedIndividual, dt:ScaleRating) — "Événement éco-engagé Initial"
+- data:ScaleRating_EvenementEcoEngageSoutenable (owl:NamedIndividual, dt:ScaleRating) — "Événement éco-engagé Soutenable"
+- data:ScaleRating_EvenementEcoEngageTransition (owl:NamedIndividual, dt:ScaleRating) — "Événement éco-engagé En transition"
+- data:ScaleRating_GreenFoodAmbassadeur (owl:NamedIndividual, dt:ScaleRating) — "Green Food Ambassadeur"
+- data:ScaleRating_GreenFoodConfirme (owl:NamedIndividual, dt:ScaleRating) — "Green Food Confirmé"
+- data:ScaleRating_GreenGlobeCertifie (owl:NamedIndividual, dt:ScaleRating) — "Green Globe Certifié"
+- data:ScaleRating_GreenGlobeGold (owl:NamedIndividual, dt:ScaleRating) — "Green Globe Gold"
+- data:ScaleRating_GreenGlobePlatinium (owl:NamedIndividual, dt:ScaleRating) — "Green Globe Platinium"
+- data:ScaleRating_HotelCosy (owl:NamedIndividual, dt:ScaleRating) — "Hôtel Cosy"
+- data:ScaleRating_HotelElegance (owl:NamedIndividual, dt:ScaleRating) — "Hôtel Elégance"
+- data:ScaleRating_HotelEssentiel (owl:NamedIndividual, dt:ScaleRating) — "Hôtel Essentiel"
+- data:ScaleRating_HotelException (owl:NamedIndividual, dt:ScaleRating) — "Hôtel d'Exception"
+- data:ScaleRating_LeadArgent (owl:NamedIndividual, dt:ScaleRating) — "Label Evénement à Ambition Durable Argent"
+- data:ScaleRating_LeadBronze (owl:NamedIndividual, dt:ScaleRating) — "Label Evénement à Ambition Durable Bronze"
+- data:ScaleRating_LeadOr (owl:NamedIndividual, dt:ScaleRating) — "Label Evénement à Ambition Durable Or"
+- data:ScaleRating_Lucie26000 (owl:NamedIndividual, dt:ScaleRating) — "LUCIE 26000"
+- data:ScaleRating_LucieProgress (owl:NamedIndividual, dt:ScaleRating) — "LUCIE Progress"
+- data:ScaleRating_luxury (owl:NamedIndividual, dt:ScaleRating) — "Luxe"
+- data:ScaleRating_NumRes1 (owl:NamedIndividual, dt:ScaleRating) — "Numérique Responsable - Niveau 1"
+- data:ScaleRating_NumRes2 (owl:NamedIndividual, dt:ScaleRating) — "Numérique Responsable - Niveau 2"
+- data:ScaleRating_RSEConfirme (owl:NamedIndividual, dt:ScaleRating) — "Engagé RSE Confirmé"
+- data:ScaleRating_RSEExemplaire (owl:NamedIndividual, dt:ScaleRating) — "Engagé RSE Exemplaire"
+- data:ScaleRating_RSEInitial (owl:NamedIndividual, dt:ScaleRating) — "Engagé RSE Initial"
+- data:ScaleRating_RSEProgression (owl:NamedIndividual, dt:ScaleRating) — "Engagé RSE Progression"
+- data:ScaleRating_TroisEtoilesMichelin (owl:NamedIndividual, dt:ScaleRating) — "3 étoiles Michelin"
+- data:ScaleRating_UneEtoileMichelin (owl:NamedIndividual, dt:ScaleRating) — "1 étoile Michelin"
+- data:ScaleReviewSystem_AFNOR (owl:NamedIndividual, dt:ScaleReviewSystem) — "AFNOR Certification"
+- data:ScaleReviewSystem_ClassementOfficielDesHebergementsTouristiques (owl:NamedIndividual, dt:ScaleReviewSystem) — "Classement officiel des hébergements touristiques"
+- data:ScaleReviewSystem_ClassementOfficielDesLocaltouristoffice (owl:NamedIndividual, dt:ScaleReviewSystem) — "Classement officiel des Offices de Tourisme"
+- data:ScaleReviewSystem_Clevacances (owl:NamedIndividual, dt:ScaleReviewSystem) — "Clévacances"
+- data:ScaleReviewSystem_GitesDeFrance (owl:NamedIndividual, dt:ScaleReviewSystem) — "Gîtes de France"
+- data:ScaleReviewSystem_GreenEvenements (owl:NamedIndividual, dt:ScaleReviewSystem) — "Green Evénements"
+- data:ScaleReviewSystem_GreenFood (owl:NamedIndividual, dt:ScaleReviewSystem) — "Green Food"
+- data:ScaleReviewSystem_GreenGlobe (owl:NamedIndividual, dt:ScaleReviewSystem) — "Green Food"
+- data:ScaleReviewSystem_LabelNationalSVillesEtVillagesInternet (owl:NamedIndividual, dt:ScaleReviewSystem) — "Label National s, Villes et Villages Internet"
+- data:ScaleReviewSystem_Logis (owl:NamedIndividual, dt:ScaleReviewSystem) — "Logis"
+- data:ScaleReviewSystem_Lucie (owl:NamedIndividual, dt:ScaleReviewSystem) — "Agence LUCIE"
+- data:ScaleReviewSystem_LucieNum (owl:NamedIndividual, dt:ScaleReviewSystem) — "Agence LUCIE"
+- data:ScaleReviewSystem_Michelin (owl:NamedIndividual, dt:ScaleReviewSystem) — "Guide Michelin"
+- data:ScaleReviewSystem_MTECT (owl:NamedIndividual, dt:ScaleReviewSystem) — "Ministère de la Transition Écologique et de la Cohésion des Territoires"
+- data:ScaleReviewSystem_REEVE (owl:NamedIndividual, dt:ScaleReviewSystem) — "Réseau éco-événement"
+- data:ScaleReviewSystem_VillesEtVillagesFleuris (owl:NamedIndividual, dt:ScaleReviewSystem) — "Villes et Villages Fleuris"
+
+## Autres modifications
+- data:3GPP2Media : rdf:type supprimé
+- data:3GPPMedia : rdf:type supprimé
+- data:6PinBowling : rdf:type supprimé
+- data:7ZArchive : rdf:type supprimé
+- data:8PinBowling : rdf:type supprimé
+- data:9PinBowling : rdf:type supprimé
+- data:AbiWord : rdf:type supprimé
+- data:AcceslibrePlatform : rdf:type supprimé, dt:hasExternalPlatformUrl supprimé
+- data:Accommodation : rdf:type supprimé
+- data:AccompaniedPractice : rdf:type supprimé
+- data:AdditionalPerson : rdf:type supprimé
+- data:AdditionalServicesBooking : rdf:type supprimé
+- data:AdultMenu : rdf:type supprimé
+- data:Adults : rdf:type supprimé
+- data:AdventureCourse : rdf:type supprimé
+- data:Aerodrome : rdf:type supprimé
+- data:AerospaceSpace : rdf:type supprimé
+- data:Afghanistan : rdf:type supprimé
+- data:AfricanCuisine : rdf:type supprimé
+- data:AirConditioner : rdf:type supprimé
+- data:AirlineBooking : rdf:type supprimé
+- data:AirSports : rdf:type supprimé
+- data:AirTourDeFrance : rdf:type supprimé
+- data:AlaCarte : rdf:type supprimé
+- data:AlandIsles : rdf:type supprimé
+- data:Albania : rdf:type supprimé
+- data:Algeria : rdf:type supprimé
+- data:AllterrainwheelchairMode : rdf:type supprimé
+- data:Alpine : rdf:type supprimé
+- data:AlpineSkiing : rdf:type supprimé
+- data:AmazonKindle : rdf:type supprimé
+- data:AmericanExpress : rdf:type supprimé
+- data:AmericanFootball : rdf:type supprimé
+- data:AmericanSamoa : rdf:type supprimé
+- data:Amphitheater : rdf:type supprimé
+- data:Andorra : rdf:type supprimé
+- data:Angola : rdf:type supprimé
+- data:Anguilla : rdf:type supprimé
+- data:AnimationFilm : rdf:type supprimé
+- data:Antarctica : rdf:type supprimé
+- data:Anthropology : rdf:type supprimé
+- data:AntiguaAndBarbuda : rdf:type supprimé
+- data:Antique : rdf:type supprimé
+- data:Antiquity : rdf:type supprimé
+- data:ApartmentRental : rdf:type supprimé
+- data:AquaWalking : rdf:type supprimé
+- data:Arboretum : rdf:type supprimé
+- data:Archeology : rdf:type supprimé
+- data:Archery : rdf:type supprimé
+- data:ArchitectureAndHeritage : rdf:type supprimé
+- data:Argentina : rdf:type supprimé
+- data:Armenia : rdf:type supprimé
+- data:ArtGallery : rdf:type supprimé
+- data:ArtistsHouse : rdf:type supprimé
+- data:ArtNouveauOrArtDeco : rdf:type supprimé
+- data:Artotheque : rdf:type supprimé
+- data:ArtSale : rdf:type supprimé
+- data:ArtsAndCraft : rdf:type supprimé
+- data:Aruba : rdf:type supprimé
+- data:AsianCuisine : rdf:type supprimé
+- data:Associations : rdf:type supprimé
+- data:Astrology : rdf:type supprimé
+- data:Astronomy : rdf:type supprimé
+- data:AtAFarm : rdf:type supprimé
+- data:ATBabystroller : rdf:type supprimé
+- data:Athletics : rdf:type supprimé
+- data:ATM : rdf:type supprimé
+- data:AtTheFootOfTheSlopes : rdf:type supprimé
+- data:AtTheVineyard : rdf:type supprimé
+- data:ATV : rdf:type supprimé
+- data:AudioAac : rdf:type supprimé
+- data:AudioGuide : rdf:type supprimé
+- data:AudioVideoInterleave : rdf:type supprimé
+- data:Auditorium : rdf:type supprimé
+- data:AuditoriumConfiguration : rdf:type supprimé
+- data:Australia : rdf:type supprimé
+- data:Austria : rdf:type supprimé
+- data:Automates : rdf:type supprimé
+- data:Automobile : rdf:type supprimé
+- data:Azerbaijan : rdf:type supprimé
+- data:BabyChair : rdf:type supprimé
+- data:BabyClub : rdf:type supprimé
+- data:BabyEquipment : rdf:type supprimé
+- data:BabySitter : rdf:type supprimé
+- data:BabystrollerMode : rdf:type supprimé
+- data:Badminton : rdf:type supprimé
+- data:BadmintonCourt : rdf:type supprimé
+- data:Bahamas : rdf:type supprimé
+- data:Bahrain : rdf:type supprimé
+- data:Balneotherapy : rdf:type supprimé
+- data:Bangladesh : rdf:type supprimé
+- data:BanquetConfiguration : rdf:type supprimé
+- data:Bar : rdf:type supprimé
+- data:Barbados : rdf:type supprimé
+- data:Barbecue : rdf:type supprimé
+- data:BarePitch : rdf:type supprimé
+- data:Baroque : rdf:type supprimé
+- data:BarqueMode : rdf:type supprimé
+- data:Baseball : rdf:type supprimé
+- data:BaseRateFullRate : rdf:type supprimé
+- data:Basketball : rdf:type supprimé
+- data:BasketballCourt : rdf:type supprimé
+- data:Basketry : rdf:type supprimé
+- data:BasquePelota : rdf:type supprimé
+- data:Bath : rdf:type supprimé
+- data:Bathing : rdf:type supprimé
+- data:BathroomLinenRental : rdf:type supprimé
+- data:BathroomSink : rdf:type supprimé
+- data:Beach : rdf:type supprimé
+- data:BeachClub : rdf:type supprimé
+- data:BeachUmbrella : rdf:type supprimé
+- data:BeachVolleyball : rdf:type supprimé
+- data:BeachVolleyballCourt : rdf:type supprimé
+- data:Bed : rdf:type supprimé
+- data:Bedroom : rdf:type supprimé
+- data:BeeProduct : rdf:type supprimé
+- data:Beer : rdf:type supprimé
+- data:Belarus : rdf:type supprimé
+- data:Belgium : rdf:type supprimé
+- data:Belize : rdf:type supprimé
+- data:Benin : rdf:type supprimé
+- data:Bermuda : rdf:type supprimé
+- data:BetweenFriends : rdf:type supprimé
+- data:Bhutan : rdf:type supprimé
+- data:Biathlon : rdf:type supprimé
+- data:BicycleTouring : rdf:type supprimé
+- data:Bike : rdf:type supprimé
+- data:BikeGarage : rdf:type supprimé
+- data:BikeHire : rdf:type supprimé
+- data:BikeLoan : rdf:type supprimé
+- data:BikeParking : rdf:type supprimé
+- data:BikeRepairService : rdf:type supprimé
+- data:BikeRoom : rdf:type supprimé
+- data:BikeRoute0020GrandTourDeManche : rdf:type supprimé
+- data:BikeRoute0021PetitTourDeManche : rdf:type supprimé
+- data:BikeRoute0022LaLoireAVelo : rdf:type supprimé
+- data:BikeRoute0102ValleeDeLaSerre : rdf:type supprimé
+- data:BikeRoute0103ValleeDeLOurcq : rdf:type supprimé
+- data:BikeRoute0300VoieVerteDEvreuxALaValleeDuBec : rdf:type supprimé
+- data:BikeRoute0301 : rdf:type supprimé
+- data:BikeRoute0302VelorouteDeLAvre : rdf:type supprimé
+- data:BikeRoute0303 : rdf:type supprimé
+- data:BikeRoute0304VelorouteDuLin : rdf:type supprimé
+- data:BikeRoute0305VelorouteDeLaRisle : rdf:type supprimé
+- data:BikeRoute0306VelorouteDeLaCharentonne : rdf:type supprimé
+- data:BikeRoute0307 : rdf:type supprimé
+- data:BikeRoute0330 : rdf:type supprimé
+- data:BikeRoute0331VelorouteDeLaBaieDuMontSaintMichelEtVoieVerteDuCotentin : rdf:type supprimé
+- data:BikeRoute0332VelorouteDeVireAClecy : rdf:type supprimé
+- data:BikeRoute0333PlagesDuDebarquementMtStMichel : rdf:type supprimé
+- data:BikeRoute0360IndreAVelo : rdf:type supprimé
+- data:BikeRoute0361ValleeDeLEureLEureAVelo : rdf:type supprimé
+- data:BikeRoute0362TraverseeDeLaSologne : rdf:type supprimé
+- data:BikeRoute0363ValleeDeLaVienneTourraineBerryAVelo : rdf:type supprimé
+- data:BikeRoute0364ValleeDeLaCreuseSudBerry : rdf:type supprimé
+- data:BikeRoute0365CheminsDeSaintJacques : rdf:type supprimé
+- data:BikeRoute0366CaenToursSaumur : rdf:type supprimé
+- data:BikeRoute0367SaintJacquesAVelo : rdf:type supprimé
+- data:BikeRoute0368SaintJacquesAVeloViaChartres : rdf:type supprimé
+- data:BikeRoute0370LaValleeDuLoirAVelo : rdf:type supprimé
+- data:BikeRoute0410CanalDeNantesABrest : rdf:type supprimé
+- data:BikeRoute0430LesVoiesVertesDeMayenne : rdf:type supprimé
+- data:BikeRoute0431VelorouteNoyensurSartheSablesurSarthe : rdf:type supprimé
+- data:BikeRoute0432 : rdf:type supprimé
+- data:BikeRoute0433LaValleeDuLoir : rdf:type supprimé
+- data:BikeRoute0434VoieVerteChateauGontierChemaze : rdf:type supprimé
+- data:BikeRoute0435 : rdf:type supprimé
+- data:BikeRoute0436VoieVerteJavronlesChapellesMayenne : rdf:type supprimé
+- data:BikeRoute0437LaSartheAVeloDAlenconABeaumontsurSartheV44VarianteEst : rdf:type supprimé
+- data:BikeRoute0438LaSartheAVeloDuMansAChateauduLoir : rdf:type supprimé
+- data:BikeRoute0441 : rdf:type supprimé
+- data:BikeRoute0442 : rdf:type supprimé
+- data:BikeRoute0443 : rdf:type supprimé
+- data:BikeRoute0444 : rdf:type supprimé
+- data:BikeRoute0445 : rdf:type supprimé
+- data:BikeRoute0446 : rdf:type supprimé
+- data:BikeRoute0447VelorouteDeLileDYeu : rdf:type supprimé
+- data:BikeRoute0448 : rdf:type supprimé
+- data:BikeRoute0449VoieVerteAmbriereslesValleesLaChapelleAnthenaise : rdf:type supprimé
+- data:BikeRoute0450 : rdf:type supprimé
+- data:BikeRoute0451VignobleLoireLayonAubance : rdf:type supprimé
+- data:BikeRoute0452EntreLoireAubance : rdf:type supprimé
+- data:BikeRoute0453VignobleValleeDuThouet : rdf:type supprimé
+- data:BikeRoute0454EntreLoireEtFalun : rdf:type supprimé
+- data:BikeRoute0470TransOise : rdf:type supprimé
+- data:BikeRoute0471 : rdf:type supprimé
+- data:BikeRoute0472 : rdf:type supprimé
+- data:BikeRoute0473 : rdf:type supprimé
+- data:BikeRoute0474 : rdf:type supprimé
+- data:BikeRoute0475 : rdf:type supprimé
+- data:BikeRoute0476 : rdf:type supprimé
+- data:BikeRoute0477 : rdf:type supprimé
+- data:BikeRoute0478 : rdf:type supprimé
+- data:BikeRoute0479 : rdf:type supprimé
+- data:BikeRoute0480 : rdf:type supprimé
+- data:BikeRoute0481 : rdf:type supprimé
+- data:BikeRoute0482 : rdf:type supprimé
+- data:BikeRoute0483 : rdf:type supprimé
+- data:BikeRoute0501PisteCyclableDuLacDuDer : rdf:type supprimé
+- data:BikeRoute0502LiaisonMarneLacDuDer : rdf:type supprimé
+- data:BikeRoute0503VoieVerteDuCanalDeLaSeine : rdf:type supprimé
+- data:BikeRoute0504 : rdf:type supprimé
+- data:BikeRoute0505VelovoieDesLacs : rdf:type supprimé
+- data:BikeRoute0506 : rdf:type supprimé
+- data:BikeRoute0507 : rdf:type supprimé
+- data:BikeRoute0508 : rdf:type supprimé
+- data:BikeRoute0509 : rdf:type supprimé
+- data:BikeRoute0510 : rdf:type supprimé
+- data:BikeRoute0511VelorouteDeLaChiers : rdf:type supprimé
+- data:BikeRoute0512 : rdf:type supprimé
+- data:BikeRoute0513 : rdf:type supprimé
+- data:BikeRoute0530VelorouteDuFeuEntreCristalEtFaienceVelorouteDePiemontVosgien : rdf:type supprimé
+- data:BikeRoute0531 : rdf:type supprimé
+- data:BikeRoute0532 : rdf:type supprimé
+- data:BikeRoute0533BoucleDeLaMoselle : rdf:type supprimé
+- data:BikeRoute0534AuFilDeLaMeurtheVelorouteDeLaValleeDeLaMeurthe : rdf:type supprimé
+- data:BikeRoute0535VoieDuSouvenirVelorouteDeLaMemoire1418 : rdf:type supprimé
+- data:BikeRoute0560LeTourDeBourgogneAVeloItiRegional : rdf:type supprimé
+- data:BikeRoute0561LaVoieBleue : rdf:type supprimé
+- data:BikeRoute0630LiaisonV50EV6VoieVerteLeCheminVertLaTraceDuCourlis : rdf:type supprimé
+- data:BikeRoute0634LiaisonDuNordTerritoire : rdf:type supprimé
+- data:BikeRoute0635FrancoVeloSuisse : rdf:type supprimé
+- data:BikeRoute0660LaViaFluvia : rdf:type supprimé
+- data:BikeRoute0730 : rdf:type supprimé
+- data:BikeRoute0731 : rdf:type supprimé
+- data:BikeRoute0732 : rdf:type supprimé
+- data:BikeRoute0733 : rdf:type supprimé
+- data:BikeRoute0760VeloroutePyreneesGaveAdour : rdf:type supprimé
+- data:BikeRoute0763 : rdf:type supprimé
+- data:BikeRoute0764LaValleeDeLaVezere : rdf:type supprimé
+- data:BikeRoute0765AxeNordSud : rdf:type supprimé
+- data:BikeRoute0767 : rdf:type supprimé
+- data:BikeRoute0768LesBergesDeLAdour : rdf:type supprimé
+- data:BikeRoute0830VelorouteRetroLittorale : rdf:type supprimé
+- data:BikeRoute0831AxeTetPyreneesValleeDeLaTet : rdf:type supprimé
+- data:BikeRoute0832VelorouteNordLozere : rdf:type supprimé
+- data:BikeRoute0833AxeLittoralLaNarbonaise : rdf:type supprimé
+- data:BikeRoute0860AzurCamargues : rdf:type supprimé
+- data:BikeRoute12CanalDeLaBruche : rdf:type supprimé
+- data:BikeRoute360VelorouteDeLEscaut : rdf:type supprimé
+- data:BikeRoute362VelorouteAuFilDeLeau : rdf:type supprimé
+- data:BikeRoute363VelorouteDeLaSambre : rdf:type supprimé
+- data:BikeRoute364VeloroutesDesFlandres : rdf:type supprimé
+- data:BikeRoute365VelorouteDuParisRoubaix : rdf:type supprimé
+- data:BikeRoute602VelorouteDuVignobleVV:HautRhinMarlenheim : rdf:type supprimé
+- data:BikeRouteEV10BalticSeaCycleRoute : rdf:type supprimé
+- data:BikeRouteEV11EastEuropeRoute : rdf:type supprimé
+- data:BikeRouteEV12NorthSeaCycleRoute : rdf:type supprimé
+- data:BikeRouteEV13IronCurtainTrail : rdf:type supprimé
+- data:BikeRouteEV15VelorouteRhin : rdf:type supprimé
+- data:BikeRouteEV17ViaRhona : rdf:type supprimé
+- data:BikeRouteEV19LaMeuseAVelo : rdf:type supprimé
+- data:BikeRouteEV1LaVelodyssee : rdf:type supprimé
+- data:BikeRouteEV2RouteDesCapitales : rdf:type supprimé
+- data:BikeRouteEV3LaScandiberique : rdf:type supprimé
+- data:BikeRouteEV4VelorouteDEuropeCentrale : rdf:type supprimé
+- data:BikeRouteEV5ViaRomeaFrancigena : rdf:type supprimé
+- data:BikeRouteEV6VelorouteDesFleuves : rdf:type supprimé
+- data:BikeRouteEV7VelorouteDuSoleil : rdf:type supprimé
+- data:BikeRouteEV8LaMediterraneeAVelo : rdf:type supprimé
+- data:BikeRouteEV9BalticAdriatic : rdf:type supprimé
+- data:BikeRouteLaVoieBleue : rdf:type supprimé
+- data:BikeRouteV0861ViaVenaissia : rdf:type supprimé
+- data:BikeRouteV0862ValDeDurance : rdf:type supprimé
+- data:BikeRouteV0863AutourDuLuberonAVelo : rdf:type supprimé
+- data:BikeRouteV0864PertuisAixMarseille : rdf:type supprimé
+- data:BikeRouteV0865VelorouteDesPignes : rdf:type supprimé
+- data:BikeRouteV101NantesPaysdeRetz : rdf:type supprimé
+- data:BikeRouteV102NantesVignoble : rdf:type supprimé
+- data:BikeRouteV16aAvenueVerteLondonParisVarianteEst : rdf:type supprimé
+- data:BikeRouteV16AvenueVerteLondonParis : rdf:type supprimé
+- data:BikeRouteV16bAvenueVerteLondonParisVarianteOuest : rdf:type supprimé
+- data:BikeRouteV2SaintMaloAArzal : rdf:type supprimé
+- data:BikeRouteV30VelorouteDeLaSommeALaMarne : rdf:type supprimé
+- data:BikeRouteV31VelorouteLensMaubeuge : rdf:type supprimé
+- data:BikeRouteV32VelorouteDuNord : rdf:type supprimé
+- data:BikeRouteV33LaSeineAVelo : rdf:type supprimé
+- data:BikeRouteV34VelorouteDuCanalDesArdennes : rdf:type supprimé
+- data:BikeRouteV3SaintMaloARhuys : rdf:type supprimé
+- data:BikeRouteV40FutureVarianteVeloscenie : rdf:type supprimé
+- data:BikeRouteV40LaVeloscenie : rdf:type supprimé
+- data:BikeRouteV41SaintJacquesAVelo : rdf:type supprimé
+- data:BikeRouteV42VelorouteDeLaRanceEtDeLaVilaine : rdf:type supprimé
+- data:BikeRouteV43LaVeloFrancette : rdf:type supprimé
+- data:BikeRouteV44AlenconLeMansSaumur : rdf:type supprimé
+- data:BikeRouteV45LaLittorale : rdf:type supprimé
+- data:BikeRouteV46 : rdf:type supprimé
+- data:BikeRouteV47ValleeDuLoirAVelo : rdf:type supprimé
+- data:BikeRouteV48VelorouteLoingLoireBerry : rdf:type supprimé
+- data:BikeRouteV49IndreAVelo : rdf:type supprimé
+- data:BikeRouteV50 : rdf:type supprimé
+- data:BikeRouteV51LeTourDeBourgogneAVelo : rdf:type supprimé
+- data:BikeRouteV52VelorouteParisStrasbourg : rdf:type supprimé
+- data:BikeRouteV53VelorouteDeLaMarneALaSaone : rdf:type supprimé
+- data:BikeRouteV54LaMeuseAVeloVoieVerteTransArdennes : rdf:type supprimé
+- data:BikeRouteV55 : rdf:type supprimé
+- data:BikeRouteV56VelorouteTroyesLaCharitesurLoire : rdf:type supprimé
+- data:BikeRouteV5RoscoffAPenestin : rdf:type supprimé
+- data:BikeRouteV61DuLemanAuMontBlanc : rdf:type supprimé
+- data:BikeRouteV62VelorouteDuSillonAlpin : rdf:type supprimé
+- data:BikeRouteV63VelorouteDuSillonAlpin : rdf:type supprimé
+- data:BikeRouteV64VelorouteDeLaTraverseeDesAlpes : rdf:type supprimé
+- data:BikeRouteV65 : rdf:type supprimé
+- data:BikeRouteV66 : rdf:type supprimé
+- data:BikeRouteV6CamaretAVitre : rdf:type supprimé
+- data:BikeRouteV70VelorouteDuMassifCentral : rdf:type supprimé
+- data:BikeRouteV71Veloire : rdf:type supprimé
+- data:BikeRouteV72 : rdf:type supprimé
+- data:BikeRouteV73ViaFluvia : rdf:type supprimé
+- data:BikeRouteV74 : rdf:type supprimé
+- data:BikeRouteV75VelorouteDuBourbonnais : rdf:type supprimé
+- data:BikeRouteV7RoscoffAConcarneau : rdf:type supprimé
+- data:BikeRouteV80LeCanalDes2MersAVelo : rdf:type supprimé
+- data:BikeRouteV811LaVoieVerteDesGaves : rdf:type supprimé
+- data:BikeRouteV812 : rdf:type supprimé
+- data:BikeRouteV813 : rdf:type supprimé
+- data:BikeRouteV81VelorouteDuPiemontPyreneen : rdf:type supprimé
+- data:BikeRouteV82 : rdf:type supprimé
+- data:BikeRouteV821CheminDeSaintJacques : rdf:type supprimé
+- data:BikeRouteV822ValleeDeLaBaise : rdf:type supprimé
+- data:BikeRouteV823 : rdf:type supprimé
+- data:BikeRouteV824VVCaminDAdour : rdf:type supprimé
+- data:BikeRouteV83 : rdf:type supprimé
+- data:BikeRouteV84 : rdf:type supprimé
+- data:BikeRouteV841VoieVerteDesPaysCathares:LeCheminDesFilatiers : rdf:type supprimé
+- data:BikeRouteV841VVDeLaValleeDuGijouEtLeCheminDesFontaines : rdf:type supprimé
+- data:BikeRouteV85 : rdf:type supprimé
+- data:BikeRouteV851VVDeLaValleeDeLHers : rdf:type supprimé
+- data:BikeRouteV852VelorouteDeLaValleeDeLAgout : rdf:type supprimé
+- data:BikeRouteV853ValleeDuCerouEtCheminDesDroitsDeLHomme : rdf:type supprimé
+- data:BikeRouteV854 : rdf:type supprimé
+- data:BikeRouteV855VelorouteDeLaValleeDuTarnValleeDuCernon : rdf:type supprimé
+- data:BikeRouteV856 : rdf:type supprimé
+- data:BikeRouteV861ValleeDuCeleVarianteALaV86 : rdf:type supprimé
+- data:BikeRouteV862 : rdf:type supprimé
+- data:BikeRouteV863 : rdf:type supprimé
+- data:BikeRouteV86VelorouteDeLaValleeDuLot : rdf:type supprimé
+- data:BikeRouteV871ValleeDuCeou : rdf:type supprimé
+- data:BikeRouteV873ValleeEtGorgesDeLAveyronAVelo : rdf:type supprimé
+- data:BikeRouteV87VelorouteDeLaLoireALaGaronne : rdf:type supprimé
+- data:BikeRouteV8SaintBrieucALorient : rdf:type supprimé
+- data:BikeRouteV9 : rdf:type supprimé
+- data:BikeRouteV90 : rdf:type supprimé
+- data:BikeRouteV91 : rdf:type supprimé
+- data:BikeRouteV92LaFlowVelo : rdf:type supprimé
+- data:BikeRouteV93 : rdf:type supprimé
+- data:BikeRouteV94 : rdf:type supprimé
+- data:BikeTransport : rdf:type supprimé
+- data:BilliardOrPoolTable : rdf:type supprimé
+- data:BindingAndFrames : rdf:type supprimé
+- data:Biologics : rdf:type supprimé
+- data:BiscuitsPastry : rdf:type supprimé
+- data:BlueCard : rdf:type supprimé
+- data:BMP : rdf:type supprimé
+- data:BoardGames : rdf:type supprimé
+- data:BoardroomConfiguration : rdf:type supprimé
+- data:Bobsleigh : rdf:type supprimé
+- data:BocceVolo : rdf:type supprimé
+- data:Bodyboard : rdf:type supprimé
+- data:Bodybuilding : rdf:type supprimé
+- data:Bolivia : rdf:type supprimé
+- data:Booking : rdf:type supprimé
+- data:Bookstore : rdf:type supprimé
+- data:Boomerang : rdf:type supprimé
+- data:BosniaHerzegovinia : rdf:type supprimé
+- data:BotanicalGarden : rdf:type supprimé
+- data:Botany : rdf:type supprimé
+- data:Botswana : rdf:type supprimé
+- data:Boules : rdf:type supprimé
+- data:BoulesPitch : rdf:type supprimé
+- data:BouvetIsland : rdf:type supprimé
+- data:Bowling : rdf:type supprimé
+- data:Box : rdf:type supprimé
+- data:Boxing : rdf:type supprimé
+- data:Brazil : rdf:type supprimé
+- data:Bread : rdf:type supprimé
+- data:BreadDepot : rdf:type supprimé
+- data:Breakfast : rdf:type supprimé
+- data:BritishVirginIslands : rdf:type supprimé
+- data:BruneiDarussalam : rdf:type supprimé
+- data:BubbleRental : rdf:type supprimé
+- data:Buffet : rdf:type supprimé
+- data:Buggy : rdf:type supprimé
+- data:Bulgaria : rdf:type supprimé
+- data:Bullfighting : rdf:type supprimé
+- data:Bungalow : rdf:type supprimé
+- data:BungalowRental : rdf:type supprimé
+- data:BungalowTentRental : rdf:type supprimé
+- data:BungeeJumping : rdf:type supprimé
+- data:BurkinaFaso : rdf:type supprimé
+- data:Burundi : rdf:type supprimé
+- data:BusinessTourist : rdf:type supprimé
+- data:BusMode : rdf:type supprimé
+- data:BycicleCleaningEquipment : rdf:type supprimé
+- data:BycicleRepairKit : rdf:type supprimé
+- data:ByTheSea : rdf:type supprimé
+- data:BZip2Archive : rdf:type supprimé
+- data:BZipArchive : rdf:type supprimé
+- data:CableSatellite : rdf:type supprimé
+- data:CableSkiing : rdf:type supprimé
+- data:Cafeteria : rdf:type supprimé
+- data:CaliforniaKingBed : rdf:type supprimé
+- data:Calligraphy : rdf:type supprimé
+- data:CamargoStyleBullfighting : rdf:type supprimé
+- data:Cambodia : rdf:type supprimé
+- data:Cameroon : rdf:type supprimé
+- data:CamperPitch : rdf:type supprimé
+- data:CamperServicePoint : rdf:type supprimé
+- data:CamperVanArea : rdf:type supprimé
+- data:CamperVanServiceArea : rdf:type supprimé
+- data:CampingCarRental : rdf:type supprimé
+- data:Canada : rdf:type supprimé
+- data:CanalPlus : rdf:type supprimé
+- data:Candle : rdf:type supprimé
+- data:CanningIndustry : rdf:type supprimé
+- data:CanoeBase : rdf:type supprimé
+- data:CanoeingKayaking : rdf:type supprimé
+- data:CanoeMode : rdf:type supprimé
+- data:CanoeRental : rdf:type supprimé
+- data:Canyoning : rdf:type supprimé
+- data:CapeVerde : rdf:type supprimé
+- data:Caravan : rdf:type supprimé
+- data:CaravanRental : rdf:type supprimé
+- data:CarMode : rdf:type supprimé
+- data:CarPark : rdf:type supprimé
+- data:Carriage : rdf:type supprimé
+- data:Carrier : rdf:type supprimé
+- data:CascadingStyleSheets : rdf:type supprimé
+- data:Cash : rdf:type supprimé
+- data:Casino : rdf:type supprimé
+- data:CastleAndPrestigeMansionRental : rdf:type supprimé
+- data:Catamaran : rdf:type supprimé
+- data:Caterer : rdf:type supprimé
+- data:CateringOnSite : rdf:type supprimé
+- data:Caviar : rdf:type supprimé
+- data:Caving : rdf:type supprimé
+- data:CaymanIslands : rdf:type supprimé
+- data:CellarDoorSale : rdf:type supprimé
+- data:CentralAfricanRepublic : rdf:type supprimé
+- data:Ceramic : rdf:type supprimé
+- data:CerealsAndProducts : rdf:type supprimé
+- data:Chad : rdf:type supprimé
+- data:ChaletRental : rdf:type supprimé
+- data:ChamberMusic : rdf:type supprimé
+- data:ChangingTable : rdf:type supprimé
+- data:ChargingStation : rdf:type supprimé
+- data:Check : rdf:type supprimé
+- data:Cheese : rdf:type supprimé
+- data:ChemicalToiletEmptying : rdf:type supprimé
+- data:ChequesDejeunersTicketsRestaurants : rdf:type supprimé
+- data:ChildMenu : rdf:type supprimé
+- data:ChildRate : rdf:type supprimé
+- data:Children : rdf:type supprimé
+- data:ChildToilet : rdf:type supprimé
+- data:Chile : rdf:type supprimé
+- data:China : rdf:type supprimé
+- data:Christmas : rdf:type supprimé
+- data:ChristmasEveDinnerForGroups : rdf:type supprimé
+- data:ChristmasIsland : rdf:type supprimé
+- data:Cider : rdf:type supprimé
+- data:Cinema : rdf:type supprimé
+- data:Circus : rdf:type supprimé
+- data:CityOutskirts : rdf:type supprimé
+- data:Classical : rdf:type supprimé
+- data:ClassicalMusic : rdf:type supprimé
+- data:ClassroomConfiguration : rdf:type supprimé
+- data:ClayPigeonShooting : rdf:type supprimé
+- data:ClickAndCollect : rdf:type supprimé
+- data:Climbing : rdf:type supprimé
+- data:Cloakroom : rdf:type supprimé
+- data:CloseToShops : rdf:type supprimé
+- data:CoachParking : rdf:type supprimé
+- data:CocosIslands : rdf:type supprimé
+- data:Coffee : rdf:type supprimé
+- data:CoffeeMaker : rdf:type supprimé
+- data:CollaborativeTourism : rdf:type supprimé
+- data:CollectionOfPlants : rdf:type supprimé
+- data:Colombia : rdf:type supprimé
+- data:CombatSports : rdf:type supprimé
+- data:Comics : rdf:type supprimé
+- data:CommaSeparatedValues : rdf:type supprimé
+- data:CommunalKitchen : rdf:type supprimé
+- data:CommunityRoom : rdf:type supprimé
+- data:Comores : rdf:type supprimé
+- data:Computing : rdf:type supprimé
+- data:CondimentSpices : rdf:type supprimé
+- data:ConfectioneryChocolateSweets : rdf:type supprimé
+- data:ConferenceRoom : rdf:type supprimé
+- data:Congo : rdf:type supprimé
+- data:CongoTheDemocraticRepublicOf : rdf:type supprimé
+- data:Conservatory : rdf:type supprimé
+- data:Container : rdf:type supprimé
+- data:Contemporary : rdf:type supprimé
+- data:ContemporaryMusic : rdf:type supprimé
+- data:CookIslands : rdf:type supprimé
+- data:Cosmetics : rdf:type supprimé
+- data:CostaRica : rdf:type supprimé
+- data:Cot : rdf:type supprimé
+- data:CountryAndWindmillHeritageDays : rdf:type supprimé
+- data:Couples : rdf:type supprimé
+- data:Course : rdf:type supprimé
+- data:Court : rdf:type supprimé
+- data:CoveredCarPark : rdf:type supprimé
+- data:Covers : rdf:type supprimé
+- data:Craft : rdf:type supprimé
+- data:Crafts : rdf:type supprimé
+- data:CreativeArts : rdf:type supprimé
+- data:CreativeGardener : rdf:type supprimé
+- data:CreditCards : rdf:type supprimé
+- data:Crepery : rdf:type supprimé
+- data:CrepesAndGalettes : rdf:type supprimé
+- data:Croatia : rdf:type supprimé
+- data:CrossCountrySkiing : rdf:type supprimé
+- data:CrosscountryskiingMode : rdf:type supprimé
+- data:CShellScript : rdf:type supprimé
+- data:Cuba : rdf:type supprimé
+- data:Culture : rdf:type supprimé
+- data:Cured : rdf:type supprimé
+- data:CurrencyExchangeOffice : rdf:type supprimé
+- data:CycleTourist : rdf:type supprimé
+- data:Cycling : rdf:type supprimé
+- data:CyclingTourDeFrance : rdf:type supprimé
+- data:Cyclists : rdf:type supprimé
+- data:Cyprus : rdf:type supprimé
+- data:CzechRepublic : rdf:type supprimé
+- data:DailyHousekeeping : rdf:type supprimé
+- data:DailySpecials : rdf:type supprimé
+- data:DairyProducts : rdf:type supprimé
+- data:Dance : rdf:type supprimé
+- data:DanceFloor : rdf:type supprimé
+- data:Daycare : rdf:type supprimé
+- data:Decoration : rdf:type supprimé
+- data:DecorativeArt : rdf:type supprimé
+- data:Denmark : rdf:type supprimé
+- data:Dental : rdf:type supprimé
+- data:Departmental : rdf:type supprimé
+- data:Design : rdf:type supprimé
+- data:DevelopmentCourse : rdf:type supprimé
+- data:DifficultTour : rdf:type supprimé
+- data:DigitalArt : rdf:type supprimé
+- data:DirectAccessToTheBeach : rdf:type supprimé
+- data:DirectSkiAccess : rdf:type supprimé
+- data:Disabled : rdf:type supprimé
+- data:Dishwasher : rdf:type supprimé
+- data:Diving : rdf:type supprimé
+- data:Djibouti : rdf:type supprimé
+- data:Documentary : rdf:type supprimé
+- data:DocumentationPlan : rdf:type supprimé
+- data:DogDriving : rdf:type supprimé
+- data:DogShower : rdf:type supprimé
+- data:DogSkijoring : rdf:type supprimé
+- data:Dogsledding : rdf:type supprimé
+- data:Dominica : rdf:type supprimé
+- data:DominicanRepublic : rdf:type supprimé
+- data:DonkeyHiking : rdf:type supprimé
+- data:Dormitory : rdf:type supprimé
+- data:DoubleBed : rdf:type supprimé
+- data:DoubleGlazing : rdf:type supprimé
+- data:DoubleRoom : rdf:type supprimé
+- data:DownhillBike : rdf:type supprimé
+- data:DownhillbikeMode : rdf:type supprimé
+- data:DownhillskiingMode : rdf:type supprimé
+- data:Downtown : rdf:type supprimé
+- data:DrinkingWaterFaucet : rdf:type supprimé
+- data:DriveIn : rdf:type supprimé
+- data:DutchWestIndies : rdf:type supprimé
+- data:DVDPlayer : rdf:type supprimé
+- data:EAMBMode : rdf:type supprimé
+- data:Easter : rdf:type supprimé
+- data:EasyTour : rdf:type supprimé
+- data:EbikeChargingStation : rdf:type supprimé
+- data:EcoMuseum : rdf:type supprimé
+- data:EcoTourist : rdf:type supprimé
+- data:Ecuador : rdf:type supprimé
+- data:Egypt : rdf:type supprimé
+- data:ElectricalConnections : rdf:type supprimé
+- data:ElectricallyAssistedBicycle : rdf:type supprimé
+- data:ElectricassistedbikeMode : rdf:type supprimé
+- data:ElectricATV : rdf:type supprimé
+- data:ElectricBike : rdf:type supprimé
+- data:ElectricBikeHire : rdf:type supprimé
+- data:ElectricBoat : rdf:type supprimé
+- data:ElectroMusic : rdf:type supprimé
+- data:Elevator : rdf:type supprimé
+- data:ElSalvador : rdf:type supprimé
+- data:EnclosedLand : rdf:type supprimé
+- data:EnduroMode : rdf:type supprimé
+- data:EnergyProduction : rdf:type supprimé
+- data:EnglishStyle : rdf:type supprimé
+- data:Entertainment : rdf:type supprimé
+- data:EntertainmentLocation : rdf:type supprimé
+- data:EPUB : rdf:type supprimé
+- data:EquatorialGuinea : rdf:type supprimé
+- data:EquestrianCenter : rdf:type supprimé
+- data:EquipmentRental : rdf:type supprimé
+- data:EquippedMeetingRoom : rdf:type supprimé
+- data:Eritrea : rdf:type supprimé
+- data:EscapeGame : rdf:type supprimé
+- data:Estonia : rdf:type supprimé
+- data:Ethiopia : rdf:type supprimé
+- data:EurocardMastercard : rdf:type supprimé
+- data:EuropeanArtisticCraftDays : rdf:type supprimé
+- data:EuropeanCuisine : rdf:type supprimé
+- data:EuropeanGardenEvent : rdf:type supprimé
+- data:EuropeanNightOfMuseums : rdf:type supprimé
+- data:EuropeanSustainableDevelopmentWeek : rdf:type supprimé
+- data:EuropeanWindmillsDayAndMillHeritageDay : rdf:type supprimé
+- data:ExcursionBooking : rdf:type supprimé
+- data:ExhibitionHall : rdf:type supprimé
+- data:ExoticGarden : rdf:type supprimé
+- data:ExternalFacilitiesBooking : rdf:type supprimé
+- data:ExtraCharge : rdf:type supprimé
+- data:FacilitiesForDisabled : rdf:type supprimé
+- data:FacingTheSea : rdf:type supprimé
+- data:FactoriesAndFirms : rdf:type supprimé
+- data:FalklandIslands : rdf:type supprimé
+- data:Families : rdf:type supprimé
+- data:FamilyBedroom : rdf:type supprimé
+- data:Fanfare : rdf:type supprimé
+- data:FarmingOrAgrifood : rdf:type supprimé
+- data:FaroeIslands : rdf:type supprimé
+- data:Fashion : rdf:type supprimé
+- data:FatBike : rdf:type supprimé
+- data:FatbikeMode : rdf:type supprimé
+- data:FatherDay : rdf:type supprimé
+- data:FaunaFlora : rdf:type supprimé
+- data:Fax : rdf:type supprimé
+- data:Fencing : rdf:type supprimé
+- data:Fieldhockey : rdf:type supprimé
+- data:Fiji : rdf:type supprimé
+- data:FinalHousekeeping : rdf:type supprimé
+- data:FineArts : rdf:type supprimé
+- data:Finland : rdf:type supprimé
+- data:Fireplace : rdf:type supprimé
+- data:Firework : rdf:type supprimé
+- data:FirstPractice : rdf:type supprimé
+- data:Fish : rdf:type supprimé
+- data:Fishermen : rdf:type supprimé
+- data:Fishing : rdf:type supprimé
+- data:Fitness : rdf:type supprimé
+- data:FitnessTrail : rdf:type supprimé
+- data:FivePeople : rdf:type supprimé
+- data:Floor : rdf:type supprimé
+- data:FloralPark : rdf:type supprimé
+- data:FluvialMode : rdf:type supprimé
+- data:FlyFishing : rdf:type supprimé
+- data:FoieGras : rdf:type supprimé
+- data:FolkMusic : rdf:type supprimé
+- data:FoodGrocery : rdf:type supprimé
+- data:Football : rdf:type supprimé
+- data:FootballField : rdf:type supprimé
+- data:For2Days : rdf:type supprimé
+- data:For2Hours : rdf:type supprimé
+- data:For3Days : rdf:type supprimé
+- data:For3Weeks : rdf:type supprimé
+- data:For4Days : rdf:type supprimé
+- data:For5Days : rdf:type supprimé
+- data:For6Days : rdf:type supprimé
+- data:ForAll : rdf:type supprimé
+- data:ForeignCuisine : rdf:type supprimé
+- data:ForeignCurrencies : rdf:type supprimé
+- data:Fortnightly : rdf:type supprimé
+- data:ForumToUndertakeInCulture : rdf:type supprimé
+- data:FourPeople : rdf:type supprimé
+- data:FourWheelDrive : rdf:type supprimé
+- data:France : rdf:type supprimé
+- data:Free : rdf:type supprimé
+- data:Freezer : rdf:type supprimé
+- data:FrenchBonsCAF : rdf:type supprimé
+- data:FrenchCuisine : rdf:type supprimé
+- data:FrenchFilmFestival : rdf:type supprimé
+- data:FrenchGastronomyDay : rdf:type supprimé
+- data:FrenchGuyana : rdf:type supprimé
+- data:FrenchMusicFestival : rdf:type supprimé
+- data:FrenchPhotoFestival : rdf:type supprimé
+- data:FrenchPolynesia : rdf:type supprimé
+- data:FrenchSouthernAntarcticLands : rdf:type supprimé
+- data:FrenchStyle : rdf:type supprimé
+- data:Fridge : rdf:type supprimé
+- data:Fruit : rdf:type supprimé
+- data:FruitJuice : rdf:type supprimé
+- data:FullBoard : rdf:type supprimé
+- data:Gabon : rdf:type supprimé
+- data:GalloRoman : rdf:type supprimé
+- data:GambiaThe : rdf:type supprimé
+- data:GameArea : rdf:type supprimé
+- data:GameRoom : rdf:type supprimé
+- data:GamesLibrary : rdf:type supprimé
+- data:Garage : rdf:type supprimé
+- data:GarageOrIndoorParkCar : rdf:type supprimé
+- data:Garden : rdf:type supprimé
+- data:GardenLounge : rdf:type supprimé
+- data:GasDepot : rdf:type supprimé
+- data:GasHeating : rdf:type supprimé
+- data:Gastronomist : rdf:type supprimé
+- data:Gastronomy : rdf:type supprimé
+- data:GeneralInformation : rdf:type supprimé
+- data:Geocaching : rdf:type supprimé
+- data:Geology : rdf:type supprimé
+- data:Georgia : rdf:type supprimé
+- data:Germany : rdf:type supprimé
+- data:Ghana : rdf:type supprimé
+- data:Gibraltar : rdf:type supprimé
+- data:GIF : rdf:type supprimé
+- data:Glassware : rdf:type supprimé
+- data:Glider : rdf:type supprimé
+- data:Gliding : rdf:type supprimé
+- data:Golf : rdf:type supprimé
+- data:GolfCourse : rdf:type supprimé
+- data:Golfers : rdf:type supprimé
+- data:Gothic : rdf:type supprimé
+- data:GourdeFriendly : rdf:type supprimé
+- data:GourmetCuisine : rdf:type supprimé
+- data:GPX : rdf:type supprimé
+- data:GrandmotherDay : rdf:type supprimé
+- data:Grass : rdf:type supprimé
+- data:Gravel : rdf:type supprimé
+- data:GravelbikeMode : rdf:type supprimé
+- data:GravelCastines : rdf:type supprimé
+- data:Greece : rdf:type supprimé
+- data:GreenhouseAndOrangery : rdf:type supprimé
+- data:Greenland : rdf:type supprimé
+- data:Grenada : rdf:type supprimé
+- data:GrillOrRotisserie : rdf:type supprimé
+- data:GroomedTrack : rdf:type supprimé
+- data:Group : rdf:type supprimé
+- data:GroupMenu : rdf:type supprimé
+- data:Groups : rdf:type supprimé
+- data:GroupsWithMembership : rdf:type supprimé
+- data:Guadaloupe : rdf:type supprimé
+- data:Guam : rdf:type supprimé
+- data:Guatemala : rdf:type supprimé
+- data:GuestTable : rdf:type supprimé
+- data:GuidedTour : rdf:type supprimé
+- data:Guinea : rdf:type supprimé
+- data:GuineaBissau : rdf:type supprimé
+- data:Guyana : rdf:type supprimé
+- data:Gymnastics : rdf:type supprimé
+- data:Gyropode : rdf:type supprimé
+- data:HabitableBoatRental : rdf:type supprimé
+- data:HairDryer : rdf:type supprimé
+- data:Haiti : rdf:type supprimé
+- data:HalalCuisine : rdf:type supprimé
+- data:HalfDayPackage : rdf:type supprimé
+- data:HalfPension : rdf:type supprimé
+- data:Halloween : rdf:type supprimé
+- data:Hammam : rdf:type supprimé
+- data:Handball : rdf:type supprimé
+- data:Handisport : rdf:type supprimé
+- data:HangGliding : rdf:type supprimé
+- data:HBMode : rdf:type supprimé
+- data:Health : rdf:type supprimé
+- data:HealthHeated : rdf:type supprimé
+- data:HeardAndMcDonaldIslands : rdf:type supprimé
+- data:HeatedPool : rdf:type supprimé
+- data:HeatedTerrace : rdf:type supprimé
+- data:Heating : rdf:type supprimé
+- data:Helicopter : rdf:type supprimé
+- data:HeritageDays : rdf:type supprimé
+- data:HighSchool : rdf:type supprimé
+- data:HighSeason : rdf:type supprimé
+- data:HighTech : rdf:type supprimé
+- data:Hiker : rdf:type supprimé
+- data:Hikers : rdf:type supprimé
+- data:Hiking : rdf:type supprimé
+- data:HipHopRapMusic : rdf:type supprimé
+- data:HistoricCharacter : rdf:type supprimé
+- data:HistoricDistrict : rdf:type supprimé
+- data:History : rdf:type supprimé
+- data:Hitch : rdf:type supprimé
+- data:HolidayVouchers : rdf:type supprimé
+- data:Home : rdf:type supprimé
+- data:HomeDeliveries : rdf:type supprimé
+- data:Honduras : rdf:type supprimé
+- data:HongKong : rdf:type supprimé
+- data:HorsebackMode : rdf:type supprimé
+- data:HorsedrawncarriageMode : rdf:type supprimé
+- data:HorseDrawnCarriageRide : rdf:type supprimé
+- data:HorseDriving : rdf:type supprimé
+- data:HorseRacing : rdf:type supprimé
+- data:Horserider : rdf:type supprimé
+- data:HorseSkijoring : rdf:type supprimé
+- data:HotAirBalloon : rdf:type supprimé
+- data:HotelSuite : rdf:type supprimé
+- data:HotWater : rdf:type supprimé
+- data:HouseCrafts : rdf:type supprimé
+- data:HouseholdLinenRental : rdf:type supprimé
+- data:HouseRental : rdf:type supprimé
+- data:HSquareConfiguration : rdf:type supprimé
+- data:HTML : rdf:type supprimé
+- data:Humour : rdf:type supprimé
+- data:Hungary : rdf:type supprimé
+- data:Hunting : rdf:type supprimé
+- data:HutRental : rdf:type supprimé
+- data:Hydrospeed : rdf:type supprimé
+- data:ICalendar : rdf:type supprimé
+- data:Ice : rdf:type supprimé
+- data:IceCream : rdf:type supprimé
+- data:IceDriving : rdf:type supprimé
+- data:Icehockey : rdf:type supprimé
+- data:Iceland : rdf:type supprimé
+- data:IceSkating : rdf:type supprimé
+- data:IceSports : rdf:type supprimé
+- data:ICO : rdf:type supprimé
+- data:InAHamlet : rdf:type supprimé
+- data:InAPedestrianArea : rdf:type supprimé
+- data:InARemoteLocation : rdf:type supprimé
+- data:InclosedTerrace : rdf:type supprimé
+- data:India : rdf:type supprimé
+- data:IndianCuisine : rdf:type supprimé
+- data:IndianOceanBritishTerritoryOf : rdf:type supprimé
+- data:Individuals : rdf:type supprimé
+- data:IndividualsWithMembership : rdf:type supprimé
+- data:Indonesia : rdf:type supprimé
+- data:IndoorPool : rdf:type supprimé
+- data:IndoorSkyDiving : rdf:type supprimé
+- data:Industry : rdf:type supprimé
+- data:InformationSign : rdf:type supprimé
+- data:InovativeFrenchCuisine : rdf:type supprimé
+- data:InstrumentalMusic : rdf:type supprimé
+- data:International : rdf:type supprimé
+- data:InternationalMoneyOrder : rdf:type supprimé
+- data:InTheCountryside : rdf:type supprimé
+- data:InTheForest : rdf:type supprimé
+- data:InTheHighMountains : rdf:type supprimé
+- data:InTheMountains : rdf:type supprimé
+- data:InTheVillage : rdf:type supprimé
+- data:InTown : rdf:type supprimé
+- data:IntroductionCourse : rdf:type supprimé
+- data:InventiveCuisine : rdf:type supprimé
+- data:IranIslamicRepublicOf : rdf:type supprimé
+- data:Iraq : rdf:type supprimé
+- data:IrelandEire : rdf:type supprimé
+- data:IronAndIroningBoard : rdf:type supprimé
+- data:IroningRoom : rdf:type supprimé
+- data:Israel : rdf:type supprimé
+- data:ItalianStyle : rdf:type supprimé
+- data:Italy : rdf:type supprimé
+- data:IvoryCoast : rdf:type supprimé
+- data:Jacuzzi : rdf:type supprimé
+- data:Jam : rdf:type supprimé
+- data:Jamaica : rdf:type supprimé
+- data:Japan : rdf:type supprimé
+- data:JapaneseStyle : rdf:type supprimé
+- data:JavaArchive : rdf:type supprimé
+- data:JavaScript : rdf:type supprimé
+- data:JazzBlues : rdf:type supprimé
+- data:JetSki : rdf:type supprimé
+- data:JewellerSCraft : rdf:type supprimé
+- data:Jobseekers : rdf:type supprimé
+- data:JoeletteMode : rdf:type supprimé
+- data:Jordan : rdf:type supprimé
+- data:Journalists : rdf:type supprimé
+- data:JourneesDeLaccueil : rdf:type supprimé
+- data:JPEG : rdf:type supprimé
+- data:JSON : rdf:type supprimé
+- data:JudoJujitsu : rdf:type supprimé
+- data:Junior : rdf:type supprimé
+- data:Karaoke : rdf:type supprimé
+- data:Karting : rdf:type supprimé
+- data:KayakMode : rdf:type supprimé
+- data:Kazakhstan : rdf:type supprimé
+- data:Kendo : rdf:type supprimé
+- data:Kenya : rdf:type supprimé
+- data:KidsClub : rdf:type supprimé
+- data:KingSizeBed : rdf:type supprimé
+- data:Kiribati : rdf:type supprimé
+- data:KitchenKitchenette : rdf:type supprimé
+- data:Kite : rdf:type supprimé
+- data:Kitesurfing : rdf:type supprimé
+- data:KML : rdf:type supprimé
+- data:KMZ : rdf:type supprimé
+- data:KoreaPeoplesDemocraticRepublicOf : rdf:type supprimé
+- data:KoreaRepublicOf : rdf:type supprimé
+- data:KosherCuisine : rdf:type supprimé
+- data:Kuwait : rdf:type supprimé
+- data:Kyrgyzstan : rdf:type supprimé
+- data:Labyrinth : rdf:type supprimé
+- data:Lakeside : rdf:type supprimé
+- data:Land : rdf:type supprimé
+- data:LandscapeGarden : rdf:type supprimé
+- data:LanguageCourse : rdf:type supprimé
+- data:LaoPeoplesDemocraticRepublic : rdf:type supprimé
+- data:LargeFamilies : rdf:type supprimé
+- data:LaserGame : rdf:type supprimé
+- data:LastMinuteBooking : rdf:type supprimé
+- data:Latvia : rdf:type supprimé
+- data:Laundry : rdf:type supprimé
+- data:LaundryWithHotWater : rdf:type supprimé
+- data:LeatherWorking : rdf:type supprimé
+- data:Lebanon : rdf:type supprimé
+- data:LeisureCentre : rdf:type supprimé
+- data:LeisureChaletRental : rdf:type supprimé
+- data:Lesotho : rdf:type supprimé
+- data:Less20People : rdf:type supprimé
+- data:LGBT : rdf:type supprimé
+- data:Liberia : rdf:type supprimé
+- data:Library : rdf:type supprimé
+- data:LibyaLibyanArabJamahiriya : rdf:type supprimé
+- data:Lichtenstein : rdf:type supprimé
+- data:Lifestyle : rdf:type supprimé
+- data:LinenHire : rdf:type supprimé
+- data:Literature : rdf:type supprimé
+- data:Lithuania : rdf:type supprimé
+- data:LivingRoom : rdf:type supprimé
+- data:Local : rdf:type supprimé
+- data:LockedStorageRoom : rdf:type supprimé
+- data:Loop : rdf:type supprimé
+- data:Lover : rdf:type supprimé
+- data:LowSeason : rdf:type supprimé
+- data:LuggageRoomOrLocker : rdf:type supprimé
+- data:LuggageTransport : rdf:type supprimé
+- data:Luxembourg : rdf:type supprimé
+- data:LyonnaiseBouchon : rdf:type supprimé
+- data:LyricalArt : rdf:type supprimé
+- data:Macau : rdf:type supprimé
+- data:MacedoniaFormerRepublicOfYugoslavia : rdf:type supprimé
+- data:Madagascar : rdf:type supprimé
+- data:MagicAndSorcery : rdf:type supprimé
+- data:Malawi : rdf:type supprimé
+- data:Malaysia : rdf:type supprimé
+- data:Maldives : rdf:type supprimé
+- data:Mali : rdf:type supprimé
+- data:Malta : rdf:type supprimé
+- data:Maritime : rdf:type supprimé
+- data:MarkedTrails : rdf:type supprimé
+- data:MarseilleProvenceGastronomy : rdf:type supprimé
+- data:MarshallIslands : rdf:type supprimé
+- data:MartialArts : rdf:type supprimé
+- data:Martinique : rdf:type supprimé
+- data:Massages : rdf:type supprimé
+- data:Mauritania : rdf:type supprimé
+- data:Mauritius : rdf:type supprimé
+- data:Mayotte : rdf:type supprimé
+- data:MBMode : rdf:type supprimé
+- data:MealDelivery : rdf:type supprimé
+- data:Meals : rdf:type supprimé
+- data:Meat : rdf:type supprimé
+- data:Medecine : rdf:type supprimé
+- data:Media : rdf:type supprimé
+- data:MedicinalPlantsSingle : rdf:type supprimé
+- data:Medieval : rdf:type supprimé
+- data:MediteranneanGarden : rdf:type supprimé
+- data:MediterraneanCuisine : rdf:type supprimé
+- data:MediumDifficultyTour : rdf:type supprimé
+- data:MeetingRoom : rdf:type supprimé
+- data:Memory : rdf:type supprimé
+- data:MetalWorking : rdf:type supprimé
+- data:Mexico : rdf:type supprimé
+- data:MicronesiaFederatedStatesOf : rdf:type supprimé
+- data:MicrosoftExcel : rdf:type supprimé
+- data:MicrosoftVisio : rdf:type supprimé
+- data:MicrosoftWord : rdf:type supprimé
+- data:Microwave : rdf:type supprimé
+- data:MiddleSchool : rdf:type supprimé
+- data:MidSeason : rdf:type supprimé
+- data:MidWeek : rdf:type supprimé
+- data:Military : rdf:type supprimé
+- data:MineralGarden : rdf:type supprimé
+- data:Miniature : rdf:type supprimé
+- data:MiniBar : rdf:type supprimé
+- data:MiniGolf : rdf:type supprimé
+- data:MobilHomeHire : rdf:type supprimé
+- data:Modern : rdf:type supprimé
+- data:ModernContemporaryArt : rdf:type supprimé
+- data:ModernPentathlon : rdf:type supprimé
+- data:MoldovaRepublicOf : rdf:type supprimé
+- data:Monaco : rdf:type supprimé
+- data:Mongolia : rdf:type supprimé
+- data:Monoski : rdf:type supprimé
+- data:Montserrat : rdf:type supprimé
+- data:MooringPoint : rdf:type supprimé
+- data:Morrocco : rdf:type supprimé
+- data:MotherDay : rdf:type supprimé
+- data:MotoCross : rdf:type supprimé
+- data:Motorbike : rdf:type supprimé
+- data:MotorbikeMode : rdf:type supprimé
+- data:Motorcyclists : rdf:type supprimé
+- data:MotorhomeMode : rdf:type supprimé
+- data:Motorists : rdf:type supprimé
+- data:MotorizedFlight : rdf:type supprimé
+- data:MotorizedHouseboat : rdf:type supprimé
+- data:MotorScooter : rdf:type supprimé
+- data:Motorsports : rdf:type supprimé
+- data:MountainBikers : rdf:type supprimé
+- data:Mountaineering : rdf:type supprimé
+- data:MountainGuide : rdf:type supprimé
+- data:Mozambique : rdf:type supprimé
+- data:MPEG : rdf:type supprimé
+- data:MPKG : rdf:type supprimé
+- data:MTBRouteGTMC : rdf:type supprimé
+- data:MTBRouteGTPassaMeridia : rdf:type supprimé
+- data:MTBRouteGTPB : rdf:type supprimé
+- data:MultimediaLibrary : rdf:type supprimé
+- data:MultimediaRoom : rdf:type supprimé
+- data:Multisport : rdf:type supprimé
+- data:MushroomAndTruffle : rdf:type supprimé
+- data:Music : rdf:type supprimé
+- data:MusicalInstrumentDigitalInterface : rdf:type supprimé
+- data:MusicalInstrumentMaking : rdf:type supprimé
+- data:MyanmarBurma : rdf:type supprimé
+- data:Namibia : rdf:type supprimé
+- data:National : rdf:type supprimé
+- data:NationalDay14July : rdf:type supprimé
+- data:NaturalSciences : rdf:type supprimé
+- data:NatureAndEnvironment : rdf:type supprimé
+- data:NatureFair : rdf:type supprimé
+- data:Naturists : rdf:type supprimé
+- data:Nauru : rdf:type supprimé
+- data:NauticalFair : rdf:type supprimé
+- data:Nautisme : rdf:type supprimé
+- data:NearARiverOrStream : rdf:type supprimé
+- data:NeedleWork : rdf:type supprimé
+- data:NeoGothic : rdf:type supprimé
+- data:Nepal : rdf:type supprimé
+- data:NewCaledonia : rdf:type supprimé
+- data:NewYearSEve : rdf:type supprimé
+- data:NewYearsEveForGroups : rdf:type supprimé
+- data:NewZealand : rdf:type supprimé
+- data:Nicaragua : rdf:type supprimé
+- data:Niger : rdf:type supprimé
+- data:Nigeria : rdf:type supprimé
+- data:Night : rdf:type supprimé
+- data:Nightclub : rdf:type supprimé
+- data:NightReception : rdf:type supprimé
+- data:Nightwatch : rdf:type supprimé
+- data:Niue : rdf:type supprimé
+- data:NordicBath : rdf:type supprimé
+- data:NordicWalking : rdf:type supprimé
+- data:NordicwalkMode : rdf:type supprimé
+- data:NorfolkIsland : rdf:type supprimé
+- data:NorthAmericanCuisine : rdf:type supprimé
+- data:NorthernMarianaIslands : rdf:type supprimé
+- data:Norway : rdf:type supprimé
+- data:NotToBeMissed : rdf:type supprimé
+- data:NuitDeLaLecture : rdf:type supprimé
+- data:Nursery : rdf:type supprimé
+- data:NurserySchool : rdf:type supprimé
+- data:Nuts : rdf:type supprimé
+- data:Observatory : rdf:type supprimé
+- data:OctetStream : rdf:type supprimé
+- data:Oenology : rdf:type supprimé
+- data:OGGApplication : rdf:type supprimé
+- data:OGGAudio : rdf:type supprimé
+- data:OGGVideo : rdf:type supprimé
+- data:Oil : rdf:type supprimé
+- data:OilFiredHeating : rdf:type supprimé
+- data:OlfactoryGarden : rdf:type supprimé
+- data:OlympicQueenBed : rdf:type supprimé
+- data:Oman : rdf:type supprimé
+- data:OneStorey : rdf:type supprimé
+- data:OpenDocumentPresentation : rdf:type supprimé
+- data:OpenDocumentSpreadsheet : rdf:type supprimé
+- data:OpenDocumentText : rdf:type supprimé
+- data:OpenJaw : rdf:type supprimé
+- data:OperationItIsMyHeritage : rdf:type supprimé
+- data:OrganicCuisine : rdf:type supprimé
+- data:OrientalCuisine : rdf:type supprimé
+- data:Orienteering : rdf:type supprimé
+- data:Ornythology : rdf:type supprimé
+- data:OutdoorCarPark : rdf:type supprimé
+- data:OutdoorPool : rdf:type supprimé
+- data:Oven : rdf:type supprimé
+- data:Overnight : rdf:type supprimé
+- data:Paddleboat : rdf:type supprimé
+- data:PaddleMode : rdf:type supprimé
+- data:PaddleRental : rdf:type supprimé
+- data:Paddling : rdf:type supprimé
+- data:padel : rdf:type supprimé
+- data:Paintball : rdf:type supprimé
+- data:PainterHouse : rdf:type supprimé
+- data:PaintingGraphicArts : rdf:type supprimé
+- data:Pakistan : rdf:type supprimé
+- data:Palau : rdf:type supprimé
+- data:PalestineOccupiedTerritoryOf : rdf:type supprimé
+- data:Panama : rdf:type supprimé
+- data:Panorama : rdf:type supprimé
+- data:PapuaNewGuinea : rdf:type supprimé
+- data:Paragliding : rdf:type supprimé
+- data:Paraguay : rdf:type supprimé
+- data:Paramotoring : rdf:type supprimé
+- data:Parasailing : rdf:type supprimé
+- data:Park : rdf:type supprimé
+- data:ParkingNearby : rdf:type supprimé
+- data:PartirEnLivre : rdf:type supprimé
+- data:Paypal : rdf:type supprimé
+- data:PDF : rdf:type supprimé
+- data:PebblesStones : rdf:type supprimé
+- data:PedalBoatRental : rdf:type supprimé
+- data:Pedestrian : rdf:type supprimé
+- data:PerAnimal : rdf:type supprimé
+- data:PerCampingCar : rdf:type supprimé
+- data:PerCar : rdf:type supprimé
+- data:PerCaravan : rdf:type supprimé
+- data:PerDay : rdf:type supprimé
+- data:PerElectricalConnection : rdf:type supprimé
+- data:PerformingArts : rdf:type supprimé
+- data:Perfumery : rdf:type supprimé
+- data:PerHour : rdf:type supprimé
+- data:PerMonth : rdf:type supprimé
+- data:PerPerson : rdf:type supprimé
+- data:PerRoom : rdf:type supprimé
+- data:PersonWithReducedMobility : rdf:type supprimé
+- data:PerTent : rdf:type supprimé
+- data:Peru : rdf:type supprimé
+- data:PerUnit : rdf:type supprimé
+- data:PerWeek : rdf:type supprimé
+- data:PerWeek6Nights : rdf:type supprimé
+- data:PerWeek7Nights : rdf:type supprimé
+- data:Pharmacy : rdf:type supprimé
+- data:Philately : rdf:type supprimé
+- data:Philippines : rdf:type supprimé
+- data:Phone : rdf:type supprimé
+- data:Photography : rdf:type supprimé
+- data:PianoBar : rdf:type supprimé
+- data:Picnic : rdf:type supprimé
+- data:PicnicArea : rdf:type supprimé
+- data:PicnicRoom : rdf:type supprimé
+- data:PicnicTables : rdf:type supprimé
+- data:Pie : rdf:type supprimé
+- data:Pilates : rdf:type supprimé
+- data:Pilgrims : rdf:type supprimé
+- data:PingPong : rdf:type supprimé
+- data:PingPongTable : rdf:type supprimé
+- data:Pirogue : rdf:type supprimé
+- data:Pitcairn : rdf:type supprimé
+- data:Pitch : rdf:type supprimé
+- data:Pizzeria : rdf:type supprimé
+- data:Planetarium : rdf:type supprimé
+- data:PlantsAndFlower : rdf:type supprimé
+- data:PlantsAndProducts : rdf:type supprimé
+- data:PlayfulGarden : rdf:type supprimé
+- data:Playground : rdf:type supprimé
+- data:PleasureBoating : rdf:type supprimé
+- data:PleasureGarden : rdf:type supprimé
+- data:PNG : rdf:type supprimé
+- data:Poetry : rdf:type supprimé
+- data:Poland : rdf:type supprimé
+- data:Polo : rdf:type supprimé
+- data:Pontoon : rdf:type supprimé
+- data:PonyRide : rdf:type supprimé
+- data:PopRockMusic : rdf:type supprimé
+- data:PopularArtsAndTraditions : rdf:type supprimé
+- data:PopularMusic : rdf:type supprimé
+- data:PortoRico : rdf:type supprimé
+- data:Portugal : rdf:type supprimé
+- data:PostalService : rdf:type supprimé
+- data:Postcard : rdf:type supprimé
+- data:Pottery : rdf:type supprimé
+- data:PoultryEggs : rdf:type supprimé
+- data:PowerBoating : rdf:type supprimé
+- data:PowerPoint : rdf:type supprimé
+- data:Prehistory : rdf:type supprimé
+- data:Preroman : rdf:type supprimé
+- data:PriestMonastic : rdf:type supprimé
+- data:PrimarySchool : rdf:type supprimé
+- data:PrivateBathroom : rdf:type supprimé
+- data:PrivateDiningRoom : rdf:type supprimé
+- data:PrivateDryer : rdf:type supprimé
+- data:PrivateGarage : rdf:type supprimé
+- data:PrivateGarden : rdf:type supprimé
+- data:PrivateParking : rdf:type supprimé
+- data:PrivatePlane : rdf:type supprimé
+- data:PrivatePool : rdf:type supprimé
+- data:PrivateShower : rdf:type supprimé
+- data:PrivateTerrace : rdf:type supprimé
+- data:PrivateToilet : rdf:type supprimé
+- data:PrivateWasher : rdf:type supprimé
+- data:Professionals : rdf:type supprimé
+- data:ProjectionRoom : rdf:type supprimé
+- data:ProtectedGarden : rdf:type supprimé
+- data:PublicMode : rdf:type supprimé
+- data:PublicToilets : rdf:type supprimé
+- data:Puppet : rdf:type supprimé
+- data:PushchairRoom : rdf:type supprimé
+- data:Qatar : rdf:type supprimé
+- data:Quad : rdf:type supprimé
+- data:QueenSizeBed : rdf:type supprimé
+- data:QuickDropOffArea : rdf:type supprimé
+- data:Radio : rdf:type supprimé
+- data:Rafting : rdf:type supprimé
+- data:RaftingMode : rdf:type supprimé
+- data:RailBike : rdf:type supprimé
+- data:RARArchive : rdf:type supprimé
+- data:ReceptionConfiguration : rdf:type supprimé
+- data:ReceptionRoom : rdf:type supprimé
+- data:ReducedMobilityBedroom : rdf:type supprimé
+- data:ReducedRate : rdf:type supprimé
+- data:ReferentielNationalBatiments : rdf:type supprimé, dt:hasExternalPlatformUrl supprimé
+- data:Regional : rdf:type supprimé
+- data:RegionalLanguage : rdf:type supprimé
+- data:RelaxationArea : rdf:type supprimé
+- data:Religion : rdf:type supprimé
+- data:Remarkable : rdf:type supprimé
+- data:RemarkableGarden : rdf:type supprimé
+- data:Renaissance : rdf:type supprimé
+- data:RendezVousHipHop : rdf:type supprimé
+- data:Research : rdf:type supprimé
+- data:ResortCentre : rdf:type supprimé
+- data:Restaurant : rdf:type supprimé
+- data:RestorationProject : rdf:type supprimé
+- data:Reunion : rdf:type supprimé
+- data:RichTextFormat : rdf:type supprimé
+- data:Riding : rdf:type supprimé
+- data:Rink : rdf:type supprimé
+- data:RoadbikeMode : rdf:type supprimé
+- data:Rocks : rdf:type supprimé
+- data:Rollerblades : rdf:type supprimé
+- data:Roman : rdf:type supprimé
+- data:Room : rdf:type supprimé
+- data:RoomRental : rdf:type supprimé
+- data:RoomService : rdf:type supprimé
+- data:RopeCourse : rdf:type supprimé
+- data:Roumania : rdf:type supprimé
+- data:RoundTrip : rdf:type supprimé
+- data:Rowing : rdf:type supprimé
+- data:Rugby : rdf:type supprimé
+- data:RugbyLeague : rdf:type supprimé
+- data:Rum : rdf:type supprimé
+- data:Running : rdf:type supprimé
+- data:RussiaFederationOf : rdf:type supprimé
+- data:RVSite : rdf:type supprimé
+- data:Rwanda : rdf:type supprimé
+- data:SacredArt : rdf:type supprimé
+- data:SacredMusic : rdf:type supprimé
+- data:Safe : rdf:type supprimé
+- data:Saffron : rdf:type supprimé
+- data:Sailing : rdf:type supprimé
+- data:SailingTourDeFrance : rdf:type supprimé
+- data:SaintHelena : rdf:type supprimé
+- data:SaintKittsNevis : rdf:type supprimé
+- data:SaintLucia : rdf:type supprimé
+- data:SaintNicholasDay : rdf:type supprimé
+- data:SaintPetersVaticanState : rdf:type supprimé
+- data:SaintVincentAndTheGrenadines : rdf:type supprimé
+- data:Salad : rdf:type supprimé
+- data:Samoa : rdf:type supprimé
+- data:Sand : rdf:type supprimé
+- data:Sandpit : rdf:type supprimé
+- data:Sandwich : rdf:type supprimé
+- data:SandYachting : rdf:type supprimé
+- data:SanMarino : rdf:type supprimé
+- data:SaoTomeAndPrincipe : rdf:type supprimé
+- data:SaudiaArabia : rdf:type supprimé
+- data:Sauna : rdf:type supprimé
+- data:Savate : rdf:type supprimé
+- data:ScalableVectorGraphics : rdf:type supprimé
+- data:ScaleModelling : rdf:type supprimé
+- data:School : rdf:type supprimé
+- data:ScienceAndTechnology : rdf:type supprimé
+- data:ScienceFair : rdf:type supprimé
+- data:Scooter : rdf:type supprimé
+- data:Sculpture : rdf:type supprimé
+- data:SeaFishing : rdf:type supprimé
+- data:SeaFood : rdf:type supprimé
+- data:SeaKayaking : rdf:type supprimé
+- data:Seaplane : rdf:type supprimé
+- data:SeaScooter : rdf:type supprimé
+- data:Seaweed : rdf:type supprimé
+- data:SecureCamperVanArea : rdf:type supprimé
+- data:SecureOnlinePayment : rdf:type supprimé
+- data:SelfService : rdf:type supprimé
+- data:SemiGastronomic : rdf:type supprimé
+- data:Seminar : rdf:type supprimé
+- data:SeminarRoom : rdf:type supprimé
+- data:SemiShaddedArea : rdf:type supprimé
+- data:Senegal : rdf:type supprimé
+- data:SeparateEntrance : rdf:type supprimé
+- data:SeparateGarden : rdf:type supprimé
+- data:SeparateToilet : rdf:type supprimé
+- data:SerbiaAndMontenegro : rdf:type supprimé
+- data:Seychelles : rdf:type supprimé
+- data:ShaddedArea : rdf:type supprimé
+- data:SharedBathroom : rdf:type supprimé
+- data:SharedDryer : rdf:type supprimé
+- data:SharedGarden : rdf:type supprimé
+- data:SharedPool : rdf:type supprimé
+- data:SharedShower : rdf:type supprimé
+- data:SharedToilet : rdf:type supprimé
+- data:SharedWasher : rdf:type supprimé
+- data:SheetsAndTowels : rdf:type supprimé
+- data:SheetsRental : rdf:type supprimé
+- data:ShellScript : rdf:type supprimé
+- data:Shelter : rdf:type supprimé
+- data:Shooting : rdf:type supprimé
+- data:Shop : rdf:type supprimé
+- data:ShopsFirstNeed : rdf:type supprimé
+- data:ShortFilm : rdf:type supprimé
+- data:ShowBooking : rdf:type supprimé
+- data:Shower : rdf:type supprimé
+- data:ShowTrail : rdf:type supprimé
+- data:ShuttleAirportOrRailwayStation : rdf:type supprimé
+- data:ShuttleForAdditionalActivities : rdf:type supprimé
+- data:SierraLeone : rdf:type supprimé
+- data:Simulator : rdf:type supprimé
+- data:Singapore : rdf:type supprimé
+- data:SingingAndChoir : rdf:type supprimé
+- data:SingleBed : rdf:type supprimé
+- data:SingleProductSpecialities : rdf:type supprimé
+- data:Singles : rdf:type supprimé
+- data:SiteClosedAtNight : rdf:type supprimé
+- data:Skateboard : rdf:type supprimé
+- data:SkatingMode : rdf:type supprimé
+- data:Skijoring : rdf:type supprimé
+- data:SkiRental : rdf:type supprimé
+- data:SkiRoom : rdf:type supprimé
+- data:SkiTouring : rdf:type supprimé
+- data:SkitouringMode : rdf:type supprimé
+- data:Skittles : rdf:type supprimé
+- data:SkiwheelsMode : rdf:type supprimé
+- data:Skwal : rdf:type supprimé
+- data:Skydiving : rdf:type supprimé
+- data:SledDogs : rdf:type supprimé
+- data:Sledging : rdf:type supprimé
+- data:SledMode : rdf:type supprimé
+- data:Slovakia : rdf:type supprimé
+- data:Slovenia : rdf:type supprimé
+- data:SmallBoatRental : rdf:type supprimé
+- data:SmallSchoolHolidays : rdf:type supprimé
+- data:SmallWebFormat : rdf:type supprimé
+- data:SmokingArea : rdf:type supprimé
+- data:SnackAndDrinksBar : rdf:type supprimé
+- data:SnackBar : rdf:type supprimé
+- data:SnackDrinksDispenser : rdf:type supprimé
+- data:Snails : rdf:type supprimé
+- data:Snorkeling : rdf:type supprimé
+- data:Snowboarding : rdf:type supprimé
+- data:SnowGarden : rdf:type supprimé
+- data:Snowkiting : rdf:type supprimé
+- data:SnowmobileMode : rdf:type supprimé
+- data:SnowScooter : rdf:type supprimé
+- data:SnowshoeingMode : rdf:type supprimé
+- data:SnowshoeRental : rdf:type supprimé
+- data:Snowshoes : rdf:type supprimé
+- data:Snowtubing : rdf:type supprimé
+- data:Soap : rdf:type supprimé
+- data:SoapManufacture : rdf:type supprimé
+- data:Solarium : rdf:type supprimé
+- data:Solo : rdf:type supprimé
+- data:SolomanIslands : rdf:type supprimé
+- data:Somalia : rdf:type supprimé
+- data:SouthAfrica : rdf:type supprimé
+- data:SouthAmericanCuisine : rdf:type supprimé
+- data:SouthGeorgiaAndTheSouthSandwichIslands : rdf:type supprimé
+- data:SouvenirSales : rdf:type supprimé
+- data:SpaClient : rdf:type supprimé
+- data:Spain : rdf:type supprimé
+- data:SpecialDietCuisine : rdf:type supprimé
+- data:Spirits : rdf:type supprimé
+- data:Spirituality : rdf:type supprimé
+- data:SpiritualRetreats : rdf:type supprimé
+- data:Sport : rdf:type supprimé
+- data:SportRoom : rdf:type supprimé
+- data:SportSailing : rdf:type supprimé
+- data:SportsEquipmentLending : rdf:type supprimé
+- data:SportsEquipmentRental : rdf:type supprimé
+- data:Sportsmen : rdf:type supprimé
+- data:SpringPoetryFestival : rdf:type supprimé
+- data:Squash : rdf:type supprimé
+- data:SquashCourt : rdf:type supprimé
+- data:SriLanka : rdf:type supprimé
+- data:StandupPaddleboarding : rdf:type supprimé
+- data:Stereo : rdf:type supprimé
+- data:Stilt : rdf:type supprimé
+- data:StJohnsEve : rdf:type supprimé
+- data:StorageArea : rdf:type supprimé
+- data:StPierreAndMiquelon : rdf:type supprimé
+- data:StreetArt : rdf:type supprimé
+- data:StreetTheatre : rdf:type supprimé
+- data:Students : rdf:type supprimé
+- data:SubscriptionPackage : rdf:type supprimé
+- data:SudanThe : rdf:type supprimé
+- data:SummerAudience : rdf:type supprimé
+- data:SummerSkiing : rdf:type supprimé
+- data:SummerSledging : rdf:type supprimé
+- data:SupervisedBeach : rdf:type supprimé
+- data:SupervisedCamperVanArea : rdf:type supprimé
+- data:Surf : rdf:type supprimé
+- data:SurfBiking : rdf:type supprimé
+- data:Surfer : rdf:type supprimé
+- data:Suriname : rdf:type supprimé
+- data:SvalbardAndJanMayenIslands : rdf:type supprimé
+- data:Swaziland : rdf:type supprimé
+- data:Sweden : rdf:type supprimé
+- data:Swimming : rdf:type supprimé
+- data:SwimmingPool : rdf:type supprimé
+- data:Swing : rdf:type supprimé
+- data:Switzerland : rdf:type supprimé
+- data:SyriaArabRepublic : rdf:type supprimé
+- data:Syrup : rdf:type supprimé
+- data:Taekwondo : rdf:type supprimé
+- data:TaggedImageFile : rdf:type supprimé
+- data:TaiwanRepublicOfChina : rdf:type supprimé
+- data:Tajikistan : rdf:type supprimé
+- data:Takeaway : rdf:type supprimé
+- data:TakeawayFoodOrMeals : rdf:type supprimé
+- data:TakeAwayLunchBox : rdf:type supprimé
+- data:Tale : rdf:type supprimé
+- data:TanzaniaUnitedRepublicOf : rdf:type supprimé
+- data:Tapas : rdf:type supprimé
+- data:TARArchive : rdf:type supprimé
+- data:Tarmac : rdf:type supprimé
+- data:Tasting : rdf:type supprimé
+- data:TastingArea : rdf:type supprimé
+- data:TastingMenu : rdf:type supprimé
+- data:TeamSports : rdf:type supprimé
+- data:Technology : rdf:type supprimé
+- data:Teenagers : rdf:type supprimé
+- data:TeenagersClub : rdf:type supprimé
+- data:Telecommunications : rdf:type supprimé
+- data:TelephoneAccess : rdf:type supprimé
+- data:TelephoneMessages : rdf:type supprimé
+- data:Telethon : rdf:type supprimé
+- data:Television : rdf:type supprimé
+- data:Tennis : rdf:type supprimé
+- data:TennisCourt : rdf:type supprimé
+- data:TentHire : rdf:type supprimé
+- data:Terrace : rdf:type supprimé
+- data:TerraceBalcony : rdf:type supprimé
+- data:Textile : rdf:type supprimé
+- data:Thailand : rdf:type supprimé
+- data:TheArtHistoryFestival : rdf:type supprimé
+- data:TheaterConfiguration : rdf:type supprimé
+- data:Theatre : rdf:type supprimé
+- data:TheFrenchLanguageAndFrancophonieWeek : rdf:type supprimé
+- data:ThemedBar : rdf:type supprimé
+- data:TheNationalArchaeologyDays : rdf:type supprimé
+- data:TheNationalArchitectureDays : rdf:type supprimé
+- data:TheNetherlands : rdf:type supprimé
+- data:ThermalBaths : rdf:type supprimé
+- data:ThermalPark : rdf:type supprimé
+- data:ThinkMeTenWords : rdf:type supprimé
+- data:ThirdAge : rdf:type supprimé
+- data:ThreePeople : rdf:type supprimé
+- data:Ticket : rdf:type supprimé
+- data:TimorLeste : rdf:type supprimé
+- data:TipiRental : rdf:type supprimé
+- data:Tobacco : rdf:type supprimé
+- data:Toboggan : rdf:type supprimé
+- data:Togo : rdf:type supprimé
+- data:Toilet : rdf:type supprimé
+- data:Tokelau : rdf:type supprimé
+- data:Tonga : rdf:type supprimé
+- data:ToroPiscine : rdf:type supprimé
+- data:TourismLocation : rdf:type supprimé
+- data:TouristFurnishedRental : rdf:type supprimé
+- data:TouristInformation : rdf:type supprimé
+- data:TouristTax : rdf:type supprimé
+- data:TourOperating : rdf:type supprimé
+- data:TowableTube : rdf:type supprimé
+- data:TowelDryer : rdf:type supprimé
+- data:TradeShows : rdf:type supprimé
+- data:TraditionalCuisine : rdf:type supprimé
+- data:TraditionalMusic : rdf:type supprimé
+- data:Trail : rdf:type supprimé
+- data:TrailerRental : rdf:type supprimé
+- data:TrailMode : rdf:type supprimé
+- data:Traineeship : rdf:type supprimé
+- data:TrainingRestaurant : rdf:type supprimé
+- data:Transfers : rdf:type supprimé
+- data:TransportNetwork : rdf:type supprimé
+- data:TreasureHunting : rdf:type supprimé
+- data:TreeHouseRental : rdf:type supprimé
+- data:TrekkingBike : rdf:type supprimé
+- data:Trial : rdf:type supprimé
+- data:Triathlon : rdf:type supprimé
+- data:TrinidadAndTobago : rdf:type supprimé
+- data:Tripe : rdf:type supprimé
+- data:Troglodyte : rdf:type supprimé
+- data:TropicalCuisine : rdf:type supprimé
+- data:TrueTypeFont : rdf:type supprimé
+- data:Truffle : rdf:type supprimé
+- data:Tunisia : rdf:type supprimé
+- data:Turkey : rdf:type supprimé
+- data:Turkmenistan : rdf:type supprimé
+- data:TurksAndCaicosIslandsOf : rdf:type supprimé
+- data:Tuvalu : rdf:type supprimé
+- data:TVRoomArea : rdf:type supprimé
+- data:TvSocket : rdf:type supprimé
+- data:TwoPeopleBAndB : rdf:type supprimé
+- data:Uganda : rdf:type supprimé
+- data:Ukraine : rdf:type supprimé
+- data:Ulm : rdf:type supprimé
+- data:UnderwaterHiking : rdf:type supprimé
+- data:UnderwaterMode : rdf:type supprimé
+- data:UngroomedTrack : rdf:type supprimé
+- data:UnitedArabEmiratesUae : rdf:type supprimé
+- data:UnitedKingdom : rdf:type supprimé
+- data:UnitedStatesMinorOutlyingIslands : rdf:type supprimé
+- data:UnitedStatesOfAmerica : rdf:type supprimé
+- data:UnspecifiedConfiguration : rdf:type supprimé
+- data:Unusual : rdf:type supprimé
+- data:UrbanCulture : rdf:type supprimé
+- data:Uruguay : rdf:type supprimé
+- data:UShapeConfiguration : rdf:type supprimé
+- data:UsVirginIslands : rdf:type supprimé
+- data:Uzbekistan : rdf:type supprimé
+- data:Vacuum : rdf:type supprimé
+- data:ValentineSDay : rdf:type supprimé
+- data:Valet : rdf:type supprimé
+- data:Vanuatu : rdf:type supprimé
+- data:VeganCuisine : rdf:type supprimé
+- data:Vegetable : rdf:type supprimé
+- data:VegetableGarden : rdf:type supprimé
+- data:VegetarianCuisine : rdf:type supprimé
+- data:Venezuela : rdf:type supprimé
+- data:VerrierArt : rdf:type supprimé
+- data:VeryDifficultTour : rdf:type supprimé
+- data:VeryEasyTour : rdf:type supprimé
+- data:VeryHighSeason : rdf:type supprimé
+- data:VeryLowSeason : rdf:type supprimé
+- data:ViaCordata : rdf:type supprimé
+- data:ViaFerrata : rdf:type supprimé
+- data:Video : rdf:type supprimé
+- data:VideoRoom : rdf:type supprimé
+- data:VideoTerminal : rdf:type supprimé
+- data:Vietnam : rdf:type supprimé
+- data:ViewpointIndicator : rdf:type supprimé
+- data:Visa : rdf:type supprimé
+- data:VisualArts : rdf:type supprimé
+- data:VolleyBall : rdf:type supprimé
+- data:VolleyballCourt : rdf:type supprimé
+- data:Wakeboarding : rdf:type supprimé
+- data:Walkers : rdf:type supprimé
+- data:WalkingMode : rdf:type supprimé
+- data:WallisAndFutunaIslands : rdf:type supprimé
+- data:WarMemories : rdf:type supprimé
+- data:Washrooms : rdf:type supprimé
+- data:WastwaterEvacuation : rdf:type supprimé
+- data:Water : rdf:type supprimé
+- data:WaterConnections : rdf:type supprimé
+- data:WaterGarden : rdf:type supprimé
+- data:WaterPolo : rdf:type supprimé
+- data:WaterSkiing : rdf:type supprimé
+- data:WaterSpot : rdf:type supprimé
+- data:WaterToboggan : rdf:type supprimé
+- data:Waveform : rdf:type supprimé
+- data:WaveSki : rdf:type supprimé
+- data:WayOfStJames : rdf:type supprimé
+- data:Weaving : rdf:type supprimé
+- data:WEBMAudio : rdf:type supprimé
+- data:WEBMImage : rdf:type supprimé
+- data:WEBMVideo : rdf:type supprimé
+- data:WebOpenFont : rdf:type supprimé
+- data:Webp : rdf:type supprimé
+- data:Week0 : rdf:type supprimé
+- data:Week1 : rdf:type supprimé
+- data:Week2 : rdf:type supprimé
+- data:Week3 : rdf:type supprimé
+- data:Week4 : rdf:type supprimé
+- data:Week5 : rdf:type supprimé
+- data:Weekend : rdf:type supprimé
+- data:Weekend1Night : rdf:type supprimé
+- data:Weekend2Nights : rdf:type supprimé
+- data:WesternSahara : rdf:type supprimé
+- data:Wifi : rdf:type supprimé
+- data:Windsurfing : rdf:type supprimé
+- data:WindsurfRental : rdf:type supprimé
+- data:Wine : rdf:type supprimé
+- data:WineLovers : rdf:type supprimé
+- data:WinterAudience : rdf:type supprimé
+- data:Wintering : rdf:type supprimé
+- data:Wintersports : rdf:type supprimé
+- data:Woodworking : rdf:type supprimé
+- data:WorksCouncils : rdf:type supprimé
+- data:WorldEnvironmentDay : rdf:type supprimé
+- data:Worldmusic : rdf:type supprimé
+- data:WorldOceansDay : rdf:type supprimé
+- data:WorldWetlandsDay : rdf:type supprimé
+- data:Wrestling : rdf:type supprimé
+- data:WriterHouse : rdf:type supprimé
+- data:WroughtIron : rdf:type supprimé
+- data:Wushu : rdf:type supprimé
+- data:XHTML : rdf:type supprimé
+- data:XIIIthCentury : rdf:type supprimé
+- data:XIIthCentury : rdf:type supprimé
+- data:XIthCentury : rdf:type supprimé
+- data:XIVthCentury : rdf:type supprimé
+- data:XIXCentury : rdf:type supprimé
+- data:XML : rdf:type supprimé
+- data:XthCentury : rdf:type supprimé
+- data:XUL : rdf:type supprimé
+- data:XVIIIthCentury : rdf:type supprimé
+- data:XVIIthCentury : rdf:type supprimé
+- data:XVIthCentury : rdf:type supprimé
+- data:XVthCentury : rdf:type supprimé
+- data:XXIthCentury : rdf:type supprimé
+- data:XXthCentury : rdf:type supprimé
+- data:Yachtsman : rdf:type supprimé
+- data:YearlyPitch : rdf:type supprimé
+- data:YemenThe : rdf:type supprimé
+- data:Yoga : rdf:type supprimé
+- data:YurtRental : rdf:type supprimé
+- data:Zambia : rdf:type supprimé
+- data:Zimbabwe : rdf:type supprimé
+- data:ZIPArchive : rdf:type supprimé
+- data:Zipline : rdf:type supprimé
