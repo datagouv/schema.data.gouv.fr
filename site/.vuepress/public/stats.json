@@ -331,7 +331,7 @@
             "contributors": 1
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 368,
+            "dgv_resources": 374,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 3
         },
@@ -456,7 +456,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1060,
+            "dgv_resources": 1064,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
