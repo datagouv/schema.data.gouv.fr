@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 298,
+            "dgv_resources": 299,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1220,
+            "dgv_resources": 1221,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -456,7 +456,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1066,
+            "dgv_resources": 1065,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
