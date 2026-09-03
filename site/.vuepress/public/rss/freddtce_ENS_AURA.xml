@@ -6,11 +6,11 @@
     <description>Updates on freddtce/ENS_AURA versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 23 Mar 2026 15:47:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:13:22 +0000</lastBuildDate>
     <item>
-      <title>2026-03-23 - new_schema - 0.1.0</title>
-      <description>Update on 2026-03-23: New schema (freddtce/ENS_AURA)</description>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
+      <title>2026-09-03 - deleted_schema - 0.1.0</title>
+      <description>Update on 2026-09-03: Deleted schema (freddtce/ENS_AURA)</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0200</pubDate>
     </item>
   </channel>
 </rss>

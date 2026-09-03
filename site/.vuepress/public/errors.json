@@ -1,5 +1,10 @@
 [
     {
+        "schema": "bal",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-bal /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-bal/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-bal'... POST git-upl..."
+    },
+    {
         "schema": "dae",
         "version": "1.0.0",
         "type": "tableschema validation"
@@ -33,6 +38,11 @@
         "schema": "dae",
         "version": "1.0.6",
         "type": "tableschema validation"
+    },
+    {
+        "schema": "irve",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-irve.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-irve/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-irve'... POST ..."
     },
     {
         "schema": "budget",
@@ -80,6 +90,16 @@
         "type": "tableschema validation"
     },
     {
+        "schema": "sdirve",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-sdirve.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-sdirve/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-sdirve'......"
+    },
+    {
+        "schema": "friches",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-friches.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-friches/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-friches'..."
+    },
+    {
         "schema": "prenoms",
         "version": "1.1.0",
         "type": "missing schema.json"
@@ -98,6 +118,26 @@
         "schema": "prenoms",
         "version": "1.1.4",
         "type": "tableschema validation"
+    },
+    {
+        "schema": "decp-dpa",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-decp-dpa.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-decp-dpa/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-decp-d..."
+    },
+    {
+        "schema": "grace-thd",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-grace-thd.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-grace-thd/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-grac..."
+    },
+    {
+        "schema": "schema-zfe",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-zfe /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-zfe/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-zfe'... POST git-upl..."
+    },
+    {
+        "schema": "covoiturage",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-lieux-covoiturage.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-lieux-covoiturage/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/et..."
     },
     {
         "schema": "equipements",
@@ -170,119 +210,84 @@
         "type": "validation of type other"
     },
     {
-        "schema": "stationnement",
-        "version": "0.1.0",
-        "type": "tableschema validation"
+        "schema": "fontaine-eau",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/datagouv/schema-fontaine-eau.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/datagouv/schema-fontaine-eau/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/datagouv..."
+    },
+    {
+        "schema": "infos-travaux",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/metis-reseaux/infos-travaux.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/metis-reseaux/infos-travaux/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/metis-rese..."
+    },
+    {
+        "schema": "socle-reseaux",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-socle-reseaux.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-socle-reseaux/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/sch..."
     },
     {
         "schema": "stationnement",
-        "version": "0.1.1",
-        "type": "tableschema validation"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-stationnement.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-stationnement/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/sch..."
     },
     {
-        "schema": "stationnement",
-        "version": "0.1.2",
-        "type": "tableschema validation"
+        "schema": "stations-taxi",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/openmaraude/schema-stationstaxi.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/openmaraude/schema-stationstaxi/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/op..."
     },
     {
-        "schema": "stationnement",
-        "version": "0.1.3",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "arbres_urbains",
-        "version": "0.1.0",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "arbres_urbains",
-        "version": "0.2.0",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "arbres_urbains",
-        "version": "0.2.1",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "arbres_urbains",
-        "version": "0.2.2",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "arbres_urbains",
-        "version": "0.3.0",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "arbres_urbains",
-        "version": "0.3.1",
-        "type": "tableschema validation"
+        "schema": "aire-livraison",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/CEREMA/schema-aire-livraison.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/CEREMA/schema-aire-livraison/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/CEREMA/s..."
     },
     {
         "schema": "arbres_urbains",
         "version": null,
-        "type": "aucune version valide"
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/NaturalSolutions/schema-arbre.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/NaturalSolutions/schema-arbre/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/Natura..."
+    },
+    {
+        "schema": "carte-communale",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-carte-communale.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-carte-communale/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr..."
     },
     {
         "schema": "dispositif-aide",
-        "version": "0.2.0",
-        "type": "missing schema.json"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-dispositif-aide.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-dispositif-aide/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab..."
+    },
+    {
+        "schema": "occupation-sols",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-occupation-sols.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-occupation-sols/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr..."
+    },
+    {
+        "schema": "passage-a-niveau",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-passage-a-niveau /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-passage-a-niveau/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/s..."
     },
     {
         "schema": "registre-archive",
-        "version": "0.2.0",
-        "type": "tableschema validation"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/Archivistes75/registre_entrees.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/Archivistes75/registre_entrees/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/Arch..."
     },
     {
         "schema": "accessibilite-erp",
-        "version": "0.0.1",
-        "type": "tableschema validation"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/MTES-MCT/acceslibre-schema.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/MTES-MCT/acceslibre-schema/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/MTES-MCT/acc..."
     },
     {
-        "schema": "accessibilite-erp",
-        "version": "0.0.2",
-        "type": "tableschema validation"
+        "schema": "comptage-mobilite",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-comptage-mobilites /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-comptage-mobilites/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/etal..."
     },
     {
-        "schema": "accessibilite-erp",
-        "version": "0.0.3",
-        "type": "tableschema validation"
+        "schema": "indice-durabilite",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-indice-durabilite.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-indice-durabilite/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/et..."
     },
     {
-        "schema": "accessibilite-erp",
-        "version": "0.0.4",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.5",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.6",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.7",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.8",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.9",
-        "type": "tableschema validation"
-    },
-    {
-        "schema": "accessibilite-erp",
-        "version": "0.0.20",
-        "type": "missing schema.json"
+        "schema": "sites-economiques",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-sites-economiques.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-sites-economiques/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/cn..."
     },
     {
         "schema": "menus-restauration",
@@ -310,123 +315,143 @@
         "type": "tableschema validation"
     },
     {
-        "schema": "itineraire-randonnee",
-        "version": "0.1.2",
-        "type": "missing schemas.yml"
+        "schema": "sandre-hydrometrie",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/Pierlou/test-schema-hydrometrie.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/Pierlou/test-schema-hydrometrie/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/Pi..."
+    },
+    {
+        "schema": "eclairage-exterieur",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-eclairage-exterieur.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-eclairage-exterieur/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cach..."
+    },
+    {
+        "schema": "indice-reparabilite",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-indice-reparabilite.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-indice-reparabilite/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cach..."
+    },
+    {
+        "schema": "reseaux-electriques",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-reseaux-electriques.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-reseaux-electriques/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cach..."
+    },
+    {
+        "schema": "hautes-remunerations",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-hautes-remunerations /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-hautes-remunerations/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/..."
     },
     {
         "schema": "itineraire-randonnee",
-        "version": "0.2.0",
-        "type": "missing schemas.yml"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/PnX-SI/schema_randonnee.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/PnX-SI/schema_randonnee/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/PnX-SI/schema_rand..."
+    },
+    {
+        "schema": "plan-local-urbanisme",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-plan-local-urbanisme.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-plan-local-urbanisme/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/ca..."
+    },
+    {
+        "schema": "structures-insertion",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/gip-inclusion/data-inclusion-schema.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/gip-inclusion/data-inclusion-schema/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/..."
+    },
+    {
+        "schema": "amenagements-cyclables",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-amenagements-cyclables /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-amenagements-cyclables/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/ca..."
     },
     {
         "schema": "stationnement-cyclable",
-        "version": "0.1.0",
-        "type": "tableschema validation"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-stationnement-cyclable /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-stationnement-cyclable/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/ca..."
+    },
+    {
+        "schema": "desserte-transport-bois",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-desserte-transport-bois.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-desserte-transport-bois/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_prep..."
     },
     {
         "schema": "format-commande-publique",
-        "version": "0.2.0",
-        "type": "missing schemas.yml"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/139bercy/format-commande-publique.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/139bercy/format-commande-publique/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cach..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "0.2.1",
-        "type": "missing schemas.yml"
+        "schema": "plan-corps-rue-simplifie",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-plan-corps-rue-simplifie.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-plan-corps-rue-simplifie/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_pr..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "0.3.0",
-        "type": "missing schemas.yml"
+        "schema": "lieux-mediation-numerique",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/LaMednum/standard-mediation-num.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/LaMednum/standard-mediation-num/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/La..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "0.3.1",
-        "type": "missing schemas.yml"
+        "schema": "espaces-naturels-sensibles",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/freddtce/ENS_AURA.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/freddtce/ENS_AURA/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/cache/freddtce/ENS_AURA'... POST git..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "0.4.0",
-        "type": "missing schemas.yml"
+        "schema": "schema-accessibilite-voirie",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-accessibilite-voirie.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-accessibilite-voirie/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/ca..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "1.0.0",
-        "type": "missing schemas.yml"
+        "schema": "servitudes-utilite-publique",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-servitudes-utilite-publique.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-servitudes-utilite-publique/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publicat..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "1.0.1",
-        "type": "missing schemas.yml"
+        "schema": "emprise-stationnement-voirie",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/macaron-ai/onstreet-parking-schema.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/macaron-ai/onstreet-parking-schema/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_preprod/ca..."
     },
     {
-        "schema": "format-commande-publique",
-        "version": "1.0.2",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.1.0",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.1.1",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.1.2",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.1.3",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.1.4",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.1.5",
-        "type": "missing schemas.yml"
-    },
-    {
-        "schema": "format-commande-publique",
-        "version": "1.2.0",
-        "type": "missing schemas.yml"
+        "schema": "schema-coherence-territoriale",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-schema-coherence-territoriale.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-schema-coherence-territoriale/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publ..."
     },
     {
         "schema": "arrete-circulation-marchandise",
-        "version": "0.3.0",
-        "type": "tableschema validation"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/CEREMA/schema-arrete-circulation-marchandises.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/CEREMA/schema-arrete-circulation-marchandises/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_..."
     },
     {
-        "schema": "arrete-circulation-marchandise",
-        "version": "0.3.1",
-        "type": "tableschema validation"
+        "schema": "donnees-communication-publique",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/GouvernementFR/referentiel-donnees-communication-publique.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/GouvernementFR/referentiel-donnees-communication-publique/ stderr: 'Cloning into '/var/lib/air..."
     },
     {
-        "schema": "arrete-circulation-marchandise",
-        "version": "0.3.3",
-        "type": "tableschema validation"
+        "schema": "impact-service-public-numerique",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-impact-service-public-numerique /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-impact-service-public-numerique/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publ..."
     },
     {
-        "schema": "arrete-circulation-marchandise",
-        "version": "0.3.2",
-        "type": "tableschema validation"
+        "schema": "plan-sauvegarde-et-mise-en-valeur",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_webs..."
     },
     {
-        "schema": "arrete-circulation-marchandise",
-        "version": "0.4.0",
-        "type": "tableschema validation"
+        "schema": "continuites-ecologiques-regionales",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/cnigfr/schema-continuites-ecologiques-regionales.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/cnigfr/schema-continuites-ecologiques-regionales/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_we..."
     },
     {
-        "schema": "arrete-circulation-marchandise",
-        "version": "0.4.1",
-        "type": "tableschema validation"
+        "schema": "projet-collectivites-transition-ecologique",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/betagouv/schema-projet-collectivites-transition-ecologique/ stderr: 'Cloning into '/var/lib/a..."
+    },
+    {
+        "schema": "vehicules-faibles-emissions-renouvellement-parc",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-vehicules-faibles-emissions-renouvellement-parc/ stderr: 'Cloning into '/var..."
+    },
+    {
+        "schema": "declaration-biens-reemploi-reutilisation-recycle",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/datagouv/schema-declaration-biens-reemploi-reutilisation-recycle/ stderr: 'Cloning into..."
+    },
+    {
+        "schema": "vehicules-faibles-emissions-renouvellement-parc-synthese",
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://github.com/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese.git /var/lib/airflow/tmp/schema_website_publication_preprod/cache/etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese/ stderr: '..."
     }
 ]

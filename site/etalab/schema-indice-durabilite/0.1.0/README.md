@@ -1,3 +1,0 @@
-<MenuSchema />
-
-# schema-indice-durabilite
