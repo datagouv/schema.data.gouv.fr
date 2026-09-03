@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1221,
+            "dgv_resources": 1222,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -273,12 +273,12 @@
         "etalab/schema-dispositif-aide": {
             "dgv_resources": 1,
             "title": "Sch\u00e9mas des dispositifs d'aide",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-occupation-sols": {
             "dgv_resources": 0,
             "title": "Occupation des sols \u00e0 grande \u00e9chelle",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-passage-a-niveau": {
             "dgv_resources": 2,
@@ -288,57 +288,57 @@
         "Archivistes75/registre_entrees": {
             "dgv_resources": 11,
             "title": "Registre d'entr\u00e9e d'archives",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-base": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Base",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-grand-etablissement": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Grands \u00e9tablissements",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-hebergement": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 H\u00e9bergement",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-bureau-de-vote": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Bureau de vote",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-etablissement-scolaire": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 \u00c9tablissements scolaires",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-erp-sante": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 ERP \u2014 Sant\u00e9",
-            "contributors": 6
+            "contributors": 2
         },
         "MTES-MCT/acceslibre-schema": {
             "dgv_resources": 5,
             "title": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
-            "contributors": 6
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-site": {
             "dgv_resources": 5,
             "title": "Comptage des mobilit\u00e9s (Site)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-channel": {
             "dgv_resources": 2,
             "title": "Comptage des mobilit\u00e9s (Channel)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites-measure": {
             "dgv_resources": 4,
             "title": "Comptage des mobilit\u00e9s (Measure)",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
