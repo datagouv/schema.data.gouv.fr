@@ -1,13 +1,23 @@
 <MenuSchema />
 
-## Schéma d’accessibilité aux établissements recevant du public (ERP)
+## Schéma d’accessibilité aux établissements recevant du public (ERP) - Établissements de santé
 
 Ce schéma permet de modéliser les informations d’accessibilité aux bâtiments recevant du public, afin notamment de
-faciliter la mobilité des personnes en situation de handicap. Le schéma d’Acceslibre est cohérent avec
-le [standard de données d’accessibilité](http://cnig.gouv.fr/wp-content/uploads/2021/11/211021_Standard_CNIG_Accessibilite_v2021-10.pdf)
-validé par le CNIG et, plus précisément le modèle ERP (décrit en page 20 du standard).
+faciliter la mobilité des personnes en situation de handicap.
 
 Adopter et respecter ce schéma est une garantie, non seulement d’efficacité et de pertinence des informations collectées, mais aussi d’interopérabilité et de facilité du partage des données.
+
+Il existe plusieurs schémas d'accessibilité selon l'activité des ERP.
+
+- [Schéma de base](https://github.com/MTES-MCT/acceslibre-schema/blob/master/base/README.md)
+- [Schéma pour les grands établissements](https://github.com/MTES-MCT/acceslibre-schema/blob/master/grands_etablissements/README.md)
+- [Schéma pour les établissements scolaires](https://github.com/MTES-MCT/acceslibre-schema/blob/master/etablissements_scolaires/README.md)
+- [Schéma pour les établissements de santé](https://github.com/MTES-MCT/acceslibre-schema/blob/master/sante/README.md)
+- [Schéma pour les bâtiments d'hébergement](https://github.com/MTES-MCT/acceslibre-schema/blob/master/hebergement/README.md)
+- [Schéma pour les établissements sportifs](https://github.com/MTES-MCT/acceslibre-schema/blob/master/etablissements_sportifs/README.md)
+- [Schéma pour les bureaux de vote](https://github.com/MTES-MCT/acceslibre-schema/blob/master/bureau_de_vote/README.md)
+
+Le détails des schémas à appliquer selon les activités des ERP sont précisés dans le document : [Activités par schéma](https://github.com/MTES-MCT/acceslibre-schema/blob/master/activites.xlsx)
 
 [Schéma au format json](https://github.com/MTES-MCT/acceslibre-schema/blob/master/sante/schema.json)
 
@@ -69,14 +79,12 @@ La base des informations d’accessibilité des ERP en France permet de regroupe
 
 ### Description du schéma <a name="schema"></a>
 
-Le schéma de base est disponible en format [json](https://github.com/MTES-MCT/acceslibre-schema/blob/master/sante/schema.json) ou [excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/sante/schema.xls) (à télécharger). (voir procédure avant dépôt des données)
+Le schéma pour les établissements de santé est disponible en format [json](https://github.com/MTES-MCT/acceslibre-schema/blob/master/sante/schema.json) ou [excel](https://github.com/MTES-MCT/acceslibre-schema/blob/master/sante/schema.xls) (à télécharger). (voir procédure avant dépôt des données)
 
 Une description détaillée (champ par champ) du modèle de donnée est accessible ici : [https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.20/documentation.html](https://schema.data.gouv.fr/MTES-MCT/acceslibre-schema/0.0.20/documentation.html). Ce schéma
 respecte le standard Data Package Schema. Pour en savoir plus, voir la page dédiée : [DataPackage](https://specs.frictionlessdata.io/data-package/)
 
 Une description non technique des champs est également disponible ici : [https://acceslibre.beta.gouv.fr/contrib/documentation/](https://acceslibre.beta.gouv.fr/contrib/documentation/)
-
-D'autres schémas sont également disponibles pour les macro-activités correspondantes dans les dossiers bureau_de_vote, etablissements_scolaires, grands_etablissements, et hebergement.
 
 ### OpenData <a name="opendata"></a>
 

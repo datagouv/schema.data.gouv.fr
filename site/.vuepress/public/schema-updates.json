@@ -1402,5 +1402,43 @@
                 "version": "3.2.2"
             }
         ]
+    },
+    "2026-09-04": {
+        "new_version": [
+            {
+                "schema_name": "MTES-MCT/acceslibre-schema",
+                "version": "0.0.20 => 0.0.21"
+            },
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-base",
+                "version": "0.0.20 => 0.0.21"
+            },
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-sante",
+                "version": "0.0.20 => 0.0.21"
+            },
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-hebergement",
+                "version": "0.0.20 => 0.0.21"
+            },
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-bureau-de-vote",
+                "version": "0.0.20 => 0.0.21"
+            },
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-grand-etablissement",
+                "version": "0.0.20 => 0.0.21"
+            },
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-etablissement-scolaire",
+                "version": "0.0.20 => 0.0.21"
+            }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "MTES-MCT/acceslibre-erp-etablissement-sportif",
+                "version": "0.0.21"
+            }
+        ]
     }
 }
