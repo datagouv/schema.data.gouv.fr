@@ -28,6 +28,10 @@ MTES-MCT/acceslibre-erp-etablissement-scolaire:
   consolidate: false
   search_words:
   - "Accessibilit\xE9 ERP \u2014 \xC9tablissements scolaires"
+MTES-MCT/acceslibre-erp-etablissement-sportif:
+  consolidate: false
+  search_words:
+  - "Accessibilit\xE9 ERP \u2014 \xC9tablissements sportifs"
 MTES-MCT/acceslibre-erp-grand-etablissement:
   consolidate: false
   search_words:
@@ -225,9 +229,9 @@ etalab/schema-indice-reparabilite:
   - "r\xE9parabilit\xE9"
 etalab/schema-irve-dynamique:
   consolidate: false
-  publication: false
   exclude_dataset_ids:
   - 685965d0ab901919e14a4a1b
+  publication: false
 etalab/schema-irve-statique:
   consolidate: true
   consolidated_dataset_id: 5448d3e0c751df01f85d0572
