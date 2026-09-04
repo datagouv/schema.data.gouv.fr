@@ -1,0 +1,63 @@
+<MenuSchema />
+
+# Schéma de données des lieux de médiation numérique
+Ce schéma permet de modéliser les différents attributs des lieux de médiation et d'inclusion numérique. 
+
+## Contexte
+Il existe un réel besoin d’une vision nationale, complète et actualisée de l’offre de médiation numérique. 
+
+Des acteurs de la médiation numérique, notamment les hubs, ont produit de nombreuses données de recensement des lieux et des offres de médiation mais souvent, ces productions ne respectent pas le même format, rendant alors impossible une vision formalisée, complète et partagée de l’offre nationale de médiation numérique. 
+
+La standardisation permet de décrire l'offre de médiation numérique de manière harmonisée. Elle repose sur un travail de concertation dans lequel des utilisateurs représentatifs ont défini un schéma de données qui décrit le format des fichiers, les différents champs, les valeurs possibles…
+
+### Un travail qui contribue à la construction d'une cartographie nationale et d'une multitude d’usages
+
+En lien étroit avec ces travaux, l’ANCT mène actuellement un projet de cartographie nationale de l’offre de médiation numérique. Les données seront ouvertes pour développer une multitude d’usages : guider les usagers vers une structure de médiation numérique, accompagner les acteurs territoriaux dans le développement de l’offre, analyser l’adéquation entre l’offre et le besoin pour les publics fragiles…
+
+## Construction collaborative du schéma de données 
+
+Ce travail est piloté par l’Agence nationale pour la cohésion des territoires (ANCT) et La MedNum avec l’appui de Datactivist. La concertation autour du schéma s'est structurée autour de cercles concentriques : un comité de pilotage propose des arbitrages autour des suggestions d'un groupe ouvert de contributeurs. Près d'une cinquantaine de personnes ont participé à chacun des trois ateliers de travail, et 120+ commentaires ont permis d'aboutir une version finale du schéma de données.
+
+Tous les comités de pilotage et les ateliers ont fait l'objet de comptes-rendus disponibles [ici](https://github.com/LaMednum/standard-mediation-num/blob/main/COPILAteliers/ListeR%C3%A9unions.md) 
+
+Les étapes et enjeux du projet sont également détaillés [sur le site de La Mednum](https://lamednum.coop/schema-de-donnees-des-lieux-de-mediation-numerique-2)
+
+## Description du schéma
+
+La documentation des champs du schéma est accessible [sur schema.data.gouv.fr](https://schema.data.gouv.fr/LaMednum/standard-mediation-num/). 
+
+Un [gabarit](https://github.com/LaMednum/standard-mediation-num/blob/main/Schema_lieux_mediation_numerique_gabarit.xlsx) au format tableur est également prévu pour faciliter la publication d'un jeu de données conforme au format du schéma.
+
+## Format de fichier
+
+Le format de fichier retenu pour la publication des données est le CSV (Comma Separated Values, valeurs séparées par des virgules).
+
+Les fichiers doivent, sauf exception et autant que possible, respecter les règles de formatage suivantes :
+
+* l’encodage des caractères est UTF-8,
+* le séparateur des colonnes est la virgule,
+* le séparateur des nombres décimaux est le point,
+* le séparateur de valeurs multiples dans un champ est le point-virgule,
+* si un champ contient une virgule, il doit être entouré de guillemets doubles,
+* chaque ligne doit avoir le même nombre de champs,
+* le type MIME ou Content-Type est text/csv.
+
+### Recommandations pour le nommage des fichiers :
+Les fichiers doivent, sauf exception et autant que possible, respecter les règles de nommage suivantes :
+
+YYYY-MM-DD_idProducteur_lieux-de-mediation-numerique_territoire.csv
+
+* YYYY-MM-DD : Date de création du fichier
+* idProducteur :  Numéro SIRET (sur 14 chiffres) ou RNA (W + 9 chiffres) pour identifier le producteur
+* lieux-de-mediation-numerique : nom du fichier, en minuscules non accentuées
+* territoire : Nom du territoire concerné, non accentué (exemple : BordeauxMetropole)
+* extension : Si les règles de formatage sont respectées, l'extension est .csv
+
+Exemple : 2022-07-25_24330031600011_lieux-de-mediation-numerique_BordeauxMetropole.csv
+
+### Recommandations pour la mise en conformité :
+Ces conseils reprennent ceux du [Socle commun des données locales publié par Open Data france](https://scdl.opendatafrance.net/docs/recommandations-relatives-aux-jeux-de-donnees.html)
+
+Les fichiers doivent comporter :
+* Toutes les colonnes, y compris celles dont les cellules ne sont pas renseignées, dans le bon ordre, et avec des en-têtes correctement nommées sur la première ligne (nom correspondant strictement au schéma)
+* Autant de lignes que nécessaire comprenant des cellules dont les valeurs peuvent être obligatoires (elles doivent être impérativement renseignées) ou optionnelles (elles sont seulement recommandées ou soumises à condition de disponibilité / pertinence)

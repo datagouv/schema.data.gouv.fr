@@ -1,0 +1,256 @@
+{
+    "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+    "name": "projets-territoire",
+    "title": "Projets de collectivités",
+    "description": "Schéma de données pour décrire un projet de collectivité visant la transition écologique, incluant les informations de suivi, le budget, le statut, les détails du porteur et les référentiels de compétences et leviers.",
+    "countryCode": "FR",
+    "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique",
+    "path": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique/datapackage.json",
+    "licenses": [
+       {
+          "title": "Licence Ouverte",
+          "name": "etalab-2.0",
+          "path": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+       }
+    ],
+    "created": "2025-04-28",
+    "lastModified": "2025-04-28",
+    "version": "v0.1.0",
+    "contributors": [
+       {
+          "title": "Adrien Zemour",
+          "email": "adrien.zemour@ebeta.gouv.fr",
+          "organisation": "Les communs de la transition écologique des collectivités",
+          "role": "author"
+       },
+       {
+          "title": "Jean Perret",
+          "email": "jean.perret@ebeta.gouv.fr",
+          "organisation": "Les communs de la transition écologique des collectivités",
+          "role": "author"
+       },
+       {
+          "title": "Louis Boivin",
+          "email": "louis.boivin@ebeta.gouv.fr",
+          "organisation": "Les communs de la transition écologique des collectivités",
+          "role": "author"
+       },
+       {
+          "title": "Matthieu Veillon",
+          "email": "matthieu.veillon@ebeta.gouv.fr",
+          "organisation": "Les communs de la transition écologique des collectivités",
+          "role": "author"
+       }
+    ],
+    "fields": [
+       {
+          "name": "id",
+          "title": "Identifiant",
+          "description": "Identifiant unique du projet (UUID).",
+          "example": "01890e30-5a80-7c22-9842-8263d0d0d890",
+          "type": "string",
+          "format": "uuid",
+          "constraints": {
+             "required": true
+          }
+       },
+       {
+          "name": "createdAt",
+          "title": "Date de création",
+          "description": "Date de création du projet.",
+          "example": "2025-04-15T14:30:00.000Z",
+          "type": "string",
+          "constraints": {
+             "required": true,
+             "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:?\\d{2})$"
+          }
+       },
+       {
+          "name": "updatedAt",
+          "title": "Date de mise à jour",
+          "description": "Date de dernière mise à jour du projet.",
+          "example": "2025-04-15T14:30:00.000Z",
+          "type": "string",
+          "constraints": {
+             "required": true,
+             "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:?\\d{2})$"
+          }
+       },
+       {
+          "name": "nom",
+          "title": "Nom du projet",
+          "description": "Nom du projet.",
+          "example": "Rénovation énergétique des bâtiments publics",
+          "type": "string",
+          "constraints": {
+             "required": true
+          }
+       },
+       {
+          "name": "description",
+          "title": "Description",
+          "description": "Description détaillée du projet.",
+          "example": "Projet de rénovation énergétique des écoles et bâtiments administratifs pour réduire la consommation d'énergie et améliorer le confort thermique.",
+          "type": "string"
+       },
+       {
+          "name": "budgetPrevisionnel",
+          "title": "Budget prévisionnel",
+          "description": "Budget prévisionnel alloué au projet en euros.",
+          "example": "450000",
+          "type": "integer"
+       },
+       {
+          "name": "dateDebutPrevisionnelle",
+          "title": "Date de début prévisionnelle",
+          "description": "Date prévue de début du projet au format YYYY-MM-DD.",
+          "example": "2025-03-01",
+          "type": "string"
+       },
+       {
+          "name": "phase",
+          "title": "Phase du projet",
+          "description": "Phase actuelle du projet.",
+          "example": "Idée",
+          "type": "string",
+          "constraints": {
+             "enum": [
+                "Idée",
+                "Étude",
+                "Opération"
+             ]
+          }
+       },
+       {
+          "name": "phaseStatut",
+          "title": "Statut de la phase",
+          "description": "Statut actuel de la phase en cours.",
+          "example": "En cours",
+          "type": "string",
+          "constraints": {
+             "enum": [
+                "En cours",
+                "En retard",
+                "En pause",
+                "Bloqué",
+                "Abandonné",
+                "Terminé"
+             ]
+          }
+       },
+       {
+          "name": "programme",
+          "title": "Programme",
+          "description": "Programme ou service numérique à l'origine du projet.",
+          "example": "CRTE",
+          "type": "string"
+       },
+       {
+          "name": "porteurCodeSiret",
+          "title": "SIRET du porteur",
+          "description": "Code SIRET du porteur du projet.",
+          "example": "21690123400019",
+          "type": "string",
+          "constraints": {
+             "pattern": "^\\d{14}$"
+          }
+       },
+       {
+          "name": "porteurReferentEmail",
+          "title": "Email du référent",
+          "description": "Adresse email du référent porteur.",
+          "example": "marie.dupont@ville-exemple.fr",
+          "type": "string",
+          "format": "email"
+       },
+       {
+          "name": "porteurReferentTelephone",
+          "title": "Téléphone du référent",
+          "description": "Numéro de téléphone du référent porteur.",
+          "example": "0472123456",
+          "type": "string"
+       },
+       {
+          "name": "porteurReferentPrenom",
+          "title": "Prénom du référent",
+          "description": "Prénom du référent porteur.",
+          "example": "Marie",
+          "type": "string"
+       },
+       {
+          "name": "porteurReferentNom",
+          "title": "Nom du référent",
+          "description": "Nom du référent porteur.",
+          "example": "Dupont",
+          "type": "string"
+       },
+       {
+          "name": "porteurReferentFonction",
+          "title": "Fonction du référent",
+          "description": "Fonction du référent porteur.",
+          "example": "Directrice des services techniques",
+          "type": "string"
+       },
+       {
+          "name": "competences",
+          "title": "Compétences",
+          "description": "Liste des compétences associées au projet, voir référentiel des compétences M57",
+          "type": "array",
+          "items": {
+             "type": "string"
+          },
+          "examples": [
+             "90-21",
+             "90-74",
+             "90-71"
+          ]
+       },
+       {
+          "name": "leviers",
+          "title": "Leviers",
+          "description": "Liste des leviers d'action du projet, voir référentiel des leviers SGPE",
+          "type": "array",
+          "items": {
+             "type": "string"
+          },
+          "examples": [
+             "Rénovation énergétique",
+             "Mobilité durable",
+             "Gestion des déchets"
+          ]
+       },
+       {
+          "name": "mecId",
+          "title": "ID MEC",
+          "description": "Identifiant du projet sur Mon Espace Collectivité.",
+          "example": "MEC-7652",
+          "type": "string"
+       },
+       {
+          "name": "tetId",
+          "title": "ID TET",
+          "description": "Identifiant du projet sur TET.",
+          "example": "12345",
+          "type": "string"
+       },
+       {
+          "name": "recocoId",
+          "title": "ID Recoco",
+          "description": "Identifiant du projet sur Recoco.",
+          "type": "string"
+       },
+       {
+          "name": "collectiviteIds",
+          "title": "IDs des collectivités",
+          "description": "Identifiants des collectivités associées au projet.",
+          "type": "array",
+          "items": {
+             "type": "string",
+             "format": "uuid"
+          },
+          "examples": ["01890e30-5a80-7c22-9842-8263d0d0d123", "01890e30-5a80-7c22-9842-8263d0d0d124"]
+       }
+    ],
+    "missingValues": [""],
+    "primaryKey": "id"
+}

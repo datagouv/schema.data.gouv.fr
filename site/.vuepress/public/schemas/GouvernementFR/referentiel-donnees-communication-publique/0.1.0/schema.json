@@ -1,0 +1,204 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://schema.data.gouv.fr/sig/schema-communiques-presse-gouvernement/schema.json",
+    "title": "Communiqués de presse du Gouvernement",
+    "description": "Schéma décrivant la structure d'un communiqué de presse publié sur info.gouv.fr. Chaque communiqué embarque les personnalités du Gouvernement, les thématiques et sous-thématiques officielles de l'action gouvernementale.",
+    "type": "object",
+    "required": [
+        "version",
+        "langue",
+        "type_document",
+        "date_diffusion",
+        "lieu_diffusion",
+        "contenu",
+        "personnalites",
+        "thematiques"
+    ],
+    "properties": {
+        "version": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Version du communiqué. Incrémentée de +1 à chaque publication."
+        },
+        "langue": {
+            "type": "string",
+            "description": "Langue du communiqué, norme ISO Alpha-2.",
+            "default": "FR"
+        },
+        "type_document": {
+            "type": "string",
+            "description": "Type de document",
+            "enum": ["communique_de_presse", "dossier_de_presse"]
+        },
+        "mots_cles": {
+            "type": "array",
+            "description": "Mots-clés libres associés au communiqué. Optionnels.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "lieu_diffusion": {
+            "type": "string",
+            "description": "Lieu d'émission du communiqué (ex : \"Hôtel de Matignon\", \"Paris\")."
+        },
+        "date_diffusion": {
+            "type": "string",
+            "format": "date",
+            "description": "Date de diffusion au format ISO 8601 (AAAA-MM-JJ)."
+        },
+        "personnalites": {
+            "type": "array",
+            "description": "Personnalités du Gouvernement associées au communiqué, référencées par leur UUID issu de composition-gouvernement.json. Au moins une obligatoire.",
+            "items": {
+                "type": "object",
+                "required": ["id"],
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "uuid",
+                        "description": "UUID de la personnalité."
+                    }
+                }
+            }
+        },
+        "thematiques": {
+            "type": "array",
+            "description": "Thématiques officielles associées, référencées par leur UUID issu de thematiques.json. Au moins une obligatoire.",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "required": ["id"],
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "uuid",
+                        "description": "UUID de la thématique."
+                    }
+                }
+            }
+        },
+        "sous_thematiques": {
+            "type": "array",
+            "description": "Sous-thématiques officielles associées. Optionnelles mais recommandées.",
+            "items": {
+                "type": "object",
+                "required": ["id"],
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "uuid",
+                        "description": "UUID de la sous-thématique."
+                    }
+                }
+            }
+        },
+        "mission": {
+            "type": "object",
+            "description": "Mission essentielle de l'État associée au communiqué. Optionnelle. Référencée par son UUID issu de missions-essentielles.json.",
+            "required": ["id"],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "uuid",
+                    "description": "UUID de la mission essentielle."
+                }
+            }
+        },
+        "objet": {
+            "type": "object",
+            "description": "Objet de communication interministérielle associé au communiqué. Optionnel. Référencé par son UUID issu de missions-essentielles.json.",
+            "required": ["id"],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "string",
+                    "description": "ID de l'objet de communication interministérielle."
+                }
+            }
+        },
+        "contenu": {
+            "type": "string",
+            "description": "Corps complet du communiqué au format Markdown."
+        },
+        "contacts_presse": {
+            "type": "array",
+            "description": "Contacts presse associés au communiqué (0 à n). Optionnels.",
+            "items": {
+                "type": "object",
+                "required": ["contact_privilegie", "email"],
+                "properties": {
+                    "civilite": {
+                        "type": ["string", "null"],
+                        "enum": ["M.", "Mme", null],
+                        "description": "Civilité du contact. Null si le contact est un service."
+                    },
+                    "contact_privilegie": {
+                        "type": "string",
+                        "description": "Nom de la personne ou du service (ex : \"Sophie Martin\", \"Bureau de presse de Bercy\")."
+                    },
+                    "fonction": {
+                        "type": ["string", "null"],
+                        "description": "Poste ou rôle du contact. Optionnel."
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "description": "Adresse email de contact. Obligatoire."
+                    },
+                    "telephone": {
+                        "type": ["string", "null"],
+                        "pattern": "^(\\+33|0)[0-9 ]{8,14}$",
+                        "description": "Numéro de téléphone au format +33... ou 06..."
+                    },
+                    "lien_formulaire": {
+                        "type": ["string", "null"],
+                        "format": "uri",
+                        "description": "Lien vers un formulaire de contact. Optionnel."
+                    },
+                    "adresse_physique": {
+                        "type": ["string", "null"],
+                        "description": "Adresse postale du contact. Optionnelle."
+                    }
+                }
+            }
+        },
+        "pieces_jointes": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 4,
+            "description": "Liste des pièces jointes associées au communiqué.",
+            "$comment": "Favoriser des pièces jointes de 10 Mo au maximum",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["libelle", "lien", "poids", "mimetype"],
+                "properties": {
+                    "libelle": {
+                        "type": "string",
+                        "maxLength": 255,
+                        "description": "Libellé de la pièce jointe.",
+                        "$comment": "Le libellé doit être concis et informatif"
+                    },
+                    "lien": {
+                        "type": "string",
+                        "format": "uri",
+                        "description": "URL de la pièce jointe.",
+                        "$comment": "Favoriser l'usage d'un lien HTTPS"
+                    },
+                    "poids": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "description": "Poids en octets.",
+                        "$comment": "Favoriser des pièces jointes de 10 Mo au maximum"
+                    },
+                    "mimetype": {
+                        "type": "string",
+                        "pattern": "^[a-zA-Z0-9!#$&^_.+-]+\\/[a-zA-Z0-9!#$&^_.+-]+$",
+                        "description": "MIME type au format type/sous-type.",
+                        "$comment": "Doit être conforme à la RFC 6838"
+                    }
+                }
+            }
+        }
+    }
+}

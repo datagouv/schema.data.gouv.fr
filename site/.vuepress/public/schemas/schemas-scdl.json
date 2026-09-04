@@ -3,6 +3,40 @@
     "version": 1,
     "schemas": [
         {
+            "name": "etalab/schema-bal",
+            "title": "Base Adresse Locale (BAL)",
+            "description": "Fichier contenant toutes les adresses d'un territoire donn\u00e9",
+            "schema_type": "other",
+            "contact": "adresse@data.gouv.fr",
+            "examples": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "1.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.1.0/schema.yml"
+                },
+                {
+                    "version_name": "1.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.3.0/schema.yml"
+                },
+                {
+                    "version_name": "1.4.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.4.0/schema.yml"
+                },
+                {
+                    "version_name": "1.5.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-bal/1.5.0/schema.yml"
+                }
+            ],
+            "external_doc": "https://adresse.data.gouv.fr/bases-locales",
+            "external_tool": "https://mes-adresses.data.gouv.fr/new",
+            "homepage": "https://github.com/etalab/schema-bal",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-bal/latest/schema.yml"
+        },
+        {
             "name": "atlasante/schema-dae",
             "title": "DAE",
             "description": "Sp\u00e9cification du mod\u00e8le de donn\u00e9es relatif aux DAE",
@@ -40,6 +74,127 @@
             "external_tool": null,
             "homepage": "https://gitlab.com/arsante/atlasante/schema-dae.git",
             "schema_url": "https://schema.data.gouv.fr/schemas/atlasante/schema-dae/latest/schema.json"
+        },
+        {
+            "name": "etalab/schema-irve-statique",
+            "title": "IRVE statique",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant la localisation g\u00e9ographique et les caract\u00e9ristiques techniques des stations et des points de recharge pour v\u00e9hicules \u00e9lectriques. Chaque ligne du fichier correspond \u00e0 un point de recharge (PDC).",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier IRVE valide",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/statique/exemple-valide-statique.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.2.1/schema-statique.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.3.0/schema-statique.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/2.3.1/schema-statique.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-statique/latest/schema-statique.json",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "datapackage_name": "etalab/schema-irve",
+            "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
+        },
+        {
+            "name": "etalab/schema-irve-dynamique",
+            "title": "IRVE dynamique",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change relatif aux donn\u00e9es concernant l\u2019\u00e9tat temps r\u00e9el des points de recharge pour v\u00e9hicules \u00e9lectriques. Chaque ligne du fichier correspond \u00e0 un point de recharge (PDC) dont les caract\u00e9ristiques compl\u00e8tes sont d\u00e9crites dans un fichier au sch\u00e9ma \u00ab\u202fIRVE statique\u202f\u00bb",
+            "schema_type": "tableschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [
+                {
+                    "title": "Exemple de fichier IRVE valide",
+                    "path": "https://raw.githubusercontent.com/etalab/schema-irve/v2.3.0/dynamique/exemple-valide-dynamique.csv"
+                }
+            ],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.2.1/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.3.0/schema-dynamique.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/2.3.1/schema-dynamique.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve-dynamique/latest/schema-dynamique.json",
+            "datapackage_title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "datapackage_name": "etalab/schema-irve",
+            "datapackage_description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique"
+        },
+        {
+            "name": "etalab/schema-irve",
+            "title": "Infrastructures de recharges pour v\u00e9hicules \u00e9lectriques (IRVE)",
+            "description": "data package contenant 2 sch\u00e9mas : IRVE statique et IRVE dynamique",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/datapackage.json",
+            "schema_type": "datapackage",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [],
+            "labels": [
+                "Socle Commun des Donn\u00e9es Locales",
+                "transport.data.gouv.fr"
+            ],
+            "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
+            "versions": [
+                {
+                    "version_name": "2.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.2.0/datapackage.json"
+                },
+                {
+                    "version_name": "2.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.2.1/datapackage.json"
+                },
+                {
+                    "version_name": "2.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.3.0/datapackage.json"
+                },
+                {
+                    "version_name": "2.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.3.1/datapackage.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
+            "external_tool": null,
+            "homepage": "https://github.com/etalab/schema-irve.git"
         },
         {
             "name": "scdl/budget",
@@ -410,6 +565,69 @@
             "external_tool": null,
             "homepage": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs.git",
             "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/latest/schema.json"
+        },
+        {
+            "name": "etalab/schema-amenagements-cyclables",
+            "title": "Am\u00e9nagements cyclables",
+            "description": "Sp\u00e9cification du sch\u00e9ma de donn\u00e9es d'am\u00e9nagements cyclables",
+            "schema_type": "jsonschema",
+            "contact": "contact@transport.data.gouv.fr",
+            "examples": [],
+            "labels": [
+                "transport.data.gouv.fr",
+                "Socle Commun des Donn\u00e9es Locales"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.1.0/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.2.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.2.0/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.2.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.2.1/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.2.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.2.2/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.2.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.2.3/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.0/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.1",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.1/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.2/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.3/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.4/schema_amenagements_cyclables.json"
+                },
+                {
+                    "version_name": "0.3.5",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/0.3.5/schema_amenagements_cyclables.json"
+                }
+            ],
+            "external_doc": "https://doc.transport.data.gouv.fr/producteurs/amenagements-cyclables",
+            "external_tool": "https://github.com/etalab/schema-amenagements-cyclables/tree/master/tools",
+            "homepage": "https://github.com/etalab/amenagements-cyclables",
+            "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-amenagements-cyclables/latest/schema_amenagements_cyclables.json"
         }
     ]
 }

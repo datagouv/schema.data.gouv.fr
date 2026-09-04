@@ -1,0 +1,727 @@
+{
+  "$defs": {
+    "Frais": {
+      "description": "Frais",
+      "enum": [
+        "gratuit",
+        "payant"
+      ],
+      "title": "Frais",
+      "type": "string"
+    },
+    "ModeAccueil": {
+      "description": "Modes d’accueil",
+      "enum": [
+        "a-distance",
+        "en-presentiel"
+      ],
+      "title": "ModeAccueil",
+      "type": "string"
+    },
+    "ModeMobilisation": {
+      "description": "Modes de mobilisation",
+      "enum": [
+        "envoyer-un-courriel",
+        "se-presenter",
+        "telephoner",
+        "utiliser-lien-mobilisation"
+      ],
+      "title": "ModeMobilisation",
+      "type": "string"
+    },
+    "PersonneMobilisatrice": {
+      "description": "Personnes mobilisatrices",
+      "enum": [
+        "usagers",
+        "professionnels"
+      ],
+      "title": "PersonneMobilisatrice",
+      "type": "string"
+    },
+    "Public": {
+      "description": "Publics",
+      "enum": [
+        "tous-publics",
+        "actifs",
+        "beneficiaires-des-minimas-sociaux",
+        "demandeurs-emploi",
+        "etudiants",
+        "familles",
+        "femmes",
+        "jeunes",
+        "personnes-en-situation-de-handicap",
+        "personnes-en-situation-durgence",
+        "personnes-en-situation-juridique-specifique",
+        "personnes-exilees",
+        "residents-qpv-frr",
+        "seniors"
+      ],
+      "title": "Public",
+      "type": "string"
+    },
+    "Thematique": {
+      "description": "Thématiques",
+      "enum": [
+        "choisir-un-metier--confirmer-son-choix-de-metier",
+        "choisir-un-metier--connaitre-les-opportunites-demploi",
+        "choisir-un-metier--decouvrir-un-metier-ou-un-secteur-dactivite",
+        "choisir-un-metier--identifier-ses-points-forts-et-ses-competences",
+        "creer-une-entreprise--definir-son-projet-de-creation-dentreprise",
+        "creer-une-entreprise--developper-son-entreprise",
+        "creer-une-entreprise--structurer-son-projet-de-creation-dentreprise",
+        "difficultes-administratives-ou-juridiques--accompagnement-aux-demarches-administratives",
+        "difficultes-administratives-ou-juridiques--accompagnement-pour-lacces-a-la-citoyennete",
+        "difficultes-administratives-ou-juridiques--accompagnement-pour-lacces-aux-droits",
+        "difficultes-administratives-ou-juridiques--beneficier-dune-mesure-daccompagnement-adapte",
+        "difficultes-administratives-ou-juridiques--connaitre-ses-droits-face-a-une-discrimination",
+        "difficultes-administratives-ou-juridiques--prendre-en-compte-une-problematique-judiciaire",
+        "difficultes-financieres--acquerir-une-autonomie-budgetaire",
+        "difficultes-financieres--ameliorer-sa-gestion-budgetaire",
+        "difficultes-financieres--mettre-en-place-une-mesure-de-protection-financiere",
+        "difficultes-financieres--prevenir-une-degradation-de-la-situation-financiere",
+        "difficultes-financieres--situation-dendettement-surendettement",
+        "equipement-et-alimentation--aide-menagere",
+        "equipement-et-alimentation--alimentation",
+        "equipement-et-alimentation--electromenager",
+        "equipement-et-alimentation--habillement",
+        "famille--garde-denfants",
+        "famille--prise-en-charge-personne-dependante",
+        "famille--soutien-a-la-parentalite-et-a-leducation",
+        "famille--soutien-aidants",
+        "famille--surmonter-conflits-separation-violence",
+        "lecture-ecriture-calcul--maitriser-le-calcul",
+        "lecture-ecriture-calcul--maitriser-le-francais",
+        "logement-hebergement--acheter-un-logement",
+        "logement-hebergement--changer-de-logement",
+        "logement-hebergement--louer-un-logement",
+        "logement-hebergement--rechercher-une-solution-dhebergement-temporaire",
+        "logement-hebergement--reduire-les-impayes-de-loyer",
+        "logement-hebergement--se-maintenir-dans-le-logement",
+        "logement-hebergement--sinformer-sur-les-demarches-liees-a-lacces-au-logement",
+        "mobilite--acceder-a-un-vehicule",
+        "mobilite--entretenir-reparer-son-vehicule",
+        "mobilite--etre-accompagne-dans-son-parcours-mobilite",
+        "mobilite--financer-ma-mobilite",
+        "mobilite--preparer-un-permis",
+        "mobilite--mobilite-douce-partagee-collective",
+        "numerique--acceder-a-des-services-en-ligne",
+        "numerique--acceder-a-une-connexion-internet",
+        "numerique--acquerir-un-equipement",
+        "numerique--maitriser-les-fondamentaux-du-numerique",
+        "preparer-sa-candidature--developper-son-reseau",
+        "preparer-sa-candidature--organiser-ses-demarches-de-recherche-demploi",
+        "preparer-sa-candidature--realiser-un-cv-et-ou-une-lettre-de-motivation",
+        "preparer-sa-candidature--valoriser-ses-competences",
+        "remobilisation--activites-sportives-et-culturelles",
+        "remobilisation--benevolat-action-citoyenne",
+        "remobilisation--bien-etre-confiance-en-soi",
+        "remobilisation--lien-social",
+        "sante--acces-aux-soins",
+        "sante--addictions",
+        "sante--constituer-un-dossier-mdph-invalidite",
+        "sante--sante-mentale",
+        "sante--sante-sexuelle",
+        "se-former--monter-son-dossier-de-formation",
+        "se-former--trouver-sa-formation",
+        "souvrir-a-linternational--connaitre-les-opportunites-demploi-a-letranger",
+        "souvrir-a-linternational--sinformer-sur-les-aides-pour-travailler-a-letranger",
+        "souvrir-a-linternational--sorganiser-suite-a-son-retour-en-france",
+        "trouver-un-emploi--convaincre-un-recruteur-en-entretien",
+        "trouver-un-emploi--faire-des-candidatures-spontanees",
+        "trouver-un-emploi--maintien-dans-lemploi",
+        "trouver-un-emploi--repondre-a-des-offres-demploi",
+        "trouver-un-emploi--suivre-ses-candidatures-et-relancer-les-employeurs"
+      ],
+      "title": "Thematique",
+      "type": "string"
+    },
+    "TypeService": {
+      "description": "Types de services",
+      "enum": [
+        "accompagnement",
+        "aide-financiere",
+        "aide-materielle",
+        "atelier",
+        "formation",
+        "information"
+      ],
+      "title": "TypeService",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "adresse": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Adresse"
+    },
+    "code_insee": {
+      "anyOf": [
+        {
+          "maxLength": 5,
+          "minLength": 5,
+          "pattern": "^\\w{5}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Code Insee"
+    },
+    "code_postal": {
+      "anyOf": [
+        {
+          "maxLength": 5,
+          "minLength": 5,
+          "pattern": "^\\d{5}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Code Postal"
+    },
+    "commune": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Commune"
+    },
+    "complement_adresse": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Complement Adresse"
+    },
+    "conditions_acces": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Conditions d’accès au service.\n\nIl peut s’agir de prérequis ou de justificatifs à présenter.",
+      "examples": [
+        "Maîtrise de la langue française à l’oral et à l’écrit"
+      ],
+      "title": "Conditions d’accès"
+    },
+    "contact_nom_prenom": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Contact Nom Prenom"
+    },
+    "courriel": {
+      "anyOf": [
+        {
+          "format": "email",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Courriel à utiliser pour obtenir des informations complémentaires sur le service. Si le mode de mobilisation est `envoyer-un-email`, peut être utilisé pour mobiliser le service.\n\nDoit suivre le format de la RFC 5322. Vérification de l’existence du destinataire (envoi d’un courrier de notification)\n\nSi non conforme ou destinataire inexistant, suppression de la valeur.",
+      "examples": [
+        "exemple@inclusion.gouv.fr"
+      ],
+      "title": "Courriel"
+    },
+    "date_maj": {
+      "description": "Date de dernière modification du service chez le producteur de données.",
+      "examples": [
+        "2025-02-14"
+      ],
+      "format": "date",
+      "title": "Date de dernière modification",
+      "type": "string"
+    },
+    "description": {
+      "description": "Description du service.\n\nIdéalement entre 200 et 2000 caractères. Privilégier des phrases courtes et un langage simple.",
+      "examples": [
+        "Cet atelier-conseil vous permet d’identifier les compétences à développer pour atteindre vos objectifs d’évolution professionnelle et à découvrir les différentes modalités de formation.  Durée d’une journée et inscription via votre espace France Travail."
+      ],
+      "maxLength": 10000,
+      "minLength": 5,
+      "title": "Description",
+      "type": "string"
+    },
+    "frais": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Frais"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Indique si l’accès au service est payant ou gratuit.\n\nSi le service comporte des frais, ceux-ci devraient être précisés dans le champ `frais_precisions`.",
+      "examples": [
+        "gratuit",
+        "payant"
+      ]
+    },
+    "frais_precisions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Précisions sur les éventuels frais pour accéder au service.",
+      "examples": [
+        "10€ pour l’adhésion annuelle",
+        "Tarif réduit pour les bénéficiaires du RSA"
+      ],
+      "title": "Précisions sur les frais"
+    },
+    "horaires_accueil": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Horaires d’accueil du public pour ce service.\n\nSi le champ n’est pas renseigné, les horaires d’accueil de la structure peuvent être utilisés.\n\nDoit être au format [OpenStreetMap Opening Hours](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours).\n\n[Outil d’aide à la saisie](https://projets.pavie.info/yohours/).",
+      "examples": [
+        "Mo-Fr 08:30-12:30; PH off"
+      ],
+      "title": "Horaires d’accueil du public"
+    },
+    "id": {
+      "description": "Identifiant unique du service, obtenu par une combinaison de l’identifiant du producteur et de l’identifiant du service (fourni par le producteur).",
+      "examples": [
+        "emplois-de-linclusion--17",
+        "france-travail--ccas-provence-alpes-cote-dazur-2024-01-01",
+        "dora--AidantsConnect:2024-47BXY"
+      ],
+      "title": "Id",
+      "type": "string"
+    },
+    "latitude": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Latitude"
+    },
+    "lien_mobilisation": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Lien pour accéder ou mobiliser l’offre de service.",
+      "examples": [
+        "https://www.actionlogement.fr/demande-cfi"
+      ],
+      "title": "Lien Mobilisation"
+    },
+    "lien_source": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Lien pour accéder au service sur le site web du producteur.",
+      "examples": [
+        "https://dora.inclusion.beta.gouv.fr/services/ass-pour-droit-a-l-i-nhes"
+      ],
+      "title": "Lien Source"
+    },
+    "longitude": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Longitude"
+    },
+    "mobilisable_par": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/PersonneMobilisatrice"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Indique qui peut mobiliser le service : usagers, professionnels ou les deux.",
+      "examples": [
+        [
+          "professionnels"
+        ],
+        [
+          "usagers"
+        ]
+      ],
+      "title": "Mobilisable Par"
+    },
+    "mobilisation_precisions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Précisions sur les modes de mobilisation du service.",
+      "examples": [
+        "La demande est à faire depuis l’espace personnel du demandeur d’emploi, rubrique « mes aides », formulaire spécifique « Aide à la mobilité »."
+      ],
+      "title": "Mobilisation Precisions"
+    },
+    "modes_accueil": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ModeAccueil"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Modes Accueil"
+    },
+    "modes_mobilisation": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ModeMobilisation"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Modes de mobilisation de l’offre de service.",
+      "examples": [
+        [
+          "envoyer-un-courriel"
+        ]
+      ],
+      "title": "Modes Mobilisation"
+    },
+    "nom": {
+      "description": "Nom du service.\n\nChaîne de caractères entre 3 et 150 caractères. Idéalement ne se termine pas par un point (sauf \"etc.\").",
+      "examples": [
+        "Atelier insertion et posture professionnelle"
+      ],
+      "maxLength": 150,
+      "minLength": 3,
+      "title": "Nom",
+      "type": "string"
+    },
+    "nombre_semaines": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Nombre de semaines sur lequel dure le service.\n\nNe peut pas être inférieur à 1. L’absence de valeur signifie que le service n’est pas concerné (exemple aide financière) ou que l’information n’est pas disponible.\n\nChamp utilisé dans le cadre des 15h-20h d’activité hebdomadaire des BRSA.",
+      "examples": [
+        3
+      ],
+      "title": "Nombre Semaines"
+    },
+    "publics": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Public"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Publics visés par le service.\n\nUn bénéficiaire est éligible s’il appartient à (au moins) un des publics spécifiés.\n\nLes services sans publics spécifiques doivent contenir uniquement la valeur `tous-publics`. Celle-ci ne peut pas être utilisée avec d’autres valeurs.\n\nDes informations complémentaires peuvent être précisées dans le champ `publics_precisions`.",
+      "examples": [
+        [
+          "femmes"
+        ],
+        [
+          "residents-qpv-frr"
+        ],
+        [
+          "tous-publics"
+        ]
+      ],
+      "title": "Publics"
+    },
+    "publics_precisions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Précisions sur les publics visés par le service.",
+      "examples": [
+        "Le jeune entre 15 et 18 ans."
+      ],
+      "title": "Précisions sur les publics"
+    },
+    "source": {
+      "description": "Identifiant du producteur original de la donnée.",
+      "examples": [
+        "emplois-de-linclusion",
+        "france-travail",
+        "dora"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "structure_id": {
+      "description": "Identifiant unique de la structure rattachée au service.",
+      "examples": [
+        "dora--42",
+        "cd35--mjc-13-grandjour"
+      ],
+      "title": "ID structure",
+      "type": "string"
+    },
+    "telephone": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Numéro de téléphone à utiliser pour obtenir des informations complémentaires sur le service. Si le mode de mobilisation est `telephoner`, peut être utilisé pour mobiliser le service.\n\nChaîne de caractères contenant un seul numéro de téléphone, de préférence au format E.164.",
+      "examples": [
+        "+33123456789"
+      ],
+      "title": "Téléphone"
+    },
+    "thematiques": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Thematique"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Thématiques adressées par le service.",
+      "examples": [
+        [
+          "numerique--acquerir-un-equipement"
+        ],
+        [
+          "sante--constituer-un-dossier-mdph-invalidite",
+          "logement-hebergement--se-maintenir-dans-le-logement"
+        ]
+      ],
+      "title": "Thematiques"
+    },
+    "type": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TypeService"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Type de service.",
+      "examples": [
+        "accompagnement"
+      ]
+    },
+    "volume_horaire_hebdomadaire": {
+      "anyOf": [
+        {
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Durée du service en heures sur une semaine.\n\nL’absence de valeur signifie que le service n’est pas concerné (exemple aide financière) ou que l’information n’est pas disponible.\n\nChamp utilisé dans le cadre des 15h-20h d’activité hebdomadaire des BRSA.",
+      "examples": [
+        1
+      ],
+      "title": "Volume Horaire Hebdomadaire"
+    },
+    "zone_eligibilite": {
+      "anyOf": [
+        {
+          "items": {
+            "anyOf": [
+              {
+                "maxLength": 5,
+                "minLength": 5,
+                "pattern": "^\\w{5}$",
+                "type": "string"
+              },
+              {
+                "maxLength": 3,
+                "minLength": 2,
+                "pattern": "^\\w{2,3}$",
+                "type": "string"
+              },
+              {
+                "maxLength": 9,
+                "minLength": 9,
+                "pattern": "^\\d{9}$",
+                "type": "string"
+              },
+              {
+                "maxLength": 5,
+                "minLength": 5,
+                "pattern": "^99[0-5]\\d{2}$",
+                "type": "string"
+              },
+              {
+                "const": "france",
+                "type": "string"
+              }
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Zone géographique d’éligibilité du service.\n\nContient une liste de codes issus du [Code Officiel Géographique](https://www.insee.fr/fr/information/2560452) maintenu par l’INSEE.\n\nChaque code dans cette liste peut être un code commune, un code département, un code EPCI ou un code pays.\n\nSi le service est éligible à l’ensemble d’une région, lister les codes des departements de cette région.\n\nSi le service est éligible sur l’ensemble du territoire national, utiliser le code `france` (France) ou le code pays `99100`.\n\ndata·inclusion vérifie la validité des codes fournis. Les codes invalides sont supprimés de la liste.\n\n[Outil de recherche des codes](https://www.insee.fr/fr/recherche/recherche-geographique)",
+      "examples": [
+        [
+          "75056"
+        ],
+        [
+          "2A",
+          "2B"
+        ],
+        [
+          "200093201"
+        ],
+        [
+          "2A",
+          "2B",
+          "200093201"
+        ],
+        [
+          "france"
+        ]
+      ],
+      "title": "Zone d’éligibilité"
+    }
+  },
+  "required": [
+    "source",
+    "structure_id",
+    "id",
+    "nom",
+    "description",
+    "date_maj"
+  ],
+  "title": "Service",
+  "type": "object"
+}

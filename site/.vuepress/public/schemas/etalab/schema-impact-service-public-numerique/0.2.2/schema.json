@@ -1,0 +1,197 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "impact-service-public-numerique",
+   "title": "Schéma de l'impact d'un service public numérique",
+   "description": "Spécification du fichier de l'impact d'un service public numérique",
+   "keywords": [
+      "service-public-numerique",
+      "impact",
+      "statistique"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema-impact-service-numerique-public",
+   "path": "https://github.com/etalab/schema-impact-service-public-numerique/raw/v0.2.2/schema.json",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://github.com/etalab/schema-impact-service-public-numerique/raw/v0.2.2/exemple-valide.csv"
+      }
+   ],
+   "created": "2022-04-20",
+   "lastModified": "2023-07-06",
+   "version": "0.2.2",
+   "contributors": [
+      {
+         "title": "Julieta Barado",
+         "email": "julieta.barado@data.gouv.fr",
+         "organisation": "Etalab",
+         "role": "author"
+      },
+      {
+         "title": "Mario Restuccia",
+         "email": "mario.restuccia@data.gouv.fr",
+         "organisation": "Etalab",
+         "role": "contributor"
+      },
+      {
+         "title": "Geoffrey Aldebert",
+         "email": "geoffrey.aldebert@data.gouv.fr",
+         "organisation": "data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Florian Delezenne",
+         "email": "florian.delezenne@beta.gouv.fr",
+         "organisation": "beta.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Pierlou Ramade",
+         "email": "pierlou.ramade@data.gouv.fr",
+         "organisation": "data.gouv.fr",
+         "role": "contributor"
+      },
+      {
+         "title": "Estelle Maudet",
+         "email": "estelle.maudet@data.gouv.fr",
+         "organisation": "data.gouv.fr",
+         "role": "contributor"
+      }
+   ],
+   "fields": [
+      {
+         "name": "nom_service_public_numerique",
+         "description": "Nom du service public numérique",
+         "example": "Trackdéchets",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "indicateur",
+         "description": "Intitulé de l’indicateur.",
+         "example": "Nombre d'utilisateurs inscrits",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "valeur",
+         "description": "Valeur",
+         "example": "100000",
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "unite_mesure",
+         "description": "Unité de la mesure d'impact. Ex : %, jours, unités...",
+         "example": "%",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "est_cible",
+         "description": "Indiquer si la valeur est une valeur cible (projetée à une date future) ou si c'est une valeur réelle (mesurée à une date passée).",
+         "example": "true",
+         "type": "boolean",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "frequence_calcul",
+         "description": "Fréquence de calcul ou de collecte de l’indicateur. NB : Peut-être différente de la fréquence de publication : il est possible de monitorer un indicateur quotidiennement mais de ne le publier que tous les mois par exemple.",
+         "example": "quotidienne",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "quotidienne",
+               "hebdomadaire",
+               "mensuelle",
+               "annuelle",
+               "trimestrielle",
+               "autre"
+            ]
+         }
+      },
+      {
+         "name": "date",
+         "description": "Date projetée ou mesurée de la valeur de l'indicateur, ou date de fin de la période si l'indicateur porte sur un laps de temps.",
+         "example": "2020-01-01",
+         "type": "date",
+         "format": "%Y-%m-%d",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "est_periode",
+         "description": "Booléen indiquant si la mesure est faite sur une période (true) ou si c'est un stock (false)",
+         "example": "true",
+         "type": "boolean",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "date_debut",
+         "description": "Date du début de la période de mesure (si pertinent).",
+         "example": "2020-01-01",
+         "type": "date",
+         "format": "%Y-%m-%d",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "est_automatise",
+         "description": "Préciser si la collecte des données est automatisée (true) ou manuelle (false).",
+         "example": "true",
+         "type": "boolean",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "source_collecte",
+         "description": "Préciser comment la collecte est réalisée : script, enquête...",
+         "example": "script",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "mode_calcul",
+         "description": "Façon dont est calculé ou agrégé l’indicateur à partir des données de base : nombre, moyenne, ratio, etc. Si nécessaire, fournir un exemple de calcul.",
+         "example": "moyenne",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name": "commentaires",
+         "description": "Préciser les limites et biais connus et justifier le choix de l’indicateur malgré ses limites ; les modalites de lecture et d'interpretation de l'indicateur.",
+         "type": "string",
+         "constraints": {
+            "required": false
+         }
+      }
+   ]
+}

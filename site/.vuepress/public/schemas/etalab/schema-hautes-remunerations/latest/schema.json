@@ -1,0 +1,149 @@
+{
+    "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name":"hautes-remunerations",
+    "title": "Hautes rémunérations dans la fonction publique",
+    "description": "Spécification du fichier de déclaration des dix rémunérations les plus élevées des agents publiques",
+    "countrycode": "FR",
+    "homepage": "http://github.com/restuccia/schema-hautes-remunerations",
+    "licenses":[
+       {
+          "title":"Etalab Licence Ouverte 2.0",
+          "name":"etalab-2.0",
+          "path":"https://spdx.org/licenses/etalab-2.0.html"
+       }
+    ],
+    "sources":[
+       {
+          "title":"LOI n° 2019-828 du 6 août 2019 de transformation de la fonction publique",
+          "path":"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038889182"
+       }
+    ],
+    "created": "2020-09-23",
+    "lastModified": "2021-03-09",
+    "version": "0.1.0",
+    "contributors":[
+        {
+           "title":"Mario Restuccia",
+           "email":"mario.restuccia@data.gouv.fr",
+           "organisation":"Etalab",
+           "role":"author"
+        },
+        {
+           "title":"Geoffrey Aldebert",
+           "email":"geoffrey.aldebert@data.gouv.fr",
+           "organisation":"Etalab",
+           "role":"contributor"
+        }
+     ],
+    "fields": [
+        {
+            "name": "siren",
+            "description": "Le numéro SIREN de l'organisme",
+            "example": "110046018",
+            "type": "string",
+            "constraints": {
+                "pattern": "^\\d{9}$",
+                "required": true
+            }
+        },
+        {
+            "name": "denomination_employeur",
+            "description": "Dénomination de l'employeur telle que saisie dans la base Sirene des entreprises et de leurs établissements. Vous pouvez accéder à cette dénomination exacte via le site annuaire-entreprises.data.gouv.fr",
+            "example": "Ministère de la Culture",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "type_administration",
+            "description": "Le type d'administration ",
+            "example": "Région",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "enum":[
+                    "Département ministériel",
+                    "Région",
+                    "Département",
+                    "Autre collectivité territoriale",
+                    "EPCI à fiscalité propre",
+                    "Etablissement hospitalier",
+                    "Autre"
+                ]
+            }
+        },
+        {
+            "name": "annee",
+            "description": "Année",
+            "example": "2019",
+            "type": "year",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "somme_10_plus_hautes_remunerations_brutes",
+            "description": "Somme des 10 plus hautes rémunérations brutes en euros (intégrant les primes et avantages en nature).",
+            "example": "1609769",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0
+            }
+        },
+        {
+            "name": "nb_femmes_beneficiaires",
+            "description": "Nombre de femmes bénéficiaires",
+            "example": "5",
+            "type": "integer",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "nb_hommes_beneficiaires",
+            "description": "Nombre d'hommes bénéficiaires",
+            "example": "5",
+            "type": "integer",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 10
+            }
+        },
+        {
+            "name": "duree_cumulee_mois",
+            "description": "Durée cumulée en nombre de mois. La durée cumulée en nombre de mois correspond à la somme des durées d'activité des 10 personnes percevant les plus hautes rémunérations. Par exemple, si chacun a travaillé l'année entière, la durée cumulée vaudra 10x12=120 mois. Si parmi ces 10 personnes, une a été rémunérée 8.5 mois, la somme vaudra 9x12+8.5=116.5 mois. Cette colonne fournira un élément d'explication aux variations annuelles, les rémunérations n'étant pas redressé de la durée d'activité.",
+            "example": "120",
+            "type": "number",
+            "constraints": {
+                "required": true,
+                "minimum": 0,
+                "maximum": 120
+            }
+        },
+        {
+            "name": "commentaires",
+            "description": "Commentaires",
+            "example": "Commentaire",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "custom_checks":[
+        {
+            "name":"french-siren-value",
+            "params":{
+                "column":"siren"
+            }
+        }
+    ],
+    "missingValues": [
+        ""
+    ]
+}

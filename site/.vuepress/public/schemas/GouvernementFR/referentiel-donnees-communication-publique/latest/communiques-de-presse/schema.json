@@ -1,0 +1,309 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://schema.data.gouv.fr/sig/schema-communiques-presse-gouvernement/schema.json",
+    "title": "Communiqués de presse du Gouvernement",
+    "description": "Schéma décrivant la structure d'une ligne du fichier JSONL `communiques.jsonl`. Chaque ligne contient les métadonnées du jeu de données (metadata) et un communiqué (document).",
+    "type": "object",
+    "required": ["metadata", "document"],
+    "additionalProperties": false,
+    "properties": {
+
+        "metadata": {
+            "type": "object",
+            "description": "Métadonnées du jeu de données.",
+            "required": [
+                "titre",
+                "description",
+                "editeur",
+                "licence",
+                "date_publication",
+                "date_mise_a_jour",
+                "version"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "titre": {
+                    "type": "string",
+                    "description": "Titre du jeu de données."
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description du contenu."
+                },
+                "editeur": {
+                    "type": "string",
+                    "description": "Organisme responsable."
+                },
+                "licence": {
+                    "type": "string",
+                    "description": "Licence applicable."
+                },
+                "date_publication": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date de première publication au format ISO 8601."
+                },
+                "date_mise_a_jour": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date de dernière mise à jour au format ISO 8601."
+                },
+                "version": {
+                    "type": "string",
+                    "description": "Version sémantique du schéma."
+                },
+                "contact": {
+                    "type": ["string", "null"],
+                    "description": "Email de contact de l'éditeur. Optionnel."
+                }
+            }
+        },
+
+        "document": {
+            "type": "object",
+            "description": "Communiqué de presse.",
+            "required": [
+                "id",
+                "version",
+                "langue",
+                "type",
+                "titre",
+                "lieu_diffusion",
+                "date_diffusion",
+                "emetteurs",
+                "personnalites",
+                "thematiques",
+                "contenu_markdown",
+                "contenu_pdf"
+            ],
+            "additionalProperties": false,
+            "properties": {
+
+                "id": {
+                    "type": "string",
+                    "format": "uuid",
+                    "description": "Identifiant unique universel du communiqué. Généré automatiquement par info.gouv.fr."
+                },
+                "version": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Version du communiqué, incrémentée à chaque mise à jour."
+                },
+                "langue": {
+                    "type": "string",
+                    "description": "Langue du communiqué, norme ISO Alpha-2."
+                },
+                "type": {
+                    "type": "string",
+                    "enum": ["communique_de_presse", "dossier_de_presse"],
+                    "description": "Type de document."
+                },
+                "titre": {
+                    "type": "string",
+                    "description": "Titre du communiqué."
+                },
+                "mots_cles": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "description": "Mots-clés libres associés au communiqué. Optionnels."
+                },
+                "lieu_diffusion": {
+                    "type": "string",
+                    "description": "Lieu d'émission du communiqué. Par convention, 'Paris' lorsqu'il y a plusieurs émetteurs."
+                },
+                "date_diffusion": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date de diffusion au format ISO 8601 (AAAA-MM-JJ)."
+                },
+
+                "emetteurs": {
+                    "type": "array",
+                    "minItems": 1,
+                    "description": "Ministère(s) émetteur(s) signataire(s) du communiqué. Si plusieurs émetteurs (co-signature), le bloc-marque DSFR bascule sur 'GOUVERNEMENT'. Tous les émetteurs doivent partager le même gouvernement_id.",
+                    "items": {
+                        "type": "object",
+                        "required": ["ministere_id", "gouvernement_id", "nom"],
+                        "additionalProperties": false,
+                        "properties": {
+                            "ministere_id": {
+                                "type": "string",
+                                "format": "uuid",
+                                "description": "UUID du ministère émetteur, issu de gouvernements-et-ministeres.json (gouvernements[].ministeres[])."
+                            },
+                            "gouvernement_id": {
+                                "type": "string",
+                                "format": "uuid",
+                                "description": "UUID du gouvernement, issu de gouvernements-et-ministeres.json."
+                            },
+                            "nom": {
+                                "type": "string",
+                                "description": "Intitulé du ministère figé au moment de la publication."
+                            }
+                        }
+                    }
+                },
+
+                "personnalites": {
+                    "type": "array",
+                    "minItems": 1,
+                    "description": "Personnalités signataires ou associées au communiqué, référencées par leur UUID issu de personnalites.json.",
+                    "items": {
+                        "type": "string",
+                        "format": "uuid"
+                    }
+                },
+
+                "thematiques": {
+                    "type": "array",
+                    "minItems": 1,
+                    "description": "Thématiques officielles associées, référencées par leur UUID issu de thematiques.json.",
+                    "items": {
+                        "type": "string",
+                        "format": "uuid"
+                    }
+                },
+
+                "sous_thematiques": {
+                    "type": "array",
+                    "description": "Sous-thématiques officielles associées. Optionnelles. Référencées par leur UUID issu de thematiques.json.",
+                    "items": {
+                        "type": "string",
+                        "format": "uuid"
+                    }
+                },
+
+                "mission_id": {
+                    "type": ["string", "null"],
+                    "format": "uuid",
+                    "description": "UUID de la mission essentielle associée, issu de missions-essentielles.json. Optionnel."
+                },
+
+                "objet_id": {
+                    "type": ["string", "null"],
+                    "description": "ID court de l'objet de communication interministérielle associé, issu de missions-essentielles.json. Optionnel."
+                },
+
+                "contenu_markdown": {
+                    "type": "string",
+                    "description": "Corps complet du communiqué au format Markdown."
+                },
+
+                "contenu_pdf": {
+                    "type": "object",
+                    "required": ["lien_telechargement", "poids"],
+                    "additionalProperties": false,
+                    "description": "Version PDF du communiqué. Chaque version PDF est récupérée par info.gouv.fr et mise à disposition sous son domaine.",
+                    "properties": {
+                        "lien_telechargement": {
+                            "type": "string",
+                            "format": "uri",
+                            "description": "URL HTTPS de téléchargement."
+                        },
+                        "poids": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "description": "Poids du fichier en octets."
+                        },
+                        "checksum_sha256": {
+                            "type": ["string", "null"],
+                            "pattern": "^[a-fA-F0-9]{64}$",
+                            "description": "Empreinte SHA-256 du fichier en hexadécimal (64 caractères). Optionnel."
+                        }
+                    }
+                },
+
+                "contacts_presse": {
+                    "type": "array",
+                    "description": "Contacts presse. Au moins un champ parmi email, telephone et lien_formulaire est obligatoire par contact.",
+                    "items": {
+                        "type": "object",
+                        "required": ["civilite", "nom"],
+                        "additionalProperties": false,
+                        "anyOf": [
+                            { "required": ["email"] },
+                            { "required": ["telephone"] },
+                            { "required": ["lien_formulaire"] }
+                        ],
+                        "properties": {
+                            "civilite": {
+                                "type": ["string", "null"],
+                                "enum": ["M.", "Mme", null],
+                                "description": "Civilité du contact. null si le contact est un service."
+                            },
+                            "nom": {
+                                "type": "string",
+                                "description": "Nom de la personne ou du service."
+                            },
+                            "fonction": {
+                                "type": ["string", "null"],
+                                "description": "Poste ou rôle du contact. Optionnel."
+                            },
+                            "email": {
+                                "type": ["string", "null"],
+                                "format": "email",
+                                "description": "Adresse email du contact."
+                            },
+                            "telephone": {
+                                "type": ["string", "null"],
+                                "pattern": "^(\\+33|0)[0-9]{9}$",
+                                "description": "Format +33XXXXXXXXX ou 0XXXXXXXXX (9 chiffres après le préfixe, sans espaces)."
+                            },
+                            "lien_formulaire": {
+                                "type": ["string", "null"],
+                                "format": "uri",
+                                "description": "URL HTTPS d'un formulaire de contact."
+                            },
+                            "adresse_physique": {
+                                "type": ["string", "null"],
+                                "description": "Lieu où se rendre physiquement."
+                            },
+                            "adresse_postale": {
+                                "type": ["string", "null"],
+                                "description": "Adresse postale complète."
+                            }
+                        }
+                    }
+                },
+
+                "pieces_jointes_annexes": {
+                    "type": "array",
+                    "maxItems": 4,
+                    "description": "Pièces jointes annexes (max 4, fichiers ≤ 10 Mo).",
+                    "items": {
+                        "type": "object",
+                        "required": ["libelle", "lien_telechargement", "poids", "mimetype"],
+                        "additionalProperties": false,
+                        "properties": {
+                            "libelle": {
+                                "type": "string",
+                                "maxLength": 255,
+                                "description": "Libellé concis et informatif de la pièce jointe."
+                            },
+                            "lien_telechargement": {
+                                "type": "string",
+                                "format": "uri",
+                                "description": "URL HTTPS de téléchargement."
+                            },
+                            "poids": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "description": "Poids du fichier en octets."
+                            },
+                            "mimetype": {
+                                "type": "string",
+                                "pattern": "^[a-zA-Z0-9!#$&^_.+-]+\\/[a-zA-Z0-9!#$&^_.+-]+$",
+                                "description": "Type MIME au format type/sous-type (RFC 6838)."
+                            },
+                            "checksum_sha256": {
+                                "type": ["string", "null"],
+                                "pattern": "^[a-fA-F0-9]{64}$",
+                                "description": "Empreinte SHA-256 du fichier en hexadécimal (64 caractères). Optionnel."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

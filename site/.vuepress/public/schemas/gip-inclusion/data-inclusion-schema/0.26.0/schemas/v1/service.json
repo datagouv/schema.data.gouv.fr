@@ -1,0 +1,840 @@
+{
+  "$defs": {
+    "Frais": {
+      "enum": [
+        "gratuit",
+        "gratuit-sous-conditions",
+        "payant",
+        "adhesion",
+        "pass-numerique"
+      ],
+      "title": "Frais",
+      "type": "string"
+    },
+    "ModeAccueil": {
+      "enum": [
+        "a-distance",
+        "en-presentiel"
+      ],
+      "title": "ModeAccueil",
+      "type": "string"
+    },
+    "ModeOrientationAccompagnateur": {
+      "enum": [
+        "completer-le-formulaire-dadhesion",
+        "envoyer-un-mail",
+        "envoyer-un-mail-avec-une-fiche-de-prescription",
+        "telephoner",
+        "prendre-rdv",
+        "autre"
+      ],
+      "title": "ModeOrientationAccompagnateur",
+      "type": "string"
+    },
+    "ModeOrientationBeneficiaire": {
+      "enum": [
+        "completer-le-formulaire-dadhesion",
+        "envoyer-un-mail",
+        "se-presenter",
+        "telephoner",
+        "prendre-rdv",
+        "autre"
+      ],
+      "title": "ModeOrientationBeneficiaire",
+      "type": "string"
+    },
+    "Profil": {
+      "enum": [
+        "adultes",
+        "alternants",
+        "beneficiaires-rsa",
+        "deficience-visuelle",
+        "demandeurs-demploi",
+        "familles-enfants",
+        "etudiants",
+        "femmes",
+        "handicaps-mentaux",
+        "handicaps-psychiques",
+        "jeunes",
+        "jeunes-16-26",
+        "locataires",
+        "personnes-de-nationalite-etrangere",
+        "personnes-en-situation-de-handicap",
+        "personnes-en-situation-illettrisme",
+        "personnes-handicapees",
+        "proprietaires",
+        "public-langues-etrangeres",
+        "retraites",
+        "salaries",
+        "sans-domicile-fixe",
+        "seniors-65",
+        "sortants-de-detention",
+        "surdite",
+        "victimes",
+        "tous-publics",
+        "personnes-en-situation-durgence"
+      ],
+      "title": "Profil",
+      "type": "string"
+    },
+    "Thematique": {
+      "enum": [
+        "acces-aux-droits-et-citoyennete",
+        "acces-aux-droits-et-citoyennete--accompagnement-dans-les-demarches-administratives",
+        "acces-aux-droits-et-citoyennete--accompagnement-juridique",
+        "acces-aux-droits-et-citoyennete--aide-aux-victimes",
+        "acces-aux-droits-et-citoyennete--connaitre-ses-droits",
+        "acces-aux-droits-et-citoyennete--demandeurs-dasile-et-naturalisation",
+        "acces-aux-droits-et-citoyennete--developpement-durable",
+        "acces-aux-droits-et-citoyennete--faciliter-laction-citoyenne",
+        "accompagnement-social-et-professionnel-personnalise",
+        "accompagnement-social-et-professionnel-personnalise--decrochage-scolaire",
+        "accompagnement-social-et-professionnel-personnalise--definition-du-projet-professionnel",
+        "accompagnement-social-et-professionnel-personnalise--parcours-d-insertion-socioprofessionnel",
+        "apprendre-francais",
+        "apprendre-francais--accompagnement-insertion-pro",
+        "apprendre-francais--communiquer-vie-tous-les-jours",
+        "apprendre-francais--suivre-formation",
+        "choisir-un-metier",
+        "choisir-un-metier--confirmer-son-choix-de-metier",
+        "choisir-un-metier--connaitre-les-opportunites-demploi",
+        "choisir-un-metier--decouvrir-un-metier-ou-un-secteur-dactivite",
+        "choisir-un-metier--identifier-ses-points-forts-et-ses-competences",
+        "creation-activite",
+        "creation-activite--definir-son-projet-de-creation-dentreprise",
+        "creation-activite--developper-son-entreprise",
+        "creation-activite--financer-son-projet",
+        "creation-activite--reseautage-pour-createurs-dentreprise",
+        "creation-activite--structurer-son-projet-de-creation-dentreprise",
+        "equipement-et-alimentation",
+        "equipement-et-alimentation--acces-a-du-materiel-informatique",
+        "equipement-et-alimentation--acces-a-un-telephone-et-un-abonnement",
+        "equipement-et-alimentation--alimentation",
+        "equipement-et-alimentation--aide-menagere",
+        "equipement-et-alimentation--electromenager",
+        "equipement-et-alimentation--habillement",
+        "famille",
+        "famille--accompagnement-femme-enceinte-bebe-jeune-enfant",
+        "famille--garde-denfants",
+        "famille--information-et-accompagnement-des-parents",
+        "famille--jeunes-sans-soutien-familial",
+        "famille--soutien-a-la-parentalite",
+        "famille--soutien-aux-familles",
+        "famille--violences-intrafamiliales",
+        "gestion-financiere",
+        "gestion-financiere--accompagnement-aux-personnes-en-difficultes-financieres",
+        "gestion-financiere--acces-au-micro-credit",
+        "gestion-financiere--apprendre-a-gerer-son-budget",
+        "gestion-financiere--beneficier-daides-financieres",
+        "gestion-financiere--creation-et-utilisation-dun-compte-bancaire",
+        "gestion-financiere--obtenir-une-aide-alimentaire",
+        "gestion-financiere--prevention-et-gestion-du-surendettement",
+        "handicap",
+        "handicap--accompagnement-par-une-structure-specialisee",
+        "handicap--adaptation-au-poste-de-travail",
+        "handicap--adapter-son-logement",
+        "handicap--aide-a-la-personne",
+        "handicap--connaissance-des-droits-des-travailleurs",
+        "handicap--faire-reconnaitre-un-handicap",
+        "handicap--favoriser-le-retour-et-le-maintien-dans-lemploi",
+        "handicap--gerer-le-depart-a-la-retraite-des-personnes-en-situation-de-handicap",
+        "handicap--mobilite-des-personnes-en-situation-de-handicap",
+        "illettrisme",
+        "illettrisme--accompagner-scolarite",
+        "illettrisme--ameliorer-vocabulaire",
+        "illettrisme--etre-autonome",
+        "illettrisme--info-acquisition-connaissances",
+        "illettrisme--permis-conduire",
+        "illettrisme--reperer-situation-illettrisme",
+        "illettrisme--surmonter-trouble-apprentissage",
+        "illettrisme--trouver-emploi-formation",
+        "illettrisme--utiliser-numerique",
+        "illettrisme--valider-certification-clea",
+        "logement-hebergement",
+        "logement-hebergement--aides-financieres-investissement-locatif",
+        "logement-hebergement--besoin-dadapter-mon-logement",
+        "logement-hebergement--connaissance-de-ses-droits-et-interlocuteurs",
+        "logement-hebergement--demenagement",
+        "logement-hebergement--etre-accompagne-dans-son-projet-accession",
+        "logement-hebergement--etre-accompagne-en cas-de-difficultes-financieres",
+        "logement-hebergement--etre-accompagne-pour-se-loger",
+        "logement-hebergement--financer-son-projet-travaux",
+        "logement-hebergement--gerer-son-budget",
+        "logement-hebergement--mal-loges-sans-logis",
+        "logement-hebergement--probleme-avec-son-logement",
+        "logement-hebergement--reprendre-un-emploi-ou-une-formation",
+        "mobilite",
+        "mobilite--acheter-un-vehicule-motorise",
+        "mobilite--acheter-un-velo",
+        "mobilite--aides-a-la-reprise-demploi-ou-a-la-formation",
+        "mobilite--apprendre-a-utiliser-un-deux-roues",
+        "mobilite--comprendre-et-utiliser-les-transports-en-commun",
+        "mobilite--entretenir-reparer-son-vehicule",
+        "mobilite--etre-accompagne-dans-son-parcours-mobilite",
+        "mobilite--louer-un-vehicule",
+        "mobilite--financer-mon-projet-mobilite",
+        "mobilite--preparer-son-permis-de-conduire-se-reentrainer-a-la-conduite",
+        "numerique",
+        "numerique--acceder-a-du-materiel",
+        "numerique--acceder-a-une-connexion-internet",
+        "numerique--accompagner-les-demarches-de-sante",
+        "numerique--approfondir-ma-culture-numerique",
+        "numerique--creer-avec-le-numerique",
+        "numerique--creer-et-developper-mon-entreprise",
+        "numerique--devenir-autonome-dans-les-demarches-administratives",
+        "numerique--favoriser-mon-insertion-professionnelle",
+        "numerique--prendre-en-main-un-ordinateur",
+        "numerique--prendre-en-main-un-smartphone-ou-une-tablette",
+        "numerique--promouvoir-la-citoyennete-numerique",
+        "numerique--realiser-des-demarches-administratives-avec-un-accompagnement",
+        "numerique--s-equiper-en-materiel-informatique",
+        "numerique--soutenir-la-parentalite-et-l-education-avec-le-numerique",
+        "numerique--utiliser-le-numerique-au-quotidien",
+        "preparer-sa-candidature",
+        "preparer-sa-candidature--developper-son-reseau",
+        "preparer-sa-candidature--organiser-ses-demarches-de-recherche-demploi",
+        "preparer-sa-candidature--realiser-un-cv-et-ou-une-lettre-de-motivation",
+        "preparer-sa-candidature--valoriser-ses-competences",
+        "remobilisation",
+        "remobilisation--bien-etre",
+        "remobilisation--decouvrir-son-potentiel-via-le-sport-et-la-culture",
+        "remobilisation--discrimination",
+        "remobilisation--identifier-ses-competences-et-aptitudes",
+        "remobilisation--lien-social",
+        "remobilisation--participer-a-des-actions-solidaires-ou-de-benevolat",
+        "remobilisation--pression-sociale",
+        "remobilisation--restaurer-sa-confiance-son-image-de-soi",
+        "sante",
+        "sante--acces-aux-soins",
+        "sante--accompagnement-de-la-femme-enceinte-du-bebe-et-du-jeune-enfant",
+        "sante--accompagner-les-traumatismes",
+        "sante--bien-etre-psychologique",
+        "sante--diagnostic-et-accompagnement-a-lemployabilite",
+        "sante--faire-face-a-une-situation-daddiction",
+        "sante--obtenir-la-prise-en-charge-de-frais-medicaux",
+        "sante--prevention-et-acces-aux-soins",
+        "sante--se-soigner-et-prevenir-la-maladie",
+        "sante--vie-relationnelle-et-affective",
+        "se-former",
+        "se-former--monter-son-dossier-de-formation",
+        "se-former--trouver-sa-formation",
+        "se-former--utiliser-le-numerique",
+        "souvrir-a-linternational",
+        "souvrir-a-linternational--connaitre-les-opportunites-demploi-a-letranger",
+        "souvrir-a-linternational--sinformer-sur-les-aides-pour-travailler-a-letranger",
+        "souvrir-a-linternational--sorganiser-suite-a-son-retour-en-france",
+        "trouver-un-emploi",
+        "trouver-un-emploi--convaincre-un-recruteur-en-entretien",
+        "trouver-un-emploi--faire-des-candidatures-spontanees",
+        "trouver-un-emploi--repondre-a-des-offres-demploi",
+        "trouver-un-emploi--suivre-ses-candidatures-et-relancer-les-employeurs"
+      ],
+      "title": "Thematique",
+      "type": "string"
+    },
+    "TypologieService": {
+      "enum": [
+        "accompagnement",
+        "accueil",
+        "aide-financiere",
+        "aide-materielle",
+        "atelier",
+        "formation",
+        "information",
+        "numerique",
+        "autonomie",
+        "delegation",
+        "financement"
+      ],
+      "title": "TypologieService",
+      "type": "string"
+    },
+    "ZoneDiffusionType": {
+      "enum": [
+        "commune",
+        "epci",
+        "region",
+        "departement",
+        "pays"
+      ],
+      "title": "ZoneDiffusionType",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "adresse": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Adresse"
+    },
+    "code_insee": {
+      "anyOf": [
+        {
+          "maxLength": 5,
+          "minLength": 5,
+          "pattern": "^\\w{5}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Code Insee"
+    },
+    "code_postal": {
+      "anyOf": [
+        {
+          "maxLength": 5,
+          "minLength": 5,
+          "pattern": "^\\d{5}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Code Postal"
+    },
+    "commune": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Commune"
+    },
+    "complement_adresse": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Complement Adresse"
+    },
+    "contact_nom_prenom": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Contact Nom Prenom"
+    },
+    "contact_public": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Contact Public"
+    },
+    "courriel": {
+      "anyOf": [
+        {
+          "format": "email",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Courriel à utiliser pour obtenir des informations complémentaires sur le service. Si le mode de mobilisation est `envoyer-un-email`, peut être utilisé pour mobiliser le service.\n\nDoit suivre le format de la RFC 5322. Vérification de l’existence du destinataire (envoi d’un courrier de notification)\n\nSi non conforme ou destinataire inexistant, suppression de la valeur.",
+      "examples": [
+        "exemple@inclusion.gouv.fr"
+      ],
+      "title": "Courriel"
+    },
+    "cumulable": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cumulable"
+    },
+    "date_creation": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Date Creation"
+    },
+    "date_maj": {
+      "description": "Date de dernière modification du service chez le producteur de données.",
+      "examples": [
+        "2025-02-14"
+      ],
+      "format": "date",
+      "title": "Date de dernière modification",
+      "type": "string"
+    },
+    "date_suspension": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Date Suspension"
+    },
+    "formulaire_en_ligne": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Formulaire En Ligne"
+    },
+    "frais": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Frais"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Frais"
+    },
+    "frais_autres": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Frais Autres"
+    },
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "justificatifs": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Justificatifs"
+    },
+    "latitude": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Latitude"
+    },
+    "lien_source": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Lien Source"
+    },
+    "longitude": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Longitude"
+    },
+    "modes_accueil": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ModeAccueil"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Modes Accueil"
+    },
+    "modes_orientation_accompagnateur": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ModeOrientationAccompagnateur"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Modes Orientation Accompagnateur"
+    },
+    "modes_orientation_accompagnateur_autres": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Modes Orientation Accompagnateur Autres"
+    },
+    "modes_orientation_beneficiaire": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ModeOrientationBeneficiaire"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Modes Orientation Beneficiaire"
+    },
+    "modes_orientation_beneficiaire_autres": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Modes Orientation Beneficiaire Autres"
+    },
+    "nom": {
+      "description": "Nom du service.\n\nChaîne de caractères entre 3 et 150 caractères, ne se terminant pas par un point.",
+      "examples": [
+        "Atelier insertion et posture professionnelle"
+      ],
+      "maxLength": 150,
+      "minLength": 3,
+      "title": "Nom",
+      "type": "string"
+    },
+    "page_web": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Lien vers une page web dédiée au service sur le site web de la structure. Ce champ n’est pas destiné à recevoir un lien vers le site d’un producteur de donnée.",
+      "examples": [
+        "https://insersol.fr/biclou-atelier-reparation-participatif-solidaire/"
+      ],
+      "title": "Page Web"
+    },
+    "pre_requis": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Pre Requis"
+    },
+    "presentation_detail": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Presentation Detail"
+    },
+    "presentation_resume": {
+      "anyOf": [
+        {
+          "maxLength": 280,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Presentation Resume"
+    },
+    "prise_rdv": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Prise Rdv"
+    },
+    "profils": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Profil"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Profils"
+    },
+    "profils_precisions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Profils Precisions"
+    },
+    "recurrence": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Recurrence"
+    },
+    "source": {
+      "title": "Source",
+      "type": "string"
+    },
+    "structure_id": {
+      "title": "Structure Id",
+      "type": "string"
+    },
+    "telephone": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Numéro de téléphone à utiliser pour obtenir des informations complémentaires sur le service. Si le mode de mobilisation est `telephoner`, peut être utilisé pour mobiliser le service.\n\nChaîne de caractères contenant un seul numéro de téléphone, de préférence au format E.164.",
+      "examples": [
+        "+33123456789"
+      ],
+      "title": "Téléphone"
+    },
+    "thematiques": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Thematique"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Thematiques"
+    },
+    "types": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/TypologieService"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Types"
+    },
+    "zone_diffusion_code": {
+      "anyOf": [
+        {
+          "maxLength": 5,
+          "minLength": 5,
+          "pattern": "^\\w{5}$",
+          "type": "string"
+        },
+        {
+          "maxLength": 9,
+          "minLength": 9,
+          "pattern": "^\\d{9}$",
+          "type": "string"
+        },
+        {
+          "maxLength": 3,
+          "minLength": 2,
+          "pattern": "^\\w{2,3}$",
+          "type": "string"
+        },
+        {
+          "maxLength": 2,
+          "minLength": 2,
+          "pattern": "^\\d{2}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Zone Diffusion Code"
+    },
+    "zone_diffusion_nom": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Zone Diffusion Nom"
+    },
+    "zone_diffusion_type": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ZoneDiffusionType"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "id",
+    "structure_id",
+    "source",
+    "nom",
+    "date_maj"
+  ],
+  "title": "Service",
+  "type": "object"
+}

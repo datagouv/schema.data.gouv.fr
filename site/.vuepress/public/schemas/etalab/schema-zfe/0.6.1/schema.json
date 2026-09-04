@@ -1,0 +1,223 @@
+{
+  "allOf": [
+    {
+      "$ref": "https://geojson.org/schema/FeatureCollection.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "features": {
+      "type": "array",
+      "items": {
+        "title": "GeoJSON Feature",
+        "type": "object",
+        "required": [
+          "properties"
+        ],
+        "properties": {
+          "properties": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Identifiant unique de l'aire réglementée. Pour construire l'identifiant on utilise cette formule : 'Code SIREN de l'entité administrative englobant la zone' - ZFE - XXX. Identifiant unique cleabs du tronçon routier issu de la couche TRONCON_DE_ROUTE de la BD Topo produite par l'IGN",
+                "examples": [
+                  "200046977-ZFE-001",
+                  "TRONROUT0000002003832789"
+                ]
+              },
+              "date_debut": {
+                "type": "string",
+                "format": "date",
+                "description": "Date d'entrée en vigueur de la réglementation",
+                "examples": [
+                  "2019-07-01"
+                ]
+              },
+              "date_fin": {
+                "type": "string",
+                "format": "date",
+                "description": "Date de fin de la réglementation",
+                "examples": [
+                  "2023-07-01"
+                ]
+              },
+              "proprietaire_vehicule": {
+                "type": "string",
+                "description": "Nature juridique du propriétaire du véhicule",
+                "examples": [
+                  "PERSONNE PHYSIQUE OU MORALE"
+                ],
+                "enum": [
+                  "PERSONNE PHYSIQUE",
+                  "PERSONNE MORALE",
+                  "PERSONNE PHYSIQUE OU MORALE"
+                ]
+              },
+              "vp_critair": {
+                "type": "string",
+                "description": "Véhicules particuliers : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple 4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler.",
+                "examples": [
+                  "4"
+                ],
+               "enum": [
+                  "5",
+                  "4",
+                  "3",
+                  "2",
+                  "1", 
+                  "ELECTRIQUE"
+                ]
+              },
+              "vp_horaires": {
+                "type": "string",
+                "description": "Véhicules particuliers : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours",
+                "examples": [
+                  "Mo-Fr 08:00-20:00; PH off",
+                  "24/7"
+                ]
+              },
+              "vul_critair": {
+                "type": "string",
+                "description": "Véhicules utilitaires légers : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple 4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler.",
+                "examples": [
+                  "4"
+                ],
+                "enum": [
+                  "5",
+                  "4",
+                  "3",
+                  "2",
+                  "1", 
+                  "ELECTRIQUE"
+                ]
+              },
+              "vul_horaires": {
+                "type": "string",
+                "description": "Véhicules utilitaires légers : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours",
+                "examples": [
+                  "Mo-Fr 08:00-20:00; PH off",
+                  "24/7"
+                ]
+              },
+              "pl_critair": {
+                "type": "string",
+                "description": "Poids lourds (>3,5t): Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple 4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler.",
+                "examples": [
+                  "4"
+                ],
+                "enum": [
+                  "5",
+                  "4",
+                  "3",
+                  "2",
+                  "1", 
+                  "ELECTRIQUE"
+                ]
+              },
+              "pl_horaires": {
+                "type": "string",
+                "description": "Poids lourds (>3,5t): jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours",
+                "examples": [
+                  "Mo-Fr 08:00-20:00; PH off",
+                  "24/7"
+                ]
+              },
+              "autobus_autocars_critair": {
+                "type": "string",
+                "description": "Autobus et autocars : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple 4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler.",
+                "examples": [
+                  "4"
+                ],
+                "enum": [
+                  "5",
+                  "4",
+                  "3",
+                  "2",
+                  "1", 
+                  "ELECTRIQUE"
+                ]
+              },
+              "autobus_autocars_horaires": {
+                "type": "string",
+                "description": "Autobus et autocars : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours",
+                "examples": [
+                  "Mo-Fr 08:00-20:00; PH off",
+                  "24/7"
+                ]
+              },
+              "deux_rm_critair": {
+                "type": "string",
+                "description": "Deux roues, tricycles et quadricycles à moteur : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple 4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler.",
+                "examples": [
+                  "4"
+                ],
+                "enum": [
+                  "5",
+                  "4",
+                  "3",
+                  "2",
+                  "1", 
+                  "ELECTRIQUE"
+                ]
+              },
+              "deux_rm_horaires": {
+                "type": "string",
+                "description": "Deux roues, tricycles et quadricycles à moteur : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours",
+                "examples": [
+                  "Mo-Fr 08:00-20:00; PH off",
+                  "24/7"
+                ]
+              },
+              "taxi_critair": {
+                "type": "string",
+                "description": "Taxis : Vignette CRITAIR à partir de laquelle la circulation n'est pas autorisée. Par exemple 4 signifie que les véhicules CRITAIR 4, CRITAIR 5 et sans vignettes ne sont pas autorisés à circuler.",
+                "examples": [
+                  "4"
+                ],
+                "enum": [
+                  "5",
+                  "4",
+                  "3",
+                  "2",
+                  "1", 
+                  "ELECTRIQUE"
+                ]
+              },
+              "taxi_horaires": {
+                "type": "string",
+                "description": "Taxis : jours et horaires de restriction au format 'opening hours' d'OpenStreetMap : https://wiki.openstreetmap.org/wiki/Key:opening_hours",
+                "examples": [
+                  "Mo-Fr 08:00-20:00; PH off",
+                  "24/7"
+                ]
+              },
+              "url_arrete": {
+                "type": "string",
+                "format": "uri",
+                "description": "Lien de l'arrêté administratif",
+                "examples": [
+                  "https://cdn.paris.fr/paris/2021/05/28/23fb2b69cfa451a4e517f1bc6e3001b7.pdf"
+                ]
+              },
+              "url_site_information": {
+                "type": "string",
+                "format": "uri",
+                "description": "Page web décrivant le dispositif",
+                "examples": [
+                  "https://www.metropolegrandparis.fr/fr/ZFE"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "date_debut",
+              "proprietaire_vehicule",
+              "url_arrete"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

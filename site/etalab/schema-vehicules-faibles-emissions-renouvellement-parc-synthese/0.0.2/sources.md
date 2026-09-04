@@ -1,0 +1,10 @@
+<MenuSchema />
+
+## Socle juridique du schéma
+- []()
+- [Décret n° 2021-1600 du 9 décembre 2021 pris pour l'application des articles L. 224-11 et L. 224-12 du code de l'environnement en ce qui concerne les centrales de réservation mentionnées à l'article L. 3142-1 du code des transports](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044464309)
+- [Arrêté du 9 décembre 2021 fixant les termes et modalités de publication du pourcentage de véhicules à faibles émissions parmi les véhicules mis en relation par les centrales de réservation](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044464353/2022-03-01/)
+- [Décret n° 2020-1726 du 29 décembre 2020 relatif au suivi et à la publication du pourcentage de véhicules à faibles et à très faibles émissions parmi les véhicules ayant fait l’objet d’un renouvellement de parc conformément aux dispositions applicables à certaines personnes, pris pour l’application de l’article 79 de la loi no 2019-1428 du 24 décembre 2019 d’orientation des mobilités](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042754268)
+- [Arrêté du 29 décembre 2020 fixant les termes et modalités de publication du pourcentage de véhicules à faibles et à très faibles émissions parmi les véhicules intégrés dans un renouvellement de parc, modifié par l’arrêté du 28 avril 2021.](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042754492/2021-09-16/)
+- [Décret n° 2022-474 du 4 avril 2022 pris pour l'application de l'article 114 de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045470632)
+- [Arrêté du 5 avril 2022 fixant les termes et modalités de publication du pourcentage de cycles, y compris à pédalage assisté, ou de véhicules à moteur à deux ou trois roues à très faibles émissions parmi les véhicules mis en relation par les plateformes visées à l'article L. 224-11-1 du code de l'environnement](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045590767)

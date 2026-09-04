@@ -1,0 +1,660 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name": "aire-livraison",
+    "title": "Aires de livraison",
+    "description": "Spécification du fichier d'échange relatif aux aires de livraison",
+    "keywords": [
+        "supply",
+        "mobility",
+        "city",
+        "smartcity",
+        "regulation",
+        "parking"
+    ],
+    "countryCode": "FR",
+    "homepage": "https://github.com/CEREMA/schema-aire-livraison",
+    "path": "https://github.com/CEREMA/schema-aire-livraison/raw/v1.0.0/schema.json",
+    "image": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/refs/tags/v1.0.0/files/image.jpg",
+    "licenses": [
+        {
+            "title": "Etalab Licence Ouverte 2.0",
+            "name": "etalab-2.0",
+            "path": "https://spdx.org/licenses/etalab-2.0.html"
+        }
+    ],
+    "resources": [
+        {
+            "title": "Exemple valide pour le Grand Lyon",
+            "name": "exemple-grand-lyon.csv",
+            "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/refs/tags/v1.0.0/exemple-grand-lyon.csv"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Données Ouvertes Aires de Livraison pour la commune d'Antibes",
+            "path": "https://www.data.gouv.fr/datasets/aires-de-livraison-a-antibes-juan-les-pins"
+        },
+        {
+            "title": "Arrêté CA/MFV/2016/328 d'Antibes de 2016",
+            "name": "arrete-CA/MFV/2016/328",
+            "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v1.0.0/files/1095_16_regl_perm_emplact_livraison_bd_chancel-1.pdf"
+        },
+        {
+            "title": "Arrêté CA/SM/2017/261 d'Antibes de 2017",
+            "name": "arrete-CA/SM/2017/261",
+            "path": "https://raw.githubusercontent.com/CEREMA/schema-aire-livraison/v1.0.0/files/513_17_creation_emplacement_reserve_bd_wilson.pdf"
+        },
+        {
+            "title": "Aménager les aires de livraison",
+            "path": "https://www.cerema.fr/fr/actualites/amenager-aires-livraison"
+        },
+        {
+            "title": "AIRES DE LIVRAISON : QUELLES BONNES PRATIQUES POUR AMÉLIORER LES CONDITIONS DE LIVRAISON ?",
+            "path": "https://www.interlud.green/actualites/aires-de-livraison-quelles-bonnes-pratiques-pour-ameliorer-les-conditions-de-livraison"
+        },
+        {
+            "title": "Pratiques de livraison (par BAC IDF)",
+            "path": "https://bac-idf.fr/category/pratiques-de-livraison/"
+        },
+        {
+            "title": "Guide d'harmonisation des règlementations des livraisons co-rédigé par la Région Sud et la DREAL PACA",
+            "path": "https://github.com/CEREMA/schema-arrete-permanent-circulation/blob/v0.9.2/ressources/Guide%20Harmonisation%20des%20arr%C3%AAt%C3%A9s%20R%C3%A9gion%20PACA%202019.pdf"
+        },
+        {
+            "title": "Les initiatives du GART en faveur d’une logistique urbaine durable",
+            "path": "https://www.gart.org/actualite/les-initiatives-du-gart-en-faveur-dune-logistique-urbaine-durable/"
+        },
+        {
+            "title": "Outils innovants InterLUD+",
+            "path": "https://www.interlud.green/projets-et-etudes-1/outils-innovants"
+        },
+        {
+            "title": "Les projets innovants du programme InTerLUD+ pour faciliter la logistique urbaine durable",
+            "path": "https://www.cerema.fr/fr/actualites/projets-innovants-du-programme-interlud-faciliter-logistique"
+        }
+    ],
+    "created": "2024-01-04",
+    "lastModified": "2026-01-08",
+    "version": "v1.0.0",
+    "contributors": [
+        {
+            "title": "Mathieu Rajerison",
+            "email": "mathieu.rajerison@cerema.fr",
+            "organisation": "Cerema",
+            "role": "author"
+        },
+        {
+            "title": "Cédric Bariou",
+            "email": "cedric.bariou@cerema.fr",
+            "organisation": "Cerema",
+            "role": "contributor"
+        },
+        {
+            "title": "Jean-Marie Bourgogne",
+            "email": "jmbourgogne@opendatafrance.email",
+            "organisation": "OpenDataFrance",
+            "role": "contributor"
+        },
+        {
+            "title": "Silvio Rousic",
+            "email": "silvio.rousic@cerema.fr",
+            "organisation": "Cerema",
+            "role": "contributor"
+        },
+        {
+            "title": "Ivan Slastanova",
+            "organisation": "GART",
+            "role": "contributor"
+        },
+        {
+            "title": "Joy Pasquet",
+            "organisation": "Amazon Logistics",
+            "role": "contributor"
+        },
+        {
+            "title": "Timothée Fritsch-Humblet",
+            "organisation": "Cerema",
+            "role": "contributor"
+        },
+        {
+            "title": "Evan Boulogne",
+            "organisation": "Urban Radar",
+            "role": "contributor"
+        },
+        {
+            "title": "Philippe Rapin",
+            "organisation": "Urban Radar",
+            "role": "contributor"
+        },
+        {
+            "title": "Jean-Philippe Elie",
+            "organisation": "Logistic Low Carbon",
+            "role": "contributor"
+        },
+        {
+            "title": "Hélène De Solère",
+            "organisation": "Cerema",
+            "role": "contributor"
+        }
+    ],
+    "fields": [
+        {
+            "name": "ARR_PRESENT",
+            "title": "Présence d'un arrêté d'aire de livraison",
+            "description": "Validation de la présence d'un arrêté d'aire de livraison pour l'aire de livraison. Un arrêté peut contenir plusieurs aires de livraisons",
+            "type": "boolean",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "ARR_URL",
+            "title": "Adresse internet de l'arrêté",
+            "description": "Adresse internet par laquelle accéder à l'arrêté, et donc au règlement",
+            "type": "string",
+            "format": "uri",
+            "example": "https://carte.st-paul-les-dax.fr/wp-content/uploads/2020/06/AM-10248.pdf",
+            "profiles": [
+                "Collectivité locale"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "ACTIVE",
+            "title": "Statut de l'aire de livraison. Active ou pas",
+            "description": "Exprime si une aire de livraison est active",
+            "type": "boolean",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ],
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "UUID",
+            "title": "Identifiant UUID de l'entité",
+            "description": "Identifiant unique universel associé à l'aire de livraison. Vous pouvez créer des identifiants grâce à l'application [Heidi](https://heidi.app.etalab.studio/) d'Etalab",
+            "example": "550e8400-e29b-41d4-a716-446655440000",
+            "type": "string",
+            "format": "uuid",
+            "constraints": {
+                "required": false,
+                "unique": true
+            }
+        },
+        {
+            "name": "ID",
+            "title": "Identifiant de l'aire de livraison utilisé dans des bases de données locales",
+            "description": "Identifiant utilisé dans des bases de données locales associé à l'aire de livraison",
+            "example": "133-3",
+            "type": "string",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "name": "NOM",
+            "title": "Nom de l'aire de livraison",
+            "description": "Nom lisible permettant d'identifier facilement l'aire de livraison. Constitué du nom de la collectivité associé à un numéro compris entre 1 et 9999 : 'nom_collectivité_#' (ex : cu_dunkerque_1)",
+            "type": "string",
+            "example": "ca_annemasse_1",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "DATE_MAJ",
+            "title": "Date de mise à jour",
+            "description": "Date et heure de la dernière mise à jour des propriétés de l'aire de livraison",
+            "type": "datetime",
+            "example": "2025-10-22T12:50:21Z",
+            "constraints": {
+                "required": false
+            }
+        },
+                {                                   
+            "name": "LONGITUDE",
+            "title": "Longitude",
+            "description": "Coordonnée longitude associée à l'aire de livraison (système de projection WGS84 (EPSG:4326))",
+            "type": "number",
+            "floatNumber":true,
+            "decimalChar":".",
+            "example": "4.855184",
+            "constraints": {
+                "required": true,
+                "minimum": -180,
+                "maximum": 180
+            }
+        },
+        {
+            "name": "LATITUDE",
+            "title": "Latitude",
+            "description": "Coordonnée latitude associée à l'aire de livraison (système de projection WGS84 (EPSG:4326))",
+            "type": "number",
+            "floatNumber":true,
+            "decimalChar":".",
+            "example": "45.769656",
+            "constraints": {
+                "required": true,
+                "minimum": -90,
+                "maximum": 90
+            }
+        },
+        {
+            "name": "GEOM_WKT",
+            "title": "Géométrie au format WKT",
+            "description": "Géométrie de l'emprise de l'aire de livraison (polygone) exprimée au format [WKT (Well Know Text)](https://fr.wikipedia.org/wiki/Well-known_text) sous le système de projection WGS84 (EPSG:4326) avec des coordonées d'une précision de 6 décimales. Constitué de 5 points, le premier et le dernier étant identiques pour fermer le polygone",
+            "type": "string",
+            "example": "POLYGON(4.855154 45.769666, 4.855176 45.769668, 4.855190 45.769583, 4.855168 45.769581, 4.855154 45.769666)",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "ADRESSE",
+            "title": "Adresse complète",
+            "description": "Adresse du point de référence de l'aire comprenant numéro, rue, code postal et ville",
+            "example": "27 Rue Ney, 69006 Lyon",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "^[a-zA-Z0-9\\-\\–\\'\\’\\«\\»\\°\\\"\\s\\dÀ-ÿ\\(\\)\\,\\.]+$"
+            }
+        },
+        {
+            "name": "CODE_POSTAL",
+            "title": "Code postal",
+            "description": "Code postal associé à l'aire de livraison",
+            "example": "69006",
+            "type": "string",
+            "constraints": {
+                "required": false,
+                "pattern": "^([013-9]\\d|2[AB1-9])\\d{3}$",
+                "minLength": 5,
+                "maxLength": 5
+            }
+        },
+        {
+            "name": "COMMUNE",
+            "title": "Commune",
+            "description": "Nom de la commune associée à l'aire de livraison",
+            "example": "Lyon",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "DISPOSITION",
+            "title": "Type de stationnement",
+            "description": "L'angle de stationnement des véhicules sur l'aire de livraison",
+            "type": "string",
+            "example": "Bataille",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "bataille",
+                    "épi",
+                    "parallèle"
+                ]
+            }
+        },
+        {
+            "name": "PARITE_TROTTOIR",
+            "title": "Côté de la rue",
+            "description": "Côté de la rue sur lequel se situe l'aire de livraison",
+            "type": "string",
+            "example": "Impair",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "impair",
+                    "pair",
+                    "inconnu"
+                ]
+            }
+        },
+        {
+            "name": "LOCALISATION",
+            "title": "Localisation",
+            "description": "Localisation de l'aire de livraison dans la rue",
+            "type": "string",
+            "example": "Chaussée",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "chaussée",
+                    "encoche",
+                    "terre-plein",
+                    "aire piétonne",
+                    "parking"
+                ]
+            }
+        },
+        {
+            "name": "LONGUEUR",
+            "title": "Longueur",
+            "description": "Longueur de l'emprise de l'aire de livraison en centimètres",
+            "type": "number",
+            "example": "500",
+            "constraints": {
+                "required": false,
+                "minimum": 100,
+                "maximum": 10000
+            }
+        },
+        {
+            "name": "LARGEUR",
+            "title": "Largeur",
+            "description": "Largeur de l'emprise de l'aire de livraison en centimètres",
+            "type": "number",
+            "example": "200",
+            "constraints": {
+                "required": false,
+                "minimum": 100,
+                "maximum": 1000
+            }
+        },
+        {
+            "name": "MARQUAGE_ETAT",
+            "title": "État du marquage",
+            "description": "Etat de la signalisation horizontale de l'aire de livraison",
+            "type": "string",
+            "example": "Dégradé",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "bon état",
+                    "dégradé",
+                    "absent"
+                ]
+            }
+        },
+        {
+            "name": "MARQUAGE_CONFORMITE",
+            "title": "Conformité du marquage",
+            "description": "Conformité de la signalisation horizontale d'après l'IISR partie 7 qui distingue aires péridodiques et aires permanentes",
+            "type": "boolean",
+            "example": "Oui",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ]
+        },
+        {
+            "name": "TYPE",
+            "title": "Type d'espace",
+            "description": "Type d'espace d'arrêt ou de stationnement",
+            "type": "string",
+            "example": "Aire permanente",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "aire périodique",
+                    "aire permanente",
+                    "zone marchandises"
+                ]
+            }
+        },
+        {
+            "name": "PANNEAU_PRESENT",
+            "title": "Présence d'un panneau",
+            "description": "Validation de la présence de signalisation verticale",
+            "type": "boolean",
+            "example": "Oui",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ]
+        },
+        {
+            "name": "PANNEAU_ETAT",
+            "title": "Etat du panneau",
+            "description": "Validation de l'état de la signalsation verticale",
+            "type": "string",
+            "example": "Dégradé",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "bon état",
+                    "dégradé",
+                    "n/a"
+                ]
+            }
+        },
+        {
+            "name": "DUREE_MAX",
+            "title": "Durée maximale d'arrêt",
+            "description": "Durée en minutes pendant laquelle l'esapce peut être utilisé en vertu de la réglementation inscrite sur la signalisation verticale ou horizontale",
+            "example": "60",
+            "type": "number",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "DUREE_CONTROLE",
+            "title": "Contrôle de la durée",
+            "description": "Modalité de contôle de la durée de séjour. Si une durée maximale est indiquée sans mention de la modalité de contrôle, mettre \"Autre\"",
+            "type": "string",
+            "example": "Disque",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "caméra",
+                    "capteur",
+                    "disque horodateur",
+                    "autre"
+                ]
+            }
+        },
+        {
+            "name": "TEMPORALITE_CDS",
+            "title": "Plages horaires livraison (norme CDS)",
+            "description": "Définition des plages horaires d'exclusivité pour la livraison, selon le format Time Span de Curb Data Specification. Ne pas indiquer les horaires où le stationnement est autorisé. Par soucis de simplicité, renseigner les exceptions à la règle dans le champ COMMENTAIRE. Note d'implémentation : champ requis uniquement pour les aires à périodiques et zones marchandises. Les aires permanentes étant réservées en continu à la livraison (24/7), ce champ doit rester vide ou nul pour ces dernières. Complémentaire au champ TEMPORALITE_OSM",
+            "example": "[{\"days_of_week\":[\"mon\",\"tue\",\"wed\",\"thu\",\"fri\"],\"times_of_day\":[[\"08:00\",\"12:00\"]]},{\"days_of_week\":[\"sat\"],\"times_of_day\":[[\"10:00\",\"18:00\"]]}]",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "TEMPORALITE_OSM",
+            "title": "Plages horaires livraison (norme OSM)",
+            "description": "Définition des plages horaires d'exclusivité pour la livraison, selon le format OpeningHours d'OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:opening_hours). Par exemple Mo-Su 09:00-11:00 signifie :  \"stationnement interdit ou réservé à la livraison du lundi au dimanche de 9h à 11h\". Par soucis de simplicité, renseigner les exceptions à la règle dans le champ COMMENTAIRE. Ne pas indiquer les horaires où le stationnement est autorisé. Note d'implémentation : champ requis uniquement pour les aires à périodiques ou zones marchandises. Les aires permanentes étant réservées en continu à la livraison (24/7), ce champ doit rester vide ou nul pour ces dernières. Complémentaire au champ TEMPORALITE_CDS",
+            "example": "Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00; PH off",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "EQUIPEMENTS",
+            "title": "Equipements",
+            "description": "Equipements installés à proximité de l'aire de livraison. Les valeurs autorisées sont : candélabre, capteur sol, capteur caméra, borne recharge, borne escamotable, pas d'équipement. Si un équipement ne figure pas dans les valeurs autorisées, le renseigner dans COMMENTAIRE. Si plusieurs équipements, séparer les valeurs par une virgule",
+            "type": "string",
+            "example": "candélabre,borne recharge",  
+            "constraints": {
+                "required": false,
+                "pattern":"^(?:(?:candélabre|capteur sol|capteur caméra|borne recharge|borne escamotable|pas d'équipement)(?:,\\s*)?)+$"
+            }
+        },
+        {
+            "name": "IRVE_PUISSANCE",
+            "title": "Puissance de l'installation de recharge de véhicule électrique",
+            "description": "Puissance de l'installation de recharge de véhicule électrique en kW",
+            "type": "number",
+            "example": "22",
+            "profiles": [
+                "Collectivité locale",
+                "Acteur économique"
+            ],
+            "constraints": {
+                "required": false,
+                "minimum": 1,
+                "maximum": 4500
+            }
+        },
+        {
+            "name": "ABAISSEMENT_TROTTOIR",
+            "title": "Trottoir abaissé au cul du vehicule",
+            "description": "Présence d'un abaissement au cul du vehicule dans le sens de ciruclation",
+            "example": "Oui",
+            "trueValues": [
+                "oui",
+                "Oui",
+                "OUI",
+                "o",
+                "O",
+                "vrai",
+                "Vrai",
+                "VRAI",
+                "true",
+                "True",
+                "TRUE",
+                "1"
+            ],
+            "falseValues": [
+                "non",
+                "Non",
+                "NON",
+                "n",
+                "N",
+                "faux",
+                "Faux",
+                "FAUX",
+                "false",
+                "False",
+                "FALSE",
+                "0"
+            ],
+            "type": "boolean",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "COMMENTAIRE",
+            "title": "Commentaire libre",
+            "description": "Commentaire libre",
+            "example": "Secteur du Centre-Ville",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "missingValues": [
+        "",
+        "NA",
+        "NaN",
+        "N/A",
+        "n/a"
+    ],
+    "primaryKey": "UUID"
+}

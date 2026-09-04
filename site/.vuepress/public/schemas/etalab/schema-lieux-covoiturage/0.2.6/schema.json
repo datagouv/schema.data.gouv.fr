@@ -1,0 +1,293 @@
+{
+    "$schema":"https://frictionlessdata.io/schemas/table-schema.json",
+    "title":"Lieux de covoiturage",
+    "description":"Spécification des lieux permettant le covoiturage",
+    "keywords":[
+        "covoiturage",
+        "transport",
+        "mobilité"
+    ],
+    "countryCode":"FR",
+    "licenses": [
+        {
+          "title": "Licence Ouverte",
+          "name": "etalab-2.0",
+          "path": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+        }
+      ],
+      "resources": [
+        {
+          "title": "Ressource valide",
+          "name": "exemple-valide",
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv"
+        },
+        {
+          "title": "Ressource invalide",
+          "name": "exemple-invalide",
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv"
+        }
+      ],
+    "author":"Antoine Augusti pour Etalab",
+    "contact":"contact@transport.beta.gouv.fr",
+    "contributors": [
+        {
+            "title": "Miryad Ali et Francis Chabouis",
+            "email": "contact@transport.beta.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "contributor"
+        },
+        {
+            "title": "Ishan Bhojwani",
+            "email": "ishan@beta.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "contributor"
+        },
+        {
+            "title": "Antoine Augusti",
+            "email": "antoine.augusti@data.gouv.fr",
+            "organisation": "Etalab",
+            "role": "contributor"
+        },
+        {
+            "title": "Loïc Hay",
+            "email": "loic.hay@gmail.com ",
+            "organisation": "Open Data France",
+            "role": "contributor"
+        },
+        {
+            "title": "Sophie Raspail",
+            "email": "sophie.raspail@ct-corse.fr",
+            "organisation": "Agence d'Aménagement et d'Urbanisme de Corse",
+            "role": "contributor"
+        },
+        {
+            "title": "Tristan Roussel",
+            "email": "",
+            "organisation": "",
+            "role": "contributor"
+        },
+        {
+            "title": "Johan Richer",
+            "email": "johan.richer@jailbreak.paris",
+            "organisation": "Jailbreak",
+            "role": "contributor"
+        }
+    ],
+    "version":"0.2.6",
+    "created":"2019-06-25",
+    "lastModified":"2022-08-26",
+    "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/exemple-valide.csv",
+    "fields":[
+        {
+            "name":"id_lieu",
+            "description":"Identifiant du lieu de covoiturage, délivré par le Point d'Accès National selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001. L'identifiant 35238-C-001 désigne ainsi la première aire référencée dans la commune de code INSEE 35238.",
+            "example":"35238-C-001",
+            "type":"string",
+            "constraints":{
+                "required":true,
+                "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}-C-\\d{3}$"
+            }
+        },
+        {
+            "name":"id_local",
+            "description":"Identifiant du lieu de covoiturage fixé par le producteur de la donnée pour son propre usage",
+            "example":"23X01",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
+            "name":"nom_lieu",
+            "description":"Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage",
+            "example":"Les Romains",
+            "type":"string",
+            "constraints":{
+                "required":true
+            }
+        },
+        {
+            "name":"ad_lieu",
+            "description":"L'adresse du lieu compréhensible par le grand public pour assurer la coordination entre le passager et le conducteur. Exemple : \"3, rue de la gare\" ; pour les lieux proches des sorties d'autoroute ou de nationale : \"A11 sortie 7 Le Mans Nord\" ; pour les zones rurales sans adresse : \"croisement de route 1 - route 2\" ou \"le long de route X après le passage à niveau\"",
+            "example":"3, rue de la Gare",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
+            "name":"com_lieu",
+            "description":"La commune / le lieu-dit du covoiturage",
+            "example":"Rouen",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
+            "name":"insee",
+            "description":"Le code INSEE de la commune d'implantation",
+            "example":"76540",
+            "type":"string",
+            "constraints":{
+                "required":true,
+                "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}$"
+            }
+        },
+        {
+            "name":"type",
+            "description":"Le type de lieu de covoiturage",
+            "example":"Parking",
+            "type":"string",
+            "constraints":{
+                "required":true,
+                "enum":[
+                    "Aire de covoiturage",
+                    "Sortie d'autoroute",
+                    "Parking",
+                    "Supermarché",
+                    "Parking relais",
+                    "Délaissé routier",
+                    "Auto-stop"
+                ]
+            }
+        },
+        {
+            "name":"date_maj",
+            "description":"Date de dernière mise à jour des données. Notation ISO 8601, format AAAA-MM-DD",
+            "example":"2016-10-31",
+            "type":"date",
+            "format":"%Y-%m-%d",
+            "constraints":{
+                "required":true
+            }
+        },
+        {
+            "name":"ouvert",
+            "description":"Le lieu est-il actuellement accessible (actif ou inactif)",
+            "example":"true",
+            "type":"boolean",
+            "constraints":{
+                "required":true
+            }
+        },
+        {
+            "name":"source",
+            "description":"SIREN de l'entité ayant fourni la donnée",
+            "example":"225300011",
+            "type":"string",
+            "constraints":{
+                "required":false,
+                "pattern": "^\\d{9}$"
+            }
+        },
+        {
+            "name":"Xlong",
+            "description":"La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
+            "example":"1.452323",
+            "type":"number",
+            "constraints":{
+                "required":true,
+                "minimum":-180,
+                "maximum":180
+            }
+        },
+        {
+            "name":"Ylat",
+            "description":"La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
+            "example":"46.59698",
+            "type":"number",
+            "constraints":{
+                "required":true,
+                "minimum":-90,
+                "maximum":90
+            }
+        },
+        {
+            "name":"nbre_pl",
+            "description":"Le nombre de places réservées au stationnement disponibles",
+            "example":"42",
+            "type":"integer",
+            "constraints":{
+                "required":false,
+                "minimum":0
+            }
+        },
+        {
+            "name":"nbre_pmr",
+            "description":"Le nombre de places PMR disponibles",
+            "example":"3",
+            "type":"integer",
+            "constraints":{
+                "required":false,
+                "minimum":0
+            }
+        },
+        {
+            "name":"duree",
+            "description":"S'il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes",
+            "example":"60",
+            "type":"integer",
+            "constraints":{
+                "required":false,
+                "minimum":0
+            }
+        },
+        {
+            "name":"horaires",
+            "description":"Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement. Le format attendu doit respecter celui proposé par OSM pour le champ [opening_hours](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours)",
+            "example":"Mo-Fr 08:00-20:00",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
+            "name":"proprio",
+            "description":"Le nom de l'aménageur, c'est-à-dire de l'entité publique ou privée propriétaire des infrastructures",
+            "example":"Département",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
+            "name":"lumiere",
+            "description":"Un éclairage nocturne est-il présent",
+            "example":false,
+            "type":"boolean",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
+            "name":"comm",
+            "description":"Commentaires éventuels sur les commodités mises à disposition du grand public comme : le numéro de téléphone unique qui indique les services disponibles au moment de l'arrivée sur l'aire pour réaliser le dernier kilomètre ; la présence de prises 220V ou USB ; accès à du réseau (télécom, WiFi) ; sanitaires ; intermodalité en transports",
+            "example":"Présence de sanitaires et accès à de l'eau courante",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        }
+    ],
+    "custom_checks":[
+        {
+            "name":"french-siren-value",
+            "params":{
+                "column":"source"
+            }
+        },
+        {
+            "name":"opening-hours-value",
+            "params":{
+                "column":"horaires"
+            }
+        }
+    ],
+    "missingValues":[
+        ""
+    ],
+    "primaryKey":"id_lieu"
+}

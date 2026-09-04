@@ -1,0 +1,166 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "impact-service-public-numerique",
+   "title": "Schéma de l'impact d'un service public numérique",
+   "description": "Spécification du fichier de l'impact d'un service public numérique",
+   "keywords": [
+      "service-public-numerique",
+      "impact",
+      "statistique"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/etalab/schema-impact-service-numerique-public",
+   "path": "https://github.com/etalab/schema-impact-service-public-numerique/raw/v0.1/schema.json",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Fichier valide (CSV)",
+         "name": "exemple-valide-csv",
+         "path": "https://github.com/etalab/schema-impact-service-public-numerique/raw/v0.1/exemple-valide.csv"
+      }
+   ],
+   "created": "2022-04-20",
+   "lastModified": "2022-08-09",
+   "version": "0.2.0",
+   "contributors": [
+      {
+         "title": "Julieta Barado",
+         "email": "julieta.barado@data.gouv.fr",
+         "organisation": "Etalab",
+         "role": "author"
+      },
+      {
+         "title": "Mario Restuccia",
+         "email": "mario.restuccia@data.gouv.fr",
+         "organisation": "Etalab",
+         "role": "contributor"
+      },
+      {
+         "title": "Geoffrey Aldebert",
+         "email": "geoffrey.aldebert@data.gouv.fr",
+         "organisation": "Etalab",
+         "role": "contributor"
+      },
+      {
+         "title": "Florian Delezenne",
+         "email": "florian.delezenne@beta.gouv.fr",
+         "organisation": "beta.gouv.fr",
+         "role": "contributor"
+      }
+   ],
+   "fields": [
+      {
+         "name": "nom_service_public_numerique",
+         "description": "Nom du service public numérique",
+         "example": "Trackdéchets",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "indicateur",
+         "description": "Intitulé de l’indicateur.",
+         "example": "Nombre d'utilisateurs inscrits",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "valeur",
+         "description": "Valeur",
+         "example": "100000",
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "unite_mesure",
+         "description": "Unité de la mesure d'impact. Ex : %, jours...",
+         "example": "%",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "frequence_calcul",
+         "description": "Fréquence de calcul, de collecte ou de parution de l’indicateur.",
+         "example": "Quotidienne",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "Quotidienne",
+               "Hebdomadaire",
+               "Mensuelle",
+               "Annuelle",
+               "Trimestrielle",
+               "Continue"
+            ]
+         }
+      },
+      {
+         "name": "frequence_affichage",
+         "description": "Periodicité d'affichage de l'indicateur, si différente de la périodicité de calcul",
+         "example": "Quotidienne",
+         "type": "string",
+         "constraints": {
+            "enum": [
+               "Quotidienne",
+               "Hebdomadaire",
+               "Mensuelle",
+               "Annuelle",
+               "Trimestrielle",
+               "Continue"
+            ]
+         }
+      },
+      {
+         "name": "periode",
+         "description": "Période se réfère à la mesure (YYYY-MM-DD). Pour annuel indiquer 2020-01-01 ; pour mensuel, le premier jour du mois; pour hebdomadaire, le premier jour de la semaine.",
+         "example": "2020-01-01",
+         "type": "date",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "mode_collecte",
+         "description": "Préciser les modalités de collecte des données : automatisé, comptages manuels, enquêtes, etc.",
+         "example": "Automatisé",
+         "type": "string"
+      },
+      {
+         "name": "mode_calcul",
+         "description": "Façon dont est calculé ou agrégé l’indicateur à partir des données de base (ex : formule paramétrique ou pondération des données locales), en distinguant dans le cas d’un ratio, le numérateur et le dénominateur. Si nécessaire, fournir un exemple de calcul.",
+         "example": "Moyenne",
+         "type": "string"
+      },
+      {
+         "name": "sens_evolution_souhaite",
+         "description": "Sens d’évolution souhaité (à la hausse / à la baisse).",
+         "type": "string",
+         "constraints": {
+            "enum": [
+               "À la hausse",
+               "À la baisse"
+            ]
+         }
+      },
+      {
+         "name": "commentaires",
+         "description": "Préciser les limites et biais connus et justifier le choix de l’indicateur malgré ses limites ; les modalites de lecture et d'interpretation de l'indicateur",
+         "type": "string"
+      }
+   ],
+   "primaryKey": "indicateur"
+}
