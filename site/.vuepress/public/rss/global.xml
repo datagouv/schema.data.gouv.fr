@@ -1004,5 +1004,10 @@
       <link>https://schema.data.gouv.fr/MTES-MCT/acceslibre-erp-etablissement-sportif</link>
       <description>Schema update on 2026-09-04: 0.0.21 for MTES-MCT/acceslibre-erp-etablissement-sportif</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - GouvernementFR/referentiel-donnees-communication-publique (0.2.0 to 0.2.1)</title>
+      <link>https://schema.data.gouv.fr/GouvernementFR/referentiel-donnees-communication-publique</link>
+      <description>Schema update on 2026-09-08: 0.2.0 to 0.2.1 for GouvernementFR/referentiel-donnees-communication-publique</description>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

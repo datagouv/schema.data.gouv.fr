@@ -1,6 +1,6 @@
 <MenuSchema />
 
-# referentiel-donnees-communication-publique
+# Référentiel de données de communication publique
 
 Dépôt de référence des schémas de données et de la documentation des jeux de données ouverts publiés par le Service d'information du Gouvernement (SIG) sur data.gouv.fr et schema.data.gouv.fr.
 
@@ -17,7 +17,7 @@ Référentiel officiel des thématiques et sous-thématiques de l'action gouvern
 
 ### 🏛️ Composition des Gouvernements
 
-Composition officielle du Gouvernement en exercice **et historique des gouvernements précédents**, incluant les ministères de chaque gouvernement. Le gouvernement courant est celui dont `date_fin` est `null`. Le détail des personnalités et de leurs fonctions est dans `personnalites.json`.
+Composition officielle du Gouvernement en exercice, incluant les ministères de chaque gouvernement. Le gouvernement courant est celui dont `date_fin` est `null`. Le détail des personnalités et de leurs fonctions est dans `personnalites.json`.
 
 - Fichier de données : `gouvernements-et-ministeres.json` (contient gouvernements et ministères)
 - Documentation : [`gouvernements-et-ministeres/README.md`](https://github.com/GouvernementFR/referentiel-donnees-communication-publique/blob/main/gouvernements-et-ministeres/README.md)
