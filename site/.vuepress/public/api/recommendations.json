@@ -28072,6 +28072,28 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "2025-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-groupe-nutrition-et-sante",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-mutuelle-nationale-des-hospitaliers",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-berry-holding-france",
     "recommendations": [
       {
