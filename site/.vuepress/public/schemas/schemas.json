@@ -3153,6 +3153,10 @@
                 {
                     "version_name": "0.2.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/GouvernementFR/referentiel-donnees-communication-publique/0.2.1/communiques-de-presse/schema.json"
+                },
+                {
+                    "version_name": "0.2.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/GouvernementFR/referentiel-donnees-communication-publique/0.2.2/communiques-de-presse/schema.json"
                 }
             ],
             "external_doc": null,

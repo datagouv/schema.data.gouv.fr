@@ -57,8 +57,4 @@ cf : https://ndjson.com/
 
 ## Contact
 
-Service d'information du Gouvernement (SIG) - https://www.info.gouv.fr/contact/services-du-premier-ministre
-
-## Licence
-
-Licence Ouverte / Open Licence version 2.0
+[Service d'information du Gouvernement (SIG)](https://www.info.gouv.fr/contact/services-du-premier-ministre?service=275ba149-e350-4077-b47e-b46ab70ab9c3)

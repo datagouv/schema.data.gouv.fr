@@ -1,3 +1,10 @@
+### 2026-09-11
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[GouvernementFR/referentiel-donnees-communication-publique](/GouvernementFR/referentiel-donnees-communication-publique/)** : <span style="color:red;">0.2.1</span> => <span style="color:green;">0.2.2</span><br>
+
+---
+
 ### 2026-09-08
 
 #### Montée de version:
