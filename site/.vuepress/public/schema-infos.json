@@ -3032,9 +3032,16 @@
                     "CHANGELOG.md"
                 ],
                 "schema_url": "/GouvernementFR/referentiel-donnees-communication-publique/0.2.2/communiques-de-presse/schema.json"
+            },
+            "0.2.3": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/GouvernementFR/referentiel-donnees-communication-publique/0.2.3/communiques-de-presse/schema.json"
             }
         },
-        "latest": "0.2.2"
+        "latest": "0.2.3"
     },
     "etalab/schema-impact-service-public-numerique": {
         "homepage": "https://github.com/etalab/schema-impact-service-public-numerique",
