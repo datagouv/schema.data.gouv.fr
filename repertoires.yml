@@ -378,3 +378,7 @@ reseaux-eaux:
   external_doc: https://cnigfr.github.io/StaR-Eau/
   labels:
     - CNIG
+comptes-annuels-entreprises:
+  url: https://github.com/TEFUDA/schema-comptes-annuels.git
+  type: tableschema
+  email: loic.gros.flandre@gmail.com
