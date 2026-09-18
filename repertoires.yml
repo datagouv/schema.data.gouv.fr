@@ -378,3 +378,9 @@ reseaux-eaux:
   external_doc: https://cnigfr.github.io/StaR-Eau/
   labels:
     - CNIG
+accessibilité-cheminement-espace-naturel:
+  url: https://github.com/cnigfr/standard-accessibilite-espace-naturel.git
+  type: datapackage
+  email: cnig@cnig.fr
+  labels:
+    - CNIG
