@@ -175,6 +175,11 @@
             "title": "Subventions",
             "contributors": 11
         },
+        "datatourisme/ontology": {
+            "dgv_resources": 6,
+            "title": "DATAtourisme",
+            "contributors": 10
+        },
         "datagouv/schema-fontaine-eau": {
             "dgv_resources": 2,
             "title": "Sch\u00e9ma des fontaines \u00e0 eau",
@@ -326,7 +331,7 @@
             "contributors": 1
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 376,
+            "dgv_resources": 378,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 3
         },
@@ -451,7 +456,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1082,
+            "dgv_resources": 1083,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
