@@ -1,3 +1,13 @@
+### 2026-09-23
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.9</span> => <span style="color:green;">1.0.10</span><br>
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:blue;">3.2.2</span><br>
+
+---
+
 ### 2026-09-22
 
 #### Schéma ajouté:

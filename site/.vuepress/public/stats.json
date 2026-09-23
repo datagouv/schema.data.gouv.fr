@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 300,
+            "dgv_resources": 299,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1222,
+            "dgv_resources": 1223,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -214,11 +214,6 @@
             "dgv_resources": 53,
             "title": "Subventions",
             "contributors": 11
-        },
-        "datatourisme/ontology": {
-            "dgv_resources": 6,
-            "title": "DATAtourisme",
-            "contributors": 10
         },
         "datagouv/schema-fontaine-eau": {
             "dgv_resources": 2,
@@ -416,7 +411,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 378,
+            "dgv_resources": 382,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -561,7 +556,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1083,
+            "dgv_resources": 1084,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
