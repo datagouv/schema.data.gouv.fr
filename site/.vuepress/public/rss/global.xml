@@ -1444,5 +1444,10 @@
       <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
       <description>Schema update on 2026-09-22: 3.2.2 for datatourisme/ontology</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - gip-inclusion/data-inclusion-schema (1.0.9 to 1.0.10)</title>
+      <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
+      <description>Schema update on 2026-09-23: 1.0.9 to 1.0.10 for gip-inclusion/data-inclusion-schema</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

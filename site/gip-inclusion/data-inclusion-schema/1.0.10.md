@@ -1,0 +1,35 @@
+<MenuSchema />
+
+# Schéma de l’offre d’insertion
+
+Ce dépôt contient le schéma de l’offre d’insertion. Il est issu de la collaboration d’acteurs de l’insertion.
+
+## Contexte
+
+La démarche a été initiée par l’équipe [Dora](https://beta.gouv.fr/startups/dora.html), portée le GIP Plateforme de l’inclusion.
+
+Il a été constaté l’existence d’une multitude de portails en ligne ou simulateurs, mais pas de langage commun pour décrire l’offre d’insertion et peu de partage des informations. La diffusion des aides et des dispositifs en est diminuée. Des informations sur les aides ou dispositifs deviennent obsolètes. Les efforts de saisie et de développement sont multipliés.
+
+Ce schéma a été créé avec la collaboration des acteurs de l’insertion afin d’harmoniser les données et de permettre l’intéropérabilité entre les différents acteurs et leurs outils.
+
+## Le schéma
+
+Le schéma définit les structures de l’insertion et devraient à terme inclure les services proposés par ces structures. Il comprend les informations essentielles permettant  de décrire l’offre d’insertion et la réutilisation par les acteurs de l’insertion.
+
+Le schéma est pour le moment formalisé dans le format JSON schema. Nous veillions néanmoins à maintenir la possibilité de représenter les données au format csv.
+
+La documentation détaillée du schéma est disponible [ici](https://gip-inclusion.github.io/data-inclusion-schema/latest/).
+
+## Consolidation
+
+data.inclusion réalise une consolidation et publie la base consolidée, aux formats json et csv, sur [data.gouv.fr](https://www.data.gouv.fr/en/datasets/referentiel-de-loffre-dinsertion-liste-des-structures-et-services-dinsertion/).
+
+## Aide à la saisie
+
+Les structures qui partagent leurs données via l’outil [Dora](https://dora.inclusion.beta.gouv.fr/) sont incluses par défaut dans la base consolidée.
+
+## Contribuer
+
+Nous organisons des ateliers régulièrement pour définir et améliorer le schéma de données. Vous pouvez librement participer aux prochains ateliers en vous inscrivant [ici](https://data.inclusion.gouv.fr/schemas-de-donnees-de-loffre/les-ateliers-collaboratifs).
+
+Vous pouvez également créer un [nouveau ticket](https://github.com/gip-inclusion/data-inclusion-schema/issues/new) sur le dépôt ouvert du schéma pour proposer une modification ou une amélioration ou poser une question.
