@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 299,
+            "dgv_resources": 300,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -358,37 +358,37 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 12
+            "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 9
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 1
+            "contributors": 2
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 8
+            "contributors": 2
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 1
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 35,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "freddtce/ENS_AURA": {
             "dgv_resources": 0,
@@ -398,7 +398,7 @@
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 3,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
