@@ -1449,5 +1449,10 @@
       <link>https://schema.data.gouv.fr/gip-inclusion/data-inclusion-schema</link>
       <description>Schema update on 2026-09-23: 1.0.9 to 1.0.10 for gip-inclusion/data-inclusion-schema</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - atlasante/schema-dae (1.0.7 to 1.0.8)</title>
+      <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
+      <description>Schema update on 2026-09-25: 1.0.7 to 1.0.8 for atlasante/schema-dae</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

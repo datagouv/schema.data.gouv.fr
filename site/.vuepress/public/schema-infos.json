@@ -55,9 +55,17 @@
                     "sources.md"
                 ],
                 "schema_url": "/atlasante/schema-dae/1.0.7/schema.json"
+            },
+            "1.0.8": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/atlasante/schema-dae/1.0.8/schema.json"
             }
         },
-        "latest": "1.0.7"
+        "latest": "1.0.8"
     },
     "etalab/schema-irve": {
         "homepage": "https://github.com/etalab/schema-irve.git",

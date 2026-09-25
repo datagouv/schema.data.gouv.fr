@@ -1852,5 +1852,13 @@
                 "version": "1.0.9 => 1.0.10"
             }
         ]
+    },
+    "2026-09-25": {
+        "new_version": [
+            {
+                "schema_name": "atlasante/schema-dae",
+                "version": "1.0.7 => 1.0.8"
+            }
+        ]
     }
 }
