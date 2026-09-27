@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 300,
+            "dgv_resources": 299,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -358,7 +358,7 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 12
+            "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
