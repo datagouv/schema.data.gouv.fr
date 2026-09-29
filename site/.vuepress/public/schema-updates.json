@@ -1510,5 +1510,23 @@
                 "version": "3.2.2"
             }
         ]
+    },
+    "2026-09-29": {
+        "new_version": [
+            {
+                "schema_name": "atlasante/schema-dae",
+                "version": "1.0.7 => 1.0.8"
+            }
+        ],
+        "new_schema": [
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "3.2.2"
+            },
+            {
+                "schema_name": "cnigfr/Geostandards-risques-carto-di",
+                "version": "0.1.0"
+            }
+        ]
     }
 }

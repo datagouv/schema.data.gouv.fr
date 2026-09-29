@@ -1049,5 +1049,20 @@
       <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
       <description>Schema update on 2026-09-23: 3.2.2 for datatourisme/ontology</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - atlasante/schema-dae (1.0.7 to 1.0.8)</title>
+      <link>https://schema.data.gouv.fr/atlasante/schema-dae</link>
+      <description>Schema update on 2026-09-29: 1.0.7 to 1.0.8 for atlasante/schema-dae</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - datatourisme/ontology (3.2.2)</title>
+      <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
+      <description>Schema update on 2026-09-29: 3.2.2 for datatourisme/ontology</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/Geostandards-risques-carto-di (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/Geostandards-risques-carto-di</link>
+      <description>Schema update on 2026-09-29: 0.1.0 for cnigfr/Geostandards-risques-carto-di</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

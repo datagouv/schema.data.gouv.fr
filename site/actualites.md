@@ -1,3 +1,14 @@
+### 2026-09-29
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[atlasante/schema-dae](/atlasante/schema-dae/)** : <span style="color:red;">1.0.7</span> => <span style="color:green;">1.0.8</span><br>
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:blue;">3.2.2</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/Geostandards-risques-carto-di](/cnigfr/Geostandards-risques-carto-di/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2026-09-23
 
 #### Montée de version:
