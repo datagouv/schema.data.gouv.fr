@@ -13,7 +13,8 @@ RUN pnpm install
 # Copy source files
 COPY ./ /app
 
-ENV NODE_OPTIONS=--openssl-legacy-provider
+# The ~1800 pages rendered by vuepress exceed Node's default 4 GB heap
+ENV NODE_OPTIONS="--openssl-legacy-provider --max-old-space-size=8192"
 
 RUN echo "$(date)" && \
   export $(cat /app/*.env | xargs) && \
