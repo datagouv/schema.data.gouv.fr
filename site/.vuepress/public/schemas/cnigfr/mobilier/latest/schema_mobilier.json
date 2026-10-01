@@ -1,0 +1,192 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "mobilier",
+  "title": "Classe MOBILIER du standard CNIG Accessibilité du Cheminement en Espace Naturel (ACEN)",
+  "description": "Spécification du fichier d'échange conforme au standard CNIG Accessibilité du Cheminement en Espace Naturel pour la classe MOBILIER",
+  "keywords": [
+    "accessibilité",
+    "cheminement",
+    "parcours",
+    "itinéraire",
+    "randonnée",
+    "espace naturel",
+    "nature"
+  ],
+  "countryCode": "FR",
+  "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel",
+  "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/mobilier/schema_mobilier.json",
+  "image": "",
+  "licenses": [
+    {
+      "title": "Etalab Licence Ouverte 2.0",
+      "name": "etalab-2.0",
+      "path": "https://spdx.org/licenses/etalab-2.0.html"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Exemple valide",
+      "name": "exemple-valide-csv",
+      "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/mobilier/exemple_mobilier.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Directive européenne Inspire -  article L. 127-1 du code de l’environnement, résultant de la transposition de la directive",
+      "path": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022964012"
+    },
+    {
+      "title": "Loi du 11 février 2005 pour l’égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées",
+      "path": "https://handicap.gouv.fr/la-loi-du-11-fevrier-2005-pour-legalite-des-droits-et-des-chances"
+    },
+    {
+      "title": "Loi n° 2019-1428 du 24 décembre 2019 d’orientation des mobilités (LOM)",
+      "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039666574"
+    },
+    {
+      "title": "Article 4( de la loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées.",
+      "path": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000002461485"
+    }
+  ],
+  "created": "2026-04-20",
+  "lastModified": "2026-09-29",
+  "version": "v0.1.0",
+  "contributors": [
+    {
+      "title": "GT CNIG Accessibilité du cheminement en espace naturel (ACEN)",
+      "email": "cnig@cnig.fr",
+      "organisation": "CNIG",
+      "role": "author"
+    },
+    {
+      "title": "Arnauld Gallais",
+      "email": "arnauld.gallais@cerema.fr",
+      "organisation": "Cerema",
+      "role": "author"
+    }
+  ],
+  "fields": [
+    {
+      "name": "id_mobilier",
+      "title": "identifiant du mobilier",
+      "description": "identifiant unique du mobilier",
+      "example": "44003:MOB:0098:LOC",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "id_troncon",
+      "title": "identifiant du troncon",
+      "description": "identifiant du tronçon sur lequel est positionné le mobilier",
+      "example": "44003:TRC:00089:LOC",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "id_arret_tc",
+      "title": "identifiant de l'arrêt",
+      "description": "identifiant de l'arrêt de transport en commun sur lequel est positionné le mobilier",
+      "example": "44003:ATC:0022:LOC",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "id_aire_stationnement",
+      "title": "identifiant de l'aire de stationnement",
+      "description": "identifiant de l'aire de stationnement sur laquelle est positionné le mobilier",
+      "example": "44003:AST:0007:LOC",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "type_mobilier",
+      "title": "type de mobilier",
+      "description": "type de mobilier",
+      "example": "table avec banc pour PMR",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "assise",
+          "assise pour PMR",
+          "table avec banc intégré",
+          "table avec banc pour PMR",
+          "abri",
+          "belvédère ou plateforme d’observation",
+          "agrès sensoriels",
+          "agrès sportif",
+          "fontaine à eau",
+          "poubelle",
+          "barbecue",
+          "support vélo",
+          "autre",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "etat_mobilier",
+      "title": "état du mobilier",
+      "description": "état du mobilier",
+      "example": "excellent",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "excellent",
+          "bon",
+          "moyen",
+          "mauvais",
+          "hors service",
+          "autre",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "url_media",
+      "title": "hyperliens vers des photos du mobilier",
+      "description": "hyperliens vers des photos représentatives du mobilier",
+      "example": ["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],
+      "type": "array",
+      "items": {
+        "type":"string",
+        "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"}
+        }
+    },
+    {
+      "name": "geom_pct",
+      "title": "géométrie ponctuelle du mobilier",
+      "description": "géométrie ponctuelle du mobilier en projection Lambert93 au format GeoJSON",
+      "example":{
+            "type":"Point",
+            "coordinates":[
+               656589.70,
+               6425785.32
+            ]
+         },
+         "type":"geojson",
+         "constraints":{
+            "required":true
+      }
+    }
+  ],
+  "missingValues": [
+    "",
+    "NA",
+    "NaN",
+    "N/A"
+  ],
+  "primaryKey": "id_mobilier"
+}

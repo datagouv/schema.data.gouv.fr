@@ -1,0 +1,909 @@
+{
+   "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "name": "cheminement",
+   "title": "Classe CHEMINEMENT du standard CNIG Accessibilité du Cheminement en Espace Naturel (ACEN)",
+   "description": "Spécification du fichier d'échange conforme au standard CNIG Accessibilité du Cheminement en Espace Naturel pour la classe CHEMINEMENT",
+   "keywords": [
+      "accessibilité",
+      "cheminement",
+      "parcours",
+      "itinéraire",
+      "randonnée",
+      "espace naturel",
+      "nature"
+   ],
+   "countryCode": "FR",
+   "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel",
+   "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/cheminement/schema_cheminement.json",
+   "image": "",
+   "licenses": [
+      {
+         "title": "Etalab Licence Ouverte 2.0",
+         "name": "etalab-2.0",
+         "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+   ],
+   "resources": [
+      {
+         "title": "Exemple valide",
+         "name": "exemple_cheminement",
+         "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/cheminement/exemple_cheminement.csv"
+      }
+   ],
+   "sources": [
+      {
+         "title": "Directive européenne Inspire -  article L. 127-1 du code de l'environnement, résultant de la transposition de la directive",
+         "path": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022964012"
+      },
+      {
+         "title": "Loi du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées",
+         "path": "https://handicap.gouv.fr/la-loi-du-11-fevrier-2005-pour-legalite-des-droits-et-des-chances"
+      },
+      {
+         "title": "Loi n° 2019-1428 du 24 décembre 2019 d'orientation des mobilités (LOM)",
+         "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039666574"
+      },
+      {
+         "title": "Article 4( de la loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées.",
+         "path": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000002461485"
+      }
+   ],
+   "created": "2026-04-20",
+   "lastModified": "2026-09-29",
+   "version": "v0.1.0",
+   "contributors": [
+      {
+         "title": "GT CNIG Accessibilité du cheminement en espace naturel (ACEN)",
+         "email": "cnig@cnig.fr",
+         "organisation": "CNIG",
+         "role": "author"
+      },
+      {
+         "title": "Arnauld Gallais",
+         "email": "arnauld.gallais@cerema.fr",
+         "organisation": "Cerema",
+         "role": "author"
+      }
+   ],
+   "fields": [
+      {
+         "name": "id_cheminement",
+         "title": "identifiant du cheminement",
+         "description": "identifiant unique du cheminement",
+         "example": "44003:CHE:00654:LOC",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "id_itineraire_rando",
+         "title": "Identifiant de l'itinéraire de rando",
+         "description": "Identifiant de l'itinéraire de rando correspondant dans le « schéma itinéraires randonnées »",
+         "example": "937571",
+         "type": "string"
+      },
+      {
+         "name": "id_osm",
+         "title": "Identifiant OSM",
+         "description": "Identifiant de la relation OSM correspondante",
+         "example": "",
+         "type": "integer"
+      },
+      {
+         "name": "id_espace_nat_protege",
+         "title": "Identifiant de l'espace naturel protégé",
+         "description": "Identifiant de l'espace naturel protégé dans le standard CNIG espaces naturels protégés",
+         "example": "EN7845",
+         "type": "string"
+      },
+      {
+         "name": "pdipr_inscription",
+         "title": "Inscription au PDIPR",
+         "description": "Inscription (oui / non) au PDIPR",
+         "example": "oui",
+         "type": "boolean",
+         "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "oui",
+            "OUI"
+         ],
+         "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "non",
+            "NON"
+         ]
+      },
+      {
+         "name": "pdipr_date_inscription",
+         "title": "date d'inscription au PDIPR",
+         "description": "date d'inscription au PDIPR (AAAA-MM-JJ)",
+         "example": "2024-06-15",
+         "type": "date"
+      },
+      {
+         "name": "nom_cheminement",
+         "title": "nom du cheminement",
+         "description": "nom du cheminement",
+         "example": "Sentier des Glaisins",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "type_cheminement",
+         "title": "type de cheminement",
+         "description": "type de cheminement",
+         "example": "boucle",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "boucle",
+               "aller-retour",
+               "linéaire",
+               "autre",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "activité",
+         "title": "activités proposées",
+         "description": "activités proposées par le cheminement",
+         "example": "découverte pédagogique",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "balade",
+               "découverte pédagogique",
+               "parcours sportif",
+               "site naturel",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "longueur",
+         "title": "longueur du cheminement",
+         "description": "longueur du cheminement (en mètre)",
+         "example": "2200",
+         "type": "integer",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "depart",
+         "title": "nom du point de départ",
+         "description": "nom du point de départ",
+         "example": "50 route des Glaisins",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "arrivee",
+         "title": "nom du point d'arrivée",
+         "description": "nom du point d'arrivée",
+         "example": "50 route des Glaisins",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "coord_geo_depart",
+         "title": "coordonnées GPS du point de départ",
+         "description": "coordonnées géographiques (GPS) du point de départ au format GeoJSON",
+         "example": "49.2527, 3.9815",
+         "type": "geopoint",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "vue_aerienne",
+         "title": "prise de vue aérienne d'ensemble du cheminement",
+         "description": "hyperlien vers une prise de vue d'ensemble aérienne du cheminement, lorsque son emprise le permet",
+         "example": "https://urlz.fr/hTwT",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name": "communes_nom",
+         "title": "noms des communes traversées",
+         "description": "noms des communes traversées par l'itinéraire",
+         "example": [
+            "Commune d'Ancenis-Saint-Géréon"
+         ],
+         "type": "array",
+         "items": {
+            "type": "string"
+         }
+      },
+      {
+         "name": "communes_code",
+         "title": "codes INSEE des communes traversées",
+         "description": "codes INSEE des communes traversées par l'itinéraire",
+         "example": [
+            "44003"
+         ],
+         "type": "array",
+         "items": {
+            "type": "string"
+         }
+      },
+      {
+         "name": "presentation",
+         "title": "présentation et description générale",
+         "description": "présentation et description générale du cheminement",
+         "example": "tout au long de l'itinéraire, alternance de parties plates et de montées",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "description_detaillee",
+         "title": "description détaillée",
+         "description": "description détaillée (pas à pas) du tracé du cheminement",
+         "example": "L'itinéraire permet de découvrir en profondeur le Bois du mystère et les sables mouvants légendaires\n",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "themes",
+         "title": "thèmes ou mots-clefs",
+         "description": "thèmes ou mots-clefs caractérisant le cheminement",
+         "example": "marais, tourbe, végétation, pêche traditionnelle",
+         "type": "string"
+      },
+      {
+         "name": "environnement",
+         "title": "composantes de l'environnement naturel",
+         "description": "description des principales composantes l'environnement naturel",
+         "example": [
+            "forêt",
+            "zone humide"
+         ],
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                  "bois",
+                  "forêt",
+                  "prairie",
+                  "littoral",
+                  "plage",
+                  "‍fleuve, rivière, canal",
+                  "zone humide",
+                  "lacustre",
+                  "vallée",
+                  "plaine",
+                  "plateau",
+                  "coteau",
+                  "montagne",
+                  "autre relief marqué",
+                  "rural",
+                  "agricole",
+                  "bâti et urbanisé",
+                  "autre"
+               ]
+            }
+         }
+      },
+      {
+         "name": "comm_accessibilite",
+         "title": "informations complémentaires sur l'accessibilité",
+         "description": "informations complémentaires sur l'accessibilité, les aménagements et les équipements",
+         "example": "présence de FTT à l'office de tourisme",
+         "type": "string"
+      },
+      {
+         "name": "presence_personnel",
+         "title": "fréquence ou amplitude de présence du personnel",
+         "description": "fréquence ou amplitude de présence du personnel",
+         "example": "présence saisonnière à horaires fixes",
+         "type": "string",
+         "constraints": {
+            "enum": [
+               "présence permanente 24h/24 et 7j/7",
+               "présence permanente à horaires fixes",
+               "présence saisonnière à horaires fixes",
+               "présence de personnel de façon ponctuelle",
+               "aucune présence de personnel",
+               "autre",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "fil_ariane",
+         "title": "présence d'un fil d'Ariane",
+         "description": "présence d'un fil d'Ariane tout au long du cheminement",
+         "example": "oui",
+         "type": "boolean",
+         "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "oui",
+            "OUI"
+         ],
+         "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "non",
+            "NON"
+         ],
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "saisonnalite",
+         "title": "présence d'obstacles saisonniers",
+         "description": "informations sur la présence d'obstacles saisonniers",
+         "example": "risque d'inondation entre octobre et avril",
+         "type": "string"
+      },
+      {
+         "name": "url_media",
+         "title": "photos représentatives du cheminement",
+         "description": "hyperliens vers des photos représentatives du cheminement",
+         "example": [
+            "https://www.parcs-naturels-regionaux.fr/.../pnr_perche/sentier_glaisins/photos"
+         ],
+         "type": "array",
+         "items": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+            }
+         }
+      },
+      {
+         "name": "site_web",
+         "title": "fiche web du cheminement",
+         "description": "URL de la fiche web du cheminement",
+         "example": "https://www.parcs-naturels-regionaux.fr/.../pnr_perche/sentier_glaisins",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name": "altitude",
+         "title": "altitude max par rapport au niveau de la mer",
+         "description": "hauteur du parcours la plus élevée (altitude max) par rapport au niveau de la mer",
+         "example": "1200",
+         "type": "integer",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "exposition",
+         "title": "exposition géographique",
+         "description": "exposition géographique du cheminement (points cardinaux)",
+         "example": "ouest",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "nord",
+               "nord-ouest",
+               "nord-est",
+               "est",
+               "ouest",
+               "sud",
+               "sud-ouest",
+               "sud-est",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "label_psh",
+         "title": "label ou certification d'accessibilité",
+         "description": "label ou certification pour une démarche d'accessibilité",
+         "example": [
+            "Tourisme & Handicap",
+            "Handi'spot"
+         ],
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                  "Tourisme & Handicap",
+                  "Handi'spot",
+                  "Promenades confort",
+                  "Balades à Roulettes",
+                  "NC",
+                  "sans objet"
+               ]
+            }
+         }
+      },
+      {
+         "name": "largeur_min",
+         "title": "largeur minimale",
+         "description": "largeur minimale du cheminement libre de mobilier ou autre obstacle (en mètre)",
+         "example": "0.7",
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "pente_max",
+         "title": "pente du terrain la plus défavorable",
+         "description": "pente du terrain la plus défavorable",
+         "example": "faible",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "nulle",
+               "minimale",
+               "faible",
+               "moyenne",
+               "forte"
+            ]
+         }
+      },
+      {
+         "name": "devers_max",
+         "title": "dévers le plus défavorable",
+         "description": "inclinaison du terrain la plus défavorable, perpendiculaire au sens de circulation",
+         "example": "faible",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "minimal",
+               "faible",
+               "moyen",
+               "fort",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "denivele_positif",
+         "title": "somme de toutes les montées",
+         "description": "somme de toutes les montées du parcours (en mètre)",
+         "example": "150",
+         "type": "integer",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "profil_altimétrique",
+         "title": "profil de l'itinéraire",
+         "description": "profil de l'itinéraire avec la distance en abscisse et l'altitude en ordonnée",
+         "example": "https://www.parcs-naturels-regionaux.fr/.../pnr_perche/sentier_glaisins/profil",
+         "type": "string",
+         "constraints": {
+            "required": false,
+            "pattern": "^(https?)://[^\\s/$.?#].[^\\s]*$"
+         }
+      },
+      {
+         "name": "type_sol",
+         "title": "types de sols majoritaires",
+         "description": "types de sols majoritaires du cheminement",
+         "example": [
+            "stabilisé",
+            "platelage"
+         ],
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                  "béton",
+                  "enrobé / bitume",
+                  "stabilisé",
+                  "pavage",
+                  "dallage",
+                  "platelage",
+                  "sol naturel friable et poussiéreux",
+                  "sol naturel compact",
+                  "sol naturel irrégulier",
+                  "pelouse entretenue",
+                  "pelouse non entretenue",
+                  "prairie",
+                  "gravier maintenu",
+                  "gravier fin et compact",
+                  "gravier libre",
+                  "gros gravier",
+                  "sable stabilisé",
+                  "sable meuble",
+                  "sable non meuble (ferme)",
+                  "dispositifs amovibles",
+                  "autre",
+                  "NC",
+                  "sans objet"
+               ]
+            }
+         }
+      },
+      {
+         "name": "etat_sol",
+         "title": "états majoritaires du sol",
+         "description": "états majoritaires du sol",
+         "example": [
+            "roulant",
+            "ferme"
+         ],
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                  "roulant",
+                  "ferme",
+                  "meuble",
+                  "glissant",
+                  "réfléchissant",
+                  "boueux",
+                  "NC",
+                  "sans objet"
+             ]
+           }
+         }
+      },
+      {
+         "name": "systeme_guidage",
+         "title": "présence de systèmes de guidage",
+         "description": "présence d'un système de guidage visuel et/ou tactile et/ou sonore",
+         "example": [
+            "visuel",
+            "sonore"
+         ],
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                  "visuel",
+                  "sonore",
+                  "tactile",
+                  "aucun",
+                  "NC",
+                  "sans objet",
+                  "reperabiliteCheminement"
+               ]
+            }
+         }
+      },
+      {
+         "name": "reperabilite",
+         "title": "repérabilité du cheminement dans son environnement",
+         "description": "repérabilité du cheminement dans son environnement grâce aux repères tactiles, visuels et autres",
+         "example": [
+            "fil d'Ariane et repérable à la canne sur au moins un côté",
+            "bande de guidage"
+         ],
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                  "revêtement différencié sur au moins un côté",
+                  "bordure ou muret",
+                  "fil d'Ariane et repérable à la main sur au moins un côté",
+                  "fil d'Ariane et repérable à la canne sur au moins un côté",
+                  "bande de guidage",
+                  "aucun",
+                  "NC",
+                  "sans objet",
+                  "reperabiliteCheminement"
+               ]
+            }
+         }
+      },
+      {
+         "name": "continuite_repere",
+         "title": "repère linéaire continu",
+         "description": "repère linéaire continu au sol et/ou aérien",
+         "example": "repère tactile continu",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "repère tactile continu",
+               "repère tactile discontinu",
+               "aucun",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "signaletique",
+         "title": "présence d'éléments de signalétique",
+         "description": "présence d'éléments de signalétique directionnelle",
+         "example": "oui",
+         "type": "boolean",
+         "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "oui",
+            "OUI"
+         ],
+         "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "non",
+            "NON"
+         ],
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "mobilier",
+         "title": "présence de mobilier",
+         "description": "présence de mobilier",
+         "example": "oui",
+         "type": "boolean",
+         "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "oui",
+            "OUI"
+         ],
+         "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "non",
+            "NON"
+         ],
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "frequence_assise",
+         "title": "fréquence des assises",
+         "description": "fréquence des assises",
+         "example": "fréquent",
+         "type": "string",
+         "constraints": {
+            "enum": [
+               "fréquent",
+               "régulier",
+               "espacé",
+               "aucun",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "desserte_cyclable",
+         "title": "desserte du site naturel par une piste cyclable en site propre",
+         "description": "desserte du site naturel par une piste cyclable en site propre",
+         "example": "non",
+         "type": "boolean",
+         "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "oui",
+            "OUI"
+         ],
+         "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "non",
+            "NON"
+         ]
+      },
+      {
+         "name": "type_sol_liaison",
+         "title": "types de sol majoritaire de la liaison",
+         "description": "types de sol majoritaire de la liaison",
+         "example": "gravier fin et compact",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "béton",
+               "enrobé / bitume",
+               "stabilisé",
+               "pavage",
+               "dallage",
+               "platelage",
+               "sol naturel friable et poussiéreux",
+               "sol naturel compact",
+               "sol naturel irrégulier",
+               "pelouse entretenue",
+               "pelouse non entretenue",
+               "prairie",
+               "gravier maintenu",
+               "gravier fin et compact",
+               "gravier libre",
+               "gros gravier",
+               "sable stabilisé",
+               "sable meuble",
+               "sable non meuble (ferme)",
+               "dispositifs amovibles",
+               "autre",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "longueur_liaison",
+         "title": "longueur de la liaison",
+         "description": "longueur de la liaison (en m)",
+         "example": "100",
+         "type": "integer",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "largeur_min_liaison",
+         "title": "largeur minimale de la liaison",
+         "description": "largeur minimale de la liaison libre de mobilier ou obstacle (en m)",
+         "example": "50",
+         "type": "number",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "pente_max_liaison",
+         "title": "pente maximale de la liaison",
+         "description": "pente maximale de la liaison",
+         "example": "faible",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "nulle",
+               "minimale",
+               "faible",
+               "moyenne",
+               "forte"
+            ]
+         }
+      },
+      {
+         "name": "devers_max_liaison",
+         "title": "dévers le plus défavorable de la liaison",
+         "description": "inclinaison du terrain la plus défavorable, perpendiculaire au sein de circulation de la liaison (en %)",
+         "example": "minimal",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "minimal",
+               "faible",
+               "moyen",
+               "fort",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "continuite_repere_liaison",
+         "title": "repère linéaire continu sur la liaison",
+         "description": "repère linéaire continu au sol et/ou aérien sur la liaison",
+         "example": "repère tactile continu",
+         "type": "string",
+         "constraints": {
+            "required": true,
+            "enum": [
+               "repère tactile continu",
+               "repère tactile discontinu",
+               "aucun",
+               "NC",
+               "sans objet"
+            ]
+         }
+      },
+      {
+         "name": "date_creation",
+         "title": "date de création du cheminement",
+         "description": "date de création des renseignements du cheminement",
+         "example": "2020-03-06",
+         "type": "date"
+      },
+      {
+         "name": "date_actualisation",
+         "title": "date de modification du cheminement",
+         "description": "date de modification des renseignements du cheminement",
+         "example": "2026-01-15",
+         "type": "date"
+      },
+      {
+         "name": "producteur",
+         "title": "producteur des renseignements du cheminement",
+         "description": "structure productrice des renseignements du cheminement",
+         "example": "PNR du Perche",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "contact",
+         "title": "informations de contact",
+         "description": "informations de contact de la structure productrice du cheminement",
+         "example": "Conseil départemental du Puy-de-Dôme / Direction Environnement\ntel : 04 12 34 56 78\nmail : contact@puy-de-dome.fr\nweb  https://www.parcs-naturels-regionaux.fr/.../cd63/contact",
+         "type": "string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name": "geom_lin",
+         "title": "géométrie linéaire du cheminement",
+         "description": "géométrie linéaire du cheminement en projection Lambert93 au format GeoJSON",
+         "example": "{\"type\": \"LineString\", \"coordinates\": [ [656589.70, 6425785.32], [656655.02, 6425866.31], [656663.55, 6425874.43] ] }",
+         "type": "geojson",
+         "constraints": {
+            "required": true
+         }
+      }
+   ],
+   "missingValues": [
+      "",
+      "NA",
+      "NaN",
+      "N/A"
+   ],
+   "primaryKey": "id_cheminement"
+}

@@ -3294,6 +3294,276 @@
             "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/schema-continuites-ecologiques-regionales/latest/schema.yml"
         },
         {
+            "name": "cnigfr/cheminement",
+            "title": "Classe CHEMINEMENT du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe CHEMINEMENT",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple_cheminement",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/cheminement/exemple_cheminement.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/cheminement/0.1.0/schema_cheminement.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/cheminement/latest/schema_cheminement.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/troncon",
+            "title": "Classe TRONCON du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe TRONCON",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/troncon/exemple_troncon.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/troncon/0.1.0/schema_troncon.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/troncon/latest/schema_troncon.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/obstacle",
+            "title": "Classe OBSTACLE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe OBSTACLE",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/obstacle/exemple_obstacle.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/obstacle/0.1.0/schema_obstacle.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/obstacle/latest/schema_obstacle.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/arret_tc",
+            "title": "Classe ARRET_TC du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe ARRET_TC",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/arret_tc/exemple_arret_tc.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/arret_tc/0.1.0/schema_arret_tc.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/arret_tc/latest/schema_arret_tc.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/aire_stationnement",
+            "title": "Classe AIRE_STATIONNEMENT du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe AIRE_STATIONNEMENT",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/aire_stationnement/exemple_aire_stationnement.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/aire_stationnement/0.1.0/schema_aire_stationnement.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/aire_stationnement/latest/schema_aire_stationnement.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/mobilier",
+            "title": "Classe MOBILIER du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe MOBILIER",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/mobilier/exemple_mobilier.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/mobilier/0.1.0/schema_mobilier.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/mobilier/latest/schema_mobilier.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/service",
+            "title": "Classe SERVICE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe SERVICE",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/service/exemple_service.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/service/0.1.0/schema_service.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/service/latest/schema_service.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/signaletique",
+            "title": "Classe SIGNALETIQUE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "description": "Sp\u00e9cification du fichier d'\u00e9change conforme au standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel pour la classe SIGNALETIQUE",
+            "schema_type": "tableschema",
+            "contact": "cnig@cnig.fr",
+            "examples": [
+                {
+                    "title": "Exemple valide",
+                    "name": "exemple-valide-csv",
+                    "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/signaletique/exemple_signaletique.csv"
+                }
+            ],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/signaletique/0.1.0/schema_signaletique.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/signaletique/latest/schema_signaletique.json",
+            "datapackage_title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "datapackage_name": "cnigfr/standard-accessibilite-espace-naturel",
+            "datapackage_description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront"
+        },
+        {
+            "name": "cnigfr/standard-accessibilite-espace-naturel",
+            "title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "description": "Data package contenant un seul sch\u00e9ma pour le moment : cheminement. Les autres sch\u00e9mas suivront",
+            "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/standard-accessibilite-espace-naturel/latest/datapackage.json",
+            "schema_type": "datapackage",
+            "contact": "cnig@cnig.fr",
+            "examples": [],
+            "labels": [
+                "CNIG"
+            ],
+            "consolidation_dataset_id": null,
+            "versions": [
+                {
+                    "version_name": "0.1.0",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/cnigfr/standard-accessibilite-espace-naturel/0.1.0/datapackage.json"
+                }
+            ],
+            "external_doc": null,
+            "external_tool": null,
+            "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git"
+        },
+        {
             "name": "betagouv/projets-territoire",
             "title": "Projets de collectivit\u00e9s",
             "description": "Sch\u00e9ma de donn\u00e9es pour d\u00e9crire un projet de collectivit\u00e9 visant la transition \u00e9cologique, incluant les informations de suivi, le budget, le statut, les d\u00e9tails du porteur et les r\u00e9f\u00e9rentiels de comp\u00e9tences et leviers.",

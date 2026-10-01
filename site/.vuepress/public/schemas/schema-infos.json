@@ -3779,6 +3779,229 @@
         },
         "latest": "1.0.0"
     },
+    "cnigfr/standard-accessibilite-espace-naturel": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "datapackage",
+        "email": "cnig@cnig.fr",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/cnigfr/standard-accessibilite-espace-naturel/0.1.0/datapackage.json"
+            }
+        },
+        "schemas": [
+            "cnigfr/cheminement",
+            "cnigfr/troncon",
+            "cnigfr/obstacle",
+            "cnigfr/arret_tc",
+            "cnigfr/aire_stationnement",
+            "cnigfr/mobilier",
+            "cnigfr/service",
+            "cnigfr/signaletique"
+        ],
+        "latest": "0.1.0"
+    },
+    "cnigfr/cheminement": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/cheminement/0.1.0/schema_cheminement.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/troncon": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/troncon/0.1.0/schema_troncon.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/obstacle": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/obstacle/0.1.0/schema_obstacle.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/arret_tc": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/arret_tc/0.1.0/schema_arret_tc.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/aire_stationnement": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/aire_stationnement/0.1.0/schema_aire_stationnement.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/mobilier": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/mobilier/0.1.0/schema_mobilier.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/service": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/service/0.1.0/schema_service.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
+    "cnigfr/signaletique": {
+        "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "tableschema",
+        "email": "cnig@cnig.fr",
+        "versions": {
+            "0.1.0": {
+                "pages": [
+                    "README.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/cnigfr/signaletique/0.1.0/schema_signaletique.json"
+            }
+        },
+        "datapackage": "Accessibilit\u00e9 du cheminement en espace naturel",
+        "datapackage_id": "datapackage-acen",
+        "labels": [
+            "CNIG"
+        ],
+        "consolidation_dataset_id": null,
+        "latest": "0.1.0"
+    },
     "betagouv/schema-projet-collectivites-transition-ecologique": {
         "homepage": "https://github.com/betagouv/schema-projet-collectivites-transition-ecologique.git",
         "external_doc": null,

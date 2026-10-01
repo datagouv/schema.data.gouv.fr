@@ -1064,5 +1064,50 @@
       <link>https://schema.data.gouv.fr/cnigfr/Geostandards-risques-carto-di</link>
       <description>Schema update on 2026-09-29: 0.1.0 for cnigfr/Geostandards-risques-carto-di</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/service (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/service</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/service</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/troncon (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/troncon</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/troncon</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/arret_tc (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/arret_tc</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/arret_tc</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/mobilier (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/mobilier</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/mobilier</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/obstacle (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/obstacle</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/obstacle</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/cheminement (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/cheminement</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/cheminement</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/signaletique (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/signaletique</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/signaletique</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/aire_stationnement (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/aire_stationnement</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/aire_stationnement</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New schema - cnigfr/standard-accessibilite-espace-naturel (0.1.0)</title>
+      <link>https://schema.data.gouv.fr/cnigfr/standard-accessibilite-espace-naturel</link>
+      <description>Schema update on 2026-10-01: 0.1.0 for cnigfr/standard-accessibilite-espace-naturel</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
     </item></channel>
 </rss>

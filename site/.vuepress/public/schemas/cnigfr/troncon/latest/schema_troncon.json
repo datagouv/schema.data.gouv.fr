@@ -1,0 +1,298 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "troncon",
+  "title": "Classe TRONCON du standard CNIG Accessibilité du Cheminement en Espace Naturel (ACEN)",
+  "description": "Spécification du fichier d'échange conforme au standard CNIG Accessibilité du Cheminement en Espace Naturel pour la classe TRONCON",
+  "keywords": [
+    "accessibilité",
+    "cheminement",
+    "parcours",
+    "itinéraire",
+    "randonnée",
+    "espace naturel",
+    "nature"
+  ],
+  "countryCode": "FR",
+  "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel",
+  "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/troncon/schema_troncon.json",
+  "image": "",
+  "licenses": [
+    {
+      "title": "Etalab Licence Ouverte 2.0",
+      "name": "etalab-2.0",
+      "path": "https://spdx.org/licenses/etalab-2.0.html"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Exemple valide",
+      "name": "exemple-valide-csv",
+      "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/troncon/exemple_troncon.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Directive européenne Inspire -  article L. 127-1 du code de l’environnement, résultant de la transposition de la directive",
+      "path": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022964012"
+    },
+    {
+      "title": "Loi du 11 février 2005 pour l’égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées",
+      "path": "https://handicap.gouv.fr/la-loi-du-11-fevrier-2005-pour-legalite-des-droits-et-des-chances"
+    },
+    {
+      "title": "Loi n° 2019-1428 du 24 décembre 2019 d’orientation des mobilités (LOM)",
+      "path": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039666574"
+    },
+    {
+      "title": "Article 4( de la loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées.",
+      "path": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000002461485"
+    }
+  ],
+  "created": "2026-04-20",
+  "lastModified": "2026-09-29",
+  "version": "v0.1.0",
+  "contributors": [
+    {
+      "title": "GT CNIG Accessibilité du cheminement en espace naturel (ACEN)",
+      "email": "cnig@cnig.fr",
+      "organisation": "CNIG",
+      "role": "author"
+    },
+    {
+      "title": "Arnauld Gallais",
+      "email": "arnauld.gallais@cerema.fr",
+      "organisation": "Cerema",
+      "role": "author"
+    }
+  ],
+  "fields": [
+    {
+      "name": "id_troncon",
+      "title": "identifiant du tronçon",
+      "description": "identifiant unique du tronçon",
+      "example": "44003:TRC:00089:LOC",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "id_cheminement",
+      "title": "identifiant du cheminement",
+      "description": "identifiant du cheminement auquel appartient le tronçon",
+      "example": "44003:CHE:00654:LOC",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "id_osm",
+      "title": "identifiant OSM",
+      "description": "identifiant osm de l’objet correspondant",
+      "example": "",
+      "type": "string"
+    },
+    {
+      "name": "type_troncon",
+      "title": "type de tronçon",
+      "description": "type de tronçon",
+      "example": "sentier",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "sentier",
+          "passage à gué",
+          "escalier",
+          "espace confiné",
+          "autre",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "largeur_min",
+      "title": "largeur minimale du tronçon",
+      "description": "largeur minimale du tronçon libre de tout obstacle (en mètre)",
+      "example": "0.7",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "pente_max",
+      "title": "pente du terrain la plus défavorable",
+      "description": "pente du terrain la plus défavorable dans le sens de circulation",
+      "example": "moyenne",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "nulle",
+          "minimale",
+          "faible",
+          "moyenne",
+          "forte"
+        ]
+      }
+    },
+    {
+      "name": "devers_max",
+      "title": "dévers le plus défavorable",
+      "description": "inclinaison du terrain la plus défavorable, perpendiculaire au sens de circulation",
+      "example": "faible",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "minimal",
+          "faible",
+          "moyen",
+          "fort",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "type_sol",
+      "title": "type de sol majoritaire",
+      "description": "type de sol majoritaire du tronçon",
+      "example": "sol naturel irrégulier",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "béton",
+          "enrobé / bitume",
+          "stabilisé",
+          "pavage",
+          "dallage",
+          "platelage",
+          "sol naturel friable et poussiéreux",
+          "sol naturel compact",
+          "sol naturel irrégulier",
+          "pelouse entretenue",
+          "pelouse non entretenue",
+          "prairie",
+          "gravier maintenu",
+          "gravier fin et compact",
+          "gravier libre",
+          "gros gravier",
+          "sable stabilisé",
+          "sable meuble",
+          "sable non meuble (ferme)",
+          "dispositifs amovibles",
+          "autre",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "etat_sol",
+      "title": "état du sol",
+      "description": "état du sol",
+      "example": "roulant",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "roulant",
+          "ferme",
+          "meuble",
+          "glissant",
+          "réfléchissant",
+          "boueux",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "reperabilite_troncon",
+      "title": "repérabilité du tronçon dans son environnement",
+      "description": "repérabilité du tronçon dans son environnement grâce aux repères tactiles, visuels et autres",
+      "example": "revêtement différencié sur au moins un côté",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "revêtement différencié sur au moins un côté",
+          "bordure ou muret",
+          "fil d'Ariane et repérable à la main sur au moins un côté ",
+          "fil d'Ariane et repérable à la canne sur au moins un côté",
+          "bande de guidage",
+          "aucun",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "type_securite",
+      "title": "présence d'éléments sécurisants les espaces dangereux",
+      "description": "présence d'éléments sécurisants les espaces dangereux sur le tronçon (garde-corps, rambardes…)",
+      "example": [
+        "garde-corps",
+        "rambarde"
+      ],
+      "type": "array",
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                "garde-corps",
+                "rambarde",
+                "barrière",
+                "aucun",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          }
+    },
+    {
+      "name": "url_media",
+      "title": "hyperliens vers des photos du tronçon",
+      "description": "hyperliens vers des photos représentatives du tronçon",
+      "example": [""],
+      "type": "array",
+      "items": {
+        "type":"string",
+        "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+            }
+        }
+    },
+    {
+      "name": "geom_lin",
+      "title": "géométrie linéaire du tronçon",
+      "description": "géométrie linéaire du tronçon (2D ou facultativement 3D) en projection Lambert93 au format GeoJSON",
+      "example": "{\"type\": \"LineString\", \"coordinates\": [ [656589.70, 6425785.32], [656655.02, 6425866.31], [656663.55, 6425874.43] ] }",
+      "type": "geojson",
+      "geometryType": "LINESTRING",
+      "gpkg": {
+            "geometryType": "LINESTRING",
+            "srs_id": 2154,
+            "spatialIndex": true
+         },
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "missingValues": [
+    "",
+    "NA",
+    "NaN",
+    "N/A"
+  ],
+  "primaryKey": "id_troncon"
+}

@@ -1528,5 +1528,45 @@
                 "version": "0.1.0"
             }
         ]
+    },
+    "2026-10-01": {
+        "new_schema": [
+            {
+                "schema_name": "cnigfr/service",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/troncon",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/arret_tc",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/mobilier",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/obstacle",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/cheminement",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/signaletique",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/aire_stationnement",
+                "version": "0.1.0"
+            },
+            {
+                "schema_name": "cnigfr/standard-accessibilite-espace-naturel",
+                "version": "0.1.0"
+            }
+        ]
     }
 }

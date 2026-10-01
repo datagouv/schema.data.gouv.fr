@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1224,
+            "dgv_resources": 1225,
             "title": "IRVE statique",
             "contributors": 9
         },
@@ -416,7 +416,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 382,
+            "dgv_resources": 384,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -550,6 +550,51 @@
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
             "contributors": 2
         },
+        "cnigfr/cheminement": {
+            "dgv_resources": 0,
+            "title": "Classe CHEMINEMENT du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/troncon": {
+            "dgv_resources": 0,
+            "title": "Classe TRONCON du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/obstacle": {
+            "dgv_resources": 0,
+            "title": "Classe OBSTACLE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/arret_tc": {
+            "dgv_resources": 0,
+            "title": "Classe ARRET_TC du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/aire_stationnement": {
+            "dgv_resources": 0,
+            "title": "Classe AIRE_STATIONNEMENT du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/mobilier": {
+            "dgv_resources": 0,
+            "title": "Classe MOBILIER du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/service": {
+            "dgv_resources": 0,
+            "title": "Classe SERVICE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/signaletique": {
+            "dgv_resources": 0,
+            "title": "Classe SIGNALETIQUE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
+            "contributors": 2
+        },
+        "cnigfr/standard-accessibilite-espace-naturel": {
+            "dgv_resources": 0,
+            "title": "Accessibilit\u00e9 du cheminement en espace naturel",
+            "contributors": 2
+        },
         "betagouv/projets-territoire": {
             "dgv_resources": 0,
             "title": "Projets de collectivit\u00e9s",
@@ -566,7 +611,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1126,
+            "dgv_resources": 1154,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },
@@ -576,7 +621,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc-synthese": {
-            "dgv_resources": 33,
+            "dgv_resources": 34,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement des parcs d\u2019entreprises de location, location-vente, de cr\u00e9dit-bail de v\u00e9hicules, des plateformes de livraisons et des centrales de r\u00e9servation de taxi et VTC",
             "contributors": 2
         }

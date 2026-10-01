@@ -1,0 +1,193 @@
+{
+    "name": "datapackage-acen",
+    "title": "Accessibilité du cheminement en espace naturel",
+    "description": "Data package contenant un seul schéma pour le moment : cheminement. Les autres schémas suivront",
+    "id": "accessibilité-cheminement-espace-naturel",
+    "resources": [
+        {
+            "name": "schema_cheminement",
+            "path": "schema/cheminement/exemple_cheminement.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/cheminement/schema_cheminement.json",
+            "documentation": "schema/cheminement/README.md"
+        },
+		{
+            "name": "troncon",
+            "path": "schema/troncon/exemple_troncon.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/troncon/schema_troncon.json",
+            "documentation": "schema/troncon/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_cheminement",
+                    "reference": {
+                        "resource": "cheminement",
+                        "fields": "id_cheminement"
+                    }
+                }
+            ]
+        },
+		{
+            "name": "obstacle",
+            "path": "schema/obstacle/exemple_obstacle.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/obstacle/schema_obstacle.json",
+            "documentation": "schema/obstacle/README.md",
+			"foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                }
+            ]
+        },
+		{
+            "name": "arret_tc",
+            "path": "schema/arret_tc/exemple_arret_tc.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/arret_tc/schema_arret_tc.json",
+            "documentation": "schema/arret_tc/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_cheminement",
+                    "reference": {
+                        "resource": "cheminement",
+                        "fields": "id_cheminement"
+                    }
+                }
+            ]
+        },
+		{
+            "name": "aire_stationnement",
+            "path": "schema/aire_stationnement/exemple_aire_stationnement.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/aire_stationnement/schema_aire_stationnement.json",
+            "documentation": "schema/aire_stationnement/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_cheminement",
+                    "reference": {
+                        "resource": "cheminement",
+                        "fields": "id_cheminement"
+                    }
+                }
+            ]
+        },
+		{
+            "name": "mobilier",
+            "path": "schema/mobilier/exemple_mobilier.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/mobilier/schema_mobilier.json",
+            "documentation": "schema/mobilier/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                },
+                {
+                    "fields": "id_arret_tc",
+                    "reference": {
+                        "resource": "arret_tc",
+                        "fields": "id_arret_tc"
+                    }
+                },
+                {
+                    "fields": "id_aire_stationnement",
+                    "reference": {
+                        "resource": "aire_stationnement",
+                        "fields": "id_aire_stationnement"
+                    }
+                }
+            ]
+        },
+		{
+            "name": "service",
+            "path": "schema/service/exemple_service.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/service/schema_service.json",
+            "documentation": "schema/service/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                },
+                {
+                    "fields": "id_arret_tc",
+                    "reference": {
+                        "resource": "arret_tc",
+                        "fields": "id_arret_tc"
+                    }
+                },
+                {
+                    "fields": "id_aire_stationnement",
+                    "reference": {
+                        "resource": "aire_stationnement",
+                        "fields": "id_aire_stationnement"
+                    }
+                }
+            ]
+        },
+		{
+            "name": "signaletique",
+            "path": "schema/signaletique/exemple_signaletique.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/signaletique/schema_signaletique.json",
+            "documentation": "schema/signaletique/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                },
+                {
+                    "fields": "id_arret_tc",
+                    "reference": {
+                        "resource": "arret_tc",
+                        "fields": "id_arret_tc"
+                    }
+                },
+                {
+                    "fields": "id_aire_stationnement",
+                    "reference": {
+                        "resource": "aire_stationnement",
+                        "fields": "id_aire_stationnement"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,3 +1,18 @@
+### 2026-10-01
+
+#### Schémas ajoutés:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/service](/cnigfr/service/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/troncon](/cnigfr/troncon/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/arret_tc](/cnigfr/arret_tc/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/mobilier](/cnigfr/mobilier/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/obstacle](/cnigfr/obstacle/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/cheminement](/cnigfr/cheminement/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/signaletique](/cnigfr/signaletique/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/aire_stationnement](/cnigfr/aire_stationnement/)** : <span style="color:blue;">0.1.0</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[cnigfr/standard-accessibilite-espace-naturel](/cnigfr/standard-accessibilite-espace-naturel/)** : <span style="color:blue;">0.1.0</span><br>
+
+---
+
 ### 2026-09-29
 
 #### Montée de version:
