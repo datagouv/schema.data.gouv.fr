@@ -28237,6 +28237,72 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-staubli-faverges-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-groupe-idec",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-eri",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-cargo",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-fayat-energie-services",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-tisseo-collectivites-syndicat-mixte-des-transports-en-commun-de-lagglomeration-toulousaine",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-initial-hygiene-service",
     "recommendations": [
       {
