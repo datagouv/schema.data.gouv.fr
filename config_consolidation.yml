@@ -62,10 +62,25 @@ betagouv/projets-territoire:
   consolidate: false
   search_words:
   - "Projets de collectivit\xE9s"
+cnigfr/aire_stationnement:
+  consolidate: false
+  search_words:
+  - "Classe AIRE_STATIONNEMENT du standard CNIG Accessibilit\xE9 du Cheminement en\
+    \ Espace Naturel (ACEN)"
+cnigfr/arret_tc:
+  consolidate: false
+  search_words:
+  - "Classe ARRET_TC du standard CNIG Accessibilit\xE9 du Cheminement en Espace Naturel\
+    \ (ACEN)"
 cnigfr/atlas-paysager:
   consolidate: false
   search_words:
   - ' Atlas Paysager'
+cnigfr/cheminement:
+  consolidate: false
+  search_words:
+  - "Classe CHEMINEMENT du standard CNIG Accessibilit\xE9 du Cheminement en Espace\
+    \ Naturel (ACEN)"
 cnigfr/document-paysage:
   consolidate: false
   search_words:
@@ -82,6 +97,16 @@ cnigfr/limite-decoupage-paysager:
   consolidate: false
   search_words:
   - "Limite D\xE9coupage Paysager"
+cnigfr/mobilier:
+  consolidate: false
+  search_words:
+  - "Classe MOBILIER du standard CNIG Accessibilit\xE9 du Cheminement en Espace Naturel\
+    \ (ACEN)"
+cnigfr/obstacle:
+  consolidate: false
+  search_words:
+  - "Classe OBSTACLE du standard CNIG Accessibilit\xE9 du Cheminement en Espace Naturel\
+    \ (ACEN)"
 cnigfr/operation-amenagement:
   consolidate: false
   search_words:
@@ -98,6 +123,16 @@ cnigfr/secteur:
   consolidate: false
   search_words:
   - "Classe SECTEUR du standard CNIG Op\xE9rations d'am\xE9nagement"
+cnigfr/service:
+  consolidate: false
+  search_words:
+  - "Classe SERVICE du standard CNIG Accessibilit\xE9 du Cheminement en Espace Naturel\
+    \ (ACEN)"
+cnigfr/signaletique:
+  consolidate: false
+  search_words:
+  - "Classe SIGNALETIQUE du standard CNIG Accessibilit\xE9 du Cheminement en Espace\
+    \ Naturel (ACEN)"
 cnigfr/sites-economiques-etablissement:
   consolidate: false
   search_words:
@@ -118,6 +153,11 @@ cnigfr/sousunite-paysagere:
   consolidate: false
   search_words:
   - "Sous-unit\xE9 Paysag\xE8re"
+cnigfr/troncon:
+  consolidate: false
+  search_words:
+  - "Classe TRONCON du standard CNIG Accessibilit\xE9 du Cheminement en Espace Naturel\
+    \ (ACEN)"
 cnigfr/unite-paysagere:
   consolidate: false
   search_words:
