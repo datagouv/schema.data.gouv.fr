@@ -10439,17 +10439,6 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
-    "id": "asus-notebook-ux3407na-4",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-indice-reparabilite"
-  },
-  {
     "id": "asus-notebook-ux3407na-2",
     "recommendations": [
       {
@@ -10770,6 +10759,17 @@
   },
   {
     "id": "asus-notebook-gu605cm",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-g614pp",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -28235,6 +28235,61 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-grdf",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-definox-sas",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-alfa-laval-vicarb",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "vfe-alfa-laval-packinox-sas-333914760-20261005",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-alfa-laval-holding",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-brunet-holding",
