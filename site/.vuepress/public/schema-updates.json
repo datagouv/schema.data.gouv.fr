@@ -1884,5 +1884,13 @@
                 "version": "3.2.2"
             }
         ]
+    },
+    "2026-10-08": {
+        "new_version": [
+            {
+                "schema_name": "GouvernementFR/referentiel-donnees-communication-publique",
+                "version": "0.2.3 => 0.2.4"
+            }
+        ]
     }
 }
