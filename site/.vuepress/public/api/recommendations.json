@@ -9999,6 +9999,17 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "asus-notebook-h7606gp",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "asus-notebook-b9406caa-1",
     "recommendations": [
       {
@@ -10440,17 +10451,6 @@
   },
   {
     "id": "indice-de-reparabilite-vestel-france-lave-vaisselle-qw-na1ff47d5w-fr",
-    "recommendations": [
-      {
-        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-indice-reparabilite"
-  },
-  {
-    "id": "asus-notebook-b9406caa",
     "recommendations": [
       {
         "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
@@ -28246,6 +28246,17 @@
     ],
     "type": "dataset",
     "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-equans-france",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-vehicules-faibles-emissions-renouvellement-parc"
   },
   {
     "id": "part-des-vehicules-a-faibles-emissions-dans-le-renouvellement-dun-parc-groupama-mediterranee-2024",
