@@ -1,3 +1,10 @@
+### 2026-10-09
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:blue;">3.2.2</span><br>
+
+---
+
 ### 2026-10-08
 
 #### Montée de version:

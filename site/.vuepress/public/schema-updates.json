@@ -1892,5 +1892,13 @@
                 "version": "0.2.3 => 0.2.4"
             }
         ]
+    },
+    "2026-10-09": {
+        "new_schema": [
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "3.2.2"
+            }
+        ]
     }
 }
