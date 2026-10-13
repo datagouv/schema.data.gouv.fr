@@ -1576,5 +1576,13 @@
                 "version": "0.2.3 => 0.2.4"
             }
         ]
+    },
+    "2026-10-13": {
+        "deleted_schema": [
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "3.2.2"
+            }
+        ]
     }
 }
