@@ -348,7 +348,7 @@
         "etalab/schema-comptage-mobilites": {
             "dgv_resources": 0,
             "title": "Comptage des mobilit\u00e9s",
-            "contributors": 3
+            "contributors": 2
         },
         "etalab/indice-durabilite-televiseur": {
             "dgv_resources": 236,
@@ -368,32 +368,32 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
             "title": "Site Economique",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/Geostandards-Risques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandards Risques - Mod\u00e8le Commun",
-            "contributors": 3
+            "contributors": 2
         },
         "scdl/menus-collectifs": {
             "dgv_resources": 3,
@@ -413,27 +413,27 @@
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 388,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/schema-reseaux-electriques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 1
+            "contributors": 2
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 6,
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
-            "contributors": 1
+            "contributors": 2
         },
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 5,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-plan-local-urbanisme": {
             "dgv_resources": 29,
@@ -443,12 +443,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 12
+            "contributors": 2
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 9
+            "contributors": 2
         },
         "cnigfr/Geostandards-risques-ppr": {
             "dgv_resources": 0,
@@ -478,47 +478,47 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 1
+            "contributors": 2
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 8
+            "contributors": 2
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 1
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 35,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "cnigfr/Geostandards-risques-carto-di": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandards Risques - Cartographies de la Directive Inondation",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/schema-accessibilite-voirie": {
             "dgv_resources": 3,
             "title": "Accessibilit\u00e9 du cheminement en voirie",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-servitudes-utilite-publique": {
             "dgv_resources": 0,
             "title": "Servitudes d'utilit\u00e9 publique (SUP)",
-            "contributors": 4
+            "contributors": 2
         },
         "macaron-ai/onstreet-parking-schema": {
             "dgv_resources": 0,
             "title": "Emprise de stationnement sur la voirie",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/schema-schema-coherence-territoriale": {
             "dgv_resources": 1,
@@ -528,7 +528,7 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 4
+            "contributors": 2
         },
         "GouvernementFR/referentiel-donnees-communication-publique": {
             "dgv_resources": 0,
@@ -538,7 +538,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 9,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
             "dgv_resources": 0,
@@ -548,52 +548,52 @@
         "cnigfr/schema-continuites-ecologiques-regionales": {
             "dgv_resources": 2,
             "title": "Continuit\u00e9s Ecologiques R\u00e9gionales",
-            "contributors": 1
+            "contributors": 2
         },
         "cnigfr/cheminement": {
             "dgv_resources": 0,
             "title": "Classe CHEMINEMENT du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/troncon": {
             "dgv_resources": 0,
             "title": "Classe TRONCON du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/obstacle": {
             "dgv_resources": 0,
             "title": "Classe OBSTACLE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/arret_tc": {
             "dgv_resources": 0,
             "title": "Classe ARRET_TC du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/aire_stationnement": {
             "dgv_resources": 0,
             "title": "Classe AIRE_STATIONNEMENT du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/mobilier": {
             "dgv_resources": 0,
             "title": "Classe MOBILIER du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/service": {
             "dgv_resources": 0,
             "title": "Classe SERVICE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/signaletique": {
             "dgv_resources": 0,
             "title": "Classe SIGNALETIQUE du standard CNIG Accessibilit\u00e9 du Cheminement en Espace Naturel (ACEN)",
-            "contributors": 3
+            "contributors": 2
         },
         "cnigfr/standard-accessibilite-espace-naturel": {
             "dgv_resources": 0,
             "title": "Accessibilit\u00e9 du cheminement en espace naturel",
-            "contributors": 3
+            "contributors": 2
         },
         "betagouv/projets-territoire": {
             "dgv_resources": 0,
