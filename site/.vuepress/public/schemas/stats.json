@@ -363,12 +363,12 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 9
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
