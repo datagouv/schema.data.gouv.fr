@@ -373,7 +373,7 @@
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 2
+            "contributors": 1
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
