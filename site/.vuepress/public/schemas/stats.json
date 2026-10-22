@@ -363,17 +363,17 @@
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 9
+            "contributors": 2
         },
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 1
+            "contributors": 2
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
