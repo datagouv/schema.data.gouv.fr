@@ -111,63 +111,8 @@
     },
     {
         "schema": "datatourisme",
-        "version": "1.0.0",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.0.0",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.1.0",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.2.0",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.3.0",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.3.6",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.4.0",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.4.1",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.4.3",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.4.4",
-        "type": "missing schema.yml"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.4.5",
-        "type": "validation of type other"
-    },
-    {
-        "schema": "datatourisme",
-        "version": "2.4.6",
-        "type": "validation of type other"
+        "version": null,
+        "type": "GitCommandError: Cmd('git') failed due to: exit code(128) cmdline: git clone -v https://gitlab.adullact.net/adntourisme/datatourisme/ontology.git /var/lib/airflow/tmp/schema_website_publication_prod/cache/datatourisme/ontology/ stderr: 'Cloning into '/var/lib/airflow/tmp/schema_website_publication_prod/cache/datatou..."
     },
     {
         "schema": "reseaux-eaux",
