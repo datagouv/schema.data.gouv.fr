@@ -14366,6 +14366,17 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-static-daf-wancourt-datagouv",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-e-motum-sas-2",
     "recommendations": [
       {
