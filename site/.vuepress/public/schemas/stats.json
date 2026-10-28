@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1224,
+            "dgv_resources": 1225,
             "title": "IRVE statique",
             "contributors": 10
         },
@@ -331,7 +331,7 @@
             "contributors": 1
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 388,
+            "dgv_resources": 390,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 3
         },
@@ -368,22 +368,22 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 2
+            "contributors": 1
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
+            "contributors": 8
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 2
+            "contributors": 1
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 35,
@@ -418,7 +418,7 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 2
+            "contributors": 4
         },
         "GouvernementFR/referentiel-donnees-communication-publique": {
             "dgv_resources": 0,
@@ -428,7 +428,7 @@
         "etalab/schema-impact-service-public-numerique": {
             "dgv_resources": 9,
             "title": "Impact d\u2019un service public num\u00e9rique",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-plan-sauvegarde-et-mise-en-valeur": {
             "dgv_resources": 0,
