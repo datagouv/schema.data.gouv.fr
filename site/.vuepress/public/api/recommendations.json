@@ -14685,17 +14685,6 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
-    "id": "irve-static-daf-noyal-datagouv",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
     "id": "irve-statique-ma-borne-auto-wat-services-645860",
     "recommendations": [
       {
