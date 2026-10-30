@@ -1134,5 +1134,20 @@
       <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
       <description>Schema update on 2026-10-25: 3.2.2 for datatourisme/ontology</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0200</pubDate>
+    </item><item>
+      <title>New version - scdl/budget (0.8.3 to 0.8.4)</title>
+      <link>https://schema.data.gouv.fr/scdl/budget</link>
+      <description>Schema update on 2026-10-30: 0.8.3 to 0.8.4 for scdl/budget</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>Construction - R&#233;f&#233;rencer un sch&#233;ma : communes &#224; permis de louer (autorisation pr&#233;alable et d&#233;claration de mise en location)</title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/361</link>
+      <description>Schema update on 2026-10-30: R&#233;f&#233;rencer un sch&#233;ma : communes &#224; permis de louer (autorisation pr&#233;alable et d&#233;claration de mise en location) is in construction</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>Construction - Sch&#233;ma dessertes foresti&#232;res pour le transport de bois et la DFCI</title>
+      <link>https://github.com/datagouv/schema.data.gouv.fr/issues/360</link>
+      <description>Schema update on 2026-10-30: Sch&#233;ma dessertes foresti&#232;res pour le transport de bois et la DFCI is in construction</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>

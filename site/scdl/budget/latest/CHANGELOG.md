@@ -2,6 +2,11 @@
 
 # Changelog
 
+## 0.8.4
+
+- Nettoyage de la documentation du schéma
+- Le schéma lui-même reste inchangé
+
 ## 0.8.3
 
 - Correction d'une url qui n'avait as été modifiée dans le cadre de la migration vers la 

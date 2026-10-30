@@ -209,7 +209,7 @@
             "examples": [
                 {
                     "title": "Exemple de fichier budget valide",
-                    "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.3/examples/budget_valide.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.4/examples/budget_valide.csv"
                 }
             ],
             "labels": [
@@ -228,6 +228,10 @@
                 {
                     "version_name": "0.8.3",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/0.8.3/schema.json"
+                },
+                {
+                    "version_name": "0.8.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/budget/0.8.4/schema.json"
                 }
             ],
             "external_doc": null,

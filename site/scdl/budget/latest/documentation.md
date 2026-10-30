@@ -8,7 +8,7 @@ Les données essentielles du budget permettent de décrire le contenu des étape
 
 - Schéma créé le : 07/11/2019
 - Site web : https://gitlab.com/opendatafrance/scdl/budget
-- Version : 0.8.3
+- Version : 0.8.4
 
 ### Modèle de données
 

@@ -111,7 +111,7 @@
             "contributors": 10
         },
         "etalab/schema-irve-dynamique": {
-            "dgv_resources": 22,
+            "dgv_resources": 21,
             "title": "IRVE dynamique",
             "contributors": 10
         },
@@ -123,7 +123,7 @@
         "scdl/budget": {
             "dgv_resources": 37,
             "title": "Budget des collectivit\u00e9s et \u00e9tablissements publics locaux",
-            "contributors": 7
+            "contributors": 8
         },
         "etalab/schema-sdirve": {
             "dgv_resources": 62,

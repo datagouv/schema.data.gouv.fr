@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>scdl/budget Versioning RSS Feed</title>
+  <title>scdl/budget Versioning RSS Feed</title>
     <link>https://schema.data.gouv.fr/scdl/budget</link>
     <description>Updates on scdl/budget versioning</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
@@ -12,5 +11,9 @@
       <description>Update on 2023-09-28: New version (0.8.1 to 0.8.3)</description>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0200</pubDate>
     </item>
-  </channel>
+  <item>
+      <title>2026-10-30 - new_version - 0.8.3 to 0.8.4</title>
+      <description>Update on 2026-10-30: New version (scdl/budget)</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0100</pubDate>
+    </item></channel>
 </rss>

@@ -304,9 +304,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/scdl/budget/0.8.3/schema.json"
+            },
+            "0.8.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/scdl/budget/0.8.4/schema.json"
             }
         },
-        "latest": "0.8.3"
+        "latest": "0.8.4"
     },
     "etalab/schema-sdirve": {
         "homepage": "https://github.com/etalab/schema-sdirve.git",

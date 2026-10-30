@@ -1608,5 +1608,23 @@
                 "version": "3.2.2"
             }
         ]
+    },
+    "2026-10-30": {
+        "new_version": [
+            {
+                "schema_name": "scdl/budget",
+                "version": "0.8.3 => 0.8.4"
+            }
+        ],
+        "construction": [
+            {
+                "title": "R\u00e9f\u00e9rencer un sch\u00e9ma : communes \u00e0 permis de louer (autorisation pr\u00e9alable et d\u00e9claration de mise en location)",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/361"
+            },
+            {
+                "title": "Sch\u00e9ma dessertes foresti\u00e8res pour le transport de bois et la DFCI",
+                "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/360"
+            }
+        ]
     }
 }

@@ -1,3 +1,14 @@
+### 2026-10-30
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/budget](/scdl/budget/)** : <span style="color:red;">0.8.3</span> => <span style="color:green;">0.8.4</span><br>
+
+#### Schémas en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Référencer un schéma : communes à permis de louer (autorisation préalable et déclaration de mise en location)](https://github.com/datagouv/schema.data.gouv.fr/issues/361/)**
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma dessertes forestières pour le transport de bois et la DFCI](https://github.com/datagouv/schema.data.gouv.fr/issues/360/)**
+
+---
+
 ### 2026-10-25
 
 #### Schéma ajouté:

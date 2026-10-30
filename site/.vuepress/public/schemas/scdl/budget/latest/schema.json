@@ -5,11 +5,11 @@
   "description": "Les données essentielles du budget permettent de décrire le contenu des étapes budgétaires des collectivités locales et des établissements publics. Il permet de préciser les catégories de montants financiers ainsi que le découpage de ces sommes en fonction du type de présentation utilisé (par nature ou par fonction). Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées.",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/opendatafrance/scdl/budget",
-  "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.3/schema.json",
+  "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.4/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier budget valide",
-      "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.3/examples/budget_valide.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/budget/raw/v0.8.4/examples/budget_valide.csv"
     }
   ],
   "sources": [
@@ -23,8 +23,8 @@
     }
   ],
   "created": "2019-11-07",
-  "lastModified": "2023-09-28",
-  "version": "0.8.3",
+  "lastModified": "2026-10-29",
+  "version": "0.8.4",
   "contributors": [
     {
       "title": "OpenDataFrance",
