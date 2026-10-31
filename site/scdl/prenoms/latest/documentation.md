@@ -8,7 +8,7 @@ Spécification du modèle de données relatif aux prénoms des nouveaux-nés dé
 
 - Schéma créé le : 12/04/2018
 - Site web : https://gitlab.com/opendatafrance/scdl/prenoms
-- Version : v1.1.6
+- Version : v1.1.7
 
 ### Modèle de données
 

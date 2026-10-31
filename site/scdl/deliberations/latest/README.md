@@ -13,15 +13,3 @@ Parmi les nombreux actes administratifs qui matérialisent les décisions des au
 Les processus de documentation, de transmission dématérialisée au contrôle de légalité et/ou de diffusion publique (publication web des documents) des délibérations peuvent être outillés par des logiciels de gestion informatisée. Toutes les collectivités ne sont cependant pas équipées de tels outils.
 
 De fait, la spécification SCDL du modèle de données relatif aux délibérations adoptées par une collectivité locale a été élaborée en cherchant à garantir son accessibilité pour un usage par toutes les collectivités, mais aussi à préserver leur capacité à automatiser la production du jeu de données attendu.
-
-## Outils
-
-* [Valider un fichier avec Validata](https://validata.fr)
-* [Télécharger un exemple au format CSV](https://publier.etalab.studio/select?schema=scdl%2Fdeliberations)
-
-## Voir aussi
-
-Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
-
-* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Délibérations)
-* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://gitlab.com/opendatafrance/scdl/deliberations/issues/new)

@@ -5,7 +5,7 @@
   "description": "Spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/opendatafrance/scdl/equipements",
-  "path": "https://gitlab.com/opendatafrance/scdl/equipements/raw/v0.1.5/schema.json",
+  "path": "https://gitlab.com/opendatafrance/scdl/equipements/raw/v0.1.6/schema.json",
   "sources": [
     {
       "title": "Définition d'équipement (groupe de travail EquipCo)",
@@ -21,8 +21,8 @@
     }
   ],
   "created": "2018-11-20",
-  "lastModified": "2024-01-19",
-  "version": "0.1.5",
+  "lastModified": "2026-10-30",
+  "version": "0.1.6",
   "contributors": [
     {
       "title": "OpenDataFrance",

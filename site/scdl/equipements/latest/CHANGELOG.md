@@ -2,12 +2,16 @@
 
 # Changelog
 
+## 0.1.6
+
+- Nettoyage de la documentation du schéma (mise à jour `README`, suppression `schema.md`)
+- Le schéma lui-même reste inchangé
+
 ## 0.1.5
 
 Changements internes :
 - Correction des urls cassés dans le README.md
 - Mise à jour d'un contributeur
-
 
 ## 0.1.4
 

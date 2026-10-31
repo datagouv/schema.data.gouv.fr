@@ -2,6 +2,11 @@
 
 # Changelog
 
+## 1.1.7
+
+* Nettoyage de la documentation du schéma (mise à jour `README`, suppression `schema.md`)
+* Le schéma lui-même reste inchangé
+
 ## 1.1.6
 
 * Migration de l'instance gitlab d'hébergement du schéma Catalogue vers l'instance publique https://gitlab.com/opendatafrance/scdl/prenoms

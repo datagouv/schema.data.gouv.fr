@@ -4,7 +4,7 @@
 
 ## 0.8.4
 
-- Nettoyage de la documentation du schéma
+- Nettoyage de la documentation du schéma (mise à jour `README`, suppression `schema.md`)
 - Le schéma lui-même reste inchangé
 
 ## 0.8.3

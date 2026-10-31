@@ -8,7 +8,7 @@ Description des plats proposés par des collectivités locales, des établisseme
 
 - Schéma créé le : 12/02/2020
 - Site web : https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs
-- Version : 0.7.2
+- Version : 0.7.3
 
 ### Modèle de données
 

@@ -8,7 +8,7 @@ Spécification du modèle de données relatif aux délibérations adoptées par 
 
 - Schéma créé le : 23/05/2018
 - Site web : https://gitlab.com/opendatafrance/scdl/deliberations
-- Version : 2.1.5
+- Version : 2.1.6
 
 ### Modèle de données
 

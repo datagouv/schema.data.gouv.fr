@@ -470,11 +470,11 @@
             "examples": [
                 {
                     "title": "Exemple de fichier des pr\u00e9noms valide",
-                    "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-valide.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.7/examples/prenoms-nouveaux-nes_exemple-valide.csv"
                 },
                 {
                     "title": "Exemple de fichier des pr\u00e9noms invalide",
-                    "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.7/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
                 }
             ],
             "labels": [
@@ -489,6 +489,10 @@
                 {
                     "version_name": "1.1.6",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/1.1.6/schema.json"
+                },
+                {
+                    "version_name": "1.1.7",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/prenoms/1.1.7/schema.json"
                 }
             ],
             "external_doc": null,
@@ -539,6 +543,10 @@
                 {
                     "version_name": "0.1.3",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.3/schema.json"
+                },
+                {
+                    "version_name": "0.1.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/catalogue/0.1.4/schema.json"
                 }
             ],
             "external_doc": null,
@@ -662,6 +670,10 @@
                 {
                     "version_name": "0.1.5",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.5/schema.json"
+                },
+                {
+                    "version_name": "0.1.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/equipements/0.1.6/schema.json"
                 }
             ],
             "external_doc": null,
@@ -759,11 +771,11 @@
             "examples": [
                 {
                     "title": "Exemple de fichier d\u00e9lib\u00e9rations valide",
-                    "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_ok.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.6/examples/Deliberations_ok.csv"
                 },
                 {
                     "title": "Exemple de fichier d\u00e9lib\u00e9rations invalide",
-                    "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_coll_siret_ko.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.6/examples/Deliberations_coll_siret_ko.csv"
                 }
             ],
             "labels": [
@@ -802,6 +814,10 @@
                 {
                     "version_name": "2.1.5",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.5/schema.json"
+                },
+                {
+                    "version_name": "2.1.6",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/deliberations/2.1.6/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1689,6 +1705,10 @@
                 {
                     "version_name": "1.2.3",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.3/schema.json"
+                },
+                {
+                    "version_name": "1.2.4",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/menus-collectifs/1.2.4/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1705,11 +1725,11 @@
             "examples": [
                 {
                     "title": "Exemple de fichier de menus valide en csv",
-                    "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.3/examples/plats-collectifs_valide.csv"
                 },
                 {
                     "title": "Exemple de fichier de menus valide en OOXML",
-                    "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.xlsx"
+                    "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.3/examples/plats-collectifs_valide.xlsx"
                 }
             ],
             "labels": [
@@ -1740,6 +1760,10 @@
                 {
                     "version_name": "0.7.2",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.2/schema.json"
+                },
+                {
+                    "version_name": "0.7.3",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/plats-menus-collectifs/0.7.3/schema.json"
                 }
             ],
             "external_doc": null,

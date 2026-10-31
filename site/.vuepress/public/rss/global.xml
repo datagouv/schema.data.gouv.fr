@@ -1149,5 +1149,35 @@
       <link>https://github.com/datagouv/schema.data.gouv.fr/issues/360</link>
       <description>Schema update on 2026-10-30: Sch&#233;ma dessertes foresti&#232;res pour le transport de bois et la DFCI is in construction</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - scdl/prenoms (1.1.6 to 1.1.7)</title>
+      <link>https://schema.data.gouv.fr/scdl/prenoms</link>
+      <description>Schema update on 2026-10-31: 1.1.6 to 1.1.7 for scdl/prenoms</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - scdl/catalogue (0.1.3 to 0.1.4)</title>
+      <link>https://schema.data.gouv.fr/scdl/catalogue</link>
+      <description>Schema update on 2026-10-31: 0.1.3 to 0.1.4 for scdl/catalogue</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - scdl/equipements (0.1.5 to 0.1.6)</title>
+      <link>https://schema.data.gouv.fr/scdl/equipements</link>
+      <description>Schema update on 2026-10-31: 0.1.5 to 0.1.6 for scdl/equipements</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - scdl/deliberations (2.1.5 to 2.1.6)</title>
+      <link>https://schema.data.gouv.fr/scdl/deliberations</link>
+      <description>Schema update on 2026-10-31: 2.1.5 to 2.1.6 for scdl/deliberations</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - scdl/menus-collectifs (1.2.3 to 1.2.4)</title>
+      <link>https://schema.data.gouv.fr/scdl/menus-collectifs</link>
+      <description>Schema update on 2026-10-31: 1.2.3 to 1.2.4 for scdl/menus-collectifs</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>New version - scdl/plats-menus-collectifs (0.7.2 to 0.7.3)</title>
+      <link>https://schema.data.gouv.fr/scdl/plats-menus-collectifs</link>
+      <description>Schema update on 2026-10-31: 0.7.2 to 0.7.3 for scdl/plats-menus-collectifs</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>

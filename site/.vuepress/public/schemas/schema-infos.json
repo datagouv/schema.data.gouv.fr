@@ -626,9 +626,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/scdl/prenoms/1.1.6/schema.json"
+            },
+            "1.1.7": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/scdl/prenoms/1.1.7/schema.json"
             }
         },
-        "latest": "1.1.6"
+        "latest": "1.1.7"
     },
     "etalab/schema-decp-dpa": {
         "homepage": "https://github.com/etalab/schema-decp-dpa.git",
@@ -685,9 +694,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/scdl/catalogue/0.1.3/schema.json"
+            },
+            "0.1.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/scdl/catalogue/0.1.4/schema.json"
             }
         },
-        "latest": "0.1.3"
+        "latest": "0.1.4"
     },
     "cnigfr/schema-grace-thd": {
         "homepage": "https://github.com/cnigfr/schema-grace-thd.git",
@@ -951,9 +968,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/scdl/equipements/0.1.5/schema.json"
+            },
+            "0.1.6": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/scdl/equipements/0.1.6/schema.json"
             }
         },
-        "latest": "0.1.5"
+        "latest": "0.1.6"
     },
     "scdl/subventions": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/subventions.git",
@@ -1213,9 +1239,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/scdl/deliberations/2.1.5/schema.json"
+            },
+            "2.1.6": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/scdl/deliberations/2.1.6/schema.json"
             }
         },
-        "latest": "2.1.5"
+        "latest": "2.1.6"
     },
     "metis-reseaux/infos-travaux": {
         "homepage": "https://github.com/metis-reseaux/infos-travaux.git",
@@ -2383,9 +2417,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/scdl/menus-collectifs/1.2.3/schema.json"
+            },
+            "1.2.4": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/scdl/menus-collectifs/1.2.4/schema.json"
             }
         },
-        "latest": "1.2.3"
+        "latest": "1.2.4"
     },
     "scdl/plats-menus-collectifs": {
         "homepage": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs.git",
@@ -2445,9 +2488,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/scdl/plats-menus-collectifs/0.7.2/schema.json"
+            },
+            "0.7.3": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/scdl/plats-menus-collectifs/0.7.3/schema.json"
             }
         },
-        "latest": "0.7.2"
+        "latest": "0.7.3"
     },
     "datakode/schema-pei": {
         "homepage": "https://gitlab.com/datakode/schema-pei.git",

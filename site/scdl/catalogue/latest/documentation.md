@@ -8,7 +8,7 @@ Spécification du modèle de données relatif au catalogue des jeux de données 
 
 - Schéma créé le : 20/11/2018
 - Site web : https://gitlab.com/opendatafrance/scdl/catalogue
-- Version : 0.1.3
+- Version : 0.1.4
 
 ### Modèle de données
 
