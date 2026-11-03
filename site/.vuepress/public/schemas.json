@@ -845,15 +845,15 @@
             "examples": [
                 {
                     "title": "Exemple de fichier subventions valide",
-                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_valide.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/exemples/exemple_valide.csv"
                 },
                 {
                     "title": "Exemple de fichier subventions invalide (erreurs cellules)",
-                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_cellules.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/exemples/exemple_invalide_erreurs_cellules.csv"
                 },
                 {
                     "title": "Exemple de fichier subventions invalide (erreurs colonnes)",
-                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_colonnes.csv"
+                    "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/exemples/exemple_invalide_erreurs_colonnes.csv"
                 }
             ],
             "labels": [
@@ -884,6 +884,10 @@
                 {
                     "version_name": "2.1.1",
                     "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.1.1/schema.json"
+                },
+                {
+                    "version_name": "2.1.2",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/scdl/subventions/2.1.2/schema.json"
                 }
             ],
             "external_doc": null,

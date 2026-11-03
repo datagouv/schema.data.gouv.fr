@@ -1654,5 +1654,13 @@
                 "version": "0.7.2 => 0.7.3"
             }
         ]
+    },
+    "2026-11-03": {
+        "new_version": [
+            {
+                "schema_name": "scdl/subventions",
+                "version": "2.1.1 => 2.1.2"
+            }
+        ]
     }
 }

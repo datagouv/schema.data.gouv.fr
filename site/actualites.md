@@ -1,3 +1,10 @@
+### 2026-11-03
+
+#### Montée de version:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/subventions](/scdl/subventions/)** : <span style="color:red;">2.1.1</span> => <span style="color:green;">2.1.2</span><br>
+
+---
+
 ### 2026-10-31
 
 #### Montées de versions:

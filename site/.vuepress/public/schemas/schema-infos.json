@@ -1044,9 +1044,18 @@
                     "sources.md"
                 ],
                 "schema_url": "/scdl/subventions/2.1.1/schema.json"
+            },
+            "2.1.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md",
+                    "sources.md"
+                ],
+                "schema_url": "/scdl/subventions/2.1.2/schema.json"
             }
         },
-        "latest": "2.1.1"
+        "latest": "2.1.2"
     },
     "datatourisme/ontology": {
         "homepage": "https://gitlab.adullact.net/adntourisme/datatourisme/ontology.git",

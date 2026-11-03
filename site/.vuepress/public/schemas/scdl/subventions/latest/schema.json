@@ -5,19 +5,19 @@
   "description": "Spécification du modèle de données relatif aux subventions attribuées par une collectivité",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/opendatafrance/scdl/subventions",
-  "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/schema.json",
+  "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier subventions valide",
-      "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_valide.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/exemples/exemple_valide.csv"
     },
     {
       "title": "Exemple de fichier subventions invalide (erreurs cellules)",
-      "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_cellules.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/exemples/exemple_invalide_erreurs_cellules.csv"
     },
     {
       "title": "Exemple de fichier subventions invalide (erreurs colonnes)",
-      "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.1/exemples/exemple_invalide_erreurs_colonnes.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/subventions/raw/v2.1.2/exemples/exemple_invalide_erreurs_colonnes.csv"
     }
   ],
   "sources": [
@@ -35,8 +35,8 @@
     }
   ],
   "created": "2018-04-27",
-  "lastModified": "2023-09-28",
-  "version": "2.1.1",
+  "lastModified": "2026-10-30",
+  "version": "2.1.2",
   "contributors": [
     {
       "title": "OpenDataFrance",
