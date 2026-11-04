@@ -120,8 +120,8 @@
       
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 5' class='formTitle'>Publier des données</div>
       <div v-if='(level3Selected != 0 || skipLevel3 == 1) && level2Selected == 5' class='answerSpace'>
-        <p>Pour publier des données respectant les spécifications d'un schéma de données, vous pouvez vous référez à la documentation des schémas sur ce site et adopté la structure indiquée par le schéma. Si vous avez besoin d'être accompagner en termes d'outillage pour la production de données respectant un schéma, datagouv propose un outil : publier.etalab.studio.</p>
-        <p>publier.etalab.studio est un nouvel outil permettant aux producteurs de données de pouvoir saisir ou charger leur données en vue de leur publication sur la plateforme data.gouv.fr. L'outil propose un accompagnement des producteurs de données sous trois formats : chargement/upload des données déjà existantes, saisie via formulaires ou saisie via tableurs.</p>
+        <p>Pour publier des données respectant les spécifications d'un schéma, vous pouvez consulter sa documentation sur ce site puis utiliser le <a href="https://www.data.gouv.fr/admin/datasets/structured">parcours de publication de données structurées sur data.gouv.fr</a>.</p>
+        <p>Ce parcours permet de saisir ou de charger des données en vue de leur publication sur data.gouv.fr.</p>
 
         <p>En cas de difficulté, vous pouvez contacter datagouv à l'adresse suivante : schema [at] data.gouv.fr.</p>
       </div>
