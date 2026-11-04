@@ -14454,6 +14454,17 @@
     "reason": "etalab/schema-irve-statique"
   },
   {
+    "id": "mairie-osses",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "bornes-de-recharge-pour-vehicules-electriques-irve-2",
     "recommendations": [
       {
@@ -16314,6 +16325,17 @@
   },
   {
     "id": "corsin-automobiles-sance",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "bornes-de-recharges-scania",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
@@ -28062,17 +28084,6 @@
   },
   {
     "id": "stations-de-recharge-ionity",
-    "recommendations": [
-      {
-        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
-        "score": 30
-      }
-    ],
-    "type": "dataset",
-    "reason": "etalab/schema-irve-statique"
-  },
-  {
-    "id": "e-charge50",
     "recommendations": [
       {
         "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
