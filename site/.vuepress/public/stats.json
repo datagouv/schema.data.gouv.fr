@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1227,
+            "dgv_resources": 1228,
             "title": "IRVE statique",
             "contributors": 10
         },
@@ -214,11 +214,6 @@
             "dgv_resources": 53,
             "title": "Subventions",
             "contributors": 11
-        },
-        "datatourisme/ontology": {
-            "dgv_resources": 6,
-            "title": "DATAtourisme",
-            "contributors": null
         },
         "datagouv/schema-fontaine-eau": {
             "dgv_resources": 2,
@@ -373,17 +368,17 @@
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 5
+            "contributors": 2
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
@@ -416,7 +411,7 @@
             "contributors": 2
         },
         "etalab/schema-indice-reparabilite": {
-            "dgv_resources": 393,
+            "dgv_resources": 400,
             "title": "Indice de r\u00e9parabilit\u00e9",
             "contributors": 2
         },
@@ -611,7 +606,7 @@
             "contributors": 2
         },
         "etalab/schema-vehicules-faibles-emissions-renouvellement-parc": {
-            "dgv_resources": 1178,
+            "dgv_resources": 1183,
             "title": "Part des v\u00e9hicules \u00e0 faibles \u00e9missions dans le renouvellement d'un parc",
             "contributors": 2
         },

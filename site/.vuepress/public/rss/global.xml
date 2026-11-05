@@ -1184,5 +1184,10 @@
       <link>https://schema.data.gouv.fr/scdl/subventions</link>
       <description>Schema update on 2026-11-03: 2.1.1 to 2.1.2 for scdl/subventions</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0100</pubDate>
+    </item><item>
+      <title>Deleted schema - datatourisme/ontology (3.2.2)</title>
+      <link>https://schema.data.gouv.fr/datatourisme/ontology</link>
+      <description>Schema update on 2026-11-05: 3.2.2 for datatourisme/ontology</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0100</pubDate>
     </item></channel>
 </rss>

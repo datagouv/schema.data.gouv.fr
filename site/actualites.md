@@ -1,3 +1,10 @@
+### 2026-11-05
+
+#### Schéma supprimé:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:blue;">3.2.2</span><br>
+
+---
+
 ### 2026-11-03
 
 #### Montée de version:
