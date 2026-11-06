@@ -1586,9 +1586,40 @@
       ]
     },
     {
-      "name": "accueil_tribunes",
+      "name": "accueil_tribunes_presence",
       "type": "boolean",
       "title": "Tribunes",
+      "description": "Présence de tribunes",
+      "example": "True",
+      "trueValues": [
+        "true",
+        "True",
+        "TRUE",
+        "1",
+        "vrai",
+        "Vrai",
+        "VRAI",
+        "oui",
+        "Oui",
+        "OUI"
+      ],
+      "falseValues": [
+        "false",
+        "False",
+        "FALSE",
+        "0",
+        "faux",
+        "Faux",
+        "FAUX",
+        "non",
+        "Non",
+        "NON"
+      ]
+    },
+    {
+      "name": "accueil_tribunes",
+      "type": "boolean",
+      "title": "Places spectateurs avec dossier",
       "description": "Places spectateurs avec dossier",
       "example": "True",
       "trueValues": [

@@ -90,7 +90,8 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 | [accueil_signaletique_interieure](#signaletique-interieure-propriete-accueil-signaletique-interieure) | booléen  | Non |
 | [accueil_physique](#accueil-physique-propriete-accueil-physique) | chaîne de caractères  | Non |
 | [accueil_aire_de_jeux](#aire-de-jeux-propriete-accueil-aire-de-jeux) | booléen  | Non |
-| [accueil_tribunes](#tribunes-propriete-accueil-tribunes) | booléen  | Non |
+| [accueil_tribunes_presence](#tribunes-propriete-accueil-tribunes-presence) | booléen  | Non |
+| [accueil_tribunes](#places-spectateurs-avec-dossier-propriete-accueil-tribunes) | booléen  | Non |
 | [accueil_tribunes_places](#places-accessibles-en-tribunes-propriete-accueil-tribunes-places) | nombre entier  | Non |
 | [accueil_tribunes_localisation_places](#propriete-accueil-tribunes-localisation-places) | chaîne de caractères  | Non |
 | [accueil_tribunes_places_avec_accompagnants](#propriete-accueil-tribunes-places-avec-accompagnants) | nombre entier  | Non |
@@ -590,7 +591,13 @@ Spécification du fichier d'échange relatif aux données d'accessibilité des �
 - Valeur optionnelle
 - Type : booléen
 
-#### Tribunes - Propriété `accueil_tribunes`
+#### Tribunes - Propriété `accueil_tribunes_presence`
+
+> *Description : Présence de tribunes*<br/>*Exemple : True*
+- Valeur optionnelle
+- Type : booléen
+
+#### Places spectateurs avec dossier - Propriété `accueil_tribunes`
 
 > *Description : Places spectateurs avec dossier*<br/>*Exemple : True*
 - Valeur optionnelle

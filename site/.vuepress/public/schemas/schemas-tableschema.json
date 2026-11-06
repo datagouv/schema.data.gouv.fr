@@ -1073,6 +1073,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-base/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-base/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1111,6 +1115,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-grand-etablissement/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-grand-etablissement/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1149,6 +1157,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-hebergement/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-hebergement/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1187,6 +1199,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-bureau-de-vote/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-bureau-de-vote/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1225,6 +1241,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-etablissement-scolaire/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-etablissement-scolaire/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1263,6 +1283,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-sante/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-sante/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,
@@ -1297,6 +1321,10 @@
                 {
                     "version_name": "0.0.21",
                     "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-etablissement-sportif/0.0.21/schema.json"
+                },
+                {
+                    "version_name": "0.0.22",
+                    "schema_url": "https://schema.data.gouv.fr/schemas/MTES-MCT/acceslibre-erp-etablissement-sportif/0.0.22/schema.json"
                 }
             ],
             "external_doc": null,

@@ -1057,6 +1057,99 @@
         },
         "latest": "2.1.2"
     },
+    "datatourisme/ontology": {
+        "homepage": "https://gitlab.adullact.net/adntourisme/datatourisme/ontology.git",
+        "external_doc": null,
+        "external_tool": null,
+        "type": "other",
+        "email": "contact@datatourisme.fr",
+        "labels": null,
+        "consolidation_dataset_id": null,
+        "versions": {
+            "2.4.7": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/2.4.7/schema.yml"
+            },
+            "2.4.8": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/2.4.8/schema.yml"
+            },
+            "2.4.9": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/2.4.9/schema.yml"
+            },
+            "3.0.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.0.0/schema.yml"
+            },
+            "3.1.0": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.1.0/schema.yml"
+            },
+            "3.1.1": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.1.1/schema.yml"
+            },
+            "3.1.3": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.1.3/schema.yml"
+            },
+            "3.1.4": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.1.4/schema.yml"
+            },
+            "3.1.5": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.1.5/schema.yml"
+            },
+            "3.1.6": {
+                "pages": [
+                    "README.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.1.6/schema.yml"
+            },
+            "3.2.0": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.2.0/schema.yml"
+            },
+            "3.2.1": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.2.1/schema.yml"
+            },
+            "3.2.2": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/datatourisme/ontology/3.2.2/schema.yml"
+            }
+        },
+        "latest": "3.2.2"
+    },
     "datagouv/schema-fontaine-eau": {
         "homepage": "https://github.com/datagouv/schema-fontaine-eau.git",
         "external_doc": null,
@@ -1602,6 +1695,13 @@
                     "CHANGELOG.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-schema/0.0.21/datapackage.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-schema/0.0.22/datapackage.json"
             }
         },
         "schemas": [
@@ -1613,7 +1713,7 @@
             "MTES-MCT/acceslibre-erp-sante",
             "MTES-MCT/acceslibre-erp-etablissement-sportif"
         ],
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-base": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1635,13 +1735,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-base/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-base/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-grand-etablissement": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1663,13 +1770,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-grand-etablissement/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-grand-etablissement/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-hebergement": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1691,13 +1805,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-hebergement/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-hebergement/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-bureau-de-vote": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1719,13 +1840,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-bureau-de-vote/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-bureau-de-vote/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-etablissement-scolaire": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1747,13 +1875,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-etablissement-scolaire/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-etablissement-scolaire/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-sante": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1775,13 +1910,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-sante/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-sante/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "MTES-MCT/acceslibre-erp-etablissement-sportif": {
         "homepage": "https://github.com/MTES-MCT/acceslibre-schema.git",
@@ -1796,13 +1938,20 @@
                     "documentation.md"
                 ],
                 "schema_url": "/MTES-MCT/acceslibre-erp-etablissement-sportif/0.0.21/schema.json"
+            },
+            "0.0.22": {
+                "pages": [
+                    "README.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/MTES-MCT/acceslibre-erp-etablissement-sportif/0.0.22/schema.json"
             }
         },
         "datapackage": "Sch\u00e9mas des donn\u00e9es d'accessibilit\u00e9 des ERPs",
         "datapackage_id": "acceslibre",
         "labels": null,
         "consolidation_dataset_id": null,
-        "latest": "0.0.21"
+        "latest": "0.0.22"
     },
     "etalab/schema-comptage-mobilites": {
         "homepage": "https://github.com/etalab/schema-comptage-mobilites",

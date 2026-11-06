@@ -1,3 +1,20 @@
+### 2026-11-06
+
+#### Schéma ajouté:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[datatourisme/ontology](/datatourisme/ontology/)** : <span style="color:blue;">3.2.2</span><br>
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-schema](/MTES-MCT/acceslibre-schema/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-base](/MTES-MCT/acceslibre-erp-base/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-sante](/MTES-MCT/acceslibre-erp-sante/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-hebergement](/MTES-MCT/acceslibre-erp-hebergement/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-bureau-de-vote](/MTES-MCT/acceslibre-erp-bureau-de-vote/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-grand-etablissement](/MTES-MCT/acceslibre-erp-grand-etablissement/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-etablissement-sportif](/MTES-MCT/acceslibre-erp-etablissement-sportif/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[MTES-MCT/acceslibre-erp-etablissement-scolaire](/MTES-MCT/acceslibre-erp-etablissement-scolaire/)** : <span style="color:red;">0.0.21</span> => <span style="color:green;">0.0.22</span><br>
+
+---
+
 ### 2026-11-05
 
 #### Schéma supprimé:

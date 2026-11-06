@@ -3,6 +3,10 @@
 ## Changelog
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
+
+### Version 0.0.22 - 28-10-2026
+* Added accueil_tribunes_presence field to etablissements_sportifs schema (parent question of accueil_tribunes and accueil_tribunes_places)
+
 ### Version 0.0.21 - 03-09-2026
 * Added new schema etablissements_sportifs
 
