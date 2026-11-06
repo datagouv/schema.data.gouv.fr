@@ -10043,6 +10043,28 @@
     "reason": "etalab/schema-impact-service-public-numerique"
   },
   {
+    "id": "asus-notebook-s5452ma",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
+    "id": "asus-notebook-x1652da",
+    "recommendations": [
+      {
+        "id": "fichiers-consolides-des-donnees-respectant-le-schema-indice-de-reparabilite",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-indice-reparabilite"
+  },
+  {
     "id": "asus-notebook-m1502xa",
     "recommendations": [
       {
