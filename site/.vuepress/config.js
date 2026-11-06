@@ -98,8 +98,8 @@ head: [
       subtitle: "Bienvenue sur l'initiative de data.gouv.fr de référencement des schémas de données publiques pour la France.",
       button1: "Découvrez tous les schémas de données",
       url1: "/schemas.html",
-      button2: 'Saisissez des données structurées sur publier.etalab.studio',
-      url2: 'https://publier.etalab.studio/fr'
+      button2: 'Saisissez des données structurées sur data.gouv.fr',
+      url2: 'https://www.data.gouv.fr/admin/datasets/structured'
     },
     presentationBox: [
       {

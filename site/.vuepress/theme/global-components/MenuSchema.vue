@@ -60,7 +60,7 @@
                     <span v-if="schema && schema_infos['type'] == 'tableschema'">
                         <button
                             class="fr-btn"
-                            @click="gotoExternalLink('https://publier.etalab.studio/fr/select?schema='+schema)"
+                            @click="gotoExternalLink(getStructuredDataUrl(schema))"
                         >
                             <img src="../../public/assets/pencil.png" width="15" />&nbsp;
                             Saisir ou valider mes données
@@ -225,6 +225,9 @@ export default {
       },
       gotoExternalLink(link){
         window.location.href = link
+      },
+      getStructuredDataUrl(schema){
+        return 'https://www.data.gouv.fr/admin/datasets/structured?schema=' + encodeURIComponent(schema)
       },
       changeVersion(){
           let link = '/'+this.schema+'/'+this.optionSelect+'/'
