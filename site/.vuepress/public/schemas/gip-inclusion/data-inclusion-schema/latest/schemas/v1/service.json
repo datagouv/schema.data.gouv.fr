@@ -633,7 +633,7 @@
     "volume_horaire_hebdomadaire": {
       "anyOf": [
         {
-          "minimum": 0.0,
+          "minimum": 0,
           "type": "number"
         },
         {

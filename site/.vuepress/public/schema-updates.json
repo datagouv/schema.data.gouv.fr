@@ -1712,5 +1712,13 @@
                 "version": "0.0.21 => 0.0.22"
             }
         ]
+    },
+    "2026-11-11": {
+        "new_version": [
+            {
+                "schema_name": "gip-inclusion/data-inclusion-schema",
+                "version": "1.0.10 => 1.0.11"
+            }
+        ]
     }
 }

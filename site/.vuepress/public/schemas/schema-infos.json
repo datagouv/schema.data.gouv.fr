@@ -3087,9 +3087,17 @@
                     "documentation.md"
                 ],
                 "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.10/schemas/v1/service.json"
+            },
+            "1.0.11": {
+                "pages": [
+                    "README.md",
+                    "CHANGELOG.md",
+                    "documentation.md"
+                ],
+                "schema_url": "/gip-inclusion/data-inclusion-schema/1.0.11/schemas/v1/service.json"
             }
         },
-        "latest": "1.0.10"
+        "latest": "1.0.11"
     },
     "etalab/schema-amenagements-cyclables": {
         "homepage": "https://github.com/etalab/schema-amenagements-cyclables",
