@@ -14520,6 +14520,28 @@
     "reason": "etalab/schema-indice-reparabilite"
   },
   {
+    "id": "irve-statique-chargemsi-1",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
+    "id": "irve-statique-totalenergies-marketing-france-2",
+    "recommendations": [
+      {
+        "id": "base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+        "score": 30
+      }
+    ],
+    "type": "dataset",
+    "reason": "etalab/schema-irve-statique"
+  },
+  {
     "id": "irve-statique-totalenergies-marketing-france-1",
     "recommendations": [
       {
