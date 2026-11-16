@@ -368,32 +368,32 @@
         "cnigfr/sites-economiques-pole-eco": {
             "dgv_resources": 0,
             "title": "Classe POLE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-site-eco": {
             "dgv_resources": 2,
             "title": "Classe SITE-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-terrain-eco": {
             "dgv_resources": 0,
             "title": "Classe TERRAIN-ECO du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/sites-economiques-etablissement": {
             "dgv_resources": 0,
             "title": "Classe ETABLISSEMENT du standard CNIG Sites Economiques",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-sites-economiques": {
             "dgv_resources": 0,
             "title": "Site Economique",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/Geostandards-Risques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandards Risques - Mod\u00e8le Commun",
-            "contributors": 2
+            "contributors": 3
         },
         "scdl/menus-collectifs": {
             "dgv_resources": 3,
@@ -413,27 +413,27 @@
         "cnigfr/schema-eclairage-exterieur": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard d\u2019\u00e9clairage ext\u00e9rieur (EclExt)",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-indice-reparabilite": {
             "dgv_resources": 404,
             "title": "Indice de r\u00e9parabilit\u00e9",
-            "contributors": 2
+            "contributors": 3
         },
         "cnigfr/schema-reseaux-electriques": {
             "dgv_resources": 0,
             "title": "G\u00e9ostandard de r\u00e9seaux \u00e9lectriques (StaR-Elec)",
-            "contributors": 2
+            "contributors": 1
         },
         "etalab/schema-hautes-remunerations": {
             "dgv_resources": 6,
             "title": "Hautes r\u00e9mun\u00e9rations dans la fonction publique",
-            "contributors": 2
+            "contributors": 1
         },
         "PnX-SI/schema_randonnee": {
             "dgv_resources": 5,
             "title": "Itin\u00e9raires de randonn\u00e9e",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-plan-local-urbanisme": {
             "dgv_resources": 29,
@@ -443,12 +443,12 @@
         "gip-inclusion/data-inclusion-schema": {
             "dgv_resources": 25,
             "title": "Services de l\u2019inclusion",
-            "contributors": 2
+            "contributors": 12
         },
         "etalab/schema-amenagements-cyclables": {
             "dgv_resources": 28,
             "title": "Am\u00e9nagements cyclables",
-            "contributors": 2
+            "contributors": 9
         },
         "cnigfr/Geostandards-risques-ppr": {
             "dgv_resources": 0,
@@ -478,17 +478,17 @@
         "etalab/schema-stationnement-cyclable": {
             "dgv_resources": 24,
             "title": "Stationnement cyclable",
-            "contributors": 2
+            "contributors": 5
         },
         "cnigfr/schema-desserte-transport-bois": {
             "dgv_resources": 0,
             "title": "Dessertes pour le transport de bois",
-            "contributors": 2
+            "contributors": 1
         },
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 2
+            "contributors": 8
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
@@ -528,7 +528,7 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 2
+            "contributors": 4
         },
         "GouvernementFR/referentiel-donnees-communication-publique": {
             "dgv_resources": 0,
