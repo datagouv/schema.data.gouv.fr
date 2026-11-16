@@ -5,20 +5,20 @@
   "description": "Description des plats proposés par des collectivités locales, des établissements publics et des entreprises dans le cadre de l'offre de restauration collective. Il permet de préciser les modalités de fabrication des plats et de détailler les produits qui les composent. Ce schéma décrit le détail de chaque champ et le cas échéant les règles de validité associées. Il peut être utilisé indépendamment ou en complément du le schéma sur les menus collectifs qui décrit la composition en plats.",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs",
-  "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/schema.json",
+  "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.3/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier de menus valide en csv",
-      "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.3/examples/plats-collectifs_valide.csv"
     },
     {
       "title": "Exemple de fichier de menus valide en OOXML",
-      "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.2/examples/plats-collectifs_valide.xlsx"
+      "path": "https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs/raw/v0.7.3/examples/plats-collectifs_valide.xlsx"
     }
   ],
   "created": "2020-02-12",
-  "lastModified": "2023-09-28",
-  "version": "0.7.2",
+  "lastModified": "2026-10-30",
+  "version": "0.7.3",
   "contributors": [
     {
       "title": "OpenDataFrance",

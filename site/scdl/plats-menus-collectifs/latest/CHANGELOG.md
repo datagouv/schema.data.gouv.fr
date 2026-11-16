@@ -2,6 +2,11 @@
 
 # Changelog
 
+## 0.7.3
+
+* Nettoyage de la documentation du schéma (mise à jour `README`)
+* Le schéma lui-même reste inchangé
+
 ## 0.7.2
 
 * Correction de l'url des path du schéma et des ressources utilisés dans schema.json
@@ -10,14 +15,12 @@
 
 * Migration de l'instance gitlab d'hébergement du schéma Catalogue vers l'instance publique https://gitlab.com/opendatafrance/scdl/plats-menus-collectifs
 
-
 ## 0.7
 
 * mise à jour de la syntaxe des champs de type tableau
 * mise à jour de la description
 * mise à jour des fichiers exemples
 * ajout ds champs platEtablissementNom et platEtablissementSiret
-
 
 ## 0.6
 

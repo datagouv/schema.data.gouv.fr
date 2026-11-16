@@ -2,16 +2,19 @@
 
 # Changelog
 
+## 2.1.6
+
+* Nettoyage de la documentation du schéma (mise à jour `README`, suppression `schema.md`)
+* Le schéma lui-même reste inchangé
+
 ## 2.1.5
 
 Migration de l'instance gitlab d'hébergement du schéma Catalogue vers l'instance publique https://gitlab.com/opendatafrance/scdl/deliberations
-
 
 ## 2.1.4
 
 Changements internes :
 - Mise en conformité d'exemples
-
 
 ## 2.1.3
 

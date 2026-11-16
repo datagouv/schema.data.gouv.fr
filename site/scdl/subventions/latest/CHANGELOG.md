@@ -2,10 +2,14 @@
 
 # Changelog
 
+## 2.1.2
+
+* Nettoyage de la documentation du schéma (mise à jour `README`, suppression `schema.md`)
+* Le schéma lui-même reste inchangé
+
 ## 2.1.1
 
 Migration de l'instance gitlab d'hébergement du schéma Catalogue vers l'instance publique https://gitlab.com/opendatafrance/scdl/subventions
-
 
 ## 2.1.0
 

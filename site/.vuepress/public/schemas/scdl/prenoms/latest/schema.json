@@ -5,15 +5,15 @@
   "description": "Spécification du modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/opendatafrance/scdl/prenoms",
-  "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/schema.json",
+  "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.7/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier des prénoms valide",
-      "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-valide.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.7/examples/prenoms-nouveaux-nes_exemple-valide.csv"
     },
     {
       "title": "Exemple de fichier des prénoms invalide",
-      "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.6/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/prenoms/raw/v1.1.7/examples/prenoms-nouveaux-nes_exemple-invalide.csv"
     }
   ],
   "sources": [
@@ -35,8 +35,8 @@
     }
   ],
   "created": "2018-04-12",
-  "lastModified": "2023-09-28",
-  "version": "v1.1.6",
+  "lastModified": "2026-10-30",
+  "version": "v1.1.7",
   "contributors": [
     {
       "title": "Charles Nepote",

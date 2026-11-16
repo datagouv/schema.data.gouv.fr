@@ -8,7 +8,7 @@ Spécification du modèle de données relatif aux équipements collectifs public
 
 - Schéma créé le : 20/11/2018
 - Site web : https://gitlab.com/opendatafrance/scdl/equipements
-- Version : 0.1.5
+- Version : 0.1.6
 
 ### Modèle de données
 

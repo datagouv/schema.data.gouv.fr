@@ -14,15 +14,3 @@ Reformulée et affinée à l'issue de plusieurs expérimentations de terrain, la
 * [Nomenclature des équipements collectifs publics](http://www.crige-paca.org/index.php?eID=tx_crigedocuments&hash=97632e80&fid=3118) - Version 2.0 - CRIGE PACA \([Tableur en ligne](https://docs.google.com/spreadsheets/d/157WPWMUDC6w58Aep1dgWzzunKEjzSd-QmyuEHa8RFqc/)\)
 
 S'appuyant sur ces travaux, de nombreuses collectivités françaises ont pu constituer leur propre base locale et pour certaines les publier en open data. La spécification du modèle de données relatif aux équipements collectifs publics d'une collectivité locale s'inscrit dans cette dynamique. Elle a été élaborée à partir des documents issus du groupe de travail EquipCo. Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
-
-## Outils
-
-* [Valider un fichier avec Validata](https://validata.fr/)
-* [Créer un fichier avec CSV pour le publier](https://publier.etalab.studio/fr/select?schema=scdl%2Fequipements)
-
-## Voir aussi
-
-Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
-
-* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Equipements%20collectifs%20publics)
-* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://gitlab.com/opendatafrance/scdl/equipements/issues/new)

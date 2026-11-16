@@ -5,20 +5,20 @@
   "description": "Spécification du modèle de données relatif aux délibérations adoptées par une collectivité locale",
   "countryCode": "FR",
   "homepage": "https://gitlab.com/opendatafrance/scdl/deliberations",
-  "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/schema.json",
+  "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.6/schema.json",
   "resources": [
     {
       "title": "Exemple de fichier délibérations valide",
-      "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_ok.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.6/examples/Deliberations_ok.csv"
     },
     {
       "title": "Exemple de fichier délibérations invalide",
-      "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.5/examples/Deliberations_coll_siret_ko.csv"
+      "path": "https://gitlab.com/opendatafrance/scdl/deliberations/raw/v2.1.6/examples/Deliberations_coll_siret_ko.csv"
     }
   ],
   "created": "2018-05-23",
-  "lastModified": "2023-08-28",
-  "version": "2.1.5",
+  "lastModified": "2026-10-30",
+  "version": "2.1.6",
   "contributors": [
     {
       "title": "OpenDataFrance",

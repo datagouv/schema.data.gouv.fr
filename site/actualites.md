@@ -1,3 +1,22 @@
+### 2026-11-16
+
+#### Montées de versions:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/budget](/scdl/budget/)** : <span style="color:red;">0.8.3</span> => <span style="color:green;">0.8.4</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/prenoms](/scdl/prenoms/)** : <span style="color:red;">1.1.6</span> => <span style="color:green;">1.1.7</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/catalogue](/scdl/catalogue/)** : <span style="color:red;">0.1.3</span> => <span style="color:green;">0.1.4</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/equipements](/scdl/equipements/)** : <span style="color:red;">0.1.5</span> => <span style="color:green;">0.1.6</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/subventions](/scdl/subventions/)** : <span style="color:red;">2.1.1</span> => <span style="color:green;">2.1.2</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/deliberations](/scdl/deliberations/)** : <span style="color:red;">2.1.5</span> => <span style="color:green;">2.1.6</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/menus-collectifs](/scdl/menus-collectifs/)** : <span style="color:red;">1.2.3</span> => <span style="color:green;">1.2.4</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[scdl/plats-menus-collectifs](/scdl/plats-menus-collectifs/)** : <span style="color:red;">0.7.2</span> => <span style="color:green;">0.7.3</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp; - **[gip-inclusion/data-inclusion-schema](/gip-inclusion/data-inclusion-schema/)** : <span style="color:red;">1.0.10</span> => <span style="color:green;">1.0.11</span><br>
+
+#### Schémas en construction:
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Référencer un schéma : communes à permis de louer (autorisation préalable et déclaration de mise en location)](https://github.com/datagouv/schema.data.gouv.fr/issues/361/)**
+&nbsp;&nbsp;&nbsp;&nbsp; - **[Schéma dessertes forestières pour le transport de bois et la DFCI](https://github.com/datagouv/schema.data.gouv.fr/issues/360/)**
+
+---
+
 ### 2026-10-11
 
 #### Schéma ajouté:

@@ -17,15 +17,3 @@ Il a été élaboré par [Charles Népote](mailto:charles.nepote@fing.org) à pa
   * Circulaire du 28 octobre 2011 relative aux règles particulières à divers actes de l'état civil relatifs à la naissance et à la filiation — NOR : JUSC1119808C : http://www.textes.justice.gouv.fr/art_pix/JUSC1119808C.pdf
   * Circulaire du 23 juillet 2014 relative à l’état civil — NOR : JUSC1412888C : http://circulaire.legifrance.gouv.fr/pdf/2014/07/cir_38565.pdf
 * Normes techniques de l'INSEE : http://xml.insee.fr/schema/etat-civil/ ; ce texte spécifie notamment très clairement : "*Les caractères acceptés pour l’écriture du ou des prénom(s) sont : Pour la 1ère lettre : - les 26 lettres de l’alphabet utilisées dans la langue française en majuscules, - 15 lettres avec signes diacritiques en majuscules (À Â Ä Ç É È Ê Ë Î Ï Ô Ö Ù Û Ü), - 2 ligatures en majuscules (Æ Œ). Pour les suivantes : - les 26 lettres de l’alphabet utilisées dans la langue française en minuscules, - 15 lettres avec signes diacritiques en minuscules (à â ä ç é è ê ë î ï ô ö ù û ü), - 2 ligatures en minuscules (æ, œ) - l’apostrophe, le tiret sans espace avant et après (obligatoire pour les prénoms composés)*"
-
-## Outils
-
-* [![](https://scdl.opendatafrance.net/docs/assets/validata-logo-horizontal.png)](https://go.validata.fr/table-schema?schema_name=scdl.prenoms) [Valider un fichier avec Validata](https://go.validata.fr/table-schema?schema_name=scdl.prenoms)
-* [Créer un fichier avec CSV Good Generator](https://csv-gg.etalab.studio/?schema=scdl%2Fprenoms)
-
-## Voir aussi
-
-Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
-
-* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Prénoms)
-* ouvrir un ticket sur le [dépôt Gitlab d'openDataFrance](https://gitlab.com/opendatafrance/scdl/prenoms/issues/new)
