@@ -100,7 +100,7 @@ Dans le but de constituer un répertoire de référence des établissements rece
       * supprimer l’onglet ‘tuto’
       * puis “enregistrer sous”, choisir format csv (dans la fenêtre “jeu de caractères”, choisir Unicode UTF-8).
 Votre fichier est prêt à être déposé.
-3) Déposer le fichier sur : [https://publier.etalab.studio/select?schema=MTES-MCT%2Facceslibre-schema](https://publier.etalab.studio/select?schema=MTES-MCT%2Facceslibre-schema)
+3) Déposer le fichier sur : [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=MTES-MCT%2Facceslibre-schema)
 (création de compte obligatoire)
 4) Prévenir l’équipe acceslibre du dépôt du fichier en écrivant un mail à : [acceslibre@beta.gouv.fr](mailto:acceslibre@beta.gouv.fr)
 

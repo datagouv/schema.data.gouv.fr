@@ -45,8 +45,8 @@ Le Point d'accès national aux données de transport ([transport.data.gouv.fr](h
 
 ## Outils
 
-* [Validateur de fichiers CSV](https://publier.etalab.studio/select?schema=etalab%2Fschema-lieux-covoiturage)
-* [Formulaire de création de données valides](https://publier.etalab.studio/select?schema=etalab%2Fschema-lieux-covoiturage)
+* [Validateur de fichiers CSV](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-lieux-covoiturage)
+* [Formulaire de création de données valides](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-lieux-covoiturage)
 * [Télécharger un fichier gabarit au format CSV](https://github.com/etalab/schema-lieux-covoiturage/raw/master/exemple-valide.csv)
 
 ## En savoir plus

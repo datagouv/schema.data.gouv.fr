@@ -111,7 +111,7 @@ Voici les étapes à suivre en fonction du format choisi :
       * supprimer l’onglet ‘tuto’
       * puis “enregistrer sous”, choisir format csv (dans la fenêtre “jeu de caractères”, choisir Unicode UTF-8).
 Votre fichier est prêt à être déposé.
-3) Déposer le fichier sur : [https://publier.etalab.studio/select?schema=MTES-MCT%2Facceslibre-schema](https://publier.etalab.studio/select?schema=MTES-MCT%2Facceslibre-schema)
+3) Déposer le fichier sur : [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=MTES-MCT%2Facceslibre-erp-grand-etablissement)
 (création de compte obligatoire)
 4) Prévenir l’équipe acceslibre du dépôt du fichier en écrivant un mail à : [contact@acceslibre.beta.gouv.fr](mailto:contact@acceslibre.beta.gouv.fr)
 

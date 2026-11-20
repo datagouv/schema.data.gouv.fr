@@ -17,7 +17,7 @@ Les données collectées doivent respecter un formalisme particulier (schéma de
 
 Les données sont à remplir au format CSV, encodage UTF-8.
 
-Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l’utiliser, rendez-vous sur publier.etalab.studio, vous pourrez alors publier votre fichier à partir :
+Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l’utiliser, rendez-vous sur [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-sdirve), vous pourrez alors publier votre fichier à partir :
 - d’un fichier csv déjà existant. (vous pouvez partir de [ce fichier exemple](https://www.data.gouv.fr/fr/datasets/fichier-exemple-schema-directeur-des-infrastructures-de-recharges-pour-vehicules-electriques/)).
 - d’un formulaire
 - d’un tableur (encore en expérimentation)

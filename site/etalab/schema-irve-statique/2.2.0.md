@@ -26,7 +26,7 @@ Dans le but de constituer un répertoire national de données relatif à l’off
 
 Pour être guidé pas à pas, merci de vous rendre sur la [documentation officielle](https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve) de transport.data.gouv.fr, Point d'accès national aux données de transport.
 
-Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/select?schema=etalab%2Fschema-irve), vous pourrez alors publier votre fichier à partir : 
+Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-irve-statique), vous pourrez alors publier votre fichier à partir :
 - d'un fichier csv déjà existant. (vous pouvez partir de [ce fichier exemple](https://www.data.gouv.fr/fr/datasets/fichier-exemple-stations-de-recharge-de-vehicules-electriques/).
 - d'un formulaire
 - d'un tableur (encore en expérimentation)

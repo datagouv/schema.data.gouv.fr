@@ -49,7 +49,7 @@ Quelle est la fréquence de mise à jour des notes sur la plateforme ?
 
 ## Utilisation de notre outil d'aide à la saisie
 
-Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/select?schema=etalab%2Fschema-indice-reparabilite), vous pourrez alors publier votre fichier à partir : 
+Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-indice-reparabilite), vous pourrez alors publier votre fichier à partir :
 - d'un fichier csv déjà existant. (vous pouvez partir de [ce fichier exemple](https://github.com/etalab/schema-indice-reparabilite/blob/master/exemple-valide.csv)).
 - d'un formulaire
 - d'un tableur (encore en expérimentation)

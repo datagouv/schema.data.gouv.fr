@@ -17,7 +17,7 @@ De fait, la spécification SCDL du modèle de données relatif aux délibératio
 ## Outils
 
 * [Valider un fichier avec Validata](https://validata.fr)
-* [Télécharger un exemple au format CSV](https://publier.etalab.studio/select?schema=scdl%2Fdeliberations)
+* [Télécharger un exemple au format CSV](https://www.data.gouv.fr/admin/datasets/structured?schema=scdl%2Fdeliberations)
 
 ## Voir aussi
 

@@ -27,7 +27,7 @@ Les données sont à remplir au format CSV, encodage UTF-8.
 
 ## Utilisation de notre outil d'aide à la saisie
 
-Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format et sont correctement référencées sur data.gouv.fr. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/select?schema=etalab%2Fschema-vehicules-faibles-emissions-renouvellement-parc), vous pourrez alors publier votre fichier à partir : 
+Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format et sont correctement référencées sur data.gouv.fr. Pour l'utiliser, rendez-vous sur [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-vehicules-faibles-emissions-renouvellement-parc-synthese), vous pourrez alors publier votre fichier à partir :
 - d'un formulaire
 - d'un tableur
 - d'un fichier csv déjà existant
