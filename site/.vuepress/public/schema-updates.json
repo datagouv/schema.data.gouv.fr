@@ -1966,5 +1966,13 @@
                 "url": "https://github.com/datagouv/schema.data.gouv.fr/issues/360"
             }
         ]
+    },
+    "2026-11-20": {
+        "deleted_schema": [
+            {
+                "schema_name": "datatourisme/ontology",
+                "version": "3.2.2"
+            }
+        ]
     }
 }

@@ -96,7 +96,7 @@
     "nb_issues": 30,
     "references": {
         "etalab/schema-bal": {
-            "dgv_resources": 298,
+            "dgv_resources": 296,
             "title": "Base Adresse Locale (BAL)",
             "contributors": 6
         },
@@ -106,7 +106,7 @@
             "contributors": 8
         },
         "etalab/schema-irve-statique": {
-            "dgv_resources": 1231,
+            "dgv_resources": 1232,
             "title": "IRVE statique",
             "contributors": 10
         },
@@ -174,11 +174,6 @@
             "dgv_resources": 53,
             "title": "Subventions",
             "contributors": 11
-        },
-        "datatourisme/ontology": {
-            "dgv_resources": 6,
-            "title": "DATAtourisme",
-            "contributors": 10
         },
         "datagouv/schema-fontaine-eau": {
             "dgv_resources": 2,
@@ -366,7 +361,7 @@
             "contributors": 9
         },
         "etalab/schema-stationnement-cyclable": {
-            "dgv_resources": 24,
+            "dgv_resources": 23,
             "title": "Stationnement cyclable",
             "contributors": 5
         },
@@ -378,17 +373,17 @@
         "139bercy/format-commande-publique": {
             "dgv_resources": 221,
             "title": "Donn\u00e9es essentielles des march\u00e9s publics fran\u00e7ais",
-            "contributors": 8
+            "contributors": 2
         },
         "cnigfr/schema-plan-corps-rue-simplifie": {
             "dgv_resources": 0,
             "title": "Plan du corps de rue simplifi\u00e9 (PCRS)",
-            "contributors": 1
+            "contributors": 2
         },
         "LaMednum/standard-mediation-num": {
             "dgv_resources": 36,
             "title": "Lieux de m\u00e9diation num\u00e9rique",
-            "contributors": 7
+            "contributors": 2
         },
         "freddtce/ENS_AURA": {
             "dgv_resources": 0,
@@ -418,7 +413,7 @@
         "CEREMA/schema-arrete-circulation-marchandises": {
             "dgv_resources": 1,
             "title": "Arr\u00eat\u00e9s permanents de circulation pour le transport de marchandises",
-            "contributors": 2
+            "contributors": 4
         },
         "GouvernementFR/referentiel-donnees-communication-publique": {
             "dgv_resources": 0,
