@@ -84,6 +84,33 @@ def get_contributors(url):
         return None
 
 
+def replace_legacy_publisher_links(data, schema_name):
+    structured_url = (
+        'https://www.data.gouv.fr/admin/datasets/structured?schema='
+        + parse.quote(schema_name, safe='')
+    )
+    legacy_url = (
+        r'https://publier\.etalab\.studio'
+        r'(?:/fr)?(?:/select)?(?:\?schema=[^)\]\s]+)?'
+    )
+
+    data = re.sub(
+        r'\[(?:https://)?publier\.etalab\.studio[^\]]*\]\('
+        + legacy_url
+        + r'\)',
+        '[data.gouv.fr](' + structured_url + ')',
+        data,
+        flags=re.IGNORECASE
+    )
+    data = re.sub(legacy_url, structured_url, data, flags=re.IGNORECASE)
+    return re.sub(
+        r'publier\.etalab\.studio',
+        '[data.gouv.fr](' + structured_url + ')',
+        data,
+        flags=re.IGNORECASE
+    )
+
+
 allfiles = getListOfFiles('../aggregateur/data/')
 
 for af in allfiles:
@@ -97,6 +124,9 @@ for af in allfiles:
             data = file.read()
             data = '---'.join(data.split('---')[2:])
             data = "<MenuSchema />"+data
+            relative_path = os.path.relpath(af, '../aggregateur/data')
+            schema_name = '/'.join(relative_path.split(os.sep)[:2])
+            data = replace_legacy_publisher_links(data, schema_name)
             # Exception scdl Budget
             data = data.replace('<DocumentBudgetaire>', 'DocumentBudgetaire')
             if af.split('/')[-1] == 'documentation.md':

@@ -37,7 +37,7 @@ Les jeux de données seront publiés au format CSV UTF-8 avec séparateur virgul
 
 Pour être guidé pas à pas, merci de vous rendre sur la [documentation officielle de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/producteurs/comptage-des-mobilites), Point d'accès national aux données de transport.
 
-Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [https://publier.etalab.studio](https://publier.etalab.studio), vous pourrez alors publier votre fichier à partir d'un :
+Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [data.gouv.fr](https://www.data.gouv.fr/admin/datasets/structured?schema=etalab%2Fschema-comptage-mobilites), vous pourrez alors publier votre fichier à partir d'un :
 
 - CSV déjà existant ;
 - formulaire ;

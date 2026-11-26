@@ -18,7 +18,7 @@ S'appuyant sur ces travaux, de nombreuses collectivités françaises ont pu cons
 ## Outils
 
 * [Valider un fichier avec Validata](https://validata.fr/)
-* [Créer un fichier avec CSV pour le publier](https://publier.etalab.studio/fr/select?schema=scdl%2Fequipements)
+* [Créer un fichier avec CSV pour le publier](https://www.data.gouv.fr/admin/datasets/structured?schema=scdl%2Fequipements)
 
 ## Voir aussi
 
