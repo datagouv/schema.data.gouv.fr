@@ -7,7 +7,7 @@ Services de l’inclusion
 Services de l’inclusion
 
 - Site web : https://github.com/gip-inclusion/data-inclusion-schema
-- Version : 1.0.11
+- Version : 1.0.12
 
 ### Arborescence des propriétés :
 
